@@ -1,40 +1,31 @@
-name: Overnight Analysis
+name: Weekly Opportunities
 
 on:
   schedule:
-    - cron: "0 22 * * 1-5"   # 10pm ET Mon–Fri (market well closed, data settled)
-  workflow_dispatch:           # allow manual trigger anytime
+    - cron: "0 22 * * 0"     # 10pm ET Sunday
+  workflow_dispatch:
 
 jobs:
-  analyze:
+  weekly:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-
       - name: Install dependencies
         run: pip install -r requirements.txt
-
-      - name: Run overnight analysis
+      - name: Run weekly screener + opportunities
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           ETRADE_CONSUMER_KEY: ${{ secrets.ETRADE_CONSUMER_KEY }}
           ETRADE_CONSUMER_SECRET: ${{ secrets.ETRADE_CONSUMER_SECRET }}
           ETRADE_SANDBOX: ${{ secrets.ETRADE_SANDBOX }}
-          ALERT_EMAIL: ${{ secrets.ALERT_EMAIL }}
-          SMTP_HOST: ${{ secrets.SMTP_HOST }}
-          SMTP_PORT: ${{ secrets.SMTP_PORT }}
-          SMTP_USER: ${{ secrets.SMTP_USER }}
-          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
-        run: python scheduler.py
-
-      - name: Commit cached results
+        run: python scheduler.py weekly
+      - name: Commit results
         run: |
           git config user.name "stock-model-bot"
           git config user.email "bot@stock-model"
           git add data/
-          git diff --staged --quiet || git commit -m "chore: overnight analysis $(date +'%Y-%m-%d')"
+          git diff --staged --quiet || git commit -m "chore: weekly opportunities $(date +'%Y-%m-%d')"
           git push

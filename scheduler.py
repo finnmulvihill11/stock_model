@@ -1,7 +1,10 @@
 """
-Overnight scheduler — runs Mon–Fri after market close via GitHub Actions.
-Runs all analysis so the app is read-only in the morning.
+Scheduler — three cadences, all run via GitHub Actions:
+  run_nightly()  — Mon–Fri: swing holdings, plans, strategy, watchlist, digest
+  run_weekly()   — Sunday:  screener scrape + new opportunity analysis
+  run_monthly()  — 1st of month: full ETF universe + ETF plans
 """
+import sys
 import yaml
 from pathlib import Path
 from datetime import datetime
@@ -12,24 +15,23 @@ from src.fundamentals import check_fundamentals
 from src.earnings import earnings_gate
 from src.news import analyze_company
 from src.market_context import get_market_context
-from src.sizer import calculate_position_size
 from src.budget import size_swing_trade, get_etf_dca_schedule
 from src.alerts import send_daily_digest, send_strong_signal_alert
-from src.planner import generate_position_plan, generate_portfolio_strategy
-from src.etf_advisor import get_etf_universe, analyze_etf, generate_etf_plan
+from src.planner import generate_position_plan, generate_portfolio_strategy, generate_opportunity_plan
+from src.etf_advisor import get_etf_universe, analyze_etf, generate_etf_plan, find_new_etf_opportunities
 from src.screener import run_full_scrape, load_cache
 from src.watchlist import refresh_watchlist_signals, get_watchlist, auto_add_strong_signals
 from src.analysis_cache import (
     save_ticker_analysis, save_opportunity_plans,
     save_etf_universe_analysis, save_etf_opportunity_plans,
 )
-from src.planner import generate_opportunity_plan
+from src.market_context import get_relative_strength
 
 CONFIG = yaml.safe_load(open(Path(__file__).parent / "config.yaml"))
 TIER_ORDER = ["Strong Buy", "Buy", "Watch", "Hold", "Avoid", "Sell", "Strong Sell"]
 
 
-def _final_tier(tech_tier: str, fund_health: str, news_sentiment: str, gate_proceed: bool) -> str:
+def _final_tier(tech_tier, fund_health, news_sentiment, gate_proceed):
     if fund_health == "deteriorating" or news_sentiment == "negative" or not gate_proceed:
         return "Avoid" if tech_tier in ("Strong Buy", "Buy") else tech_tier
     elif fund_health == "healthy" and news_sentiment == "positive":
@@ -37,26 +39,18 @@ def _final_tier(tech_tier: str, fund_health: str, news_sentiment: str, gate_proc
     return tech_tier
 
 
-def run():
+def run_nightly():
+    """Mon–Fri: analyze swing holdings, generate plans, strategy, watchlist, email digest."""
     start = datetime.now()
-    print(f"=== Overnight analysis started {start.strftime('%Y-%m-%d %H:%M')} ===\n")
+    print(f"=== Nightly run started {start.strftime('%Y-%m-%d %H:%M')} ===\n")
 
     portfolio = get_portfolio()
     market = get_market_context()
-    total_value = portfolio["total_value"]
-
-    # ── 1. Full screener scrape ───────────────────────────────────────────────
-    print("[ 1/8 ] Running full screener scrape...")
-    try:
-        run_full_scrape(verbose=True)
-    except Exception as e:
-        print(f"  Screener failed: {e}")
-
-    # ── 2. Analyze all holdings ───────────────────────────────────────────────
-    print("\n[ 2/8 ] Analyzing holdings...")
     signals = []
     position_plans = []
 
+    # ── Analyze all holdings ──────────────────────────────────────────────────
+    print("[ 1/4 ] Analyzing holdings...")
     for holding in portfolio["holdings"]:
         ticker = holding["ticker"]
         is_dca = holding.get("dca", False)
@@ -68,7 +62,6 @@ def run():
             news_result = analyze_company(ticker)
             rs_data = {}
             try:
-                from src.market_context import get_relative_strength
                 rs_data = get_relative_strength(ticker)
             except Exception:
                 pass
@@ -77,40 +70,26 @@ def run():
             sig["final_tier"] = tier
 
             if not is_dca:
-                sizing = size_swing_trade(ticker, sig["price"], sig.get("atr") or 1)
-                sig["sizing"] = {"suggested_shares": sizing["shares"], "suggested_dollars": sizing["amount"], "note": sizing.get("note", "")}
+                sz = size_swing_trade(ticker, sig["price"], sig.get("atr") or 1)
+                sig["sizing"] = {"suggested_shares": sz["shares"], "suggested_dollars": sz["amount"], "note": sz.get("note", "")}
             else:
                 sched = get_etf_dca_schedule(sig["price"])
                 sig["sizing"] = {"suggested_shares": sched["shares"], "suggested_dollars": sched["amount"], "note": sched["label"]}
 
-            analysis = {
-                "ticker": ticker,
-                "signal": sig,
-                "fundamentals": fund,
-                "earnings": gate,
-                "news": news_result,
-                "relative_strength": rs_data,
-                "final_tier": tier,
-                "sizing": sig["sizing"],
-                "is_dca": is_dca,
-            }
-            save_ticker_analysis(ticker, analysis)
+            save_ticker_analysis(ticker, {
+                "ticker": ticker, "signal": sig, "fundamentals": fund,
+                "earnings": gate, "news": news_result, "relative_strength": rs_data,
+                "final_tier": tier, "sizing": sig["sizing"], "is_dca": is_dca,
+            })
             signals.append(sig)
 
             if not is_dca:
                 plan = generate_position_plan(
-                    holding=holding,
-                    signal=sig,
-                    fundamentals=fund,
-                    news=news_result,
-                    earnings=gate,
-                    market_context=market,
-                    final_tier=tier,
+                    holding=holding, signal=sig, fundamentals=fund,
+                    news=news_result, earnings=gate, market_context=market, final_tier=tier,
                 )
-                plan["final_tier"] = tier
-                plan["pnl_pct"] = holding["unrealized_pnl_pct"]
-                plan["current_price"] = holding["current_price"]
-                plan["portfolio_pct"] = holding.get("portfolio_pct", 0)
+                plan.update({"final_tier": tier, "pnl_pct": holding["unrealized_pnl_pct"],
+                              "current_price": holding["current_price"], "portfolio_pct": holding.get("portfolio_pct", 0)})
                 position_plans.append(plan)
 
             if tier in ("Strong Buy", "Strong Sell"):
@@ -120,129 +99,24 @@ def run():
         except Exception as e:
             print(f"  {ticker} failed: {e}")
 
-    # ── 3. ETF plans ──────────────────────────────────────────────────────────
-    print("\n[ 3/8 ] Generating ETF plans...")
-    universe = get_etf_universe()
-    dca_holdings = {h["ticker"]: h for h in portfolio["holdings"] if h.get("dca")}
-
-    for ticker, holding in dca_holdings.items():
-        print(f"  {ticker}...")
-        try:
-            meta = next((e for e in universe if e["ticker"] == ticker), {"name": ticker, "category": "ETF", "expense_ratio": 0})
-            etf_analysis = analyze_etf(ticker, meta.get("expense_ratio", 0))
-            generate_etf_plan(
-                ticker=ticker,
-                name=meta.get("name", ticker),
-                category=meta.get("category", "ETF"),
-                analysis=etf_analysis,
-                market_context=market,
-                is_held=True,
-                holding=holding,
-            )
-        except Exception as e:
-            print(f"  {ticker} ETF plan failed: {e}")
-
-    # ── 4. Top opportunities from screener ────────────────────────────────────
-    print("\n[ 4/8 ] Analyzing top opportunities...")
-    portfolio_tickers = {h["ticker"] for h in portfolio["holdings"]}
-    cache = load_cache()
-    candidates = [r for r in cache.get("results", []) if r["ticker"] not in portfolio_tickers]
-    top_candidates = candidates[:5]
-
-    opp_plans = []
-    for candidate in top_candidates:
-        ticker = candidate["ticker"]
-        print(f"  {ticker}...")
-        try:
-            fund = check_fundamentals(ticker)
-            news_result = analyze_company(ticker)
-            tier = _final_tier(candidate["tier"], fund["health"], news_result.get("sentiment", "neutral"), True)
-            sizing = size_swing_trade(ticker, candidate["price"], candidate.get("atr") or 1)
-            sized = {"suggested_dollars": sizing["amount"], "suggested_shares": sizing["shares"]}
-            plan = generate_opportunity_plan(
-                ticker=ticker,
-                signal=candidate,
-                fundamentals=fund,
-                news=news_result,
-                market_context=market,
-                final_tier=tier,
-                portfolio_value=total_value,
-                sizing=sized,
-            )
-            plan["final_tier"] = tier
-            opp_plans.append(plan)
-        except Exception as e:
-            print(f"  {ticker} opportunity failed: {e}")
-
-    save_opportunity_plans(opp_plans)
-    print(f"  Saved {len(opp_plans)} opportunity plans")
-
-    # ── 5. Full ETF universe analysis ────────────────────────────────────────
-    print("\n[ 5/8 ] Analyzing full ETF universe...")
-    etf_universe_results = []
-    for etf in universe:
-        ticker = etf["ticker"]
-        print(f"  {ticker}...")
-        try:
-            etf_analysis = analyze_etf(ticker, etf.get("expense_ratio", 0))
-            etf_analysis["name"] = etf["name"]
-            etf_analysis["category"] = etf["category"]
-            etf_analysis["held"] = ticker in dca_holdings
-            etf_universe_results.append(etf_analysis)
-        except Exception as e:
-            print(f"  {ticker} failed: {e}")
-    save_etf_universe_analysis(etf_universe_results)
-    print(f"  Saved {len(etf_universe_results)} ETF analyses")
-
-    # ── 5b. New ETF opportunities ─────────────────────────────────────────────
-    print("\n  Generating new ETF opportunity plans...")
-    from src.etf_advisor import find_new_etf_opportunities
-    new_etfs = find_new_etf_opportunities(list(dca_holdings.keys()))
-    etf_opp_plans = []
-    for etf in new_etfs:
-        ticker = etf["ticker"]
-        print(f"  {ticker}...")
-        try:
-            etf_a = next((r for r in etf_universe_results if r["ticker"] == ticker), None)
-            if not etf_a:
-                etf_a = analyze_etf(ticker, etf.get("expense_ratio", 0))
-            plan = generate_etf_plan(
-                ticker=ticker,
-                name=etf["name"],
-                category=etf["category"],
-                analysis=etf_a,
-                market_context=market,
-                is_held=False,
-            )
-            plan["analysis"] = etf_a
-            etf_opp_plans.append(plan)
-        except Exception as e:
-            print(f"  {ticker} ETF opp failed: {e}")
-    etf_opp_plans.sort(key=lambda x: (0 if x.get("worth_adding") else 1))
-    save_etf_opportunity_plans(etf_opp_plans)
-    print(f"  Saved {len(etf_opp_plans)} ETF opportunity plans")
-
-    # ── 6. Watchlist refresh ──────────────────────────────────────────────────
-    print("\n[ 6/8 ] Refreshing watchlist...")
+    # ── Watchlist refresh ─────────────────────────────────────────────────────
+    print("\n[ 2/4 ] Refreshing watchlist...")
     try:
         refresh_watchlist_signals()
-        screener_results = cache.get("results", [])
-        auto_add_strong_signals(
-            [r for r in screener_results if r["ticker"] not in portfolio_tickers],
-            {r["ticker"] for r in screener_results if r.get("tier") in ("Strong Buy", "Buy")}
-        )
     except Exception as e:
-        print(f"  Watchlist refresh failed: {e}")
+        print(f"  Watchlist failed: {e}")
 
-    # ── 6. Portfolio strategy ─────────────────────────────────────────────────
-    print("\n[ 7/8 ] Generating portfolio strategy...")
+    # ── Portfolio strategy ────────────────────────────────────────────────────
+    print("\n[ 3/4 ] Generating portfolio strategy...")
+    opp_cache = load_cache()
+    opp_plans = []
     try:
         generate_portfolio_strategy(portfolio, position_plans, market, opp_plans, get_watchlist())
     except Exception as e:
         print(f"  Strategy failed: {e}")
 
-    # ── 7. Daily digest email ─────────────────────────────────────────────────
-    print("\n[ 8/8 ] Sending daily digest...")
+    # ── Daily digest email ────────────────────────────────────────────────────
+    print("\n[ 4/4 ] Sending daily digest...")
     signals.sort(key=lambda x: TIER_ORDER.index(x.get("final_tier", "Hold")) if x.get("final_tier") in TIER_ORDER else 99)
     try:
         send_daily_digest(signals, portfolio, market)
@@ -250,8 +124,136 @@ def run():
         print(f"  Digest failed: {e}")
 
     elapsed = (datetime.now() - start).total_seconds()
-    print(f"\n=== Overnight analysis complete in {elapsed:.0f}s ===")
+    print(f"\n=== Nightly run complete in {elapsed:.0f}s ===")
+
+
+def run_weekly():
+    """Sunday: full screener scrape + analyze top new opportunities."""
+    start = datetime.now()
+    print(f"=== Weekly run started {start.strftime('%Y-%m-%d %H:%M')} ===\n")
+
+    portfolio = get_portfolio()
+    market = get_market_context()
+    total_value = portfolio["total_value"]
+    portfolio_tickers = {h["ticker"] for h in portfolio["holdings"]}
+
+    # ── Full screener scrape ──────────────────────────────────────────────────
+    print("[ 1/2 ] Running full screener scrape...")
+    try:
+        run_full_scrape(verbose=True)
+    except Exception as e:
+        print(f"  Screener failed: {e}")
+
+    # ── Analyze top opportunities ─────────────────────────────────────────────
+    print("\n[ 2/2 ] Analyzing top opportunities...")
+    cache = load_cache()
+    candidates = [r for r in cache.get("results", []) if r["ticker"] not in portfolio_tickers][:5]
+    opp_plans = []
+
+    for candidate in candidates:
+        ticker = candidate["ticker"]
+        print(f"  {ticker}...")
+        try:
+            fund = check_fundamentals(ticker)
+            news_result = analyze_company(ticker)
+            tier = _final_tier(candidate["tier"], fund["health"], news_result.get("sentiment", "neutral"), True)
+            sz = size_swing_trade(ticker, candidate["price"], candidate.get("atr") or 1)
+            plan = generate_opportunity_plan(
+                ticker=ticker, signal=candidate, fundamentals=fund, news=news_result,
+                market_context=market, final_tier=tier, portfolio_value=total_value,
+                sizing={"suggested_dollars": sz["amount"], "suggested_shares": sz["shares"]},
+            )
+            plan["final_tier"] = tier
+            opp_plans.append(plan)
+        except Exception as e:
+            print(f"  {ticker} failed: {e}")
+
+    save_opportunity_plans(opp_plans)
+
+    # Auto-add strong signals to watchlist
+    try:
+        screener_results = cache.get("results", [])
+        auto_add_strong_signals(
+            [r for r in screener_results if r["ticker"] not in portfolio_tickers],
+            {r["ticker"] for r in screener_results if r.get("tier") in ("Strong Buy", "Buy")}
+        )
+    except Exception as e:
+        print(f"  Watchlist auto-add failed: {e}")
+
+    elapsed = (datetime.now() - start).total_seconds()
+    print(f"\n=== Weekly run complete in {elapsed:.0f}s ===")
+
+
+def run_monthly():
+    """1st of month: full ETF universe analysis + ETF opportunity plans."""
+    start = datetime.now()
+    print(f"=== Monthly ETF run started {start.strftime('%Y-%m-%d %H:%M')} ===\n")
+
+    portfolio = get_portfolio()
+    market = get_market_context()
+    universe = get_etf_universe()
+    dca_holdings = {h["ticker"]: h for h in portfolio["holdings"] if h.get("dca")}
+
+    # ── Held ETF plans ────────────────────────────────────────────────────────
+    print("[ 1/3 ] Generating held ETF plans...")
+    for ticker, holding in dca_holdings.items():
+        print(f"  {ticker}...")
+        try:
+            meta = next((e for e in universe if e["ticker"] == ticker), {"name": ticker, "category": "ETF", "expense_ratio": 0})
+            etf_analysis = analyze_etf(ticker, meta.get("expense_ratio", 0))
+            generate_etf_plan(
+                ticker=ticker, name=meta.get("name", ticker), category=meta.get("category", "ETF"),
+                analysis=etf_analysis, market_context=market, is_held=True, holding=holding,
+            )
+        except Exception as e:
+            print(f"  {ticker} failed: {e}")
+
+    # ── Full ETF universe ─────────────────────────────────────────────────────
+    print("\n[ 2/3 ] Analyzing full ETF universe...")
+    etf_universe_results = []
+    for etf in universe:
+        ticker = etf["ticker"]
+        print(f"  {ticker}...")
+        try:
+            analysis = analyze_etf(ticker, etf.get("expense_ratio", 0))
+            analysis.update({"name": etf["name"], "category": etf["category"], "held": ticker in dca_holdings})
+            etf_universe_results.append(analysis)
+        except Exception as e:
+            print(f"  {ticker} failed: {e}")
+    save_etf_universe_analysis(etf_universe_results)
+
+    # ── New ETF opportunities ─────────────────────────────────────────────────
+    print("\n[ 3/3 ] Generating new ETF opportunity plans...")
+    new_etfs = find_new_etf_opportunities(list(dca_holdings.keys()))
+    etf_opp_plans = []
+    for etf in new_etfs:
+        ticker = etf["ticker"]
+        print(f"  {ticker}...")
+        try:
+            etf_a = next((r for r in etf_universe_results if r["ticker"] == ticker), None) or analyze_etf(ticker, etf.get("expense_ratio", 0))
+            plan = generate_etf_plan(
+                ticker=ticker, name=etf["name"], category=etf["category"],
+                analysis=etf_a, market_context=market, is_held=False,
+            )
+            plan["analysis"] = etf_a
+            etf_opp_plans.append(plan)
+        except Exception as e:
+            print(f"  {ticker} failed: {e}")
+
+    etf_opp_plans.sort(key=lambda x: 0 if x.get("worth_adding") else 1)
+    save_etf_opportunity_plans(etf_opp_plans)
+
+    elapsed = (datetime.now() - start).total_seconds()
+    print(f"\n=== Monthly ETF run complete in {elapsed:.0f}s ===")
 
 
 if __name__ == "__main__":
-    run()
+    mode = sys.argv[1] if len(sys.argv) > 1 else "nightly"
+    if mode == "nightly":
+        run_nightly()
+    elif mode == "weekly":
+        run_weekly()
+    elif mode == "monthly":
+        run_monthly()
+    else:
+        print(f"Unknown mode: {mode}. Use: nightly | weekly | monthly")
