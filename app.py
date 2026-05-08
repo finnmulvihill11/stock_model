@@ -358,20 +358,44 @@ elif page == "Ticker Detail":
         # Two-pillar breakdown
         col1, col2 = st.columns(2)
         with col1:
-            st.subheader("Technical Pillar")
-            st.markdown(f"**Score:** {sig['buy_score'] if sig['direction']=='buy' else sig['sell_score']:.0%}")
+            # Technical verdict badge
+            tech_direction = sig.get("direction", "buy")
+            tech_score = sig["buy_score"] if tech_direction == "buy" else sig["sell_score"]
+            tech_tier = sig.get("tier", "Hold")
+            tech_color = TIER_COLORS.get(tech_tier, "#6b7280")
+            st.markdown(
+                f"**Technical Pillar** &nbsp; "
+                f"<span style='background:{tech_color};color:white;padding:3px 12px;"
+                f"border-radius:8px;font-weight:bold'>{tech_tier.upper()}</span> "
+                f"<span style='color:#94a3b8;font-size:13px'>{tech_score:.0%} conditions met</span>",
+                unsafe_allow_html=True
+            )
+            st.markdown("---")
             for r in sig.get("reasons", []):
                 st.success(f"✓ {r}")
             for m in sig.get("misses", [])[:4]:
                 st.error(f"✗ {m}")
 
         with col2:
-            st.subheader("Fundamental & News Pillar")
-            health_color = {"healthy": "🟢", "neutral": "🟡", "deteriorating": "🔴"}
-            sentiment_color = {"positive": "🟢", "neutral": "🟡", "negative": "🔴"}
-            st.markdown(f"**Company Health:** {health_color.get(fund['health'], '⚪')} {fund['health'].title()}")
-            st.markdown(f"**News Sentiment:** {sentiment_color.get(news['sentiment'], '⚪')} {news['sentiment'].title()}")
-            st.markdown(f"**Relative Strength (3m):** {rs.get('label', 'N/A').title()} ({rs.get('relative_strength', 'N/A')}%)")
+            # Fundamental/news verdict badge
+            fund_health = fund.get("health", "neutral")
+            news_sentiment = news.get("sentiment", "neutral")
+            fund_colors = {"healthy": "#16a34a", "neutral": "#6b7280", "deteriorating": "#b91c1c"}
+            sent_colors = {"positive": "#16a34a", "neutral": "#6b7280", "negative": "#b91c1c"}
+            fund_color = fund_colors.get(fund_health, "#6b7280")
+            sent_color = sent_colors.get(news_sentiment, "#6b7280")
+            st.markdown(
+                f"**Fundamental & News Pillar** &nbsp; "
+                f"<span style='background:{fund_color};color:white;padding:3px 12px;"
+                f"border-radius:8px;font-weight:bold'>{fund_health.upper()}</span> &nbsp;"
+                f"<span style='background:{sent_color};color:white;padding:3px 12px;"
+                f"border-radius:8px;font-weight:bold'>{news_sentiment.upper()} NEWS</span>",
+                unsafe_allow_html=True
+            )
+            st.markdown("---")
+            rs_label = rs.get("label", "N/A").title()
+            rs_val = rs.get("relative_strength", "N/A")
+            st.markdown(f"**Relative Strength (3m):** {rs_label} ({rs_val}%)")
             if earnings["verdict"]["earnings_status"] == "imminent":
                 st.warning(f"⚠ Earnings in {earnings['verdict']['days_to_earnings']} days")
             st.info(f"**Claude verdict:** {news.get('verdict', '')}")
