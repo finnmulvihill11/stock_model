@@ -2,28 +2,29 @@
   "ticker": "VXUS",
   "signal": {
     "ticker": "VXUS",
-    "direction": "sell",
+    "direction": "buy",
     "tier": "Watch",
     "buy_score": 0.5,
-    "sell_score": 0.57,
+    "sell_score": 0.43,
     "reasons": [
-      "BB: price near upper band (pct=0.87)",
-      "BB Width: squeeze/contraction after expansion",
-      "MACD: histogram at peak / turning down",
-      "Volume: above average on sell (1.82x) \u2014 confirms distribution"
+      "BB Width: squeeze active (width=0.0557)",
+      "200MA: price at/above 200MA (85.43 vs 75.53)",
+      "Golden cross: 50MA (80.07) above 200MA (75.53)",
+      "Volume: above average (1.09x)"
     ],
     "misses": [
-      "RSI: not in sell zone (51.9, need 70-80)",
-      "RSI Divergence: no bearish divergence detected",
-      "Golden cross still active: 50MA above 200MA"
+      "BB: price not near lower band (pct=1.04)",
+      "RSI: not in buy zone (57.1, need 20-30)",
+      "MACD: no bullish crossover or valley",
+      "RSI Divergence: no bullish divergence detected"
     ],
-    "price": 84.25,
-    "rsi": 51.9,
-    "atr": 1.23,
+    "price": 85.43,
+    "rsi": 57.1,
+    "atr": 1.26,
     "final_tier": "Watch",
     "sizing": {
       "suggested_shares": 1,
-      "suggested_dollars": 84.25,
+      "suggested_dollars": 85.43,
       "note": "1 share every month"
     }
   },
@@ -58,33 +59,33 @@
     "health": "neutral",
     "key_events": [
       "No recent news headlines available for analysis",
-      "Fund continues to track FTSE Global All Cap ex US Index with broad international diversification across developed and emerging markets"
+      "Fund continues to passively track FTSE Global All Cap ex US Index with broad developed and emerging market exposure"
     ],
-    "macro_context": "International equities face headwinds from a strong US dollar, geopolitical tensions (Russia-Ukraine, Taiwan Strait), and slowing growth in China and Europe, though emerging market valuations remain relatively attractive versus US equities.",
-    "competitive_notes": "VXUS is a low-cost Vanguard index ETF with a very tight expense ratio (~0.07%), making it highly competitive against peers like IXUS and VEU for broad international exposure.",
+    "macro_context": "International equities face headwinds from USD strength, geopolitical tensions (China-Taiwan, Russia-Ukraine), and divergent central bank policies, but trade at historically low valuations relative to US equities, offering potential mean-reversion upside for patient investors.",
+    "competitive_notes": "VXUS is a dominant low-cost international index ETF (expense ratio ~0.07%) with deep liquidity and Vanguard's structural ownership advantage, facing minimal competitive threat from peers like IXUS or VEU.",
     "red_flags": [
-      "Significant China/emerging market concentration introduces geopolitical and regulatory risk",
-      "Currency risk from USD strength can suppress returns for US-based investors",
-      "Prolonged underperformance vs US equities may reduce investor appetite for international allocation",
-      "No recent news available, limiting ability to assess current fund-specific developments"
+      "Significant China exposure (~25% of EM allocation) introduces geopolitical and regulatory risk",
+      "Currency risk from non-USD holdings can erode returns for USD-based investors during dollar strength cycles",
+      "Emerging market volatility and governance risks embedded in the broad index",
+      "No active management to reduce downside during regional crises"
     ],
-    "verdict": "VXUS is a structurally sound, ultra-low-cost vehicle for international diversification and suits mid-to-long-term investors seeking non-US equity exposure, but near-term macro headwinds and USD strength warrant a patient, dollar-cost-averaging approach rather than a large lump-sum entry.",
+    "verdict": "VXUS is a solid, low-cost core holding for international diversification, best suited for mid-to-long-term investors seeking broad non-US equity exposure at minimal cost, though returns will depend heavily on USD trends and geopolitical stability in key markets like China and Europe.",
     "confidence": "low",
     "ticker": "VXUS"
   },
   "relative_strength": {
     "ticker": "VXUS",
-    "stock_return_3m": 6.37,
-    "benchmark_return_3m": 8.26,
-    "relative_strength": -1.89,
+    "stock_return_3m": 5.51,
+    "benchmark_return_3m": 7.1,
+    "relative_strength": -1.58,
     "label": "in-line"
   },
   "final_tier": "Watch",
   "sizing": {
     "suggested_shares": 1,
-    "suggested_dollars": 84.25,
+    "suggested_dollars": 85.43,
     "note": "1 share every month"
   },
   "is_dca": true,
-  "saved_at": "2026-05-08T05:02:30.871026"
+  "saved_at": "2026-05-08T22:56:14.024185"
 }

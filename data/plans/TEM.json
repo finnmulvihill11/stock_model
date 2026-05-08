@@ -1,21 +1,38 @@
 {
   "current": {
-    "action": "Wait",
-    "action_reason": "You're already down 28% and none of your entry confirmation signals are firing \u2014 no BB lower band touch, no RSI in buy zone, no MACD bullish crossover. Don't average down into a deteriorating setup; wait for your system to confirm a true mean-reversion inflection before committing more capital.",
+    "action": "Hold",
+    "action_reason": "You're already down 28% and earnings just passed, so panic-selling here locks in a steep loss without confirmation of further breakdown. However, too many signals are missing \u2014 price isn't near the lower BB, RSI hasn't hit the buy zone, and you're trading below the 200MA \u2014 to justify adding more right now.",
     "target_price": 58.5,
-    "target_reasoning": "A recovery toward the ~$58-59 zone represents a realistic mean-reversion target near the 20-day moving average midpoint and would bring RSI back toward the 50-55 neutral zone \u2014 a logical area to reassess or begin trimming. Full recovery to cost basis ($69) is a secondary target but requires fundamental improvement and is not a swing trade objective.",
-    "exit_trigger": "Exit immediately if price closes below $44 on elevated volume (new breakdown), OR if RSI drops below 25 without a corresponding BB lower band touch (momentum collapse with no technical floor). Also exit if debt situation worsens materially or cash burn accelerates in next earnings report.",
-    "add_trigger": "Only add if ALL three conditions align simultaneously: RSI reaches 25-30, price touches or pierces the lower Bollinger Band (BB pct < 0.05), AND a MACD bullish crossover or valley forms on the daily chart \u2014 ideally with a volume spike confirming capitulation. Do not add on price alone.",
-    "risk": "This is a pre-revenue-path, high-debt AI company in a Fear market environment \u2014 it does not behave like a classic mean-reversion candidate. The stock could continue drifting lower for weeks without a catalyst, and your swing signals may never fully align before further downside. Averaging down here without signal confirmation risks turning a 4% portfolio weight into a concentrated loss.",
+    "target_reasoning": "A mean-reversion bounce toward the mid-BB (~$58-60 range) is a realistic near-term target if RSI stabilizes and the BB squeeze resolves to the upside. This also represents roughly a 17% recovery from current price, consistent with a squeeze-driven momentum burst. It stops short of the 200MA overhead resistance, making it a credible and conservative swing target.",
+    "exit_trigger": "Exit immediately if price closes below $44 on elevated volume (new breakdown signal), or if RSI drops below 25 without a corresponding bullish divergence \u2014 both indicate momentum deterioration, not a buyable dip. Also exit if fundamentals worsen materially (e.g., debt raise, guidance cut).",
+    "add_trigger": "Only add if RSI drops into the 22-28 range AND price touches or breaches the lower Bollinger Band AND a bullish MACD crossover or valley forms \u2014 all three must align. Do not chase a single signal given the 200MA headwind and deteriorating fundamentals.",
+    "risk": "The primary risk is a 'falling knife' continuation \u2014 TEM is unprofitable, carries 3.2x debt-to-equity, negative operating cash flow, and trades well below its 200MA. The BB squeeze could resolve to the downside, especially in a Fear-driven market sentiment environment. Post-IPO volatility is not yet stabilized.",
     "outlook": "cautious",
-    "timeframe": "4-8 weeks minimum \u2014 wait for technical setup to mature; no forced action until signals confirm",
+    "timeframe": "4-8 weeks \u2014 wait for BB squeeze resolution and RSI to either confirm a buy zone entry or signal further downside before taking any new action",
     "ticker": "TEM",
     "company_name": "Tempus AI, Inc.",
-    "generated_at": "2026-05-08T05:02:22.351571",
-    "price_at_generation": 49.47,
-    "pnl_at_generation": -28.39
+    "generated_at": "2026-05-08T22:56:04.414131",
+    "price_at_generation": 49.86,
+    "pnl_at_generation": -27.82
   },
   "history": [
+    {
+      "action": "Wait",
+      "action_reason": "You're already down 28% and none of your entry confirmation signals are firing \u2014 no BB lower band touch, no RSI in buy zone, no MACD bullish crossover. Don't average down into a deteriorating setup; wait for your system to confirm a true mean-reversion inflection before committing more capital.",
+      "target_price": 58.5,
+      "target_reasoning": "A recovery toward the ~$58-59 zone represents a realistic mean-reversion target near the 20-day moving average midpoint and would bring RSI back toward the 50-55 neutral zone \u2014 a logical area to reassess or begin trimming. Full recovery to cost basis ($69) is a secondary target but requires fundamental improvement and is not a swing trade objective.",
+      "exit_trigger": "Exit immediately if price closes below $44 on elevated volume (new breakdown), OR if RSI drops below 25 without a corresponding BB lower band touch (momentum collapse with no technical floor). Also exit if debt situation worsens materially or cash burn accelerates in next earnings report.",
+      "add_trigger": "Only add if ALL three conditions align simultaneously: RSI reaches 25-30, price touches or pierces the lower Bollinger Band (BB pct < 0.05), AND a MACD bullish crossover or valley forms on the daily chart \u2014 ideally with a volume spike confirming capitulation. Do not add on price alone.",
+      "risk": "This is a pre-revenue-path, high-debt AI company in a Fear market environment \u2014 it does not behave like a classic mean-reversion candidate. The stock could continue drifting lower for weeks without a catalyst, and your swing signals may never fully align before further downside. Averaging down here without signal confirmation risks turning a 4% portfolio weight into a concentrated loss.",
+      "outlook": "cautious",
+      "timeframe": "4-8 weeks minimum \u2014 wait for technical setup to mature; no forced action until signals confirm",
+      "ticker": "TEM",
+      "company_name": "Tempus AI, Inc.",
+      "generated_at": "2026-05-08T05:02:22.351571",
+      "price_at_generation": 49.47,
+      "pnl_at_generation": -28.39,
+      "archived_at": "2026-05-08T22:56:04.414316"
+    },
     {
       "action": "Wait",
       "action_reason": "You're already down 28% and none of your entry criteria are confirmed \u2014 RSI hasn't reached the 20-30 buy zone, there's no MACD bullish crossover, and price isn't near the lower Bollinger Band. Adding here would be catching a falling knife without a signal; holding the existing 3 shares is acceptable but do not average down yet.",

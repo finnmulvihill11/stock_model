@@ -1,21 +1,38 @@
 {
   "current": {
     "action": "Hold",
-    "action_reason": "You're sitting on a +5.72% gain with RSI at 34.8 \u2014 just outside your buy zone and not yet oversold enough to add confidently. The BB squeeze and bullish RSI divergence (higher low at 27.1 vs 25.6 while price made a lower low) suggest a potential mean-reversion bounce is forming, but the death cross and price below the 200MA demand patience before committing more capital.",
-    "target_price": 36.5,
-    "target_reasoning": "The 50MA at $34.02 acts as the first resistance ceiling \u2014 a clean break above that would target the 200MA at $37.54. A realistic swing target of $36.50 sits just below the 200MA, where price is likely to stall and RSI would approach the 65-70 range, aligning with your sell discipline.",
-    "exit_trigger": "Exit if RSI reaches 70-75 OR price tags the upper Bollinger Band near the 200MA zone (~$37.50). Also cut the position if price breaks decisively below $30.50 (prior RSI divergence low), confirming the falling knife thesis.",
-    "add_trigger": "Add 2-4 shares only if RSI pulls back into the 20-28 zone with price retesting the $30.50-$31.00 range AND volume spikes above 1.5x average \u2014 confirming capitulation, not continuation. Do not add into the current drift without that confirmation.",
-    "risk": "Death cross is active (50MA at $34.02 below 200MA at $37.54) and price remains below both moving averages \u2014 this is the primary falling knife risk. A broader market selloff or a negative post-earnings revision cycle could invalidate the divergence signal entirely and push CMG toward the $28-$29 range.",
+    "action_reason": "You're already in a small, profitable position with a promising RSI divergence and MACD turning up, but the death cross, price below 200MA, and low volume mean the setup lacks confirmation \u2014 hold your current 4 shares but do not add until the trend shows clearer reversal signals.",
+    "target_price": 35.5,
+    "target_reasoning": "The 50MA sits at $33.91 and will act as first resistance \u2014 a clean break above that level opens a path toward $35.50, which aligns with the pre-squeeze consolidation zone and a realistic upper Bollinger Band target if the current BB squeeze resolves to the upside. That represents roughly a 9% move from current price, consistent with a swing trade payoff.",
+    "exit_trigger": "Exit immediately if price closes below $30.50 on above-average volume (confirming the lower low and invalidating the RSI divergence thesis), or if RSI breaks back below 25 without a price recovery \u2014 that signals the divergence failed and a falling knife scenario is unfolding.",
+    "add_trigger": "Add up to 4 more shares only if RSI pulls back into the 22\u201328 zone AND price holds above $30.86 (the prior low) AND volume spikes above 1.2x average \u2014 that combination would confirm a higher-low structure with real buying interest and make the mean-reversion entry much cleaner.",
+    "risk": "The death cross (50MA below 200MA at $37.44) is the dominant risk \u2014 this is a macro downtrend, and the RSI divergence could easily fail in a weak tape. A broader market sell-off (VIX spike) or negative sector news could accelerate the slide below $30, turning this into a falling knife with no technical floor nearby.",
     "outlook": "cautious",
-    "timeframe": "3-6 weeks",
+    "timeframe": "3\u20136 weeks \u2014 the BB squeeze will likely resolve within 2 weeks, setting the directional move; if it breaks upward, target $35.50 within 4\u20136 weeks. If it breaks down, the exit trigger should fire quickly and cut the position before significant damage.",
     "ticker": "CMG",
     "company_name": "Chipotle Mexican Grill, Inc.",
-    "generated_at": "2026-05-08T05:02:49.994857",
-    "price_at_generation": 33.27,
-    "pnl_at_generation": 5.72
+    "generated_at": "2026-05-08T22:56:39.828518",
+    "price_at_generation": 32.49,
+    "pnl_at_generation": 3.24
   },
   "history": [
+    {
+      "action": "Hold",
+      "action_reason": "You're sitting on a +5.72% gain with RSI at 34.8 \u2014 just outside your buy zone and not yet oversold enough to add confidently. The BB squeeze and bullish RSI divergence (higher low at 27.1 vs 25.6 while price made a lower low) suggest a potential mean-reversion bounce is forming, but the death cross and price below the 200MA demand patience before committing more capital.",
+      "target_price": 36.5,
+      "target_reasoning": "The 50MA at $34.02 acts as the first resistance ceiling \u2014 a clean break above that would target the 200MA at $37.54. A realistic swing target of $36.50 sits just below the 200MA, where price is likely to stall and RSI would approach the 65-70 range, aligning with your sell discipline.",
+      "exit_trigger": "Exit if RSI reaches 70-75 OR price tags the upper Bollinger Band near the 200MA zone (~$37.50). Also cut the position if price breaks decisively below $30.50 (prior RSI divergence low), confirming the falling knife thesis.",
+      "add_trigger": "Add 2-4 shares only if RSI pulls back into the 20-28 zone with price retesting the $30.50-$31.00 range AND volume spikes above 1.5x average \u2014 confirming capitulation, not continuation. Do not add into the current drift without that confirmation.",
+      "risk": "Death cross is active (50MA at $34.02 below 200MA at $37.54) and price remains below both moving averages \u2014 this is the primary falling knife risk. A broader market selloff or a negative post-earnings revision cycle could invalidate the divergence signal entirely and push CMG toward the $28-$29 range.",
+      "outlook": "cautious",
+      "timeframe": "3-6 weeks",
+      "ticker": "CMG",
+      "company_name": "Chipotle Mexican Grill, Inc.",
+      "generated_at": "2026-05-08T05:02:49.994857",
+      "price_at_generation": 33.27,
+      "pnl_at_generation": 5.72,
+      "archived_at": "2026-05-08T22:56:39.828705"
+    },
     {
       "action": "Hold",
       "action_reason": "You're already in profit and the RSI divergence plus MACD histogram turn are early mean-reversion signals worth respecting, but the death cross, price below 200MA, and BB percent at 0.33 (not near the lower band) mean the setup isn't fully ripe \u2014 hold what you have but don't add yet.",

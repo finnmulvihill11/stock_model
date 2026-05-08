@@ -1,21 +1,38 @@
 {
   "current": {
     "action": "Wait",
-    "action_reason": "You're already in a losing position with almost no buy signals firing \u2014 RSI is neutral at 54.9, price is below the 200MA, and MACD shows no bullish confirmation. With earnings in 12 days, hold your current shares but do not add until the setup clarifies post-earnings.",
+    "action_reason": "Your entry criteria are not met \u2014 RSI at 46.9 is far from the 20-30 buy zone, price is mid-band (pct=0.56), and MACD shows no bullish crossover. With earnings 12 days out and price still below the 200MA, adding here violates your own philosophy and increases concentration risk in an already-underwater position.",
     "target_price": 445.0,
-    "target_reasoning": "The $445 zone represents a realistic mean-reversion target toward the 200MA and prior consolidation support. A full technical recovery would need RSI cooling to the 25-35 range near the lower Bollinger Band, which hasn't happened \u2014 this target is contingent on a post-earnings catalyst or a proper oversold flush first.",
-    "exit_trigger": "Cut the position if INTU closes below $385 on elevated volume, or if post-earnings guidance disappoints and price breaks down more than 5% \u2014 do not hold a falling knife through deteriorating fundamentals.",
-    "add_trigger": "Only add if RSI drops to 25-30, price touches or breaches the lower Bollinger Band, AND MACD shows a bullish crossover or valley \u2014 ideally post-earnings if the stock sells off into oversold territory. All three conditions must align.",
-    "risk": "Earnings in 12 days is the dominant wildcard \u2014 a guidance miss or IRS Direct File headwinds could accelerate the drawdown well past your current -13%, and at 33% portfolio weight this position is already dangerously concentrated.",
+    "target_reasoning": "A post-earnings recovery toward the 200MA zone (~$445-460) is the realistic mean-reversion target. That level aligns with prior technical support turned resistance and would represent a bounce back toward your cost basis. Upper BB would likely sit near that range if the squeeze resolves to the upside, and RSI would approach the 65-70 range \u2014 your signal to begin trimming.",
+    "exit_trigger": "Cut the position if price breaks decisively below $375 on elevated volume, or if post-earnings guidance disappoints and RSI fails to recover above 40 within 5 sessions \u2014 this confirms the downtrend and rules out near-term mean reversion.",
+    "add_trigger": "Only add if RSI drops to 25-30, price tags the lower Bollinger Band, AND a bullish MACD crossover or RSI divergence appears \u2014 ideally after earnings are cleared and the macro overhang is resolved. Do not add into earnings blindly.",
+    "risk": "Earnings in 12 days is the dominant risk \u2014 a guidance cut around IRS Direct File competition or continued Credit Karma softness could accelerate the decline well below $375, turning a 15% loss into 25%+. At 34% portfolio weight, this drawdown is already uncomfortable and adding pre-earnings would be imprudent.",
     "outlook": "cautious",
-    "timeframe": "6-10 weeks \u2014 wait through earnings, let price action resolve, then reassess for a proper mean-reversion entry or exit",
+    "timeframe": "6-10 weeks \u2014 let earnings pass, reassess technicals post-print, and wait for your full signal stack to align before taking any action",
     "ticker": "INTU",
     "company_name": "Intuit Inc.",
-    "generated_at": "2026-05-08T05:00:43.472744",
-    "price_at_generation": 406.78,
-    "pnl_at_generation": -13.14
+    "generated_at": "2026-05-08T22:54:20.958907",
+    "price_at_generation": 396.31,
+    "pnl_at_generation": -15.37
   },
   "history": [
+    {
+      "action": "Wait",
+      "action_reason": "You're already in a losing position with almost no buy signals firing \u2014 RSI is neutral at 54.9, price is below the 200MA, and MACD shows no bullish confirmation. With earnings in 12 days, hold your current shares but do not add until the setup clarifies post-earnings.",
+      "target_price": 445.0,
+      "target_reasoning": "The $445 zone represents a realistic mean-reversion target toward the 200MA and prior consolidation support. A full technical recovery would need RSI cooling to the 25-35 range near the lower Bollinger Band, which hasn't happened \u2014 this target is contingent on a post-earnings catalyst or a proper oversold flush first.",
+      "exit_trigger": "Cut the position if INTU closes below $385 on elevated volume, or if post-earnings guidance disappoints and price breaks down more than 5% \u2014 do not hold a falling knife through deteriorating fundamentals.",
+      "add_trigger": "Only add if RSI drops to 25-30, price touches or breaches the lower Bollinger Band, AND MACD shows a bullish crossover or valley \u2014 ideally post-earnings if the stock sells off into oversold territory. All three conditions must align.",
+      "risk": "Earnings in 12 days is the dominant wildcard \u2014 a guidance miss or IRS Direct File headwinds could accelerate the drawdown well past your current -13%, and at 33% portfolio weight this position is already dangerously concentrated.",
+      "outlook": "cautious",
+      "timeframe": "6-10 weeks \u2014 wait through earnings, let price action resolve, then reassess for a proper mean-reversion entry or exit",
+      "ticker": "INTU",
+      "company_name": "Intuit Inc.",
+      "generated_at": "2026-05-08T05:00:43.472744",
+      "price_at_generation": 406.78,
+      "pnl_at_generation": -13.14,
+      "archived_at": "2026-05-08T22:54:20.959091"
+    },
     {
       "action": "Wait",
       "action_reason": "You're already underwater -13% with a 33% portfolio weight, and nearly zero buy signals are firing \u2014 RSI at 54.9 is no-man's land, price is below the 200MA, and earnings are 12 days out. Do not add here; let the setup come to you or let earnings clarify the trend.",
