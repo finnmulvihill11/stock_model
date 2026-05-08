@@ -18,7 +18,8 @@ from src.plans import get_plan, save_plan
 from src.fetcher import fetch_ohlcv
 from src.indicators import add_all_indicators
 from src.analysis_cache import load_ticker_analysis, load_opportunity_plans, get_cache_status
-from src.github_sync import sync_budget, sync_watchlist
+from src.github_sync import sync_budget, sync_watchlist, sync_config
+from src.portfolio import update_holding_after_buy, update_holding_after_sell
 
 CONFIG = yaml.safe_load(open(Path(__file__).parent / "config.yaml"))
 B = CONFIG.get("budget", {})
@@ -138,8 +139,11 @@ if page == "Strategy Dashboard":
                 log_type = lc4.selectbox("Type", ["swing", "etf"])
                 if st.form_submit_button("Log Buy"):
                     record_allocation(log_ticker, int(log_shares), log_shares * log_price, log_type)
+                    update_holding_after_buy(log_ticker, int(log_shares), log_price,
+                                             is_dca=(log_type == "etf"))
                     sync_budget()
-                    st.success(f"Logged buy: {log_shares} shares of {log_ticker} @ ${log_price:.2f}")
+                    sync_config()
+                    st.success(f"Logged buy: {log_shares} shares of {log_ticker} @ ${log_price:.2f} — holdings updated.")
                     st.rerun()
 
     with col_sell:
@@ -161,12 +165,17 @@ if page == "Strategy Dashboard":
 
                 if st.form_submit_button("Log Sell", type="primary"):
                     result = record_sell(sell_ticker, int(sell_shares), sell_price, avg_cost_input)
+                    holding_result = update_holding_after_sell(sell_ticker, int(sell_shares))
                     sync_budget()
+                    sync_config()
+                    removed = holding_result.get("removed", False)
                     st.markdown(f"Logged sell: **{sell_shares} shares of {sell_ticker}** @ ${sell_price:.2f}")
                     st.markdown(f"Proceeds: **${result['proceeds']:,.2f}** returned to swing budget")
                     st.markdown(f"Realized P&L: **${result['realized_pnl']:+,.2f} ({result['realized_pnl_pct']:+.2f}%)**")
+                    if removed:
+                        st.info(f"{sell_ticker} fully exited — removed from holdings.")
                     plan = get_plan(sell_ticker)
-                    plan["status"] = "closed"
+                    plan["status"] = "closed" if removed else "holding"
                     save_plan(sell_ticker, plan)
                     st.rerun()
 

@@ -64,3 +64,11 @@ def sync_watchlist() -> bool:
         return False
     path = DATA_DIR / "watchlist.json"
     return _push_file(path, "data/watchlist.json", token, "sync: watchlist update from app")
+
+
+def sync_config() -> bool:
+    token = _get_token()
+    if not token:
+        return False
+    root = Path(__file__).parent.parent
+    return _push_file(root / "config.yaml", "config.yaml", token, "sync: portfolio holdings update from app")

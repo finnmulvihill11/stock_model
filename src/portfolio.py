@@ -4,7 +4,82 @@ from pathlib import Path
 from dotenv import load_dotenv
 
 load_dotenv()
-CONFIG = yaml.safe_load(open(Path(__file__).parent.parent / "config.yaml"))
+
+CONFIG_PATH = Path(__file__).parent.parent / "config.yaml"
+CONFIG = yaml.safe_load(open(CONFIG_PATH))
+
+
+def _reload_config() -> dict:
+    return yaml.safe_load(open(CONFIG_PATH))
+
+
+def _save_config(config: dict) -> None:
+    with open(CONFIG_PATH, "w") as f:
+        yaml.dump(config, f, default_flow_style=False, sort_keys=False, allow_unicode=True)
+
+
+def update_holding_after_buy(ticker: str, shares_bought: int, buy_price: float,
+                              is_dca: bool = False, high_risk: bool = False) -> dict:
+    """Add or update a holding after a buy. Recalculates avg cost."""
+    config = _reload_config()
+    holdings = config["portfolio"]["holdings"]
+    ticker = ticker.upper()
+
+    existing = next((h for h in holdings if h["ticker"] == ticker), None)
+
+    if existing:
+        old_shares = existing["shares"]
+        old_avg = existing["avg_cost"]
+        new_shares = old_shares + shares_bought
+        new_avg = round((old_shares * old_avg + shares_bought * buy_price) / new_shares, 2)
+        existing["shares"] = new_shares
+        existing["avg_cost"] = new_avg
+        result = existing
+    else:
+        new_holding = {
+            "ticker": ticker,
+            "shares": shares_bought,
+            "avg_cost": round(buy_price, 2),
+        }
+        if is_dca:
+            new_holding["dca"] = True
+            config["portfolio"]["dca_tickers"] = list(set(
+                config["portfolio"].get("dca_tickers", []) + [ticker]
+            ))
+        if high_risk:
+            new_holding["high_risk"] = True
+        holdings.append(new_holding)
+        result = new_holding
+
+    _save_config(config)
+    return result
+
+
+def update_holding_after_sell(ticker: str, shares_sold: int) -> dict:
+    """Reduce or remove a holding after a sell."""
+    config = _reload_config()
+    holdings = config["portfolio"]["holdings"]
+    ticker = ticker.upper()
+
+    existing = next((h for h in holdings if h["ticker"] == ticker), None)
+    if not existing:
+        return {}
+
+    new_shares = existing["shares"] - shares_sold
+
+    if new_shares <= 0:
+        config["portfolio"]["holdings"] = [h for h in holdings if h["ticker"] != ticker]
+        # Remove from swing/dca tickers lists too
+        for key in ("swing_tickers", "dca_tickers"):
+            if ticker in config["portfolio"].get(key, []):
+                config["portfolio"][key] = [t for t in config["portfolio"][key] if t != ticker]
+        result = {"ticker": ticker, "shares": 0, "removed": True}
+    else:
+        existing["shares"] = new_shares
+        result = existing
+
+    _save_config(config)
+    return result
 
 
 def get_portfolio_from_config() -> list[dict]:
