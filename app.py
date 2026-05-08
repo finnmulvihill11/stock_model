@@ -112,7 +112,7 @@ if page == "Strategy Dashboard":
     bcol2.metric("ETF Budget", f"${B.get('etf_budget', 1000):,.0f}", f"${get_etf_budget_remaining():,.0f} remaining")
     bcol3.metric("Swing Budget", f"${B.get('swing_budget', 1000):,.0f}", f"${get_swing_budget_remaining():,.0f} remaining")
     bcol4.metric("Total Spent", f"${budget['spent']:,.0f}", f"{budget['pct_used']:.1f}% used")
-    st.progress(min(budget["pct_used"] / 100, 1.0))
+    st.progress(max(0.0, min(budget["pct_used"] / 100, 1.0)))
 
     # Budget allocation history
     if budget["allocations"]:
