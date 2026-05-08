@@ -1,0 +1,97 @@
+{
+  "ticker": "ABT",
+  "signal": {
+    "ticker": "ABT",
+    "direction": "buy",
+    "tier": "Hold",
+    "buy_score": 0.38,
+    "sell_score": 0.14,
+    "reasons": [
+      "BB: price near lower band (pct=0.17)",
+      "RSI: oversold zone (23.1)",
+      "MACD: histogram at valley / turning up"
+    ],
+    "misses": [
+      "BB Width: bands expanding, not squeezing",
+      "RSI Divergence: no bullish divergence detected",
+      "200MA: price below 200MA \u2014 potential falling knife",
+      "Death cross active: 50MA (101.44) below 200MA (118.56)",
+      "Volume: below average (0.94x) \u2014 low conviction"
+    ],
+    "price": 87.01,
+    "rsi": 23.1,
+    "atr": 2.05,
+    "final_tier": "Hold",
+    "sizing": {
+      "suggested_shares": 11,
+      "suggested_dollars": 957.11,
+      "note": "11 shares @ $87.01 = $957 | $43 swing budget remaining after"
+    }
+  },
+  "fundamentals": {
+    "ticker": "ABT",
+    "health": "healthy",
+    "passed": [
+      "Revenue growing YoY (+7.8%)",
+      "Debt-to-equity acceptable (0.6x)",
+      "Profitable (margin 13.9%)"
+    ],
+    "flags": [],
+    "revenue_growth": 0.078,
+    "de_ratio": 64.773,
+    "profit_margins": 0.13904999
+  },
+  "earnings": {
+    "proceed": true,
+    "reason": "Fundamentals intact \u2014 dip may be an overreaction",
+    "verdict": {
+      "ticker": "ABT",
+      "verdict": "consider",
+      "reason": "Fundamentals intact \u2014 dip may be an overreaction",
+      "notes": [
+        "Earnings declining YoY (-19.7%)",
+        "Revenue growing (+7.8%)"
+      ],
+      "earnings_status": "past",
+      "next_earnings_date": "2026-04-16",
+      "days_to_earnings": -22
+    }
+  },
+  "news": {
+    "sentiment": "neutral",
+    "health": "healthy",
+    "key_events": [
+      "No recent news headlines were provided for analysis, limiting event-driven assessment",
+      "Abbott continues to operate across four diversified segments: Medical Devices, Diagnostics, Nutritional Products, and Established Pharmaceuticals",
+      "FreeStyle Libre CGM (continuous glucose monitor) remains a key growth driver in the Medical Devices segment",
+      "Post-COVID diagnostic revenue normalization has been an ongoing headwind following pandemic-era testing tailwinds",
+      "Abbott has historically maintained consistent dividend growth, holding Dividend Aristocrat status"
+    ],
+    "macro_context": "The medical devices sector benefits from aging global demographics and rising chronic disease prevalence, though rising interest rates, reimbursement pressures, and currency headwinds create near-term friction for large multinational healthcare companies like Abbott.",
+    "competitive_notes": "Abbott holds a strong competitive position in CGM with FreeStyle Libre competing directly against Dexcom, while facing broader device competition from Medtronic and Becton Dickinson, and retains diversification advantages that pure-play device peers lack.",
+    "red_flags": [
+      "No current news provided \u2014 analysis relies on fundamental and historical context only, reducing conviction",
+      "Revenue and earnings comparisons remain difficult year-over-year due to the wind-down of COVID-19 testing revenues",
+      "Infant formula litigation and reputational risk from past recalls remain a watchpoint for the Nutritional segment",
+      "FreeStyle Libre faces intensifying competition as Dexcom and emerging players expand CGM market access"
+    ],
+    "verdict": "Abbott is a fundamentally sound, diversified healthcare compounder with a credible long-term growth runway driven by CGM adoption and device innovation, making it a reasonable mid-to-long-term hold for quality-oriented investors, though near-term earnings normalization and lack of current news flow warrant a patient, staged entry approach.",
+    "confidence": "low",
+    "ticker": "ABT"
+  },
+  "relative_strength": {
+    "ticker": "ABT",
+    "stock_return_3m": -19.73,
+    "benchmark_return_3m": 8.26,
+    "relative_strength": -27.99,
+    "label": "underperforming"
+  },
+  "final_tier": "Hold",
+  "sizing": {
+    "suggested_shares": 11,
+    "suggested_dollars": 957.11,
+    "note": "11 shares @ $87.01 = $957 | $43 swing budget remaining after"
+  },
+  "is_dca": false,
+  "saved_at": "2026-05-08T04:47:10.603687"
+}

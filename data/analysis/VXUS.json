@@ -1,0 +1,90 @@
+{
+  "ticker": "VXUS",
+  "signal": {
+    "ticker": "VXUS",
+    "direction": "sell",
+    "tier": "Watch",
+    "buy_score": 0.5,
+    "sell_score": 0.57,
+    "reasons": [
+      "BB: price near upper band (pct=0.87)",
+      "BB Width: squeeze/contraction after expansion",
+      "MACD: histogram at peak / turning down",
+      "Volume: above average on sell (1.82x) \u2014 confirms distribution"
+    ],
+    "misses": [
+      "RSI: not in sell zone (51.9, need 70-80)",
+      "RSI Divergence: no bearish divergence detected",
+      "Golden cross still active: 50MA above 200MA"
+    ],
+    "price": 84.25,
+    "rsi": 51.9,
+    "atr": 1.23,
+    "final_tier": "Watch",
+    "sizing": {
+      "suggested_shares": 1,
+      "suggested_dollars": 84.25,
+      "note": "1 share every month"
+    }
+  },
+  "fundamentals": {
+    "ticker": "VXUS",
+    "health": "deteriorating",
+    "passed": [],
+    "flags": [
+      "Revenue growth data unavailable",
+      "Debt-to-equity data unavailable",
+      "Profitability data unavailable"
+    ],
+    "revenue_growth": null,
+    "de_ratio": null,
+    "profit_margins": null
+  },
+  "earnings": {
+    "proceed": true,
+    "reason": "Insufficient earnings data to judge",
+    "verdict": {
+      "ticker": "VXUS",
+      "verdict": "neutral",
+      "reason": "Insufficient earnings data to judge",
+      "notes": [],
+      "earnings_status": "unknown",
+      "next_earnings_date": null,
+      "days_to_earnings": null
+    }
+  },
+  "news": {
+    "sentiment": "neutral",
+    "health": "neutral",
+    "key_events": [
+      "No recent news headlines available for analysis",
+      "Fund continues to track FTSE Global All Cap ex US Index across developed and emerging markets"
+    ],
+    "macro_context": "International equities face headwinds from a strong US dollar, geopolitical tensions (Ukraine, Middle East, Taiwan Strait), and uneven global growth, but valuations remain significantly cheaper than US equities, offering a long-term mean-reversion opportunity.",
+    "competitive_notes": "VXUS is a dominant low-cost international index ETF from Vanguard with a razor-thin expense ratio (~0.07%), making it highly competitive against peers like iShares IXUS and Schwab SCHF, with broad diversification as a structural strength.",
+    "red_flags": [
+      "Emerging market exposure (China, Taiwan) introduces geopolitical and regulatory risk",
+      "Currency risk from USD strength can suppress returns for US-based investors",
+      "No active management means no downside protection during international market dislocations",
+      "Concentration in European and Japanese equities exposes fund to region-specific economic stagnation"
+    ],
+    "verdict": "VXUS is a sound core holding for long-term investors seeking low-cost international diversification, particularly attractive given depressed non-US valuations relative to history, though investors must tolerate currency volatility and geopolitical risk.",
+    "confidence": "medium",
+    "ticker": "VXUS"
+  },
+  "relative_strength": {
+    "ticker": "VXUS",
+    "stock_return_3m": 6.37,
+    "benchmark_return_3m": 8.26,
+    "relative_strength": -1.89,
+    "label": "in-line"
+  },
+  "final_tier": "Watch",
+  "sizing": {
+    "suggested_shares": 1,
+    "suggested_dollars": 84.25,
+    "note": "1 share every month"
+  },
+  "is_dca": true,
+  "saved_at": "2026-05-08T04:47:55.467063"
+}

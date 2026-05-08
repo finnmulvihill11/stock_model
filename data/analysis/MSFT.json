@@ -1,0 +1,96 @@
+{
+  "ticker": "MSFT",
+  "signal": {
+    "ticker": "MSFT",
+    "direction": "buy",
+    "tier": "Hold",
+    "buy_score": 0.25,
+    "sell_score": 0.14,
+    "reasons": [
+      "MACD: histogram at valley / turning up",
+      "50/200MA: converging upward toward golden cross"
+    ],
+    "misses": [
+      "BB: price not near lower band (pct=0.61)",
+      "BB Width: bands expanding, not squeezing",
+      "RSI: not in buy zone (48.9, need 20-30)",
+      "RSI Divergence: no bullish divergence detected",
+      "200MA: price below 200MA \u2014 potential falling knife",
+      "Volume: below average (0.98x) \u2014 low conviction"
+    ],
+    "price": 420.77,
+    "rsi": 48.9,
+    "atr": 11.85,
+    "final_tier": "Hold",
+    "sizing": {
+      "suggested_shares": 2,
+      "suggested_dollars": 841.54,
+      "note": "2 shares @ $420.77 = $842 | $158 swing budget remaining after"
+    }
+  },
+  "fundamentals": {
+    "ticker": "MSFT",
+    "health": "healthy",
+    "passed": [
+      "Revenue growing YoY (+18.3%)",
+      "Debt-to-equity acceptable (0.3x)",
+      "Profitable (margin 39.3%)"
+    ],
+    "flags": [],
+    "revenue_growth": 0.183,
+    "de_ratio": 30.271,
+    "profit_margins": 0.39341998
+  },
+  "earnings": {
+    "proceed": true,
+    "reason": "Fundamentals intact \u2014 dip may be an overreaction",
+    "verdict": {
+      "ticker": "MSFT",
+      "verdict": "consider",
+      "reason": "Fundamentals intact \u2014 dip may be an overreaction",
+      "notes": [
+        "Earnings growing YoY (+23.4%)",
+        "Revenue growing (+18.3%)"
+      ],
+      "earnings_status": "past",
+      "next_earnings_date": "2026-04-29",
+      "days_to_earnings": -9
+    }
+  },
+  "news": {
+    "sentiment": "neutral",
+    "health": "healthy",
+    "key_events": [
+      "No recent news headlines were provided for analysis, limiting event-driven insights",
+      "Microsoft continues to integrate AI (Copilot) across its Microsoft 365 and Azure product suites as a core growth driver",
+      "Azure cloud platform remains a top-tier hyperscaler competing directly with AWS and Google Cloud",
+      "Microsoft's acquisition of Activision Blizzard (~$69B) expands its gaming and metaverse footprint"
+    ],
+    "macro_context": "The enterprise software and cloud sector faces a mixed macro backdrop \u2014 AI-driven demand is a strong tailwind, but rising interest rates, enterprise IT budget scrutiny, and potential antitrust regulatory pressure create near-term headwinds.",
+    "competitive_notes": "Microsoft holds a uniquely diversified competitive moat across cloud (Azure), productivity (M365), AI (Copilot/OpenAI partnership), and gaming, making it structurally resilient against single-segment disruption compared to peers.",
+    "red_flags": [
+      "No recent news provided \u2014 analysis relies on known fundamentals, reducing timeliness of assessment",
+      "Heavy capital expenditure commitments for AI infrastructure may pressure near-term free cash flow",
+      "Ongoing regulatory scrutiny in EU and US over cloud bundling and market dominance",
+      "Azure growth deceleration risk if enterprise AI spend normalizes or shifts to open-source alternatives"
+    ],
+    "verdict": "Microsoft remains a high-conviction mid-to-long-term holding given its AI monetization leadership, diversified revenue streams, and durable competitive moats, though investors should monitor capex trajectory and regulatory developments closely.",
+    "confidence": "medium",
+    "ticker": "MSFT"
+  },
+  "relative_strength": {
+    "ticker": "MSFT",
+    "stock_return_3m": 7.13,
+    "benchmark_return_3m": 8.26,
+    "relative_strength": -1.13,
+    "label": "in-line"
+  },
+  "final_tier": "Hold",
+  "sizing": {
+    "suggested_shares": 2,
+    "suggested_dollars": 841.54,
+    "note": "2 shares @ $420.77 = $842 | $158 swing budget remaining after"
+  },
+  "is_dca": false,
+  "saved_at": "2026-05-08T04:46:16.930278"
+}

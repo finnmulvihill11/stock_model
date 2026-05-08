@@ -1,0 +1,97 @@
+{
+  "ticker": "TEM",
+  "signal": {
+    "ticker": "TEM",
+    "direction": "buy",
+    "tier": "Hold",
+    "buy_score": 0.12,
+    "sell_score": 0.43,
+    "reasons": [
+      "Volume: above average (1.75x)"
+    ],
+    "misses": [
+      "BB: price not near lower band (pct=0.28)",
+      "BB Width: bands expanding, not squeezing",
+      "RSI: not in buy zone (36.6, need 20-30)",
+      "MACD: no bullish crossover or valley",
+      "RSI Divergence: no bullish divergence detected",
+      "200MA: price below 200MA \u2014 potential falling knife",
+      "Death cross active: 50MA (50.51) below 200MA (67.02)"
+    ],
+    "price": 49.47,
+    "rsi": 36.6,
+    "atr": 3.37,
+    "final_tier": "Hold",
+    "sizing": {
+      "suggested_shares": 14,
+      "suggested_dollars": 692.58,
+      "note": "14 shares @ $49.47 = $693 | $307 swing budget remaining after"
+    }
+  },
+  "fundamentals": {
+    "ticker": "TEM",
+    "health": "deteriorating",
+    "passed": [
+      "Revenue growing YoY (+36.1%)"
+    ],
+    "flags": [
+      "High debt-to-equity (3.2x)",
+      "Not profitable and negative operating cash flow"
+    ],
+    "revenue_growth": 0.361,
+    "de_ratio": 316.647,
+    "profit_margins": -0.22205
+  },
+  "earnings": {
+    "proceed": true,
+    "reason": "Fundamentals intact \u2014 dip may be an overreaction",
+    "verdict": {
+      "ticker": "TEM",
+      "verdict": "consider",
+      "reason": "Fundamentals intact \u2014 dip may be an overreaction",
+      "notes": [
+        "Revenue growing (+36.1%)"
+      ],
+      "earnings_status": "past",
+      "next_earnings_date": "2026-05-05",
+      "days_to_earnings": -3
+    }
+  },
+  "news": {
+    "sentiment": "neutral",
+    "health": "neutral",
+    "key_events": [
+      "No recent news headlines provided \u2014 analysis based on known fundamentals only",
+      "Tempus AI went public (IPO) in mid-2024, trading on Nasdaq under ticker TEM",
+      "Company has partnerships with major health systems and pharma companies for AI-driven genomic data insights",
+      "Reported significant revenue growth but continues to operate at a net loss, typical of high-growth health-tech firms"
+    ],
+    "macro_context": "AI in healthcare is a strong secular tailwind, but rising interest rates and risk-off sentiment toward unprofitable growth stocks create valuation headwinds for companies like Tempus AI.",
+    "competitive_notes": "Tempus competes with Foundation Medicine (Roche), Guardant Health, and Veracyte in genomic diagnostics, while facing broader competition from Epic and other EHR platforms in clinical AI \u2014 its proprietary multimodal dataset is a key differentiator but moat durability remains unproven.",
+    "red_flags": [
+      "Persistent net losses with unclear path to profitability in near term",
+      "High cash burn rate typical of post-IPO growth-stage health-tech companies",
+      "Valuation at IPO was aggressive relative to current revenue, creating downside risk if growth decelerates",
+      "No recent news provided, limiting ability to assess current operational or financial developments",
+      "Dependence on continued pharma data licensing deals for revenue diversification"
+    ],
+    "verdict": "Tempus AI is a high-conviction long-term speculative opportunity in AI-driven precision medicine, but its unproven profitability, competitive pressures, and rich valuation make it suitable only for risk-tolerant investors with a 3\u20135 year horizon who believe in the AI genomics data monetization thesis.",
+    "confidence": "low",
+    "ticker": "TEM"
+  },
+  "relative_strength": {
+    "ticker": "TEM",
+    "stock_return_3m": -5.66,
+    "benchmark_return_3m": 8.26,
+    "relative_strength": -13.92,
+    "label": "underperforming"
+  },
+  "final_tier": "Hold",
+  "sizing": {
+    "suggested_shares": 14,
+    "suggested_dollars": 692.58,
+    "note": "14 shares @ $49.47 = $693 | $307 swing budget remaining after"
+  },
+  "is_dca": false,
+  "saved_at": "2026-05-08T04:47:33.140439"
+}

@@ -1,0 +1,97 @@
+{
+  "ticker": "CMG",
+  "signal": {
+    "ticker": "CMG",
+    "direction": "buy",
+    "tier": "Watch",
+    "buy_score": 0.5,
+    "sell_score": 0.43,
+    "reasons": [
+      "BB Width: squeeze active (width=0.1438)",
+      "MACD: histogram at valley / turning up",
+      "RSI Divergence: Price lower low (30.86 < 32.52) but RSI higher low (27.1 > 25.6)",
+      "Volume: above average (1.00x)"
+    ],
+    "misses": [
+      "BB: price not near lower band (pct=0.33)",
+      "RSI: not in buy zone (34.8, need 20-30)",
+      "200MA: price below 200MA \u2014 potential falling knife",
+      "Death cross active: 50MA (34.02) below 200MA (37.54)"
+    ],
+    "price": 33.27,
+    "rsi": 34.8,
+    "atr": 1.17,
+    "final_tier": "Watch",
+    "sizing": {
+      "suggested_shares": 30,
+      "suggested_dollars": 998.1,
+      "note": "30 shares @ $33.27 = $998 | $2 swing budget remaining after"
+    }
+  },
+  "fundamentals": {
+    "ticker": "CMG",
+    "health": "neutral",
+    "passed": [
+      "Revenue growing YoY (+7.4%)",
+      "Profitable (margin 12.0%)"
+    ],
+    "flags": [
+      "High debt-to-equity (2.2x)"
+    ],
+    "revenue_growth": 0.074,
+    "de_ratio": 217.885,
+    "profit_margins": 0.119619995
+  },
+  "earnings": {
+    "proceed": true,
+    "reason": "Fundamentals intact \u2014 dip may be an overreaction",
+    "verdict": {
+      "ticker": "CMG",
+      "verdict": "consider",
+      "reason": "Fundamentals intact \u2014 dip may be an overreaction",
+      "notes": [
+        "Earnings declining YoY (-17.9%)",
+        "Revenue growing (+7.4%)"
+      ],
+      "earnings_status": "past",
+      "next_earnings_date": "2026-04-29",
+      "days_to_earnings": -9
+    }
+  },
+  "news": {
+    "sentiment": "neutral",
+    "health": "healthy",
+    "key_events": [
+      "No recent news headlines were provided for analysis",
+      "Chipotle continues to operate a large and growing restaurant base with strong digital ordering infrastructure",
+      "CMG executed a 50-for-1 stock split in June 2024, improving share accessibility for retail investors",
+      "Company has been expanding internationally and testing new menu items such as chicken al pastor"
+    ],
+    "macro_context": "The restaurant sector faces headwinds from consumer spending fatigue, persistent food and labor cost inflation, and value-seeking behavior, though Chipotle's throughput improvements and loyal customer base provide relative resilience.",
+    "competitive_notes": "Chipotle maintains a strong competitive moat through brand differentiation, digital ecosystem scale, and 'Food With Integrity' positioning, though it faces increasing competition from fast-casual peers like Cava, Sweetgreen, and value-focused QSR chains.",
+    "red_flags": [
+      "No current news provided \u2014 analysis relies on general known fundamentals, limiting recency of assessment",
+      "Elevated valuation multiples (historically trades at 50-60x forward earnings) leave little margin for error on execution",
+      "Consumer trade-down risk if macroeconomic conditions deteriorate meaningfully",
+      "Food safety incidents have historically caused significant reputational and financial damage"
+    ],
+    "verdict": "Chipotle remains a high-quality compounder with strong unit economics, digital capabilities, and long-term store growth runway, but its premium valuation demands consistent execution \u2014 suitable for long-term investors who can tolerate multiple compression risk in a risk-off environment.",
+    "confidence": "low",
+    "ticker": "CMG"
+  },
+  "relative_strength": {
+    "ticker": "CMG",
+    "stock_return_3m": -13.47,
+    "benchmark_return_3m": 8.26,
+    "relative_strength": -21.73,
+    "label": "underperforming"
+  },
+  "final_tier": "Watch",
+  "sizing": {
+    "suggested_shares": 30,
+    "suggested_dollars": 998.1,
+    "note": "30 shares @ $33.27 = $998 | $2 swing budget remaining after"
+  },
+  "is_dca": false,
+  "saved_at": "2026-05-08T04:48:06.026976"
+}

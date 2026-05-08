@@ -1,0 +1,96 @@
+{
+  "ticker": "INTU",
+  "signal": {
+    "ticker": "INTU",
+    "direction": "buy",
+    "tier": "Hold",
+    "buy_score": 0.25,
+    "sell_score": 0.29,
+    "reasons": [
+      "BB Width: squeeze active (width=0.1518)",
+      "50/200MA: converging upward toward golden cross"
+    ],
+    "misses": [
+      "BB: price not near lower band (pct=0.76)",
+      "RSI: not in buy zone (54.9, need 20-30)",
+      "MACD: no bullish crossover or valley",
+      "RSI Divergence: no bullish divergence detected",
+      "200MA: price below 200MA \u2014 potential falling knife",
+      "Volume: below average (0.75x) \u2014 low conviction"
+    ],
+    "price": 406.78,
+    "rsi": 54.9,
+    "atr": 17.52,
+    "final_tier": "Hold",
+    "sizing": {
+      "suggested_shares": 2,
+      "suggested_dollars": 813.56,
+      "note": "2 shares @ $406.78 = $814 | $186 swing budget remaining after"
+    }
+  },
+  "fundamentals": {
+    "ticker": "INTU",
+    "health": "healthy",
+    "passed": [
+      "Revenue growing YoY (+17.4%)",
+      "Debt-to-equity acceptable (0.4x)",
+      "Profitable (margin 21.6%)"
+    ],
+    "flags": [],
+    "revenue_growth": 0.174,
+    "de_ratio": 36.148,
+    "profit_margins": 0.2157
+  },
+  "earnings": {
+    "proceed": false,
+    "reason": "Earnings in 12 days \u2014 wait for results before acting",
+    "verdict": {
+      "ticker": "INTU",
+      "verdict": "consider",
+      "reason": "Fundamentals intact \u2014 dip may be an overreaction",
+      "notes": [
+        "Earnings growing YoY (+48.5%)",
+        "Revenue growing (+17.4%)"
+      ],
+      "earnings_status": "imminent",
+      "next_earnings_date": "2026-05-20",
+      "days_to_earnings": 12
+    }
+  },
+  "news": {
+    "sentiment": "neutral",
+    "health": "healthy",
+    "key_events": [
+      "No recent news headlines were provided for analysis, limiting event-driven insights",
+      "Intuit continues to execute on its AI-driven platform strategy, integrating Generative AI (Intuit Assist) across QuickBooks, TurboTax, and Credit Karma",
+      "The $12B acquisition of Mailchimp remains a key growth lever within the Global Business Solutions segment",
+      "Intuit has faced scrutiny from the FTC over allegedly deceptive 'free' TurboTax advertising practices"
+    ],
+    "macro_context": "Rising interest rates and SMB spending caution create near-term headwinds, but secular digitization of financial workflows and AI adoption in fintech provide durable long-term tailwinds for Intuit's core markets.",
+    "competitive_notes": "Intuit holds deep competitive moats via switching costs, data network effects, and brand loyalty across TurboTax and QuickBooks, though it faces growing pressure from AI-native startups, FreshBooks, Xero, and free IRS direct-filing initiatives that could erode its consumer tax segment.",
+    "red_flags": [
+      "IRS Direct File program expansion poses a structural threat to TurboTax consumer revenue long-term",
+      "FTC regulatory and reputational risk related to 'free filing' marketing practices",
+      "High valuation multiples leave limited margin of safety if growth disappoints",
+      "SMB macro sensitivity could pressure QuickBooks Online subscriber growth"
+    ],
+    "verdict": "Intuit is a high-quality compounding business with defensible moats and a credible AI strategy, making it suitable for long-term investors willing to pay a premium valuation, though the IRS Direct File threat and rich pricing warrant a staged entry approach.",
+    "confidence": "medium",
+    "ticker": "INTU"
+  },
+  "relative_strength": {
+    "ticker": "INTU",
+    "stock_return_3m": -6.18,
+    "benchmark_return_3m": 8.26,
+    "relative_strength": -14.44,
+    "label": "underperforming"
+  },
+  "final_tier": "Hold",
+  "sizing": {
+    "suggested_shares": 2,
+    "suggested_dollars": 813.56,
+    "note": "2 shares @ $406.78 = $814 | $186 swing budget remaining after"
+  },
+  "is_dca": false,
+  "saved_at": "2026-05-08T04:45:55.579097"
+}

@@ -1,0 +1,90 @@
+{
+  "ticker": "XLK",
+  "signal": {
+    "ticker": "XLK",
+    "direction": "buy",
+    "tier": "Hold",
+    "buy_score": 0.38,
+    "sell_score": 0.43,
+    "reasons": [
+      "200MA: price at/above 200MA (169.69 vs 141.49)",
+      "Golden cross: 50MA (145.20) above 200MA (141.49)",
+      "Volume: above average (1.06x)"
+    ],
+    "misses": [
+      "BB: price not near lower band (pct=0.93)",
+      "BB Width: bands expanding, not squeezing",
+      "RSI: not in buy zone (79.5, need 20-30)",
+      "MACD: no bullish crossover or valley",
+      "RSI Divergence: no bullish divergence detected"
+    ],
+    "price": 169.69,
+    "rsi": 79.5,
+    "atr": 3.08,
+    "final_tier": "Hold",
+    "sizing": {
+      "suggested_shares": 5,
+      "suggested_dollars": 848.45,
+      "note": "5 shares @ $169.69 = $848 | $152 swing budget remaining after"
+    }
+  },
+  "fundamentals": {
+    "ticker": "XLK",
+    "health": "deteriorating",
+    "passed": [],
+    "flags": [
+      "Revenue growth data unavailable",
+      "Debt-to-equity data unavailable",
+      "Profitability data unavailable"
+    ],
+    "revenue_growth": null,
+    "de_ratio": null,
+    "profit_margins": null
+  },
+  "earnings": {
+    "proceed": true,
+    "reason": "Insufficient earnings data to judge",
+    "verdict": {
+      "ticker": "XLK",
+      "verdict": "neutral",
+      "reason": "Insufficient earnings data to judge",
+      "notes": [],
+      "earnings_status": "unknown",
+      "next_earnings_date": null,
+      "days_to_earnings": null
+    }
+  },
+  "news": {
+    "sentiment": "neutral",
+    "health": "neutral",
+    "key_events": [
+      "No recent news headlines available for analysis",
+      "XLK tracks the S&P Technology Select Sector Index, maintaining concentrated exposure to mega-cap tech names like Apple, Microsoft, and NVIDIA"
+    ],
+    "macro_context": "The technology sector faces a mixed macro backdrop with AI-driven tailwinds boosting semiconductor and software demand, while elevated interest rates, potential antitrust scrutiny, and valuation stretch in mega-cap tech remain persistent headwinds.",
+    "competitive_notes": "XLK benefits from low expense ratio and high liquidity as a leading tech ETF, but its non-diversified, top-heavy concentration in a handful of mega-cap stocks (Apple, Microsoft, NVIDIA) means single-stock risk is elevated relative to broader market ETFs.",
+    "red_flags": [
+      "Highly concentrated in top 2-3 holdings which can represent 40-50%+ of the fund, amplifying idiosyncratic risk",
+      "Elevated valuation multiples across large-cap tech holdings leave the fund vulnerable to multiple compression in a risk-off environment",
+      "No recent news available, limiting ability to assess current sentiment or emerging catalysts"
+    ],
+    "verdict": "XLK is a solid long-term vehicle for investors seeking concentrated technology sector exposure, but mid-to-long-term investors should be mindful of valuation risk and top-holding concentration before initiating or adding to a position.",
+    "confidence": "low",
+    "ticker": "XLK"
+  },
+  "relative_strength": {
+    "ticker": "XLK",
+    "stock_return_3m": 25.27,
+    "benchmark_return_3m": 8.26,
+    "relative_strength": 17.01,
+    "label": "outperforming"
+  },
+  "final_tier": "Hold",
+  "sizing": {
+    "suggested_shares": 5,
+    "suggested_dollars": 848.45,
+    "note": "5 shares @ $169.69 = $848 | $152 swing budget remaining after"
+  },
+  "is_dca": false,
+  "saved_at": "2026-05-08T04:46:47.231339"
+}
