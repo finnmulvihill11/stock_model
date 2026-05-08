@@ -1,0 +1,37 @@
+{
+  "current": {
+    "action": "Wait",
+    "action_reason": "RSI at 23.1 and BB near lower band are tempting mean-reversion signals, but the death cross (50MA at 101.44 below 200MA at 118.56), price well beneath the 200MA, and low-conviction volume (0.75x) all scream falling knife \u2014 your own philosophy requires the 200MA filter, and it's failing hard here. Hold existing shares but do not add until the trend shows structural stabilization.",
+    "target_price": 97.5,
+    "target_reasoning": "A mean-reversion bounce from deeply oversold RSI (23.1) and lower Bollinger Band proximity historically targets a move back toward the BB midline \u2014 approximately the 20-period moving average around $97-98. This also represents a partial recovery toward the 50MA without requiring a full trend reversal, making it a realistic near-term swing target rather than an aspirational one.",
+    "exit_trigger": "Exit or aggressively trim if price closes below $83.00 on above-average volume (>1.2x), signaling accelerated breakdown with no support \u2014 or if NEC litigation produces a materially adverse ruling. On the upside, begin trimming into strength if RSI reaches 60-65 or price touches $97-99 zone.",
+    "add_trigger": "Only consider adding if ALL three conditions align: (1) RSI forms a bullish divergence on the daily chart \u2014 price makes a new low but RSI makes a higher low, (2) volume spikes above 1.3x average on a green day signaling accumulation, and (3) MACD histogram continues its upward turn with a confirmed bullish crossover. Do not add on oversold RSI alone \u2014 that's the trap here.",
+    "risk": "Primary risk is a falling knife continuation \u2014 ABT is in a confirmed downtrend with a death cross and no 200MA support. The 20%+ drawdown already taken suggests institutional distribution, not just a routine pullback. NEC litigation uncertainty adds a binary risk event that could gap the stock lower with no technical warning.",
+    "outlook": "cautious",
+    "timeframe": "4-8 weeks minimum before a credible mean-reversion setup matures \u2014 do not expect a quick snap-back given the structural downtrend in place",
+    "ticker": "ABT",
+    "company_name": "Abbott Laboratories",
+    "generated_at": "2026-05-07T23:31:48.833431",
+    "price_at_generation": 87.01,
+    "pnl_at_generation": -20.73
+  },
+  "history": [
+    {
+      "action": "Hold",
+      "action_reason": "RSI at 23.1 and price hugging the lower Bollinger Band signal a deeply oversold condition that favors mean-reversion patience, but the active death cross (50MA below 200MA), price trading well under the 200MA, and below-average volume all warn against adding here \u2014 this is a hold, not a buy. Let the trend stabilize before committing more capital.",
+      "target_price": 97.5,
+      "target_reasoning": "A mean-reversion bounce toward the 20-period Bollinger Band midline (~$95-98 range) is the realistic near-term target given the RSI extremity. $97.50 represents roughly a 12% recovery, aligns with the BB midline zone, and keeps expectations grounded below the heavily overhead 50MA at $101.44, which will act as a ceiling until the death cross resolves.",
+      "exit_trigger": "Exit if price closes below $83.00 on above-average volume (confirming breakdown, not a flush), or if a catalyst-driven gap down occurs \u2014 do not let a 4.7% position become a deeper portfolio drag. On the upside, begin trimming if RSI crosses above 65 or price tags the 50MA at $101.44, whichever comes first.",
+      "add_trigger": "Only add if RSI holds above 20 (no further deterioration), price stabilizes with a higher low on a daily close, AND volume picks up to at least 1.1x average \u2014 confirming buyers are stepping in, not just absence of sellers. Do not add into silence.",
+      "risk": "The primary risk is a falling knife scenario: the death cross, sub-200MA price action, and expanding Bollinger Bands suggest the downtrend has momentum. Without RSI bullish divergence or volume confirmation, the oversold reading alone is insufficient \u2014 ABT could remain oversold and grind lower toward the $80-83 structural support zone.",
+      "outlook": "cautious",
+      "timeframe": "4-8 weeks",
+      "ticker": "ABT",
+      "company_name": "Abbott Laboratories",
+      "generated_at": "2026-05-07T22:46:04.876979",
+      "price_at_generation": 87.01,
+      "pnl_at_generation": -20.73,
+      "archived_at": "2026-05-07T23:31:48.834371"
+    }
+  ]
+}

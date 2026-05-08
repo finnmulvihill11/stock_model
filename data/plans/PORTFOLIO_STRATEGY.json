@@ -1,0 +1,24 @@
+{
+  "current": {
+    "headline": "Hold your oversold positions patiently, trim the one winner flashing overbought, and stop the bleeding on TEM before it gets worse.",
+    "market_stance": "defensive",
+    "overall_thesis": "With 5.87% in the red, a VIX in neutral territory, and Fear & Greed sitting at 38, this is not the time to chase new positions or add risk. The priority is capital preservation and intelligent recovery \u2014 trim XLK while it still has juice, let ABT and MSFT mean-revert on their own timelines, and enforce the $44 stop on TEM without emotion. Over the next 4-8 weeks, the goal is to flatten the overall P&L, reduce INTU concentration below 25%, and exit TEM cleanly if the stop is hit.",
+    "top_priorities": [
+      "TRIM XLK immediately \u2014 RSI at 79.5 is a clear overbought signal and locking in partial gains from your only strong winner is non-negotiable given the current defensive posture",
+      "ENFORCE the $44 stop on TEM \u2014 you are down 28% with zero confirmed entry signals; do not let a swing trade become a long-term hold out of hope",
+      "MONITOR INTU concentration \u2014 at 33% it breaches your 25% cap; do not add to it and be ready to trim into any technical strength post-earnings to rebalance"
+    ],
+    "biggest_risk": "TEM breaches $44 and you hesitate \u2014 a 28% loss that turns into 40%+ is the single fastest way to derail recovery across the entire portfolio.",
+    "what_to_watch": [
+      "TEM price vs. $44 stop level \u2014 check daily, no exceptions, no rationalizing a hold below that line",
+      "XLK RSI normalization \u2014 watch for RSI to pull back toward 60-65 as a signal that the trim was well-timed and the position is stabilizing",
+      "ABT RSI and Bollinger Band position \u2014 RSI at 23.1 is deeply oversold; a bounce toward RSI 35-40 with price moving off the lower band is your confirmation that the mean-reversion thesis is activating"
+    ],
+    "on_course_check": [
+      "Plan is working if: XLK trim is executed within 2 weeks, TEM is closed at or above $44 if stop is triggered, and total portfolio drawdown stops widening beyond -6%",
+      "Plan needs revision if: ABT continues falling with no RSI recovery after 3 weeks, MSFT golden cross fails to materialize and price breaks below its current base, or overall P&L drawdown accelerates past -8%"
+    ],
+    "generated_at": "2026-05-07T22:47:03.757099"
+  },
+  "history": []
+}

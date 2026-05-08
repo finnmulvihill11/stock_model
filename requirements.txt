@@ -1,0 +1,10 @@
+anthropic
+yfinance
+pandas
+numpy
+streamlit
+plotly
+requests
+requests-oauthlib
+python-dotenv
+pyyaml

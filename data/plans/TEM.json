@@ -1,0 +1,37 @@
+{
+  "current": {
+    "action": "Wait",
+    "action_reason": "The position is deeply underwater with no confirmed reversal signals \u2014 RSI at 36.6 is approaching oversold but hasn't reached your 20-30 buy zone, MACD shows no bullish crossover, and price is mid-Bollinger-Band with expanding bands suggesting continued downside pressure. Do not add here; wait for your system's actual entry conditions to fire before committing more capital.",
+    "target_price": 56.5,
+    "target_reasoning": "A recovery toward the $56-57 zone represents a realistic mean-reversion target near the 20-day Bollinger Band midline and prior consolidation support, achievable once RSI bottoms and reverses from the oversold zone. A full recovery to your $69 cost basis is a longer-term scenario requiring fundamental improvement and is not a swing trade target.",
+    "exit_trigger": "Cut the position if price breaks and closes below $44 (new 52-week low territory) OR if RSI drops further and fails to recover above 35 within 2 weeks \u2014 this signals momentum deterioration, not mean-reversion setup. Deteriorating fundamentals mean you cannot afford to let this become a long-term baghold.",
+    "add_trigger": "Only add if RSI reaches 22-28 with a confirmed bullish MACD crossover AND price touches or pierces the lower Bollinger Band (pct < 0.05) on a high-volume reversal candle. All three conditions must align \u2014 do not chase a partial signal on a fundamentally weak name.",
+    "risk": "TEM has high debt-to-equity (3.2x), negative operating cash flow, and is unprofitable \u2014 this is not a typical mean-reversion candidate. If market sentiment shifts bearish or the AI/healthtech sector rotates out of favor, this stock could see a prolonged drawdown well below $44 with no fundamental floor to catch it. Your swing system is designed for quality companies, and TEM is pushing that boundary.",
+    "outlook": "cautious",
+    "timeframe": "3-6 weeks to monitor for a valid entry setup; if signals don't materialize within that window, re-evaluate whether this position fits your strategy at all",
+    "ticker": "TEM",
+    "company_name": "Tempus AI, Inc.",
+    "generated_at": "2026-05-07T23:32:13.206537",
+    "price_at_generation": 49.47,
+    "pnl_at_generation": -28.39
+  },
+  "history": [
+    {
+      "action": "Wait",
+      "action_reason": "You're already down 28% and none of your entry criteria are confirmed \u2014 RSI hasn't reached the buy zone, no MACD crossover, and price isn't near the lower Bollinger Band. Do not average down into a falling knife; wait for your system to signal a real entry before committing more capital.",
+      "target_price": 58.5,
+      "target_reasoning": "A recovery toward the $57\u201360 range represents a realistic mean-reversion target, likely aligning with the 20-period moving average and mid-BB level. With RSI at 36.6, there's room to fall further before a true oversold bounce (RSI 20\u201330) sets up \u2014 don't mistake 'closer to oversold' for 'oversold.'",
+      "exit_trigger": "Cut the position if price breaks and closes below $44 on elevated volume, signaling continued distribution with no support \u2014 further downside risk in a money-losing, high-debt company is not acceptable at moderate risk tolerance.",
+      "add_trigger": "Only add if RSI drops into the 20\u201328 range WITH a bullish MACD valley forming AND price touches or breaches the lower Bollinger Band (BB pct \u2264 0.05) \u2014 all three must align simultaneously. Volume confirmation (1.5x+ average) required.",
+      "risk": "Fundamentals are the primary threat \u2014 negative cash flow and 3.2x debt-to-equity mean TEM has no margin of safety if sentiment turns or macro tightens. A deteriorating earnings print or secondary offering could accelerate the drawdown well past your stop before technicals recover.",
+      "outlook": "cautious",
+      "timeframe": "4\u20138 weeks minimum before a valid technical setup is likely to emerge; position may need to be held defensively or exited if the $44 stop is breached before then",
+      "ticker": "TEM",
+      "company_name": "Tempus AI, Inc.",
+      "generated_at": "2026-05-07T22:46:27.506295",
+      "price_at_generation": 49.47,
+      "pnl_at_generation": -28.39,
+      "archived_at": "2026-05-07T23:32:13.207533"
+    }
+  ]
+}

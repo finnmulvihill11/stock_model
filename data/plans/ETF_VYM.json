@@ -1,0 +1,31 @@
+{
+  "current": {
+    "recommendation": "consider_adding",
+    "summary": "VYM is trading near its 52-week high with a strong 27.7% annual return, reflecting solid momentum in dividend-paying large-cap equities. The Fear & Greed index sitting at 38 (Fear) is a mild contrarian positive for patient accumulators, though buying near all-time highs warrants measured sizing. For a long-term DCA investor not yet holding this ETF, this is a reasonable entry point to establish an initial position rather than wait for a pullback that may not materialize.",
+    "this_month": "Contribute a half-sized initial position this month (50% of your normal monthly DCA amount). You are buying near 52-week highs with the market in a mild fear environment \u2014 a full normal contribution is not warranted for a brand-new position, but waiting on the sidelines indefinitely conflicts with the DCA discipline. Establish the position now and plan to bring contributions to normal or above-normal if VYM pulls back 5\u201310% from current levels.",
+    "long_term_thesis": "VYM provides broad exposure to high-quality, dividend-paying U.S. large-cap companies with a low expense ratio and massive $94.6B AUM, making it a reliable core income and stability holding over a multi-year horizon. Its dividend focus offers a natural buffer during market downturns while compounding reinvested income significantly enhances total returns over time.",
+    "risks": "The primary risk is valuation stretch \u2014 at -1.3% from its 52-week high, near-term upside may be limited and a mean-reversion pullback of 5\u201315% is plausible, especially if interest rates rise or dividend sectors rotate out of favor. Additionally, VYM's value and income tilt means it may meaningfully lag growth-heavy indexes during risk-on, tech-driven bull markets. NOTE: The 6.00% expense ratio listed appears to be a data error \u2014 VYM's actual expense ratio is approximately 0.06%; verify before investing.",
+    "worth_adding": true,
+    "add_rationale": "VYM is a high-quality, liquid, low-cost dividend ETF that complements a long-term core portfolio by adding income generation, lower volatility exposure, and diversification away from pure growth holdings. It is not currently held, so initiating a starter position now begins the compounding clock on dividends reinvested. The near-highs price warrants a cautious half-contribution to start, scaling to full DCA contributions over the next 2\u20133 months or on any meaningful dip.",
+    "generated_at": "2026-05-07T23:09:37.305566",
+    "ticker": "VYM",
+    "name": "Vanguard High Dividend Yield ETF",
+    "category": "Dividend"
+  },
+  "history": [
+    {
+      "recommendation": "consider_adding",
+      "summary": "VYM is trading near its 52-week high with a strong 27.7% annual return, sitting in a clear uptrend well above its 200-day moving average. Despite the Fear & Greed index showing fear (38), the ETF's price action remains resilient, suggesting institutional confidence in dividend-paying large caps. For a long-term accumulator not yet holding this ETF, this is a reasonable entry point at normal contribution levels.",
+      "this_month": "Contribute your normal monthly DCA amount \u2014 no need to increase or decrease. The ETF is only 1.3% off its 52-week high, so there is no meaningful dip to chase with extra capital, but the strong trend and low VIX (17.1) give no reason to delay starting a position either. Initiate at your standard allocation.",
+      "long_term_thesis": "VYM provides broad exposure to U.S. large-cap dividend payers with a $94.6B AUM base, offering reliable income growth, lower volatility than the broad market, and a natural hedge during risk-off environments. Its dividend-focused mandate supports compounding through reinvestment over multi-year holding periods.",
+      "risks": "The primary risk is the unusually high reported expense ratio of 6.00%, which would be a significant drag on long-term returns \u2014 this figure should be verified, as VYM's standard expense ratio is typically 0.06%. If accurate at 6.00%, this ETF should be avoided entirely in favor of lower-cost dividend alternatives. Additionally, near-high entry points limit short-term upside and increase drawdown exposure if sentiment shifts.",
+      "worth_adding": true,
+      "add_rationale": "VYM is a strong candidate for a core long-term dividend sleeve, assuming the expense ratio is the standard 0.06% (the 6.00% figure appears to be a data error and must be confirmed before investing). Its scale, diversification across dividend growers, and consistent performance make it a quality DCA candidate. Begin with a standard monthly contribution to establish the position, with intent to build over time.",
+      "generated_at": "2026-05-07T23:08:19.173403",
+      "ticker": "VYM",
+      "name": "Vanguard High Dividend Yield ETF",
+      "category": "Dividend",
+      "archived_at": "2026-05-07T23:09:37.326431"
+    }
+  ]
+}

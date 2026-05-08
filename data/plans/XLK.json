@@ -1,0 +1,37 @@
+{
+  "current": {
+    "action": "Start Trimming",
+    "action_reason": "RSI at 79.5 is firmly in overbought territory \u2014 well above your 70-80 sell zone trigger \u2014 and price is sitting at 93% of the Bollinger Band range with bands expanding, signaling momentum exhaustion rather than continuation. You're up nearly 19%; your swing philosophy explicitly calls for harvesting gains at these levels.",
+    "target_price": 169.69,
+    "target_reasoning": "No need to wait for a higher target \u2014 your sell signal is already firing. RSI at 79.5 exceeds your 70-80 threshold, BB percentile at 0.93 means price is hugging the upper band, and MACD shows no fresh bullish crossover to justify holding for further upside. The current price IS the target; trim into this strength rather than chase a few more points and risk a sharp mean-reversion pullback.",
+    "exit_trigger": "Trim 1 share now at market given RSI > 79. Exit the remaining share if RSI crosses above 82, price breaks below the 50MA (~$145), or a MACD bearish crossover confirms momentum reversal.",
+    "add_trigger": "Only re-add if XLK pulls back to RSI 25-30, price approaches the lower Bollinger Band (estimate ~$148-152 on a normal reversion), AND MACD shows a bullish crossover or valley \u2014 all three conditions must align simultaneously.",
+    "risk": "XLK has AI-era structural tailwinds and a strong golden cross, meaning momentum could grind higher before reversing \u2014 trimming now risks leaving short-term gains on the table. However, with Fear & Greed at 38 (Fear) and RSI deeply overbought, a sudden sentiment shift could erase a significant portion of your 19% gain quickly with only 2 shares and no room to average down.",
+    "outlook": "cautious",
+    "timeframe": "Trim within 1-3 days; reassess remaining share over 2-4 weeks pending mean-reversion signals",
+    "ticker": "XLK",
+    "company_name": "State Street Technology Select Sector SPDR ETF",
+    "generated_at": "2026-05-07T23:31:24.547495",
+    "price_at_generation": 169.69,
+    "pnl_at_generation": 18.97
+  },
+  "history": [
+    {
+      "action": "Start Trimming",
+      "action_reason": "RSI at 79.5 is firmly in overbought territory and directly conflicts with your mean-reversion sell philosophy (target 70-80), while price is sitting at 93% of the Bollinger Band range with expanding bands \u2014 this is a textbook signal to begin taking profits on an +18.97% gain. You've captured the bulk of this swing move; protecting that return is the priority.",
+      "target_price": 158.5,
+      "target_reasoning": "A reversion toward the 50MA (~145) or midpoint Bollinger Band (~155-160 range) is the mean-reversion base case from overbought RSI levels. $158.50 represents a reasonable first support zone and partial re-entry target, sitting between the 50MA and current price \u2014 if XLK pulls back there, RSI should approach a more neutral 50-55 range, making it a cleaner re-evaluation point.",
+      "exit_trigger": "RSI sustains above 80 for 2+ consecutive sessions OR price closes below the 50MA (145.20) on above-average volume \u2014 the former signals further exhaustion, the latter signals trend breakdown. Trim at least 1 share immediately given RSI is already at 79.5.",
+      "add_trigger": "RSI resets to 25-35 on a pullback with price near or below the lower Bollinger Band AND MACD shows a bullish crossover from a valley \u2014 do not add into current overbought conditions regardless of short-term momentum.",
+      "risk": "Momentum continuation \u2014 overbought conditions can persist in strong bull runs, meaning trimming now could leave gains on the table if macro tailwinds (AI/tech cycle) push XLK toward $180+. However, your philosophy is mean-reversion, not momentum chasing, so staying disciplined to your system is the correct call.",
+      "outlook": "cautious",
+      "timeframe": "Trim within 1-2 weeks; reassess full position over 4-8 weeks as RSI and price structure normalize",
+      "ticker": "XLK",
+      "company_name": "State Street Technology Select Sector SPDR ETF",
+      "generated_at": "2026-05-07T22:45:38.246205",
+      "price_at_generation": 169.69,
+      "pnl_at_generation": 18.97,
+      "archived_at": "2026-05-07T23:31:24.552469"
+    }
+  ]
+}
