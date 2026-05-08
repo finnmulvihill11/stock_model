@@ -109,10 +109,10 @@ if page == "Strategy Dashboard":
     budget = get_budget_state()
     st.subheader(f"3-Month Budget  ·  ends {budget['end_date']}  ·  {budget['months_remaining']} months remaining")
     bcol1, bcol2, bcol3, bcol4 = st.columns(4)
-    bcol1.metric("Total Budget", f"${budget['total']:,.0f}")
-    bcol2.metric("ETF Budget", f"${B.get('etf_budget', 1000):,.0f}", f"${get_etf_budget_remaining():,.0f} remaining")
-    bcol3.metric("Swing Budget", f"${B.get('swing_budget', 1000):,.0f}", f"${get_swing_budget_remaining():,.0f} remaining")
-    bcol4.metric("Total Spent", f"${budget['spent']:,.0f}", f"{budget['pct_used']:.1f}% used")
+    bcol1.metric("Total Budget", f"${budget['total']:,.0f}", f"{budget['months_remaining']} months left")
+    bcol2.metric("ETF Available", f"${get_etf_budget_remaining():,.0f}", f"of ${B.get('etf_budget', 1000):,.0f}")
+    bcol3.metric("Swing Available", f"${get_swing_budget_remaining():,.0f}", f"of ${B.get('swing_budget', 1000):,.0f}")
+    bcol4.metric("Net Spent", f"${budget['spent']:,.0f}", f"{budget['pct_used']:.1f}% of budget")
     st.progress(max(0.0, min(budget["pct_used"] / 100, 1.0)))
 
     # Budget allocation history
