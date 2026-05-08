@@ -76,15 +76,54 @@ def record_allocation(ticker: str, shares: int, amount: float, trade_type: str) 
         "shares": shares,
         "amount": round(amount, 2),
         "type": trade_type,
+        "action": "buy",
     })
     _save(data)
 
 
+def record_sell(ticker: str, shares: int, sell_price: float, avg_cost: float) -> dict:
+    """Record a sell. Returns realized P&L. Proceeds go back into swing budget pool."""
+    proceeds = round(shares * sell_price, 2)
+    cost_basis = round(shares * avg_cost, 2)
+    realized_pnl = round(proceeds - cost_basis, 2)
+    realized_pnl_pct = round((proceeds - cost_basis) / cost_basis * 100, 2) if cost_basis > 0 else 0
+
+    data = _load()
+    # Record as negative spend — puts proceeds back into the pool
+    data["allocations"].append({
+        "date": str(date.today()),
+        "ticker": ticker,
+        "shares": shares,
+        "amount": -proceeds,   # negative = money back in
+        "type": "swing",
+        "action": "sell",
+        "sell_price": sell_price,
+        "avg_cost": avg_cost,
+        "realized_pnl": realized_pnl,
+        "realized_pnl_pct": realized_pnl_pct,
+    })
+    _save(data)
+
+    return {
+        "proceeds": proceeds,
+        "cost_basis": cost_basis,
+        "realized_pnl": realized_pnl,
+        "realized_pnl_pct": realized_pnl_pct,
+    }
+
+
+def get_sell_log() -> list[dict]:
+    data = _load()
+    return [a for a in data.get("allocations", []) if a.get("action") == "sell"]
+
+
 def get_swing_budget_remaining() -> float:
-    """Remaining swing budget = swing allocation minus what's already been spent on swings."""
-    state = get_budget_state()
+    """Remaining swing budget = swing allocation minus net swing spend (buys - sell proceeds)."""
+    data = _load()
     swing_total = B.get("swing_budget", B["total"] // 2)
-    return max(swing_total - state["spent_swing"], 0)
+    # Net spend = buys - sell proceeds (sells are stored as negative amounts)
+    net_swing_spend = sum(a["amount"] for a in data.get("allocations", []) if a.get("type") == "swing")
+    return max(swing_total - net_swing_spend, 0)
 
 
 def get_etf_budget_remaining() -> float:

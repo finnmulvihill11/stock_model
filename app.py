@@ -121,18 +121,72 @@ if page == "Strategy Dashboard":
             alloc_df.columns = [c.title() for c in alloc_df.columns]
             st.dataframe(alloc_df, use_container_width=True, hide_index=True)
 
-            # Button to manually log a purchase
-    with st.expander("Log a purchase"):
-        with st.form("log_purchase"):
-            lc1, lc2, lc3, lc4 = st.columns(4)
-            log_ticker = lc1.text_input("Ticker").upper().strip()
-            log_shares = lc2.number_input("Shares", min_value=1, step=1)
-            log_price = lc3.number_input("Price per share ($)", min_value=0.01, step=0.01)
-            log_type = lc4.selectbox("Type", ["swing", "etf"])
-            if st.form_submit_button("Log Purchase"):
-                record_allocation(log_ticker, int(log_shares), log_shares * log_price, log_type)
-                st.success(f"Logged: {log_shares} shares of {log_ticker} @ ${log_price:.2f}")
-                st.rerun()
+    # ── Log trades ────────────────────────────────────────────────────────────
+    from src.budget import record_sell, get_sell_log
+    from src.plans import save_plan, get_plan
+
+    col_buy, col_sell = st.columns(2)
+
+    with col_buy:
+        with st.expander("Log a purchase"):
+            with st.form("log_purchase"):
+                lc1, lc2, lc3, lc4 = st.columns(4)
+                log_ticker = lc1.text_input("Ticker").upper().strip()
+                log_shares = lc2.number_input("Shares", min_value=1, step=1)
+                log_price = lc3.number_input("Price ($)", min_value=0.01, step=0.01)
+                log_type = lc4.selectbox("Type", ["swing", "etf"])
+                if st.form_submit_button("Log Buy"):
+                    record_allocation(log_ticker, int(log_shares), log_shares * log_price, log_type)
+                    st.success(f"Logged buy: {log_shares} shares of {log_ticker} @ ${log_price:.2f}")
+                    st.rerun()
+
+    with col_sell:
+        with st.expander("Log a sell"):
+            with st.form("log_sell"):
+                # Pre-fill avg cost from portfolio config
+                holding_options = {h["ticker"]: h["avg_cost"] for h in portfolio["holdings"]}
+                sc1, sc2, sc3 = st.columns(3)
+                sell_ticker = sc1.text_input("Ticker").upper().strip()
+                sell_shares = sc2.number_input("Shares sold", min_value=1, step=1)
+                avg_cost_default = holding_options.get(sell_ticker, 0.0)
+                sell_price = sc3.number_input("Sell price ($)", min_value=0.01, step=0.01)
+
+                # Show avg cost lookup
+                if sell_ticker in holding_options:
+                    st.caption(f"Avg cost for {sell_ticker}: ${holding_options[sell_ticker]:.2f}")
+                avg_cost_input = st.number_input("Avg cost per share ($)", min_value=0.01,
+                                                  value=float(avg_cost_default) if avg_cost_default else 1.0, step=0.01)
+
+                if st.form_submit_button("Log Sell", type="primary"):
+                    result = record_sell(sell_ticker, int(sell_shares), sell_price, avg_cost_input)
+                    pnl_color = "green" if result["realized_pnl"] >= 0 else "red"
+                    st.markdown(f"Logged sell: **{sell_shares} shares of {sell_ticker}** @ ${sell_price:.2f}")
+                    st.markdown(f"Proceeds: **${result['proceeds']:,.2f}** returned to swing budget")
+                    st.markdown(f"Realized P&L: **${result['realized_pnl']:+,.2f} ({result['realized_pnl_pct']:+.2f}%)**")
+                    # Mark plan as closed
+                    plan = get_plan(sell_ticker)
+                    plan["status"] = "closed"
+                    save_plan(sell_ticker, plan)
+                    st.rerun()
+
+    # ── Sell log ──────────────────────────────────────────────────────────────
+    sells = get_sell_log()
+    if sells:
+        st.subheader("Sell Log")
+        sell_rows = []
+        for s in sorted(sells, key=lambda x: x["date"], reverse=True):
+            pnl = s.get("realized_pnl", 0)
+            sell_rows.append({
+                "Date": s["date"],
+                "Ticker": s["ticker"],
+                "Shares": s["shares"],
+                "Sell Price": f"${s.get('sell_price', 0):,.2f}",
+                "Avg Cost": f"${s.get('avg_cost', 0):,.2f}",
+                "Proceeds": f"${abs(s['amount']):,.2f}",
+                "Realized P&L": f"${pnl:+,.2f}",
+                "P&L %": f"{s.get('realized_pnl_pct', 0):+.2f}%",
+            })
+        st.dataframe(pd.DataFrame(sell_rows), use_container_width=True, hide_index=True)
 
     st.divider()
 
