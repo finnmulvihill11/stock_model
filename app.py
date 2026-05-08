@@ -429,6 +429,15 @@ elif page == "Swing Trade Plans":
 
             # ── Priority action list — shown first, most prominent ────────────
             priority_actions = strategy.get("priority_actions", [])
+
+            # Fallback: parse top_priorities into action items if priority_actions is empty
+            if not priority_actions and strategy.get("top_priorities"):
+                for i, p in enumerate(strategy["top_priorities"], 1):
+                    upper = p.upper()
+                    action = next((a for a in ["SELL","EXIT","TRIM","ADD","BUY","WATCH","HOLD"] if a in upper), "WATCH")
+                    ticker = next((w for w in p.split() if w.isupper() and 2 <= len(w) <= 5 and w.isalpha()), "—")
+                    priority_actions.append({"rank": i, "action": action, "ticker": ticker,
+                                             "instruction": p, "urgency": "this week"})
             if priority_actions:
                 st.subheader("Priority Actions")
                 st.caption("Ranked by urgency — work through this list top to bottom.")

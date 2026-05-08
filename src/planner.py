@@ -130,9 +130,9 @@ INVESTOR PROFILE:
 - $1,000 swing budget available
 - Busy MIT student — needs a clear ranked action list above all else
 
-Write a concise portfolio strategy. The priority_actions list is the MOST IMPORTANT part — it should be a ranked to-do list the investor can act on immediately. Include both current holdings AND new opportunities. Be specific: name the ticker, the action, and one concrete reason.
+Write a concise portfolio strategy. You MUST populate priority_actions with at least 3 specific ranked items — one per holding that needs action. Do NOT leave priority_actions empty. Convert every item in top_priorities into a priority_action entry with a ticker, action type, and urgency.
 
-Respond in JSON:
+Respond in JSON with these exact keys (priority_actions MUST be non-empty):
 {{
   "headline": "one sentence capturing current portfolio posture",
   "market_stance": "offensive" | "defensive" | "neutral",
