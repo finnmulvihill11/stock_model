@@ -18,6 +18,7 @@ from src.plans import get_plan, save_plan
 from src.fetcher import fetch_ohlcv
 from src.indicators import add_all_indicators
 from src.analysis_cache import load_ticker_analysis, load_opportunity_plans, get_cache_status
+from src.github_sync import sync_budget, sync_watchlist
 
 CONFIG = yaml.safe_load(open(Path(__file__).parent / "config.yaml"))
 B = CONFIG.get("budget", {})
@@ -137,6 +138,7 @@ if page == "Strategy Dashboard":
                 log_type = lc4.selectbox("Type", ["swing", "etf"])
                 if st.form_submit_button("Log Buy"):
                     record_allocation(log_ticker, int(log_shares), log_shares * log_price, log_type)
+                    sync_budget()
                     st.success(f"Logged buy: {log_shares} shares of {log_ticker} @ ${log_price:.2f}")
                     st.rerun()
 
@@ -159,11 +161,10 @@ if page == "Strategy Dashboard":
 
                 if st.form_submit_button("Log Sell", type="primary"):
                     result = record_sell(sell_ticker, int(sell_shares), sell_price, avg_cost_input)
-                    pnl_color = "green" if result["realized_pnl"] >= 0 else "red"
+                    sync_budget()
                     st.markdown(f"Logged sell: **{sell_shares} shares of {sell_ticker}** @ ${sell_price:.2f}")
                     st.markdown(f"Proceeds: **${result['proceeds']:,.2f}** returned to swing budget")
                     st.markdown(f"Realized P&L: **${result['realized_pnl']:+,.2f} ({result['realized_pnl_pct']:+.2f}%)**")
-                    # Mark plan as closed
                     plan = get_plan(sell_ticker)
                     plan["status"] = "closed"
                     save_plan(sell_ticker, plan)
@@ -674,9 +675,11 @@ elif page == "Swing Trade Plans":
                         bc1, bc2 = st.columns(2)
                         if bc1.button("Acted", key=f"acted_{ticker}"):
                             mark_acted(ticker)
+                            sync_watchlist()
                             st.rerun()
                         if bc2.button("Dismiss", key=f"dismiss_{ticker}"):
                             dismiss_from_watchlist(ticker)
+                            sync_watchlist()
                             st.rerun()
                     st.caption(urgency["label"])
                     if entry.get("reason"):
@@ -738,6 +741,7 @@ elif page == "Swing Trade Plans":
                     else:
                         if st.button(f"Add {ticker} to Watchlist", type="primary", key=f"add_{ticker}"):
                             add_to_watchlist(ticker, raw_signal or {"tier": "Buy"}, reason=p.get("buy_case", "")[:120])
+                            sync_watchlist()
                             st.success(f"{ticker} added to watchlist — signals will be tracked daily.")
                             st.rerun()
         else:
