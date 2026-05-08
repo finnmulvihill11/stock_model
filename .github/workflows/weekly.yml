@@ -5,6 +5,9 @@ on:
     - cron: "0 22 * * 0"     # 10pm ET Sunday
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   weekly:
     runs-on: ubuntu-latest
