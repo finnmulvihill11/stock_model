@@ -108,8 +108,11 @@ def run_nightly():
 
     # ── Portfolio strategy ────────────────────────────────────────────────────
     print("\n[ 3/4 ] Generating portfolio strategy...")
-    opp_cache = load_cache()
-    opp_plans = []
+    # Load latest weekly opportunities + watchlist so they persist in the priority list
+    from src.analysis_cache import load_opportunity_plans
+    opp_plans = load_opportunity_plans().get("plans", [])
+    if opp_plans:
+        print(f"  Including {len(opp_plans)} weekly opportunities in strategy")
     try:
         generate_portfolio_strategy(portfolio, position_plans, market, opp_plans, get_watchlist())
     except Exception as e:
