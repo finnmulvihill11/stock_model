@@ -19,7 +19,10 @@ from src.planner import generate_position_plan, generate_portfolio_strategy
 from src.etf_advisor import get_etf_universe, analyze_etf, generate_etf_plan
 from src.screener import run_full_scrape, load_cache
 from src.watchlist import refresh_watchlist_signals, get_watchlist, auto_add_strong_signals
-from src.analysis_cache import save_ticker_analysis, save_opportunity_plans
+from src.analysis_cache import (
+    save_ticker_analysis, save_opportunity_plans,
+    save_etf_universe_analysis, save_etf_opportunity_plans,
+)
 from src.planner import generate_opportunity_plan
 
 CONFIG = yaml.safe_load(open(Path(__file__).parent / "config.yaml"))
@@ -43,14 +46,14 @@ def run():
     total_value = portfolio["total_value"]
 
     # ── 1. Full screener scrape ───────────────────────────────────────────────
-    print("[ 1/7 ] Running full screener scrape...")
+    print("[ 1/8 ] Running full screener scrape...")
     try:
         run_full_scrape(verbose=True)
     except Exception as e:
         print(f"  Screener failed: {e}")
 
     # ── 2. Analyze all holdings ───────────────────────────────────────────────
-    print("\n[ 2/7 ] Analyzing holdings...")
+    print("\n[ 2/8 ] Analyzing holdings...")
     signals = []
     position_plans = []
 
@@ -118,7 +121,7 @@ def run():
             print(f"  {ticker} failed: {e}")
 
     # ── 3. ETF plans ──────────────────────────────────────────────────────────
-    print("\n[ 3/7 ] Generating ETF plans...")
+    print("\n[ 3/8 ] Generating ETF plans...")
     universe = get_etf_universe()
     dca_holdings = {h["ticker"]: h for h in portfolio["holdings"] if h.get("dca")}
 
@@ -140,7 +143,7 @@ def run():
             print(f"  {ticker} ETF plan failed: {e}")
 
     # ── 4. Top opportunities from screener ────────────────────────────────────
-    print("\n[ 4/7 ] Analyzing top opportunities...")
+    print("\n[ 4/8 ] Analyzing top opportunities...")
     portfolio_tickers = {h["ticker"] for h in portfolio["holdings"]}
     cache = load_cache()
     candidates = [r for r in cache.get("results", []) if r["ticker"] not in portfolio_tickers]
@@ -174,8 +177,53 @@ def run():
     save_opportunity_plans(opp_plans)
     print(f"  Saved {len(opp_plans)} opportunity plans")
 
-    # ── 5. Watchlist refresh ──────────────────────────────────────────────────
-    print("\n[ 5/7 ] Refreshing watchlist...")
+    # ── 5. Full ETF universe analysis ────────────────────────────────────────
+    print("\n[ 5/8 ] Analyzing full ETF universe...")
+    etf_universe_results = []
+    for etf in universe:
+        ticker = etf["ticker"]
+        print(f"  {ticker}...")
+        try:
+            etf_analysis = analyze_etf(ticker, etf.get("expense_ratio", 0))
+            etf_analysis["name"] = etf["name"]
+            etf_analysis["category"] = etf["category"]
+            etf_analysis["held"] = ticker in dca_holdings
+            etf_universe_results.append(etf_analysis)
+        except Exception as e:
+            print(f"  {ticker} failed: {e}")
+    save_etf_universe_analysis(etf_universe_results)
+    print(f"  Saved {len(etf_universe_results)} ETF analyses")
+
+    # ── 5b. New ETF opportunities ─────────────────────────────────────────────
+    print("\n  Generating new ETF opportunity plans...")
+    from src.etf_advisor import find_new_etf_opportunities
+    new_etfs = find_new_etf_opportunities(list(dca_holdings.keys()))
+    etf_opp_plans = []
+    for etf in new_etfs:
+        ticker = etf["ticker"]
+        print(f"  {ticker}...")
+        try:
+            etf_a = next((r for r in etf_universe_results if r["ticker"] == ticker), None)
+            if not etf_a:
+                etf_a = analyze_etf(ticker, etf.get("expense_ratio", 0))
+            plan = generate_etf_plan(
+                ticker=ticker,
+                name=etf["name"],
+                category=etf["category"],
+                analysis=etf_a,
+                market_context=market,
+                is_held=False,
+            )
+            plan["analysis"] = etf_a
+            etf_opp_plans.append(plan)
+        except Exception as e:
+            print(f"  {ticker} ETF opp failed: {e}")
+    etf_opp_plans.sort(key=lambda x: (0 if x.get("worth_adding") else 1))
+    save_etf_opportunity_plans(etf_opp_plans)
+    print(f"  Saved {len(etf_opp_plans)} ETF opportunity plans")
+
+    # ── 6. Watchlist refresh ──────────────────────────────────────────────────
+    print("\n[ 6/8 ] Refreshing watchlist...")
     try:
         refresh_watchlist_signals()
         screener_results = cache.get("results", [])
@@ -187,14 +235,14 @@ def run():
         print(f"  Watchlist refresh failed: {e}")
 
     # ── 6. Portfolio strategy ─────────────────────────────────────────────────
-    print("\n[ 6/7 ] Generating portfolio strategy...")
+    print("\n[ 7/8 ] Generating portfolio strategy...")
     try:
         generate_portfolio_strategy(portfolio, position_plans, market, opp_plans, get_watchlist())
     except Exception as e:
         print(f"  Strategy failed: {e}")
 
     # ── 7. Daily digest email ─────────────────────────────────────────────────
-    print("\n[ 7/7 ] Sending daily digest...")
+    print("\n[ 8/8 ] Sending daily digest...")
     signals.sort(key=lambda x: TIER_ORDER.index(x.get("final_tier", "Hold")) if x.get("final_tier") in TIER_ORDER else 99)
     try:
         send_daily_digest(signals, portfolio, market)

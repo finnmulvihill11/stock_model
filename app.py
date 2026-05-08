@@ -439,85 +439,31 @@ elif page == "Swing Trade Plans":
                         if top:
                             st.caption(f"Top action was: {top}")
         else:
-            st.info("No strategy generated yet. Generate position plans first, then the portfolio strategy will be built automatically.")
-
-        if st.button("Regenerate Portfolio Strategy", key="regen_strategy"):
-            saved_plans = []
-            for h in portfolio["holdings"]:
-                if not h.get("dca"):
-                    p = get_current_plan(h["ticker"])
-                    if p:
-                        p["pnl_pct"] = h["unrealized_pnl_pct"]
-                        saved_plans.append(p)
-            if saved_plans:
-                from src.watchlist import get_watchlist
-                opp_plans = st.session_state.get("opportunity_plans", [])
-                with st.spinner("Generating portfolio strategy..."):
-                    strategy = generate_portfolio_strategy(portfolio, saved_plans, market, opp_plans, get_watchlist())
-                st.rerun()
-            else:
-                st.warning("Generate position plans first.")
+            st.info("Strategy will appear here after the first overnight run.")
 
     # ── Tab 2: Current positions ──────────────────────────────────────────────
     with tab2:
         st.subheader("Position Plans")
-        st.caption("Forward-looking plan for each holding — persists daily, updates automatically.")
+        st.caption("Forward-looking plan for each holding — updated overnight.")
 
         active_holdings = [h for h in portfolio["holdings"] if not h.get("dca")]
 
-        col1, col2 = st.columns([3, 1])
-        with col1:
-            # Show staleness of oldest plan
-            oldest = None
-            for h in active_holdings:
-                p = get_current_plan(h["ticker"])
-                if p and p.get("generated_at"):
-                    try:
-                        age_h = (dt.now() - dt.fromisoformat(p["generated_at"])).total_seconds() / 3600
-                        if oldest is None or age_h > oldest:
-                            oldest = age_h
-                    except Exception:
-                        pass
-            if oldest is not None:
-                if oldest > 24:
-                    st.warning(f"Plans are {oldest:.0f}h old — consider refreshing")
-                else:
-                    st.success(f"Plans last updated {oldest:.0f}h ago")
-        with col2:
-            refresh = st.button("Refresh All Plans", type="primary", key="gen_positions")
-
-        if refresh:
-            plans = []
-            prog = st.progress(0)
-            for i, holding in enumerate(active_holdings):
-                ticker = holding["ticker"]
-                with st.spinner(f"Planning {ticker}..."):
-                    try:
-                        analysis = load_full_analysis(ticker, holding.get("high_risk", False))
-                        plan = generate_position_plan(
-                            holding=holding,
-                            signal=analysis["signal"],
-                            fundamentals=analysis["fundamentals"],
-                            news=analysis["news"],
-                            earnings=analysis["earnings"],
-                            market_context=market,
-                            final_tier=analysis["final_tier"],
-                        )
-                        plan["final_tier"] = analysis["final_tier"]
-                        plan["pnl_pct"] = holding["unrealized_pnl_pct"]
-                        plan["current_price"] = holding["current_price"]
-                        plan["portfolio_pct"] = holding.get("portfolio_pct", 0)
-                        plans.append(plan)
-                    except Exception as e:
-                        st.warning(f"{ticker}: {e}")
-                prog.progress((i + 1) / len(active_holdings))
-
-            # Auto-generate portfolio strategy after refreshing positions
-            from src.watchlist import get_watchlist
-            opp_plans = st.session_state.get("opportunity_plans", [])
-            with st.spinner("Updating portfolio strategy..."):
-                generate_portfolio_strategy(portfolio, plans, market, opp_plans, get_watchlist())
-            st.rerun()
+        # Freshness indicator
+        oldest = None
+        for h in active_holdings:
+            p = get_current_plan(h["ticker"])
+            if p and p.get("generated_at"):
+                try:
+                    age_h = (dt.now() - dt.fromisoformat(p["generated_at"])).total_seconds() / 3600
+                    if oldest is None or age_h > oldest:
+                        oldest = age_h
+                except Exception:
+                    pass
+        if oldest is not None:
+            if oldest > 25:
+                st.warning(f"Plans are {oldest:.0f}h old — will refresh tonight.")
+            else:
+                st.success(f"Plans last updated {oldest:.0f}h ago.")
 
         # Load persisted plans from disk
         plans = []
@@ -768,54 +714,18 @@ elif page == "Long-Term ETF Plans":
     # ── Tab 1: Current ETF holdings ───────────────────────────────────────────
     with tab1:
         st.subheader("Your ETF Positions")
-
-        col1, col2 = st.columns([3, 1])
-        col1.markdown(f"Next monthly buy date: **{next_month.strftime('%B 1, %Y')}**")
-        refresh_held = col2.button("Refresh Plans", type="primary", key="refresh_held_etfs")
-
+        st.markdown(f"Next monthly buy date: **{next_month.strftime('%B 1, %Y')}**")
         st.divider()
 
         for ticker, holding in dca_holdings.items():
-            # Load or generate plan
             plan = get_etf_plan(ticker)
-            if refresh_held or plan is None:
-                universe = get_etf_universe()
-                meta = next((e for e in universe if e["ticker"] == ticker), {"name": ticker, "category": "ETF", "expense_ratio": 0})
-                with st.spinner(f"Analyzing {ticker}..."):
-                    try:
-                        analysis = analyze_etf(ticker, meta.get("expense_ratio", 0))
-                        suggestion = get_dca_suggestion(ticker, analysis, total_value, holding["value"])
-                        plan = generate_etf_plan(
-                            ticker=ticker,
-                            name=meta.get("name", ticker),
-                            category=meta.get("category", "ETF"),
-                            analysis=analysis,
-                            market_context=market,
-                            is_held=True,
-                            holding=holding,
-                        )
-                        plan["analysis"] = analysis
-                        plan["suggestion"] = suggestion
-                    except Exception as e:
-                        st.warning(f"{ticker}: {e}")
-                        continue
 
             if plan is None:
+                st.info(f"No overnight data for {ticker} yet — will appear after first scheduler run.")
                 continue
 
             analysis = plan.get("analysis") or {}
             suggestion = plan.get("suggestion") or {}
-
-            # If no analysis cached, recompute quick version
-            if not analysis:
-                try:
-                    universe = get_etf_universe()
-                    meta = next((e for e in universe if e["ticker"] == ticker), {"expense_ratio": 0})
-                    analysis = analyze_etf(ticker, meta.get("expense_ratio", 0))
-                    suggestion = get_dca_suggestion(ticker, analysis, total_value, holding["value"])
-                except Exception:
-                    analysis = {}
-                    suggestion = {}
 
             rec = plan.get("recommendation", "hold")
             rec_color = rec_colors.get(rec, "#6b7280")
@@ -863,84 +773,48 @@ elif page == "Long-Term ETF Plans":
 
     # ── Tab 2: Full ETF universe ──────────────────────────────────────────────
     with tab2:
+        from src.analysis_cache import load_etf_universe_analysis
         st.subheader("Full ETF Universe")
-        st.caption("All 18 ETFs across every category — quick health check and DCA signal.")
+        st.caption("All 16 ETFs across every category — updated overnight.")
 
-        if st.button("Analyze Full Universe", type="primary", key="analyze_universe"):
-            universe = get_etf_universe()
-            universe_results = []
-            prog = st.progress(0)
-            for i, etf in enumerate(universe):
-                with st.spinner(f"Analyzing {etf['ticker']}..."):
-                    try:
-                        analysis = analyze_etf(etf["ticker"], etf.get("expense_ratio", 0))
-                        analysis["name"] = etf["name"]
-                        analysis["category"] = etf["category"]
-                        analysis["held"] = etf["ticker"] in held_etf_tickers
-                        universe_results.append(analysis)
-                    except Exception:
-                        pass
-                prog.progress((i + 1) / len(universe))
-            st.session_state["universe_results"] = universe_results
+        universe_cache = load_etf_universe_analysis()
+        results = universe_cache.get("results", [])
 
-        results = st.session_state.get("universe_results", [])
         if results:
+            age = universe_cache.get("age_hours", 0)
+            st.success(f"Updated {age:.0f}h ago")
             categories = sorted(set(r["category"] for r in results))
             for cat in categories:
                 st.markdown(f"### {cat}")
                 cat_results = [r for r in results if r["category"] == cat]
                 rows = []
                 for r in cat_results:
-                    dca_color = action_colors.get(r["dca_action"], "#6b7280")
                     rows.append({
-                        "Ticker": ("★ " if r["held"] else "") + r["ticker"],
-                        "Name": r["name"][:35],
+                        "Ticker": ("★ " if r.get("held") else "") + r["ticker"],
+                        "Name": r.get("name", r["ticker"])[:35],
                         "Price": f"${r['current_price']:,.2f}",
                         "1Y Return": f"{r['ret_1y']:+.1f}%",
                         "Drawdown": f"{r['drawdown_from_high']:.1f}%",
                         "Trend": r["trend"].title(),
-                        "ER": f"{r['expense_ratio']*100:.2f}%" if r['expense_ratio'] else "—",
+                        "ER": f"{r['expense_ratio']*100:.2f}%" if r.get('expense_ratio') else "—",
                         "DCA Signal": r["dca_action"].upper(),
                     })
                 st.dataframe(pd.DataFrame(rows), use_container_width=True, hide_index=True)
         else:
-            st.info("Click **Analyze Full Universe** to see the complete ETF landscape.")
+            st.info("ETF universe analysis will appear here after the first overnight run.")
 
     # ── Tab 3: New additions ──────────────────────────────────────────────────
     with tab3:
+        from src.analysis_cache import load_etf_opportunity_plans
         st.subheader("Worth Adding to Your DCA Stack?")
-        st.caption("ETFs not currently in your portfolio that Claude recommends for long-term accumulation.")
+        st.caption("ETFs not currently in your portfolio — analyzed overnight.")
 
-        if st.button("Find ETF Opportunities", type="primary", key="find_etf_opps"):
-            new_etfs = find_new_etf_opportunities(held_etf_tickers)
-            opp_results = []
-            prog = st.progress(0)
-            for i, etf in enumerate(new_etfs):
-                ticker = etf["ticker"]
-                with st.spinner(f"Evaluating {ticker}..."):
-                    try:
-                        analysis = analyze_etf(ticker, etf.get("expense_ratio", 0))
-                        plan = generate_etf_plan(
-                            ticker=ticker,
-                            name=etf["name"],
-                            category=etf["category"],
-                            analysis=analysis,
-                            market_context=market,
-                            is_held=False,
-                        )
-                        plan["analysis"] = analysis
-                        opp_results.append(plan)
-                    except Exception as e:
-                        st.warning(f"{ticker}: {e}")
-                prog.progress((i + 1) / len(new_etfs))
+        etf_opps = load_etf_opportunity_plans()
+        opp_results = etf_opps.get("plans", [])
 
-            opp_results.sort(key=lambda x: (0 if x.get("worth_adding") else 1,
-                                             ["accumulate", "consider_adding", "hold", "reduce", "avoid"].index(
-                                                 x.get("recommendation", "hold"))))
-            st.session_state["etf_opp_results"] = opp_results
-
-        opp_results = st.session_state.get("etf_opp_results", [])
         if opp_results:
+            age = etf_opps.get("age_hours", 0)
+            st.success(f"Updated {age:.0f}h ago")
             worth = [r for r in opp_results if r.get("worth_adding")]
             not_worth = [r for r in opp_results if not r.get("worth_adding")]
 
@@ -958,10 +832,9 @@ elif page == "Long-Term ETF Plans":
                         st.markdown(f"**Long-term thesis:** {r.get('long_term_thesis', '')}")
                         if r.get("risks"):
                             st.warning(f"**Risk:** {r['risks']}")
-
             if not_worth:
                 with st.expander(f"Not recommended right now ({len(not_worth)} ETFs)"):
                     for r in not_worth:
                         st.markdown(f"**{r['ticker']}** — {r.get('add_rationale', 'No strong case for adding now')}")
         else:
-            st.info("Click **Find ETF Opportunities** to evaluate what else might be worth adding.")
+            st.info("ETF opportunity analysis will appear here after the first overnight run.")
