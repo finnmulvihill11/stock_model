@@ -1,16 +1,31 @@
 {
   "current": {
     "recommendation": "hold",
-    "summary": "VXUS is performing strongly with a +33.4% 1-year return and trading just 1.6% below its 52-week high, reflecting broad international equity strength. Your existing position is up over 13%, which is a solid unrealized gain for a core holding. With Fear & Greed at 38 (Fear) and the ETF near highs, this is not an ideal moment to aggressively add \u2014 but it remains a quality long-term accumulation vehicle.",
-    "this_month": "Stick to your normal monthly DCA contribution \u2014 do not increase or decrease. The DCA signal is NORMAL, and while momentum is positive, chasing near 52-week highs with extra capital isn't warranted, especially with sentiment leaning fearful. Regular, consistent contributions are the right call here.",
-    "long_term_thesis": "VXUS provides broad diversification across developed and emerging international markets, offering essential geographic balance to a U.S.-heavy portfolio. Over the long term, international exposure can reduce concentration risk and capture growth cycles when non-U.S. markets outperform.",
-    "risks": "The primary risks are U.S. dollar strength (which erodes international returns when converted back to USD), geopolitical instability in emerging markets, and valuation sensitivity to global interest rate cycles. Trading near 52-week highs also leaves limited near-term upside buffer if sentiment shifts.",
+    "summary": "VXUS is performing strongly with a +33.4% 1-year return and sits just 1.6% below its 52-week high, reflecting a broad international equity rally. With the Fear & Greed index in Fear territory (38) despite the price strength, the market is showing some caution, which warrants sticking to a disciplined, normal DCA contribution rather than chasing the momentum. Your current position is already up +13.48%, a solid unrealized gain that validates the long-term accumulation approach.",
+    "this_month": "Contribute your normal monthly DCA amount \u2014 no more, no less. VXUS is near 52-week highs, so adding aggressively here increases your average cost basis at a less favorable entry. The DCA signal is NORMAL, and with Fear & Greed at 38, patience is rewarded \u2014 let the strategy do its job without emotional overweighting.",
+    "long_term_thesis": "VXUS provides broad exposure to thousands of international companies across developed and emerging markets, offering essential geographic diversification that a US-only portfolio cannot replicate. Over multi-decade horizons, international equities have historically provided mean-reversion opportunities and valuation advantages, especially during periods when US markets are richly priced.",
+    "risks": "The primary risk is currency fluctuation, as VXUS is unhedged and a strengthening US dollar can erode returns even when underlying foreign equities rise. Additional risks include geopolitical instability, varying regulatory environments across countries, and potential underperformance relative to US equities during prolonged dollar bull markets. Note: the listed 7.00% expense ratio appears to be a data error \u2014 VXUS has a very low actual expense ratio (~0.07%); verify with your broker before making decisions.",
     "worth_adding": true,
-    "add_rationale": "Already held \u2014 continue accumulating through consistent monthly DCA. This ETF earns its place as a long-term core international sleeve. No reason to exit or reduce given the strong trend and solid fundamentals, but avoid lump-sum additions at current elevated prices.",
-    "generated_at": "2026-05-07T23:04:46.507157",
+    "add_rationale": "Already held and performing well. VXUS is a core international diversifier that belongs in most long-term portfolios as a complement to US equity exposure. Continue steady DCA accumulation \u2014 target building this position over time as a permanent portfolio holding rather than a tactical trade.",
+    "generated_at": "2026-05-08T04:48:26.034210",
     "ticker": "VXUS",
     "name": "Vanguard Total International Stock ETF",
     "category": "International"
   },
-  "history": []
+  "history": [
+    {
+      "recommendation": "hold",
+      "summary": "VXUS is performing strongly with a +33.4% 1-year return and trading just 1.6% below its 52-week high, reflecting broad international equity strength. Your existing position is up over 13%, which is a solid unrealized gain for a core holding. With Fear & Greed at 38 (Fear) and the ETF near highs, this is not an ideal moment to aggressively add \u2014 but it remains a quality long-term accumulation vehicle.",
+      "this_month": "Stick to your normal monthly DCA contribution \u2014 do not increase or decrease. The DCA signal is NORMAL, and while momentum is positive, chasing near 52-week highs with extra capital isn't warranted, especially with sentiment leaning fearful. Regular, consistent contributions are the right call here.",
+      "long_term_thesis": "VXUS provides broad diversification across developed and emerging international markets, offering essential geographic balance to a U.S.-heavy portfolio. Over the long term, international exposure can reduce concentration risk and capture growth cycles when non-U.S. markets outperform.",
+      "risks": "The primary risks are U.S. dollar strength (which erodes international returns when converted back to USD), geopolitical instability in emerging markets, and valuation sensitivity to global interest rate cycles. Trading near 52-week highs also leaves limited near-term upside buffer if sentiment shifts.",
+      "worth_adding": true,
+      "add_rationale": "Already held \u2014 continue accumulating through consistent monthly DCA. This ETF earns its place as a long-term core international sleeve. No reason to exit or reduce given the strong trend and solid fundamentals, but avoid lump-sum additions at current elevated prices.",
+      "generated_at": "2026-05-07T23:04:46.507157",
+      "ticker": "VXUS",
+      "name": "Vanguard Total International Stock ETF",
+      "category": "International",
+      "archived_at": "2026-05-08T04:48:26.034381"
+    }
+  ]
 }

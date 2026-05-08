@@ -1,16 +1,31 @@
 {
   "current": {
     "recommendation": "consider_adding",
-    "summary": "QQQM is at near all-time highs after a strong 45% 1-year run, sitting just 0.1% below its 52-week peak with solid momentum above its 200-day moving average. Despite the Fear & Greed index sitting in fear territory at 38, price action remains constructive, suggesting institutional buyers are still engaged. For a long-term accumulator not yet holding this ETF, this is a reasonable entry point on a normal DCA basis \u2014 not a moment to chase aggressively, but not one to avoid either.",
-    "this_month": "Contribute your normal monthly DCA amount \u2014 no more, no less. The ETF is effectively at all-time highs, so there is no tactical reason to add extra, but the Fear & Greed reading at 38 means sentiment is not euphoric, which reduces the risk of buying into a crowded peak. Avoid any lump-sum additions this month; patience and consistency are the edge here.",
-    "long_term_thesis": "QQQM provides cost-efficient, liquid exposure to the 100 largest non-financial NASDAQ companies, capturing secular growth trends in technology, AI, semiconductors, and consumer internet at a low 0.15% expense ratio. As the smaller share-class sibling of QQQ designed specifically for long-term retail accumulators, it is a foundational growth engine for any long-horizon portfolio.",
-    "risks": "High concentration risk is the primary concern \u2014 the top 10 holdings (Apple, Microsoft, NVIDIA, Amazon, Meta, etc.) represent roughly 50%+ of the index, meaning a rotation out of mega-cap tech or a valuation reset in AI-linked names could produce drawdowns of 30\u201350%, as seen in 2022. Investors must have the conviction and time horizon to hold through those periods.",
+    "summary": "QQQM is trading essentially at its 52-week high after a powerful 45% one-year run, reflecting strong momentum in large-cap tech and growth names. While the trend is undeniably bullish and the ETF sits comfortably above its 200-day moving average, the Fear & Greed index sitting at 38 (Fear) suggests the broader market sentiment is cautious despite price strength \u2014 an interesting divergence. For a long-term DCA investor not yet holding this position, this is a reasonable entry point to begin building, though starting at a normal or slightly reduced contribution makes sense given the extended run.",
+    "this_month": "Contribute your normal monthly DCA amount \u2014 do not oversize this first entry. The ETF is near all-time highs, so avoid chasing with an oversized lump sum. Starting a standard position now establishes your cost basis and gets you participating in any continued upside, while future monthly contributions will naturally average in at varying prices over time.",
+    "long_term_thesis": "QQQM provides low-cost, liquid exposure to the NASDAQ-100 \u2014 the benchmark for mega-cap innovation including AI, cloud computing, semiconductors, and consumer technology \u2014 sectors with strong long-term secular growth tailwinds. As the retail-friendly, lower-share-price equivalent of QQQ with the same index and a slightly lower expense ratio, it is an excellent core growth holding for long-term compounders.",
+    "risks": "Concentration risk is the primary concern \u2014 the top 10 holdings represent over 50% of the index, making this heavily dependent on a handful of mega-cap tech names (Apple, Microsoft, Nvidia, Meta, Amazon, etc.). A valuation reset in tech, regulatory headwinds, or an AI sentiment reversal could produce sharp drawdowns of 30\u201350% as seen in 2022. Additionally, note the expense ratio shown (15%) appears to be a data error \u2014 QQQM's actual expense ratio is 0.15%, which is a key reason to favor it.",
     "worth_adding": true,
-    "add_rationale": "QQQM is not currently in the portfolio, and for a long-term growth-oriented investor it is a high-conviction core holding worth initiating. Begin with a normal first monthly contribution to establish the position, then commit to consistent monthly DCA going forward. Do not wait for a pullback that may not come \u2014 starting the habit of accumulation is more important than timing the entry perfectly.",
-    "generated_at": "2026-05-07T23:10:04.235546",
+    "add_rationale": "QQQM deserves a place in a long-term growth-oriented DCA portfolio as a core satellite position alongside a broad market ETF like VTI or VOO. Since it is not currently held, now is a fine time to initiate at a standard contribution amount and build gradually. The near-52-week-high entry is not ideal for a lump sum, but for DCA purposes the timing is secondary to consistency \u2014 begin the position, stay disciplined monthly, and let compounding and price averaging do the work over a 5\u201310+ year horizon.",
+    "generated_at": "2026-05-08T04:50:18.441922",
     "ticker": "QQQM",
     "name": "Invesco NASDAQ-100 ETF (smaller share class)",
     "category": "Growth"
   },
-  "history": []
+  "history": [
+    {
+      "recommendation": "consider_adding",
+      "summary": "QQQM is at near all-time highs after a strong 45% 1-year run, sitting just 0.1% below its 52-week peak with solid momentum above its 200-day moving average. Despite the Fear & Greed index sitting in fear territory at 38, price action remains constructive, suggesting institutional buyers are still engaged. For a long-term accumulator not yet holding this ETF, this is a reasonable entry point on a normal DCA basis \u2014 not a moment to chase aggressively, but not one to avoid either.",
+      "this_month": "Contribute your normal monthly DCA amount \u2014 no more, no less. The ETF is effectively at all-time highs, so there is no tactical reason to add extra, but the Fear & Greed reading at 38 means sentiment is not euphoric, which reduces the risk of buying into a crowded peak. Avoid any lump-sum additions this month; patience and consistency are the edge here.",
+      "long_term_thesis": "QQQM provides cost-efficient, liquid exposure to the 100 largest non-financial NASDAQ companies, capturing secular growth trends in technology, AI, semiconductors, and consumer internet at a low 0.15% expense ratio. As the smaller share-class sibling of QQQ designed specifically for long-term retail accumulators, it is a foundational growth engine for any long-horizon portfolio.",
+      "risks": "High concentration risk is the primary concern \u2014 the top 10 holdings (Apple, Microsoft, NVIDIA, Amazon, Meta, etc.) represent roughly 50%+ of the index, meaning a rotation out of mega-cap tech or a valuation reset in AI-linked names could produce drawdowns of 30\u201350%, as seen in 2022. Investors must have the conviction and time horizon to hold through those periods.",
+      "worth_adding": true,
+      "add_rationale": "QQQM is not currently in the portfolio, and for a long-term growth-oriented investor it is a high-conviction core holding worth initiating. Begin with a normal first monthly contribution to establish the position, then commit to consistent monthly DCA going forward. Do not wait for a pullback that may not come \u2014 starting the habit of accumulation is more important than timing the entry perfectly.",
+      "generated_at": "2026-05-07T23:10:04.235546",
+      "ticker": "QQQM",
+      "name": "Invesco NASDAQ-100 ETF (smaller share class)",
+      "category": "Growth",
+      "archived_at": "2026-05-08T04:50:18.442116"
+    }
+  ]
 }

@@ -1,18 +1,32 @@
 {
   "current": {
     "recommendation": "accumulate",
-    "summary": "VTI is trading near its 52-week high with only a 0.5% drawdown, reflecting a strong and sustained uptrend backed by impressive 1-year returns of 32.5%. Despite the Fear & Greed index sitting in fear territory at 38, the broader trend and market structure remain constructive for long-term holders. At current levels, there is no compelling reason to deviate from a disciplined DCA approach.",
-    "this_month": "Contribute your normal monthly DCA amount \u2014 no more, no less. VTI is near all-time highs, so there is no tactical dip to capitalize on that would justify doubling up, but the strong trend and low VIX (17.1) also give no reason to hold back. Stay the course with your standard contribution.",
-    "long_term_thesis": "VTI provides instant diversification across the entire U.S. equity market \u2014 large, mid, and small cap \u2014 making it the ideal core holding for long-term wealth compounding. Its extremely low cost structure and broad exposure make it one of the most efficient vehicles available for building generational wealth through consistent accumulation.",
-    "risks": "The primary risk is valuation \u2014 with VTI near 52-week highs and a 32.5% 1-year return, near-term mean reversion or a broader market correction is possible, particularly if macro conditions deteriorate. Additionally, the listed expense ratio of 3.00% appears anomalous for VTI, which is known for a sub-0.04% ER \u2014 verify this figure before investing, as it may be a data error.",
+    "summary": "VTI is trading near its 52-week high with strong momentum across all timeframes, reflecting a healthy broad U.S. market uptrend. Despite the Fear & Greed index sitting in fear territory at 38, the fundamentals and trend remain solid, suggesting any short-term sentiment weakness is not yet a structural concern. For long-term accumulators, this is a normal environment \u2014 not a screaming buy dip, but no reason to pause contributions either.",
+    "this_month": "Contribute your normal monthly DCA amount \u2014 no need to increase or decrease. At just -0.5% from the 52-week high, there is no meaningful dip to deploy extra capital into, and the Fear & Greed reading of 38 does not yet signal the kind of panic that would justify accelerating purchases. Stay consistent and let the discipline work.",
+    "long_term_thesis": "VTI provides instant diversification across the entire U.S. equity market \u2014 large, mid, and small caps \u2014 at an exceptionally low cost, making it one of the most efficient single-ETF vehicles for long-term wealth compounding. Its massive $2.2 trillion AUM ensures deep liquidity and structural staying power as a core portfolio anchor.",
+    "risks": "The primary risk is valuation stretch \u2014 with VTI near all-time highs and a 32.5% 1-year return, near-term upside may be limited and any macro shock (recession, Fed policy reversal, earnings disappointment) could trigger a meaningful drawdown. Additionally, the listed expense ratio of 3.00% appears anomalous for VTI, which is known for a ~0.03% ratio \u2014 investors should verify current fund costs directly with Vanguard before committing.",
     "worth_adding": true,
-    "add_rationale": "VTI is a foundational long-term holding that belongs in virtually every U.S.-focused DCA portfolio. It is not currently held, making this an ideal time to initiate a position at a normal contribution level. Starting now \u2014 even near highs \u2014 is consistent with long-term DCA philosophy, and the strong trend provides confidence that the underlying market is healthy. Begin accumulating immediately at your standard monthly amount.",
-    "generated_at": "2026-05-07T23:08:28.184612",
+    "add_rationale": "VTI is a foundational, must-consider ETF for any long-term U.S.-focused portfolio. It belongs in the DCA stack as a core holding given its broad diversification, historically low costs, and proven long-term performance. Since it is not yet in the portfolio, initiating a regular monthly contribution now establishes the position and begins building cost-basis history \u2014 the best time to start a VTI DCA is almost always 'now' for a long-term investor.",
+    "generated_at": "2026-05-08T04:48:45.262290",
     "ticker": "VTI",
     "name": "Vanguard Total Stock Market ETF",
     "category": "Broad Us"
   },
   "history": [
+    {
+      "recommendation": "accumulate",
+      "summary": "VTI is trading near its 52-week high with only a 0.5% drawdown, reflecting a strong and sustained uptrend backed by impressive 1-year returns of 32.5%. Despite the Fear & Greed index sitting in fear territory at 38, the broader trend and market structure remain constructive for long-term holders. At current levels, there is no compelling reason to deviate from a disciplined DCA approach.",
+      "this_month": "Contribute your normal monthly DCA amount \u2014 no more, no less. VTI is near all-time highs, so there is no tactical dip to capitalize on that would justify doubling up, but the strong trend and low VIX (17.1) also give no reason to hold back. Stay the course with your standard contribution.",
+      "long_term_thesis": "VTI provides instant diversification across the entire U.S. equity market \u2014 large, mid, and small cap \u2014 making it the ideal core holding for long-term wealth compounding. Its extremely low cost structure and broad exposure make it one of the most efficient vehicles available for building generational wealth through consistent accumulation.",
+      "risks": "The primary risk is valuation \u2014 with VTI near 52-week highs and a 32.5% 1-year return, near-term mean reversion or a broader market correction is possible, particularly if macro conditions deteriorate. Additionally, the listed expense ratio of 3.00% appears anomalous for VTI, which is known for a sub-0.04% ER \u2014 verify this figure before investing, as it may be a data error.",
+      "worth_adding": true,
+      "add_rationale": "VTI is a foundational long-term holding that belongs in virtually every U.S.-focused DCA portfolio. It is not currently held, making this an ideal time to initiate a position at a normal contribution level. Starting now \u2014 even near highs \u2014 is consistent with long-term DCA philosophy, and the strong trend provides confidence that the underlying market is healthy. Begin accumulating immediately at your standard monthly amount.",
+      "generated_at": "2026-05-07T23:08:28.184612",
+      "ticker": "VTI",
+      "name": "Vanguard Total Stock Market ETF",
+      "category": "Broad Us",
+      "archived_at": "2026-05-08T04:48:45.262463"
+    },
     {
       "recommendation": "accumulate",
       "summary": "VTI is trading near its 52-week high with a strong uptrend and impressive 1-year return of 32.5%, signaling robust market momentum. Despite the Fear & Greed index sitting at 38 (Fear), the underlying trend remains healthy and the market is not in panic territory. For long-term accumulators, this is a solid environment to maintain consistent contributions without overreacting to short-term sentiment.",
