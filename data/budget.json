@@ -2,5 +2,18 @@
   "total": 2000,
   "period_months": 3,
   "start_date": "2026-05-07",
-  "allocations": []
+  "allocations": [
+    {
+      "date": "2026-05-08",
+      "ticker": "XLK",
+      "shares": 1,
+      "amount": -174.05,
+      "type": "swing",
+      "action": "sell",
+      "sell_price": 174.05,
+      "avg_cost": 142.63,
+      "realized_pnl": 31.42,
+      "realized_pnl_pct": 22.03
+    }
+  ]
 }
