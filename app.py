@@ -141,9 +141,11 @@ if page == "Strategy Dashboard":
                     record_allocation(log_ticker, int(log_shares), log_shares * log_price, log_type)
                     update_holding_after_buy(log_ticker, int(log_shares), log_price,
                                              is_dca=(log_type == "etf"))
-                    sync_budget()
-                    sync_config()
-                    st.success(f"Logged buy: {log_shares} shares of {log_ticker} @ ${log_price:.2f} — holdings updated.")
+                    synced = sync_budget() and sync_config()
+                    if synced:
+                        st.success(f"Logged buy: {log_shares} shares of {log_ticker} @ ${log_price:.2f} — holdings updated and saved.")
+                    else:
+                        st.warning(f"Logged buy locally but GitHub sync failed — check GH_PAT secret.")
                     st.rerun()
 
     with col_sell:
@@ -166,8 +168,9 @@ if page == "Strategy Dashboard":
                 if st.form_submit_button("Log Sell", type="primary"):
                     result = record_sell(sell_ticker, int(sell_shares), sell_price, avg_cost_input)
                     holding_result = update_holding_after_sell(sell_ticker, int(sell_shares))
-                    sync_budget()
-                    sync_config()
+                    synced = sync_budget() and sync_config()
+                    if not synced:
+                        st.warning("Logged sell locally but GitHub sync failed — check GH_PAT secret.")
                     removed = holding_result.get("removed", False)
                     st.markdown(f"Logged sell: **{sell_shares} shares of {sell_ticker}** @ ${sell_price:.2f}")
                     st.markdown(f"Proceeds: **${result['proceeds']:,.2f}** returned to swing budget")

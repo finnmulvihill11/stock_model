@@ -22,7 +22,14 @@ SYNC_FILES = [
 
 
 def _get_token() -> str:
-    return os.getenv("GH_PAT", "")
+    token = os.getenv("GH_PAT", "")
+    if not token:
+        try:
+            import streamlit as st
+            token = st.secrets.get("GH_PAT", "")
+        except Exception:
+            pass
+    return token
 
 
 def _get_file_sha(path: str, token: str) -> str | None:
