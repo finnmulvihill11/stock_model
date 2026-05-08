@@ -286,7 +286,7 @@ elif page == "Signal Dashboard":
             col1.markdown(f"**{r['ticker']}**")
             col2.markdown(tier_badge(tier), unsafe_allow_html=True)
             col3.markdown(f"${sig.get('price', 0):,.2f}")
-            if sizing and sizing.get("suggested_dollars", 0) > 0:
+            if tier in ("Strong Buy", "Buy") and sizing and sizing.get("suggested_dollars", 0) > 0:
                 col4.markdown(f"**${sizing['suggested_dollars']:,.0f}**<br><small>{sizing['suggested_shares']} shares</small>", unsafe_allow_html=True)
             else:
                 col4.markdown("—")
@@ -325,7 +325,7 @@ elif page == "Ticker Detail":
         col1.markdown(tier_badge(final_tier), unsafe_allow_html=True)
         col2.metric("Price", f"${sig['price']:,.2f}")
         col2.metric("RSI", f"{sig['rsi']}" if sig['rsi'] else "N/A")
-        if sizing and sizing.get("suggested_dollars", 0) > 0:
+        if final_tier in ("Strong Buy", "Buy") and sizing and sizing.get("suggested_dollars", 0) > 0:
             col3.metric("Suggested Buy", f"${sizing['suggested_dollars']:,.0f}",
                        f"{sizing['suggested_shares']} shares")
         st.divider()
@@ -481,18 +481,27 @@ elif page == "Swing Trade Plans":
 
                 for item in sorted(priority_actions, key=lambda x: x.get("rank", 99)):
                     action = item.get("action", "HOLD").upper()
-                    ticker = item.get("ticker", "")
+                    ticker_pa = item.get("ticker", "")
                     instruction = item.get("instruction", "")
                     urgency = item.get("urgency", "monitor")
                     a_color = action_colors_map.get(action, "#6b7280")
                     u_color = urgency_colors.get(urgency, "#6b7280")
                     rank = item.get("rank", "—")
 
+                    # Look up suggested amount for buy actions
+                    amount_str = ""
+                    if action in ("BUY", "ADD") and ticker_pa and ticker_pa != "—":
+                        cached = load_ticker_analysis(ticker_pa)
+                        if cached:
+                            sz = cached.get("sizing") or cached.get("signal", {}).get("sizing", {})
+                            if sz and sz.get("suggested_dollars", 0) > 0:
+                                amount_str = f"&nbsp; <span style='color:#16a34a;font-weight:bold'>${sz['suggested_dollars']:,.0f} ({sz['suggested_shares']} shares)</span>"
+
                     c1, c2, c3, c4 = st.columns([0.5, 1.2, 1.2, 4])
                     c1.markdown(f"**#{rank}**")
                     c2.markdown(f"<span style='background:{a_color};color:white;padding:3px 10px;border-radius:6px;font-weight:bold'>{action}</span>", unsafe_allow_html=True)
-                    c3.markdown(f"**{ticker}**")
-                    c4.markdown(f"{instruction} &nbsp; <span style='background:{u_color};color:white;padding:2px 8px;border-radius:10px;font-size:12px'>{urgency}</span>", unsafe_allow_html=True)
+                    c3.markdown(f"**{ticker_pa}**")
+                    c4.markdown(f"{instruction}{amount_str} &nbsp; <span style='background:{u_color};color:white;padding:2px 8px;border-radius:10px;font-size:12px'>{urgency}</span>", unsafe_allow_html=True)
 
                 st.divider()
 
