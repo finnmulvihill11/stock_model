@@ -32,7 +32,7 @@ portfolio:
       avg_cost: 97.18
 
   dca_tickers: [VOO, VXUS]
-  swing_tickers: [INTU, MSFT, CMG, ABT, TEM, XLK]
+  swing_tickers: [INTU, MSFT, CMG, ABT, TEM, XLK, DECK]
   dca_cadence: monthly
 
   max_position_pct: 0.25
