@@ -55,7 +55,7 @@
       ],
       "earnings_status": "past",
       "next_earnings_date": "2026-04-29",
-      "days_to_earnings": -9
+      "days_to_earnings": -12
     }
   },
   "news": {
@@ -63,16 +63,17 @@
     "health": "healthy",
     "key_events": [
       "No recent news headlines were provided for analysis",
-      "Chipotle continues to operate its fast-casual Mexican restaurant chain with a focus on digital ordering and responsibly sourced ingredients"
+      "Chipotle continues to operate its large-scale fast-casual restaurant chain with digital ordering capabilities across its growing store footprint",
+      "Company has historically focused on menu innovation, throughput improvements, and international expansion as growth levers"
     ],
-    "macro_context": "Fast-casual dining faces mixed macro conditions including persistent consumer spending pressure from inflation and elevated interest rates, though value-conscious consumers may trade down from full-service restaurants into Chipotle's price tier.",
-    "competitive_notes": "Chipotle maintains a strong moat in the fast-casual Mexican segment through brand loyalty, digital ecosystem strength, and its 'Responsibly Raised' sourcing narrative, though it faces ongoing competition from Qdoba, Moe's, and broader fast-casual rivals.",
+    "macro_context": "Fast-casual restaurants face a mixed macro environment with easing food inflation providing margin relief, but consumer spending fatigue and value-seeking behavior pressuring traffic amid elevated menu prices.",
+    "competitive_notes": "Chipotle maintains a strong brand moat in the fast-casual Mexican segment with scale advantages, a loyal digital rewards base, and operational efficiency investments (Autocado, dual-sided grills) that differentiate it from smaller rivals.",
     "red_flags": [
-      "No live news data provided \u2014 analysis is based on known fundamentals only, limiting recency and accuracy",
-      "Valuation historically trades at a significant premium to peers, leaving limited margin of safety if growth slows",
-      "Menu price increases in prior years may be approaching consumer resistance thresholds"
+      "No current news provided \u2014 analysis relies on fundamental context only, limiting timeliness",
+      "Valuation has historically traded at a significant premium (40-60x forward earnings), leaving limited margin of safety if growth disappoints",
+      "Consumer trade-down risk if macroeconomic conditions deteriorate further"
     ],
-    "verdict": "Chipotle remains a fundamentally strong long-term compounder with proven unit economics and digital growth drivers, but the absence of current news data and its historically rich valuation warrant a cautious, valuation-disciplined entry approach for mid-to-long-term investors.",
+    "verdict": "Chipotle remains a fundamentally sound, competitively advantaged fast-casual operator with long-term unit growth potential, but the premium valuation demands consistent execution and a patient entry point for mid-to-long-term investors.",
     "confidence": "low",
     "ticker": "CMG"
   },
@@ -90,5 +91,5 @@
     "note": "36 shares @ $32.49 = $1,170 | $4 swing budget remaining after"
   },
   "is_dca": false,
-  "saved_at": "2026-05-08T22:56:22.951586"
+  "saved_at": "2026-05-11T02:30:28.182973"
 }

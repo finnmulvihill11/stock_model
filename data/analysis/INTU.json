@@ -16,7 +16,7 @@
       "MACD: no bullish crossover or valley",
       "RSI Divergence: no bullish divergence detected",
       "200MA: price below 200MA \u2014 potential falling knife",
-      "Volume: below average (0.88x) \u2014 low conviction"
+      "Volume: below average (0.89x) \u2014 low conviction"
     ],
     "price": 396.31,
     "rsi": 46.9,
@@ -43,7 +43,7 @@
   },
   "earnings": {
     "proceed": false,
-    "reason": "Earnings in 12 days \u2014 wait for results before acting",
+    "reason": "Earnings in 9 days \u2014 wait for results before acting",
     "verdict": {
       "ticker": "INTU",
       "verdict": "consider",
@@ -54,28 +54,28 @@
       ],
       "earnings_status": "imminent",
       "next_earnings_date": "2026-05-20",
-      "days_to_earnings": 12
+      "days_to_earnings": 9
     }
   },
   "news": {
     "sentiment": "neutral",
     "health": "healthy",
     "key_events": [
-      "No recent news headlines were provided for analysis, limiting event-driven insight",
-      "Intuit continues to operate its four core segments: Global Business Solutions (QuickBooks), Consumer (TurboTax), Credit Karma, and ProTax",
-      "Ongoing integration of AI and generative AI features (Intuit Assist) across its product suite represents a key strategic initiative",
-      "Recent quarters showed softness in Credit Karma segment due to tighter consumer credit environment"
+      "No recent news headlines were provided for analysis, limiting event-driven insights",
+      "Intuit continues to expand AI-driven features across QuickBooks, TurboTax, and Credit Karma under its 'AI-driven expert platform' strategy",
+      "Intuit has faced scrutiny over TurboTax free-file marketing practices following FTC settlements in prior periods",
+      "Credit Karma segment has seen pressure from tighter consumer credit markets and reduced loan origination volumes"
     ],
-    "macro_context": "Rising interest rates and cautious consumer credit markets pressure Credit Karma, while SMB digitization trends and tax complexity continue to support QuickBooks and TurboTax demand, though AI disruption poses a longer-term wildcard for tax preparation.",
-    "competitive_notes": "Intuit holds dominant market positions in small business accounting (QuickBooks) and consumer tax filing (TurboTax), but faces intensifying competition from AI-native startups, FreshBooks, Xero, and the IRS Direct File program which directly threatens the Consumer segment.",
+    "macro_context": "Rising interest rates and tighter consumer credit conditions pressure Credit Karma's fintech segment, while SMB digital adoption and AI integration in financial software remain structural tailwinds for QuickBooks and the broader platform.",
+    "competitive_notes": "Intuit holds a dominant moat in SMB accounting (QuickBooks) and DIY tax prep (TurboTax), but faces intensifying competition from Xero, FreshBooks, and AI-native fintech entrants that could erode pricing power over time.",
     "red_flags": [
-      "IRS Direct File program expansion is a structural threat to TurboTax revenue long-term",
-      "Credit Karma segment remains vulnerable to macro credit tightening and reduced consumer lending activity",
-      "Premium valuation (historically 30-40x forward earnings) leaves limited margin of safety if growth disappoints",
-      "AI-native competitors could disrupt SMB accounting workflows over a 3-5 year horizon"
+      "No current news headlines available, reducing analytical confidence in near-term catalysts",
+      "Credit Karma revenue remains cyclically sensitive to consumer credit and advertising market conditions",
+      "Premium valuation (historically 30-40x forward earnings) leaves limited margin of safety if growth decelerates",
+      "Regulatory risk around tax-filing and financial services products remains an ongoing overhang"
     ],
-    "verdict": "Intuit is a high-quality, competitively entrenched software compounder with durable cash flows and strong AI integration efforts, making it a solid mid-to-long-term hold, though investors should monitor the IRS Direct File threat and Credit Karma recovery before initiating at current premium multiples.",
-    "confidence": "medium",
+    "verdict": "Intuit is a high-quality compounder with durable moats in SMB and tax software, increasingly reinforced by AI integration, making it suitable for long-term investors willing to accept a premium valuation and moderate near-term macro headwinds.",
+    "confidence": "low",
     "ticker": "INTU"
   },
   "relative_strength": {
@@ -92,5 +92,5 @@
     "note": "2 shares @ $396.31 = $793 | $381 swing budget remaining after"
   },
   "is_dca": false,
-  "saved_at": "2026-05-08T22:54:09.152217"
+  "saved_at": "2026-05-11T02:28:15.448437"
 }
