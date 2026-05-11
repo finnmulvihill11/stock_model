@@ -320,6 +320,13 @@ elif page == "Signal Dashboard":
                 col4.markdown("—")
             top_reasons = sig.get("reasons", [])[:3]
             col5.markdown(" · ".join(top_reasons) if top_reasons else "—")
+
+            # Earnings proximity warning
+            days_away = r.get("earnings", {}).get("verdict", {}).get("days_to_earnings")
+            if days_away is not None and 0 <= days_away <= 3:
+                st.error(f"EARNINGS IN {days_away} DAY{'S' if days_away != 1 else ''} — {r['ticker']}: decide whether to hold or exit before results.")
+            elif days_away is not None and days_away <= 7:
+                st.warning(f"Earnings in {days_away} days — {r['ticker']}")
             st.divider()
     else:
         st.info("Click **Run Analysis** to evaluate all holdings.")
@@ -424,8 +431,11 @@ elif page == "Ticker Detail":
             rs_label = rs.get("label", "N/A").title()
             rs_val = rs.get("relative_strength", "N/A")
             st.markdown(f"**Relative Strength (3m):** {rs_label} ({rs_val}%)")
-            if earnings["verdict"]["earnings_status"] == "imminent":
-                st.warning(f"⚠ Earnings in {earnings['verdict']['days_to_earnings']} days")
+            days_to_earnings = earnings["verdict"].get("days_to_earnings")
+            if days_to_earnings is not None and 0 <= days_to_earnings <= 3:
+                st.error(f"EARNINGS IN {days_to_earnings} DAY{'S' if days_to_earnings != 1 else ''} — decide whether to hold or exit before results.")
+            elif earnings["verdict"]["earnings_status"] == "imminent":
+                st.warning(f"Earnings in {days_to_earnings} days")
             st.info(f"**Claude verdict:** {news.get('verdict', '')}")
             if news.get("red_flags"):
                 for flag in news["red_flags"]:
