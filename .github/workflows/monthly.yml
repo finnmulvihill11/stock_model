@@ -31,5 +31,5 @@ jobs:
           git config user.email "bot@stock-model"
           git add data/
           git diff --staged --quiet || git commit -m "chore: monthly ETF analysis $(date +'%Y-%m-%d')"
-          git pull origin master --rebase -X theirs
+          git pull origin master --no-rebase -X ours
           git push
