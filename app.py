@@ -124,7 +124,7 @@ if page == "Strategy Dashboard":
             st.dataframe(alloc_df, use_container_width=True, hide_index=True)
 
     # ── Log trades ────────────────────────────────────────────────────────────
-    from src.budget import record_sell, get_sell_log
+    from src.budget import record_sell, get_sell_log, get_buy_log
     from src.plans import save_plan, get_plan
 
     col_buy, col_sell = st.columns(2)
@@ -181,6 +181,22 @@ if page == "Strategy Dashboard":
                     plan["status"] = "closed" if removed else "holding"
                     save_plan(sell_ticker, plan)
                     st.rerun()
+
+    # ── Buy log ───────────────────────────────────────────────────────────────
+    buys = get_buy_log()
+    if buys:
+        st.subheader("Buy Log")
+        buy_rows = []
+        for b in sorted(buys, key=lambda x: x["date"], reverse=True):
+            buy_rows.append({
+                "Date": b["date"],
+                "Ticker": b["ticker"],
+                "Shares": b["shares"],
+                "Price": f"${b['amount'] / b['shares']:,.2f}" if b["shares"] else "—",
+                "Total": f"${b['amount']:,.2f}",
+                "Type": b.get("type", "swing"),
+            })
+        st.dataframe(pd.DataFrame(buy_rows), use_container_width=True, hide_index=True)
 
     # ── Sell log ──────────────────────────────────────────────────────────────
     sells = get_sell_log()

@@ -117,6 +117,11 @@ def get_sell_log() -> list[dict]:
     return [a for a in data.get("allocations", []) if a.get("action") == "sell"]
 
 
+def get_buy_log() -> list[dict]:
+    data = _load()
+    return [a for a in data.get("allocations", []) if a.get("action") == "buy"]
+
+
 def get_swing_budget_remaining() -> float:
     """Remaining swing budget = swing allocation minus net swing spend (buys - sell proceeds)."""
     data = _load()
