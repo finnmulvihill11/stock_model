@@ -7,25 +7,25 @@
     "buy_score": 0.25,
     "sell_score": 0.43,
     "reasons": [
-      "BB Width: squeeze active (width=0.1002)",
+      "BB Width: squeeze active (width=0.1160)",
       "50/200MA: converging upward toward golden cross"
     ],
     "misses": [
-      "BB: price not near lower band (pct=0.46)",
-      "RSI: not in buy zone (45.8, need 20-30)",
+      "BB: price not near lower band (pct=0.56)",
+      "RSI: not in buy zone (46.9, need 20-30)",
       "MACD: no bullish crossover or valley",
       "RSI Divergence: no bullish divergence detected",
       "200MA: price below 200MA \u2014 potential falling knife",
-      "Volume: below average (0.63x) \u2014 low conviction"
+      "Volume: below average (0.88x) \u2014 low conviction"
     ],
-    "price": 393.29,
-    "rsi": 45.8,
-    "atr": 17.62,
+    "price": 396.31,
+    "rsi": 46.9,
+    "atr": 18.14,
     "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 2,
-      "suggested_dollars": 786.58,
-      "note": "2 shares @ $393.29 = $787 | $193 swing budget remaining after"
+      "suggested_dollars": 792.62,
+      "note": "2 shares @ $396.31 = $793 | $381 swing budget remaining after"
     }
   },
   "fundamentals": {
@@ -43,7 +43,7 @@
   },
   "earnings": {
     "proceed": false,
-    "reason": "Earnings in 9 days \u2014 wait for results before acting",
+    "reason": "Earnings in 12 days \u2014 wait for results before acting",
     "verdict": {
       "ticker": "INTU",
       "verdict": "consider",
@@ -54,33 +54,43 @@
       ],
       "earnings_status": "imminent",
       "next_earnings_date": "2026-05-20",
-      "days_to_earnings": 9
+      "days_to_earnings": 12
     }
   },
   "news": {
-    "ticker": "INTU",
     "sentiment": "neutral",
-    "health": "neutral",
-    "key_events": [],
-    "macro_context": "Analysis unavailable",
-    "competitive_notes": "Analysis unavailable",
-    "red_flags": [],
-    "verdict": "Claude API error: Error code: 500 - {'type': 'error', 'error': {'type': 'api_error', 'message': 'Internal server error'}, 'request_id': 'req_011Cawbp8e8JJwvMrp23fnpx'}",
-    "confidence": "low"
+    "health": "healthy",
+    "key_events": [
+      "No recent news headlines were provided for analysis, limiting event-driven insight",
+      "Intuit continues to operate its four core segments: Global Business Solutions (QuickBooks), Consumer (TurboTax), Credit Karma, and ProTax",
+      "Ongoing integration of AI and generative AI features (Intuit Assist) across its product suite represents a key strategic initiative",
+      "Recent quarters showed softness in Credit Karma segment due to tighter consumer credit environment"
+    ],
+    "macro_context": "Rising interest rates and cautious consumer credit markets pressure Credit Karma, while SMB digitization trends and tax complexity continue to support QuickBooks and TurboTax demand, though AI disruption poses a longer-term wildcard for tax preparation.",
+    "competitive_notes": "Intuit holds dominant market positions in small business accounting (QuickBooks) and consumer tax filing (TurboTax), but faces intensifying competition from AI-native startups, FreshBooks, Xero, and the IRS Direct File program which directly threatens the Consumer segment.",
+    "red_flags": [
+      "IRS Direct File program expansion is a structural threat to TurboTax revenue long-term",
+      "Credit Karma segment remains vulnerable to macro credit tightening and reduced consumer lending activity",
+      "Premium valuation (historically 30-40x forward earnings) leaves limited margin of safety if growth disappoints",
+      "AI-native competitors could disrupt SMB accounting workflows over a 3-5 year horizon"
+    ],
+    "verdict": "Intuit is a high-quality, competitively entrenched software compounder with durable cash flows and strong AI integration efforts, making it a solid mid-to-long-term hold, though investors should monitor the IRS Direct File threat and Credit Karma recovery before initiating at current premium multiples.",
+    "confidence": "medium",
+    "ticker": "INTU"
   },
   "relative_strength": {
     "ticker": "INTU",
-    "stock_return_3m": -9.83,
-    "benchmark_return_3m": 6.83,
-    "relative_strength": -16.65,
+    "stock_return_3m": -10.42,
+    "benchmark_return_3m": 7.1,
+    "relative_strength": -17.52,
     "label": "underperforming"
   },
   "final_tier": "Hold",
   "sizing": {
     "suggested_shares": 2,
-    "suggested_dollars": 786.58,
-    "note": "2 shares @ $393.29 = $787 | $193 swing budget remaining after"
+    "suggested_dollars": 792.62,
+    "note": "2 shares @ $396.31 = $793 | $381 swing budget remaining after"
   },
   "is_dca": false,
-  "saved_at": "2026-05-11T22:51:45.046678"
+  "saved_at": "2026-05-08T22:54:09.152217"
 }

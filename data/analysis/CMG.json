@@ -3,29 +3,29 @@
   "signal": {
     "ticker": "CMG",
     "direction": "buy",
-    "tier": "Watch",
-    "buy_score": 0.5,
+    "tier": "Hold",
+    "buy_score": 0.38,
     "sell_score": 0.29,
     "reasons": [
-      "BB: price near lower band (pct=0.14)",
-      "RSI: oversold zone (28.4)",
-      "RSI Divergence: Price lower low (30.86 < 32.52) but RSI higher low (27.1 > 25.6)",
-      "Volume: above average (1.06x)"
+      "BB Width: squeeze active (width=0.1501)",
+      "MACD: histogram at valley / turning up",
+      "RSI Divergence: Price lower low (30.86 < 32.52) but RSI higher low (27.1 > 25.6)"
     ],
     "misses": [
-      "BB Width: bands expanding, not squeezing",
-      "MACD: no bullish crossover or valley",
+      "BB: price not near lower band (pct=0.20)",
+      "RSI: not in buy zone (31.9, need 20-30)",
       "200MA: price below 200MA \u2014 potential falling knife",
-      "Death cross active: 50MA (33.81) below 200MA (37.37)"
+      "Death cross active: 50MA (33.91) below 200MA (37.44)",
+      "Volume: below average (0.75x) \u2014 low conviction"
     ],
-    "price": 31.92,
-    "rsi": 28.4,
-    "atr": 1.19,
-    "final_tier": "Watch",
+    "price": 32.49,
+    "rsi": 31.9,
+    "atr": 1.23,
+    "final_tier": "Hold",
     "sizing": {
-      "suggested_shares": 30,
-      "suggested_dollars": 957.6,
-      "note": "30 shares @ $31.92 = $958 | $22 swing budget remaining after"
+      "suggested_shares": 36,
+      "suggested_dollars": 1169.64,
+      "note": "36 shares @ $32.49 = $1,170 | $4 swing budget remaining after"
     }
   },
   "fundamentals": {
@@ -55,7 +55,7 @@
       ],
       "earnings_status": "past",
       "next_earnings_date": "2026-04-29",
-      "days_to_earnings": -12
+      "days_to_earnings": -9
     }
   },
   "news": {
@@ -63,35 +63,32 @@
     "health": "healthy",
     "key_events": [
       "No recent news headlines were provided for analysis",
-      "Chipotle continues to operate a large and growing portfolio of company-owned restaurants with strong digital ordering infrastructure",
-      "CMG completed a 50-for-1 stock split in June 2024, improving share accessibility for retail investors",
-      "Ongoing expansion of Chipotlane (drive-thru digital pickup) locations supporting unit growth and throughput"
+      "Chipotle continues to operate its fast-casual Mexican restaurant chain with a focus on digital ordering and responsibly sourced ingredients"
     ],
-    "macro_context": "The restaurant sector faces persistent headwinds from cost-conscious consumers trading down or reducing dining frequency amid elevated food-at-home vs. food-away-from-home price differentials, though Chipotle's relative value positioning versus fast casual peers offers some insulation.",
-    "competitive_notes": "Chipotle holds a dominant position in the fast-casual Mexican segment with strong brand loyalty, a scaled digital ecosystem (~35%+ digital sales mix), and a defensible 'Food With Integrity' sourcing narrative that differentiates it from lower-cost QSR competitors like Taco Bell.",
+    "macro_context": "Fast-casual dining faces mixed macro conditions including persistent consumer spending pressure from inflation and elevated interest rates, though value-conscious consumers may trade down from full-service restaurants into Chipotle's price tier.",
+    "competitive_notes": "Chipotle maintains a strong moat in the fast-casual Mexican segment through brand loyalty, digital ecosystem strength, and its 'Responsibly Raised' sourcing narrative, though it faces ongoing competition from Qdoba, Moe's, and broader fast-casual rivals.",
     "red_flags": [
-      "No current news provided \u2014 analysis relies on known fundamentals, reducing recency confidence",
-      "Elevated valuation multiples (historically 50-60x forward earnings) leave little margin of safety if growth decelerates",
-      "Consumer spending fatigue and menu price sensitivity could pressure same-store sales growth",
-      "Food cost inflation (avocados, beef, dairy) remains a structural margin risk"
+      "No live news data provided \u2014 analysis is based on known fundamentals only, limiting recency and accuracy",
+      "Valuation historically trades at a significant premium to peers, leaving limited margin of safety if growth slows",
+      "Menu price increases in prior years may be approaching consumer resistance thresholds"
     ],
-    "verdict": "Chipotle remains a high-quality compounder with strong unit economics, runway for domestic and international expansion, and a durable brand moat, making it a solid long-term hold, but initiating a new position requires patience for a better entry point given its premium valuation.",
+    "verdict": "Chipotle remains a fundamentally strong long-term compounder with proven unit economics and digital growth drivers, but the absence of current news data and its historically rich valuation warrant a cautious, valuation-disciplined entry approach for mid-to-long-term investors.",
     "confidence": "low",
     "ticker": "CMG"
   },
   "relative_strength": {
     "ticker": "CMG",
-    "stock_return_3m": -19.37,
-    "benchmark_return_3m": 6.83,
-    "relative_strength": -26.2,
+    "stock_return_3m": -17.52,
+    "benchmark_return_3m": 7.1,
+    "relative_strength": -24.61,
     "label": "underperforming"
   },
-  "final_tier": "Watch",
+  "final_tier": "Hold",
   "sizing": {
-    "suggested_shares": 30,
-    "suggested_dollars": 957.6,
-    "note": "30 shares @ $31.92 = $958 | $22 swing budget remaining after"
+    "suggested_shares": 36,
+    "suggested_dollars": 1169.64,
+    "note": "36 shares @ $32.49 = $1,170 | $4 swing budget remaining after"
   },
   "is_dca": false,
-  "saved_at": "2026-05-11T22:53:46.101315"
+  "saved_at": "2026-05-08T22:56:22.951586"
 }

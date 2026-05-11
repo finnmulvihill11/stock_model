@@ -4,28 +4,28 @@
     "ticker": "ABT",
     "direction": "buy",
     "tier": "Hold",
-    "buy_score": 0.38,
-    "sell_score": 0.29,
+    "buy_score": 0.25,
+    "sell_score": 0.14,
     "reasons": [
-      "BB: price near lower band (pct=0.05)",
-      "RSI: oversold zone (22.7)",
-      "Volume: above average (1.13x)"
+      "BB: price near lower band (pct=0.08)",
+      "RSI: oversold zone (21.0)"
     ],
     "misses": [
       "BB Width: bands expanding, not squeezing",
       "MACD: no bullish crossover or valley",
       "RSI Divergence: no bullish divergence detected",
       "200MA: price below 200MA \u2014 potential falling knife",
-      "Death cross active: 50MA (100.16) below 200MA (118.15)"
+      "Death cross active: 50MA (100.82) below 200MA (118.36)",
+      "Volume: below average (0.76x) \u2014 low conviction"
     ],
-    "price": 82.56,
-    "rsi": 22.7,
-    "atr": 2.08,
+    "price": 84.32,
+    "rsi": 21.0,
+    "atr": 2.14,
     "final_tier": "Hold",
     "sizing": {
-      "suggested_shares": 11,
-      "suggested_dollars": 908.16,
-      "note": "11 shares @ $82.56 = $908 | $72 swing budget remaining after"
+      "suggested_shares": 13,
+      "suggested_dollars": 1096.16,
+      "note": "13 shares @ $84.32 = $1,096 | $78 swing budget remaining after"
     }
   },
   "fundamentals": {
@@ -54,44 +54,44 @@
       ],
       "earnings_status": "past",
       "next_earnings_date": "2026-04-16",
-      "days_to_earnings": -25
+      "days_to_earnings": -22
     }
   },
   "news": {
     "sentiment": "neutral",
     "health": "healthy",
     "key_events": [
-      "No recent news headlines provided \u2014 analysis based on fundamental company profile and sector context only",
-      "Abbott operates diversified segments (Medical Devices, Diagnostics, Nutrition, Established Pharma) providing revenue stability",
-      "Post-COVID diagnostic revenue normalization has been a multi-year headwind as pandemic-era testing demand faded",
-      "FreeStyle Libre continuous glucose monitoring (CGM) system remains a high-growth driver within the Medical Devices segment",
-      "Abbott has faced legacy litigation related to preterm infant formula (Similac) NEC lawsuits, representing an ongoing legal risk"
+      "No recent news headlines provided \u2014 analysis based on fundamental business profile only",
+      "Abbott operates four diversified segments: Medical Devices, Diagnostics, Nutritional Products, and Established Pharmaceuticals",
+      "FreeStyle Libre CGM platform remains a high-growth driver in the Medical Devices segment with expanding global adoption",
+      "Post-COVID diagnostic revenue normalization has been a known headwind as pandemic-era testing demand subsided",
+      "Abbott has maintained a strong dividend growth track record as a Dividend King with 50+ consecutive years of increases"
     ],
-    "macro_context": "The medical devices and diagnostics sector benefits from aging global demographics, rising chronic disease prevalence, and expanding healthcare access in emerging markets, though it faces headwinds from foreign exchange volatility, pricing pressure, and potential Medicare/Medicaid reimbursement reform.",
-    "competitive_notes": "Abbott holds strong competitive positioning in CGM (FreeStyle Libre vs. Dexcom), point-of-care diagnostics, and structural heart devices, but faces intensifying competition from Dexcom and Medtronic in diabetes care and from larger diversified peers like Medtronic and BD in other device categories.",
+    "macro_context": "The medical devices sector benefits from aging global demographics and rising chronic disease prevalence, though rising interest rates and healthcare cost pressures create near-term valuation and reimbursement headwinds.",
+    "competitive_notes": "Abbott holds a strong competitive moat in continuous glucose monitoring via FreeStyle Libre, though it faces intensifying competition from Dexcom and emerging players, while its diversified segment mix provides resilience against single-segment downturns.",
     "red_flags": [
-      "Ongoing NEC-related preterm formula litigation poses material financial and reputational risk",
-      "Post-pandemic diagnostic revenue normalization creates multi-year revenue headwinds and earnings comparability challenges",
-      "Foreign exchange exposure is significant given Abbott's global revenue footprint",
-      "No current news flow provided limits real-time risk assessment confidence"
+      "No current news headlines available, limiting timeliness of this analysis",
+      "Significant revenue cliff post-COVID diagnostic testing boom may continue to weigh on top-line growth comparisons",
+      "Legal and regulatory overhang related to NEC (necrotizing enterocolitis) lawsuits tied to preterm infant formula products",
+      "FreeStyle Libre faces growing competition from Dexcom G7 and Abbott must sustain innovation cadence to defend share"
     ],
-    "verdict": "Abbott is a fundamentally sound, diversified healthcare company with a compelling long-term growth driver in FreeStyle Libre CGM, but mid-term investors should monitor litigation outcomes, diagnostic segment stabilization, and competitive dynamics in diabetes care before sizing aggressively.",
+    "verdict": "Abbott is a high-quality, diversified healthcare compounder with durable competitive advantages and a strong dividend history, making it suitable for long-term investors seeking stability, though near-term growth normalization post-COVID diagnostics and legal risks warrant patience and a valuation-conscious entry point.",
     "confidence": "low",
     "ticker": "ABT"
   },
   "relative_strength": {
     "ticker": "ABT",
-    "stock_return_3m": -25.2,
-    "benchmark_return_3m": 6.83,
-    "relative_strength": -32.03,
+    "stock_return_3m": -23.44,
+    "benchmark_return_3m": 7.1,
+    "relative_strength": -30.54,
     "label": "underperforming"
   },
   "final_tier": "Hold",
   "sizing": {
-    "suggested_shares": 11,
-    "suggested_dollars": 908.16,
-    "note": "11 shares @ $82.56 = $908 | $72 swing budget remaining after"
+    "suggested_shares": 13,
+    "suggested_dollars": 1096.16,
+    "note": "13 shares @ $84.32 = $1,096 | $78 swing budget remaining after"
   },
   "is_dca": false,
-  "saved_at": "2026-05-11T22:52:47.244846"
+  "saved_at": "2026-05-08T22:55:28.001452"
 }

@@ -131,64 +131,96 @@ def get_urgency(signal: dict, final_tier: str, streak: int = 0) -> dict:
         }
 
 
+def _compute_final_tier(tech_tier: str, ticker: str) -> tuple[str, dict, dict, dict]:
+    """Run full analysis (fundamentals + earnings + news) and return final_tier + raw results."""
+    from src.fundamentals import check_fundamentals
+    from src.earnings import earnings_gate
+    from src.news import analyze_company
+
+    fund = check_fundamentals(ticker)
+    gate = earnings_gate(ticker)
+    news = analyze_company(ticker)
+
+    if fund["health"] == "deteriorating" or news.get("sentiment") == "negative" or not gate["proceed"]:
+        final_tier = "Avoid" if tech_tier in ("Strong Buy", "Buy") else tech_tier
+    elif fund["health"] == "healthy" and news.get("sentiment") == "positive":
+        final_tier = "Strong Buy" if tech_tier == "Buy" else tech_tier
+    else:
+        final_tier = tech_tier
+
+    return final_tier, fund, gate, news
+
+
 def auto_add_strong_signals(screener_results: list[dict], previous_tickers: set = None) -> list[str]:
     """
     Called by overnight scrape. Auto-adds tickers to watchlist based on signal strength.
+    Runs full analysis (fundamentals + earnings + news) before adding so the watchlist
+    final_tier matches what the signal dashboard shows.
 
     Rules:
-    - Strong Buy → add immediately regardless of history
-    - Buy with buy_score >= 0.75 AND appeared in previous scrape → add (persistent signal)
-    - Already watched → update signal + increment streak
+    - Strong Buy (after full analysis) → add immediately
+    - Buy (after full analysis) with buy_score >= 0.75 AND appeared in previous scrape → add
+    - Already watched → update signal + streak regardless
     """
     previous_tickers = previous_tickers or set()
     auto_added = []
 
     for signal in screener_results:
         ticker = signal.get("ticker", "")
-        tier = signal.get("final_tier") or signal.get("tier", "")
+        tech_tier = signal.get("tier", "")
         buy_score = signal.get("buy_score", 0)
         already_watching = is_on_watchlist(ticker)
+
+        # Run full analysis to get the real final_tier
+        try:
+            final_tier, fund, gate, news = _compute_final_tier(tech_tier, ticker)
+        except Exception as e:
+            print(f"  [{ticker}] full analysis failed, using tech tier: {e}")
+            final_tier = tech_tier
+            gate = {"proceed": True, "reason": ""}
+            news = {}
+
+        signal["final_tier"] = final_tier
+        signal["earnings_gate"] = gate
+        signal["news_sentiment"] = news.get("sentiment", "neutral")
 
         should_add = False
         reason = ""
 
-        if tier == "Strong Buy":
+        if final_tier == "Strong Buy":
             should_add = True
             reason = f"Strong Buy signal auto-detected by overnight scrape (score {buy_score:.0%})"
-        elif tier == "Buy" and buy_score >= 0.75 and ticker in previous_tickers:
+        elif final_tier == "Buy" and buy_score >= 0.75 and ticker in previous_tickers:
             should_add = True
             reason = f"Persistent Buy signal — active 2+ consecutive scrapes (score {buy_score:.0%})"
         elif already_watching:
-            # Always update signal for existing watchlist entries
             should_add = True
-            reason = ""  # keep existing reason
+            reason = ""
 
         if should_add:
-            # Increment streak if already on watchlist
             data = _load()
             existing = data["tickers"].get(ticker, {})
             streak = existing.get("signal_streak", 0)
 
-            if tier in ("Strong Buy", "Buy"):
+            if final_tier in ("Strong Buy", "Buy"):
                 streak += 1
             else:
-                streak = 0  # signal weakened
+                streak = 0
 
             signal["signal_streak"] = streak
             add_to_watchlist(ticker, signal, reason or existing.get("reason", ""))
 
-            # Update streak in saved entry
             data = _load()
             if ticker in data["tickers"]:
                 data["tickers"][ticker]["signal_streak"] = streak
-                if reason:  # only overwrite reason if this is a new auto-add
+                if reason:
                     data["tickers"][ticker]["reason"] = reason
                     data["tickers"][ticker]["auto_added"] = True
             _save(data)
 
             if not already_watching and should_add and reason:
                 auto_added.append(ticker)
-                print(f"  Auto-added to watchlist: {ticker} ({tier}) — {reason[:60]}")
+                print(f"  Auto-added to watchlist: {ticker} ({final_tier}) — {reason[:60]}")
 
     return auto_added
 
