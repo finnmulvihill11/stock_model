@@ -27,6 +27,9 @@ portfolio:
     - ticker: CMG
       shares: 4
       avg_cost: 31.47
+    - ticker: DECK
+      shares: 2
+      avg_cost: 97.18
 
   dca_tickers: [VOO, VXUS]
   swing_tickers: [INTU, MSFT, CMG, ABT, TEM, XLK]
