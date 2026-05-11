@@ -24,6 +24,11 @@ jobs:
           ETRADE_CONSUMER_KEY: ${{ secrets.ETRADE_CONSUMER_KEY }}
           ETRADE_CONSUMER_SECRET: ${{ secrets.ETRADE_CONSUMER_SECRET }}
           ETRADE_SANDBOX: ${{ secrets.ETRADE_SANDBOX }}
+          ALERT_EMAIL: ${{ secrets.ALERT_EMAIL }}
+          SMTP_HOST: ${{ secrets.SMTP_HOST }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
         run: python scheduler.py weekly
       - name: Commit results
         run: |
@@ -31,5 +36,5 @@ jobs:
           git config user.email "bot@stock-model"
           git add data/
           git diff --staged --quiet || git commit -m "chore: weekly opportunities $(date +'%Y-%m-%d')"
-          git pull origin master --rebase
+          git pull origin master --rebase -X theirs
           git push

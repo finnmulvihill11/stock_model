@@ -106,6 +106,62 @@ def send_daily_digest(signals: list[dict], portfolio_summary: dict, market_conte
     return _send_email(f"Stock Model — {date_str}", html)
 
 
+def send_weekly_opportunities(opp_plans: list[dict], market_context: dict) -> bool:
+    date_str = datetime.now().strftime("%B %d, %Y")
+    vix = market_context.get("vix", {})
+    fg = market_context.get("fear_greed", {})
+
+    tier_colors = {
+        "Strong Buy": "#16a34a", "Buy": "#22c55e", "Watch": "#f59e0b",
+        "Hold": "#6b7280", "Avoid": "#f97316", "Sell": "#ef4444", "Strong Sell": "#b91c1c",
+    }
+
+    rows_html = ""
+    for p in opp_plans:
+        ticker = p.get("ticker", "?")
+        tier = p.get("final_tier") or p.get("tier", "Watch")
+        color = tier_colors.get(tier, "#6b7280")
+        price = p.get("signal", {}).get("price") or p.get("price", 0)
+        sz = p.get("sizing", {})
+        amount = f"${sz.get('suggested_dollars', 0):,.0f} ({sz.get('suggested_shares', 0)} sh)" if sz else "—"
+        summary = p.get("summary") or p.get("recommendation", "")
+        rows_html += f"""
+    <tr>
+      <td style="padding:10px;font-weight:bold;font-size:15px">{ticker}</td>
+      <td style="padding:10px;color:{color};font-weight:bold">{tier}</td>
+      <td style="padding:10px">${price:,.2f}</td>
+      <td style="padding:10px">{amount}</td>
+      <td style="padding:10px;font-size:12px;color:#475569">{summary[:200]}</td>
+    </tr>"""
+
+    if not rows_html:
+        rows_html = "<tr><td colspan='5' style='padding:10px'>No new opportunities this week.</td></tr>"
+
+    html = f"""
+<html><body style="font-family:sans-serif;max-width:720px;margin:auto">
+  <h2 style="color:#1e293b">Stock Model — Weekly Opportunities</h2>
+  <p style="color:#64748b">{date_str}</p>
+
+  <h3>Market Context</h3>
+  <p>{vix.get('note', '')} &nbsp;|&nbsp; Fear & Greed: <b>{fg.get('label', 'N/A')}</b> ({fg.get('value', 'N/A')})</p>
+
+  <h3>New Picks This Week</h3>
+  <table style="width:100%;border-collapse:collapse;border:1px solid #e2e8f0">
+    <tr style="background:#f8fafc">
+      <th style="padding:8px;text-align:left">Ticker</th>
+      <th style="padding:8px;text-align:left">Signal</th>
+      <th style="padding:8px;text-align:left">Price</th>
+      <th style="padding:8px;text-align:left">Suggested</th>
+      <th style="padding:8px;text-align:left">Summary</th>
+    </tr>
+    {rows_html}
+  </table>
+  <p style="color:#94a3b8;font-size:12px;margin-top:24px">Full plans available in your Stock Model dashboard.</p>
+</body></html>"""
+
+    return _send_email(f"Stock Model — Weekly Picks {date_str}", html)
+
+
 def send_strong_signal_alert(signal: dict) -> bool:
     tier = signal["tier"]
     ticker = signal["ticker"]

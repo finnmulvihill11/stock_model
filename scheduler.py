@@ -16,7 +16,7 @@ from src.earnings import earnings_gate
 from src.news import analyze_company
 from src.market_context import get_market_context
 from src.budget import size_swing_trade, get_etf_dca_schedule
-from src.alerts import send_daily_digest, send_strong_signal_alert
+from src.alerts import send_daily_digest, send_strong_signal_alert, send_weekly_opportunities
 from src.planner import generate_position_plan, generate_portfolio_strategy, generate_opportunity_plan
 from src.etf_advisor import get_etf_universe, analyze_etf, generate_etf_plan, find_new_etf_opportunities
 from src.screener import run_full_scrape, load_cache
@@ -172,6 +172,13 @@ def run_weekly():
             print(f"  {ticker} failed: {e}")
 
     save_opportunity_plans(opp_plans)
+
+    # ── Weekly opportunities email ─────────────────────────────────────────────
+    print("\n[ 3/3 ] Sending weekly opportunities email...")
+    try:
+        send_weekly_opportunities(opp_plans, market)
+    except Exception as e:
+        print(f"  Weekly email failed: {e}")
 
     # Auto-add strong signals to watchlist
     try:
