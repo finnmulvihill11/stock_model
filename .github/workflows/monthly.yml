@@ -29,7 +29,12 @@ jobs:
         run: |
           git config user.name "stock-model-bot"
           git config user.email "bot@stock-model"
-          git add data/
-          git diff --staged --quiet || git commit -m "chore: monthly ETF analysis $(date +'%Y-%m-%d')"
-          git pull origin master --no-rebase -X ours
-          git push
+          tar -czf /tmp/new_data.tar.gz data/
+          for i in 1 2 3; do
+            git fetch origin master
+            git reset --hard origin/master
+            tar -xzf /tmp/new_data.tar.gz
+            git add data/
+            git diff --staged --quiet || git commit -m "chore: monthly ETF analysis $(date +'%Y-%m-%d')"
+            git push && break
+          done
