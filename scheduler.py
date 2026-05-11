@@ -92,9 +92,8 @@ def run_nightly():
                               "current_price": holding["current_price"], "portfolio_pct": holding.get("portfolio_pct", 0)})
                 position_plans.append(plan)
 
-            if tier in ("Strong Buy", "Strong Sell"):
-                print(f"    ⚡ {tier} — sending alert")
-                send_strong_signal_alert(sig)
+            # if tier in ("Strong Buy", "Strong Sell"):
+            #     send_strong_signal_alert(sig)
 
         except Exception as e:
             print(f"  {ticker} failed: {e}")
@@ -118,13 +117,11 @@ def run_nightly():
     except Exception as e:
         print(f"  Strategy failed: {e}")
 
-    # ── Daily digest email ────────────────────────────────────────────────────
-    print("\n[ 4/4 ] Sending daily digest...")
-    signals.sort(key=lambda x: TIER_ORDER.index(x.get("final_tier", "Hold")) if x.get("final_tier") in TIER_ORDER else 99)
-    try:
-        send_daily_digest(signals, portfolio, market)
-    except Exception as e:
-        print(f"  Digest failed: {e}")
+    # ── Daily digest email (disabled) ────────────────────────────────────────
+    # try:
+    #     send_daily_digest(signals, portfolio, market)
+    # except Exception as e:
+    #     print(f"  Digest failed: {e}")
 
     elapsed = (datetime.now() - start).total_seconds()
     print(f"\n=== Nightly run complete in {elapsed:.0f}s ===")
@@ -173,12 +170,11 @@ def run_weekly():
 
     save_opportunity_plans(opp_plans)
 
-    # ── Weekly opportunities email ─────────────────────────────────────────────
-    print("\n[ 3/3 ] Sending weekly opportunities email...")
-    try:
-        send_weekly_opportunities(opp_plans, market)
-    except Exception as e:
-        print(f"  Weekly email failed: {e}")
+    # ── Weekly opportunities email (disabled) ────────────────────────────────
+    # try:
+    #     send_weekly_opportunities(opp_plans, market)
+    # except Exception as e:
+    #     print(f"  Weekly email failed: {e}")
 
     # Auto-add strong signals to watchlist
     try:

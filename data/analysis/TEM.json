@@ -54,28 +54,28 @@
       ],
       "earnings_status": "past",
       "next_earnings_date": "2026-05-05",
-      "days_to_earnings": -6
+      "days_to_earnings": -3
     }
   },
   "news": {
     "sentiment": "neutral",
     "health": "neutral",
     "key_events": [
-      "No recent news headlines provided, limiting event-driven analysis",
+      "No recent news headlines were provided, limiting event-driven analysis",
       "Tempus AI completed its IPO in mid-2024, transitioning to a publicly traded company on Nasdaq under ticker TEM",
-      "Company continues expanding its multimodal data repository and AI-driven diagnostics platform for oncology and other disease areas",
-      "Partnerships with major health systems and pharmaceutical companies remain a core growth driver"
+      "Company has established data partnerships with major healthcare systems and pharma companies including AstraZeneca and Pathos AI",
+      "Ongoing expansion of multimodal data repository covering genomics, clinical, imaging, and other patient data"
     ],
-    "macro_context": "AI-driven healthcare and genomics/diagnostics sectors benefit from strong secular tailwinds including precision medicine adoption, FDA support for AI diagnostics, and growing pharma demand for real-world clinical data, though rising interest rates and profitability scrutiny weigh on high-growth, pre-profitable tech names.",
-    "competitive_notes": "Tempus competes with Foundation Medicine (Roche), Guardant Health, and Veracyte in genomic diagnostics, and with broader health data analytics players like Flatiron Health; its differentiation lies in its closed-loop multimodal data platform and scale of de-identified patient data, though achieving durable competitive moats remains an ongoing challenge.",
+    "macro_context": "AI-driven healthcare diagnostics and precision medicine are experiencing strong secular tailwinds from increased genomic testing adoption, FDA-friendly regulatory environment for AI tools, and growing pharma R&D spending on data-driven drug discovery.",
+    "competitive_notes": "Tempus competes with Foundation Medicine (Roche), Guardant Health, and Veracyte in genomic diagnostics, but differentiates through its broader multimodal AI data platform and closed-loop clinical integration, though profitability remains a concern relative to established peers.",
     "red_flags": [
-      "Company is not yet profitable and carries significant operating losses, typical for growth-stage health tech but a risk in a high-rate environment",
-      "High valuation relative to current revenues requires sustained hyper-growth to justify",
-      "Dependence on continued pharma and biotech R&D spending, which can be cyclical",
-      "No recent news provided \u2014 inability to assess near-term catalysts or risks from current events",
-      "Lock-up expiration post-IPO could create near-term selling pressure from early investors"
+      "Company has significant accumulated losses and is not yet profitable, with high cash burn typical of growth-stage healthtech",
+      "Heavy reliance on a limited number of large pharma and health system partners for data licensing revenue",
+      "Intense competition from well-capitalized incumbents like Roche/Foundation Medicine could pressure margins and market share",
+      "No recent news provided \u2014 inability to assess current momentum, guidance updates, or emerging risks",
+      "Post-IPO lock-up expiration periods may introduce near-term share price volatility"
     ],
-    "verdict": "Tempus AI is a high-conviction long-term thematic play on AI-powered precision medicine with a defensible data moat, but mid-term investors should be cautious given its pre-profitability status, lofty valuation, and lack of visible near-term catalysts \u2014 best suited for risk-tolerant investors with a 3-5+ year horizon who can tolerate volatility.",
+    "verdict": "Tempus AI represents a high-risk, high-reward long-term bet on AI-enabled precision medicine with a differentiated data moat, but mid-term investors should await clearer profitability trajectory and post-IPO stabilization before initiating a full position.",
     "confidence": "low",
     "ticker": "TEM"
   },
@@ -93,5 +93,5 @@
     "note": "17 shares @ $49.86 = $848 | $326 swing budget remaining after"
   },
   "is_dca": false,
-  "saved_at": "2026-05-11T02:49:53.862614"
+  "saved_at": "2026-05-08T22:55:52.981331"
 }
