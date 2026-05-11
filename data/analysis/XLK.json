@@ -4,28 +4,28 @@
     "ticker": "XLK",
     "direction": "buy",
     "tier": "Hold",
-    "buy_score": 0.38,
-    "sell_score": 0.29,
+    "buy_score": 0.25,
+    "sell_score": 0.14,
     "reasons": [
-      "200MA: price at/above 200MA (175.52 vs 141.72)",
-      "Golden cross: 50MA (145.89) above 200MA (141.72)",
-      "Volume: above average (1.04x)"
+      "200MA: price at/above 200MA (177.88 vs 141.96)",
+      "Golden cross: 50MA (146.68) above 200MA (141.96)"
     ],
     "misses": [
-      "BB: price not near lower band (pct=1.06)",
+      "BB: price not near lower band (pct=1.05)",
       "BB Width: bands expanding, not squeezing",
-      "RSI: not in buy zone (83.2, need 20-30)",
+      "RSI: not in buy zone (84.3, need 20-30)",
       "MACD: no bullish crossover or valley",
-      "RSI Divergence: no bullish divergence detected"
+      "RSI Divergence: no bullish divergence detected",
+      "Volume: below average (0.99x) \u2014 low conviction"
     ],
-    "price": 175.52,
-    "rsi": 83.2,
-    "atr": 3.38,
+    "price": 177.88,
+    "rsi": 84.3,
+    "atr": 3.44,
     "final_tier": "Hold",
     "sizing": {
-      "suggested_shares": 6,
-      "suggested_dollars": 1053.12,
-      "note": "6 shares @ $175.52 = $1,053 | $121 swing budget remaining after"
+      "suggested_shares": 5,
+      "suggested_dollars": 889.4,
+      "note": "5 shares @ $177.88 = $889 | $90 swing budget remaining after"
     }
   },
   "fundamentals": {
@@ -56,37 +56,37 @@
   },
   "news": {
     "sentiment": "neutral",
-    "health": "neutral",
+    "health": "healthy",
     "key_events": [
       "No recent news headlines available for analysis",
-      "XLK tracks the Technology Select Sector Index, heavily weighted in Apple, Microsoft, and Nvidia",
-      "ETF underwent a significant rebalancing in 2024 reflecting index methodology changes affecting NVDA and AAPL weightings"
+      "XLK tracks the S&P Technology Select Sector Index with a replication strategy, maintaining ~95%+ exposure to index constituents",
+      "ETF remains heavily concentrated in mega-cap tech names such as Apple, Microsoft, and NVIDIA"
     ],
-    "macro_context": "The technology sector faces a mixed macro environment with AI-driven growth tailwinds offset by elevated interest rates pressuring valuations, potential regulatory scrutiny on mega-cap tech, and ongoing geopolitical risks around semiconductor supply chains.",
-    "competitive_notes": "XLK benefits from State Street's low-cost, liquid ETF structure with high AUM, but faces competition from similar tech ETFs like QQQ and VGT; its concentrated, non-diversified nature amplifies both upside and downside relative to broader market funds.",
+    "macro_context": "The technology sector faces a mixed macro environment with AI-driven growth tailwinds offset by elevated interest rate sensitivity, stretched valuations in mega-cap tech, and ongoing regulatory scrutiny of large technology companies.",
+    "competitive_notes": "XLK benefits from State Street's established ETF infrastructure and low expense ratio, though its non-diversified, market-cap-weighted structure creates significant concentration risk in its top 2-3 holdings relative to peers like VGT or QQQ.",
     "red_flags": [
-      "Highly concentrated in a handful of mega-cap names (Apple, Microsoft, Nvidia), creating single-stock risk",
-      "Non-diversified fund classification means outsized exposure to individual company volatility",
-      "Elevated valuations across large-cap tech could limit medium-term upside if rate environment stays restrictive",
-      "No recent news data available, limiting the ability to assess current sentiment accurately"
+      "Non-diversified fund structure means top 2-3 holdings (Apple, Microsoft, NVIDIA) can represent 40-50%+ of total assets, amplifying single-stock risk",
+      "High valuation multiples across index constituents leave limited margin of safety in a risk-off environment",
+      "No recent news data available, limiting real-time sentiment analysis",
+      "Interest rate sensitivity: long-duration tech assets remain vulnerable to any hawkish Fed pivot"
     ],
-    "verdict": "XLK is a reasonable mid-to-long-term holding for investors seeking structured exposure to large-cap technology, but its concentration risk and stretched valuations warrant a disciplined entry strategy, ideally on pullbacks, with awareness of AI monetization timelines as the key long-term catalyst.",
+    "verdict": "XLK is a reasonable mid-to-long-term vehicle for broad technology sector exposure given secular AI and digital transformation tailwinds, but investors must accept high concentration risk and elevated valuations; best suited as a core tech allocation rather than a standalone position.",
     "confidence": "low",
     "ticker": "XLK"
   },
   "relative_strength": {
     "ticker": "XLK",
-    "stock_return_3m": 24.52,
-    "benchmark_return_3m": 7.1,
-    "relative_strength": 17.43,
+    "stock_return_3m": 24.24,
+    "benchmark_return_3m": 6.83,
+    "relative_strength": 17.42,
     "label": "outperforming"
   },
   "final_tier": "Hold",
   "sizing": {
-    "suggested_shares": 6,
-    "suggested_dollars": 1053.12,
-    "note": "6 shares @ $175.52 = $1,053 | $121 swing budget remaining after"
+    "suggested_shares": 5,
+    "suggested_dollars": 889.4,
+    "note": "5 shares @ $177.88 = $889 | $90 swing budget remaining after"
   },
   "is_dca": false,
-  "saved_at": "2026-05-08T22:55:03.751418"
+  "saved_at": "2026-05-11T22:52:25.592569"
 }

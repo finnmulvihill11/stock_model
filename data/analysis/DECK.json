@@ -1,0 +1,96 @@
+{
+  "ticker": "DECK",
+  "signal": {
+    "ticker": "DECK",
+    "direction": "buy",
+    "tier": "Buy",
+    "buy_score": 0.75,
+    "sell_score": 0.43,
+    "reasons": [
+      "BB: price near lower band (pct=0.05)",
+      "BB Width: squeeze active (width=0.1783)",
+      "RSI: oversold zone (27.1)",
+      "RSI Divergence: Price lower low (93.69 < 100.69) but RSI higher low (29.2 > 14.8)",
+      "Golden cross: 50MA (103.90) above 200MA (103.47)",
+      "Volume: above average (1.24x)"
+    ],
+    "misses": [
+      "MACD: no bullish crossover or valley",
+      "200MA: price below 200MA \u2014 potential falling knife"
+    ],
+    "price": 96.65,
+    "rsi": 27.1,
+    "atr": 3.48,
+    "final_tier": "Avoid",
+    "sizing": {
+      "suggested_shares": 10,
+      "suggested_dollars": 966.5,
+      "note": "10 shares @ $96.65 = $966 | $13 swing budget remaining after"
+    }
+  },
+  "fundamentals": {
+    "ticker": "DECK",
+    "health": "healthy",
+    "passed": [
+      "Revenue growing YoY (+7.1%)",
+      "Debt-to-equity acceptable (0.1x)",
+      "Profitable (margin 19.3%)"
+    ],
+    "flags": [],
+    "revenue_growth": 0.071,
+    "de_ratio": 13.14,
+    "profit_margins": 0.19348
+  },
+  "earnings": {
+    "proceed": false,
+    "reason": "Earnings in 10 days \u2014 wait for results before acting",
+    "verdict": {
+      "ticker": "DECK",
+      "verdict": "consider",
+      "reason": "Fundamentals intact \u2014 dip may be an overreaction",
+      "notes": [
+        "Earnings growing YoY (+11.0%)",
+        "Revenue growing (+7.1%)"
+      ],
+      "earnings_status": "imminent",
+      "next_earnings_date": "2026-05-21",
+      "days_to_earnings": 10
+    }
+  },
+  "news": {
+    "sentiment": "neutral",
+    "health": "healthy",
+    "key_events": [
+      "No recent news headlines provided \u2014 analysis based on known fundamentals and sector context only",
+      "HOKA brand has been a sustained high-growth driver, consistently outperforming broader footwear peers",
+      "UGG brand remains seasonally strong with ongoing diversification into non-winter product lines",
+      "Deckers has demonstrated strong margin discipline and share buyback activity in recent fiscal years"
+    ],
+    "macro_context": "Consumer cyclical footwear faces headwinds from cautious discretionary spending, tariff risks on Asian manufacturing, and FX pressure on international revenues, though premium/performance segments have shown relative resilience.",
+    "competitive_notes": "HOKA competes intensely with ON Running, Brooks, and New Balance in performance footwear, but retains strong brand momentum and wholesale+DTC channel diversification; UGG faces fashion-cycle risk but has proven durable across decades.",
+    "red_flags": [
+      "High revenue concentration in HOKA creates risk if brand momentum slows or competition intensifies",
+      "Significant manufacturing exposure to China and Vietnam raises tariff and supply chain vulnerability",
+      "Seasonal dependency of UGG brand can create revenue lumpiness and inventory risk",
+      "Valuation has historically priced in high growth, leaving limited margin of safety if growth decelerates"
+    ],
+    "verdict": "Deckers is a fundamentally sound, well-managed compounder with a rare dual-engine growth structure in HOKA and UGG, making it attractive for mid-to-long-term investors at the right entry price, though macro headwinds and competitive intensity in performance footwear warrant valuation discipline before initiating a position.",
+    "confidence": "low",
+    "ticker": "DECK"
+  },
+  "relative_strength": {
+    "ticker": "DECK",
+    "stock_return_3m": -15.59,
+    "benchmark_return_3m": 6.83,
+    "relative_strength": -22.42,
+    "label": "underperforming"
+  },
+  "final_tier": "Avoid",
+  "sizing": {
+    "suggested_shares": 10,
+    "suggested_dollars": 966.5,
+    "note": "10 shares @ $96.65 = $966 | $13 swing budget remaining after"
+  },
+  "is_dca": false,
+  "saved_at": "2026-05-11T22:54:07.931384"
+}

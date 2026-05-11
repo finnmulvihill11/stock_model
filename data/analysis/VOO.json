@@ -2,28 +2,29 @@
   "ticker": "VOO",
   "signal": {
     "ticker": "VOO",
-    "direction": "sell",
-    "tier": "Watch",
+    "direction": "buy",
+    "tier": "Hold",
     "buy_score": 0.38,
-    "sell_score": 0.57,
+    "sell_score": 0.29,
     "reasons": [
-      "BB: price near upper band (pct=0.98)",
-      "BB Width: squeeze/contraction after expansion",
-      "RSI: overbought zone (73.7)",
-      "50/200MA: converging downward toward death cross"
+      "BB Width: squeeze active (width=0.0695)",
+      "200MA: price at/above 200MA (679.52 vs 616.86)",
+      "Golden cross: 50MA (629.55) above 200MA (616.86)"
     ],
     "misses": [
-      "MACD: no bearish crossover or peak",
-      "RSI Divergence: no bearish divergence detected",
-      "Volume: below average (0.73x)"
+      "BB: price not near lower band (pct=0.97)",
+      "RSI: not in buy zone (80.4, need 20-30)",
+      "MACD: no bullish crossover or valley",
+      "RSI Divergence: no bullish divergence detected",
+      "Volume: below average (0.94x) \u2014 low conviction"
     ],
-    "price": 678.04,
-    "rsi": 73.7,
-    "atr": 6.49,
-    "final_tier": "Watch",
+    "price": 679.52,
+    "rsi": 80.4,
+    "atr": 6.21,
+    "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 1,
-      "suggested_dollars": 678.04,
+      "suggested_dollars": 679.52,
       "note": "1 share every 2 months"
     }
   },
@@ -58,33 +59,33 @@
     "health": "healthy",
     "key_events": [
       "No recent news headlines provided for analysis",
-      "VOO continues to passively track the S&P 500 index with near-zero tracking error and one of the lowest expense ratios (0.03%) in the industry",
-      "S&P 500 index composition regularly rebalanced, reflecting ongoing shifts in U.S. large-cap equity leadership"
+      "VOO continues to passively track the S&P 500 index with minimal tracking error and ultra-low expense ratio (0.03%)",
+      "S&P 500 composition reflects continued dominance of mega-cap tech (Apple, Microsoft, Nvidia, Amazon, Alphabet)"
     ],
-    "macro_context": "U.S. large-cap equities face a mixed macro backdrop of resilient corporate earnings offset by elevated interest rates, persistent inflation uncertainty, and geopolitical risks that could pressure valuations in the near term.",
-    "competitive_notes": "VOO is among the largest and most liquid S&P 500 ETFs globally, competing directly with SPY and IVV, but maintains a structural cost advantage with its 0.03% expense ratio that is difficult for rivals to undercut meaningfully.",
+    "macro_context": "U.S. equity markets face a mixed macro backdrop with elevated interest rates pressuring valuations, resilient corporate earnings providing support, and ongoing uncertainty around Fed policy trajectory and potential recession risk.",
+    "competitive_notes": "VOO is among the largest and most cost-efficient S&P 500 ETFs globally, competing directly with SPDR S&P 500 ETF (SPY) and iShares Core S&P 500 ETF (IVV), with its 0.03% expense ratio being a durable structural advantage for long-term holders.",
     "red_flags": [
-      "High concentration risk in top 10 holdings (Apple, Microsoft, Nvidia, etc.) which represent ~35% of the fund, amplifying single-stock or sector volatility",
-      "No active downside protection \u2014 in bear markets or recessions, VOO will fully reflect index drawdowns",
-      "Elevated S&P 500 valuations (P/E near historical highs) may limit forward returns over the medium term"
+      "High concentration risk: top 10 holdings represent ~35% of the fund, heavily weighted toward mega-cap technology",
+      "No active downside protection \u2014 fully exposed to broad market drawdowns",
+      "Elevated P/E multiples on the S&P 500 relative to historical averages may compress future returns"
     ],
-    "verdict": "VOO remains a cornerstone holding for mid-to-long-term investors seeking broad U.S. large-cap exposure at minimal cost, but investors should be aware of current valuation stretch and concentration in mega-cap tech names.",
+    "verdict": "VOO remains a core, high-conviction holding for mid-to-long-term investors seeking broad U.S. large-cap equity exposure at minimal cost, though investors should be aware of near-term valuation headwinds and mega-cap concentration risk.",
     "confidence": "medium",
     "ticker": "VOO"
   },
   "relative_strength": {
     "ticker": "VOO",
-    "stock_return_3m": 7.07,
-    "benchmark_return_3m": 7.1,
+    "stock_return_3m": 6.81,
+    "benchmark_return_3m": 6.83,
     "relative_strength": -0.02,
     "label": "in-line"
   },
-  "final_tier": "Watch",
+  "final_tier": "Hold",
   "sizing": {
     "suggested_shares": 1,
-    "suggested_dollars": 678.04,
+    "suggested_dollars": 679.52,
     "note": "1 share every 2 months"
   },
   "is_dca": true,
-  "saved_at": "2026-05-08T22:54:53.715836"
+  "saved_at": "2026-05-11T22:52:16.141690"
 }
