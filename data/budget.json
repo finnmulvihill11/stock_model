@@ -22,6 +22,18 @@
       "avg_cost": 142.63,
       "realized_pnl": 31.42,
       "realized_pnl_pct": 22.03
+    },
+    {
+      "date": "2026-05-12",
+      "ticker": "XLK",
+      "shares": 1,
+      "amount": -172.0,
+      "type": "swing",
+      "action": "sell",
+      "sell_price": 172.0,
+      "avg_cost": 142.63,
+      "realized_pnl": 29.37,
+      "realized_pnl_pct": 20.59
     }
   ]
 }
