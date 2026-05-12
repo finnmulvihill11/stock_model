@@ -1,21 +1,38 @@
 {
   "current": {
     "action": "Wait",
-    "action_reason": "Your entry criteria are not met \u2014 RSI at 46.9 is far from the 20-30 buy zone, price is mid-band (pct=0.56), and MACD shows no bullish crossover. With earnings 12 days out and price still below the 200MA, adding here violates your own philosophy and increases concentration risk in an already-underwater position.",
-    "target_price": 445.0,
-    "target_reasoning": "A post-earnings recovery toward the 200MA zone (~$445-460) is the realistic mean-reversion target. That level aligns with prior technical support turned resistance and would represent a bounce back toward your cost basis. Upper BB would likely sit near that range if the squeeze resolves to the upside, and RSI would approach the 65-70 range \u2014 your signal to begin trimming.",
-    "exit_trigger": "Cut the position if price breaks decisively below $375 on elevated volume, or if post-earnings guidance disappoints and RSI fails to recover above 40 within 5 sessions \u2014 this confirms the downtrend and rules out near-term mean reversion.",
-    "add_trigger": "Only add if RSI drops to 25-30, price tags the lower Bollinger Band, AND a bullish MACD crossover or RSI divergence appears \u2014 ideally after earnings are cleared and the macro overhang is resolved. Do not add into earnings blindly.",
-    "risk": "Earnings in 12 days is the dominant risk \u2014 a guidance cut around IRS Direct File competition or continued Credit Karma softness could accelerate the decline well below $375, turning a 15% loss into 25%+. At 34% portfolio weight, this drawdown is already uncomfortable and adding pre-earnings would be imprudent.",
+    "action_reason": "Your philosophy requires multiple confirming signals before acting, and right now almost none are firing \u2014 RSI at 42.6 is in no-man's land, price is not near the lower Bollinger Band, and MACD shows no bullish crossover. With earnings just 8 days out and price already below the 200MA, this is not the moment to add or exit impulsively \u2014 sit tight and let the setup clarify post-earnings.",
+    "target_price": 430.0,
+    "target_reasoning": "A recovery toward $430 would represent a meaningful mean-reversion bounce back toward the 200MA zone, consistent with your swing philosophy. That level also aligns with prior consolidation structure and would be achievable if earnings provide a positive catalyst. Avoid chasing until RSI confirms momentum is building.",
+    "exit_trigger": "Cut the position if price closes below $365 on elevated volume \u2014 that signals accelerating breakdown with no technical floor nearby \u2014 OR if post-earnings reaction is sharply negative (gap down >5%) with RSI still above 30, indicating no oversold exhaustion to buy against.",
+    "add_trigger": "Only add if ALL THREE align after earnings: RSI drops into the 25-32 zone, price touches or undercuts the lower Bollinger Band (pct_b < 0.05), and MACD shows a bullish histogram reversal or crossover. Do not add into a falling knife pre-earnings.",
+    "risk": "Earnings in 8 days is the dominant risk \u2014 INTU could gap down hard on any guidance cut, IRS Direct File headwinds, or Credit Karma weakness, further deepening an already -17% loss at a 33.7% portfolio weight. A bad print with no technical floor nearby could force a painful reactive exit.",
     "outlook": "cautious",
-    "timeframe": "6-10 weeks \u2014 let earnings pass, reassess technicals post-print, and wait for your full signal stack to align before taking any action",
+    "timeframe": "2-6 weeks post-earnings clarity \u2014 the next actionable window opens after the earnings reaction settles, likely mid-to-late June",
     "ticker": "INTU",
     "company_name": "Intuit Inc.",
-    "generated_at": "2026-05-08T22:54:20.958907",
-    "price_at_generation": 396.31,
-    "pnl_at_generation": -15.37
+    "generated_at": "2026-05-12T22:58:16.079551",
+    "price_at_generation": 387.74,
+    "pnl_at_generation": -17.2
   },
   "history": [
+    {
+      "action": "Wait",
+      "action_reason": "Your entry criteria are not met \u2014 RSI at 46.9 is far from the 20-30 buy zone, price is mid-band (pct=0.56), and MACD shows no bullish crossover. With earnings 12 days out and price still below the 200MA, adding here violates your own philosophy and increases concentration risk in an already-underwater position.",
+      "target_price": 445.0,
+      "target_reasoning": "A post-earnings recovery toward the 200MA zone (~$445-460) is the realistic mean-reversion target. That level aligns with prior technical support turned resistance and would represent a bounce back toward your cost basis. Upper BB would likely sit near that range if the squeeze resolves to the upside, and RSI would approach the 65-70 range \u2014 your signal to begin trimming.",
+      "exit_trigger": "Cut the position if price breaks decisively below $375 on elevated volume, or if post-earnings guidance disappoints and RSI fails to recover above 40 within 5 sessions \u2014 this confirms the downtrend and rules out near-term mean reversion.",
+      "add_trigger": "Only add if RSI drops to 25-30, price tags the lower Bollinger Band, AND a bullish MACD crossover or RSI divergence appears \u2014 ideally after earnings are cleared and the macro overhang is resolved. Do not add into earnings blindly.",
+      "risk": "Earnings in 12 days is the dominant risk \u2014 a guidance cut around IRS Direct File competition or continued Credit Karma softness could accelerate the decline well below $375, turning a 15% loss into 25%+. At 34% portfolio weight, this drawdown is already uncomfortable and adding pre-earnings would be imprudent.",
+      "outlook": "cautious",
+      "timeframe": "6-10 weeks \u2014 let earnings pass, reassess technicals post-print, and wait for your full signal stack to align before taking any action",
+      "ticker": "INTU",
+      "company_name": "Intuit Inc.",
+      "generated_at": "2026-05-08T22:54:20.958907",
+      "price_at_generation": 396.31,
+      "pnl_at_generation": -15.37,
+      "archived_at": "2026-05-12T22:58:16.079747"
+    },
     {
       "action": "Wait",
       "action_reason": "You're already in a losing position with almost no buy signals firing \u2014 RSI is neutral at 54.9, price is below the 200MA, and MACD shows no bullish confirmation. With earnings in 12 days, hold your current shares but do not add until the setup clarifies post-earnings.",

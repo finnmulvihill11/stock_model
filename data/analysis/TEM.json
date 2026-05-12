@@ -5,27 +5,27 @@
     "direction": "buy",
     "tier": "Hold",
     "buy_score": 0.25,
-    "sell_score": 0.43,
+    "sell_score": 0.29,
     "reasons": [
-      "BB Width: squeeze active (width=0.2230)",
-      "Volume: above average (1.81x)"
+      "BB: price near lower band (pct=-0.02)",
+      "BB Width: squeeze active (width=0.2203)"
     ],
     "misses": [
-      "BB: price not near lower band (pct=0.23)",
-      "RSI: not in buy zone (35.2, need 20-30)",
+      "RSI: not in buy zone (32.4, need 20-30)",
       "MACD: no bullish crossover or valley",
       "RSI Divergence: no bullish divergence detected",
       "200MA: price below 200MA \u2014 potential falling knife",
-      "Death cross active: 50MA (50.40) below 200MA (66.94)"
+      "Death cross active: 50MA (50.17) below 200MA (66.78)",
+      "Volume: below average (0.92x) \u2014 low conviction"
     ],
-    "price": 49.86,
-    "rsi": 35.2,
-    "atr": 3.37,
+    "price": 46.95,
+    "rsi": 32.4,
+    "atr": 3.3,
     "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 17,
-      "suggested_dollars": 847.62,
-      "note": "17 shares @ $49.86 = $848 | $326 swing budget remaining after"
+      "suggested_dollars": 798.15,
+      "note": "17 shares @ $46.95 = $798 | $354 swing budget remaining after"
     }
   },
   "fundamentals": {
@@ -54,44 +54,44 @@
       ],
       "earnings_status": "past",
       "next_earnings_date": "2026-05-05",
-      "days_to_earnings": -3
+      "days_to_earnings": -7
     }
   },
   "news": {
     "sentiment": "neutral",
     "health": "neutral",
     "key_events": [
-      "No recent news headlines were provided, limiting event-driven analysis",
-      "Tempus AI completed its IPO in mid-2024, transitioning to a publicly traded company on Nasdaq under ticker TEM",
-      "Company has established data partnerships with major healthcare systems and pharma companies including AstraZeneca and Pathos AI",
-      "Ongoing expansion of multimodal data repository covering genomics, clinical, imaging, and other patient data"
+      "No recent news headlines were provided, limiting event-specific analysis",
+      "Tempus AI went public (IPO) in June 2024 on Nasdaq under ticker TEM, raising significant capital",
+      "Company has established data partnerships with major health systems and pharma companies including AstraZeneca and Pfizer",
+      "Tempus operates a large multimodal clinical dataset (~200+ petabytes) used for AI model development and diagnostics"
     ],
-    "macro_context": "AI-driven healthcare diagnostics and precision medicine are experiencing strong secular tailwinds from increased genomic testing adoption, FDA-friendly regulatory environment for AI tools, and growing pharma R&D spending on data-driven drug discovery.",
-    "competitive_notes": "Tempus competes with Foundation Medicine (Roche), Guardant Health, and Veracyte in genomic diagnostics, but differentiates through its broader multimodal AI data platform and closed-loop clinical integration, though profitability remains a concern relative to established peers.",
+    "macro_context": "AI-driven healthcare data and precision medicine are strong secular growth themes, but rising interest rates pressure high-multiple, pre-profitability growth stocks like Tempus AI.",
+    "competitive_notes": "Tempus competes with Foundation Medicine (Roche), Guardant Health, and Flatiron Health, and faces intense competition on data scale and clinical integration, though its closed-loop platform and multimodal dataset are meaningful differentiators.",
     "red_flags": [
-      "Company has significant accumulated losses and is not yet profitable, with high cash burn typical of growth-stage healthtech",
-      "Heavy reliance on a limited number of large pharma and health system partners for data licensing revenue",
-      "Intense competition from well-capitalized incumbents like Roche/Foundation Medicine could pressure margins and market share",
-      "No recent news provided \u2014 inability to assess current momentum, guidance updates, or emerging risks",
-      "Post-IPO lock-up expiration periods may introduce near-term share price volatility"
+      "Company remains unprofitable with significant ongoing operating losses and cash burn",
+      "High valuation relative to current revenues demands sustained hypergrowth execution",
+      "Dependence on continued pharma data licensing deals for revenue diversification",
+      "Regulatory and reimbursement uncertainty around NGS diagnostics and AI-driven clinical tools",
+      "No current news data provided \u2014 analysis relies on known fundamentals, reducing recency confidence"
     ],
-    "verdict": "Tempus AI represents a high-risk, high-reward long-term bet on AI-enabled precision medicine with a differentiated data moat, but mid-term investors should await clearer profitability trajectory and post-IPO stabilization before initiating a full position.",
+    "verdict": "Tempus AI offers compelling long-term upside as a precision medicine data platform with strong partnerships, but its pre-profitability status, lofty valuation, and competitive pressures make it a high-risk, high-reward hold best suited for investors with a 3\u20135 year horizon and tolerance for volatility.",
     "confidence": "low",
     "ticker": "TEM"
   },
   "relative_strength": {
     "ticker": "TEM",
-    "stock_return_3m": -9.2,
-    "benchmark_return_3m": 7.1,
-    "relative_strength": -16.29,
+    "stock_return_3m": -15.98,
+    "benchmark_return_3m": 6.95,
+    "relative_strength": -22.93,
     "label": "underperforming"
   },
   "final_tier": "Hold",
   "sizing": {
     "suggested_shares": 17,
-    "suggested_dollars": 847.62,
-    "note": "17 shares @ $49.86 = $848 | $326 swing budget remaining after"
+    "suggested_dollars": 798.15,
+    "note": "17 shares @ $46.95 = $798 | $354 swing budget remaining after"
   },
   "is_dca": false,
-  "saved_at": "2026-05-08T22:55:52.981331"
+  "saved_at": "2026-05-12T22:59:19.706819"
 }

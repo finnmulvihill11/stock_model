@@ -7,25 +7,25 @@
     "buy_score": 0.25,
     "sell_score": 0.14,
     "reasons": [
-      "BB: price near lower band (pct=0.08)",
-      "RSI: oversold zone (21.0)"
+      "BB: price near lower band (pct=0.16)",
+      "MACD: histogram at valley / turning up"
     ],
     "misses": [
       "BB Width: bands expanding, not squeezing",
-      "MACD: no bullish crossover or valley",
+      "RSI: not in buy zone (31.0, need 20-30)",
       "RSI Divergence: no bullish divergence detected",
       "200MA: price below 200MA \u2014 potential falling knife",
-      "Death cross active: 50MA (100.82) below 200MA (118.36)",
-      "Volume: below average (0.76x) \u2014 low conviction"
+      "Death cross active: 50MA (99.58) below 200MA (117.95)",
+      "Volume: below average (0.96x) \u2014 low conviction"
     ],
-    "price": 84.32,
-    "rsi": 21.0,
-    "atr": 2.14,
+    "price": 84.35,
+    "rsi": 31.0,
+    "atr": 2.09,
     "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 13,
-      "suggested_dollars": 1096.16,
-      "note": "13 shares @ $84.32 = $1,096 | $78 swing budget remaining after"
+      "suggested_dollars": 1096.55,
+      "note": "13 shares @ $84.35 = $1,097 | $55 swing budget remaining after"
     }
   },
   "fundamentals": {
@@ -54,44 +54,44 @@
       ],
       "earnings_status": "past",
       "next_earnings_date": "2026-04-16",
-      "days_to_earnings": -22
+      "days_to_earnings": -26
     }
   },
   "news": {
     "sentiment": "neutral",
     "health": "healthy",
     "key_events": [
-      "No recent news headlines provided \u2014 analysis based on fundamental business profile only",
-      "Abbott operates four diversified segments: Medical Devices, Diagnostics, Nutritional Products, and Established Pharmaceuticals",
-      "FreeStyle Libre CGM platform remains a high-growth driver in the Medical Devices segment with expanding global adoption",
-      "Post-COVID diagnostic revenue normalization has been a known headwind as pandemic-era testing demand subsided",
-      "Abbott has maintained a strong dividend growth track record as a Dividend King with 50+ consecutive years of increases"
+      "No recent news headlines were provided for analysis, limiting event-driven assessment",
+      "Abbott continues to operate across four diversified segments: Medical Devices, Diagnostics, Nutritional Products, and Established Pharmaceuticals",
+      "FreeStyle Libre CGM platform remains a key growth driver in the Medical Devices segment with expanding global adoption",
+      "Post-COVID diagnostic revenue normalization has been an ongoing headwind as pandemic-era testing demand subsided",
+      "Abbott faced historical legal liability related to Similac preterm infant formula NEC lawsuits, representing an ongoing risk"
     ],
-    "macro_context": "The medical devices sector benefits from aging global demographics and rising chronic disease prevalence, though rising interest rates and healthcare cost pressures create near-term valuation and reimbursement headwinds.",
-    "competitive_notes": "Abbott holds a strong competitive moat in continuous glucose monitoring via FreeStyle Libre, though it faces intensifying competition from Dexcom and emerging players, while its diversified segment mix provides resilience against single-segment downturns.",
+    "macro_context": "The medical devices sector benefits from aging global demographics, rising chronic disease prevalence, and expanding healthcare access in emerging markets, though it faces headwinds from interest rate pressures on capital equipment spending and ongoing reimbursement scrutiny.",
+    "competitive_notes": "Abbott holds strong competitive positioning in continuous glucose monitoring (CGM) via FreeStyle Libre against Dexcom and Medtronic, though Dexcom's innovation cadence and the entry of tech-adjacent players remain credible long-term threats.",
     "red_flags": [
-      "No current news headlines available, limiting timeliness of this analysis",
-      "Significant revenue cliff post-COVID diagnostic testing boom may continue to weigh on top-line growth comparisons",
-      "Legal and regulatory overhang related to NEC (necrotizing enterocolitis) lawsuits tied to preterm infant formula products",
-      "FreeStyle Libre faces growing competition from Dexcom G7 and Abbott must sustain innovation cadence to defend share"
+      "Ongoing NEC-related litigation tied to preterm infant formula (Similac) poses material legal and reputational risk",
+      "Significant revenue cliff post-COVID as high-margin rapid diagnostic testing revenues have declined sharply",
+      "Currency headwinds remain persistent given Abbott's substantial international revenue exposure",
+      "No current news flow available to assess near-term catalysts or emerging risks"
     ],
-    "verdict": "Abbott is a high-quality, diversified healthcare compounder with durable competitive advantages and a strong dividend history, making it suitable for long-term investors seeking stability, though near-term growth normalization post-COVID diagnostics and legal risks warrant patience and a valuation-conscious entry point.",
+    "verdict": "Abbott is a fundamentally sound, diversified healthcare compounder with a strong CGM growth engine and solid balance sheet, making it a reasonable mid-to-long-term hold, but investors should monitor litigation outcomes and the pace of Libre's market share expansion before initiating a new position.",
     "confidence": "low",
     "ticker": "ABT"
   },
   "relative_strength": {
     "ticker": "ABT",
-    "stock_return_3m": -23.44,
-    "benchmark_return_3m": 7.1,
-    "relative_strength": -30.54,
+    "stock_return_3m": -24.4,
+    "benchmark_return_3m": 6.95,
+    "relative_strength": -31.35,
     "label": "underperforming"
   },
   "final_tier": "Hold",
   "sizing": {
     "suggested_shares": 13,
-    "suggested_dollars": 1096.16,
-    "note": "13 shares @ $84.32 = $1,096 | $78 swing budget remaining after"
+    "suggested_dollars": 1096.55,
+    "note": "13 shares @ $84.35 = $1,097 | $55 swing budget remaining after"
   },
   "is_dca": false,
-  "saved_at": "2026-05-08T22:55:28.001452"
+  "saved_at": "2026-05-12T22:58:58.469721"
 }
