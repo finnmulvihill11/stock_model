@@ -4,26 +4,26 @@
     "ticker": "VOO",
     "direction": "sell",
     "tier": "Watch",
-    "buy_score": 0.5,
-    "sell_score": 0.71,
+    "buy_score": 0.38,
+    "sell_score": 0.57,
     "reasons": [
-      "BB: price near upper band (pct=0.91)",
+      "BB: price near upper band (pct=0.98)",
       "BB Width: squeeze/contraction after expansion",
-      "RSI: overbought zone (76.2)",
-      "MACD: histogram at peak / turning down",
-      "Volume: above average on sell (1.01x) \u2014 confirms distribution"
+      "RSI: overbought zone (73.7)",
+      "50/200MA: converging downward toward death cross"
     ],
     "misses": [
+      "MACD: no bearish crossover or peak",
       "RSI Divergence: no bearish divergence detected",
-      "Golden cross still active: 50MA above 200MA"
+      "Volume: below average (0.73x)"
     ],
-    "price": 678.67,
-    "rsi": 76.2,
-    "atr": 6.19,
+    "price": 678.04,
+    "rsi": 73.7,
+    "atr": 6.49,
     "final_tier": "Watch",
     "sizing": {
       "suggested_shares": 1,
-      "suggested_dollars": 678.67,
+      "suggested_dollars": 678.04,
       "note": "1 share every 2 months"
     }
   },
@@ -58,33 +58,33 @@
     "health": "healthy",
     "key_events": [
       "No recent news headlines provided for analysis",
-      "VOO continues to passively track the S&P 500 index with one of the lowest expense ratios in the industry (0.03%)",
-      "Consistent inflows into passive index ETFs as investors favor low-cost broad market exposure"
+      "VOO continues to passively track the S&P 500 index with near-zero tracking error and one of the lowest expense ratios (0.03%) in the industry",
+      "S&P 500 index composition regularly rebalanced, reflecting ongoing shifts in U.S. large-cap equity leadership"
     ],
-    "macro_context": "U.S. large-cap equities face a mixed macro environment with persistent interest rate uncertainty, resilient corporate earnings, and AI-driven growth concentrated in mega-cap tech offsetting broader valuation concerns.",
-    "competitive_notes": "VOO is among the three dominant S&P 500 ETFs alongside SPY and IVV, with a structural cost advantage and Vanguard's unique ownership model fostering strong investor loyalty and continued AUM growth.",
+    "macro_context": "U.S. large-cap equities face a mixed macro backdrop of resilient corporate earnings offset by elevated interest rates, persistent inflation uncertainty, and geopolitical risks that could pressure valuations in the near term.",
+    "competitive_notes": "VOO is among the largest and most liquid S&P 500 ETFs globally, competing directly with SPY and IVV, but maintains a structural cost advantage with its 0.03% expense ratio that is difficult for rivals to undercut meaningfully.",
     "red_flags": [
-      "High concentration risk \u2014 top 10 holdings (Apple, Microsoft, Nvidia, etc.) represent ~35%+ of the fund, amplifying drawdown risk if mega-cap tech corrects",
-      "Elevated S&P 500 valuations (P/E ~21-23x forward) leave limited margin of safety in a risk-off scenario",
-      "No active downside protection \u2014 full market exposure means VOO will mirror any broad market decline"
+      "High concentration risk in top 10 holdings (Apple, Microsoft, Nvidia, etc.) which represent ~35% of the fund, amplifying single-stock or sector volatility",
+      "No active downside protection \u2014 in bear markets or recessions, VOO will fully reflect index drawdowns",
+      "Elevated S&P 500 valuations (P/E near historical highs) may limit forward returns over the medium term"
     ],
-    "verdict": "VOO remains a core, high-conviction holding for mid-to-long-term investors seeking diversified U.S. large-cap exposure at minimal cost, though investors should be aware of current valuation stretched conditions and mega-cap concentration.",
-    "confidence": "high",
+    "verdict": "VOO remains a cornerstone holding for mid-to-long-term investors seeking broad U.S. large-cap exposure at minimal cost, but investors should be aware of current valuation stretch and concentration in mega-cap tech names.",
+    "confidence": "medium",
     "ticker": "VOO"
   },
   "relative_strength": {
     "ticker": "VOO",
-    "stock_return_3m": 6.97,
-    "benchmark_return_3m": 6.95,
-    "relative_strength": 0.03,
+    "stock_return_3m": 7.07,
+    "benchmark_return_3m": 7.1,
+    "relative_strength": -0.02,
     "label": "in-line"
   },
   "final_tier": "Watch",
   "sizing": {
     "suggested_shares": 1,
-    "suggested_dollars": 678.67,
+    "suggested_dollars": 678.04,
     "note": "1 share every 2 months"
   },
   "is_dca": true,
-  "saved_at": "2026-05-12T22:58:46.895464"
+  "saved_at": "2026-05-08T22:54:53.715836"
 }

@@ -1,38 +1,21 @@
 {
   "current": {
-    "action": "Wait",
-    "action_reason": "MSFT is showing early mean-reversion signals (lower BB, BB squeeze, converging MAs) but your system requires RSI 20-30 and a MACD confirmation that aren't there yet \u2014 price below the 200MA means this could keep falling. Don't average down into an incomplete setup; let the technicals come to you.",
+    "action": "Hold",
+    "action_reason": "You're already in a losing position with no confirmed reversal signals \u2014 price is below the 200MA, RSI is neutral at 48.4, and MACD hasn't turned. Adding here would be catching a falling knife; exiting locks in an 11% loss without a technical catalyst to justify urgency.",
     "target_price": 440.0,
-    "target_reasoning": "A reversion from current oversold-adjacent levels toward the 200MA zone (~$440-450) represents a realistic mean-reversion target once RSI confirms a bottom; this also aligns with roughly a 50% recovery of the current drawdown and historical BB midline resistance on the weekly chart.",
-    "exit_trigger": "Cut the position if MSFT closes below $390 on elevated volume \u2014 that level breaks near-term structure, accelerates the distance below the 200MA, and signals the 'falling knife' scenario is in play, not a mean-reversion setup.",
-    "add_trigger": "Add a third share only if RSI drops into the 22-28 range AND a MACD bullish crossover or histogram inflection confirms simultaneously \u2014 both conditions must fire together, not individually. Volume should be at or above average on the confirmation candle.",
-    "risk": "Price is below the 200MA with MACD still bearish \u2014 the primary risk is that this is a trend continuation, not a mean-reversion opportunity. At 23.6% portfolio weight you are already overexposed; averaging down prematurely could deepen both the loss and the concentration risk before the technical setup matures.",
+    "target_reasoning": "The $440 zone represents a logical mean-reversion target near the 200MA reclaim level and upper Bollinger Band region given the current squeeze (width=0.1101). A BB squeeze resolution to the upside combined with RSI pushing toward 60-65 would confirm momentum shift and make $440 a realistic 4-6 week swing target.",
+    "exit_trigger": "If price breaks decisively below $400 on elevated volume OR RSI drops below 35 without a bullish divergence forming, cut the position to prevent further drawdown \u2014 the 200MA downtrend would be accelerating.",
+    "add_trigger": "Only add if RSI pulls back into the 25-32 range AND price touches or pierces the lower Bollinger Band AND MACD shows a bullish crossover or valley \u2014 all three must align. Do not add on price alone.",
+    "risk": "The BB squeeze resolves to the downside rather than upside \u2014 price is already below the 200MA and a bearish squeeze breakout could push MSFT toward $390-$395, deepening the loss to ~15-17%. This is the primary threat given the missing confirmation signals.",
     "outlook": "cautious",
-    "timeframe": "3-6 weeks for setup to either confirm (RSI/MACD fire) or invalidate (break below $390)",
+    "timeframe": "4-8 weeks",
     "ticker": "MSFT",
     "company_name": "Microsoft Corporation",
-    "generated_at": "2026-05-12T22:58:37.413626",
-    "price_at_generation": 407.77,
-    "pnl_at_generation": -12.72
+    "generated_at": "2026-05-08T22:54:43.670517",
+    "price_at_generation": 415.12,
+    "pnl_at_generation": -11.14
   },
   "history": [
-    {
-      "action": "Hold",
-      "action_reason": "You're already in a losing position with no confirmed reversal signals \u2014 price is below the 200MA, RSI is neutral at 48.4, and MACD hasn't turned. Adding here would be catching a falling knife; exiting locks in an 11% loss without a technical catalyst to justify urgency.",
-      "target_price": 440.0,
-      "target_reasoning": "The $440 zone represents a logical mean-reversion target near the 200MA reclaim level and upper Bollinger Band region given the current squeeze (width=0.1101). A BB squeeze resolution to the upside combined with RSI pushing toward 60-65 would confirm momentum shift and make $440 a realistic 4-6 week swing target.",
-      "exit_trigger": "If price breaks decisively below $400 on elevated volume OR RSI drops below 35 without a bullish divergence forming, cut the position to prevent further drawdown \u2014 the 200MA downtrend would be accelerating.",
-      "add_trigger": "Only add if RSI pulls back into the 25-32 range AND price touches or pierces the lower Bollinger Band AND MACD shows a bullish crossover or valley \u2014 all three must align. Do not add on price alone.",
-      "risk": "The BB squeeze resolves to the downside rather than upside \u2014 price is already below the 200MA and a bearish squeeze breakout could push MSFT toward $390-$395, deepening the loss to ~15-17%. This is the primary threat given the missing confirmation signals.",
-      "outlook": "cautious",
-      "timeframe": "4-8 weeks",
-      "ticker": "MSFT",
-      "company_name": "Microsoft Corporation",
-      "generated_at": "2026-05-08T22:54:43.670517",
-      "price_at_generation": 415.12,
-      "pnl_at_generation": -11.14,
-      "archived_at": "2026-05-12T22:58:37.413824"
-    },
     {
       "action": "Wait",
       "action_reason": "Your entry philosophy requires mean-reversion confirmation \u2014 RSI at 48.9 and price sitting at 61% of the Bollinger Band range means you're in no-man's land, not a high-conviction setup. MACD turning up and a brewing golden cross are encouraging, but they're not enough to justify adding into a position that's already down 10% and sitting below the 200MA.",

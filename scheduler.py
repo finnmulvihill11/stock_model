@@ -40,7 +40,7 @@ def _final_tier(tech_tier, fund_health, news_sentiment, gate_proceed):
 
 
 def run_nightly():
-    """Mon–Fri: analyze swing holdings, generate plans, strategy, watchlist, email digest."""
+    """Mon–Fri: analyze current holdings only, generate position plans + portfolio strategy."""
     start = datetime.now()
     print(f"=== Nightly run started {start.strftime('%Y-%m-%d %H:%M')} ===\n")
 
@@ -50,7 +50,7 @@ def run_nightly():
     position_plans = []
 
     # ── Analyze all holdings ──────────────────────────────────────────────────
-    print("[ 1/4 ] Analyzing holdings...")
+    print("[ 1/2 ] Analyzing holdings...")
     for holding in portfolio["holdings"]:
         ticker = holding["ticker"]
         is_dca = holding.get("dca", False)
@@ -92,36 +92,15 @@ def run_nightly():
                               "current_price": holding["current_price"], "portfolio_pct": holding.get("portfolio_pct", 0)})
                 position_plans.append(plan)
 
-            # if tier in ("Strong Buy", "Strong Sell"):
-            #     send_strong_signal_alert(sig)
-
         except Exception as e:
             print(f"  {ticker} failed: {e}")
 
-    # ── Watchlist refresh ─────────────────────────────────────────────────────
-    print("\n[ 2/4 ] Refreshing watchlist...")
+    # ── Portfolio strategy (holdings only, no new opportunities) ─────────────
+    print("\n[ 2/2 ] Generating portfolio strategy...")
     try:
-        refresh_watchlist_signals()
-    except Exception as e:
-        print(f"  Watchlist failed: {e}")
-
-    # ── Portfolio strategy ────────────────────────────────────────────────────
-    print("\n[ 3/4 ] Generating portfolio strategy...")
-    # Load latest weekly opportunities + watchlist so they persist in the priority list
-    from src.analysis_cache import load_opportunity_plans
-    opp_plans = load_opportunity_plans().get("plans", [])
-    if opp_plans:
-        print(f"  Including {len(opp_plans)} weekly opportunities in strategy")
-    try:
-        generate_portfolio_strategy(portfolio, position_plans, market, opp_plans, get_watchlist())
+        generate_portfolio_strategy(portfolio, position_plans, market, [], [])
     except Exception as e:
         print(f"  Strategy failed: {e}")
-
-    # ── Daily digest email (disabled) ────────────────────────────────────────
-    # try:
-    #     send_daily_digest(signals, portfolio, market)
-    # except Exception as e:
-    #     print(f"  Digest failed: {e}")
 
     elapsed = (datetime.now() - start).total_seconds()
     print(f"\n=== Nightly run complete in {elapsed:.0f}s ===")
@@ -138,14 +117,14 @@ def run_weekly():
     portfolio_tickers = {h["ticker"] for h in portfolio["holdings"]}
 
     # ── Full screener scrape ──────────────────────────────────────────────────
-    print("[ 1/2 ] Running full screener scrape...")
+    print("[ 1/3 ] Running full screener scrape...")
     try:
         run_full_scrape(verbose=True)
     except Exception as e:
         print(f"  Screener failed: {e}")
 
     # ── Analyze top opportunities ─────────────────────────────────────────────
-    print("\n[ 2/2 ] Analyzing top opportunities...")
+    print("\n[ 2/3 ] Analyzing top opportunities...")
     cache = load_cache()
     candidates = [r for r in cache.get("results", []) if r["ticker"] not in portfolio_tickers][:5]
     opp_plans = []
@@ -176,7 +155,12 @@ def run_weekly():
     # except Exception as e:
     #     print(f"  Weekly email failed: {e}")
 
-    # Auto-add strong signals to watchlist
+    # ── Watchlist refresh + auto-add ─────────────────────────────────────────
+    print("\n[ 3/3 ] Refreshing watchlist...")
+    try:
+        refresh_watchlist_signals()
+    except Exception as e:
+        print(f"  Watchlist refresh failed: {e}")
     try:
         screener_results = cache.get("results", [])
         auto_add_strong_signals(

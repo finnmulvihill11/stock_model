@@ -1,49 +1,44 @@
 portfolio:
   holdings:
-  - ticker: INTU
-    shares: 3
-    avg_cost: 468.29
-  - ticker: MSFT
-    shares: 2
-    avg_cost: 467.18
-  - ticker: VOO
-    shares: 1
-    avg_cost: 602.92
-    dca: true
-  - ticker: ABT
-    shares: 2
-    avg_cost: 109.77
-  - ticker: TEM
-    shares: 3
-    avg_cost: 69.08
-    high_risk: true
-  - ticker: VXUS
-    shares: 2
-    avg_cost: 74.24
-    dca: true
-  - ticker: CMG
-    shares: 4
-    avg_cost: 31.47
-  - ticker: DECK
-    shares: 2
-    avg_cost: 97.18
-  dca_tickers:
-  - VOO
-  - VXUS
-  swing_tickers:
-  - INTU
-  - MSFT
-  - CMG
-  - ABT
-  - TEM
-  - DECK
+    - ticker: INTU
+      shares: 3
+      avg_cost: 468.29
+    - ticker: MSFT
+      shares: 2
+      avg_cost: 467.18
+    - ticker: VOO
+      shares: 1
+      avg_cost: 602.92
+      dca: true
+    - ticker: XLK
+      shares: 1
+      avg_cost: 142.63
+    - ticker: ABT
+      shares: 2
+      avg_cost: 109.77
+    - ticker: TEM
+      shares: 3
+      avg_cost: 69.08
+      high_risk: true
+    - ticker: VXUS
+      shares: 2
+      avg_cost: 74.24
+      dca: true
+    - ticker: CMG
+      shares: 4
+      avg_cost: 31.47
+    - ticker: DECK
+      shares: 2
+      avg_cost: 97.18
+
+  dca_tickers: [VOO, VXUS]
+  swing_tickers: [INTU, MSFT, CMG, ABT, TEM, XLK, DECK]
   dca_cadence: monthly
+
   max_position_pct: 0.25
-  tech_concentration_tickers:
-  - INTU
-  - MSFT
-  - XLK
-  tech_concentration_limit: 0.7
+  tech_concentration_tickers: [INTU, MSFT, XLK]
+  tech_concentration_limit: 0.70
+
 indicators:
   bb_window: 20
   bb_std: 2
@@ -60,98 +55,106 @@ indicators:
   volume_ma_window: 20
   atr_window: 14
   divergence_lookback: 14
+
 signals:
   candle_primary: 1d
   candle_confirmation: 1wk
   history_period: 2y
+
 screener:
   universes:
-  - sp500
-  - nasdaq100
+    - sp500
+    - nasdaq100
   include_portfolio: true
   max_results: 20
+
 alerts:
   email: fjmulvihill@hotmail.com
-  daily_digest_time: '16:30'
+  daily_digest_time: "16:30"
   strong_signal_realtime: true
+
 market_context:
   vix_fear_threshold: 30
   vix_greed_threshold: 15
   rs_lookback_days: 63
   benchmark: SPY
+
 sizing:
-  base_risk_pct: 0.1
+  base_risk_pct: 0.10
   min_position_pct: 0.03
-  max_position_pct: 0.2
+  max_position_pct: 0.20
   atr_multiplier: 2.0
+
 etf_universe:
   broad_us:
-  - ticker: VOO
-    name: Vanguard S&P 500 ETF
-    expense_ratio: 0.03
-  - ticker: VTI
-    name: Vanguard Total Stock Market ETF
-    expense_ratio: 0.03
-  - ticker: QQQ
-    name: Invesco NASDAQ-100 ETF
-    expense_ratio: 0.2
+    - ticker: VOO
+      name: Vanguard S&P 500 ETF
+      expense_ratio: 0.03
+    - ticker: VTI
+      name: Vanguard Total Stock Market ETF
+      expense_ratio: 0.03
+    - ticker: QQQ
+      name: Invesco NASDAQ-100 ETF
+      expense_ratio: 0.20
   international:
-  - ticker: VXUS
-    name: Vanguard Total International Stock ETF
-    expense_ratio: 0.07
-  - ticker: VEA
-    name: Vanguard Developed Markets ETF
-    expense_ratio: 0.05
-  - ticker: VWO
-    name: Vanguard Emerging Markets ETF
-    expense_ratio: 0.08
+    - ticker: VXUS
+      name: Vanguard Total International Stock ETF
+      expense_ratio: 0.07
+    - ticker: VEA
+      name: Vanguard Developed Markets ETF
+      expense_ratio: 0.05
+    - ticker: VWO
+      name: Vanguard Emerging Markets ETF
+      expense_ratio: 0.08
   dividend:
-  - ticker: SCHD
-    name: Schwab US Dividend Equity ETF
-    expense_ratio: 0.06
-  - ticker: VYM
-    name: Vanguard High Dividend Yield ETF
-    expense_ratio: 0.06
+    - ticker: SCHD
+      name: Schwab US Dividend Equity ETF
+      expense_ratio: 0.06
+    - ticker: VYM
+      name: Vanguard High Dividend Yield ETF
+      expense_ratio: 0.06
   growth:
-  - ticker: VUG
-    name: Vanguard Growth ETF
-    expense_ratio: 0.04
-  - ticker: QQQM
-    name: Invesco NASDAQ-100 ETF (smaller share class)
-    expense_ratio: 0.15
+    - ticker: VUG
+      name: Vanguard Growth ETF
+      expense_ratio: 0.04
+    - ticker: QQQM
+      name: Invesco NASDAQ-100 ETF (smaller share class)
+      expense_ratio: 0.15
   sector:
-  - ticker: XLK
-    name: Technology Select Sector SPDR
-    expense_ratio: 0.09
-  - ticker: XLV
-    name: Health Care Select Sector SPDR
-    expense_ratio: 0.09
-  - ticker: XLE
-    name: Energy Select Sector SPDR
-    expense_ratio: 0.09
-  - ticker: XLF
-    name: Financial Select Sector SPDR
-    expense_ratio: 0.09
+    - ticker: XLK
+      name: Technology Select Sector SPDR
+      expense_ratio: 0.09
+    - ticker: XLV
+      name: Health Care Select Sector SPDR
+      expense_ratio: 0.09
+    - ticker: XLE
+      name: Energy Select Sector SPDR
+      expense_ratio: 0.09
+    - ticker: XLF
+      name: Financial Select Sector SPDR
+      expense_ratio: 0.09
   factor:
-  - ticker: QUAL
-    name: iShares MSCI USA Quality Factor ETF
-    expense_ratio: 0.15
-  - ticker: SCHG
-    name: Schwab US Large-Cap Growth ETF
-    expense_ratio: 0.04
+    - ticker: QUAL
+      name: iShares MSCI USA Quality Factor ETF
+      expense_ratio: 0.15
+    - ticker: SCHG
+      name: Schwab US Large-Cap Growth ETF
+      expense_ratio: 0.04
+
 etf_advisor:
   accelerate_drawdown_pct: 15
   normal_drawdown_pct: 5
   accelerate_multiplier: 2.0
   slight_increase_multiplier: 1.5
-  high_cost_threshold: 200
-  high_cost_freq_months: 2
-  low_cost_freq_months: 1
+  high_cost_threshold: 200        # $/share — above this = every 2 months
+  high_cost_freq_months: 2        # buy 1 share every N months
+  low_cost_freq_months: 1         # buy 1 share every month
+
 budget:
   total: 2000
   etf_budget: 1000
   swing_budget: 1000
   period_months: 3
-  start_date: '2026-05-07'
+  start_date: "2026-05-07"
   high_cost_etf_threshold: 200
   partial_shares: false

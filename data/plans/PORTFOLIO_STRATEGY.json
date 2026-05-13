@@ -1,140 +1,65 @@
 {
   "current": {
-    "headline": "Oversold portfolio in wait-and-confirm mode \u2014 deploy $1K swing budget selectively into highest-conviction mean-reversion setups while managing INTU concentration risk.",
-    "market_stance": "neutral",
-    "overall_thesis": "The portfolio is broadly underwater with multiple positions in technical repair mode across a 4-8 week horizon. VIX at 18 and neutral sentiment offer no edge for aggressive action, so capital preservation and disciplined signal-waiting take priority on existing holdings. The $1,000 swing budget should be deployed into 1-2 high-conviction new setups (TPL, GRMN) with tight risk controls, while INTU concentration must be addressed as soon as a technically viable exit or trim window opens post-earnings.",
+    "headline": "Defensive posture with one clear trim opportunity \u2014 reduce INTU overweight, harvest XLK gains, and let oversold positions breathe.",
+    "market_stance": "defensive",
+    "overall_thesis": "With the portfolio down 7.77%, tech concentrated at 63%, and INTU breaching the 25% cap, the 4-8 week priority is risk reduction first, opportunity second. Trim XLK to lock in the only meaningful winner and redeploy selectively into oversold quality names once reversal signals confirm. The $1,000 swing budget stays dry until ABT or INTU deliver a clean technical entry \u2014 do not chase in a Fear environment.",
     "priority_actions": [
       {
         "rank": 1,
-        "action": "WATCH",
-        "ticker": "INTU",
-        "instruction": "Flag for TRIM post-earnings reaction (mid-to-late June) \u2014 position exceeds 25% cap at 33.7%; do not add, set alert for first bounce to reduce toward cap.",
-        "urgency": "this month"
+        "action": "TRIM",
+        "ticker": "XLK",
+        "instruction": "Trim 30-50% of position immediately \u2014 RSI 83.2 is deep overbought, +23% gain is real money, and Fear & Greed at 38 increases pullback risk; book profits now and set a re-entry watch near $150-$162.",
+        "urgency": "immediate"
       },
       {
         "rank": 2,
-        "action": "BUY",
-        "ticker": "TPL",
-        "instruction": "Initiate position with ~$500 of swing budget \u2014 RSI 23.1, persistent Buy signal active 2+ scrapes, high conviction mean-reversion setup; set stop ~7% below entry.",
+        "action": "TRIM",
+        "ticker": "INTU",
+        "instruction": "Reduce INTU to bring allocation from 34% back below the 25% cap \u2014 sell enough shares to right-size the position regardless of P&L; do not wait for a recovery to rebalance a rule violation.",
         "urgency": "this week"
       },
       {
         "rank": 3,
-        "action": "BUY",
-        "ticker": "GRMN",
-        "instruction": "Initiate position with ~$400 of swing budget \u2014 RSI 25.7 with bullish divergence, textbook oversold quality name; reserve $100 cash buffer, set stop ~7% below entry.",
-        "urgency": "this week"
+        "action": "WATCH",
+        "ticker": "ABT",
+        "instruction": "Do not add yet \u2014 RSI at 21 and price on lower BB signals extreme oversold, but death cross and sub-200MA structure require a confirmed reversal candle and RSI reclaim above 30 before entry; set alert at RSI 30 crossover.",
+        "urgency": "this month"
       },
       {
         "rank": 4,
-        "action": "WATCH",
-        "ticker": "TEM",
-        "instruction": "Monitor for RSI confirmation and MACD turn over next 3-6 weeks \u2014 if neither signal fires by mid-cycle, escalate to EXIT; do not average down at -32%.",
-        "urgency": "this month"
+        "action": "HOLD",
+        "ticker": "CMG",
+        "instruction": "Hold small profitable position and monitor BB squeeze resolution within 2 weeks \u2014 if price breaks upward with volume, target $35.50; if it breaks down, exit immediately per your stop trigger.",
+        "urgency": "this week"
       },
       {
         "rank": 5,
         "action": "HOLD",
-        "ticker": "ABT",
-        "instruction": "Hold and monitor BB lower band + MACD histogram for mean-reversion confirmation \u2014 no action until signals strengthen over 4-8 week window.",
+        "ticker": "TEM",
+        "instruction": "Hold and do not add \u2014 down 28% post-earnings with BB squeeze unresolved; wait for RSI to confirm buy zone entry or flag further downside before any action; panic-selling here locks in max loss.",
         "urgency": "monitor"
       },
       {
         "rank": 6,
-        "action": "WATCH",
-        "ticker": "MSFT",
-        "instruction": "Watch for RSI/MACD confirmation to add, or break below $390 to exit \u2014 do not act until one of these triggers fires; BB squeeze suggests resolution is approaching.",
-        "urgency": "this month"
-      },
-      {
-        "rank": 7,
         "action": "HOLD",
-        "ticker": "CMG",
-        "instruction": "Hold small position with +3.8% gain \u2014 MACD histogram turn is positive; let winner run 2-4 weeks and reassess at next resistance level.",
+        "ticker": "MSFT",
+        "instruction": "Hold with no additions \u2014 no confirmed reversal signal yet, RSI not in buy zone, and adding to a losing position without a setup violates your entry rules; reassess in 4-8 weeks.",
         "urgency": "monitor"
-      },
-      {
-        "rank": 8,
-        "action": "WATCH",
-        "ticker": "DECK",
-        "instruction": "Do not add pre-earnings despite RSI 30 and bullish divergence \u2014 wait for earnings catalyst to clear, then reassess for entry if oversold setup persists.",
-        "urgency": "this month"
       }
     ],
-    "biggest_risk": "INTU at 33.7% concentration means a continued drawdown in a single name could meaningfully impair the entire portfolio before a technically clean exit window opens in mid-to-late June.",
+    "biggest_risk": "INTU at 34% concentration means a continued drawdown in a single name can materially damage the entire portfolio \u2014 the cap breach is a live risk that compounds daily it goes unaddressed.",
     "what_to_watch": [
-      "INTU post-earnings price reaction in mid-to-late June \u2014 first clean opportunity to trim toward the 25% cap",
-      "TEM RSI and MACD turn signals over the next 3 weeks \u2014 absence of confirmation escalates this to a structural exit",
-      "MSFT $390 support level \u2014 a decisive break triggers exit, while RSI/MACD confirmation triggers an add"
+      "INTU earnings print \u2014 do not act before it; reassess technicals post-print for a potential re-entry at lower allocation",
+      "ABT RSI reclaiming 30 and a confirmed reversal candle above the lower Bollinger Band \u2014 this is your next swing entry trigger",
+      "CMG Bollinger Band squeeze resolution \u2014 direction of the breakout within the next 2 weeks sets your hold-or-exit decision"
     ],
     "on_course_check": [
-      "Plan is working if TPL and GRMN show positive price action within 2-3 weeks of entry and existing holdings (MSFT, ABT) begin forming higher lows with improving RSI",
-      "Plan needs revision if TEM continues declining with no technical reversal signals by early June, INTU fails to recover toward cost basis post-earnings, or VIX spikes above 25 signaling regime change"
+      "Plan is working if: XLK trim is executed above $170, INTU allocation drops below 25%, and swing budget remains intact waiting for a clean ABT or INTU re-entry signal",
+      "Plan needs revision if: ABT breaks further below current support with no RSI stabilization, TEM fails to find a floor after BB squeeze resolves to the downside, or VIX spikes above 25 signaling a regime change"
     ],
-    "generated_at": "2026-05-12T23:02:16.406193"
+    "generated_at": "2026-05-08T22:56:59.075910"
   },
   "history": [
-    {
-      "headline": "Defensive posture with one clear trim opportunity \u2014 reduce INTU overweight, harvest XLK gains, and let oversold positions breathe.",
-      "market_stance": "defensive",
-      "overall_thesis": "With the portfolio down 7.77%, tech concentrated at 63%, and INTU breaching the 25% cap, the 4-8 week priority is risk reduction first, opportunity second. Trim XLK to lock in the only meaningful winner and redeploy selectively into oversold quality names once reversal signals confirm. The $1,000 swing budget stays dry until ABT or INTU deliver a clean technical entry \u2014 do not chase in a Fear environment.",
-      "priority_actions": [
-        {
-          "rank": 1,
-          "action": "TRIM",
-          "ticker": "XLK",
-          "instruction": "Trim 30-50% of position immediately \u2014 RSI 83.2 is deep overbought, +23% gain is real money, and Fear & Greed at 38 increases pullback risk; book profits now and set a re-entry watch near $150-$162.",
-          "urgency": "immediate"
-        },
-        {
-          "rank": 2,
-          "action": "TRIM",
-          "ticker": "INTU",
-          "instruction": "Reduce INTU to bring allocation from 34% back below the 25% cap \u2014 sell enough shares to right-size the position regardless of P&L; do not wait for a recovery to rebalance a rule violation.",
-          "urgency": "this week"
-        },
-        {
-          "rank": 3,
-          "action": "WATCH",
-          "ticker": "ABT",
-          "instruction": "Do not add yet \u2014 RSI at 21 and price on lower BB signals extreme oversold, but death cross and sub-200MA structure require a confirmed reversal candle and RSI reclaim above 30 before entry; set alert at RSI 30 crossover.",
-          "urgency": "this month"
-        },
-        {
-          "rank": 4,
-          "action": "HOLD",
-          "ticker": "CMG",
-          "instruction": "Hold small profitable position and monitor BB squeeze resolution within 2 weeks \u2014 if price breaks upward with volume, target $35.50; if it breaks down, exit immediately per your stop trigger.",
-          "urgency": "this week"
-        },
-        {
-          "rank": 5,
-          "action": "HOLD",
-          "ticker": "TEM",
-          "instruction": "Hold and do not add \u2014 down 28% post-earnings with BB squeeze unresolved; wait for RSI to confirm buy zone entry or flag further downside before any action; panic-selling here locks in max loss.",
-          "urgency": "monitor"
-        },
-        {
-          "rank": 6,
-          "action": "HOLD",
-          "ticker": "MSFT",
-          "instruction": "Hold with no additions \u2014 no confirmed reversal signal yet, RSI not in buy zone, and adding to a losing position without a setup violates your entry rules; reassess in 4-8 weeks.",
-          "urgency": "monitor"
-        }
-      ],
-      "biggest_risk": "INTU at 34% concentration means a continued drawdown in a single name can materially damage the entire portfolio \u2014 the cap breach is a live risk that compounds daily it goes unaddressed.",
-      "what_to_watch": [
-        "INTU earnings print \u2014 do not act before it; reassess technicals post-print for a potential re-entry at lower allocation",
-        "ABT RSI reclaiming 30 and a confirmed reversal candle above the lower Bollinger Band \u2014 this is your next swing entry trigger",
-        "CMG Bollinger Band squeeze resolution \u2014 direction of the breakout within the next 2 weeks sets your hold-or-exit decision"
-      ],
-      "on_course_check": [
-        "Plan is working if: XLK trim is executed above $170, INTU allocation drops below 25%, and swing budget remains intact waiting for a clean ABT or INTU re-entry signal",
-        "Plan needs revision if: ABT breaks further below current support with no RSI stabilization, TEM fails to find a floor after BB squeeze resolves to the downside, or VIX spikes above 25 signaling a regime change"
-      ],
-      "generated_at": "2026-05-08T22:56:59.075910",
-      "archived_at": "2026-05-12T23:02:16.406415"
-    },
     {
       "headline": "Defensive posture required \u2014 trim overbought XLK to fund oversold re-entries while bleeding positions in INTU and TEM demand triage.",
       "market_stance": "defensive",
