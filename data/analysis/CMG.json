@@ -11,21 +11,21 @@
       "RSI Divergence: Price lower low (30.86 < 32.52) but RSI higher low (27.1 > 25.6)"
     ],
     "misses": [
-      "BB: price not near lower band (pct=0.30)",
+      "BB: price not near lower band (pct=0.22)",
       "BB Width: bands expanding, not squeezing",
-      "RSI: not in buy zone (37.0, need 20-30)",
+      "RSI: not in buy zone (39.7, need 20-30)",
       "200MA: price below 200MA \u2014 potential falling knife",
-      "Death cross active: 50MA (33.73) below 200MA (37.30)",
-      "Volume: below average (0.58x) \u2014 low conviction"
+      "Death cross active: 50MA (33.63) below 200MA (37.24)",
+      "Volume: below average (0.63x) \u2014 low conviction"
     ],
-    "price": 32.67,
-    "rsi": 37.0,
-    "atr": 1.18,
+    "price": 32.11,
+    "rsi": 39.7,
+    "atr": 1.11,
     "final_tier": "Hold",
     "sizing": {
-      "suggested_shares": 35,
-      "suggested_dollars": 1143.45,
-      "note": "35 shares @ $32.67 = $1,143 | $8 swing budget remaining after"
+      "suggested_shares": 30,
+      "suggested_dollars": 963.3,
+      "note": "30 shares @ $32.11 = $963 | $16 swing budget remaining after"
     }
   },
   "fundamentals": {
@@ -55,7 +55,7 @@
       ],
       "earnings_status": "past",
       "next_earnings_date": "2026-04-29",
-      "days_to_earnings": -13
+      "days_to_earnings": -14
     }
   },
   "news": {
@@ -63,35 +63,34 @@
     "health": "healthy",
     "key_events": [
       "No recent news headlines were provided for analysis",
-      "Chipotle continues to expand its restaurant footprint domestically and internationally",
-      "Digital ordering channels (app, web, third-party delivery) remain a key revenue driver",
-      "Company has historically demonstrated strong same-store sales growth and margin expansion"
+      "Chipotle continues to operate its core fast-casual Mexican restaurant model with digital ordering capabilities",
+      "Company has historically pursued unit expansion strategy across North America and internationally"
     ],
-    "macro_context": "The restaurant sector faces persistent headwinds from cost-conscious consumers, elevated food and labor costs, and potential recessionary pressure on discretionary spending, though fast-casual dining has shown relative resilience versus full-service peers.",
-    "competitive_notes": "Chipotle maintains a strong competitive moat through brand loyalty, throughput efficiency, and its 'Food with Integrity' positioning, though it faces competition from Cava, Qdoba, and broader fast-casual entrants targeting the same value-conscious consumer.",
+    "macro_context": "Fast-casual restaurants face a mixed macro environment with persistent consumer caution around discretionary dining spend, elevated labor and food input costs, but benefit from a structural shift away from full-service dining toward convenience-driven formats.",
+    "competitive_notes": "Chipotle maintains a strong competitive moat through brand loyalty, throughput efficiency, and digital ecosystem, though it faces pressure from expanding fast-casual competitors like Cava, Sweetgreen, and value-oriented QSR chains competing for wallet share.",
     "red_flags": [
-      "No current news provided \u2014 analysis relies on structural fundamentals only, limiting real-time signal accuracy",
-      "Valuation has historically traded at a significant premium (high P/E), leaving little margin of safety if growth decelerates",
-      "Consumer spending fatigue and menu price sensitivity could pressure same-store sales growth",
-      "Food safety incidents (historically) have proven to be acute reputational and financial risks for CMG"
+      "No current news provided \u2014 analysis relies on fundamental knowledge only, limiting real-time risk assessment",
+      "Valuation has historically been premium, leaving limited margin of safety if growth decelerates",
+      "Consumer trade-down risk if macroeconomic conditions worsen significantly",
+      "Food safety incidents have historically caused material reputational and financial damage"
     ],
-    "verdict": "Chipotle remains a fundamentally strong, well-managed fast-casual brand with durable growth drivers, but its premium valuation demands continued execution; mid-to-long-term investors should wait for a more attractive entry point or initiate a partial position with a long time horizon.",
+    "verdict": "Chipotle remains a fundamentally sound, best-in-class fast-casual operator with durable unit economics and digital strength, making it suitable for long-term investors at the right entry price, though the absence of current news data warrants caution before acting on this analysis alone.",
     "confidence": "low",
     "ticker": "CMG"
   },
   "relative_strength": {
     "ticker": "CMG",
-    "stock_return_3m": -15.01,
-    "benchmark_return_3m": 6.95,
-    "relative_strength": -21.96,
+    "stock_return_3m": -13.73,
+    "benchmark_return_3m": 7.57,
+    "relative_strength": -21.3,
     "label": "underperforming"
   },
   "final_tier": "Hold",
   "sizing": {
-    "suggested_shares": 35,
-    "suggested_dollars": 1143.45,
-    "note": "35 shares @ $32.67 = $1,143 | $8 swing budget remaining after"
+    "suggested_shares": 30,
+    "suggested_dollars": 963.3,
+    "note": "30 shares @ $32.11 = $963 | $16 swing budget remaining after"
   },
   "is_dca": false,
-  "saved_at": "2026-05-12T22:59:51.007530"
+  "saved_at": "2026-05-13T23:06:16.214768"
 }
