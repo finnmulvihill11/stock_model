@@ -1,21 +1,38 @@
 {
   "current": {
     "action": "Hold",
-    "action_reason": "You're already in a small, profitable position with a promising RSI divergence and MACD turning up, but the death cross, price below 200MA, and low volume mean the setup lacks confirmation \u2014 hold your current 4 shares but do not add until the trend shows clearer reversal signals.",
+    "action_reason": "You're already in a small position with a modest gain, and the MACD histogram turning up plus bullish RSI divergence suggest a potential short-term bounce is forming \u2014 but too many core signals are missing (price below 200MA, death cross active, RSI not yet in buy zone) to justify adding more risk right now. Hold what you have and let the setup mature.",
     "target_price": 35.5,
-    "target_reasoning": "The 50MA sits at $33.91 and will act as first resistance \u2014 a clean break above that level opens a path toward $35.50, which aligns with the pre-squeeze consolidation zone and a realistic upper Bollinger Band target if the current BB squeeze resolves to the upside. That represents roughly a 9% move from current price, consistent with a swing trade payoff.",
-    "exit_trigger": "Exit immediately if price closes below $30.50 on above-average volume (confirming the lower low and invalidating the RSI divergence thesis), or if RSI breaks back below 25 without a price recovery \u2014 that signals the divergence failed and a falling knife scenario is unfolding.",
-    "add_trigger": "Add up to 4 more shares only if RSI pulls back into the 22\u201328 zone AND price holds above $30.86 (the prior low) AND volume spikes above 1.2x average \u2014 that combination would confirm a higher-low structure with real buying interest and make the mean-reversion entry much cleaner.",
-    "risk": "The death cross (50MA below 200MA at $37.44) is the dominant risk \u2014 this is a macro downtrend, and the RSI divergence could easily fail in a weak tape. A broader market sell-off (VIX spike) or negative sector news could accelerate the slide below $30, turning this into a falling knife with no technical floor nearby.",
+    "target_reasoning": "The 35.50 zone represents a realistic mean-reversion target toward the 50MA (33.73) and into the mid-BB range given current band expansion; RSI would likely approach 55-60 at that level, well short of overbought, making it a credible take-profit zone without overstaying the trade.",
+    "exit_trigger": "Exit immediately if price closes below 30.50 (undercuts the recent price low of 30.86, invalidating the RSI divergence thesis and confirming continued downtrend); alternatively, take profit if RSI reaches 68-70 or price tags the upper Bollinger Band.",
+    "add_trigger": "Only add if RSI pulls back into the 22-28 range on a flush toward 30.00-30.50 AND the MACD histogram remains constructive (not rolling back negative) \u2014 that would be a cleaner, higher-conviction mean-reversion entry aligned with your philosophy.",
+    "risk": "The death cross (50MA below 200MA) and price trading below the 200MA are the biggest red flags \u2014 this could be a falling knife with the MACD/RSI divergence being a short-lived relief bounce rather than a true reversal; premature adds could meaningfully increase drawdown.",
     "outlook": "cautious",
-    "timeframe": "3\u20136 weeks \u2014 the BB squeeze will likely resolve within 2 weeks, setting the directional move; if it breaks upward, target $35.50 within 4\u20136 weeks. If it breaks down, the exit trigger should fire quickly and cut the position before significant damage.",
+    "timeframe": "2-4 weeks",
     "ticker": "CMG",
     "company_name": "Chipotle Mexican Grill, Inc.",
-    "generated_at": "2026-05-08T22:56:39.828518",
-    "price_at_generation": 32.49,
-    "pnl_at_generation": 3.24
+    "generated_at": "2026-05-12T23:00:00.838504",
+    "price_at_generation": 32.67,
+    "pnl_at_generation": 3.81
   },
   "history": [
+    {
+      "action": "Hold",
+      "action_reason": "You're already in a small, profitable position with a promising RSI divergence and MACD turning up, but the death cross, price below 200MA, and low volume mean the setup lacks confirmation \u2014 hold your current 4 shares but do not add until the trend shows clearer reversal signals.",
+      "target_price": 35.5,
+      "target_reasoning": "The 50MA sits at $33.91 and will act as first resistance \u2014 a clean break above that level opens a path toward $35.50, which aligns with the pre-squeeze consolidation zone and a realistic upper Bollinger Band target if the current BB squeeze resolves to the upside. That represents roughly a 9% move from current price, consistent with a swing trade payoff.",
+      "exit_trigger": "Exit immediately if price closes below $30.50 on above-average volume (confirming the lower low and invalidating the RSI divergence thesis), or if RSI breaks back below 25 without a price recovery \u2014 that signals the divergence failed and a falling knife scenario is unfolding.",
+      "add_trigger": "Add up to 4 more shares only if RSI pulls back into the 22\u201328 zone AND price holds above $30.86 (the prior low) AND volume spikes above 1.2x average \u2014 that combination would confirm a higher-low structure with real buying interest and make the mean-reversion entry much cleaner.",
+      "risk": "The death cross (50MA below 200MA at $37.44) is the dominant risk \u2014 this is a macro downtrend, and the RSI divergence could easily fail in a weak tape. A broader market sell-off (VIX spike) or negative sector news could accelerate the slide below $30, turning this into a falling knife with no technical floor nearby.",
+      "outlook": "cautious",
+      "timeframe": "3\u20136 weeks \u2014 the BB squeeze will likely resolve within 2 weeks, setting the directional move; if it breaks upward, target $35.50 within 4\u20136 weeks. If it breaks down, the exit trigger should fire quickly and cut the position before significant damage.",
+      "ticker": "CMG",
+      "company_name": "Chipotle Mexican Grill, Inc.",
+      "generated_at": "2026-05-08T22:56:39.828518",
+      "price_at_generation": 32.49,
+      "pnl_at_generation": 3.24,
+      "archived_at": "2026-05-12T23:00:00.838707"
+    },
     {
       "action": "Hold",
       "action_reason": "You're sitting on a +5.72% gain with RSI at 34.8 \u2014 just outside your buy zone and not yet oversold enough to add confidently. The BB squeeze and bullish RSI divergence (higher low at 27.1 vs 25.6 while price made a lower low) suggest a potential mean-reversion bounce is forming, but the death cross and price below the 200MA demand patience before committing more capital.",
