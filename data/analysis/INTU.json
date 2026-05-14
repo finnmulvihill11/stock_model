@@ -2,29 +2,30 @@
   "ticker": "INTU",
   "signal": {
     "ticker": "INTU",
-    "direction": "sell",
-    "tier": "Watch",
-    "buy_score": 0.38,
-    "sell_score": 0.57,
+    "direction": "buy",
+    "tier": "Hold",
+    "buy_score": 0.25,
+    "sell_score": 0.29,
     "reasons": [
-      "BB Width: squeeze/contraction after expansion",
-      "MACD: histogram at peak / turning down",
-      "Death cross: 50MA (413.96) below 200MA (571.02)",
-      "Volume: above average on sell (1.34x) \u2014 confirms distribution"
+      "BB: price near lower band (pct=0.09)",
+      "BB Width: squeeze active (width=0.0999)"
     ],
     "misses": [
-      "BB: price not near upper band (pct=-0.13)",
-      "RSI: not in sell zone (45.6, need 70-80)",
-      "RSI Divergence: no bearish divergence detected"
+      "RSI: not in buy zone (42.9, need 20-30)",
+      "MACD: no bullish crossover or valley",
+      "RSI Divergence: no bullish divergence detected",
+      "200MA: price below 200MA \u2014 potential falling knife",
+      "Death cross active: 50MA (412.75) below 200MA (568.91)",
+      "Volume: below average (0.94x) \u2014 low conviction"
     ],
-    "price": 371.71,
-    "rsi": 45.6,
-    "atr": 16.4,
-    "final_tier": "Watch",
+    "price": 378.29,
+    "rsi": 42.9,
+    "atr": 16.67,
+    "final_tier": "Hold",
     "sizing": {
-      "suggested_shares": 2,
-      "suggested_dollars": 743.42,
-      "note": "2 shares @ $371.71 = $743 | $236 swing budget remaining after"
+      "suggested_shares": 3,
+      "suggested_dollars": 1134.87,
+      "note": "3 shares @ $378.29 = $1,135 | $17 swing budget remaining after"
     }
   },
   "fundamentals": {
@@ -42,7 +43,7 @@
   },
   "earnings": {
     "proceed": false,
-    "reason": "Earnings in 7 days \u2014 wait for results before acting",
+    "reason": "Earnings in 6 days \u2014 wait for results before acting",
     "verdict": {
       "ticker": "INTU",
       "verdict": "consider",
@@ -53,43 +54,43 @@
       ],
       "earnings_status": "imminent",
       "next_earnings_date": "2026-05-20",
-      "days_to_earnings": 7
+      "days_to_earnings": 6
     }
   },
   "news": {
     "sentiment": "neutral",
     "health": "healthy",
     "key_events": [
-      "No recent news headlines were provided, limiting event-specific analysis",
-      "Intuit continues to execute on its AI-driven platform strategy across QuickBooks, TurboTax, and Credit Karma",
-      "Ongoing integration of Mailchimp and broader SMB ecosystem expansion within Global Business Solutions segment",
-      "Credit Karma segment faces pressure from higher interest rates impacting consumer credit product demand"
+      "No recent news headlines were provided for analysis, limiting event-driven insights",
+      "Intuit continues to operate its four core segments: Global Business Solutions (QuickBooks), Consumer (TurboTax), Credit Karma, and ProTax",
+      "Ongoing integration of AI and generative AI (Intuit Assist) across its product suite represents a key strategic initiative",
+      "Recent fiscal results have shown resilience in small business and self-employed segments despite macro pressure on consumer spending"
     ],
-    "macro_context": "The fintech/software sector faces a mixed environment with AI tailwinds driving platform modernization opportunities, while higher-for-longer interest rates suppress consumer credit activity and SMB spending caution persists.",
-    "competitive_notes": "Intuit holds durable competitive moats via switching costs and network effects in tax (TurboTax vs. H&R Block, FreeTaxUSA) and SMB accounting (QuickBooks vs. Xero, FreshBooks), but faces structural risk from the IRS Direct File free filing program expanding its reach.",
+    "macro_context": "Rising interest rates and SMB cost pressures create mixed demand dynamics, while AI-driven software adoption and digital financial management tailwinds structurally benefit Intuit's core platforms.",
+    "competitive_notes": "Intuit maintains strong ecosystem lock-in via QuickBooks and TurboTax network effects, but faces growing competitive pressure from AI-native fintech entrants, FreshBooks, Xero, and the IRS Direct File program threatening TurboTax's consumer segment.",
     "red_flags": [
-      "IRS Direct File program poses a long-term existential threat to TurboTax's consumer segment revenue",
-      "Credit Karma revenue remains vulnerable to prolonged high interest rate environment suppressing personal loan and credit card demand",
-      "Premium valuation (typically 30-40x forward earnings) leaves limited margin of safety if growth disappoints",
-      "AI-native competitors (e.g., startups leveraging LLMs for bookkeeping/tax) could erode SMB market share over time"
+      "IRS Direct File program expansion poses a structural long-term threat to the Consumer/TurboTax segment revenue",
+      "Credit Karma segment has faced headwinds from tightened consumer credit markets and reduced lender marketing spend",
+      "Valuation remains elevated (typically 30-40x forward earnings), leaving limited margin of safety if growth decelerates",
+      "No current news headlines available, creating an information gap that limits conviction in near-term catalysts"
     ],
-    "verdict": "Intuit is a high-quality compounder with strong recurring revenue, AI integration potential, and durable SMB/tax moats, making it a solid mid-to-long-term hold, but investors should size positions with awareness of its premium valuation and the structural IRS Direct File threat to its largest segment.",
+    "verdict": "Intuit is a high-quality, durable compounder with strong ecosystem moats and AI integration potential, making it suitable for long-term investors who can tolerate a premium valuation and monitor the IRS Direct File competitive threat closely.",
     "confidence": "medium",
     "ticker": "INTU"
   },
   "relative_strength": {
     "ticker": "INTU",
-    "stock_return_3m": -6.71,
-    "benchmark_return_3m": 7.57,
-    "relative_strength": -14.28,
+    "stock_return_3m": -4.65,
+    "benchmark_return_3m": 10.12,
+    "relative_strength": -14.77,
     "label": "underperforming"
   },
-  "final_tier": "Watch",
+  "final_tier": "Hold",
   "sizing": {
-    "suggested_shares": 2,
-    "suggested_dollars": 743.42,
-    "note": "2 shares @ $371.71 = $743 | $236 swing budget remaining after"
+    "suggested_shares": 3,
+    "suggested_dollars": 1134.87,
+    "note": "3 shares @ $378.29 = $1,135 | $17 swing budget remaining after"
   },
   "is_dca": false,
-  "saved_at": "2026-05-13T23:04:02.030977"
+  "saved_at": "2026-05-14T22:54:49.385797"
 }

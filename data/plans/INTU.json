@@ -1,21 +1,38 @@
 {
   "current": {
     "action": "Wait",
-    "action_reason": "You're sitting on a -20.6% loss with a death cross confirmed, distribution volume, and earnings in 7 days \u2014 this is not a moment to act in either direction. The setup lacks the oversold RSI (45.6 is mid-range, not a mean-reversion entry) and price is not near a BB extreme, so your philosophy gives you no clean signal to add or exit right now.",
-    "target_price": 415.0,
-    "target_reasoning": "The 50MA at ~414 represents the nearest meaningful resistance and a realistic post-earnings recovery target if results are strong. A move back to that level would also bring RSI closer to the 60-65 range \u2014 not yet a sell signal but a logical place to reassess trim levels. The 200MA at 571 is too distant to be a near-term target given the current downtrend structure.",
-    "exit_trigger": "Exit or aggressively trim if post-earnings price breaks below $350 on elevated volume (>1.5x avg), or if RSI drops below 30 WITHOUT price stabilizing \u2014 that would signal capitulation without a bounce, not a mean-reversion opportunity at this position size.",
-    "add_trigger": "Only consider adding if RSI drops to 28-32 AND price holds above $340 with a clear BB lower-band touch AND earnings reaction is not a fundamental negative (e.g., no guidance cut driven by IRS Direct File disruption). Do NOT add before earnings \u2014 binary risk is too high at 31% portfolio weight.",
-    "risk": "Earnings in 7 days are the dominant risk. Any guidance cut citing IRS Direct File pressure on TurboTax, or weak SMB segment trends, could accelerate the downtrend and push this position to -30% or worse. At 31.2% portfolio weight, a bad print would be a serious portfolio-level event \u2014 this concentration is the single biggest danger here.",
+    "action_reason": "With earnings in 6 days and a death cross confirmed (50MA well below 200MA), adding here is catching a falling knife \u2014 not a mean-reversion entry. The position is already a 19% loser at 33% portfolio weight; patience before the catalyst is the disciplined move.",
+    "target_price": 430,
+    "target_reasoning": "A bounce toward the 50MA (~$412) is the first realistic recovery target post-earnings if results are strong; $430 represents a cleaner swing target aligning with prior consolidation and partial BB mean reversion. Avoid expecting a full return to cost basis near-term given the 200MA sits at $568.",
+    "exit_trigger": "If price breaks below $355 on elevated volume post-earnings, or RSI drops below 30 without a bullish divergence forming \u2014 structural breakdown confirmed, cut losses and redeploy capital.",
+    "add_trigger": "Only add if: (1) earnings are well-received and price reclaims $400+ with volume, AND (2) RSI resets to 25-32 on a subsequent pullback, AND (3) MACD shows a bullish crossover \u2014 all three must align before adding to a losing position.",
+    "risk": "Earnings binary risk is the dominant threat \u2014 a guide-down or IRS Direct File competitive commentary could accelerate the downtrend significantly, and the death cross signals institutional distribution, not accumulation. Position is already oversized at 33% of portfolio.",
     "outlook": "cautious",
-    "timeframe": "4-8 weeks post-earnings clarity \u2014 the trade thesis resets entirely based on the earnings print and forward guidance before any new swing setup can be evaluated",
+    "timeframe": "Hold through earnings (1 week), then reassess \u2014 if thesis holds, 6-10 week recovery window; if earnings disappoint, exit promptly rather than waiting for mean reversion on a broken name.",
     "ticker": "INTU",
     "company_name": "Intuit Inc.",
-    "generated_at": "2026-05-13T23:04:14.788582",
-    "price_at_generation": 371.71,
-    "pnl_at_generation": -20.62
+    "generated_at": "2026-05-14T22:55:00.365588",
+    "price_at_generation": 378.29,
+    "pnl_at_generation": -19.22
   },
   "history": [
+    {
+      "action": "Wait",
+      "action_reason": "You're sitting on a -20.6% loss with a death cross confirmed, distribution volume, and earnings in 7 days \u2014 this is not a moment to act in either direction. The setup lacks the oversold RSI (45.6 is mid-range, not a mean-reversion entry) and price is not near a BB extreme, so your philosophy gives you no clean signal to add or exit right now.",
+      "target_price": 415.0,
+      "target_reasoning": "The 50MA at ~414 represents the nearest meaningful resistance and a realistic post-earnings recovery target if results are strong. A move back to that level would also bring RSI closer to the 60-65 range \u2014 not yet a sell signal but a logical place to reassess trim levels. The 200MA at 571 is too distant to be a near-term target given the current downtrend structure.",
+      "exit_trigger": "Exit or aggressively trim if post-earnings price breaks below $350 on elevated volume (>1.5x avg), or if RSI drops below 30 WITHOUT price stabilizing \u2014 that would signal capitulation without a bounce, not a mean-reversion opportunity at this position size.",
+      "add_trigger": "Only consider adding if RSI drops to 28-32 AND price holds above $340 with a clear BB lower-band touch AND earnings reaction is not a fundamental negative (e.g., no guidance cut driven by IRS Direct File disruption). Do NOT add before earnings \u2014 binary risk is too high at 31% portfolio weight.",
+      "risk": "Earnings in 7 days are the dominant risk. Any guidance cut citing IRS Direct File pressure on TurboTax, or weak SMB segment trends, could accelerate the downtrend and push this position to -30% or worse. At 31.2% portfolio weight, a bad print would be a serious portfolio-level event \u2014 this concentration is the single biggest danger here.",
+      "outlook": "cautious",
+      "timeframe": "4-8 weeks post-earnings clarity \u2014 the trade thesis resets entirely based on the earnings print and forward guidance before any new swing setup can be evaluated",
+      "ticker": "INTU",
+      "company_name": "Intuit Inc.",
+      "generated_at": "2026-05-13T23:04:14.788582",
+      "price_at_generation": 371.71,
+      "pnl_at_generation": -20.62,
+      "archived_at": "2026-05-14T22:55:00.365810"
+    },
     {
       "action": "Wait",
       "action_reason": "Your philosophy requires multiple confirming signals before acting, and right now almost none are firing \u2014 RSI at 42.6 is in no-man's land, price is not near the lower Bollinger Band, and MACD shows no bullish crossover. With earnings just 8 days out and price already below the 200MA, this is not the moment to add or exit impulsively \u2014 sit tight and let the setup clarify post-earnings.",

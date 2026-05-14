@@ -7,25 +7,25 @@
     "buy_score": 0.25,
     "sell_score": 0.29,
     "reasons": [
-      "BB: price near lower band (pct=-0.01)",
-      "BB Width: squeeze active (width=0.2443)"
+      "BB: price near lower band (pct=0.04)",
+      "Volume: above average (1.02x)"
     ],
     "misses": [
-      "RSI: not in buy zone (37.0, need 20-30)",
+      "BB Width: bands expanding, not squeezing",
+      "RSI: not in buy zone (34.3, need 20-30)",
       "MACD: no bullish crossover or valley",
       "RSI Divergence: no bullish divergence detected",
       "200MA: price below 200MA \u2014 potential falling knife",
-      "Death cross active: 50MA (50.06) below 200MA (66.70)",
-      "Volume: below average (0.93x) \u2014 low conviction"
+      "Death cross active: 50MA (49.95) below 200MA (66.64)"
     ],
-    "price": 45.9,
-    "rsi": 37.0,
-    "atr": 3.03,
+    "price": 45.48,
+    "rsi": 34.3,
+    "atr": 3.01,
     "final_tier": "Hold",
     "sizing": {
-      "suggested_shares": 16,
-      "suggested_dollars": 734.4,
-      "note": "16 shares @ $45.90 = $734 | $245 swing budget remaining after"
+      "suggested_shares": 19,
+      "suggested_dollars": 864.12,
+      "note": "19 shares @ $45.48 = $864 | $288 swing budget remaining after"
     }
   },
   "fundamentals": {
@@ -54,44 +54,43 @@
       ],
       "earnings_status": "past",
       "next_earnings_date": "2026-05-05",
-      "days_to_earnings": -8
+      "days_to_earnings": -9
     }
   },
   "news": {
     "sentiment": "neutral",
     "health": "neutral",
     "key_events": [
-      "No recent news headlines were provided for analysis, limiting event-driven assessment",
-      "Tempus AI completed its IPO in mid-2024, transitioning to a publicly traded company on Nasdaq under ticker TEM",
-      "Company operates a multimodal clinical data platform combining genomic sequencing, AI analytics, and EHR integrations",
-      "Reported significant revenue growth trajectory but remains unprofitable with substantial operating losses typical of growth-stage healthtech"
+      "No recent news headlines provided \u2014 analysis based on known fundamentals as of early 2025",
+      "Tempus AI went public via IPO in June 2024 on Nasdaq, raising significant capital for growth initiatives",
+      "Company operates a multimodal clinical data platform with NGS (next-generation sequencing) diagnostics and AI-driven analytics",
+      "Ongoing expansion of data licensing and AI applications segments, which carry higher-margin potential than core diagnostics"
     ],
-    "macro_context": "AI-driven healthcare diagnostics and precision medicine are strong secular growth themes, but rising interest rates pressure high-multiple, pre-profitability growth stocks, and regulatory scrutiny of AI in clinical settings is intensifying.",
-    "competitive_notes": "Tempus competes with Foundation Medicine (Roche), Guardant Health, and Veracyte in genomic diagnostics, while also facing indirect competition from Epic and other EHR giants in the data/analytics layer, creating a challenging multi-front competitive landscape despite its differentiated multimodal data moat.",
+    "macro_context": "AI-driven healthcare analytics and precision medicine are strong secular tailwinds, but rising capital costs and scrutiny of healthcare tech valuations create near-term headwinds for pre-profitability companies like Tempus.",
+    "competitive_notes": "Tempus competes with Foundation Medicine (Roche), Guardant Health, and emerging AI health platforms, but its differentiated multimodal data repository and clinical workflow integrations provide a defensible moat if scaled effectively.",
     "red_flags": [
-      "Persistent and deep operating losses with a long path to profitability",
-      "High customer concentration risk and reliance on pharma data licensing revenue",
-      "Significant stock-based compensation diluting shareholders post-IPO",
-      "No recent news provided \u2014 current material developments and risks cannot be assessed with confidence",
-      "Crowded competitive landscape in oncology genomics and clinical AI"
+      "Company is not yet profitable and carries significant operating losses, making it sensitive to interest rates and investor risk appetite",
+      "High customer concentration risk \u2014 a significant portion of revenue historically tied to a small number of large partners",
+      "Valuation at IPO was aggressive relative to current revenues, implying execution risk if growth targets are missed",
+      "No recent news provided limits ability to assess current-state developments or sentiment shifts"
     ],
-    "verdict": "Tempus AI offers a compelling long-term story at the intersection of AI and precision medicine, but its pre-profitability status, competitive pressures, and post-IPO valuation premium demand a patient, high-risk-tolerance investor who should wait for clearer profitability signals or a meaningful price dislocation before initiating a full position.",
+    "verdict": "Tempus AI is a high-potential but high-risk long-term holding suited only for investors with tolerance for volatility and a multi-year time horizon, contingent on continued data asset monetization and a credible path to profitability.",
     "confidence": "low",
     "ticker": "TEM"
   },
   "relative_strength": {
     "ticker": "TEM",
-    "stock_return_3m": -14.38,
-    "benchmark_return_3m": 7.57,
-    "relative_strength": -21.95,
+    "stock_return_3m": -10.44,
+    "benchmark_return_3m": 10.12,
+    "relative_strength": -20.56,
     "label": "underperforming"
   },
   "final_tier": "Hold",
   "sizing": {
-    "suggested_shares": 16,
-    "suggested_dollars": 734.4,
-    "note": "16 shares @ $45.90 = $734 | $245 swing budget remaining after"
+    "suggested_shares": 19,
+    "suggested_dollars": 864.12,
+    "note": "19 shares @ $45.48 = $864 | $288 swing budget remaining after"
   },
   "is_dca": false,
-  "saved_at": "2026-05-13T23:05:44.782328"
+  "saved_at": "2026-05-14T22:56:05.400543"
 }

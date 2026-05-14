@@ -1,21 +1,38 @@
 {
   "current": {
     "action": "Hold",
-    "action_reason": "The MACD histogram turning up from a valley and bullish RSI divergence (price made a lower low but RSI didn't) suggest nascent buying pressure, but too many signals are missing \u2014 price is below the 200MA, a death cross is active, and RSI hasn't reached your 20-30 buy zone \u2014 to justify adding here. Sit tight with your small 3.6% position and let the setup mature.",
+    "action_reason": "The MACD histogram is turning up from a valley and bullish RSI divergence is confirmed, suggesting near-term downside exhaustion \u2014 but with price below the 200MA, a death cross active, and RSI not yet in the 20-30 buy zone, your entry criteria aren't fully met to add aggressively. Hold what you have and let the setup mature.",
     "target_price": 35.5,
-    "target_reasoning": "A move back toward the 50MA (~$33.63) is the first meaningful resistance; if momentum builds, $35.50 represents a realistic mean-reversion target toward the 200MA ($37.24) before sellers likely reassert control. Don't expect a full 200MA reclaim until the death cross resolves.",
-    "exit_trigger": "Exit immediately if price closes decisively below $30.50 (recent swing low of $30.86 minus a small buffer), confirming the RSI divergence has failed and the downtrend is accelerating. On the upside, begin trimming if RSI reaches 70-75 or price tags the upper Bollinger Band.",
-    "add_trigger": "Only add if RSI pulls back into the 22-28 zone WITH price holding above $30.00 support AND the MACD histogram remains positive \u2014 that confluence would be a textbook mean-reversion entry aligned with your philosophy. Do not add into the current setup with RSI at 39.7.",
-    "risk": "The death cross (50MA below 200MA) combined with price trading below both moving averages is the primary risk \u2014 this is a structurally bearish trend context, and the RSI divergence signal can fail in trending downturns. A broader market selloff (VIX spike) in a Fear environment could accelerate losses before any bounce materializes.",
+    "target_reasoning": "A mean-reversion bounce toward the 50MA (~$33.54) is the first logical target; $35.50 represents a fuller recovery toward the upper Bollinger Band range and offers a clean risk/reward exit before price re-enters the 200MA resistance zone (~$37.18). RSI would likely approach 60-65 by that level \u2014 well before overbought territory, giving you room to exit cleanly.",
+    "exit_trigger": "Exit if RSI reaches 68-72 OR price tags $35.50, whichever comes first. Also exit immediately on a confirmed daily close below $30.00 \u2014 that breaks the RSI divergence thesis and signals trend continuation downward.",
+    "add_trigger": "Only add if RSI pulls back into 22-28 range on a down day with price holding above $30.00 support AND MACD histogram remains positive (divergence intact). Do NOT add while price is below the 200MA without that RSI confirmation \u2014 avoid catching a falling knife.",
+    "risk": "The death cross (50MA below 200MA) and price trading beneath the 200MA are serious structural headwinds. If broader market sentiment deteriorates or CMG disappoints on forward guidance commentary, the stock could leg down toward $28-29, invalidating the divergence setup entirely and turning this into a loss.",
     "outlook": "cautious",
     "timeframe": "3-6 weeks",
     "ticker": "CMG",
     "company_name": "Chipotle Mexican Grill, Inc.",
-    "generated_at": "2026-05-13T23:06:27.639504",
-    "price_at_generation": 32.11,
-    "pnl_at_generation": 2.03
+    "generated_at": "2026-05-14T22:56:46.628280",
+    "price_at_generation": 32.09,
+    "pnl_at_generation": 1.97
   },
   "history": [
+    {
+      "action": "Hold",
+      "action_reason": "The MACD histogram turning up from a valley and bullish RSI divergence (price made a lower low but RSI didn't) suggest nascent buying pressure, but too many signals are missing \u2014 price is below the 200MA, a death cross is active, and RSI hasn't reached your 20-30 buy zone \u2014 to justify adding here. Sit tight with your small 3.6% position and let the setup mature.",
+      "target_price": 35.5,
+      "target_reasoning": "A move back toward the 50MA (~$33.63) is the first meaningful resistance; if momentum builds, $35.50 represents a realistic mean-reversion target toward the 200MA ($37.24) before sellers likely reassert control. Don't expect a full 200MA reclaim until the death cross resolves.",
+      "exit_trigger": "Exit immediately if price closes decisively below $30.50 (recent swing low of $30.86 minus a small buffer), confirming the RSI divergence has failed and the downtrend is accelerating. On the upside, begin trimming if RSI reaches 70-75 or price tags the upper Bollinger Band.",
+      "add_trigger": "Only add if RSI pulls back into the 22-28 zone WITH price holding above $30.00 support AND the MACD histogram remains positive \u2014 that confluence would be a textbook mean-reversion entry aligned with your philosophy. Do not add into the current setup with RSI at 39.7.",
+      "risk": "The death cross (50MA below 200MA) combined with price trading below both moving averages is the primary risk \u2014 this is a structurally bearish trend context, and the RSI divergence signal can fail in trending downturns. A broader market selloff (VIX spike) in a Fear environment could accelerate losses before any bounce materializes.",
+      "outlook": "cautious",
+      "timeframe": "3-6 weeks",
+      "ticker": "CMG",
+      "company_name": "Chipotle Mexican Grill, Inc.",
+      "generated_at": "2026-05-13T23:06:27.639504",
+      "price_at_generation": 32.11,
+      "pnl_at_generation": 2.03,
+      "archived_at": "2026-05-14T22:56:46.628508"
+    },
     {
       "action": "Hold",
       "action_reason": "You're already in a small position with a modest gain, and the MACD histogram turning up plus bullish RSI divergence suggest a potential short-term bounce is forming \u2014 but too many core signals are missing (price below 200MA, death cross active, RSI not yet in buy zone) to justify adding more risk right now. Hold what you have and let the setup mature.",

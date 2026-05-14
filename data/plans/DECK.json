@@ -1,21 +1,38 @@
 {
   "current": {
     "action": "Wait",
-    "action_reason": "Oversold RSI and bullish divergence are encouraging, but with earnings in 8 days and price below both the 200MA and a active death cross, adding now is premature \u2014 let the earnings catalyst clarify direction before committing more capital.",
-    "target_price": 108.5,
-    "target_reasoning": "A mean-reversion bounce from deeply oversold RSI (26.8) back toward the 200MA zone (~103) is the base case; $108.50 represents a realistic upper Bollinger Band target assuming bands begin contracting post-earnings and price reclaims the 50MA \u2014 roughly a 15% move that aligns with prior swing highs and offers a favorable risk/reward from current levels.",
-    "exit_trigger": "Exit if price closes below $88.00 on elevated volume post-earnings (confirms breakdown, not a bounce), or if RSI fails to recover above 35 within 5 sessions after earnings \u2014 divergence signal is invalidated and falling knife risk rises sharply.",
-    "add_trigger": "Add only after earnings are reported without a negative surprise AND price holds above $90 with a MACD bullish crossover or RSI recovering above 35 \u2014 this confirms the oversold signal is resolving, not deepening. Do not add into earnings blind.",
-    "risk": "Earnings in 8 days are the dominant wildcard \u2014 any HOKA growth deceleration commentary or guidance cut could gap the stock down 10-15%, rendering the RSI divergence moot and turning this into a falling knife. The death cross and sub-200MA positioning mean there is no technical floor to lean on if fundamentals disappoint.",
+    "action_reason": "RSI divergence and oversold readings are encouraging, but with earnings just 7 days away, a death cross active, and price below the 200MA, adding here is gambling on a binary event \u2014 not swing trading. Hold your current 2 shares and let earnings clear before making any move.",
+    "target_price": 110.5,
+    "target_reasoning": "A mean-reversion bounce from oversold RSI (27.3) and lower Bollinger Band toward the 50MA (~102.91) is the base case, but the real target is the upper BB / pre-breakdown zone near $110-111 where RSI would be approaching 65-70 \u2014 a clean exit range consistent with your sell discipline. This assumes earnings don't disappoint.",
+    "exit_trigger": "RSI reaches 70-75 OR price touches upper Bollinger Band OR earnings reveal HOKA growth deceleration worse than expected \u2014 exit immediately on the latter regardless of technicals.",
+    "add_trigger": "Post-earnings only: stock holds above $90 on earnings reaction, RSI stays below 35, and price reclaims the lower BB on above-average volume (>1.2x). Do not add into the earnings print.",
+    "risk": "Earnings in 7 days is the dominant risk \u2014 any HOKA deceleration narrative or guidance cut could gap the stock down through your cost basis decisively, and the active death cross (50MA below 200MA) means there is no technical floor to catch you. Low volume conviction makes this a fragile setup pre-catalyst.",
     "outlook": "cautious",
-    "timeframe": "3-6 weeks post-earnings, assuming a constructive report",
+    "timeframe": "3-6 weeks post-earnings clarity",
     "ticker": "DECK",
     "company_name": "Deckers Outdoor Corporation",
-    "generated_at": "2026-05-13T23:06:50.500319",
-    "price_at_generation": 93.93,
-    "pnl_at_generation": -3.34
+    "generated_at": "2026-05-14T22:57:08.265662",
+    "price_at_generation": 94.97,
+    "pnl_at_generation": -2.27
   },
   "history": [
+    {
+      "action": "Wait",
+      "action_reason": "Oversold RSI and bullish divergence are encouraging, but with earnings in 8 days and price below both the 200MA and a active death cross, adding now is premature \u2014 let the earnings catalyst clarify direction before committing more capital.",
+      "target_price": 108.5,
+      "target_reasoning": "A mean-reversion bounce from deeply oversold RSI (26.8) back toward the 200MA zone (~103) is the base case; $108.50 represents a realistic upper Bollinger Band target assuming bands begin contracting post-earnings and price reclaims the 50MA \u2014 roughly a 15% move that aligns with prior swing highs and offers a favorable risk/reward from current levels.",
+      "exit_trigger": "Exit if price closes below $88.00 on elevated volume post-earnings (confirms breakdown, not a bounce), or if RSI fails to recover above 35 within 5 sessions after earnings \u2014 divergence signal is invalidated and falling knife risk rises sharply.",
+      "add_trigger": "Add only after earnings are reported without a negative surprise AND price holds above $90 with a MACD bullish crossover or RSI recovering above 35 \u2014 this confirms the oversold signal is resolving, not deepening. Do not add into earnings blind.",
+      "risk": "Earnings in 8 days are the dominant wildcard \u2014 any HOKA growth deceleration commentary or guidance cut could gap the stock down 10-15%, rendering the RSI divergence moot and turning this into a falling knife. The death cross and sub-200MA positioning mean there is no technical floor to lean on if fundamentals disappoint.",
+      "outlook": "cautious",
+      "timeframe": "3-6 weeks post-earnings, assuming a constructive report",
+      "ticker": "DECK",
+      "company_name": "Deckers Outdoor Corporation",
+      "generated_at": "2026-05-13T23:06:50.500319",
+      "price_at_generation": 93.93,
+      "pnl_at_generation": -3.34,
+      "archived_at": "2026-05-14T22:57:08.265832"
+    },
     {
       "action": "Wait",
       "action_reason": "The oversold RSI (27.7) and bullish divergence are compelling, but with earnings just 9 days out and price still below the 200MA with no MACD confirmation, adding here is premature \u2014 let the earnings catalyst resolve before committing more capital. Hold existing shares and watch for a post-earnings setup.",
