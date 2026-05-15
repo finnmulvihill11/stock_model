@@ -4,28 +4,28 @@
     "ticker": "DECK",
     "direction": "buy",
     "tier": "Watch",
-    "buy_score": 0.5,
-    "sell_score": 0.14,
+    "buy_score": 0.62,
+    "sell_score": 0.29,
     "reasons": [
-      "BB: price near lower band (pct=0.15)",
-      "RSI: oversold zone (27.3)",
+      "BB: price near lower band (pct=0.13)",
+      "RSI: oversold zone (27.6)",
       "MACD: histogram at valley / turning up",
-      "RSI Divergence: Price lower low (93.69 < 100.69) but RSI higher low (29.2 > 14.8)"
+      "RSI Divergence: Price lower low (93.69 < 100.69) but RSI higher low (29.2 > 14.8)",
+      "Volume: above average (1.02x)"
     ],
     "misses": [
       "BB Width: bands expanding, not squeezing",
       "200MA: price below 200MA \u2014 potential falling knife",
-      "Death cross active: 50MA (102.91) below 200MA (103.18)",
-      "Volume: below average (0.95x) \u2014 low conviction"
+      "Death cross active: 50MA (102.63) below 200MA (103.10)"
     ],
-    "price": 94.97,
-    "rsi": 27.3,
-    "atr": 3.35,
+    "price": 93.56,
+    "rsi": 27.6,
+    "atr": 3.31,
     "final_tier": "Watch",
     "sizing": {
       "suggested_shares": 12,
-      "suggested_dollars": 1139.64,
-      "note": "12 shares @ $94.97 = $1,140 | $12 swing budget remaining after"
+      "suggested_dollars": 1122.72,
+      "note": "12 shares @ $93.56 = $1,123 | $29 swing budget remaining after"
     }
   },
   "fundamentals": {
@@ -43,7 +43,7 @@
   },
   "earnings": {
     "proceed": false,
-    "reason": "Earnings in 7 days \u2014 wait for results before acting",
+    "reason": "Earnings in 6 days \u2014 wait for results before acting",
     "verdict": {
       "ticker": "DECK",
       "verdict": "consider",
@@ -54,44 +54,44 @@
       ],
       "earnings_status": "imminent",
       "next_earnings_date": "2026-05-21",
-      "days_to_earnings": 7
+      "days_to_earnings": 6
     }
   },
   "news": {
     "sentiment": "neutral",
     "health": "healthy",
     "key_events": [
-      "No recent news headlines were provided for analysis, limiting event-driven insights",
-      "DECK has historically reported strong revenue growth driven by HOKA's explosive global expansion and UGG's resilient seasonal demand",
-      "Company has executed consistent share buybacks and margin expansion in recent fiscal years",
-      "HOKA brand surpassed $1B+ in annual revenue, becoming a primary growth engine alongside stable UGG performance"
+      "No recent news headlines were provided, limiting event-specific analysis",
+      "DECK has historically reported strong revenue growth driven by HOKA's explosive global expansion and sustained UGG brand demand",
+      "Company has executed consistent share buybacks, reflecting strong free cash flow generation and management confidence",
+      "HOKA brand has been a standout growth driver, gaining significant market share in the performance running segment"
     ],
-    "macro_context": "Consumer discretionary spending faces pressure from elevated interest rates and cautious consumer sentiment, though premium footwear brands with strong identity (HOKA, UGG) have shown resilience versus mass-market peers.",
-    "competitive_notes": "HOKA competes intensely with On Running and Brooks in performance footwear, while UGG maintains strong brand moat in premium casual/lifestyle segments, though both face risk from trend cyclicality and potential brand saturation.",
+    "macro_context": "Consumer discretionary spending faces headwinds from persistent inflation, tariff uncertainty (particularly on goods manufactured in Asia), and potential demand softening, though premium footwear brands with strong identity tend to show relative resilience.",
+    "competitive_notes": "DECK's HOKA brand competes intensely with On Running and Brooks in performance footwear, while UGG faces fashion cycle risk, but the portfolio diversification and DTC channel expansion provide competitive durability.",
     "red_flags": [
-      "No current news available \u2014 analysis relies on historical fundamentals, reducing timeliness confidence",
-      "HOKA growth rate may face tougher year-over-year comparisons as the brand matures",
-      "Heavy UGG seasonality creates revenue concentration risk in Q3 fiscal quarters",
-      "Increasing competition in performance running from On Running (ONON) and New Balance could pressure HOKA market share",
-      "Consumer discretionary exposure makes DECK vulnerable in a recessionary or prolonged high-rate environment"
+      "High dependency on Asian manufacturing exposes margins to tariff and supply chain disruptions",
+      "HOKA's rapid growth may face law-of-large-numbers deceleration as it scales",
+      "UGG brand remains seasonally concentrated and fashion-trend sensitive",
+      "Valuation has historically traded at a premium multiple, leaving limited margin of safety if growth slows",
+      "No recent news provided \u2014 analysis relies on fundamental and sector knowledge, reducing timeliness confidence"
     ],
-    "verdict": "DECK remains a fundamentally strong mid-to-long-term hold given HOKA's secular growth runway and UGG's brand durability, but investors should await current earnings data and monitor HOKA growth deceleration signals before initiating or expanding a position.",
+    "verdict": "DECK is a fundamentally strong, cash-generative business with a rare dual-brand growth engine, but mid/long-term investors should monitor HOKA growth sustainability and tariff exposure before initiating or adding to a position.",
     "confidence": "low",
     "ticker": "DECK"
   },
   "relative_strength": {
     "ticker": "DECK",
-    "stock_return_3m": -18.14,
-    "benchmark_return_3m": 10.12,
-    "relative_strength": -28.26,
+    "stock_return_3m": -19.16,
+    "benchmark_return_3m": 8.72,
+    "relative_strength": -27.88,
     "label": "underperforming"
   },
   "final_tier": "Watch",
   "sizing": {
     "suggested_shares": 12,
-    "suggested_dollars": 1139.64,
-    "note": "12 shares @ $94.97 = $1,140 | $12 swing budget remaining after"
+    "suggested_dollars": 1122.72,
+    "note": "12 shares @ $93.56 = $1,123 | $29 swing budget remaining after"
   },
   "is_dca": false,
-  "saved_at": "2026-05-14T22:56:58.275417"
+  "saved_at": "2026-05-15T22:55:32.805294"
 }

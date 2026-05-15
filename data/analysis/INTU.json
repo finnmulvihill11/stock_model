@@ -4,28 +4,28 @@
     "ticker": "INTU",
     "direction": "buy",
     "tier": "Hold",
-    "buy_score": 0.25,
-    "sell_score": 0.29,
+    "buy_score": 0.38,
+    "sell_score": 0.43,
     "reasons": [
-      "BB: price near lower band (pct=0.09)",
-      "BB Width: squeeze active (width=0.0999)"
+      "BB Width: squeeze active (width=0.0999)",
+      "MACD: histogram at valley / turning up",
+      "Volume: above average (1.37x)"
     ],
     "misses": [
-      "RSI: not in buy zone (42.9, need 20-30)",
-      "MACD: no bullish crossover or valley",
+      "BB: price not near lower band (pct=0.46)",
+      "RSI: not in buy zone (51.2, need 20-30)",
       "RSI Divergence: no bullish divergence detected",
       "200MA: price below 200MA \u2014 potential falling knife",
-      "Death cross active: 50MA (412.75) below 200MA (568.91)",
-      "Volume: below average (0.94x) \u2014 low conviction"
+      "Death cross active: 50MA (411.30) below 200MA (566.86)"
     ],
-    "price": 378.29,
-    "rsi": 42.9,
-    "atr": 16.67,
+    "price": 393.0,
+    "rsi": 51.2,
+    "atr": 17.16,
     "final_tier": "Hold",
     "sizing": {
-      "suggested_shares": 3,
-      "suggested_dollars": 1134.87,
-      "note": "3 shares @ $378.29 = $1,135 | $17 swing budget remaining after"
+      "suggested_shares": 2,
+      "suggested_dollars": 786.0,
+      "note": "2 shares @ $393.00 = $786 | $366 swing budget remaining after"
     }
   },
   "fundamentals": {
@@ -43,7 +43,7 @@
   },
   "earnings": {
     "proceed": false,
-    "reason": "Earnings in 6 days \u2014 wait for results before acting",
+    "reason": "Earnings in 5 days \u2014 wait for results before acting",
     "verdict": {
       "ticker": "INTU",
       "verdict": "consider",
@@ -54,43 +54,43 @@
       ],
       "earnings_status": "imminent",
       "next_earnings_date": "2026-05-20",
-      "days_to_earnings": 6
+      "days_to_earnings": 5
     }
   },
   "news": {
     "sentiment": "neutral",
     "health": "healthy",
     "key_events": [
-      "No recent news headlines were provided for analysis, limiting event-driven insights",
+      "No recent news headlines were provided for analysis, limiting event-driven assessment",
       "Intuit continues to operate its four core segments: Global Business Solutions (QuickBooks), Consumer (TurboTax), Credit Karma, and ProTax",
-      "Ongoing integration of AI and generative AI (Intuit Assist) across its product suite represents a key strategic initiative",
-      "Recent fiscal results have shown resilience in small business and self-employed segments despite macro pressure on consumer spending"
+      "Ongoing integration of AI and generative AI features (Intuit Assist) across QuickBooks and TurboTax platforms represents a key strategic initiative",
+      "Credit Karma segment has faced pressure from a softer consumer credit environment and reduced lender appetite"
     ],
-    "macro_context": "Rising interest rates and SMB cost pressures create mixed demand dynamics, while AI-driven software adoption and digital financial management tailwinds structurally benefit Intuit's core platforms.",
-    "competitive_notes": "Intuit maintains strong ecosystem lock-in via QuickBooks and TurboTax network effects, but faces growing competitive pressure from AI-native fintech entrants, FreshBooks, Xero, and the IRS Direct File program threatening TurboTax's consumer segment.",
+    "macro_context": "Rising interest rates and tighter consumer credit conditions pressure Credit Karma's ad revenue, while SMB resilience and tax season consistency provide relative stability for QuickBooks and TurboTax segments; broader AI adoption tailwinds benefit Intuit's platform strategy.",
+    "competitive_notes": "Intuit holds dominant market positions in SMB accounting (QuickBooks) and DIY tax filing (TurboTax), but faces intensifying competition from Xero and FreshBooks in SMB software, and from IRS Direct File and H&R Block in consumer tax, with AI-native fintech challengers emerging as a longer-term risk.",
     "red_flags": [
-      "IRS Direct File program expansion poses a structural long-term threat to the Consumer/TurboTax segment revenue",
-      "Credit Karma segment has faced headwinds from tightened consumer credit markets and reduced lender marketing spend",
-      "Valuation remains elevated (typically 30-40x forward earnings), leaving limited margin of safety if growth decelerates",
-      "No current news headlines available, creating an information gap that limits conviction in near-term catalysts"
+      "IRS Direct File program expansion poses a secular threat to TurboTax's consumer revenue base",
+      "Credit Karma segment revenue has been volatile and sensitive to macro credit cycle deterioration",
+      "Premium valuation (historically 30-40x forward earnings) leaves limited margin for growth disappointment",
+      "Customer acquisition costs rising across financial services vertical"
     ],
-    "verdict": "Intuit is a high-quality, durable compounder with strong ecosystem moats and AI integration potential, making it suitable for long-term investors who can tolerate a premium valuation and monitor the IRS Direct File competitive threat closely.",
+    "verdict": "Intuit remains a high-quality, competitively entrenched software compounder with durable free cash flow and a credible AI integration strategy, making it suitable for long-term investors willing to accept premium valuation risk and monitor the IRS Direct File competitive threat.",
     "confidence": "medium",
     "ticker": "INTU"
   },
   "relative_strength": {
     "ticker": "INTU",
-    "stock_return_3m": -4.65,
-    "benchmark_return_3m": 10.12,
-    "relative_strength": -14.77,
+    "stock_return_3m": -1.3,
+    "benchmark_return_3m": 8.72,
+    "relative_strength": -10.02,
     "label": "underperforming"
   },
   "final_tier": "Hold",
   "sizing": {
-    "suggested_shares": 3,
-    "suggested_dollars": 1134.87,
-    "note": "3 shares @ $378.29 = $1,135 | $17 swing budget remaining after"
+    "suggested_shares": 2,
+    "suggested_dollars": 786.0,
+    "note": "2 shares @ $393.00 = $786 | $366 swing budget remaining after"
   },
   "is_dca": false,
-  "saved_at": "2026-05-14T22:54:49.385797"
+  "saved_at": "2026-05-15T22:53:17.220768"
 }

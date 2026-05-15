@@ -2,29 +2,28 @@
   "ticker": "VXUS",
   "signal": {
     "ticker": "VXUS",
-    "direction": "buy",
-    "tier": "Hold",
-    "buy_score": 0.38,
-    "sell_score": 0.43,
+    "direction": "sell",
+    "tier": "Watch",
+    "buy_score": 0.5,
+    "sell_score": 0.57,
     "reasons": [
-      "BB Width: squeeze active (width=0.0663)",
-      "200MA: price at/above 200MA (85.02 vs 75.86)",
-      "Golden cross: 50MA (80.35) above 200MA (75.86)"
+      "BB Width: squeeze/contraction after expansion",
+      "MACD: histogram at peak / turning down",
+      "RSI Divergence: Price higher high (85.62 > 83.75) but RSI lower high (61.9 < 91.5)",
+      "Volume: above average on sell (1.12x) \u2014 confirms distribution"
     ],
     "misses": [
-      "BB: price not near lower band (pct=0.79)",
-      "RSI: not in buy zone (60.6, need 20-30)",
-      "MACD: no bullish crossover or valley",
-      "RSI Divergence: no bullish divergence detected",
-      "Volume: below average (0.89x) \u2014 low conviction"
+      "BB: price not near upper band (pct=0.45)",
+      "RSI: not in sell zone (52.8, need 70-80)",
+      "Golden cross still active: 50MA above 200MA"
     ],
-    "price": 85.02,
-    "rsi": 60.6,
-    "atr": 1.15,
-    "final_tier": "Hold",
+    "price": 83.11,
+    "rsi": 52.8,
+    "atr": 1.27,
+    "final_tier": "Watch",
     "sizing": {
       "suggested_shares": 1,
-      "suggested_dollars": 85.02,
+      "suggested_dollars": 83.11,
       "note": "1 share every month"
     }
   },
@@ -59,33 +58,33 @@
     "health": "neutral",
     "key_events": [
       "No recent news headlines available for analysis",
-      "Fund continues to passively track the FTSE Global All Cap ex US Index with broad developed and emerging market exposure"
+      "Fund continues to passively track FTSE Global All Cap ex US Index with broad international diversification across developed and emerging markets"
     ],
-    "macro_context": "International equities face headwinds from a strong US dollar, geopolitical tensions (Ukraine, Taiwan Strait), and slowing growth in key markets like China and Europe, though relatively cheaper valuations versus US equities offer potential mean-reversion appeal for long-term investors.",
-    "competitive_notes": "VXUS holds a strong competitive position as one of the lowest-cost international index ETFs (expense ratio ~0.07%), competing directly with iShares IXUS and Schwab SCHF/SCHE, with Vanguard's scale and ownership structure providing a durable cost advantage.",
+    "macro_context": "International equities face headwinds from a strong US dollar, geopolitical tensions (Ukraine, Middle East, Taiwan Strait), and uneven global growth, but trade at significant valuation discounts to US equities, offering potential mean-reversion upside for patient investors.",
+    "competitive_notes": "VXUS is a dominant low-cost international index ETF from Vanguard with an expense ratio of ~0.07%, making it highly competitive against peers like iShares IXUS and SPDW, with broad diversification across 47+ countries and ~8,000+ holdings reducing single-stock and single-country risk.",
     "red_flags": [
-      "Significant China exposure (~9-10% of portfolio) introduces geopolitical and regulatory risk",
-      "Currency headwinds persist as a structurally strong USD erodes returns for US-based investors",
-      "Emerging market volatility and governance risks are embedded in the fund by design",
-      "European economic stagnation and energy vulnerability remain ongoing concerns"
+      "Emerging market exposure (roughly 25% of portfolio) introduces currency, political, and liquidity risks",
+      "Heavy weighting toward Japan, UK, and China creates concentration risk in slowing or structurally challenged economies",
+      "Persistent US dollar strength erodes returns for USD-based investors holding foreign-currency assets",
+      "No recent news flow limits ability to assess current sentiment or near-term catalysts"
     ],
-    "verdict": "VXUS is a sound, low-cost diversification tool for mid-to-long-term investors seeking international exposure, but meaningful alpha generation is constrained by macro headwinds; best suited as a portfolio complement rather than a core holding in isolation.",
-    "confidence": "medium",
+    "verdict": "VXUS is a sound, low-cost core international holding for mid-to-long-term investors seeking geographic diversification away from US equities, particularly attractive given current valuation discounts, but investors must be patient with near-term currency and geopolitical headwinds.",
+    "confidence": "low",
     "ticker": "VXUS"
   },
   "relative_strength": {
     "ticker": "VXUS",
-    "stock_return_3m": 3.63,
-    "benchmark_return_3m": 10.12,
-    "relative_strength": -6.49,
+    "stock_return_3m": 0.97,
+    "benchmark_return_3m": 8.72,
+    "relative_strength": -7.75,
     "label": "underperforming"
   },
-  "final_tier": "Hold",
+  "final_tier": "Watch",
   "sizing": {
     "suggested_shares": 1,
-    "suggested_dollars": 85.02,
+    "suggested_dollars": 83.11,
     "note": "1 share every month"
   },
   "is_dca": true,
-  "saved_at": "2026-05-14T22:56:26.636784"
+  "saved_at": "2026-05-15T22:55:00.630753"
 }

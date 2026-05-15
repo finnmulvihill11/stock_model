@@ -4,28 +4,28 @@
     "ticker": "ABT",
     "direction": "buy",
     "tier": "Hold",
-    "buy_score": 0.12,
+    "buy_score": 0.25,
     "sell_score": 0.14,
     "reasons": [
+      "RSI: oversold zone (26.3)",
       "MACD: histogram at valley / turning up"
     ],
     "misses": [
-      "BB: price not near lower band (pct=0.24)",
+      "BB: price not near lower band (pct=0.23)",
       "BB Width: bands expanding, not squeezing",
-      "RSI: not in buy zone (33.5, need 20-30)",
       "RSI Divergence: no bullish divergence detected",
       "200MA: price below 200MA \u2014 potential falling knife",
-      "Death cross active: 50MA (98.44) below 200MA (117.54)",
-      "Volume: below average (0.79x) \u2014 low conviction"
+      "Death cross active: 50MA (97.93) below 200MA (117.33)",
+      "Volume: below average (0.96x) \u2014 low conviction"
     ],
-    "price": 84.9,
-    "rsi": 33.5,
+    "price": 84.47,
+    "rsi": 26.3,
     "atr": 2.07,
     "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 13,
-      "suggested_dollars": 1103.7,
-      "note": "13 shares @ $84.90 = $1,104 | $48 swing budget remaining after"
+      "suggested_dollars": 1098.11,
+      "note": "13 shares @ $84.47 = $1,098 | $54 swing budget remaining after"
     }
   },
   "fundamentals": {
@@ -54,43 +54,44 @@
       ],
       "earnings_status": "past",
       "next_earnings_date": "2026-04-16",
-      "days_to_earnings": -28
+      "days_to_earnings": -29
     }
   },
   "news": {
     "sentiment": "neutral",
     "health": "healthy",
     "key_events": [
-      "No recent news headlines were provided, limiting event-specific analysis",
-      "Abbott continues to operate across four diversified segments: Medical Devices, Diagnostics, Nutritional Products, and Established Pharmaceuticals",
+      "No recent news headlines were provided for analysis, limiting event-driven insight",
+      "Abbott continues to operate its four core segments: Medical Devices, Diagnostics, Nutritional Products, and Established Pharmaceuticals",
       "FreeStyle Libre CGM platform remains a key growth driver in the Medical Devices segment",
-      "Post-COVID diagnostic revenue normalization has been an ongoing headwind as pandemic-era testing demand faded",
-      "Abbott has faced legacy litigation related to its Similac preterm infant formula products"
+      "Post-COVID diagnostic revenue normalization has been an ongoing financial headwind following pandemic-era PCR test demand spike",
+      "Abbott faces ongoing litigation related to preterm infant formula (Similac) necrotizing enterocolitis lawsuits"
     ],
-    "macro_context": "The medical devices sector benefits from aging global demographics and rising chronic disease prevalence, though near-term headwinds include FX pressure, interest rate sensitivity on capital equipment purchases, and post-COVID diagnostic volume normalization.",
-    "competitive_notes": "Abbott holds a strong competitive moat in continuous glucose monitoring via FreeStyle Libre, but faces intensifying competition from Dexcom and emerging players, while its diversified business model provides resilience that pure-play device companies lack.",
+    "macro_context": "The medical devices sector benefits from aging global demographics and rising chronic disease prevalence, though higher interest rates and healthcare cost pressures create near-term valuation and demand headwinds.",
+    "competitive_notes": "Abbott holds a strong competitive position in continuous glucose monitoring via FreeStyle Libre, but faces intensifying rivalry from Dexcom and emerging players, while its diversified multi-segment model provides resilience against single-segment disruptions.",
     "red_flags": [
-      "Ongoing litigation risk related to preterm infant formula (Similac) with potential for significant liability",
-      "Diagnostic segment revenue declining post-COVID as COVID-19 testing volumes normalize",
-      "No current news data provided \u2014 analysis relies on fundamental and historical context, reducing timeliness"
+      "Significant NEC-related infant formula litigation poses material legal and reputational risk",
+      "COVID-19 diagnostic revenue cliff created a tough multi-year comparable period affecting reported growth rates",
+      "No current news flow provided \u2014 analysis relies on known fundamentals rather than real-time catalysts",
+      "Currency headwinds remain a structural risk given Abbott's substantial international revenue exposure"
     ],
-    "verdict": "Abbott is a fundamentally sound, diversified healthcare company with durable growth drivers in CGM and medical devices, making it a reasonable mid-to-long-term hold, though investors should monitor litigation outcomes and the pace of diagnostic segment recovery before adding aggressively.",
-    "confidence": "low",
+    "verdict": "Abbott is a fundamentally sound, diversified healthcare compounder with a strong CGM growth engine and durable dividend history, making it suitable for long-term investors, though near-term upside may be tempered by litigation risk and post-COVID diagnostic normalization.",
+    "confidence": "medium",
     "ticker": "ABT"
   },
   "relative_strength": {
     "ticker": "ABT",
-    "stock_return_3m": -23.36,
-    "benchmark_return_3m": 10.12,
-    "relative_strength": -33.48,
+    "stock_return_3m": -24.57,
+    "benchmark_return_3m": 8.72,
+    "relative_strength": -33.28,
     "label": "underperforming"
   },
   "final_tier": "Hold",
   "sizing": {
     "suggested_shares": 13,
-    "suggested_dollars": 1103.7,
-    "note": "13 shares @ $84.90 = $1,104 | $48 swing budget remaining after"
+    "suggested_dollars": 1098.11,
+    "note": "13 shares @ $84.47 = $1,098 | $54 swing budget remaining after"
   },
   "is_dca": false,
-  "saved_at": "2026-05-14T22:55:44.212639"
+  "saved_at": "2026-05-15T22:54:12.021251"
 }

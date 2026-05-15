@@ -1,21 +1,38 @@
 {
   "current": {
-    "action": "Wait",
-    "action_reason": "TEM is down 34% and sitting near the lower Bollinger Band, but your entry criteria aren't met \u2014 RSI at 34.3 hasn't reached the 20\u201330 buy zone, MACD shows no bullish crossover, and price is below the 200MA flagging a potential falling knife. With deteriorating fundamentals and no confirmed reversal signal, adding here is speculation, not swing trading.",
+    "action": "Hold",
+    "action_reason": "You're already deep underwater at -36% and RSI at 30.2 is on the edge of oversold \u2014 exiting here locks in maximum pain right before a potential technical bounce. However, this is not a conviction add: too many signals are missing and fundamentals are deteriorating, so hold your current small position and wait for confirmation.",
     "target_price": 52.5,
-    "target_reasoning": "A mean-reversion bounce toward the 20-period BB midline from current oversold-adjacent levels would project roughly $52\u2013$54, representing ~15% upside from here. That range also aligns with a natural resistance zone before the 200MA re-enters the picture. Not a target to chase \u2014 only relevant if entry criteria are satisfied first.",
-    "exit_trigger": "Cut the position if TEM breaks decisively below $42 on above-average volume, or if RSI drops below 25 without a corresponding bullish divergence forming \u2014 that signals capitulation with no floor in sight. Do not wait for a recovery that may not come given the fundamental backdrop.",
-    "add_trigger": "Only consider adding if RSI closes within 20\u201328 AND a MACD bullish crossover or valley forms simultaneously AND volume spikes 1.5x+ above average \u2014 all three required. A single signal in a deteriorating name like this is not enough justification.",
-    "risk": "The primary risk is that TEM is a fundamentally weak name \u2014 high debt (3.2x D/E), no profitability, negative operating cash flow \u2014 meaning oversold conditions can persist or worsen rather than mean-revert. This is not a Bollinger Band bounce on a strong company; it's a distressed growth name in a Fear market. The 200MA breach compounds the downside risk significantly.",
+    "target_reasoning": "A mean-reversion bounce toward the middle Bollinger Band (20-period MA) around $52-54 is the realistic near-term target \u2014 roughly a 19% recovery from current levels. This aligns with where RSI would likely normalize into the 45-50 range on a relief rally, and does not require a fundamental re-rating, just technical stabilization.",
+    "exit_trigger": "Exit immediately if price closes below $40.00 on elevated volume \u2014 that level represents a clean technical breakdown with no nearby support, and signals the falling knife risk is materializing. Also exit if RSI fails to recover above 35 within 3 weeks, as prolonged weakness below oversold confirms distribution, not accumulation.",
+    "add_trigger": "Only add if ALL three conditions align simultaneously: RSI drops into 22-27 range, a bullish MACD crossover fires on the daily chart, and price shows a reversal candle (hammer or engulfing) on above-average volume. Do not add based on price decline alone \u2014 this stock has weak fundamentals and can stay cheap.",
+    "risk": "This is a post-IPO growth stock with negative cash flow, 3.2x debt-to-equity, and price sitting well below the 200MA \u2014 the primary risk is that this is not mean-reversion, it is a structurally declining stock. A bounce may never materialize and the position could continue toward $35 or lower if growth sentiment deteriorates further or a broader risk-off move hits speculative AI names.",
     "outlook": "cautious",
-    "timeframe": "Indefinite hold at current size \u2014 reassess in 2\u20133 weeks for RSI confirmation. No new capital until all entry signals align.",
+    "timeframe": "3-6 weeks for a technical bounce decision point \u2014 if no recovery signal emerges by then, reassess with a hard exit bias",
     "ticker": "TEM",
     "company_name": "Tempus AI, Inc.",
-    "generated_at": "2026-05-14T22:56:17.263306",
-    "price_at_generation": 45.48,
-    "pnl_at_generation": -34.16
+    "generated_at": "2026-05-15T22:54:49.843576",
+    "price_at_generation": 43.93,
+    "pnl_at_generation": -36.41
   },
   "history": [
+    {
+      "action": "Wait",
+      "action_reason": "TEM is down 34% and sitting near the lower Bollinger Band, but your entry criteria aren't met \u2014 RSI at 34.3 hasn't reached the 20\u201330 buy zone, MACD shows no bullish crossover, and price is below the 200MA flagging a potential falling knife. With deteriorating fundamentals and no confirmed reversal signal, adding here is speculation, not swing trading.",
+      "target_price": 52.5,
+      "target_reasoning": "A mean-reversion bounce toward the 20-period BB midline from current oversold-adjacent levels would project roughly $52\u2013$54, representing ~15% upside from here. That range also aligns with a natural resistance zone before the 200MA re-enters the picture. Not a target to chase \u2014 only relevant if entry criteria are satisfied first.",
+      "exit_trigger": "Cut the position if TEM breaks decisively below $42 on above-average volume, or if RSI drops below 25 without a corresponding bullish divergence forming \u2014 that signals capitulation with no floor in sight. Do not wait for a recovery that may not come given the fundamental backdrop.",
+      "add_trigger": "Only consider adding if RSI closes within 20\u201328 AND a MACD bullish crossover or valley forms simultaneously AND volume spikes 1.5x+ above average \u2014 all three required. A single signal in a deteriorating name like this is not enough justification.",
+      "risk": "The primary risk is that TEM is a fundamentally weak name \u2014 high debt (3.2x D/E), no profitability, negative operating cash flow \u2014 meaning oversold conditions can persist or worsen rather than mean-revert. This is not a Bollinger Band bounce on a strong company; it's a distressed growth name in a Fear market. The 200MA breach compounds the downside risk significantly.",
+      "outlook": "cautious",
+      "timeframe": "Indefinite hold at current size \u2014 reassess in 2\u20133 weeks for RSI confirmation. No new capital until all entry signals align.",
+      "ticker": "TEM",
+      "company_name": "Tempus AI, Inc.",
+      "generated_at": "2026-05-14T22:56:17.263306",
+      "price_at_generation": 45.48,
+      "pnl_at_generation": -34.16,
+      "archived_at": "2026-05-15T22:54:49.843808"
+    },
     {
       "action": "Hold",
       "action_reason": "You're already down 33% with only 3 shares at 3.8% portfolio weight \u2014 exiting here locks in a painful loss at the lower Bollinger Band with RSI at 37 and approaching oversold territory. Hold and let the position stabilize, but do NOT add more until technical confirmation arrives \u2014 the death cross and negative fundamentals make this a falling knife.",
@@ -117,23 +134,6 @@
       "price_at_generation": 49.47,
       "pnl_at_generation": -28.39,
       "archived_at": "2026-05-08T04:47:46.551915"
-    },
-    {
-      "action": "Wait",
-      "action_reason": "You're already down 28% and none of your entry criteria are confirmed \u2014 RSI hasn't reached the buy zone, no MACD crossover, and price isn't near the lower Bollinger Band. Do not average down into a falling knife; wait for your system to signal a real entry before committing more capital.",
-      "target_price": 58.5,
-      "target_reasoning": "A recovery toward the $57\u201360 range represents a realistic mean-reversion target, likely aligning with the 20-period moving average and mid-BB level. With RSI at 36.6, there's room to fall further before a true oversold bounce (RSI 20\u201330) sets up \u2014 don't mistake 'closer to oversold' for 'oversold.'",
-      "exit_trigger": "Cut the position if price breaks and closes below $44 on elevated volume, signaling continued distribution with no support \u2014 further downside risk in a money-losing, high-debt company is not acceptable at moderate risk tolerance.",
-      "add_trigger": "Only add if RSI drops into the 20\u201328 range WITH a bullish MACD valley forming AND price touches or breaches the lower Bollinger Band (BB pct \u2264 0.05) \u2014 all three must align simultaneously. Volume confirmation (1.5x+ average) required.",
-      "risk": "Fundamentals are the primary threat \u2014 negative cash flow and 3.2x debt-to-equity mean TEM has no margin of safety if sentiment turns or macro tightens. A deteriorating earnings print or secondary offering could accelerate the drawdown well past your stop before technicals recover.",
-      "outlook": "cautious",
-      "timeframe": "4\u20138 weeks minimum before a valid technical setup is likely to emerge; position may need to be held defensively or exited if the $44 stop is breached before then",
-      "ticker": "TEM",
-      "company_name": "Tempus AI, Inc.",
-      "generated_at": "2026-05-07T22:46:27.506295",
-      "price_at_generation": 49.47,
-      "pnl_at_generation": -28.39,
-      "archived_at": "2026-05-07T23:32:13.207533"
     }
   ]
 }

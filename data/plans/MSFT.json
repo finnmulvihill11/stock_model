@@ -1,21 +1,38 @@
 {
   "current": {
     "action": "Wait",
-    "action_reason": "Your philosophy demands RSI in the 20-30 buy zone before adding, and MSFT at 38.3 with price still 24% above the lower Bollinger Band means you're not at a high-conviction mean-reversion entry yet. Sit tight \u2014 the setup is maturing but hasn't fired.",
-    "target_price": 430.0,
-    "target_reasoning": "A reversion toward the 50MA and upper BB range near $430 is a realistic near-term target once the BB squeeze resolves and momentum confirms direction. That level also aligns with prior consolidation resistance and represents a meaningful recovery from current levels without requiring a full reclaim of the 200MA.",
-    "exit_trigger": "Cut the position if MSFT closes two consecutive days below $395 on above-average volume \u2014 that signals the squeeze is resolving to the downside and a falling knife scenario is unfolding. Do not hold through a breakdown.",
-    "add_trigger": "Add a third share only if RSI drops into the 22-28 range AND price touches or pierces the lower Bollinger Band AND volume spikes above 1.2x average on that candle \u2014 all three conditions required. This is your true mean-reversion setup.",
-    "risk": "The BB squeeze resolves bearish rather than bullish \u2014 MSFT is below the 200MA on low volume, meaning institutional conviction is absent. A broader market risk-off move or AI capex disappointment could push RSI through 30 without bouncing, turning this into a deeper drawdown before any recovery.",
+    "action_reason": "Your entry criteria aren't met \u2014 RSI at 48.1 is mid-range, price sits above the lower Bollinger Band, and MSFT is still trading below its 200MA, flagging a potential falling knife. The BB squeeze and MACD turn are encouraging momentum signals, but without RSI confirmation in the 20-30 zone, adding here violates your own system's rules.",
+    "target_price": 455.0,
+    "target_reasoning": "A mean-reversion bounce toward the 50MA confluence zone near $450-460 is the realistic near-term target once price reclaims the 200MA. This aligns with a partial BB expansion toward the upper band if the squeeze resolves bullishly \u2014 avoid projecting back to your $467 cost basis as a near-term target, that's a secondary recovery level.",
+    "exit_trigger": "Cut the position if MSFT closes decisively below $410 on above-average volume \u2014 that breakdown would invalidate the squeeze setup and deepen the falling-knife thesis. Alternatively, take profit if RSI reaches 72-75 or price tags the upper Bollinger Band.",
+    "add_trigger": "Add a third share only if RSI drops to 25-30 on a flush toward $400-405 with volume confirmation AND the MACD histogram remains in upward-turn territory \u2014 that combination would be a textbook mean-reversion entry by your own philosophy. Do not average down without RSI oversold confirmation.",
+    "risk": "Price is below the 200MA with no RSI oversold signal \u2014 the BB squeeze could resolve to the downside rather than up, and a broader market risk-off move (VIX spike above 25) could accelerate losses toward $395-400 before any mean-reversion bounce materializes. At 24.2% portfolio weight, this position is already overexposed.",
     "outlook": "cautious",
-    "timeframe": "4-8 weeks \u2014 the squeeze and MACD turn suggest a directional move is coming soon, but confirmation is needed before sizing up. Budget time for this to base before momentum builds.",
+    "timeframe": "4-8 weeks \u2014 allow time for the BB squeeze to resolve and the 50/200MA golden cross to either confirm or fail. Reassess aggressively if $410 support breaks.",
     "ticker": "MSFT",
     "company_name": "Microsoft Corporation",
-    "generated_at": "2026-05-14T22:55:22.822228",
-    "price_at_generation": 409.43,
-    "pnl_at_generation": -12.36
+    "generated_at": "2026-05-15T22:53:52.641118",
+    "price_at_generation": 421.92,
+    "pnl_at_generation": -9.69
   },
   "history": [
+    {
+      "action": "Wait",
+      "action_reason": "Your philosophy demands RSI in the 20-30 buy zone before adding, and MSFT at 38.3 with price still 24% above the lower Bollinger Band means you're not at a high-conviction mean-reversion entry yet. Sit tight \u2014 the setup is maturing but hasn't fired.",
+      "target_price": 430.0,
+      "target_reasoning": "A reversion toward the 50MA and upper BB range near $430 is a realistic near-term target once the BB squeeze resolves and momentum confirms direction. That level also aligns with prior consolidation resistance and represents a meaningful recovery from current levels without requiring a full reclaim of the 200MA.",
+      "exit_trigger": "Cut the position if MSFT closes two consecutive days below $395 on above-average volume \u2014 that signals the squeeze is resolving to the downside and a falling knife scenario is unfolding. Do not hold through a breakdown.",
+      "add_trigger": "Add a third share only if RSI drops into the 22-28 range AND price touches or pierces the lower Bollinger Band AND volume spikes above 1.2x average on that candle \u2014 all three conditions required. This is your true mean-reversion setup.",
+      "risk": "The BB squeeze resolves bearish rather than bullish \u2014 MSFT is below the 200MA on low volume, meaning institutional conviction is absent. A broader market risk-off move or AI capex disappointment could push RSI through 30 without bouncing, turning this into a deeper drawdown before any recovery.",
+      "outlook": "cautious",
+      "timeframe": "4-8 weeks \u2014 the squeeze and MACD turn suggest a directional move is coming soon, but confirmation is needed before sizing up. Budget time for this to base before momentum builds.",
+      "ticker": "MSFT",
+      "company_name": "Microsoft Corporation",
+      "generated_at": "2026-05-14T22:55:22.822228",
+      "price_at_generation": 409.43,
+      "pnl_at_generation": -12.36,
+      "archived_at": "2026-05-15T22:53:52.641349"
+    },
     {
       "action": "Hold",
       "action_reason": "Your entry is underwater but MSFT is not a position to panic-sell \u2014 price is hugging the lower Bollinger Band with a squeeze forming, suggesting a coil before a move. However, with RSI at 42 (not yet oversold), no MACD confirmation, and price below the 200MA, your swing setup is incomplete \u2014 hold and let the technicals mature before adding risk.",
@@ -117,23 +134,6 @@
       "price_at_generation": 420.77,
       "pnl_at_generation": -9.93,
       "archived_at": "2026-05-08T04:46:27.724771"
-    },
-    {
-      "action": "Hold",
-      "action_reason": "MACD is turning up from a valley and the 50/200MA golden cross is approaching \u2014 momentum may be bottoming, but your core entry signals (RSI oversold, BB lower band touch) never fired, meaning this position was entered without full confirmation. Hold and let the setup mature rather than adding into an unconfirmed mean-reversion.",
-      "target_price": 455.0,
-      "target_reasoning": "~$455 represents a realistic near-term recovery target toward the 200MA from below, where price would likely encounter resistance and where RSI could approach the 65-70 range \u2014 your philosophical sell zone. Expecting a full recovery to cost basis (~$467) requires more bullish confirmation than currently exists.",
-      "exit_trigger": "RSI reaches 70-75 on the daily chart, OR price touches the upper Bollinger Band \u2014 whichever comes first. If price instead breaks below $400 with expanding BB width and no RSI divergence, cut the loss to free capital for higher-conviction setups.",
-      "add_trigger": "Only add if RSI drops to 25-30 with a simultaneous lower BB touch (pct \u2264 0.05) AND MACD histogram shows bullish divergence. Do not add simply on further price decline \u2014 price is already below the 200MA and the bands are expanding, signaling trend pressure, not a squeeze setup.",
-      "risk": "MSFT is in a confirmed downtrend (price below 200MA, expanding BB width) \u2014 this is a falling knife risk. The MACD uptick could be a dead-cat bounce rather than a true reversal. At 22.8% portfolio weight with a -9.93% drawdown, further downside meaningfully impacts your overall portfolio. Your entry lacked the RSI/BB confirmation your philosophy requires, which is the core vulnerability here.",
-      "outlook": "cautious",
-      "timeframe": "4-8 weeks",
-      "ticker": "MSFT",
-      "company_name": "Microsoft Corporation",
-      "generated_at": "2026-05-07T22:45:17.480842",
-      "price_at_generation": 420.77,
-      "pnl_at_generation": -9.93,
-      "archived_at": "2026-05-07T23:31:03.777303"
     }
   ]
 }
