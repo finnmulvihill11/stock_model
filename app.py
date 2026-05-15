@@ -267,7 +267,8 @@ elif page == "Signal Dashboard":
 
     portfolio = load_portfolio()
     swing_tickers = CONFIG["portfolio"].get("swing_tickers", [])
-    all_tickers = [h["ticker"] for h in portfolio["holdings"]]
+    swing_holdings = [h for h in portfolio["holdings"] if not h.get("dca")]
+    all_tickers = [h["ticker"] for h in swing_holdings]
 
     # Cache status
     status = get_cache_status(all_tickers)
@@ -280,9 +281,9 @@ elif page == "Signal Dashboard":
     else:
         st.info("No overnight data yet — scheduler hasn't run. Showing live signals (free, no Claude).")
 
-    # Auto-load from cache
+    # Auto-load from cache (ETF/DCA holdings excluded — they live in Long-Term ETF Plans)
     results = []
-    for holding in portfolio["holdings"]:
+    for holding in [h for h in portfolio["holdings"] if not h.get("dca")]:
         ticker = holding["ticker"]
         cached = load_ticker_analysis(ticker)
         if cached:

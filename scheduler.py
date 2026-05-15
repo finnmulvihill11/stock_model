@@ -51,7 +51,7 @@ def run_nightly():
 
     # ── Analyze all holdings ──────────────────────────────────────────────────
     print("[ 1/2 ] Analyzing holdings...")
-    for holding in portfolio["holdings"]:
+    for holding in [h for h in portfolio["holdings"] if not h.get("dca")]:
         ticker = holding["ticker"]
         is_dca = holding.get("dca", False)
         print(f"  {ticker}...")
