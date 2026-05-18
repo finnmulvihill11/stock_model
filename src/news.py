@@ -1,10 +1,15 @@
 import os
+import json
 import anthropic
+from datetime import datetime, timedelta
+from pathlib import Path
 from dotenv import load_dotenv
 from src.fetcher import fetch_news, fetch_info
 
 load_dotenv()
 _client = None
+CACHE_DIR = Path(__file__).parent.parent / "data" / "cache"
+_NEWS_TTL = timedelta(hours=48)
 
 
 def _get_client() -> anthropic.Anthropic:
@@ -14,73 +19,69 @@ def _get_client() -> anthropic.Anthropic:
     return _client
 
 
+def _load_cache(ticker: str) -> dict | None:
+    path = CACHE_DIR / f"{ticker}_news.json"
+    if not path.exists():
+        return None
+    try:
+        data = json.loads(path.read_text())
+        if datetime.now() - datetime.fromisoformat(data["cached_at"]) < _NEWS_TTL:
+            return data["result"]
+    except Exception:
+        pass
+    return None
+
+
+def _save_cache(ticker: str, result: dict) -> None:
+    CACHE_DIR.mkdir(parents=True, exist_ok=True)
+    (CACHE_DIR / f"{ticker}_news.json").write_text(
+        json.dumps({"cached_at": datetime.now().isoformat(), "result": result})
+    )
+
+
 def analyze_company(ticker: str, extra_context: str = "") -> dict:
+    if not extra_context:
+        cached = _load_cache(ticker)
+        if cached:
+            return cached
+
     news_items = fetch_news(ticker)
     info = fetch_info(ticker)
-
     company_name = info.get("longName", ticker)
     sector = info.get("sector", "Unknown")
-    industry = info.get("industry", "Unknown")
-    description = info.get("longBusinessSummary", "")[:500]
+    description = info.get("longBusinessSummary", "")[:300]
+    headlines = "\n".join(f"- {item.get('title','')}" for item in news_items[:10]) or "No recent news."
 
-    headlines = "\n".join(
-        f"- {item.get('title', '')}" for item in news_items[:15]
-    ) or "No recent news available."
-
-    prompt = f"""You are analyzing {company_name} ({ticker}) for a mid-to-long-term equity investor.
-
-Company: {company_name}
-Sector: {sector} | Industry: {industry}
+    prompt = f"""Analyze {company_name} ({ticker}) — {sector} — for a mid-to-long-term investor.
 Business: {description}
 
-Recent news headlines:
+News:
 {headlines}
+{f"Context: {extra_context}" if extra_context else ""}
 
-{f"Additional context: {extra_context}" if extra_context else ""}
-
-Provide a concise investment analysis covering:
-1. Overall news sentiment (positive/neutral/negative) and why
-2. Any significant recent events (earnings, management changes, product news, regulatory issues)
-3. Macro/sector tailwinds or headwinds relevant to this company
-4. Competitive position — any notable threats or strengths mentioned recently
-5. Your holistic verdict for a mid/long-term investor considering a position
-
-Format your response as JSON with these exact keys:
-{{
-  "sentiment": "positive" | "neutral" | "negative",
-  "health": "healthy" | "neutral" | "deteriorating",
-  "key_events": ["event1", "event2"],
-  "macro_context": "one sentence on macro/sector environment",
-  "competitive_notes": "one sentence on competitive position",
-  "red_flags": ["flag1"] or [],
-  "verdict": "one sentence final judgment",
-  "confidence": "high" | "medium" | "low"
-}}"""
+Respond in JSON only:
+{{"sentiment":"positive"|"neutral"|"negative","health":"healthy"|"neutral"|"deteriorating","key_events":["..."],"macro_context":"one sentence","competitive_notes":"one sentence","red_flags":[],"verdict":"one sentence","confidence":"high"|"medium"|"low"}}"""
 
     try:
         response = _get_client().messages.create(
-            model="claude-sonnet-4-6",
-            max_tokens=1024,
+            model="claude-haiku-4-5-20251001",
+            max_tokens=400,
             messages=[{"role": "user", "content": prompt}],
         )
-        import json
         text = response.content[0].text.strip()
-        if text.startswith("```"):
+        if "```" in text:
             text = text.split("```")[1]
             if text.startswith("json"):
                 text = text[4:]
         result = json.loads(text.strip())
         result["ticker"] = ticker
+        if not extra_context:
+            _save_cache(ticker, result)
         return result
     except Exception as e:
         return {
-            "ticker": ticker,
-            "sentiment": "neutral",
-            "health": "neutral",
-            "key_events": [],
-            "macro_context": "Analysis unavailable",
-            "competitive_notes": "Analysis unavailable",
-            "red_flags": [],
-            "verdict": f"Claude API error: {str(e)}",
-            "confidence": "low",
+            "ticker": ticker, "sentiment": "neutral", "health": "neutral",
+            "key_events": [], "macro_context": "Unavailable",
+            "competitive_notes": "Unavailable", "red_flags": [],
+            "verdict": f"Error: {e}", "confidence": "low",
         }

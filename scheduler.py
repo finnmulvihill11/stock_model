@@ -15,9 +15,9 @@ from src.fundamentals import check_fundamentals
 from src.earnings import earnings_gate
 from src.news import analyze_company
 from src.market_context import get_market_context
-from src.budget import size_swing_trade, get_etf_dca_schedule
+from src.budget import size_swing_trade
 from src.alerts import send_daily_digest, send_strong_signal_alert, send_weekly_opportunities
-from src.planner import generate_position_plan, generate_portfolio_strategy, generate_opportunity_plan
+from src.planner import generate_portfolio_strategy, generate_opportunity_plan, generate_plan_with_news
 from src.etf_advisor import get_etf_universe, analyze_etf, generate_etf_plan, find_new_etf_opportunities
 from src.screener import run_full_scrape, load_cache
 from src.watchlist import refresh_watchlist_signals, get_watchlist, auto_add_strong_signals
@@ -59,38 +59,33 @@ def run_nightly():
             sig = get_technical_signal(ticker)
             fund = check_fundamentals(ticker, high_risk=holding.get("high_risk", False))
             gate = earnings_gate(ticker)
-            news_result = analyze_company(ticker)
             rs_data = {}
             try:
                 rs_data = get_relative_strength(ticker)
             except Exception:
                 pass
 
+            # Single Haiku call: news sentiment + position plan combined
+            combined = generate_plan_with_news(holding, sig, fund, gate, market)
+            news_result = combined["news"]
+
             tier = _final_tier(sig["tier"], fund["health"], news_result.get("sentiment", "neutral"), gate["proceed"])
             sig["final_tier"] = tier
 
-            if not is_dca:
-                sz = size_swing_trade(ticker, sig["price"], sig.get("atr") or 1)
-                sig["sizing"] = {"suggested_shares": sz["shares"], "suggested_dollars": sz["amount"], "note": sz.get("note", "")}
-            else:
-                sched = get_etf_dca_schedule(sig["price"])
-                sig["sizing"] = {"suggested_shares": sched["shares"], "suggested_dollars": sched["amount"], "note": sched["label"]}
+            sz = size_swing_trade(ticker, sig["price"], sig.get("atr") or 1)
+            sig["sizing"] = {"suggested_shares": sz["shares"], "suggested_dollars": sz["amount"], "note": sz.get("note", "")}
 
             save_ticker_analysis(ticker, {
                 "ticker": ticker, "signal": sig, "fundamentals": fund,
                 "earnings": gate, "news": news_result, "relative_strength": rs_data,
-                "final_tier": tier, "sizing": sig["sizing"], "is_dca": is_dca,
+                "final_tier": tier, "sizing": sig["sizing"], "is_dca": False,
             })
             signals.append(sig)
 
-            if not is_dca:
-                plan = generate_position_plan(
-                    holding=holding, signal=sig, fundamentals=fund,
-                    news=news_result, earnings=gate, market_context=market, final_tier=tier,
-                )
-                plan.update({"final_tier": tier, "pnl_pct": holding["unrealized_pnl_pct"],
-                              "current_price": holding["current_price"], "portfolio_pct": holding.get("portfolio_pct", 0)})
-                position_plans.append(plan)
+            plan = combined["plan"]
+            plan.update({"final_tier": tier, "pnl_pct": holding["unrealized_pnl_pct"],
+                          "current_price": holding["current_price"], "portfolio_pct": holding.get("portfolio_pct", 0)})
+            position_plans.append(plan)
 
         except Exception as e:
             print(f"  {ticker} failed: {e}")

@@ -4,7 +4,7 @@ import anthropic
 from datetime import datetime
 from pathlib import Path
 from dotenv import load_dotenv
-from src.fetcher import fetch_info
+from src.fetcher import fetch_info, fetch_news
 
 load_dotenv()
 _client = None
@@ -154,8 +154,8 @@ Respond in JSON with these exact keys (priority_actions MUST be non-empty):
 
     try:
         response = _get_client().messages.create(
-            model="claude-sonnet-4-6",
-            max_tokens=1200,
+            model="claude-haiku-4-5-20251001",
+            max_tokens=800,
             messages=[{"role": "user", "content": prompt}],
         )
         text = response.content[0].text.strip()
@@ -269,8 +269,8 @@ Respond in JSON with these exact keys:
 
     try:
         response = _get_client().messages.create(
-            model="claude-sonnet-4-6",
-            max_tokens=800,
+            model="claude-haiku-4-5-20251001",
+            max_tokens=600,
             messages=[{"role": "user", "content": prompt}],
         )
         text = response.content[0].text.strip()
@@ -369,8 +369,8 @@ Respond in JSON:
 
     try:
         response = _get_client().messages.create(
-            model="claude-sonnet-4-6",
-            max_tokens=600,
+            model="claude-haiku-4-5-20251001",
+            max_tokens=500,
             messages=[{"role": "user", "content": prompt}],
         )
         text = response.content[0].text.strip()
@@ -402,3 +402,100 @@ Respond in JSON:
             "suggested_dollars": suggested_dollars,
             "suggested_shares": suggested_shares,
         }
+
+
+def generate_plan_with_news(
+    holding: dict,
+    signal: dict,
+    fundamentals: dict,
+    earnings: dict,
+    market_context: dict,
+) -> dict:
+    """Single Haiku call combining news analysis + position plan. Use in nightly scheduler."""
+    ticker = holding["ticker"]
+    news_items = fetch_news(ticker)
+    info = fetch_info(ticker)
+    company_name = info.get("longName", ticker)
+    headlines = "\n".join(f"- {item.get('title','')}" for item in news_items[:10]) or "No recent news."
+
+    vix_note = market_context.get("vix", {}).get("note", "")
+    fg = market_context.get("fear_greed", {})
+    fund_health = fundamentals.get("health", "neutral")
+    fund_flags = fundamentals.get("flags", [])
+    earnings_status = earnings.get("verdict", {}).get("earnings_status", "unknown")
+    days_to_earnings = earnings.get("verdict", {}).get("days_to_earnings")
+    current_price = holding["current_price"]
+    pnl_pct = holding["unrealized_pnl_pct"]
+
+    prompt = f"""Swing trader analysis for {company_name} ({ticker}).
+
+POSITION: {holding['shares']}sh @ ${holding['avg_cost']:.2f} | Now: ${current_price:.2f} | P&L: {pnl_pct:+.2f}% | Weight: {holding.get('portfolio_pct',0):.1f}%
+TECHNICAL: {signal.get('tier','Hold')} | RSI: {signal.get('rsi','N/A')} | Firing: {', '.join(signal.get('reasons',[])[:3]) or 'none'}
+FUNDAMENTALS: {fund_health}{(' | ' + ', '.join(fund_flags)) if fund_flags else ''}
+EARNINGS: {earnings_status}{f' ({days_to_earnings}d)' if days_to_earnings else ''}
+MARKET: {vix_note} | F&G: {fg.get('label','N/A')}
+
+NEWS:
+{headlines}
+
+One JSON with news assessment + position plan:
+{{"sentiment":"positive"|"neutral"|"negative","health":"healthy"|"neutral"|"deteriorating","key_events":["..."],"red_flags":[],"verdict":"one sentence","action":"Hold"|"Add More"|"Start Trimming"|"Exit"|"Wait","action_reason":"1-2 sentences","target_price":null,"exit_trigger":"specific condition","add_trigger":"specific condition","risk":"main risk","outlook":"short"|"neutral"|"cautious","timeframe":"e.g. 2-6 weeks"}}"""
+
+    _news_fallback = {
+        "ticker": ticker, "sentiment": "neutral", "health": "neutral",
+        "key_events": [], "macro_context": "", "competitive_notes": "",
+        "red_flags": [], "verdict": "", "confidence": "low",
+    }
+    _plan_fallback = {
+        "ticker": ticker, "company_name": company_name, "action": "Hold",
+        "action_reason": "Analysis unavailable.", "target_price": None,
+        "target_reasoning": "", "exit_trigger": "", "add_trigger": "", "risk": "",
+        "outlook": "neutral", "timeframe": "Unknown",
+        "generated_at": datetime.now().isoformat(),
+        "price_at_generation": current_price, "pnl_at_generation": pnl_pct,
+    }
+
+    try:
+        response = _get_client().messages.create(
+            model="claude-haiku-4-5-20251001",
+            max_tokens=600,
+            messages=[{"role": "user", "content": prompt}],
+        )
+        text = response.content[0].text.strip()
+        if "```" in text:
+            text = text.split("```")[1]
+            if text.startswith("json"):
+                text = text[4:]
+        r = json.loads(text.strip())
+
+        news = {
+            "ticker": ticker,
+            "sentiment": r.get("sentiment", "neutral"),
+            "health": r.get("health", "neutral"),
+            "key_events": r.get("key_events", []),
+            "macro_context": "", "competitive_notes": "",
+            "red_flags": r.get("red_flags", []),
+            "verdict": r.get("verdict", ""),
+            "confidence": "medium",
+        }
+        plan = {
+            "ticker": ticker, "company_name": company_name,
+            "action": r.get("action", "Hold"),
+            "action_reason": r.get("action_reason", ""),
+            "target_price": r.get("target_price"),
+            "target_reasoning": "",
+            "exit_trigger": r.get("exit_trigger", ""),
+            "add_trigger": r.get("add_trigger", ""),
+            "risk": r.get("risk", ""),
+            "outlook": r.get("outlook", "neutral"),
+            "timeframe": r.get("timeframe", "Unknown"),
+            "generated_at": datetime.now().isoformat(),
+            "price_at_generation": current_price,
+            "pnl_at_generation": pnl_pct,
+        }
+        _save_plan(ticker, plan)
+        return {"news": news, "plan": plan}
+    except Exception as e:
+        _plan_fallback["action_reason"] = f"Analysis unavailable: {e}"
+        _save_plan(ticker, _plan_fallback)
+        return {"news": _news_fallback, "plan": _plan_fallback}
