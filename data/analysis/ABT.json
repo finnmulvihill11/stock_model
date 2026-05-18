@@ -4,28 +4,27 @@
     "ticker": "ABT",
     "direction": "buy",
     "tier": "Hold",
-    "buy_score": 0.25,
+    "buy_score": 0.0,
     "sell_score": 0.14,
-    "reasons": [
-      "RSI: oversold zone (26.3)",
-      "MACD: histogram at valley / turning up"
-    ],
+    "reasons": [],
     "misses": [
-      "BB: price not near lower band (pct=0.23)",
+      "BB: price not near lower band (pct=0.47)",
       "BB Width: bands expanding, not squeezing",
+      "RSI: not in buy zone (35.1, need 20-30)",
+      "MACD: no bullish crossover or valley",
       "RSI Divergence: no bullish divergence detected",
       "200MA: price below 200MA \u2014 potential falling knife",
-      "Death cross active: 50MA (97.93) below 200MA (117.33)",
-      "Volume: below average (0.96x) \u2014 low conviction"
+      "Death cross active: 50MA (97.51) below 200MA (117.15)",
+      "Volume: below average (0.90x) \u2014 low conviction"
     ],
-    "price": 84.47,
-    "rsi": 26.3,
-    "atr": 2.07,
+    "price": 87.91,
+    "rsi": 35.1,
+    "atr": 2.18,
     "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 13,
-      "suggested_dollars": 1098.11,
-      "note": "13 shares @ $84.47 = $1,098 | $54 swing budget remaining after"
+      "suggested_dollars": 1142.83,
+      "note": "13 shares @ $87.91 = $1,143 | $9 swing budget remaining after"
     }
   },
   "fundamentals": {
@@ -54,44 +53,38 @@
       ],
       "earnings_status": "past",
       "next_earnings_date": "2026-04-16",
-      "days_to_earnings": -29
+      "days_to_earnings": -32
     }
   },
   "news": {
+    "ticker": "ABT",
     "sentiment": "neutral",
     "health": "healthy",
-    "key_events": [
-      "No recent news headlines were provided for analysis, limiting event-driven insight",
-      "Abbott continues to operate its four core segments: Medical Devices, Diagnostics, Nutritional Products, and Established Pharmaceuticals",
-      "FreeStyle Libre CGM platform remains a key growth driver in the Medical Devices segment",
-      "Post-COVID diagnostic revenue normalization has been an ongoing financial headwind following pandemic-era PCR test demand spike",
-      "Abbott faces ongoing litigation related to preterm infant formula (Similac) necrotizing enterocolitis lawsuits"
-    ],
-    "macro_context": "The medical devices sector benefits from aging global demographics and rising chronic disease prevalence, though higher interest rates and healthcare cost pressures create near-term valuation and demand headwinds.",
-    "competitive_notes": "Abbott holds a strong competitive position in continuous glucose monitoring via FreeStyle Libre, but faces intensifying rivalry from Dexcom and emerging players, while its diversified multi-segment model provides resilience against single-segment disruptions.",
+    "key_events": [],
+    "macro_context": "",
+    "competitive_notes": "",
     "red_flags": [
-      "Significant NEC-related infant formula litigation poses material legal and reputational risk",
-      "COVID-19 diagnostic revenue cliff created a tough multi-year comparable period affecting reported growth rates",
-      "No current news flow provided \u2014 analysis relies on known fundamentals rather than real-time catalysts",
-      "Currency headwinds remain a structural risk given Abbott's substantial international revenue exposure"
+      "Deep drawdown (-19.91%) from entry indicates significant mean reversion or fundamental shift",
+      "RSI 35.1 approaching oversold but not yet capitulating",
+      "No recent news catalysts visible to justify recovery",
+      "Position entered at elevated levels relative to current valuation"
     ],
-    "verdict": "Abbott is a fundamentally sound, diversified healthcare compounder with a strong CGM growth engine and durable dividend history, making it suitable for long-term investors, though near-term upside may be tempered by litigation risk and post-COVID diagnostic normalization.",
-    "confidence": "medium",
-    "ticker": "ABT"
+    "verdict": "ABT is fundamentally sound but technicals show weakness; await oversold bounce or earnings catalyst before averaging down.",
+    "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "ABT",
-    "stock_return_3m": -24.57,
-    "benchmark_return_3m": 8.72,
-    "relative_strength": -33.28,
+    "stock_return_3m": -21.2,
+    "benchmark_return_3m": 8.47,
+    "relative_strength": -29.67,
     "label": "underperforming"
   },
   "final_tier": "Hold",
   "sizing": {
     "suggested_shares": 13,
-    "suggested_dollars": 1098.11,
-    "note": "13 shares @ $84.47 = $1,098 | $54 swing budget remaining after"
+    "suggested_dollars": 1142.83,
+    "note": "13 shares @ $87.91 = $1,143 | $9 swing budget remaining after"
   },
   "is_dca": false,
-  "saved_at": "2026-05-15T22:54:12.021251"
+  "saved_at": "2026-05-18T22:58:58.680312"
 }

@@ -7,25 +7,25 @@
     "buy_score": 0.38,
     "sell_score": 0.43,
     "reasons": [
-      "BB Width: squeeze active (width=0.0999)",
+      "BB Width: squeeze active (width=0.0991)",
       "MACD: histogram at valley / turning up",
-      "Volume: above average (1.37x)"
+      "Volume: above average (1.01x)"
     ],
     "misses": [
-      "BB: price not near lower band (pct=0.46)",
-      "RSI: not in buy zone (51.2, need 20-30)",
+      "BB: price not near lower band (pct=0.72)",
+      "RSI: not in buy zone (51.0, need 20-30)",
       "RSI Divergence: no bullish divergence detected",
       "200MA: price below 200MA \u2014 potential falling knife",
-      "Death cross active: 50MA (411.30) below 200MA (566.86)"
+      "Death cross active: 50MA (409.77) below 200MA (564.98)"
     ],
-    "price": 393.0,
-    "rsi": 51.2,
-    "atr": 17.16,
+    "price": 403.16,
+    "rsi": 51.0,
+    "atr": 17.58,
     "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 2,
-      "suggested_dollars": 786.0,
-      "note": "2 shares @ $393.00 = $786 | $366 swing budget remaining after"
+      "suggested_dollars": 806.32,
+      "note": "2 shares @ $403.16 = $806 | $345 swing budget remaining after"
     }
   },
   "fundamentals": {
@@ -43,7 +43,7 @@
   },
   "earnings": {
     "proceed": false,
-    "reason": "Earnings in 5 days \u2014 wait for results before acting",
+    "reason": "Earnings in 2 days \u2014 wait for results before acting",
     "verdict": {
       "ticker": "INTU",
       "verdict": "consider",
@@ -54,43 +54,43 @@
       ],
       "earnings_status": "imminent",
       "next_earnings_date": "2026-05-20",
-      "days_to_earnings": 5
+      "days_to_earnings": 2
     }
   },
   "news": {
+    "ticker": "INTU",
     "sentiment": "neutral",
     "health": "healthy",
     "key_events": [
-      "No recent news headlines were provided for analysis, limiting event-driven assessment",
-      "Intuit continues to operate its four core segments: Global Business Solutions (QuickBooks), Consumer (TurboTax), Credit Karma, and ProTax",
-      "Ongoing integration of AI and generative AI features (Intuit Assist) across QuickBooks and TurboTax platforms represents a key strategic initiative",
-      "Credit Karma segment has faced pressure from a softer consumer credit environment and reduced lender appetite"
+      "Earnings report in 2 days (high volatility catalyst)",
+      "BB squeeze active with MACD histogram turning up (early momentum signal)",
+      "Above-average volume supporting technical setup"
     ],
-    "macro_context": "Rising interest rates and tighter consumer credit conditions pressure Credit Karma's ad revenue, while SMB resilience and tax season consistency provide relative stability for QuickBooks and TurboTax segments; broader AI adoption tailwinds benefit Intuit's platform strategy.",
-    "competitive_notes": "Intuit holds dominant market positions in SMB accounting (QuickBooks) and DIY tax filing (TurboTax), but faces intensifying competition from Xero and FreshBooks in SMB software, and from IRS Direct File and H&R Block in consumer tax, with AI-native fintech challengers emerging as a longer-term risk.",
+    "macro_context": "",
+    "competitive_notes": "",
     "red_flags": [
-      "IRS Direct File program expansion poses a secular threat to TurboTax's consumer revenue base",
-      "Credit Karma segment revenue has been volatile and sensitive to macro credit cycle deterioration",
-      "Premium valuation (historically 30-40x forward earnings) leaves limited margin for growth disappointment",
-      "Customer acquisition costs rising across financial services vertical"
+      "Down 13.91% from entry \u2014 significant underwater position",
+      "34.2% portfolio weight creates concentration risk",
+      "Fear sentiment in F&G despite neutral VIX",
+      "RSI at 51.0 shows no oversold conditions yet",
+      "Imminent earnings = binary event risk"
     ],
-    "verdict": "Intuit remains a high-quality, competitively entrenched software compounder with durable free cash flow and a credible AI integration strategy, making it suitable for long-term investors willing to accept premium valuation risk and monitor the IRS Direct File competitive threat.",
-    "confidence": "medium",
-    "ticker": "INTU"
+    "verdict": "Avoid new exposure until post-earnings clarity; current position is vulnerable to downside surprise given heavy weighting and underwater status.",
+    "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "INTU",
-    "stock_return_3m": -1.3,
-    "benchmark_return_3m": 8.72,
-    "relative_strength": -10.02,
-    "label": "underperforming"
+    "stock_return_3m": 6.66,
+    "benchmark_return_3m": 8.47,
+    "relative_strength": -1.81,
+    "label": "in-line"
   },
   "final_tier": "Hold",
   "sizing": {
     "suggested_shares": 2,
-    "suggested_dollars": 786.0,
-    "note": "2 shares @ $393.00 = $786 | $366 swing budget remaining after"
+    "suggested_dollars": 806.32,
+    "note": "2 shares @ $403.16 = $806 | $345 swing budget remaining after"
   },
   "is_dca": false,
-  "saved_at": "2026-05-15T22:53:17.220768"
+  "saved_at": "2026-05-18T22:58:43.423123"
 }

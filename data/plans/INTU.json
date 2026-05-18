@@ -1,21 +1,38 @@
 {
   "current": {
-    "action": "Wait",
-    "action_reason": "With a death cross active, price well below the 200MA, and earnings in 5 days, this is not the time to add or exit \u2014 hold what you have but do nothing new until the post-earnings picture clarifies. Your entry was premature relative to your own philosophy (RSI at 51, price mid-band), so patience is the correct posture now.",
-    "target_price": 445,
-    "target_reasoning": "The 200MA is far overhead at $566 and unrealistic near-term; $445 represents a meaningful technical recovery toward the 50MA ($411 is near-term resistance, then $445 is the next logical consolidation zone). A BB squeeze with MACD histogram turning up suggests a directional move is loading \u2014 if it breaks upward post-earnings, $445 is a realistic 4-6 week swing target and a logical trim point.",
-    "exit_trigger": "Cut the position if price closes below $370 on elevated volume (new multi-month low signaling trend continuation, not mean reversion), or if post-earnings guidance disappoints and RSI rolls back below 40 after a brief bounce \u2014 that confirms falling knife, not reversal.",
-    "add_trigger": "Only add if RSI drops to 25-30 on a capitulation spike, price touches or pierces the lower Bollinger Band, AND post-earnings reaction is not a gap-down disaster. All three conditions required \u2014 do not add into earnings blind.",
-    "risk": "The death cross (50MA at $411 well below 200MA at $566) is the dominant risk \u2014 this is a structurally broken chart, not a simple oversold bounce. Earnings in 5 days could accelerate the downtrend if guidance disappoints, and at 33.8% portfolio weight, a further 10-15% drawdown would be portfolio-damaging. The IRS Direct File threat is a slow-moving fundamental overhang that could keep multiple compression persistent.",
-    "outlook": "cautious",
-    "timeframe": "4-8 weeks post-earnings clarity",
     "ticker": "INTU",
     "company_name": "Intuit Inc.",
-    "generated_at": "2026-05-15T22:53:29.228465",
-    "price_at_generation": 393.0,
-    "pnl_at_generation": -16.08
+    "action": "Hold",
+    "action_reason": "Earnings in 2 days make entry/exit timing dangerous. Technical squeeze + MACD upturn shows potential recovery setup, but fundamentals alone don't justify 34.2% weighting. Hold existing position through earnings, then reassess.",
+    "target_price": 425,
+    "target_reasoning": "",
+    "exit_trigger": "Close below $395 post-earnings OR if earnings miss consensus and guidance declines; trim 1sh immediately if rebounds to $435+",
+    "add_trigger": "Do not add before earnings. Post-earnings: only if beats + guidance raised AND holds above $420 on volume",
+    "risk": "Earnings miss \u2192 gap down below $380; concentration risk means losses amplify portfolio impact",
+    "outlook": "cautious",
+    "timeframe": "2-10 days (earnings catalyst window)",
+    "generated_at": "2026-05-18T22:58:43.422465",
+    "price_at_generation": 403.16,
+    "pnl_at_generation": -13.91
   },
   "history": [
+    {
+      "action": "Wait",
+      "action_reason": "With a death cross active, price well below the 200MA, and earnings in 5 days, this is not the time to add or exit \u2014 hold what you have but do nothing new until the post-earnings picture clarifies. Your entry was premature relative to your own philosophy (RSI at 51, price mid-band), so patience is the correct posture now.",
+      "target_price": 445,
+      "target_reasoning": "The 200MA is far overhead at $566 and unrealistic near-term; $445 represents a meaningful technical recovery toward the 50MA ($411 is near-term resistance, then $445 is the next logical consolidation zone). A BB squeeze with MACD histogram turning up suggests a directional move is loading \u2014 if it breaks upward post-earnings, $445 is a realistic 4-6 week swing target and a logical trim point.",
+      "exit_trigger": "Cut the position if price closes below $370 on elevated volume (new multi-month low signaling trend continuation, not mean reversion), or if post-earnings guidance disappoints and RSI rolls back below 40 after a brief bounce \u2014 that confirms falling knife, not reversal.",
+      "add_trigger": "Only add if RSI drops to 25-30 on a capitulation spike, price touches or pierces the lower Bollinger Band, AND post-earnings reaction is not a gap-down disaster. All three conditions required \u2014 do not add into earnings blind.",
+      "risk": "The death cross (50MA at $411 well below 200MA at $566) is the dominant risk \u2014 this is a structurally broken chart, not a simple oversold bounce. Earnings in 5 days could accelerate the downtrend if guidance disappoints, and at 33.8% portfolio weight, a further 10-15% drawdown would be portfolio-damaging. The IRS Direct File threat is a slow-moving fundamental overhang that could keep multiple compression persistent.",
+      "outlook": "cautious",
+      "timeframe": "4-8 weeks post-earnings clarity",
+      "ticker": "INTU",
+      "company_name": "Intuit Inc.",
+      "generated_at": "2026-05-15T22:53:29.228465",
+      "price_at_generation": 393.0,
+      "pnl_at_generation": -16.08,
+      "archived_at": "2026-05-18T22:58:43.422670"
+    },
     {
       "action": "Wait",
       "action_reason": "With earnings in 6 days and a death cross confirmed (50MA well below 200MA), adding here is catching a falling knife \u2014 not a mean-reversion entry. The position is already a 19% loser at 33% portfolio weight; patience before the catalyst is the disciplined move.",
@@ -117,23 +134,6 @@
       "price_at_generation": 406.78,
       "pnl_at_generation": -13.14,
       "archived_at": "2026-05-08T05:00:43.472967"
-    },
-    {
-      "action": "Wait",
-      "action_reason": "You're underwater 13% with earnings in 13 days and zero buy-zone signals firing \u2014 RSI at 54.9 is mid-range, price is below the 200MA, and MACD shows no bullish conviction. Do not add here; let the setup come to you or let earnings resolve the uncertainty before making any move.",
-      "target_price": 445.0,
-      "target_reasoning": "~$445 represents a realistic mean-reversion target toward the 200MA and prior consolidation zone \u2014 achievable if earnings catalyze a recovery. A full signal-aligned entry would require RSI dropping to 25-30 with price near the lower Bollinger Band, which would likely materialize around $370-385 on a post-earnings flush if guidance disappoints.",
-      "exit_trigger": "Cut the position if price closes below $375 on elevated volume (confirming breakdown, not a shakeout) or if post-earnings guidance materially deteriorates \u2014 do not hold a falling knife through a fundamental reset.",
-      "add_trigger": "Only add if RSI drops to 25-30 AND price touches the lower Bollinger Band AND MACD shows a bullish crossover or valley \u2014 all three must align. Realistically, this setup may emerge post-earnings if the stock sells off on reaction. Target entry around $370-385 with a small add (1 share max given 33% portfolio weight risk).",
-      "risk": "Earnings in 13 days is the dominant risk \u2014 INTU could gap down 10-15% on any IRS Direct File headwind commentary or guidance cut, pushing you deeper underwater with no technical support in sight. Portfolio concentration at 33% amplifies this materially.",
-      "outlook": "cautious",
-      "timeframe": "4-10 weeks post-earnings clarity \u2014 current limbo period warrants no action until either signals align or earnings resolve direction",
-      "ticker": "INTU",
-      "company_name": "Intuit Inc.",
-      "generated_at": "2026-05-07T23:30:42.889506",
-      "price_at_generation": 406.78,
-      "pnl_at_generation": -13.14,
-      "archived_at": "2026-05-08T04:46:06.265117"
     }
   ]
 }

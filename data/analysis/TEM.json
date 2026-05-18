@@ -7,25 +7,25 @@
     "buy_score": 0.12,
     "sell_score": 0.14,
     "reasons": [
-      "BB: price near lower band (pct=0.01)"
+      "BB: price near lower band (pct=0.05)"
     ],
     "misses": [
       "BB Width: bands expanding, not squeezing",
-      "RSI: not in buy zone (30.2, need 20-30)",
+      "RSI: not in buy zone (32.0, need 20-30)",
       "MACD: no bullish crossover or valley",
       "RSI Divergence: no bullish divergence detected",
       "200MA: price below 200MA \u2014 potential falling knife",
-      "Death cross active: 50MA (49.77) below 200MA (66.57)",
-      "Volume: below average (0.94x) \u2014 low conviction"
+      "Death cross active: 50MA (49.59) below 200MA (66.50)",
+      "Volume: below average (0.93x) \u2014 low conviction"
     ],
-    "price": 43.93,
-    "rsi": 30.2,
-    "atr": 3.05,
+    "price": 43.62,
+    "rsi": 32.0,
+    "atr": 3.07,
     "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 18,
-      "suggested_dollars": 790.74,
-      "note": "18 shares @ $43.93 = $791 | $361 swing budget remaining after"
+      "suggested_dollars": 785.16,
+      "note": "18 shares @ $43.62 = $785 | $367 swing budget remaining after"
     }
   },
   "fundamentals": {
@@ -54,44 +54,44 @@
       ],
       "earnings_status": "past",
       "next_earnings_date": "2026-05-05",
-      "days_to_earnings": -10
+      "days_to_earnings": -13
     }
   },
   "news": {
-    "sentiment": "neutral",
-    "health": "neutral",
+    "ticker": "TEM",
+    "sentiment": "negative",
+    "health": "deteriorating",
     "key_events": [
-      "No recent news headlines were provided, limiting event-driven analysis",
-      "Tempus AI completed its IPO in mid-2024, transitioning to a publicly traded company with heightened scrutiny",
-      "Company operates a multimodal health data platform combining genomic diagnostics, AI analytics, and clinical decision support",
-      "Reported significant revenue growth but continues to operate at a net loss, typical of high-growth health tech"
+      "Recent earnings miss (13 days ago)",
+      "Price near lower Bollinger Band (oversold territory)",
+      "RSI at 32 indicating oversold conditions"
     ],
-    "macro_context": "AI-driven healthcare technology is experiencing strong secular tailwinds from precision medicine adoption, genomic data expansion, and payer/provider demand for cost-reducing clinical intelligence tools, though rising interest rates pressure high-multiple, unprofitable growth stocks.",
-    "competitive_notes": "Tempus competes with Foundation Medicine (Roche), Guardant Health, and Flatiron Health in genomic/oncology data analytics, but its closed-loop platform and proprietary multimodal dataset of 7M+ patient records represent a meaningful moat if network effects are realized.",
+    "macro_context": "",
+    "competitive_notes": "",
     "red_flags": [
-      "Persistent net losses and high cash burn rate with unclear path to profitability",
-      "Significant customer concentration risk, particularly reliance on AstraZeneca and other large pharma partners",
-      "Post-IPO lock-up expirations may create near-term selling pressure",
-      "Regulatory risk around AI-driven clinical decision tools from FDA oversight",
-      "No recent news provided \u2014 analysis relies on fundamental and sector-level knowledge only, reducing conviction"
+      "Debt-to-equity ratio of 3.2x signals high leverage risk",
+      "Negative operating cash flow indicates burn rate concerns",
+      "Company not profitable with deteriorating fundamentals",
+      "-36.86% unrealized loss suggests downward momentum continuation",
+      "No recent news catalyst or positive developments visible",
+      "Post-earnings weakness suggests market confidence erosion"
     ],
-    "verdict": "Tempus AI is a high-conviction long-term thematic bet on AI-enabled precision medicine with a defensible data moat, but its unproven profitability, competitive pressure from well-capitalized peers, and post-IPO valuation risk make it suitable only for risk-tolerant investors with a 3\u20135 year horizon.",
-    "confidence": "low",
-    "ticker": "TEM"
+    "verdict": "TEM is a distressed swing position with fundamental deterioration and technical weakness\u2014exit or tighten stops immediately.",
+    "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "TEM",
-    "stock_return_3m": -15.44,
-    "benchmark_return_3m": 8.72,
-    "relative_strength": -24.16,
+    "stock_return_3m": -17.01,
+    "benchmark_return_3m": 8.47,
+    "relative_strength": -25.48,
     "label": "underperforming"
   },
   "final_tier": "Hold",
   "sizing": {
     "suggested_shares": 18,
-    "suggested_dollars": 790.74,
-    "note": "18 shares @ $43.93 = $791 | $361 swing budget remaining after"
+    "suggested_dollars": 785.16,
+    "note": "18 shares @ $43.62 = $785 | $367 swing budget remaining after"
   },
   "is_dca": false,
-  "saved_at": "2026-05-15T22:54:37.060270"
+  "saved_at": "2026-05-18T22:59:04.813260"
 }

@@ -1,21 +1,38 @@
 {
   "current": {
-    "action": "Hold",
-    "action_reason": "You're already deep underwater at -36% and RSI at 30.2 is on the edge of oversold \u2014 exiting here locks in maximum pain right before a potential technical bounce. However, this is not a conviction add: too many signals are missing and fundamentals are deteriorating, so hold your current small position and wait for confirmation.",
-    "target_price": 52.5,
-    "target_reasoning": "A mean-reversion bounce toward the middle Bollinger Band (20-period MA) around $52-54 is the realistic near-term target \u2014 roughly a 19% recovery from current levels. This aligns with where RSI would likely normalize into the 45-50 range on a relief rally, and does not require a fundamental re-rating, just technical stabilization.",
-    "exit_trigger": "Exit immediately if price closes below $40.00 on elevated volume \u2014 that level represents a clean technical breakdown with no nearby support, and signals the falling knife risk is materializing. Also exit if RSI fails to recover above 35 within 3 weeks, as prolonged weakness below oversold confirms distribution, not accumulation.",
-    "add_trigger": "Only add if ALL three conditions align simultaneously: RSI drops into 22-27 range, a bullish MACD crossover fires on the daily chart, and price shows a reversal candle (hammer or engulfing) on above-average volume. Do not add based on price decline alone \u2014 this stock has weak fundamentals and can stay cheap.",
-    "risk": "This is a post-IPO growth stock with negative cash flow, 3.2x debt-to-equity, and price sitting well below the 200MA \u2014 the primary risk is that this is not mean-reversion, it is a structurally declining stock. A bounce may never materialize and the position could continue toward $35 or lower if growth sentiment deteriorates further or a broader risk-off move hits speculative AI names.",
-    "outlook": "cautious",
-    "timeframe": "3-6 weeks for a technical bounce decision point \u2014 if no recovery signal emerges by then, reassess with a hard exit bias",
     "ticker": "TEM",
     "company_name": "Tempus AI, Inc.",
-    "generated_at": "2026-05-15T22:54:49.843576",
-    "price_at_generation": 43.93,
-    "pnl_at_generation": -36.41
+    "action": "Start Trimming",
+    "action_reason": "Sell 1-2 shares at market to reduce downside exposure while position still has some liquidity. Deteriorating fundamentals + high debt + negative cash flow create bankruptcy risk that oversold technicals don't offset.",
+    "target_price": 35.0,
+    "target_reasoning": "",
+    "exit_trigger": "Close below $40 or any earnings guidance cut announcement",
+    "add_trigger": "Do not add\u2014fundamentals must show profitability path and debt reduction first",
+    "risk": "Insolvency/bankruptcy risk given 3.2x D/E, negative cash flow, and unprofitable operations; potential to $0",
+    "outlook": "short",
+    "timeframe": "1-2 weeks",
+    "generated_at": "2026-05-18T22:59:04.812618",
+    "price_at_generation": 43.62,
+    "pnl_at_generation": -36.86
   },
   "history": [
+    {
+      "action": "Hold",
+      "action_reason": "You're already deep underwater at -36% and RSI at 30.2 is on the edge of oversold \u2014 exiting here locks in maximum pain right before a potential technical bounce. However, this is not a conviction add: too many signals are missing and fundamentals are deteriorating, so hold your current small position and wait for confirmation.",
+      "target_price": 52.5,
+      "target_reasoning": "A mean-reversion bounce toward the middle Bollinger Band (20-period MA) around $52-54 is the realistic near-term target \u2014 roughly a 19% recovery from current levels. This aligns with where RSI would likely normalize into the 45-50 range on a relief rally, and does not require a fundamental re-rating, just technical stabilization.",
+      "exit_trigger": "Exit immediately if price closes below $40.00 on elevated volume \u2014 that level represents a clean technical breakdown with no nearby support, and signals the falling knife risk is materializing. Also exit if RSI fails to recover above 35 within 3 weeks, as prolonged weakness below oversold confirms distribution, not accumulation.",
+      "add_trigger": "Only add if ALL three conditions align simultaneously: RSI drops into 22-27 range, a bullish MACD crossover fires on the daily chart, and price shows a reversal candle (hammer or engulfing) on above-average volume. Do not add based on price decline alone \u2014 this stock has weak fundamentals and can stay cheap.",
+      "risk": "This is a post-IPO growth stock with negative cash flow, 3.2x debt-to-equity, and price sitting well below the 200MA \u2014 the primary risk is that this is not mean-reversion, it is a structurally declining stock. A bounce may never materialize and the position could continue toward $35 or lower if growth sentiment deteriorates further or a broader risk-off move hits speculative AI names.",
+      "outlook": "cautious",
+      "timeframe": "3-6 weeks for a technical bounce decision point \u2014 if no recovery signal emerges by then, reassess with a hard exit bias",
+      "ticker": "TEM",
+      "company_name": "Tempus AI, Inc.",
+      "generated_at": "2026-05-15T22:54:49.843576",
+      "price_at_generation": 43.93,
+      "pnl_at_generation": -36.41,
+      "archived_at": "2026-05-18T22:59:04.812842"
+    },
     {
       "action": "Wait",
       "action_reason": "TEM is down 34% and sitting near the lower Bollinger Band, but your entry criteria aren't met \u2014 RSI at 34.3 hasn't reached the 20\u201330 buy zone, MACD shows no bullish crossover, and price is below the 200MA flagging a potential falling knife. With deteriorating fundamentals and no confirmed reversal signal, adding here is speculation, not swing trading.",
@@ -117,23 +134,6 @@
       "price_at_generation": 49.47,
       "pnl_at_generation": -28.39,
       "archived_at": "2026-05-08T05:02:22.351762"
-    },
-    {
-      "action": "Wait",
-      "action_reason": "The position is deeply underwater with no confirmed reversal signals \u2014 RSI at 36.6 is approaching oversold but hasn't reached your 20-30 buy zone, MACD shows no bullish crossover, and price is mid-Bollinger-Band with expanding bands suggesting continued downside pressure. Do not add here; wait for your system's actual entry conditions to fire before committing more capital.",
-      "target_price": 56.5,
-      "target_reasoning": "A recovery toward the $56-57 zone represents a realistic mean-reversion target near the 20-day Bollinger Band midline and prior consolidation support, achievable once RSI bottoms and reverses from the oversold zone. A full recovery to your $69 cost basis is a longer-term scenario requiring fundamental improvement and is not a swing trade target.",
-      "exit_trigger": "Cut the position if price breaks and closes below $44 (new 52-week low territory) OR if RSI drops further and fails to recover above 35 within 2 weeks \u2014 this signals momentum deterioration, not mean-reversion setup. Deteriorating fundamentals mean you cannot afford to let this become a long-term baghold.",
-      "add_trigger": "Only add if RSI reaches 22-28 with a confirmed bullish MACD crossover AND price touches or pierces the lower Bollinger Band (pct < 0.05) on a high-volume reversal candle. All three conditions must align \u2014 do not chase a partial signal on a fundamentally weak name.",
-      "risk": "TEM has high debt-to-equity (3.2x), negative operating cash flow, and is unprofitable \u2014 this is not a typical mean-reversion candidate. If market sentiment shifts bearish or the AI/healthtech sector rotates out of favor, this stock could see a prolonged drawdown well below $44 with no fundamental floor to catch it. Your swing system is designed for quality companies, and TEM is pushing that boundary.",
-      "outlook": "cautious",
-      "timeframe": "3-6 weeks to monitor for a valid entry setup; if signals don't materialize within that window, re-evaluate whether this position fits your strategy at all",
-      "ticker": "TEM",
-      "company_name": "Tempus AI, Inc.",
-      "generated_at": "2026-05-07T23:32:13.206537",
-      "price_at_generation": 49.47,
-      "pnl_at_generation": -28.39,
-      "archived_at": "2026-05-08T04:47:46.551915"
     }
   ]
 }

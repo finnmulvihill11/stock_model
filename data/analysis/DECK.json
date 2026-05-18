@@ -4,28 +4,28 @@
     "ticker": "DECK",
     "direction": "buy",
     "tier": "Watch",
-    "buy_score": 0.62,
+    "buy_score": 0.5,
     "sell_score": 0.29,
     "reasons": [
-      "BB: price near lower band (pct=0.13)",
-      "RSI: oversold zone (27.6)",
+      "BB: price near lower band (pct=0.20)",
       "MACD: histogram at valley / turning up",
       "RSI Divergence: Price lower low (93.69 < 100.69) but RSI higher low (29.2 > 14.8)",
-      "Volume: above average (1.02x)"
+      "Volume: above average (1.23x)"
     ],
     "misses": [
       "BB Width: bands expanding, not squeezing",
+      "RSI: not in buy zone (30.7, need 20-30)",
       "200MA: price below 200MA \u2014 potential falling knife",
-      "Death cross active: 50MA (102.63) below 200MA (103.10)"
+      "Death cross active: 50MA (102.44) below 200MA (103.04)"
     ],
-    "price": 93.56,
-    "rsi": 27.6,
-    "atr": 3.31,
+    "price": 94.61,
+    "rsi": 30.7,
+    "atr": 3.4,
     "final_tier": "Watch",
     "sizing": {
       "suggested_shares": 12,
-      "suggested_dollars": 1122.72,
-      "note": "12 shares @ $93.56 = $1,123 | $29 swing budget remaining after"
+      "suggested_dollars": 1135.32,
+      "note": "12 shares @ $94.61 = $1,135 | $16 swing budget remaining after"
     }
   },
   "fundamentals": {
@@ -43,7 +43,7 @@
   },
   "earnings": {
     "proceed": false,
-    "reason": "Earnings in 6 days \u2014 wait for results before acting",
+    "reason": "Earnings in 3 days \u2014 wait for results before acting",
     "verdict": {
       "ticker": "DECK",
       "verdict": "consider",
@@ -54,44 +54,43 @@
       ],
       "earnings_status": "imminent",
       "next_earnings_date": "2026-05-21",
-      "days_to_earnings": 6
+      "days_to_earnings": 3
     }
   },
   "news": {
+    "ticker": "DECK",
     "sentiment": "neutral",
     "health": "healthy",
     "key_events": [
-      "No recent news headlines were provided, limiting event-specific analysis",
-      "DECK has historically reported strong revenue growth driven by HOKA's explosive global expansion and sustained UGG brand demand",
-      "Company has executed consistent share buybacks, reflecting strong free cash flow generation and management confidence",
-      "HOKA brand has been a standout growth driver, gaining significant market share in the performance running segment"
+      "Earnings report in 3 days",
+      "Bullish technical divergence forming (RSI higher low despite price lower low)",
+      "Price testing lower Bollinger Band (0.20 percentile)",
+      "MACD histogram at valley with upward turn initiation"
     ],
-    "macro_context": "Consumer discretionary spending faces headwinds from persistent inflation, tariff uncertainty (particularly on goods manufactured in Asia), and potential demand softening, though premium footwear brands with strong identity tend to show relative resilience.",
-    "competitive_notes": "DECK's HOKA brand competes intensely with On Running and Brooks in performance footwear, while UGG faces fashion cycle risk, but the portfolio diversification and DTC channel expansion provide competitive durability.",
+    "macro_context": "",
+    "competitive_notes": "",
     "red_flags": [
-      "High dependency on Asian manufacturing exposes margins to tariff and supply chain disruptions",
-      "HOKA's rapid growth may face law-of-large-numbers deceleration as it scales",
-      "UGG brand remains seasonally concentrated and fashion-trend sensitive",
-      "Valuation has historically traded at a premium multiple, leaving limited margin of safety if growth slows",
-      "No recent news provided \u2014 analysis relies on fundamental and sector knowledge, reducing timeliness confidence"
+      "RSI at 30.7 indicates oversold but not yet extreme",
+      "2.64% underwater on position with 5.4% portfolio weight",
+      "Earnings imminent = high volatility risk",
+      "No recent news flow to support recovery thesis"
     ],
-    "verdict": "DECK is a fundamentally strong, cash-generative business with a rare dual-brand growth engine, but mid/long-term investors should monitor HOKA growth sustainability and tariff exposure before initiating or adding to a position.",
-    "confidence": "low",
-    "ticker": "DECK"
+    "verdict": "Technical setup favors bounce, but earnings event risk requires defensive positioning until clarity emerges.",
+    "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "DECK",
-    "stock_return_3m": -19.16,
-    "benchmark_return_3m": 8.72,
-    "relative_strength": -27.88,
+    "stock_return_3m": -19.38,
+    "benchmark_return_3m": 8.47,
+    "relative_strength": -27.84,
     "label": "underperforming"
   },
   "final_tier": "Watch",
   "sizing": {
     "suggested_shares": 12,
-    "suggested_dollars": 1122.72,
-    "note": "12 shares @ $93.56 = $1,123 | $29 swing budget remaining after"
+    "suggested_dollars": 1135.32,
+    "note": "12 shares @ $94.61 = $1,135 | $16 swing budget remaining after"
   },
   "is_dca": false,
-  "saved_at": "2026-05-15T22:55:32.805294"
+  "saved_at": "2026-05-18T22:59:19.200458"
 }
