@@ -7,25 +7,25 @@
     "buy_score": 0.12,
     "sell_score": 0.14,
     "reasons": [
-      "BB: price near lower band (pct=0.05)"
+      "MACD: histogram at valley / turning up"
     ],
     "misses": [
+      "BB: price not near lower band (pct=0.20)",
       "BB Width: bands expanding, not squeezing",
-      "RSI: not in buy zone (32.0, need 20-30)",
-      "MACD: no bullish crossover or valley",
+      "RSI: not in buy zone (39.6, need 20-30)",
       "RSI Divergence: no bullish divergence detected",
       "200MA: price below 200MA \u2014 potential falling knife",
-      "Death cross active: 50MA (49.59) below 200MA (66.50)",
-      "Volume: below average (0.93x) \u2014 low conviction"
+      "Death cross active: 50MA (49.46) below 200MA (66.46)",
+      "Volume: below average (0.94x) \u2014 low conviction"
     ],
-    "price": 43.62,
-    "rsi": 32.0,
-    "atr": 3.07,
+    "price": 45.53,
+    "rsi": 39.6,
+    "atr": 3.14,
     "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 18,
-      "suggested_dollars": 785.16,
-      "note": "18 shares @ $43.62 = $785 | $367 swing budget remaining after"
+      "suggested_dollars": 819.54,
+      "note": "18 shares @ $45.53 = $820 | $332 swing budget remaining after"
     }
   },
   "fundamentals": {
@@ -54,7 +54,7 @@
       ],
       "earnings_status": "past",
       "next_earnings_date": "2026-05-05",
-      "days_to_earnings": -13
+      "days_to_earnings": -14
     }
   },
   "news": {
@@ -62,36 +62,37 @@
     "sentiment": "negative",
     "health": "deteriorating",
     "key_events": [
-      "Recent earnings miss (13 days ago)",
-      "Price near lower Bollinger Band (oversold territory)",
-      "RSI at 32 indicating oversold conditions"
+      "Recent earnings miss (-14 days)",
+      "MACD histogram turning up from valley (potential reversal signal)",
+      "RSI 39.6 approaching oversold but not yet confirmed",
+      "Extreme Fear sentiment presents contrarian opportunity"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "Debt-to-equity ratio of 3.2x signals high leverage risk",
-      "Negative operating cash flow indicates burn rate concerns",
-      "Company not profitable with deteriorating fundamentals",
-      "-36.86% unrealized loss suggests downward momentum continuation",
-      "No recent news catalyst or positive developments visible",
-      "Post-earnings weakness suggests market confidence erosion"
+      "34% underwater position with significant loss",
+      "High debt-to-equity ratio (3.2x) limits financial flexibility",
+      "Negative operating cash flow - company burning cash",
+      "Not profitable - no path to earnings visible post-earnings miss",
+      "3.9% portfolio weight is elevated given risk profile",
+      "No positive news catalyst visible"
     ],
-    "verdict": "TEM is a distressed swing position with fundamental deterioration and technical weakness\u2014exit or tighten stops immediately.",
+    "verdict": "Deteriorating fundamentals and recent earnings miss argue against holding, but technical oversold conditions create tactical complexity.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "TEM",
-    "stock_return_3m": -17.01,
-    "benchmark_return_3m": 8.47,
-    "relative_strength": -25.48,
+    "stock_return_3m": -18.93,
+    "benchmark_return_3m": 7.2,
+    "relative_strength": -26.13,
     "label": "underperforming"
   },
   "final_tier": "Hold",
   "sizing": {
     "suggested_shares": 18,
-    "suggested_dollars": 785.16,
-    "note": "18 shares @ $43.62 = $785 | $367 swing budget remaining after"
+    "suggested_dollars": 819.54,
+    "note": "18 shares @ $45.53 = $820 | $332 swing budget remaining after"
   },
   "is_dca": false,
-  "saved_at": "2026-05-18T22:59:04.813260"
+  "saved_at": "2026-05-19T23:01:22.265731"
 }

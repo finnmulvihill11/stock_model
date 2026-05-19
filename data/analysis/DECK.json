@@ -3,29 +3,29 @@
   "signal": {
     "ticker": "DECK",
     "direction": "buy",
-    "tier": "Watch",
-    "buy_score": 0.5,
+    "tier": "Hold",
+    "buy_score": 0.38,
     "sell_score": 0.29,
     "reasons": [
-      "BB: price near lower band (pct=0.20)",
       "MACD: histogram at valley / turning up",
       "RSI Divergence: Price lower low (93.69 < 100.69) but RSI higher low (29.2 > 14.8)",
-      "Volume: above average (1.23x)"
+      "Volume: above average (1.16x)"
     ],
     "misses": [
+      "BB: price not near lower band (pct=0.21)",
       "BB Width: bands expanding, not squeezing",
-      "RSI: not in buy zone (30.7, need 20-30)",
+      "RSI: not in buy zone (36.1, need 20-30)",
       "200MA: price below 200MA \u2014 potential falling knife",
-      "Death cross active: 50MA (102.44) below 200MA (103.04)"
+      "Death cross active: 50MA (102.24) below 200MA (102.99)"
     ],
-    "price": 94.61,
-    "rsi": 30.7,
-    "atr": 3.4,
-    "final_tier": "Watch",
+    "price": 94.27,
+    "rsi": 36.1,
+    "atr": 3.18,
+    "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 12,
-      "suggested_dollars": 1135.32,
-      "note": "12 shares @ $94.61 = $1,135 | $16 swing budget remaining after"
+      "suggested_dollars": 1131.24,
+      "note": "12 shares @ $94.27 = $1,131 | $20 swing budget remaining after"
     }
   },
   "fundamentals": {
@@ -43,7 +43,7 @@
   },
   "earnings": {
     "proceed": false,
-    "reason": "Earnings in 3 days \u2014 wait for results before acting",
+    "reason": "Earnings in 2 days \u2014 wait for results before acting",
     "verdict": {
       "ticker": "DECK",
       "verdict": "consider",
@@ -54,7 +54,7 @@
       ],
       "earnings_status": "imminent",
       "next_earnings_date": "2026-05-21",
-      "days_to_earnings": 3
+      "days_to_earnings": 2
     }
   },
   "news": {
@@ -62,35 +62,34 @@
     "sentiment": "neutral",
     "health": "healthy",
     "key_events": [
-      "Earnings report in 3 days",
-      "Bullish technical divergence forming (RSI higher low despite price lower low)",
-      "Price testing lower Bollinger Band (0.20 percentile)",
-      "MACD histogram at valley with upward turn initiation"
+      "Earnings report in 2 days (critical catalyst)",
+      "RSI divergence signaling potential reversal",
+      "MACD histogram at valley with upward inflection",
+      "Above-average volume supporting move"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "RSI at 30.7 indicates oversold but not yet extreme",
-      "2.64% underwater on position with 5.4% portfolio weight",
-      "Earnings imminent = high volatility risk",
-      "No recent news flow to support recovery thesis"
+      "Position down 2.99% with price at 14-day lows",
+      "Extreme Fear sentiment creates binary earnings risk",
+      "No recent news flow to support thesis"
     ],
-    "verdict": "Technical setup favors bounce, but earnings event risk requires defensive positioning until clarity emerges.",
+    "verdict": "Hold through earnings but reduce position size before announcement due to imminent catalyst volatility.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "DECK",
-    "stock_return_3m": -19.38,
-    "benchmark_return_3m": 8.47,
-    "relative_strength": -27.84,
+    "stock_return_3m": -20.71,
+    "benchmark_return_3m": 7.2,
+    "relative_strength": -27.91,
     "label": "underperforming"
   },
-  "final_tier": "Watch",
+  "final_tier": "Hold",
   "sizing": {
     "suggested_shares": 12,
-    "suggested_dollars": 1135.32,
-    "note": "12 shares @ $94.61 = $1,135 | $16 swing budget remaining after"
+    "suggested_dollars": 1131.24,
+    "note": "12 shares @ $94.27 = $1,131 | $20 swing budget remaining after"
   },
   "is_dca": false,
-  "saved_at": "2026-05-18T22:59:19.200458"
+  "saved_at": "2026-05-19T23:01:36.234428"
 }

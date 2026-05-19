@@ -3,19 +3,36 @@
     "ticker": "TEM",
     "company_name": "Tempus AI, Inc.",
     "action": "Start Trimming",
-    "action_reason": "Sell 1-2 shares at market to reduce downside exposure while position still has some liquidity. Deteriorating fundamentals + high debt + negative cash flow create bankruptcy risk that oversold technicals don't offset.",
-    "target_price": 35.0,
+    "action_reason": "Cut position by 50-66% (sell 2 shares) to lock in loss deduction and reduce portfolio heat. Fundamentals don't support recovery thesis; only hold 1sh for speculative bounce if MACD + RSI confirm uptrend with volume.",
+    "target_price": 38.5,
     "target_reasoning": "",
-    "exit_trigger": "Close below $40 or any earnings guidance cut announcement",
-    "add_trigger": "Do not add\u2014fundamentals must show profitability path and debt reduction first",
-    "risk": "Insolvency/bankruptcy risk given 3.2x D/E, negative cash flow, and unprofitable operations; potential to $0",
-    "outlook": "short",
-    "timeframe": "1-2 weeks",
-    "generated_at": "2026-05-18T22:59:04.812618",
-    "price_at_generation": 43.62,
-    "pnl_at_generation": -36.86
+    "exit_trigger": "Sell remaining 1sh if drops below $40 or if no volume-confirmed reversal appears within 2 weeks",
+    "add_trigger": "Only add if: (1) company announces turnaround plan, (2) RSI breaks above 50 WITH volume, AND (3) positive cash flow guidance. Do not add based on technicals alone.",
+    "risk": "Continued deterioration of operating metrics; potential further downside if debt becomes unsustainable or cash runway questioned",
+    "outlook": "cautious",
+    "timeframe": "2-3 weeks for trim decision; reassess full exit at 4-week mark if no catalyst",
+    "generated_at": "2026-05-19T23:01:22.264973",
+    "price_at_generation": 45.53,
+    "pnl_at_generation": -34.09
   },
   "history": [
+    {
+      "ticker": "TEM",
+      "company_name": "Tempus AI, Inc.",
+      "action": "Start Trimming",
+      "action_reason": "Sell 1-2 shares at market to reduce downside exposure while position still has some liquidity. Deteriorating fundamentals + high debt + negative cash flow create bankruptcy risk that oversold technicals don't offset.",
+      "target_price": 35.0,
+      "target_reasoning": "",
+      "exit_trigger": "Close below $40 or any earnings guidance cut announcement",
+      "add_trigger": "Do not add\u2014fundamentals must show profitability path and debt reduction first",
+      "risk": "Insolvency/bankruptcy risk given 3.2x D/E, negative cash flow, and unprofitable operations; potential to $0",
+      "outlook": "short",
+      "timeframe": "1-2 weeks",
+      "generated_at": "2026-05-18T22:59:04.812618",
+      "price_at_generation": 43.62,
+      "pnl_at_generation": -36.86,
+      "archived_at": "2026-05-19T23:01:22.265225"
+    },
     {
       "action": "Hold",
       "action_reason": "You're already deep underwater at -36% and RSI at 30.2 is on the edge of oversold \u2014 exiting here locks in maximum pain right before a potential technical bounce. However, this is not a conviction add: too many signals are missing and fundamentals are deteriorating, so hold your current small position and wait for confirmation.",
@@ -117,23 +134,6 @@
       "price_at_generation": 49.47,
       "pnl_at_generation": -28.39,
       "archived_at": "2026-05-08T22:56:04.414316"
-    },
-    {
-      "action": "Wait",
-      "action_reason": "You're already down 28% and none of your entry criteria are confirmed \u2014 RSI hasn't reached the 20-30 buy zone, there's no MACD bullish crossover, and price isn't near the lower Bollinger Band. Adding here would be catching a falling knife without a signal; holding the existing 3 shares is acceptable but do not average down yet.",
-      "target_price": 58.5,
-      "target_reasoning": "A recovery toward the $58-59 range represents a meaningful mean-reversion bounce (~18% from current price) and likely aligns with the mid-Bollinger Band / 20-day MA area given expanding bands. RSI would need to climb back through the 50-55 zone to confirm momentum, making this a realistic swing target before overhead resistance reasserts itself.",
-      "exit_trigger": "Cut the existing position if price closes below $44 on elevated volume \u2014 that break signals further structural deterioration with no technical floor in sight, and your loss deepens to a level that's hard to justify in a moderate-risk swing framework.",
-      "add_trigger": "Only add if RSI drops to 20-28 AND price touches or pierces the lower Bollinger Band AND MACD shows a bullish valley/crossover on the daily chart \u2014 all three must align. Given deteriorating fundamentals, size any add conservatively (1 share max) and only if broader market Fear & Greed stays above 25.",
-      "risk": "Fundamentals are the core risk here: TEM carries 3.2x debt-to-equity with no profitability and negative operating cash flow, meaning it has no earnings floor to catch the stock. Any broader risk-off move or sector rotation out of speculative AI names could accelerate the drawdown well past your $44 stop before technicals even trigger \u2014 this is not a mean-reversion setup on a cash-generative business.",
-      "outlook": "cautious",
-      "timeframe": "4-8 weeks \u2014 wait for RSI and BB signals to confirm a true oversold condition before reassessing; if signals don't materialize within 6-8 weeks and price drifts flat-to-lower, revisit the exit case entirely",
-      "ticker": "TEM",
-      "company_name": "Tempus AI, Inc.",
-      "generated_at": "2026-05-08T04:47:46.551706",
-      "price_at_generation": 49.47,
-      "pnl_at_generation": -28.39,
-      "archived_at": "2026-05-08T05:02:22.351762"
     }
   ]
 }

@@ -8,23 +8,23 @@
     "sell_score": 0.14,
     "reasons": [],
     "misses": [
-      "BB: price not near lower band (pct=0.47)",
+      "BB: price not near lower band (pct=0.55)",
       "BB Width: bands expanding, not squeezing",
-      "RSI: not in buy zone (35.1, need 20-30)",
+      "RSI: not in buy zone (43.2, need 20-30)",
       "MACD: no bullish crossover or valley",
       "RSI Divergence: no bullish divergence detected",
       "200MA: price below 200MA \u2014 potential falling knife",
-      "Death cross active: 50MA (97.51) below 200MA (117.15)",
-      "Volume: below average (0.90x) \u2014 low conviction"
+      "Death cross active: 50MA (97.05) below 200MA (116.97)",
+      "Volume: below average (0.87x) \u2014 low conviction"
     ],
-    "price": 87.91,
-    "rsi": 35.1,
-    "atr": 2.18,
+    "price": 88.82,
+    "rsi": 43.2,
+    "atr": 2.13,
     "final_tier": "Hold",
     "sizing": {
-      "suggested_shares": 13,
-      "suggested_dollars": 1142.83,
-      "note": "13 shares @ $87.91 = $1,143 | $9 swing budget remaining after"
+      "suggested_shares": 12,
+      "suggested_dollars": 1065.84,
+      "note": "12 shares @ $88.82 = $1,066 | $86 swing budget remaining after"
     }
   },
   "fundamentals": {
@@ -53,38 +53,43 @@
       ],
       "earnings_status": "past",
       "next_earnings_date": "2026-04-16",
-      "days_to_earnings": -32
+      "days_to_earnings": -33
     }
   },
   "news": {
     "ticker": "ABT",
     "sentiment": "neutral",
     "health": "healthy",
-    "key_events": [],
+    "key_events": [
+      "Earnings reported 33 days ago",
+      "Stock down 19.09% from entry despite healthy fundamentals",
+      "Extreme Fear in market (F&G) presents potential opportunity",
+      "VIX 18.1 suggests stabilizing volatility"
+    ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "Deep drawdown (-19.91%) from entry indicates significant mean reversion or fundamental shift",
-      "RSI 35.1 approaching oversold but not yet capitulating",
-      "No recent news catalysts visible to justify recovery",
-      "Position entered at elevated levels relative to current valuation"
+      "No recent news catalysts visible",
+      "RSI 43.2 indicates weakness but not oversold (<30)",
+      "Technical setup shows no bullish signals firing",
+      "Post-earnings decline suggests market repriced expectations"
     ],
-    "verdict": "ABT is fundamentally sound but technicals show weakness; await oversold bounce or earnings catalyst before averaging down.",
+    "verdict": "ABT fundamentals remain sound but technical deterioration and lack of bullish signals warrant patience despite market-wide fear environment.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "ABT",
-    "stock_return_3m": -21.2,
-    "benchmark_return_3m": 8.47,
-    "relative_strength": -29.67,
+    "stock_return_3m": -21.11,
+    "benchmark_return_3m": 7.2,
+    "relative_strength": -28.31,
     "label": "underperforming"
   },
   "final_tier": "Hold",
   "sizing": {
-    "suggested_shares": 13,
-    "suggested_dollars": 1142.83,
-    "note": "13 shares @ $87.91 = $1,143 | $9 swing budget remaining after"
+    "suggested_shares": 12,
+    "suggested_dollars": 1065.84,
+    "note": "12 shares @ $88.82 = $1,066 | $86 swing budget remaining after"
   },
   "is_dca": false,
-  "saved_at": "2026-05-18T22:58:58.680312"
+  "saved_at": "2026-05-19T23:01:14.984078"
 }

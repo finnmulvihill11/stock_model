@@ -4,28 +4,28 @@
     "ticker": "INTU",
     "direction": "buy",
     "tier": "Hold",
-    "buy_score": 0.38,
+    "buy_score": 0.25,
     "sell_score": 0.43,
     "reasons": [
-      "BB Width: squeeze active (width=0.0991)",
-      "MACD: histogram at valley / turning up",
-      "Volume: above average (1.01x)"
+      "BB Width: squeeze active (width=0.0969)",
+      "Volume: above average (1.24x)"
     ],
     "misses": [
-      "BB: price not near lower band (pct=0.72)",
-      "RSI: not in buy zone (51.0, need 20-30)",
+      "BB: price not near lower band (pct=0.64)",
+      "RSI: not in buy zone (51.8, need 20-30)",
+      "MACD: no bullish crossover or valley",
       "RSI Divergence: no bullish divergence detected",
       "200MA: price below 200MA \u2014 potential falling knife",
-      "Death cross active: 50MA (409.77) below 200MA (564.98)"
+      "Death cross active: 50MA (408.32) below 200MA (563.12)"
     ],
-    "price": 403.16,
-    "rsi": 51.0,
-    "atr": 17.58,
+    "price": 399.71,
+    "rsi": 51.8,
+    "atr": 18.64,
     "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 2,
-      "suggested_dollars": 806.32,
-      "note": "2 shares @ $403.16 = $806 | $345 swing budget remaining after"
+      "suggested_dollars": 799.42,
+      "note": "2 shares @ $399.71 = $799 | $352 swing budget remaining after"
     }
   },
   "fundamentals": {
@@ -43,7 +43,7 @@
   },
   "earnings": {
     "proceed": false,
-    "reason": "Earnings in 2 days \u2014 wait for results before acting",
+    "reason": "Earnings in 1 days \u2014 wait for results before acting",
     "verdict": {
       "ticker": "INTU",
       "verdict": "consider",
@@ -54,7 +54,7 @@
       ],
       "earnings_status": "imminent",
       "next_earnings_date": "2026-05-20",
-      "days_to_earnings": 2
+      "days_to_earnings": 1
     }
   },
   "news": {
@@ -62,35 +62,34 @@
     "sentiment": "neutral",
     "health": "healthy",
     "key_events": [
-      "Earnings report in 2 days (high volatility catalyst)",
-      "BB squeeze active with MACD histogram turning up (early momentum signal)",
-      "Above-average volume supporting technical setup"
+      "Earnings report imminent (1 day)",
+      "Bollinger Band squeeze active - volatility compression suggests breakout pending",
+      "Above-average volume (1.24x) indicates institutional positioning ahead of earnings",
+      "Market Fear (F&G Extreme) creates asymmetric risk/reward opportunity"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "Down 13.91% from entry \u2014 significant underwater position",
-      "34.2% portfolio weight creates concentration risk",
-      "Fear sentiment in F&G despite neutral VIX",
-      "RSI at 51.0 shows no oversold conditions yet",
-      "Imminent earnings = binary event risk"
+      "Position down -14.64% with 34.2% portfolio weight - concentrated drawdown",
+      "RSI 51.8 at neutral midpoint - no directional momentum confirmation",
+      "Earnings catalyst within 24hrs creates binary risk; BB squeeze often resolves violently"
     ],
-    "verdict": "Avoid new exposure until post-earnings clarity; current position is vulnerable to downside surprise given heavy weighting and underwater status.",
+    "verdict": "Hold current position but prepare exit rules; earnings volatility will resolve the squeeze\u2014direction uncertain given neutral technicals.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "INTU",
-    "stock_return_3m": 6.66,
-    "benchmark_return_3m": 8.47,
-    "relative_strength": -1.81,
+    "stock_return_3m": 2.92,
+    "benchmark_return_3m": 7.2,
+    "relative_strength": -4.28,
     "label": "in-line"
   },
   "final_tier": "Hold",
   "sizing": {
     "suggested_shares": 2,
-    "suggested_dollars": 806.32,
-    "note": "2 shares @ $403.16 = $806 | $345 swing budget remaining after"
+    "suggested_dollars": 799.42,
+    "note": "2 shares @ $399.71 = $799 | $352 swing budget remaining after"
   },
   "is_dca": false,
-  "saved_at": "2026-05-18T22:58:43.423123"
+  "saved_at": "2026-05-19T23:01:00.162221"
 }
