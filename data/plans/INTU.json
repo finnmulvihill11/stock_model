@@ -2,20 +2,37 @@
   "current": {
     "ticker": "INTU",
     "company_name": "Intuit Inc.",
-    "action": "Hold",
-    "action_reason": "Selling into Extreme Fear locks in 14.6% loss while fundamentals remain healthy. Earnings catalyst + BB squeeze creates high volatility but potential mean-reversion play if INTU beats. However, avoid adding into uncertainty.",
-    "target_price": null,
+    "action": "Start Trimming",
+    "action_reason": "Exit 1-2 shares to reduce weight below 20%, lock in loss tax-loss harvesting potential, and de-risk before earnings volatility. Fundamentals remain healthy but technicals are bearish with a death cross and peak MACD reversal.",
+    "target_price": 365,
     "target_reasoning": "",
-    "exit_trigger": "If INTU breaks below $390 (support) on earnings miss + negative guidance, or closes >5% below earnings lows on continued selling",
-    "add_trigger": "Only add if INTU bounces post-earnings above $420 with volume confirmation AND RSI climbs above 60",
-    "risk": "Earnings miss + margin pressure in recession scenario could trigger -8-12% drop; concentrated 34% weight amplifies drawdown impact",
+    "exit_trigger": "Break below 365 (support test) or negative earnings surprise triggering further downside acceleration",
+    "add_trigger": "Daily close above 420 with RSI >60 AND MACD bullish cross on 4-hour chart after earnings clarity",
+    "risk": "Earnings miss cascading into 25-30% further downside; death cross often confirms intermediate trend reversal",
     "outlook": "cautious",
-    "timeframe": "1-7 days (earnings-driven volatility expected through early trading post-report)",
-    "generated_at": "2026-05-19T23:01:00.161397",
-    "price_at_generation": 399.71,
-    "pnl_at_generation": -14.64
+    "timeframe": "1-3 weeks (earnings cycle + consolidation)",
+    "generated_at": "2026-05-20T23:10:07.116341",
+    "price_at_generation": 383.93,
+    "pnl_at_generation": -18.01
   },
   "history": [
+    {
+      "ticker": "INTU",
+      "company_name": "Intuit Inc.",
+      "action": "Hold",
+      "action_reason": "Selling into Extreme Fear locks in 14.6% loss while fundamentals remain healthy. Earnings catalyst + BB squeeze creates high volatility but potential mean-reversion play if INTU beats. However, avoid adding into uncertainty.",
+      "target_price": null,
+      "target_reasoning": "",
+      "exit_trigger": "If INTU breaks below $390 (support) on earnings miss + negative guidance, or closes >5% below earnings lows on continued selling",
+      "add_trigger": "Only add if INTU bounces post-earnings above $420 with volume confirmation AND RSI climbs above 60",
+      "risk": "Earnings miss + margin pressure in recession scenario could trigger -8-12% drop; concentrated 34% weight amplifies drawdown impact",
+      "outlook": "cautious",
+      "timeframe": "1-7 days (earnings-driven volatility expected through early trading post-report)",
+      "generated_at": "2026-05-19T23:01:00.161397",
+      "price_at_generation": 399.71,
+      "pnl_at_generation": -14.64,
+      "archived_at": "2026-05-20T23:10:07.116633"
+    },
     {
       "ticker": "INTU",
       "company_name": "Intuit Inc.",
@@ -117,23 +134,6 @@
       "price_at_generation": 396.31,
       "pnl_at_generation": -15.37,
       "archived_at": "2026-05-12T22:58:16.079747"
-    },
-    {
-      "action": "Wait",
-      "action_reason": "You're already in a losing position with almost no buy signals firing \u2014 RSI is neutral at 54.9, price is below the 200MA, and MACD shows no bullish confirmation. With earnings in 12 days, hold your current shares but do not add until the setup clarifies post-earnings.",
-      "target_price": 445.0,
-      "target_reasoning": "The $445 zone represents a realistic mean-reversion target toward the 200MA and prior consolidation support. A full technical recovery would need RSI cooling to the 25-35 range near the lower Bollinger Band, which hasn't happened \u2014 this target is contingent on a post-earnings catalyst or a proper oversold flush first.",
-      "exit_trigger": "Cut the position if INTU closes below $385 on elevated volume, or if post-earnings guidance disappoints and price breaks down more than 5% \u2014 do not hold a falling knife through deteriorating fundamentals.",
-      "add_trigger": "Only add if RSI drops to 25-30, price touches or breaches the lower Bollinger Band, AND MACD shows a bullish crossover or valley \u2014 ideally post-earnings if the stock sells off into oversold territory. All three conditions must align.",
-      "risk": "Earnings in 12 days is the dominant wildcard \u2014 a guidance miss or IRS Direct File headwinds could accelerate the drawdown well past your current -13%, and at 33% portfolio weight this position is already dangerously concentrated.",
-      "outlook": "cautious",
-      "timeframe": "6-10 weeks \u2014 wait through earnings, let price action resolve, then reassess for a proper mean-reversion entry or exit",
-      "ticker": "INTU",
-      "company_name": "Intuit Inc.",
-      "generated_at": "2026-05-08T05:00:43.472744",
-      "price_at_generation": 406.78,
-      "pnl_at_generation": -13.14,
-      "archived_at": "2026-05-08T22:54:20.959091"
     }
   ]
 }

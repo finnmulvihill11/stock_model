@@ -7,25 +7,25 @@
     "buy_score": 0.12,
     "sell_score": 0.29,
     "reasons": [
-      "BB Width: squeeze active (width=0.1025)"
+      "BB Width: squeeze active (width=0.0840)"
     ],
     "misses": [
-      "BB: price not near lower band (pct=0.50)",
-      "RSI: not in buy zone (50.3, need 20-30)",
+      "BB: price not near lower band (pct=0.51)",
+      "RSI: not in buy zone (43.9, need 20-30)",
       "MACD: no bullish crossover or valley",
       "RSI Divergence: no bullish divergence detected",
       "200MA: price below 200MA \u2014 potential falling knife",
-      "Death cross active: 50MA (33.37) below 200MA (37.03)",
-      "Volume: below average (0.96x) \u2014 low conviction"
+      "Death cross active: 50MA (33.34) below 200MA (36.98)",
+      "Volume: below average (0.60x) \u2014 low conviction"
     ],
-    "price": 33.04,
-    "rsi": 50.3,
-    "atr": 1.17,
+    "price": 32.96,
+    "rsi": 43.9,
+    "atr": 1.1,
     "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 34,
-      "suggested_dollars": 1123.36,
-      "note": "34 shares @ $33.04 = $1,123 | $28 swing budget remaining after"
+      "suggested_dollars": 1120.64,
+      "note": "34 shares @ $32.96 = $1,121 | $31 swing budget remaining after"
     }
   },
   "fundamentals": {
@@ -55,7 +55,7 @@
       ],
       "earnings_status": "past",
       "next_earnings_date": "2026-04-29",
-      "days_to_earnings": -20
+      "days_to_earnings": -21
     }
   },
   "news": {
@@ -63,34 +63,35 @@
     "sentiment": "neutral",
     "health": "neutral",
     "key_events": [
-      "Earnings passed 20 days ago (post-earnings volatility likely subsided)",
-      "Bollinger Band squeeze active\u2014potential breakout setup",
-      "RSI at midpoint (50.3)\u2014no overbought/oversold condition"
+      "Earnings reported 21 days ago (past cycle)",
+      "Bollinger Band squeeze active - volatility compression phase",
+      "RSI at 43.9 - neutral zone, below 50 midpoint"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "High debt-to-equity ratio (2.2x)\u2014elevated financial leverage risk",
-      "Extreme Fear in F&G index\u2014potential capitulation but also uncertainty",
-      "No recent news flow\u2014lack of catalyst clarity",
-      "Only +4.99% gain\u2014modest upside from entry, limited margin of safety"
+      "High debt-to-equity ratio (2.2x) limits financial flexibility",
+      "No recent news catalyst visible - information vacuum",
+      "RSI below 50 suggests weak momentum despite +4.73% gain",
+      "Fear sentiment in broader market (F&G indicator)",
+      "Post-earnings period typically sees consolidation"
     ],
-    "verdict": "Chipotle is in a squeeze setup with neutral technicals and high leverage; absence of catalysts and extreme fear sentiment suggest waiting for clarity rather than adding.",
+    "verdict": "Holding CMG in consolidation mode post-earnings; squeeze setup suggests imminent volatility break that will determine next swing direction.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "CMG",
-    "stock_return_3m": -14.67,
-    "benchmark_return_3m": 7.2,
-    "relative_strength": -21.87,
+    "stock_return_3m": -13.19,
+    "benchmark_return_3m": 8.59,
+    "relative_strength": -21.78,
     "label": "underperforming"
   },
   "final_tier": "Hold",
   "sizing": {
     "suggested_shares": 34,
-    "suggested_dollars": 1123.36,
-    "note": "34 shares @ $33.04 = $1,123 | $28 swing budget remaining after"
+    "suggested_dollars": 1120.64,
+    "note": "34 shares @ $32.96 = $1,121 | $31 swing budget remaining after"
   },
   "is_dca": false,
-  "saved_at": "2026-05-19T23:01:29.293531"
+  "saved_at": "2026-05-20T23:10:37.961627"
 }

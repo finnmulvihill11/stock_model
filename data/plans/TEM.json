@@ -3,19 +3,36 @@
     "ticker": "TEM",
     "company_name": "Tempus AI, Inc.",
     "action": "Start Trimming",
-    "action_reason": "Cut position by 50-66% (sell 2 shares) to lock in loss deduction and reduce portfolio heat. Fundamentals don't support recovery thesis; only hold 1sh for speculative bounce if MACD + RSI confirm uptrend with volume.",
-    "target_price": 38.5,
+    "action_reason": "Sell 50% position now to lock in loss before further deterioration. RSI oversold may bounce 5-10%, but negative cash flow + high leverage make this a value trap, not a recovery story.",
+    "target_price": null,
     "target_reasoning": "",
-    "exit_trigger": "Sell remaining 1sh if drops below $40 or if no volume-confirmed reversal appears within 2 weeks",
-    "add_trigger": "Only add if: (1) company announces turnaround plan, (2) RSI breaks above 50 WITH volume, AND (3) positive cash flow guidance. Do not add based on technicals alone.",
-    "risk": "Continued deterioration of operating metrics; potential further downside if debt becomes unsustainable or cash runway questioned",
+    "exit_trigger": "If price rises to $50-52 (7-13% bounce on RSI reversal), trim remaining 50% to reduce portfolio weight and risk",
+    "add_trigger": "Do NOT add; fundamentals must show positive operating cash flow and path to profitability before re-entry",
+    "risk": "Further downside below $40 if debt restructuring becomes necessary; liquidity risk given negative cash flow",
     "outlook": "cautious",
-    "timeframe": "2-3 weeks for trim decision; reassess full exit at 4-week mark if no catalyst",
-    "generated_at": "2026-05-19T23:01:22.264973",
-    "price_at_generation": 45.53,
-    "pnl_at_generation": -34.09
+    "timeframe": "2-3 weeks (exit position before next earnings or debt covenant concerns surface)",
+    "generated_at": "2026-05-20T23:10:30.799533",
+    "price_at_generation": 45.88,
+    "pnl_at_generation": -33.58
   },
   "history": [
+    {
+      "ticker": "TEM",
+      "company_name": "Tempus AI, Inc.",
+      "action": "Start Trimming",
+      "action_reason": "Cut position by 50-66% (sell 2 shares) to lock in loss deduction and reduce portfolio heat. Fundamentals don't support recovery thesis; only hold 1sh for speculative bounce if MACD + RSI confirm uptrend with volume.",
+      "target_price": 38.5,
+      "target_reasoning": "",
+      "exit_trigger": "Sell remaining 1sh if drops below $40 or if no volume-confirmed reversal appears within 2 weeks",
+      "add_trigger": "Only add if: (1) company announces turnaround plan, (2) RSI breaks above 50 WITH volume, AND (3) positive cash flow guidance. Do not add based on technicals alone.",
+      "risk": "Continued deterioration of operating metrics; potential further downside if debt becomes unsustainable or cash runway questioned",
+      "outlook": "cautious",
+      "timeframe": "2-3 weeks for trim decision; reassess full exit at 4-week mark if no catalyst",
+      "generated_at": "2026-05-19T23:01:22.264973",
+      "price_at_generation": 45.53,
+      "pnl_at_generation": -34.09,
+      "archived_at": "2026-05-20T23:10:30.799833"
+    },
     {
       "ticker": "TEM",
       "company_name": "Tempus AI, Inc.",
@@ -117,23 +134,6 @@
       "price_at_generation": 49.86,
       "pnl_at_generation": -27.82,
       "archived_at": "2026-05-12T22:59:32.023355"
-    },
-    {
-      "action": "Wait",
-      "action_reason": "You're already down 28% and none of your entry confirmation signals are firing \u2014 no BB lower band touch, no RSI in buy zone, no MACD bullish crossover. Don't average down into a deteriorating setup; wait for your system to confirm a true mean-reversion inflection before committing more capital.",
-      "target_price": 58.5,
-      "target_reasoning": "A recovery toward the ~$58-59 zone represents a realistic mean-reversion target near the 20-day moving average midpoint and would bring RSI back toward the 50-55 neutral zone \u2014 a logical area to reassess or begin trimming. Full recovery to cost basis ($69) is a secondary target but requires fundamental improvement and is not a swing trade objective.",
-      "exit_trigger": "Exit immediately if price closes below $44 on elevated volume (new breakdown), OR if RSI drops below 25 without a corresponding BB lower band touch (momentum collapse with no technical floor). Also exit if debt situation worsens materially or cash burn accelerates in next earnings report.",
-      "add_trigger": "Only add if ALL three conditions align simultaneously: RSI reaches 25-30, price touches or pierces the lower Bollinger Band (BB pct < 0.05), AND a MACD bullish crossover or valley forms on the daily chart \u2014 ideally with a volume spike confirming capitulation. Do not add on price alone.",
-      "risk": "This is a pre-revenue-path, high-debt AI company in a Fear market environment \u2014 it does not behave like a classic mean-reversion candidate. The stock could continue drifting lower for weeks without a catalyst, and your swing signals may never fully align before further downside. Averaging down here without signal confirmation risks turning a 4% portfolio weight into a concentrated loss.",
-      "outlook": "cautious",
-      "timeframe": "4-8 weeks minimum \u2014 wait for technical setup to mature; no forced action until signals confirm",
-      "ticker": "TEM",
-      "company_name": "Tempus AI, Inc.",
-      "generated_at": "2026-05-08T05:02:22.351571",
-      "price_at_generation": 49.47,
-      "pnl_at_generation": -28.39,
-      "archived_at": "2026-05-08T22:56:04.414316"
     }
   ]
 }

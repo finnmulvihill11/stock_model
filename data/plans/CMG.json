@@ -3,19 +3,36 @@
     "ticker": "CMG",
     "company_name": "Chipotle Mexican Grill, Inc.",
     "action": "Hold",
-    "action_reason": "Position is small (3.8% weight), profitable, and BB squeeze offers potential breakout. However, high debt and lack of news catalyst warrant patience\u2014don't add until breakout confirms or fear subsides.",
-    "target_price": 35.5,
+    "action_reason": "Current 4.73% gain provides reasonable buffer; BB squeeze indicates volatility compression before directional move. Wait for squeeze breakdown (width expansion) or RSI break above 50 to confirm bullish continuation before adding.",
+    "target_price": null,
     "target_reasoning": "",
-    "exit_trigger": "Close below $31.50 (entry support) or VIX spikes >25 with negative earnings guidance",
-    "add_trigger": "BB squeeze breaks above upper band + RSI >60 + positive same-store sales catalyst",
-    "risk": "Debt burden amplifies downside in economic slowdown; squeeze could break lower instead of higher",
-    "outlook": "neutral",
-    "timeframe": "2-4 weeks",
-    "generated_at": "2026-05-19T23:01:29.292761",
-    "price_at_generation": 33.04,
-    "pnl_at_generation": 4.99
+    "exit_trigger": "Break below $31.47 (entry level) on volume OR RSI falls to 35 with BB lower band breakdown",
+    "add_trigger": "RSI breaks above 50 + BB width expands >0.12 on volume, or positive CMG-specific news catalyst emerges",
+    "risk": "High leverage (2.2x D/E) amplifies downside if sector rotates; consolidation could break lower into fear-driven selling",
+    "outlook": "cautious",
+    "timeframe": "2-4 weeks (until BB squeeze resolves)",
+    "generated_at": "2026-05-20T23:10:37.960835",
+    "price_at_generation": 32.96,
+    "pnl_at_generation": 4.73
   },
   "history": [
+    {
+      "ticker": "CMG",
+      "company_name": "Chipotle Mexican Grill, Inc.",
+      "action": "Hold",
+      "action_reason": "Position is small (3.8% weight), profitable, and BB squeeze offers potential breakout. However, high debt and lack of news catalyst warrant patience\u2014don't add until breakout confirms or fear subsides.",
+      "target_price": 35.5,
+      "target_reasoning": "",
+      "exit_trigger": "Close below $31.50 (entry support) or VIX spikes >25 with negative earnings guidance",
+      "add_trigger": "BB squeeze breaks above upper band + RSI >60 + positive same-store sales catalyst",
+      "risk": "Debt burden amplifies downside in economic slowdown; squeeze could break lower instead of higher",
+      "outlook": "neutral",
+      "timeframe": "2-4 weeks",
+      "generated_at": "2026-05-19T23:01:29.292761",
+      "price_at_generation": 33.04,
+      "pnl_at_generation": 4.99,
+      "archived_at": "2026-05-20T23:10:37.961069"
+    },
     {
       "ticker": "CMG",
       "company_name": "Chipotle Mexican Grill, Inc.",
@@ -117,23 +134,6 @@
       "price_at_generation": 32.49,
       "pnl_at_generation": 3.24,
       "archived_at": "2026-05-12T23:00:00.838707"
-    },
-    {
-      "action": "Hold",
-      "action_reason": "You're sitting on a +5.72% gain with RSI at 34.8 \u2014 just outside your buy zone and not yet oversold enough to add confidently. The BB squeeze and bullish RSI divergence (higher low at 27.1 vs 25.6 while price made a lower low) suggest a potential mean-reversion bounce is forming, but the death cross and price below the 200MA demand patience before committing more capital.",
-      "target_price": 36.5,
-      "target_reasoning": "The 50MA at $34.02 acts as the first resistance ceiling \u2014 a clean break above that would target the 200MA at $37.54. A realistic swing target of $36.50 sits just below the 200MA, where price is likely to stall and RSI would approach the 65-70 range, aligning with your sell discipline.",
-      "exit_trigger": "Exit if RSI reaches 70-75 OR price tags the upper Bollinger Band near the 200MA zone (~$37.50). Also cut the position if price breaks decisively below $30.50 (prior RSI divergence low), confirming the falling knife thesis.",
-      "add_trigger": "Add 2-4 shares only if RSI pulls back into the 20-28 zone with price retesting the $30.50-$31.00 range AND volume spikes above 1.5x average \u2014 confirming capitulation, not continuation. Do not add into the current drift without that confirmation.",
-      "risk": "Death cross is active (50MA at $34.02 below 200MA at $37.54) and price remains below both moving averages \u2014 this is the primary falling knife risk. A broader market selloff or a negative post-earnings revision cycle could invalidate the divergence signal entirely and push CMG toward the $28-$29 range.",
-      "outlook": "cautious",
-      "timeframe": "3-6 weeks",
-      "ticker": "CMG",
-      "company_name": "Chipotle Mexican Grill, Inc.",
-      "generated_at": "2026-05-08T05:02:49.994857",
-      "price_at_generation": 33.27,
-      "pnl_at_generation": 5.72,
-      "archived_at": "2026-05-08T22:56:39.828705"
     }
   ]
 }

@@ -8,23 +8,23 @@
     "sell_score": 0.14,
     "reasons": [],
     "misses": [
-      "BB: price not near lower band (pct=0.55)",
+      "BB: price not near lower band (pct=0.53)",
       "BB Width: bands expanding, not squeezing",
-      "RSI: not in buy zone (43.2, need 20-30)",
+      "RSI: not in buy zone (43.4, need 20-30)",
       "MACD: no bullish crossover or valley",
       "RSI Divergence: no bullish divergence detected",
       "200MA: price below 200MA \u2014 potential falling knife",
-      "Death cross active: 50MA (97.05) below 200MA (116.97)",
-      "Volume: below average (0.87x) \u2014 low conviction"
+      "Death cross active: 50MA (96.62) below 200MA (116.77)",
+      "Volume: below average (0.59x) \u2014 low conviction"
     ],
-    "price": 88.82,
-    "rsi": 43.2,
-    "atr": 2.13,
+    "price": 88.38,
+    "rsi": 43.4,
+    "atr": 2.17,
     "final_tier": "Hold",
     "sizing": {
-      "suggested_shares": 12,
-      "suggested_dollars": 1065.84,
-      "note": "12 shares @ $88.82 = $1,066 | $86 swing budget remaining after"
+      "suggested_shares": 13,
+      "suggested_dollars": 1148.94,
+      "note": "13 shares @ $88.38 = $1,149 | $3 swing budget remaining after"
     }
   },
   "fundamentals": {
@@ -53,7 +53,7 @@
       ],
       "earnings_status": "past",
       "next_earnings_date": "2026-04-16",
-      "days_to_earnings": -33
+      "days_to_earnings": -34
     }
   },
   "news": {
@@ -61,35 +61,35 @@
     "sentiment": "neutral",
     "health": "healthy",
     "key_events": [
-      "Earnings reported 33 days ago",
-      "Stock down 19.09% from entry despite healthy fundamentals",
-      "Extreme Fear in market (F&G) presents potential opportunity",
-      "VIX 18.1 suggests stabilizing volatility"
+      "Earnings reported 34 days ago",
+      "Stock down 19.49% from entry despite healthy fundamentals",
+      "VIX at 17.4 indicates neutral volatility environment",
+      "RSI at 43.4 shows no oversold conditions yet"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "No recent news catalysts visible",
-      "RSI 43.2 indicates weakness but not oversold (<30)",
-      "Technical setup shows no bullish signals firing",
-      "Post-earnings decline suggests market repriced expectations"
+      "Significant disconnect between healthy fundamentals and price action",
+      "No news catalyst visible to explain 19.49% decline",
+      "Market sentiment Fear despite neutral volatility suggests sector or macro headwinds",
+      "Position is 5.1% of portfolio\u2014concentrated risk for swing trade"
     ],
-    "verdict": "ABT fundamentals remain sound but technical deterioration and lack of bullish signals warrant patience despite market-wide fear environment.",
+    "verdict": "ABT fundamentals remain solid, but technicals and sentiment suggest further near-term weakness before reversal; hold and monitor for capitulation or technical support.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "ABT",
-    "stock_return_3m": -21.11,
-    "benchmark_return_3m": 7.2,
-    "relative_strength": -28.31,
+    "stock_return_3m": -20.73,
+    "benchmark_return_3m": 8.59,
+    "relative_strength": -29.32,
     "label": "underperforming"
   },
   "final_tier": "Hold",
   "sizing": {
-    "suggested_shares": 12,
-    "suggested_dollars": 1065.84,
-    "note": "12 shares @ $88.82 = $1,066 | $86 swing budget remaining after"
+    "suggested_shares": 13,
+    "suggested_dollars": 1148.94,
+    "note": "13 shares @ $88.38 = $1,149 | $3 swing budget remaining after"
   },
   "is_dca": false,
-  "saved_at": "2026-05-19T23:01:14.984078"
+  "saved_at": "2026-05-20T23:10:23.513620"
 }
