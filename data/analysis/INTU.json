@@ -2,29 +2,30 @@
   "ticker": "INTU",
   "signal": {
     "ticker": "INTU",
-    "direction": "sell",
+    "direction": "buy",
     "tier": "Watch",
-    "buy_score": 0.38,
-    "sell_score": 0.57,
+    "buy_score": 0.5,
+    "sell_score": 0.43,
     "reasons": [
-      "BB Width: squeeze/contraction after expansion",
-      "MACD: histogram at peak / turning down",
-      "Death cross: 50MA (406.95) below 200MA (561.15)",
-      "Volume: above average on sell (2.25x) \u2014 confirms distribution"
+      "BB: price near lower band (pct=-0.46)",
+      "RSI: oversold zone (27.8)",
+      "RSI Divergence: Price lower low (371.71 < 383.30) but RSI higher low (45.6 > 38.4)",
+      "Volume: above average (6.07x)"
     ],
     "misses": [
-      "BB: price not near upper band (pct=0.25)",
-      "RSI: not in sell zone (48.4, need 70-80)",
-      "RSI Divergence: no bearish divergence detected"
+      "BB Width: bands expanding, not squeezing",
+      "MACD: no bullish crossover or valley",
+      "200MA: price below 200MA \u2014 potential falling knife",
+      "Death cross active: 50MA (404.31) below 200MA (558.86)"
     ],
-    "price": 383.93,
-    "rsi": 48.4,
-    "atr": 19.33,
+    "price": 307.07,
+    "rsi": 27.8,
+    "atr": 23.61,
     "final_tier": "Watch",
     "sizing": {
       "suggested_shares": 2,
-      "suggested_dollars": 767.86,
-      "note": "2 shares @ $383.93 = $768 | $384 swing budget remaining after"
+      "suggested_dollars": 614.14,
+      "note": "2 shares @ $307.07 = $614 | $538 swing budget remaining after"
     }
   },
   "fundamentals": {
@@ -41,8 +42,8 @@
     "profit_margins": 0.2157
   },
   "earnings": {
-    "proceed": false,
-    "reason": "Earnings in 0 days \u2014 wait for results before acting",
+    "proceed": true,
+    "reason": "Fundamentals intact \u2014 dip may be an overreaction",
     "verdict": {
       "ticker": "INTU",
       "verdict": "consider",
@@ -51,45 +52,45 @@
         "Earnings growing YoY (+48.5%)",
         "Revenue growing (+17.4%)"
       ],
-      "earnings_status": "imminent",
+      "earnings_status": "past",
       "next_earnings_date": "2026-05-20",
-      "days_to_earnings": 0
+      "days_to_earnings": -1
     }
   },
   "news": {
     "ticker": "INTU",
-    "sentiment": "negative",
-    "health": "neutral",
+    "sentiment": "neutral",
+    "health": "healthy",
     "key_events": [
-      "Imminent earnings announcement",
-      "Death cross signal (50MA below 200MA)",
-      "BB squeeze after expansion suggesting volatility consolidation",
-      "MACD histogram at peak turning down"
+      "Earnings reported 1 day ago",
+      "RSI divergence: price making lower lows while RSI makes higher lows (bullish divergence signal)",
+      "Price near lower Bollinger Band suggesting potential support/mean reversion setup"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "18% underwater on position with significant weight (33%)",
-      "Strong downtrend structure (death cross)",
-      "MACD turning negative at technical resistance",
-      "Fear sentiment in broader market despite neutral VIX"
+      "Severe drawdown: -34.43% from entry",
+      "Oversold RSI (27.8) but price still declining\u2014suggests weak bounce potential",
+      "No news catalysts visible\u2014vacuum could extend decline",
+      "Portfolio concentration risk: 28.2% weight on underwater position",
+      "Timing: earnings just passed\u2014post-earnings volatility may not be finished"
     ],
-    "verdict": "Avoid adding to a deteriorating technical setup before earnings; position is oversized for downside risk.",
+    "verdict": "Intuit shows technical oversold conditions with bullish divergence, but absence of news catalysts and continued downside pressure warrant cautious defensive positioning.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "INTU",
-    "stock_return_3m": 0.94,
-    "benchmark_return_3m": 8.59,
-    "relative_strength": -7.65,
+    "stock_return_3m": -19.06,
+    "benchmark_return_3m": 8.02,
+    "relative_strength": -27.08,
     "label": "underperforming"
   },
   "final_tier": "Watch",
   "sizing": {
     "suggested_shares": 2,
-    "suggested_dollars": 767.86,
-    "note": "2 shares @ $383.93 = $768 | $384 swing budget remaining after"
+    "suggested_dollars": 614.14,
+    "note": "2 shares @ $307.07 = $614 | $538 swing budget remaining after"
   },
   "is_dca": false,
-  "saved_at": "2026-05-20T23:10:07.117202"
+  "saved_at": "2026-05-21T23:01:21.808255"
 }

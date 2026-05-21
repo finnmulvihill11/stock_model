@@ -3,19 +3,36 @@
     "ticker": "ABT",
     "company_name": "Abbott Laboratories",
     "action": "Hold",
-    "action_reason": "Entry was recent relative to earnings cycle; allow position to stabilize at support before averaging down or exiting. Current technicals (RSI 43.4, no oversold) don't warrant panic exit, but lack of bullish signals argues against adding.",
-    "target_price": 85.5,
+    "action_reason": "Fundamentals remain solid and you're underwater on a swing position. Wait for either RSI compression to <30 for potential bounce or next earnings catalyst before adding/trimming.",
+    "target_price": null,
     "target_reasoning": "",
-    "exit_trigger": "Break below $85.50 with volume; or if RSI falls below 35 without recovery within 3 days",
-    "add_trigger": "RSI dips to 30-35 range + close above 50-day moving average; or positive catalyst/earnings guidance beat",
-    "risk": "Macro/sector headwinds masked by healthy fundamentals; further downside to $82-85 possible if Fear sentiment spreads",
+    "exit_trigger": "Break below $85 on volume or fundamental deterioration in next earnings report",
+    "add_trigger": "RSI <30 + VIX spike above 20 (panic washout); OR positive guidance at next earnings",
+    "risk": "Extended sideways consolidation below $90; market fear could push ABT lower before reversal",
     "outlook": "cautious",
-    "timeframe": "2-4 weeks",
-    "generated_at": "2026-05-20T23:10:23.502217",
-    "price_at_generation": 88.38,
-    "pnl_at_generation": -19.49
+    "timeframe": "2-4 weeks until next catalyst or technical reversal setup",
+    "generated_at": "2026-05-21T23:01:36.929473",
+    "price_at_generation": 87.77,
+    "pnl_at_generation": -20.04
   },
   "history": [
+    {
+      "ticker": "ABT",
+      "company_name": "Abbott Laboratories",
+      "action": "Hold",
+      "action_reason": "Entry was recent relative to earnings cycle; allow position to stabilize at support before averaging down or exiting. Current technicals (RSI 43.4, no oversold) don't warrant panic exit, but lack of bullish signals argues against adding.",
+      "target_price": 85.5,
+      "target_reasoning": "",
+      "exit_trigger": "Break below $85.50 with volume; or if RSI falls below 35 without recovery within 3 days",
+      "add_trigger": "RSI dips to 30-35 range + close above 50-day moving average; or positive catalyst/earnings guidance beat",
+      "risk": "Macro/sector headwinds masked by healthy fundamentals; further downside to $82-85 possible if Fear sentiment spreads",
+      "outlook": "cautious",
+      "timeframe": "2-4 weeks",
+      "generated_at": "2026-05-20T23:10:23.502217",
+      "price_at_generation": 88.38,
+      "pnl_at_generation": -19.49,
+      "archived_at": "2026-05-21T23:01:36.929729"
+    },
     {
       "ticker": "ABT",
       "company_name": "Abbott Laboratories",
@@ -117,23 +134,6 @@
       "price_at_generation": 84.35,
       "pnl_at_generation": -23.16,
       "archived_at": "2026-05-13T23:05:32.548130"
-    },
-    {
-      "action": "Wait",
-      "action_reason": "RSI at 21 and price hugging the lower Bollinger Band signal extreme oversold conditions, but the death cross (50MA below 200MA), price below 200MA, and absent MACD confirmation mean this is a falling knife with no technical floor confirmed yet \u2014 adding here violates your 200MA filter and risks catching a deteriorating trend, not a true mean-reversion setup.",
-      "target_price": 94.5,
-      "target_reasoning": "A mean-reversion bounce toward the 20-period moving average (middle BB band) in the $93\u2013$96 range is the realistic near-term target once reversal signals confirm. $94.50 represents roughly a 12% recovery from current levels and aligns with the midpoint of the BB channel, which is the textbook mean-reversion exit zone for this strategy. Do not chase the 200MA at $118 \u2014 that is a multi-month story, not a swing trade target.",
-      "exit_trigger": "Exit or aggressively trim if RSI reaches 68\u201372 on the bounce OR price tags the middle/upper Bollinger Band, whichever comes first. Also exit immediately if ABT breaks below $80 on high volume \u2014 that signals trend continuation, not reversal.",
-      "add_trigger": "Only add if ALL three conditions align: (1) RSI forms a bullish divergence (price makes new low, RSI does not), (2) MACD shows a bullish crossover or hook from a valley, AND (3) a confirmed green daily candle with above-average volume. Do NOT add based on RSI alone \u2014 your missing signals are the warning.",
-      "risk": "The death cross and price well below the 200MA are the dominant risks \u2014 this may not be oversold for a bounce but rather in a genuine intermediate downtrend. Legal overhangs and post-COVID diagnostic revenue normalization could extend the drawdown to $75\u2013$78 before any stabilization. Your current -23% loss on a small 2-share position is manageable; averaging down prematurely is the real portfolio risk.",
-      "outlook": "cautious",
-      "timeframe": "4\u20138 weeks minimum before a confirmed reversal setup is likely \u2014 do not expect a fast mean-reversion snap-back given the structural technical damage (death cross, sub-200MA price action)",
-      "ticker": "ABT",
-      "company_name": "Abbott Laboratories",
-      "generated_at": "2026-05-08T22:55:41.249724",
-      "price_at_generation": 84.32,
-      "pnl_at_generation": -23.18,
-      "archived_at": "2026-05-12T22:59:08.574618"
     }
   ]
 }

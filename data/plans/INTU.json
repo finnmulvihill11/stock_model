@@ -2,20 +2,37 @@
   "current": {
     "ticker": "INTU",
     "company_name": "Intuit Inc.",
-    "action": "Start Trimming",
-    "action_reason": "Exit 1-2 shares to reduce weight below 20%, lock in loss tax-loss harvesting potential, and de-risk before earnings volatility. Fundamentals remain healthy but technicals are bearish with a death cross and peak MACD reversal.",
-    "target_price": 365,
+    "action": "Hold",
+    "action_reason": "RSI divergence + lower band support offer technical bounce potential, but add to portfolio only if fundamentals remain intact post-earnings. Current weight (28.2%) is elevated for a swing trade underwater.",
+    "target_price": 330,
     "target_reasoning": "",
-    "exit_trigger": "Break below 365 (support test) or negative earnings surprise triggering further downside acceleration",
-    "add_trigger": "Daily close above 420 with RSI >60 AND MACD bullish cross on 4-hour chart after earnings clarity",
-    "risk": "Earnings miss cascading into 25-30% further downside; death cross often confirms intermediate trend reversal",
+    "exit_trigger": "Close below $300 or if RSI drops below 20 without bounce within 3-5 days",
+    "add_trigger": "Confirmation bounce off $300 support with RSI >40 + positive post-earnings guidance reiteration",
+    "risk": "Continued post-earnings selloff; no visible news support; tech sector rotation pressure",
     "outlook": "cautious",
-    "timeframe": "1-3 weeks (earnings cycle + consolidation)",
-    "generated_at": "2026-05-20T23:10:07.116341",
-    "price_at_generation": 383.93,
-    "pnl_at_generation": -18.01
+    "timeframe": "2-4 weeks",
+    "generated_at": "2026-05-21T23:01:21.807430",
+    "price_at_generation": 307.07,
+    "pnl_at_generation": -34.43
   },
   "history": [
+    {
+      "ticker": "INTU",
+      "company_name": "Intuit Inc.",
+      "action": "Start Trimming",
+      "action_reason": "Exit 1-2 shares to reduce weight below 20%, lock in loss tax-loss harvesting potential, and de-risk before earnings volatility. Fundamentals remain healthy but technicals are bearish with a death cross and peak MACD reversal.",
+      "target_price": 365,
+      "target_reasoning": "",
+      "exit_trigger": "Break below 365 (support test) or negative earnings surprise triggering further downside acceleration",
+      "add_trigger": "Daily close above 420 with RSI >60 AND MACD bullish cross on 4-hour chart after earnings clarity",
+      "risk": "Earnings miss cascading into 25-30% further downside; death cross often confirms intermediate trend reversal",
+      "outlook": "cautious",
+      "timeframe": "1-3 weeks (earnings cycle + consolidation)",
+      "generated_at": "2026-05-20T23:10:07.116341",
+      "price_at_generation": 383.93,
+      "pnl_at_generation": -18.01,
+      "archived_at": "2026-05-21T23:01:21.807693"
+    },
     {
       "ticker": "INTU",
       "company_name": "Intuit Inc.",
@@ -117,23 +134,6 @@
       "price_at_generation": 387.74,
       "pnl_at_generation": -17.2,
       "archived_at": "2026-05-13T23:04:14.788785"
-    },
-    {
-      "action": "Wait",
-      "action_reason": "Your entry criteria are not met \u2014 RSI at 46.9 is far from the 20-30 buy zone, price is mid-band (pct=0.56), and MACD shows no bullish crossover. With earnings 12 days out and price still below the 200MA, adding here violates your own philosophy and increases concentration risk in an already-underwater position.",
-      "target_price": 445.0,
-      "target_reasoning": "A post-earnings recovery toward the 200MA zone (~$445-460) is the realistic mean-reversion target. That level aligns with prior technical support turned resistance and would represent a bounce back toward your cost basis. Upper BB would likely sit near that range if the squeeze resolves to the upside, and RSI would approach the 65-70 range \u2014 your signal to begin trimming.",
-      "exit_trigger": "Cut the position if price breaks decisively below $375 on elevated volume, or if post-earnings guidance disappoints and RSI fails to recover above 40 within 5 sessions \u2014 this confirms the downtrend and rules out near-term mean reversion.",
-      "add_trigger": "Only add if RSI drops to 25-30, price tags the lower Bollinger Band, AND a bullish MACD crossover or RSI divergence appears \u2014 ideally after earnings are cleared and the macro overhang is resolved. Do not add into earnings blindly.",
-      "risk": "Earnings in 12 days is the dominant risk \u2014 a guidance cut around IRS Direct File competition or continued Credit Karma softness could accelerate the decline well below $375, turning a 15% loss into 25%+. At 34% portfolio weight, this drawdown is already uncomfortable and adding pre-earnings would be imprudent.",
-      "outlook": "cautious",
-      "timeframe": "6-10 weeks \u2014 let earnings pass, reassess technicals post-print, and wait for your full signal stack to align before taking any action",
-      "ticker": "INTU",
-      "company_name": "Intuit Inc.",
-      "generated_at": "2026-05-08T22:54:20.958907",
-      "price_at_generation": 396.31,
-      "pnl_at_generation": -15.37,
-      "archived_at": "2026-05-12T22:58:16.079747"
     }
   ]
 }

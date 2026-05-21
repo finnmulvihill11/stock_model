@@ -3,19 +3,36 @@
     "ticker": "MSFT",
     "company_name": "Microsoft Corporation",
     "action": "Hold",
-    "action_reason": "Squeeze-to-breakout setup with MACD inflection suggests upside potential; however, the -9.87% drawdown calls for strict risk management. Maintain position but scale into weakness rather than chase.",
+    "action_reason": "BB squeeze + MACD valley turn + MA convergence present classic breakout setup, but premature to add with RSI neutral and position already -10.29%. Wait for golden cross confirmation or MACD histogram sustained positive before scaling.",
     "target_price": 445,
     "target_reasoning": "",
-    "exit_trigger": "Close below $415 (new swing low) or BB lower band break on high volume",
-    "add_trigger": "BB squeeze breakout above $435 with MACD histogram confirmation + RSI >65",
-    "risk": "Squeeze breakout fails; gap down on negative macro news or tech sector selloff given Fear sentiment",
-    "outlook": "cautious",
-    "timeframe": "2-4 weeks for golden cross + breakout confirmation",
-    "generated_at": "2026-05-20T23:10:16.574301",
-    "price_at_generation": 421.06,
-    "pnl_at_generation": -9.87
+    "exit_trigger": "Close below 405 (support near recent lows) or break of 50MA downside with MACD negative cross",
+    "add_trigger": "Golden cross confirmed (50MA > 200MA) + MACD histogram sustained above zero + close above $425 resistance on volume",
+    "risk": "Squeeze breakout could gap lower if market Fear escalates; concentrated 25.7% weight amplifies drawdown exposure",
+    "outlook": "neutral",
+    "timeframe": "2-4 weeks",
+    "generated_at": "2026-05-21T23:01:30.222221",
+    "price_at_generation": 419.09,
+    "pnl_at_generation": -10.29
   },
   "history": [
+    {
+      "ticker": "MSFT",
+      "company_name": "Microsoft Corporation",
+      "action": "Hold",
+      "action_reason": "Squeeze-to-breakout setup with MACD inflection suggests upside potential; however, the -9.87% drawdown calls for strict risk management. Maintain position but scale into weakness rather than chase.",
+      "target_price": 445,
+      "target_reasoning": "",
+      "exit_trigger": "Close below $415 (new swing low) or BB lower band break on high volume",
+      "add_trigger": "BB squeeze breakout above $435 with MACD histogram confirmation + RSI >65",
+      "risk": "Squeeze breakout fails; gap down on negative macro news or tech sector selloff given Fear sentiment",
+      "outlook": "cautious",
+      "timeframe": "2-4 weeks for golden cross + breakout confirmation",
+      "generated_at": "2026-05-20T23:10:16.574301",
+      "price_at_generation": 421.06,
+      "pnl_at_generation": -9.87,
+      "archived_at": "2026-05-21T23:01:30.222492"
+    },
     {
       "ticker": "MSFT",
       "company_name": "Microsoft Corporation",
@@ -117,23 +134,6 @@
       "price_at_generation": 407.77,
       "pnl_at_generation": -12.72,
       "archived_at": "2026-05-13T23:04:37.524224"
-    },
-    {
-      "action": "Hold",
-      "action_reason": "You're already in a losing position with no confirmed reversal signals \u2014 price is below the 200MA, RSI is neutral at 48.4, and MACD hasn't turned. Adding here would be catching a falling knife; exiting locks in an 11% loss without a technical catalyst to justify urgency.",
-      "target_price": 440.0,
-      "target_reasoning": "The $440 zone represents a logical mean-reversion target near the 200MA reclaim level and upper Bollinger Band region given the current squeeze (width=0.1101). A BB squeeze resolution to the upside combined with RSI pushing toward 60-65 would confirm momentum shift and make $440 a realistic 4-6 week swing target.",
-      "exit_trigger": "If price breaks decisively below $400 on elevated volume OR RSI drops below 35 without a bullish divergence forming, cut the position to prevent further drawdown \u2014 the 200MA downtrend would be accelerating.",
-      "add_trigger": "Only add if RSI pulls back into the 25-32 range AND price touches or pierces the lower Bollinger Band AND MACD shows a bullish crossover or valley \u2014 all three must align. Do not add on price alone.",
-      "risk": "The BB squeeze resolves to the downside rather than upside \u2014 price is already below the 200MA and a bearish squeeze breakout could push MSFT toward $390-$395, deepening the loss to ~15-17%. This is the primary threat given the missing confirmation signals.",
-      "outlook": "cautious",
-      "timeframe": "4-8 weeks",
-      "ticker": "MSFT",
-      "company_name": "Microsoft Corporation",
-      "generated_at": "2026-05-08T22:54:43.670517",
-      "price_at_generation": 415.12,
-      "pnl_at_generation": -11.14,
-      "archived_at": "2026-05-12T22:58:37.413824"
     }
   ]
 }
