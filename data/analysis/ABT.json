@@ -4,27 +4,28 @@
     "ticker": "ABT",
     "direction": "buy",
     "tier": "Hold",
-    "buy_score": 0.0,
-    "sell_score": 0.14,
-    "reasons": [],
+    "buy_score": 0.12,
+    "sell_score": 0.43,
+    "reasons": [
+      "BB Width: squeeze active (width=0.1391)"
+    ],
     "misses": [
-      "BB: price not near lower band (pct=0.50)",
-      "BB Width: bands expanding, not squeezing",
-      "RSI: not in buy zone (45.2, need 20-30)",
+      "BB: price not near lower band (pct=0.49)",
+      "RSI: not in buy zone (49.6, need 20-30)",
       "MACD: no bullish crossover or valley",
       "RSI Divergence: no bullish divergence detected",
       "200MA: price below 200MA \u2014 potential falling knife",
-      "Death cross active: 50MA (96.18) below 200MA (116.57)",
-      "Volume: below average (0.66x) \u2014 low conviction"
+      "Death cross active: 50MA (95.78) below 200MA (116.36)",
+      "Volume: below average (0.63x) \u2014 low conviction"
     ],
-    "price": 87.77,
-    "rsi": 45.2,
-    "atr": 2.15,
+    "price": 87.41,
+    "rsi": 49.6,
+    "atr": 2.12,
     "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 13,
-      "suggested_dollars": 1141.01,
-      "note": "13 shares @ $87.77 = $1,141 | $11 swing budget remaining after"
+      "suggested_dollars": 1136.33,
+      "note": "13 shares @ $87.41 = $1,136 | $15 swing budget remaining after"
     }
   },
   "fundamentals": {
@@ -53,7 +54,7 @@
       ],
       "earnings_status": "past",
       "next_earnings_date": "2026-04-16",
-      "days_to_earnings": -35
+      "days_to_earnings": -36
     }
   },
   "news": {
@@ -61,33 +62,34 @@
     "sentiment": "neutral",
     "health": "healthy",
     "key_events": [
-      "Earnings reported 35+ days ago (past cycle)",
-      "No recent news catalysts visible",
-      "Stock down 20% from entry despite fundamentals remaining healthy"
+      "Earnings reported 36 days ago (past cycle)",
+      "Bollinger Band squeeze active - volatility compression suggests breakout pending",
+      "Market sentiment Fear gauge despite neutral VIX (16.7)"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "Significant drawdown (-20%) with no fundamental deterioration suggests technical/market-driven selloff",
-      "RSI at 45.2 indicates neutral momentum, not yet oversold (<30)",
-      "Fear sentiment in market may be creating noise unrelated to ABT fundamentals"
+      "Position down -20.37% with no recent news catalysts visible",
+      "RSI 49.6 shows no directional conviction (neutral zone)",
+      "Heavy portfolio weight (5.3%) amplifies downside exposure",
+      "Fear sentiment contradicts neutral technicals - sentiment/price divergence"
     ],
-    "verdict": "Healthy fundamental company caught in market-wide risk-off; current weakness is opportunity-driven rather than conviction-driven selling.",
+    "verdict": "ABT fundamentals remain solid but technical setup is neutral in a fear-driven environment; position is underwater and lacks near-term catalyst.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "ABT",
-    "stock_return_3m": -21.29,
-    "benchmark_return_3m": 8.02,
-    "relative_strength": -29.31,
+    "stock_return_3m": -23.71,
+    "benchmark_return_3m": 9.57,
+    "relative_strength": -33.27,
     "label": "underperforming"
   },
   "final_tier": "Hold",
   "sizing": {
     "suggested_shares": 13,
-    "suggested_dollars": 1141.01,
-    "note": "13 shares @ $87.77 = $1,141 | $11 swing budget remaining after"
+    "suggested_dollars": 1136.33,
+    "note": "13 shares @ $87.41 = $1,136 | $15 swing budget remaining after"
   },
   "is_dca": false,
-  "saved_at": "2026-05-21T23:01:36.930289"
+  "saved_at": "2026-05-22T22:56:04.917521"
 }

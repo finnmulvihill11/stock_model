@@ -3,19 +3,36 @@
     "ticker": "CMG",
     "company_name": "Chipotle Mexican Grill, Inc.",
     "action": "Hold",
-    "action_reason": "Position is profitable with BB squeeze indicating imminent breakout potential. Wait for volatility expansion and breakout direction confirmation before adding or trimming.",
-    "target_price": null,
+    "action_reason": "Bollinger Band squeeze is a neutral-to-bullish setup but requires volume-confirmed breakout. Current +4.51% gain is modest; no reason to exit, but adding before squeeze resolution is premature given lack of fundamental catalysts and elevated debt levels.",
+    "target_price": 34.5,
     "target_reasoning": "",
-    "exit_trigger": "Break below $31.00 (entry support) or RSI falls below 40 on high volume without news catalyst",
-    "add_trigger": "BB squeeze breakout above $33.50 on above-average volume with positive catalyst or earnings preview",
-    "risk": "Debt burden limits downside support; potential gap down on negative food safety/operational news",
+    "exit_trigger": "Close below $31.50 (support break) or if RSI falls below 40 on high-volume sell-off",
+    "add_trigger": "Squeeze breaks above $34.00 on volume >1.2x average with RSI >65",
+    "risk": "High leverage (2.2x D/E) makes CMG vulnerable to macro slowdown; earnings surprise risk elevated post-report",
     "outlook": "neutral",
-    "timeframe": "1-3 weeks (waiting for BB breakout confirmation)",
-    "generated_at": "2026-05-21T23:01:49.986037",
-    "price_at_generation": 32.8,
-    "pnl_at_generation": 4.23
+    "timeframe": "2-4 weeks",
+    "generated_at": "2026-05-22T22:56:20.301522",
+    "price_at_generation": 32.89,
+    "pnl_at_generation": 4.51
   },
   "history": [
+    {
+      "ticker": "CMG",
+      "company_name": "Chipotle Mexican Grill, Inc.",
+      "action": "Hold",
+      "action_reason": "Position is profitable with BB squeeze indicating imminent breakout potential. Wait for volatility expansion and breakout direction confirmation before adding or trimming.",
+      "target_price": null,
+      "target_reasoning": "",
+      "exit_trigger": "Break below $31.00 (entry support) or RSI falls below 40 on high volume without news catalyst",
+      "add_trigger": "BB squeeze breakout above $33.50 on above-average volume with positive catalyst or earnings preview",
+      "risk": "Debt burden limits downside support; potential gap down on negative food safety/operational news",
+      "outlook": "neutral",
+      "timeframe": "1-3 weeks (waiting for BB breakout confirmation)",
+      "generated_at": "2026-05-21T23:01:49.986037",
+      "price_at_generation": 32.8,
+      "pnl_at_generation": 4.23,
+      "archived_at": "2026-05-22T22:56:20.301763"
+    },
     {
       "ticker": "CMG",
       "company_name": "Chipotle Mexican Grill, Inc.",
@@ -117,23 +134,6 @@
       "price_at_generation": 32.11,
       "pnl_at_generation": 2.03,
       "archived_at": "2026-05-14T22:56:46.628508"
-    },
-    {
-      "action": "Hold",
-      "action_reason": "You're already in a small position with a modest gain, and the MACD histogram turning up plus bullish RSI divergence suggest a potential short-term bounce is forming \u2014 but too many core signals are missing (price below 200MA, death cross active, RSI not yet in buy zone) to justify adding more risk right now. Hold what you have and let the setup mature.",
-      "target_price": 35.5,
-      "target_reasoning": "The 35.50 zone represents a realistic mean-reversion target toward the 50MA (33.73) and into the mid-BB range given current band expansion; RSI would likely approach 55-60 at that level, well short of overbought, making it a credible take-profit zone without overstaying the trade.",
-      "exit_trigger": "Exit immediately if price closes below 30.50 (undercuts the recent price low of 30.86, invalidating the RSI divergence thesis and confirming continued downtrend); alternatively, take profit if RSI reaches 68-70 or price tags the upper Bollinger Band.",
-      "add_trigger": "Only add if RSI pulls back into the 22-28 range on a flush toward 30.00-30.50 AND the MACD histogram remains constructive (not rolling back negative) \u2014 that would be a cleaner, higher-conviction mean-reversion entry aligned with your philosophy.",
-      "risk": "The death cross (50MA below 200MA) and price trading below the 200MA are the biggest red flags \u2014 this could be a falling knife with the MACD/RSI divergence being a short-lived relief bounce rather than a true reversal; premature adds could meaningfully increase drawdown.",
-      "outlook": "cautious",
-      "timeframe": "2-4 weeks",
-      "ticker": "CMG",
-      "company_name": "Chipotle Mexican Grill, Inc.",
-      "generated_at": "2026-05-12T23:00:00.838504",
-      "price_at_generation": 32.67,
-      "pnl_at_generation": 3.81,
-      "archived_at": "2026-05-13T23:06:27.639700"
     }
   ]
 }

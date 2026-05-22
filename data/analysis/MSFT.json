@@ -4,28 +4,28 @@
     "ticker": "MSFT",
     "direction": "buy",
     "tier": "Hold",
-    "buy_score": 0.38,
+    "buy_score": 0.25,
     "sell_score": 0.29,
     "reasons": [
-      "BB Width: squeeze active (width=0.0651)",
-      "MACD: histogram at valley / turning up",
+      "BB Width: squeeze active (width=0.0633)",
       "50/200MA: converging upward toward golden cross"
     ],
     "misses": [
-      "BB: price not near lower band (pct=0.58)",
-      "RSI: not in buy zone (54.0, need 20-30)",
+      "BB: price not near lower band (pct=0.61)",
+      "RSI: not in buy zone (55.1, need 20-30)",
+      "MACD: no bullish crossover or valley",
       "RSI Divergence: no bullish divergence detected",
       "200MA: price below 200MA \u2014 potential falling knife",
-      "Volume: below average (0.90x) \u2014 low conviction"
+      "Volume: below average (0.64x) \u2014 low conviction"
     ],
-    "price": 419.09,
-    "rsi": 54.0,
-    "atr": 11.01,
+    "price": 418.57,
+    "rsi": 55.1,
+    "atr": 10.85,
     "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 2,
-      "suggested_dollars": 838.18,
-      "note": "2 shares @ $419.09 = $838 | $314 swing budget remaining after"
+      "suggested_dollars": 837.14,
+      "note": "2 shares @ $418.57 = $837 | $315 swing budget remaining after"
     }
   },
   "fundamentals": {
@@ -54,7 +54,7 @@
       ],
       "earnings_status": "past",
       "next_earnings_date": "2026-04-29",
-      "days_to_earnings": -22
+      "days_to_earnings": -23
     }
   },
   "news": {
@@ -62,36 +62,36 @@
     "sentiment": "neutral",
     "health": "healthy",
     "key_events": [
-      "Bollinger Band squeeze active - volatility compression suggests imminent breakout",
-      "MACD histogram at valley with upward turn - early bullish momentum divergence",
-      "50/200 MA converging toward golden cross - potential trend reversal setup",
-      "Post-earnings consolidation phase (-22 days) - market digesting recent results",
-      "VIX 16.8 with Fear gauge - disconnect between technicals and sentiment"
+      "Bollinger Band squeeze active - potential volatility breakout imminent",
+      "50/200 MA converging upward toward golden cross - bullish technical setup",
+      "RSI at 55.1 - neutral zone, room to run in either direction",
+      "Earnings passed 23 days ago - volatility catalyst behind us",
+      "Market fear environment (F&G) despite neutral VIX 16.7"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "Position down -10.29% with 25.7% portfolio weight - concentrated risk exposure",
-      "No recent catalytic news - technical setup depends on execution without fundamental support",
-      "RSI 54.0 neutral - insufficient momentum to confirm breakout direction yet",
-      "Market Fear vs. neutral VIX - sentiment fragility could trigger sharp reversal"
+      "-10.40% unrealized loss on 25.3% portfolio weight - concentrated position under water",
+      "No recent news catalysts visible - information vacuum",
+      "Fear sentiment despite neutral technicals suggests gap between technical setup and market psychology",
+      "Golden cross not yet confirmed - convergence could fail"
     ],
-    "verdict": "Bullish technical setup forming in consolidation; hold core position while waiting for MACD + MA confirmation before adding.",
+    "verdict": "Attractive technical setup forming but underwater position requires disciplined entry management; hold current shares pending squeeze breakout confirmation.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "MSFT",
-    "stock_return_3m": 5.5,
-    "benchmark_return_3m": 8.02,
-    "relative_strength": -2.52,
+    "stock_return_3m": 9.11,
+    "benchmark_return_3m": 9.57,
+    "relative_strength": -0.46,
     "label": "in-line"
   },
   "final_tier": "Hold",
   "sizing": {
     "suggested_shares": 2,
-    "suggested_dollars": 838.18,
-    "note": "2 shares @ $419.09 = $838 | $314 swing budget remaining after"
+    "suggested_dollars": 837.14,
+    "note": "2 shares @ $418.57 = $837 | $315 swing budget remaining after"
   },
   "is_dca": false,
-  "saved_at": "2026-05-21T23:01:30.223048"
+  "saved_at": "2026-05-22T22:55:57.549163"
 }

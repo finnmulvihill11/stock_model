@@ -2,30 +2,29 @@
   "ticker": "DECK",
   "signal": {
     "ticker": "DECK",
-    "direction": "buy",
+    "direction": "sell",
     "tier": "Watch",
-    "buy_score": 0.62,
-    "sell_score": 0.43,
+    "buy_score": 0.38,
+    "sell_score": 0.57,
     "reasons": [
-      "BB Width: squeeze active (width=0.1853)",
-      "MACD: histogram at valley / turning up",
-      "RSI Divergence: Price lower low (93.69 < 100.69) but RSI higher low (29.2 > 14.8)",
-      "200MA: price at/above 200MA (102.62 vs 102.94)",
-      "Volume: above average (1.59x)"
+      "BB: price near upper band (pct=0.90)",
+      "BB Width: squeeze/contraction after expansion",
+      "Death cross: 50MA (102.21) below 200MA (102.95)",
+      "Volume: above average on sell (2.33x) \u2014 confirms distribution"
     ],
     "misses": [
-      "BB: price not near lower band (pct=0.66)",
-      "RSI: not in buy zone (52.7, need 20-30)",
-      "Death cross active: 50MA (102.09) below 200MA (102.94)"
+      "RSI: not in sell zone (63.9, need 70-80)",
+      "MACD: no bearish crossover or peak",
+      "RSI Divergence: no bearish divergence detected"
     ],
-    "price": 102.62,
-    "rsi": 52.7,
-    "atr": 3.59,
+    "price": 106.67,
+    "rsi": 63.9,
+    "atr": 3.84,
     "final_tier": "Watch",
     "sizing": {
-      "suggested_shares": 11,
-      "suggested_dollars": 1128.82,
-      "note": "11 shares @ $102.62 = $1,129 | $23 swing budget remaining after"
+      "suggested_shares": 10,
+      "suggested_dollars": 1066.7,
+      "note": "10 shares @ $106.67 = $1,067 | $85 swing budget remaining after"
     }
   },
   "fundamentals": {
@@ -42,8 +41,8 @@
     "profit_margins": 0.19348
   },
   "earnings": {
-    "proceed": false,
-    "reason": "Earnings in 0 days \u2014 wait for results before acting",
+    "proceed": true,
+    "reason": "Fundamentals intact \u2014 dip may be an overreaction",
     "verdict": {
       "ticker": "DECK",
       "verdict": "consider",
@@ -52,45 +51,43 @@
         "Earnings growing YoY (+11.0%)",
         "Revenue growing (+7.1%)"
       ],
-      "earnings_status": "imminent",
+      "earnings_status": "past",
       "next_earnings_date": "2026-05-21",
-      "days_to_earnings": 0
+      "days_to_earnings": -1
     }
   },
   "news": {
     "ticker": "DECK",
-    "sentiment": "positive",
+    "sentiment": "neutral",
     "health": "healthy",
     "key_events": [
-      "Imminent earnings announcement",
-      "Bullish technical divergence forming (RSI higher low despite price lower low)",
-      "Bollinger Band squeeze active - volatility compression preceding breakout",
-      "MACD histogram at valley with upward turning signal"
+      "Recent earnings release (past -1d)",
+      "Price near upper Bollinger Band at 0.90 percentile",
+      "Bollinger Band squeeze following expansion\u2014volatility contraction setup"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "No news catalysts identified (blank news section)",
-      "RSI at 52.7 lacks conviction (mid-range, neither overbought nor oversold)",
-      "Price made lower low (93.69) suggesting recent weakness despite positive RSI divergence",
-      "Earnings volatility risk with VIX already at 16.8"
+      "Death cross: 50MA below 200MA signals weakening momentum",
+      "RSI 63.9 approaching overbought territory (70+)",
+      "No recent news flow to support further upside"
     ],
-    "verdict": "DECK shows technical setup for swing breakout post-squeeze, but imminent earnings creates binary risk that overshadows swing-trade timing.",
+    "verdict": "Strong short-term gains (+9.77%) in a healthy stock, but technical setup shows mixed signals with momentum loss and overbought conditions; take profits now before mean reversion.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "DECK",
-    "stock_return_3m": -13.54,
-    "benchmark_return_3m": 8.02,
-    "relative_strength": -21.56,
+    "stock_return_3m": -9.73,
+    "benchmark_return_3m": 9.57,
+    "relative_strength": -19.3,
     "label": "underperforming"
   },
   "final_tier": "Watch",
   "sizing": {
-    "suggested_shares": 11,
-    "suggested_dollars": 1128.82,
-    "note": "11 shares @ $102.62 = $1,129 | $23 swing budget remaining after"
+    "suggested_shares": 10,
+    "suggested_dollars": 1066.7,
+    "note": "10 shares @ $106.67 = $1,067 | $85 swing budget remaining after"
   },
   "is_dca": false,
-  "saved_at": "2026-05-21T23:01:57.992063"
+  "saved_at": "2026-05-22T22:56:26.924799"
 }

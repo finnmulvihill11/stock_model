@@ -2,20 +2,37 @@
   "current": {
     "ticker": "ABT",
     "company_name": "Abbott Laboratories",
-    "action": "Hold",
-    "action_reason": "Fundamentals remain solid and you're underwater on a swing position. Wait for either RSI compression to <30 for potential bounce or next earnings catalyst before adding/trimming.",
+    "action": "Wait",
+    "action_reason": "Bollinger Band squeeze suggests imminent breakout is coming, but entry point 36 days post-earnings lacks fresh catalysts. Wait for squeeze resolution or next earnings prep (likely 3+ months out) before committing more capital.",
     "target_price": null,
     "target_reasoning": "",
-    "exit_trigger": "Break below $85 on volume or fundamental deterioration in next earnings report",
-    "add_trigger": "RSI <30 + VIX spike above 20 (panic washout); OR positive guidance at next earnings",
-    "risk": "Extended sideways consolidation below $90; market fear could push ABT lower before reversal",
+    "exit_trigger": "Close below $84 (support breach) OR if BB squeeze breaks downward on high volume",
+    "add_trigger": "BB squeeze resolves upward with RSI >60 AND close above $92 resistance on volume",
+    "risk": "Further drawdown to $80-82 if market fear spreads; healthcare sector rotation risk",
     "outlook": "cautious",
-    "timeframe": "2-4 weeks until next catalyst or technical reversal setup",
-    "generated_at": "2026-05-21T23:01:36.929473",
-    "price_at_generation": 87.77,
-    "pnl_at_generation": -20.04
+    "timeframe": "2-4 weeks for squeeze resolution",
+    "generated_at": "2026-05-22T22:56:04.916862",
+    "price_at_generation": 87.41,
+    "pnl_at_generation": -20.37
   },
   "history": [
+    {
+      "ticker": "ABT",
+      "company_name": "Abbott Laboratories",
+      "action": "Hold",
+      "action_reason": "Fundamentals remain solid and you're underwater on a swing position. Wait for either RSI compression to <30 for potential bounce or next earnings catalyst before adding/trimming.",
+      "target_price": null,
+      "target_reasoning": "",
+      "exit_trigger": "Break below $85 on volume or fundamental deterioration in next earnings report",
+      "add_trigger": "RSI <30 + VIX spike above 20 (panic washout); OR positive guidance at next earnings",
+      "risk": "Extended sideways consolidation below $90; market fear could push ABT lower before reversal",
+      "outlook": "cautious",
+      "timeframe": "2-4 weeks until next catalyst or technical reversal setup",
+      "generated_at": "2026-05-21T23:01:36.929473",
+      "price_at_generation": 87.77,
+      "pnl_at_generation": -20.04,
+      "archived_at": "2026-05-22T22:56:04.917075"
+    },
     {
       "ticker": "ABT",
       "company_name": "Abbott Laboratories",
@@ -117,23 +134,6 @@
       "price_at_generation": 83.83,
       "pnl_at_generation": -23.63,
       "archived_at": "2026-05-14T22:55:54.241312"
-    },
-    {
-      "action": "Hold",
-      "action_reason": "ABT is showing early mean-reversion signals (BB lower band touch, MACD histogram turning up) but the death cross and price sitting well below the 200MA are serious red flags against adding here \u2014 this is a hold, not a buy. Your existing position is small enough (4.9%) that you can afford patience without cutting prematurely.",
-      "target_price": 95.5,
-      "target_reasoning": "The $95-96 zone represents a realistic near-term mean-reversion target \u2014 roughly the midpoint of the Bollinger Bands given current width \u2014 and aligns with a logical technical bounce level before the 50MA overhead resistance (~$99.58) becomes a ceiling. Don't expect a run to the 200MA ($117.95) in this timeframe.",
-      "exit_trigger": "Exit if RSI reaches 68-70 on a price push toward $95-100, or exit defensively if price breaks and closes below $80 on elevated volume \u2014 that signals the falling knife is still in motion.",
-      "add_trigger": "Only add if RSI drops into the 22-27 range WITH a visible MACD bullish crossover AND price stabilizes (no new lows on back-to-back days) \u2014 all three conditions required given the death cross overhead. Do not add on price alone.",
-      "risk": "The death cross (50MA $99.58 crossing below 200MA $117.95) is the dominant risk \u2014 it signals sustained institutional selling, and ABT could grind lower toward $78-80 before any meaningful reversal. Litigation overhang adds a fundamental wildcard.",
-      "outlook": "cautious",
-      "timeframe": "4-8 weeks",
-      "ticker": "ABT",
-      "company_name": "Abbott Laboratories",
-      "generated_at": "2026-05-12T22:59:08.574419",
-      "price_at_generation": 84.35,
-      "pnl_at_generation": -23.16,
-      "archived_at": "2026-05-13T23:05:32.548130"
     }
   ]
 }

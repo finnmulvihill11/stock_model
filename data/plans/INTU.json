@@ -2,20 +2,37 @@
   "current": {
     "ticker": "INTU",
     "company_name": "Intuit Inc.",
-    "action": "Hold",
-    "action_reason": "RSI divergence + lower band support offer technical bounce potential, but add to portfolio only if fundamentals remain intact post-earnings. Current weight (28.2%) is elevated for a swing trade underwater.",
-    "target_price": 330,
+    "action": "Wait",
+    "action_reason": "RSI divergence is constructive, but need confirmation of reversal before adding. Current 31% loss and high portfolio weight suggest protecting capital first; wait for RSI to break above 40 or price above 330 support with volume confirmation.",
+    "target_price": 385,
     "target_reasoning": "",
-    "exit_trigger": "Close below $300 or if RSI drops below 20 without bounce within 3-5 days",
-    "add_trigger": "Confirmation bounce off $300 support with RSI >40 + positive post-earnings guidance reiteration",
-    "risk": "Continued post-earnings selloff; no visible news support; tech sector rotation pressure",
+    "exit_trigger": "Break below 310 (psychological support near earnings lows) on volume, or RSI drops back below 20 with new price lows",
+    "add_trigger": "RSI crosses above 40 with price holding 330+, ideally on earnings recovery narrative or positive guidance revision",
+    "risk": "Earnings miss or guidance reduction causing continued downside; concentration risk if entire position deteriorates further",
     "outlook": "cautious",
-    "timeframe": "2-4 weeks",
-    "generated_at": "2026-05-21T23:01:21.807430",
-    "price_at_generation": 307.07,
-    "pnl_at_generation": -34.43
+    "timeframe": "2-4 weeks to see if oversold bounce develops",
+    "generated_at": "2026-05-22T22:55:49.407427",
+    "price_at_generation": 319.94,
+    "pnl_at_generation": -31.68
   },
   "history": [
+    {
+      "ticker": "INTU",
+      "company_name": "Intuit Inc.",
+      "action": "Hold",
+      "action_reason": "RSI divergence + lower band support offer technical bounce potential, but add to portfolio only if fundamentals remain intact post-earnings. Current weight (28.2%) is elevated for a swing trade underwater.",
+      "target_price": 330,
+      "target_reasoning": "",
+      "exit_trigger": "Close below $300 or if RSI drops below 20 without bounce within 3-5 days",
+      "add_trigger": "Confirmation bounce off $300 support with RSI >40 + positive post-earnings guidance reiteration",
+      "risk": "Continued post-earnings selloff; no visible news support; tech sector rotation pressure",
+      "outlook": "cautious",
+      "timeframe": "2-4 weeks",
+      "generated_at": "2026-05-21T23:01:21.807430",
+      "price_at_generation": 307.07,
+      "pnl_at_generation": -34.43,
+      "archived_at": "2026-05-22T22:55:49.407657"
+    },
     {
       "ticker": "INTU",
       "company_name": "Intuit Inc.",
@@ -117,23 +134,6 @@
       "price_at_generation": 371.71,
       "pnl_at_generation": -20.62,
       "archived_at": "2026-05-14T22:55:00.365810"
-    },
-    {
-      "action": "Wait",
-      "action_reason": "Your philosophy requires multiple confirming signals before acting, and right now almost none are firing \u2014 RSI at 42.6 is in no-man's land, price is not near the lower Bollinger Band, and MACD shows no bullish crossover. With earnings just 8 days out and price already below the 200MA, this is not the moment to add or exit impulsively \u2014 sit tight and let the setup clarify post-earnings.",
-      "target_price": 430.0,
-      "target_reasoning": "A recovery toward $430 would represent a meaningful mean-reversion bounce back toward the 200MA zone, consistent with your swing philosophy. That level also aligns with prior consolidation structure and would be achievable if earnings provide a positive catalyst. Avoid chasing until RSI confirms momentum is building.",
-      "exit_trigger": "Cut the position if price closes below $365 on elevated volume \u2014 that signals accelerating breakdown with no technical floor nearby \u2014 OR if post-earnings reaction is sharply negative (gap down >5%) with RSI still above 30, indicating no oversold exhaustion to buy against.",
-      "add_trigger": "Only add if ALL THREE align after earnings: RSI drops into the 25-32 zone, price touches or undercuts the lower Bollinger Band (pct_b < 0.05), and MACD shows a bullish histogram reversal or crossover. Do not add into a falling knife pre-earnings.",
-      "risk": "Earnings in 8 days is the dominant risk \u2014 INTU could gap down hard on any guidance cut, IRS Direct File headwinds, or Credit Karma weakness, further deepening an already -17% loss at a 33.7% portfolio weight. A bad print with no technical floor nearby could force a painful reactive exit.",
-      "outlook": "cautious",
-      "timeframe": "2-6 weeks post-earnings clarity \u2014 the next actionable window opens after the earnings reaction settles, likely mid-to-late June",
-      "ticker": "INTU",
-      "company_name": "Intuit Inc.",
-      "generated_at": "2026-05-12T22:58:16.079551",
-      "price_at_generation": 387.74,
-      "pnl_at_generation": -17.2,
-      "archived_at": "2026-05-13T23:04:14.788785"
     }
   ]
 }
