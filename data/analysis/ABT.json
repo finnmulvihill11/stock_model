@@ -16,7 +16,7 @@
       "RSI Divergence: no bullish divergence detected",
       "200MA: price below 200MA \u2014 potential falling knife",
       "Death cross active: 50MA (95.78) below 200MA (116.36)",
-      "Volume: below average (0.63x) \u2014 low conviction"
+      "Volume: below average (0.74x) \u2014 low conviction"
     ],
     "price": 87.41,
     "rsi": 49.6,
@@ -54,7 +54,7 @@
       ],
       "earnings_status": "past",
       "next_earnings_date": "2026-04-16",
-      "days_to_earnings": -36
+      "days_to_earnings": -38
     }
   },
   "news": {
@@ -62,19 +62,20 @@
     "sentiment": "neutral",
     "health": "healthy",
     "key_events": [
-      "Earnings reported 36 days ago (past cycle)",
-      "Bollinger Band squeeze active - volatility compression suggests breakout pending",
-      "Market sentiment Fear gauge despite neutral VIX (16.7)"
+      "Earnings reported 38 days ago",
+      "Bollinger Band squeeze active (width=0.1391) - volatility compression",
+      "Market in Extreme Fear mode despite neutral VIX 16.7",
+      "RSI at 49.6 - midpoint, no oversold conditions"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "Position down -20.37% with no recent news catalysts visible",
-      "RSI 49.6 shows no directional conviction (neutral zone)",
-      "Heavy portfolio weight (5.3%) amplifies downside exposure",
-      "Fear sentiment contradicts neutral technicals - sentiment/price divergence"
+      "20.37% unrealized loss on position",
+      "No recent news catalysts identified",
+      "Squeeze setup suggests breakout imminent but direction unclear",
+      "Extreme Fear sentiment disconnected from neutral technicals"
     ],
-    "verdict": "ABT fundamentals remain solid but technical setup is neutral in a fear-driven environment; position is underwater and lacks near-term catalyst.",
+    "verdict": "ABT is technically stuck in compression with fundamentals intact, but the 20% drawdown warrants defensive positioning until a clear breakout direction emerges.",
     "confidence": "medium"
   },
   "relative_strength": {
@@ -91,5 +92,5 @@
     "note": "13 shares @ $87.41 = $1,136 | $15 swing budget remaining after"
   },
   "is_dca": false,
-  "saved_at": "2026-05-22T22:56:04.917521"
+  "saved_at": "2026-05-24T17:28:47.562307"
 }

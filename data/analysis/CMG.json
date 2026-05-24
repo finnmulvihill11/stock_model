@@ -55,7 +55,7 @@
       ],
       "earnings_status": "past",
       "next_earnings_date": "2026-04-29",
-      "days_to_earnings": -23
+      "days_to_earnings": -25
     }
   },
   "news": {
@@ -63,7 +63,7 @@
     "sentiment": "neutral",
     "health": "neutral",
     "key_events": [
-      "Earnings reported 23 days ago",
+      "Earnings reported 25 days ago",
       "Bollinger Band squeeze active (potential breakout setup)",
       "Above-average volume supporting technical setup"
     ],
@@ -71,11 +71,11 @@
     "competitive_notes": "",
     "red_flags": [
       "High debt-to-equity ratio (2.2x) limits financial flexibility",
+      "Extreme Fear sentiment despite neutral VIX suggests sector/stock-specific concern",
       "No recent news catalysts visible",
-      "Market Fear sentiment despite neutral VIX",
-      "RSI at 56.8 (mid-range, no clear directional momentum)"
+      "RSI at 56.8 lacks conviction (neutral zone, not overbought)"
     ],
-    "verdict": "Small profitable position near technical inflection point; wait for squeeze breakout confirmation before committing more capital.",
+    "verdict": "CMG is technically poised for a breakout from BB squeeze but fundamentals and sentiment headwinds warrant cautious positioning.",
     "confidence": "medium"
   },
   "relative_strength": {
@@ -92,5 +92,5 @@
     "note": "35 shares @ $32.89 = $1,151 | $1 swing budget remaining after"
   },
   "is_dca": false,
-  "saved_at": "2026-05-22T22:56:20.302229"
+  "saved_at": "2026-05-24T17:29:13.086713"
 }

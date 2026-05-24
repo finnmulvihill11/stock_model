@@ -3,19 +3,36 @@
     "ticker": "TEM",
     "company_name": "Tempus AI, Inc.",
     "action": "Start Trimming",
-    "action_reason": "Sell 1 share now to lock in liquidity and reduce concentration. RSI oversold can bounce 10-15% but won't fix negative cash flow; fundamentals don't support holding through debt maturity concerns.",
+    "action_reason": "Sell 1-2 shares to lock in loss, reduce concentration risk, and free capital. Fundamentals don't support recovery thesis\u2014unprofitable with poor cash flow. Hold 1sh only if committed to reversal play with tight stop.",
     "target_price": 52,
     "target_reasoning": "",
-    "exit_trigger": "Close remaining 2 shares if RSI bounces above 40 and stock reclaims $50, OR immediately if breaks below $42 (new lows signal capitulation failure)",
-    "add_trigger": "Do not add\u2014deteriorating fundamentals don't warrant averaging down; wait for profitability path or debt restructuring news",
-    "risk": "Debt refinancing crisis, potential dilution/bankruptcy if cash burn accelerates; tech sector rotation could extend losses",
+    "exit_trigger": "Break below $42 (fresh 52-week lows) OR RSI dips below 15 again without reversal confirmation",
+    "add_trigger": "Do NOT add. Requires: profitable quarter reported + positive FCF guidance + VIX spike showing panic bottom",
+    "risk": "Continued deterioration of cash position; debt refinancing risk if revenue doesn't recover; potential dilution from capital raise",
     "outlook": "cautious",
-    "timeframe": "2-4 weeks to exit remaining position; trimming decision urgent given leverage risk",
-    "generated_at": "2026-05-22T22:56:13.103933",
+    "timeframe": "2-4 weeks",
+    "generated_at": "2026-05-24T17:28:59.874081",
     "price_at_generation": 46.18,
     "pnl_at_generation": -33.15
   },
   "history": [
+    {
+      "ticker": "TEM",
+      "company_name": "Tempus AI, Inc.",
+      "action": "Start Trimming",
+      "action_reason": "Sell 1 share now to lock in liquidity and reduce concentration. RSI oversold can bounce 10-15% but won't fix negative cash flow; fundamentals don't support holding through debt maturity concerns.",
+      "target_price": 52,
+      "target_reasoning": "",
+      "exit_trigger": "Close remaining 2 shares if RSI bounces above 40 and stock reclaims $50, OR immediately if breaks below $42 (new lows signal capitulation failure)",
+      "add_trigger": "Do not add\u2014deteriorating fundamentals don't warrant averaging down; wait for profitability path or debt restructuring news",
+      "risk": "Debt refinancing crisis, potential dilution/bankruptcy if cash burn accelerates; tech sector rotation could extend losses",
+      "outlook": "cautious",
+      "timeframe": "2-4 weeks to exit remaining position; trimming decision urgent given leverage risk",
+      "generated_at": "2026-05-22T22:56:13.103933",
+      "price_at_generation": 46.18,
+      "pnl_at_generation": -33.15,
+      "archived_at": "2026-05-24T17:28:59.892235"
+    },
     {
       "ticker": "TEM",
       "company_name": "Tempus AI, Inc.",
@@ -117,23 +134,6 @@
       "price_at_generation": 45.48,
       "pnl_at_generation": -34.16,
       "archived_at": "2026-05-15T22:54:49.843808"
-    },
-    {
-      "action": "Hold",
-      "action_reason": "You're already down 33% with only 3 shares at 3.8% portfolio weight \u2014 exiting here locks in a painful loss at the lower Bollinger Band with RSI at 37 and approaching oversold territory. Hold and let the position stabilize, but do NOT add more until technical confirmation arrives \u2014 the death cross and negative fundamentals make this a falling knife.",
-      "target_price": 54.5,
-      "target_reasoning": "The 50MA sits at $50.06 and represents the first meaningful resistance level; a recovery toward the $54-55 range would represent a partial mean-reversion bounce off the lower BB and get RSI back toward the 50-55 neutral zone \u2014 a realistic short-term target without requiring a full trend reversal. This does not recover your cost basis but reduces losses meaningfully.",
-      "exit_trigger": "Exit immediately if price closes below $42.00 (next support breakdown) OR if RSI drops below 25 without a corresponding bullish divergence forming \u2014 that signals accelerating distribution, not a buyable dip. Also exit if any material negative fundamental news drops (dilution, cash burn acceleration).",
-      "add_trigger": "Only consider adding if ALL THREE align: RSI enters 20-28 range, a bullish MACD crossover fires, AND price holds above $40 on above-average volume \u2014 suggesting genuine capitulation exhaustion rather than continued deterioration. Even then, add minimally given the death cross and negative cash flow.",
-      "risk": "The death cross (50MA at $50 crossing below 200MA at $66.70) combined with negative operating cash flow and high debt (3.2x D/E) means this stock has structural downward pressure \u2014 a technical bounce may be shallow and short-lived before the next leg down. This is the primary reason NOT to add aggressively.",
-      "outlook": "cautious",
-      "timeframe": "4-8 weeks \u2014 wait for RSI to cycle through oversold and MACD to show early inflection; if no recovery signal by then, reassess exit regardless of loss",
-      "ticker": "TEM",
-      "company_name": "Tempus AI, Inc.",
-      "generated_at": "2026-05-13T23:05:57.124411",
-      "price_at_generation": 45.9,
-      "pnl_at_generation": -33.56,
-      "archived_at": "2026-05-14T22:56:17.263536"
     }
   ]
 }

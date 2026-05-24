@@ -10,7 +10,7 @@
       "BB: price near lower band (pct=-0.12)",
       "RSI: oversold zone (29.5)",
       "RSI Divergence: Price lower low (371.71 < 383.30) but RSI higher low (45.6 > 38.4)",
-      "Volume: above average (2.95x)"
+      "Volume: above average (2.98x)"
     ],
     "misses": [
       "BB Width: bands expanding, not squeezing",
@@ -54,7 +54,7 @@
       ],
       "earnings_status": "past",
       "next_earnings_date": "2026-05-20",
-      "days_to_earnings": -2
+      "days_to_earnings": -4
     }
   },
   "news": {
@@ -62,20 +62,18 @@
     "sentiment": "neutral",
     "health": "healthy",
     "key_events": [
-      "Earnings reported 2 days ago",
-      "Price near lower Bollinger Band",
-      "RSI oversold at 29.5",
-      "Bullish RSI divergence forming"
+      "Earnings released 4 days ago (post-earnings volatility likely subsiding)",
+      "Price testing lower Bollinger Band with RSI oversold at 29.5",
+      "Bullish RSI divergence detected (higher low on RSI despite lower low on price)"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "Significant drawdown of -31.68% from entry",
-      "No recent news catalyst visible",
-      "Market sentiment Fear despite neutral VIX",
-      "Position weight at 29% creates concentration risk"
+      "31.68% drawdown from entry suggests significant post-earnings sell-off",
+      "Position at 29% portfolio weight creates concentrated risk",
+      "No news catalysts visible; market sentiment in 'Extreme Fear' mode"
     ],
-    "verdict": "INTU showing technical oversold conditions with bullish divergence post-earnings, but lack of positive catalysts and heavy position weighting warrant cautious accumulation rather than aggressive averaging down.",
+    "verdict": "INTU shows technical reversal signals (oversold + positive divergence) but remains vulnerable; position size too aggressive for current risk.",
     "confidence": "medium"
   },
   "relative_strength": {
@@ -92,5 +90,5 @@
     "note": "2 shares @ $319.94 = $640 | $512 swing budget remaining after"
   },
   "is_dca": false,
-  "saved_at": "2026-05-22T22:55:49.408164"
+  "saved_at": "2026-05-24T17:28:24.564286"
 }

@@ -16,7 +16,7 @@
       "RSI Divergence: no bullish divergence detected",
       "200MA: price below 200MA \u2014 potential falling knife",
       "Death cross active: 50MA (49.17) below 200MA (66.29)",
-      "Volume: below average (0.70x) \u2014 low conviction"
+      "Volume: below average (0.71x) \u2014 low conviction"
     ],
     "price": 46.18,
     "rsi": 20.2,
@@ -54,7 +54,7 @@
       ],
       "earnings_status": "past",
       "next_earnings_date": "2026-05-05",
-      "days_to_earnings": -17
+      "days_to_earnings": -19
     }
   },
   "news": {
@@ -62,21 +62,21 @@
     "sentiment": "negative",
     "health": "deteriorating",
     "key_events": [
-      "Stock down 33% from entry; RSI deeply oversold at 20.2",
-      "MACD histogram at valley showing potential reversal signal",
-      "Earnings reported 17 days ago (likely catalyst for decline)",
-      "High leverage (3.2x debt-to-equity) with negative cash flow"
+      "Earnings reported 19 days ago (negative catalyst already priced in)",
+      "Stock down 33% from entry, significant capitulation",
+      "RSI 20.2 indicates extreme oversold conditions",
+      "MACD histogram turning positive - potential reversal signal"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "Not profitable with negative operating cash flow\u2014structural concern",
-      "High debt load creates refinancing/solvency risk in downturns",
-      "No recent news catalyst to support recovery narrative",
-      "4.2% portfolio weight creates concentration risk in deteriorating position",
-      "Post-earnings decline suggests guidance/outlook disappointed"
+      "High debt-to-equity ratio (3.2x) limits financial flexibility",
+      "Not profitable with negative operating cash flow - unsustainable path",
+      "No recent news catalysts visible - information vacuum",
+      "33% drawdown with 4.2% portfolio weight creates concentration risk",
+      "Extreme Fear sentiment suggests panic selling may be near capitulation"
     ],
-    "verdict": "TEM is a deteriorating fundamental situation with oversold technicals offering false hope; position is underwater with structural profitability issues.",
+    "verdict": "Oversold technical setup conflicts with deteriorating fundamentals; position remains at risk despite reversal signals.",
     "confidence": "medium"
   },
   "relative_strength": {
@@ -93,5 +93,5 @@
     "note": "20 shares @ $46.18 = $924 | $228 swing budget remaining after"
   },
   "is_dca": false,
-  "saved_at": "2026-05-22T22:56:13.104619"
+  "saved_at": "2026-05-24T17:28:59.894009"
 }

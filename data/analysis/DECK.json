@@ -31,14 +31,14 @@
     "ticker": "DECK",
     "health": "healthy",
     "passed": [
-      "Revenue growing YoY (+7.1%)",
-      "Debt-to-equity acceptable (0.1x)",
-      "Profitable (margin 19.3%)"
+      "Revenue growing YoY (+9.6%)",
+      "Debt-to-equity acceptable (0.2x)",
+      "Profitable (margin 18.7%)"
     ],
     "flags": [],
-    "revenue_growth": 0.071,
-    "de_ratio": 13.14,
-    "profit_margins": 0.19348
+    "revenue_growth": 0.096,
+    "de_ratio": 15.01,
+    "profit_margins": 0.18714
   },
   "earnings": {
     "proceed": true,
@@ -48,12 +48,11 @@
       "verdict": "consider",
       "reason": "Fundamentals intact \u2014 dip may be an overreaction",
       "notes": [
-        "Earnings growing YoY (+11.0%)",
-        "Revenue growing (+7.1%)"
+        "Revenue growing (+9.6%)"
       ],
       "earnings_status": "past",
       "next_earnings_date": "2026-05-21",
-      "days_to_earnings": -1
+      "days_to_earnings": -3
     }
   },
   "news": {
@@ -61,18 +60,21 @@
     "sentiment": "neutral",
     "health": "healthy",
     "key_events": [
-      "Recent earnings release (past -1d)",
-      "Price near upper Bollinger Band at 0.90 percentile",
-      "Bollinger Band squeeze following expansion\u2014volatility contraction setup"
+      "Recent earnings passed (3 days ago)",
+      "Price near upper Bollinger Band after volatility expansion",
+      "Death cross formed: 50MA below 200MA - bearish signal",
+      "RSI at 63.9 - approaching overbought but not extreme",
+      "Market Fear extreme (F&G) despite neutral VIX"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "Death cross: 50MA below 200MA signals weakening momentum",
-      "RSI 63.9 approaching overbought territory (70+)",
-      "No recent news flow to support further upside"
+      "Death cross (50MA/200MA) signals potential momentum loss",
+      "BB squeeze after expansion suggests volatility exhaustion",
+      "Extreme fear backdrop may precede pullback despite healthy fundamentals",
+      "No recent news catalyst visible - gains may lack support"
     ],
-    "verdict": "Strong short-term gains (+9.77%) in a healthy stock, but technical setup shows mixed signals with momentum loss and overbought conditions; take profits now before mean reversion.",
+    "verdict": "Profitable swing trade reaching inflection point; death cross warns of weakening momentum despite healthy fundamentals.",
     "confidence": "medium"
   },
   "relative_strength": {
@@ -89,5 +91,5 @@
     "note": "10 shares @ $106.67 = $1,067 | $85 swing budget remaining after"
   },
   "is_dca": false,
-  "saved_at": "2026-05-22T22:56:26.924799"
+  "saved_at": "2026-05-24T17:29:25.016320"
 }
