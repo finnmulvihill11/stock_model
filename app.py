@@ -1,3 +1,4 @@
+import subprocess
 import streamlit as st
 import pandas as pd
 import plotly.graph_objects as go
@@ -26,6 +27,17 @@ B = CONFIG.get("budget", {})
 
 st.set_page_config(page_title="Stock Model", layout="wide", page_icon="📈")
 
+
+@st.cache_resource
+def _pull_on_startup():
+    try:
+        result = subprocess.run(["git", "pull"], capture_output=True, text=True, timeout=15)
+        return result.stdout.strip() or "Already up to date."
+    except Exception as e:
+        return f"Pull failed: {e}"
+
+_pull_on_startup()
+
 TIER_COLORS = {
     "Strong Buy": "#16a34a", "Buy": "#22c55e",
     "Watch": "#f59e0b", "Hold": "#6b7280",
@@ -41,6 +53,15 @@ page = st.sidebar.radio("Navigation", [
     "Swing Trade Plans",
     "Long-Term ETF Plans",
 ])
+
+if st.sidebar.button("Sync latest data"):
+    _pull_on_startup.clear()
+    result = _pull_on_startup()
+    if "Already up to date" in result:
+        st.sidebar.success("Already up to date.")
+    else:
+        st.sidebar.success("Synced — reloading...")
+        st.rerun()
 
 # ── Helpers ───────────────────────────────────────────────────────────────────
 @st.cache_data(ttl=3600)
