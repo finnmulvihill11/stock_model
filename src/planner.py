@@ -155,7 +155,7 @@ Respond in JSON with these exact keys (priority_actions MUST be non-empty):
     try:
         response = _get_client().messages.create(
             model="claude-haiku-4-5-20251001",
-            max_tokens=800,
+            max_tokens=1500,
             messages=[{"role": "user", "content": prompt}],
         )
         text = response.content[0].text.strip()
@@ -178,6 +178,7 @@ Respond in JSON with these exact keys (priority_actions MUST be non-empty):
             "on_course_check": [],
             "generated_at": datetime.now().isoformat(),
         }
+        _save_portfolio_strategy(fallback)
         return fallback
 
 
