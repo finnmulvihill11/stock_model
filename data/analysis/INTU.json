@@ -54,7 +54,7 @@
       ],
       "earnings_status": "past",
       "next_earnings_date": "2026-05-20",
-      "days_to_earnings": -4
+      "days_to_earnings": -5
     }
   },
   "news": {
@@ -62,18 +62,18 @@
     "sentiment": "neutral",
     "health": "healthy",
     "key_events": [
-      "Earnings released 4 days ago (post-earnings volatility likely subsiding)",
-      "Price testing lower Bollinger Band with RSI oversold at 29.5",
-      "Bullish RSI divergence detected (higher low on RSI despite lower low on price)"
+      "Recent earnings passed (5 days ago)",
+      "Price testing lower Bollinger Band",
+      "RSI divergence forming (bullish signal)"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "31.68% drawdown from entry suggests significant post-earnings sell-off",
-      "Position at 29% portfolio weight creates concentrated risk",
-      "No news catalysts visible; market sentiment in 'Extreme Fear' mode"
+      "31.68% drawdown from entry",
+      "Position concentration at 29% of portfolio",
+      "No recent news to support recovery catalyst"
     ],
-    "verdict": "INTU shows technical reversal signals (oversold + positive divergence) but remains vulnerable; position size too aggressive for current risk.",
+    "verdict": "INTU shows technical oversold conditions with bullish divergence, but lacks near-term catalysts; position sizing is aggressive given drawdown severity.",
     "confidence": "medium"
   },
   "relative_strength": {
@@ -90,5 +90,5 @@
     "note": "2 shares @ $319.94 = $640 | $512 swing budget remaining after"
   },
   "is_dca": false,
-  "saved_at": "2026-05-24T17:28:24.564286"
+  "saved_at": "2026-05-25T22:58:41.119086"
 }

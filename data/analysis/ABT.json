@@ -54,7 +54,7 @@
       ],
       "earnings_status": "past",
       "next_earnings_date": "2026-04-16",
-      "days_to_earnings": -38
+      "days_to_earnings": -39
     }
   },
   "news": {
@@ -62,20 +62,20 @@
     "sentiment": "neutral",
     "health": "healthy",
     "key_events": [
-      "Earnings reported 38 days ago",
-      "Bollinger Band squeeze active (width=0.1391) - volatility compression",
-      "Market in Extreme Fear mode despite neutral VIX 16.7",
-      "RSI at 49.6 - midpoint, no oversold conditions"
+      "Earnings released 39 days ago (results not specified in data)",
+      "Bollinger Band squeeze active - volatility compression phase",
+      "RSI at 49.6 - neutral zone, no overbought/oversold conditions",
+      "Market fear sentiment despite neutral VIX"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "20.37% unrealized loss on position",
-      "No recent news catalysts identified",
-      "Squeeze setup suggests breakout imminent but direction unclear",
-      "Extreme Fear sentiment disconnected from neutral technicals"
+      "Position down -20.37% from entry - significant unrealized loss",
+      "No recent news catalysts visible - information vacuum",
+      "Fear sentiment in market despite healthy fundamentals mismatch",
+      "BB squeeze suggests volatility breakout imminent (directional uncertainty)"
     ],
-    "verdict": "ABT is technically stuck in compression with fundamentals intact, but the 20% drawdown warrants defensive positioning until a clear breakout direction emerges.",
+    "verdict": "ABT fundamentals remain healthy but technical setup shows bottoming signals; position is oversized relative to losses and lacks near-term catalysts.",
     "confidence": "medium"
   },
   "relative_strength": {
@@ -92,5 +92,5 @@
     "note": "13 shares @ $87.41 = $1,136 | $15 swing budget remaining after"
   },
   "is_dca": false,
-  "saved_at": "2026-05-24T17:28:47.562307"
+  "saved_at": "2026-05-25T22:58:56.551926"
 }

@@ -54,7 +54,7 @@
       ],
       "earnings_status": "past",
       "next_earnings_date": "2026-05-05",
-      "days_to_earnings": -19
+      "days_to_earnings": -20
     }
   },
   "news": {
@@ -62,21 +62,22 @@
     "sentiment": "negative",
     "health": "deteriorating",
     "key_events": [
-      "Earnings reported 19 days ago (negative catalyst already priced in)",
-      "Stock down 33% from entry, significant capitulation",
-      "RSI 20.2 indicates extreme oversold conditions",
-      "MACD histogram turning positive - potential reversal signal"
+      "Stock down 33.15% from entry",
+      "RSI oversold at 20.2 (extreme capitulation)",
+      "MACD histogram at valley with early upturn signal",
+      "Earnings reported within last 20 days (likely catalyst for decline)",
+      "High debt-to-equity ratio (3.2x) limits financial flexibility"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "High debt-to-equity ratio (3.2x) limits financial flexibility",
-      "Not profitable with negative operating cash flow - unsustainable path",
-      "No recent news catalysts visible - information vacuum",
-      "33% drawdown with 4.2% portfolio weight creates concentration risk",
-      "Extreme Fear sentiment suggests panic selling may be near capitulation"
+      "Not profitable with negative operating cash flow",
+      "High leverage (3.2x D/E) during market stress",
+      "Recent earnings miss or guidance reduction implied by sharp decline",
+      "No news catalyst visible for reversal",
+      "Fear sentiment in broader market (F&G indicator)"
     ],
-    "verdict": "Oversold technical setup conflicts with deteriorating fundamentals; position remains at risk despite reversal signals.",
+    "verdict": "TEM is in distress with weak fundamentals, but technical oversold conditions and MACD reversal suggest tactical bounce potential; however, deteriorating health demands risk management.",
     "confidence": "medium"
   },
   "relative_strength": {
@@ -93,5 +94,5 @@
     "note": "20 shares @ $46.18 = $924 | $228 swing budget remaining after"
   },
   "is_dca": false,
-  "saved_at": "2026-05-24T17:28:59.894009"
+  "saved_at": "2026-05-25T22:59:04.954881"
 }

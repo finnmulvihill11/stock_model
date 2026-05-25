@@ -3,19 +3,36 @@
     "ticker": "DECK",
     "company_name": "Deckers Outdoor Corporation",
     "action": "Start Trimming",
-    "action_reason": "Trim 1 share (50%) to lock in +9.77% gain ahead of potential death cross confirmation. Price is extended (BB 0.90), and the technical setup suggests caution despite strong fundamentals. Retain 1 share for upside if bullish reversal prints.",
+    "action_reason": "Take partial profits on +9.77% swing gain while price is extended at upper BB and RSI shows overbought conditions. Death cross signals momentum shift; hold remaining shares for additional upside but reduce exposure at current levels.",
     "target_price": 110.5,
     "target_reasoning": "",
-    "exit_trigger": "Close below 102.50 (50MA support); or daily close below upper BB with RSI compression",
-    "add_trigger": "RSI pullback to 45-50 + bullish engulf above 102.21 (50MA) with volume",
-    "risk": "Death cross persistence leading to breakdown toward 100MA; gap-down on sector rotation given extreme market fear",
+    "exit_trigger": "Break below 50MA at 102.21 or RSI drops below 50 with volume confirmation",
+    "add_trigger": "Pullback to 50MA (102.21) with bullish reversal candle + positive news catalyst",
+    "risk": "Earnings surprise potential exhausted; downside protected at 102.21 (50MA) but death cross suggests weakness despite 'healthy' fundamentals",
     "outlook": "cautious",
-    "timeframe": "3-5 weeks",
-    "generated_at": "2026-05-24T17:29:24.998983",
+    "timeframe": "2-4 weeks",
+    "generated_at": "2026-05-25T22:59:21.620772",
     "price_at_generation": 106.67,
     "pnl_at_generation": 9.77
   },
   "history": [
+    {
+      "ticker": "DECK",
+      "company_name": "Deckers Outdoor Corporation",
+      "action": "Start Trimming",
+      "action_reason": "Trim 1 share (50%) to lock in +9.77% gain ahead of potential death cross confirmation. Price is extended (BB 0.90), and the technical setup suggests caution despite strong fundamentals. Retain 1 share for upside if bullish reversal prints.",
+      "target_price": 110.5,
+      "target_reasoning": "",
+      "exit_trigger": "Close below 102.50 (50MA support); or daily close below upper BB with RSI compression",
+      "add_trigger": "RSI pullback to 45-50 + bullish engulf above 102.21 (50MA) with volume",
+      "risk": "Death cross persistence leading to breakdown toward 100MA; gap-down on sector rotation given extreme market fear",
+      "outlook": "cautious",
+      "timeframe": "3-5 weeks",
+      "generated_at": "2026-05-24T17:29:24.998983",
+      "price_at_generation": 106.67,
+      "pnl_at_generation": 9.77,
+      "archived_at": "2026-05-25T22:59:21.620996"
+    },
     {
       "ticker": "DECK",
       "company_name": "Deckers Outdoor Corporation",
@@ -117,23 +134,6 @@
       "price_at_generation": 93.56,
       "pnl_at_generation": -3.73,
       "archived_at": "2026-05-18T22:59:19.200091"
-    },
-    {
-      "action": "Wait",
-      "action_reason": "RSI divergence and oversold readings are encouraging, but with earnings just 7 days away, a death cross active, and price below the 200MA, adding here is gambling on a binary event \u2014 not swing trading. Hold your current 2 shares and let earnings clear before making any move.",
-      "target_price": 110.5,
-      "target_reasoning": "A mean-reversion bounce from oversold RSI (27.3) and lower Bollinger Band toward the 50MA (~102.91) is the base case, but the real target is the upper BB / pre-breakdown zone near $110-111 where RSI would be approaching 65-70 \u2014 a clean exit range consistent with your sell discipline. This assumes earnings don't disappoint.",
-      "exit_trigger": "RSI reaches 70-75 OR price touches upper Bollinger Band OR earnings reveal HOKA growth deceleration worse than expected \u2014 exit immediately on the latter regardless of technicals.",
-      "add_trigger": "Post-earnings only: stock holds above $90 on earnings reaction, RSI stays below 35, and price reclaims the lower BB on above-average volume (>1.2x). Do not add into the earnings print.",
-      "risk": "Earnings in 7 days is the dominant risk \u2014 any HOKA deceleration narrative or guidance cut could gap the stock down through your cost basis decisively, and the active death cross (50MA below 200MA) means there is no technical floor to catch you. Low volume conviction makes this a fragile setup pre-catalyst.",
-      "outlook": "cautious",
-      "timeframe": "3-6 weeks post-earnings clarity",
-      "ticker": "DECK",
-      "company_name": "Deckers Outdoor Corporation",
-      "generated_at": "2026-05-14T22:57:08.265662",
-      "price_at_generation": 94.97,
-      "pnl_at_generation": -2.27,
-      "archived_at": "2026-05-15T22:55:44.475218"
     }
   ]
 }

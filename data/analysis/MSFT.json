@@ -54,7 +54,7 @@
       ],
       "earnings_status": "past",
       "next_earnings_date": "2026-04-29",
-      "days_to_earnings": -25
+      "days_to_earnings": -26
     }
   },
   "news": {
@@ -62,21 +62,20 @@
     "sentiment": "neutral",
     "health": "healthy",
     "key_events": [
-      "Bollinger Band squeeze active (width=0.0633) - volatility compression suggests breakout imminent",
+      "BB Width squeeze active (0.0633) - volatility compression suggests breakout imminent",
       "50/200MA converging upward toward golden cross - bullish technical setup forming",
-      "RSI at 55.1 - neutral zone, room to move in either direction",
-      "Earnings passed 25 days ago - no near-term catalyst risk",
-      "VIX 16.7 with Extreme Fear indicator - potential capitulation opportunity"
+      "RSI 55.1 - neutral momentum, room to run in either direction",
+      "Earnings passed 26 days ago - catalyst already digested",
+      "VIX 16.6 neutral environment - no macro headwinds"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "Position down -10.40% from entry - underwater with significant weight (25.3%)",
-      "No recent news flow - information vacuum amid market fear",
-      "Converging MAs haven't crossed yet - setup incomplete, breakout direction uncertain",
-      "Extreme Fear could signal further downside before reversal"
+      "-10.40% unrealized loss on 25.3% portfolio weight - significant concentration risk",
+      "No recent news flow - lack of catalysts to drive recovery",
+      "Fear sentiment in F&G despite neutral VIX - potential investor caution on tech"
     ],
-    "verdict": "MSFT shows healthy fundamentals with brewing technical setup, but current drawdown and uncertainty warrant disciplined patience rather than averaging down into weakness.",
+    "verdict": "MSFT is technically coiled for a breakout after earnings digestion; current drawdown presents a setup to either add on confirmation or await golden cross confirmation before deciding.",
     "confidence": "medium"
   },
   "relative_strength": {
@@ -93,5 +92,5 @@
     "note": "2 shares @ $418.57 = $837 | $315 swing budget remaining after"
   },
   "is_dca": false,
-  "saved_at": "2026-05-24T17:28:36.342503"
+  "saved_at": "2026-05-25T22:58:48.575477"
 }

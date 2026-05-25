@@ -52,7 +52,7 @@
       ],
       "earnings_status": "past",
       "next_earnings_date": "2026-05-21",
-      "days_to_earnings": -3
+      "days_to_earnings": -4
     }
   },
   "news": {
@@ -60,21 +60,21 @@
     "sentiment": "neutral",
     "health": "healthy",
     "key_events": [
-      "Recent earnings passed (3 days ago)",
-      "Price near upper Bollinger Band after volatility expansion",
-      "Death cross formed: 50MA below 200MA - bearish signal",
-      "RSI at 63.9 - approaching overbought but not extreme",
-      "Market Fear extreme (F&G) despite neutral VIX"
+      "Recent earnings (4 days ago) - past catalyst",
+      "Price near upper Bollinger Band (0.90 percentile)",
+      "Death cross signal: 50MA below 200MA indicates weakening momentum",
+      "BB contraction after expansion suggests volatility consolidation"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "Death cross (50MA/200MA) signals potential momentum loss",
-      "BB squeeze after expansion suggests volatility exhaustion",
-      "Extreme fear backdrop may precede pullback despite healthy fundamentals",
-      "No recent news catalyst visible - gains may lack support"
+      "Death cross formation - bearish technical signal",
+      "RSI at 63.9 approaching overbought (70) - limited upside room",
+      "Price stretched to upper BB - mean reversion risk",
+      "Post-earnings window closed - catalyst exhausted",
+      "Fear sentiment despite gains - weak conviction rally"
     ],
-    "verdict": "Profitable swing trade reaching inflection point; death cross warns of weakening momentum despite healthy fundamentals.",
+    "verdict": "Strong tactical gain achieved; momentum stalling at resistance with bearish MA crossover signaling potential pullback.",
     "confidence": "medium"
   },
   "relative_strength": {
@@ -91,5 +91,5 @@
     "note": "10 shares @ $106.67 = $1,067 | $85 swing budget remaining after"
   },
   "is_dca": false,
-  "saved_at": "2026-05-24T17:29:25.016320"
+  "saved_at": "2026-05-25T22:59:21.621562"
 }

@@ -3,19 +3,36 @@
     "ticker": "TEM",
     "company_name": "Tempus AI, Inc.",
     "action": "Start Trimming",
-    "action_reason": "Sell 1-2 shares to lock in loss, reduce concentration risk, and free capital. Fundamentals don't support recovery thesis\u2014unprofitable with poor cash flow. Hold 1sh only if committed to reversal play with tight stop.",
-    "target_price": 52,
+    "action_reason": "Cut 1-2 shares on any bounce to RSI 30-35 to reduce portfolio weight and lock in some liquidity. The -33% loss combined with negative cash flow and high debt makes this a high-risk hold; oversold technicals offer an exit window rather than a buying opportunity.",
+    "target_price": 52.5,
     "target_reasoning": "",
-    "exit_trigger": "Break below $42 (fresh 52-week lows) OR RSI dips below 15 again without reversal confirmation",
-    "add_trigger": "Do NOT add. Requires: profitable quarter reported + positive FCF guidance + VIX spike showing panic bottom",
-    "risk": "Continued deterioration of cash position; debt refinancing risk if revenue doesn't recover; potential dilution from capital raise",
+    "exit_trigger": "RSI reaches 30-35 or price bounces 8-12% (~$50-52), whichever comes first; or close below $42 on high volume (capitulation break)",
+    "add_trigger": "Only if profitable cash flow turns positive + debt reduces below 2.0x OR strategic partnership/acquisition announced; do NOT add into oversold bounce",
+    "risk": "Continued cash burn could force dilutive financing or restructuring; debt burden limits runway if revenue declines further",
     "outlook": "cautious",
-    "timeframe": "2-4 weeks",
-    "generated_at": "2026-05-24T17:28:59.874081",
+    "timeframe": "1-4 weeks",
+    "generated_at": "2026-05-25T22:59:04.954145",
     "price_at_generation": 46.18,
     "pnl_at_generation": -33.15
   },
   "history": [
+    {
+      "ticker": "TEM",
+      "company_name": "Tempus AI, Inc.",
+      "action": "Start Trimming",
+      "action_reason": "Sell 1-2 shares to lock in loss, reduce concentration risk, and free capital. Fundamentals don't support recovery thesis\u2014unprofitable with poor cash flow. Hold 1sh only if committed to reversal play with tight stop.",
+      "target_price": 52,
+      "target_reasoning": "",
+      "exit_trigger": "Break below $42 (fresh 52-week lows) OR RSI dips below 15 again without reversal confirmation",
+      "add_trigger": "Do NOT add. Requires: profitable quarter reported + positive FCF guidance + VIX spike showing panic bottom",
+      "risk": "Continued deterioration of cash position; debt refinancing risk if revenue doesn't recover; potential dilution from capital raise",
+      "outlook": "cautious",
+      "timeframe": "2-4 weeks",
+      "generated_at": "2026-05-24T17:28:59.874081",
+      "price_at_generation": 46.18,
+      "pnl_at_generation": -33.15,
+      "archived_at": "2026-05-25T22:59:04.954383"
+    },
     {
       "ticker": "TEM",
       "company_name": "Tempus AI, Inc.",
@@ -117,23 +134,6 @@
       "price_at_generation": 43.93,
       "pnl_at_generation": -36.41,
       "archived_at": "2026-05-18T22:59:04.812842"
-    },
-    {
-      "action": "Wait",
-      "action_reason": "TEM is down 34% and sitting near the lower Bollinger Band, but your entry criteria aren't met \u2014 RSI at 34.3 hasn't reached the 20\u201330 buy zone, MACD shows no bullish crossover, and price is below the 200MA flagging a potential falling knife. With deteriorating fundamentals and no confirmed reversal signal, adding here is speculation, not swing trading.",
-      "target_price": 52.5,
-      "target_reasoning": "A mean-reversion bounce toward the 20-period BB midline from current oversold-adjacent levels would project roughly $52\u2013$54, representing ~15% upside from here. That range also aligns with a natural resistance zone before the 200MA re-enters the picture. Not a target to chase \u2014 only relevant if entry criteria are satisfied first.",
-      "exit_trigger": "Cut the position if TEM breaks decisively below $42 on above-average volume, or if RSI drops below 25 without a corresponding bullish divergence forming \u2014 that signals capitulation with no floor in sight. Do not wait for a recovery that may not come given the fundamental backdrop.",
-      "add_trigger": "Only consider adding if RSI closes within 20\u201328 AND a MACD bullish crossover or valley forms simultaneously AND volume spikes 1.5x+ above average \u2014 all three required. A single signal in a deteriorating name like this is not enough justification.",
-      "risk": "The primary risk is that TEM is a fundamentally weak name \u2014 high debt (3.2x D/E), no profitability, negative operating cash flow \u2014 meaning oversold conditions can persist or worsen rather than mean-revert. This is not a Bollinger Band bounce on a strong company; it's a distressed growth name in a Fear market. The 200MA breach compounds the downside risk significantly.",
-      "outlook": "cautious",
-      "timeframe": "Indefinite hold at current size \u2014 reassess in 2\u20133 weeks for RSI confirmation. No new capital until all entry signals align.",
-      "ticker": "TEM",
-      "company_name": "Tempus AI, Inc.",
-      "generated_at": "2026-05-14T22:56:17.263306",
-      "price_at_generation": 45.48,
-      "pnl_at_generation": -34.16,
-      "archived_at": "2026-05-15T22:54:49.843808"
     }
   ]
 }
