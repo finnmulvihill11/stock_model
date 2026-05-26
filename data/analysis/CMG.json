@@ -4,28 +4,28 @@
     "ticker": "CMG",
     "direction": "buy",
     "tier": "Hold",
-    "buy_score": 0.25,
+    "buy_score": 0.12,
     "sell_score": 0.43,
     "reasons": [
-      "BB Width: squeeze active (width=0.0697)",
-      "Volume: above average (1.04x)"
+      "BB Width: squeeze active (width=0.0668)"
     ],
     "misses": [
-      "BB: price not near lower band (pct=0.54)",
-      "RSI: not in buy zone (56.8, need 20-30)",
+      "BB: price not near lower band (pct=0.30)",
+      "RSI: not in buy zone (50.0, need 20-30)",
       "MACD: no bullish crossover or valley",
       "RSI Divergence: no bullish divergence detected",
       "200MA: price below 200MA \u2014 potential falling knife",
-      "Death cross active: 50MA (33.32) below 200MA (36.88)"
+      "Death cross active: 50MA (33.32) below 200MA (36.83)",
+      "Volume: below average (0.78x) \u2014 low conviction"
     ],
-    "price": 32.89,
-    "rsi": 56.8,
-    "atr": 1.03,
+    "price": 32.31,
+    "rsi": 50.0,
+    "atr": 1.04,
     "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 35,
-      "suggested_dollars": 1151.15,
-      "note": "35 shares @ $32.89 = $1,151 | $1 swing budget remaining after"
+      "suggested_dollars": 1130.85,
+      "note": "35 shares @ $32.31 = $1,131 | $21 swing budget remaining after"
     }
   },
   "fundamentals": {
@@ -55,42 +55,38 @@
       ],
       "earnings_status": "past",
       "next_earnings_date": "2026-04-29",
-      "days_to_earnings": -26
+      "days_to_earnings": -27
     }
   },
   "news": {
     "ticker": "CMG",
     "sentiment": "neutral",
     "health": "neutral",
-    "key_events": [
-      "Earnings reported 26 days ago (past event, volatility likely absorbed)",
-      "Bollinger Band squeeze active - potential breakout setup",
-      "Above-average volume supporting technical setup"
-    ],
+    "key_events": [],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
       "High debt-to-equity ratio (2.2x) limits financial flexibility",
-      "No recent news flow - information vacuum",
-      "Fear index elevated despite low VIX - sector/stock specific concern",
-      "RSI at 56.8 - neutral, no overbought momentum"
+      "Recent earnings miss (-27 days ago) suggests operational challenges",
+      "No recent news catalysts to drive momentum",
+      "RSI at 50.0 indicates no clear directional bias"
     ],
-    "verdict": "BB squeeze offers tactical opportunity, but high leverage and lack of catalyst require disciplined risk management.",
+    "verdict": "Chipotle is in a holding pattern with modest gains and elevated leverage concerns; lack of positive catalysts and recent earnings miss warrant caution.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "CMG",
-    "stock_return_3m": -10.16,
-    "benchmark_return_3m": 9.57,
-    "relative_strength": -19.73,
+    "stock_return_3m": -11.46,
+    "benchmark_return_3m": 9.5,
+    "relative_strength": -20.95,
     "label": "underperforming"
   },
   "final_tier": "Hold",
   "sizing": {
     "suggested_shares": 35,
-    "suggested_dollars": 1151.15,
-    "note": "35 shares @ $32.89 = $1,151 | $1 swing budget remaining after"
+    "suggested_dollars": 1130.85,
+    "note": "35 shares @ $32.31 = $1,131 | $21 swing budget remaining after"
   },
   "is_dca": false,
-  "saved_at": "2026-05-25T22:59:13.929990"
+  "saved_at": "2026-05-26T23:07:23.486940"
 }

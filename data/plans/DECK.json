@@ -2,20 +2,37 @@
   "current": {
     "ticker": "DECK",
     "company_name": "Deckers Outdoor Corporation",
-    "action": "Start Trimming",
-    "action_reason": "Take partial profits on +9.77% swing gain while price is extended at upper BB and RSI shows overbought conditions. Death cross signals momentum shift; hold remaining shares for additional upside but reduce exposure at current levels.",
-    "target_price": 110.5,
+    "action": "Hold",
+    "action_reason": "Position is +14.67% with solid technical structure (price above 200MA, volume support). However, RSI at 67.7 signals overbought conditions in short-term; trimming now locks in gains but risks missing further upside.",
+    "target_price": 118.5,
     "target_reasoning": "",
-    "exit_trigger": "Break below 50MA at 102.21 or RSI drops below 50 with volume confirmation",
-    "add_trigger": "Pullback to 50MA (102.21) with bullish reversal candle + positive news catalyst",
-    "risk": "Earnings surprise potential exhausted; downside protected at 102.21 (50MA) but death cross suggests weakness despite 'healthy' fundamentals",
-    "outlook": "cautious",
+    "exit_trigger": "RSI drops below 50 on daily close OR price closes below 200MA (102.99) on high volume",
+    "add_trigger": "Price pulls back to 105-107 (support near 200MA) on low RSI (<55) with volume confirmation",
+    "risk": "Overbought RSI may trigger profit-taking; broader market fear could spark broader rotation out of discretionary stocks",
+    "outlook": "short",
     "timeframe": "2-4 weeks",
-    "generated_at": "2026-05-25T22:59:21.620772",
-    "price_at_generation": 106.67,
-    "pnl_at_generation": 9.77
+    "generated_at": "2026-05-26T23:07:29.861254",
+    "price_at_generation": 111.44,
+    "pnl_at_generation": 14.67
   },
   "history": [
+    {
+      "ticker": "DECK",
+      "company_name": "Deckers Outdoor Corporation",
+      "action": "Start Trimming",
+      "action_reason": "Take partial profits on +9.77% swing gain while price is extended at upper BB and RSI shows overbought conditions. Death cross signals momentum shift; hold remaining shares for additional upside but reduce exposure at current levels.",
+      "target_price": 110.5,
+      "target_reasoning": "",
+      "exit_trigger": "Break below 50MA at 102.21 or RSI drops below 50 with volume confirmation",
+      "add_trigger": "Pullback to 50MA (102.21) with bullish reversal candle + positive news catalyst",
+      "risk": "Earnings surprise potential exhausted; downside protected at 102.21 (50MA) but death cross suggests weakness despite 'healthy' fundamentals",
+      "outlook": "cautious",
+      "timeframe": "2-4 weeks",
+      "generated_at": "2026-05-25T22:59:21.620772",
+      "price_at_generation": 106.67,
+      "pnl_at_generation": 9.77,
+      "archived_at": "2026-05-26T23:07:29.861438"
+    },
     {
       "ticker": "DECK",
       "company_name": "Deckers Outdoor Corporation",
@@ -117,23 +134,6 @@
       "price_at_generation": 94.61,
       "pnl_at_generation": -2.64,
       "archived_at": "2026-05-19T23:01:36.233937"
-    },
-    {
-      "action": "Wait",
-      "action_reason": "Earnings in 6 days create binary risk that overrides every bullish mean-reversion signal firing right now \u2014 adding into a print with a death cross and price below the 200MA is gambling, not swing trading. Hold the existing 2 shares but do not add until the earnings event clears and the dust settles.",
-      "target_price": 108.5,
-      "target_reasoning": "108.50 represents a realistic mean-reversion target near the 50MA (102.63) as a first waypoint, with the fuller target near the mid-BB / 200MA cluster around 108-109. A clean post-earnings bounce from this oversold RSI (27.6) and BB lower-band touch (pct=0.13) historically resolves toward the mean within 3-6 weeks, but only if the trend structure stabilizes post-print.",
-      "exit_trigger": "Cut the position if price closes below $88.00 (roughly 6% further downside, implying fundamental or earnings-driven breakdown), or if post-earnings price drops more than 8% intraday \u2014 that signals the oversold read was a falling knife, not a floor.",
-      "add_trigger": "Add 1-2 shares ONLY after earnings are reported AND price holds above $90 on a closing basis with RSI stabilizing above 30 and MACD histogram continuing its upturn. A death cross demands confirmation before sizing up \u2014 do not average down into a trend that hasn't turned.",
-      "risk": "Earnings in 6 days is the dominant risk \u2014 a guidance cut or HOKA growth deceleration could accelerate the downtrend regardless of how oversold technicals look today. The death cross (50MA below 200MA) confirms the intermediate trend is down, meaning mean-reversion signals have lower reliability than they would in a healthy uptrend.",
-      "outlook": "cautious",
-      "timeframe": "3-6 weeks post-earnings clarity",
-      "ticker": "DECK",
-      "company_name": "Deckers Outdoor Corporation",
-      "generated_at": "2026-05-15T22:55:44.475027",
-      "price_at_generation": 93.56,
-      "pnl_at_generation": -3.73,
-      "archived_at": "2026-05-18T22:59:19.200091"
     }
   ]
 }

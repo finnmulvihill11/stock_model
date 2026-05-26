@@ -5,27 +5,27 @@
     "direction": "buy",
     "tier": "Hold",
     "buy_score": 0.25,
-    "sell_score": 0.29,
+    "sell_score": 0.43,
     "reasons": [
-      "BB Width: squeeze active (width=0.0633)",
+      "BB Width: squeeze active (width=0.0606)",
       "50/200MA: converging upward toward golden cross"
     ],
     "misses": [
-      "BB: price not near lower band (pct=0.61)",
-      "RSI: not in buy zone (55.1, need 20-30)",
+      "BB: price not near lower band (pct=0.52)",
+      "RSI: not in buy zone (54.9, need 20-30)",
       "MACD: no bullish crossover or valley",
       "RSI Divergence: no bullish divergence detected",
       "200MA: price below 200MA \u2014 potential falling knife",
-      "Volume: below average (0.65x) \u2014 low conviction"
+      "Volume: below average (0.88x) \u2014 low conviction"
     ],
-    "price": 418.57,
-    "rsi": 55.1,
-    "atr": 10.85,
+    "price": 416.03,
+    "rsi": 54.9,
+    "atr": 10.77,
     "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 2,
-      "suggested_dollars": 837.14,
-      "note": "2 shares @ $418.57 = $837 | $315 swing budget remaining after"
+      "suggested_dollars": 832.06,
+      "note": "2 shares @ $416.03 = $832 | $320 swing budget remaining after"
     }
   },
   "fundamentals": {
@@ -54,7 +54,7 @@
       ],
       "earnings_status": "past",
       "next_earnings_date": "2026-04-29",
-      "days_to_earnings": -26
+      "days_to_earnings": -27
     }
   },
   "news": {
@@ -62,35 +62,35 @@
     "sentiment": "neutral",
     "health": "healthy",
     "key_events": [
-      "BB Width squeeze active (0.0633) - volatility compression suggests breakout imminent",
-      "50/200MA converging upward toward golden cross - bullish technical setup forming",
-      "RSI 55.1 - neutral momentum, room to run in either direction",
-      "Earnings passed 26 days ago - catalyst already digested",
-      "VIX 16.6 neutral environment - no macro headwinds"
+      "Bollinger Band squeeze active\u2014volatility compression suggests imminent breakout",
+      "50/200 MA converging upward toward golden cross\u2014bullish technical setup",
+      "RSI at 54.9\u2014neutral momentum, neither overbought nor oversold",
+      "Earnings passed 27 days ago\u2014catalyst risk reduced"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "-10.40% unrealized loss on 25.3% portfolio weight - significant concentration risk",
-      "No recent news flow - lack of catalysts to drive recovery",
-      "Fear sentiment in F&G despite neutral VIX - potential investor caution on tech"
+      "Position down 10.95% with 25.4% portfolio weight\u2014concentration risk elevated",
+      "VIX at 17.0 with 'Fear' label\u2014mixed signal; low vol but elevated sentiment caution",
+      "No recent news flow\u2014lack of catalysts near-term",
+      "Golden cross not yet confirmed\u2014premature to call reversal"
     ],
-    "verdict": "MSFT is technically coiled for a breakout after earnings digestion; current drawdown presents a setup to either add on confirmation or await golden cross confirmation before deciding.",
+    "verdict": "MSFT is in a technical setup phase with healthy fundamentals but early breakout confirmation needed; current drawdown has established a defined loss, making the risk/reward setup improving.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "MSFT",
-    "stock_return_3m": 9.11,
-    "benchmark_return_3m": 9.57,
-    "relative_strength": -0.46,
+    "stock_return_3m": 7.18,
+    "benchmark_return_3m": 9.5,
+    "relative_strength": -2.32,
     "label": "in-line"
   },
   "final_tier": "Hold",
   "sizing": {
     "suggested_shares": 2,
-    "suggested_dollars": 837.14,
-    "note": "2 shares @ $418.57 = $837 | $315 swing budget remaining after"
+    "suggested_dollars": 832.06,
+    "note": "2 shares @ $416.03 = $832 | $320 swing budget remaining after"
   },
   "is_dca": false,
-  "saved_at": "2026-05-25T22:58:48.575477"
+  "saved_at": "2026-05-26T23:07:02.337918"
 }
