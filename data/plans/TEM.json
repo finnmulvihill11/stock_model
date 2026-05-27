@@ -3,19 +3,36 @@
     "ticker": "TEM",
     "company_name": "Tempus AI, Inc.",
     "action": "Start Trimming",
-    "action_reason": "RSI oversold bounce offers tactical exit opportunity at reduced losses rather than holding deteriorating fundamentals. Trim 1-2 shares on any rally toward $50-52 resistance to reduce portfolio weight and lock in partial loss recovery.",
-    "target_price": 50.5,
+    "action_reason": "Sell 1-2 shares to lock in cash and reduce portfolio weight below 3%, while preserving upside exposure if technical reversal materializes. Oversold conditions offer opportunity to exit at better prices than lower.",
+    "target_price": 52.5,
     "target_reasoning": "",
-    "exit_trigger": "If RSI bounces above 35 and price reaches $50-52, exit remaining shares. Or break below $44 (new lows) = full exit.",
-    "add_trigger": "Do not add. Fundamentals do not support averaging down; requires profitable quarter + positive FCF.",
-    "risk": "Insolvency risk if cash burn continues; dilutive capital raise likely; potential bankruptcy in deteriorating market.",
+    "exit_trigger": "Close below $45 or further negative earnings surprises; trim if bounces to $52-55 resistance",
+    "add_trigger": "Only if profitability roadmap announced AND debt refinanced favorably AND RSI sustained >50 for 3+ weeks",
+    "risk": "Insolvency risk from negative cash flow + high debt; further downside if tech sector deteriorates",
     "outlook": "cautious",
-    "timeframe": "1-3 weeks",
-    "generated_at": "2026-05-26T23:07:17.046638",
-    "price_at_generation": 46.66,
-    "pnl_at_generation": -32.46
+    "timeframe": "2-4 weeks",
+    "generated_at": "2026-05-27T23:15:09.000569",
+    "price_at_generation": 47.17,
+    "pnl_at_generation": -31.72
   },
   "history": [
+    {
+      "ticker": "TEM",
+      "company_name": "Tempus AI, Inc.",
+      "action": "Start Trimming",
+      "action_reason": "RSI oversold bounce offers tactical exit opportunity at reduced losses rather than holding deteriorating fundamentals. Trim 1-2 shares on any rally toward $50-52 resistance to reduce portfolio weight and lock in partial loss recovery.",
+      "target_price": 50.5,
+      "target_reasoning": "",
+      "exit_trigger": "If RSI bounces above 35 and price reaches $50-52, exit remaining shares. Or break below $44 (new lows) = full exit.",
+      "add_trigger": "Do not add. Fundamentals do not support averaging down; requires profitable quarter + positive FCF.",
+      "risk": "Insolvency risk if cash burn continues; dilutive capital raise likely; potential bankruptcy in deteriorating market.",
+      "outlook": "cautious",
+      "timeframe": "1-3 weeks",
+      "generated_at": "2026-05-26T23:07:17.046638",
+      "price_at_generation": 46.66,
+      "pnl_at_generation": -32.46,
+      "archived_at": "2026-05-27T23:15:09.001004"
+    },
     {
       "ticker": "TEM",
       "company_name": "Tempus AI, Inc.",
@@ -117,23 +134,6 @@
       "price_at_generation": 45.53,
       "pnl_at_generation": -34.09,
       "archived_at": "2026-05-20T23:10:30.799833"
-    },
-    {
-      "ticker": "TEM",
-      "company_name": "Tempus AI, Inc.",
-      "action": "Start Trimming",
-      "action_reason": "Sell 1-2 shares at market to reduce downside exposure while position still has some liquidity. Deteriorating fundamentals + high debt + negative cash flow create bankruptcy risk that oversold technicals don't offset.",
-      "target_price": 35.0,
-      "target_reasoning": "",
-      "exit_trigger": "Close below $40 or any earnings guidance cut announcement",
-      "add_trigger": "Do not add\u2014fundamentals must show profitability path and debt reduction first",
-      "risk": "Insolvency/bankruptcy risk given 3.2x D/E, negative cash flow, and unprofitable operations; potential to $0",
-      "outlook": "short",
-      "timeframe": "1-2 weeks",
-      "generated_at": "2026-05-18T22:59:04.812618",
-      "price_at_generation": 43.62,
-      "pnl_at_generation": -36.86,
-      "archived_at": "2026-05-19T23:01:22.265225"
     }
   ]
 }

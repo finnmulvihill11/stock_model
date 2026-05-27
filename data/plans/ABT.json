@@ -3,19 +3,36 @@
     "ticker": "ABT",
     "company_name": "Abbott Laboratories",
     "action": "Hold",
-    "action_reason": "Fundamentals remain healthy and VIX/Fear backdrop suggests contrarian opportunity, but the squeeze hasn't resolved and -21% drawdown warrants patience. Do not average down into weakness without technical confirmation.",
-    "target_price": 95.0,
+    "action_reason": "Current squeeze suggests volatility expansion incoming. RSI neutral prevents aggressive add; exit would lock losses before potential reversal. Wait for BB breakout direction + volume confirmation.",
+    "target_price": null,
     "target_reasoning": "",
-    "exit_trigger": "Close below $83.50 (break below recent lows) on high volume; or if company-specific negative news emerges",
-    "add_trigger": "Bollinger Band breakout above $92 on volume spike; or RSI breaks above 55 with positive catalyst",
-    "risk": "Continued sideways/downward drift if market sentiment deteriorates; healthcare sector cyclical exposure in growth slowdown",
+    "exit_trigger": "Break below $83.50 (recent support) on volume + RSI < 30 without recovery = deteriorating fundamentals signal.",
+    "add_trigger": "BB breakout above upper band (\u2248$87.80) + RSI > 60 + volume surge, OR capitulation spike (VIX > 22) + close above $88 on reversal day.",
+    "risk": "Sharp macro selloff or ABT-specific negative catalyst could break support; 5.2% portfolio weight limits damage but loss already significant.",
     "outlook": "cautious",
-    "timeframe": "3-6 weeks (await squeeze resolution and technical confirmation before repositioning)",
-    "generated_at": "2026-05-26T23:07:09.139388",
-    "price_at_generation": 86.67,
-    "pnl_at_generation": -21.04
+    "timeframe": "2-4 weeks (await BB squeeze resolution + next earnings cycle prep)",
+    "generated_at": "2026-05-27T23:15:02.526571",
+    "price_at_generation": 85.68,
+    "pnl_at_generation": -21.95
   },
   "history": [
+    {
+      "ticker": "ABT",
+      "company_name": "Abbott Laboratories",
+      "action": "Hold",
+      "action_reason": "Fundamentals remain healthy and VIX/Fear backdrop suggests contrarian opportunity, but the squeeze hasn't resolved and -21% drawdown warrants patience. Do not average down into weakness without technical confirmation.",
+      "target_price": 95.0,
+      "target_reasoning": "",
+      "exit_trigger": "Close below $83.50 (break below recent lows) on high volume; or if company-specific negative news emerges",
+      "add_trigger": "Bollinger Band breakout above $92 on volume spike; or RSI breaks above 55 with positive catalyst",
+      "risk": "Continued sideways/downward drift if market sentiment deteriorates; healthcare sector cyclical exposure in growth slowdown",
+      "outlook": "cautious",
+      "timeframe": "3-6 weeks (await squeeze resolution and technical confirmation before repositioning)",
+      "generated_at": "2026-05-26T23:07:09.139388",
+      "price_at_generation": 86.67,
+      "pnl_at_generation": -21.04,
+      "archived_at": "2026-05-27T23:15:02.526771"
+    },
     {
       "ticker": "ABT",
       "company_name": "Abbott Laboratories",
@@ -117,23 +134,6 @@
       "price_at_generation": 88.82,
       "pnl_at_generation": -19.09,
       "archived_at": "2026-05-20T23:10:23.502452"
-    },
-    {
-      "ticker": "ABT",
-      "company_name": "Abbott Laboratories",
-      "action": "Hold",
-      "action_reason": "Don't add into weakness without confirmation. RSI near oversold creates bounce potential, but lack of positive catalysts and Fear sentiment suggest waiting for reversal signal or earnings setup.",
-      "target_price": null,
-      "target_reasoning": "",
-      "exit_trigger": "Close below $85 (break of recent lows) or break of 200-day MA; stop loss at -25% ($82.33)",
-      "add_trigger": "RSI <30 with bullish divergence + close above $92; or company-specific positive catalyst",
-      "risk": "Healthcare sector cyclicality; valuation compression if macro outlook deteriorates; earnings disappointment in next cycle",
-      "outlook": "cautious",
-      "timeframe": "4-8 weeks",
-      "generated_at": "2026-05-18T22:58:58.679686",
-      "price_at_generation": 87.91,
-      "pnl_at_generation": -19.91,
-      "archived_at": "2026-05-19T23:01:14.983587"
     }
   ]
 }

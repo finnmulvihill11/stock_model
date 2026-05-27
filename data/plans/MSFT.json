@@ -3,19 +3,36 @@
     "ticker": "MSFT",
     "company_name": "Microsoft Corporation",
     "action": "Hold",
-    "action_reason": "BB squeeze + 50/200 MA convergence are early-stage bullish signals. Let the golden cross confirm before adding; RSI neutral gives room to run upside. Position weight is high\u2014do not add until reversal clarity.",
+    "action_reason": "Technical setup is forming (squeeze + golden cross approach) but needs confirmation. Extreme Fear + healthy fundamentals support holding, but drawdown size and portfolio weight argue against adding until breakout confirmation above resistance.",
     "target_price": 445,
     "target_reasoning": "",
-    "exit_trigger": "Close below $405 (break below 200 MA) OR portfolio reallocation needed if weight exceeds 30%",
-    "add_trigger": "Golden cross confirmed (50 MA > 200 MA) AND close above $430 on volume",
-    "risk": "Continued downside if golden cross fails to materialize; macro weakness (VIX 'Fear') could trigger broader selloff",
+    "exit_trigger": "Break below 400 (invalidates golden cross setup) OR hold breaks below 405 with increased volume on bad macro news",
+    "add_trigger": "BB squeeze breaks upward past $425 on volume + RSI crosses above 55 (golden cross confirmed)",
+    "risk": "Macro selloff in risk-off environment; concentration risk (25.1% weight) amplifies further losses if thesis breaks",
     "outlook": "cautious",
-    "timeframe": "2-4 weeks for golden cross confirmation; reassess at $445 target",
-    "generated_at": "2026-05-26T23:07:02.337208",
-    "price_at_generation": 416.03,
-    "pnl_at_generation": -10.95
+    "timeframe": "2-4 weeks for BB expansion + golden cross confirmation",
+    "generated_at": "2026-05-27T23:14:54.071928",
+    "price_at_generation": 412.67,
+    "pnl_at_generation": -11.67
   },
   "history": [
+    {
+      "ticker": "MSFT",
+      "company_name": "Microsoft Corporation",
+      "action": "Hold",
+      "action_reason": "BB squeeze + 50/200 MA convergence are early-stage bullish signals. Let the golden cross confirm before adding; RSI neutral gives room to run upside. Position weight is high\u2014do not add until reversal clarity.",
+      "target_price": 445,
+      "target_reasoning": "",
+      "exit_trigger": "Close below $405 (break below 200 MA) OR portfolio reallocation needed if weight exceeds 30%",
+      "add_trigger": "Golden cross confirmed (50 MA > 200 MA) AND close above $430 on volume",
+      "risk": "Continued downside if golden cross fails to materialize; macro weakness (VIX 'Fear') could trigger broader selloff",
+      "outlook": "cautious",
+      "timeframe": "2-4 weeks for golden cross confirmation; reassess at $445 target",
+      "generated_at": "2026-05-26T23:07:02.337208",
+      "price_at_generation": 416.03,
+      "pnl_at_generation": -10.95,
+      "archived_at": "2026-05-27T23:14:54.072155"
+    },
     {
       "ticker": "MSFT",
       "company_name": "Microsoft Corporation",
@@ -117,23 +134,6 @@
       "price_at_generation": 417.42,
       "pnl_at_generation": -10.65,
       "archived_at": "2026-05-20T23:10:16.574548"
-    },
-    {
-      "ticker": "MSFT",
-      "company_name": "Microsoft Corporation",
-      "action": "Hold",
-      "action_reason": "Technical indicators (BB squeeze, MACD valley, MA convergence) suggest early-stage accumulation phase with breakout potential over 2-4 weeks. Current -9.34% loss makes adding imprudent without confirmation. Wait for RSI >50 or break above upper BB to signal momentum confirmation.",
-      "target_price": 445,
-      "target_reasoning": "",
-      "exit_trigger": "Break below 50-MA (\u2248415) on heavy volume OR close below 420 on confirmed negative catalyst",
-      "add_trigger": "RSI breaks above 55 + close above upper Bollinger Band, OR 50-MA golden cross confirmed + RSI >60",
-      "risk": "Squeeze breakout could be downside trap; 24% weight magnifies drawdown if tech rotation accelerates",
-      "outlook": "neutral",
-      "timeframe": "3-6 weeks for MA cross confirmation + potential BB breakout resolution",
-      "generated_at": "2026-05-18T22:58:51.671422",
-      "price_at_generation": 423.54,
-      "pnl_at_generation": -9.34,
-      "archived_at": "2026-05-19T23:01:07.989803"
     }
   ]
 }

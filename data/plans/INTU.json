@@ -3,19 +3,36 @@
     "ticker": "INTU",
     "company_name": "Intuit Inc.",
     "action": "Start Trimming",
-    "action_reason": "Reduce weight to <15% to manage concentration risk. Use any bounce toward $320-330 to trim 1 share, realizing that oversold conditions can reverse sharply but don't guarantee recovery. Protect capital on a position that's significantly overweighted.",
-    "target_price": 320,
+    "action_reason": "Reduce position to 1-2 shares to lower portfolio weight to ~10-15% and lock in cash for recovery opportunities. The extreme fear and post-earnings timing suggest further downside before reversal; trimming lets you participate in bounces without full exposure to continued selling.",
+    "target_price": 330,
     "target_reasoning": "",
-    "exit_trigger": "Break below 371.71 (negating divergence signal); or any close below 350 on volume",
-    "add_trigger": "Only add if divergence confirms with 3-5% bounce AND price stabilizes above 390 on fundamentals strength",
-    "risk": "Further compression below 350 invalidates the RSI divergence setup; concentrated position amplifies losses",
+    "exit_trigger": "Break below $300 (technical support failure) or if VIX spikes >22 indicating broader market stress",
+    "add_trigger": "RSI crosses above 50 with volume confirmation AND price holds above $320 for 3+ days",
+    "risk": "Continued post-earnings weakness; healthy fundamentals may not support recovery for 3-6 weeks; high portfolio concentration amplifies loss impact",
     "outlook": "cautious",
-    "timeframe": "1-3 weeks for position trim; monitor RSI divergence over next 5-10 trading sessions",
-    "generated_at": "2026-05-26T23:06:53.847236",
-    "price_at_generation": 304.35,
-    "pnl_at_generation": -35.01
+    "timeframe": "3-6 weeks",
+    "generated_at": "2026-05-27T23:14:46.160414",
+    "price_at_generation": 307.73,
+    "pnl_at_generation": -34.29
   },
   "history": [
+    {
+      "ticker": "INTU",
+      "company_name": "Intuit Inc.",
+      "action": "Start Trimming",
+      "action_reason": "Reduce weight to <15% to manage concentration risk. Use any bounce toward $320-330 to trim 1 share, realizing that oversold conditions can reverse sharply but don't guarantee recovery. Protect capital on a position that's significantly overweighted.",
+      "target_price": 320,
+      "target_reasoning": "",
+      "exit_trigger": "Break below 371.71 (negating divergence signal); or any close below 350 on volume",
+      "add_trigger": "Only add if divergence confirms with 3-5% bounce AND price stabilizes above 390 on fundamentals strength",
+      "risk": "Further compression below 350 invalidates the RSI divergence setup; concentrated position amplifies losses",
+      "outlook": "cautious",
+      "timeframe": "1-3 weeks for position trim; monitor RSI divergence over next 5-10 trading sessions",
+      "generated_at": "2026-05-26T23:06:53.847236",
+      "price_at_generation": 304.35,
+      "pnl_at_generation": -35.01,
+      "archived_at": "2026-05-27T23:14:46.160608"
+    },
     {
       "ticker": "INTU",
       "company_name": "Intuit Inc.",
@@ -117,23 +134,6 @@
       "price_at_generation": 399.71,
       "pnl_at_generation": -14.64,
       "archived_at": "2026-05-20T23:10:07.116633"
-    },
-    {
-      "ticker": "INTU",
-      "company_name": "Intuit Inc.",
-      "action": "Hold",
-      "action_reason": "Earnings in 2 days make entry/exit timing dangerous. Technical squeeze + MACD upturn shows potential recovery setup, but fundamentals alone don't justify 34.2% weighting. Hold existing position through earnings, then reassess.",
-      "target_price": 425,
-      "target_reasoning": "",
-      "exit_trigger": "Close below $395 post-earnings OR if earnings miss consensus and guidance declines; trim 1sh immediately if rebounds to $435+",
-      "add_trigger": "Do not add before earnings. Post-earnings: only if beats + guidance raised AND holds above $420 on volume",
-      "risk": "Earnings miss \u2192 gap down below $380; concentration risk means losses amplify portfolio impact",
-      "outlook": "cautious",
-      "timeframe": "2-10 days (earnings catalyst window)",
-      "generated_at": "2026-05-18T22:58:43.422465",
-      "price_at_generation": 403.16,
-      "pnl_at_generation": -13.91,
-      "archived_at": "2026-05-19T23:01:00.161641"
     }
   ]
 }

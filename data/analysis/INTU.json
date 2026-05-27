@@ -3,29 +3,29 @@
   "signal": {
     "ticker": "INTU",
     "direction": "buy",
-    "tier": "Watch",
-    "buy_score": 0.5,
+    "tier": "Hold",
+    "buy_score": 0.38,
     "sell_score": 0.29,
     "reasons": [
-      "BB: price near lower band (pct=-0.10)",
-      "RSI: oversold zone (28.6)",
+      "BB: price near lower band (pct=0.01)",
       "RSI Divergence: Price lower low (371.71 < 383.30) but RSI higher low (45.6 > 38.4)",
-      "Volume: above average (2.13x)"
+      "Volume: above average (1.43x)"
     ],
     "misses": [
       "BB Width: bands expanding, not squeezing",
+      "RSI: not in buy zone (31.0, need 20-30)",
       "MACD: no bullish crossover or valley",
       "200MA: price below 200MA \u2014 potential falling knife",
-      "Death cross active: 50MA (399.35) below 200MA (554.33)"
+      "Death cross active: 50MA (396.48) below 200MA (552.15)"
     ],
-    "price": 304.35,
-    "rsi": 28.6,
-    "atr": 23.35,
-    "final_tier": "Watch",
+    "price": 307.73,
+    "rsi": 31.0,
+    "atr": 23.16,
+    "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 2,
-      "suggested_dollars": 608.7,
-      "note": "2 shares @ $304.35 = $609 | $543 swing budget remaining after"
+      "suggested_dollars": 615.46,
+      "note": "2 shares @ $307.73 = $615 | $536 swing budget remaining after"
     }
   },
   "fundamentals": {
@@ -54,7 +54,7 @@
       ],
       "earnings_status": "past",
       "next_earnings_date": "2026-05-20",
-      "days_to_earnings": -6
+      "days_to_earnings": -7
     }
   },
   "news": {
@@ -62,34 +62,35 @@
     "sentiment": "neutral",
     "health": "healthy",
     "key_events": [
-      "RSI divergence detected: Price making lower lows (371.71 vs 383.30) while RSI makes higher lows (45.6 vs 38.4) - classic bullish divergence signal",
-      "Price at Bollinger Band lower band with oversold RSI (28.6) - potential mean reversion setup",
-      "Earnings passed 6 days ago - no new catalyst uncertainty"
+      "Recent earnings miss (-7d) likely catalyst for sharp decline",
+      "Price found support near lower Bollinger Band",
+      "RSI divergence suggests potential momentum shift (higher lows despite lower price lows)",
+      "Above-average volume on decline indicates capitulation selling"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "35% underwater on position - significant drawdown suggesting potential forced liquidation risk or poor entry timing",
-      "27.9% portfolio weight - extreme concentration in single losing position",
-      "No recent news available - information vacuum during recovery phase",
-      "Fear sentiment in broader market despite neutral VIX - possible sector/individual stock weakness"
+      "34% unrealized loss indicates poor entry timing",
+      "28.1% portfolio weight creates significant concentration risk",
+      "Extreme Fear sentiment suggests panic selling may continue",
+      "Post-earnings selloff pattern often continues 1-2 weeks after miss"
     ],
-    "verdict": "INTU shows technical setup for bounce (RSI divergence + oversold) but position sizing and drawdown magnitude present serious risk management concerns.",
+    "verdict": "INTU is technically oversold with bullish divergence signals, but recent earnings miss warrants caution; position is over-weighted and underwater.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "INTU",
-    "stock_return_3m": -14.89,
-    "benchmark_return_3m": 9.5,
-    "relative_strength": -24.39,
+    "stock_return_3m": -19.03,
+    "benchmark_return_3m": 8.56,
+    "relative_strength": -27.59,
     "label": "underperforming"
   },
-  "final_tier": "Watch",
+  "final_tier": "Hold",
   "sizing": {
     "suggested_shares": 2,
-    "suggested_dollars": 608.7,
-    "note": "2 shares @ $304.35 = $609 | $543 swing budget remaining after"
+    "suggested_dollars": 615.46,
+    "note": "2 shares @ $307.73 = $615 | $536 swing budget remaining after"
   },
   "is_dca": false,
-  "saved_at": "2026-05-26T23:06:53.847951"
+  "saved_at": "2026-05-27T23:14:46.161089"
 }
