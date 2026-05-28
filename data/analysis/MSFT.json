@@ -2,30 +2,29 @@
   "ticker": "MSFT",
   "signal": {
     "ticker": "MSFT",
-    "direction": "buy",
-    "tier": "Hold",
-    "buy_score": 0.25,
-    "sell_score": 0.43,
+    "direction": "sell",
+    "tier": "Watch",
+    "buy_score": 0.5,
+    "sell_score": 0.71,
     "reasons": [
-      "BB Width: squeeze active (width=0.0534)",
-      "50/200MA: converging upward toward golden cross"
+      "BB: price near upper band (pct=1.02)",
+      "BB Width: squeeze/contraction after expansion",
+      "RSI Divergence: Price higher high (422.62 > 419.86) but RSI lower high (46.2 < 48.9)",
+      "Death cross: 50MA (400.88) below 200MA (456.79)",
+      "Volume: above average on sell (1.36x) \u2014 confirms distribution"
     ],
     "misses": [
-      "BB: price not near lower band (pct=0.41)",
-      "RSI: not in buy zone (49.7, need 20-30)",
-      "MACD: no bullish crossover or valley",
-      "RSI Divergence: no bullish divergence detected",
-      "200MA: price below 200MA \u2014 potential falling knife",
-      "Volume: below average (0.80x) \u2014 low conviction"
+      "RSI: not in sell zone (55.5, need 70-80)",
+      "MACD: no bearish crossover or peak"
     ],
-    "price": 412.67,
-    "rsi": 49.7,
-    "atr": 10.28,
-    "final_tier": "Hold",
+    "price": 426.99,
+    "rsi": 55.5,
+    "atr": 10.48,
+    "final_tier": "Watch",
     "sizing": {
       "suggested_shares": 2,
-      "suggested_dollars": 825.34,
-      "note": "2 shares @ $412.67 = $825 | $326 swing budget remaining after"
+      "suggested_dollars": 853.98,
+      "note": "2 shares @ $426.99 = $854 | $298 swing budget remaining after"
     }
   },
   "fundamentals": {
@@ -54,7 +53,7 @@
       ],
       "earnings_status": "past",
       "next_earnings_date": "2026-04-29",
-      "days_to_earnings": -28
+      "days_to_earnings": -29
     }
   },
   "news": {
@@ -62,35 +61,34 @@
     "sentiment": "neutral",
     "health": "healthy",
     "key_events": [
-      "Bollinger Band squeeze active (width=0.0534) - volatility compression before expansion",
-      "50/200 MA converging upward toward golden cross - bullish technical setup forming",
-      "RSI at 49.7 - neutral zone, room to move either direction",
-      "Earnings passed 28 days ago - event risk behind us",
-      "Extreme Fear (F&G) - contrarian buy signal despite drawdown"
+      "Earnings passed 29 days ago - digestion phase",
+      "Price recovered from recent lows but showing weakness near resistance",
+      "VIX at 15.7 indicates stable market conditions"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "-11.67% drawdown from entry with 25.1% portfolio weight - concentration risk elevated",
-      "No recent news flow - information vacuum during technical setup phase",
-      "VIX 16.3 neutral but market could shift; Extreme Fear suggests capitulation may be near"
+      "Bearish RSI divergence: price HH but RSI LH signals weakening momentum",
+      "Unrealized loss of -8.60% with 25.5% portfolio weight creates concentration risk",
+      "Price near upper Bollinger Band suggests potential pullback zone",
+      "Extreme Fear sentiment despite neutral VIX - potential capitulation or disconnect"
     ],
-    "verdict": "MSFT shows technical reversal potential (BB squeeze + MA convergence) with healthy fundamentals, but current -11.67% loss requires patience for confirmation before adding.",
+    "verdict": "Position is technically weakening despite healthy fundamentals; wait for momentum confirmation before adding.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "MSFT",
-    "stock_return_3m": 3.24,
-    "benchmark_return_3m": 8.56,
-    "relative_strength": -5.33,
-    "label": "underperforming"
+    "stock_return_3m": 6.52,
+    "benchmark_return_3m": 9.77,
+    "relative_strength": -3.25,
+    "label": "in-line"
   },
-  "final_tier": "Hold",
+  "final_tier": "Watch",
   "sizing": {
     "suggested_shares": 2,
-    "suggested_dollars": 825.34,
-    "note": "2 shares @ $412.67 = $825 | $326 swing budget remaining after"
+    "suggested_dollars": 853.98,
+    "note": "2 shares @ $426.99 = $854 | $298 swing budget remaining after"
   },
   "is_dca": false,
-  "saved_at": "2026-05-27T23:14:54.072649"
+  "saved_at": "2026-05-28T23:13:39.445226"
 }

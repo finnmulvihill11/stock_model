@@ -2,20 +2,37 @@
   "current": {
     "ticker": "DECK",
     "company_name": "Deckers Outdoor Corporation",
-    "action": "Hold",
-    "action_reason": "Position is profitable with healthy fundamentals and solid technicals, but RSI proximity to overbought and lack of news warrant waiting for either a pullback to add or stronger momentum confirmation before trimming.",
-    "target_price": 122.5,
+    "action": "Start Trimming",
+    "action_reason": "Sell 1 share to lock in 17.6% gains and reduce weight below 5%; earnings volatility has passed, RSI nearing resistance, and lack of news suggests consolidation likely. Keep 1 share for continued upside if 200MA holds.",
+    "target_price": 125,
     "target_reasoning": "",
-    "exit_trigger": "Close below 200MA (103.06) or RSI breaks below 50 on pullback",
-    "add_trigger": "Pullback to 108-110 range (support near 200MA) with RSI <60 + positive news catalyst",
-    "risk": "Post-earnings fade + mean reversion from overbought RSI; broader market correction given Extreme Fear sentiment",
-    "outlook": "short",
+    "exit_trigger": "Close below 200MA (103.13) on daily close\u2014signals trend break",
+    "add_trigger": "Pullback to 200MA (103-105 zone) with RSI <50 + bullish reversal candle",
+    "risk": "Earnings already passed but market sentiment (Extreme Fear) could trigger rotation out of retail/consumer discretionary; no news flow limits upside catalyst",
+    "outlook": "neutral",
     "timeframe": "2-4 weeks",
-    "generated_at": "2026-05-27T23:15:24.309567",
-    "price_at_generation": 114.37,
-    "pnl_at_generation": 17.69
+    "generated_at": "2026-05-28T23:14:14.222369",
+    "price_at_generation": 114.31,
+    "pnl_at_generation": 17.63
   },
   "history": [
+    {
+      "ticker": "DECK",
+      "company_name": "Deckers Outdoor Corporation",
+      "action": "Hold",
+      "action_reason": "Position is profitable with healthy fundamentals and solid technicals, but RSI proximity to overbought and lack of news warrant waiting for either a pullback to add or stronger momentum confirmation before trimming.",
+      "target_price": 122.5,
+      "target_reasoning": "",
+      "exit_trigger": "Close below 200MA (103.06) or RSI breaks below 50 on pullback",
+      "add_trigger": "Pullback to 108-110 range (support near 200MA) with RSI <60 + positive news catalyst",
+      "risk": "Post-earnings fade + mean reversion from overbought RSI; broader market correction given Extreme Fear sentiment",
+      "outlook": "short",
+      "timeframe": "2-4 weeks",
+      "generated_at": "2026-05-27T23:15:24.309567",
+      "price_at_generation": 114.37,
+      "pnl_at_generation": 17.69,
+      "archived_at": "2026-05-28T23:14:14.222562"
+    },
     {
       "ticker": "DECK",
       "company_name": "Deckers Outdoor Corporation",
@@ -117,23 +134,6 @@
       "price_at_generation": 98.24,
       "pnl_at_generation": 1.09,
       "archived_at": "2026-05-21T23:01:57.991555"
-    },
-    {
-      "ticker": "DECK",
-      "company_name": "Deckers Outdoor Corporation",
-      "action": "Start Trimming",
-      "action_reason": "Sell 1 share now to lock in fundamentals + de-risk ahead of earnings binary. RSI divergence + MACD recovery offer re-entry opportunity post-earnings if fundamentals remain healthy. Extreme Fear makes pre-earnings holding risky for swing position.",
-      "target_price": null,
-      "target_reasoning": "",
-      "exit_trigger": "Break below $92.50 (breaks recent lows) OR negative earnings surprise with guidance cut",
-      "add_trigger": "Post-earnings: RSI >40 + price rebounds to $96-97 on positive beat with healthy guidance",
-      "risk": "Earnings miss causing gap down below $90; volatility spike on negative commentary despite healthy fundamentals",
-      "outlook": "cautious",
-      "timeframe": "2-6 weeks (trim ahead of earnings, reassess post-announcement)",
-      "generated_at": "2026-05-19T23:01:36.233750",
-      "price_at_generation": 94.27,
-      "pnl_at_generation": -2.99,
-      "archived_at": "2026-05-20T23:10:45.410135"
     }
   ]
 }

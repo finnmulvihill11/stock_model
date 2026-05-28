@@ -3,19 +3,36 @@
     "ticker": "CMG",
     "company_name": "Chipotle Mexican Grill, Inc.",
     "action": "Hold",
-    "action_reason": "Position is up 3.88% with modest 4% portfolio weight. Squeeze setup offers limited immediate upside; wait for RSI break above 55 or BB breakout before adding. Current risk/reward not compelling enough for new capital.",
-    "target_price": null,
+    "action_reason": "Current 3% gain provides cushion; BB squeeze suggests imminent volatility expansion. Hold existing 4sh while monitoring RSI recovery above 50 or breakdown below 40 for directional conviction.",
+    "target_price": 34.5,
     "target_reasoning": "",
-    "exit_trigger": "Close below lower BB or RSI below 40 with volume; stop-loss at $31.00 (support break)",
-    "add_trigger": "RSI >55 + close above upper BB on >avg volume; bullish breakout confirmation",
-    "risk": "High leverage (2.2x D/E) magnifies downside if macro deteriorates; squeeze breakout could be false if VIX spikes",
-    "outlook": "neutral",
+    "exit_trigger": "RSI drops below 35 OR break below $31.20 (position entry level) on volume",
+    "add_trigger": "RSI >55 + BB upper band breakout + positive news catalyst (earnings beat, unit growth announcement)",
+    "risk": "High debt-to-equity (2.2x) amplifies downside in market correction; BB squeeze break could go either direction sharply",
+    "outlook": "cautious",
     "timeframe": "2-4 weeks",
-    "generated_at": "2026-05-27T23:15:16.944492",
-    "price_at_generation": 32.69,
-    "pnl_at_generation": 3.88
+    "generated_at": "2026-05-28T23:14:06.524705",
+    "price_at_generation": 32.42,
+    "pnl_at_generation": 3.02
   },
   "history": [
+    {
+      "ticker": "CMG",
+      "company_name": "Chipotle Mexican Grill, Inc.",
+      "action": "Hold",
+      "action_reason": "Position is up 3.88% with modest 4% portfolio weight. Squeeze setup offers limited immediate upside; wait for RSI break above 55 or BB breakout before adding. Current risk/reward not compelling enough for new capital.",
+      "target_price": null,
+      "target_reasoning": "",
+      "exit_trigger": "Close below lower BB or RSI below 40 with volume; stop-loss at $31.00 (support break)",
+      "add_trigger": "RSI >55 + close above upper BB on >avg volume; bullish breakout confirmation",
+      "risk": "High leverage (2.2x D/E) magnifies downside if macro deteriorates; squeeze breakout could be false if VIX spikes",
+      "outlook": "neutral",
+      "timeframe": "2-4 weeks",
+      "generated_at": "2026-05-27T23:15:16.944492",
+      "price_at_generation": 32.69,
+      "pnl_at_generation": 3.88,
+      "archived_at": "2026-05-28T23:14:06.524923"
+    },
     {
       "ticker": "CMG",
       "company_name": "Chipotle Mexican Grill, Inc.",
@@ -117,23 +134,6 @@
       "price_at_generation": 32.96,
       "pnl_at_generation": 4.73,
       "archived_at": "2026-05-21T23:01:49.986271"
-    },
-    {
-      "ticker": "CMG",
-      "company_name": "Chipotle Mexican Grill, Inc.",
-      "action": "Hold",
-      "action_reason": "Position is small (3.8% weight), profitable, and BB squeeze offers potential breakout. However, high debt and lack of news catalyst warrant patience\u2014don't add until breakout confirms or fear subsides.",
-      "target_price": 35.5,
-      "target_reasoning": "",
-      "exit_trigger": "Close below $31.50 (entry support) or VIX spikes >25 with negative earnings guidance",
-      "add_trigger": "BB squeeze breaks above upper band + RSI >60 + positive same-store sales catalyst",
-      "risk": "Debt burden amplifies downside in economic slowdown; squeeze could break lower instead of higher",
-      "outlook": "neutral",
-      "timeframe": "2-4 weeks",
-      "generated_at": "2026-05-19T23:01:29.292761",
-      "price_at_generation": 33.04,
-      "pnl_at_generation": 4.99,
-      "archived_at": "2026-05-20T23:10:37.961069"
     }
   ]
 }

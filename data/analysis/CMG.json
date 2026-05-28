@@ -5,27 +5,27 @@
     "direction": "buy",
     "tier": "Hold",
     "buy_score": 0.12,
-    "sell_score": 0.29,
+    "sell_score": 0.43,
     "reasons": [
-      "BB Width: squeeze active (width=0.0667)"
+      "BB Width: squeeze active (width=0.0669)"
     ],
     "misses": [
-      "BB: price not near lower band (pct=0.48)",
-      "RSI: not in buy zone (49.6, need 20-30)",
+      "BB: price not near lower band (pct=0.37)",
+      "RSI: not in buy zone (43.6, need 20-30)",
       "MACD: no bullish crossover or valley",
       "RSI Divergence: no bullish divergence detected",
       "200MA: price below 200MA \u2014 potential falling knife",
-      "Death cross active: 50MA (33.29) below 200MA (36.78)",
-      "Volume: below average (0.78x) \u2014 low conviction"
+      "Death cross active: 50MA (33.25) below 200MA (36.74)",
+      "Volume: below average (0.89x) \u2014 low conviction"
     ],
-    "price": 32.69,
-    "rsi": 49.6,
-    "atr": 1.02,
+    "price": 32.42,
+    "rsi": 43.6,
+    "atr": 1.0,
     "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 35,
-      "suggested_dollars": 1144.15,
-      "note": "35 shares @ $32.69 = $1,144 | $8 swing budget remaining after"
+      "suggested_dollars": 1134.7,
+      "note": "35 shares @ $32.42 = $1,135 | $17 swing budget remaining after"
     }
   },
   "fundamentals": {
@@ -55,7 +55,7 @@
       ],
       "earnings_status": "past",
       "next_earnings_date": "2026-04-29",
-      "days_to_earnings": -28
+      "days_to_earnings": -29
     }
   },
   "news": {
@@ -63,34 +63,36 @@
     "sentiment": "neutral",
     "health": "neutral",
     "key_events": [
-      "Bollinger Band squeeze active (width=0.0667) \u2014 volatility compression suggests breakout imminent",
-      "RSI at 49.6 \u2014 perfectly neutral, no overbought/oversold conditions",
-      "Earnings passed 28 days ago \u2014 no near-term catalyst risk",
-      "VIX 16.3 with Extreme Fear gauge \u2014 market dislocations may create swings"
+      "Bollinger Band squeeze active (width=0.0669) - volatility compression phase",
+      "RSI at 43.6 - below 50 midpoint, no overbought condition",
+      "Earnings reported 29 days ago - initial reaction likely priced in",
+      "VIX at 15.7 - market neutral, no macro tailwinds/headwinds",
+      "Extreme Fear indicator present despite modest 3% gain"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "High debt-to-equity (2.2x) \u2014 leverage risk elevated in rising rate environment",
-      "No recent news flow \u2014 lack of catalyst clarity",
-      "BB squeeze + neutral RSI = low conviction setup, waiting for directional confirmation"
+      "High debt-to-equity ratio (2.2x) - balance sheet leverage during potential downturn risk",
+      "No recent news catalysts visible - 10 empty slots suggest quiet period",
+      "RSI deterioration potential - at 43.6 with room to drop to oversold",
+      "BB squeeze before expansion - historically leads to sharp directional move (unknown direction)"
     ],
-    "verdict": "CMG is in a technical compression phase with neutral fundamentals; ideal for swing traders awaiting a breakout confirmation.",
+    "verdict": "CMG is in a consolidation pattern with high leverage risk; await squeeze breakout direction confirmation before committing more capital.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "CMG",
-    "stock_return_3m": -12.83,
-    "benchmark_return_3m": 8.56,
-    "relative_strength": -21.39,
+    "stock_return_3m": -14.8,
+    "benchmark_return_3m": 9.77,
+    "relative_strength": -24.57,
     "label": "underperforming"
   },
   "final_tier": "Hold",
   "sizing": {
     "suggested_shares": 35,
-    "suggested_dollars": 1144.15,
-    "note": "35 shares @ $32.69 = $1,144 | $8 swing budget remaining after"
+    "suggested_dollars": 1134.7,
+    "note": "35 shares @ $32.42 = $1,135 | $17 swing budget remaining after"
   },
   "is_dca": false,
-  "saved_at": "2026-05-27T23:15:16.945230"
+  "saved_at": "2026-05-28T23:14:06.525415"
 }
