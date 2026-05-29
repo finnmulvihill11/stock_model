@@ -3,19 +3,36 @@
     "ticker": "CMG",
     "company_name": "Chipotle Mexican Grill, Inc.",
     "action": "Hold",
-    "action_reason": "Current 3% gain provides cushion; BB squeeze suggests imminent volatility expansion. Hold existing 4sh while monitoring RSI recovery above 50 or breakdown below 40 for directional conviction.",
-    "target_price": 34.5,
+    "action_reason": "Position is small (3.7% weight) with modest gains (+1.24%). Wait for either BB squeeze breakout confirmation (upside) or RSI confirmation of oversold reversal before adding. Current technical setup is interesting but not yet actionable without catalyst.",
+    "target_price": null,
     "target_reasoning": "",
-    "exit_trigger": "RSI drops below 35 OR break below $31.20 (position entry level) on volume",
-    "add_trigger": "RSI >55 + BB upper band breakout + positive news catalyst (earnings beat, unit growth announcement)",
-    "risk": "High debt-to-equity (2.2x) amplifies downside in market correction; BB squeeze break could go either direction sharply",
+    "exit_trigger": "Break below lower BB band on volume OR RSI drops below 30 without recovery (deteriorating momentum)",
+    "add_trigger": "BB squeeze breakout to upside on volume + RSI crosses above 50 OR positive earnings/same-store sales catalyst emerges",
+    "risk": "Debt burden limits downside support; lack of news removes bullish catalysts; potential earnings disappointment if fundamentals deteriorate",
     "outlook": "cautious",
     "timeframe": "2-4 weeks",
-    "generated_at": "2026-05-28T23:14:06.524705",
-    "price_at_generation": 32.42,
-    "pnl_at_generation": 3.02
+    "generated_at": "2026-05-29T23:10:32.817577",
+    "price_at_generation": 31.86,
+    "pnl_at_generation": 1.24
   },
   "history": [
+    {
+      "ticker": "CMG",
+      "company_name": "Chipotle Mexican Grill, Inc.",
+      "action": "Hold",
+      "action_reason": "Current 3% gain provides cushion; BB squeeze suggests imminent volatility expansion. Hold existing 4sh while monitoring RSI recovery above 50 or breakdown below 40 for directional conviction.",
+      "target_price": 34.5,
+      "target_reasoning": "",
+      "exit_trigger": "RSI drops below 35 OR break below $31.20 (position entry level) on volume",
+      "add_trigger": "RSI >55 + BB upper band breakout + positive news catalyst (earnings beat, unit growth announcement)",
+      "risk": "High debt-to-equity (2.2x) amplifies downside in market correction; BB squeeze break could go either direction sharply",
+      "outlook": "cautious",
+      "timeframe": "2-4 weeks",
+      "generated_at": "2026-05-28T23:14:06.524705",
+      "price_at_generation": 32.42,
+      "pnl_at_generation": 3.02,
+      "archived_at": "2026-05-29T23:10:32.817802"
+    },
     {
       "ticker": "CMG",
       "company_name": "Chipotle Mexican Grill, Inc.",
@@ -117,23 +134,6 @@
       "price_at_generation": 32.8,
       "pnl_at_generation": 4.23,
       "archived_at": "2026-05-22T22:56:20.301763"
-    },
-    {
-      "ticker": "CMG",
-      "company_name": "Chipotle Mexican Grill, Inc.",
-      "action": "Hold",
-      "action_reason": "Current 4.73% gain provides reasonable buffer; BB squeeze indicates volatility compression before directional move. Wait for squeeze breakdown (width expansion) or RSI break above 50 to confirm bullish continuation before adding.",
-      "target_price": null,
-      "target_reasoning": "",
-      "exit_trigger": "Break below $31.47 (entry level) on volume OR RSI falls to 35 with BB lower band breakdown",
-      "add_trigger": "RSI breaks above 50 + BB width expands >0.12 on volume, or positive CMG-specific news catalyst emerges",
-      "risk": "High leverage (2.2x D/E) amplifies downside if sector rotates; consolidation could break lower into fear-driven selling",
-      "outlook": "cautious",
-      "timeframe": "2-4 weeks (until BB squeeze resolves)",
-      "generated_at": "2026-05-20T23:10:37.960835",
-      "price_at_generation": 32.96,
-      "pnl_at_generation": 4.73,
-      "archived_at": "2026-05-21T23:01:49.986271"
     }
   ]
 }
