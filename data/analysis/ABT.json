@@ -2,29 +2,30 @@
   "ticker": "ABT",
   "signal": {
     "ticker": "ABT",
-    "direction": "sell",
-    "tier": "Watch",
-    "buy_score": 0.25,
-    "sell_score": 0.57,
+    "direction": "buy",
+    "tier": "Hold",
+    "buy_score": 0.12,
+    "sell_score": 0.29,
     "reasons": [
-      "BB Width: squeeze/contraction after expansion",
-      "MACD: histogram at peak / turning down",
-      "Death cross: 50MA (93.97) below 200MA (115.48)",
-      "Volume: above average on sell (1.67x) \u2014 confirms distribution"
+      "BB Width: squeeze active (width=0.0794)"
     ],
     "misses": [
-      "BB: price not near upper band (pct=0.40)",
-      "RSI: not in sell zone (54.5, need 70-80)",
-      "RSI Divergence: no bearish divergence detected"
+      "BB: price not near lower band (pct=0.73)",
+      "RSI: not in buy zone (67.6, need 20-30)",
+      "MACD: no bullish crossover or valley",
+      "RSI Divergence: no bullish divergence detected",
+      "200MA: price below 200MA \u2014 potential falling knife",
+      "Death cross active: 50MA (93.60) below 200MA (115.28)",
+      "Volume: below average (0.71x) \u2014 low conviction"
     ],
-    "price": 85.6,
-    "rsi": 54.5,
+    "price": 87.78,
+    "rsi": 67.6,
     "atr": 1.95,
-    "final_tier": "Watch",
+    "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 13,
-      "suggested_dollars": 1112.8,
-      "note": "13 shares @ $85.60 = $1,113 | $39 swing budget remaining after"
+      "suggested_dollars": 1141.14,
+      "note": "13 shares @ $87.78 = $1,141 | $11 swing budget remaining after"
     }
   },
   "fundamentals": {
@@ -53,44 +54,42 @@
       ],
       "earnings_status": "past",
       "next_earnings_date": "2026-04-16",
-      "days_to_earnings": -43
+      "days_to_earnings": -46
     }
   },
   "news": {
     "ticker": "ABT",
-    "sentiment": "negative",
+    "sentiment": "neutral",
     "health": "healthy",
     "key_events": [
-      "Death cross formed: 50MA below 200MA signals intermediate downtrend",
-      "MACD histogram peaking with downward reversal suggests momentum loss",
-      "Bollinger Band squeeze after expansion indicates volatility contraction before potential breakout",
-      "Extreme Fear sentiment provides contrarian accumulation opportunity",
-      "Earnings passed 43 days ago\u2014no near-term catalysts"
+      "Earnings reported 46 days ago",
+      "Bollinger Band squeeze active - volatility compression phase",
+      "RSI at 67.6 - approaching overbought on recovery"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "22% underwater on position; technical structure broken",
-      "Death cross is confirmed downtrend signal",
-      "MACD histogram turning down at peak = losing upside momentum",
-      "RSI 54.5 neutral but not supportive; no oversold bounce setup yet"
+      "Significant drawdown of -20.03% from entry",
+      "No recent news catalysts visible",
+      "Fear sentiment in broader market despite neutral VIX",
+      "Position sizing concentrated at 5.0% with underwater status"
     ],
-    "verdict": "ABT is in a confirmed downtrend with momentum deteriorating; hold existing position but do not add until technical structure stabilizes below current support.",
+    "verdict": "ABT fundamentals remain healthy but technical setup is neutral; current squeeze suggests imminent volatility expansion with unclear direction.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "ABT",
-    "stock_return_3m": -25.97,
-    "benchmark_return_3m": 10.58,
-    "relative_strength": -36.54,
+    "stock_return_3m": -22.6,
+    "benchmark_return_3m": 10.81,
+    "relative_strength": -33.41,
     "label": "underperforming"
   },
-  "final_tier": "Watch",
+  "final_tier": "Hold",
   "sizing": {
     "suggested_shares": 13,
-    "suggested_dollars": 1112.8,
-    "note": "13 shares @ $85.60 = $1,113 | $39 swing budget remaining after"
+    "suggested_dollars": 1141.14,
+    "note": "13 shares @ $87.78 = $1,141 | $11 swing budget remaining after"
   },
   "is_dca": false,
-  "saved_at": "2026-05-29T23:10:18.664491"
+  "saved_at": "2026-06-01T23:26:12.764188"
 }

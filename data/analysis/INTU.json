@@ -9,23 +9,23 @@
     "reasons": [
       "MACD: histogram at valley / turning up",
       "RSI Divergence: Price lower low (371.71 < 383.30) but RSI higher low (45.6 > 38.4)",
-      "Volume: above average (1.64x)"
+      "Volume: above average (1.13x)"
     ],
     "misses": [
-      "BB: price not near lower band (pct=0.25)",
+      "BB: price not near lower band (pct=0.41)",
       "BB Width: bands expanding, not squeezing",
-      "RSI: not in buy zone (34.4, need 20-30)",
+      "RSI: not in buy zone (41.3, need 20-30)",
       "200MA: price below 200MA \u2014 potential falling knife",
-      "Death cross active: 50MA (391.31) below 200MA (548.32)"
+      "Death cross active: 50MA (389.31) below 200MA (546.55)"
     ],
-    "price": 331.53,
-    "rsi": 34.4,
-    "atr": 22.49,
+    "price": 353.76,
+    "rsi": 41.3,
+    "atr": 23.96,
     "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 2,
-      "suggested_dollars": 663.06,
-      "note": "2 shares @ $331.53 = $663 | $489 swing budget remaining after"
+      "suggested_dollars": 707.52,
+      "note": "2 shares @ $353.76 = $708 | $444 swing budget remaining after"
     }
   },
   "fundamentals": {
@@ -54,7 +54,7 @@
       ],
       "earnings_status": "past",
       "next_earnings_date": "2026-05-20",
-      "days_to_earnings": -9
+      "days_to_earnings": -12
     }
   },
   "news": {
@@ -62,33 +62,35 @@
     "sentiment": "neutral",
     "health": "healthy",
     "key_events": [
-      "Earnings reported 9 days ago",
-      "Price testing major support zone (331.53 near recent lows)",
-      "Bullish technical divergence forming"
+      "Earnings passed 12 days ago",
+      "MACD histogram at valley with upward turning signal",
+      "RSI divergence present - price lower low but RSI higher low (bullish signal)",
+      "Above average volume supporting recovery attempt"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "Significant drawdown (-29.2%) from entry",
-      "Extreme Fear sentiment despite healthy fundamentals suggests capitulation selling",
-      "No news catalysts visible to support recovery"
+      "Significant drawdown of -24.46% from entry",
+      "Position weight at 30.1% creates concentration risk",
+      "RSI at 41.3 still below midpoint (50), indicating weakness",
+      "Fear sentiment in broader market despite neutral VIX"
     ],
-    "verdict": "INTU showing textbook reversal setup with bullish divergence and MACD turning at valley; hold current position and selectively add if support holds.",
+    "verdict": "INTU shows technical recovery signals but remains in downtrend; wait for confirmation before adding.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "INTU",
-    "stock_return_3m": -18.7,
-    "benchmark_return_3m": 10.58,
-    "relative_strength": -29.27,
+    "stock_return_3m": -15.32,
+    "benchmark_return_3m": 10.81,
+    "relative_strength": -26.14,
     "label": "underperforming"
   },
   "final_tier": "Hold",
   "sizing": {
     "suggested_shares": 2,
-    "suggested_dollars": 663.06,
-    "note": "2 shares @ $331.53 = $663 | $489 swing budget remaining after"
+    "suggested_dollars": 707.52,
+    "note": "2 shares @ $353.76 = $708 | $444 swing budget remaining after"
   },
   "is_dca": false,
-  "saved_at": "2026-05-29T23:10:03.935320"
+  "saved_at": "2026-06-01T23:25:57.565198"
 }

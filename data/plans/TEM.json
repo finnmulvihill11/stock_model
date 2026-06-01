@@ -3,19 +3,36 @@
     "ticker": "TEM",
     "company_name": "Tempus AI, Inc.",
     "action": "Start Trimming",
-    "action_reason": "With 4.4% portfolio weight, negative fundamentals, post-earnings decline, and high debt burden, reduce exposure to lock in liquidity before potential further deterioration. Above-average volume provides exit opportunity.",
-    "target_price": null,
+    "action_reason": "Exit 1-2 shares to reduce exposure and lock in capital for reallocation. Fundamentals don't justify holding through further weakness, and debt levels pose tail risk. Retain 1 share to capture potential golden cross bounce if it confirms.",
+    "target_price": 58.5,
     "target_reasoning": "",
-    "exit_trigger": "Break below $48.00 or any news of debt restructuring; trim 50% immediately",
-    "add_trigger": "Only if RSI falls to <30 with positive earnings surprise and debt reduction announcement",
-    "risk": "Liquidity risk if cash burn accelerates; debt covenant violation could trigger forced liquidation",
+    "exit_trigger": "Close below 50MA (~$51.20) or break below $48 support; or if 50/200MA golden cross fails to hold above both lines",
+    "add_trigger": "Only if 50/200MA golden cross confirms above resistance AND company reports positive operating cash flow or debt reduction progress",
+    "risk": "Insolvency risk if debt servicing deteriorates; unprofitable business model with no clear path to profitability; technical bounce could reverse sharply",
     "outlook": "cautious",
-    "timeframe": "2-3 weeks",
-    "generated_at": "2026-05-29T23:10:25.393574",
-    "price_at_generation": 50.47,
-    "pnl_at_generation": -26.94
+    "timeframe": "2-4 weeks to confirm golden cross viability; exit decision by end of week if technicals don't hold",
+    "generated_at": "2026-06-01T23:26:20.168922",
+    "price_at_generation": 52.8,
+    "pnl_at_generation": -23.57
   },
   "history": [
+    {
+      "ticker": "TEM",
+      "company_name": "Tempus AI, Inc.",
+      "action": "Start Trimming",
+      "action_reason": "With 4.4% portfolio weight, negative fundamentals, post-earnings decline, and high debt burden, reduce exposure to lock in liquidity before potential further deterioration. Above-average volume provides exit opportunity.",
+      "target_price": null,
+      "target_reasoning": "",
+      "exit_trigger": "Break below $48.00 or any news of debt restructuring; trim 50% immediately",
+      "add_trigger": "Only if RSI falls to <30 with positive earnings surprise and debt reduction announcement",
+      "risk": "Liquidity risk if cash burn accelerates; debt covenant violation could trigger forced liquidation",
+      "outlook": "cautious",
+      "timeframe": "2-3 weeks",
+      "generated_at": "2026-05-29T23:10:25.393574",
+      "price_at_generation": 50.47,
+      "pnl_at_generation": -26.94,
+      "archived_at": "2026-06-01T23:26:20.169144"
+    },
     {
       "ticker": "TEM",
       "company_name": "Tempus AI, Inc.",
@@ -117,23 +134,6 @@
       "price_at_generation": 46.18,
       "pnl_at_generation": -33.15,
       "archived_at": "2026-05-24T17:28:59.892235"
-    },
-    {
-      "ticker": "TEM",
-      "company_name": "Tempus AI, Inc.",
-      "action": "Start Trimming",
-      "action_reason": "Cut position size by 33-50% now to lock in loss management while RSI bounces. Avoid holding through another potential breakdown; fundamentals don't support conviction for a full recovery hold.",
-      "target_price": 52,
-      "target_reasoning": "",
-      "exit_trigger": "Break below $44 (recent lows) or if RSI falls below 20 again without stabilizing revenue/cash flow news",
-      "add_trigger": "Only if: company announces debt restructuring, achieves positive FCF, or beats earnings with forward guidance raise AND price holds above $40",
-      "risk": "Continued cash burn, potential dilution, liquidation concerns if debt covenants breached",
-      "outlook": "cautious",
-      "timeframe": "2-4 weeks max for decision; don't let oversold conditions trap you into averaging down",
-      "generated_at": "2026-05-21T23:01:43.461454",
-      "price_at_generation": 46.49,
-      "pnl_at_generation": -32.7,
-      "archived_at": "2026-05-22T22:56:13.104151"
     }
   ]
 }
