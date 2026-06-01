@@ -3,36 +3,19 @@
     "ticker": "INTU",
     "company_name": "Intuit Inc.",
     "action": "Hold",
-    "action_reason": "MACD + RSI divergence suggest potential bounce, but position is deeply underwater. Holding lets you capture upside if recovery confirms while avoiding averaging into weakness.",
+    "action_reason": "RSI divergence (price lower low, RSI higher low) + MACD inflection + above-average volume indicate institutional accumulation. Post-earnings volatility has shaken out weak hands; fundamentals remain solid.",
     "target_price": 385,
     "target_reasoning": "",
-    "exit_trigger": "Close below $340 or RSI breaks below 35 on volume; exit if fundamentals deteriorate",
-    "add_trigger": "RSI crosses above 50 + price holds above $375 on 2 consecutive closes with volume confirmation",
-    "risk": "Further earnings disappointment; software/SaaS sector weakness; VIX spike could accelerate losses",
+    "exit_trigger": "Close below 315 (breaks recent support structure) OR reversal fails to exceed 360 within 3 weeks",
+    "add_trigger": "Confirmed MACD bullish crossover + RSI >40 with volume spike (suggests breakout attempt)",
+    "risk": "Rotation out of software/SaaS if market risk-off escalates; deteriorating customer growth metrics in next earnings",
     "outlook": "cautious",
-    "timeframe": "2-4 weeks",
-    "generated_at": "2026-06-01T23:25:57.564323",
-    "price_at_generation": 353.76,
-    "pnl_at_generation": -24.46
+    "timeframe": "3-6 weeks",
+    "generated_at": "2026-05-29T23:10:03.934404",
+    "price_at_generation": 331.53,
+    "pnl_at_generation": -29.2
   },
   "history": [
-    {
-      "ticker": "INTU",
-      "company_name": "Intuit Inc.",
-      "action": "Hold",
-      "action_reason": "RSI divergence (price lower low, RSI higher low) + MACD inflection + above-average volume indicate institutional accumulation. Post-earnings volatility has shaken out weak hands; fundamentals remain solid.",
-      "target_price": 385,
-      "target_reasoning": "",
-      "exit_trigger": "Close below 315 (breaks recent support structure) OR reversal fails to exceed 360 within 3 weeks",
-      "add_trigger": "Confirmed MACD bullish crossover + RSI >40 with volume spike (suggests breakout attempt)",
-      "risk": "Rotation out of software/SaaS if market risk-off escalates; deteriorating customer growth metrics in next earnings",
-      "outlook": "cautious",
-      "timeframe": "3-6 weeks",
-      "generated_at": "2026-05-29T23:10:03.934404",
-      "price_at_generation": 331.53,
-      "pnl_at_generation": -29.2,
-      "archived_at": "2026-06-01T23:25:57.564554"
-    },
     {
       "ticker": "INTU",
       "company_name": "Intuit Inc.",
@@ -134,6 +117,23 @@
       "price_at_generation": 319.94,
       "pnl_at_generation": -31.68,
       "archived_at": "2026-05-24T17:28:24.552331"
+    },
+    {
+      "ticker": "INTU",
+      "company_name": "Intuit Inc.",
+      "action": "Hold",
+      "action_reason": "RSI divergence + lower band support offer technical bounce potential, but add to portfolio only if fundamentals remain intact post-earnings. Current weight (28.2%) is elevated for a swing trade underwater.",
+      "target_price": 330,
+      "target_reasoning": "",
+      "exit_trigger": "Close below $300 or if RSI drops below 20 without bounce within 3-5 days",
+      "add_trigger": "Confirmation bounce off $300 support with RSI >40 + positive post-earnings guidance reiteration",
+      "risk": "Continued post-earnings selloff; no visible news support; tech sector rotation pressure",
+      "outlook": "cautious",
+      "timeframe": "2-4 weeks",
+      "generated_at": "2026-05-21T23:01:21.807430",
+      "price_at_generation": 307.07,
+      "pnl_at_generation": -34.43,
+      "archived_at": "2026-05-22T22:55:49.407657"
     }
   ]
 }
