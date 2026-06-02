@@ -3,19 +3,36 @@
     "ticker": "DECK",
     "company_name": "Deckers Outdoor Corporation",
     "action": "Start Trimming",
-    "action_reason": "Lock in +17% gains while RSI overbought; preserve capital as post-earnings stabilization plays out. Keep 1 share to ride 200MA support.",
-    "target_price": 118.5,
+    "action_reason": "Take 40-50% profits (1 share) at current overbought levels to lock in +14% gain while holding core for upside. RSI >75 historically precedes 3-5% corrections in DECK.",
+    "target_price": 115,
     "target_reasoning": "",
-    "exit_trigger": "Sell 1sh if price reaches $118.50 or RSI drops below 60 on volume",
-    "add_trigger": "Only re-add if price pulls back to 200MA (\u2248$103-105) on weak volume",
-    "risk": "Overbought pullback to 200MA support; Extreme Fear could trigger sharp correction if market sentiment shifts",
+    "exit_trigger": "Close below 50MA (103.38) or RSI drops below 50 with bearish volume",
+    "add_trigger": "Only add on pullback to 105-107 (200MA) with RSI <50 and new positive catalyst",
+    "risk": "Overbought exhaustion + post-earnings volatility; correction to 105 (200MA) is ~5% downside",
     "outlook": "short",
     "timeframe": "1-3 weeks",
-    "generated_at": "2026-05-29T23:10:39.792203",
-    "price_at_generation": 113.85,
-    "pnl_at_generation": 17.15
+    "generated_at": "2026-06-02T23:44:06.264371",
+    "price_at_generation": 110.79,
+    "pnl_at_generation": 14.0
   },
   "history": [
+    {
+      "ticker": "DECK",
+      "company_name": "Deckers Outdoor Corporation",
+      "action": "Start Trimming",
+      "action_reason": "Lock in +17% gains while RSI overbought; preserve capital as post-earnings stabilization plays out. Keep 1 share to ride 200MA support.",
+      "target_price": 118.5,
+      "target_reasoning": "",
+      "exit_trigger": "Sell 1sh if price reaches $118.50 or RSI drops below 60 on volume",
+      "add_trigger": "Only re-add if price pulls back to 200MA (\u2248$103-105) on weak volume",
+      "risk": "Overbought pullback to 200MA support; Extreme Fear could trigger sharp correction if market sentiment shifts",
+      "outlook": "short",
+      "timeframe": "1-3 weeks",
+      "generated_at": "2026-05-29T23:10:39.792203",
+      "price_at_generation": 113.85,
+      "pnl_at_generation": 17.15,
+      "archived_at": "2026-06-02T23:44:06.264578"
+    },
     {
       "ticker": "DECK",
       "company_name": "Deckers Outdoor Corporation",
@@ -117,23 +134,6 @@
       "price_at_generation": 106.67,
       "pnl_at_generation": 9.77,
       "archived_at": "2026-05-24T17:29:25.013138"
-    },
-    {
-      "ticker": "DECK",
-      "company_name": "Deckers Outdoor Corporation",
-      "action": "Wait",
-      "action_reason": "Let earnings clear the binary event risk first. The bullish divergence + BB squeeze are strong, but earnings volatility could gap through your setup invalidating the technical thesis. Re-entry after earnings with confirmed momentum is lower risk.",
-      "target_price": 107.5,
-      "target_reasoning": "",
-      "exit_trigger": "Close below $100.50 on volume (break of recent support) OR earnings miss with guidance cut",
-      "add_trigger": "Post-earnings: entry above $105 on strong earnings beat + volume, or BB breakout above $104.80 with MACD confirmed bullish crossover",
-      "risk": "Earnings gap down if beat is already priced in; loss of momentum into event could trap swing traders",
-      "outlook": "short",
-      "timeframe": "1-3 weeks (wait for earnings, then 2-4 week swing if setup confirms)",
-      "generated_at": "2026-05-21T23:01:57.991293",
-      "price_at_generation": 102.62,
-      "pnl_at_generation": 5.6,
-      "archived_at": "2026-05-22T22:56:26.924306"
     }
   ]
 }

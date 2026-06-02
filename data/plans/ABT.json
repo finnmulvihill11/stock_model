@@ -3,19 +3,36 @@
     "ticker": "ABT",
     "company_name": "Abbott Laboratories",
     "action": "Hold",
-    "action_reason": "Fundamentals remain healthy and extreme fear creates opportunity, but the technical setup is deteriorating (death cross, MACD rollover). Holding avoids forced loss; exit triggers should be respected if support breaks.",
-    "target_price": 80.0,
+    "action_reason": "Bollinger Band squeeze is a volatility contraction that typically precedes directional breakout. Combined with Extreme Fear sentiment and healthy fundamentals, waiting for squeeze resolution offers better risk/reward than panic selling at lows. However, validate that earnings thesis remains intact.",
+    "target_price": 95.5,
     "target_reasoning": "",
-    "exit_trigger": "Break below $83.50 (recent swing low support); or RSI drops below 35 on volume without reversal signal",
-    "add_trigger": "RSI oversold <30 + MACD bullish cross + close above $90 on volume; or earnings catalyst with beat + guidance raise",
-    "risk": "Further downside to $80\u2013$78 if support fails; macro weakness or dividend cut concern",
+    "exit_trigger": "Close below $84.50 (support break) OR company guidance cut in next earnings; whichever first",
+    "add_trigger": "Bollinger Band squeeze breaks upward + RSI crosses above 65 + price reclaims $92",
+    "risk": "Continued healthcare sector rotation / macro headwinds preventing recovery; position underwater makes additional losses psychologically harder to hold",
     "outlook": "cautious",
-    "timeframe": "4-8 weeks",
-    "generated_at": "2026-05-29T23:10:18.663720",
-    "price_at_generation": 85.6,
-    "pnl_at_generation": -22.02
+    "timeframe": "3-6 weeks for squeeze resolution; reassess at next earnings or technical breakdown",
+    "generated_at": "2026-06-02T23:43:43.549083",
+    "price_at_generation": 86.97,
+    "pnl_at_generation": -20.77
   },
   "history": [
+    {
+      "ticker": "ABT",
+      "company_name": "Abbott Laboratories",
+      "action": "Hold",
+      "action_reason": "Fundamentals remain healthy and extreme fear creates opportunity, but the technical setup is deteriorating (death cross, MACD rollover). Holding avoids forced loss; exit triggers should be respected if support breaks.",
+      "target_price": 80.0,
+      "target_reasoning": "",
+      "exit_trigger": "Break below $83.50 (recent swing low support); or RSI drops below 35 on volume without reversal signal",
+      "add_trigger": "RSI oversold <30 + MACD bullish cross + close above $90 on volume; or earnings catalyst with beat + guidance raise",
+      "risk": "Further downside to $80\u2013$78 if support fails; macro weakness or dividend cut concern",
+      "outlook": "cautious",
+      "timeframe": "4-8 weeks",
+      "generated_at": "2026-05-29T23:10:18.663720",
+      "price_at_generation": 85.6,
+      "pnl_at_generation": -22.02,
+      "archived_at": "2026-06-02T23:43:43.549288"
+    },
     {
       "ticker": "ABT",
       "company_name": "Abbott Laboratories",
@@ -117,23 +134,6 @@
       "price_at_generation": 87.41,
       "pnl_at_generation": -20.37,
       "archived_at": "2026-05-24T17:28:47.560597"
-    },
-    {
-      "ticker": "ABT",
-      "company_name": "Abbott Laboratories",
-      "action": "Hold",
-      "action_reason": "Fundamentals remain solid and you're underwater on a swing position. Wait for either RSI compression to <30 for potential bounce or next earnings catalyst before adding/trimming.",
-      "target_price": null,
-      "target_reasoning": "",
-      "exit_trigger": "Break below $85 on volume or fundamental deterioration in next earnings report",
-      "add_trigger": "RSI <30 + VIX spike above 20 (panic washout); OR positive guidance at next earnings",
-      "risk": "Extended sideways consolidation below $90; market fear could push ABT lower before reversal",
-      "outlook": "cautious",
-      "timeframe": "2-4 weeks until next catalyst or technical reversal setup",
-      "generated_at": "2026-05-21T23:01:36.929473",
-      "price_at_generation": 87.77,
-      "pnl_at_generation": -20.04,
-      "archived_at": "2026-05-22T22:56:04.917075"
     }
   ]
 }

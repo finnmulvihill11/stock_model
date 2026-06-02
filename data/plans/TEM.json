@@ -3,19 +3,36 @@
     "ticker": "TEM",
     "company_name": "Tempus AI, Inc.",
     "action": "Start Trimming",
-    "action_reason": "With 4.4% portfolio weight, negative fundamentals, post-earnings decline, and high debt burden, reduce exposure to lock in liquidity before potential further deterioration. Above-average volume provides exit opportunity.",
-    "target_price": null,
+    "action_reason": "Exit 1-2 shares at strength (RSI 57.4 + BB squeeze = potential short-term bounce). Reduce portfolio weight from 4.4% and lock in loss before debt/burn concerns trigger further decline.",
+    "target_price": 52.5,
     "target_reasoning": "",
-    "exit_trigger": "Break below $48.00 or any news of debt restructuring; trim 50% immediately",
-    "add_trigger": "Only if RSI falls to <30 with positive earnings surprise and debt reduction announcement",
-    "risk": "Liquidity risk if cash burn accelerates; debt covenant violation could trigger forced liquidation",
+    "exit_trigger": "Break below $47.00 (new lows) or next negative catalyst; trim remaining shares if RSI hits 65+ on intraday bounce",
+    "add_trigger": "Only add if: (1) golden cross confirms + sustained close above $55, AND (2) positive operating cash flow guidance in next earnings",
+    "risk": "Cash burn + high debt = potential equity dilution or forced restructuring; low liquidity on downside",
     "outlook": "cautious",
-    "timeframe": "2-3 weeks",
-    "generated_at": "2026-05-29T23:10:25.393574",
-    "price_at_generation": 50.47,
-    "pnl_at_generation": -26.94
+    "timeframe": "2-4 weeks",
+    "generated_at": "2026-06-02T23:43:51.124410",
+    "price_at_generation": 49.62,
+    "pnl_at_generation": -28.17
   },
   "history": [
+    {
+      "ticker": "TEM",
+      "company_name": "Tempus AI, Inc.",
+      "action": "Start Trimming",
+      "action_reason": "With 4.4% portfolio weight, negative fundamentals, post-earnings decline, and high debt burden, reduce exposure to lock in liquidity before potential further deterioration. Above-average volume provides exit opportunity.",
+      "target_price": null,
+      "target_reasoning": "",
+      "exit_trigger": "Break below $48.00 or any news of debt restructuring; trim 50% immediately",
+      "add_trigger": "Only if RSI falls to <30 with positive earnings surprise and debt reduction announcement",
+      "risk": "Liquidity risk if cash burn accelerates; debt covenant violation could trigger forced liquidation",
+      "outlook": "cautious",
+      "timeframe": "2-3 weeks",
+      "generated_at": "2026-05-29T23:10:25.393574",
+      "price_at_generation": 50.47,
+      "pnl_at_generation": -26.94,
+      "archived_at": "2026-06-02T23:43:51.124619"
+    },
     {
       "ticker": "TEM",
       "company_name": "Tempus AI, Inc.",
@@ -117,23 +134,6 @@
       "price_at_generation": 46.18,
       "pnl_at_generation": -33.15,
       "archived_at": "2026-05-24T17:28:59.892235"
-    },
-    {
-      "ticker": "TEM",
-      "company_name": "Tempus AI, Inc.",
-      "action": "Start Trimming",
-      "action_reason": "Cut position size by 33-50% now to lock in loss management while RSI bounces. Avoid holding through another potential breakdown; fundamentals don't support conviction for a full recovery hold.",
-      "target_price": 52,
-      "target_reasoning": "",
-      "exit_trigger": "Break below $44 (recent lows) or if RSI falls below 20 again without stabilizing revenue/cash flow news",
-      "add_trigger": "Only if: company announces debt restructuring, achieves positive FCF, or beats earnings with forward guidance raise AND price holds above $40",
-      "risk": "Continued cash burn, potential dilution, liquidation concerns if debt covenants breached",
-      "outlook": "cautious",
-      "timeframe": "2-4 weeks max for decision; don't let oversold conditions trap you into averaging down",
-      "generated_at": "2026-05-21T23:01:43.461454",
-      "price_at_generation": 46.49,
-      "pnl_at_generation": -32.7,
-      "archived_at": "2026-05-22T22:56:13.104151"
     }
   ]
 }

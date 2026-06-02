@@ -2,29 +2,30 @@
   "ticker": "ABT",
   "signal": {
     "ticker": "ABT",
-    "direction": "sell",
-    "tier": "Watch",
-    "buy_score": 0.25,
-    "sell_score": 0.57,
+    "direction": "buy",
+    "tier": "Hold",
+    "buy_score": 0.12,
+    "sell_score": 0.43,
     "reasons": [
-      "BB Width: squeeze/contraction after expansion",
-      "MACD: histogram at peak / turning down",
-      "Death cross: 50MA (93.97) below 200MA (115.48)",
-      "Volume: above average on sell (1.67x) \u2014 confirms distribution"
+      "BB Width: squeeze active (width=0.0786)"
     ],
     "misses": [
-      "BB: price not near upper band (pct=0.40)",
-      "RSI: not in sell zone (54.5, need 70-80)",
-      "RSI Divergence: no bearish divergence detected"
+      "BB: price not near lower band (pct=0.61)",
+      "RSI: not in buy zone (59.5, need 20-30)",
+      "MACD: no bullish crossover or valley",
+      "RSI Divergence: no bullish divergence detected",
+      "200MA: price below 200MA \u2014 potential falling knife",
+      "Death cross active: 50MA (93.24) below 200MA (115.08)",
+      "Volume: below average (0.59x) \u2014 low conviction"
     ],
-    "price": 85.6,
-    "rsi": 54.5,
-    "atr": 1.95,
-    "final_tier": "Watch",
+    "price": 86.97,
+    "rsi": 59.5,
+    "atr": 1.9,
+    "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 13,
-      "suggested_dollars": 1112.8,
-      "note": "13 shares @ $85.60 = $1,113 | $39 swing budget remaining after"
+      "suggested_dollars": 1130.61,
+      "note": "13 shares @ $86.97 = $1,131 | $21 swing budget remaining after"
     }
   },
   "fundamentals": {
@@ -53,44 +54,43 @@
       ],
       "earnings_status": "past",
       "next_earnings_date": "2026-04-16",
-      "days_to_earnings": -43
+      "days_to_earnings": -47
     }
   },
   "news": {
     "ticker": "ABT",
-    "sentiment": "negative",
+    "sentiment": "neutral",
     "health": "healthy",
     "key_events": [
-      "Death cross formed: 50MA below 200MA signals intermediate downtrend",
-      "MACD histogram peaking with downward reversal suggests momentum loss",
-      "Bollinger Band squeeze after expansion indicates volatility contraction before potential breakout",
-      "Extreme Fear sentiment provides contrarian accumulation opportunity",
-      "Earnings passed 43 days ago\u2014no near-term catalysts"
+      "Earnings reported 47 days ago (results digested by market)",
+      "Bollinger Band squeeze active - low volatility compression suggesting breakout pending",
+      "VIX 15.8 indicates neutral market environment with room for directional moves",
+      "Extreme Fear gauge suggests contrarian buying opportunity emerging"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "22% underwater on position; technical structure broken",
-      "Death cross is confirmed downtrend signal",
-      "MACD histogram turning down at peak = losing upside momentum",
-      "RSI 54.5 neutral but not supportive; no oversold bounce setup yet"
+      "Position down 20.77% - significant underwater loss requiring thesis validation",
+      "No recent news catalysts visible - lack of positive drivers for recovery",
+      "Technical hold signal despite squeeze - not yet confirmed breakout direction",
+      "5.1% portfolio weight concentrated in depressed position"
     ],
-    "verdict": "ABT is in a confirmed downtrend with momentum deteriorating; hold existing position but do not add until technical structure stabilizes below current support.",
+    "verdict": "ABT is fundamentally sound but technically compressed; market fear creates asymmetric opportunity if support holds and squeeze resolves upward.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "ABT",
-    "stock_return_3m": -25.97,
-    "benchmark_return_3m": 10.58,
-    "relative_strength": -36.54,
+    "stock_return_3m": -22.97,
+    "benchmark_return_3m": 11.95,
+    "relative_strength": -34.92,
     "label": "underperforming"
   },
-  "final_tier": "Watch",
+  "final_tier": "Hold",
   "sizing": {
     "suggested_shares": 13,
-    "suggested_dollars": 1112.8,
-    "note": "13 shares @ $85.60 = $1,113 | $39 swing budget remaining after"
+    "suggested_dollars": 1130.61,
+    "note": "13 shares @ $86.97 = $1,131 | $21 swing budget remaining after"
   },
   "is_dca": false,
-  "saved_at": "2026-05-29T23:10:18.664491"
+  "saved_at": "2026-06-02T23:43:43.549852"
 }

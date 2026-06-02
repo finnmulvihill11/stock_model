@@ -4,28 +4,28 @@
     "ticker": "INTU",
     "direction": "buy",
     "tier": "Hold",
-    "buy_score": 0.38,
+    "buy_score": 0.25,
     "sell_score": 0.29,
     "reasons": [
       "MACD: histogram at valley / turning up",
-      "RSI Divergence: Price lower low (371.71 < 383.30) but RSI higher low (45.6 > 38.4)",
-      "Volume: above average (1.64x)"
+      "Volume: above average (1.24x)"
     ],
     "misses": [
-      "BB: price not near lower band (pct=0.25)",
+      "BB: price not near lower band (pct=0.23)",
       "BB Width: bands expanding, not squeezing",
-      "RSI: not in buy zone (34.4, need 20-30)",
+      "RSI: not in buy zone (37.0, need 20-30)",
+      "RSI Divergence: no bullish divergence detected",
       "200MA: price below 200MA \u2014 potential falling knife",
-      "Death cross active: 50MA (391.31) below 200MA (548.32)"
+      "Death cross active: 50MA (386.67) below 200MA (544.63)"
     ],
-    "price": 331.53,
-    "rsi": 34.4,
-    "atr": 22.49,
+    "price": 322.14,
+    "rsi": 37.0,
+    "atr": 25.94,
     "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 2,
-      "suggested_dollars": 663.06,
-      "note": "2 shares @ $331.53 = $663 | $489 swing budget remaining after"
+      "suggested_dollars": 644.28,
+      "note": "2 shares @ $322.14 = $644 | $507 swing budget remaining after"
     }
   },
   "fundamentals": {
@@ -54,7 +54,7 @@
       ],
       "earnings_status": "past",
       "next_earnings_date": "2026-05-20",
-      "days_to_earnings": -9
+      "days_to_earnings": -13
     }
   },
   "news": {
@@ -62,33 +62,35 @@
     "sentiment": "neutral",
     "health": "healthy",
     "key_events": [
-      "Earnings reported 9 days ago",
-      "Price testing major support zone (331.53 near recent lows)",
-      "Bullish technical divergence forming"
+      "Earnings passed 13 days ago",
+      "MACD histogram at valley showing early reversal signal",
+      "Volume above average (1.24x) supporting potential bounce",
+      "Market in Extreme Fear mode (contrarian bullish signal)"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "Significant drawdown (-29.2%) from entry",
-      "Extreme Fear sentiment despite healthy fundamentals suggests capitulation selling",
-      "No news catalysts visible to support recovery"
+      "Significant unrealized loss (-31.21%) indicates poor entry timing",
+      "Position weight (28.6%) is concentrated risk for swing trade",
+      "RSI at 37 suggests further downside possible before oversold bounce",
+      "No recent news catalyst visible to drive reversal"
     ],
-    "verdict": "INTU showing textbook reversal setup with bullish divergence and MACD turning at valley; hold current position and selectively add if support holds.",
+    "verdict": "INTU shows early technical reversal signals in an oversold state with healthy fundamentals, but timing and position sizing are problematic.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "INTU",
-    "stock_return_3m": -18.7,
-    "benchmark_return_3m": 10.58,
-    "relative_strength": -29.27,
+    "stock_return_3m": -25.43,
+    "benchmark_return_3m": 11.95,
+    "relative_strength": -37.39,
     "label": "underperforming"
   },
   "final_tier": "Hold",
   "sizing": {
     "suggested_shares": 2,
-    "suggested_dollars": 663.06,
-    "note": "2 shares @ $331.53 = $663 | $489 swing budget remaining after"
+    "suggested_dollars": 644.28,
+    "note": "2 shares @ $322.14 = $644 | $507 swing budget remaining after"
   },
   "is_dca": false,
-  "saved_at": "2026-05-29T23:10:03.935320"
+  "saved_at": "2026-06-02T23:43:28.935456"
 }

@@ -4,27 +4,27 @@
     "ticker": "MSFT",
     "direction": "sell",
     "tier": "Sell",
-    "buy_score": 0.62,
+    "buy_score": 0.38,
     "sell_score": 0.86,
     "reasons": [
-      "BB: price near upper band (pct=1.37)",
+      "BB: price near upper band (pct=0.86)",
       "BB Width: squeeze/contraction after expansion",
-      "RSI: overbought zone (71.7)",
+      "MACD: histogram at peak / turning down",
       "RSI Divergence: Price higher high (422.62 > 419.86) but RSI lower high (46.2 < 48.9)",
-      "Death cross: 50MA (402.06) below 200MA (456.42)",
-      "Volume: above average on sell (2.22x) \u2014 confirms distribution"
+      "Death cross: 50MA (404.72) below 200MA (455.75)",
+      "Volume: above average on sell (1.01x) \u2014 confirms distribution"
     ],
     "misses": [
-      "MACD: no bearish crossover or peak"
+      "RSI: not in sell zone (66.4, need 70-80)"
     ],
-    "price": 450.24,
-    "rsi": 71.7,
-    "atr": 11.66,
+    "price": 441.31,
+    "rsi": 66.4,
+    "atr": 12.93,
     "final_tier": "Sell",
     "sizing": {
       "suggested_shares": 2,
-      "suggested_dollars": 900.48,
-      "note": "2 shares @ $450.24 = $900 | $251 swing budget remaining after"
+      "suggested_dollars": 882.62,
+      "note": "2 shares @ $441.31 = $883 | $269 swing budget remaining after"
     }
   },
   "fundamentals": {
@@ -53,42 +53,39 @@
       ],
       "earnings_status": "past",
       "next_earnings_date": "2026-04-29",
-      "days_to_earnings": -30
+      "days_to_earnings": -34
     }
   },
   "news": {
     "ticker": "MSFT",
     "sentiment": "neutral",
     "health": "healthy",
-    "key_events": [
-      "Earnings reported within last 30 days",
-      "Technical squeeze after expansion phase",
-      "Extreme Fear sentiment in broader market despite neutral VIX"
-    ],
+    "key_events": [],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "RSI 71.7 indicates overbought conditions",
-      "Price at upper Bollinger Band (potential reversal zone)",
-      "Current position down 3.63% with 26.2% portfolio weight (concentration risk)",
-      "Disconnect between technical setup (overbought) and fundamental health (positive)"
+      "RSI at 66.4 indicates overbought conditions",
+      "MACD histogram at peak with reversal signal",
+      "Price testing upper Bollinger Band with squeeze setup",
+      "Position down 5.54% with elevated weight (26.1%)",
+      "Extreme Fear reading suggests capitulation/volatility risk"
     ],
-    "verdict": "MSFT shows classic mean-reversion setup with overbought technicals conflicting healthy fundamentals; post-earnings volatility and extreme fear suggest caution.",
+    "verdict": "Strong technical sell signal with fundamentals intact suggests tactical exit and re-entry opportunity rather than holding underwater.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "MSFT",
-    "stock_return_3m": 14.89,
-    "benchmark_return_3m": 10.58,
-    "relative_strength": 4.31,
+    "stock_return_3m": 9.49,
+    "benchmark_return_3m": 11.95,
+    "relative_strength": -2.46,
     "label": "in-line"
   },
   "final_tier": "Sell",
   "sizing": {
     "suggested_shares": 2,
-    "suggested_dollars": 900.48,
-    "note": "2 shares @ $450.24 = $900 | $251 swing budget remaining after"
+    "suggested_dollars": 882.62,
+    "note": "2 shares @ $441.31 = $883 | $269 swing budget remaining after"
   },
   "is_dca": false,
-  "saved_at": "2026-05-29T23:10:10.629974"
+  "saved_at": "2026-06-02T23:43:34.971613"
 }

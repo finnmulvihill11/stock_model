@@ -4,28 +4,28 @@
     "ticker": "DECK",
     "direction": "buy",
     "tier": "Hold",
-    "buy_score": 0.12,
-    "sell_score": 0.43,
+    "buy_score": 0.25,
+    "sell_score": 0.29,
     "reasons": [
-      "200MA: price at/above 200MA (113.85 vs 103.18)"
+      "200MA: price at/above 200MA (110.79 vs 103.23)",
+      "Golden cross: 50MA (103.38) above 200MA (103.23)"
     ],
     "misses": [
-      "BB: price not near lower band (pct=0.93)",
+      "BB: price not near lower band (pct=0.77)",
       "BB Width: bands expanding, not squeezing",
-      "RSI: not in buy zone (71.7, need 20-30)",
+      "RSI: not in buy zone (77.9, need 20-30)",
       "MACD: no bullish crossover or valley",
       "RSI Divergence: no bullish divergence detected",
-      "Death cross active: 50MA (103.06) below 200MA (103.18)",
-      "Volume: below average (0.61x) \u2014 low conviction"
+      "Volume: below average (0.48x) \u2014 low conviction"
     ],
-    "price": 113.85,
-    "rsi": 71.7,
-    "atr": 3.93,
+    "price": 110.79,
+    "rsi": 77.9,
+    "atr": 3.9,
     "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 10,
-      "suggested_dollars": 1138.5,
-      "note": "10 shares @ $113.85 = $1,138 | $13 swing budget remaining after"
+      "suggested_dollars": 1107.9,
+      "note": "10 shares @ $110.79 = $1,108 | $44 swing budget remaining after"
     }
   },
   "fundamentals": {
@@ -53,43 +53,43 @@
       ],
       "earnings_status": "past",
       "next_earnings_date": "2026-05-21",
-      "days_to_earnings": -8
+      "days_to_earnings": -12
     }
   },
   "news": {
     "ticker": "DECK",
-    "sentiment": "positive",
+    "sentiment": "neutral",
     "health": "healthy",
     "key_events": [
-      "Price trading above 200MA (bullish structural support)",
-      "Recent earnings passed (8 days ago) - volatility risk reduced",
-      "Strong momentum: +17.15% gain in position",
-      "RSI 71.7 indicates overbought conditions"
+      "Earnings reported 12 days ago (recent catalyst passed)",
+      "Price above 200MA with golden cross intact (bullish structure)",
+      "RSI 77.9 indicates overbought conditions",
+      "VIX 15.8 suggests low market stress but Extreme Fear index present"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "RSI 71.7 = overbought (typically >70 signals pullback risk)",
-      "Extreme Fear sentiment (F&G) despite price strength - potential disconnect",
-      "No recent news flow to sustain momentum",
-      "Post-earnings window: volatility could re-emerge"
+      "RSI deeply overbought (77.9) \u2014 pullback risk elevated",
+      "No recent news catalysts to sustain momentum",
+      "Recent earnings already priced in; vulnerable to mean reversion",
+      "Extreme Fear sentiment contradicts technical strength \u2014 divergence warning"
     ],
-    "verdict": "DECK is in healthy bull structure above 200MA but overbought technicals warrant profit-taking on strength.",
+    "verdict": "DECK has strong technicals but overbought extremes and lack of fresh catalysts create pullback risk; ideal setup to trim winners, not chase higher.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "DECK",
-    "stock_return_3m": -2.92,
-    "benchmark_return_3m": 10.58,
-    "relative_strength": -13.49,
+    "stock_return_3m": 0.85,
+    "benchmark_return_3m": 11.95,
+    "relative_strength": -11.11,
     "label": "underperforming"
   },
   "final_tier": "Hold",
   "sizing": {
     "suggested_shares": 10,
-    "suggested_dollars": 1138.5,
-    "note": "10 shares @ $113.85 = $1,138 | $13 swing budget remaining after"
+    "suggested_dollars": 1107.9,
+    "note": "10 shares @ $110.79 = $1,108 | $44 swing budget remaining after"
   },
   "is_dca": false,
-  "saved_at": "2026-05-29T23:10:39.793046"
+  "saved_at": "2026-06-02T23:44:06.265148"
 }
