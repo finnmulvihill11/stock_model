@@ -3,29 +3,29 @@
   "signal": {
     "ticker": "CMG",
     "direction": "buy",
-    "tier": "Watch",
-    "buy_score": 0.5,
-    "sell_score": 0.43,
+    "tier": "Hold",
+    "buy_score": 0.38,
+    "sell_score": 0.29,
     "reasons": [
-      "BB: price near lower band (pct=-0.29)",
-      "BB Width: squeeze active (width=0.1203)",
-      "RSI: oversold zone (27.8)",
-      "Volume: above average (1.46x)"
+      "BB: price near lower band (pct=-0.18)",
+      "RSI: oversold zone (27.9)",
+      "Volume: above average (1.17x)"
     ],
     "misses": [
+      "BB Width: bands expanding, not squeezing",
       "MACD: no bullish crossover or valley",
       "RSI Divergence: no bullish divergence detected",
       "200MA: price below 200MA \u2014 potential falling knife",
-      "Death cross active: 50MA (33.11) below 200MA (36.55)"
+      "Death cross active: 50MA (33.01) below 200MA (36.47)"
     ],
-    "price": 29.26,
-    "rsi": 27.8,
-    "atr": 1.04,
-    "final_tier": "Watch",
+    "price": 28.74,
+    "rsi": 27.9,
+    "atr": 1.07,
+    "final_tier": "Hold",
     "sizing": {
-      "suggested_shares": 39,
-      "suggested_dollars": 1141.14,
-      "note": "39 shares @ $29.26 = $1,141 | $11 swing budget remaining after"
+      "suggested_shares": 43,
+      "suggested_dollars": 1235.82,
+      "note": "43 shares @ $28.74 = $1,236 | $28 swing budget remaining after"
     }
   },
   "fundamentals": {
@@ -55,7 +55,7 @@
       ],
       "earnings_status": "distant",
       "next_earnings_date": "2026-07-29",
-      "days_to_earnings": 57
+      "days_to_earnings": 56
     }
   },
   "news": {
@@ -63,36 +63,34 @@
     "sentiment": "neutral",
     "health": "neutral",
     "key_events": [
-      "Price testing lower Bollinger Band support",
-      "Bollinger Band squeeze indicating low volatility before potential breakout",
-      "RSI at 27.8 in oversold territory (potential reversal zone)",
-      "Extreme Fear market sentiment providing contrarian opportunity",
-      "Earnings 57 days out (no near-term catalyst)"
+      "No recent news items available for analysis",
+      "Earnings report 56 days away (moderate catalyst window)",
+      "Market in Extreme Fear regime despite neutral VIX"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
       "High debt-to-equity ratio (2.2x) limits financial flexibility",
-      "7% underwater position creating emotional pressure",
-      "No recent news flow visible (information vacuum)",
-      "VIX at 15.8 suggests complacency\u2014lack of volatility catalyst"
+      "Position underwater -8.67% with no catalyst near-term",
+      "No news flow to support recovery narrative",
+      "RSI deep oversold but price near lower BB suggests capitulation risk"
     ],
-    "verdict": "CMG is oversold on technicals with BB squeeze setup, but lacks fundamental catalyst and carries elevated leverage risk; swing trader should wait for confirmation before adding.",
+    "verdict": "CMG is oversold technically with deteriorating sentiment, but absence of news and distant earnings limits near-term catalysts for swing trade recovery.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "CMG",
-    "stock_return_3m": -20.77,
-    "benchmark_return_3m": 11.95,
-    "relative_strength": -32.72,
+    "stock_return_3m": -21.71,
+    "benchmark_return_3m": 10.39,
+    "relative_strength": -32.1,
     "label": "underperforming"
   },
-  "final_tier": "Watch",
+  "final_tier": "Hold",
   "sizing": {
-    "suggested_shares": 39,
-    "suggested_dollars": 1141.14,
-    "note": "39 shares @ $29.26 = $1,141 | $11 swing budget remaining after"
+    "suggested_shares": 43,
+    "suggested_dollars": 1235.82,
+    "note": "43 shares @ $28.74 = $1,236 | $28 swing budget remaining after"
   },
   "is_dca": false,
-  "saved_at": "2026-06-02T23:43:59.077603"
+  "saved_at": "2026-06-03T23:41:19.019100"
 }

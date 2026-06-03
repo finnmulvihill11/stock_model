@@ -3,19 +3,36 @@
     "ticker": "CMG",
     "company_name": "Chipotle Mexican Grill, Inc.",
     "action": "Hold",
-    "action_reason": "Position is small (3.5% weight) and technicals show reversal setup potential (oversold RSI + lower BB support). However, hold for BB width expansion + RSI divergence confirmation before committing more capital given debt concerns.",
-    "target_price": 31.5,
+    "action_reason": "Oversold conditions (RSI 27.9, BB -0.18) create potential support, but lack of positive catalysts and high leverage make recovery uncertain. Avoid adding into weakness without confirmation.",
+    "target_price": 31.47,
     "target_reasoning": "",
-    "exit_trigger": "Close below lower Bollinger Band on volume, or RSI breaks below 20 with negative news catalyst",
-    "add_trigger": "RSI bounces above 35 + BB width expands above 0.15 + price reclaims $30.50 resistance",
-    "risk": "High debt burden (2.2x D/E) limits downside bounce potential; macro slowdown could trigger selloff despite oversold conditions",
-    "outlook": "short",
-    "timeframe": "2-4 weeks",
-    "generated_at": "2026-06-02T23:43:59.076890",
-    "price_at_generation": 29.26,
-    "pnl_at_generation": -7.02
+    "exit_trigger": "Break below lower Bollinger Band on volume, or close below $27.50 with RSI unable to recover above 35",
+    "add_trigger": "RSI bounce above 40 + positive earnings guidance OR company announces debt reduction initiative",
+    "risk": "Continued sector weakness, debt servicing concerns in recession, or disappointing Q3 guidance in 56 days",
+    "outlook": "cautious",
+    "timeframe": "4-8 weeks (until earnings)",
+    "generated_at": "2026-06-03T23:41:19.018324",
+    "price_at_generation": 28.74,
+    "pnl_at_generation": -8.67
   },
   "history": [
+    {
+      "ticker": "CMG",
+      "company_name": "Chipotle Mexican Grill, Inc.",
+      "action": "Hold",
+      "action_reason": "Position is small (3.5% weight) and technicals show reversal setup potential (oversold RSI + lower BB support). However, hold for BB width expansion + RSI divergence confirmation before committing more capital given debt concerns.",
+      "target_price": 31.5,
+      "target_reasoning": "",
+      "exit_trigger": "Close below lower Bollinger Band on volume, or RSI breaks below 20 with negative news catalyst",
+      "add_trigger": "RSI bounces above 35 + BB width expands above 0.15 + price reclaims $30.50 resistance",
+      "risk": "High debt burden (2.2x D/E) limits downside bounce potential; macro slowdown could trigger selloff despite oversold conditions",
+      "outlook": "short",
+      "timeframe": "2-4 weeks",
+      "generated_at": "2026-06-02T23:43:59.076890",
+      "price_at_generation": 29.26,
+      "pnl_at_generation": -7.02,
+      "archived_at": "2026-06-03T23:41:19.018548"
+    },
     {
       "ticker": "CMG",
       "company_name": "Chipotle Mexican Grill, Inc.",
@@ -117,23 +134,6 @@
       "price_at_generation": 32.89,
       "pnl_at_generation": 4.51,
       "archived_at": "2026-05-25T22:59:13.929490"
-    },
-    {
-      "ticker": "CMG",
-      "company_name": "Chipotle Mexican Grill, Inc.",
-      "action": "Hold",
-      "action_reason": "Bollinger Band squeeze is a neutral-to-bullish setup but requires volume-confirmed breakout. Current +4.51% gain is modest; no reason to exit, but adding before squeeze resolution is premature given lack of fundamental catalysts and elevated debt levels.",
-      "target_price": 34.5,
-      "target_reasoning": "",
-      "exit_trigger": "Close below $31.50 (support break) or if RSI falls below 40 on high-volume sell-off",
-      "add_trigger": "Squeeze breaks above $34.00 on volume >1.2x average with RSI >65",
-      "risk": "High leverage (2.2x D/E) makes CMG vulnerable to macro slowdown; earnings surprise risk elevated post-report",
-      "outlook": "neutral",
-      "timeframe": "2-4 weeks",
-      "generated_at": "2026-05-22T22:56:20.301522",
-      "price_at_generation": 32.89,
-      "pnl_at_generation": 4.51,
-      "archived_at": "2026-05-24T17:29:13.083745"
     }
   ]
 }

@@ -1,67 +1,128 @@
 {
   "current": {
-    "headline": "Rebalance overweight tech positions while locking in DECK gains; mean-revert oversold quality names on any strength.",
-    "market_stance": "neutral",
-    "overall_thesis": "Portfolio is deeply underwater (-11.86%) with extreme fear sentiment creating tactical opportunities. Over the next 4\u20138 weeks, trim overbought winners (DECK, MSFT, TEM) to fund nibbles on oversold quality (INTU, ABT) as technicals signal bounce setups. Reduce tech concentration from 54.7% to ~45% to meet position caps and improve risk/reward.",
+    "headline": "Portfolio underwater 14.6% with dangerous tech concentration (56%) \u2014 immediate rebalancing needed to lock in liquidity and reduce single-stock risk.",
+    "market_stance": "defensive",
+    "overall_thesis": "Extreme Fear (11) creates a tactical window to trim losers (INTU, TEM) and rebalance away from tech concentration before potential reversal. Hold quality names (MSFT, ABT, CMG) that show fundamental strength despite drawdowns. Redeploy trimmed capital into oversold CMG ahead of earnings or sit in dry powder for better entry points.",
     "priority_actions": [
       {
         "rank": 1,
         "action": "TRIM",
-        "ticker": "DECK",
-        "instruction": "Sell 1 share (~40\u201350% of position) at market open this week \u2014 locked in +14% gain, RSI overbought, thesis complete. Redeploy $~350\u2013400 into oversold names.",
+        "ticker": "INTU",
+        "instruction": "Sell 1 share immediately (reduce from 3\u21922). Lock in liquidity at lower Bollinger Band in extreme fear; -33.5% P&L is a structural loss that won't recover quickly. Brings position from 29.3% \u2192 ~19.5% of portfolio.",
         "urgency": "immediate"
       },
       {
         "rank": 2,
         "action": "TRIM",
-        "ticker": "MSFT",
-        "instruction": "Sell 2\u20133 shares over next 5\u20137 days on any intraday strength (target RSI >70 or upper BB touch) \u2014 bring weight from 26.1% to <20%. Lock in tighter stops on remainder.",
+        "ticker": "TEM",
+        "instruction": "Sell 2 shares (reduce from 3\u21921). Cut losses on worst performer (-31.2%) and drop portfolio weight below 3%. Extreme fear is a depressed exit, but position is too large relative to conviction and diversification rules.",
         "urgency": "this week"
       },
       {
         "rank": 3,
-        "action": "TRIM",
-        "ticker": "TEM",
-        "instruction": "Sell 1\u20132 shares at next RSI >60 print (likely within 3\u20135 days) \u2014 exit 50% of position at modest profit or near breakeven. Reduce volatility drag.",
-        "urgency": "this week"
+        "action": "HOLD",
+        "ticker": "MSFT",
+        "instruction": "Keep all shares. RSI divergence is a warning, but fundamentals are intact and VIX is neutral. Watch for bounce off support; do NOT sell into fear. This is your most stable large holding.",
+        "urgency": "monitor"
       },
       {
         "rank": 4,
-        "action": "TRIM",
-        "ticker": "INTU",
-        "instruction": "Hold core position but **do not add** until weight drops below 25% cap via other trims. Monitor MACD + volume for bounce entry around $140\u2013145 support.",
+        "action": "HOLD",
+        "ticker": "CMG",
+        "instruction": "Hold for earnings (4\u20138 weeks). RSI 27.9 is textbook oversold; extreme fear is a buy signal for quality restaurants. Do NOT add yet; wait for reversal confirmation or earnings catalyst.",
         "urgency": "monitor"
       },
       {
         "rank": 5,
         "action": "HOLD",
         "ticker": "ABT",
-        "instruction": "Hold through BB squeeze (typically 2\u20134 weeks). Set hard stop at $95 support. If RSI breaks >50 + MACD turns, add $200\u2013300 on dip toward $100.",
-        "urgency": "this month"
+        "instruction": "Hold through BB squeeze resolution (2\u20134 weeks). Healthcare defensive is exactly what you want in fear. Position is small (~6%) and healthy long-term.",
+        "urgency": "monitor"
       },
       {
         "rank": 6,
-        "action": "HOLD",
-        "ticker": "CMG",
-        "instruction": "Hold small 3.5% position \u2014 low risk, reversal setup intact. No action needed; reassess in 3 weeks.",
-        "urgency": "monitor"
+        "action": "WATCH",
+        "ticker": "DECK",
+        "instruction": "Your only green position (+10.5%). Golden cross and price above 200MA are bullish. Consider light trim (1 share) if it touches upper BB to lock in gains and fund rebalancing.",
+        "urgency": "this month"
       }
     ],
-    "biggest_risk": "Tech sector concentration (54.7%) + INTU/MSFT both exceeding 25% cap leave portfolio vulnerable to single-sector correction; Extreme Fear sentiment could reverse sharply into euphoria, invalidating mean-reversion thesis.",
+    "biggest_risk": "Tech concentration (56%) leaves portfolio vulnerable to sector correction; INTU and MSFT alone are 55.8% of portfolio. Single-stock volatility will amplify losses if fear spreads.",
     "what_to_watch": [
-      "DECK close below $180 or RSI drop below 60 \u2192 thesis broken, reassess exit fully",
-      "INTU/MSFT MACD turning down + volume drying up \u2192 bounce setup fails, trim aggressively",
-      "VIX spike >20 + S&P 500 -2% day \u2192 pause rebalancing, hold cash for panic-sell entries",
-      "ABT break below $95 support \u2192 exit position entirely, redeploy to CMG or wait for next setup"
+      "VIX: If it spikes >20, accelerate all trim plans \u2014 liquidity window closes fast in panic",
+      "MSFT support level: RSI divergence at ~$420; if it breaks, consider trimming 1 share to rebalance below 25%",
+      "CMG pre-earnings move (4-8 weeks): Oversold technicals + restaurant tailwinds = potential 8-12% bounce \u2014 be ready to add on reversal if $83-85 holds"
     ],
     "on_course_check": [
-      "\u2713 Plan working: DECK overbought, TEM/MSFT RSI elevated\u2014trims will execute cleanly",
-      "\u2713 Plan working: ABT BB squeeze + INTU MACD forming\u2014bounce setups likely within 2\u20134 weeks",
-      "\u26a0 Plan at risk: Extreme Fear sentiment could flip without warning; be ready to cover shorts / trim faster if market reverses up >2% intraday"
+      "\u2713 Plan is working IF: INTU and TEM trim executes this week, bringing tech below 48% and reducing single-stock risk",
+      "\u26a0 Plan needs revision IF: VIX spikes or MSFT breaks $420 support \u2014 shift to aggressive trim mode and hold 40% cash for reinvestment"
     ],
-    "generated_at": "2026-06-02T23:44:19.082792"
+    "generated_at": "2026-06-03T23:41:38.850800"
   },
   "history": [
+    {
+      "headline": "Rebalance overweight tech positions while locking in DECK gains; mean-revert oversold quality names on any strength.",
+      "market_stance": "neutral",
+      "overall_thesis": "Portfolio is deeply underwater (-11.86%) with extreme fear sentiment creating tactical opportunities. Over the next 4\u20138 weeks, trim overbought winners (DECK, MSFT, TEM) to fund nibbles on oversold quality (INTU, ABT) as technicals signal bounce setups. Reduce tech concentration from 54.7% to ~45% to meet position caps and improve risk/reward.",
+      "priority_actions": [
+        {
+          "rank": 1,
+          "action": "TRIM",
+          "ticker": "DECK",
+          "instruction": "Sell 1 share (~40\u201350% of position) at market open this week \u2014 locked in +14% gain, RSI overbought, thesis complete. Redeploy $~350\u2013400 into oversold names.",
+          "urgency": "immediate"
+        },
+        {
+          "rank": 2,
+          "action": "TRIM",
+          "ticker": "MSFT",
+          "instruction": "Sell 2\u20133 shares over next 5\u20137 days on any intraday strength (target RSI >70 or upper BB touch) \u2014 bring weight from 26.1% to <20%. Lock in tighter stops on remainder.",
+          "urgency": "this week"
+        },
+        {
+          "rank": 3,
+          "action": "TRIM",
+          "ticker": "TEM",
+          "instruction": "Sell 1\u20132 shares at next RSI >60 print (likely within 3\u20135 days) \u2014 exit 50% of position at modest profit or near breakeven. Reduce volatility drag.",
+          "urgency": "this week"
+        },
+        {
+          "rank": 4,
+          "action": "TRIM",
+          "ticker": "INTU",
+          "instruction": "Hold core position but **do not add** until weight drops below 25% cap via other trims. Monitor MACD + volume for bounce entry around $140\u2013145 support.",
+          "urgency": "monitor"
+        },
+        {
+          "rank": 5,
+          "action": "HOLD",
+          "ticker": "ABT",
+          "instruction": "Hold through BB squeeze (typically 2\u20134 weeks). Set hard stop at $95 support. If RSI breaks >50 + MACD turns, add $200\u2013300 on dip toward $100.",
+          "urgency": "this month"
+        },
+        {
+          "rank": 6,
+          "action": "HOLD",
+          "ticker": "CMG",
+          "instruction": "Hold small 3.5% position \u2014 low risk, reversal setup intact. No action needed; reassess in 3 weeks.",
+          "urgency": "monitor"
+        }
+      ],
+      "biggest_risk": "Tech sector concentration (54.7%) + INTU/MSFT both exceeding 25% cap leave portfolio vulnerable to single-sector correction; Extreme Fear sentiment could reverse sharply into euphoria, invalidating mean-reversion thesis.",
+      "what_to_watch": [
+        "DECK close below $180 or RSI drop below 60 \u2192 thesis broken, reassess exit fully",
+        "INTU/MSFT MACD turning down + volume drying up \u2192 bounce setup fails, trim aggressively",
+        "VIX spike >20 + S&P 500 -2% day \u2192 pause rebalancing, hold cash for panic-sell entries",
+        "ABT break below $95 support \u2192 exit position entirely, redeploy to CMG or wait for next setup"
+      ],
+      "on_course_check": [
+        "\u2713 Plan working: DECK overbought, TEM/MSFT RSI elevated\u2014trims will execute cleanly",
+        "\u2713 Plan working: ABT BB squeeze + INTU MACD forming\u2014bounce setups likely within 2\u20134 weeks",
+        "\u26a0 Plan at risk: Extreme Fear sentiment could flip without warning; be ready to cover shorts / trim faster if market reverses up >2% intraday"
+      ],
+      "generated_at": "2026-06-02T23:44:19.082792",
+      "archived_at": "2026-06-03T23:41:38.851146"
+    },
     {
       "headline": "Rebalance tech concentration while locking in gains on overbought names; defensive posture in extreme fear environment.",
       "market_stance": "defensive",
@@ -429,67 +490,6 @@
       ],
       "generated_at": "2026-05-24T17:29:37.388047",
       "archived_at": "2026-05-25T22:59:35.117557"
-    },
-    {
-      "headline": "Defensive posture with concentrated losses \u2014 hold discipline, let binary events pass, deploy cash only on confirmed reversals.",
-      "market_stance": "defensive",
-      "overall_thesis": "With six positions underwater and two earnings events in under a week, the top priority is capital preservation and position sizing discipline \u2014 not deploying the $1,000 swing budget into unconfirmed setups. INTU must be trimmed immediately to bring it within the 25% portfolio cap regardless of earnings outcome. CMG is the lone bright spot and deserves patient management through its BB squeeze resolution. New capital stays sidelined until post-earnings clarity emerges on INTU and DECK, and until ABT or TEM print a confirmed technical reversal signal.",
-      "priority_actions": [
-        {
-          "rank": 1,
-          "action": "TRIM",
-          "ticker": "INTU",
-          "instruction": "Trim enough shares to reduce INTU below 25% of portfolio \u2014 death cross active, price well below 200MA, earnings in 5 days create binary risk you cannot afford at 33.8% concentration; reduce now before the event, not after.",
-          "urgency": "immediate"
-        },
-        {
-          "rank": 2,
-          "action": "HOLD",
-          "ticker": "TEM",
-          "instruction": "Hold with a hard stop \u2014 RSI at 30.2 is near oversold but no confirmed reversal signal yet; set a mental exit line now: if price makes a new closing low with no RSI divergence within 3 weeks, exit to stop the bleeding at -36%.",
-          "urgency": "this week"
-        },
-        {
-          "rank": 3,
-          "action": "WATCH",
-          "ticker": "DECK",
-          "instruction": "Do not add or exit ahead of earnings in 6 days \u2014 flag for post-earnings review; if stock gaps up and RSI enters 45-65 range with price reclaiming a key MA, that is your mean-reversion entry signal for swing budget deployment.",
-          "urgency": "this week"
-        },
-        {
-          "rank": 4,
-          "action": "HOLD",
-          "ticker": "CMG",
-          "instruction": "Hold your only green position \u2014 bullish RSI divergence and MACD turn are constructive; give the BB squeeze 2-4 weeks to resolve and only cut if price fails to break above 33.45 by end of that window.",
-          "urgency": "this month"
-        },
-        {
-          "rank": 5,
-          "action": "WATCH",
-          "ticker": "ABT",
-          "instruction": "Do not enter yet \u2014 RSI at 26.3 is oversold and MACD is hinting at a turn, but death cross is active; wait for a confirmed higher low and MACD crossover before allocating swing budget here; patience is the trade.",
-          "urgency": "this month"
-        },
-        {
-          "rank": 6,
-          "action": "HOLD",
-          "ticker": "MSFT",
-          "instruction": "Hold and monitor $410 support \u2014 BB squeeze resolution and 50/200MA golden cross are the thesis triggers; do not add until RSI clears 55+ and price confirms above the 200MA with volume.",
-          "urgency": "monitor"
-        }
-      ],
-      "biggest_risk": "INTU at 33.8% concentration with a death cross active and earnings in 5 days \u2014 a negative earnings reaction could inflict a portfolio-level loss far exceeding any single-position risk tolerance.",
-      "what_to_watch": [
-        "INTU earnings result and post-print price action relative to the 200MA \u2014 determines whether to hold remainder or exit fully",
-        "DECK earnings reaction \u2014 a clean gap-up with technical confirmation is the primary candidate for deploying swing budget capital",
-        "ABT daily chart for a confirmed MACD bullish crossover and higher low \u2014 would be the highest-quality mean-reversion setup in the portfolio given RSI at 26.3"
-      ],
-      "on_course_check": [
-        "Plan is working if: INTU is trimmed below 25% cap, CMG holds above its recent low and trends toward 33.45 breakout, and swing budget remains undeployed until a post-earnings confirmed setup prints",
-        "Plan needs revision if: TEM makes a new closing low with no technical support, MSFT breaks $410 decisively, or VIX spikes above 25 \u2014 reassess all hold decisions and tighten stops across the board"
-      ],
-      "generated_at": "2026-05-15T22:56:06.763136",
-      "archived_at": "2026-05-24T17:29:37.391125"
     }
   ]
 }

@@ -3,19 +3,36 @@
     "ticker": "ABT",
     "company_name": "Abbott Laboratories",
     "action": "Hold",
-    "action_reason": "Bollinger Band squeeze is a volatility contraction that typically precedes directional breakout. Combined with Extreme Fear sentiment and healthy fundamentals, waiting for squeeze resolution offers better risk/reward than panic selling at lows. However, validate that earnings thesis remains intact.",
-    "target_price": 95.5,
+    "action_reason": "Position is healthy long-term but near-term technicals show indecision (BB squeeze). Adding here locks in losses if downside breakout occurs. Wait for squeeze resolution above $90 resistance or below $83 support.",
+    "target_price": 98.5,
     "target_reasoning": "",
-    "exit_trigger": "Close below $84.50 (support break) OR company guidance cut in next earnings; whichever first",
-    "add_trigger": "Bollinger Band squeeze breaks upward + RSI crosses above 65 + price reclaims $92",
-    "risk": "Continued healthcare sector rotation / macro headwinds preventing recovery; position underwater makes additional losses psychologically harder to hold",
+    "exit_trigger": "Close below $83 (break of recent support) with volume confirmation; or trailing 15% stop from any recovery bounce",
+    "add_trigger": "Breakout above $92 with volume + RSI >70, confirming squeeze resolution to upside",
+    "risk": "Continuation lower if market risk-off escalates; squeeze breakout could be to downside given -20% already lost",
     "outlook": "cautious",
-    "timeframe": "3-6 weeks for squeeze resolution; reassess at next earnings or technical breakdown",
-    "generated_at": "2026-06-02T23:43:43.549083",
-    "price_at_generation": 86.97,
-    "pnl_at_generation": -20.77
+    "timeframe": "2-4 weeks (until BB squeeze resolves)",
+    "generated_at": "2026-06-03T23:41:05.600985",
+    "price_at_generation": 86.99,
+    "pnl_at_generation": -20.75
   },
   "history": [
+    {
+      "ticker": "ABT",
+      "company_name": "Abbott Laboratories",
+      "action": "Hold",
+      "action_reason": "Bollinger Band squeeze is a volatility contraction that typically precedes directional breakout. Combined with Extreme Fear sentiment and healthy fundamentals, waiting for squeeze resolution offers better risk/reward than panic selling at lows. However, validate that earnings thesis remains intact.",
+      "target_price": 95.5,
+      "target_reasoning": "",
+      "exit_trigger": "Close below $84.50 (support break) OR company guidance cut in next earnings; whichever first",
+      "add_trigger": "Bollinger Band squeeze breaks upward + RSI crosses above 65 + price reclaims $92",
+      "risk": "Continued healthcare sector rotation / macro headwinds preventing recovery; position underwater makes additional losses psychologically harder to hold",
+      "outlook": "cautious",
+      "timeframe": "3-6 weeks for squeeze resolution; reassess at next earnings or technical breakdown",
+      "generated_at": "2026-06-02T23:43:43.549083",
+      "price_at_generation": 86.97,
+      "pnl_at_generation": -20.77,
+      "archived_at": "2026-06-03T23:41:05.601207"
+    },
     {
       "ticker": "ABT",
       "company_name": "Abbott Laboratories",
@@ -117,23 +134,6 @@
       "price_at_generation": 87.41,
       "pnl_at_generation": -20.37,
       "archived_at": "2026-05-25T22:58:56.551399"
-    },
-    {
-      "ticker": "ABT",
-      "company_name": "Abbott Laboratories",
-      "action": "Wait",
-      "action_reason": "Bollinger Band squeeze suggests imminent breakout is coming, but entry point 36 days post-earnings lacks fresh catalysts. Wait for squeeze resolution or next earnings prep (likely 3+ months out) before committing more capital.",
-      "target_price": null,
-      "target_reasoning": "",
-      "exit_trigger": "Close below $84 (support breach) OR if BB squeeze breaks downward on high volume",
-      "add_trigger": "BB squeeze resolves upward with RSI >60 AND close above $92 resistance on volume",
-      "risk": "Further drawdown to $80-82 if market fear spreads; healthcare sector rotation risk",
-      "outlook": "cautious",
-      "timeframe": "2-4 weeks for squeeze resolution",
-      "generated_at": "2026-05-22T22:56:04.916862",
-      "price_at_generation": 87.41,
-      "pnl_at_generation": -20.37,
-      "archived_at": "2026-05-24T17:28:47.560597"
     }
   ]
 }
