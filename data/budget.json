@@ -34,6 +34,18 @@
       "avg_cost": 142.63,
       "realized_pnl": 29.37,
       "realized_pnl_pct": 20.59
+    },
+    {
+      "date": "2026-06-03",
+      "ticker": "DECK",
+      "shares": 1,
+      "amount": -112.0,
+      "type": "swing",
+      "action": "sell",
+      "sell_price": 112.0,
+      "avg_cost": 97.18,
+      "realized_pnl": 14.82,
+      "realized_pnl_pct": 15.25
     }
   ]
 }
