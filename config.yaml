@@ -25,7 +25,7 @@ portfolio:
     shares: 4
     avg_cost: 31.47
   - ticker: DECK
-    shares: 2
+    shares: 1
     avg_cost: 97.18
   dca_tickers:
   - VOO
