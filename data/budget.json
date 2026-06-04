@@ -46,6 +46,14 @@
       "avg_cost": 97.18,
       "realized_pnl": 14.82,
       "realized_pnl_pct": 15.25
+    },
+    {
+      "date": "2026-06-04",
+      "ticker": "WELL",
+      "shares": 1,
+      "amount": 202.75,
+      "type": "swing",
+      "action": "buy"
     }
   ]
 }
