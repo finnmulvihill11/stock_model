@@ -742,134 +742,116 @@ elif page == "Swing Trade Plans":
                         st.caption(f"Added because: {entry['reason']}")
                 st.divider()
 
-        st.subheader("New Opportunities")
+        st.subheader("Buy Opportunities")
+        st.caption("High-conviction buys only — sourced from the weekly screener and world event scan. Everything else is filtered out.")
 
-        # ── Opportunity cards ─────────────────────────────────────────────────
-        opp_plans = st.session_state.get("opportunity_plans", [])
-        if opp_plans:
-            conviction_colors = {"high": "#16a34a", "medium": "#f59e0b", "low": "#6b7280"}
-            for p in opp_plans:
-                ticker = p["ticker"]
-                conviction = p.get("conviction", "low")
-                color = conviction_colors.get(conviction, "#6b7280")
+        # ── Merge screener plans + event-driven candidates ────────────────────
+        opp_plans = opp_cache.get("plans", [])
+        event_data = load_event_opportunities()
+
+        unified = []
+
+        # Screener-sourced plans — keep high/medium conviction only
+        for p in opp_plans:
+            if p.get("conviction", "low") in ("high", "medium") and p.get("final_tier") in ("Strong Buy", "Buy"):
+                unified.append({
+                    "ticker": p["ticker"],
+                    "company_name": p.get("company_name", p["ticker"]),
+                    "price": p.get("price", 0),
+                    "signal_tier": p.get("final_tier", "Buy"),
+                    "source": "screener",
+                    "source_label": None,
+                    "buy_case": p.get("buy_case", ""),
+                    "entry_trigger": p.get("entry_condition", ""),
+                    "suggested_entry_price": p.get("suggested_entry_price"),
+                    "target_price": p.get("target_price"),
+                    "exit_condition": p.get("exit_condition", ""),
+                    "risk": p.get("risk", ""),
+                    "suggested_dollars": p.get("suggested_dollars", 0),
+                    "suggested_shares": p.get("suggested_shares", 0),
+                    "timeframe": p.get("timeframe", ""),
+                })
+
+        # Event-driven candidates — keep high event conviction + buy signal
+        for event in event_data.get("events", []):
+            if event.get("direction") not in ("bullish", "mixed"):
+                continue
+            for t in event.get("tickers", []):
+                if (t.get("event_conviction") == "high"
+                        and t.get("signal_tier") in ("Strong Buy", "Buy")):
+                    unified.append({
+                        "ticker": t["ticker"],
+                        "company_name": t.get("company_name", t["ticker"]),
+                        "price": t.get("price", 0),
+                        "signal_tier": t.get("signal_tier", "Buy"),
+                        "source": "event",
+                        "source_label": event["event_title"],
+                        "buy_case": event.get("event_description", "") + " " + event.get("rationale", ""),
+                        "entry_trigger": t.get("entry_trigger", ""),
+                        "suggested_entry_price": None,
+                        "target_price": t.get("target_price"),
+                        "exit_condition": t.get("exit_condition", ""),
+                        "risk": t.get("risk", ""),
+                        "suggested_dollars": 0,
+                        "suggested_shares": 0,
+                        "timeframe": event.get("timeframe", ""),
+                    })
+
+        # Sort: Strong Buy first, then by source (screener before event)
+        tier_order = {"Strong Buy": 0, "Buy": 1}
+        unified.sort(key=lambda x: (tier_order.get(x["signal_tier"], 9), x["source"] != "screener"))
+
+        if unified:
+            for item in unified:
+                ticker = item["ticker"]
+                tier = item["signal_tier"]
+                tier_color = TIER_COLORS.get(tier, "#6b7280")
                 on_watchlist = is_on_watchlist(ticker)
+                source_tag = f"  ·  via **{item['source_label']}**" if item["source_label"] else ""
 
                 with st.expander(
-                    f"**{ticker}** — {p.get('company_name', '')}  |  ${p.get('price', 0):,.2f}  |  {conviction.upper()} CONVICTION"
+                    f"**{ticker}** — {item['company_name']}  |  ${item['price']:,.2f}  |  {tier}{source_tag}"
                     + (" ★ Watching" if on_watchlist else ""),
-                    expanded=True
+                    expanded=True,
                 ):
-                    col1, col2, col3, col4 = st.columns([2, 2, 2, 1.5])
-                    col1.markdown(f"<div style='background:{color};color:white;padding:6px 12px;border-radius:8px;font-weight:bold;display:inline-block'>{conviction.upper()} CONVICTION</div>", unsafe_allow_html=True)
-                    if p.get("suggested_dollars", 0) > 0:
-                        col2.metric("Suggested Buy", f"${p['suggested_dollars']:,.0f}", f"{p['suggested_shares']} shares")
-                    col3.markdown(f"**Timeframe:** {p.get('timeframe', '—')}")
+                    c1, c2, c3 = st.columns([2, 2, 2])
+                    c1.markdown(tier_badge(tier), unsafe_allow_html=True)
+                    if item["suggested_dollars"] > 0:
+                        c2.metric("Suggested Buy", f"${item['suggested_dollars']:,.0f}", f"{item['suggested_shares']} shares")
+                    else:
+                        c2.markdown(f"**Timeframe:** {item['timeframe']}")
+                    c3.markdown(f"**Timeframe:** {item['timeframe']}" if item["suggested_dollars"] > 0 else "")
 
-                    # Urgency from signal
-                    raw_signal = next((s for s in (st.session_state.get("signal_results") or []) if s.get("ticker") == ticker), {})
-                    if not raw_signal:
-                        raw_signal = {"tier": p.get("conviction", "low").title(), "buy_score": 0.7 if conviction == "high" else 0.5}
-                    urgency = get_urgency(raw_signal, p.get("final_tier", "Buy" if conviction == "high" else "Watch"))
-                    if urgency["level"] in ("URGENT", "ACT SOON"):
-                        col4.markdown(f"<div style='background:{urgency['color']};color:white;padding:6px 10px;border-radius:8px;font-weight:bold;font-size:12px;text-align:center'>{urgency['level']}</div>", unsafe_allow_html=True)
-
-                    st.markdown(f"**Why now:** {p.get('buy_case', '')}")
+                    if item["buy_case"]:
+                        st.markdown(f"**Why now:** {item['buy_case']}")
 
                     col1, col2 = st.columns(2)
                     with col1:
-                        if p.get("entry_condition"):
-                            st.success(f"**Entry trigger:** {p['entry_condition']}")
-                        if p.get("suggested_entry_price"):
-                            st.info(f"**Entry price target:** ${p['suggested_entry_price']:,.2f}")
+                        if item.get("entry_trigger"):
+                            st.success(f"**Entry trigger:** {item['entry_trigger']}")
+                        if item.get("suggested_entry_price"):
+                            st.info(f"**Entry price:** ${item['suggested_entry_price']:,.2f}")
                     with col2:
-                        if p.get("target_price"):
-                            st.info(f"**Price target:** ${p['target_price']:,.2f}")
-                        if p.get("exit_condition"):
-                            st.warning(f"**Exit when:** {p['exit_condition']}")
-                        if p.get("risk"):
-                            st.error(f"**Risk:** {p['risk']}")
+                        if item.get("target_price"):
+                            st.info(f"**Target:** ${item['target_price']:,.2f}")
+                        if item.get("exit_condition"):
+                            st.warning(f"**Exit when:** {item['exit_condition']}")
+                        if item.get("risk"):
+                            st.error(f"**Risk:** {item['risk']}")
 
-                    # Watchlist button
                     if on_watchlist:
-                        if st.button(f"Remove from Watchlist", key=f"rm_{ticker}"):
+                        if st.button("Remove from Watchlist", key=f"rm_{ticker}"):
                             remove_from_watchlist(ticker)
                             st.rerun()
                     else:
                         if st.button(f"Add {ticker} to Watchlist", type="primary", key=f"add_{ticker}"):
-                            add_to_watchlist(ticker, raw_signal or {"tier": "Buy"}, reason=p.get("buy_case", "")[:120])
+                            add_to_watchlist(ticker, {"tier": tier}, reason=item["buy_case"][:120])
                             sync_watchlist()
-                            st.success(f"{ticker} added to watchlist — signals will be tracked daily.")
+                            st.success(f"{ticker} added to watchlist.")
                             st.rerun()
-        else:
-            st.info("Overnight analysis will surface new swing candidates here after the scheduler runs.")
-
-        # ── Event-Driven Opportunities ────────────────────────────────────────
-        st.divider()
-        st.subheader("Event-Driven Opportunities")
-        st.caption("Stocks outside the standard 600-stock universe surfaced by world events — IPOs, wars, deals, regulatory shifts. Updated weekly.")
-
-        event_data = load_event_opportunities()
-        event_list = event_data.get("events", [])
-
-        if event_list:
-            age = event_data.get("age_hours", 0)
-            st.success(f"Updated {age:.0f}h ago · {sum(len(e['tickers']) for e in event_list)} candidates across {len(event_list)} events")
-
-            direction_colors = {"bullish": "#16a34a", "bearish": "#b91c1c", "mixed": "#f59e0b"}
-            confidence_colors = {"high": "#16a34a", "medium": "#f59e0b", "low": "#6b7280"}
-            conviction_colors = {"high": "#16a34a", "medium": "#f59e0b", "low": "#6b7280"}
-
-            for event in event_list:
-                d_color = direction_colors.get(event["direction"], "#6b7280")
-                c_color = confidence_colors.get(event["event_confidence"], "#6b7280")
-
-                st.markdown(
-                    f"#### {event['event_title']} &nbsp;"
-                    f"<span style='background:{d_color};color:white;padding:2px 10px;border-radius:6px;font-size:13px;font-weight:bold'>{event['direction'].upper()}</span> &nbsp;"
-                    f"<span style='background:{c_color};color:white;padding:2px 10px;border-radius:6px;font-size:13px'>{event['event_confidence'].upper()} CONFIDENCE</span>",
-                    unsafe_allow_html=True,
-                )
-                st.caption(f"{event['event_description']}  ·  Timeframe: {event['timeframe']}")
-                st.caption(f"Why these stocks: {event['rationale']}")
-
-                for t in event["tickers"]:
-                    ticker = t["ticker"]
-                    ev_conv = t.get("event_conviction", "low")
-                    sig_tier = t.get("signal_tier", "Hold")
-                    tier_color = TIER_COLORS.get(sig_tier, "#6b7280")
-                    ev_color = conviction_colors.get(ev_conv, "#6b7280")
-                    universe_tag = "" if not t.get("in_standard_universe") else " _(also in screener)_"
-
-                    with st.expander(
-                        f"**{ticker}** — {t.get('company_name', ticker)}  |  ${t.get('price', 0):,.2f}  |  {sig_tier}  |  {ev_conv.upper()} EVENT CONVICTION{universe_tag}",
-                        expanded=True,
-                    ):
-                        c1, c2, c3 = st.columns(3)
-                        c1.markdown(
-                            f"<span style='background:{tier_color};color:white;padding:4px 12px;border-radius:8px;font-weight:bold'>{sig_tier}</span>",
-                            unsafe_allow_html=True,
-                        )
-                        c2.markdown(
-                            f"Event conviction: <span style='background:{ev_color};color:white;padding:4px 12px;border-radius:8px;font-weight:bold'>{ev_conv.upper()}</span>",
-                            unsafe_allow_html=True,
-                        )
-                        c3.markdown(f"**RSI:** {t.get('rsi', 'N/A')}  ·  **Sector:** {t.get('sector', '—')}")
-
-                        col1, col2 = st.columns(2)
-                        with col1:
-                            if t.get("entry_trigger"):
-                                st.success(f"**Entry trigger:** {t['entry_trigger']}")
-                            if t.get("target_price"):
-                                st.info(f"**Price target:** ${t['target_price']:,.2f}")
-                        with col2:
-                            if t.get("exit_condition"):
-                                st.warning(f"**Exit when:** {t['exit_condition']}")
-                            if t.get("risk"):
-                                st.error(f"**Risk:** {t['risk']}")
-
                 st.divider()
         else:
-            st.info("Event-driven opportunities will appear here after the weekly scheduler runs.")
+            st.info("No high-conviction buy opportunities right now. Everything is Hold — check back after the next weekly run.")
 
 
 # ── Page: Long-Term ETF Plans ──────────────────────────────────────────────────
