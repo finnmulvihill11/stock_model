@@ -6,6 +6,9 @@ from plotly.subplots import make_subplots
 import yaml
 from pathlib import Path
 from datetime import datetime
+from dotenv import load_dotenv
+
+load_dotenv(Path(__file__).parent / ".env")
 
 from src.portfolio import get_portfolio
 from src.signals import get_technical_signal
