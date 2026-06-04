@@ -1,0 +1,221 @@
+{
+  "saved_at": "2026-06-04T03:29:22.711474",
+  "events": [
+    {
+      "event_title": "US-China Tariff Escalation & Trade War Resumption",
+      "event_description": "The Trump administration has reimposed sweeping tariffs on Chinese goods (145%+), with China retaliating at 125%. This is disrupting supply chains, forcing nearshoring decisions, and creating winners among domestic manufacturers and alternatives-to-China sourcing plays. A negotiated pause or deal could reverse dynamics rapidly.",
+      "direction": "mixed",
+      "rationale": "POWL (Powell Industries) and CSWI (CSW Industrials) are US-manufactured electrical/industrial components beneficiaries of reshoring demand. AAON makes HVAC equipment domestically and wins as construction avoids imported units. These mid-caps have direct domestic manufacturing exposure with minimal China sourcing risk. Watch for order acceleration in earnings calls.",
+      "timeframe": "4-10 weeks",
+      "event_confidence": "high",
+      "tickers": [
+        {
+          "ticker": "RCUS",
+          "company_name": "Arcus Biosciences, Inc.",
+          "sector": "Healthcare",
+          "in_standard_universe": false,
+          "signal_tier": "Hold",
+          "price": 23.86,
+          "rsi": 43.0,
+          "buy_score": 0.38,
+          "sell_score": 0.29,
+          "entry_trigger": "RCUS is a biopharmaceutical company (immune-oncology, inflammation) with no meaningful domestic manufacturing exposure or China supply chain dependency - fundamentally misaligned with tariff reshoring thesis. No entry recommended for this event.",
+          "target_price": null,
+          "exit_condition": "N/A - thesis does not apply to RCUS business model",
+          "risk": "Critical mismatch: RCUS generates revenue from drug development/licensing, not industrial goods manufacturing or sourcing. Tariff escalation has minimal direct impact on biotech IP/R&D model. Recommended event plays are POWL, CSWI, AAON (industrial/manufacturing). RCUS swing trade should be evaluated on separate clinical/pipeline catalysts only.",
+          "event_conviction": "low"
+        },
+        {
+          "ticker": "ACHR",
+          "company_name": "Archer Aviation Inc.",
+          "sector": "Industrials",
+          "in_standard_universe": false,
+          "signal_tier": "Hold",
+          "price": 6.53,
+          "rsi": 50.2,
+          "buy_score": 0.25,
+          "sell_score": 0.57,
+          "entry_trigger": "ACHR breaks above $7.20 on volume >2M shares amid tariff headline escalation; or earnings call reveals confirmed nearshoring/domestic manufacturing contracts",
+          "target_price": null,
+          "exit_condition": "US-China trade deal announcement or tariff pause; RSI falls below 40 on closing basis; price closes below $5.80; earnings miss on domestic order acceleration",
+          "risk": "ACHR has minimal direct exposure to tariff beneficiary thesis\u2014eVTOL/air taxi market timing is primary driver, not trade policy. Tariff tailwinds help peers (POWL, CSWI, AAON) with existing revenue/manufacturing; ACHR remains pre-revenue/commercialization. Tariff pause would not reverse core execution risk.",
+          "event_conviction": "low"
+        },
+        {
+          "ticker": "POWL",
+          "company_name": "Powell Industries, Inc.",
+          "sector": "Industrials",
+          "in_standard_universe": false,
+          "signal_tier": "Hold",
+          "price": 299.73,
+          "rsi": 49.5,
+          "buy_score": 0.62,
+          "sell_score": 0.29,
+          "entry_trigger": "Break above $305 on tariff escalation headlines + earnings beat confirming order acceleration YoY; alternatively pullback to $290-295 support with RSI <40 on China trade deal rumors for lower-risk entry",
+          "target_price": 325,
+          "exit_condition": "US-China trade deal announcement or tariff rollback; also exit if RSI >70 without fundamental confirmation of sustained order growth, or break below $285 support",
+          "risk": "Rapid tariff reversal via negotiated deal eliminates reshoring tailwind; POWL's China exposure may be understated; near-term sentiment whipsaw on trade headlines; valuation compression if tariffs prove transitory; order acceleration may already be priced in",
+          "event_conviction": "medium"
+        }
+      ]
+    },
+    {
+      "event_title": "AI Data Center Power Infrastructure Crunch",
+      "event_description": "Hyperscalers (Microsoft, Google, Amazon, Meta) have committed $300B+ in 2025 capex for AI infrastructure. The binding constraint is now power \u2014 grid interconnection queues, transformer shortages, and backup power demand are creating urgent bottlenecks. This is a multi-quarter procurement surge with specific near-term contract announcements expected.",
+      "direction": "bullish",
+      "rationale": "HUBB (Hubbell) makes grid connectivity and electrical infrastructure with direct data center exposure and rising backlog. GEV (GE Vernova) is the leading gas turbine supplier for data center backup and grid power \u2014 order books are surging. AMPS (Altus Power) and DFLI (Dragonfly Energy) serve on-site power and storage needs. These are direct picks-and-shovels plays before mega-caps see margin.",
+      "timeframe": "4-12 weeks",
+      "event_confidence": "high",
+      "tickers": [
+        {
+          "ticker": "POWL",
+          "company_name": "Powell Industries, Inc.",
+          "sector": "Industrials",
+          "in_standard_universe": false,
+          "signal_tier": "Hold",
+          "price": 299.73,
+          "rsi": 49.5,
+          "buy_score": 0.62,
+          "sell_score": 0.29,
+          "entry_trigger": "Break above $305 on volume >2M shares with positive earnings surprise or major data center power contract announcement",
+          "target_price": 335,
+          "exit_condition": "RSI >70 with volume decline, or failure to hold $295 support after contract miss/delay announcement",
+          "risk": "Execution risk on contract timing; hyperscalers may optimize in-house power solutions or diversify suppliers; grid modernization takes longer than expected; competitor GEV/HUBB capture majority of TAM",
+          "event_conviction": "medium"
+        },
+        {
+          "ticker": "GEV",
+          "company_name": "GE Vernova Inc.",
+          "sector": "Industrials",
+          "in_standard_universe": false,
+          "signal_tier": "Hold",
+          "price": 959.36,
+          "rsi": 34.1,
+          "buy_score": 0.62,
+          "sell_score": 0.14,
+          "entry_trigger": "Break above $975 on volume >2M shares with contract announcement catalyst (data center power order >500MW or grid interconnection win); alternatively RSI >50 on bullish divergence",
+          "target_price": 1085,
+          "exit_condition": "Close below $930 (break of recent support); or if contract pipeline guidance disappointed in next earnings; or broader market risk-off in growth/infrastructure; or take 60% off at $1020 and trail stop on remainder",
+          "risk": "Execution risk on hyperscaler demand conversion (capex commitment \u2260 GEV contract awards); supply chain delays reduce urgency premium; rising rates compress infrastructure multiples; competitor (Siemens, Caterpillar) wins displace GEV; event already priced in given 52-week run",
+          "event_conviction": "medium"
+        },
+        {
+          "ticker": "HUBB",
+          "company_name": "Hubbell Incorporated",
+          "sector": "Industrials",
+          "in_standard_universe": false,
+          "signal_tier": "Hold",
+          "price": 484.91,
+          "rsi": 51.4,
+          "buy_score": 0.38,
+          "sell_score": 0.14,
+          "entry_trigger": "Close above $492 on volume >1.5M shares, OR announcement of major hyperscaler power infrastructure contract within 2 weeks",
+          "target_price": 535,
+          "exit_condition": "Stop loss at $472 (2.7% risk); Take profit at $535 or if RSI exceeds 70 without new contract news; Exit if broader market corrects >3% or power infrastructure capex delays announced",
+          "risk": "Valuation already reflects some infrastructure tailwinds (HUBB up ~35% YTD); execution risk on contract timing; margin compression if supply chains normalize; GEV/renewable energy competition; macro recession fears could defer capex",
+          "event_conviction": "medium"
+        }
+      ]
+    },
+    {
+      "event_title": "European Defense Spending Surge Post-Ukraine/NATO Pressure",
+      "event_description": "European NATO members have committed to 3-5% GDP defense spending targets, a structural shift from decades of underinvestment. US defense contractors with European programs, NATO-interoperable systems, and ammunition supply chains are seeing multi-year contract pipelines accelerating NOW. Several contract awards and budget approvals expected in Q2-Q3 2025.",
+      "direction": "bullish",
+      "rationale": "KTOS (Kratos) builds low-cost drones and autonomous systems directly aligned with NATO modernization priorities \u2014 strong catalyst from European procurement. ESLT (Elbit Systems of America, US-listed) is the purest play on allied defense spending. CACI International has NATO-aligned intelligence and cyber contracts expanding. These are mid-cap specialists, not LMT/RTX which are already widely owned.",
+      "timeframe": "6-14 weeks",
+      "event_confidence": "medium",
+      "tickers": [
+        {
+          "ticker": "KTOS",
+          "company_name": "Kratos Defense & Security Solutions, Inc.",
+          "sector": "Industrials",
+          "in_standard_universe": false,
+          "signal_tier": "Hold",
+          "price": 58.43,
+          "rsi": 60.3,
+          "buy_score": 0.25,
+          "sell_score": 0.43,
+          "entry_trigger": "Break above $60.50 on volume >2M shares, or pullback to $56-57 on NATO contract announcement confirmation (Q2 earnings or press release)",
+          "target_price": 72,
+          "exit_condition": "Close below $55 (thesis break) OR take 60-70% profit above $70 if contract wins announced early; hard exit at 14-week mark (early July 2025) if no material European procurement wins disclosed",
+          "risk": "KTOS dependent on future contract awards that may slip into 2026; RSI at 60 suggests limited near-term momentum; larger primes (RTX, LMT) may absorb NATO spend; geopolitical de-escalation undermines urgency narrative",
+          "event_conviction": "medium"
+        },
+        {
+          "ticker": "AXON",
+          "company_name": "Axon Enterprise, Inc.",
+          "sector": "Industrials",
+          "in_standard_universe": false,
+          "signal_tier": "Hold",
+          "price": 481.48,
+          "rsi": 82.2,
+          "buy_score": 0.0,
+          "sell_score": 0.29,
+          "entry_trigger": "Pullback to $465-470 (support near 20-day MA) on any market weakness; or break above $490 on NATO contract award announcement in Q2 2025",
+          "target_price": 520,
+          "exit_condition": "RSI above 85 + close above $515 (take 50% profit); or break below $460 on failed contract award; or stop at $470 if thesis invalidated by Q2 without material European procurement news",
+          "risk": "RSI at 82.2 signals overbought near-term\u2014downside risk to $460-465 before sustainable rally. European defense spending announcements may be delayed beyond Q2-Q3. Competition from established primes (RTX, LMT, DALO) for NATO contracts could limit AXON's upside. Valuation already priced in some defense tailwinds.",
+          "event_conviction": "medium"
+        },
+        {
+          "ticker": "ESLT",
+          "company_name": "Elbit Systems Ltd.",
+          "sector": "Industrials",
+          "in_standard_universe": false,
+          "signal_tier": "Hold",
+          "price": 829.81,
+          "rsi": 58.5,
+          "buy_score": 0.38,
+          "sell_score": 0.14,
+          "entry_trigger": "Break above $835 on volume >2M shares, or pullback to $815-820 RSI <50 during consolidation phase",
+          "target_price": 920,
+          "exit_condition": "Stop loss at $800 (3.6% risk); Take 50% at $875; Trail remaining above 21-day MA if catalyst delayed past end-Q2 2025",
+          "risk": "Catalyst timing slippage (European budget cycles often miss timelines); ESLT already priced in some NATO momentum; sector rotation if US fiscal concerns dominate; geopolitical de-escalation reduces urgency",
+          "event_conviction": "medium"
+        }
+      ]
+    },
+    {
+      "event_title": "US Regional Banking Stress & Credit Tightening",
+      "event_description": "Persistent high rates, commercial real estate (CRE) loan losses, and tariff-driven economic uncertainty are pressuring regional banks. Q2 2025 earnings season will expose which banks have elevated CRE exposure, rising charge-offs, and net interest margin compression. Short opportunities exist in over-leveraged regionals while deposit-stable banks with low CRE could outperform.",
+      "direction": "bearish",
+      "rationale": "NYCB has well-documented CRE and multifamily stress and remains a high-risk name into earnings. Smaller regionals like COFS (ChoiceOne Financial) with concentrated CRE books in slowing markets face charge-off surprises. OFG Bancorp has Puerto Rico exposure which adds idiosyncratic risk. Earnings season in July is the hard catalyst \u2014 misses could be sharp given thin analyst coverage.",
+      "timeframe": "3-8 weeks",
+      "event_confidence": "medium",
+      "tickers": [
+        {
+          "ticker": "OFG",
+          "company_name": "OFG Bancorp",
+          "sector": "Financial Services",
+          "in_standard_universe": false,
+          "signal_tier": "Hold",
+          "price": 44.73,
+          "rsi": 54.3,
+          "buy_score": 0.38,
+          "sell_score": 0.14,
+          "entry_trigger": "OFG closes below $43.50 on volume >2M shares, or gap down on Q2 earnings miss (NII compression, CRE charge-offs >guidance); confirm with RSI <45",
+          "target_price": 39.5,
+          "exit_condition": "Stop loss at $46.20 (above recent resistance); take profits at $41.50-$40.00 if earnings confirm CRE stress; exit entire position if Puerto Rico tax/regulatory support announced or deposit flows prove resilient",
+          "risk": "OFG's Puerto Rico presence creates idiosyncratic upside (tax incentives, tourism recovery) that could offset CRE concerns; thin liquidity in OFG stock could trigger violent short squeezes; Fed pivot toward cuts mid-Q3 could relieve NIM pressure before earnings catalyst hits",
+          "event_conviction": "medium"
+        },
+        {
+          "ticker": "AROW",
+          "company_name": "Arrow Financial Corporation",
+          "sector": "Financial Services",
+          "in_standard_universe": false,
+          "signal_tier": "Hold",
+          "price": 35.78,
+          "rsi": 52.5,
+          "buy_score": 0.38,
+          "sell_score": 0.14,
+          "entry_trigger": "AROW breaks below $34.50 on volume spike following any negative regional banking news or Q2 earnings miss by peer banks (NYCB, COFS); or RSI drops below 45 on CRE charge-off disclosure",
+          "target_price": 31.5,
+          "exit_condition": "Close above $37.00 on strong Q2 earnings beat; or earnings miss doesn't materialize by late July; or Fed signals rate cuts reducing pressure on NII margins",
+          "risk": "AROW has lower CRE concentration than peers\u2014if earnings show resilience or deposits remain stable, thesis breaks. Upside surprise on NII or loan growth could trigger 8-10% rally. Thin float may create whipsaw on low conviction selling.",
+          "event_conviction": "medium"
+        }
+      ]
+    }
+  ]
+}
