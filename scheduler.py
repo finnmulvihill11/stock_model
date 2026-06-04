@@ -31,18 +31,27 @@ CONFIG = yaml.safe_load(open(Path(__file__).parent / "config.yaml"))
 TIER_ORDER = ["Strong Buy", "Buy", "Watch", "Hold", "Avoid", "Sell", "Strong Sell"]
 
 
-def _final_tier(tech_tier, fund_health, news_sentiment, gate_proceed, geo_risk="low"):
+def _final_tier(tech_tier, fund_health, news_sentiment, gate_proceed, geo_risk="low", pnl_pct=None):
     if fund_health == "deteriorating" or news_sentiment == "negative" or not gate_proceed:
         return "Avoid" if tech_tier in ("Strong Buy", "Buy") else tech_tier
-    # Geopolitical risk dampens buy-side conviction — never suppresses sells
-    if geo_risk == "severe":
-        if tech_tier == "Strong Buy":
-            tech_tier = "Buy"
-        elif tech_tier == "Buy":
-            tech_tier = "Watch"
-    elif geo_risk == "high":
-        if tech_tier == "Strong Buy":
-            tech_tier = "Buy"
+
+    original_tier = tech_tier
+
+    # Geo dampens buy-side conviction
+    if geo_risk in ("high", "severe") and tech_tier == "Strong Buy":
+        tech_tier = "Buy"
+    if geo_risk == "severe" and tech_tier == "Buy":
+        tech_tier = "Watch"
+
+    # Geo amplifies sell-side when holding a profit — lock in gains under uncertainty
+    # Only applies to held positions (pnl_pct provided); screener candidates are unaffected
+    in_profit = pnl_pct is not None and pnl_pct > 0
+    if in_profit and geo_risk in ("high", "severe"):
+        if original_tier == "Watch":
+            tech_tier = "Sell"
+        elif original_tier == "Sell" and geo_risk == "severe":
+            tech_tier = "Strong Sell"
+
     if fund_health == "healthy" and news_sentiment == "positive":
         return "Strong Buy" if tech_tier == "Buy" else ("Strong Sell" if tech_tier == "Sell" else tech_tier)
     return tech_tier
@@ -79,7 +88,7 @@ def run_nightly():
             combined = generate_plan_with_news(holding, sig, fund, gate, market)
             news_result = combined["news"]
 
-            tier = _final_tier(sig["tier"], fund["health"], news_result.get("sentiment", "neutral"), gate["proceed"], geo_risk)
+            tier = _final_tier(sig["tier"], fund["health"], news_result.get("sentiment", "neutral"), gate["proceed"], geo_risk, holding.get("unrealized_pnl_pct"))
             sig["final_tier"] = tier
 
             sz = size_swing_trade(ticker, sig["price"], sig.get("atr") or 1)

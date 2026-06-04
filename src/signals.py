@@ -156,15 +156,23 @@ def get_technical_signal(ticker: str) -> dict:
     buy_score = len(buy_passed) / (len(buy_passed) + len(buy_failed))
     sell_score = len(sell_passed) / (len(sell_passed) + len(sell_failed))
 
-    if sell_score > buy_score and sell_score >= 0.5:
+    buy_active = buy_score >= 0.5
+    sell_active = sell_score >= 0.5
+
+    if sell_active and (not buy_active or sell_score >= buy_score):
         direction = "sell"
         tier = _tier_from_counts(len(sell_passed), len(sell_passed) + len(sell_failed), "sell")
         reasons = sell_passed
         misses = sell_failed
-    else:
+    elif buy_active:
         direction = "buy"
         tier = _tier_from_counts(len(buy_passed), len(buy_passed) + len(buy_failed), "buy")
         reasons = buy_passed
+        misses = buy_failed
+    else:
+        direction = "hold"
+        tier = "Hold"
+        reasons = []
         misses = buy_failed
 
     row = df.iloc[-1]

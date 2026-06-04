@@ -71,7 +71,7 @@ def load_portfolio():
 def load_market_context():
     return get_market_context()
 
-def load_full_analysis(ticker, high_risk=False, force_live=False):
+def load_full_analysis(ticker, high_risk=False, force_live=False, pnl_pct=None):
     """Load analysis from overnight cache. Falls back to live only if forced (Ticker Detail)."""
     if not force_live:
         cached = load_ticker_analysis(ticker)
@@ -93,15 +93,19 @@ def load_full_analysis(ticker, high_risk=False, force_live=False):
     if fund["health"] == "deteriorating" or news.get("sentiment") == "negative" or not gate["proceed"]:
         final_tier = "Avoid" if tech_tier in ("Strong Buy", "Buy") else tech_tier
     else:
-        # Geopolitical risk dampens buy-side conviction; never suppresses sells
-        if geo_risk == "severe":
-            if tech_tier == "Strong Buy":
-                tech_tier = "Buy"
-            elif tech_tier == "Buy":
-                tech_tier = "Watch"
-        elif geo_risk == "high":
-            if tech_tier == "Strong Buy":
-                tech_tier = "Buy"
+        original_tier = tech_tier
+        # Geo dampens buy-side conviction
+        if geo_risk in ("high", "severe") and tech_tier == "Strong Buy":
+            tech_tier = "Buy"
+        if geo_risk == "severe" and tech_tier == "Buy":
+            tech_tier = "Watch"
+        # Geo amplifies sell-side when holding a profit
+        in_profit = pnl_pct is not None and pnl_pct > 0
+        if in_profit and geo_risk in ("high", "severe"):
+            if original_tier == "Watch":
+                tech_tier = "Sell"
+            elif original_tier == "Sell" and geo_risk == "severe":
+                tech_tier = "Strong Sell"
         if fund["health"] == "healthy" and news.get("sentiment") == "positive":
             final_tier = "Strong Buy" if tech_tier == "Buy" else ("Strong Sell" if tech_tier == "Sell" else tech_tier)
         else:
@@ -316,9 +320,10 @@ elif page == "Ticker Detail":
         portfolio = load_portfolio()
         holding = next((h for h in portfolio["holdings"] if h["ticker"] == ticker), None)
         high_risk = holding.get("high_risk", False) if holding else False
+        pnl_pct = holding.get("unrealized_pnl_pct") if holding else None
 
         with st.spinner(f"Running full analysis on {ticker}..."):
-            analysis = load_full_analysis(ticker, high_risk)
+            analysis = load_full_analysis(ticker, high_risk, pnl_pct=pnl_pct)
 
         sig = analysis["signal"]
         fund = analysis["fundamentals"]
