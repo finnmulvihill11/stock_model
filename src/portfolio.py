@@ -27,6 +27,11 @@ def update_holding_after_buy(ticker: str, shares_bought: int, buy_price: float,
 
     existing = next((h for h in holdings if h["ticker"] == ticker), None)
 
+    # If re-buying a previously sold ticker, remove it from previously_owned
+    prev = config["portfolio"].get("previously_owned", [])
+    if ticker in prev:
+        config["portfolio"]["previously_owned"] = [t for t in prev if t != ticker]
+
     if existing:
         old_shares = existing["shares"]
         old_avg = existing["avg_cost"]
@@ -73,6 +78,10 @@ def update_holding_after_sell(ticker: str, shares_sold: int) -> dict:
         for key in ("swing_tickers", "dca_tickers"):
             if ticker in config["portfolio"].get(key, []):
                 config["portfolio"][key] = [t for t in config["portfolio"][key] if t != ticker]
+        # Track as previously owned so it re-enters the screener universe
+        prev = config["portfolio"].get("previously_owned", [])
+        if ticker not in prev:
+            config["portfolio"]["previously_owned"] = prev + [ticker]
         result = {"ticker": ticker, "shares": 0, "removed": True}
     else:
         existing["shares"] = new_shares
