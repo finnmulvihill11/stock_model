@@ -29,6 +29,9 @@ portfolio:
   - ticker: DECK
     shares: 1
     avg_cost: 97.18
+  - ticker: WELL
+    shares: 1
+    avg_cost: 202.75
   dca_tickers:
   - VOO
   - VXUS
@@ -86,7 +89,7 @@ sizing:
   min_position_pct: 0.03
   max_position_pct: 0.2
   atr_multiplier: 2.0
-  max_swing_trade_pct: 0.30
+  max_swing_trade_pct: 0.3
 etf_universe:
   broad_us:
   - ticker: VOO
