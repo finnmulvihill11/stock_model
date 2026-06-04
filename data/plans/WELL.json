@@ -1,0 +1,19 @@
+{
+  "current": {
+    "ticker": "WELL",
+    "company_name": "Welltower Inc.",
+    "action": "Hold",
+    "action_reason": "Position is only -0.94% (well below 15% exit threshold); RSI 30.9 is oversold and typically precedes reversals. Fundamentals remain healthy\u2014accumulate data on next earnings or wait for technical bounce.",
+    "target_price": 208.5,
+    "target_reasoning": "",
+    "exit_trigger": "Break below $195 (1.2% further) with deteriorating fundamental news OR close below 200-MA on high volume",
+    "add_trigger": "RSI bounces above 40 on positive volume + Extreme Fear lifts to Fear/Neutral; alternatively, confirmed support hold at $198\u2013$200",
+    "risk": "Broad healthcare REIT sector weakness; geopolitical uncertainty pressuring institutional flows into defensive assets",
+    "outlook": "cautious",
+    "timeframe": "2\u20134 weeks",
+    "generated_at": "2026-06-04T23:07:42.272740",
+    "price_at_generation": 200.85,
+    "pnl_at_generation": -0.94
+  },
+  "history": []
+}

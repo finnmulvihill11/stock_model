@@ -1,0 +1,88 @@
+{
+  "ticker": "CTVA",
+  "signal": {
+    "ticker": "CTVA",
+    "direction": "hold",
+    "tier": "Hold",
+    "buy_score": 0.62,
+    "sell_score": 0.0,
+    "reasons": [],
+    "misses": [
+      "BB Width: bands expanding, not squeezing",
+      "RSI Divergence: no bullish divergence detected",
+      "Volume: below average (0.64x) \u2014 low conviction"
+    ],
+    "price": 77.46,
+    "rsi": 23.5,
+    "atr": 1.68,
+    "final_tier": "Hold",
+    "sizing": {
+      "suggested_shares": 2,
+      "suggested_dollars": 154.92,
+      "note": "2 sh @ $77.46 = $155 (Hold, 60% size) | $828 swing budget after"
+    }
+  },
+  "fundamentals": {
+    "ticker": "CTVA",
+    "health": "healthy",
+    "passed": [
+      "Revenue growing YoY (+11.0%)",
+      "Debt-to-equity acceptable (0.1x)",
+      "Profitable (margin 6.5%)"
+    ],
+    "flags": [],
+    "revenue_growth": 0.11,
+    "de_ratio": 13.64,
+    "profit_margins": 0.064959995
+  },
+  "earnings": {
+    "proceed": true,
+    "reason": "Fundamentals intact \u2014 dip may be an overreaction",
+    "verdict": {
+      "ticker": "CTVA",
+      "verdict": "consider",
+      "reason": "Fundamentals intact \u2014 dip may be an overreaction",
+      "notes": [
+        "Earnings growing YoY (+12.1%)",
+        "Revenue growing (+11.0%)"
+      ],
+      "earnings_status": "distant",
+      "next_earnings_date": "2026-07-30",
+      "days_to_earnings": 56
+    }
+  },
+  "news": {
+    "ticker": "CTVA",
+    "sentiment": "neutral",
+    "health": "healthy",
+    "key_events": [
+      "No recent news available for assessment",
+      "RSI at 23.5 indicates oversold conditions",
+      "Earnings 56 days out provides runway for recovery",
+      "Market volatility neutral (VIX 15.4) but sentiment at Extreme Fear"
+    ],
+    "macro_context": "",
+    "competitive_notes": "",
+    "red_flags": [
+      "No news data available\u2014unable to assess catalysts or headwinds",
+      "Extreme Fear sentiment suggests potential capitulation phase"
+    ],
+    "verdict": "Oversold agricultural commodity play with healthy fundamentals\u2014hold and monitor for technical bounce or accumulation opportunity.",
+    "confidence": "medium"
+  },
+  "relative_strength": {
+    "ticker": "CTVA",
+    "stock_return_3m": 1.37,
+    "benchmark_return_3m": 11.43,
+    "relative_strength": -10.06,
+    "label": "underperforming"
+  },
+  "final_tier": "Hold",
+  "sizing": {
+    "suggested_shares": 2,
+    "suggested_dollars": 154.92,
+    "note": "2 sh @ $77.46 = $155 (Hold, 60% size) | $828 swing budget after"
+  },
+  "is_dca": false,
+  "saved_at": "2026-06-04T23:07:48.553790"
+}

@@ -3,19 +3,36 @@
     "ticker": "CMG",
     "company_name": "Chipotle Mexican Grill, Inc.",
     "action": "Hold",
-    "action_reason": "Position is down 8.67% (within acceptable swing trade drawdown), RSI 27.9 is deeply oversold, and earnings catalyst is 55 days away. Per philosophy, do not trim losers; wait for technical recovery or add on weakness below $27.",
-    "target_price": 32.5,
+    "action_reason": "Position is down 10.45% (below 15% threshold); RSI 26.1 signals oversold bounce potential. Earnings in 55 days provide concrete catalyst; hold for mean reversion and avoid locking in loss.",
+    "target_price": null,
     "target_reasoning": "",
-    "exit_trigger": "Break below RSI 20 + negative earnings surprise, or recover to $32.50+ (entry level) for reassessment",
-    "add_trigger": "Oversold bounce fails + RSI falls to 20 and price tests $27 support; adds 2-3 shares if conviction remains",
-    "risk": "High leverage (2.2x D/E) amplifies downside if consumer spending weakens; geopolitical escalation could pressure discretionary sector",
+    "exit_trigger": "Close below $26.00 (15% loss threshold) on high volume OR negative earnings surprise with guidance cut",
+    "add_trigger": "RSI drops below 20 with MACD positive crossover, OR CMG breaks above $30.50 with volume confirmation",
+    "risk": "Debt load (2.2x D/E) limits margin for error if consumer spending deteriorates; macro uncertainty from geopolitical tensions could extend pullback",
     "outlook": "cautious",
-    "timeframe": "3-6 weeks (until oversold recovery or earnings approach)",
-    "generated_at": "2026-06-04T04:12:00.225129",
-    "price_at_generation": 28.74,
-    "pnl_at_generation": -8.67
+    "timeframe": "4-8 weeks (through earnings event)",
+    "generated_at": "2026-06-04T23:07:28.032753",
+    "price_at_generation": 28.18,
+    "pnl_at_generation": -10.45
   },
   "history": [
+    {
+      "ticker": "CMG",
+      "company_name": "Chipotle Mexican Grill, Inc.",
+      "action": "Hold",
+      "action_reason": "Position is down 8.67% (within acceptable swing trade drawdown), RSI 27.9 is deeply oversold, and earnings catalyst is 55 days away. Per philosophy, do not trim losers; wait for technical recovery or add on weakness below $27.",
+      "target_price": 32.5,
+      "target_reasoning": "",
+      "exit_trigger": "Break below RSI 20 + negative earnings surprise, or recover to $32.50+ (entry level) for reassessment",
+      "add_trigger": "Oversold bounce fails + RSI falls to 20 and price tests $27 support; adds 2-3 shares if conviction remains",
+      "risk": "High leverage (2.2x D/E) amplifies downside if consumer spending weakens; geopolitical escalation could pressure discretionary sector",
+      "outlook": "cautious",
+      "timeframe": "3-6 weeks (until oversold recovery or earnings approach)",
+      "generated_at": "2026-06-04T04:12:00.225129",
+      "price_at_generation": 28.74,
+      "pnl_at_generation": -8.67,
+      "archived_at": "2026-06-04T23:07:28.032957"
+    },
     {
       "ticker": "CMG",
       "company_name": "Chipotle Mexican Grill, Inc.",
@@ -117,23 +134,6 @@
       "price_at_generation": 32.69,
       "pnl_at_generation": 3.88,
       "archived_at": "2026-05-28T23:14:06.524923"
-    },
-    {
-      "ticker": "CMG",
-      "company_name": "Chipotle Mexican Grill, Inc.",
-      "action": "Hold",
-      "action_reason": "Position shows +2.67% gain with RSI neutral at 50.0. The Bollinger Band squeeze suggests a breakout is imminent, but without positive news flow or technical confirmation, holding allows you to capture upside while respecting the weak fundamentals.",
-      "target_price": 33.5,
-      "target_reasoning": "",
-      "exit_trigger": "RSI falls below 40 on close OR price breaks below $31.20 (entry support) with volume",
-      "add_trigger": "RSI breaks above 60 after BB squeeze resolves upward + positive same-store sales guidance",
-      "risk": "High debt load (2.2x D/E) + post-earnings weakness = vulnerability in market pullback; VIX remains relatively calm but Fear index signals caution",
-      "outlook": "neutral",
-      "timeframe": "2-4 weeks (monitor for earnings recovery signals or debt management announcements)",
-      "generated_at": "2026-05-26T23:07:23.486254",
-      "price_at_generation": 32.31,
-      "pnl_at_generation": 2.67,
-      "archived_at": "2026-05-27T23:15:16.944685"
     }
   ]
 }

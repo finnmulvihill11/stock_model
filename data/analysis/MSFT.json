@@ -2,24 +2,22 @@
   "ticker": "MSFT",
   "signal": {
     "ticker": "MSFT",
-    "direction": "sell",
-    "tier": "Sell",
-    "buy_score": 0.38,
-    "sell_score": 0.71,
-    "reasons": [
-      "BB Width: squeeze/contraction after expansion",
-      "MACD: histogram at peak / turning down",
-      "RSI Divergence: Price higher high (422.62 > 419.86) but RSI lower high (46.2 < 48.9)",
-      "Death cross: 50MA (405.62) below 200MA (455.31)",
-      "Volume: above average on sell (1.05x) \u2014 confirms distribution"
-    ],
+    "direction": "hold",
+    "tier": "Hold",
+    "buy_score": 0.25,
+    "sell_score": 0.57,
+    "reasons": [],
     "misses": [
-      "BB: price not near upper band (pct=0.60)",
-      "RSI: not in sell zone (59.9, need 70-80)"
+      "BB: price not near lower band (pct=0.60)",
+      "RSI: not in buy zone (58.6, need 20-30)",
+      "MACD: no bullish crossover or valley",
+      "RSI Divergence: no bullish divergence detected",
+      "200MA: price below 200MA \u2014 potential falling knife",
+      "Volume: below average (0.71x) \u2014 low conviction"
     ],
-    "price": 427.34,
-    "rsi": 59.9,
-    "atr": 13.67,
+    "price": 428.05,
+    "rsi": 58.6,
+    "atr": 13.58,
     "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 0,
@@ -61,28 +59,28 @@
     "sentiment": "neutral",
     "health": "healthy",
     "key_events": [
-      "Earnings released 36 days ago - results digested by market",
-      "Price action showing distribution pattern with lower highs on RSI",
-      "Bollinger Band squeeze suggests volatility compression before potential breakout",
-      "Market backdrop neutral (VIX 16.1) but sentiment extremely fearful"
+      "Earnings reported 36 days ago (already priced in)",
+      "No current news available for assessment",
+      "Market volatility remains benign (VIX 15.4)"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "RSI divergence: price making higher highs while RSI makes lower highs - classic bearish divergence",
-      "MACD histogram at peak and turning down - momentum exhaustion",
-      "Position down 8.53% with significant portfolio weight (26.8%) - concentration risk",
-      "Extreme fear sentiment despite neutral technicals - potential capitulation selling pressure"
+      "Position down 8.38% from entry",
+      "RSI at 58.6 shows no momentum firing",
+      "Extreme Fear sentiment suggests market-wide capitulation pressure",
+      "No technical buy signals present",
+      "News void limits conviction for new trades"
     ],
-    "verdict": "MSFT shows technical deterioration (bearish divergence + MACD rollover) despite healthy fundamentals; hold per philosophy but monitor closely for capitulation bounce.",
+    "verdict": "MSFT is in a choppy consolidation phase with healthy fundamentals but no near-term catalyst or technical confirmation.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "MSFT",
-    "stock_return_3m": 5.69,
-    "benchmark_return_3m": 10.39,
-    "relative_strength": -4.7,
-    "label": "in-line"
+    "stock_return_3m": 4.46,
+    "benchmark_return_3m": 11.43,
+    "relative_strength": -6.97,
+    "label": "underperforming"
   },
   "final_tier": "Hold",
   "sizing": {
@@ -91,5 +89,5 @@
     "note": "Position already at 20% portfolio cap"
   },
   "is_dca": false,
-  "saved_at": "2026-06-04T04:11:37.243687"
+  "saved_at": "2026-06-04T23:07:07.444981"
 }

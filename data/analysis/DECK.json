@@ -8,21 +8,21 @@
     "sell_score": 0.29,
     "reasons": [],
     "misses": [
-      "BB: price not near lower band (pct=0.64)",
+      "BB: price not near lower band (pct=0.68)",
       "BB Width: bands expanding, not squeezing",
-      "RSI: not in buy zone (71.7, need 20-30)",
+      "RSI: not in buy zone (72.2, need 20-30)",
       "MACD: no bullish crossover or valley",
       "RSI Divergence: no bullish divergence detected",
-      "Volume: below average (0.98x) \u2014 low conviction"
+      "Volume: below average (0.55x) \u2014 low conviction"
     ],
-    "price": 107.36,
-    "rsi": 71.7,
-    "atr": 4.17,
+    "price": 108.96,
+    "rsi": 72.2,
+    "atr": 4.19,
     "final_tier": "Hold",
     "sizing": {
-      "suggested_shares": 2,
-      "suggested_dollars": 214.72,
-      "note": "2 sh @ $107.36 = $215 (Hold, 60% size) | $1,049 swing budget after"
+      "suggested_shares": 1,
+      "suggested_dollars": 108.96,
+      "note": "1 sh @ $108.96 = $109 (Hold, 60% size) | $874 swing budget after"
     }
   },
   "fundamentals": {
@@ -58,34 +58,34 @@
     "sentiment": "neutral",
     "health": "healthy",
     "key_events": [
-      "Earnings passed 14 days ago",
-      "Stock up 10.48% from entry",
-      "RSI at 71.7 indicating overbought conditions",
-      "No recent news catalysts identified"
+      "Earnings reported 14 days ago (past cycle)",
+      "Stock up +12.12% since entry",
+      "RSI at 72.2 indicates overbought conditions"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "RSI 71.7 signals overbought territory with no technical firing patterns to confirm continuation",
-      "Lack of recent news/catalysts suggests momentum may be momentum-driven rather than fundamental",
-      "Extreme Fear sentiment in market (F&G) could trigger sharp reversals despite neutral VIX"
+      "RSI 72.2 signals overbought territory with no new bullish firing signals",
+      "No active technical firing patterns to justify further momentum",
+      "Extreme Fear sentiment suggests market skepticism despite DECK strength",
+      "Lack of news data prevents full sentiment assessment"
     ],
-    "verdict": "DECK is profitable with healthy fundamentals, but overbought technicals and lack of fresh catalysts warrant a cautious hold pending pullback or breakout confirmation.",
+    "verdict": "Profitable swing position with healthy fundamentals but technical momentum stalling at overbought levels\u2014maintain exposure while monitoring for consolidation or pullback entry for additional shares.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "DECK",
-    "stock_return_3m": -1.27,
-    "benchmark_return_3m": 10.39,
-    "relative_strength": -11.66,
+    "stock_return_3m": 1.28,
+    "benchmark_return_3m": 11.43,
+    "relative_strength": -10.14,
     "label": "underperforming"
   },
   "final_tier": "Hold",
   "sizing": {
-    "suggested_shares": 2,
-    "suggested_dollars": 214.72,
-    "note": "2 sh @ $107.36 = $215 (Hold, 60% size) | $1,049 swing budget after"
+    "suggested_shares": 1,
+    "suggested_dollars": 108.96,
+    "note": "1 sh @ $108.96 = $109 (Hold, 60% size) | $874 swing budget after"
   },
   "is_dca": false,
-  "saved_at": "2026-06-04T04:12:08.096819"
+  "saved_at": "2026-06-04T23:07:35.272246"
 }

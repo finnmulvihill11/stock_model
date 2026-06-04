@@ -4,25 +4,24 @@
     "ticker": "TEM",
     "direction": "hold",
     "tier": "Hold",
-    "buy_score": 0.25,
-    "sell_score": 0.43,
+    "buy_score": 0.38,
+    "sell_score": 0.57,
     "reasons": [],
     "misses": [
-      "BB: price not near lower band (pct=0.47)",
-      "RSI: not in buy zone (54.2, need 20-30)",
+      "BB: price not near lower band (pct=0.93)",
+      "RSI: not in buy zone (64.5, need 20-30)",
       "MACD: no bullish crossover or valley",
       "RSI Divergence: no bullish divergence detected",
-      "200MA: price below 200MA \u2014 potential falling knife",
-      "Volume: below average (0.90x) \u2014 low conviction"
+      "200MA: price below 200MA \u2014 potential falling knife"
     ],
-    "price": 47.51,
-    "rsi": 54.2,
-    "atr": 3.06,
+    "price": 52.26,
+    "rsi": 64.5,
+    "atr": 3.39,
     "final_tier": "Hold",
     "sizing": {
-      "suggested_shares": 4,
-      "suggested_dollars": 190.04,
-      "note": "4 sh @ $47.51 = $190 (Hold, 60% size) | $1,074 swing budget after"
+      "suggested_shares": 3,
+      "suggested_dollars": 156.78,
+      "note": "3 sh @ $52.26 = $157 (Hold, 60% size) | $826 swing budget after"
     }
   },
   "fundamentals": {
@@ -59,36 +58,36 @@
     "sentiment": "negative",
     "health": "deteriorating",
     "key_events": [
-      "Stock down 31.22% from entry",
-      "Earnings reported within last 30 days (likely catalyst for decline)",
-      "Market sentiment: Extreme Fear (Fear & Greed Index)",
-      "Neutral macro environment (VIX 16.1)"
+      "Earnings reported within last 30 days",
+      "Post-earnings decline of 24.35% from entry",
+      "Extreme Fear market sentiment (F&G indicator)"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "High debt-to-equity ratio (3.2x) \u2014 significant leverage risk",
-      "Not profitable with negative operating cash flow \u2014 cash burn concern",
-      "No technical firing signals (RSI 54.2 neutral, no bullish setup)",
-      "Fundamentals deteriorating \u2014 no operational improvement visible",
-      "No recent news catalysts listed \u2014 information vacuum during downturn"
+      "Negative operating cash flow",
+      "Not profitable",
+      "High debt-to-equity ratio (3.2x) limits financial flexibility",
+      "RSI at 64.5 suggests momentum exhaustion without follow-through",
+      "No bullish technical firing signals",
+      "Stock trading well below entry after recent earnings miss"
     ],
-    "verdict": "TEM is a deteriorating unprofitable company with high leverage experiencing severe technical and sentiment washout; hold per philosophy but monitor closely for further deterioration.",
+    "verdict": "Tempus AI shows severe fundamental weakness with unprofitable operations and high leverage, compounded by post-earnings deterioration and extreme market fear; recovery uncertain.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "TEM",
-    "stock_return_3m": -7.37,
-    "benchmark_return_3m": 10.39,
-    "relative_strength": -17.76,
+    "stock_return_3m": -1.49,
+    "benchmark_return_3m": 11.43,
+    "relative_strength": -12.92,
     "label": "underperforming"
   },
   "final_tier": "Hold",
   "sizing": {
-    "suggested_shares": 4,
-    "suggested_dollars": 190.04,
-    "note": "4 sh @ $47.51 = $190 (Hold, 60% size) | $1,074 swing budget after"
+    "suggested_shares": 3,
+    "suggested_dollars": 156.78,
+    "note": "3 sh @ $52.26 = $157 (Hold, 60% size) | $826 swing budget after"
   },
   "is_dca": false,
-  "saved_at": "2026-06-04T04:11:53.775398"
+  "saved_at": "2026-06-04T23:07:21.190878"
 }

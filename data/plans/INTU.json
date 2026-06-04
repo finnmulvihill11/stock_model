@@ -3,19 +3,36 @@
     "ticker": "INTU",
     "company_name": "Intuit Inc.",
     "action": "Hold",
-    "action_reason": "Position is down 33.49%, exceeding your 15% threshold for forced holds. Fundamentals are healthy and RSI at 37.8 indicates oversold bounce potential; wait for technical reversal signals or stabilization before any decision.",
-    "target_price": 385,
+    "action_reason": "Position exceeds -15% threshold, mandating hold per philosophy. RSI 34.8 signals oversold bounce potential, though missing news context prevents conviction for averaging down at this moment.",
+    "target_price": null,
     "target_reasoning": "",
-    "exit_trigger": "Break below $300 or negative fundamental shift in next earnings; alternatively, exit at profitability if recovered to $480+",
-    "add_trigger": "RSI bounces above 50 with volume confirmation AND VIX remains below 20, signaling capitulation reversal",
-    "risk": "Further earnings disappointment, software sector rotation, or macro deterioration could test lower support; concentration risk at 29.3% weight",
+    "exit_trigger": "Do not exit. Re-evaluate for Add More if RSI crosses above 40 AND positive earnings surprise catalyst emerges within 4 weeks.",
+    "add_trigger": "RSI rebounds to 45-50 range with reversal confirmation + volume spike; OR company announces positive guidance revision/product announcement",
+    "risk": "Concentrated portfolio weight (26.1%) amplifies drawdown impact; missing news data creates blind spot on fundamental deterioration",
     "outlook": "cautious",
-    "timeframe": "4-8 weeks (allow post-earnings stabilization and technical setup)",
-    "generated_at": "2026-06-04T04:11:29.612985",
-    "price_at_generation": 311.44,
-    "pnl_at_generation": -33.49
+    "timeframe": "4-6 weeks (await next catalyst or technical recovery confirmation)",
+    "generated_at": "2026-06-04T23:07:01.166990",
+    "price_at_generation": 301.98,
+    "pnl_at_generation": -35.51
   },
   "history": [
+    {
+      "ticker": "INTU",
+      "company_name": "Intuit Inc.",
+      "action": "Hold",
+      "action_reason": "Position is down 33.49%, exceeding your 15% threshold for forced holds. Fundamentals are healthy and RSI at 37.8 indicates oversold bounce potential; wait for technical reversal signals or stabilization before any decision.",
+      "target_price": 385,
+      "target_reasoning": "",
+      "exit_trigger": "Break below $300 or negative fundamental shift in next earnings; alternatively, exit at profitability if recovered to $480+",
+      "add_trigger": "RSI bounces above 50 with volume confirmation AND VIX remains below 20, signaling capitulation reversal",
+      "risk": "Further earnings disappointment, software sector rotation, or macro deterioration could test lower support; concentration risk at 29.3% weight",
+      "outlook": "cautious",
+      "timeframe": "4-8 weeks (allow post-earnings stabilization and technical setup)",
+      "generated_at": "2026-06-04T04:11:29.612985",
+      "price_at_generation": 311.44,
+      "pnl_at_generation": -33.49,
+      "archived_at": "2026-06-04T23:07:01.167229"
+    },
     {
       "ticker": "INTU",
       "company_name": "Intuit Inc.",
@@ -117,23 +134,6 @@
       "price_at_generation": 307.73,
       "pnl_at_generation": -34.29,
       "archived_at": "2026-05-28T23:13:32.709497"
-    },
-    {
-      "ticker": "INTU",
-      "company_name": "Intuit Inc.",
-      "action": "Start Trimming",
-      "action_reason": "Reduce weight to <15% to manage concentration risk. Use any bounce toward $320-330 to trim 1 share, realizing that oversold conditions can reverse sharply but don't guarantee recovery. Protect capital on a position that's significantly overweighted.",
-      "target_price": 320,
-      "target_reasoning": "",
-      "exit_trigger": "Break below 371.71 (negating divergence signal); or any close below 350 on volume",
-      "add_trigger": "Only add if divergence confirms with 3-5% bounce AND price stabilizes above 390 on fundamentals strength",
-      "risk": "Further compression below 350 invalidates the RSI divergence setup; concentrated position amplifies losses",
-      "outlook": "cautious",
-      "timeframe": "1-3 weeks for position trim; monitor RSI divergence over next 5-10 trading sessions",
-      "generated_at": "2026-05-26T23:06:53.847236",
-      "price_at_generation": 304.35,
-      "pnl_at_generation": -35.01,
-      "archived_at": "2026-05-27T23:14:46.160608"
     }
   ]
 }

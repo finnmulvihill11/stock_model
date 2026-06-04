@@ -3,19 +3,36 @@
     "ticker": "MSFT",
     "company_name": "Microsoft Corporation",
     "action": "Hold",
-    "action_reason": "Position down only 8.53% (well above your 15% hold-through threshold). Technical weakness is real but BB squeeze + extreme fear sentiment suggest potential reversal setup; fundamentals remain solid. Holding allows for recovery or clearer exit signal.",
+    "action_reason": "Position is below the 15% loss threshold that triggers your no-exit rule. RSI at 58.6 is neutral\u2014neither oversold nor overbought\u2014warranting patience for either recovery or a clear technical setup before acting.",
     "target_price": null,
     "target_reasoning": "",
-    "exit_trigger": "Loss exceeds 15% OR RSI breaks below 40 on close + MACD confirms bearish crossover + VIX spikes above 22",
-    "add_trigger": "Price retests $415-420 support + RSI divergence resolves bullish (price lower low but RSI higher low) + volume spike confirms capitulation",
-    "risk": "Continued distribution and momentum exhaustion could push toward $415 support; extreme fear may indicate oversold conditions, but technicals suggest downside risk near-term before reversal",
+    "exit_trigger": "Loss exceeds 15% from entry ($397.10); or technical breakdown below key support with deteriorating fundamentals",
+    "add_trigger": "RSI drops to <35 (oversold confirmation) + close above 21-day MA on volume; or positive catalyst news with VIX compression",
+    "risk": "Continued downside drift if market-wide fear persists; opportunity cost if capital needed elsewhere",
     "outlook": "cautious",
-    "timeframe": "2-3 weeks",
-    "generated_at": "2026-06-04T04:11:37.242951",
-    "price_at_generation": 427.34,
-    "pnl_at_generation": -8.53
+    "timeframe": "3-6 weeks",
+    "generated_at": "2026-06-04T23:07:07.444216",
+    "price_at_generation": 428.05,
+    "pnl_at_generation": -8.38
   },
   "history": [
+    {
+      "ticker": "MSFT",
+      "company_name": "Microsoft Corporation",
+      "action": "Hold",
+      "action_reason": "Position down only 8.53% (well above your 15% hold-through threshold). Technical weakness is real but BB squeeze + extreme fear sentiment suggest potential reversal setup; fundamentals remain solid. Holding allows for recovery or clearer exit signal.",
+      "target_price": null,
+      "target_reasoning": "",
+      "exit_trigger": "Loss exceeds 15% OR RSI breaks below 40 on close + MACD confirms bearish crossover + VIX spikes above 22",
+      "add_trigger": "Price retests $415-420 support + RSI divergence resolves bullish (price lower low but RSI higher low) + volume spike confirms capitulation",
+      "risk": "Continued distribution and momentum exhaustion could push toward $415 support; extreme fear may indicate oversold conditions, but technicals suggest downside risk near-term before reversal",
+      "outlook": "cautious",
+      "timeframe": "2-3 weeks",
+      "generated_at": "2026-06-04T04:11:37.242951",
+      "price_at_generation": 427.34,
+      "pnl_at_generation": -8.53,
+      "archived_at": "2026-06-04T23:07:07.444468"
+    },
     {
       "ticker": "MSFT",
       "company_name": "Microsoft Corporation",
@@ -117,23 +134,6 @@
       "price_at_generation": 412.67,
       "pnl_at_generation": -11.67,
       "archived_at": "2026-05-28T23:13:39.444695"
-    },
-    {
-      "ticker": "MSFT",
-      "company_name": "Microsoft Corporation",
-      "action": "Hold",
-      "action_reason": "BB squeeze + 50/200 MA convergence are early-stage bullish signals. Let the golden cross confirm before adding; RSI neutral gives room to run upside. Position weight is high\u2014do not add until reversal clarity.",
-      "target_price": 445,
-      "target_reasoning": "",
-      "exit_trigger": "Close below $405 (break below 200 MA) OR portfolio reallocation needed if weight exceeds 30%",
-      "add_trigger": "Golden cross confirmed (50 MA > 200 MA) AND close above $430 on volume",
-      "risk": "Continued downside if golden cross fails to materialize; macro weakness (VIX 'Fear') could trigger broader selloff",
-      "outlook": "cautious",
-      "timeframe": "2-4 weeks for golden cross confirmation; reassess at $445 target",
-      "generated_at": "2026-05-26T23:07:02.337208",
-      "price_at_generation": 416.03,
-      "pnl_at_generation": -10.95,
-      "archived_at": "2026-05-27T23:14:54.072155"
     }
   ]
 }

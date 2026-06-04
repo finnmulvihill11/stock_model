@@ -1,0 +1,91 @@
+{
+  "ticker": "WELL",
+  "signal": {
+    "ticker": "WELL",
+    "direction": "hold",
+    "tier": "Hold",
+    "buy_score": 0.5,
+    "sell_score": 0.0,
+    "reasons": [],
+    "misses": [
+      "BB Width: bands expanding, not squeezing",
+      "RSI: not in buy zone (30.9, need 20-30)",
+      "RSI Divergence: no bullish divergence detected",
+      "Volume: below average (0.49x) \u2014 low conviction"
+    ],
+    "price": 200.85,
+    "rsi": 30.9,
+    "atr": 5.2,
+    "final_tier": "Hold",
+    "sizing": {
+      "suggested_shares": 0,
+      "suggested_dollars": 0,
+      "note": "Price exceeds 60% conviction ceiling ($177) \u2014 skip or wait for Strong Buy"
+    }
+  },
+  "fundamentals": {
+    "ticker": "WELL",
+    "health": "healthy",
+    "passed": [
+      "Revenue growing YoY (+38.3%)",
+      "Debt-to-equity acceptable (0.4x)",
+      "Profitable (margin 12.0%)"
+    ],
+    "flags": [],
+    "revenue_growth": 0.383,
+    "de_ratio": 44.486,
+    "profit_margins": 0.119619995
+  },
+  "earnings": {
+    "proceed": true,
+    "reason": "Fundamentals intact \u2014 dip may be an overreaction",
+    "verdict": {
+      "ticker": "WELL",
+      "verdict": "consider",
+      "reason": "Fundamentals intact \u2014 dip may be an overreaction",
+      "notes": [
+        "Earnings growing YoY (+157.9%)",
+        "Revenue growing (+38.3%)"
+      ],
+      "earnings_status": "past",
+      "next_earnings_date": "2026-04-28",
+      "days_to_earnings": -37
+    }
+  },
+  "news": {
+    "ticker": "WELL",
+    "sentiment": "neutral",
+    "health": "healthy",
+    "key_events": [
+      "No recent news available for analysis",
+      "Earnings released 37 days ago (past cycle)",
+      "RSI at 30.9 suggests oversold conditions",
+      "Market volatility neutral (VIX 15.4)",
+      "Extreme Fear sentiment in broader market"
+    ],
+    "macro_context": "",
+    "competitive_notes": "",
+    "red_flags": [
+      "No current news flow to validate fundamental health claim",
+      "Position down 0.94% with RSI in oversold territory but no bullish divergence firing yet",
+      "Extreme Fear backdrop may indicate broader sector weakness in healthcare REITs"
+    ],
+    "verdict": "WELL is technically oversold with healthy fundamentals intact; hold through minor drawdown and await oversold bounce or positive catalyst.",
+    "confidence": "medium"
+  },
+  "relative_strength": {
+    "ticker": "WELL",
+    "stock_return_3m": -1.71,
+    "benchmark_return_3m": 11.43,
+    "relative_strength": -13.14,
+    "label": "underperforming"
+  },
+  "final_tier": "Hold",
+  "sizing": {
+    "suggested_shares": 0,
+    "suggested_dollars": 0,
+    "note": "Price exceeds 60% conviction ceiling ($177) \u2014 skip or wait for Strong Buy"
+  },
+  "is_dca": false,
+  "saved_at": "2026-06-04T23:07:42.273158"
+}
