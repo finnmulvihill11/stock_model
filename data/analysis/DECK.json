@@ -2,14 +2,11 @@
   "ticker": "DECK",
   "signal": {
     "ticker": "DECK",
-    "direction": "buy",
+    "direction": "hold",
     "tier": "Hold",
     "buy_score": 0.25,
     "sell_score": 0.29,
-    "reasons": [
-      "200MA: price at/above 200MA (107.36 vs 103.26)",
-      "Golden cross: 50MA (103.48) above 200MA (103.26)"
-    ],
+    "reasons": [],
     "misses": [
       "BB: price not near lower band (pct=0.64)",
       "BB Width: bands expanding, not squeezing",
@@ -23,9 +20,9 @@
     "atr": 4.17,
     "final_tier": "Hold",
     "sizing": {
-      "suggested_shares": 11,
-      "suggested_dollars": 1180.96,
-      "note": "11 shares @ $107.36 = $1,181 | $83 swing budget remaining after"
+      "suggested_shares": 2,
+      "suggested_dollars": 214.72,
+      "note": "2 sh @ $107.36 = $215 (Hold, 60% size) | $1,049 swing budget after"
     }
   },
   "fundamentals": {
@@ -53,28 +50,28 @@
       ],
       "earnings_status": "past",
       "next_earnings_date": "2026-05-21",
-      "days_to_earnings": -13
+      "days_to_earnings": -14
     }
   },
   "news": {
     "ticker": "DECK",
-    "sentiment": "positive",
+    "sentiment": "neutral",
     "health": "healthy",
     "key_events": [
-      "Price above 200MA with golden cross setup intact",
-      "RSI at 71.7 indicates strong momentum but overbought territory",
-      "Recent earnings passed 13 days ago",
-      "VIX neutral (16.1) supports risk appetite"
+      "Earnings reported 14 days ago",
+      "Stock up +10.48% from entry",
+      "VIX at neutral levels (16.1)",
+      "Extreme Fear sentiment in market"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "RSI overbought at 71.7 \u2014 vulnerability to pullback",
-      "Extreme Fear in F&G \u2014 potential sentiment disconnect warning",
-      "No recent news catalysts \u2014 momentum may be running on technicals alone",
-      "Post-earnings period \u2014 typically higher volatility risk"
+      "RSI at 71.7 \u2014 overbought territory",
+      "No technical firing signals despite rally",
+      "No recent news catalysts visible",
+      "Post-earnings momentum may be fading"
     ],
-    "verdict": "DECK is technically sound with strong uptrend structure, but overbought RSI and F&G extreme fear suggest profit-taking risk in next 1-2 weeks.",
+    "verdict": "DECK has captured solid swing gains but shows overbought technicals with no fresh catalysts\u2014ideal trim zone.",
     "confidence": "medium"
   },
   "relative_strength": {
@@ -86,10 +83,10 @@
   },
   "final_tier": "Hold",
   "sizing": {
-    "suggested_shares": 11,
-    "suggested_dollars": 1180.96,
-    "note": "11 shares @ $107.36 = $1,181 | $83 swing budget remaining after"
+    "suggested_shares": 2,
+    "suggested_dollars": 214.72,
+    "note": "2 sh @ $107.36 = $215 (Hold, 60% size) | $1,049 swing budget after"
   },
   "is_dca": false,
-  "saved_at": "2026-06-03T23:41:25.843773"
+  "saved_at": "2026-06-04T03:34:51.632869"
 }

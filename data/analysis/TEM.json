@@ -2,14 +2,11 @@
   "ticker": "TEM",
   "signal": {
     "ticker": "TEM",
-    "direction": "buy",
+    "direction": "hold",
     "tier": "Hold",
     "buy_score": 0.25,
     "sell_score": 0.43,
-    "reasons": [
-      "BB Width: squeeze active (width=0.2307)",
-      "50/200MA: converging upward toward golden cross"
-    ],
+    "reasons": [],
     "misses": [
       "BB: price not near lower band (pct=0.47)",
       "RSI: not in buy zone (54.2, need 20-30)",
@@ -23,9 +20,9 @@
     "atr": 3.06,
     "final_tier": "Hold",
     "sizing": {
-      "suggested_shares": 20,
-      "suggested_dollars": 950.2,
-      "note": "20 shares @ $47.51 = $950 | $313 swing budget remaining after"
+      "suggested_shares": 4,
+      "suggested_dollars": 190.04,
+      "note": "4 sh @ $47.51 = $190 (Hold, 60% size) | $1,074 swing budget after"
     }
   },
   "fundamentals": {
@@ -54,7 +51,7 @@
       ],
       "earnings_status": "past",
       "next_earnings_date": "2026-05-05",
-      "days_to_earnings": -29
+      "days_to_earnings": -30
     }
   },
   "news": {
@@ -62,21 +59,21 @@
     "sentiment": "negative",
     "health": "deteriorating",
     "key_events": [
-      "Recent earnings miss (-29 days ago)",
-      "Bollinger Band squeeze active - volatility compression suggests breakout pending",
-      "50/200 MA converging upward toward golden cross - potential bullish technical setup",
-      "Extreme Fear sentiment (F&G) - potential capitulation/reversal zone"
+      "Earnings reported 30 days ago with significant negative impact",
+      "No recent news catalysts available for assessment",
+      "Market showing extreme fear despite neutral VIX"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "Significant unrealized loss (-31.22%) indicates poor entry timing",
-      "High debt-to-equity (3.2x) - leverage risk in downturn",
-      "Not profitable with negative operating cash flow - burn rate concern",
-      "No recent news catalyst support visible",
-      "BB squeeze at resistance risk - false breakout potential"
+      "Massive drawdown of 31.22% from entry point",
+      "High debt-to-equity ratio of 3.2x indicates financial leverage risk",
+      "Not profitable with negative operating cash flow\u2014unsustainable trajectory",
+      "RSI at 54.2 shows no oversold conditions or bounce potential",
+      "No technical firing signals to support reversal",
+      "Extreme fear sentiment suggests broader market distrust"
     ],
-    "verdict": "TEM shows technical setup potential but fundamental deterioration and position underwater creates compounding risk; exit or tight stop-loss warranted.",
+    "verdict": "Position is underwater with deteriorating fundamentals and no near-term catalysts; holding becomes a value trap without clarity on profitability timeline.",
     "confidence": "medium"
   },
   "relative_strength": {
@@ -88,10 +85,10 @@
   },
   "final_tier": "Hold",
   "sizing": {
-    "suggested_shares": 20,
-    "suggested_dollars": 950.2,
-    "note": "20 shares @ $47.51 = $950 | $313 swing budget remaining after"
+    "suggested_shares": 4,
+    "suggested_dollars": 190.04,
+    "note": "4 sh @ $47.51 = $190 (Hold, 60% size) | $1,074 swing budget after"
   },
   "is_dca": false,
-  "saved_at": "2026-06-03T23:41:12.356090"
+  "saved_at": "2026-06-04T03:34:38.716799"
 }

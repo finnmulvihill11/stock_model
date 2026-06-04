@@ -3,19 +3,36 @@
     "ticker": "ABT",
     "company_name": "Abbott Laboratories",
     "action": "Hold",
-    "action_reason": "Position is healthy long-term but near-term technicals show indecision (BB squeeze). Adding here locks in losses if downside breakout occurs. Wait for squeeze resolution above $90 resistance or below $83 support.",
-    "target_price": 98.5,
+    "action_reason": "Fundamentals remain healthy and no sell signals present. The 20% drawdown appears driven by sector rotation and fear rather than company deterioration. Next catalyst (earnings or guidance update) will determine next move.",
+    "target_price": 95.5,
     "target_reasoning": "",
-    "exit_trigger": "Close below $83 (break of recent support) with volume confirmation; or trailing 15% stop from any recovery bounce",
-    "add_trigger": "Breakout above $92 with volume + RSI >70, confirming squeeze resolution to upside",
-    "risk": "Continuation lower if market risk-off escalates; squeeze breakout could be to downside given -20% already lost",
+    "exit_trigger": "Break below $84 (support) OR earnings miss with negative guidance OR RSI drops below 40 with volume spike",
+    "add_trigger": "RSI falls to 35-40 range with VIX spike (fear capitulation) OR positive healthcare sector rotation signal",
+    "risk": "Continued healthcare sector rotation; potential dividend pressure if broader market correction deepens",
     "outlook": "cautious",
-    "timeframe": "2-4 weeks (until BB squeeze resolves)",
-    "generated_at": "2026-06-03T23:41:05.600985",
+    "timeframe": "3-6 weeks",
+    "generated_at": "2026-06-04T03:34:32.414208",
     "price_at_generation": 86.99,
     "pnl_at_generation": -20.75
   },
   "history": [
+    {
+      "ticker": "ABT",
+      "company_name": "Abbott Laboratories",
+      "action": "Hold",
+      "action_reason": "Position is healthy long-term but near-term technicals show indecision (BB squeeze). Adding here locks in losses if downside breakout occurs. Wait for squeeze resolution above $90 resistance or below $83 support.",
+      "target_price": 98.5,
+      "target_reasoning": "",
+      "exit_trigger": "Close below $83 (break of recent support) with volume confirmation; or trailing 15% stop from any recovery bounce",
+      "add_trigger": "Breakout above $92 with volume + RSI >70, confirming squeeze resolution to upside",
+      "risk": "Continuation lower if market risk-off escalates; squeeze breakout could be to downside given -20% already lost",
+      "outlook": "cautious",
+      "timeframe": "2-4 weeks (until BB squeeze resolves)",
+      "generated_at": "2026-06-03T23:41:05.600985",
+      "price_at_generation": 86.99,
+      "pnl_at_generation": -20.75,
+      "archived_at": "2026-06-04T03:34:32.414394"
+    },
     {
       "ticker": "ABT",
       "company_name": "Abbott Laboratories",
@@ -117,23 +134,6 @@
       "price_at_generation": 87.41,
       "pnl_at_generation": -20.37,
       "archived_at": "2026-05-26T23:07:09.139604"
-    },
-    {
-      "ticker": "ABT",
-      "company_name": "Abbott Laboratories",
-      "action": "Hold",
-      "action_reason": "Squeeze setup typically precedes 7-14% directional moves. Wait for breakout confirmation (RSI >55 for upside, <45 for downside) before adding or trimming. Current -20% loss is painful but not a sell signal given healthy fundamentals.",
-      "target_price": null,
-      "target_reasoning": "",
-      "exit_trigger": "Break below $84.50 (recent support) on high volume + RSI <40, OR fundamental deterioration in next earnings",
-      "add_trigger": "Breakout above $92 with BB expansion + RSI >60 on volume, OR drop to $79-81 if fundamentals remain healthy (averaging down)",
-      "risk": "Gap down on sector-wide healthcare weakness or ABT-specific guidance cut; position weight (5.3%) limits portfolio damage",
-      "outlook": "cautious",
-      "timeframe": "2-4 weeks until squeeze resolves",
-      "generated_at": "2026-05-24T17:28:47.540960",
-      "price_at_generation": 87.41,
-      "pnl_at_generation": -20.37,
-      "archived_at": "2026-05-25T22:58:56.551399"
     }
   ]
 }

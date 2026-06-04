@@ -2,20 +2,37 @@
   "current": {
     "ticker": "DECK",
     "company_name": "Deckers Outdoor Corporation",
-    "action": "Hold",
-    "action_reason": "Position is profitable with healthy technicals (golden cross, price above 200MA), but RSI overbought status warrants avoiding additions. Hold core position and monitor for RSI pullback or consolidation.",
-    "target_price": 110.5,
+    "action": "Start Trimming",
+    "action_reason": "With 10.5% gains and RSI deep in overbought (>70), take partial profits on 40-50% position. Fundamentals are healthy but lack immediate catalysts, and post-earnings bounce typically exhausts within 2-3 weeks.",
+    "target_price": 112,
     "target_reasoning": "",
-    "exit_trigger": "Close below 50MA (103.48) OR RSI drops below 50 on high volume OR break below 200MA (103.26)",
-    "add_trigger": "RSI drops to 50-55 range on pullback while maintaining price above 200MA",
-    "risk": "Overbought technicals + extreme fear sentiment = mean reversion pullback to 104-105 range likely within 2-3 weeks",
-    "outlook": "short",
+    "exit_trigger": "RSI falls below 60 or stock closes below $105.50 on volume",
+    "add_trigger": "Pullback to $102-103 on healthy volume if broader market stabilizes",
+    "risk": "Overbought pullback; retail sentiment extreme fear could flip fast; lack of news to sustain momentum",
+    "outlook": "cautious",
     "timeframe": "2-4 weeks",
-    "generated_at": "2026-06-03T23:41:25.842969",
+    "generated_at": "2026-06-04T03:34:51.632121",
     "price_at_generation": 107.36,
     "pnl_at_generation": 10.48
   },
   "history": [
+    {
+      "ticker": "DECK",
+      "company_name": "Deckers Outdoor Corporation",
+      "action": "Hold",
+      "action_reason": "Position is profitable with healthy technicals (golden cross, price above 200MA), but RSI overbought status warrants avoiding additions. Hold core position and monitor for RSI pullback or consolidation.",
+      "target_price": 110.5,
+      "target_reasoning": "",
+      "exit_trigger": "Close below 50MA (103.48) OR RSI drops below 50 on high volume OR break below 200MA (103.26)",
+      "add_trigger": "RSI drops to 50-55 range on pullback while maintaining price above 200MA",
+      "risk": "Overbought technicals + extreme fear sentiment = mean reversion pullback to 104-105 range likely within 2-3 weeks",
+      "outlook": "short",
+      "timeframe": "2-4 weeks",
+      "generated_at": "2026-06-03T23:41:25.842969",
+      "price_at_generation": 107.36,
+      "pnl_at_generation": 10.48,
+      "archived_at": "2026-06-04T03:34:51.632321"
+    },
     {
       "ticker": "DECK",
       "company_name": "Deckers Outdoor Corporation",
@@ -117,23 +134,6 @@
       "price_at_generation": 106.67,
       "pnl_at_generation": 9.77,
       "archived_at": "2026-05-26T23:07:29.861438"
-    },
-    {
-      "ticker": "DECK",
-      "company_name": "Deckers Outdoor Corporation",
-      "action": "Start Trimming",
-      "action_reason": "Trim 1 share (50%) to lock in +9.77% gain ahead of potential death cross confirmation. Price is extended (BB 0.90), and the technical setup suggests caution despite strong fundamentals. Retain 1 share for upside if bullish reversal prints.",
-      "target_price": 110.5,
-      "target_reasoning": "",
-      "exit_trigger": "Close below 102.50 (50MA support); or daily close below upper BB with RSI compression",
-      "add_trigger": "RSI pullback to 45-50 + bullish engulf above 102.21 (50MA) with volume",
-      "risk": "Death cross persistence leading to breakdown toward 100MA; gap-down on sector rotation given extreme market fear",
-      "outlook": "cautious",
-      "timeframe": "3-5 weeks",
-      "generated_at": "2026-05-24T17:29:24.998983",
-      "price_at_generation": 106.67,
-      "pnl_at_generation": 9.77,
-      "archived_at": "2026-05-25T22:59:21.620996"
     }
   ]
 }

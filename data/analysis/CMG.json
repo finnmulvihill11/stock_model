@@ -2,15 +2,11 @@
   "ticker": "CMG",
   "signal": {
     "ticker": "CMG",
-    "direction": "buy",
+    "direction": "hold",
     "tier": "Hold",
     "buy_score": 0.38,
     "sell_score": 0.29,
-    "reasons": [
-      "BB: price near lower band (pct=-0.18)",
-      "RSI: oversold zone (27.9)",
-      "Volume: above average (1.17x)"
-    ],
+    "reasons": [],
     "misses": [
       "BB Width: bands expanding, not squeezing",
       "MACD: no bullish crossover or valley",
@@ -23,9 +19,9 @@
     "atr": 1.07,
     "final_tier": "Hold",
     "sizing": {
-      "suggested_shares": 43,
-      "suggested_dollars": 1235.82,
-      "note": "43 shares @ $28.74 = $1,236 | $28 swing budget remaining after"
+      "suggested_shares": 7,
+      "suggested_dollars": 201.18,
+      "note": "7 sh @ $28.74 = $201 (Hold, 60% size) | $1,063 swing budget after"
     }
   },
   "fundamentals": {
@@ -55,7 +51,7 @@
       ],
       "earnings_status": "distant",
       "next_earnings_date": "2026-07-29",
-      "days_to_earnings": 56
+      "days_to_earnings": 55
     }
   },
   "news": {
@@ -63,19 +59,19 @@
     "sentiment": "neutral",
     "health": "neutral",
     "key_events": [
-      "No recent news items available for analysis",
-      "Earnings report 56 days away (moderate catalyst window)",
-      "Market in Extreme Fear regime despite neutral VIX"
+      "No recent material news catalysts identified",
+      "Earnings 55 days away (mid-term event)",
+      "Market showing extreme fear conditions (potential capitulation)"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
       "High debt-to-equity ratio (2.2x) limits financial flexibility",
-      "Position underwater -8.67% with no catalyst near-term",
-      "No news flow to support recovery narrative",
-      "RSI deep oversold but price near lower BB suggests capitulation risk"
+      "Stock down 8.67% from entry with no technical bounce signals",
+      "RSI at 27.9 indicates oversold but no bullish divergence confirmed",
+      "No immediate catalysts to reverse downtrend"
     ],
-    "verdict": "CMG is oversold technically with deteriorating sentiment, but absence of news and distant earnings limits near-term catalysts for swing trade recovery.",
+    "verdict": "CMG is oversold technically but fundamentally neutral with high leverage; wait for either capitulation confirmation or earnings catalyst.",
     "confidence": "medium"
   },
   "relative_strength": {
@@ -87,10 +83,10 @@
   },
   "final_tier": "Hold",
   "sizing": {
-    "suggested_shares": 43,
-    "suggested_dollars": 1235.82,
-    "note": "43 shares @ $28.74 = $1,236 | $28 swing budget remaining after"
+    "suggested_shares": 7,
+    "suggested_dollars": 201.18,
+    "note": "7 sh @ $28.74 = $201 (Hold, 60% size) | $1,063 swing budget after"
   },
   "is_dca": false,
-  "saved_at": "2026-06-03T23:41:19.019100"
+  "saved_at": "2026-06-04T03:34:45.616696"
 }

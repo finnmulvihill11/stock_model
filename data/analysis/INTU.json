@@ -2,13 +2,11 @@
   "ticker": "INTU",
   "signal": {
     "ticker": "INTU",
-    "direction": "buy",
+    "direction": "hold",
     "tier": "Hold",
     "buy_score": 0.12,
     "sell_score": 0.14,
-    "reasons": [
-      "BB: price near lower band (pct=0.20)"
-    ],
+    "reasons": [],
     "misses": [
       "BB Width: bands expanding, not squeezing",
       "RSI: not in buy zone (37.8, need 20-30)",
@@ -23,9 +21,9 @@
     "atr": 25.48,
     "final_tier": "Hold",
     "sizing": {
-      "suggested_shares": 2,
-      "suggested_dollars": 622.88,
-      "note": "2 shares @ $311.44 = $623 | $641 swing budget remaining after"
+      "suggested_shares": 0,
+      "suggested_dollars": 0,
+      "note": "Position already at 20% portfolio cap"
     }
   },
   "fundamentals": {
@@ -54,7 +52,7 @@
       ],
       "earnings_status": "past",
       "next_earnings_date": "2026-05-20",
-      "days_to_earnings": -14
+      "days_to_earnings": -15
     }
   },
   "news": {
@@ -62,20 +60,21 @@
     "sentiment": "negative",
     "health": "healthy",
     "key_events": [
-      "Earnings miss 14 days ago triggered -33.49% drawdown",
-      "Price at lower Bollinger Band (0.20 percentile) = oversold territory",
-      "Extreme Fear sentiment suggests capitulation selling",
-      "VIX 16.1 = neutral volatility, not crisis mode"
+      "Recent earnings miss (-15 days ago)",
+      "Stock down 33.5% from entry despite healthy fundamentals",
+      "Extreme Fear sentiment in market (capitulation signal)",
+      "RSI 37.8 (oversold territory, typically <30 is extreme)",
+      "VIX 16.1 suggests market volatility normalizing"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "29.3% portfolio weight = concentrated risk with underwater position",
-      "Post-earnings selloff magnitude suggests negative guidance or margin concerns",
-      "No positive news catalysts visible to reverse sentiment",
-      "RSI 37.8 = still below 40, continued bearish pressure"
+      "Large unrealized loss (-$471/position) with 29.3% portfolio weight creates concentration risk",
+      "Post-earnings selloff indicates market repriced growth expectations",
+      "No news catalyst visible to reverse sentiment quickly",
+      "Heavy weighting amplifies drawdown impact on overall portfolio"
     ],
-    "verdict": "INTU caught in post-earnings downdraft with technical oversold setup; position is drowning and concentrated.",
+    "verdict": "INTU hit oversold technicals post-earnings amid market fear, but healthy fundamentals suggest recovery potential; however, position sizing risk and lack of near-term catalyst warrant tactical rebalancing.",
     "confidence": "medium"
   },
   "relative_strength": {
@@ -87,10 +86,10 @@
   },
   "final_tier": "Hold",
   "sizing": {
-    "suggested_shares": 2,
-    "suggested_dollars": 622.88,
-    "note": "2 shares @ $311.44 = $623 | $641 swing budget remaining after"
+    "suggested_shares": 0,
+    "suggested_dollars": 0,
+    "note": "Position already at 20% portfolio cap"
   },
   "is_dca": false,
-  "saved_at": "2026-06-03T23:40:50.834360"
+  "saved_at": "2026-06-04T03:34:18.245114"
 }

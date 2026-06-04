@@ -2,29 +2,27 @@
   "ticker": "MSFT",
   "signal": {
     "ticker": "MSFT",
-    "direction": "sell",
-    "tier": "Watch",
+    "direction": "hold",
+    "tier": "Hold",
     "buy_score": 0.25,
     "sell_score": 0.57,
-    "reasons": [
-      "BB Width: squeeze/contraction after expansion",
-      "MACD: histogram at peak / turning down",
-      "RSI Divergence: Price higher high (422.62 > 419.86) but RSI lower high (46.2 < 48.9)",
-      "Death cross: 50MA (405.62) below 200MA (455.31)"
-    ],
+    "reasons": [],
     "misses": [
-      "BB: price not near upper band (pct=0.60)",
-      "RSI: not in sell zone (59.9, need 70-80)",
-      "Volume: below average (0.97x)"
+      "BB: price not near lower band (pct=0.60)",
+      "RSI: not in buy zone (59.9, need 20-30)",
+      "MACD: no bullish crossover or valley",
+      "RSI Divergence: no bullish divergence detected",
+      "200MA: price below 200MA \u2014 potential falling knife",
+      "Volume: below average (0.97x) \u2014 low conviction"
     ],
     "price": 427.34,
     "rsi": 59.9,
     "atr": 13.67,
-    "final_tier": "Watch",
+    "final_tier": "Hold",
     "sizing": {
-      "suggested_shares": 2,
-      "suggested_dollars": 854.68,
-      "note": "2 shares @ $427.34 = $855 | $409 swing budget remaining after"
+      "suggested_shares": 0,
+      "suggested_dollars": 0,
+      "note": "Position already at 20% portfolio cap"
     }
   },
   "fundamentals": {
@@ -53,7 +51,7 @@
       ],
       "earnings_status": "past",
       "next_earnings_date": "2026-04-29",
-      "days_to_earnings": -35
+      "days_to_earnings": -36
     }
   },
   "news": {
@@ -61,20 +59,18 @@
     "sentiment": "neutral",
     "health": "healthy",
     "key_events": [
-      "Earnings reported 35 days ago (cycle complete)",
-      "Bollinger Band squeeze after expansion signals volatility contraction",
-      "MACD histogram at peak with downward turn indicates momentum exhaustion",
-      "Bearish RSI divergence: price makes higher high but RSI makes lower high (strength weakening)"
+      "Earnings passed 36 days ago - no recent catalysts",
+      "Extreme Fear sentiment despite neutral VIX - potential capitulation bottom",
+      "No breaking news available for analysis"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "Negative divergence on RSI warns of potential reversal despite higher price",
-      "MACD turning down from peak suggests momentum loss",
-      "Position underwater -8.53% with 26.8% portfolio weight creates concentration risk",
-      "Extreme Fear sentiment may indicate capitulation or capitulation bottom is near"
+      "8.53% underwater on position - emotional pressure to exit",
+      "No technical firing signals despite RSI at 59.9 (neutral zone)",
+      "Lack of news flow suggests consolidation phase"
     ],
-    "verdict": "MSFT shows technical fatigue at resistance with bearish divergence; hold current position but prepare for consolidation or pullback.",
+    "verdict": "MSFT remains fundamentally sound, but swing trade is in drawdown without clear near-term catalyst; wait for technical confirmation or accumulation signals before adding.",
     "confidence": "medium"
   },
   "relative_strength": {
@@ -84,12 +80,12 @@
     "relative_strength": -4.7,
     "label": "in-line"
   },
-  "final_tier": "Watch",
+  "final_tier": "Hold",
   "sizing": {
-    "suggested_shares": 2,
-    "suggested_dollars": 854.68,
-    "note": "2 shares @ $427.34 = $855 | $409 swing budget remaining after"
+    "suggested_shares": 0,
+    "suggested_dollars": 0,
+    "note": "Position already at 20% portfolio cap"
   },
   "is_dca": false,
-  "saved_at": "2026-06-03T23:40:58.477392"
+  "saved_at": "2026-06-04T03:34:25.500606"
 }
