@@ -32,6 +32,9 @@ portfolio:
   - ticker: WELL
     shares: 1
     avg_cost: 202.75
+  - ticker: CTVA
+    shares: 1
+    avg_cost: 78.38
   dca_tickers:
   - VOO
   - VXUS
