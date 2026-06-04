@@ -18,7 +18,7 @@ from src.budget import get_budget_state, get_swing_budget_remaining, get_etf_bud
 from src.plans import get_plan, save_plan
 from src.fetcher import fetch_ohlcv
 from src.indicators import add_all_indicators
-from src.analysis_cache import load_ticker_analysis, load_opportunity_plans, get_cache_status
+from src.analysis_cache import load_ticker_analysis, load_opportunity_plans
 from src.github_sync import sync_budget, sync_watchlist, sync_config
 from src.portfolio import update_holding_after_buy, update_holding_after_sell
 
@@ -48,7 +48,6 @@ TIER_COLORS = {
 st.sidebar.title("Stock Model")
 page = st.sidebar.radio("Navigation", [
     "Strategy Dashboard",
-    "Signal Dashboard",
     "Ticker Detail",
     "Swing Trade Plans",
     "Long-Term ETF Plans",
@@ -71,10 +70,6 @@ def load_portfolio():
 @st.cache_data(ttl=3600)
 def load_market_context():
     return get_market_context()
-
-@st.cache_data(ttl=3600)
-def load_signal(ticker):
-    return get_technical_signal(ticker)
 
 def load_full_analysis(ticker, high_risk=False, force_live=False):
     """Load analysis from overnight cache. Falls back to live only if forced (Ticker Detail)."""
@@ -280,78 +275,6 @@ if page == "Strategy Dashboard":
         st.info(vix["note"])
         if fg["value"]:
             st.info(f"Fear & Greed: **{fg['label']}** ({fg['value']}/100)")
-
-
-# ── Page: Signal Dashboard ────────────────────────────────────────────────────
-elif page == "Signal Dashboard":
-    st.title("Signal Dashboard")
-
-    portfolio = load_portfolio()
-    swing_tickers = CONFIG["portfolio"].get("swing_tickers", [])
-    swing_holdings = [h for h in portfolio["holdings"] if not h.get("dca")]
-    all_tickers = [h["ticker"] for h in swing_holdings]
-
-    # Cache status
-    status = get_cache_status(all_tickers)
-    if status["status"] == "fresh":
-        st.success(f"Overnight analysis ready · {status['message']}")
-    elif status["status"] == "stale":
-        st.warning(f"Data is stale · {status['message']}")
-    elif status["status"] == "partial":
-        st.warning(f"Partial data · {status['message']}")
-    else:
-        st.info("No overnight data yet — scheduler hasn't run. Showing live signals (free, no Claude).")
-
-    # Auto-load from cache (ETF/DCA holdings excluded — they live in Long-Term ETF Plans)
-    results = []
-    for holding in [h for h in portfolio["holdings"] if not h.get("dca")]:
-        ticker = holding["ticker"]
-        cached = load_ticker_analysis(ticker)
-        if cached:
-            cached["ticker"] = ticker
-            results.append(cached)
-        else:
-            # Fast fallback — signals only, no Claude
-            try:
-                sig = get_technical_signal(ticker)
-                results.append({"ticker": ticker, "signal": sig, "final_tier": sig["tier"], "sizing": {}, "fundamentals": {}, "news": {}, "earnings": {}})
-            except Exception:
-                pass
-
-    if results:
-        # Column headers
-        h1, h2, h3, h4, h5 = st.columns([1.5, 1.5, 1, 1.5, 4])
-        h1.markdown("**Ticker**")
-        h2.markdown("**Signal**")
-        h3.markdown("**Price**")
-        h4.markdown("**Suggested Buy**")
-        h5.markdown("**Why**")
-        st.markdown("<hr style='margin:4px 0 8px 0'>", unsafe_allow_html=True)
-
-        for r in sorted(results, key=lambda x: list(TIER_COLORS.keys()).index(x.get("final_tier","Hold")) if x.get("final_tier") in TIER_COLORS else 99):
-            tier = r.get("final_tier", "Hold")
-            sig = r.get("signal", {})
-            sizing = r.get("sizing") or sig.get("sizing") or {}
-            col1, col2, col3, col4, col5 = st.columns([1.5, 1.5, 1, 1.5, 4])
-            col1.markdown(f"**{r['ticker']}**")
-            col2.markdown(tier_badge(tier), unsafe_allow_html=True)
-            col3.markdown(f"${sig.get('price', 0):,.2f}")
-            if tier in ("Strong Buy", "Buy") and sizing and sizing.get("suggested_dollars", 0) > 0:
-                col4.markdown(f"**${sizing['suggested_dollars']:,.0f}**<br><small>{sizing['suggested_shares']} shares</small>", unsafe_allow_html=True)
-            else:
-                col4.markdown("—")
-            top_reasons = sig.get("reasons", [])[:3]
-            col5.markdown(" · ".join(top_reasons) if top_reasons else "—")
-
-            # Earnings proximity warning
-            days_away = r.get("earnings", {}).get("verdict", {}).get("days_to_earnings")
-            if days_away is not None and 0 <= days_away <= 3:
-                st.error(f"EARNINGS IN {days_away} DAY{'S' if days_away != 1 else ''} — {r['ticker']}: decide whether to hold or exit before results.")
-            elif days_away is not None and days_away <= 7:
-                st.warning(f"Earnings in {days_away} days — {r['ticker']}")
-            st.divider()
-    else:
-        st.info("Click **Run Analysis** to evaluate all holdings.")
 
 
 # ── Page: Ticker Detail ───────────────────────────────────────────────────────
