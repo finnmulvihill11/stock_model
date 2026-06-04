@@ -87,7 +87,12 @@ def run_nightly():
             tier = _final_tier(sig["tier"], fund["health"], news_result.get("sentiment", "neutral"), gate["proceed"], geo_risk, holding.get("unrealized_pnl_pct"))
             sig["final_tier"] = tier
 
-            sz = size_swing_trade(ticker, sig["price"], sig.get("atr") or 1)
+            sz = size_swing_trade(
+                ticker, sig["price"], sig.get("atr") or 1,
+                tier=tier,
+                portfolio_value=portfolio["total_value"],
+                current_position_value=holding.get("value", 0),
+            )
             sig["sizing"] = {"suggested_shares": sz["shares"], "suggested_dollars": sz["amount"], "note": sz.get("note", "")}
 
             save_ticker_analysis(ticker, {
@@ -147,7 +152,12 @@ def run_weekly():
             fund = check_fundamentals(ticker)
             news_result = analyze_company(ticker)
             tier = _final_tier(candidate["tier"], fund["health"], news_result.get("sentiment", "neutral"), True, geo_risk)
-            sz = size_swing_trade(ticker, candidate["price"], candidate.get("atr") or 1)
+            sz = size_swing_trade(
+                ticker, candidate["price"], candidate.get("atr") or 1,
+                tier=tier,
+                portfolio_value=total_value,
+                current_position_value=0,
+            )
             plan = generate_opportunity_plan(
                 ticker=ticker, signal=candidate, fundamentals=fund, news=news_result,
                 market_context=market, final_tier=tier, portfolio_value=total_value,

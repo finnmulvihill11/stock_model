@@ -84,6 +84,7 @@ sizing:
   min_position_pct: 0.03
   max_position_pct: 0.2
   atr_multiplier: 2.0
+  max_swing_trade_pct: 0.30
 etf_universe:
   broad_us:
   - ticker: VOO

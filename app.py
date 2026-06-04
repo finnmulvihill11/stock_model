@@ -71,7 +71,7 @@ def load_portfolio():
 def load_market_context():
     return get_market_context()
 
-def load_full_analysis(ticker, high_risk=False, force_live=False, pnl_pct=None):
+def load_full_analysis(ticker, high_risk=False, force_live=False, pnl_pct=None, portfolio_value=0.0, position_value=0.0):
     """Load analysis from overnight cache. Falls back to live only if forced (Ticker Detail)."""
     if not force_live:
         cached = load_ticker_analysis(ticker)
@@ -84,7 +84,12 @@ def load_full_analysis(ticker, high_risk=False, force_live=False, pnl_pct=None):
     gate = earnings_gate(ticker)
     news = analyze_company(ticker)
     rs = get_relative_strength(ticker)
-    budget_sizing = size_swing_trade(ticker, signal["price"], signal.get("atr") or 1)
+    budget_sizing = size_swing_trade(
+        ticker, signal["price"], signal.get("atr") or 1,
+        tier=signal.get("tier", "Buy"),
+        portfolio_value=portfolio_value,
+        current_position_value=position_value,
+    )
     sizing = {"suggested_shares": budget_sizing["shares"], "suggested_dollars": budget_sizing["amount"], "note": budget_sizing.get("note", "")}
     signal["sizing"] = sizing
     tech_tier = signal["tier"]
@@ -318,9 +323,12 @@ elif page == "Ticker Detail":
         holding = next((h for h in portfolio["holdings"] if h["ticker"] == ticker), None)
         high_risk = holding.get("high_risk", False) if holding else False
         pnl_pct = holding.get("unrealized_pnl_pct") if holding else None
+        port_value = portfolio["total_value"]
+        pos_value = holding.get("value", 0.0) if holding else 0.0
 
         with st.spinner(f"Running full analysis on {ticker}..."):
-            analysis = load_full_analysis(ticker, high_risk, pnl_pct=pnl_pct)
+            analysis = load_full_analysis(ticker, high_risk, pnl_pct=pnl_pct,
+                                          portfolio_value=port_value, position_value=pos_value)
 
         sig = analysis["signal"]
         fund = analysis["fundamentals"]

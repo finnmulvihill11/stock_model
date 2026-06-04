@@ -162,26 +162,81 @@ def get_etf_dca_schedule(current_price: float) -> dict:
     }
 
 
-def size_swing_trade(ticker: str, current_price: float, atr: float) -> dict:
+_CONVICTION_MULTIPLIERS = {
+    "Strong Buy": 1.0,
+    "Buy": 0.60,
+}
+
+
+def size_swing_trade(
+    ticker: str,
+    current_price: float,
+    atr: float,
+    tier: str = "Buy",
+    portfolio_value: float = 0.0,
+    current_position_value: float = 0.0,
+) -> dict:
     """
-    Size a swing trade in whole shares, respecting remaining swing budget.
-    Returns 0 shares if budget is exhausted.
+    Size a swing trade with a hard per-trade dollar ceiling and conviction scaling.
+
+    Ceiling = max_swing_trade_pct (30%) of remaining budget × conviction multiplier.
+    ATR determines share count within that ceiling.
+    Strong Buy gets full ceiling; Buy gets 60%.
     """
     remaining = get_swing_budget_remaining()
     if remaining <= 0 or current_price <= 0:
         return {"shares": 0, "amount": 0, "note": "No swing budget remaining"}
 
-    # ATR-based ideal size
-    risk_per_share = max(atr * CONFIG["sizing"]["atr_multiplier"], current_price * 0.02)
-    risk_amount = remaining * CONFIG["sizing"]["base_risk_pct"]
-    ideal_shares = max(1, int(risk_amount / risk_per_share))
+    # Concentration guard
+    if portfolio_value > 0:
+        max_pos = portfolio_value * CONFIG["sizing"]["max_position_pct"]
+        if current_position_value >= max_pos:
+            return {"shares": 0, "amount": 0,
+                    "note": f"Position already at {CONFIG['sizing']['max_position_pct']*100:.0f}% portfolio cap"}
 
-    # Cap to budget and max position
-    max_affordable = int(remaining / current_price)
-    shares = min(ideal_shares, max_affordable)
-    shares = max(shares, 0)
+    multiplier = _CONVICTION_MULTIPLIERS.get(tier, 0.60)
+    max_trade_pct = CONFIG["sizing"].get("max_swing_trade_pct", 0.30)
+
+    # Hard dollar ceiling for this trade
+    dollar_ceiling = remaining * max_trade_pct * multiplier
+
+    # Trim further if portfolio concentration room is tighter
+    if portfolio_value > 0:
+        room = max(portfolio_value * CONFIG["sizing"]["max_position_pct"] - current_position_value, 0)
+        dollar_ceiling = min(dollar_ceiling, room)
+
+    # ATR-based position dollars (risk tolerance → share count → dollar value)
+    risk_per_share = max(atr * CONFIG["sizing"]["atr_multiplier"], current_price * 0.02)
+    atr_shares = int((remaining * CONFIG["sizing"]["base_risk_pct"] * multiplier) / risk_per_share)
+    atr_dollars = atr_shares * current_price
+
+    # Take the more conservative of ATR-based and hard ceiling
+    target_dollars = min(atr_dollars, dollar_ceiling)
+    shares = int(target_dollars / current_price)
+
+    # Strong Buy only: guarantee at least 1 share if stock is affordable
+    over_ceiling = False
+    if shares == 0 and tier == "Strong Buy" and current_price <= remaining:
+        shares = 1
+        over_ceiling = True
+
+    if shares == 0:
+        return {"shares": 0, "amount": 0,
+                "note": f"Price exceeds {int(multiplier*100)}% conviction ceiling (${dollar_ceiling:.0f}) — skip or wait for Strong Buy"}
 
     amount = round(shares * current_price, 2)
-    note = f"{shares} shares @ ${current_price:.2f} = ${amount:,.0f} | ${remaining - amount:,.0f} swing budget remaining after"
+    conviction_label = "full size" if multiplier == 1.0 else f"{int(multiplier*100)}% size"
+    ceiling_note = " — 1 share minimum, price above normal ceiling" if over_ceiling else ""
+    note = (
+        f"{shares} sh @ ${current_price:.2f} = ${amount:,.0f} "
+        f"({tier}, {conviction_label}{ceiling_note}) | "
+        f"${remaining - amount:,.0f} swing budget after"
+    )
 
-    return {"shares": shares, "amount": amount, "note": note, "budget_remaining": round(remaining, 2)}
+    return {
+        "shares": shares,
+        "amount": amount,
+        "note": note,
+        "budget_remaining": round(remaining, 2),
+        "conviction_pct": int(multiplier * 100),
+    }
