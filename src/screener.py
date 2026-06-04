@@ -102,7 +102,7 @@ def run_full_scrape(verbose: bool = False) -> list[dict]:
         try:
             signal = get_technical_signal(ticker)
             tier = signal["tier"]
-            if tier in ("Strong Buy", "Buy", "Watch"):
+            if tier in ("Strong Buy", "Buy"):
                 rs = get_relative_strength(ticker)
                 signal["relative_strength"] = rs.get("relative_strength")
                 signal["rs_label"] = rs.get("label")
@@ -115,7 +115,7 @@ def run_full_scrape(verbose: bool = False) -> list[dict]:
             continue
 
     results.sort(key=lambda x: (
-        ["Strong Buy", "Buy", "Watch"].index(x["tier"]) if x["tier"] in ["Strong Buy", "Buy", "Watch"] else 99,
+        ["Strong Buy", "Buy"].index(x["tier"]) if x["tier"] in ["Strong Buy", "Buy"] else 99,
         -(x.get("relative_strength") or 0),
     ))
 
@@ -172,7 +172,7 @@ def run_screener(max_results: int = None) -> list[dict]:
         if ticker not in cached_tickers:
             try:
                 signal = get_technical_signal(ticker)
-                if signal["tier"] in ("Strong Buy", "Buy", "Watch"):
+                if signal["tier"] in ("Strong Buy", "Buy"):
                     results.append(signal)
             except Exception:
                 pass

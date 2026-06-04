@@ -663,6 +663,7 @@ elif page == "Swing Trade Plans":
     # ── Tab 3: New opportunities ──────────────────────────────────────────────
     with tab3:
         from src.screener import load_cache
+        from src.event_scanner import load_event_opportunities
 
         st.subheader("New Opportunities")
 
@@ -800,7 +801,75 @@ elif page == "Swing Trade Plans":
                             st.success(f"{ticker} added to watchlist — signals will be tracked daily.")
                             st.rerun()
         else:
-            st.info("Click **Analyze Top Opportunities** above to surface new swing candidates.")
+            st.info("Overnight analysis will surface new swing candidates here after the scheduler runs.")
+
+        # ── Event-Driven Opportunities ────────────────────────────────────────
+        st.divider()
+        st.subheader("Event-Driven Opportunities")
+        st.caption("Stocks outside the standard 600-stock universe surfaced by world events — IPOs, wars, deals, regulatory shifts. Updated weekly.")
+
+        event_data = load_event_opportunities()
+        event_list = event_data.get("events", [])
+
+        if event_list:
+            age = event_data.get("age_hours", 0)
+            st.success(f"Updated {age:.0f}h ago · {sum(len(e['tickers']) for e in event_list)} candidates across {len(event_list)} events")
+
+            direction_colors = {"bullish": "#16a34a", "bearish": "#b91c1c", "mixed": "#f59e0b"}
+            confidence_colors = {"high": "#16a34a", "medium": "#f59e0b", "low": "#6b7280"}
+            conviction_colors = {"high": "#16a34a", "medium": "#f59e0b", "low": "#6b7280"}
+
+            for event in event_list:
+                d_color = direction_colors.get(event["direction"], "#6b7280")
+                c_color = confidence_colors.get(event["event_confidence"], "#6b7280")
+
+                st.markdown(
+                    f"#### {event['event_title']} &nbsp;"
+                    f"<span style='background:{d_color};color:white;padding:2px 10px;border-radius:6px;font-size:13px;font-weight:bold'>{event['direction'].upper()}</span> &nbsp;"
+                    f"<span style='background:{c_color};color:white;padding:2px 10px;border-radius:6px;font-size:13px'>{event['event_confidence'].upper()} CONFIDENCE</span>",
+                    unsafe_allow_html=True,
+                )
+                st.caption(f"{event['event_description']}  ·  Timeframe: {event['timeframe']}")
+                st.caption(f"Why these stocks: {event['rationale']}")
+
+                for t in event["tickers"]:
+                    ticker = t["ticker"]
+                    ev_conv = t.get("event_conviction", "low")
+                    sig_tier = t.get("signal_tier", "Hold")
+                    tier_color = TIER_COLORS.get(sig_tier, "#6b7280")
+                    ev_color = conviction_colors.get(ev_conv, "#6b7280")
+                    universe_tag = "" if not t.get("in_standard_universe") else " _(also in screener)_"
+
+                    with st.expander(
+                        f"**{ticker}** — {t.get('company_name', ticker)}  |  ${t.get('price', 0):,.2f}  |  {sig_tier}  |  {ev_conv.upper()} EVENT CONVICTION{universe_tag}",
+                        expanded=True,
+                    ):
+                        c1, c2, c3 = st.columns(3)
+                        c1.markdown(
+                            f"<span style='background:{tier_color};color:white;padding:4px 12px;border-radius:8px;font-weight:bold'>{sig_tier}</span>",
+                            unsafe_allow_html=True,
+                        )
+                        c2.markdown(
+                            f"Event conviction: <span style='background:{ev_color};color:white;padding:4px 12px;border-radius:8px;font-weight:bold'>{ev_conv.upper()}</span>",
+                            unsafe_allow_html=True,
+                        )
+                        c3.markdown(f"**RSI:** {t.get('rsi', 'N/A')}  ·  **Sector:** {t.get('sector', '—')}")
+
+                        col1, col2 = st.columns(2)
+                        with col1:
+                            if t.get("entry_trigger"):
+                                st.success(f"**Entry trigger:** {t['entry_trigger']}")
+                            if t.get("target_price"):
+                                st.info(f"**Price target:** ${t['target_price']:,.2f}")
+                        with col2:
+                            if t.get("exit_condition"):
+                                st.warning(f"**Exit when:** {t['exit_condition']}")
+                            if t.get("risk"):
+                                st.error(f"**Risk:** {t['risk']}")
+
+                st.divider()
+        else:
+            st.info("Event-driven opportunities will appear here after the weekly scheduler runs.")
 
 
 # ── Page: Long-Term ETF Plans ──────────────────────────────────────────────────

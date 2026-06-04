@@ -25,6 +25,7 @@ from src.analysis_cache import (
     save_ticker_analysis, save_opportunity_plans,
     save_etf_universe_analysis, save_etf_opportunity_plans,
 )
+from src.event_scanner import scan_world_events, save_event_opportunities
 from src.market_context import get_relative_strength
 
 CONFIG = yaml.safe_load(open(Path(__file__).parent / "config.yaml"))
@@ -176,8 +177,19 @@ def run_weekly():
     # except Exception as e:
     #     print(f"  Weekly email failed: {e}")
 
+    # ── Event-driven scan ────────────────────────────────────────────────────
+    print("\n[ 3/4 ] Scanning world events for event-driven opportunities...")
+    try:
+        screener_universe = {r["ticker"] for r in cache.get("results", [])}
+        event_results = scan_world_events(existing_universe=screener_universe)
+        save_event_opportunities(event_results)
+        total_tickers = sum(len(e["tickers"]) for e in event_results)
+        print(f"  {total_tickers} event-driven candidates across {len(event_results)} events")
+    except Exception as e:
+        print(f"  Event scan failed: {e}")
+
     # ── Watchlist refresh + auto-add ─────────────────────────────────────────
-    print("\n[ 3/3 ] Refreshing watchlist...")
+    print("\n[ 4/4 ] Refreshing watchlist...")
     try:
         refresh_watchlist_signals()
     except Exception as e:
