@@ -1,4 +1,6 @@
 portfolio:
+  previously_owned:
+  - XLK
   holdings:
   - ticker: INTU
     shares: 3

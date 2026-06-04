@@ -117,6 +117,10 @@ def _get_portfolio_tickers() -> list[str]:
     return [h["ticker"] for h in holdings]
 
 
+def _get_previously_owned_tickers() -> list[str]:
+    return CONFIG.get("portfolio", {}).get("previously_owned", [])
+
+
 # ── Scraper ───────────────────────────────────────────────────────────────────
 
 def run_full_scrape(verbose: bool = False) -> list[dict]:
@@ -143,6 +147,9 @@ def run_full_scrape(verbose: bool = False) -> list[dict]:
     if CONFIG["screener"].get("include_portfolio", True):
         tickers.update(_get_portfolio_tickers())
 
+    previously_owned_set = set(_get_previously_owned_tickers())
+    tickers.update(previously_owned_set)
+
     tickers = list(tickers)
     if verbose:
         print(f"Total universe: {len(tickers)} tickers")
@@ -156,6 +163,7 @@ def run_full_scrape(verbose: bool = False) -> list[dict]:
                 rs = get_relative_strength(ticker)
                 signal["relative_strength"] = rs.get("relative_strength")
                 signal["rs_label"] = rs.get("label")
+                signal["previously_owned"] = ticker in previously_owned_set
                 results.append(signal)
                 if verbose:
                     print(f"  [{i+1}/{len(tickers)}] {ticker}: {tier}")

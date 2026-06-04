@@ -776,6 +776,7 @@ elif page == "Swing Trade Plans":
                     "signal_tier": p.get("final_tier", "Buy"),
                     "source": "screener",
                     "source_label": None,
+                    "previously_owned": p.get("previously_owned", False),
                     "buy_case": p.get("buy_case", ""),
                     "entry_trigger": p.get("entry_condition", ""),
                     "suggested_entry_price": p.get("suggested_entry_price"),
@@ -788,6 +789,7 @@ elif page == "Swing Trade Plans":
                 })
 
         # Event-driven candidates — keep high event conviction + buy signal
+        prev_owned_set = set(CONFIG.get("portfolio", {}).get("previously_owned", []))
         for event in event_data.get("events", []):
             if event.get("direction") not in ("bullish", "mixed"):
                 continue
@@ -801,6 +803,7 @@ elif page == "Swing Trade Plans":
                         "signal_tier": t.get("signal_tier", "Buy"),
                         "source": "event",
                         "source_label": event["event_title"],
+                        "previously_owned": t["ticker"] in prev_owned_set,
                         "buy_case": event.get("event_description", "") + " " + event.get("rationale", ""),
                         "entry_trigger": t.get("entry_trigger", ""),
                         "suggested_entry_price": None,
@@ -822,10 +825,11 @@ elif page == "Swing Trade Plans":
                 tier = item["signal_tier"]
                 tier_color = TIER_COLORS.get(tier, "#6b7280")
                 on_watchlist = is_on_watchlist(ticker)
-                source_tag = f"  ·  via **{item['source_label']}**" if item["source_label"] else ""
+                source_tag = f"  ·  via **{item['source_label']}**" if item["source_label"] else (f"  ·  screener" if item["source"] == "screener" else "  ·  event scan")
+                prev_tag = "  ·  🔄 Previously Owned" if item.get("previously_owned") else ""
 
                 with st.expander(
-                    f"**{ticker}** — {item['company_name']}  |  ${item['price']:,.2f}  |  {tier}{source_tag}"
+                    f"**{ticker}** — {item['company_name']}  |  ${item['price']:,.2f}  |  {tier}{source_tag}{prev_tag}"
                     + (" ★ Watching" if on_watchlist else ""),
                     expanded=True,
                 ):
