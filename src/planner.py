@@ -134,6 +134,7 @@ INVESTOR STYLE:
 - High conviction required: only acts on Strong Buy or Sell signals
 - $1,000 swing budget remaining
 - HOLD is the default. Most days nothing needs to be done.
+- Never cuts losses on major drawdowns — holds through positions down >15% and lets them recover
 
 PORTFOLIO: ${portfolio['total_value']:,.2f} total | P&L {portfolio['total_pnl_pct']:+.2f}% | Tech {portfolio['tech_pct']:.1f}% | Flags: {', '.join(flags) or 'none'}
 MARKET: {vix.get('note','')} | F&G: {fg.get('label','N/A')} ({fg.get('value','N/A')}){geo_line}
@@ -149,12 +150,13 @@ PRIORITY ACTION RULES — read carefully:
 3. An empty priority_actions list is completely fine and expected on most days.
 4. New opportunities only appear if they are clearly better than doing nothing with current cash.
 5. Actions must be specific: include share count, price level, or condition that triggers it.
+6. NEVER recommend TRIM or EXIT on a position that is down more than 15% — hold through major losers and let them recover.
 
 ACTION DEFINITIONS — use exactly these, nothing else:
 - BUY: open or add to a position — Strong Buy signal
 - ADD: add more to an existing position — Buy signal
-- TRIM: partial exit, sell ~60% of shares held — Sell signal, take profit while keeping exposure
-- EXIT: full position exit, sell all shares — Strong Sell signal or thesis completely broken
+- TRIM: partial exit, sell ~60% of shares held — Sell signal, only on profitable positions (P&L > 0%)
+- EXIT: full position exit, sell all shares — Strong Sell signal, only on profitable positions or if thesis is completely broken
 
 Respond in JSON:
 {{
@@ -467,6 +469,8 @@ MARKET: {vix_note} | F&G: {fg.get('label','N/A')}{geo_note}
 
 NEWS:
 {headlines}
+
+Philosophy: NEVER recommend trimming or exiting a position that is down more than 15% — hold through major losers and let them recover. Only exit profitable positions.
 
 One JSON with news assessment + position plan:
 {{"sentiment":"positive"|"neutral"|"negative","health":"healthy"|"neutral"|"deteriorating","key_events":["..."],"red_flags":[],"verdict":"one sentence","action":"Hold"|"Add More"|"Start Trimming"|"Exit"|"Wait","action_reason":"1-2 sentences","target_price":null,"exit_trigger":"specific condition","add_trigger":"specific condition","risk":"main risk","outlook":"short"|"neutral"|"cautious","timeframe":"e.g. 2-6 weeks"}}"""

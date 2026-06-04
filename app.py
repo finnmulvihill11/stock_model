@@ -95,10 +95,16 @@ def load_full_analysis(ticker, high_risk=False, force_live=False, pnl_pct=None, 
     tech_tier = signal["tier"]
     geo = get_geopolitical_context()
     geo_risk = geo.get("risk_level", "low")
+    original_tier = tech_tier
+
+    # Never cut losses on major drawdowns — hold through positions down >15%
+    major_loser = pnl_pct is not None and pnl_pct < -0.15
+    if major_loser and tech_tier in ("Sell", "Strong Sell"):
+        tech_tier = "Hold"
+
     if fund["health"] == "deteriorating" or news.get("sentiment") == "negative" or not gate["proceed"]:
         final_tier = "Avoid" if tech_tier in ("Strong Buy", "Buy") else tech_tier
     else:
-        original_tier = tech_tier
         # Geo dampens buy-side conviction — severe kills the signal entirely
         if geo_risk in ("high", "severe") and tech_tier == "Strong Buy":
             tech_tier = "Buy"
