@@ -150,6 +150,12 @@ PRIORITY ACTION RULES — read carefully:
 4. New opportunities only appear if they are clearly better than doing nothing with current cash.
 5. Actions must be specific: include share count, price level, or condition that triggers it.
 
+ACTION DEFINITIONS — use exactly these, nothing else:
+- BUY: open or add to a position — Strong Buy signal
+- ADD: add more to an existing position — Buy signal
+- TRIM: partial exit, sell ~60% of shares held — Sell signal, take profit while keeping exposure
+- EXIT: full position exit, sell all shares — Strong Sell signal or thesis completely broken
+
 Respond in JSON:
 {{
   "headline": "one sentence capturing today's portfolio posture",
@@ -158,7 +164,7 @@ Respond in JSON:
   "priority_actions": [
     {{
       "rank": 1,
-      "action": "SELL" | "EXIT" | "TRIM" | "BUY" | "ADD",
+      "action": "BUY" | "ADD" | "TRIM" | "EXIT",
       "ticker": "TICKER",
       "instruction": "specific actionable instruction with share count or price trigger",
       "urgency": "immediate" | "this week" | "this month"

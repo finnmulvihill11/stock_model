@@ -481,7 +481,7 @@ elif page == "Swing Trade Plans":
             if not priority_actions and strategy.get("top_priorities"):
                 for i, p in enumerate(strategy["top_priorities"], 1):
                     upper = p.upper()
-                    action = next((a for a in ["SELL","EXIT","TRIM","ADD","BUY","WATCH","HOLD"] if a in upper), "WATCH")
+                    action = next((a for a in ["EXIT","TRIM","ADD","BUY"] if a in upper), "BUY")
                     ticker = next((w for w in p.split() if w.isupper() and 2 <= len(w) <= 5 and w.isalpha()), "—")
                     priority_actions.append({"rank": i, "action": action, "ticker": ticker,
                                              "instruction": p, "urgency": "this week"})
@@ -496,9 +496,10 @@ elif page == "Swing Trade Plans":
                     "monitor": "#6b7280",
                 }
                 action_colors_map = {
-                    "SELL": "#b91c1c", "EXIT": "#b91c1c", "TRIM": "#f59e0b",
-                    "BUY": "#16a34a", "ADD": "#22c55e",
-                    "WATCH": "#3b82f6", "HOLD": "#6b7280",
+                    "EXIT": "#b91c1c",
+                    "TRIM": "#f59e0b",
+                    "BUY": "#16a34a",
+                    "ADD": "#22c55e",
                 }
 
                 for item in sorted(priority_actions, key=lambda x: x.get("rank", 99)):
@@ -595,8 +596,10 @@ elif page == "Swing Trade Plans":
                 plans.append(p)
         if plans:
             action_colors = {
-                "Hold": "#6b7280", "Add More": "#16a34a",
-                "Start Trimming": "#f59e0b", "Exit": "#b91c1c", "Wait": "#3b82f6",
+                "Hold": "#6b7280", "Wait": "#6b7280",
+                "Add More": "#22c55e",
+                "Start Trimming": "#f59e0b",
+                "Exit": "#b91c1c",
             }
             outlook_icons = {"short": "📈", "neutral": "➡️", "cautious": "⚠️"}
 
