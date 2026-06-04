@@ -699,13 +699,19 @@ elif page == "Swing Trade Plans":
         )
 
         watched = get_watchlist()
+        # Only show watchlist entries that are still active — drop stale ones
+        watched = [w for w in watched if get_urgency(
+            w.get("latest_signal", {}),
+            w.get("latest_signal", {}).get("final_tier", "Hold"),
+            w.get("signal_streak", 0),
+        )["level"] != "STALE"]
         if watched:
             st.subheader("Your Watchlist")
             st.caption("Persisted between sessions — signals re-checked overnight.")
-            urgency_order = {"URGENT": 0, "ACT SOON": 1, "MONITOR": 2, "STALE": 3}
+            urgency_order = {"URGENT": 0, "ACT SOON": 1, "MONITOR": 2}
 
             watched_sorted = sorted(watched, key=lambda x: urgency_order.get(
-                get_urgency(x.get("latest_signal", {}), x.get("latest_signal", {}).get("final_tier", "Watch"))["level"], 99
+                get_urgency(x.get("latest_signal", {}), x.get("latest_signal", {}).get("final_tier", "Hold"))["level"], 99
             ))
 
             for entry in watched_sorted:

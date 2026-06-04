@@ -52,7 +52,7 @@ def load_opportunity_plans() -> dict:
     try:
         age_h = (datetime.now() - datetime.fromisoformat(data["saved_at"])).total_seconds() / 3600
         data["age_hours"] = round(age_h, 1)
-        data["stale"] = age_h > 25
+        data["stale"] = age_h > 168  # weekly cadence
     except Exception:
         data["age_hours"] = None
         data["stale"] = True
