@@ -104,17 +104,45 @@ def run_nightly():
             signals.append(sig)
 
             plan = combined["plan"]
-            plan.update({"final_tier": tier, "pnl_pct": holding["unrealized_pnl_pct"],
-                          "current_price": holding["current_price"], "portfolio_pct": holding.get("portfolio_pct", 0)})
+            plan.update({
+                "final_tier": tier,
+                "pnl_pct": holding["unrealized_pnl_pct"],
+                "current_price": holding["current_price"],
+                "portfolio_pct": holding.get("portfolio_pct", 0),
+                "rsi": sig.get("rsi"),
+                "buy_score": sig.get("buy_score", 0),
+                "sell_score": sig.get("sell_score", 0),
+            })
             position_plans.append(plan)
 
         except Exception as e:
             print(f"  {ticker} failed: {e}")
 
-    # ── Portfolio strategy (holdings only, no new opportunities) ─────────────
+    # ── Portfolio strategy ────────────────────────────────────────────────────
     print("\n[ 2/2 ] Generating portfolio strategy...")
     try:
-        generate_portfolio_strategy(portfolio, position_plans, market, [], [])
+        from src.analysis_cache import load_opportunity_plans
+        from src.event_scanner import load_event_opportunities
+        from src.watchlist import get_watchlist
+
+        # High-conviction screener opportunities from weekly cache
+        opp_cache = load_opportunity_plans()
+        high_conv_opps = [
+            p for p in opp_cache.get("plans", [])
+            if p.get("conviction") in ("high", "medium")
+            and p.get("final_tier") in ("Strong Buy", "Buy")
+        ]
+
+        # High-conviction event-driven opportunities from weekly cache
+        event_cache = load_event_opportunities()
+        event_opps = []
+        for event in event_cache.get("events", []):
+            for t in event.get("tickers", []):
+                if t.get("event_conviction") == "high" and t.get("signal_tier") in ("Strong Buy", "Buy"):
+                    event_opps.append({**t, "event_title": event["event_title"]})
+
+        watchlist = get_watchlist()
+        generate_portfolio_strategy(portfolio, position_plans, market, high_conv_opps, watchlist, event_opps)
     except Exception as e:
         print(f"  Strategy failed: {e}")
 

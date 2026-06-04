@@ -81,27 +81,39 @@ def generate_portfolio_strategy(
     market_context: dict,
     opportunity_plans: list[dict] = None,
     watchlist: list[dict] = None,
+    event_opportunities: list[dict] = None,
 ) -> dict:
-    """Generate a high-level portfolio strategy with a ranked priority action list."""
-    holdings_summary = "\n".join(
-        f"- {p['ticker']}: {p.get('action','?')} | P&L {p.get('pnl_pct',0):+.1f}% | {p.get('timeframe','?')} | {p.get('action_reason','')[:80]}"
-        for p in position_plans
-    )
-    opps_summary = ""
-    if opportunity_plans:
-        opps_summary = "\nNEW OPPORTUNITIES FROM SCREENER:\n" + "\n".join(
-            f"- {p['ticker']}: {p.get('conviction','?').upper()} conviction | {p.get('buy_case','')[:80]}"
-            for p in opportunity_plans[:5]
-        )
+    """Generate a portfolio strategy with a conviction-gated priority action list."""
 
-    watchlist_summary = ""
-    if watchlist:
-        urgent = [w for w in watchlist if w.get("latest_signal", {}).get("final_tier") in ("Strong Buy", "Buy")]
-        if urgent:
-            watchlist_summary = "\nWATCHLIST — SIGNALS ACTIVE (HIGH PRIORITY):\n" + "\n".join(
-                f"- {w['ticker']}: {w.get('latest_signal',{}).get('final_tier','?')} — added {w.get('added_date','')} | {w.get('reason','')[:60]}"
-                for w in urgent
-            )
+    # Holdings summary — include signal tier and scores so Claude has real data
+    holdings_lines = []
+    for p in position_plans:
+        tier = p.get("final_tier", "Hold")
+        rsi = p.get("rsi")
+        buy_s = p.get("buy_score", 0)
+        sell_s = p.get("sell_score", 0)
+        score_str = f"buy={buy_s:.0%} sell={sell_s:.0%}"
+        rsi_str = f" RSI={rsi}" if rsi else ""
+        holdings_lines.append(
+            f"- {p['ticker']}: signal={tier} | P&L {p.get('pnl_pct',0):+.1f}% | weight={p.get('portfolio_pct',0):.1f}%{rsi_str} | {score_str} | plan={p.get('action','?')} | {p.get('action_reason','')[:80]}"
+        )
+    holdings_summary = "\n".join(holdings_lines)
+
+    # High-conviction opportunities (screener + event-driven, already filtered by caller)
+    opp_lines = []
+    for p in (opportunity_plans or [])[:5]:
+        opp_lines.append(f"- {p['ticker']} [SCREENER]: {p.get('final_tier','Buy')} | {p.get('buy_case','')[:80]}")
+    for t in (event_opportunities or [])[:5]:
+        opp_lines.append(f"- {t['ticker']} [EVENT: {t.get('event_title','')}]: {t.get('signal_tier','Buy')} | {t.get('rationale','')[:80]}")
+    opps_block = ("\nHIGH-CONVICTION NEW OPPORTUNITIES (already filtered — only strong signals):\n" + "\n".join(opp_lines)) if opp_lines else "\nNO NEW OPPORTUNITIES with strong conviction today."
+
+    # Watchlist entries with active buy signals
+    watchlist_lines = []
+    for w in (watchlist or []):
+        wt = w.get("latest_signal", {}).get("final_tier", "")
+        if wt in ("Strong Buy", "Buy"):
+            watchlist_lines.append(f"- {w['ticker']}: {wt} | {w.get('reason','')[:60]}")
+    watchlist_block = ("\nWATCHLIST — BUY SIGNALS ACTIVE:\n" + "\n".join(watchlist_lines)) if watchlist_lines else ""
 
     vix = market_context.get("vix", {})
     fg = market_context.get("fear_greed", {})
@@ -110,52 +122,51 @@ def generate_portfolio_strategy(
 
     geo_line = ""
     if geo.get("risk_level") and geo["risk_level"] != "low":
-        geo_line = f"\n- Geopolitical risk: {geo['risk_level'].upper()} — {geo.get('note', '')}"
+        geo_line = f"\n- Geopolitical: {geo['risk_level'].upper()} — {geo.get('note', '')}"
         if geo.get("key_risks"):
-            geo_line += f" | Key risks: {'; '.join(geo['key_risks'][:3])}"
+            geo_line += f" | {'; '.join(geo['key_risks'][:2])}"
 
-    prompt = f"""You are a swing trading advisor writing a strategy brief for a busy MIT student investor.
+    prompt = f"""You are a swing trading advisor writing a daily strategy brief for a busy MIT student investor.
 
-PORTFOLIO SNAPSHOT:
-- Total value: ${portfolio['total_value']:,.2f}
-- Total P&L: ${portfolio['total_pnl']:+,.2f} ({portfolio['total_pnl_pct']:+.2f}%)
-- Tech concentration: {portfolio['tech_pct']:.1f}%
-- Flags: {', '.join(flags) or 'None'}
+INVESTOR STYLE:
+- Swing to mid-term trader (weeks to months), mean-reversion philosophy
+- Buys oversold quality names, sells overbought — uses Bollinger Bands, RSI, MACD
+- High conviction required: only acts on Strong Buy or Sell signals
+- $1,000 swing budget remaining
+- HOLD is the default. Most days nothing needs to be done.
 
-MARKET CONTEXT:
-- {vix.get('note', '')}
-- Fear & Greed: {fg.get('label', 'N/A')} ({fg.get('value', 'N/A')}){geo_line}
+PORTFOLIO: ${portfolio['total_value']:,.2f} total | P&L {portfolio['total_pnl_pct']:+.2f}% | Tech {portfolio['tech_pct']:.1f}% | Flags: {', '.join(flags) or 'none'}
+MARKET: {vix.get('note','')} | F&G: {fg.get('label','N/A')} ({fg.get('value','N/A')}){geo_line}
 
-CURRENT POSITION PLANS:
+CURRENT HOLDINGS:
 {holdings_summary}
-{opps_summary}
-{watchlist_summary}
+{opps_block}
+{watchlist_block}
 
-INVESTOR PROFILE:
-- Swing to mid-term trader (weeks to a few months)
-- Mean-reversion, buy oversold quality names, sell overbought
-- $1,000 swing budget available
-- Busy MIT student — needs a clear ranked action list above all else
+PRIORITY ACTION RULES — read carefully:
+1. Only list an action if conviction is STRONG: signal must be "Strong Buy", "Buy", "Sell", or "Strong Sell"
+2. HOLD is the default — do NOT put HOLD items on the list. If nothing is actionable, leave priority_actions empty.
+3. An empty priority_actions list is completely fine and expected on most days.
+4. New opportunities only appear if they are clearly better than doing nothing with current cash.
+5. Actions must be specific: include share count, price level, or condition that triggers it.
 
-Write a concise portfolio strategy. You MUST populate priority_actions with at least 3 specific ranked items — one per holding that needs action. Do NOT leave priority_actions empty. Convert every item in top_priorities into a priority_action entry with a ticker, action type, and urgency.
-
-Respond in JSON with these exact keys (priority_actions MUST be non-empty):
+Respond in JSON:
 {{
-  "headline": "one sentence capturing current portfolio posture",
+  "headline": "one sentence capturing today's portfolio posture",
   "market_stance": "offensive" | "defensive" | "neutral",
-  "overall_thesis": "2-3 sentences on the 4-8 week plan",
+  "overall_thesis": "2-3 sentences on the next 4-8 week plan",
   "priority_actions": [
     {{
       "rank": 1,
-      "action": "SELL" | "EXIT" | "ADD" | "BUY" | "WATCH" | "HOLD" | "TRIM",
+      "action": "SELL" | "EXIT" | "TRIM" | "BUY" | "ADD",
       "ticker": "TICKER",
-      "instruction": "specific one-line instruction e.g. 'Sell 2 shares — RSI 78, upper BB, thesis complete'",
-      "urgency": "immediate" | "this week" | "this month" | "monitor"
+      "instruction": "specific actionable instruction with share count or price trigger",
+      "urgency": "immediate" | "this week" | "this month"
     }}
   ],
   "biggest_risk": "single biggest risk right now",
-  "what_to_watch": ["thing 1", "thing 2", "thing 3"],
-  "on_course_check": ["condition plan is working", "condition plan needs revision"],
+  "what_to_watch": ["catalyst 1", "catalyst 2", "catalyst 3"],
+  "on_course_check": ["condition plan is working", "condition that means revise plan"],
   "generated_at": "{datetime.now().isoformat()}"
 }}"""
 
