@@ -756,7 +756,7 @@ elif page == "Swing Trade Plans":
 
         # Screener-sourced plans — keep high/medium conviction only
         for p in opp_plans:
-            if p.get("conviction", "low") in ("high", "medium") and p.get("final_tier") in ("Strong Buy", "Buy"):
+            if p.get("conviction") == "high" and p.get("final_tier") in ("Strong Buy", "Buy"):
                 unified.append({
                     "ticker": p["ticker"],
                     "company_name": p.get("company_name", p["ticker"]),
