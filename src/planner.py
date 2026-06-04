@@ -105,7 +105,14 @@ def generate_portfolio_strategy(
 
     vix = market_context.get("vix", {})
     fg = market_context.get("fear_greed", {})
+    geo = market_context.get("geopolitical", {})
     flags = portfolio.get("flags", [])
+
+    geo_line = ""
+    if geo.get("risk_level") and geo["risk_level"] != "low":
+        geo_line = f"\n- Geopolitical risk: {geo['risk_level'].upper()} — {geo.get('note', '')}"
+        if geo.get("key_risks"):
+            geo_line += f" | Key risks: {'; '.join(geo['key_risks'][:3])}"
 
     prompt = f"""You are a swing trading advisor writing a strategy brief for a busy MIT student investor.
 
@@ -117,7 +124,7 @@ PORTFOLIO SNAPSHOT:
 
 MARKET CONTEXT:
 - {vix.get('note', '')}
-- Fear & Greed: {fg.get('label', 'N/A')} ({fg.get('value', 'N/A')})
+- Fear & Greed: {fg.get('label', 'N/A')} ({fg.get('value', 'N/A')}){geo_line}
 
 CURRENT POSITION PLANS:
 {holdings_summary}
@@ -421,6 +428,7 @@ def generate_plan_with_news(
 
     vix_note = market_context.get("vix", {}).get("note", "")
     fg = market_context.get("fear_greed", {})
+    geo = market_context.get("geopolitical", {})
     fund_health = fundamentals.get("health", "neutral")
     fund_flags = fundamentals.get("flags", [])
     earnings_status = earnings.get("verdict", {}).get("earnings_status", "unknown")
@@ -428,13 +436,17 @@ def generate_plan_with_news(
     current_price = holding["current_price"]
     pnl_pct = holding["unrealized_pnl_pct"]
 
+    geo_note = ""
+    if geo.get("risk_level") and geo["risk_level"] != "low":
+        geo_note = f" | Geopolitical: {geo['risk_level'].upper()} ({geo.get('note', '')})"
+
     prompt = f"""Swing trader analysis for {company_name} ({ticker}).
 
 POSITION: {holding['shares']}sh @ ${holding['avg_cost']:.2f} | Now: ${current_price:.2f} | P&L: {pnl_pct:+.2f}% | Weight: {holding.get('portfolio_pct',0):.1f}%
 TECHNICAL: {signal.get('tier','Hold')} | RSI: {signal.get('rsi','N/A')} | Firing: {', '.join(signal.get('reasons',[])[:3]) or 'none'}
 FUNDAMENTALS: {fund_health}{(' | ' + ', '.join(fund_flags)) if fund_flags else ''}
 EARNINGS: {earnings_status}{f' ({days_to_earnings}d)' if days_to_earnings else ''}
-MARKET: {vix_note} | F&G: {fg.get('label','N/A')}
+MARKET: {vix_note} | F&G: {fg.get('label','N/A')}{geo_note}
 
 NEWS:
 {headlines}

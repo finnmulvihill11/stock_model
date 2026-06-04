@@ -9,7 +9,7 @@ from datetime import datetime
 
 from src.portfolio import get_portfolio
 from src.signals import get_technical_signal
-from src.market_context import get_market_context, get_relative_strength
+from src.market_context import get_market_context, get_relative_strength, get_geopolitical_context
 from src.fundamentals import check_fundamentals
 from src.earnings import earnings_gate
 from src.news import analyze_company
@@ -88,13 +88,25 @@ def load_full_analysis(ticker, high_risk=False, force_live=False):
     sizing = {"suggested_shares": budget_sizing["shares"], "suggested_dollars": budget_sizing["amount"], "note": budget_sizing.get("note", "")}
     signal["sizing"] = sizing
     tech_tier = signal["tier"]
+    geo = get_geopolitical_context()
+    geo_risk = geo.get("risk_level", "low")
     if fund["health"] == "deteriorating" or news.get("sentiment") == "negative" or not gate["proceed"]:
         final_tier = "Avoid" if tech_tier in ("Strong Buy", "Buy") else tech_tier
-    elif fund["health"] == "healthy" and news.get("sentiment") == "positive":
-        final_tier = "Strong Buy" if tech_tier == "Buy" else ("Strong Sell" if tech_tier == "Sell" else tech_tier)
     else:
-        final_tier = tech_tier
-    return {"signal": signal, "fundamentals": fund, "earnings": gate, "news": news, "relative_strength": rs, "sizing": sizing, "final_tier": final_tier}
+        # Geopolitical risk dampens buy-side conviction; never suppresses sells
+        if geo_risk == "severe":
+            if tech_tier == "Strong Buy":
+                tech_tier = "Buy"
+            elif tech_tier == "Buy":
+                tech_tier = "Watch"
+        elif geo_risk == "high":
+            if tech_tier == "Strong Buy":
+                tech_tier = "Buy"
+        if fund["health"] == "healthy" and news.get("sentiment") == "positive":
+            final_tier = "Strong Buy" if tech_tier == "Buy" else ("Strong Sell" if tech_tier == "Sell" else tech_tier)
+        else:
+            final_tier = tech_tier
+    return {"signal": signal, "fundamentals": fund, "earnings": gate, "news": news, "relative_strength": rs, "sizing": sizing, "final_tier": final_tier, "geopolitical": geo}
 
 
 def tier_badge(tier):
@@ -275,6 +287,23 @@ if page == "Strategy Dashboard":
         st.info(vix["note"])
         if fg["value"]:
             st.info(f"Fear & Greed: **{fg['label']}** ({fg['value']}/100)")
+        geo = market.get("geopolitical") or get_geopolitical_context()
+        geo_risk = geo.get("risk_level", "low")
+        geo_colors = {"low": "#16a34a", "moderate": "#f59e0b", "high": "#f97316", "severe": "#b91c1c"}
+        geo_color = geo_colors.get(geo_risk, "#6b7280")
+        st.markdown(
+            f"Geopolitical Risk: <span style='background:{geo_color};color:white;padding:2px 10px;"
+            f"border-radius:8px;font-weight:bold'>{geo_risk.upper()}</span>",
+            unsafe_allow_html=True,
+        )
+        if geo.get("note") and "Unavailable" not in geo["note"]:
+            st.caption(geo["note"])
+        if geo.get("key_risks"):
+            with st.expander("Key geopolitical risks"):
+                for r in geo["key_risks"]:
+                    st.markdown(f"• {r}")
+                if geo.get("affected_sectors"):
+                    st.caption(f"Affected sectors: {', '.join(geo['affected_sectors'])}")
 
 
 # ── Page: Ticker Detail ───────────────────────────────────────────────────────

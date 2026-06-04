@@ -31,10 +31,19 @@ CONFIG = yaml.safe_load(open(Path(__file__).parent / "config.yaml"))
 TIER_ORDER = ["Strong Buy", "Buy", "Watch", "Hold", "Avoid", "Sell", "Strong Sell"]
 
 
-def _final_tier(tech_tier, fund_health, news_sentiment, gate_proceed):
+def _final_tier(tech_tier, fund_health, news_sentiment, gate_proceed, geo_risk="low"):
     if fund_health == "deteriorating" or news_sentiment == "negative" or not gate_proceed:
         return "Avoid" if tech_tier in ("Strong Buy", "Buy") else tech_tier
-    elif fund_health == "healthy" and news_sentiment == "positive":
+    # Geopolitical risk dampens buy-side conviction — never suppresses sells
+    if geo_risk == "severe":
+        if tech_tier == "Strong Buy":
+            tech_tier = "Buy"
+        elif tech_tier == "Buy":
+            tech_tier = "Watch"
+    elif geo_risk == "high":
+        if tech_tier == "Strong Buy":
+            tech_tier = "Buy"
+    if fund_health == "healthy" and news_sentiment == "positive":
         return "Strong Buy" if tech_tier == "Buy" else ("Strong Sell" if tech_tier == "Sell" else tech_tier)
     return tech_tier
 
@@ -46,6 +55,7 @@ def run_nightly():
 
     portfolio = get_portfolio()
     market = get_market_context()
+    geo_risk = market.get("geopolitical", {}).get("risk_level", "low")
     signals = []
     position_plans = []
 
@@ -69,7 +79,7 @@ def run_nightly():
             combined = generate_plan_with_news(holding, sig, fund, gate, market)
             news_result = combined["news"]
 
-            tier = _final_tier(sig["tier"], fund["health"], news_result.get("sentiment", "neutral"), gate["proceed"])
+            tier = _final_tier(sig["tier"], fund["health"], news_result.get("sentiment", "neutral"), gate["proceed"], geo_risk)
             sig["final_tier"] = tier
 
             sz = size_swing_trade(ticker, sig["price"], sig.get("atr") or 1)
@@ -108,6 +118,7 @@ def run_weekly():
 
     portfolio = get_portfolio()
     market = get_market_context()
+    geo_risk = market.get("geopolitical", {}).get("risk_level", "low")
     total_value = portfolio["total_value"]
     portfolio_tickers = {h["ticker"] for h in portfolio["holdings"]}
 
@@ -130,7 +141,7 @@ def run_weekly():
         try:
             fund = check_fundamentals(ticker)
             news_result = analyze_company(ticker)
-            tier = _final_tier(candidate["tier"], fund["health"], news_result.get("sentiment", "neutral"), True)
+            tier = _final_tier(candidate["tier"], fund["health"], news_result.get("sentiment", "neutral"), True, geo_risk)
             sz = size_swing_trade(ticker, candidate["price"], candidate.get("atr") or 1)
             plan = generate_opportunity_plan(
                 ticker=ticker, signal=candidate, fundamentals=fund, news=news_result,
