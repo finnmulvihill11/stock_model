@@ -59,19 +59,18 @@
     "sentiment": "neutral",
     "health": "neutral",
     "key_events": [
-      "No recent material news catalysts identified",
-      "Earnings 55 days away (mid-term event)",
-      "Market showing extreme fear conditions (potential capitulation)"
+      "RSI at 27.9 indicates oversold conditions with potential mean reversion setup",
+      "Earnings 55 days out provides runway for technical recovery before fundamental catalysts",
+      "VIX 16.1 reflects calm market environment with room for risk-on rotation"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "High debt-to-equity ratio (2.2x) limits financial flexibility",
-      "Stock down 8.67% from entry with no technical bounce signals",
-      "RSI at 27.9 indicates oversold but no bullish divergence confirmed",
-      "No immediate catalysts to reverse downtrend"
+      "High debt-to-equity ratio (2.2x) limits financial flexibility during downturns",
+      "Extreme Fear sentiment suggests potential washout/capitulation incomplete",
+      "8.67% loss still within swing trade volatility but approaching pain threshold"
     ],
-    "verdict": "CMG is oversold technically but fundamentally neutral with high leverage; wait for either capitulation confirmation or earnings catalyst.",
+    "verdict": "CMG is oversold technically with neutral fundamentals; hold for oversold bounce or add on further weakness given distressed valuation and absence of negative catalyst.",
     "confidence": "medium"
   },
   "relative_strength": {
@@ -88,5 +87,5 @@
     "note": "7 sh @ $28.74 = $201 (Hold, 60% size) | $1,063 swing budget after"
   },
   "is_dca": false,
-  "saved_at": "2026-06-04T03:34:45.616696"
+  "saved_at": "2026-06-04T04:12:00.225856"
 }

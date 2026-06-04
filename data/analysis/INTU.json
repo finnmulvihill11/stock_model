@@ -14,7 +14,7 @@
       "RSI Divergence: no bullish divergence detected",
       "200MA: price below 200MA \u2014 potential falling knife",
       "Death cross active: 50MA (383.78) below 200MA (542.63)",
-      "Volume: below average (0.93x) \u2014 low conviction"
+      "Volume: below average (0.94x) \u2014 low conviction"
     ],
     "price": 311.44,
     "rsi": 37.8,
@@ -57,24 +57,23 @@
   },
   "news": {
     "ticker": "INTU",
-    "sentiment": "negative",
+    "sentiment": "neutral",
     "health": "healthy",
     "key_events": [
-      "Recent earnings miss (-15 days ago)",
-      "Stock down 33.5% from entry despite healthy fundamentals",
-      "Extreme Fear sentiment in market (capitulation signal)",
-      "RSI 37.8 (oversold territory, typically <30 is extreme)",
-      "VIX 16.1 suggests market volatility normalizing"
+      "Earnings reported 15 days ago",
+      "Stock down 33.49% from entry",
+      "RSI at 37.8 suggests oversold conditions",
+      "Market volatility neutral (VIX 16.1) but sentiment extreme fear"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "Large unrealized loss (-$471/position) with 29.3% portfolio weight creates concentration risk",
-      "Post-earnings selloff indicates market repriced growth expectations",
-      "No news catalyst visible to reverse sentiment quickly",
-      "Heavy weighting amplifies drawdown impact on overall portfolio"
+      "Severe drawdown (-33.49%) indicates significant post-earnings deterioration",
+      "No technical firing signals despite oversold RSI",
+      "Extreme Fear sentiment suggests panic selling vs. fundamental deterioration",
+      "Position weight at 29.3% creates concentration risk"
     ],
-    "verdict": "INTU hit oversold technicals post-earnings amid market fear, but healthy fundamentals suggest recovery potential; however, position sizing risk and lack of near-term catalyst warrant tactical rebalancing.",
+    "verdict": "Fundamentals remain healthy but technical capitulation and extreme fear sentiment suggest washout phase; position shows classic post-earnings gap-down pattern requiring patience.",
     "confidence": "medium"
   },
   "relative_strength": {
@@ -91,5 +90,5 @@
     "note": "Position already at 20% portfolio cap"
   },
   "is_dca": false,
-  "saved_at": "2026-06-04T03:34:18.245114"
+  "saved_at": "2026-06-04T04:11:29.613722"
 }

@@ -1,58 +1,99 @@
 {
   "current": {
-    "headline": "Trim two oversized losers to unlock $1k cash buffer; deploy selectively into high-conviction mean-reversion setups.",
+    "headline": "Portfolio underwater but holding conviction; extreme fear creates mean-reversion opportunity\u2014deploy remaining $1K into persistent oversold screeners.",
     "market_stance": "offensive",
-    "overall_thesis": "Extreme Fear (12) + neutral VIX (16.1) creates a classic mean-reversion environment. Immediate priority: right-size portfolio by trimming INTU and TEM to respect the 25% cap and recapitalize. Then deploy freed cash into 2\u20133 of the strongest oversold signals (DOW, CTVA, WELL) that show persistent buy patterns. Hold quality longs (MSFT, ABT) through the bounce.",
+    "overall_thesis": "Extreme Fear (12) + neutral VIX (16.1) signals capitulation in quality names. Your major losers (INTU -33.5%, TEM -31.2%, ABT -20.8%) are held per philosophy and will recover. Deploy remaining dry powder into 2\u20133 persistent mean-reversion setups (oversold RSI <30, Bollinger Band kiss) with 4\u20138 week horizons. Expect bounce as fear normalizes.",
     "priority_actions": [
       {
         "rank": 1,
-        "action": "TRIM",
-        "ticker": "INTU",
-        "instruction": "Sell 1 share (~33% of position) at market open. This reduces weight from 29.3% to ~19%, locks in remaining $X capital, and respects the 25% portfolio cap rule. RSI 37.8 is not yet deeply oversold (buy trigger ~25%), so keep remainder as core holding.",
+        "action": "BUY",
+        "ticker": "CTVA",
+        "instruction": "Buy ~18\u201320 shares at market open if RSI remains <25 and price holds near lower Bollinger Band. Allocation: ~$400\u2013450. Textbook oversold agriculture play; strong persistent buy signal.",
         "urgency": "immediate"
       },
       {
         "rank": 2,
-        "action": "TRIM",
-        "ticker": "TEM",
-        "instruction": "Sell 1 share (~50% of position) at market open. TEM at -31.2% P&L and RSI 54.2 (neutral) shows no rebound conviction yet. Trimming to 2\u20133 shares reduces capital at risk and frees ~$150\u2013200 for new opportunities.",
+        "action": "BUY",
+        "ticker": "WELL",
+        "instruction": "Buy ~8\u201310 shares if RSI <28 and lower BB kiss holds. Allocation: ~$400. Healthcare is defensive; oversold healthcare software is low-risk mean reversion.",
         "urgency": "immediate"
       },
       {
         "rank": 3,
-        "action": "TRIM",
-        "ticker": "DECK",
-        "instruction": "Sell ~40\u201350% of DECK position (likely 1 share if small holding). RSI 71.7 is overbought; +10.5% gain is real profit. Lock in ~$50\u201375 and preserve core bullish exposure.",
-        "urgency": "this week"
-      },
-      {
-        "rank": 4,
         "action": "BUY",
-        "ticker": "CTVA",
-        "instruction": "After trims free up ~$350\u2013400, deploy $200\u2013250 into CTVA on persistent Buy signal. RSI 24.1 (deeply oversold) + price at lower Bollinger Band + 2+ consecutive scrapes = high-conviction mean reversion. Scale in 2\u20133 shares on any dip toward lower BB.",
-        "urgency": "this week"
-      },
-      {
-        "rank": 5,
-        "action": "BUY",
-        "ticker": "WELL",
-        "instruction": "Deploy $150\u2013200 into WELL on persistent Buy signal. RSI 27.3 deeply oversold + lower BB squeeze + 2+ consecutive scrapes. Typical swing target 2\u20133 weeks as mean reversion unfolds.",
+        "ticker": "XEL",
+        "instruction": "Buy ~6\u20138 shares if RSI <30 and price near lower Bollinger Band. Allocation: remaining ~$150\u2013200. Utilities offer dividend safety + mean-reversion bounce.",
         "urgency": "this week"
       }
     ],
-    "biggest_risk": "INTU thesis broken: -33.5% P&L with RSI 37.8 approaching oversold (not yet firing a strong buy). If it slides further and breaks to RSI <25 without bouncing, full exit may be warranted. Monitor for any negative guidance or multiple compression.",
+    "biggest_risk": "Concentration: INTU (29.3%) + MSFT (26.8%) = 56.1% of portfolio, both in tech, both down. If tech sells off further on macro shock, portfolio bleeds. Second risk: You're holding three positions down >15% (INTU, TEM, ABT) which could theoretically fall another 20\u201330% before recovering\u2014psych test.",
     "what_to_watch": [
-      "INTU earnings or product roadmap\u2014any negative catalyst could justify full EXIT rather than trim",
-      "Fed policy signals\u2014Extreme Fear (12) may be mean-reverting fast; watch for any hawkish surprise that extends the sell-off",
-      "New BUY entries (CTVA, WELL) daily action\u2014confirm RSI bounces off oversold and price holds above lower BB within 3\u20135 trading days"
+      "INTU earnings/guidance: if guidance improves, should reclaim $18\u201320 range quickly; if misses, hold anyway per philosophy but may need 6\u20139 months to recover.",
+      "Fed speak & rate expectations: Extreme Fear suggests market is pricing in recession; if Fed pivots dovish or earnings beat, VIX compresses and mean-reversion accelerates.",
+      "Tech sector rotation: if mega-cap tech (MSFT, INTU) stabilizes and MACD crosses bullish, your largest positions unlock recovery upside.",
+      "New buys break-even: CTVA, WELL, XEL should show +10\u201315% gain within 3\u20135 weeks if mean reversion fires as expected; if they drop further, add more per philosophy."
     ],
     "on_course_check": [
-      "\u2713 Plan is working if: INTU trim executes cleanly, CTVA/WELL fill at target prices, and portfolio weight rebalances below 25% per holding by EOW",
-      "\u26a0 Revise plan if: INTU breaks below RSI 25 without buy signal support (thesis failure \u2192 EXIT), or if DOW/SO show stronger setups than CTVA/WELL (reallocate capital)"
+      "\u2713 Plan works: INTU or TEM rebounds >15% from entry; Extreme Fear lifts to neutral; new oversold plays bounce 10%+ within 4 weeks.",
+      "\u26a0 Plan needs revision: Tech sector breaks below June lows and Extreme Fear becomes Extreme Panic; if VIX spikes >25 on geopolitical event, pause new buys and sit cash. Alternatively: if MSFT or INTU drops another 15%+, acknowledge portfolio may need 6\u201312 month recovery horizon instead of 4\u20138 weeks."
     ],
-    "generated_at": "2026-06-04T03:35:05.730540"
+    "generated_at": "2026-06-04T04:12:22.932598"
   },
   "history": [
+    {
+      "headline": "Trim two oversized losers to unlock $1k cash buffer; deploy selectively into high-conviction mean-reversion setups.",
+      "market_stance": "offensive",
+      "overall_thesis": "Extreme Fear (12) + neutral VIX (16.1) creates a classic mean-reversion environment. Immediate priority: right-size portfolio by trimming INTU and TEM to respect the 25% cap and recapitalize. Then deploy freed cash into 2\u20133 of the strongest oversold signals (DOW, CTVA, WELL) that show persistent buy patterns. Hold quality longs (MSFT, ABT) through the bounce.",
+      "priority_actions": [
+        {
+          "rank": 1,
+          "action": "TRIM",
+          "ticker": "INTU",
+          "instruction": "Sell 1 share (~33% of position) at market open. This reduces weight from 29.3% to ~19%, locks in remaining $X capital, and respects the 25% portfolio cap rule. RSI 37.8 is not yet deeply oversold (buy trigger ~25%), so keep remainder as core holding.",
+          "urgency": "immediate"
+        },
+        {
+          "rank": 2,
+          "action": "TRIM",
+          "ticker": "TEM",
+          "instruction": "Sell 1 share (~50% of position) at market open. TEM at -31.2% P&L and RSI 54.2 (neutral) shows no rebound conviction yet. Trimming to 2\u20133 shares reduces capital at risk and frees ~$150\u2013200 for new opportunities.",
+          "urgency": "immediate"
+        },
+        {
+          "rank": 3,
+          "action": "TRIM",
+          "ticker": "DECK",
+          "instruction": "Sell ~40\u201350% of DECK position (likely 1 share if small holding). RSI 71.7 is overbought; +10.5% gain is real profit. Lock in ~$50\u201375 and preserve core bullish exposure.",
+          "urgency": "this week"
+        },
+        {
+          "rank": 4,
+          "action": "BUY",
+          "ticker": "CTVA",
+          "instruction": "After trims free up ~$350\u2013400, deploy $200\u2013250 into CTVA on persistent Buy signal. RSI 24.1 (deeply oversold) + price at lower Bollinger Band + 2+ consecutive scrapes = high-conviction mean reversion. Scale in 2\u20133 shares on any dip toward lower BB.",
+          "urgency": "this week"
+        },
+        {
+          "rank": 5,
+          "action": "BUY",
+          "ticker": "WELL",
+          "instruction": "Deploy $150\u2013200 into WELL on persistent Buy signal. RSI 27.3 deeply oversold + lower BB squeeze + 2+ consecutive scrapes. Typical swing target 2\u20133 weeks as mean reversion unfolds.",
+          "urgency": "this week"
+        }
+      ],
+      "biggest_risk": "INTU thesis broken: -33.5% P&L with RSI 37.8 approaching oversold (not yet firing a strong buy). If it slides further and breaks to RSI <25 without bouncing, full exit may be warranted. Monitor for any negative guidance or multiple compression.",
+      "what_to_watch": [
+        "INTU earnings or product roadmap\u2014any negative catalyst could justify full EXIT rather than trim",
+        "Fed policy signals\u2014Extreme Fear (12) may be mean-reverting fast; watch for any hawkish surprise that extends the sell-off",
+        "New BUY entries (CTVA, WELL) daily action\u2014confirm RSI bounces off oversold and price holds above lower BB within 3\u20135 trading days"
+      ],
+      "on_course_check": [
+        "\u2713 Plan is working if: INTU trim executes cleanly, CTVA/WELL fill at target prices, and portfolio weight rebalances below 25% per holding by EOW",
+        "\u26a0 Revise plan if: INTU breaks below RSI 25 without buy signal support (thesis failure \u2192 EXIT), or if DOW/SO show stronger setups than CTVA/WELL (reallocate capital)"
+      ],
+      "generated_at": "2026-06-04T03:35:05.730540",
+      "archived_at": "2026-06-04T04:12:22.932931"
+    },
     {
       "headline": "Portfolio underwater 14.6% with dangerous tech concentration (56%) \u2014 immediate rebalancing needed to lock in liquidity and reduce single-stock risk.",
       "market_stance": "defensive",
@@ -421,68 +462,6 @@
       ],
       "generated_at": "2026-05-26T23:07:42.103460",
       "archived_at": "2026-05-27T23:15:38.931292"
-    },
-    {
-      "headline": "Rebalance tech concentration while tactically holding oversold quality names; reduce position sizes in winners to fund mean-reversion opportunities.",
-      "market_stance": "neutral",
-      "overall_thesis": "Your portfolio is down 13.76% with excessive tech exposure (54.3%) and two holdings above the 25% cap. Over the next 4\u20138 weeks, trim overbought winners (DECK, TEM) to lock in gains and reduce risk, then redeploy into oversold quality setups (INTU, ABT). This tactical rebalancing aligns with your mean-reversion edge while fear sentiment (30) creates attractive entry points.",
-      "priority_actions": [
-        {
-          "rank": 1,
-          "action": "TRIM",
-          "ticker": "INTU",
-          "instruction": "Reduce from 29.0% to 25% cap (sell ~$130\u2013150 value). Hold remainder \u2014 RSI 29.5 + bullish divergence = rebound likely; trim now to obey sizing rule, rebuy dip if bounce confirms.",
-          "urgency": "this week"
-        },
-        {
-          "rank": 2,
-          "action": "TRIM",
-          "ticker": "MSFT",
-          "instruction": "Reduce from 25.3% to 25% cap (sell ~$10 value). Minimal trim here; position is at inflection point. Hold core; wait for BB squeeze breakout signal before adding.",
-          "urgency": "this week"
-        },
-        {
-          "rank": 3,
-          "action": "TRIM",
-          "ticker": "DECK",
-          "instruction": "Sell 1\u20132 shares to trim ~$50\u201375 from position. Price is extended at upper BB (+9.8% swing gain). Lock in profits and reduce concentration; redeploy into INTU/ABT dips.",
-          "urgency": "this week"
-        },
-        {
-          "rank": 4,
-          "action": "TRIM",
-          "ticker": "TEM",
-          "instruction": "Sell 1\u20132 shares on next RSI bounce to 30\u201335 (~$30\u201360 proceeds). Offset heavy loss (-33.1%) with size reduction; use proceeds to average into oversold ABT or INTU if they dip.",
-          "urgency": "this month"
-        },
-        {
-          "rank": 5,
-          "action": "HOLD",
-          "ticker": "ABT",
-          "instruction": "Hold existing position. BB squeeze + neutral RSI 49.6 signals imminent breakout. If market dips, add 1\u20132 shares with trimmed proceeds from DECK/TEM; avoid chase rallies.",
-          "urgency": "monitor"
-        },
-        {
-          "rank": 6,
-          "action": "HOLD",
-          "ticker": "CMG",
-          "instruction": "Hold through squeeze resolution (+4.5% cushion). Re-evaluate at next earnings report or if VIX spikes >18. Position is your only profitable swing; protect it.",
-          "urgency": "monitor"
-        }
-      ],
-      "biggest_risk": "Tech concentration (54.3%) and two positions oversized (INTU 29%, MSFT 25.3%) leave portfolio vulnerable to sector rotation or rate shock. VIX at 16.6 is deceptively calm; fear sentiment (30) could rapidly shift, triggering 5\u201310% drawdown.",
-      "what_to_watch": [
-        "INTU RSI: Watch for bounce toward 40\u201350 after trim; breakout above 50 = strong mean-reversion signal.",
-        "ABT breakout direction: If price breaks above upper BB with volume, add 1\u20132 shares. If reverses, wait for new squeeze setup.",
-        "Tech earnings calendar (next 2\u20134 weeks): Any guidance miss could sink MSFT/INTU further; monitor pre-announcement volatility.",
-        "VIX >18 or Fear & Greed <25: This is your entry trigger. Redeploy trimmed cash into oversold names immediately."
-      ],
-      "on_course_check": [
-        "\u2713 Plan is working IF: INTU/ABT post bounce/breakout within 2 weeks; DECK/TEM trim executes at stated RSI levels; tech concentration falls below 50% within 3 weeks.",
-        "\u26a0 Plan needs revision IF: Tech sector continues to roll over (SPX down >3%), VIX spikes >20, or MSFT breaks below 200-day MA \u2014 shift to defensive hold and pause buys until clarity."
-      ],
-      "generated_at": "2026-05-25T22:59:35.117181",
-      "archived_at": "2026-05-26T23:07:42.103815"
     }
   ]
 }

@@ -13,7 +13,7 @@
       "MACD: no bullish crossover or valley",
       "RSI Divergence: no bullish divergence detected",
       "200MA: price below 200MA \u2014 potential falling knife",
-      "Volume: below average (0.88x) \u2014 low conviction"
+      "Volume: below average (0.90x) \u2014 low conviction"
     ],
     "price": 47.51,
     "rsi": 54.2,
@@ -59,21 +59,21 @@
     "sentiment": "negative",
     "health": "deteriorating",
     "key_events": [
-      "Earnings reported 30 days ago with significant negative impact",
-      "No recent news catalysts available for assessment",
-      "Market showing extreme fear despite neutral VIX"
+      "Stock down 31.22% from entry",
+      "Earnings reported within last 30 days (likely catalyst for decline)",
+      "Market sentiment: Extreme Fear (Fear & Greed Index)",
+      "Neutral macro environment (VIX 16.1)"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "Massive drawdown of 31.22% from entry point",
-      "High debt-to-equity ratio of 3.2x indicates financial leverage risk",
-      "Not profitable with negative operating cash flow\u2014unsustainable trajectory",
-      "RSI at 54.2 shows no oversold conditions or bounce potential",
-      "No technical firing signals to support reversal",
-      "Extreme fear sentiment suggests broader market distrust"
+      "High debt-to-equity ratio (3.2x) \u2014 significant leverage risk",
+      "Not profitable with negative operating cash flow \u2014 cash burn concern",
+      "No technical firing signals (RSI 54.2 neutral, no bullish setup)",
+      "Fundamentals deteriorating \u2014 no operational improvement visible",
+      "No recent news catalysts listed \u2014 information vacuum during downturn"
     ],
-    "verdict": "Position is underwater with deteriorating fundamentals and no near-term catalysts; holding becomes a value trap without clarity on profitability timeline.",
+    "verdict": "TEM is a deteriorating unprofitable company with high leverage experiencing severe technical and sentiment washout; hold per philosophy but monitor closely for further deterioration.",
     "confidence": "medium"
   },
   "relative_strength": {
@@ -90,5 +90,5 @@
     "note": "4 sh @ $47.51 = $190 (Hold, 60% size) | $1,074 swing budget after"
   },
   "is_dca": false,
-  "saved_at": "2026-06-04T03:34:38.716799"
+  "saved_at": "2026-06-04T04:11:53.775398"
 }

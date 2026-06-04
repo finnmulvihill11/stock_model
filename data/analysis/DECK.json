@@ -13,7 +13,7 @@
       "RSI: not in buy zone (71.7, need 20-30)",
       "MACD: no bullish crossover or valley",
       "RSI Divergence: no bullish divergence detected",
-      "Volume: below average (0.78x) \u2014 low conviction"
+      "Volume: below average (0.98x) \u2014 low conviction"
     ],
     "price": 107.36,
     "rsi": 71.7,
@@ -58,20 +58,19 @@
     "sentiment": "neutral",
     "health": "healthy",
     "key_events": [
-      "Earnings reported 14 days ago",
-      "Stock up +10.48% from entry",
-      "VIX at neutral levels (16.1)",
-      "Extreme Fear sentiment in market"
+      "Earnings passed 14 days ago",
+      "Stock up 10.48% from entry",
+      "RSI at 71.7 indicating overbought conditions",
+      "No recent news catalysts identified"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "RSI at 71.7 \u2014 overbought territory",
-      "No technical firing signals despite rally",
-      "No recent news catalysts visible",
-      "Post-earnings momentum may be fading"
+      "RSI 71.7 signals overbought territory with no technical firing patterns to confirm continuation",
+      "Lack of recent news/catalysts suggests momentum may be momentum-driven rather than fundamental",
+      "Extreme Fear sentiment in market (F&G) could trigger sharp reversals despite neutral VIX"
     ],
-    "verdict": "DECK has captured solid swing gains but shows overbought technicals with no fresh catalysts\u2014ideal trim zone.",
+    "verdict": "DECK is profitable with healthy fundamentals, but overbought technicals and lack of fresh catalysts warrant a cautious hold pending pullback or breakout confirmation.",
     "confidence": "medium"
   },
   "relative_strength": {
@@ -88,5 +87,5 @@
     "note": "2 sh @ $107.36 = $215 (Hold, 60% size) | $1,049 swing budget after"
   },
   "is_dca": false,
-  "saved_at": "2026-06-04T03:34:51.632869"
+  "saved_at": "2026-06-04T04:12:08.096819"
 }

@@ -2,20 +2,37 @@
   "current": {
     "ticker": "DECK",
     "company_name": "Deckers Outdoor Corporation",
-    "action": "Start Trimming",
-    "action_reason": "With 10.5% gains and RSI deep in overbought (>70), take partial profits on 40-50% position. Fundamentals are healthy but lack immediate catalysts, and post-earnings bounce typically exhausts within 2-3 weeks.",
+    "action": "Hold",
+    "action_reason": "Position is solidly profitable (+10.48%) with healthy fundamentals, but RSI overbought and lack of technical firing patterns suggest waiting for either a pullback entry to add or clear breakout above current resistance before adding risk.",
     "target_price": 112,
     "target_reasoning": "",
-    "exit_trigger": "RSI falls below 60 or stock closes below $105.50 on volume",
-    "add_trigger": "Pullback to $102-103 on healthy volume if broader market stabilizes",
-    "risk": "Overbought pullback; retail sentiment extreme fear could flip fast; lack of news to sustain momentum",
+    "exit_trigger": "Close below $104.50 (breaks recent support) or RSI failure below 65 on daily close with bearish divergence",
+    "add_trigger": "Pullback to $102-104 with RSI <60 + positive earnings revision or insider buying; or breakout above $109 on volume with RSI reconfirmation",
+    "risk": "Overbought pullback into F&G environment; post-earnings volatility if guidance disappoints; apparel sector sensitivity to consumer spending slowdown",
     "outlook": "cautious",
     "timeframe": "2-4 weeks",
-    "generated_at": "2026-06-04T03:34:51.632121",
+    "generated_at": "2026-06-04T04:12:08.096062",
     "price_at_generation": 107.36,
     "pnl_at_generation": 10.48
   },
   "history": [
+    {
+      "ticker": "DECK",
+      "company_name": "Deckers Outdoor Corporation",
+      "action": "Start Trimming",
+      "action_reason": "With 10.5% gains and RSI deep in overbought (>70), take partial profits on 40-50% position. Fundamentals are healthy but lack immediate catalysts, and post-earnings bounce typically exhausts within 2-3 weeks.",
+      "target_price": 112,
+      "target_reasoning": "",
+      "exit_trigger": "RSI falls below 60 or stock closes below $105.50 on volume",
+      "add_trigger": "Pullback to $102-103 on healthy volume if broader market stabilizes",
+      "risk": "Overbought pullback; retail sentiment extreme fear could flip fast; lack of news to sustain momentum",
+      "outlook": "cautious",
+      "timeframe": "2-4 weeks",
+      "generated_at": "2026-06-04T03:34:51.632121",
+      "price_at_generation": 107.36,
+      "pnl_at_generation": 10.48,
+      "archived_at": "2026-06-04T04:12:08.096272"
+    },
     {
       "ticker": "DECK",
       "company_name": "Deckers Outdoor Corporation",
@@ -117,23 +134,6 @@
       "price_at_generation": 111.44,
       "pnl_at_generation": 14.67,
       "archived_at": "2026-05-27T23:15:24.309757"
-    },
-    {
-      "ticker": "DECK",
-      "company_name": "Deckers Outdoor Corporation",
-      "action": "Start Trimming",
-      "action_reason": "Take partial profits on +9.77% swing gain while price is extended at upper BB and RSI shows overbought conditions. Death cross signals momentum shift; hold remaining shares for additional upside but reduce exposure at current levels.",
-      "target_price": 110.5,
-      "target_reasoning": "",
-      "exit_trigger": "Break below 50MA at 102.21 or RSI drops below 50 with volume confirmation",
-      "add_trigger": "Pullback to 50MA (102.21) with bullish reversal candle + positive news catalyst",
-      "risk": "Earnings surprise potential exhausted; downside protected at 102.21 (50MA) but death cross suggests weakness despite 'healthy' fundamentals",
-      "outlook": "cautious",
-      "timeframe": "2-4 weeks",
-      "generated_at": "2026-05-25T22:59:21.620772",
-      "price_at_generation": 106.67,
-      "pnl_at_generation": 9.77,
-      "archived_at": "2026-05-26T23:07:29.861438"
     }
   ]
 }

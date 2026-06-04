@@ -2,20 +2,37 @@
   "current": {
     "ticker": "TEM",
     "company_name": "Tempus AI, Inc.",
-    "action": "Start Trimming",
-    "action_reason": "Cut 1-2 shares (33-67% position) to reduce capital at risk and lock in some cash. Fundamentals show no path to profitability; waiting for further deterioration increases loss magnitude.",
-    "target_price": 35,
+    "action": "Hold",
+    "action_reason": "Position is down >15% (31.22%), triggering your core philosophy to hold through major losers. However, this is a high-risk hold given negative cash flow and debt burden; avoid adding.",
+    "target_price": 55,
     "target_reasoning": "",
-    "exit_trigger": "Close entire position if price breaks below $40 or if next earnings misses guidance again",
-    "add_trigger": "Only add if profitability roadmap is announced AND price holds above $42 with RSI oversold (<30)",
-    "risk": "Further capital burn as unprofitable company faces debt servicing pressure; potential dilution from future financing",
+    "exit_trigger": "Further deterioration: (1) Debt covenant breach or refinancing failure, (2) Cash runway <6 months, (3) Break below $40 on volume, or (4) Sustained close below RSI 30 + negative news",
+    "add_trigger": "Do NOT add \u2014 fundamentals do not support averaging down; wait for profitability path or positive operating cash flow announcement",
+    "risk": "Liquidity crisis if cash burn continues; debt refinancing risk in rising-rate environment; potential dilutive capital raise",
     "outlook": "cautious",
-    "timeframe": "2-4 weeks to trim; full exit decision by next earnings",
-    "generated_at": "2026-06-04T03:34:38.716117",
+    "timeframe": "4-8 weeks (monitor next earnings for cash position + path to profitability)",
+    "generated_at": "2026-06-04T04:11:53.772306",
     "price_at_generation": 47.51,
     "pnl_at_generation": -31.22
   },
   "history": [
+    {
+      "ticker": "TEM",
+      "company_name": "Tempus AI, Inc.",
+      "action": "Start Trimming",
+      "action_reason": "Cut 1-2 shares (33-67% position) to reduce capital at risk and lock in some cash. Fundamentals show no path to profitability; waiting for further deterioration increases loss magnitude.",
+      "target_price": 35,
+      "target_reasoning": "",
+      "exit_trigger": "Close entire position if price breaks below $40 or if next earnings misses guidance again",
+      "add_trigger": "Only add if profitability roadmap is announced AND price holds above $42 with RSI oversold (<30)",
+      "risk": "Further capital burn as unprofitable company faces debt servicing pressure; potential dilution from future financing",
+      "outlook": "cautious",
+      "timeframe": "2-4 weeks to trim; full exit decision by next earnings",
+      "generated_at": "2026-06-04T03:34:38.716117",
+      "price_at_generation": 47.51,
+      "pnl_at_generation": -31.22,
+      "archived_at": "2026-06-04T04:11:53.772554"
+    },
     {
       "ticker": "TEM",
       "company_name": "Tempus AI, Inc.",
@@ -117,23 +134,6 @@
       "price_at_generation": 46.66,
       "pnl_at_generation": -32.46,
       "archived_at": "2026-05-27T23:15:09.001004"
-    },
-    {
-      "ticker": "TEM",
-      "company_name": "Tempus AI, Inc.",
-      "action": "Start Trimming",
-      "action_reason": "Cut 1-2 shares on any bounce to RSI 30-35 to reduce portfolio weight and lock in some liquidity. The -33% loss combined with negative cash flow and high debt makes this a high-risk hold; oversold technicals offer an exit window rather than a buying opportunity.",
-      "target_price": 52.5,
-      "target_reasoning": "",
-      "exit_trigger": "RSI reaches 30-35 or price bounces 8-12% (~$50-52), whichever comes first; or close below $42 on high volume (capitulation break)",
-      "add_trigger": "Only if profitable cash flow turns positive + debt reduces below 2.0x OR strategic partnership/acquisition announced; do NOT add into oversold bounce",
-      "risk": "Continued cash burn could force dilutive financing or restructuring; debt burden limits runway if revenue declines further",
-      "outlook": "cautious",
-      "timeframe": "1-4 weeks",
-      "generated_at": "2026-05-25T22:59:04.954145",
-      "price_at_generation": 46.18,
-      "pnl_at_generation": -33.15,
-      "archived_at": "2026-05-26T23:07:17.046827"
     }
   ]
 }

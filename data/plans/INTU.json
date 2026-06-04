@@ -2,20 +2,37 @@
   "current": {
     "ticker": "INTU",
     "company_name": "Intuit Inc.",
-    "action": "Start Trimming",
-    "action_reason": "Reduce 1 share (33% of position) to lock in remaining capital and lower portfolio concentration from 29.3% to ~19.5%, while keeping exposure for potential recovery. This de-risks the trade without full exit.",
+    "action": "Hold",
+    "action_reason": "Position is down 33.49%, exceeding your 15% threshold for forced holds. Fundamentals are healthy and RSI at 37.8 indicates oversold bounce potential; wait for technical reversal signals or stabilization before any decision.",
     "target_price": 385,
     "target_reasoning": "",
-    "exit_trigger": "Close remaining 2 shares if INTU breaks below $295 (fresh lows) OR at $385-400 recovery to recoup 18-22% of losses",
-    "add_trigger": "Only add if RSI falls below 25 AND stock holds $300 support with positive volume + positive earnings guidance update",
-    "risk": "Continued SaaS sector weakness, further margin compression, or macro recession reducing SMB software spend; concentration risk with 29.3% weight",
+    "exit_trigger": "Break below $300 or negative fundamental shift in next earnings; alternatively, exit at profitability if recovered to $480+",
+    "add_trigger": "RSI bounces above 50 with volume confirmation AND VIX remains below 20, signaling capitulation reversal",
+    "risk": "Further earnings disappointment, software sector rotation, or macro deterioration could test lower support; concentration risk at 29.3% weight",
     "outlook": "cautious",
-    "timeframe": "4-8 weeks (allow post-earnings recovery window, monitor next quarterly guidance)",
-    "generated_at": "2026-06-04T03:34:18.244367",
+    "timeframe": "4-8 weeks (allow post-earnings stabilization and technical setup)",
+    "generated_at": "2026-06-04T04:11:29.612985",
     "price_at_generation": 311.44,
     "pnl_at_generation": -33.49
   },
   "history": [
+    {
+      "ticker": "INTU",
+      "company_name": "Intuit Inc.",
+      "action": "Start Trimming",
+      "action_reason": "Reduce 1 share (33% of position) to lock in remaining capital and lower portfolio concentration from 29.3% to ~19.5%, while keeping exposure for potential recovery. This de-risks the trade without full exit.",
+      "target_price": 385,
+      "target_reasoning": "",
+      "exit_trigger": "Close remaining 2 shares if INTU breaks below $295 (fresh lows) OR at $385-400 recovery to recoup 18-22% of losses",
+      "add_trigger": "Only add if RSI falls below 25 AND stock holds $300 support with positive volume + positive earnings guidance update",
+      "risk": "Continued SaaS sector weakness, further margin compression, or macro recession reducing SMB software spend; concentration risk with 29.3% weight",
+      "outlook": "cautious",
+      "timeframe": "4-8 weeks (allow post-earnings recovery window, monitor next quarterly guidance)",
+      "generated_at": "2026-06-04T03:34:18.244367",
+      "price_at_generation": 311.44,
+      "pnl_at_generation": -33.49,
+      "archived_at": "2026-06-04T04:11:29.613203"
+    },
     {
       "ticker": "INTU",
       "company_name": "Intuit Inc.",
@@ -117,23 +134,6 @@
       "price_at_generation": 304.35,
       "pnl_at_generation": -35.01,
       "archived_at": "2026-05-27T23:14:46.160608"
-    },
-    {
-      "ticker": "INTU",
-      "company_name": "Intuit Inc.",
-      "action": "Hold",
-      "action_reason": "RSI oversold (29.5) + bullish divergence + healthy fundamentals suggest tactical bounce risk/reward favors holding through near-term recovery, but avoid adding into weakness.",
-      "target_price": 360,
-      "target_reasoning": "",
-      "exit_trigger": "Close below 310 or breakdown below lower BB without RSI support",
-      "add_trigger": "Only if RSI bounces above 50 WITH confirmed price higher high; otherwise reduce position size",
-      "risk": "Continued macro weakness, next earnings miss, or failure to bounce from oversold levels; 29% weight amplifies downside impact",
-      "outlook": "cautious",
-      "timeframe": "2-4 weeks",
-      "generated_at": "2026-05-25T22:58:41.071889",
-      "price_at_generation": 319.94,
-      "pnl_at_generation": -31.68,
-      "archived_at": "2026-05-26T23:06:53.847446"
     }
   ]
 }
