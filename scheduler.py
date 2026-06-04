@@ -203,38 +203,6 @@ def run_weekly():
         except Exception as e:
             print(f"  {ticker} failed: {e}")
 
-    # ── Always analyze previously owned tickers — bypass the top-5 cap ────────
-    prev_owned_tickers = CONFIG.get("portfolio", {}).get("previously_owned", [])
-    analyzed_tickers = {p["ticker"] for p in opp_plans}
-    screener_results_map = {r["ticker"]: r for r in cache.get("results", [])}
-    for ticker in prev_owned_tickers:
-        if ticker in portfolio_tickers or ticker in analyzed_tickers:
-            continue
-        print(f"  [prev owned] {ticker}...")
-        try:
-            sig = screener_results_map.get(ticker) or get_technical_signal(ticker)
-            if sig.get("tier") not in ("Strong Buy", "Buy"):
-                continue  # no buy signal — skip
-            fund = check_fundamentals(ticker)
-            news_result = analyze_company(ticker)
-            tier = _final_tier(sig["tier"], fund["health"], news_result.get("sentiment", "neutral"), True, geo_risk)
-            if tier not in ("Strong Buy", "Buy"):
-                continue
-            sz = size_swing_trade(
-                ticker, sig["price"], sig.get("atr") or 1,
-                tier=tier, portfolio_value=total_value, current_position_value=0,
-            )
-            plan = generate_opportunity_plan(
-                ticker=ticker, signal=sig, fundamentals=fund, news=news_result,
-                market_context=market, final_tier=tier, portfolio_value=total_value,
-                sizing={"suggested_dollars": sz["amount"], "suggested_shares": sz["shares"]},
-            )
-            plan["final_tier"] = tier
-            plan["previously_owned"] = True
-            opp_plans.append(plan)
-        except Exception as e:
-            print(f"  {ticker} failed: {e}")
-
     save_opportunity_plans(opp_plans)
 
     # ── Weekly opportunities email (disabled) ────────────────────────────────
