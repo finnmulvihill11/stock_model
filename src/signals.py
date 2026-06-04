@@ -8,7 +8,7 @@ from src.divergence import detect_rsi_divergence
 CONFIG = yaml.safe_load(open(Path(__file__).parent.parent / "config.yaml"))
 IND = CONFIG["indicators"]
 
-TIERS = ["Strong Buy", "Buy", "Watch", "Hold", "Avoid", "Sell", "Strong Sell"]
+TIERS = ["Strong Buy", "Buy", "Hold", "Avoid", "Sell", "Strong Sell"]
 
 
 def _evaluate_buy_conditions(df: pd.DataFrame, div: dict) -> tuple[list[str], list[str]]:
@@ -130,17 +130,13 @@ def _tier_from_counts(passed: int, total: int, direction: str) -> str:
             return "Strong Buy"
         elif ratio >= 0.75:
             return "Buy"
-        elif ratio >= 0.5:
-            return "Watch"
         else:
             return "Hold"
     else:
         if ratio == 1.0:
             return "Strong Sell"
-        elif ratio >= 0.75:
+        elif ratio >= 0.625:
             return "Sell"
-        elif ratio >= 0.5:
-            return "Watch"
         else:
             return "Hold"
 
@@ -156,8 +152,8 @@ def get_technical_signal(ticker: str) -> dict:
     buy_score = len(buy_passed) / (len(buy_passed) + len(buy_failed))
     sell_score = len(sell_passed) / (len(sell_passed) + len(sell_failed))
 
-    buy_active = buy_score >= 0.5
-    sell_active = sell_score >= 0.5
+    buy_active = buy_score >= 0.75
+    sell_active = sell_score >= 0.625
 
     if sell_active and (not buy_active or sell_score >= buy_score):
         direction = "sell"

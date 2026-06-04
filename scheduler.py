@@ -37,20 +37,16 @@ def _final_tier(tech_tier, fund_health, news_sentiment, gate_proceed, geo_risk="
 
     original_tier = tech_tier
 
-    # Geo dampens buy-side conviction
+    # Geo dampens buy-side conviction — severe kills the signal entirely
     if geo_risk in ("high", "severe") and tech_tier == "Strong Buy":
         tech_tier = "Buy"
     if geo_risk == "severe" and tech_tier == "Buy":
-        tech_tier = "Watch"
+        tech_tier = "Hold"
 
-    # Geo amplifies sell-side when holding a profit — lock in gains under uncertainty
-    # Only applies to held positions (pnl_pct provided); screener candidates are unaffected
+    # Geo amplifies an existing sell signal when in profit — never invents one from Hold
     in_profit = pnl_pct is not None and pnl_pct > 0
-    if in_profit and geo_risk in ("high", "severe"):
-        if original_tier == "Watch":
-            tech_tier = "Sell"
-        elif original_tier == "Sell" and geo_risk == "severe":
-            tech_tier = "Strong Sell"
+    if in_profit and geo_risk == "severe" and original_tier == "Sell":
+        tech_tier = "Strong Sell"
 
     if fund_health == "healthy" and news_sentiment == "positive":
         return "Strong Buy" if tech_tier == "Buy" else ("Strong Sell" if tech_tier == "Sell" else tech_tier)

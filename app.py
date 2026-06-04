@@ -40,7 +40,7 @@ _pull_on_startup()
 
 TIER_COLORS = {
     "Strong Buy": "#16a34a", "Buy": "#22c55e",
-    "Watch": "#f59e0b", "Hold": "#6b7280",
+    "Hold": "#6b7280",
     "Avoid": "#f97316", "Sell": "#ef4444", "Strong Sell": "#b91c1c",
 }
 
@@ -94,18 +94,15 @@ def load_full_analysis(ticker, high_risk=False, force_live=False, pnl_pct=None):
         final_tier = "Avoid" if tech_tier in ("Strong Buy", "Buy") else tech_tier
     else:
         original_tier = tech_tier
-        # Geo dampens buy-side conviction
+        # Geo dampens buy-side conviction — severe kills the signal entirely
         if geo_risk in ("high", "severe") and tech_tier == "Strong Buy":
             tech_tier = "Buy"
         if geo_risk == "severe" and tech_tier == "Buy":
-            tech_tier = "Watch"
-        # Geo amplifies sell-side when holding a profit
+            tech_tier = "Hold"
+        # Geo amplifies an existing sell signal when in profit — never invents one from Hold
         in_profit = pnl_pct is not None and pnl_pct > 0
-        if in_profit and geo_risk in ("high", "severe"):
-            if original_tier == "Watch":
-                tech_tier = "Sell"
-            elif original_tier == "Sell" and geo_risk == "severe":
-                tech_tier = "Strong Sell"
+        if in_profit and geo_risk == "severe" and original_tier == "Sell":
+            tech_tier = "Strong Sell"
         if fund["health"] == "healthy" and news.get("sentiment") == "positive":
             final_tier = "Strong Buy" if tech_tier == "Buy" else ("Strong Sell" if tech_tier == "Sell" else tech_tier)
         else:
