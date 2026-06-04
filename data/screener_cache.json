@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-04T03:27:04.093669",
-  "count": 7,
+  "generated_at": "2026-06-04T04:05:59.616209",
+  "count": 11,
   "results": [
     {
       "ticker": "DOW",
@@ -18,13 +18,14 @@
       ],
       "misses": [
         "BB: price not near lower band (pct=0.35)",
-        "Volume: below average (0.88x) \u2014 low conviction"
+        "Volume: below average (0.91x) \u2014 low conviction"
       ],
       "price": 35.4,
       "rsi": 28.5,
       "atr": 1.19,
       "relative_strength": 0.19,
-      "rs_label": "in-line"
+      "rs_label": "in-line",
+      "previously_owned": false
     },
     {
       "ticker": "CTVA",
@@ -42,13 +43,14 @@
       ],
       "misses": [
         "RSI Divergence: no bullish divergence detected",
-        "Volume: below average (0.56x) \u2014 low conviction"
+        "Volume: below average (0.91x) \u2014 low conviction"
       ],
       "price": 77.8,
       "rsi": 24.1,
       "atr": 1.69,
       "relative_strength": -10.41,
-      "rs_label": "underperforming"
+      "rs_label": "underperforming",
+      "previously_owned": false
     },
     {
       "ticker": "WELL",
@@ -72,7 +74,33 @@
       "rsi": 27.3,
       "atr": 5.11,
       "relative_strength": -13.57,
-      "rs_label": "underperforming"
+      "rs_label": "underperforming",
+      "previously_owned": false
+    },
+    {
+      "ticker": "SRE",
+      "direction": "buy",
+      "tier": "Buy",
+      "buy_score": 0.75,
+      "sell_score": 0.29,
+      "reasons": [
+        "BB Width: squeeze active (width=0.0705)",
+        "MACD: histogram at valley / turning up",
+        "RSI Divergence: Price lower low (90.23 < 92.38) but RSI higher low (40.3 > 30.2)",
+        "200MA: price at/above 200MA (89.53 vs 89.73)",
+        "Golden cross: 50MA (93.80) above 200MA (89.73)",
+        "Volume: above average (1.18x)"
+      ],
+      "misses": [
+        "BB: price not near lower band (pct=0.24)",
+        "RSI: not in buy zone (42.6, need 20-30)"
+      ],
+      "price": 89.53,
+      "rsi": 42.6,
+      "atr": 1.89,
+      "relative_strength": -15.88,
+      "rs_label": "underperforming",
+      "previously_owned": false
     },
     {
       "ticker": "XEL",
@@ -96,7 +124,8 @@
       "rsi": 40.2,
       "atr": 1.65,
       "relative_strength": -16.5,
-      "rs_label": "underperforming"
+      "rs_label": "underperforming",
+      "previously_owned": false
     },
     {
       "ticker": "SO",
@@ -110,7 +139,7 @@
         "RSI Divergence: Price lower low (91.05 < 91.12) but RSI higher low (43.9 > 19.1)",
         "200MA: price at/above 200MA (90.49 vs 91.13)",
         "Golden cross: 50MA (93.75) above 200MA (91.13)",
-        "Volume: above average (1.16x)"
+        "Volume: above average (1.18x)"
       ],
       "misses": [
         "RSI: not in buy zone (42.4, need 20-30)",
@@ -120,7 +149,83 @@
       "rsi": 42.4,
       "atr": 1.56,
       "relative_strength": -16.93,
-      "rs_label": "underperforming"
+      "rs_label": "underperforming",
+      "previously_owned": false
+    },
+    {
+      "ticker": "ED",
+      "direction": "buy",
+      "tier": "Buy",
+      "buy_score": 0.75,
+      "sell_score": 0.29,
+      "reasons": [
+        "BB: price near lower band (pct=0.05)",
+        "BB Width: squeeze active (width=0.0547)",
+        "RSI Divergence: Price lower low (105.33 < 107.23) but RSI higher low (42.4 > 26.2)",
+        "200MA: price at/above 200MA (103.48 vs 102.47)",
+        "Golden cross: 50MA (108.65) above 200MA (102.47)",
+        "Volume: above average (1.01x)"
+      ],
+      "misses": [
+        "RSI: not in buy zone (41.4, need 20-30)",
+        "MACD: no bullish crossover or valley"
+      ],
+      "price": 103.48,
+      "rsi": 41.4,
+      "atr": 2.05,
+      "relative_strength": -17.63,
+      "rs_label": "underperforming",
+      "previously_owned": false
+    },
+    {
+      "ticker": "DUK",
+      "direction": "buy",
+      "tier": "Buy",
+      "buy_score": 0.75,
+      "sell_score": 0.29,
+      "reasons": [
+        "BB: price near lower band (pct=0.14)",
+        "BB Width: squeeze active (width=0.0509)",
+        "RSI Divergence: Price lower low (120.95 < 124.18) but RSI higher low (33.5 > 28.6)",
+        "200MA: price at/above 200MA (121.04 vs 122.05)",
+        "Golden cross: 50MA (126.14) above 200MA (122.05)",
+        "Volume: above average (1.06x)"
+      ],
+      "misses": [
+        "RSI: not in buy zone (44.6, need 20-30)",
+        "MACD: no bullish crossover or valley"
+      ],
+      "price": 121.04,
+      "rsi": 44.6,
+      "atr": 1.85,
+      "relative_strength": -17.81,
+      "rs_label": "underperforming",
+      "previously_owned": false
+    },
+    {
+      "ticker": "ATO",
+      "direction": "buy",
+      "tier": "Buy",
+      "buy_score": 0.75,
+      "sell_score": 0.14,
+      "reasons": [
+        "BB: price near lower band (pct=0.08)",
+        "RSI: oversold zone (28.8)",
+        "MACD: histogram at valley / turning up",
+        "200MA: price at/above 200MA (168.30 vs 173.17)",
+        "Golden cross: 50MA (181.76) above 200MA (173.17)",
+        "Volume: above average (1.19x)"
+      ],
+      "misses": [
+        "BB Width: bands expanding, not squeezing",
+        "RSI Divergence: no bullish divergence detected"
+      ],
+      "price": 168.3,
+      "rsi": 28.8,
+      "atr": 3.05,
+      "relative_strength": -19.77,
+      "rs_label": "underperforming",
+      "previously_owned": false
     },
     {
       "ticker": "WM",
@@ -134,7 +239,7 @@
         "RSI Divergence: Price lower low (214.11 < 223.42) but RSI higher low (39.1 > 37.0)",
         "200MA: price at/above 200MA (218.00 vs 220.76)",
         "Golden cross: 50MA (223.90) above 200MA (220.76)",
-        "Volume: above average (1.06x)"
+        "Volume: above average (1.07x)"
       ],
       "misses": [
         "BB: price not near lower band (pct=0.56)",
@@ -142,9 +247,10 @@
       ],
       "price": 218.0,
       "rsi": 53.0,
-      "atr": 3.8,
+      "atr": 3.81,
       "relative_strength": -20.67,
-      "rs_label": "underperforming"
+      "rs_label": "underperforming",
+      "previously_owned": false
     },
     {
       "ticker": "CL",
@@ -158,7 +264,7 @@
         "RSI Divergence: Price lower low (81.81 < 82.62) but RSI higher low (39.7 > 22.4)",
         "200MA: price at/above 200MA (84.87 vs 83.37)",
         "Golden cross: 50MA (86.16) above 200MA (83.37)",
-        "Volume: above average (1.17x)"
+        "Volume: above average (1.43x)"
       ],
       "misses": [
         "RSI: not in buy zone (38.9, need 20-30)",
@@ -168,7 +274,8 @@
       "rsi": 38.9,
       "atr": 2.01,
       "relative_strength": -20.76,
-      "rs_label": "underperforming"
+      "rs_label": "underperforming",
+      "previously_owned": false
     }
   ]
 }
