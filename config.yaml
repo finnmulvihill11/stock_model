@@ -1,6 +1,7 @@
 portfolio:
   previously_owned:
   - XLK
+  - DECK
   holdings:
   - ticker: INTU
     shares: 3
@@ -26,9 +27,6 @@ portfolio:
   - ticker: CMG
     shares: 4
     avg_cost: 31.47
-  - ticker: DECK
-    shares: 1
-    avg_cost: 97.18
   - ticker: WELL
     shares: 1
     avg_cost: 202.75
@@ -44,7 +42,6 @@ portfolio:
   - CMG
   - ABT
   - TEM
-  - DECK
   dca_cadence: monthly
   max_position_pct: 0.25
   tech_concentration_tickers:
