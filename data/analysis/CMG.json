@@ -9,19 +9,19 @@
     "reasons": [],
     "misses": [
       "BB Width: bands expanding, not squeezing",
-      "MACD: no bullish crossover or valley",
+      "RSI: not in buy zone (31.1, need 20-30)",
       "RSI Divergence: no bullish divergence detected",
       "200MA: price below 200MA \u2014 potential falling knife",
-      "Death cross active: 50MA (32.92) below 200MA (36.40)"
+      "Death cross active: 50MA (32.86) below 200MA (36.33)"
     ],
-    "price": 28.18,
-    "rsi": 26.1,
-    "atr": 1.14,
+    "price": 29.34,
+    "rsi": 31.1,
+    "atr": 1.21,
     "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 6,
-      "suggested_dollars": 169.08,
-      "note": "6 sh @ $28.18 = $169 (Hold, 60% size) | $813 swing budget after"
+      "suggested_dollars": 176.04,
+      "note": "6 sh @ $29.34 = $176 (Hold, 60% size) | $914 swing budget after"
     }
   },
   "fundamentals": {
@@ -51,7 +51,7 @@
       ],
       "earnings_status": "distant",
       "next_earnings_date": "2026-07-29",
-      "days_to_earnings": 55
+      "days_to_earnings": 54
     }
   },
   "news": {
@@ -59,35 +59,35 @@
     "sentiment": "neutral",
     "health": "neutral",
     "key_events": [
-      "RSI at 26.1 indicates oversold conditions \u2014 potential bounce territory",
-      "Earnings 55 days out provides medium-term catalyst window",
-      "VIX 15.4 suggests stable market backdrop, not panic-driven selling",
-      "High debt-to-equity (2.2x) warrants monitoring but not acute concern at current valuations"
+      "Stock down 6.77% from entry \u2014 manageable drawdown within swing trade volatility",
+      "RSI at 31.1 indicates oversold conditions \u2014 potential bounce territory",
+      "Earnings 54 days out \u2014 no immediate catalyst risk",
+      "VIX 21.5 neutral \u2014 no acute market stress amplifying pressure",
+      "Extreme Fear sentiment suggests capitulation may be near"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "No recent news available \u2014 lack of catalyst visibility increases uncertainty",
-      "Extreme Fear sentiment in market may presage further sector weakness",
-      "10.45% loss without fundamental deterioration suggests technical/sentiment driven decline",
-      "Moderate geopolitical risk adds macro headwind"
+      "High debt-to-equity ratio (2.2x) \u2014 limits financial flexibility if operational pressures mount",
+      "No technical firing signals \u2014 momentum absent on upside",
+      "No recent news flow \u2014 suggests period of uncertainty or low conviction"
     ],
-    "verdict": "CMG is oversold on technicals with no fundamental breaks; hold through recovery window ahead of earnings.",
+    "verdict": "CMG is moderately oversold with neutral technicals and distant earnings; hold position and wait for RSI recovery confirmation or accumulation signal before adding.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "CMG",
-    "stock_return_3m": -23.96,
-    "benchmark_return_3m": 11.43,
-    "relative_strength": -35.39,
+    "stock_return_3m": -17.05,
+    "benchmark_return_3m": 9.99,
+    "relative_strength": -27.04,
     "label": "underperforming"
   },
   "final_tier": "Hold",
   "sizing": {
     "suggested_shares": 6,
-    "suggested_dollars": 169.08,
-    "note": "6 sh @ $28.18 = $169 (Hold, 60% size) | $813 swing budget after"
+    "suggested_dollars": 176.04,
+    "note": "6 sh @ $29.34 = $176 (Hold, 60% size) | $914 swing budget after"
   },
   "is_dca": false,
-  "saved_at": "2026-06-04T23:07:28.033504"
+  "saved_at": "2026-06-05T23:05:57.216084"
 }

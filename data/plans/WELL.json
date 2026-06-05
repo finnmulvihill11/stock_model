@@ -3,17 +3,35 @@
     "ticker": "WELL",
     "company_name": "Welltower Inc.",
     "action": "Hold",
-    "action_reason": "Position is only -0.94% (well below 15% exit threshold); RSI 30.9 is oversold and typically precedes reversals. Fundamentals remain healthy\u2014accumulate data on next earnings or wait for technical bounce.",
-    "target_price": 208.5,
+    "action_reason": "Position is +2.06% profitable and fundamentals remain healthy. RSI and lack of technical firing suggest consolidation phase rather than trend confirmation. No catalyst or reversal signal warrants exit of a winning trade.",
+    "target_price": null,
     "target_reasoning": "",
-    "exit_trigger": "Break below $195 (1.2% further) with deteriorating fundamental news OR close below 200-MA on high volume",
-    "add_trigger": "RSI bounces above 40 on positive volume + Extreme Fear lifts to Fear/Neutral; alternatively, confirmed support hold at $198\u2013$200",
-    "risk": "Broad healthcare REIT sector weakness; geopolitical uncertainty pressuring institutional flows into defensive assets",
-    "outlook": "cautious",
-    "timeframe": "2\u20134 weeks",
-    "generated_at": "2026-06-04T23:07:42.272740",
-    "price_at_generation": 200.85,
-    "pnl_at_generation": -0.94
+    "exit_trigger": "Close below $200 on daily with confirmed support break, or deteriorating fundamental health announcement",
+    "add_trigger": "Pullback to $203-$204 range with RSI <30 and positive earnings/dividend news, or breakout above $210 on volume",
+    "risk": "Sector rotation away from healthcare REITs in higher-rate environment; geopolitical escalation impacting risk appetite",
+    "outlook": "neutral",
+    "timeframe": "2-4 weeks \u2014 awaiting next catalyst or earnings guidance update",
+    "generated_at": "2026-06-05T23:06:03.330803",
+    "price_at_generation": 206.93,
+    "pnl_at_generation": 2.06
   },
-  "history": []
+  "history": [
+    {
+      "ticker": "WELL",
+      "company_name": "Welltower Inc.",
+      "action": "Hold",
+      "action_reason": "Position is only -0.94% (well below 15% exit threshold); RSI 30.9 is oversold and typically precedes reversals. Fundamentals remain healthy\u2014accumulate data on next earnings or wait for technical bounce.",
+      "target_price": 208.5,
+      "target_reasoning": "",
+      "exit_trigger": "Break below $195 (1.2% further) with deteriorating fundamental news OR close below 200-MA on high volume",
+      "add_trigger": "RSI bounces above 40 on positive volume + Extreme Fear lifts to Fear/Neutral; alternatively, confirmed support hold at $198\u2013$200",
+      "risk": "Broad healthcare REIT sector weakness; geopolitical uncertainty pressuring institutional flows into defensive assets",
+      "outlook": "cautious",
+      "timeframe": "2\u20134 weeks",
+      "generated_at": "2026-06-04T23:07:42.272740",
+      "price_at_generation": 200.85,
+      "pnl_at_generation": -0.94,
+      "archived_at": "2026-06-05T23:06:03.330980"
+    }
+  ]
 }

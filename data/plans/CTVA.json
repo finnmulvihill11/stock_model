@@ -3,17 +3,35 @@
     "ticker": "CTVA",
     "company_name": "Corteva, Inc.",
     "action": "Hold",
-    "action_reason": "Position is down only 1.17% (well within normal swing range) with RSI deeply oversold at 23.5. Fundamentals remain healthy and earnings catalyst is 56 days away. Per philosophy, never exit winners or near-breakeven positions; this warrants patience for technical recovery.",
-    "target_price": 82.5,
+    "action_reason": "Loss is minor (-1.72%) and well within acceptable swing trade drawdown. Oversold RSI (25.0) and healthy fundamentals create asymmetric opportunity; no exit triggers met. Let position stabilize and watch for accumulation signals.",
+    "target_price": 81.5,
     "target_reasoning": "",
-    "exit_trigger": "Only exit if fundamentals deteriorate OR position becomes profitable and closes above $83 on high volume (take partial profits)",
-    "add_trigger": "If CTVA drops to $75.00 with RSI below 20 + positive agricultural/commodity news emerges",
-    "risk": "Commodity price headwinds (grain/fertilizer cycles); geopolitical disruption to ag supply chains; sector rotation away from cyclicals if recession fears intensify",
-    "outlook": "cautious",
-    "timeframe": "4-8 weeks",
-    "generated_at": "2026-06-04T23:07:48.553362",
-    "price_at_generation": 77.46,
-    "pnl_at_generation": -1.17
+    "exit_trigger": "Break below $75.00 on high volume with deteriorating fundamentals OR RSI drops below 20 on earnings warning",
+    "add_trigger": "RSI bounces to 30-35 range with volume confirmation, or any material positive agricultural/market news catalyst",
+    "risk": "Agricultural commodity exposure during uncertain macro conditions; extended geopolitical tensions could pressure input costs and farmer demand",
+    "outlook": "neutral",
+    "timeframe": "3-6 weeks (hold through earnings announcement window)",
+    "generated_at": "2026-06-05T23:06:09.476300",
+    "price_at_generation": 77.03,
+    "pnl_at_generation": -1.72
   },
-  "history": []
+  "history": [
+    {
+      "ticker": "CTVA",
+      "company_name": "Corteva, Inc.",
+      "action": "Hold",
+      "action_reason": "Position is down only 1.17% (well within normal swing range) with RSI deeply oversold at 23.5. Fundamentals remain healthy and earnings catalyst is 56 days away. Per philosophy, never exit winners or near-breakeven positions; this warrants patience for technical recovery.",
+      "target_price": 82.5,
+      "target_reasoning": "",
+      "exit_trigger": "Only exit if fundamentals deteriorate OR position becomes profitable and closes above $83 on high volume (take partial profits)",
+      "add_trigger": "If CTVA drops to $75.00 with RSI below 20 + positive agricultural/commodity news emerges",
+      "risk": "Commodity price headwinds (grain/fertilizer cycles); geopolitical disruption to ag supply chains; sector rotation away from cyclicals if recession fears intensify",
+      "outlook": "cautious",
+      "timeframe": "4-8 weeks",
+      "generated_at": "2026-06-04T23:07:48.553362",
+      "price_at_generation": 77.46,
+      "pnl_at_generation": -1.17,
+      "archived_at": "2026-06-05T23:06:09.476489"
+    }
+  ]
 }

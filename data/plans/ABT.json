@@ -3,19 +3,36 @@
     "ticker": "ABT",
     "company_name": "Abbott Laboratories",
     "action": "Hold",
-    "action_reason": "Loss exceeds 15% threshold (17.3%), triggering strict hold protocol. Fundamentals remain healthy and no deterioration signals justify exit. Await either technical recovery signal or market-wide risk-off reversal.",
+    "action_reason": "Position is -17.04% (within major loser threshold per philosophy). Fundamentals remain healthy with no deterioration signal. Extreme Fear sentiment + neutral market volatility may present near-term recovery opportunity without forced exit.",
     "target_price": null,
     "target_reasoning": "",
-    "exit_trigger": "Price breaks below $85 (12% further loss) suggesting fundamental deterioration; or earnings miss if next report shows guidance reduction",
-    "add_trigger": "RSI drops to 50-55 range on higher volume + price holds above $88 (technical confirmation of support)",
-    "risk": "Further sector rotation away from healthcare; execution miss in next earnings cycle; geopolitical escalation reducing risk appetite",
+    "exit_trigger": "Fundamentals deteriorate (earnings miss, guidance cut, or dividend concern); break below $85 with volume spike",
+    "add_trigger": "RSI drops below 40 + VIX spike to 25+ + close above $95 with volume confirmation",
+    "risk": "Extended sideways trading delaying recovery; potential sector rotation out of healthcare if market shifts risk-on",
     "outlook": "cautious",
-    "timeframe": "4-8 weeks (wait for next earnings cycle or technical reversal)",
-    "generated_at": "2026-06-04T23:07:13.927672",
-    "price_at_generation": 90.78,
-    "pnl_at_generation": -17.3
+    "timeframe": "4-8 weeks (next earnings catalyst post-recovery phase)",
+    "generated_at": "2026-06-05T23:05:40.289764",
+    "price_at_generation": 91.07,
+    "pnl_at_generation": -17.04
   },
   "history": [
+    {
+      "ticker": "ABT",
+      "company_name": "Abbott Laboratories",
+      "action": "Hold",
+      "action_reason": "Loss exceeds 15% threshold (17.3%), triggering strict hold protocol. Fundamentals remain healthy and no deterioration signals justify exit. Await either technical recovery signal or market-wide risk-off reversal.",
+      "target_price": null,
+      "target_reasoning": "",
+      "exit_trigger": "Price breaks below $85 (12% further loss) suggesting fundamental deterioration; or earnings miss if next report shows guidance reduction",
+      "add_trigger": "RSI drops to 50-55 range on higher volume + price holds above $88 (technical confirmation of support)",
+      "risk": "Further sector rotation away from healthcare; execution miss in next earnings cycle; geopolitical escalation reducing risk appetite",
+      "outlook": "cautious",
+      "timeframe": "4-8 weeks (wait for next earnings cycle or technical reversal)",
+      "generated_at": "2026-06-04T23:07:13.927672",
+      "price_at_generation": 90.78,
+      "pnl_at_generation": -17.3,
+      "archived_at": "2026-06-05T23:05:40.289978"
+    },
     {
       "ticker": "ABT",
       "company_name": "Abbott Laboratories",
@@ -117,23 +134,6 @@
       "price_at_generation": 86.3,
       "pnl_at_generation": -21.38,
       "archived_at": "2026-05-29T23:10:18.663968"
-    },
-    {
-      "ticker": "ABT",
-      "company_name": "Abbott Laboratories",
-      "action": "Hold",
-      "action_reason": "Current squeeze suggests volatility expansion incoming. RSI neutral prevents aggressive add; exit would lock losses before potential reversal. Wait for BB breakout direction + volume confirmation.",
-      "target_price": null,
-      "target_reasoning": "",
-      "exit_trigger": "Break below $83.50 (recent support) on volume + RSI < 30 without recovery = deteriorating fundamentals signal.",
-      "add_trigger": "BB breakout above upper band (\u2248$87.80) + RSI > 60 + volume surge, OR capitulation spike (VIX > 22) + close above $88 on reversal day.",
-      "risk": "Sharp macro selloff or ABT-specific negative catalyst could break support; 5.2% portfolio weight limits damage but loss already significant.",
-      "outlook": "cautious",
-      "timeframe": "2-4 weeks (await BB squeeze resolution + next earnings cycle prep)",
-      "generated_at": "2026-05-27T23:15:02.526571",
-      "price_at_generation": 85.68,
-      "pnl_at_generation": -21.95,
-      "archived_at": "2026-05-28T23:13:49.248322"
     }
   ]
 }

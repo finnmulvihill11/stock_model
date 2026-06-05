@@ -4,25 +4,26 @@
     "ticker": "ABT",
     "direction": "hold",
     "tier": "Hold",
-    "buy_score": 0.25,
+    "buy_score": 0.12,
     "sell_score": 0.57,
     "reasons": [],
     "misses": [
-      "BB: price not near lower band (pct=1.05)",
-      "RSI: not in buy zone (68.3, need 20-30)",
+      "BB: price not near lower band (pct=1.00)",
+      "RSI: not in buy zone (70.8, need 20-30)",
       "MACD: no bullish crossover or valley",
       "RSI Divergence: no bullish divergence detected",
       "200MA: price below 200MA \u2014 potential falling knife",
-      "Death cross active: 50MA (92.65) below 200MA (114.68)"
+      "Death cross active: 50MA (92.38) below 200MA (114.49)",
+      "Volume: below average (0.99x) \u2014 low conviction"
     ],
-    "price": 90.78,
-    "rsi": 68.3,
-    "atr": 2.1,
+    "price": 91.07,
+    "rsi": 70.8,
+    "atr": 2.07,
     "final_tier": "Hold",
     "sizing": {
-      "suggested_shares": 1,
-      "suggested_dollars": 90.78,
-      "note": "1 sh @ $90.78 = $91 (Hold, 60% size) | $892 swing budget after"
+      "suggested_shares": 2,
+      "suggested_dollars": 182.14,
+      "note": "2 sh @ $91.07 = $182 (Hold, 60% size) | $908 swing budget after"
     }
   },
   "fundamentals": {
@@ -51,7 +52,7 @@
       ],
       "earnings_status": "past",
       "next_earnings_date": "2026-04-16",
-      "days_to_earnings": -49
+      "days_to_earnings": -50
     }
   },
   "news": {
@@ -59,34 +60,34 @@
     "sentiment": "neutral",
     "health": "healthy",
     "key_events": [
-      "Earnings reported 49 days ago (past cycle)",
-      "VIX at 15.4 indicating neutral market volatility",
-      "Extreme Fear sentiment in broader market (F&G)"
+      "Earnings released >50 days ago (digestive phase)",
+      "VIX 21.5 indicates neutral volatility environment",
+      "Extreme Fear index suggests market-wide pessimism (potential contrarian setup)",
+      "No recent news catalysts identified"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "Position down 17.3% \u2014 significant unrealized loss",
-      "RSI at 68.3 \u2014 approaching overbought despite price weakness (divergence signal)",
-      "No technical firing signals despite recovery attempt",
-      "Missing news data prevents full sentiment assessment"
+      "RSI 70.8 on 2-share position suggests potential overbought condition at entry point (retrospective)",
+      "No firing signals currently\u2014lack of technical confirmation",
+      "17% drawdown with no imminent catalysts for recovery"
     ],
-    "verdict": "ABT shows fundamental health but technical setup lacks conviction; hold position per loss-threshold philosophy while monitoring for reversal confirmation.",
+    "verdict": "Healthy fundamentals warrant holding through drawdown per philosophy; lack of deterioration supports recovery patience.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "ABT",
-    "stock_return_3m": -17.73,
-    "benchmark_return_3m": 11.43,
-    "relative_strength": -29.16,
+    "stock_return_3m": -16.36,
+    "benchmark_return_3m": 9.99,
+    "relative_strength": -26.35,
     "label": "underperforming"
   },
   "final_tier": "Hold",
   "sizing": {
-    "suggested_shares": 1,
-    "suggested_dollars": 90.78,
-    "note": "1 sh @ $90.78 = $91 (Hold, 60% size) | $892 swing budget after"
+    "suggested_shares": 2,
+    "suggested_dollars": 182.14,
+    "note": "2 sh @ $91.07 = $182 (Hold, 60% size) | $908 swing budget after"
   },
   "is_dca": false,
-  "saved_at": "2026-06-04T23:07:13.928405"
+  "saved_at": "2026-06-05T23:05:40.290554"
 }

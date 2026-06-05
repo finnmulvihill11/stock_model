@@ -8,16 +8,16 @@
     "sell_score": 0.57,
     "reasons": [],
     "misses": [
-      "BB: price not near lower band (pct=0.60)",
-      "RSI: not in buy zone (58.6, need 20-30)",
+      "BB: price not near lower band (pct=0.40)",
+      "RSI: not in buy zone (48.1, need 20-30)",
       "MACD: no bullish crossover or valley",
       "RSI Divergence: no bullish divergence detected",
       "200MA: price below 200MA \u2014 potential falling knife",
-      "Volume: below average (0.71x) \u2014 low conviction"
+      "Volume: below average (0.93x) \u2014 low conviction"
     ],
-    "price": 428.05,
-    "rsi": 58.6,
-    "atr": 13.58,
+    "price": 416.67,
+    "rsi": 48.1,
+    "atr": 13.32,
     "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 0,
@@ -51,7 +51,7 @@
       ],
       "earnings_status": "past",
       "next_earnings_date": "2026-04-29",
-      "days_to_earnings": -36
+      "days_to_earnings": -37
     }
   },
   "news": {
@@ -59,27 +59,27 @@
     "sentiment": "neutral",
     "health": "healthy",
     "key_events": [
-      "Earnings reported 36 days ago (already priced in)",
-      "No current news available for assessment",
-      "Market volatility remains benign (VIX 15.4)"
+      "Earnings reported 37 days ago - no recent catalysts",
+      "Price down 10.81% from entry - approaching swing trade invalidation zones",
+      "RSI at 48.1 indicates neither oversold nor overbought conditions",
+      "No technical firing signals present"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "Position down 8.38% from entry",
-      "RSI at 58.6 shows no momentum firing",
-      "Extreme Fear sentiment suggests market-wide capitulation pressure",
-      "No technical buy signals present",
-      "News void limits conviction for new trades"
+      "No recent news flow - information vacuum increases uncertainty",
+      "Extreme Fear sentiment in F&G index suggests panic selling unrelated to MSFT fundamentals",
+      "Position weight at 25.3% is concentrated; drawdown compounds portfolio impact",
+      "Next earnings still ~60 days away - limited near-term catalysts"
     ],
-    "verdict": "MSFT is in a choppy consolidation phase with healthy fundamentals but no near-term catalyst or technical confirmation.",
+    "verdict": "Position remains fundamentally sound but lacks technical or narrative momentum; hold and monitor for reversal signals before next earnings.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "MSFT",
-    "stock_return_3m": 4.46,
-    "benchmark_return_3m": 11.43,
-    "relative_strength": -6.97,
+    "stock_return_3m": 2.11,
+    "benchmark_return_3m": 9.99,
+    "relative_strength": -7.89,
     "label": "underperforming"
   },
   "final_tier": "Hold",
@@ -89,5 +89,5 @@
     "note": "Position already at 20% portfolio cap"
   },
   "is_dca": false,
-  "saved_at": "2026-06-04T23:07:07.444981"
+  "saved_at": "2026-06-05T23:05:33.866056"
 }
