@@ -3,19 +3,36 @@
     "ticker": "TEM",
     "company_name": "Tempus AI, Inc.",
     "action": "Hold",
-    "action_reason": "Your stated philosophy forbids exit on >15% loss. However, monitor closely for profitability roadmap or OCF inflection; if neither appears within 2-6 weeks, this becomes a value trap rather than a recoverable position.",
+    "action_reason": "Per philosophy, position is down >15% and must be held through recovery attempt. However, monitor closely for additional deterioration signals that would warrant exception-based exit.",
     "target_price": null,
     "target_reasoning": "",
-    "exit_trigger": "Restatement/negative guidance revision; Q-over-Q deterioration in cash burn rate without profitability timeline; dilutive financing announcement; breach below $40 on volume (technical capitulation)",
-    "add_trigger": "Do NOT add \u2014 fundamentals do not support averaging down. Only reconsider if company announces path to profitability or strategic partnership reducing debt burden.",
-    "risk": "Liquidity crisis if cash burn accelerates; debt covenant breach; dilutive capital raise; bankruptcy in stressed scenario",
+    "exit_trigger": "Breach below $40 (41% loss) OR announcement of dilutive financing/debt restructuring OR operating cash flow deteriorates further in next earnings",
+    "add_trigger": "Do NOT add \u2014 fundamentals must show stabilization (path to profitability, positive FCF) before considering addition",
+    "risk": "Bankruptcy/restructuring risk if cash burn continues without profitability inflection; debt covenant violations possible",
     "outlook": "cautious",
-    "timeframe": "4-8 weeks",
-    "generated_at": "2026-06-05T23:05:49.089616",
-    "price_at_generation": 46.43,
-    "pnl_at_generation": -32.79
+    "timeframe": "3-6 months to demonstrate operational improvement, otherwise high risk of prolonged capital impairment",
+    "generated_at": "2026-06-08T23:11:13.373480",
+    "price_at_generation": 48.59,
+    "pnl_at_generation": -29.66
   },
   "history": [
+    {
+      "ticker": "TEM",
+      "company_name": "Tempus AI, Inc.",
+      "action": "Hold",
+      "action_reason": "Your stated philosophy forbids exit on >15% loss. However, monitor closely for profitability roadmap or OCF inflection; if neither appears within 2-6 weeks, this becomes a value trap rather than a recoverable position.",
+      "target_price": null,
+      "target_reasoning": "",
+      "exit_trigger": "Restatement/negative guidance revision; Q-over-Q deterioration in cash burn rate without profitability timeline; dilutive financing announcement; breach below $40 on volume (technical capitulation)",
+      "add_trigger": "Do NOT add \u2014 fundamentals do not support averaging down. Only reconsider if company announces path to profitability or strategic partnership reducing debt burden.",
+      "risk": "Liquidity crisis if cash burn accelerates; debt covenant breach; dilutive capital raise; bankruptcy in stressed scenario",
+      "outlook": "cautious",
+      "timeframe": "4-8 weeks",
+      "generated_at": "2026-06-05T23:05:49.089616",
+      "price_at_generation": 46.43,
+      "pnl_at_generation": -32.79,
+      "archived_at": "2026-06-08T23:11:13.373677"
+    },
     {
       "ticker": "TEM",
       "company_name": "Tempus AI, Inc.",
@@ -117,23 +134,6 @@
       "price_at_generation": 50.47,
       "pnl_at_generation": -26.94,
       "archived_at": "2026-06-02T23:43:51.124619"
-    },
-    {
-      "ticker": "TEM",
-      "company_name": "Tempus AI, Inc.",
-      "action": "Start Trimming",
-      "action_reason": "While MACD shows reversal setup, fundamentals are severely weak (unprofitable, burning cash, high debt). Trim 33-50% of position to lock in learning and reduce portfolio weight, using any bounce above $55 as exit opportunity.",
-      "target_price": 55.0,
-      "target_reasoning": "",
-      "exit_trigger": "Break below $49 (new lows) or failure to hold $53 resistance; or trim on any 8-12% bounce to $55-58",
-      "add_trigger": "Do not add. Wait for profitability timeline or debt reduction announcement.",
-      "risk": "Continued deterioration leading to capital raise/dilution or inability to service debt; swing recovery fails if no earnings stabilization",
-      "outlook": "cautious",
-      "timeframe": "2-4 weeks for trim decision; reassess if reaches $60+ or breaks $48",
-      "generated_at": "2026-05-28T23:13:57.155261",
-      "price_at_generation": 51.29,
-      "pnl_at_generation": -25.75,
-      "archived_at": "2026-05-29T23:10:25.393804"
     }
   ]
 }

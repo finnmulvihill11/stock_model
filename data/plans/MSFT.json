@@ -3,19 +3,36 @@
     "ticker": "MSFT",
     "company_name": "Microsoft Corporation",
     "action": "Hold",
-    "action_reason": "Loss is only 10.81% (below 15% philosophy threshold) and fundamentals are healthy. RSI at 48.1 shows no capitulation; wait for either technical reversal signals (RSI <30 + bullish structure) or market-wide stabilization before adding.",
-    "target_price": 445,
+    "action_reason": "Loss is 11.87%, below the 15% threshold for holding through major losers. Philosophy dictates holding through recovery. Absence of deteriorating fundamentals and healthy business status support conviction.",
+    "target_price": null,
     "target_reasoning": "",
-    "exit_trigger": "Break below $405 (10% further down) on high volume; only exit if fundamentals deteriorate",
-    "add_trigger": "RSI drops to 35-40 with bullish divergence, or VIX drops below 18 + MSFT reclaims $430",
-    "risk": "Continued tech sector rotation; macro risk from geopolitical tensions (VIX at 21.5); concentrated position amplifies drawdown",
+    "exit_trigger": "Fundamental deterioration (earnings miss, guidance cut, or structural business decline) OR loss exceeds 25% with confirmed technical breakdown below key support",
+    "add_trigger": "RSI drops to 30-35 (oversold) during broad market selloff with MSFT fundamentals intact, OR positive catalyst (product announcement, AI advancement, strong sector rotation into tech)",
+    "risk": "Concentration risk (24.9% weight) amplifies drawdown impact; continued broad market weakness could push loss past 15% threshold before recovery",
     "outlook": "cautious",
-    "timeframe": "2-4 weeks until next major catalyst or technical inflection",
-    "generated_at": "2026-06-05T23:05:33.865283",
-    "price_at_generation": 416.67,
-    "pnl_at_generation": -10.81
+    "timeframe": "4-8 weeks (earnings cycle + macro stabilization needed)",
+    "generated_at": "2026-06-08T23:10:56.637858",
+    "price_at_generation": 411.74,
+    "pnl_at_generation": -11.87
   },
   "history": [
+    {
+      "ticker": "MSFT",
+      "company_name": "Microsoft Corporation",
+      "action": "Hold",
+      "action_reason": "Loss is only 10.81% (below 15% philosophy threshold) and fundamentals are healthy. RSI at 48.1 shows no capitulation; wait for either technical reversal signals (RSI <30 + bullish structure) or market-wide stabilization before adding.",
+      "target_price": 445,
+      "target_reasoning": "",
+      "exit_trigger": "Break below $405 (10% further down) on high volume; only exit if fundamentals deteriorate",
+      "add_trigger": "RSI drops to 35-40 with bullish divergence, or VIX drops below 18 + MSFT reclaims $430",
+      "risk": "Continued tech sector rotation; macro risk from geopolitical tensions (VIX at 21.5); concentrated position amplifies drawdown",
+      "outlook": "cautious",
+      "timeframe": "2-4 weeks until next major catalyst or technical inflection",
+      "generated_at": "2026-06-05T23:05:33.865283",
+      "price_at_generation": 416.67,
+      "pnl_at_generation": -10.81,
+      "archived_at": "2026-06-08T23:10:56.638094"
+    },
     {
       "ticker": "MSFT",
       "company_name": "Microsoft Corporation",
@@ -117,23 +134,6 @@
       "price_at_generation": 450.24,
       "pnl_at_generation": -3.63,
       "archived_at": "2026-06-02T23:43:34.971077"
-    },
-    {
-      "ticker": "MSFT",
-      "company_name": "Microsoft Corporation",
-      "action": "Hold",
-      "action_reason": "RSI divergence warns against chasing higher, but fundamental health and BB squeeze suggest consolidation. Avoid adding into weakness; monitor for bullish confirmation.",
-      "target_price": 445,
-      "target_reasoning": "",
-      "exit_trigger": "Close below 420 (breaks recent support) or RSI falls below 40 on high volume",
-      "add_trigger": "RSI bounces above 60 with price above 435 on expanding volume, confirming momentum recovery",
-      "risk": "Bearish divergence could accelerate pullback to 410-415; oversized position weight amplifies losses",
-      "outlook": "cautious",
-      "timeframe": "2-4 weeks",
-      "generated_at": "2026-05-28T23:13:39.444485",
-      "price_at_generation": 426.99,
-      "pnl_at_generation": -8.6,
-      "archived_at": "2026-05-29T23:10:10.629365"
     }
   ]
 }
