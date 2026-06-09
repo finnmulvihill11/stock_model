@@ -4,18 +4,19 @@
     "ticker": "WELL",
     "direction": "hold",
     "tier": "Hold",
-    "buy_score": 0.5,
+    "buy_score": 0.38,
     "sell_score": 0.0,
     "reasons": [],
     "misses": [
+      "BB: price not near lower band (pct=0.39)",
       "BB Width: bands expanding, not squeezing",
-      "RSI: not in buy zone (37.9, need 20-30)",
+      "RSI: not in buy zone (39.5, need 20-30)",
       "RSI Divergence: no bullish divergence detected",
-      "Volume: below average (0.75x) \u2014 low conviction"
+      "Volume: below average (0.81x) \u2014 low conviction"
     ],
-    "price": 200.0,
-    "rsi": 37.9,
-    "atr": 6.0,
+    "price": 206.77,
+    "rsi": 39.5,
+    "atr": 6.21,
     "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 0,
@@ -49,7 +50,7 @@
       ],
       "earnings_status": "past",
       "next_earnings_date": "2026-04-28",
-      "days_to_earnings": -41
+      "days_to_earnings": -42
     }
   },
   "news": {
@@ -57,26 +58,25 @@
     "sentiment": "neutral",
     "health": "healthy",
     "key_events": [
-      "Earnings reported 41 days ago (past cycle)",
-      "RSI at 37.9 indicates oversold conditions",
-      "VIX at 18.9 suggests stable market environment",
-      "Extreme Fear sentiment presents contrarian opportunity"
+      "Earnings reported 42 days ago (results unknown from provided data)",
+      "VIX at 19.9 indicating neutral market volatility environment",
+      "Extreme Fear sentiment in broader market (F&G index)"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "No recent news flow to assess catalyst pipeline",
-      "Position down 1.36% with no technical firing signals",
-      "Geopolitical risk cannot be accurately assessed without current headlines"
+      "No recent news catalysts visible despite healthy fundamentals",
+      "RSI at 39.5 suggests potential oversold conditions but no upward firing signal yet",
+      "Extreme Fear backdrop could indicate further downside risk before stabilization"
     ],
-    "verdict": "WELL is in oversold territory with healthy fundamentals; current weakness appears technical/sentiment-driven rather than fundamental deterioration.",
+    "verdict": "WELL shows modest gains in a neutral environment with healthy fundamentals, but lacks bullish momentum signals to justify aggressive action.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "WELL",
-    "stock_return_3m": -3.37,
-    "benchmark_return_3m": 9.28,
-    "relative_strength": -12.65,
+    "stock_return_3m": -0.12,
+    "benchmark_return_3m": 9.14,
+    "relative_strength": -9.26,
     "label": "underperforming"
   },
   "final_tier": "Hold",
@@ -86,5 +86,5 @@
     "note": "Price exceeds 60% conviction ceiling ($196) \u2014 skip or wait for Strong Buy"
   },
   "is_dca": false,
-  "saved_at": "2026-06-08T23:11:28.482695"
+  "saved_at": "2026-06-09T23:17:00.703289"
 }

@@ -3,19 +3,36 @@
     "ticker": "ABT",
     "company_name": "Abbott Laboratories",
     "action": "Hold",
-    "action_reason": "Position is down >15%, triggering your philosophy to hold major losers through recovery. Fundamentals are healthy and RSI at 59.9 shows room to move in either direction without extremes.",
-    "target_price": 105.0,
+    "action_reason": "Your philosophy mandates holding through major losers. At -16.87%, ABT qualifies\u2014fundamentals are intact, and Extreme Fear suggests capitulation bottom may be forming. Violation of hold rule would lock in losses.",
+    "target_price": 105,
     "target_reasoning": "",
-    "exit_trigger": "Break below $85 with deteriorating fundamentals OR recovery to breakeven ($109.77) on negative divergence signals",
-    "add_trigger": "RSI drops below 40 + confirmation of support hold at $88-$89 level on volume, signaling capitulation low",
-    "risk": "Further sector rotation out of healthcare/defensive names if equity markets weaken; geopolitical escalation could extend fear premium",
-    "outlook": "cautious",
-    "timeframe": "4-8 weeks (next earnings cycle 53+ days away provides window for recovery or fundamental reset)",
-    "generated_at": "2026-06-08T23:11:06.026323",
-    "price_at_generation": 90.5,
-    "pnl_at_generation": -17.55
+    "exit_trigger": "Position becomes profitable (>+5%) OR fundamentals deteriorate (dividend cut, earnings miss >20%, major management departure)",
+    "add_trigger": "Stock drops to $85-87 (15-20% additional weakness) with volume surge + RSI <30, signaling exhaustion AND confirmed by positive news catalyst",
+    "risk": "Prolonged sector rotation away from healthcare; macro recession crushing defensives despite quality",
+    "outlook": "neutral",
+    "timeframe": "4-8 weeks until next earnings catalyst; expect consolidation or slow recovery as Extreme Fear normalizes",
+    "generated_at": "2026-06-09T23:16:39.018774",
+    "price_at_generation": 91.25,
+    "pnl_at_generation": -16.87
   },
   "history": [
+    {
+      "ticker": "ABT",
+      "company_name": "Abbott Laboratories",
+      "action": "Hold",
+      "action_reason": "Position is down >15%, triggering your philosophy to hold major losers through recovery. Fundamentals are healthy and RSI at 59.9 shows room to move in either direction without extremes.",
+      "target_price": 105.0,
+      "target_reasoning": "",
+      "exit_trigger": "Break below $85 with deteriorating fundamentals OR recovery to breakeven ($109.77) on negative divergence signals",
+      "add_trigger": "RSI drops below 40 + confirmation of support hold at $88-$89 level on volume, signaling capitulation low",
+      "risk": "Further sector rotation out of healthcare/defensive names if equity markets weaken; geopolitical escalation could extend fear premium",
+      "outlook": "cautious",
+      "timeframe": "4-8 weeks (next earnings cycle 53+ days away provides window for recovery or fundamental reset)",
+      "generated_at": "2026-06-08T23:11:06.026323",
+      "price_at_generation": 90.5,
+      "pnl_at_generation": -17.55,
+      "archived_at": "2026-06-09T23:16:39.018998"
+    },
     {
       "ticker": "ABT",
       "company_name": "Abbott Laboratories",
@@ -117,23 +134,6 @@
       "price_at_generation": 86.97,
       "pnl_at_generation": -20.77,
       "archived_at": "2026-06-03T23:41:05.601207"
-    },
-    {
-      "ticker": "ABT",
-      "company_name": "Abbott Laboratories",
-      "action": "Hold",
-      "action_reason": "Fundamentals remain healthy and extreme fear creates opportunity, but the technical setup is deteriorating (death cross, MACD rollover). Holding avoids forced loss; exit triggers should be respected if support breaks.",
-      "target_price": 80.0,
-      "target_reasoning": "",
-      "exit_trigger": "Break below $83.50 (recent swing low support); or RSI drops below 35 on volume without reversal signal",
-      "add_trigger": "RSI oversold <30 + MACD bullish cross + close above $90 on volume; or earnings catalyst with beat + guidance raise",
-      "risk": "Further downside to $80\u2013$78 if support fails; macro weakness or dividend cut concern",
-      "outlook": "cautious",
-      "timeframe": "4-8 weeks",
-      "generated_at": "2026-05-29T23:10:18.663720",
-      "price_at_generation": 85.6,
-      "pnl_at_generation": -22.02,
-      "archived_at": "2026-06-02T23:43:43.549288"
     }
   ]
 }

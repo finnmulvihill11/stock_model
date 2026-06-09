@@ -8,21 +8,21 @@
     "sell_score": 0.57,
     "reasons": [],
     "misses": [
-      "BB: price not near lower band (pct=0.88)",
-      "RSI: not in buy zone (59.9, need 20-30)",
+      "BB: price not near lower band (pct=0.93)",
+      "RSI: not in buy zone (59.4, need 20-30)",
       "MACD: no bullish crossover or valley",
       "RSI Divergence: no bullish divergence detected",
       "200MA: price below 200MA \u2014 potential falling knife",
-      "Death cross active: 50MA (92.12) below 200MA (114.29)"
+      "Death cross active: 50MA (91.87) below 200MA (114.10)"
     ],
-    "price": 90.5,
-    "rsi": 59.9,
+    "price": 91.25,
+    "rsi": 59.4,
     "atr": 1.9,
     "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 2,
-      "suggested_dollars": 181.0,
-      "note": "2 sh @ $90.50 = $181 (Hold, 60% size) | $909 swing budget after"
+      "suggested_dollars": 182.5,
+      "note": "2 sh @ $91.25 = $182 (Hold, 60% size) | $908 swing budget after"
     }
   },
   "fundamentals": {
@@ -51,7 +51,7 @@
       ],
       "earnings_status": "past",
       "next_earnings_date": "2026-04-16",
-      "days_to_earnings": -53
+      "days_to_earnings": -54
     }
   },
   "news": {
@@ -59,35 +59,34 @@
     "sentiment": "neutral",
     "health": "healthy",
     "key_events": [
-      "Earnings released 53 days ago (past cycle)",
-      "Position down 17.55% from entry",
-      "RSI at 59.9 (mid-range, no overbought/oversold condition)",
-      "VIX at 18.9 (neutral volatility environment)",
-      "Fear & Greed at Extreme Fear (potential capitulation)"
+      "Earnings reported 54 days ago (past event cycle)",
+      "Stock trading 16.87% below entry despite fundamentals remaining healthy",
+      "Market in Extreme Fear (capitulation sentiment)",
+      "Neutral volatility environment (VIX 19.9)"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "Significant drawdown (-17.55%) without recent positive catalysts visible",
-      "No recent news flow to support recovery thesis",
-      "Geopolitical risk assessment limited by missing headline data"
+      "No recent news or catalysts identified",
+      "Significant drawdown with no technical momentum (RSI 59.4 neutral, no firing signals)",
+      "Next earnings cycle still weeks away"
     ],
-    "verdict": "ABT fundamentals remain healthy but technicals show weakness with no immediate catalysts; hold position per strategy rules while monitoring for reversal signals.",
+    "verdict": "ABT is a quality company with healthy fundamentals caught in broad market weakness; position fits swing trader hold protocol given 15%+ loss threshold.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "ABT",
-    "stock_return_3m": -19.16,
-    "benchmark_return_3m": 9.28,
-    "relative_strength": -28.44,
+    "stock_return_3m": -16.94,
+    "benchmark_return_3m": 9.14,
+    "relative_strength": -26.08,
     "label": "underperforming"
   },
   "final_tier": "Hold",
   "sizing": {
     "suggested_shares": 2,
-    "suggested_dollars": 181.0,
-    "note": "2 sh @ $90.50 = $181 (Hold, 60% size) | $909 swing budget after"
+    "suggested_dollars": 182.5,
+    "note": "2 sh @ $91.25 = $182 (Hold, 60% size) | $908 swing budget after"
   },
   "is_dca": false,
-  "saved_at": "2026-06-08T23:11:06.027093"
+  "saved_at": "2026-06-09T23:16:39.019605"
 }

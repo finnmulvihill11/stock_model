@@ -4,20 +4,19 @@
     "ticker": "MSFT",
     "direction": "hold",
     "tier": "Hold",
-    "buy_score": 0.25,
+    "buy_score": 0.38,
     "sell_score": 0.29,
     "reasons": [],
     "misses": [
-      "BB: price not near lower band (pct=0.32)",
-      "RSI: not in buy zone (45.3, need 20-30)",
+      "RSI: not in buy zone (44.4, need 20-30)",
       "MACD: no bullish crossover or valley",
       "RSI Divergence: no bullish divergence detected",
       "200MA: price below 200MA \u2014 potential falling knife",
-      "Volume: below average (0.87x) \u2014 low conviction"
+      "Volume: below average (0.93x) \u2014 low conviction"
     ],
-    "price": 411.74,
-    "rsi": 45.3,
-    "atr": 13.26,
+    "price": 403.41,
+    "rsi": 44.4,
+    "atr": 13.07,
     "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 0,
@@ -51,7 +50,7 @@
       ],
       "earnings_status": "past",
       "next_earnings_date": "2026-04-29",
-      "days_to_earnings": -40
+      "days_to_earnings": -41
     }
   },
   "news": {
@@ -59,27 +58,28 @@
     "sentiment": "neutral",
     "health": "healthy",
     "key_events": [
-      "Earnings reported 40+ days ago (post-event volatility likely absorbed)",
-      "No recent news available for assessment",
-      "Market experiencing extreme fear despite neutral VIX (18.9)"
+      "Earnings reported 41 days ago",
+      "Extreme Fear market sentiment (F&G index)",
+      "VIX 19.9 indicates neutral volatility",
+      "RSI 44.4 shows oversold conditions approaching",
+      "No recent catalysts or news items available"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "Position down 11.87% with no recovery catalyst identified",
-      "RSI at 45.3 indicates neither oversold nor overbought \u2014 no technical floor",
-      "24.9% portfolio weight creates concentration risk in a declining position",
-      "Absence of current news/catalysts prevents tactical entry timing",
-      "Extreme Fear sentiment may indicate broader selloff pressure"
+      "Position down 13.65% with high portfolio weight (24.7%)",
+      "No technical firing signals despite oversold RSI",
+      "Lack of recent news/catalysts clarity",
+      "Market-wide extreme fear sentiment"
     ],
-    "verdict": "MSFT fundamentals remain healthy, but technical setup and sentiment offer no near-term catalyst; position requires patience per philosophy.",
+    "verdict": "MSFT fundamentals remain healthy but technical setup lacks conviction; extreme fear presents contrarian opportunity if support holds.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "MSFT",
-    "stock_return_3m": 0.79,
-    "benchmark_return_3m": 9.28,
-    "relative_strength": -8.5,
+    "stock_return_3m": -0.36,
+    "benchmark_return_3m": 9.14,
+    "relative_strength": -9.5,
     "label": "underperforming"
   },
   "final_tier": "Hold",
@@ -89,5 +89,5 @@
     "note": "Position already at 20% portfolio cap"
   },
   "is_dca": false,
-  "saved_at": "2026-06-08T23:10:56.638588"
+  "saved_at": "2026-06-09T23:16:28.900435"
 }

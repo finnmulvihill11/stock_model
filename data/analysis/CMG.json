@@ -4,24 +4,25 @@
     "ticker": "CMG",
     "direction": "hold",
     "tier": "Hold",
-    "buy_score": 0.38,
+    "buy_score": 0.25,
     "sell_score": 0.14,
     "reasons": [],
     "misses": [
+      "BB: price not near lower band (pct=0.27)",
       "BB Width: bands expanding, not squeezing",
       "RSI Divergence: no bullish divergence detected",
       "200MA: price below 200MA \u2014 potential falling knife",
-      "Death cross active: 50MA (32.80) below 200MA (36.26)",
-      "Volume: below average (0.82x) \u2014 low conviction"
+      "Death cross active: 50MA (32.78) below 200MA (36.19)",
+      "Volume: below average (0.84x) \u2014 low conviction"
     ],
-    "price": 29.27,
-    "rsi": 21.1,
-    "atr": 1.17,
+    "price": 29.88,
+    "rsi": 29.3,
+    "atr": 1.15,
     "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 6,
-      "suggested_dollars": 175.62,
-      "note": "6 sh @ $29.27 = $176 (Hold, 60% size) | $915 swing budget after"
+      "suggested_dollars": 179.28,
+      "note": "6 sh @ $29.88 = $179 (Hold, 60% size) | $911 swing budget after"
     }
   },
   "fundamentals": {
@@ -51,7 +52,7 @@
       ],
       "earnings_status": "distant",
       "next_earnings_date": "2026-07-29",
-      "days_to_earnings": 51
+      "days_to_earnings": 50
     }
   },
   "news": {
@@ -59,35 +60,34 @@
     "sentiment": "neutral",
     "health": "neutral",
     "key_events": [
-      "RSI at 21.1 indicates oversold conditions\u2014potential bounce setup",
-      "Earnings 51 days out provides runway for recovery narrative",
-      "VIX at 18.9 suggests market-wide volatility is contained",
-      "Extreme Fear sentiment may present contrarian buying opportunity"
+      "No recent news items available for analysis",
+      "Earnings report 50 days away",
+      "Market in Extreme Fear regime"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "High debt-to-equity ratio (2.2x) limits financial flexibility",
-      "No technical firing signals\u2014momentum deteriorating",
-      "Position down 6.99%\u2014within holding parameters but approaching concern zone",
-      "News vacuum limits assessment accuracy; geopolitical risks present but unquantifiable"
+      "High debt-to-equity at 2.2x limits financial flexibility",
+      "RSI at 29.3 shows oversold conditions but no bounce confirmation yet",
+      "No technical firing signals despite oversold setup",
+      "Current -5.05% loss approaching policy threshold"
     ],
-    "verdict": "CMG is oversold technically with neutral fundamentals; hold position through earnings cycle and monitor for RSI recovery above 30 as confirmation of turnaround.",
+    "verdict": "CMG is oversold technically with deteriorating sentiment, but lack of fundamental catalysts and elevated leverage warrant cautious holding until earnings or technical reversal.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "CMG",
-    "stock_return_3m": -17.06,
-    "benchmark_return_3m": 9.28,
-    "relative_strength": -26.34,
+    "stock_return_3m": -13.94,
+    "benchmark_return_3m": 9.14,
+    "relative_strength": -23.08,
     "label": "underperforming"
   },
   "final_tier": "Hold",
   "sizing": {
     "suggested_shares": 6,
-    "suggested_dollars": 175.62,
-    "note": "6 sh @ $29.27 = $176 (Hold, 60% size) | $915 swing budget after"
+    "suggested_dollars": 179.28,
+    "note": "6 sh @ $29.88 = $179 (Hold, 60% size) | $911 swing budget after"
   },
   "is_dca": false,
-  "saved_at": "2026-06-08T23:11:21.264386"
+  "saved_at": "2026-06-09T23:16:54.282815"
 }

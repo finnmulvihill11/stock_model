@@ -3,19 +3,36 @@
     "ticker": "CMG",
     "company_name": "Chipotle Mexican Grill, Inc.",
     "action": "Hold",
-    "action_reason": "Position loss (6.99%) is within acceptable swing trade drawdown; oversold RSI (21.1) and Extreme Fear sentiment create asymmetric risk/reward setup. Earnings catalyst 51 days away provides defined exit window. Do not exit losers per strategy\u2014wait for technical mean reversion.",
-    "target_price": 32.5,
+    "action_reason": "Position is only -5.05% down (well within your policy threshold). RSI 29.3 indicates oversold conditions with potential for bounce, but absence of positive catalysts and high debt warrant avoiding new capital commitment. Hold through the recovery attempt.",
+    "target_price": 33.5,
     "target_reasoning": "",
-    "exit_trigger": "RSI breaks above 35 with volume confirmation + close above $32.50; OR breach below $27.00 (hard stop at -15% loss threshold)",
-    "add_trigger": "RSI drops below 20 with bullish divergence on daily chart; OR if VIX spikes to 22+ and CMG holds above $28.50",
-    "risk": "High leverage (2.2x D/E) means limited margin for negative earnings surprise; geopolitical escalation could trigger broad equity selloff unrelated to CMG fundamentals",
+    "exit_trigger": "Break below $28.50 (new lows) OR if debt situation deteriorates further before earnings",
+    "add_trigger": "Only add if RSI bounces above 45 AND price reclaims $31+ with positive restaurant-level metrics news",
+    "risk": "Macro slowdown impacting consumer spending + high debt burden limiting downside support; Extreme Fear could deepen if earnings disappoint",
     "outlook": "cautious",
-    "timeframe": "3-8 weeks (through earnings reveal + post-earnings bounce/selloff resolution)",
-    "generated_at": "2026-06-08T23:11:21.263609",
-    "price_at_generation": 29.27,
-    "pnl_at_generation": -6.99
+    "timeframe": "Hold 3-4 weeks to earnings; reassess if technical setup improves",
+    "generated_at": "2026-06-09T23:16:54.282001",
+    "price_at_generation": 29.88,
+    "pnl_at_generation": -5.05
   },
   "history": [
+    {
+      "ticker": "CMG",
+      "company_name": "Chipotle Mexican Grill, Inc.",
+      "action": "Hold",
+      "action_reason": "Position loss (6.99%) is within acceptable swing trade drawdown; oversold RSI (21.1) and Extreme Fear sentiment create asymmetric risk/reward setup. Earnings catalyst 51 days away provides defined exit window. Do not exit losers per strategy\u2014wait for technical mean reversion.",
+      "target_price": 32.5,
+      "target_reasoning": "",
+      "exit_trigger": "RSI breaks above 35 with volume confirmation + close above $32.50; OR breach below $27.00 (hard stop at -15% loss threshold)",
+      "add_trigger": "RSI drops below 20 with bullish divergence on daily chart; OR if VIX spikes to 22+ and CMG holds above $28.50",
+      "risk": "High leverage (2.2x D/E) means limited margin for negative earnings surprise; geopolitical escalation could trigger broad equity selloff unrelated to CMG fundamentals",
+      "outlook": "cautious",
+      "timeframe": "3-8 weeks (through earnings reveal + post-earnings bounce/selloff resolution)",
+      "generated_at": "2026-06-08T23:11:21.263609",
+      "price_at_generation": 29.27,
+      "pnl_at_generation": -6.99,
+      "archived_at": "2026-06-09T23:16:54.282212"
+    },
     {
       "ticker": "CMG",
       "company_name": "Chipotle Mexican Grill, Inc.",
@@ -117,23 +134,6 @@
       "price_at_generation": 29.26,
       "pnl_at_generation": -7.02,
       "archived_at": "2026-06-03T23:41:19.018548"
-    },
-    {
-      "ticker": "CMG",
-      "company_name": "Chipotle Mexican Grill, Inc.",
-      "action": "Hold",
-      "action_reason": "Position is small (3.7% weight) with modest gains (+1.24%). Wait for either BB squeeze breakout confirmation (upside) or RSI confirmation of oversold reversal before adding. Current technical setup is interesting but not yet actionable without catalyst.",
-      "target_price": null,
-      "target_reasoning": "",
-      "exit_trigger": "Break below lower BB band on volume OR RSI drops below 30 without recovery (deteriorating momentum)",
-      "add_trigger": "BB squeeze breakout to upside on volume + RSI crosses above 50 OR positive earnings/same-store sales catalyst emerges",
-      "risk": "Debt burden limits downside support; lack of news removes bullish catalysts; potential earnings disappointment if fundamentals deteriorate",
-      "outlook": "cautious",
-      "timeframe": "2-4 weeks",
-      "generated_at": "2026-05-29T23:10:32.817577",
-      "price_at_generation": 31.86,
-      "pnl_at_generation": 1.24,
-      "archived_at": "2026-06-02T23:43:59.077097"
     }
   ]
 }

@@ -4,22 +4,23 @@
     "ticker": "CTVA",
     "direction": "hold",
     "tier": "Hold",
-    "buy_score": 0.62,
-    "sell_score": 0.14,
+    "buy_score": 0.5,
+    "sell_score": 0.0,
     "reasons": [],
     "misses": [
       "BB Width: bands expanding, not squeezing",
       "MACD: no bullish crossover or valley",
-      "RSI Divergence: no bullish divergence detected"
+      "RSI Divergence: no bullish divergence detected",
+      "Volume: below average (0.94x) \u2014 low conviction"
     ],
-    "price": 75.86,
-    "rsi": 24.9,
-    "atr": 1.73,
+    "price": 75.01,
+    "rsi": 28.4,
+    "atr": 1.67,
     "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 2,
-      "suggested_dollars": 151.72,
-      "note": "2 sh @ $75.86 = $152 (Hold, 60% size) | $938 swing budget after"
+      "suggested_dollars": 150.02,
+      "note": "2 sh @ $75.01 = $150 (Hold, 60% size) | $940 swing budget after"
     }
   },
   "fundamentals": {
@@ -48,7 +49,7 @@
       ],
       "earnings_status": "distant",
       "next_earnings_date": "2026-07-30",
-      "days_to_earnings": 52
+      "days_to_earnings": 51
     }
   },
   "news": {
@@ -56,34 +57,33 @@
     "sentiment": "neutral",
     "health": "healthy",
     "key_events": [
-      "RSI at 24.9 indicates oversold conditions",
-      "Earnings 52 days out provides recovery window",
-      "Extreme Fear sentiment presents contrarian opportunity",
-      "No recent news available for assessment"
+      "No recent news items available for assessment",
+      "Earnings 51 days out provides runway for recovery",
+      "Extreme Fear sentiment presents potential opportunity"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "No firing signals on technicals",
-      "Lack of current news/catalysts limits conviction",
-      "Down 3.22% with limited upside confirmation yet"
+      "RSI at 28.4 indicates oversold conditions but no reversal firing yet",
+      "4.30% drawdown on modest 2.3% portfolio weight suggests sector or broader weakness",
+      "No bullish technical signals despite oversold reading"
     ],
-    "verdict": "CTVA is oversold with healthy fundamentals and ample time before earnings; hold and monitor for reversal signals.",
+    "verdict": "Hold through oversold weakness; fundamentals remain healthy with earnings catalyst distant enough for mean reversion.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "CTVA",
-    "stock_return_3m": -2.89,
-    "benchmark_return_3m": 9.28,
-    "relative_strength": -12.18,
+    "stock_return_3m": -1.48,
+    "benchmark_return_3m": 9.14,
+    "relative_strength": -10.62,
     "label": "underperforming"
   },
   "final_tier": "Hold",
   "sizing": {
     "suggested_shares": 2,
-    "suggested_dollars": 151.72,
-    "note": "2 sh @ $75.86 = $152 (Hold, 60% size) | $938 swing budget after"
+    "suggested_dollars": 150.02,
+    "note": "2 sh @ $75.01 = $150 (Hold, 60% size) | $940 swing budget after"
   },
   "is_dca": false,
-  "saved_at": "2026-06-08T23:11:34.978405"
+  "saved_at": "2026-06-09T23:17:07.568187"
 }
