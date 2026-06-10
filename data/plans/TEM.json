@@ -3,19 +3,36 @@
     "ticker": "TEM",
     "company_name": "Tempus AI, Inc.",
     "action": "Hold",
-    "action_reason": "Position is -29% (exceeds 15% threshold per philosophy). Despite deteriorating fundamentals, extreme fear suggests capitulation; AI/biotech sector volatility can reverse sharply. Hold for recovery catalyst or bankruptcy signal.",
-    "target_price": 65,
+    "action_reason": "Per philosophy, position is down >15% so exit is prohibited. However, monitor closely for bankruptcy risk or debt restructuring announcements that could trigger stop-loss override.",
+    "target_price": null,
     "target_reasoning": "",
-    "exit_trigger": "Bankruptcy filing, debt covenant breach, or confirmed runway <12 months cash; OR break above $60 on volume (reduce 50%)",
-    "add_trigger": "Do NOT add. Already overleveraged position; wait for profitability roadmap or cash flow inflection",
-    "risk": "Cash burn leading to dilutive financing or insolvency; debt holders may force restructuring; biotech execution risk",
+    "exit_trigger": "Debt covenant breach announcement, bankruptcy filing, or dilutive equity raise >20% shares; alternatively if stock bounces 25-30% to $62-64 range, re-evaluate exit on strength",
+    "add_trigger": "Do not add. Negative FCF + high debt makes averaging down dangerous.",
+    "risk": "Insolvency risk due to high leverage + negative cash generation; potential for significant dilution or forced restructuring",
     "outlook": "cautious",
-    "timeframe": "2-6 weeks for earnings catalyst or debt/funding news; reevaluate if VIX spikes (fear compression play) or macro stabilizes",
-    "generated_at": "2026-06-09T23:16:47.322974",
-    "price_at_generation": 48.82,
-    "pnl_at_generation": -29.33
+    "timeframe": "3-6 months (watch quarterly earnings for cash runway updates)",
+    "generated_at": "2026-06-10T23:24:21.918425",
+    "price_at_generation": 49.48,
+    "pnl_at_generation": -28.37
   },
   "history": [
+    {
+      "ticker": "TEM",
+      "company_name": "Tempus AI, Inc.",
+      "action": "Hold",
+      "action_reason": "Position is -29% (exceeds 15% threshold per philosophy). Despite deteriorating fundamentals, extreme fear suggests capitulation; AI/biotech sector volatility can reverse sharply. Hold for recovery catalyst or bankruptcy signal.",
+      "target_price": 65,
+      "target_reasoning": "",
+      "exit_trigger": "Bankruptcy filing, debt covenant breach, or confirmed runway <12 months cash; OR break above $60 on volume (reduce 50%)",
+      "add_trigger": "Do NOT add. Already overleveraged position; wait for profitability roadmap or cash flow inflection",
+      "risk": "Cash burn leading to dilutive financing or insolvency; debt holders may force restructuring; biotech execution risk",
+      "outlook": "cautious",
+      "timeframe": "2-6 weeks for earnings catalyst or debt/funding news; reevaluate if VIX spikes (fear compression play) or macro stabilizes",
+      "generated_at": "2026-06-09T23:16:47.322974",
+      "price_at_generation": 48.82,
+      "pnl_at_generation": -29.33,
+      "archived_at": "2026-06-10T23:24:21.918630"
+    },
     {
       "ticker": "TEM",
       "company_name": "Tempus AI, Inc.",
@@ -117,23 +134,6 @@
       "price_at_generation": 47.51,
       "pnl_at_generation": -31.22,
       "archived_at": "2026-06-04T03:34:38.716310"
-    },
-    {
-      "ticker": "TEM",
-      "company_name": "Tempus AI, Inc.",
-      "action": "Start Trimming",
-      "action_reason": "Exit 1-2 shares at strength (RSI 57.4 + BB squeeze = potential short-term bounce). Reduce portfolio weight from 4.4% and lock in loss before debt/burn concerns trigger further decline.",
-      "target_price": 52.5,
-      "target_reasoning": "",
-      "exit_trigger": "Break below $47.00 (new lows) or next negative catalyst; trim remaining shares if RSI hits 65+ on intraday bounce",
-      "add_trigger": "Only add if: (1) golden cross confirms + sustained close above $55, AND (2) positive operating cash flow guidance in next earnings",
-      "risk": "Cash burn + high debt = potential equity dilution or forced restructuring; low liquidity on downside",
-      "outlook": "cautious",
-      "timeframe": "2-4 weeks",
-      "generated_at": "2026-06-02T23:43:51.124410",
-      "price_at_generation": 49.62,
-      "pnl_at_generation": -28.17,
-      "archived_at": "2026-06-03T23:41:12.355537"
     }
   ]
 }

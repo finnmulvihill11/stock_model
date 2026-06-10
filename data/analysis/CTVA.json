@@ -11,16 +11,16 @@
       "BB Width: bands expanding, not squeezing",
       "MACD: no bullish crossover or valley",
       "RSI Divergence: no bullish divergence detected",
-      "Volume: below average (0.94x) \u2014 low conviction"
+      "Volume: below average (0.87x) \u2014 low conviction"
     ],
-    "price": 75.01,
-    "rsi": 28.4,
-    "atr": 1.67,
+    "price": 74.46,
+    "rsi": 27.3,
+    "atr": 1.66,
     "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 2,
-      "suggested_dollars": 150.02,
-      "note": "2 sh @ $75.01 = $150 (Hold, 60% size) | $940 swing budget after"
+      "suggested_dollars": 148.92,
+      "note": "2 sh @ $74.46 = $149 (Hold, 60% size) | $941 swing budget after"
     }
   },
   "fundamentals": {
@@ -49,7 +49,7 @@
       ],
       "earnings_status": "distant",
       "next_earnings_date": "2026-07-30",
-      "days_to_earnings": 51
+      "days_to_earnings": 50
     }
   },
   "news": {
@@ -57,33 +57,33 @@
     "sentiment": "neutral",
     "health": "healthy",
     "key_events": [
-      "No recent news items available for assessment",
-      "Earnings 51 days out provides runway for recovery",
-      "Extreme Fear sentiment presents potential opportunity"
+      "No recent news items available for analysis",
+      "Earnings cycle 50 days away - no near-term catalysts",
+      "Market in Extreme Fear mode (potential capitulation)"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "RSI at 28.4 indicates oversold conditions but no reversal firing yet",
-      "4.30% drawdown on modest 2.3% portfolio weight suggests sector or broader weakness",
-      "No bullish technical signals despite oversold reading"
+      "RSI at 27.3 indicates oversold territory but no bounce confirmation yet",
+      "No technical firing signals despite oversold conditions",
+      "5% drawdown with no clear recovery catalyst visible"
     ],
-    "verdict": "Hold through oversold weakness; fundamentals remain healthy with earnings catalyst distant enough for mean reversion.",
+    "verdict": "Healthy fundamentals in oversold territory during market fear presents hold-and-watch opportunity with potential add on further weakness.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "CTVA",
-    "stock_return_3m": -1.48,
-    "benchmark_return_3m": 9.14,
-    "relative_strength": -10.62,
+    "stock_return_3m": -5.09,
+    "benchmark_return_3m": 7.55,
+    "relative_strength": -12.64,
     "label": "underperforming"
   },
   "final_tier": "Hold",
   "sizing": {
     "suggested_shares": 2,
-    "suggested_dollars": 150.02,
-    "note": "2 sh @ $75.01 = $150 (Hold, 60% size) | $940 swing budget after"
+    "suggested_dollars": 148.92,
+    "note": "2 sh @ $74.46 = $149 (Hold, 60% size) | $941 swing budget after"
   },
   "is_dca": false,
-  "saved_at": "2026-06-09T23:17:07.568187"
+  "saved_at": "2026-06-10T23:24:41.329108"
 }

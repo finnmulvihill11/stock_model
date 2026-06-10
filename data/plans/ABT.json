@@ -3,19 +3,36 @@
     "ticker": "ABT",
     "company_name": "Abbott Laboratories",
     "action": "Hold",
-    "action_reason": "Your philosophy mandates holding through major losers. At -16.87%, ABT qualifies\u2014fundamentals are intact, and Extreme Fear suggests capitulation bottom may be forming. Violation of hold rule would lock in losses.",
-    "target_price": 105,
+    "action_reason": "Position is down 18.77%, triggering your core philosophy to hold major losers through recovery. Fundamentals are healthy with no deterioration, and RSI shows no oversold extreme\u2014this is a drawdown, not a breakdown.",
+    "target_price": 115,
     "target_reasoning": "",
-    "exit_trigger": "Position becomes profitable (>+5%) OR fundamentals deteriorate (dividend cut, earnings miss >20%, major management departure)",
-    "add_trigger": "Stock drops to $85-87 (15-20% additional weakness) with volume surge + RSI <30, signaling exhaustion AND confirmed by positive news catalyst",
-    "risk": "Prolonged sector rotation away from healthcare; macro recession crushing defensives despite quality",
-    "outlook": "neutral",
-    "timeframe": "4-8 weeks until next earnings catalyst; expect consolidation or slow recovery as Extreme Fear normalizes",
-    "generated_at": "2026-06-09T23:16:39.018774",
-    "price_at_generation": 91.25,
-    "pnl_at_generation": -16.87
+    "exit_trigger": "Fundamentals deteriorate materially OR position recovers to breakeven/profitable (exit only on gains per philosophy)",
+    "add_trigger": "Price falls below $85 with fundamentals intact, or RSI drops below 35 (capitulation buy)",
+    "risk": "Continued broad market weakness or unforeseen company-specific headwinds could deepen losses before recovery; 5.5% portfolio weight limits catastrophic impact",
+    "outlook": "cautious",
+    "timeframe": "4-8 weeks for recovery to $100+; monitor next earnings for confirmation of health",
+    "generated_at": "2026-06-10T23:24:15.203077",
+    "price_at_generation": 89.17,
+    "pnl_at_generation": -18.77
   },
   "history": [
+    {
+      "ticker": "ABT",
+      "company_name": "Abbott Laboratories",
+      "action": "Hold",
+      "action_reason": "Your philosophy mandates holding through major losers. At -16.87%, ABT qualifies\u2014fundamentals are intact, and Extreme Fear suggests capitulation bottom may be forming. Violation of hold rule would lock in losses.",
+      "target_price": 105,
+      "target_reasoning": "",
+      "exit_trigger": "Position becomes profitable (>+5%) OR fundamentals deteriorate (dividend cut, earnings miss >20%, major management departure)",
+      "add_trigger": "Stock drops to $85-87 (15-20% additional weakness) with volume surge + RSI <30, signaling exhaustion AND confirmed by positive news catalyst",
+      "risk": "Prolonged sector rotation away from healthcare; macro recession crushing defensives despite quality",
+      "outlook": "neutral",
+      "timeframe": "4-8 weeks until next earnings catalyst; expect consolidation or slow recovery as Extreme Fear normalizes",
+      "generated_at": "2026-06-09T23:16:39.018774",
+      "price_at_generation": 91.25,
+      "pnl_at_generation": -16.87,
+      "archived_at": "2026-06-10T23:24:15.203313"
+    },
     {
       "ticker": "ABT",
       "company_name": "Abbott Laboratories",
@@ -117,23 +134,6 @@
       "price_at_generation": 86.99,
       "pnl_at_generation": -20.75,
       "archived_at": "2026-06-04T03:34:32.414394"
-    },
-    {
-      "ticker": "ABT",
-      "company_name": "Abbott Laboratories",
-      "action": "Hold",
-      "action_reason": "Bollinger Band squeeze is a volatility contraction that typically precedes directional breakout. Combined with Extreme Fear sentiment and healthy fundamentals, waiting for squeeze resolution offers better risk/reward than panic selling at lows. However, validate that earnings thesis remains intact.",
-      "target_price": 95.5,
-      "target_reasoning": "",
-      "exit_trigger": "Close below $84.50 (support break) OR company guidance cut in next earnings; whichever first",
-      "add_trigger": "Bollinger Band squeeze breaks upward + RSI crosses above 65 + price reclaims $92",
-      "risk": "Continued healthcare sector rotation / macro headwinds preventing recovery; position underwater makes additional losses psychologically harder to hold",
-      "outlook": "cautious",
-      "timeframe": "3-6 weeks for squeeze resolution; reassess at next earnings or technical breakdown",
-      "generated_at": "2026-06-02T23:43:43.549083",
-      "price_at_generation": 86.97,
-      "pnl_at_generation": -20.77,
-      "archived_at": "2026-06-03T23:41:05.601207"
     }
   ]
 }
