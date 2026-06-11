@@ -10,13 +10,13 @@
     "misses": [
       "BB: price not near lower band (pct=0.54)",
       "BB Width: bands expanding, not squeezing",
-      "RSI: not in buy zone (43.7, need 20-30)",
+      "RSI: not in buy zone (45.2, need 20-30)",
       "RSI Divergence: no bullish divergence detected",
-      "Volume: below average (0.78x) \u2014 low conviction"
+      "Volume: below average (0.97x) \u2014 low conviction"
     ],
-    "price": 211.36,
-    "rsi": 43.7,
-    "atr": 6.2,
+    "price": 210.67,
+    "rsi": 45.2,
+    "atr": 6.18,
     "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 0,
@@ -50,7 +50,7 @@
       ],
       "earnings_status": "past",
       "next_earnings_date": "2026-04-28",
-      "days_to_earnings": -43
+      "days_to_earnings": -44
     }
   },
   "news": {
@@ -58,26 +58,27 @@
     "sentiment": "neutral",
     "health": "healthy",
     "key_events": [
-      "No recent news items provided for analysis",
-      "Earnings reported 43 days ago (past cycle)",
-      "Market in Extreme Fear conditions despite neutral VIX"
+      "No recent news catalysts identified",
+      "Earnings reported 44 days ago (cycle complete)",
+      "VIX at 19.4 indicates balanced market volatility",
+      "Extreme Fear in market sentiment despite neutral technicals"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "No active technical firing signals despite 4.25% gain",
-      "RSI at 43.7 suggests room to move higher before overbought",
-      "Extreme Fear sentiment conflicts with stock strength \u2014 potential disconnect"
+      "RSI at 45.2 shows no momentum firing (neutral zone, neither overbought nor oversold)",
+      "No recent news flow despite being a large-cap healthcare REIT",
+      "Geopolitical moderate risk could impact healthcare/real estate sector if escalates"
     ],
-    "verdict": "WELL showing relative strength in fearful market; fundamentals healthy but lacks near-term catalysts.",
+    "verdict": "Profitable position in healthy WELL with adequate technical setup; hold through consolidation while awaiting next earnings cycle or momentum confirmation.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "WELL",
-    "stock_return_3m": 3.29,
-    "benchmark_return_3m": 7.55,
-    "relative_strength": -4.26,
-    "label": "in-line"
+    "stock_return_3m": 2.52,
+    "benchmark_return_3m": 11.07,
+    "relative_strength": -8.55,
+    "label": "underperforming"
   },
   "final_tier": "Hold",
   "sizing": {
@@ -86,5 +87,5 @@
     "note": "Price exceeds 60% conviction ceiling ($196) \u2014 skip or wait for Strong Buy"
   },
   "is_dca": false,
-  "saved_at": "2026-06-10T23:24:35.189933"
+  "saved_at": "2026-06-11T23:20:03.530900"
 }

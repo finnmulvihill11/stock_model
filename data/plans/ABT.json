@@ -3,19 +3,36 @@
     "ticker": "ABT",
     "company_name": "Abbott Laboratories",
     "action": "Hold",
-    "action_reason": "Position is down 18.77%, triggering your core philosophy to hold major losers through recovery. Fundamentals are healthy with no deterioration, and RSI shows no oversold extreme\u2014this is a drawdown, not a breakdown.",
-    "target_price": 115,
+    "action_reason": "Down 18.33% places position beyond 15% threshold; philosophy mandates holding major losers. RSI 56.5 is neutral\u2014neither oversold nor signaling reversal yet. Wait for capitulation (RSI <30) or earnings catalyst.",
+    "target_price": 102.5,
     "target_reasoning": "",
-    "exit_trigger": "Fundamentals deteriorate materially OR position recovers to breakeven/profitable (exit only on gains per philosophy)",
-    "add_trigger": "Price falls below $85 with fundamentals intact, or RSI drops below 35 (capitulation buy)",
-    "risk": "Continued broad market weakness or unforeseen company-specific headwinds could deepen losses before recovery; 5.5% portfolio weight limits catastrophic impact",
+    "exit_trigger": "Sell only if position turns profitable (>$109.77); or if RSI breaks below 30 with volume surge + confirmed breakdown below $85 support",
+    "add_trigger": "Add only if ABT bounces to RSI 30-35 zone on reversal signal (bullish cross, positive news) AND holds above $85 support",
+    "risk": "Further sector rotation out of healthcare; macro slowdown impacting diagnostics/pharma demand; earnings miss 56d out could have triggered initial decline",
     "outlook": "cautious",
-    "timeframe": "4-8 weeks for recovery to $100+; monitor next earnings for confirmation of health",
-    "generated_at": "2026-06-10T23:24:15.203077",
-    "price_at_generation": 89.17,
-    "pnl_at_generation": -18.77
+    "timeframe": "4-8 weeks (await next earnings or technical capitulation; recovery typically slower from 18%+ drawdowns)",
+    "generated_at": "2026-06-11T23:19:41.660423",
+    "price_at_generation": 89.65,
+    "pnl_at_generation": -18.33
   },
   "history": [
+    {
+      "ticker": "ABT",
+      "company_name": "Abbott Laboratories",
+      "action": "Hold",
+      "action_reason": "Position is down 18.77%, triggering your core philosophy to hold major losers through recovery. Fundamentals are healthy with no deterioration, and RSI shows no oversold extreme\u2014this is a drawdown, not a breakdown.",
+      "target_price": 115,
+      "target_reasoning": "",
+      "exit_trigger": "Fundamentals deteriorate materially OR position recovers to breakeven/profitable (exit only on gains per philosophy)",
+      "add_trigger": "Price falls below $85 with fundamentals intact, or RSI drops below 35 (capitulation buy)",
+      "risk": "Continued broad market weakness or unforeseen company-specific headwinds could deepen losses before recovery; 5.5% portfolio weight limits catastrophic impact",
+      "outlook": "cautious",
+      "timeframe": "4-8 weeks for recovery to $100+; monitor next earnings for confirmation of health",
+      "generated_at": "2026-06-10T23:24:15.203077",
+      "price_at_generation": 89.17,
+      "pnl_at_generation": -18.77,
+      "archived_at": "2026-06-11T23:19:41.660722"
+    },
     {
       "ticker": "ABT",
       "company_name": "Abbott Laboratories",
@@ -117,23 +134,6 @@
       "price_at_generation": 86.99,
       "pnl_at_generation": -20.75,
       "archived_at": "2026-06-04T04:11:44.624330"
-    },
-    {
-      "ticker": "ABT",
-      "company_name": "Abbott Laboratories",
-      "action": "Hold",
-      "action_reason": "Position is healthy long-term but near-term technicals show indecision (BB squeeze). Adding here locks in losses if downside breakout occurs. Wait for squeeze resolution above $90 resistance or below $83 support.",
-      "target_price": 98.5,
-      "target_reasoning": "",
-      "exit_trigger": "Close below $83 (break of recent support) with volume confirmation; or trailing 15% stop from any recovery bounce",
-      "add_trigger": "Breakout above $92 with volume + RSI >70, confirming squeeze resolution to upside",
-      "risk": "Continuation lower if market risk-off escalates; squeeze breakout could be to downside given -20% already lost",
-      "outlook": "cautious",
-      "timeframe": "2-4 weeks (until BB squeeze resolves)",
-      "generated_at": "2026-06-03T23:41:05.600985",
-      "price_at_generation": 86.99,
-      "pnl_at_generation": -20.75,
-      "archived_at": "2026-06-04T03:34:32.414394"
     }
   ]
 }

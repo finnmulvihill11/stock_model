@@ -8,15 +8,15 @@
     "sell_score": 0.29,
     "reasons": [],
     "misses": [
-      "RSI: not in buy zone (40.5, need 20-30)",
+      "BB Width: bands expanding, not squeezing",
+      "RSI: not in buy zone (38.6, need 20-30)",
       "MACD: no bullish crossover or valley",
       "RSI Divergence: no bullish divergence detected",
-      "200MA: price below 200MA \u2014 potential falling knife",
-      "Volume: below average (0.83x) \u2014 low conviction"
+      "200MA: price below 200MA \u2014 potential falling knife"
     ],
-    "price": 397.36,
-    "rsi": 40.5,
-    "atr": 12.86,
+    "price": 390.34,
+    "rsi": 38.6,
+    "atr": 13.06,
     "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 0,
@@ -50,7 +50,7 @@
       ],
       "earnings_status": "past",
       "next_earnings_date": "2026-04-29",
-      "days_to_earnings": -42
+      "days_to_earnings": -43
     }
   },
   "news": {
@@ -58,27 +58,27 @@
     "sentiment": "neutral",
     "health": "healthy",
     "key_events": [
-      "Position down 14.94% from entry ($467.18 \u2192 $397.36)",
-      "Earnings reported 42 days ago",
-      "Market in Extreme Fear (capitulation zone)",
-      "RSI at 40.5 (oversold territory, not yet critical)",
-      "VIX 22.2 indicates normalization after fear spike"
+      "Earnings reported 43 days ago - cycle complete, next earnings ~3 months out",
+      "Price down 16.45% from entry - below swing trader comfort zone but within volatility range",
+      "RSI 38.6 indicates oversold conditions approaching potential reversal zone",
+      "VIX 19.4 shows market stability; Fear/Greed Extreme Fear suggests capitulation opportunity",
+      "No recent news flow - absence of negative catalysts is constructive"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "No recent news provided - unable to assess catalyst for drawdown",
-      "24.7% portfolio weight creates concentration risk",
-      "Position approaching -15% threshold (philosophy boundary)"
+      "Position weight 24.4% is concentrated for swing trading strategy",
+      "Lack of technical firing signals despite oversold RSI suggests momentum hasn't turned",
+      "Broad tech sector pressure likely dragging MSFT rather than company-specific issues"
     ],
-    "verdict": "MSFT fundamentals remain healthy; current price action reflects market-wide fear, not company-specific deterioration.",
+    "verdict": "Fundamentally sound company in temporary drawdown; RSI oversold conditions set stage for recovery, but lack of buy signals warrants patience.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "MSFT",
-    "stock_return_3m": -1.64,
-    "benchmark_return_3m": 7.55,
-    "relative_strength": -9.2,
+    "stock_return_3m": -2.66,
+    "benchmark_return_3m": 11.07,
+    "relative_strength": -13.72,
     "label": "underperforming"
   },
   "final_tier": "Hold",
@@ -88,5 +88,5 @@
     "note": "Position already at 20% portfolio cap"
   },
   "is_dca": false,
-  "saved_at": "2026-06-10T23:24:07.507863"
+  "saved_at": "2026-06-11T23:19:33.764243"
 }
