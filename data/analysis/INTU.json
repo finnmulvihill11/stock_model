@@ -8,17 +8,17 @@
     "sell_score": 0.14,
     "reasons": [],
     "misses": [
+      "BB: price not near lower band (pct=0.21)",
       "BB Width: bands expanding, not squeezing",
-      "RSI: not in buy zone (41.2, need 20-30)",
-      "MACD: no bullish crossover or valley",
+      "RSI: not in buy zone (36.5, need 20-30)",
       "RSI Divergence: no bullish divergence detected",
       "200MA: price below 200MA \u2014 potential falling knife",
-      "Death cross active: 50MA (367.73) below 200MA (530.89)",
-      "Volume: below average (0.85x) \u2014 low conviction"
+      "Death cross active: 50MA (364.77) below 200MA (529.00)",
+      "Volume: below average (0.70x) \u2014 low conviction"
     ],
-    "price": 276.91,
-    "rsi": 41.2,
-    "atr": 18.0,
+    "price": 276.73,
+    "rsi": 36.5,
+    "atr": 17.6,
     "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 0,
@@ -52,7 +52,7 @@
       ],
       "earnings_status": "past",
       "next_earnings_date": "2026-05-20",
-      "days_to_earnings": -22
+      "days_to_earnings": -23
     }
   },
   "news": {
@@ -60,27 +60,27 @@
     "sentiment": "neutral",
     "health": "healthy",
     "key_events": [
-      "Earnings released 22 days ago",
-      "Stock down 40.87% from entry\u2014significant drawdown post-earnings",
-      "RSI at 41.2 indicates oversold conditions but no technical firing signals",
-      "Market volatility neutral (VIX 19.4) but sentiment in Extreme Fear"
+      "Earnings reported 23 days ago",
+      "Stock down 40.91% from entry despite healthy fundamentals",
+      "Market in Extreme Fear (capitulation signal)",
+      "VIX neutral at 17.7 (no panic spike)"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "Severe post-earnings selloff suggests market disappointment despite healthy fundamentals",
-      "Mismatch between fundamentals (healthy) and price action indicates sentiment/macro headwinds",
-      "26% portfolio weight creates concentration risk in a down position",
-      "No technical confirmation signals to support recovery timing"
+      "Severe drawdown (-40.91%) creates psychological pressure",
+      "No recent news catalysts visible to drive recovery",
+      "Position weight 25.9% concentrates risk during drawdown",
+      "Post-earnings selloff suggests market sentiment disconnect from fundamentals"
     ],
-    "verdict": "INTU shows healthy fundamentals but faces severe sentiment headwinds post-earnings; hold and monitor for technical recovery signals before considering adds.",
+    "verdict": "Hold core position; fundamentals intact but technicals/sentiment require patience through recovery phase.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "INTU",
-    "stock_return_3m": -36.16,
-    "benchmark_return_3m": 11.07,
-    "relative_strength": -47.23,
+    "stock_return_3m": -36.91,
+    "benchmark_return_3m": 12.3,
+    "relative_strength": -49.21,
     "label": "underperforming"
   },
   "final_tier": "Hold",
@@ -90,5 +90,5 @@
     "note": "Position already at 20% portfolio cap"
   },
   "is_dca": false,
-  "saved_at": "2026-06-11T23:19:25.931930"
+  "saved_at": "2026-06-12T23:14:44.168152"
 }

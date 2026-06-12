@@ -3,19 +3,36 @@
     "ticker": "TEM",
     "company_name": "Tempus AI, Inc.",
     "action": "Hold",
-    "action_reason": "Philosophy mandates holding positions down >15% rather than crystallizing losses. Wait for either a fundamental turnaround signal or technical reversal before reconsidering. Current Extreme Fear environment may present eventual recovery opportunities.",
+    "action_reason": "Per trading philosophy, positions down >15% are held for recovery. However, this is a high-risk hold given deteriorating fundamentals and lack of news. Monitor for stabilization signals before considering any action.",
     "target_price": null,
     "target_reasoning": "",
-    "exit_trigger": "If debt restructuring occurs OR if position rebounds to $55-60 (entry proximity) and technical confirmation shows weakening\u2014then reassess. Do not exit while down.",
-    "add_trigger": "Only add if RSI drops below 30 with reversal candle + positive news catalyst emerges; otherwise maintain current weight",
-    "risk": "Continued cash burn, potential dilution from financing needs, bankruptcy risk if cash runway depletes without profitability path",
+    "exit_trigger": "Break below $42 (new lows) with worsening fundamentals OR positive catalyst-driven bounce to $60+ followed by confirmation of business improvement",
+    "add_trigger": "RSI oversold <30 + insider buying or partnership announcement + VIX spike suggesting capitulation",
+    "risk": "Further deterioration in profitability/cash burn; high leverage could trigger restructuring; continued sector rotation away from unprofitable AI plays",
     "outlook": "cautious",
-    "timeframe": "6-12 weeks for operational stabilization signals or full recovery attempt",
-    "generated_at": "2026-06-11T23:19:48.831216",
-    "price_at_generation": 49.59,
-    "pnl_at_generation": -28.21
+    "timeframe": "4-8 weeks to see stabilization or exit signals",
+    "generated_at": "2026-06-12T23:15:05.971339",
+    "price_at_generation": 47.82,
+    "pnl_at_generation": -30.78
   },
   "history": [
+    {
+      "ticker": "TEM",
+      "company_name": "Tempus AI, Inc.",
+      "action": "Hold",
+      "action_reason": "Philosophy mandates holding positions down >15% rather than crystallizing losses. Wait for either a fundamental turnaround signal or technical reversal before reconsidering. Current Extreme Fear environment may present eventual recovery opportunities.",
+      "target_price": null,
+      "target_reasoning": "",
+      "exit_trigger": "If debt restructuring occurs OR if position rebounds to $55-60 (entry proximity) and technical confirmation shows weakening\u2014then reassess. Do not exit while down.",
+      "add_trigger": "Only add if RSI drops below 30 with reversal candle + positive news catalyst emerges; otherwise maintain current weight",
+      "risk": "Continued cash burn, potential dilution from financing needs, bankruptcy risk if cash runway depletes without profitability path",
+      "outlook": "cautious",
+      "timeframe": "6-12 weeks for operational stabilization signals or full recovery attempt",
+      "generated_at": "2026-06-11T23:19:48.831216",
+      "price_at_generation": 49.59,
+      "pnl_at_generation": -28.21,
+      "archived_at": "2026-06-12T23:15:05.971536"
+    },
     {
       "ticker": "TEM",
       "company_name": "Tempus AI, Inc.",
@@ -117,23 +134,6 @@
       "price_at_generation": 47.51,
       "pnl_at_generation": -31.22,
       "archived_at": "2026-06-04T23:07:21.190328"
-    },
-    {
-      "ticker": "TEM",
-      "company_name": "Tempus AI, Inc.",
-      "action": "Start Trimming",
-      "action_reason": "Cut 1-2 shares (33-67% position) to reduce capital at risk and lock in some cash. Fundamentals show no path to profitability; waiting for further deterioration increases loss magnitude.",
-      "target_price": 35,
-      "target_reasoning": "",
-      "exit_trigger": "Close entire position if price breaks below $40 or if next earnings misses guidance again",
-      "add_trigger": "Only add if profitability roadmap is announced AND price holds above $42 with RSI oversold (<30)",
-      "risk": "Further capital burn as unprofitable company faces debt servicing pressure; potential dilution from future financing",
-      "outlook": "cautious",
-      "timeframe": "2-4 weeks to trim; full exit decision by next earnings",
-      "generated_at": "2026-06-04T03:34:38.716117",
-      "price_at_generation": 47.51,
-      "pnl_at_generation": -31.22,
-      "archived_at": "2026-06-04T04:11:53.772554"
     }
   ]
 }

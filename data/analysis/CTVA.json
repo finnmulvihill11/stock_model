@@ -2,30 +2,26 @@
   "ticker": "CTVA",
   "signal": {
     "ticker": "CTVA",
-    "direction": "buy",
-    "tier": "Buy",
-    "buy_score": 0.75,
-    "sell_score": 0.14,
-    "reasons": [
-      "BB: price near lower band (pct=0.12)",
-      "RSI: oversold zone (28.5)",
-      "MACD: histogram at valley / turning up",
-      "200MA: price at/above 200MA (74.86 vs 72.38)",
-      "Golden cross: 50MA (80.31) above 200MA (72.38)",
-      "Volume: above average (1.21x)"
-    ],
+    "direction": "hold",
+    "tier": "Hold",
+    "buy_score": 0.38,
+    "sell_score": 0.0,
+    "reasons": [],
     "misses": [
+      "BB: price not near lower band (pct=0.27)",
       "BB Width: bands expanding, not squeezing",
-      "RSI Divergence: no bullish divergence detected"
+      "RSI: not in buy zone (33.9, need 20-30)",
+      "RSI Divergence: no bullish divergence detected",
+      "Volume: below average (0.91x) \u2014 low conviction"
     ],
-    "price": 74.86,
-    "rsi": 28.5,
-    "atr": 1.68,
-    "final_tier": "Strong Buy",
+    "price": 76.14,
+    "rsi": 33.9,
+    "atr": 1.7,
+    "final_tier": "Hold",
     "sizing": {
-      "suggested_shares": 4,
-      "suggested_dollars": 299.44,
-      "note": "4 sh @ $74.86 = $299 (Strong Buy, full size) | $791 swing budget after"
+      "suggested_shares": 2,
+      "suggested_dollars": 152.28,
+      "note": "2 sh @ $76.14 = $152 (Hold, 60% size) | $938 swing budget after"
     }
   },
   "fundamentals": {
@@ -54,41 +50,41 @@
       ],
       "earnings_status": "distant",
       "next_earnings_date": "2026-07-30",
-      "days_to_earnings": 49
+      "days_to_earnings": 48
     }
   },
   "news": {
     "ticker": "CTVA",
-    "sentiment": "positive",
+    "sentiment": "neutral",
     "health": "healthy",
     "key_events": [
-      "Technical reversal signals: RSI oversold (28.5), price at lower Bollinger Band, MACD histogram turning up from valley",
-      "Extreme Fear market sentiment creates contrarian buying opportunity",
-      "49 days to earnings provides runway for technical recovery before fundamental catalysts"
+      "No recent news items available for analysis",
+      "Earnings report 48 days away provides medium-term catalyst",
+      "Market in Extreme Fear status creating potential volatility"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "No recent news flow to support recovery narrative",
-      "Moderate geopolitical risk may pressurize agricultural commodity prices",
-      "4.5% drawdown still within acceptable range but momentum needs confirmation"
+      "RSI at 33.9 indicates oversold conditions but no bounce yet",
+      "No technical firing signals despite oversold state",
+      "2.86% loss on modest position weight suggests broader sector/market weakness"
     ],
-    "verdict": "Strong technical setup with oversold conditions and reversal signals in a healthy fundamental environment\u2014hold and prepare to add on confirmation.",
+    "verdict": "CTVA is fundamentally healthy but technically weak; hold through this drawdown per philosophy and await earnings catalyst or technical reversal.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "CTVA",
-    "stock_return_3m": -5.92,
-    "benchmark_return_3m": 11.07,
-    "relative_strength": -16.98,
+    "stock_return_3m": -3.65,
+    "benchmark_return_3m": 12.3,
+    "relative_strength": -15.96,
     "label": "underperforming"
   },
-  "final_tier": "Strong Buy",
+  "final_tier": "Hold",
   "sizing": {
-    "suggested_shares": 4,
-    "suggested_dollars": 299.44,
-    "note": "4 sh @ $74.86 = $299 (Strong Buy, full size) | $791 swing budget after"
+    "suggested_shares": 2,
+    "suggested_dollars": 152.28,
+    "note": "2 sh @ $76.14 = $152 (Hold, 60% size) | $938 swing budget after"
   },
   "is_dca": false,
-  "saved_at": "2026-06-11T23:20:10.878825"
+  "saved_at": "2026-06-12T23:15:28.319858"
 }

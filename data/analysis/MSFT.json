@@ -4,19 +4,20 @@
     "ticker": "MSFT",
     "direction": "hold",
     "tier": "Hold",
-    "buy_score": 0.38,
-    "sell_score": 0.29,
+    "buy_score": 0.25,
+    "sell_score": 0.14,
     "reasons": [],
     "misses": [
       "BB Width: bands expanding, not squeezing",
-      "RSI: not in buy zone (38.6, need 20-30)",
+      "RSI: not in buy zone (38.9, need 20-30)",
       "MACD: no bullish crossover or valley",
       "RSI Divergence: no bullish divergence detected",
-      "200MA: price below 200MA \u2014 potential falling knife"
+      "200MA: price below 200MA \u2014 potential falling knife",
+      "Volume: below average (0.92x) \u2014 low conviction"
     ],
-    "price": 390.34,
-    "rsi": 38.6,
-    "atr": 13.06,
+    "price": 390.74,
+    "rsi": 38.9,
+    "atr": 13.16,
     "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 0,
@@ -50,7 +51,7 @@
       ],
       "earnings_status": "past",
       "next_earnings_date": "2026-04-29",
-      "days_to_earnings": -43
+      "days_to_earnings": -44
     }
   },
   "news": {
@@ -58,27 +59,25 @@
     "sentiment": "neutral",
     "health": "healthy",
     "key_events": [
-      "Earnings reported 43 days ago - cycle complete, next earnings ~3 months out",
-      "Price down 16.45% from entry - below swing trader comfort zone but within volatility range",
-      "RSI 38.6 indicates oversold conditions approaching potential reversal zone",
-      "VIX 19.4 shows market stability; Fear/Greed Extreme Fear suggests capitulation opportunity",
-      "No recent news flow - absence of negative catalysts is constructive"
+      "No recent news items available for analysis",
+      "Earnings reported 44 days ago - results already priced in",
+      "Market in Extreme Fear mode despite neutral VIX (17.7)"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "Position weight 24.4% is concentrated for swing trading strategy",
-      "Lack of technical firing signals despite oversold RSI suggests momentum hasn't turned",
-      "Broad tech sector pressure likely dragging MSFT rather than company-specific issues"
+      "16.36% underwater - significant drawdown but within swing trade risk tolerance",
+      "No technical firing signals - momentum stalled",
+      "RSI 38.9 - approaching oversold but not yet (30 threshold)"
     ],
-    "verdict": "Fundamentally sound company in temporary drawdown; RSI oversold conditions set stage for recovery, but lack of buy signals warrants patience.",
+    "verdict": "MSFT fundamentals remain healthy; current decline appears sentiment-driven rather than company-specific, positioning for mean reversion.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "MSFT",
-    "stock_return_3m": -2.66,
-    "benchmark_return_3m": 11.07,
-    "relative_strength": -13.72,
+    "stock_return_3m": -1.0,
+    "benchmark_return_3m": 12.3,
+    "relative_strength": -13.31,
     "label": "underperforming"
   },
   "final_tier": "Hold",
@@ -88,5 +87,5 @@
     "note": "Position already at 20% portfolio cap"
   },
   "is_dca": false,
-  "saved_at": "2026-06-11T23:19:33.764243"
+  "saved_at": "2026-06-12T23:14:51.718246"
 }

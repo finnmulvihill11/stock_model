@@ -3,19 +3,36 @@
     "ticker": "ABT",
     "company_name": "Abbott Laboratories",
     "action": "Hold",
-    "action_reason": "Down 18.33% places position beyond 15% threshold; philosophy mandates holding major losers. RSI 56.5 is neutral\u2014neither oversold nor signaling reversal yet. Wait for capitulation (RSI <30) or earnings catalyst.",
-    "target_price": 102.5,
+    "action_reason": "Position is down 19.67%, triggering the philosophy rule to never exit major losers. Fundamentals remain healthy and RSI shows neutral momentum\u2014this appears to be market-driven selling in extreme fear conditions, not a company-specific issue.",
+    "target_price": 105.0,
     "target_reasoning": "",
-    "exit_trigger": "Sell only if position turns profitable (>$109.77); or if RSI breaks below 30 with volume surge + confirmed breakdown below $85 support",
-    "add_trigger": "Add only if ABT bounces to RSI 30-35 zone on reversal signal (bullish cross, positive news) AND holds above $85 support",
-    "risk": "Further sector rotation out of healthcare; macro slowdown impacting diagnostics/pharma demand; earnings miss 56d out could have triggered initial decline",
+    "exit_trigger": "Fundamentals deteriorate OR stock breaks below $82 (10% further loss)",
+    "add_trigger": "Stock approaches $80-82 with volume spike + RSI < 30, signaling capitulation",
+    "risk": "Broader market drawdown or unexpected negative catalyst; concentrated position amplifies impact",
     "outlook": "cautious",
-    "timeframe": "4-8 weeks (await next earnings or technical capitulation; recovery typically slower from 18%+ drawdowns)",
-    "generated_at": "2026-06-11T23:19:41.660423",
-    "price_at_generation": 89.65,
-    "pnl_at_generation": -18.33
+    "timeframe": "4-8 weeks",
+    "generated_at": "2026-06-12T23:14:58.402434",
+    "price_at_generation": 88.18,
+    "pnl_at_generation": -19.67
   },
   "history": [
+    {
+      "ticker": "ABT",
+      "company_name": "Abbott Laboratories",
+      "action": "Hold",
+      "action_reason": "Down 18.33% places position beyond 15% threshold; philosophy mandates holding major losers. RSI 56.5 is neutral\u2014neither oversold nor signaling reversal yet. Wait for capitulation (RSI <30) or earnings catalyst.",
+      "target_price": 102.5,
+      "target_reasoning": "",
+      "exit_trigger": "Sell only if position turns profitable (>$109.77); or if RSI breaks below 30 with volume surge + confirmed breakdown below $85 support",
+      "add_trigger": "Add only if ABT bounces to RSI 30-35 zone on reversal signal (bullish cross, positive news) AND holds above $85 support",
+      "risk": "Further sector rotation out of healthcare; macro slowdown impacting diagnostics/pharma demand; earnings miss 56d out could have triggered initial decline",
+      "outlook": "cautious",
+      "timeframe": "4-8 weeks (await next earnings or technical capitulation; recovery typically slower from 18%+ drawdowns)",
+      "generated_at": "2026-06-11T23:19:41.660423",
+      "price_at_generation": 89.65,
+      "pnl_at_generation": -18.33,
+      "archived_at": "2026-06-12T23:14:58.402631"
+    },
     {
       "ticker": "ABT",
       "company_name": "Abbott Laboratories",
@@ -117,23 +134,6 @@
       "price_at_generation": 86.99,
       "pnl_at_generation": -20.75,
       "archived_at": "2026-06-04T23:07:13.927866"
-    },
-    {
-      "ticker": "ABT",
-      "company_name": "Abbott Laboratories",
-      "action": "Hold",
-      "action_reason": "Fundamentals remain healthy and no sell signals present. The 20% drawdown appears driven by sector rotation and fear rather than company deterioration. Next catalyst (earnings or guidance update) will determine next move.",
-      "target_price": 95.5,
-      "target_reasoning": "",
-      "exit_trigger": "Break below $84 (support) OR earnings miss with negative guidance OR RSI drops below 40 with volume spike",
-      "add_trigger": "RSI falls to 35-40 range with VIX spike (fear capitulation) OR positive healthcare sector rotation signal",
-      "risk": "Continued healthcare sector rotation; potential dividend pressure if broader market correction deepens",
-      "outlook": "cautious",
-      "timeframe": "3-6 weeks",
-      "generated_at": "2026-06-04T03:34:32.414208",
-      "price_at_generation": 86.99,
-      "pnl_at_generation": -20.75,
-      "archived_at": "2026-06-04T04:11:44.624330"
     }
   ]
 }

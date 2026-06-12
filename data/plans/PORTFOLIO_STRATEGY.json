@@ -1,47 +1,89 @@
 {
   "current": {
-    "headline": "Portfolio deeply underwater but philosophically held; deploy remaining $1K into highest-conviction mean-reversion setups while maintaining discipline on major losers.",
+    "headline": "Hold the line on underwater positions; deploy $1K cash into textbook mean-reversion setups while Extreme Fear persists.",
     "market_stance": "offensive",
-    "overall_thesis": "Extreme Fear (12) paired with oversold technicals across quality names (MSFT RSI 38.6, INTU RSI 41.2) creates a textbook mean-reversion environment over 4-8 weeks. Current portfolio is positioned for recovery; new capital should target persistent buy signals with strongest technical confirmation (RSI <30, Bollinger Band support). Geopolitical headwinds and tariff uncertainty remain structural risks but do not change the tactical setup.",
+    "overall_thesis": "Extreme Fear (12) has created a rare setup: quality names deeply oversold (INTU -40.9%, MSFT -16.4%, TEM -30.8%) align with mean-reversion philosophy\u2014hold these for recovery. Simultaneously, multiple persistent Buy signals (GOOG, ETR, NSC, NEM, JNJ) across uncorrelated sectors signal capitulation bottoms. Deploy remaining $1K into 1\u20132 highest-conviction screener picks to harvest mean reversion over the next 4\u20138 weeks.",
     "priority_actions": [
       {
         "rank": 1,
         "action": "BUY",
         "ticker": "GOOG",
-        "instruction": "Deploy $400\u2013500 on GOOG at current oversold levels (RSI 29.8, lower Bollinger Band). Target 1\u20132% position size (~25\u201335 shares depending on entry). This is the strongest textbook mean-reversion signal in the screener: oversold on quality name with high conviction.",
+        "instruction": "BUY ~3\u20134 shares at market; RSI 29.8 (deep oversold) + Bollinger Band squeeze + Extreme Fear backdrop = textbook mean-reversion entry. Target allocation ~$300\u2013350 (respects cash constraint).",
         "urgency": "immediate"
       },
       {
         "rank": 2,
         "action": "BUY",
         "ticker": "NSC",
-        "instruction": "Deploy $300\u2013350 on NSC on any dip into Bollinger Band squeeze with MACD confirmation. Target 1\u20131.5% position size (~15\u201320 shares). Persistent Buy signal with clean technical setup.",
+        "instruction": "BUY ~2\u20133 shares on next dip; BB squeeze + MACD reversal + Extreme Fear. Stagger entry over 2\u20133 days if cash allows, or wait for intraday weakness. Target ~$350\u2013400 of remaining cash.",
         "urgency": "this week"
       },
       {
         "rank": 3,
-        "action": "BUY",
-        "ticker": "ETR",
-        "instruction": "Deploy $200\u2013250 on ETR if it re-tests lower Bollinger Band or RSI dips <30 again. Target 0.75\u20131% position size (~10\u201315 shares). Persistent Buy signal; use any weakness as entry trigger.",
+        "action": "TRIM",
+        "ticker": "WELL",
+        "instruction": "TRIM 40\u201350% of WELL position (sell ~15\u201320 shares) to raise cash and lock in +5.66% gain. Neutral technicals + low conviction to hold justify partial exit. Redeploy proceeds into GOOG/NSC.",
         "urgency": "this week"
       }
     ],
-    "biggest_risk": "INTU concentration (26%, exceeds 25% cap) combined with -40.9% drawdown creates portfolio drag and violates your own position limits. However, philosophy mandates holding major losers\u2014risk is that further deterioration forces eventual rebalance, locking in losses at worst time. Monitor for thesis break (e.g., earnings miss, guidance cut) as the only EXIT trigger.",
+    "biggest_risk": "Extreme Fear (12) may be justified if macro deteriorates further\u2014if Tech selloff accelerates (VIX >25), INTU, MSFT, TEM could fall another 10\u201320% before recovering. However, your philosophy mandates holding; ensure you have psychological stamina and no forced liquidation triggers.",
     "what_to_watch": [
-      "INTU earnings or guidance update\u2014only event that would justify early exit given -40.9% loss and overweight position",
-      "US-China tariff escalation or trade war headlines\u2014could amplify Extreme Fear and create deeper mean-reversion entry points",
-      "Tech sector earnings (MSFT, GOOG) in coming weeks\u2014recovery catalyst for your largest oversold positions; strong beats could reverse -16%+ drawdowns",
-      "VIX mean reversion\u2014currently neutral at 19.4; any spike into 20s+ increases conviction on new buys; any drop below 15 reduces urgency"
+      "INTU earnings/guidance \u2014 validate thesis that -40.9% is recoverable overshooting",
+      "VIX break above 20 \u2014 could signal higher lows in fear; buy more aggressively if that occurs",
+      "GOOG/NSC reversal candles \u2014 confirm Buy signals aren't false breakdowns; watch for MACD crossover and RSI lift above 40 over next 5 trading days",
+      "Tech sector rotation \u2014 if mega-cap underperformance extends beyond 2\u20133 weeks, may signal structural shift vs. temporary capitulation"
     ],
     "on_course_check": [
-      "\u2713 Plan is working if: MSFT and INTU rally 10%+ off current levels within 4 weeks as mean reversion takes hold",
-      "\u2713 Plan is working if: New positions (GOOG, NSC, ETR) added at oversold levels begin recovering within 2\u20133 weeks",
-      "\u26a0 Revise if: INTU breaks below current lows on heavy volume or announces major negative catalyst\u2014would trigger thesis break and justify EXIT despite -40% loss",
-      "\u26a0 Revise if: VIX spikes sustained above 25 and portfolio drops >50%\u2014would indicate structural market stress, not mean reversion opportunity"
+      "\u2713 Plan works IF: oversold positions (INTU, MSFT, TEM) bounce >10% within 4\u20136 weeks AND GOOG/NSC entries gain 8\u201315% within 3\u20134 weeks.",
+      "\u2717 Plan breaks IF: VIX spikes above 25 AND portfolio drops another 15% (total -33% from here) without stabilization signals\u2014would force re-evaluation of thesis, though you will NOT exit major losers per philosophy.",
+      "\u2717 Plan breaks IF: Extreme Fear (12) proves predictive of further capitulation (VIX sustained >25, breadth deteriorates)\u2014in that case, do NOT add; wait for VIX inversion and positive breadth before deploying TRIM proceeds."
     ],
-    "generated_at": "2026-06-11T23:20:26.394655"
+    "generated_at": "2026-06-12T23:15:43.959944"
   },
   "history": [
+    {
+      "headline": "Portfolio deeply underwater but philosophically held; deploy remaining $1K into highest-conviction mean-reversion setups while maintaining discipline on major losers.",
+      "market_stance": "offensive",
+      "overall_thesis": "Extreme Fear (12) paired with oversold technicals across quality names (MSFT RSI 38.6, INTU RSI 41.2) creates a textbook mean-reversion environment over 4-8 weeks. Current portfolio is positioned for recovery; new capital should target persistent buy signals with strongest technical confirmation (RSI <30, Bollinger Band support). Geopolitical headwinds and tariff uncertainty remain structural risks but do not change the tactical setup.",
+      "priority_actions": [
+        {
+          "rank": 1,
+          "action": "BUY",
+          "ticker": "GOOG",
+          "instruction": "Deploy $400\u2013500 on GOOG at current oversold levels (RSI 29.8, lower Bollinger Band). Target 1\u20132% position size (~25\u201335 shares depending on entry). This is the strongest textbook mean-reversion signal in the screener: oversold on quality name with high conviction.",
+          "urgency": "immediate"
+        },
+        {
+          "rank": 2,
+          "action": "BUY",
+          "ticker": "NSC",
+          "instruction": "Deploy $300\u2013350 on NSC on any dip into Bollinger Band squeeze with MACD confirmation. Target 1\u20131.5% position size (~15\u201320 shares). Persistent Buy signal with clean technical setup.",
+          "urgency": "this week"
+        },
+        {
+          "rank": 3,
+          "action": "BUY",
+          "ticker": "ETR",
+          "instruction": "Deploy $200\u2013250 on ETR if it re-tests lower Bollinger Band or RSI dips <30 again. Target 0.75\u20131% position size (~10\u201315 shares). Persistent Buy signal; use any weakness as entry trigger.",
+          "urgency": "this week"
+        }
+      ],
+      "biggest_risk": "INTU concentration (26%, exceeds 25% cap) combined with -40.9% drawdown creates portfolio drag and violates your own position limits. However, philosophy mandates holding major losers\u2014risk is that further deterioration forces eventual rebalance, locking in losses at worst time. Monitor for thesis break (e.g., earnings miss, guidance cut) as the only EXIT trigger.",
+      "what_to_watch": [
+        "INTU earnings or guidance update\u2014only event that would justify early exit given -40.9% loss and overweight position",
+        "US-China tariff escalation or trade war headlines\u2014could amplify Extreme Fear and create deeper mean-reversion entry points",
+        "Tech sector earnings (MSFT, GOOG) in coming weeks\u2014recovery catalyst for your largest oversold positions; strong beats could reverse -16%+ drawdowns",
+        "VIX mean reversion\u2014currently neutral at 19.4; any spike into 20s+ increases conviction on new buys; any drop below 15 reduces urgency"
+      ],
+      "on_course_check": [
+        "\u2713 Plan is working if: MSFT and INTU rally 10%+ off current levels within 4 weeks as mean reversion takes hold",
+        "\u2713 Plan is working if: New positions (GOOG, NSC, ETR) added at oversold levels begin recovering within 2\u20133 weeks",
+        "\u26a0 Revise if: INTU breaks below current lows on heavy volume or announces major negative catalyst\u2014would trigger thesis break and justify EXIT despite -40% loss",
+        "\u26a0 Revise if: VIX spikes sustained above 25 and portfolio drops >50%\u2014would indicate structural market stress, not mean reversion opportunity"
+      ],
+      "generated_at": "2026-06-11T23:20:26.394655",
+      "archived_at": "2026-06-12T23:15:43.960266"
+    },
     {
       "headline": "Hold firm through extreme fear; INTU cap breach requires monitoring but no forced exit; $1K dry powder ready for mean-reversion entries.",
       "market_stance": "neutral",
@@ -284,60 +326,6 @@
       ],
       "generated_at": "2026-06-04T04:12:22.932598",
       "archived_at": "2026-06-04T23:08:04.150285"
-    },
-    {
-      "headline": "Trim two oversized losers to unlock $1k cash buffer; deploy selectively into high-conviction mean-reversion setups.",
-      "market_stance": "offensive",
-      "overall_thesis": "Extreme Fear (12) + neutral VIX (16.1) creates a classic mean-reversion environment. Immediate priority: right-size portfolio by trimming INTU and TEM to respect the 25% cap and recapitalize. Then deploy freed cash into 2\u20133 of the strongest oversold signals (DOW, CTVA, WELL) that show persistent buy patterns. Hold quality longs (MSFT, ABT) through the bounce.",
-      "priority_actions": [
-        {
-          "rank": 1,
-          "action": "TRIM",
-          "ticker": "INTU",
-          "instruction": "Sell 1 share (~33% of position) at market open. This reduces weight from 29.3% to ~19%, locks in remaining $X capital, and respects the 25% portfolio cap rule. RSI 37.8 is not yet deeply oversold (buy trigger ~25%), so keep remainder as core holding.",
-          "urgency": "immediate"
-        },
-        {
-          "rank": 2,
-          "action": "TRIM",
-          "ticker": "TEM",
-          "instruction": "Sell 1 share (~50% of position) at market open. TEM at -31.2% P&L and RSI 54.2 (neutral) shows no rebound conviction yet. Trimming to 2\u20133 shares reduces capital at risk and frees ~$150\u2013200 for new opportunities.",
-          "urgency": "immediate"
-        },
-        {
-          "rank": 3,
-          "action": "TRIM",
-          "ticker": "DECK",
-          "instruction": "Sell ~40\u201350% of DECK position (likely 1 share if small holding). RSI 71.7 is overbought; +10.5% gain is real profit. Lock in ~$50\u201375 and preserve core bullish exposure.",
-          "urgency": "this week"
-        },
-        {
-          "rank": 4,
-          "action": "BUY",
-          "ticker": "CTVA",
-          "instruction": "After trims free up ~$350\u2013400, deploy $200\u2013250 into CTVA on persistent Buy signal. RSI 24.1 (deeply oversold) + price at lower Bollinger Band + 2+ consecutive scrapes = high-conviction mean reversion. Scale in 2\u20133 shares on any dip toward lower BB.",
-          "urgency": "this week"
-        },
-        {
-          "rank": 5,
-          "action": "BUY",
-          "ticker": "WELL",
-          "instruction": "Deploy $150\u2013200 into WELL on persistent Buy signal. RSI 27.3 deeply oversold + lower BB squeeze + 2+ consecutive scrapes. Typical swing target 2\u20133 weeks as mean reversion unfolds.",
-          "urgency": "this week"
-        }
-      ],
-      "biggest_risk": "INTU thesis broken: -33.5% P&L with RSI 37.8 approaching oversold (not yet firing a strong buy). If it slides further and breaks to RSI <25 without bouncing, full exit may be warranted. Monitor for any negative guidance or multiple compression.",
-      "what_to_watch": [
-        "INTU earnings or product roadmap\u2014any negative catalyst could justify full EXIT rather than trim",
-        "Fed policy signals\u2014Extreme Fear (12) may be mean-reverting fast; watch for any hawkish surprise that extends the sell-off",
-        "New BUY entries (CTVA, WELL) daily action\u2014confirm RSI bounces off oversold and price holds above lower BB within 3\u20135 trading days"
-      ],
-      "on_course_check": [
-        "\u2713 Plan is working if: INTU trim executes cleanly, CTVA/WELL fill at target prices, and portfolio weight rebalances below 25% per holding by EOW",
-        "\u26a0 Revise plan if: INTU breaks below RSI 25 without buy signal support (thesis failure \u2192 EXIT), or if DOW/SO show stronger setups than CTVA/WELL (reallocate capital)"
-      ],
-      "generated_at": "2026-06-04T03:35:05.730540",
-      "archived_at": "2026-06-04T04:12:22.932931"
     }
   ]
 }

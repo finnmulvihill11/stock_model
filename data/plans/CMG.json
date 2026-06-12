@@ -3,19 +3,36 @@
     "ticker": "CMG",
     "company_name": "Chipotle Mexican Grill, Inc.",
     "action": "Hold",
-    "action_reason": "Loss is only -0.70%, well below the 15% threshold where your philosophy mandates holding. Lack of news and technical signals (RSI 41.2, no firing) suggests waiting for either a bounce or clarity before next move.",
-    "target_price": null,
+    "action_reason": "Position is +2.41% profitable and at low weight (4%). Absence of news and technical signals suggests waiting for either earnings catalyst (47d) or a clear momentum breakout before adding. The neutral technical setup doesn't justify trimming a winning trade.",
+    "target_price": 34.5,
     "target_reasoning": "",
-    "exit_trigger": "Break below $30 (support) with VIX spike above 25 + confirmed bearish reversal pattern",
-    "add_trigger": "RSI drops to 30-35 (oversold) + positive gap or earnings-driven reversal; or break above $33 on volume with RSI >50",
-    "risk": "Elevated debt load (2.2x D/E) could pressure stock if consumer spending weakens or rates stay elevated; Extreme Fear backdrop may trigger capitulation selling.",
+    "exit_trigger": "Trim 50% if price reaches $34.50 on high volume + RSI >70, or exit full position if breaks below $30.80 on volume (swing trade stop)",
+    "add_trigger": "Add if RSI breaks above 60 with volume confirmation + VIX stays <20, or hold for earnings surprise",
+    "risk": "High debt load amplifies downside if consumer spending slows; sentiment extremes could reverse sharply",
     "outlook": "neutral",
-    "timeframe": "2-4 weeks until earnings (48d) \u2014 use this period to assess technical setup and macro sentiment shifts; decision clarity likely post-earnings.",
-    "generated_at": "2026-06-11T23:19:56.375930",
-    "price_at_generation": 31.25,
-    "pnl_at_generation": -0.7
+    "timeframe": "2-6 weeks (until earnings provide directional clarity)",
+    "generated_at": "2026-06-12T23:15:14.199465",
+    "price_at_generation": 32.23,
+    "pnl_at_generation": 2.41
   },
   "history": [
+    {
+      "ticker": "CMG",
+      "company_name": "Chipotle Mexican Grill, Inc.",
+      "action": "Hold",
+      "action_reason": "Loss is only -0.70%, well below the 15% threshold where your philosophy mandates holding. Lack of news and technical signals (RSI 41.2, no firing) suggests waiting for either a bounce or clarity before next move.",
+      "target_price": null,
+      "target_reasoning": "",
+      "exit_trigger": "Break below $30 (support) with VIX spike above 25 + confirmed bearish reversal pattern",
+      "add_trigger": "RSI drops to 30-35 (oversold) + positive gap or earnings-driven reversal; or break above $33 on volume with RSI >50",
+      "risk": "Elevated debt load (2.2x D/E) could pressure stock if consumer spending weakens or rates stay elevated; Extreme Fear backdrop may trigger capitulation selling.",
+      "outlook": "neutral",
+      "timeframe": "2-4 weeks until earnings (48d) \u2014 use this period to assess technical setup and macro sentiment shifts; decision clarity likely post-earnings.",
+      "generated_at": "2026-06-11T23:19:56.375930",
+      "price_at_generation": 31.25,
+      "pnl_at_generation": -0.7,
+      "archived_at": "2026-06-12T23:15:14.199674"
+    },
     {
       "ticker": "CMG",
       "company_name": "Chipotle Mexican Grill, Inc.",
@@ -117,23 +134,6 @@
       "price_at_generation": 28.74,
       "pnl_at_generation": -8.67,
       "archived_at": "2026-06-04T23:07:28.032957"
-    },
-    {
-      "ticker": "CMG",
-      "company_name": "Chipotle Mexican Grill, Inc.",
-      "action": "Wait",
-      "action_reason": "Current position shows no immediate technical firing signals despite oversold RSI. Market extreme fear creates opportunity, but better entry clarity needed before averaging down given high debt load.",
-      "target_price": null,
-      "target_reasoning": "",
-      "exit_trigger": "Break below $27.50 (lower support); or if RSI drops below 20 without reversal within 3 days",
-      "add_trigger": "Confirmed RSI bounce above 35 with volume + VIX stays below 18, OR earnings beat 50+ days out",
-      "risk": "Leverage amplifies losses in slowdown; debt refinancing risk if rates stay elevated; consumer discretionary exposed to recession fears",
-      "outlook": "cautious",
-      "timeframe": "2-6 weeks (watch into earnings window)",
-      "generated_at": "2026-06-04T03:34:45.615997",
-      "price_at_generation": 28.74,
-      "pnl_at_generation": -8.67,
-      "archived_at": "2026-06-04T04:12:00.225330"
     }
   ]
 }
