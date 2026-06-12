@@ -15,9 +15,11 @@ def add_bollinger_bands(df: pd.DataFrame, window: int = 20, std: float = 2.0) ->
 
 def add_rsi(df: pd.DataFrame, window: int = 14) -> pd.DataFrame:
     delta = df["Close"].diff()
-    gain = delta.clip(lower=0).rolling(window).mean()
-    loss = (-delta.clip(upper=0)).rolling(window).mean()
-    rs = gain / loss.replace(0, np.nan)
+    gain = delta.clip(lower=0)
+    loss = -delta.clip(upper=0)
+    avg_gain = gain.ewm(alpha=1 / window, min_periods=window, adjust=False).mean()
+    avg_loss = loss.ewm(alpha=1 / window, min_periods=window, adjust=False).mean()
+    rs = avg_gain / avg_loss.replace(0, np.nan)
     df["rsi"] = 100 - (100 / (1 + rs))
     return df
 
