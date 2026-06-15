@@ -2,7 +2,7 @@ name: Nightly Analysis
 
 on:
   schedule:
-    - cron: "0 22 * * 1-5"   # 10pm ET Mon–Fri
+    - cron: "30 22 * * 0-4"  # 10:30pm ET Sun–Thu (after weekly run on Sun)
   workflow_dispatch:
 
 permissions:
