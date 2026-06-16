@@ -27,36 +27,10 @@ from src.analysis_cache import (
 )
 from src.event_scanner import scan_world_events, save_event_opportunities
 from src.market_context import get_relative_strength
+from src.tier import _final_tier
 
 CONFIG = yaml.safe_load(open(Path(__file__).parent / "config.yaml"))
 TIER_ORDER = ["Strong Buy", "Buy", "Watch", "Hold", "Avoid", "Sell", "Strong Sell"]
-
-
-def _final_tier(tech_tier, fund_health, news_sentiment, gate_proceed, geo_risk="low", pnl_pct=None):
-    original_tier = tech_tier
-
-    # Never cut losses on major drawdowns — hold through positions down >15%
-    major_loser = pnl_pct is not None and pnl_pct < -0.15
-    if major_loser and tech_tier in ("Sell", "Strong Sell"):
-        tech_tier = "Hold"
-
-    if fund_health == "deteriorating" or news_sentiment == "negative" or not gate_proceed:
-        return "Avoid" if tech_tier in ("Strong Buy", "Buy") else tech_tier
-
-    # Geo dampens buy-side conviction — severe kills the signal entirely
-    if geo_risk in ("high", "severe") and tech_tier == "Strong Buy":
-        tech_tier = "Buy"
-    if geo_risk == "severe" and tech_tier == "Buy":
-        tech_tier = "Hold"
-
-    # Geo amplifies an existing sell signal when in profit — never invents one from Hold
-    in_profit = pnl_pct is not None and pnl_pct > 0
-    if in_profit and geo_risk == "severe" and original_tier == "Sell":
-        tech_tier = "Strong Sell"
-
-    if fund_health == "healthy" and news_sentiment == "positive":
-        return "Strong Buy" if tech_tier == "Buy" else ("Strong Sell" if tech_tier == "Sell" else tech_tier)
-    return tech_tier
 
 
 def run_nightly():
