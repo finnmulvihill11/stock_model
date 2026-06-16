@@ -22,11 +22,16 @@ def test_gate_blocked_avoids_buy():
 
 
 def test_hold_unchanged_when_neutral():
-    assert _final_tier("Hold", "healthy", "positive", True) == "Hold"
+    assert _final_tier("Hold", "healthy", "neutral", True) == "Hold"
 
 
 def test_high_geo_risk_dampens_strong_buy_to_buy():
     assert _final_tier("Strong Buy", "healthy", "positive", True, geo_risk="high") == "Buy"
+
+
+def test_high_geo_risk_dampens_buy_even_with_healthy_positive():
+    # healthy+positive would promote Buy->Strong Buy, then high geo must dampen it back to Buy
+    assert _final_tier("Buy", "healthy", "positive", True, geo_risk="high") == "Buy"
 
 
 def test_severe_geo_kills_buy_to_hold():
