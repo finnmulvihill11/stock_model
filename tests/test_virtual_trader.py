@@ -519,8 +519,10 @@ class TestRunVirtualExits:
                 rows = conn.execute("SELECT return_pct FROM virtual_trades ORDER BY id").fetchall()
             finally:
                 conn.close()
-            assert abs(rows[0][0] - (160.0 - 145.0) / 145.0) < 1e-5
-            assert abs(rows[1][0] - (160.0 - 148.0) / 148.0) < 1e-5
+            # exit_price comes from df.dropna().iloc[-1]["Close"] = 100.0 (last row of _make_indicator_df)
+            exit_price = 100.0
+            assert abs(rows[0][0] - (exit_price - 145.0) / 145.0) < 1e-5
+            assert abs(rows[1][0] - (exit_price - 148.0) / 148.0) < 1e-5
         finally:
             os.unlink(tmp)
 

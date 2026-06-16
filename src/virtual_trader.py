@@ -234,22 +234,33 @@ def run_virtual_entries(cache: dict, market: dict, geo_risk: str, db_path: Path 
             except Exception:
                 pass
 
+            # Use the screener's cached technical tier (Pillar 1) — not a fresh live
+            # recompute — so the entry decision matches the signal that triggered screening.
             tier = _final_tier(
-                tech_sig["tier"], fund["health"],
+                candidate["tier"], fund["health"],
                 news.get("sentiment", "neutral"), gate["proceed"], geo_risk,
             )
             if tier not in ("Strong Buy", "Buy"):
+                print(f"[VT]   {ticker}: Pillar 2 downgraded to {tier} — skipping")
                 continue
 
+            # Use df close/ATR directly — tech_sig["price"] can be NaN if the signal
+            # module had insufficient data to compute all indicators. Drop NaN rows
+            # (yfinance may append a partial/empty row for the current day).
+            clean = df.dropna(subset=["Close"])
+            row = clean.iloc[-1]
+            entry_price = float(row["Close"])
+            entry_atr = float(row["atr"]) if pd.notna(row.get("atr")) else 1.0
+
             sz = size_swing_trade(
-                ticker, tech_sig["price"], tech_sig.get("atr") or 1,
+                ticker, entry_price, entry_atr,
                 tier=tier, portfolio_value=0, current_position_value=0,
             )
             metrics_json = build_metric_snapshot(
                 ticker, df, div, tech_sig, fund, gate, news, rs_data, market, tier, sz
             )
-            open_position(ticker, today, tech_sig["price"], tier, metrics_json, db_path=db_path)
-            print(f"[VT]   Opened {ticker} @ ${tech_sig['price']:.2f} ({tier})")
+            open_position(ticker, today, entry_price, tier, metrics_json, db_path=db_path)
+            print(f"[VT]   Opened {ticker} @ ${entry_price:.2f} ({tier})")
         except Exception as e:
             print(f"[VT]   {ticker} entry failed: {e}")
 
@@ -288,16 +299,21 @@ def run_virtual_exits(market: dict, geo_risk: str, db_path: Path = None) -> None
                 print(f"[VT]   {ticker}: {tier} — holding")
                 continue
 
+            clean = df.dropna(subset=["Close"])
+            row = clean.iloc[-1]
+            exit_price = float(row["Close"])
+            exit_atr = float(row["atr"]) if pd.notna(row.get("atr")) else 1.0
+
             sz = size_swing_trade(
-                ticker, tech_sig["price"], tech_sig.get("atr") or 1,
+                ticker, exit_price, exit_atr,
                 tier=tier, portfolio_value=0, current_position_value=0,
             )
             metrics_json = build_metric_snapshot(
                 ticker, df, div, tech_sig, fund, gate, news, rs_data, market, tier, sz
             )
             count = close_open_positions_for_ticker(
-                ticker, today, tech_sig["price"], tier, metrics_json, db_path=db_path
+                ticker, today, exit_price, tier, metrics_json, db_path=db_path
             )
-            print(f"[VT]   Closed {count} position(s) for {ticker} @ ${tech_sig['price']:.2f} ({tier})")
+            print(f"[VT]   Closed {count} position(s) for {ticker} @ ${exit_price:.2f} ({tier})")
         except Exception as e:
             print(f"[VT]   {ticker} exit failed: {e}")
