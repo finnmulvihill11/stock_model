@@ -1,55 +1,30 @@
 {
-  "generated_at": "2026-06-14T23:00:02.441743",
-  "count": 2,
+  "generated_at": "2026-06-16T03:19:47.339962",
+  "count": 1,
   "results": [
     {
-      "ticker": "AMZN",
+      "ticker": "SBAC",
       "direction": "buy",
       "tier": "Buy",
       "buy_score": 0.75,
-      "sell_score": 0.14,
+      "sell_score": 0.43,
       "reasons": [
-        "BB: price near lower band (pct=0.10)",
-        "RSI: oversold zone (26.8)",
-        "MACD: histogram at valley / turning up",
-        "200MA: price at/above 200MA (238.55 vs 232.51)",
-        "Golden cross: 50MA (254.77) above 200MA (232.51)",
-        "Volume: above average (1.23x)"
+        "BB: price near lower band (pct=0.01)",
+        "BB Width: squeeze active (width=0.0752)",
+        "RSI Divergence: Price lower low (196.21 < 198.42) but RSI higher low (37.7 > 36.9)",
+        "200MA: price at/above 200MA (195.82 vs 194.10)",
+        "Golden cross: 50MA (210.13) above 200MA (194.10)",
+        "Volume: above average (2.70x)"
       ],
       "misses": [
-        "BB Width: bands expanding, not squeezing",
-        "RSI Divergence: no bullish divergence detected"
+        "RSI: not in buy zone (41.2, need 20-30)",
+        "MACD: no bullish crossover or valley"
       ],
-      "price": 238.55,
-      "rsi": 26.8,
-      "atr": 7.76,
-      "relative_strength": 2.57,
-      "rs_label": "in-line",
-      "previously_owned": false
-    },
-    {
-      "ticker": "SNPS",
-      "direction": "buy",
-      "tier": "Buy",
-      "buy_score": 0.75,
-      "sell_score": 0.29,
-      "reasons": [
-        "BB: price near lower band (pct=0.11)",
-        "BB Width: squeeze active (width=0.1922)",
-        "RSI: oversold zone (29.5)",
-        "MACD: histogram at valley / turning up",
-        "200MA: price at/above 200MA (453.89 vs 462.42)",
-        "Golden cross: 50MA (474.88) above 200MA (462.42)"
-      ],
-      "misses": [
-        "RSI Divergence: no bullish divergence detected",
-        "Volume: below average (0.62x) \u2014 low conviction"
-      ],
-      "price": 453.89,
-      "rsi": 29.5,
-      "atr": 22.69,
-      "relative_strength": -2.3,
-      "rs_label": "in-line",
+      "price": 195.82,
+      "rsi": 41.2,
+      "atr": 6.91,
+      "relative_strength": -8.13,
+      "rs_label": "underperforming",
       "previously_owned": false
     }
   ]

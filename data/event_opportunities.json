@@ -1,4 +1,189 @@
 {
-  "saved_at": "2026-06-14T23:00:48.689650",
-  "events": []
+  "saved_at": "2026-06-16T03:21:07.047350",
+  "events": [
+    {
+      "event_title": "US-China Tariff Escalation & Trade War Reignition",
+      "event_description": "The Trump administration has imposed sweeping tariffs on Chinese goods (up to 145%), with China retaliating with 125% tariffs on US exports. Negotiations remain stalled with no clear resolution timeline. This creates ongoing supply chain disruption, reshoring pressure, and margin compression for import-dependent companies, while benefiting domestic manufacturers and logistics rerouting plays.",
+      "direction": "mixed",
+      "rationale": "ATMU (Atmus Filtration) benefits from reshoring industrial demand. KTOS (Kratos Defense) is domestically manufactured with zero China exposure. POWL (Powell Industries) is a US-based electrical equipment maker seeing order surges from domestic infrastructure. GFF (Griffon Corp) makes US-manufactured building products and stands to benefit from import substitution. KRYS is a stretch but watch for sector rotation into domestically insulated mid-caps.",
+      "timeframe": "4-10 weeks",
+      "event_confidence": "high",
+      "tickers": [
+        {
+          "ticker": "ATMU",
+          "company_name": "Atmus Filtration Technologies Inc.",
+          "sector": "Consumer Cyclical",
+          "in_standard_universe": false,
+          "signal_tier": "Hold",
+          "price": 50.02,
+          "rsi": 49.7,
+          "buy_score": 0.25,
+          "sell_score": 0.29,
+          "entry_trigger": "Break above $52.50 on volume >500k shares, or pullback to $48.50-$49.00 with RSI <40 during tariff escalation headlines",
+          "target_price": 58.5,
+          "exit_condition": "Close below $48.00 on high volume, or tariff negotiations show signs of de-escalation (formal talks announced), or position +15% profit take at $57.50",
+          "risk": "ATMU's China exposure unclear from brief; tariff benefits may be priced in already; RSI at 49.7 shows no momentum; reshoring thesis takes 12+ months to materialize; competing domestic filtration players could capture same demand",
+          "event_conviction": "medium"
+        },
+        {
+          "ticker": "KTOS",
+          "company_name": "Kratos Defense & Security Solutions, Inc.",
+          "sector": "Industrials",
+          "in_standard_universe": false,
+          "signal_tier": "Hold",
+          "price": 57.02,
+          "rsi": 45.7,
+          "buy_score": 0.25,
+          "sell_score": 0.43,
+          "entry_trigger": "Break above $58.50 on volume >2M shares with defense spending acceleration headlines OR pullback to $55.00-$55.50 RSI <40 during tariff uncertainty spike",
+          "target_price": 62.5,
+          "exit_condition": "Close below $55.00 on tariff deal rumors OR profit-take at $62.50 OR time stop at week 10 if thesis unwinds without catalyst",
+          "risk": "Tariff resolution/d\u00e9tente removes reshoring tailwind; KTOS profit margins already pressured by supply costs; competition from larger defense primes on domestic procurement; event-driven thesis vulnerable to policy reversal",
+          "event_conviction": "medium"
+        },
+        {
+          "ticker": "POWL",
+          "company_name": "Powell Industries, Inc.",
+          "sector": "Industrials",
+          "in_standard_universe": false,
+          "signal_tier": "Hold",
+          "price": 303.53,
+          "rsi": 57.9,
+          "buy_score": 0.5,
+          "sell_score": 0.29,
+          "entry_trigger": "Break above $310 on volume >500K shares with tariff headlines, or pullback to $295-298 support amid sector rotation into domestic manufacturers",
+          "target_price": 335,
+          "exit_condition": "Close below $290 (thesis break) OR tariff negotiations show material progress/rollback OR hold time exceeds 10 weeks with stalled momentum",
+          "risk": "Tariff deal reversal (Trump policy shift), China retaliatory demand destruction offsetting reshoring gains, margin compression from input cost inflation outpacing pricing power, POWL's order book visibility may be limited with macro uncertainty spooking buyers",
+          "event_conviction": "medium"
+        }
+      ]
+    },
+    {
+      "event_title": "AI Infrastructure Buildout \u2014 Power & Cooling Bottleneck",
+      "event_description": "Hyperscaler capex commitments (Microsoft, Google, Meta, Amazon) for AI data centers remain at record levels in 2025. The critical bottleneck has shifted from chips to power delivery and thermal management. Utilities, transformer makers, and cooling specialists have a multi-quarter earnings tailwind with near-term catalysts including earnings reports and contract announcements.",
+      "direction": "bullish",
+      "rationale": "SMDI (Sterling Infrastructure) is winning data center site prep and civil construction contracts. NVEE (NV5 Global) provides engineering and environmental services for data center permitting \u2014 a less-obvious pick. GEV (GE Vernova) makes gas turbines and grid equipment directly needed for AI power demand and has strong order visibility. CDRE (Cadre Holdings) is a tangential pick; focus should be on GEV and SMDI as primary plays. GEV earnings and order book updates are near-term catalysts.",
+      "timeframe": "3-8 weeks",
+      "event_confidence": "high",
+      "tickers": [
+        {
+          "ticker": "GEV",
+          "company_name": "GE Vernova Inc.",
+          "sector": "Industrials",
+          "in_standard_universe": false,
+          "signal_tier": "Hold",
+          "price": 979.07,
+          "rsi": 50.2,
+          "buy_score": 0.62,
+          "sell_score": 0.29,
+          "entry_trigger": "Break above $985 with volume >2M shares on confirmation of new AI data center power contract announcement or earnings beat on order backlog growth",
+          "target_price": 1075,
+          "exit_condition": "RSI >70 with gap-up close, or failure to hold $970 on contract/earnings disappointment, or broader market correction >3%",
+          "risk": "Power/cooling bottleneck narrative already priced in; execution risk on turbine delivery timelines; regulatory delays on grid upgrades; competition from renewable energy + battery storage alternatives eating into gas turbine TAM",
+          "event_conviction": "medium"
+        }
+      ]
+    },
+    {
+      "event_title": "US Defense & Drone Spending Surge Post-Ukraine/Middle East",
+      "event_description": "Congress is advancing supplemental defense budgets and the Pentagon is accelerating procurement of autonomous systems, counter-drone technology, and munitions replenishment. The Ukraine war and Middle East tensions have created sustained demand signals. DoD budget reconciliation and supplemental appropriations votes are near-term catalysts for contract awards.",
+      "direction": "bullish",
+      "rationale": "RCAT (Red Cat Holdings) is a small-cap pure-play on military drone systems with direct DoD contracts \u2014 high beta to defense drone spending. AVAV (AeroVironment) makes tactical UAS systems with strong order backlog. CACI International provides intelligence and cyber services with growing classified contract base. HII (Huntington Ingalls) is a less-covered shipbuilder critical to Navy expansion. VEC (Vectrus/Amentum) handles overseas base operations with direct exposure to Middle East deployments.",
+      "timeframe": "4-12 weeks",
+      "event_confidence": "medium",
+      "tickers": [
+        {
+          "ticker": "RCAT",
+          "company_name": "Red Cat Holdings, Inc.",
+          "sector": "Industrials",
+          "in_standard_universe": false,
+          "signal_tier": "Hold",
+          "price": 11.97,
+          "rsi": 50.3,
+          "buy_score": 0.38,
+          "sell_score": 0.0,
+          "entry_trigger": "Break above $12.50 on volume >2M shares, or congressional defense appropriations committee vote announcement with explicit drone/autonomous systems line items",
+          "target_price": 16.5,
+          "exit_condition": "Close below $11.20 on high volume, or if defense spending bill stalls/delays beyond 12-week window, or profit target hit",
+          "risk": "RCAT is thinly traded micro-cap with execution risk on contract delivery; sentiment-driven rallies often fade; competitor AVAV has stronger revenue visibility; geopolitical catalyst could reverse (peace negotiations) reducing urgency; funding/dilution risk for small-cap balance sheet",
+          "event_conviction": "medium"
+        },
+        {
+          "ticker": "AVAV",
+          "company_name": "AeroVironment, Inc.",
+          "sector": "Industrials",
+          "in_standard_universe": false,
+          "signal_tier": "Hold",
+          "price": 171.95,
+          "rsi": 44.4,
+          "buy_score": 0.12,
+          "sell_score": 0.14,
+          "entry_trigger": "Break above $176 on volume >1.5M shares concurrent with DoD budget committee vote announcement or contract award news",
+          "target_price": 195,
+          "exit_condition": "Close below $168 on contract delay/cancellation news OR take profits at $190+ if defense appropriations bill passes without new AVAV allocations within 6 weeks",
+          "risk": "Defense spending bills face partisan delays; AVAV's backlog already reflects anticipated demand, reducing upside surprise; supply chain constraints may limit near-term margin expansion; small-cap volatility creates false breakout risk",
+          "event_conviction": "medium"
+        },
+        {
+          "ticker": "CACI",
+          "company_name": "CACI International Inc",
+          "sector": "Technology",
+          "in_standard_universe": false,
+          "signal_tier": "Hold",
+          "price": 507.56,
+          "rsi": 44.7,
+          "buy_score": 0.38,
+          "sell_score": 0.57,
+          "entry_trigger": "Break above $515-520 resistance on volume following DoD budget vote announcement or CACI contract award; RSI approaching 50-55 from current 44.7",
+          "target_price": 545,
+          "exit_condition": "Close below $500 on high volume; defense appropriations bill stalls/fails; or profit target reached within 6-8 week window",
+          "risk": "CACI is diversified government contractor (IT/cyber/intel), not pure-play drone/defense hardware like RCAT/AVAV\u2014less direct beta to drone spending surge; contract awards unpredictable timing; defense budget votes subject to political delays; valuation already elevated at $507 (check P/E vs. peer average)",
+          "event_conviction": "medium"
+        }
+      ]
+    },
+    {
+      "event_title": "US Regional Bank Stress & Credit Cycle Deterioration",
+      "event_description": "Rising delinquencies in commercial real estate (CRE), auto loans, and credit cards are pressuring regional and mid-size banks. Fed rate policy uncertainty, potential for credit losses to accelerate in Q2 2025 earnings, and CRE refinancing walls create a clear bearish near-term catalyst. Upcoming Q2 earnings reports will be a key revelation moment for loan loss provisions.",
+      "direction": "bearish",
+      "rationale": "NYCB (New York Community Bancorp) has already shown CRE stress and remains vulnerable to further reserve builds. OFG Bancorp has Puerto Rico consumer exposure sensitive to economic slowdown. PFSI (PennyMac Financial) is highly exposed to mortgage origination volumes and spread compression. BANC (Banc of California) is a newly merged entity still integrating with untested combined CRE book. COLB (Columbia Banking) has significant Pacific Northwest CRE exposure. All face Q2 earnings as a hard catalyst for downside surprises.",
+      "timeframe": "3-7 weeks",
+      "event_confidence": "medium",
+      "tickers": [
+        {
+          "ticker": "OFG",
+          "company_name": "OFG Bancorp",
+          "sector": "Financial Services",
+          "in_standard_universe": false,
+          "signal_tier": "Hold",
+          "price": 47.62,
+          "rsi": 64.2,
+          "buy_score": 0.38,
+          "sell_score": 0.43,
+          "entry_trigger": "OFG breaks below $46.50 on volume, or Q2 earnings preview (late July 2025) shows loan loss provision increase >15% YoY; RSI approaching 50 on daily chart",
+          "target_price": 42.0,
+          "exit_condition": "Stop loss at $49.20 (2.7% above entry); take partial profits at $44.50; exit fully if Q2 earnings beat expectations or Fed signals rate cuts that ease CRE refinancing pressure",
+          "risk": "Puerto Rico economic data may stabilize faster than expected; Fed pivot to cuts could reduce pressure on regional banks; OFG's deposit base and capital ratios may prove more resilient than peers; earnings beat on loan origination strength could trigger short squeeze",
+          "event_conviction": "medium"
+        },
+        {
+          "ticker": "PFSI",
+          "company_name": "PennyMac Financial Services, Inc.",
+          "sector": "Financial Services",
+          "in_standard_universe": false,
+          "signal_tier": "Hold",
+          "price": 82.41,
+          "rsi": 45.0,
+          "buy_score": 0.12,
+          "sell_score": 0.14,
+          "entry_trigger": "PFSI breaks below $80.00 on volume with mortgage origination data showing deterioration, or Q2 2025 earnings guidance reduces loan loss reserves less than peers (signaling confidence that masks exposure)",
+          "target_price": 72.5,
+          "exit_condition": "Close above $85.00 on earnings beat or Fed signals rate cuts; exit at 3% loss if mortgage refi volumes surprise to upside before earnings; stop at $88.00",
+          "risk": "PFSI benefits from higher rates and spread environment even amid stress cycle; mortgage origination volumes may stabilize faster than expected; positive housing data or Fed pivot could trigger short covering; earnings beat on provisions would invalidate thesis quickly",
+          "event_conviction": "medium"
+        }
+      ]
+    }
+  ]
 }
