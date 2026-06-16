@@ -129,6 +129,8 @@ def build_metric_snapshot(
     row = df.iloc[-1]
 
     snapshot = {
+        # Stock identifier (required for ML dataset grouping)
+        "ticker":       ticker,
         # Raw indicator values (features for ML)
         "price":        _f(row["Close"]),
         "rsi":          _f(row["rsi"]),
@@ -145,8 +147,8 @@ def build_metric_snapshot(
         "atr":          _f(row["atr"]),
         "volume_ratio": _f(row["volume_ratio"]),
         # Technical signal
-        "buy_score":      tech_sig["buy_score"],
-        "sell_score":     tech_sig["sell_score"],
+        "buy_score":      _f(tech_sig["buy_score"]),
+        "sell_score":     _f(tech_sig["sell_score"]),
         "technical_tier": tech_sig["tier"],
         "direction":      tech_sig["direction"],
         "reasons":        tech_sig.get("reasons", []),
@@ -157,18 +159,18 @@ def build_metric_snapshot(
         "rsi_div_bull_reason": div.get("bull_reason", ""),
         "rsi_div_bear_reason": div.get("bear_reason", ""),
         # Market context
-        "vix_level":        market.get("vix", {}).get("level"),
+        "vix_level":        _f(market.get("vix", {}).get("level")),
         "vix_sentiment":    market.get("vix", {}).get("sentiment"),
-        "fear_greed_value": market.get("fear_greed", {}).get("value"),
+        "fear_greed_value": _f(market.get("fear_greed", {}).get("value")),
         "fear_greed_label": market.get("fear_greed", {}).get("label"),
         "geo_risk":         market.get("geopolitical", {}).get("risk_level", "low"),
-        "relative_strength": rs_data.get("relative_strength") if rs_data else None,
+        "relative_strength": _f(rs_data.get("relative_strength")) if rs_data else None,
         "rs_label":          rs_data.get("label") if rs_data else None,
         # Fundamentals
         "fund_health":         fund["health"],
-        "fund_revenue_growth": fund.get("revenue_growth"),
-        "fund_de_ratio":       fund.get("de_ratio"),
-        "fund_profit_margins": fund.get("profit_margins"),
+        "fund_revenue_growth": _f(fund.get("revenue_growth")),
+        "fund_de_ratio":       _f(fund.get("de_ratio")),
+        "fund_profit_margins": _f(fund.get("profit_margins")),
         "fund_passed":         fund.get("passed", []),
         "fund_flags":          fund.get("flags", []),
         # Earnings gate

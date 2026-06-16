@@ -283,3 +283,12 @@ class TestBuildMetricSnapshot:
         data = json.loads(build_metric_snapshot("AAPL", df, div, tech_sig, fund, gate, news, {}, market, "Buy", sz))
         assert data["relative_strength"] is None
         assert data["rs_label"] is None
+
+    def test_nan_indicator_values_become_null_in_json(self):
+        """_f() must convert NaN to None — otherwise json.dumps raises on bad upstream data."""
+        df, div, tech_sig, fund, gate, news, rs_data, market, sz = self._inputs()
+        # Inject NaN into a column that goes through _f()
+        df = df.copy()
+        df.loc[df.index[-1], "rsi"] = float("nan")
+        data = json.loads(build_metric_snapshot("AAPL", df, div, tech_sig, fund, gate, news, rs_data, market, "Buy", sz))
+        assert data["rsi"] is None
