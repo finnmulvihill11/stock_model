@@ -213,8 +213,13 @@ def run_virtual_entries(cache: dict, market: dict, geo_risk: str, db_path: Path 
     candidates = [r for r in cache.get("results", []) if r.get("tier") in ("Strong Buy", "Buy")]
     print(f"[VT] Weekly entries: {len(candidates)} technical buy candidates")
 
+    already_open = set(get_open_tickers(db_path=db_path))
+
     for candidate in candidates:
         ticker = candidate["ticker"]
+        if ticker in already_open:
+            print(f"[VT]   {ticker} already has an open position — skipping duplicate entry")
+            continue
         try:
             df = fetch_ohlcv(ticker)
             df = add_all_indicators(df)

@@ -410,6 +410,25 @@ class TestRunVirtualEntries:
         finally:
             os.unlink(tmp)
 
+    def test_does_not_open_duplicate_when_ticker_already_open(self):
+        tmp = _tmp_db()
+        try:
+            _init_db(tmp)
+            # Simulate a ticker that already has an open position from a previous run
+            open_position("AAPL", "2026-06-08", 145.00, "Buy", '{}', db_path=tmp)
+            with patch.multiple("src.virtual_trader", **_fake_analysis_mocks("Strong Buy")):
+                run_virtual_entries(self._cache(), self._market(), "low", db_path=tmp)
+            # Still only 1 open position, not 2
+            import sqlite3
+            conn = sqlite3.connect(str(tmp))
+            try:
+                count = conn.execute("SELECT COUNT(*) FROM virtual_trades WHERE ticker='AAPL' AND status='open'").fetchone()[0]
+            finally:
+                conn.close()
+            assert count == 1
+        finally:
+            os.unlink(tmp)
+
 
 from src.virtual_trader import run_virtual_exits
 
