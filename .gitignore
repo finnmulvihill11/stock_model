@@ -1,6 +1,7 @@
 .env
 data/cache/
 data/*.parquet
+data/*.db
 data/ticker_universe.json
 __pycache__/
 *.pyc

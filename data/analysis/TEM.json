@@ -58,21 +58,20 @@
     "sentiment": "negative",
     "health": "deteriorating",
     "key_events": [
-      "Stock down 24.26% from entry",
+      "No recent news available for assessment",
       "Earnings reported 42 days ago",
-      "High debt-to-equity ratio (3.2x) with negative fundamentals",
-      "Extreme Fear market sentiment despite neutral VIX"
+      "Stock down 24.26% from entry"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
+      "High debt-to-equity ratio (3.2x) indicating leverage risk",
       "Not profitable with negative operating cash flow",
-      "High leverage (3.2x D/E) in unprofitable company creates solvency risk",
-      "Extreme Fear sentiment suggests capitulation or distrust in AI narrative",
-      "No recent news catalyst data available",
-      "RSI 56.1 shows no oversold bounce setup yet"
+      "Extreme fear sentiment in market",
+      "No positive catalysts identified",
+      "RSI neutral at 56.1 \u2014 no oversold bounce setup yet"
     ],
-    "verdict": "Deteriorating fundamentals and heavy losses conflict with hold philosophy\u2014position is at critical juncture requiring monitoring for capitulation vs. recovery signals.",
+    "verdict": "Deteriorating fundamentals with no news catalyst support; position is a significant underperformer requiring close monitoring for stabilization signals.",
     "confidence": "medium"
   },
   "relative_strength": {
@@ -89,5 +88,5 @@
     "note": "3 sh @ $52.32 = $157 (Hold, 60% size) | $933 swing budget after"
   },
   "is_dca": false,
-  "saved_at": "2026-06-16T00:14:50.967459"
+  "saved_at": "2026-06-16T03:26:07.091848"
 }

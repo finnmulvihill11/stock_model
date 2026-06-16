@@ -3,19 +3,36 @@
     "ticker": "ABT",
     "company_name": "Abbott Laboratories",
     "action": "Hold",
-    "action_reason": "Position is below 15% loss threshold per philosophy; fundamentals remain intact and RSI at 48 provides room for recovery without forced exit. Waiting for technical signal or earnings-driven catalyst.",
-    "target_price": 105,
+    "action_reason": "Position is down 19.22%, exceeding the 15% threshold that triggers the philosophy to hold through major losers. Fundamentals remain healthy and next earnings (~3 months out) may provide recovery catalyst.",
+    "target_price": null,
     "target_reasoning": "",
-    "exit_trigger": "Break below $85 (new lows + deteriorating fundamentals signal structural problem)",
-    "add_trigger": "RSI breaks below 35 + close above $90 on volume (capitulation + reversal confirmation)",
-    "risk": "Sector rotation away from healthcare; macro deterioration if geopolitical tensions escalate; next earnings miss",
+    "exit_trigger": "Only exit if fundamentals deteriorate materially (earnings miss, dividend cut, regulatory action) OR recover to +5% profit",
+    "add_trigger": "RSI drops below 35 AND price approaches $83-85 support level with bullish volume confirmation",
+    "risk": "Prolonged sector rotation away from healthcare/defensive; macro headwinds from Extreme Fear sentiment could drive further weakness before recovery",
     "outlook": "cautious",
-    "timeframe": "4-8 weeks for recovery attempt; reassess at next earnings",
-    "generated_at": "2026-06-16T00:14:43.243484",
+    "timeframe": "3-6 weeks (hold for next earnings catalyst in ~90 days; re-evaluate if RSI bounces or breaks below $85)",
+    "generated_at": "2026-06-16T03:25:59.004408",
     "price_at_generation": 88.67,
     "pnl_at_generation": -19.22
   },
   "history": [
+    {
+      "ticker": "ABT",
+      "company_name": "Abbott Laboratories",
+      "action": "Hold",
+      "action_reason": "Position is below 15% loss threshold per philosophy; fundamentals remain intact and RSI at 48 provides room for recovery without forced exit. Waiting for technical signal or earnings-driven catalyst.",
+      "target_price": 105,
+      "target_reasoning": "",
+      "exit_trigger": "Break below $85 (new lows + deteriorating fundamentals signal structural problem)",
+      "add_trigger": "RSI breaks below 35 + close above $90 on volume (capitulation + reversal confirmation)",
+      "risk": "Sector rotation away from healthcare; macro deterioration if geopolitical tensions escalate; next earnings miss",
+      "outlook": "cautious",
+      "timeframe": "4-8 weeks for recovery attempt; reassess at next earnings",
+      "generated_at": "2026-06-16T00:14:43.243484",
+      "price_at_generation": 88.67,
+      "pnl_at_generation": -19.22,
+      "archived_at": "2026-06-16T03:25:59.004602"
+    },
     {
       "ticker": "ABT",
       "company_name": "Abbott Laboratories",
@@ -117,23 +134,6 @@
       "price_at_generation": 91.07,
       "pnl_at_generation": -17.04,
       "archived_at": "2026-06-08T23:11:06.026516"
-    },
-    {
-      "ticker": "ABT",
-      "company_name": "Abbott Laboratories",
-      "action": "Hold",
-      "action_reason": "Loss exceeds 15% threshold (17.3%), triggering strict hold protocol. Fundamentals remain healthy and no deterioration signals justify exit. Await either technical recovery signal or market-wide risk-off reversal.",
-      "target_price": null,
-      "target_reasoning": "",
-      "exit_trigger": "Price breaks below $85 (12% further loss) suggesting fundamental deterioration; or earnings miss if next report shows guidance reduction",
-      "add_trigger": "RSI drops to 50-55 range on higher volume + price holds above $88 (technical confirmation of support)",
-      "risk": "Further sector rotation away from healthcare; execution miss in next earnings cycle; geopolitical escalation reducing risk appetite",
-      "outlook": "cautious",
-      "timeframe": "4-8 weeks (wait for next earnings cycle or technical reversal)",
-      "generated_at": "2026-06-04T23:07:13.927672",
-      "price_at_generation": 90.78,
-      "pnl_at_generation": -17.3,
-      "archived_at": "2026-06-05T23:05:40.289978"
     }
   ]
 }

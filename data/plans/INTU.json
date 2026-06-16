@@ -3,19 +3,36 @@
     "ticker": "INTU",
     "company_name": "Intuit Inc.",
     "action": "Hold",
-    "action_reason": "Position loss exceeds 15% threshold, triggering hold-through-recovery mandate. Oversold RSI (34.7) and Extreme Fear create potential reversal setup; no news catalyst to justify exit.",
-    "target_price": 380,
+    "action_reason": "Position is down 39.83%, triggering your policy to hold through major losers. RSI 34.7 (oversold) offers potential mean reversion, but lack of positive firing signals warrants patience rather than averaging down.",
+    "target_price": null,
     "target_reasoning": "",
-    "exit_trigger": "Position recovers above $420 (90% of entry) OR fundamental deterioration confirmed in next earnings OR RSI recrosses above 65 then breaks below 45 on high volume",
-    "add_trigger": "If INTU breaks below $260 (supports $34B market cap floor) and RSI overshoots below 20 on 3x volume spike\u2014signals capitulation; add 1sh for recovery play",
-    "risk": "Further SaaS sector selloff, slower subscription growth post-earnings, or macro recession deepening sentiment. Concentration risk at 25.9% portfolio weight.",
+    "exit_trigger": "Breach of $265 (lower support) OR negative guidance revision when earnings next reported",
+    "add_trigger": "RSI >25 with bullish divergence + positive earnings surprise OR broad market rally (+3% VIX compression)",
+    "risk": "Further deterioration if INTU reports weakness next quarter; concentration risk at 25.9% weight amplifies downside impact",
     "outlook": "cautious",
-    "timeframe": "4-8 weeks",
-    "generated_at": "2026-06-16T00:14:29.140013",
+    "timeframe": "4-8 weeks (monitor for next earnings catalyst or technical recovery signals)",
+    "generated_at": "2026-06-16T03:25:45.493962",
     "price_at_generation": 281.77,
     "pnl_at_generation": -39.83
   },
   "history": [
+    {
+      "ticker": "INTU",
+      "company_name": "Intuit Inc.",
+      "action": "Hold",
+      "action_reason": "Position loss exceeds 15% threshold, triggering hold-through-recovery mandate. Oversold RSI (34.7) and Extreme Fear create potential reversal setup; no news catalyst to justify exit.",
+      "target_price": 380,
+      "target_reasoning": "",
+      "exit_trigger": "Position recovers above $420 (90% of entry) OR fundamental deterioration confirmed in next earnings OR RSI recrosses above 65 then breaks below 45 on high volume",
+      "add_trigger": "If INTU breaks below $260 (supports $34B market cap floor) and RSI overshoots below 20 on 3x volume spike\u2014signals capitulation; add 1sh for recovery play",
+      "risk": "Further SaaS sector selloff, slower subscription growth post-earnings, or macro recession deepening sentiment. Concentration risk at 25.9% portfolio weight.",
+      "outlook": "cautious",
+      "timeframe": "4-8 weeks",
+      "generated_at": "2026-06-16T00:14:29.140013",
+      "price_at_generation": 281.77,
+      "pnl_at_generation": -39.83,
+      "archived_at": "2026-06-16T03:25:45.494153"
+    },
     {
       "ticker": "INTU",
       "company_name": "Intuit Inc.",
@@ -117,23 +134,6 @@
       "price_at_generation": 296.76,
       "pnl_at_generation": -36.63,
       "archived_at": "2026-06-08T23:10:48.637921"
-    },
-    {
-      "ticker": "INTU",
-      "company_name": "Intuit Inc.",
-      "action": "Hold",
-      "action_reason": "Position exceeds -15% threshold, mandating hold per philosophy. RSI 34.8 signals oversold bounce potential, though missing news context prevents conviction for averaging down at this moment.",
-      "target_price": null,
-      "target_reasoning": "",
-      "exit_trigger": "Do not exit. Re-evaluate for Add More if RSI crosses above 40 AND positive earnings surprise catalyst emerges within 4 weeks.",
-      "add_trigger": "RSI rebounds to 45-50 range with reversal confirmation + volume spike; OR company announces positive guidance revision/product announcement",
-      "risk": "Concentrated portfolio weight (26.1%) amplifies drawdown impact; missing news data creates blind spot on fundamental deterioration",
-      "outlook": "cautious",
-      "timeframe": "4-6 weeks (await next catalyst or technical recovery confirmation)",
-      "generated_at": "2026-06-04T23:07:01.166990",
-      "price_at_generation": 301.98,
-      "pnl_at_generation": -35.51,
-      "archived_at": "2026-06-05T23:05:27.083844"
     }
   ]
 }

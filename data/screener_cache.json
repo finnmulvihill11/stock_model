@@ -1,56 +1,5 @@
 {
-  "generated_at": "2026-06-14T23:00:02.441743",
-  "count": 2,
-  "results": [
-    {
-      "ticker": "AMZN",
-      "direction": "buy",
-      "tier": "Buy",
-      "buy_score": 0.75,
-      "sell_score": 0.14,
-      "reasons": [
-        "BB: price near lower band (pct=0.10)",
-        "RSI: oversold zone (26.8)",
-        "MACD: histogram at valley / turning up",
-        "200MA: price at/above 200MA (238.55 vs 232.51)",
-        "Golden cross: 50MA (254.77) above 200MA (232.51)",
-        "Volume: above average (1.23x)"
-      ],
-      "misses": [
-        "BB Width: bands expanding, not squeezing",
-        "RSI Divergence: no bullish divergence detected"
-      ],
-      "price": 238.55,
-      "rsi": 26.8,
-      "atr": 7.76,
-      "relative_strength": 2.57,
-      "rs_label": "in-line",
-      "previously_owned": false
-    },
-    {
-      "ticker": "SNPS",
-      "direction": "buy",
-      "tier": "Buy",
-      "buy_score": 0.75,
-      "sell_score": 0.29,
-      "reasons": [
-        "BB: price near lower band (pct=0.11)",
-        "BB Width: squeeze active (width=0.1922)",
-        "RSI: oversold zone (29.5)",
-        "MACD: histogram at valley / turning up",
-        "200MA: price at/above 200MA (453.89 vs 462.42)",
-        "Golden cross: 50MA (474.88) above 200MA (462.42)"
-      ],
-      "misses": [
-        "RSI Divergence: no bullish divergence detected",
-        "Volume: below average (0.62x) \u2014 low conviction"
-      ],
-      "price": 453.89,
-      "rsi": 29.5,
-      "atr": 22.69,
-      "relative_strength": -2.3,
-      "rs_label": "in-line",
-      "previously_owned": false
-    }
-  ]
+  "generated_at": "2026-06-16T13:09:07.648892",
+  "count": 0,
+  "results": []
 }

@@ -1,42 +1,4 @@
 {
-  "saved_at": "2026-06-14T23:00:21.879648",
-  "plans": [
-    {
-      "conviction": "medium",
-      "buy_case": "AMZN is flashing a textbook mean-reversion setup: RSI 26.8 in oversold territory, price hugging the lower Bollinger Band (10th percentile), and MACD histogram turning up from a valley. The 200MA filter passes (price above it), and above-average volume suggests institutional accumulation into weakness.",
-      "entry_condition": "Wait for RSI to dip to 23\u201325 (stronger oversold confirmation) OR price to touch the lower BB support (~$235\u2013236). Do not chase the current price; let the market come to you. Given your $3.2k portfolio, patience here costs nothing.",
-      "suggested_entry_price": 235.5,
-      "target_price": 255.0,
-      "exit_condition": "Take 50% profit at RSI 60\u201365 (~$251\u2013253); trail stop on remainder to 50MA or exit on break below 200MA ($232.51). If RSI climbs above 70 before hitting target, lock in gains\u2014overbought often reverses fast in swing trades.",
-      "timeframe": "3\u20136 weeks",
-      "risk": "Earnings surprise, macro weakness (recession fears, rate shock), or failed mean reversion if AMZN breaks below 200MA with volume. At $3.2k portfolio, position sizing matters: risk no more than 2% (~$64) on this trade.",
-      "priority": "medium",
-      "notes": "Quality company \u2713, technicals aligned \u2713, but the 'insufficient fundamental data' red flag is real. Before entering, verify: (1) latest earnings date & next earnings, (2) recent cash flow trends, (3) any cloud/AWS headwinds. A $3\u20134k portfolio should size this at ~$800\u20131200 max (3\u20135 shares at $235). The setup is solid, but don't rush; better entries come in the next 1\u20132 weeks.",
-      "ticker": "AMZN",
-      "company_name": "Amazon.com, Inc.",
-      "price": 238.55,
-      "suggested_dollars": 0,
-      "suggested_shares": 0,
-      "final_tier": "Buy",
-      "previously_owned": false
-    },
-    {
-      "conviction": "medium",
-      "buy_case": "SNPS is printing classic mean-reversion setup: RSI 29.5 (oversold), price kissing lower Bollinger Band, MACD histogram bottoming, all while respecting the 200MA filter. Technicals are textbook swing-long territory for a quality semiconductor/EDA name with healthy fundamentals.",
-      "entry_condition": "Wait for RSI to drop to 25\u201327 range OR price to touch the lower Bollinger Band (~$448). Confirm with a small uptick in MACD histogram (sign of momentum turn). Do NOT chase at current levels.",
-      "suggested_entry_price": 448,
-      "target_price": 475,
-      "exit_condition": "Take half at 50MA resistance (~$475); trail stop on remainder to 20-day MA. Exit immediately if price breaks below 200MA ($462) on a daily close or if RSI spikes above 70 without new highs (divergence warning).",
-      "timeframe": "2\u20134 weeks",
-      "risk": "Lack of recent catalyst clarity is a real gap. If earnings disappoint or chip sector rolls over, oversold conditions can extend further before recovery. Tech volatility could trigger false breakouts. Position size accordingly (~$800\u20131,200 max for your portfolio).",
-      "priority": "medium",
-      "ticker": "SNPS",
-      "company_name": "Synopsys, Inc.",
-      "price": 453.89,
-      "suggested_dollars": 0,
-      "suggested_shares": 0,
-      "final_tier": "Buy",
-      "previously_owned": false
-    }
-  ]
+  "saved_at": "2026-06-16T13:09:07.649196",
+  "plans": []
 }

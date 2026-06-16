@@ -59,18 +59,20 @@
     "sentiment": "neutral",
     "health": "healthy",
     "key_events": [
-      "Earnings reported 49 days ago (cycle complete for next catalyst)",
-      "No recent news items available for analysis",
-      "REIT sector tracking stable with VIX at neutral levels"
+      "No recent news available for assessment",
+      "Earnings passed 49 days ago - next catalyst unknown",
+      "Market sentiment shows Extreme Fear despite neutral VIX",
+      "Moderate geopolitical risk present but unquantified"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "Absence of recent news/catalysts suggests low near-term momentum",
-      "RSI at 54.1 indicates no overbought conditions but also no bullish divergence",
-      "No technical firing signals limits swing trading upside"
+      "Lack of recent news/catalyst visibility",
+      "RSI at 54.1 shows no directional momentum firing",
+      "Extreme Fear sentiment conflicts with healthy fundamentals - potential disconnect",
+      "No near-term earnings catalyst (next earnings unclear)"
     ],
-    "verdict": "Healthy fundamentals with modest gains; position lacks near-term catalysts for aggressive swing trading but warrants holding given 4.97% profit cushion.",
+    "verdict": "WELL is profitable and fundamentally sound, but lacks near-term technical momentum or news catalysts to drive swing trade action.",
     "confidence": "medium"
   },
   "relative_strength": {
@@ -87,5 +89,5 @@
     "note": "Price exceeds 60% conviction ceiling ($196) \u2014 skip or wait for Strong Buy"
   },
   "is_dca": false,
-  "saved_at": "2026-06-16T00:15:07.383047"
+  "saved_at": "2026-06-16T03:26:23.558163"
 }
