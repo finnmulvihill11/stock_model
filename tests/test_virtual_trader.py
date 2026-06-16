@@ -292,3 +292,120 @@ class TestBuildMetricSnapshot:
         df.loc[df.index[-1], "rsi"] = float("nan")
         data = json.loads(build_metric_snapshot("AAPL", df, div, tech_sig, fund, gate, news, rs_data, market, "Buy", sz))
         assert data["rsi"] is None
+
+
+from unittest.mock import patch, MagicMock
+from src.virtual_trader import run_virtual_entries
+
+
+def _fake_analysis_mocks(final_tier_return: str):
+    """Returns a dict of patches for all external calls in run_virtual_entries.
+
+    Keys are bare attribute names suitable for patch.multiple("src.virtual_trader", ...).
+    """
+    fake_df = _make_indicator_df()
+    return {
+        "fetch_ohlcv": MagicMock(return_value=fake_df),
+        "add_all_indicators": MagicMock(return_value=fake_df),
+        "detect_rsi_divergence": MagicMock(return_value={
+            "bullish": False, "bearish": False, "bull_reason": "", "bear_reason": "",
+        }),
+        "get_technical_signal": MagicMock(return_value={
+            "ticker": "AAPL", "tier": "Strong Buy", "direction": "buy",
+            "buy_score": 1.0, "sell_score": 0.1, "reasons": ["all conditions met"], "misses": [],
+            "price": 150.0, "rsi": 42.0, "atr": 2.5,
+        }),
+        "check_fundamentals": MagicMock(return_value={
+            "health": "healthy", "revenue_growth": 0.15, "de_ratio": 40.0,
+            "profit_margins": 0.20, "passed": ["Revenue growing"], "flags": [],
+        }),
+        "earnings_gate": MagicMock(return_value={
+            "proceed": True, "reason": "No earnings", "verdict": {},
+        }),
+        "analyze_company": MagicMock(return_value={
+            "sentiment": "positive", "health": "strong", "key_events": [],
+            "red_flags": [], "confidence": "high", "verdict": "Buy",
+        }),
+        "get_relative_strength": MagicMock(return_value={
+            "relative_strength": 6.0, "label": "outperforming",
+        }),
+        "size_swing_trade": MagicMock(return_value={
+            "shares": 5, "amount": 750.0,
+        }),
+        "_final_tier": MagicMock(return_value=final_tier_return),
+    }
+
+
+class TestRunVirtualEntries:
+    def _cache(self, tier="Strong Buy"):
+        return {"results": [{"ticker": "AAPL", "tier": tier, "price": 150.0, "atr": 2.5}]}
+
+    def _market(self):
+        return {
+            "vix": {"level": 17.0, "sentiment": "neutral"},
+            "fear_greed": {"value": 60, "label": "Greed"},
+            "geopolitical": {"risk_level": "low"},
+        }
+
+    def test_opens_position_when_final_tier_is_strong_buy(self):
+        tmp = _tmp_db()
+        try:
+            _init_db(tmp)
+            with patch.multiple("src.virtual_trader", **_fake_analysis_mocks("Strong Buy")):
+                run_virtual_entries(self._cache(), self._market(), "low", db_path=tmp)
+            assert get_open_tickers(db_path=tmp) == ["AAPL"]
+        finally:
+            os.unlink(tmp)
+
+    def test_opens_position_when_final_tier_is_buy(self):
+        tmp = _tmp_db()
+        try:
+            _init_db(tmp)
+            with patch.multiple("src.virtual_trader", **_fake_analysis_mocks("Buy")):
+                run_virtual_entries(self._cache(), self._market(), "low", db_path=tmp)
+            assert get_open_tickers(db_path=tmp) == ["AAPL"]
+        finally:
+            os.unlink(tmp)
+
+    def test_skips_when_final_tier_is_avoid(self):
+        tmp = _tmp_db()
+        try:
+            _init_db(tmp)
+            with patch.multiple("src.virtual_trader", **_fake_analysis_mocks("Avoid")):
+                run_virtual_entries(self._cache(), self._market(), "low", db_path=tmp)
+            assert get_open_tickers(db_path=tmp) == []
+        finally:
+            os.unlink(tmp)
+
+    def test_skips_tickers_not_in_buy_tiers(self):
+        tmp = _tmp_db()
+        try:
+            _init_db(tmp)
+            cache = {"results": [{"ticker": "AAPL", "tier": "Hold", "price": 150.0, "atr": 2.5}]}
+            with patch.multiple("src.virtual_trader", **_fake_analysis_mocks("Hold")):
+                run_virtual_entries(cache, self._market(), "low", db_path=tmp)
+            assert get_open_tickers(db_path=tmp) == []
+        finally:
+            os.unlink(tmp)
+
+    def test_continues_after_per_ticker_exception(self):
+        tmp = _tmp_db()
+        try:
+            _init_db(tmp)
+            cache = {"results": [
+                {"ticker": "FAIL", "tier": "Strong Buy", "price": 100.0, "atr": 2.0},
+                {"ticker": "AAPL", "tier": "Strong Buy", "price": 150.0, "atr": 2.5},
+            ]}
+            mocks = _fake_analysis_mocks("Strong Buy")
+            mocks["get_technical_signal"] = MagicMock(
+                side_effect=[RuntimeError("network error"), {
+                    "ticker": "AAPL", "tier": "Strong Buy", "direction": "buy",
+                    "buy_score": 1.0, "sell_score": 0.1, "reasons": [], "misses": [],
+                    "price": 150.0, "rsi": 42.0, "atr": 2.5,
+                }]
+            )
+            with patch.multiple("src.virtual_trader", **mocks):
+                run_virtual_entries(cache, self._market(), "low", db_path=tmp)
+            assert get_open_tickers(db_path=tmp) == ["AAPL"]
+        finally:
+            os.unlink(tmp)

@@ -28,6 +28,7 @@ from src.analysis_cache import (
 from src.event_scanner import scan_world_events, save_event_opportunities
 from src.market_context import get_relative_strength
 from src.tier import _final_tier
+from src.virtual_trader import run_virtual_entries
 
 CONFIG = yaml.safe_load(open(Path(__file__).parent / "config.yaml"))
 TIER_ORDER = ["Strong Buy", "Buy", "Watch", "Hold", "Avoid", "Sell", "Strong Sell"]
@@ -210,6 +211,13 @@ def run_weekly():
         )
     except Exception as e:
         print(f"  Watchlist auto-add failed: {e}")
+
+    # ── Virtual trader entries (isolated — does not affect user-facing output) ──
+    print("\n[ VT ] Running virtual trader entries...")
+    try:
+        run_virtual_entries(cache, market, geo_risk)
+    except Exception as e:
+        print(f"  Virtual trader entries failed: {e}")
 
     elapsed = (datetime.now() - start).total_seconds()
     print(f"\n=== Weekly run complete in {elapsed:.0f}s ===")

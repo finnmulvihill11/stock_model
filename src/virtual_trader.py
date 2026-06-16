@@ -5,6 +5,17 @@ from pathlib import Path
 
 import pandas as pd
 
+from src.fetcher import fetch_ohlcv
+from src.indicators import add_all_indicators
+from src.divergence import detect_rsi_divergence
+from src.signals import get_technical_signal
+from src.fundamentals import check_fundamentals
+from src.earnings import earnings_gate
+from src.news import analyze_company
+from src.market_context import get_relative_strength
+from src.budget import size_swing_trade
+from src.tier import _final_tier
+
 DB_PATH = Path(__file__).parent.parent / "data" / "virtual_trader.db"
 
 
@@ -190,3 +201,49 @@ def build_metric_snapshot(
         "suggested_dollars": sz.get("amount"),
     }
     return json.dumps(snapshot)
+
+
+def run_virtual_entries(cache: dict, market: dict, geo_risk: str, db_path: Path = None) -> None:
+    """
+    Weekly: open a virtual position for every ticker where the full two-pillar
+    analysis produces Strong Buy or Buy. Covers the entire screener universe
+    (not just the top 5 the user-facing flow sees) and writes to virtual_trades.
+    """
+    today = str(date.today())
+    candidates = [r for r in cache.get("results", []) if r.get("tier") in ("Strong Buy", "Buy")]
+    print(f"[VT] Weekly entries: {len(candidates)} technical buy candidates")
+
+    for candidate in candidates:
+        ticker = candidate["ticker"]
+        try:
+            df = fetch_ohlcv(ticker)
+            df = add_all_indicators(df)
+            div = detect_rsi_divergence(df)
+            tech_sig = get_technical_signal(ticker)
+            fund = check_fundamentals(ticker)
+            gate = earnings_gate(ticker)
+            news = analyze_company(ticker)
+            rs_data = {}
+            try:
+                rs_data = get_relative_strength(ticker)
+            except Exception:
+                pass
+
+            tier = _final_tier(
+                tech_sig["tier"], fund["health"],
+                news.get("sentiment", "neutral"), gate["proceed"], geo_risk,
+            )
+            if tier not in ("Strong Buy", "Buy"):
+                continue
+
+            sz = size_swing_trade(
+                ticker, tech_sig["price"], tech_sig.get("atr") or 1,
+                tier=tier, portfolio_value=0, current_position_value=0,
+            )
+            metrics_json = build_metric_snapshot(
+                ticker, df, div, tech_sig, fund, gate, news, rs_data, market, tier, sz
+            )
+            open_position(ticker, today, tech_sig["price"], tier, metrics_json, db_path=db_path)
+            print(f"[VT]   Opened {ticker} @ ${tech_sig['price']:.2f} ({tier})")
+        except Exception as e:
+            print(f"[VT]   {ticker} entry failed: {e}")
