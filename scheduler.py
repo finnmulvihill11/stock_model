@@ -28,7 +28,7 @@ from src.analysis_cache import (
 from src.event_scanner import scan_world_events, save_event_opportunities
 from src.market_context import get_relative_strength
 from src.tier import _final_tier
-from src.virtual_trader import run_virtual_entries
+from src.virtual_trader import run_virtual_entries, run_virtual_exits
 
 CONFIG = yaml.safe_load(open(Path(__file__).parent / "config.yaml"))
 TIER_ORDER = ["Strong Buy", "Buy", "Watch", "Hold", "Avoid", "Sell", "Strong Sell"]
@@ -125,6 +125,13 @@ def run_nightly():
         generate_portfolio_strategy(portfolio, position_plans, market, high_conv_opps, watchlist, event_opps)
     except Exception as e:
         print(f"  Strategy failed: {e}")
+
+    # ── Virtual trader exits (isolated — does not affect user-facing output) ───
+    print("\n[ VT ] Running virtual trader exits...")
+    try:
+        run_virtual_exits(market, geo_risk)
+    except Exception as e:
+        print(f"  Virtual trader exits failed: {e}")
 
     elapsed = (datetime.now() - start).total_seconds()
     print(f"\n=== Nightly run complete in {elapsed:.0f}s ===")

@@ -409,3 +409,131 @@ class TestRunVirtualEntries:
             assert get_open_tickers(db_path=tmp) == ["AAPL"]
         finally:
             os.unlink(tmp)
+
+
+from src.virtual_trader import run_virtual_exits
+
+
+def _fake_exit_mocks(final_tier_return: str, price: float = 160.0):
+    fake_df = _make_indicator_df()
+    return {
+        "fetch_ohlcv": MagicMock(return_value=fake_df),
+        "add_all_indicators": MagicMock(return_value=fake_df),
+        "detect_rsi_divergence": MagicMock(return_value={
+            "bullish": False, "bearish": True, "bull_reason": "", "bear_reason": "higher high, lower RSI",
+        }),
+        "get_technical_signal": MagicMock(return_value={
+            "ticker": "AAPL", "tier": "Sell", "direction": "sell",
+            "buy_score": 0.12, "sell_score": 0.88, "reasons": ["BB: near upper band"], "misses": [],
+            "price": price, "rsi": 76.0, "atr": 2.5,
+        }),
+        "check_fundamentals": MagicMock(return_value={
+            "health": "neutral", "revenue_growth": 0.05, "de_ratio": 60.0,
+            "profit_margins": 0.10, "passed": [], "flags": [],
+        }),
+        "earnings_gate": MagicMock(return_value={
+            "proceed": True, "reason": "No earnings", "verdict": {},
+        }),
+        "analyze_company": MagicMock(return_value={
+            "sentiment": "neutral", "health": "ok", "key_events": [],
+            "red_flags": [], "confidence": "medium", "verdict": "Hold",
+        }),
+        "get_relative_strength": MagicMock(return_value={}),
+        "size_swing_trade": MagicMock(return_value={"shares": 0, "amount": 0.0}),
+        "_final_tier": MagicMock(return_value=final_tier_return),
+    }
+
+
+class TestRunVirtualExits:
+    def _market(self):
+        return {
+            "vix": {"level": 22.0, "sentiment": "neutral"},
+            "fear_greed": {"value": 40, "label": "Fear"},
+            "geopolitical": {"risk_level": "low"},
+        }
+
+    def test_closes_position_on_sell_signal(self):
+        tmp = _tmp_db()
+        try:
+            _init_db(tmp)
+            open_position("AAPL", "2026-06-01", 145.00, "Buy", '{}', db_path=tmp)
+            with patch.multiple("src.virtual_trader", **_fake_exit_mocks("Sell")):
+                run_virtual_exits(self._market(), "low", db_path=tmp)
+            assert get_open_tickers(db_path=tmp) == []
+        finally:
+            os.unlink(tmp)
+
+    def test_closes_position_on_strong_sell_signal(self):
+        tmp = _tmp_db()
+        try:
+            _init_db(tmp)
+            open_position("AAPL", "2026-06-01", 145.00, "Buy", '{}', db_path=tmp)
+            with patch.multiple("src.virtual_trader", **_fake_exit_mocks("Strong Sell")):
+                run_virtual_exits(self._market(), "low", db_path=tmp)
+            assert get_open_tickers(db_path=tmp) == []
+        finally:
+            os.unlink(tmp)
+
+    def test_holds_position_when_not_sell_tier(self):
+        tmp = _tmp_db()
+        try:
+            _init_db(tmp)
+            open_position("AAPL", "2026-06-01", 145.00, "Buy", '{}', db_path=tmp)
+            with patch.multiple("src.virtual_trader", **_fake_exit_mocks("Hold")):
+                run_virtual_exits(self._market(), "low", db_path=tmp)
+            assert get_open_tickers(db_path=tmp) == ["AAPL"]
+        finally:
+            os.unlink(tmp)
+
+    def test_closes_multiple_open_positions_for_same_ticker(self):
+        import sqlite3
+        tmp = _tmp_db()
+        try:
+            _init_db(tmp)
+            open_position("AAPL", "2026-06-01", 145.00, "Buy", '{}', db_path=tmp)
+            open_position("AAPL", "2026-06-08", 148.00, "Buy", '{}', db_path=tmp)
+            with patch.multiple("src.virtual_trader", **_fake_exit_mocks("Sell", price=160.0)):
+                run_virtual_exits(self._market(), "low", db_path=tmp)
+            assert get_open_tickers(db_path=tmp) == []
+            conn = sqlite3.connect(str(tmp))
+            try:
+                rows = conn.execute("SELECT return_pct FROM virtual_trades ORDER BY id").fetchall()
+            finally:
+                conn.close()
+            assert abs(rows[0][0] - (160.0 - 145.0) / 145.0) < 1e-5
+            assert abs(rows[1][0] - (160.0 - 148.0) / 148.0) < 1e-5
+        finally:
+            os.unlink(tmp)
+
+    def test_does_not_call_analysis_when_no_open_positions(self):
+        tmp = _tmp_db()
+        try:
+            _init_db(tmp)
+            mocks = _fake_exit_mocks("Sell")
+            with patch.multiple("src.virtual_trader", **mocks):
+                run_virtual_exits(self._market(), "low", db_path=tmp)
+            mocks["get_technical_signal"].assert_not_called()
+        finally:
+            os.unlink(tmp)
+
+    def test_continues_after_per_ticker_exception(self):
+        tmp = _tmp_db()
+        try:
+            _init_db(tmp)
+            open_position("FAIL", "2026-06-01", 50.00, "Buy", '{}', db_path=tmp)
+            open_position("AAPL", "2026-06-01", 145.00, "Buy", '{}', db_path=tmp)
+            mocks = _fake_exit_mocks("Sell")
+            mocks["get_technical_signal"] = MagicMock(
+                side_effect=[RuntimeError("timeout"), {
+                    "ticker": "AAPL", "tier": "Sell", "direction": "sell",
+                    "buy_score": 0.1, "sell_score": 0.88, "reasons": [], "misses": [],
+                    "price": 160.0, "rsi": 76.0, "atr": 2.5,
+                }]
+            )
+            with patch.multiple("src.virtual_trader", **mocks):
+                run_virtual_exits(self._market(), "low", db_path=tmp)
+            open_t = get_open_tickers(db_path=tmp)
+            assert "FAIL" in open_t
+            assert "AAPL" not in open_t
+        finally:
+            os.unlink(tmp)

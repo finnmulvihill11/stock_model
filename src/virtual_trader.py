@@ -247,3 +247,52 @@ def run_virtual_entries(cache: dict, market: dict, geo_risk: str, db_path: Path 
             print(f"[VT]   Opened {ticker} @ ${tech_sig['price']:.2f} ({tier})")
         except Exception as e:
             print(f"[VT]   {ticker} entry failed: {e}")
+
+
+def run_virtual_exits(market: dict, geo_risk: str, db_path: Path = None) -> None:
+    """
+    Nightly: check every open virtual position. If the full two-pillar analysis
+    produces Sell or Strong Sell, close all open positions for that ticker.
+    Mirrors run_nightly() holdings analysis but targets virtual_trades, not the
+    real portfolio.
+    """
+    today = str(date.today())
+    open_tickers = get_open_tickers(db_path=db_path)
+    print(f"[VT] Nightly exits: {len(open_tickers)} ticker(s) with open positions")
+
+    for ticker in open_tickers:
+        try:
+            df = fetch_ohlcv(ticker)
+            df = add_all_indicators(df)
+            div = detect_rsi_divergence(df)
+            tech_sig = get_technical_signal(ticker)
+            fund = check_fundamentals(ticker)
+            gate = earnings_gate(ticker)
+            news = analyze_company(ticker)
+            rs_data = {}
+            try:
+                rs_data = get_relative_strength(ticker)
+            except Exception:
+                pass
+
+            tier = _final_tier(
+                tech_sig["tier"], fund["health"],
+                news.get("sentiment", "neutral"), gate["proceed"], geo_risk,
+            )
+            if tier not in ("Sell", "Strong Sell"):
+                print(f"[VT]   {ticker}: {tier} — holding")
+                continue
+
+            sz = size_swing_trade(
+                ticker, tech_sig["price"], tech_sig.get("atr") or 1,
+                tier=tier, portfolio_value=0, current_position_value=0,
+            )
+            metrics_json = build_metric_snapshot(
+                ticker, df, div, tech_sig, fund, gate, news, rs_data, market, tier, sz
+            )
+            count = close_open_positions_for_ticker(
+                ticker, today, tech_sig["price"], tier, metrics_json, db_path=db_path
+            )
+            print(f"[VT]   Closed {count} position(s) for {ticker} @ ${tech_sig['price']:.2f} ({tier})")
+        except Exception as e:
+            print(f"[VT]   {ticker} exit failed: {e}")
