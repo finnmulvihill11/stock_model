@@ -8,16 +8,16 @@
     "sell_score": 0.0,
     "reasons": [],
     "misses": [
-      "BB: price not near lower band (pct=0.67)",
+      "BB: price not near lower band (pct=0.62)",
       "BB Width: bands expanding, not squeezing",
-      "RSI: not in buy zone (48.4, need 20-30)",
+      "RSI: not in buy zone (54.1, need 20-30)",
       "MACD: no bullish crossover or valley",
       "RSI Divergence: no bullish divergence detected",
-      "Volume: below average (0.36x) \u2014 low conviction"
+      "Volume: below average (0.64x) \u2014 low conviction"
     ],
-    "price": 214.23,
-    "rsi": 48.4,
-    "atr": 6.27,
+    "price": 212.82,
+    "rsi": 54.1,
+    "atr": 6.25,
     "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 0,
@@ -51,7 +51,7 @@
       ],
       "earnings_status": "past",
       "next_earnings_date": "2026-04-28",
-      "days_to_earnings": -45
+      "days_to_earnings": -49
     }
   },
   "news": {
@@ -59,25 +59,25 @@
     "sentiment": "neutral",
     "health": "healthy",
     "key_events": [
+      "Earnings reported 49 days ago (cycle complete for next catalyst)",
       "No recent news items available for analysis",
-      "Earnings reported within past 45 days",
-      "Position +5.66% profitable"
+      "REIT sector tracking stable with VIX at neutral levels"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "No recent catalysts or news flow to support continuation",
-      "RSI at 48.4 shows no momentum firing",
-      "Extreme Fear sentiment may indicate capitulation but also uncertainty"
+      "Absence of recent news/catalysts suggests low near-term momentum",
+      "RSI at 54.1 indicates no overbought conditions but also no bullish divergence",
+      "No technical firing signals limits swing trading upside"
     ],
-    "verdict": "Profitable swing position in fundamentally healthy REIT with no technical momentum or recent news to justify holding longer.",
+    "verdict": "Healthy fundamentals with modest gains; position lacks near-term catalysts for aggressive swing trading but warrants holding given 4.97% profit cushion.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "WELL",
-    "stock_return_3m": 3.44,
-    "benchmark_return_3m": 12.3,
-    "relative_strength": -8.87,
+    "stock_return_3m": 1.6,
+    "benchmark_return_3m": 13.13,
+    "relative_strength": -11.53,
     "label": "underperforming"
   },
   "final_tier": "Hold",
@@ -87,5 +87,5 @@
     "note": "Price exceeds 60% conviction ceiling ($196) \u2014 skip or wait for Strong Buy"
   },
   "is_dca": false,
-  "saved_at": "2026-06-12T23:15:21.191514"
+  "saved_at": "2026-06-16T00:15:07.383047"
 }

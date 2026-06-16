@@ -3,19 +3,36 @@
     "ticker": "CMG",
     "company_name": "Chipotle Mexican Grill, Inc.",
     "action": "Hold",
-    "action_reason": "Position is +2.41% profitable and at low weight (4%). Absence of news and technical signals suggests waiting for either earnings catalyst (47d) or a clear momentum breakout before adding. The neutral technical setup doesn't justify trimming a winning trade.",
+    "action_reason": "4% gain is within normal swing range with no sell signals triggered. Earnings catalyst 43 days out provides defined risk/reward window; position weight (4.0%) is appropriate for this early-stage swing.",
     "target_price": 34.5,
     "target_reasoning": "",
-    "exit_trigger": "Trim 50% if price reaches $34.50 on high volume + RSI >70, or exit full position if breaks below $30.80 on volume (swing trade stop)",
-    "add_trigger": "Add if RSI breaks above 60 with volume confirmation + VIX stays <20, or hold for earnings surprise",
-    "risk": "High debt load amplifies downside if consumer spending slows; sentiment extremes could reverse sharply",
+    "exit_trigger": "Break below $31.00 (entry level + stop-loss buffer) OR close below 50-day MA with RSI <40, OR Extreme Fear deepens into market correction (-5%+ SPX)",
+    "add_trigger": "RSI climbs to 65-70 with price above $33.50 AND bullish volume confirmation during next 2 weeks",
+    "risk": "Debt load (2.2x) limits downside recovery if consumer spending softens; geopolitical escalation could hurt discretionary restaurant spending; earnings miss in 43d could trigger sharp reversal.",
     "outlook": "neutral",
-    "timeframe": "2-6 weeks (until earnings provide directional clarity)",
-    "generated_at": "2026-06-12T23:15:14.199465",
-    "price_at_generation": 32.23,
-    "pnl_at_generation": 2.41
+    "timeframe": "2-6 weeks",
+    "generated_at": "2026-06-16T00:14:58.680809",
+    "price_at_generation": 32.73,
+    "pnl_at_generation": 4.0
   },
   "history": [
+    {
+      "ticker": "CMG",
+      "company_name": "Chipotle Mexican Grill, Inc.",
+      "action": "Hold",
+      "action_reason": "Position is +2.41% profitable and at low weight (4%). Absence of news and technical signals suggests waiting for either earnings catalyst (47d) or a clear momentum breakout before adding. The neutral technical setup doesn't justify trimming a winning trade.",
+      "target_price": 34.5,
+      "target_reasoning": "",
+      "exit_trigger": "Trim 50% if price reaches $34.50 on high volume + RSI >70, or exit full position if breaks below $30.80 on volume (swing trade stop)",
+      "add_trigger": "Add if RSI breaks above 60 with volume confirmation + VIX stays <20, or hold for earnings surprise",
+      "risk": "High debt load amplifies downside if consumer spending slows; sentiment extremes could reverse sharply",
+      "outlook": "neutral",
+      "timeframe": "2-6 weeks (until earnings provide directional clarity)",
+      "generated_at": "2026-06-12T23:15:14.199465",
+      "price_at_generation": 32.23,
+      "pnl_at_generation": 2.41,
+      "archived_at": "2026-06-16T00:14:58.681010"
+    },
     {
       "ticker": "CMG",
       "company_name": "Chipotle Mexican Grill, Inc.",
@@ -117,23 +134,6 @@
       "price_at_generation": 28.18,
       "pnl_at_generation": -10.45,
       "archived_at": "2026-06-05T23:05:57.215514"
-    },
-    {
-      "ticker": "CMG",
-      "company_name": "Chipotle Mexican Grill, Inc.",
-      "action": "Hold",
-      "action_reason": "Position is down 8.67% (within acceptable swing trade drawdown), RSI 27.9 is deeply oversold, and earnings catalyst is 55 days away. Per philosophy, do not trim losers; wait for technical recovery or add on weakness below $27.",
-      "target_price": 32.5,
-      "target_reasoning": "",
-      "exit_trigger": "Break below RSI 20 + negative earnings surprise, or recover to $32.50+ (entry level) for reassessment",
-      "add_trigger": "Oversold bounce fails + RSI falls to 20 and price tests $27 support; adds 2-3 shares if conviction remains",
-      "risk": "High leverage (2.2x D/E) amplifies downside if consumer spending weakens; geopolitical escalation could pressure discretionary sector",
-      "outlook": "cautious",
-      "timeframe": "3-6 weeks (until oversold recovery or earnings approach)",
-      "generated_at": "2026-06-04T04:12:00.225129",
-      "price_at_generation": 28.74,
-      "pnl_at_generation": -8.67,
-      "archived_at": "2026-06-04T23:07:28.032957"
     }
   ]
 }
