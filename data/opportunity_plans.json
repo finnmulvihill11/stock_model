@@ -1,23 +1,4 @@
 {
-  "saved_at": "2026-06-16T03:19:58.025132",
-  "plans": [
-    {
-      "conviction": "medium",
-      "buy_case": "SBAC is flashing a textbook mean-reversion setup: price at the lower Bollinger Band with RSI divergence (price making lower lows while RSI holds higher lows) signals exhaustion of downside. The golden cross and price above 200MA confirm the longer-term uptrend is intact, making this a high-probability bounce play in a calm VIX environment.",
-      "entry_condition": "Enter on a close above $196.50 on elevated volume (confirmation of reversal), or wait for RSI to dip to 28\u201330 range for a tighter risk entry. Do NOT chase above $198\u2014the setup loses edge if price breaks the recent high without consolidation.",
-      "suggested_entry_price": 196.5,
-      "target_price": 205.0,
-      "exit_condition": "Take profit at $205 (upper BB / initial resistance). Hard stop: close below $193.50 (breaks lower BB support and negates the divergence signal). If RSI climbs above 65 on no volume, trim half position\u2014momentum fade risk is real.",
-      "timeframe": "2\u20134 weeks. This is a mean-reversion swing, not a multi-month hold. Lock in gains quickly.",
-      "risk": "Fundamental data is sparse; neutral headline risk is acceptable but monitor earnings/telecom sector news closely. Real estate sentiment can shift fast. Position size (1 share = $196) is manageable for your $3.2K portfolio, but SBAC is a dividend REITs\u2014tax drag on frequent trading. Liquidity is solid, so exit risk is low.",
-      "priority": "medium",
-      "ticker": "SBAC",
-      "company_name": "SBA Communications Corporation",
-      "price": 195.82,
-      "suggested_dollars": 195.82,
-      "suggested_shares": 1,
-      "final_tier": "Buy",
-      "previously_owned": false
-    }
-  ]
+  "saved_at": "2026-06-16T13:09:07.649196",
+  "plans": []
 }

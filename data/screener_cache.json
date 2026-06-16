@@ -1,31 +1,5 @@
 {
-  "generated_at": "2026-06-16T03:19:47.339962",
-  "count": 1,
-  "results": [
-    {
-      "ticker": "SBAC",
-      "direction": "buy",
-      "tier": "Buy",
-      "buy_score": 0.75,
-      "sell_score": 0.43,
-      "reasons": [
-        "BB: price near lower band (pct=0.01)",
-        "BB Width: squeeze active (width=0.0752)",
-        "RSI Divergence: Price lower low (196.21 < 198.42) but RSI higher low (37.7 > 36.9)",
-        "200MA: price at/above 200MA (195.82 vs 194.10)",
-        "Golden cross: 50MA (210.13) above 200MA (194.10)",
-        "Volume: above average (2.70x)"
-      ],
-      "misses": [
-        "RSI: not in buy zone (41.2, need 20-30)",
-        "MACD: no bullish crossover or valley"
-      ],
-      "price": 195.82,
-      "rsi": 41.2,
-      "atr": 6.91,
-      "relative_strength": -8.13,
-      "rs_label": "underperforming",
-      "previously_owned": false
-    }
-  ]
+  "generated_at": "2026-06-16T13:09:07.648892",
+  "count": 0,
+  "results": []
 }
