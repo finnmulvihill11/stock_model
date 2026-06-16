@@ -57,19 +57,19 @@
     "sentiment": "neutral",
     "health": "healthy",
     "key_events": [
-      "No recent news catalysts identified",
-      "Earnings 44 days out \u2014 sufficient runway for recovery",
-      "VIX at 16.2 indicates stable market conditions",
-      "Extreme Fear gauge suggests potential capitulation near"
+      "No recent news available for assessment",
+      "RSI at 38.7 indicates oversold conditions",
+      "Earnings 44 days away provides runway for recovery",
+      "Market in Extreme Fear creating potential opportunity"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "RSI 38.7 approaching oversold (30) \u2014 minor weakness signal",
-      "No technical firing patterns; momentum flat",
-      "Geopolitical moderate risk could pressure ag/chemical sector"
+      "No news flow detected - lack of positive catalysts",
+      "3.41% drawdown with no technical firing signals",
+      "Geopolitical risk unassessed - potential headwind for agricultural sector"
     ],
-    "verdict": "Healthy fundamentals with minor technical weakness; hold through near-term drawdown and allow recovery window before earnings.",
+    "verdict": "CTVA is oversold technically with healthy fundamentals; hold for mean reversion as Extreme Fear sentiment creates swing trading opportunity.",
     "confidence": "medium"
   },
   "relative_strength": {
@@ -86,5 +86,5 @@
     "note": "2 sh @ $75.71 = $151 (Hold, 60% size) | $939 swing budget after"
   },
   "is_dca": false,
-  "saved_at": "2026-06-16T00:15:13.987543"
+  "saved_at": "2026-06-16T03:26:31.949192"
 }

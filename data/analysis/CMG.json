@@ -60,22 +60,20 @@
   "news": {
     "ticker": "CMG",
     "sentiment": "neutral",
-    "health": "healthy",
+    "health": "neutral",
     "key_events": [
-      "Position up 4.0% with modest gain potential",
-      "RSI at 57.3 indicates mid-range momentum (neither overbought nor oversold)",
-      "Earnings 43 days out provides runway for swing trade development",
-      "VIX 16.2 reflects neutral market volatility environment"
+      "No recent news items available for analysis",
+      "Earnings report 43 days away (early December timeframe)",
+      "Market environment shows extreme fear despite neutral VIX"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "High debt-to-equity ratio of 2.2x raises financial leverage concerns",
-      "Fear & Greed Index at Extreme Fear suggests risk-off sentiment could pressure equities",
-      "No technical firing signals limits near-term catalysts",
-      "Geopolitical risk at moderate baseline could trigger sector rotation away from discretionary"
+      "High debt-to-equity ratio (2.2x) limits financial flexibility",
+      "No technical momentum \u2014 RSI at 57.3 is mid-range with no firing signals",
+      "Fear & Greed Index at Extreme Fear suggests potential sentiment disconnect"
     ],
-    "verdict": "CMG is modestly profitable with neutral technicals and healthy fundamentals; hold for swing trade development while monitoring debt levels and market sentiment.",
+    "verdict": "Position is modestly profitable but lacks catalysts or technical conviction; hold for swing trade completion without adding exposure.",
     "confidence": "medium"
   },
   "relative_strength": {
@@ -92,5 +90,5 @@
     "note": "5 sh @ $32.73 = $164 (Hold, 60% size) | $927 swing budget after"
   },
   "is_dca": false,
-  "saved_at": "2026-06-16T00:14:58.681565"
+  "saved_at": "2026-06-16T03:26:15.446529"
 }

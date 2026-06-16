@@ -3,19 +3,36 @@
     "ticker": "CTVA",
     "company_name": "Corteva, Inc.",
     "action": "Hold",
-    "action_reason": "Position down only 3.41% (well below 15% threshold). Fundamental health intact, earnings catalyst 44 days away provides ample recovery time, and market conditions remain neutral. No exit signal warranted.",
-    "target_price": 82.5,
+    "action_reason": "Position is down only 3.41% (well below 15% exit threshold), RSI oversold suggests bounce potential, and distant earnings provide catalyst window. Extreme Fear creates asymmetric risk/reward.",
+    "target_price": 79.5,
     "target_reasoning": "",
-    "exit_trigger": "Close below $70 or material negative earnings guidance; breach of major support with volume confirmation",
-    "add_trigger": "RSI drops to 25-28 (true oversold) + positive ag sector news or crop price strength",
-    "risk": "Geopolitical escalation impacting commodity prices; sector rotation out of industrials/agriculture if broader market momentum weakens",
+    "exit_trigger": "Close below $74.00 on volume (break of technical support) OR deteriorating fundamentals emerge before earnings",
+    "add_trigger": "RSI drops below 30 (extreme oversold) on down volume; or positive news catalyst on geopolitical/supply developments",
+    "risk": "Agricultural commodity exposure to geopolitical disruptions; sector rotation into tech during fear relief; missed earnings surprise",
     "outlook": "cautious",
-    "timeframe": "3-6 weeks (to earnings catalyst)",
-    "generated_at": "2026-06-16T00:15:13.986757",
+    "timeframe": "2-4 weeks (targeting RSI bounce to 50-55 range before earnings)",
+    "generated_at": "2026-06-16T03:26:31.948458",
     "price_at_generation": 75.71,
     "pnl_at_generation": -3.41
   },
   "history": [
+    {
+      "ticker": "CTVA",
+      "company_name": "Corteva, Inc.",
+      "action": "Hold",
+      "action_reason": "Position down only 3.41% (well below 15% threshold). Fundamental health intact, earnings catalyst 44 days away provides ample recovery time, and market conditions remain neutral. No exit signal warranted.",
+      "target_price": 82.5,
+      "target_reasoning": "",
+      "exit_trigger": "Close below $70 or material negative earnings guidance; breach of major support with volume confirmation",
+      "add_trigger": "RSI drops to 25-28 (true oversold) + positive ag sector news or crop price strength",
+      "risk": "Geopolitical escalation impacting commodity prices; sector rotation out of industrials/agriculture if broader market momentum weakens",
+      "outlook": "cautious",
+      "timeframe": "3-6 weeks (to earnings catalyst)",
+      "generated_at": "2026-06-16T00:15:13.986757",
+      "price_at_generation": 75.71,
+      "pnl_at_generation": -3.41,
+      "archived_at": "2026-06-16T03:26:31.948648"
+    },
     {
       "ticker": "CTVA",
       "company_name": "Corteva, Inc.",
@@ -117,23 +134,6 @@
       "price_at_generation": 77.03,
       "pnl_at_generation": -1.72,
       "archived_at": "2026-06-08T23:11:34.977934"
-    },
-    {
-      "ticker": "CTVA",
-      "company_name": "Corteva, Inc.",
-      "action": "Hold",
-      "action_reason": "Position is down only 1.17% (well within normal swing range) with RSI deeply oversold at 23.5. Fundamentals remain healthy and earnings catalyst is 56 days away. Per philosophy, never exit winners or near-breakeven positions; this warrants patience for technical recovery.",
-      "target_price": 82.5,
-      "target_reasoning": "",
-      "exit_trigger": "Only exit if fundamentals deteriorate OR position becomes profitable and closes above $83 on high volume (take partial profits)",
-      "add_trigger": "If CTVA drops to $75.00 with RSI below 20 + positive agricultural/commodity news emerges",
-      "risk": "Commodity price headwinds (grain/fertilizer cycles); geopolitical disruption to ag supply chains; sector rotation away from cyclicals if recession fears intensify",
-      "outlook": "cautious",
-      "timeframe": "4-8 weeks",
-      "generated_at": "2026-06-04T23:07:48.553362",
-      "price_at_generation": 77.46,
-      "pnl_at_generation": -1.17,
-      "archived_at": "2026-06-05T23:06:09.476489"
     }
   ]
 }
