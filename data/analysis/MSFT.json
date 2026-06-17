@@ -4,20 +4,19 @@
     "ticker": "MSFT",
     "direction": "hold",
     "tier": "Hold",
-    "buy_score": 0.25,
+    "buy_score": 0.38,
     "sell_score": 0.14,
     "reasons": [],
     "misses": [
-      "BB: price not near lower band (pct=0.24)",
       "BB Width: bands expanding, not squeezing",
-      "RSI: not in buy zone (42.8, need 20-30)",
+      "RSI: not in buy zone (40.3, need 20-30)",
       "RSI Divergence: no bullish divergence detected",
       "200MA: price below 200MA \u2014 potential falling knife",
-      "Volume: below average (0.86x) \u2014 low conviction"
+      "Volume: below average (0.85x) \u2014 low conviction"
     ],
-    "price": 399.76,
-    "rsi": 42.8,
-    "atr": 13.46,
+    "price": 393.83,
+    "rsi": 40.3,
+    "atr": 13.65,
     "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 0,
@@ -59,26 +58,26 @@
     "sentiment": "neutral",
     "health": "healthy",
     "key_events": [
-      "Earnings reported 48 days ago (past cycle)",
-      "Position down 14.43% from entry",
-      "RSI at 42.8 indicates oversold territory approaching",
-      "Market sentiment: Extreme Fear with neutral volatility (VIX 16.2)"
+      "Earnings reported 48 days ago",
+      "Market experiencing extreme fear sentiment despite neutral VIX",
+      "Moderate geopolitical risk present"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "No recent news available for assessment",
-      "Geopolitical risk marked as MODERATE but unconfirmed",
-      "Technical: no firing signals despite oversold conditions"
+      "Position down 15.70% with significant portfolio weight (24.3%)",
+      "RSI at 40.3 indicates weakness but not oversold",
+      "No technical firing signals for recovery",
+      "Absence of current news data limits assessment"
     ],
-    "verdict": "MSFT fundamentals remain healthy; current drawdown appears technical/sentiment-driven rather than fundamental deterioration.",
+    "verdict": "MSFT fundamentals remain healthy despite technical weakness; position warrants patience given your philosophy, but sizing concern exists.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "MSFT",
-    "stock_return_3m": 0.17,
-    "benchmark_return_3m": 13.13,
-    "relative_strength": -12.96,
+    "stock_return_3m": -1.18,
+    "benchmark_return_3m": 12.16,
+    "relative_strength": -13.35,
     "label": "underperforming"
   },
   "final_tier": "Hold",
@@ -88,5 +87,5 @@
     "note": "Position already at 20% portfolio cap"
   },
   "is_dca": false,
-  "saved_at": "2026-06-16T03:25:51.927359"
+  "saved_at": "2026-06-16T23:59:46.820784"
 }

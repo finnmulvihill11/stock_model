@@ -3,19 +3,36 @@
     "ticker": "INTU",
     "company_name": "Intuit Inc.",
     "action": "Hold",
-    "action_reason": "Position is down 39.83%, triggering your policy to hold through major losers. RSI 34.7 (oversold) offers potential mean reversion, but lack of positive firing signals warrants patience rather than averaging down.",
-    "target_price": null,
+    "action_reason": "Position is down 40% (exceeds 15% threshold), triggering your hold-through-major-losers rule. Healthy fundamentals + oversold RSI + Extreme Fear sentiment suggest capitulation rather than deterioration. Wait for technical confirmation of reversal before adding.",
+    "target_price": 385,
     "target_reasoning": "",
-    "exit_trigger": "Breach of $265 (lower support) OR negative guidance revision when earnings next reported",
-    "add_trigger": "RSI >25 with bullish divergence + positive earnings surprise OR broad market rally (+3% VIX compression)",
-    "risk": "Further deterioration if INTU reports weakness next quarter; concentration risk at 25.9% weight amplifies downside impact",
+    "exit_trigger": "Fundamentals deteriorate (revenue/margin compression) OR break below $260 (new 52-week lows on heavy volume)",
+    "add_trigger": "RSI bounces above 50 + volume spike OR positive earnings guidance revision + close above $320",
+    "risk": "Macro downturn, software spending pullback, or earnings miss could extend losses; 26% portfolio weight is dangerous in prolonged weakness",
     "outlook": "cautious",
-    "timeframe": "4-8 weeks (monitor for next earnings catalyst or technical recovery signals)",
-    "generated_at": "2026-06-16T03:25:45.493962",
-    "price_at_generation": 281.77,
-    "pnl_at_generation": -39.83
+    "timeframe": "4-8 weeks to RSI signal recovery; reassess fundamentals at next earnings",
+    "generated_at": "2026-06-16T23:59:40.628111",
+    "price_at_generation": 280.99,
+    "pnl_at_generation": -40.0
   },
   "history": [
+    {
+      "ticker": "INTU",
+      "company_name": "Intuit Inc.",
+      "action": "Hold",
+      "action_reason": "Position is down 39.83%, triggering your policy to hold through major losers. RSI 34.7 (oversold) offers potential mean reversion, but lack of positive firing signals warrants patience rather than averaging down.",
+      "target_price": null,
+      "target_reasoning": "",
+      "exit_trigger": "Breach of $265 (lower support) OR negative guidance revision when earnings next reported",
+      "add_trigger": "RSI >25 with bullish divergence + positive earnings surprise OR broad market rally (+3% VIX compression)",
+      "risk": "Further deterioration if INTU reports weakness next quarter; concentration risk at 25.9% weight amplifies downside impact",
+      "outlook": "cautious",
+      "timeframe": "4-8 weeks (monitor for next earnings catalyst or technical recovery signals)",
+      "generated_at": "2026-06-16T03:25:45.493962",
+      "price_at_generation": 281.77,
+      "pnl_at_generation": -39.83,
+      "archived_at": "2026-06-16T23:59:40.628323"
+    },
     {
       "ticker": "INTU",
       "company_name": "Intuit Inc.",
@@ -117,23 +134,6 @@
       "price_at_generation": 305.51,
       "pnl_at_generation": -34.76,
       "archived_at": "2026-06-09T23:16:21.700358"
-    },
-    {
-      "ticker": "INTU",
-      "company_name": "Intuit Inc.",
-      "action": "Hold",
-      "action_reason": "Position is -36.63% down, triggering your non-negotiable hold rule. RSI 30 signals oversold bounce potential. Earnings already cleared; next catalyst is forward guidance/product updates. Avoid forced exit in Extreme Fear environment.",
-      "target_price": 385,
-      "target_reasoning": "",
-      "exit_trigger": "Only exit if fundamentals deteriorate (missed guidance, market share loss, or macro recession signals). Otherwise, hold until position recovers to breakeven or shows 2-3 consecutive weeks of weakness below $280.",
-      "add_trigger": "Add only if RSI holds <20 AND market-wide Fear subsides (VIX <18) AND next earnings beats with positive guidance. Otherwise conserve dry powder.",
-      "risk": "Sector rotation away from software/SaaS; broader economic slowdown impacting SMB customer base; concentration risk at 27.1% of portfolio.",
-      "outlook": "cautious",
-      "timeframe": "4-8 weeks (waiting for post-earnings stabilization + potential Q2/Q3 guidance reset)",
-      "generated_at": "2026-06-05T23:05:27.083624",
-      "price_at_generation": 296.76,
-      "pnl_at_generation": -36.63,
-      "archived_at": "2026-06-08T23:10:48.637921"
     }
   ]
 }

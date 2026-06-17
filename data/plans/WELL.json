@@ -3,19 +3,36 @@
     "ticker": "WELL",
     "company_name": "Welltower Inc.",
     "action": "Hold",
-    "action_reason": "Position is up 4.97% with healthy fundamentals and neutral technicals. Without fresh catalysts or deteriorating technicals, holding allows participation in potential upside while respecting the lack of clear entry/exit signals. The Extreme Fear backdrop could reverse sharply if sentiment improves.",
+    "action_reason": "Position is modestly profitable (+5.3%) with healthy fundamentals and neutral technicals. No compelling reason to exit a winner, but lack of technical firing signals and upcoming catalysts suggests waiting for clearer directional confirmation before adding.",
     "target_price": 220,
     "target_reasoning": "",
-    "exit_trigger": "RSI falls below 40 on high volume or break below $205 (recent support); alternatively exit if position hits +8-10% on next micro-rally to lock in swing gains",
-    "add_trigger": "RSI drops to 35-40 range with confirmed support at $205-207, indicating flush before recovery; requires positive news catalyst or sector strength",
-    "risk": "REIT sector sensitivity to rising rates; lack of near-term catalysts could lead to sideways consolidation; geopolitical escalation could spook broader market",
+    "exit_trigger": "Close below $205 (support near entry) or break below RSI 40 on volume; or if position reaches +15% profit and closes below 20-day MA",
+    "add_trigger": "RSI breaks above 65 on earnings-driven volume, or position breaks above $220 with VIX compression below 14",
+    "risk": "Sector rotation away from REITs; rising rates pressure valuations; lack of near-term news catalysts may lead to consolidation or pullback",
     "outlook": "neutral",
-    "timeframe": "2-4 weeks (waiting for next earnings or macro clarity)",
-    "generated_at": "2026-06-16T03:26:23.557430",
-    "price_at_generation": 212.82,
-    "pnl_at_generation": 4.97
+    "timeframe": "2-4 weeks",
+    "generated_at": "2026-06-17T00:00:18.133235",
+    "price_at_generation": 213.5,
+    "pnl_at_generation": 5.3
   },
   "history": [
+    {
+      "ticker": "WELL",
+      "company_name": "Welltower Inc.",
+      "action": "Hold",
+      "action_reason": "Position is up 4.97% with healthy fundamentals and neutral technicals. Without fresh catalysts or deteriorating technicals, holding allows participation in potential upside while respecting the lack of clear entry/exit signals. The Extreme Fear backdrop could reverse sharply if sentiment improves.",
+      "target_price": 220,
+      "target_reasoning": "",
+      "exit_trigger": "RSI falls below 40 on high volume or break below $205 (recent support); alternatively exit if position hits +8-10% on next micro-rally to lock in swing gains",
+      "add_trigger": "RSI drops to 35-40 range with confirmed support at $205-207, indicating flush before recovery; requires positive news catalyst or sector strength",
+      "risk": "REIT sector sensitivity to rising rates; lack of near-term catalysts could lead to sideways consolidation; geopolitical escalation could spook broader market",
+      "outlook": "neutral",
+      "timeframe": "2-4 weeks (waiting for next earnings or macro clarity)",
+      "generated_at": "2026-06-16T03:26:23.557430",
+      "price_at_generation": 212.82,
+      "pnl_at_generation": 4.97,
+      "archived_at": "2026-06-17T00:00:18.133453"
+    },
     {
       "ticker": "WELL",
       "company_name": "Welltower Inc.",
@@ -117,23 +134,6 @@
       "price_at_generation": 200.0,
       "pnl_at_generation": -1.36,
       "archived_at": "2026-06-09T23:17:00.702788"
-    },
-    {
-      "ticker": "WELL",
-      "company_name": "Welltower Inc.",
-      "action": "Hold",
-      "action_reason": "Position is +2.06% profitable and fundamentals remain healthy. RSI and lack of technical firing suggest consolidation phase rather than trend confirmation. No catalyst or reversal signal warrants exit of a winning trade.",
-      "target_price": null,
-      "target_reasoning": "",
-      "exit_trigger": "Close below $200 on daily with confirmed support break, or deteriorating fundamental health announcement",
-      "add_trigger": "Pullback to $203-$204 range with RSI <30 and positive earnings/dividend news, or breakout above $210 on volume",
-      "risk": "Sector rotation away from healthcare REITs in higher-rate environment; geopolitical escalation impacting risk appetite",
-      "outlook": "neutral",
-      "timeframe": "2-4 weeks \u2014 awaiting next catalyst or earnings guidance update",
-      "generated_at": "2026-06-05T23:06:03.330803",
-      "price_at_generation": 206.93,
-      "pnl_at_generation": 2.06,
-      "archived_at": "2026-06-08T23:11:28.482299"
     }
   ]
 }

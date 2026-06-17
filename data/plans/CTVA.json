@@ -3,19 +3,36 @@
     "ticker": "CTVA",
     "company_name": "Corteva, Inc.",
     "action": "Hold",
-    "action_reason": "Position is down only 3.41% (well below 15% exit threshold), RSI oversold suggests bounce potential, and distant earnings provide catalyst window. Extreme Fear creates asymmetric risk/reward.",
-    "target_price": 79.5,
+    "action_reason": "Loss is only 1.93% (well within normal swing trade variance) and position is well above the 15% threshold for forced holding. Earnings in 43 days provides a defined catalyst window.",
+    "target_price": 81.5,
     "target_reasoning": "",
-    "exit_trigger": "Close below $74.00 on volume (break of technical support) OR deteriorating fundamentals emerge before earnings",
-    "add_trigger": "RSI drops below 30 (extreme oversold) on down volume; or positive news catalyst on geopolitical/supply developments",
-    "risk": "Agricultural commodity exposure to geopolitical disruptions; sector rotation into tech during fear relief; missed earnings surprise",
-    "outlook": "cautious",
-    "timeframe": "2-4 weeks (targeting RSI bounce to 50-55 range before earnings)",
-    "generated_at": "2026-06-16T03:26:31.948458",
-    "price_at_generation": 75.71,
-    "pnl_at_generation": -3.41
+    "exit_trigger": "Break below $75.00 on high volume, or close below 50-day MA with deteriorating fundamentals",
+    "add_trigger": "RSI drops to 30-35 range with volume confirmation, or positive pre-earnings analyst upgrades",
+    "risk": "Agricultural commodity exposure to geopolitical disruptions; Extreme Fear sentiment could drive sector rotation outflows",
+    "outlook": "neutral",
+    "timeframe": "3-6 weeks until earnings; reassess if technical structure breaks down",
+    "generated_at": "2026-06-17T00:00:24.811876",
+    "price_at_generation": 76.87,
+    "pnl_at_generation": -1.93
   },
   "history": [
+    {
+      "ticker": "CTVA",
+      "company_name": "Corteva, Inc.",
+      "action": "Hold",
+      "action_reason": "Position is down only 3.41% (well below 15% exit threshold), RSI oversold suggests bounce potential, and distant earnings provide catalyst window. Extreme Fear creates asymmetric risk/reward.",
+      "target_price": 79.5,
+      "target_reasoning": "",
+      "exit_trigger": "Close below $74.00 on volume (break of technical support) OR deteriorating fundamentals emerge before earnings",
+      "add_trigger": "RSI drops below 30 (extreme oversold) on down volume; or positive news catalyst on geopolitical/supply developments",
+      "risk": "Agricultural commodity exposure to geopolitical disruptions; sector rotation into tech during fear relief; missed earnings surprise",
+      "outlook": "cautious",
+      "timeframe": "2-4 weeks (targeting RSI bounce to 50-55 range before earnings)",
+      "generated_at": "2026-06-16T03:26:31.948458",
+      "price_at_generation": 75.71,
+      "pnl_at_generation": -3.41,
+      "archived_at": "2026-06-17T00:00:24.812103"
+    },
     {
       "ticker": "CTVA",
       "company_name": "Corteva, Inc.",
@@ -117,23 +134,6 @@
       "price_at_generation": 75.86,
       "pnl_at_generation": -3.22,
       "archived_at": "2026-06-09T23:17:07.567717"
-    },
-    {
-      "ticker": "CTVA",
-      "company_name": "Corteva, Inc.",
-      "action": "Hold",
-      "action_reason": "Loss is minor (-1.72%) and well within acceptable swing trade drawdown. Oversold RSI (25.0) and healthy fundamentals create asymmetric opportunity; no exit triggers met. Let position stabilize and watch for accumulation signals.",
-      "target_price": 81.5,
-      "target_reasoning": "",
-      "exit_trigger": "Break below $75.00 on high volume with deteriorating fundamentals OR RSI drops below 20 on earnings warning",
-      "add_trigger": "RSI bounces to 30-35 range with volume confirmation, or any material positive agricultural/market news catalyst",
-      "risk": "Agricultural commodity exposure during uncertain macro conditions; extended geopolitical tensions could pressure input costs and farmer demand",
-      "outlook": "neutral",
-      "timeframe": "3-6 weeks (hold through earnings announcement window)",
-      "generated_at": "2026-06-05T23:06:09.476300",
-      "price_at_generation": 77.03,
-      "pnl_at_generation": -1.72,
-      "archived_at": "2026-06-08T23:11:34.977934"
     }
   ]
 }

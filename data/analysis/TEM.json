@@ -4,24 +4,25 @@
     "ticker": "TEM",
     "direction": "hold",
     "tier": "Hold",
-    "buy_score": 0.38,
-    "sell_score": 0.57,
+    "buy_score": 0.25,
+    "sell_score": 0.29,
     "reasons": [],
     "misses": [
-      "BB: price not near lower band (pct=0.88)",
-      "RSI: not in buy zone (56.1, need 20-30)",
+      "BB: price not near lower band (pct=0.69)",
+      "RSI: not in buy zone (52.5, need 20-30)",
       "MACD: no bullish crossover or valley",
       "RSI Divergence: no bullish divergence detected",
-      "200MA: price below 200MA \u2014 potential falling knife"
+      "200MA: price below 200MA \u2014 potential falling knife",
+      "Volume: below average (0.92x) \u2014 low conviction"
     ],
-    "price": 52.32,
-    "rsi": 56.1,
-    "atr": 4.34,
+    "price": 50.56,
+    "rsi": 52.5,
+    "atr": 4.47,
     "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 3,
-      "suggested_dollars": 156.96,
-      "note": "3 sh @ $52.32 = $157 (Hold, 60% size) | $933 swing budget after"
+      "suggested_dollars": 151.68,
+      "note": "3 sh @ $50.56 = $152 (Hold, 60% size) | $938 swing budget after"
     }
   },
   "fundamentals": {
@@ -59,34 +60,35 @@
     "health": "deteriorating",
     "key_events": [
       "No recent news available for assessment",
-      "Earnings reported 42 days ago",
-      "Stock down 24.26% from entry"
+      "Earnings reported 42 days ago with significant negative reaction",
+      "Market sentiment extreme fear (F&G)"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "High debt-to-equity ratio (3.2x) indicating leverage risk",
-      "Not profitable with negative operating cash flow",
-      "Extreme fear sentiment in market",
-      "No positive catalysts identified",
-      "RSI neutral at 56.1 \u2014 no oversold bounce setup yet"
+      "Debt-to-equity ratio 3.2x indicates high leverage and refinancing risk",
+      "Not profitable with negative operating cash flow \u2014 unsustainable burn",
+      "26.81% drawdown suggests market loss of confidence in turnaround thesis",
+      "RSI 52.5 shows no oversold conditions for bounce confirmation",
+      "No technical firing signals despite weakness \u2014 lacks reversal conviction",
+      "42-day post-earnings silence indicates limited catalyst visibility"
     ],
-    "verdict": "Deteriorating fundamentals with no news catalyst support; position is a significant underperformer requiring close monitoring for stabilization signals.",
+    "verdict": "Tempus AI shows fundamental deterioration with unsustainable unit economics, but position is locked under the 15% rule; hold with extreme caution pending concrete evidence of burn-rate correction or clinical validation catalysts.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "TEM",
-    "stock_return_3m": 2.83,
-    "benchmark_return_3m": 13.13,
-    "relative_strength": -10.3,
+    "stock_return_3m": -0.55,
+    "benchmark_return_3m": 12.16,
+    "relative_strength": -12.71,
     "label": "underperforming"
   },
   "final_tier": "Hold",
   "sizing": {
     "suggested_shares": 3,
-    "suggested_dollars": 156.96,
-    "note": "3 sh @ $52.32 = $157 (Hold, 60% size) | $933 swing budget after"
+    "suggested_dollars": 151.68,
+    "note": "3 sh @ $50.56 = $152 (Hold, 60% size) | $938 swing budget after"
   },
   "is_dca": false,
-  "saved_at": "2026-06-16T03:26:07.091848"
+  "saved_at": "2026-06-17T00:00:02.481987"
 }

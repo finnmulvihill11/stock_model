@@ -8,22 +8,22 @@
     "sell_score": 0.43,
     "reasons": [],
     "misses": [
-      "BB: price not near lower band (pct=0.56)",
-      "RSI: not in buy zone (48.4, need 20-30)",
+      "BB: price not near lower band (pct=0.81)",
+      "RSI: not in buy zone (54.5, need 20-30)",
       "MACD: no bullish crossover or valley",
       "RSI Divergence: no bullish divergence detected",
       "200MA: price below 200MA \u2014 potential falling knife",
-      "Death cross active: 50MA (90.84) below 200MA (113.28)",
-      "Volume: below average (0.87x) \u2014 low conviction"
+      "Death cross active: 50MA (90.62) below 200MA (113.08)",
+      "Volume: below average (0.79x) \u2014 low conviction"
     ],
-    "price": 88.67,
-    "rsi": 48.4,
-    "atr": 2.04,
+    "price": 90.62,
+    "rsi": 54.5,
+    "atr": 2.05,
     "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 2,
-      "suggested_dollars": 177.34,
-      "note": "2 sh @ $88.67 = $177 (Hold, 60% size) | $913 swing budget after"
+      "suggested_dollars": 181.24,
+      "note": "2 sh @ $90.62 = $181 (Hold, 60% size) | $909 swing budget after"
     }
   },
   "fundamentals": {
@@ -60,34 +60,34 @@
     "sentiment": "neutral",
     "health": "healthy",
     "key_events": [
-      "No recent news available for assessment",
-      "Earnings cycle complete (61 days past)",
-      "Market environment: Extreme Fear sentiment despite neutral VIX"
+      "Earnings reported 61 days ago (fundamentals remain solid)",
+      "Stock down 17.45% from entry despite healthy financials",
+      "RSI at 54.5 indicates neither overbought nor oversold conditions",
+      "Market in Extreme Fear (potential capitulation)"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "19.22% drawdown suggests sector or company-specific pressure",
-      "RSI 48.4 indicates neither oversold nor overbought\u2014no technical support forming",
-      "No bullish technical firing patterns despite healthy fundamentals",
-      "Lack of recent news/catalysts limits recovery conviction"
+      "No recent news data available for sentiment confirmation",
+      "Significant drawdown despite healthy fundamentals suggests sector/market headwinds",
+      "Position weight at 5.6% with unrealized loss concentrates risk"
     ],
-    "verdict": "ABT remains fundamentally sound but lacks near-term catalysts; position is underwater and requires patience per strategy rules.",
+    "verdict": "ABT is a fundamentally sound healthcare name caught in broader market weakness; hold and use fear-driven dips to average down.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "ABT",
-    "stock_return_3m": -18.85,
-    "benchmark_return_3m": 13.13,
-    "relative_strength": -31.98,
+    "stock_return_3m": -17.63,
+    "benchmark_return_3m": 12.16,
+    "relative_strength": -29.8,
     "label": "underperforming"
   },
   "final_tier": "Hold",
   "sizing": {
     "suggested_shares": 2,
-    "suggested_dollars": 177.34,
-    "note": "2 sh @ $88.67 = $177 (Hold, 60% size) | $913 swing budget after"
+    "suggested_dollars": 181.24,
+    "note": "2 sh @ $90.62 = $181 (Hold, 60% size) | $909 swing budget after"
   },
   "is_dca": false,
-  "saved_at": "2026-06-16T03:25:59.005143"
+  "saved_at": "2026-06-16T23:59:54.358504"
 }

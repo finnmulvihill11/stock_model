@@ -10,15 +10,15 @@
     "misses": [
       "BB: price not near lower band (pct=0.26)",
       "BB Width: bands expanding, not squeezing",
-      "RSI: not in buy zone (34.7, need 20-30)",
+      "RSI: not in buy zone (34.5, need 20-30)",
       "RSI Divergence: no bullish divergence detected",
       "200MA: price below 200MA \u2014 potential falling knife",
-      "Death cross active: 50MA (361.98) below 200MA (527.12)",
-      "Volume: below average (0.58x) \u2014 low conviction"
+      "Death cross active: 50MA (359.28) below 200MA (525.20)",
+      "Volume: below average (0.64x) \u2014 low conviction"
     ],
-    "price": 281.77,
-    "rsi": 34.7,
-    "atr": 17.16,
+    "price": 280.99,
+    "rsi": 34.5,
+    "atr": 16.82,
     "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 0,
@@ -61,26 +61,26 @@
     "health": "healthy",
     "key_events": [
       "Earnings reported 27 days ago",
-      "Stock down 39.83% from entry \u2014 significant drawdown phase",
-      "RSI at 34.7 indicates oversold conditions",
-      "Market conditions neutral (VIX 16.2) but sentiment Extreme Fear"
+      "Stock down 40% from entry despite healthy fundamentals",
+      "RSI at 34.5 indicates oversold conditions",
+      "Market in Extreme Fear regime (F&G indicator)"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "No recent news available for assessment",
-      "39.83% loss exceeds typical swing trade volatility",
-      "25.9% portfolio weight on underwater position creates concentration risk",
-      "No technical firing signals despite oversold RSI suggests weakness persists"
+      "Severe drawdown (-40%) suggests disconnect between fundamentals and price action",
+      "No technical firing signals despite oversold RSI",
+      "Heavy portfolio weight (26%) concentrates risk",
+      "Lack of current news data limits sentiment assessment"
     ],
-    "verdict": "INTU fundamentals remain healthy but technicals show severe drawdown; hold per philosophy while awaiting oversold recovery or catalyst.",
+    "verdict": "INTU appears fundamentally sound but severely repriced; position qualifies for hold-through-recovery per philosophy, though portfolio concentration warrants monitoring.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "INTU",
-    "stock_return_3m": -37.51,
-    "benchmark_return_3m": 13.13,
-    "relative_strength": -50.64,
+    "stock_return_3m": -38.63,
+    "benchmark_return_3m": 12.16,
+    "relative_strength": -50.79,
     "label": "underperforming"
   },
   "final_tier": "Hold",
@@ -90,5 +90,5 @@
     "note": "Position already at 20% portfolio cap"
   },
   "is_dca": false,
-  "saved_at": "2026-06-16T03:25:45.494659"
+  "saved_at": "2026-06-16T23:59:40.628868"
 }

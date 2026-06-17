@@ -3,19 +3,36 @@
     "ticker": "TEM",
     "company_name": "Tempus AI, Inc.",
     "action": "Hold",
-    "action_reason": "Per philosophy, 24.26% drawdown exceeds 15% threshold\u2014hold through recovery. However, this is a conditional hold contingent on stabilization signals emerging in the 2-4 week window.",
+    "action_reason": "Philosophy mandates holding through >15% losses. However, this is a precarious hold. Deteriorating fundamentals (negative FCF, high debt, unprofitable) require monitoring for a forced exit trigger if operating metrics worsen further.",
     "target_price": null,
     "target_reasoning": "",
-    "exit_trigger": "Break below $48 (new 52-week lows with volume surge) OR earnings miss materially worse than prior quarter with no recovery plan disclosed",
-    "add_trigger": "RSI drops to 35-40 with VIX spike above 20 + positive news catalyst (partnership, profitability roadmap, debt reduction announcement)",
-    "risk": "Continued cash burn, debt maturity concerns, and lack of profitability path; position could face liquidation pressure if equity funding dries up",
+    "exit_trigger": "Operating cash burn accelerates OR debt covenant breach risk emerges OR clinical AI validation fails materially OR RSI falls below 30 with high-volume breakdown below $45",
+    "add_trigger": "Do NOT add. Fundamentals do not support averaging down. Only revisit if: (1) new clinical/commercial validation announced, (2) path to profitability disclosed, (3) debt restructured favorably",
+    "risk": "Liquidity crisis if negative FCF persists; dilution from debt-to-equity conversion; sustained market skepticism on AI hype narrative",
     "outlook": "cautious",
-    "timeframe": "3-6 weeks",
-    "generated_at": "2026-06-16T03:26:07.091156",
-    "price_at_generation": 52.32,
-    "pnl_at_generation": -24.26
+    "timeframe": "3-6 weeks for next catalyst or forced reassessment",
+    "generated_at": "2026-06-17T00:00:02.481216",
+    "price_at_generation": 50.56,
+    "pnl_at_generation": -26.81
   },
   "history": [
+    {
+      "ticker": "TEM",
+      "company_name": "Tempus AI, Inc.",
+      "action": "Hold",
+      "action_reason": "Per philosophy, 24.26% drawdown exceeds 15% threshold\u2014hold through recovery. However, this is a conditional hold contingent on stabilization signals emerging in the 2-4 week window.",
+      "target_price": null,
+      "target_reasoning": "",
+      "exit_trigger": "Break below $48 (new 52-week lows with volume surge) OR earnings miss materially worse than prior quarter with no recovery plan disclosed",
+      "add_trigger": "RSI drops to 35-40 with VIX spike above 20 + positive news catalyst (partnership, profitability roadmap, debt reduction announcement)",
+      "risk": "Continued cash burn, debt maturity concerns, and lack of profitability path; position could face liquidation pressure if equity funding dries up",
+      "outlook": "cautious",
+      "timeframe": "3-6 weeks",
+      "generated_at": "2026-06-16T03:26:07.091156",
+      "price_at_generation": 52.32,
+      "pnl_at_generation": -24.26,
+      "archived_at": "2026-06-17T00:00:02.481435"
+    },
     {
       "ticker": "TEM",
       "company_name": "Tempus AI, Inc.",
@@ -117,23 +134,6 @@
       "price_at_generation": 48.59,
       "pnl_at_generation": -29.66,
       "archived_at": "2026-06-09T23:16:47.323200"
-    },
-    {
-      "ticker": "TEM",
-      "company_name": "Tempus AI, Inc.",
-      "action": "Hold",
-      "action_reason": "Your stated philosophy forbids exit on >15% loss. However, monitor closely for profitability roadmap or OCF inflection; if neither appears within 2-6 weeks, this becomes a value trap rather than a recoverable position.",
-      "target_price": null,
-      "target_reasoning": "",
-      "exit_trigger": "Restatement/negative guidance revision; Q-over-Q deterioration in cash burn rate without profitability timeline; dilutive financing announcement; breach below $40 on volume (technical capitulation)",
-      "add_trigger": "Do NOT add \u2014 fundamentals do not support averaging down. Only reconsider if company announces path to profitability or strategic partnership reducing debt burden.",
-      "risk": "Liquidity crisis if cash burn accelerates; debt covenant breach; dilutive capital raise; bankruptcy in stressed scenario",
-      "outlook": "cautious",
-      "timeframe": "4-8 weeks",
-      "generated_at": "2026-06-05T23:05:49.089616",
-      "price_at_generation": 46.43,
-      "pnl_at_generation": -32.79,
-      "archived_at": "2026-06-08T23:11:13.373677"
     }
   ]
 }

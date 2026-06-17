@@ -8,16 +8,16 @@
     "sell_score": 0.0,
     "reasons": [],
     "misses": [
-      "BB: price not near lower band (pct=0.62)",
+      "BB: price not near lower band (pct=0.64)",
       "BB Width: bands expanding, not squeezing",
-      "RSI: not in buy zone (54.1, need 20-30)",
+      "RSI: not in buy zone (54.8, need 20-30)",
       "MACD: no bullish crossover or valley",
       "RSI Divergence: no bullish divergence detected",
-      "Volume: below average (0.64x) \u2014 low conviction"
+      "Volume: below average (0.36x) \u2014 low conviction"
     ],
-    "price": 212.82,
-    "rsi": 54.1,
-    "atr": 6.25,
+    "price": 213.5,
+    "rsi": 54.8,
+    "atr": 6.24,
     "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 0,
@@ -51,7 +51,7 @@
       ],
       "earnings_status": "past",
       "next_earnings_date": "2026-04-28",
-      "days_to_earnings": -49
+      "days_to_earnings": -50
     }
   },
   "news": {
@@ -59,27 +59,28 @@
     "sentiment": "neutral",
     "health": "healthy",
     "key_events": [
-      "No recent news available for assessment",
-      "Earnings passed 49 days ago - next catalyst unknown",
-      "Market sentiment shows Extreme Fear despite neutral VIX",
-      "Moderate geopolitical risk present but unquantified"
+      "Position up 5.30% with modest gains",
+      "RSI at 54.8 indicates balanced momentum (neither overbought nor oversold)",
+      "No technical firing signals present",
+      "Earnings already reported (50+ days past)",
+      "Market conditions neutral with VIX at 16.4"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "Lack of recent news/catalyst visibility",
-      "RSI at 54.1 shows no directional momentum firing",
-      "Extreme Fear sentiment conflicts with healthy fundamentals - potential disconnect",
-      "No near-term earnings catalyst (next earnings unclear)"
+      "Extreme Fear sentiment in market despite neutral VIX\u2014potential disconnect",
+      "No active news flow to assess catalyst strength",
+      "No technical momentum drivers (RSI firing indicators absent)",
+      "Geopolitical risk unassessable due to missing news data"
     ],
-    "verdict": "WELL is profitable and fundamentally sound, but lacks near-term technical momentum or news catalysts to drive swing trade action.",
+    "verdict": "WELL is in a stable holding pattern with profitable gains and healthy fundamentals, but lacks near-term catalysts to drive further momentum.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "WELL",
-    "stock_return_3m": 1.6,
-    "benchmark_return_3m": 13.13,
-    "relative_strength": -11.53,
+    "stock_return_3m": 0.5,
+    "benchmark_return_3m": 12.16,
+    "relative_strength": -11.66,
     "label": "underperforming"
   },
   "final_tier": "Hold",
@@ -89,5 +90,5 @@
     "note": "Price exceeds 60% conviction ceiling ($196) \u2014 skip or wait for Strong Buy"
   },
   "is_dca": false,
-  "saved_at": "2026-06-16T03:26:23.558163"
+  "saved_at": "2026-06-17T00:00:18.134038"
 }

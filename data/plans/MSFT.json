@@ -3,19 +3,36 @@
     "ticker": "MSFT",
     "company_name": "Microsoft Corporation",
     "action": "Hold",
-    "action_reason": "Position is at 14.43% loss (below 15% exit threshold per philosophy). RSI 42.8 near oversold suggests potential reversal; wait for stabilization or bullish technicals before adding.",
+    "action_reason": "Your position is exactly at your 15% loss threshold\u2014philosophy mandates holding. Fundamentals are sound and RSI hasn't reached oversold (<30), suggesting this is correction, not collapse.",
     "target_price": null,
     "target_reasoning": "",
-    "exit_trigger": "Breach of $380 (new structural low) + negative earnings guidance + fundamental deterioration",
-    "add_trigger": "RSI rebounds below 30 with VIX spike OR price stabilizes above $410 with bullish technical confirmation",
-    "risk": "Geopolitical escalation + tech sector rotation away from mega-cap + macro slowdown impacting cloud/AI demand",
+    "exit_trigger": "Break below $380 with confirmed breakdown on volume + deteriorating fundamentals",
+    "add_trigger": "RSI falls to 25-28 (oversold) + holds above $385 support on 3-day close",
+    "risk": "Portfolio concentration (24.3% weight) in single declining position increases drawdown risk if tech sector continues weakness",
     "outlook": "cautious",
-    "timeframe": "3-6 weeks (monitor for post-fear stabilization and next earnings cycle setup)",
-    "generated_at": "2026-06-16T03:25:51.926602",
-    "price_at_generation": 399.76,
-    "pnl_at_generation": -14.43
+    "timeframe": "4-8 weeks for recovery signal; reassess if position reaches -25% loss",
+    "generated_at": "2026-06-16T23:59:46.820025",
+    "price_at_generation": 393.83,
+    "pnl_at_generation": -15.7
   },
   "history": [
+    {
+      "ticker": "MSFT",
+      "company_name": "Microsoft Corporation",
+      "action": "Hold",
+      "action_reason": "Position is at 14.43% loss (below 15% exit threshold per philosophy). RSI 42.8 near oversold suggests potential reversal; wait for stabilization or bullish technicals before adding.",
+      "target_price": null,
+      "target_reasoning": "",
+      "exit_trigger": "Breach of $380 (new structural low) + negative earnings guidance + fundamental deterioration",
+      "add_trigger": "RSI rebounds below 30 with VIX spike OR price stabilizes above $410 with bullish technical confirmation",
+      "risk": "Geopolitical escalation + tech sector rotation away from mega-cap + macro slowdown impacting cloud/AI demand",
+      "outlook": "cautious",
+      "timeframe": "3-6 weeks (monitor for post-fear stabilization and next earnings cycle setup)",
+      "generated_at": "2026-06-16T03:25:51.926602",
+      "price_at_generation": 399.76,
+      "pnl_at_generation": -14.43,
+      "archived_at": "2026-06-16T23:59:46.820257"
+    },
     {
       "ticker": "MSFT",
       "company_name": "Microsoft Corporation",
@@ -117,23 +134,6 @@
       "price_at_generation": 411.74,
       "pnl_at_generation": -11.87,
       "archived_at": "2026-06-09T23:16:28.899827"
-    },
-    {
-      "ticker": "MSFT",
-      "company_name": "Microsoft Corporation",
-      "action": "Hold",
-      "action_reason": "Loss is only 10.81% (below 15% philosophy threshold) and fundamentals are healthy. RSI at 48.1 shows no capitulation; wait for either technical reversal signals (RSI <30 + bullish structure) or market-wide stabilization before adding.",
-      "target_price": 445,
-      "target_reasoning": "",
-      "exit_trigger": "Break below $405 (10% further down) on high volume; only exit if fundamentals deteriorate",
-      "add_trigger": "RSI drops to 35-40 with bullish divergence, or VIX drops below 18 + MSFT reclaims $430",
-      "risk": "Continued tech sector rotation; macro risk from geopolitical tensions (VIX at 21.5); concentrated position amplifies drawdown",
-      "outlook": "cautious",
-      "timeframe": "2-4 weeks until next major catalyst or technical inflection",
-      "generated_at": "2026-06-05T23:05:33.865283",
-      "price_at_generation": 416.67,
-      "pnl_at_generation": -10.81,
-      "archived_at": "2026-06-08T23:10:56.638094"
     }
   ]
 }
