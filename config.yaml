@@ -31,6 +31,9 @@ portfolio:
   - ticker: CTVA
     shares: 1
     avg_cost: 78.38
+  - ticker: XOM
+    shares: 1
+    avg_cost: 137.63
   dca_tickers:
   - VOO
   - VXUS
