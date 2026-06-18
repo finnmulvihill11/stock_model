@@ -173,7 +173,7 @@ def run_full_scrape(verbose: bool = False) -> list[dict]:
             if replacement:
                 tickers.append(replacement)  # scan replacement this run
                 if verbose:
-                    print(f"  [{i+1}/{len(tickers)}] {ticker}: delisted → added {replacement} to universe")
+                    print(f"  [{i+1}/{len(tickers)}] {ticker}: delisted -> added {replacement} to universe")
             elif verbose:
                 print(f"  [{i+1}/{len(tickers)}] {ticker}: delisted, reserve pool exhausted")
         except Exception as e:

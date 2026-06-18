@@ -1,0 +1,13 @@
+{
+  "dead_tickers": [
+    "SGEN",
+    "ANSS",
+    "WBA",
+    "NYCB",
+    "JPM"
+  ],
+  "added_tickers": [
+    "RBLX"
+  ],
+  "updated_at": "2026-06-18T15:46:04.972900"
+}

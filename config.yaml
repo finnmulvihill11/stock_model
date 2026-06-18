@@ -52,7 +52,7 @@ indicators:
   bb_std: 2
   rsi_window: 14
   rsi_buy_low: 20
-  rsi_buy_high: 30
+  rsi_buy_high: 40
   rsi_sell_low: 70
   rsi_sell_high: 80
   macd_fast: 12
