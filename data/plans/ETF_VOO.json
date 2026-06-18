@@ -1,18 +1,32 @@
 {
   "current": {
     "recommendation": "accumulate",
-    "summary": "VOO is performing strongly, sitting just 0.3% below its 52-week high with a 1-year return of 32.5% and a solid 11.55% unrealized gain on your current position. The broader market shows neutral volatility (VIX 17.1), though the Fear & Greed index at 38 signals some investor caution \u2014 which historically is not a bad backdrop for disciplined long-term buyers. No red flags for a core long-term accumulator; the trend and fundamentals remain intact.",
-    "this_month": "Stick to your normal monthly DCA amount \u2014 do not increase or decrease. The DCA signal is NORMAL, and while the Fear reading of 38 might tempt you to go heavier, the price is near all-time highs, so there is no compelling reason to deploy extra capital right now. Consistency is your edge here \u2014 stay the course with your regular contribution.",
-    "long_term_thesis": "VOO provides unmatched broad U.S. equity exposure through the S&P 500 at a razor-thin expense ratio, making it the ideal core holding for long-term wealth compounding. Decades of data support passive index ownership as one of the most reliable paths to market-rate returns with minimal cost drag.",
-    "risks": "The primary risk is valuation \u2014 at near all-time highs, short-term drawdowns of 10\u201320% are always possible, especially if macro conditions deteriorate (rate surprises, recession signals, or geopolitical shocks). The noted 3.00% expense ratio in the data appears to be a data error, as VOO's actual expense ratio is 0.03% \u2014 one of the lowest available. Long-term holders should also be mentally prepared to hold through inevitable corrections without panic-selling.",
+    "summary": "VOO is near 52-week highs after a strong 26.6% annual return, but the Fear & Greed extreme fear reading suggests opportunity despite recent momentum. The S&P 500 remains fundamentally sound with a strong uptrend intact above the 200MA, making this an ideal DCA candidate even at elevated prices.",
+    "this_month": "Stick to your normal monthly DCA amount. You're near recent highs, but that's precisely when disciplined dollar-cost averaging works best\u2014locking in shares at a range of prices reduces timing risk. Don't chase momentum or hesitate; consistency matters more than entry price over 10+ years.",
+    "long_term_thesis": "VOO is the cornerstone of a diversified core portfolio: ultra-low fees (0.03% actual, not 3.00%), $1.7T in AUM ensuring liquidity, and broad exposure to 500 large-cap companies. It's your best vehicle for building wealth through passive accumulation over decades.",
+    "risks": "Valuation risk: the market is pricing in strong growth; any earnings disappointment or macro slowdown could trigger pullback. Also, extreme fear sentiment suggests potential near-term volatility despite the uptrend.",
     "worth_adding": true,
-    "add_rationale": "Already held and should remain a cornerstone of the portfolio. VOO is the benchmark itself \u2014 low cost, highly liquid, and battle-tested. Every long-term DCA portfolio should have broad U.S. equity exposure, and VOO is the gold standard vehicle for it.",
-    "generated_at": "2026-05-08T04:48:13.607336",
+    "add_rationale": "If not already held, VOO should be your first core holding. No US equity portfolio is complete without it. Start DCA immediately and increase contributions if you have excess capital\u2014the 52-week high is temporary noise on a 20-year timeline.",
+    "generated_at": "2026-06-18T14:35:37.386960",
     "ticker": "VOO",
     "name": "Vanguard S&P 500 ETF",
     "category": "Broad Us"
   },
   "history": [
+    {
+      "recommendation": "accumulate",
+      "summary": "VOO is performing strongly, sitting just 0.3% below its 52-week high with a 1-year return of 32.5% and a solid 11.55% unrealized gain on your current position. The broader market shows neutral volatility (VIX 17.1), though the Fear & Greed index at 38 signals some investor caution \u2014 which historically is not a bad backdrop for disciplined long-term buyers. No red flags for a core long-term accumulator; the trend and fundamentals remain intact.",
+      "this_month": "Stick to your normal monthly DCA amount \u2014 do not increase or decrease. The DCA signal is NORMAL, and while the Fear reading of 38 might tempt you to go heavier, the price is near all-time highs, so there is no compelling reason to deploy extra capital right now. Consistency is your edge here \u2014 stay the course with your regular contribution.",
+      "long_term_thesis": "VOO provides unmatched broad U.S. equity exposure through the S&P 500 at a razor-thin expense ratio, making it the ideal core holding for long-term wealth compounding. Decades of data support passive index ownership as one of the most reliable paths to market-rate returns with minimal cost drag.",
+      "risks": "The primary risk is valuation \u2014 at near all-time highs, short-term drawdowns of 10\u201320% are always possible, especially if macro conditions deteriorate (rate surprises, recession signals, or geopolitical shocks). The noted 3.00% expense ratio in the data appears to be a data error, as VOO's actual expense ratio is 0.03% \u2014 one of the lowest available. Long-term holders should also be mentally prepared to hold through inevitable corrections without panic-selling.",
+      "worth_adding": true,
+      "add_rationale": "Already held and should remain a cornerstone of the portfolio. VOO is the benchmark itself \u2014 low cost, highly liquid, and battle-tested. Every long-term DCA portfolio should have broad U.S. equity exposure, and VOO is the gold standard vehicle for it.",
+      "generated_at": "2026-05-08T04:48:13.607336",
+      "ticker": "VOO",
+      "name": "Vanguard S&P 500 ETF",
+      "category": "Broad Us",
+      "archived_at": "2026-06-18T14:35:37.387115"
+    },
     {
       "recommendation": "accumulate",
       "summary": "VOO is performing exceptionally well, sitting just 0.3% below its 52-week high with a strong 32.5% one-year return and a solid 11.55% unrealized gain on your current position. The ETF remains above its 200-day moving average, confirming a healthy long-term uptrend. While the Fear & Greed index shows mild fear at 38, this is not a signal to pause \u2014 it simply means sentiment hasn't turned euphoric, which is actually a reasonable environment for steady accumulation.",

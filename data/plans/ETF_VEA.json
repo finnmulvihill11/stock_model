@@ -1,18 +1,32 @@
 {
   "current": {
     "recommendation": "consider_adding",
-    "summary": "VEA is in a strong uptrend, up nearly 34% over the past year and trading just 1.7% below its 52-week high \u2014 a sign of genuine momentum in developed international markets. Despite the Fear & Greed index sitting in fear territory (38), the price action remains constructive, suggesting institutional accumulation rather than broad panic. For a long-term DCA investor, this is a reasonable entry point, though not a screaming bargain given proximity to all-time highs.",
-    "this_month": "Contribute your normal monthly DCA amount \u2014 no need to increase or decrease. VEA is near recent highs, which is not ideal for deploying extra capital, but the DCA signal is NORMAL and consistent monthly investing is the right discipline here. Avoid the temptation to wait for a pullback that may not come.",
-    "long_term_thesis": "VEA provides low-cost, broad exposure to developed international markets across Europe, Asia, and Canada \u2014 offering meaningful geographic diversification away from U.S. equity concentration risk. With a $304B AUM base and Vanguard's institutional backing, it is one of the most reliable and liquid vehicles for building a global equity core over decades.",
-    "risks": "The stated expense ratio of 5.00% appears to be a data anomaly \u2014 VEA's actual expense ratio is approximately 0.05%, which is one of its key strengths. Beyond that, the primary risks are currency headwinds (USD strength erodes returns), slower economic growth in Europe and Japan, and geopolitical uncertainty. Developed international markets have also historically lagged U.S. equities over the past decade, which may test long-term investor patience.",
+    "summary": "VEA is at all-time highs after a strong 1-year run (+33.9%), but the Fear & Greed extreme fear reading suggests a disconnect between price momentum and market sentiment. This is actually a favorable entry point for long-term DCA\u2014you're buying quality developed market exposure when others are fearful, not euphoric.",
+    "this_month": "Contribute your normal monthly DCA amount ($X). Do not skip or reduce\u2014this is exactly when disciplined accumulation works best. The extreme fear backdrop makes this a textbook DCA opportunity, regardless of the near-term price peak.",
+    "long_term_thesis": "VEA provides low-cost, diversified exposure to Europe, Japan, Australia, and Canada with a 0.05% expense ratio and $317.3B AUM. Developed international markets offer currency diversification and demographic/growth cycles that often lag or lead U.S. equity cycles, making it a essential core holding for a truly global portfolio.",
+    "risks": "Valuation risk at 52-week highs; currency headwinds if USD strengthens; geopolitical tensions in Europe; and reliance on multinational earnings recovery. The extreme fear reading could reverse quickly if sentiment snaps back.",
     "worth_adding": true,
-    "add_rationale": "VEA deserves a place in a long-term DCA portfolio as a core international equity holding. It reduces home-country bias, offers valuation diversification (international developed markets trade at lower P/E multiples than U.S. equities), and has demonstrated strong recent momentum. Start with a standard monthly allocation and build the position gradually over 12\u201324 months rather than committing a lump sum near current highs.",
-    "generated_at": "2026-05-08T04:49:14.319842",
+    "add_rationale": "If not yet held, add VEA to your DCA stack immediately. A long-term portfolio without developed international exposure is incomplete. The current price is high, but DCA smooths entry risk over months/years. The strong uptrend and placement above the 200MA confirm structural momentum. Start with normal monthly contributions and let DCA work.",
+    "generated_at": "2026-06-18T14:36:17.890198",
     "ticker": "VEA",
     "name": "Vanguard Developed Markets ETF",
     "category": "International"
   },
   "history": [
+    {
+      "recommendation": "consider_adding",
+      "summary": "VEA is in a strong uptrend, up nearly 34% over the past year and trading just 1.7% below its 52-week high \u2014 a sign of genuine momentum in developed international markets. Despite the Fear & Greed index sitting in fear territory (38), the price action remains constructive, suggesting institutional accumulation rather than broad panic. For a long-term DCA investor, this is a reasonable entry point, though not a screaming bargain given proximity to all-time highs.",
+      "this_month": "Contribute your normal monthly DCA amount \u2014 no need to increase or decrease. VEA is near recent highs, which is not ideal for deploying extra capital, but the DCA signal is NORMAL and consistent monthly investing is the right discipline here. Avoid the temptation to wait for a pullback that may not come.",
+      "long_term_thesis": "VEA provides low-cost, broad exposure to developed international markets across Europe, Asia, and Canada \u2014 offering meaningful geographic diversification away from U.S. equity concentration risk. With a $304B AUM base and Vanguard's institutional backing, it is one of the most reliable and liquid vehicles for building a global equity core over decades.",
+      "risks": "The stated expense ratio of 5.00% appears to be a data anomaly \u2014 VEA's actual expense ratio is approximately 0.05%, which is one of its key strengths. Beyond that, the primary risks are currency headwinds (USD strength erodes returns), slower economic growth in Europe and Japan, and geopolitical uncertainty. Developed international markets have also historically lagged U.S. equities over the past decade, which may test long-term investor patience.",
+      "worth_adding": true,
+      "add_rationale": "VEA deserves a place in a long-term DCA portfolio as a core international equity holding. It reduces home-country bias, offers valuation diversification (international developed markets trade at lower P/E multiples than U.S. equities), and has demonstrated strong recent momentum. Start with a standard monthly allocation and build the position gradually over 12\u201324 months rather than committing a lump sum near current highs.",
+      "generated_at": "2026-05-08T04:49:14.319842",
+      "ticker": "VEA",
+      "name": "Vanguard Developed Markets ETF",
+      "category": "International",
+      "archived_at": "2026-06-18T14:36:17.890401"
+    },
     {
       "recommendation": "consider_adding",
       "summary": "VEA is trading near its 52-week high with strong momentum \u2014 up 33.9% over the past year \u2014 and remains in a solid uptrend above its 200-day moving average. However, the Fear & Greed index sitting at 38 (Fear) suggests the broader market sentiment is cautious, which moderates urgency to deploy aggressively right now. For a long-term accumulator not yet holding this ETF, initiating a position at a normal DCA amount is a reasonable and prudent first step.",

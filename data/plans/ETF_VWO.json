@@ -1,18 +1,32 @@
 {
   "current": {
     "recommendation": "consider_adding",
-    "summary": "VWO is near its 52-week high after a strong 32.9% run over the past year, reflecting broad emerging market momentum. The DCA signal is NORMAL, meaning there is no compelling reason to surge or hold back on contributions \u2014 steady accumulation is appropriate. Market sentiment shows mild fear (38), which historically provides a slight tailwind for patient long-term buyers entering at current levels.",
-    "this_month": "Contribute your normal monthly DCA amount \u2014 no more, no less. VWO is only 0.9% off its 52-week high, so there is no dip-buying opportunity to exploit, but the strong uptrend does not justify reducing your contribution either. Stick to your plan and let the process work.",
-    "long_term_thesis": "Emerging markets offer exposure to faster-growing economies in Asia, Latin America, and Africa that are underrepresented in a U.S.-heavy portfolio, providing meaningful diversification and long-term growth potential. VWO's massive $159.9B AUM and Vanguard's index discipline make it a reliable, liquid vehicle for capturing that growth over a multi-year horizon.",
-    "risks": "The listed expense ratio of 8.00% appears to be a data error \u2014 VWO's actual expense ratio is approximately 0.08%, which is acceptable. Genuine risks include heavy China concentration (typically 30\u201335% of the fund), currency risk across dozens of emerging economies, geopolitical volatility, and potential U.S. dollar strengthening which would compress returns for U.S.-based investors.",
+    "summary": "VWO is in a strong uptrend near 52-week highs with solid 1Y momentum (+29.3%), but extreme fear sentiment and neutral volatility suggest caution on timing. The ETF is well-positioned for long-term growth, though current valuation warrants measured entry rather than aggressive accumulation.",
+    "this_month": "Contribute 75% of your normal DCA amount this month. VWO is near recent highs (+4.9% in 1M alone), so reduce position sizing slightly. As fear sentiment normalizes and the ETF pulls back 2\u20133%, increase to full amounts in subsequent months.",
+    "long_term_thesis": "Emerging markets offer structural growth exposure (demographics, productivity, lower valuations) and meaningful portfolio diversification. At this stage of the market cycle\u2014with VWO above the 200MA and extreme fear sentiment creating potential entry points\u2014this is a core holding candidate for a 20\u201330 year accumulation strategy.",
+    "risks": "Emerging market currency volatility, geopolitical tension, and China/India regulatory uncertainty. The 8.00% expense ratio is higher than US-focused peers; monitor relative performance. Current momentum may not sustain if global growth slows.",
     "worth_adding": true,
-    "add_rationale": "VWO is not currently held and deserves a place in a diversified long-term portfolio as an international/emerging markets sleeve. Starting a position now at normal DCA sizing \u2014 rather than waiting for a dip that may not come \u2014 is consistent with disciplined accumulation. Allocate a modest, fixed monthly amount (e.g., 10\u201315% of your total monthly ETF contribution) and build the position gradually over 12\u201324 months.",
-    "generated_at": "2026-05-08T04:49:25.843660",
+    "add_rationale": "Yes\u2014add VWO to your DCA stack, but start conservatively. The combination of strong technicals (above 200MA, uptrend) and extreme fear sentiment is typically a contrarian buy signal. Begin with 75% of your standard monthly allocation; increase to 100% once fear normalizes or the ETF experiences a minor 3\u20135% pullback. This allows you to dollar-cost-average into a quality emerging markets position without chasing recent momentum.",
+    "generated_at": "2026-06-18T14:36:24.316432",
     "ticker": "VWO",
     "name": "Vanguard Emerging Markets ETF",
     "category": "International"
   },
   "history": [
+    {
+      "recommendation": "consider_adding",
+      "summary": "VWO is near its 52-week high after a strong 32.9% run over the past year, reflecting broad emerging market momentum. The DCA signal is NORMAL, meaning there is no compelling reason to surge or hold back on contributions \u2014 steady accumulation is appropriate. Market sentiment shows mild fear (38), which historically provides a slight tailwind for patient long-term buyers entering at current levels.",
+      "this_month": "Contribute your normal monthly DCA amount \u2014 no more, no less. VWO is only 0.9% off its 52-week high, so there is no dip-buying opportunity to exploit, but the strong uptrend does not justify reducing your contribution either. Stick to your plan and let the process work.",
+      "long_term_thesis": "Emerging markets offer exposure to faster-growing economies in Asia, Latin America, and Africa that are underrepresented in a U.S.-heavy portfolio, providing meaningful diversification and long-term growth potential. VWO's massive $159.9B AUM and Vanguard's index discipline make it a reliable, liquid vehicle for capturing that growth over a multi-year horizon.",
+      "risks": "The listed expense ratio of 8.00% appears to be a data error \u2014 VWO's actual expense ratio is approximately 0.08%, which is acceptable. Genuine risks include heavy China concentration (typically 30\u201335% of the fund), currency risk across dozens of emerging economies, geopolitical volatility, and potential U.S. dollar strengthening which would compress returns for U.S.-based investors.",
+      "worth_adding": true,
+      "add_rationale": "VWO is not currently held and deserves a place in a diversified long-term portfolio as an international/emerging markets sleeve. Starting a position now at normal DCA sizing \u2014 rather than waiting for a dip that may not come \u2014 is consistent with disciplined accumulation. Allocate a modest, fixed monthly amount (e.g., 10\u201315% of your total monthly ETF contribution) and build the position gradually over 12\u201324 months.",
+      "generated_at": "2026-05-08T04:49:25.843660",
+      "ticker": "VWO",
+      "name": "Vanguard Emerging Markets ETF",
+      "category": "International",
+      "archived_at": "2026-06-18T14:36:24.316611"
+    },
     {
       "recommendation": "consider_adding",
       "summary": "VWO is trading near its 52-week high with strong momentum, posting a 32.9% 1-year return and sitting well above its 200-day moving average \u2014 both positive signals for long-term accumulation. However, the Fear & Greed index is in Fear territory (38), which creates a mild tension: price strength paired with cautious sentiment suggests the market may be pricing in some risk. For a long-term DCA investor not yet holding this ETF, this is a reasonable entry point but not a screaming bargain.",

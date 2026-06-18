@@ -1,18 +1,32 @@
 {
   "current": {
     "recommendation": "consider_adding",
-    "summary": "SCHD is trading near its 52-week high with strong momentum, up 28.2% over the past year and well above its 200-day moving average. Despite the Fear & Greed index sitting in fear territory at 38, the ETF's price action remains resilient, suggesting underlying strength in quality dividend stocks. For a long-term accumulator not yet holding this ETF, this is a reasonable entry point at normal contribution levels.",
-    "this_month": "Contribute your normal monthly DCA amount \u2014 do not oversize this entry. At just -1.6% off its 52-week high, there is no meaningful dip to chase with extra capital. Initiate a standard position to begin building your cost basis, and plan to add more aggressively if a 5\u201310% pullback materializes in coming months.",
-    "long_term_thesis": "SCHD provides exposure to high-quality, dividend-paying U.S. companies with strong fundamentals, offering a blend of income and capital appreciation that compounds effectively over time. Its disciplined screening process for dividend sustainability and growth makes it a reliable core holding for building long-term wealth and generating growing passive income.",
-    "risks": "The stated expense ratio of 6.00% appears anomalous and should be verified \u2014 SCHD's actual expense ratio is approximately 0.06%, which is one of the lowest in its category. Additionally, dividend-focused ETFs can underperform growth-heavy benchmarks during risk-on bull markets, and interest rate increases could pressure dividend stock valuations by making bonds more competitive.",
+    "summary": "SCHD is trading near 52-week highs in a strong uptrend with solid 1Y performance (+24%), but current valuation and extreme fear sentiment create a mixed setup. The ETF's quality dividend focus makes it suitable for long-term accumulation, though waiting for modest pullback would improve entry timing.",
+    "this_month": "Contribute 75% of your normal monthly DCA amount this month. SCHD is near highs with elevated valuations; reduce initial commitment and scale in over the next 2\u20133 months as volatility potentially creates better entry points.",
+    "long_term_thesis": "SCHD provides dividend-growing exposure to quality US companies with low fees (0.06% ER \u2014 note: the 6.00% in the data appears to be a data error; Schwab's actual expense ratio is ~0.06%), making it an ideal core holding for long-term accumulation and reinvested dividend compounding.",
+    "risks": "Dividend stocks underperform in rising-rate environments; current extreme fear reading suggests potential near-term volatility that could shake conviction. Also susceptible to large-cap rotation risk if growth outperforms value.",
     "worth_adding": true,
-    "add_rationale": "SCHD is a best-in-class dividend ETF with a massive $91.1B AUM, exceptional liquidity, and a strong track record of dividend growth. Since it is not currently in the portfolio, initiating a position now with a normal monthly contribution establishes a foundation to build upon. Its combination of quality factor exposure, income generation, and low cost (verify actual ER) makes it a natural long-term core holding alongside growth-oriented ETFs.",
-    "generated_at": "2026-05-08T04:49:37.448552",
+    "add_rationale": "Yes, add SCHD to your DCA stack as a core long-term holding. Its dividend-growth strategy, massive AUM ($94.9B = deep liquidity), and proven track record make it ideal for 10+ year accumulation. Start with reduced amounts and build position over 2\u20133 months rather than lump-sum at current highs.",
+    "generated_at": "2026-06-18T14:36:30.020055",
     "ticker": "SCHD",
     "name": "Schwab US Dividend Equity ETF",
     "category": "Dividend"
   },
   "history": [
+    {
+      "recommendation": "consider_adding",
+      "summary": "SCHD is trading near its 52-week high with strong momentum, up 28.2% over the past year and well above its 200-day moving average. Despite the Fear & Greed index sitting in fear territory at 38, the ETF's price action remains resilient, suggesting underlying strength in quality dividend stocks. For a long-term accumulator not yet holding this ETF, this is a reasonable entry point at normal contribution levels.",
+      "this_month": "Contribute your normal monthly DCA amount \u2014 do not oversize this entry. At just -1.6% off its 52-week high, there is no meaningful dip to chase with extra capital. Initiate a standard position to begin building your cost basis, and plan to add more aggressively if a 5\u201310% pullback materializes in coming months.",
+      "long_term_thesis": "SCHD provides exposure to high-quality, dividend-paying U.S. companies with strong fundamentals, offering a blend of income and capital appreciation that compounds effectively over time. Its disciplined screening process for dividend sustainability and growth makes it a reliable core holding for building long-term wealth and generating growing passive income.",
+      "risks": "The stated expense ratio of 6.00% appears anomalous and should be verified \u2014 SCHD's actual expense ratio is approximately 0.06%, which is one of the lowest in its category. Additionally, dividend-focused ETFs can underperform growth-heavy benchmarks during risk-on bull markets, and interest rate increases could pressure dividend stock valuations by making bonds more competitive.",
+      "worth_adding": true,
+      "add_rationale": "SCHD is a best-in-class dividend ETF with a massive $91.1B AUM, exceptional liquidity, and a strong track record of dividend growth. Since it is not currently in the portfolio, initiating a position now with a normal monthly contribution establishes a foundation to build upon. Its combination of quality factor exposure, income generation, and low cost (verify actual ER) makes it a natural long-term core holding alongside growth-oriented ETFs.",
+      "generated_at": "2026-05-08T04:49:37.448552",
+      "ticker": "SCHD",
+      "name": "Schwab US Dividend Equity ETF",
+      "category": "Dividend",
+      "archived_at": "2026-06-18T14:36:30.020226"
+    },
     {
       "recommendation": "consider_adding",
       "summary": "SCHD is performing strongly, sitting just 1.6% below its 52-week high with a remarkable 28.2% 1-year return, signaling healthy momentum for a dividend-focused ETF. The broader market shows mild fear (Fear & Greed at 38) with moderate volatility (VIX 17.1), which historically creates reasonable entry conditions for quality dividend payers. Since this ETF is not yet in the portfolio, initiating a position now aligns well with long-term accumulation goals, though near-high pricing warrants starting conservatively.",

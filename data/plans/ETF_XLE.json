@@ -1,18 +1,32 @@
 {
   "current": {
     "recommendation": "consider_adding",
-    "summary": "XLE is pulling back modestly (-10.6%) from its 52-week high while still maintaining a strong uptrend and sitting above its 200-day moving average, making this a reasonable entry point for long-term accumulation. The 1-year return of +43.4% reflects genuine sector strength, and with Fear & Greed at 38, sentiment-driven weakness may be creating a mild discount. However, as a sector ETF, it carries concentration risk and is best held as a satellite position rather than a core holding.",
-    "this_month": "If adding XLE to the portfolio, deploy a modest initial position \u2014 roughly 50-75% of what would be a normal monthly contribution to a new position. The 10.6% drawdown from the high and mild fear sentiment support a slightly larger-than-minimal entry, but avoid going full size immediately since this is a first purchase with no existing cost basis. Reserve the remainder to average in over the next 1-2 months if price continues to soften.",
-    "long_term_thesis": "Energy remains a structurally important sector driven by persistent global demand, capital discipline among major producers, and the long transition timeline away from fossil fuels, all of which support durable cash flows and dividend income over a multi-year horizon. XLE provides low-cost, diversified exposure to large-cap U.S. energy leaders like ExxonMobil and Chevron, making it a viable income-generating satellite position within a broader equity portfolio.",
-    "risks": "The most significant risk is the expense ratio listed at 9.00%, which if accurate would be prohibitively high for a long-term DCA strategy \u2014 this figure should be verified immediately, as XLE's actual expense ratio is typically around 0.09%. Beyond that, energy is a cyclical and politically sensitive sector vulnerable to oil price swings, geopolitical disruption, regulatory shifts, and accelerating energy transition pressures that could compress long-term valuations.",
+    "summary": "XLE is down 14.5% from its 52-week high despite a strong 1Y return (+24.6%), creating a reasonable entry point for long-term accumulation. The sector remains structurally sound, though the recent 3-month decline (-9.3%) and extreme fear sentiment suggest caution around sizing.",
+    "this_month": "Allocate 75\u2013100% of your normal sector allocation this month. The drawdown offers a modest discount, but don't over-commit\u2014energy is cyclical and sentiment is fearful. Use this as a measured entry, not a capitulation buy.",
+    "long_term_thesis": "Energy is a permanent economic need with structural demand, reasonable valuations post-correction, and solid dividend yields that support long-term wealth building. A modest core position (5\u20138% of portfolio) acts as a hedge against inflation and equity-heavy allocations.",
+    "risks": "Cyclical sector prone to geopolitical shocks and demand destruction; 9.00% expense ratio is high relative to broad index alternatives (VTI ~0.04%); short-term volatility may test conviction.",
     "worth_adding": true,
-    "add_rationale": "XLE is worth adding as a small satellite allocation (5-10% of total portfolio) for investors seeking energy sector exposure and dividend income. The current pullback from highs, above-200MA trend, and fearful sentiment create a reasonable accumulation window. That said, confirm the expense ratio is 0.09% (not 9.00% as listed) before proceeding \u2014 if the data is erroneous it does not change the thesis, but accuracy matters for long-term cost modeling.",
-    "generated_at": "2026-05-08T04:51:01.714326",
+    "add_rationale": "Yes, but as a satellite position, not core. XLE's 14.5% drawdown combined with long-term structural demand and dividend support justifies small, consistent DCA contributions. However, cap it at 5\u20138% of total portfolio to avoid over-weighting a single cyclical sector. Consider pairing it with broader index holdings.",
+    "generated_at": "2026-06-18T14:37:05.501727",
     "ticker": "XLE",
     "name": "Energy Select Sector SPDR",
     "category": "Sector"
   },
   "history": [
+    {
+      "recommendation": "consider_adding",
+      "summary": "XLE is pulling back modestly (-10.6%) from its 52-week high while still maintaining a strong uptrend and sitting above its 200-day moving average, making this a reasonable entry point for long-term accumulation. The 1-year return of +43.4% reflects genuine sector strength, and with Fear & Greed at 38, sentiment-driven weakness may be creating a mild discount. However, as a sector ETF, it carries concentration risk and is best held as a satellite position rather than a core holding.",
+      "this_month": "If adding XLE to the portfolio, deploy a modest initial position \u2014 roughly 50-75% of what would be a normal monthly contribution to a new position. The 10.6% drawdown from the high and mild fear sentiment support a slightly larger-than-minimal entry, but avoid going full size immediately since this is a first purchase with no existing cost basis. Reserve the remainder to average in over the next 1-2 months if price continues to soften.",
+      "long_term_thesis": "Energy remains a structurally important sector driven by persistent global demand, capital discipline among major producers, and the long transition timeline away from fossil fuels, all of which support durable cash flows and dividend income over a multi-year horizon. XLE provides low-cost, diversified exposure to large-cap U.S. energy leaders like ExxonMobil and Chevron, making it a viable income-generating satellite position within a broader equity portfolio.",
+      "risks": "The most significant risk is the expense ratio listed at 9.00%, which if accurate would be prohibitively high for a long-term DCA strategy \u2014 this figure should be verified immediately, as XLE's actual expense ratio is typically around 0.09%. Beyond that, energy is a cyclical and politically sensitive sector vulnerable to oil price swings, geopolitical disruption, regulatory shifts, and accelerating energy transition pressures that could compress long-term valuations.",
+      "worth_adding": true,
+      "add_rationale": "XLE is worth adding as a small satellite allocation (5-10% of total portfolio) for investors seeking energy sector exposure and dividend income. The current pullback from highs, above-200MA trend, and fearful sentiment create a reasonable accumulation window. That said, confirm the expense ratio is 0.09% (not 9.00% as listed) before proceeding \u2014 if the data is erroneous it does not change the thesis, but accuracy matters for long-term cost modeling.",
+      "generated_at": "2026-05-08T04:51:01.714326",
+      "ticker": "XLE",
+      "name": "Energy Select Sector SPDR",
+      "category": "Sector",
+      "archived_at": "2026-06-18T14:37:05.501900"
+    },
     {
       "recommendation": "consider_adding",
       "summary": "XLE is pulling back modestly (-10.6% from its 52-week high) while remaining in a strong uptrend and well above its 200-day moving average, making this a reasonable entry point for long-term accumulation. The broader market sentiment sits in 'Fear' territory, which historically favors patient buyers adding quality positions at a discount. However, energy is a cyclical sector and should be sized as a satellite position rather than a core holding.",
