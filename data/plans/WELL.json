@@ -3,19 +3,36 @@
     "ticker": "WELL",
     "company_name": "Welltower Inc.",
     "action": "Hold",
-    "action_reason": "Position is modestly profitable (+5.3%) with healthy fundamentals and neutral technicals. No compelling reason to exit a winner, but lack of technical firing signals and upcoming catalysts suggests waiting for clearer directional confirmation before adding.",
-    "target_price": 220,
+    "action_reason": "Position is +1.87% profitable and WELL has healthy fundamentals, but lacks technical momentum (RSI neutral, no firing signals). Wait for either stronger bullish setup or meaningful price appreciation (3-5%+) before trimming into strength.",
+    "target_price": 212,
     "target_reasoning": "",
-    "exit_trigger": "Close below $205 (support near entry) or break below RSI 40 on volume; or if position reaches +15% profit and closes below 20-day MA",
-    "add_trigger": "RSI breaks above 65 on earnings-driven volume, or position breaks above $220 with VIX compression below 14",
-    "risk": "Sector rotation away from REITs; rising rates pressure valuations; lack of near-term news catalysts may lead to consolidation or pullback",
+    "exit_trigger": "Trim 50% of position if price reaches $212-215 on volume with RSI >60, or exit if breaks below $200 on high volume with deteriorating sector health.",
+    "add_trigger": "Only add if price dips to $202-204 with RSI <35 and healthcare sector shows relative strength vs. market.",
+    "risk": "Sector rotation away from healthcare REITs; interest rate volatility; lack of near-term catalysts to drive momentum higher.",
     "outlook": "neutral",
-    "timeframe": "2-4 weeks",
-    "generated_at": "2026-06-17T00:00:18.133235",
-    "price_at_generation": 213.5,
-    "pnl_at_generation": 5.3
+    "timeframe": "3-6 weeks",
+    "generated_at": "2026-06-18T00:00:43.049570",
+    "price_at_generation": 206.55,
+    "pnl_at_generation": 1.87
   },
   "history": [
+    {
+      "ticker": "WELL",
+      "company_name": "Welltower Inc.",
+      "action": "Hold",
+      "action_reason": "Position is modestly profitable (+5.3%) with healthy fundamentals and neutral technicals. No compelling reason to exit a winner, but lack of technical firing signals and upcoming catalysts suggests waiting for clearer directional confirmation before adding.",
+      "target_price": 220,
+      "target_reasoning": "",
+      "exit_trigger": "Close below $205 (support near entry) or break below RSI 40 on volume; or if position reaches +15% profit and closes below 20-day MA",
+      "add_trigger": "RSI breaks above 65 on earnings-driven volume, or position breaks above $220 with VIX compression below 14",
+      "risk": "Sector rotation away from REITs; rising rates pressure valuations; lack of near-term news catalysts may lead to consolidation or pullback",
+      "outlook": "neutral",
+      "timeframe": "2-4 weeks",
+      "generated_at": "2026-06-17T00:00:18.133235",
+      "price_at_generation": 213.5,
+      "pnl_at_generation": 5.3,
+      "archived_at": "2026-06-18T00:00:43.049782"
+    },
     {
       "ticker": "WELL",
       "company_name": "Welltower Inc.",
@@ -117,23 +134,6 @@
       "price_at_generation": 206.77,
       "pnl_at_generation": 1.98,
       "archived_at": "2026-06-10T23:24:35.189426"
-    },
-    {
-      "ticker": "WELL",
-      "company_name": "Welltower Inc.",
-      "action": "Hold",
-      "action_reason": "Position is only -1.36% (well below 15% threshold) with healthy fundamentals and RSI at 37.9 indicating oversold bounce potential. Extreme Fear sentiment presents asymmetric risk/reward for patient holders; no exit signal warranted.",
-      "target_price": null,
-      "target_reasoning": "",
-      "exit_trigger": "Fundamental deterioration in next earnings or breach below $190 on heavy volume with deteriorating health metrics",
-      "add_trigger": "RSI crosses below 30 OR position reaches -5% with sustained Extreme Fear + positive news catalyst emerges",
-      "risk": "Geopolitical escalation or unexpected REIT sector rotation; continued macro headwinds keeping healthcare REITs pressured",
-      "outlook": "neutral",
-      "timeframe": "3-6 weeks",
-      "generated_at": "2026-06-08T23:11:28.482135",
-      "price_at_generation": 200.0,
-      "pnl_at_generation": -1.36,
-      "archived_at": "2026-06-09T23:17:00.702788"
     }
   ]
 }

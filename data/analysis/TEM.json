@@ -5,24 +5,24 @@
     "direction": "hold",
     "tier": "Hold",
     "buy_score": 0.25,
-    "sell_score": 0.29,
+    "sell_score": 0.43,
     "reasons": [],
     "misses": [
-      "BB: price not near lower band (pct=0.69)",
-      "RSI: not in buy zone (52.5, need 20-30)",
+      "BB: price not near lower band (pct=0.48)",
+      "RSI: not in buy zone (49.1, need 20-30)",
       "MACD: no bullish crossover or valley",
       "RSI Divergence: no bullish divergence detected",
       "200MA: price below 200MA \u2014 potential falling knife",
-      "Volume: below average (0.92x) \u2014 low conviction"
+      "Volume: below average (0.83x) \u2014 low conviction"
     ],
-    "price": 50.56,
-    "rsi": 52.5,
-    "atr": 4.47,
+    "price": 48.79,
+    "rsi": 49.1,
+    "atr": 4.38,
     "final_tier": "Hold",
     "sizing": {
-      "suggested_shares": 3,
-      "suggested_dollars": 151.68,
-      "note": "3 sh @ $50.56 = $152 (Hold, 60% size) | $938 swing budget after"
+      "suggested_shares": 4,
+      "suggested_dollars": 195.16,
+      "note": "4 sh @ $48.79 = $195 (Hold, 60% size) | $895 swing budget after"
     }
   },
   "fundamentals": {
@@ -51,7 +51,7 @@
       ],
       "earnings_status": "past",
       "next_earnings_date": "2026-05-05",
-      "days_to_earnings": -42
+      "days_to_earnings": -44
     }
   },
   "news": {
@@ -59,36 +59,35 @@
     "sentiment": "negative",
     "health": "deteriorating",
     "key_events": [
-      "No recent news available for assessment",
-      "Earnings reported 42 days ago with significant negative reaction",
-      "Market sentiment extreme fear (F&G)"
+      "Earnings reported 44 days ago",
+      "Stock down 29.37% from entry",
+      "Extreme Fear market sentiment (F&G)"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "Debt-to-equity ratio 3.2x indicates high leverage and refinancing risk",
-      "Not profitable with negative operating cash flow \u2014 unsustainable burn",
-      "26.81% drawdown suggests market loss of confidence in turnaround thesis",
-      "RSI 52.5 shows no oversold conditions for bounce confirmation",
-      "No technical firing signals despite weakness \u2014 lacks reversal conviction",
-      "42-day post-earnings silence indicates limited catalyst visibility"
+      "Debt-to-equity at 3.2x (elevated leverage)",
+      "Not profitable with negative operating cash flow",
+      "No recent positive news catalysts",
+      "RSI at 49.1 shows no momentum strength",
+      "Position weight at 4.6% concentrates risk"
     ],
-    "verdict": "Tempus AI shows fundamental deterioration with unsustainable unit economics, but position is locked under the 15% rule; hold with extreme caution pending concrete evidence of burn-rate correction or clinical validation catalysts.",
+    "verdict": "Tempus AI shows fundamental deterioration with unprofitable operations and weak cash flow, but philosophy mandates holding deep losses for recovery potential.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "TEM",
-    "stock_return_3m": -0.55,
-    "benchmark_return_3m": 12.16,
-    "relative_strength": -12.71,
+    "stock_return_3m": 0.21,
+    "benchmark_return_3m": 12.33,
+    "relative_strength": -12.12,
     "label": "underperforming"
   },
   "final_tier": "Hold",
   "sizing": {
-    "suggested_shares": 3,
-    "suggested_dollars": 151.68,
-    "note": "3 sh @ $50.56 = $152 (Hold, 60% size) | $938 swing budget after"
+    "suggested_shares": 4,
+    "suggested_dollars": 195.16,
+    "note": "4 sh @ $48.79 = $195 (Hold, 60% size) | $895 swing budget after"
   },
   "is_dca": false,
-  "saved_at": "2026-06-17T00:00:02.481987"
+  "saved_at": "2026-06-18T00:00:28.617606"
 }

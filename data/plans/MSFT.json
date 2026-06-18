@@ -3,19 +3,36 @@
     "ticker": "MSFT",
     "company_name": "Microsoft Corporation",
     "action": "Hold",
-    "action_reason": "Your position is exactly at your 15% loss threshold\u2014philosophy mandates holding. Fundamentals are sound and RSI hasn't reached oversold (<30), suggesting this is correction, not collapse.",
-    "target_price": null,
+    "action_reason": "Position exceeds 15% loss threshold; per strategy, hold through major losers for recovery. Oversold RSI (34.7) + Extreme Fear present classic contrarian setup. Wait for stabilization signals before any action.",
+    "target_price": 425,
     "target_reasoning": "",
-    "exit_trigger": "Break below $380 with confirmed breakdown on volume + deteriorating fundamentals",
-    "add_trigger": "RSI falls to 25-28 (oversold) + holds above $385 support on 3-day close",
-    "risk": "Portfolio concentration (24.3% weight) in single declining position increases drawdown risk if tech sector continues weakness",
+    "exit_trigger": "Fundamental deterioration (e.g., guidance cut, revenue miss next earnings) OR break below $360 on heavy volume (support failure)",
+    "add_trigger": "RSI drops to 20\u201325 range + VIX spikes above 25 (capitulation signal) OR price rebounds to $400 with confirmed technical reversal (higher low + bullish divergence)",
+    "risk": "Macro recession narrative could extend drawdown to 25\u201330% before reversal; position weight magnifies impact.",
     "outlook": "cautious",
-    "timeframe": "4-8 weeks for recovery signal; reassess if position reaches -25% loss",
-    "generated_at": "2026-06-16T23:59:46.820025",
-    "price_at_generation": 393.83,
-    "pnl_at_generation": -15.7
+    "timeframe": "3-8 weeks",
+    "generated_at": "2026-06-18T00:00:13.743837",
+    "price_at_generation": 378.91,
+    "pnl_at_generation": -18.89
   },
   "history": [
+    {
+      "ticker": "MSFT",
+      "company_name": "Microsoft Corporation",
+      "action": "Hold",
+      "action_reason": "Your position is exactly at your 15% loss threshold\u2014philosophy mandates holding. Fundamentals are sound and RSI hasn't reached oversold (<30), suggesting this is correction, not collapse.",
+      "target_price": null,
+      "target_reasoning": "",
+      "exit_trigger": "Break below $380 with confirmed breakdown on volume + deteriorating fundamentals",
+      "add_trigger": "RSI falls to 25-28 (oversold) + holds above $385 support on 3-day close",
+      "risk": "Portfolio concentration (24.3% weight) in single declining position increases drawdown risk if tech sector continues weakness",
+      "outlook": "cautious",
+      "timeframe": "4-8 weeks for recovery signal; reassess if position reaches -25% loss",
+      "generated_at": "2026-06-16T23:59:46.820025",
+      "price_at_generation": 393.83,
+      "pnl_at_generation": -15.7,
+      "archived_at": "2026-06-18T00:00:13.744083"
+    },
     {
       "ticker": "MSFT",
       "company_name": "Microsoft Corporation",
@@ -117,23 +134,6 @@
       "price_at_generation": 403.41,
       "pnl_at_generation": -13.65,
       "archived_at": "2026-06-10T23:24:07.507354"
-    },
-    {
-      "ticker": "MSFT",
-      "company_name": "Microsoft Corporation",
-      "action": "Hold",
-      "action_reason": "Loss is 11.87%, below the 15% threshold for holding through major losers. Philosophy dictates holding through recovery. Absence of deteriorating fundamentals and healthy business status support conviction.",
-      "target_price": null,
-      "target_reasoning": "",
-      "exit_trigger": "Fundamental deterioration (earnings miss, guidance cut, or structural business decline) OR loss exceeds 25% with confirmed technical breakdown below key support",
-      "add_trigger": "RSI drops to 30-35 (oversold) during broad market selloff with MSFT fundamentals intact, OR positive catalyst (product announcement, AI advancement, strong sector rotation into tech)",
-      "risk": "Concentration risk (24.9% weight) amplifies drawdown impact; continued broad market weakness could push loss past 15% threshold before recovery",
-      "outlook": "cautious",
-      "timeframe": "4-8 weeks (earnings cycle + macro stabilization needed)",
-      "generated_at": "2026-06-08T23:10:56.637858",
-      "price_at_generation": 411.74,
-      "pnl_at_generation": -11.87,
-      "archived_at": "2026-06-09T23:16:28.899827"
     }
   ]
 }

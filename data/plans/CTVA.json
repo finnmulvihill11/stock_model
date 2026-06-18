@@ -3,19 +3,36 @@
     "ticker": "CTVA",
     "company_name": "Corteva, Inc.",
     "action": "Hold",
-    "action_reason": "Loss is only 1.93% (well within normal swing trade variance) and position is well above the 15% threshold for forced holding. Earnings in 43 days provides a defined catalyst window.",
+    "action_reason": "Position is only -1.29% (well below 15% threshold), fundamentals remain healthy, and earnings in 42 days provide a defined catalyst window. RSI at 47.6 shows no oversold exhaustion yet; wait for better entry if adding or accumulation signal.",
     "target_price": 81.5,
     "target_reasoning": "",
-    "exit_trigger": "Break below $75.00 on high volume, or close below 50-day MA with deteriorating fundamentals",
-    "add_trigger": "RSI drops to 30-35 range with volume confirmation, or positive pre-earnings analyst upgrades",
-    "risk": "Agricultural commodity exposure to geopolitical disruptions; Extreme Fear sentiment could drive sector rotation outflows",
+    "exit_trigger": "Break below $75.80 with negative earnings guidance or deteriorating ag commodity outlook; or 30% loss threshold if fundamental thesis breaks",
+    "add_trigger": "RSI drops to 35-40 on no fundamental deterioration, or positive agricultural sector news emerges pre-earnings",
+    "risk": "Agricultural cyclicality + commodity price exposure; earnings miss in 42 days; rotation out of ag sector on strong growth data",
     "outlook": "neutral",
-    "timeframe": "3-6 weeks until earnings; reassess if technical structure breaks down",
-    "generated_at": "2026-06-17T00:00:24.811876",
-    "price_at_generation": 76.87,
-    "pnl_at_generation": -1.93
+    "timeframe": "4-6 weeks (hold into earnings catalyst)",
+    "generated_at": "2026-06-18T00:00:50.745234",
+    "price_at_generation": 77.37,
+    "pnl_at_generation": -1.29
   },
   "history": [
+    {
+      "ticker": "CTVA",
+      "company_name": "Corteva, Inc.",
+      "action": "Hold",
+      "action_reason": "Loss is only 1.93% (well within normal swing trade variance) and position is well above the 15% threshold for forced holding. Earnings in 43 days provides a defined catalyst window.",
+      "target_price": 81.5,
+      "target_reasoning": "",
+      "exit_trigger": "Break below $75.00 on high volume, or close below 50-day MA with deteriorating fundamentals",
+      "add_trigger": "RSI drops to 30-35 range with volume confirmation, or positive pre-earnings analyst upgrades",
+      "risk": "Agricultural commodity exposure to geopolitical disruptions; Extreme Fear sentiment could drive sector rotation outflows",
+      "outlook": "neutral",
+      "timeframe": "3-6 weeks until earnings; reassess if technical structure breaks down",
+      "generated_at": "2026-06-17T00:00:24.811876",
+      "price_at_generation": 76.87,
+      "pnl_at_generation": -1.93,
+      "archived_at": "2026-06-18T00:00:50.745442"
+    },
     {
       "ticker": "CTVA",
       "company_name": "Corteva, Inc.",
@@ -117,23 +134,6 @@
       "price_at_generation": 75.01,
       "pnl_at_generation": -4.3,
       "archived_at": "2026-06-10T23:24:41.328615"
-    },
-    {
-      "ticker": "CTVA",
-      "company_name": "Corteva, Inc.",
-      "action": "Hold",
-      "action_reason": "Position is within your loss tolerance philosophy and fundamentals remain healthy. RSI at 24.9 is textbook oversold territory, suggesting mean reversion opportunity without forcing action into uncertainty.",
-      "target_price": 82.5,
-      "target_reasoning": "",
-      "exit_trigger": "Break below $73.50 (8.5% from entry) on heavy volume without reversal signal",
-      "add_trigger": "RSI bounces above 35 with positive news catalyst or VIX spike to 22+ creates dip-buy opportunity",
-      "risk": "Broader market selloff or negative agricultural/fertilizer sector news before earnings recovery",
-      "outlook": "cautious",
-      "timeframe": "2-6 weeks until earnings catalyst",
-      "generated_at": "2026-06-08T23:11:34.977745",
-      "price_at_generation": 75.86,
-      "pnl_at_generation": -3.22,
-      "archived_at": "2026-06-09T23:17:07.567717"
     }
   ]
 }

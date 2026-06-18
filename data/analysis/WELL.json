@@ -4,20 +4,19 @@
     "ticker": "WELL",
     "direction": "hold",
     "tier": "Hold",
-    "buy_score": 0.25,
-    "sell_score": 0.0,
+    "buy_score": 0.38,
+    "sell_score": 0.29,
     "reasons": [],
     "misses": [
-      "BB: price not near lower band (pct=0.64)",
+      "BB: price not near lower band (pct=0.42)",
       "BB Width: bands expanding, not squeezing",
-      "RSI: not in buy zone (54.8, need 20-30)",
+      "RSI: not in buy zone (46.9, need 20-30)",
       "MACD: no bullish crossover or valley",
-      "RSI Divergence: no bullish divergence detected",
-      "Volume: below average (0.36x) \u2014 low conviction"
+      "RSI Divergence: no bullish divergence detected"
     ],
-    "price": 213.5,
-    "rsi": 54.8,
-    "atr": 6.24,
+    "price": 206.55,
+    "rsi": 46.9,
+    "atr": 6.35,
     "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 0,
@@ -51,7 +50,7 @@
       ],
       "earnings_status": "past",
       "next_earnings_date": "2026-04-28",
-      "days_to_earnings": -50
+      "days_to_earnings": -51
     }
   },
   "news": {
@@ -59,28 +58,25 @@
     "sentiment": "neutral",
     "health": "healthy",
     "key_events": [
-      "Position up 5.30% with modest gains",
-      "RSI at 54.8 indicates balanced momentum (neither overbought nor oversold)",
-      "No technical firing signals present",
-      "Earnings already reported (50+ days past)",
-      "Market conditions neutral with VIX at 16.4"
+      "Earnings reported 51 days ago",
+      "VIX at 18.4 indicating neutral market conditions",
+      "Extreme Fear gauge suggests potential oversold conditions in broader market"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "Extreme Fear sentiment in market despite neutral VIX\u2014potential disconnect",
-      "No active news flow to assess catalyst strength",
-      "No technical momentum drivers (RSI firing indicators absent)",
-      "Geopolitical risk unassessable due to missing news data"
+      "No recent news catalysts visible",
+      "RSI at 46.9 shows no momentum firing (neutral zone)",
+      "6.5% portfolio weight is meaningful; limited upside captured so far"
     ],
-    "verdict": "WELL is in a stable holding pattern with profitable gains and healthy fundamentals, but lacks near-term catalysts to drive further momentum.",
+    "verdict": "Small profitable position in fundamentally healthy healthcare REIT with modest gains; hold for swing continuation or trimming opportunity on stronger momentum.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "WELL",
-    "stock_return_3m": 0.5,
-    "benchmark_return_3m": 12.16,
-    "relative_strength": -11.66,
+    "stock_return_3m": -0.93,
+    "benchmark_return_3m": 12.33,
+    "relative_strength": -13.26,
     "label": "underperforming"
   },
   "final_tier": "Hold",
@@ -90,5 +86,5 @@
     "note": "Price exceeds 60% conviction ceiling ($196) \u2014 skip or wait for Strong Buy"
   },
   "is_dca": false,
-  "saved_at": "2026-06-17T00:00:18.134038"
+  "saved_at": "2026-06-18T00:00:43.050411"
 }
