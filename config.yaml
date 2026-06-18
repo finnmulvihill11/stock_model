@@ -2,6 +2,7 @@ portfolio:
   previously_owned:
   - XLK
   - DECK
+  - WELL
   holdings:
   - ticker: INTU
     shares: 3
@@ -27,9 +28,6 @@ portfolio:
   - ticker: CMG
     shares: 4
     avg_cost: 31.47
-  - ticker: WELL
-    shares: 1
-    avg_cost: 202.75
   - ticker: CTVA
     shares: 1
     avg_cost: 78.38
