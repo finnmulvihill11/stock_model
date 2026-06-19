@@ -3,19 +3,36 @@
     "ticker": "CTVA",
     "company_name": "Corteva, Inc.",
     "action": "Hold",
-    "action_reason": "Position is only -1.29% (well below 15% threshold), fundamentals remain healthy, and earnings in 42 days provide a defined catalyst window. RSI at 47.6 shows no oversold exhaustion yet; wait for better entry if adding or accumulation signal.",
-    "target_price": 81.5,
+    "action_reason": "Position is marginally profitable (+0.27%) with healthy fundamentals but no technical or news catalysts to justify adding. Low weight (2.5%) allows risk-free holding through earnings event.",
+    "target_price": null,
     "target_reasoning": "",
-    "exit_trigger": "Break below $75.80 with negative earnings guidance or deteriorating ag commodity outlook; or 30% loss threshold if fundamental thesis breaks",
-    "add_trigger": "RSI drops to 35-40 on no fundamental deterioration, or positive agricultural sector news emerges pre-earnings",
-    "risk": "Agricultural cyclicality + commodity price exposure; earnings miss in 42 days; rotation out of ag sector on strong growth data",
+    "exit_trigger": "Break below $76.50 (technical support) with volume spike, or deteriorating fundamentals at earnings",
+    "add_trigger": "RSI breaks above 60 with volume on bullish news catalyst, or agricultural commodity tailwind confirmation",
+    "risk": "Agricultural commodity price volatility; geopolitical impact on crop markets; earnings miss in 41 days could trigger sharp pullback",
     "outlook": "neutral",
-    "timeframe": "4-6 weeks (hold into earnings catalyst)",
-    "generated_at": "2026-06-18T00:00:50.745234",
-    "price_at_generation": 77.37,
-    "pnl_at_generation": -1.29
+    "timeframe": "2-6 weeks (hold until earnings catalyst or technical breakout)",
+    "generated_at": "2026-06-19T00:13:15.911262",
+    "price_at_generation": 78.59,
+    "pnl_at_generation": 0.27
   },
   "history": [
+    {
+      "ticker": "CTVA",
+      "company_name": "Corteva, Inc.",
+      "action": "Hold",
+      "action_reason": "Position is only -1.29% (well below 15% threshold), fundamentals remain healthy, and earnings in 42 days provide a defined catalyst window. RSI at 47.6 shows no oversold exhaustion yet; wait for better entry if adding or accumulation signal.",
+      "target_price": 81.5,
+      "target_reasoning": "",
+      "exit_trigger": "Break below $75.80 with negative earnings guidance or deteriorating ag commodity outlook; or 30% loss threshold if fundamental thesis breaks",
+      "add_trigger": "RSI drops to 35-40 on no fundamental deterioration, or positive agricultural sector news emerges pre-earnings",
+      "risk": "Agricultural cyclicality + commodity price exposure; earnings miss in 42 days; rotation out of ag sector on strong growth data",
+      "outlook": "neutral",
+      "timeframe": "4-6 weeks (hold into earnings catalyst)",
+      "generated_at": "2026-06-18T00:00:50.745234",
+      "price_at_generation": 77.37,
+      "pnl_at_generation": -1.29,
+      "archived_at": "2026-06-19T00:13:15.911452"
+    },
     {
       "ticker": "CTVA",
       "company_name": "Corteva, Inc.",
@@ -117,23 +134,6 @@
       "price_at_generation": 74.46,
       "pnl_at_generation": -5.0,
       "archived_at": "2026-06-11T23:20:10.878297"
-    },
-    {
-      "ticker": "CTVA",
-      "company_name": "Corteva, Inc.",
-      "action": "Hold",
-      "action_reason": "Position is only down 4.30% (well below the 15% threshold), fundamentals are healthy, and RSI oversold conditions typically precede recoveries. Extreme Fear environment with neutral VIX suggests indiscriminate selling rather than CTVA-specific deterioration.",
-      "target_price": 80.5,
-      "target_reasoning": "",
-      "exit_trigger": "RSI breaks below 20 with volume surge OR negative earnings guidance on 2/6",
-      "add_trigger": "RSI reaches 25 with bullish divergence OR position recovers to +2% (take profits only)",
-      "risk": "Agricultural/commodity price pressure; macro slowdown affecting farm inputs demand; sentiment remains fearful",
-      "outlook": "cautious",
-      "timeframe": "2-4 weeks until technical recovery or earnings catalyst",
-      "generated_at": "2026-06-09T23:17:07.567517",
-      "price_at_generation": 75.01,
-      "pnl_at_generation": -4.3,
-      "archived_at": "2026-06-10T23:24:41.328615"
     }
   ]
 }

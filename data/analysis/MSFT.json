@@ -4,19 +4,18 @@
     "ticker": "MSFT",
     "direction": "hold",
     "tier": "Hold",
-    "buy_score": 0.38,
+    "buy_score": 0.5,
     "sell_score": 0.29,
     "reasons": [],
     "misses": [
       "BB Width: bands expanding, not squeezing",
-      "RSI: not in buy zone (34.7, need 20-30)",
       "MACD: no bullish crossover or valley",
       "RSI Divergence: no bullish divergence detected",
       "200MA: price below 200MA \u2014 potential falling knife"
     ],
-    "price": 378.91,
-    "rsi": 34.7,
-    "atr": 13.62,
+    "price": 379.4,
+    "rsi": 35.0,
+    "atr": 12.54,
     "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 0,
@@ -50,7 +49,7 @@
       ],
       "earnings_status": "past",
       "next_earnings_date": "2026-04-29",
-      "days_to_earnings": -50
+      "days_to_earnings": -51
     }
   },
   "news": {
@@ -58,27 +57,27 @@
     "sentiment": "neutral",
     "health": "healthy",
     "key_events": [
-      "Position down 18.89% from entry ($467.18 \u2192 $378.91)",
-      "Earnings reported 50+ days ago \u2014 catalyst already priced in",
-      "RSI at 34.7 indicates oversold conditions",
-      "Market-wide fear (Extreme Fear in F&G) creating indiscriminate selling",
-      "VIX 18.4 suggests volatility elevated but not panic levels"
+      "Earnings reported 51 days ago - results fully priced in",
+      "RSI at 35.0 indicates oversold conditions",
+      "VIX at 16.4 suggests stable market environment",
+      "Extreme Fear gauge presents potential contrarian opportunity"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "No technical firing signals despite oversold RSI",
-      "Heavy position weight (24%) amplifies drawdown impact",
-      "Potential macro headwinds driving broad-market pessimism"
+      "No current news data available - cannot assess recent catalysts",
+      "18.79% drawdown creates emotional pressure despite philosophical guidelines",
+      "Position weight of 24.5% creates concentration risk",
+      "No technical firing signals despite oversold RSI"
     ],
-    "verdict": "MSFT fundamentals remain healthy; current drawdown driven by market-wide fear and technical oversold conditions, not company deterioration.",
+    "verdict": "MSFT fundamentals remain healthy with technical oversold conditions, but lack of recent news and oversized position weight warrant careful monitoring rather than aggressive action.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "MSFT",
-    "stock_return_3m": -3.08,
-    "benchmark_return_3m": 12.33,
-    "relative_strength": -15.41,
+    "stock_return_3m": -2.26,
+    "benchmark_return_3m": 13.49,
+    "relative_strength": -15.75,
     "label": "underperforming"
   },
   "final_tier": "Hold",
@@ -88,5 +87,5 @@
     "note": "Position already at 20% portfolio cap"
   },
   "is_dca": false,
-  "saved_at": "2026-06-18T00:00:13.744628"
+  "saved_at": "2026-06-19T00:12:46.427228"
 }

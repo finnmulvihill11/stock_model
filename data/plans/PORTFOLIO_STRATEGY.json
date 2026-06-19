@@ -1,24 +1,53 @@
 {
   "current": {
-    "headline": "Portfolio holding steady through drawdowns; no new trades warranted until oversold technicals improve or conviction signals emerge.",
-    "market_stance": "defensive",
-    "overall_thesis": "Market fear (VIX 18.4, F&G 22) is creating opportunity, but your existing positions are still in mean-reversion consolidation\u2014not yet at technical extremes that justify new capital. Hold all positions through their drawdowns per philosophy, and deploy the $1K dry powder only when a clear Strong Buy signal appears (RSI <30 on quality name, Bollinger Band touch, MACD reversal). INTU weight overages will self-correct as positions recover.",
-    "priority_actions": [],
-    "biggest_risk": "INTU concentration (25.6% of portfolio, down 42.5%) creates asymmetric downside if tech rotation deepens. Single position now exceeds 25% cap, but philosophy prevents exit. Monitor for capitulation signals that trigger aggressive recovery.",
+    "headline": "Portfolio holding through major drawdowns; XOM offers high-conviction add in extreme fear environment.",
+    "market_stance": "neutral",
+    "overall_thesis": "Your core positions (INTU, MSFT, ABT, TEM) are all underwater >15%, triggering your hold-through-drawdown philosophy. This is the right call\u2014mean reversion works when you don't panic. XOM presents a tactical add: oversold RSI (33.3), Bollinger Band squeeze, and Extreme Fear (14) create high-probability reversal setup. Use remaining $1K budget here rather than chasing new names.",
+    "priority_actions": [
+      {
+        "rank": 1,
+        "action": "ADD",
+        "ticker": "XOM",
+        "instruction": "Add $800\u2013$1,000 to XOM position on any dip to RSI <30 or on close below current BB lower band. Target 20\u201325 shares depending on fill price. This exploits Extreme Fear + oversold technicals.",
+        "urgency": "this week"
+      }
+    ],
+    "biggest_risk": "INTU concentration (25.9% of portfolio, down 43%) + tech weight (50.4%) creates asymmetric downside if broad tech correction accelerates. If INTU breaks below current lows on heavy volume, reassess thesis despite hold rule.",
     "what_to_watch": [
-      "INTU RSI: watch for drop below 30 + MACD bullish cross (buy signal for ADD)",
-      "Tech sector stabilization: if SPY/QQQ hold support, recovery window opens in next 2\u20133 weeks",
-      "Fear & Greed index: if it falls below 20 (capitulation), deploy $1K on strongest oversold setup",
-      "MSFT, ABT, TEM: monitor for any Strong Buy reversal signals before end of month"
+      "VIX spike above 18\u2014signals renewed risk-off; hold cash if it occurs",
+      "XOM RSI bounce above 45\u2014confirms reversal trade working; consider taking partial profits at 10\u201315% gain",
+      "INTU and MSFT earnings/guidance\u2014major catalysts that could validate or invalidate your mean-reversion conviction",
+      "Geopolitical developments (tariffs, trade policy)\u2014monitor financial news closely before new capital deployment"
     ],
     "on_course_check": [
-      "\u2713 Staying true to philosophy: holding all major losers (INTU, MSFT, ABT, TEM) without panic",
-      "\u2713 Dry powder preserved: $1K available for opportunistic buys when conviction signals appear",
-      "\u26a0 Plan needs revision if: VIX spikes above 25 AND no reversal signals appear within 5 days (then reassess thesis). OR if INTU drops another 10% without any oversold technical bounce (then consider rebalancing after recovery)."
+      "\u2713 Plan working: holding major losers through >15% drawdowns without panic\u2014discipline intact",
+      "\u2713 Plan working: XOM oversold setup aligns perfectly with extreme fear environment and your contrarian style",
+      "\u26a0 Revise if: INTU or MSFT break major support levels on high volume (thesis broken, not just drawdown)",
+      "\u26a0 Revise if: geopolitical escalation materially changes risk backdrop\u2014use watchlist data to reassess"
     ],
-    "generated_at": "2026-06-18T00:00:58.703368"
+    "generated_at": "2026-06-19T00:13:35.315612"
   },
   "history": [
+    {
+      "headline": "Portfolio holding steady through drawdowns; no new trades warranted until oversold technicals improve or conviction signals emerge.",
+      "market_stance": "defensive",
+      "overall_thesis": "Market fear (VIX 18.4, F&G 22) is creating opportunity, but your existing positions are still in mean-reversion consolidation\u2014not yet at technical extremes that justify new capital. Hold all positions through their drawdowns per philosophy, and deploy the $1K dry powder only when a clear Strong Buy signal appears (RSI <30 on quality name, Bollinger Band touch, MACD reversal). INTU weight overages will self-correct as positions recover.",
+      "priority_actions": [],
+      "biggest_risk": "INTU concentration (25.6% of portfolio, down 42.5%) creates asymmetric downside if tech rotation deepens. Single position now exceeds 25% cap, but philosophy prevents exit. Monitor for capitulation signals that trigger aggressive recovery.",
+      "what_to_watch": [
+        "INTU RSI: watch for drop below 30 + MACD bullish cross (buy signal for ADD)",
+        "Tech sector stabilization: if SPY/QQQ hold support, recovery window opens in next 2\u20133 weeks",
+        "Fear & Greed index: if it falls below 20 (capitulation), deploy $1K on strongest oversold setup",
+        "MSFT, ABT, TEM: monitor for any Strong Buy reversal signals before end of month"
+      ],
+      "on_course_check": [
+        "\u2713 Staying true to philosophy: holding all major losers (INTU, MSFT, ABT, TEM) without panic",
+        "\u2713 Dry powder preserved: $1K available for opportunistic buys when conviction signals appear",
+        "\u26a0 Plan needs revision if: VIX spikes above 25 AND no reversal signals appear within 5 days (then reassess thesis). OR if INTU drops another 10% without any oversold technical bounce (then consider rebalancing after recovery)."
+      ],
+      "generated_at": "2026-06-18T00:00:58.703368",
+      "archived_at": "2026-06-19T00:13:35.315850"
+    },
     {
       "headline": "Portfolio in defensive holding mode\u2014all positions in drawdown; no new opportunities meet conviction threshold today.",
       "market_stance": "defensive",
@@ -218,40 +247,6 @@
       ],
       "generated_at": "2026-06-10T23:24:58.188521",
       "archived_at": "2026-06-11T23:20:26.394966"
-    },
-    {
-      "headline": "Hold core positions through extreme fear; deploy $1K selectively into oversold mega-cap mean-reversion setups.",
-      "market_stance": "offensive",
-      "overall_thesis": "Extreme Fear (VIX 19.9, Fear/Greed 10) creates classic mean-reversion opportunity in quality names. Your philosophy demands holding major losers (INTU -37%, TEM -29%) through recovery\u2014these are capitulation moments. Deploy remaining $1K into GOOG or ETR, which show textbook RSI oversold + Bollinger Band squeezes with no fundamental deterioration.",
-      "priority_actions": [
-        {
-          "rank": 1,
-          "action": "BUY",
-          "ticker": "GOOG",
-          "instruction": "Buy ~4\u20135 shares at current levels (RSI 29.8 oversold, Bollinger Band lower band hug). This is a Strong Buy mean-reversion signal on a quality mega-cap. Deploy $800\u2013900 from remaining $1K budget.",
-          "urgency": "immediate"
-        },
-        {
-          "rank": 2,
-          "action": "BUY",
-          "ticker": "ETR",
-          "instruction": "If capital remains after GOOG ($100\u2013200), buy 1\u20132 shares of ETR on persistent buy signal + Bollinger Band squeeze. Hold as secondary mean-reversion play.",
-          "urgency": "this week"
-        }
-      ],
-      "biggest_risk": "INTU concentration (27.0% vs. 25% cap) + combined tech weight (51.7%) means a sector-wide tech correction could push portfolio underwater significantly. Current -16.83% P&L is mostly INTU and TEM drag. Do not panic-sell them.",
-      "what_to_watch": [
-        "INTU RSI recovery above 40 (currently 28.6) \u2014 signals bottoming and start of mean-reversion leg up",
-        "Tech sector stabilization \u2014 if QQQ or XLK holds support, your oversold tech names (MSFT, INTU) likely bottom here",
-        "Fear/Greed index recovery from 10 \u2192 20+ \u2014 reversal signal that capitulation is complete",
-        "GOOG and ETR entry execution \u2014 confirm fills and monitor RSI + Bollinger Band squeeze for 2\u20133 days post-entry"
-      ],
-      "on_course_check": [
-        "Plan is working if: INTU, TEM, MSFT hold current levels (no fresh breakdowns) and GOOG/ETR bounce 3\u20135% within 2 weeks of entry \u2014 confirms mean-reversion thesis",
-        "Revise plan if: Tech sector breaks down further (QQQ -5% more), INTU falls below $20, or Fear/Greed stays below 5 for >3 days \u2014 may signal deeper structural weakness"
-      ],
-      "generated_at": "2026-06-09T23:17:20.496019",
-      "archived_at": "2026-06-10T23:24:58.188803"
     }
   ]
 }

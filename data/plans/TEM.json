@@ -3,19 +3,36 @@
     "ticker": "TEM",
     "company_name": "Tempus AI, Inc.",
     "action": "Hold",
-    "action_reason": "Position is down 29.37%, triggering the rule to hold major losers rather than exit. However, this is a deteriorating fundamental situation that requires strict discipline\u2014only hold if conviction in long-term AI thesis remains intact.",
-    "target_price": null,
+    "action_reason": "Per philosophy, position is -26.4% (exceeds 15% threshold) and must be held through recovery attempt. However, establish clear exit triggers given deteriorating fundamentals rather than waiting indefinitely.",
+    "target_price": 42.5,
     "target_reasoning": "",
-    "exit_trigger": "Breach of $42 (technical support) OR confirmation of covenant violations due to debt burden OR dilutive financing announcement",
-    "add_trigger": "Only add if: (1) RSI falls to <30 with bullish divergence, (2) positive FCF inflection announced, AND (3) debt refinancing secured at reasonable terms",
-    "risk": "Insolvency risk if negative cash burn accelerates; debt servicing pressure in rising rate environment; dilution from potential equity raise",
+    "exit_trigger": "Break below $45 on volume OR negative earnings revision OR debt covenant concern; also exit if RSI falls below 30 without recovery attempt within 4 weeks",
+    "add_trigger": "Do not add. Current fundamentals do not support averaging down; wait for profitable quarter or FCF positive inflection before considering adds",
+    "risk": "Liquidity crisis if debt burden cannot be serviced; continued cash burn could force dilutive financing or restructuring",
     "outlook": "cautious",
-    "timeframe": "3-6 months (monitor quarterly cash burn; AI sector recovery needed for fundamental turnaround)",
-    "generated_at": "2026-06-18T00:00:28.616750",
-    "price_at_generation": 48.79,
-    "pnl_at_generation": -29.37
+    "timeframe": "4-6 weeks for recovery signal; if no RSI bounce or fundamental stabilization by then, reassess hold thesis",
+    "generated_at": "2026-06-19T00:13:01.557780",
+    "price_at_generation": 50.84,
+    "pnl_at_generation": -26.4
   },
   "history": [
+    {
+      "ticker": "TEM",
+      "company_name": "Tempus AI, Inc.",
+      "action": "Hold",
+      "action_reason": "Position is down 29.37%, triggering the rule to hold major losers rather than exit. However, this is a deteriorating fundamental situation that requires strict discipline\u2014only hold if conviction in long-term AI thesis remains intact.",
+      "target_price": null,
+      "target_reasoning": "",
+      "exit_trigger": "Breach of $42 (technical support) OR confirmation of covenant violations due to debt burden OR dilutive financing announcement",
+      "add_trigger": "Only add if: (1) RSI falls to <30 with bullish divergence, (2) positive FCF inflection announced, AND (3) debt refinancing secured at reasonable terms",
+      "risk": "Insolvency risk if negative cash burn accelerates; debt servicing pressure in rising rate environment; dilution from potential equity raise",
+      "outlook": "cautious",
+      "timeframe": "3-6 months (monitor quarterly cash burn; AI sector recovery needed for fundamental turnaround)",
+      "generated_at": "2026-06-18T00:00:28.616750",
+      "price_at_generation": 48.79,
+      "pnl_at_generation": -29.37,
+      "archived_at": "2026-06-19T00:13:01.557974"
+    },
     {
       "ticker": "TEM",
       "company_name": "Tempus AI, Inc.",
@@ -117,23 +134,6 @@
       "price_at_generation": 49.48,
       "pnl_at_generation": -28.37,
       "archived_at": "2026-06-11T23:19:48.831426"
-    },
-    {
-      "ticker": "TEM",
-      "company_name": "Tempus AI, Inc.",
-      "action": "Hold",
-      "action_reason": "Position is -29% (exceeds 15% threshold per philosophy). Despite deteriorating fundamentals, extreme fear suggests capitulation; AI/biotech sector volatility can reverse sharply. Hold for recovery catalyst or bankruptcy signal.",
-      "target_price": 65,
-      "target_reasoning": "",
-      "exit_trigger": "Bankruptcy filing, debt covenant breach, or confirmed runway <12 months cash; OR break above $60 on volume (reduce 50%)",
-      "add_trigger": "Do NOT add. Already overleveraged position; wait for profitability roadmap or cash flow inflection",
-      "risk": "Cash burn leading to dilutive financing or insolvency; debt holders may force restructuring; biotech execution risk",
-      "outlook": "cautious",
-      "timeframe": "2-6 weeks for earnings catalyst or debt/funding news; reevaluate if VIX spikes (fear compression play) or macro stabilizes",
-      "generated_at": "2026-06-09T23:16:47.322974",
-      "price_at_generation": 48.82,
-      "pnl_at_generation": -29.33,
-      "archived_at": "2026-06-10T23:24:21.918630"
     }
   ]
 }

@@ -4,27 +4,26 @@
     "ticker": "CMG",
     "direction": "hold",
     "tier": "Hold",
-    "buy_score": 0.0,
+    "buy_score": 0.12,
     "sell_score": 0.29,
     "reasons": [],
     "misses": [
-      "BB: price not near lower band (pct=0.60)",
+      "BB: price not near lower band (pct=0.71)",
       "BB Width: bands expanding, not squeezing",
-      "RSI: not in buy zone (51.4, need 20-30)",
+      "RSI: not in buy zone (55.1, need 20-40)",
       "MACD: no bullish crossover or valley",
       "RSI Divergence: no bullish divergence detected",
       "200MA: price below 200MA \u2014 potential falling knife",
-      "Death cross active: 50MA (32.69) below 200MA (35.87)",
-      "Volume: below average (0.55x) \u2014 low conviction"
+      "Death cross active: 50MA (32.67) below 200MA (35.82)"
     ],
-    "price": 31.86,
-    "rsi": 51.4,
-    "atr": 1.23,
+    "price": 32.49,
+    "rsi": 55.1,
+    "atr": 1.26,
     "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 6,
-      "suggested_dollars": 191.16,
-      "note": "6 sh @ $31.86 = $191 (Hold, 60% size) | $899 swing budget after"
+      "suggested_dollars": 194.94,
+      "note": "6 sh @ $32.49 = $195 (Hold, 60% size) | $963 swing budget after"
     }
   },
   "fundamentals": {
@@ -54,7 +53,7 @@
       ],
       "earnings_status": "distant",
       "next_earnings_date": "2026-07-29",
-      "days_to_earnings": 41
+      "days_to_earnings": 40
     }
   },
   "news": {
@@ -62,34 +61,34 @@
     "sentiment": "neutral",
     "health": "neutral",
     "key_events": [
-      "No recent news items available for analysis",
-      "Earnings report 41 days away (mid-term catalyst)",
-      "Market showing extreme fear despite neutral VIX"
+      "No recent news available for assessment",
+      "Earnings report 40 days away (mid-term catalyst)",
+      "Market in Extreme Fear despite neutral VIX reading"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
       "High debt-to-equity ratio (2.2x) limits financial flexibility",
-      "No technical momentum \u2014 RSI at midpoint (51.4) with no indicators firing",
-      "Extreme fear sentiment in market could signal capitulation or opportunity",
-      "No recent news catalysts to drive swing trade momentum"
+      "No technical momentum (RSI 55.1 = neutral, no firing signals)",
+      "Extreme Fear sentiment suggests downside volatility risk despite small gain",
+      "Missing news data prevents full fundamental assessment"
     ],
-    "verdict": "Small profitable position lacks near-term catalysts; hold and monitor for technical breakout or earnings approach.",
+    "verdict": "Small profitable position with neutral technicals and elevated leverage risk\u2014hold without adding until momentum or news catalysts emerge.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "CMG",
-    "stock_return_3m": -2.39,
-    "benchmark_return_3m": 12.33,
-    "relative_strength": -14.72,
+    "stock_return_3m": -1.37,
+    "benchmark_return_3m": 13.49,
+    "relative_strength": -14.85,
     "label": "underperforming"
   },
   "final_tier": "Hold",
   "sizing": {
     "suggested_shares": 6,
-    "suggested_dollars": 191.16,
-    "note": "6 sh @ $31.86 = $191 (Hold, 60% size) | $899 swing budget after"
+    "suggested_dollars": 194.94,
+    "note": "6 sh @ $32.49 = $195 (Hold, 60% size) | $963 swing budget after"
   },
   "is_dca": false,
-  "saved_at": "2026-06-18T00:00:35.404734"
+  "saved_at": "2026-06-19T00:13:08.850247"
 }

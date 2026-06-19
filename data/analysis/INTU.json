@@ -4,20 +4,18 @@
     "ticker": "INTU",
     "direction": "hold",
     "tier": "Hold",
-    "buy_score": 0.25,
-    "sell_score": 0.14,
+    "buy_score": 0.5,
+    "sell_score": 0.29,
     "reasons": [],
     "misses": [
       "BB Width: bands expanding, not squeezing",
-      "RSI: not in buy zone (31.8, need 20-30)",
       "RSI Divergence: no bullish divergence detected",
       "200MA: price below 200MA \u2014 potential falling knife",
-      "Death cross active: 50MA (356.49) below 200MA (523.24)",
-      "Volume: below average (0.60x) \u2014 low conviction"
+      "Death cross active: 50MA (354.06) below 200MA (521.28)"
     ],
-    "price": 269.08,
-    "rsi": 31.8,
-    "atr": 16.93,
+    "price": 267.0,
+    "rsi": 31.3,
+    "atr": 16.3,
     "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 0,
@@ -51,7 +49,7 @@
       ],
       "earnings_status": "past",
       "next_earnings_date": "2026-05-20",
-      "days_to_earnings": -28
+      "days_to_earnings": -30
     }
   },
   "news": {
@@ -59,27 +57,28 @@
     "sentiment": "neutral",
     "health": "healthy",
     "key_events": [
-      "Earnings passed 28 days ago",
-      "Stock down 42.54% from entry",
-      "Extreme Fear sentiment in market",
-      "VIX neutral at 18.4"
+      "Earnings reported within past 30 days",
+      "Significant drawdown (-42.98%) from entry",
+      "RSI at 31.3 indicates oversold conditions",
+      "No technical firing signals present",
+      "Extreme Fear market sentiment (F&G index)"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "Severe drawdown (-42.54%) significantly exceeds 15% philosophy threshold",
-      "No recent news catalysts visible",
-      "RSI at 31.8 indicates oversold but not yet capitulation",
-      "Position represents 25.6% portfolio weight (concentration risk)"
+      "Severe underwater position at -42.98%",
+      "No recent news data available for assessment",
+      "Position weight at 25.9% creates concentration risk",
+      "Post-earnings volatility period with unclear direction"
     ],
-    "verdict": "INTU fundamentals remain healthy but technicals show severe pain; position is underwater beyond comfort zone despite policy to hold major losers.",
+    "verdict": "INTU is fundamentally healthy but technically oversold; hold per loss-aversion protocol while awaiting recovery catalyst.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "INTU",
-    "stock_return_3m": -39.59,
-    "benchmark_return_3m": 12.33,
-    "relative_strength": -51.92,
+    "stock_return_3m": -41.17,
+    "benchmark_return_3m": 13.49,
+    "relative_strength": -54.65,
     "label": "underperforming"
   },
   "final_tier": "Hold",
@@ -89,5 +88,5 @@
     "note": "Position already at 20% portfolio cap"
   },
   "is_dca": false,
-  "saved_at": "2026-06-18T00:00:05.976188"
+  "saved_at": "2026-06-19T00:12:40.084910"
 }

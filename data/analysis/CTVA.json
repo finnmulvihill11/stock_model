@@ -4,22 +4,23 @@
     "ticker": "CTVA",
     "direction": "hold",
     "tier": "Hold",
-    "buy_score": 0.62,
+    "buy_score": 0.5,
     "sell_score": 0.29,
     "reasons": [],
     "misses": [
-      "BB: price not near lower band (pct=0.50)",
-      "RSI: not in buy zone (47.6, need 20-30)",
+      "BB: price not near lower band (pct=0.68)",
+      "RSI: not in buy zone (53.2, need 20-40)",
+      "MACD: no bullish crossover or valley",
       "RSI Divergence: no bullish divergence detected"
     ],
-    "price": 77.37,
-    "rsi": 47.6,
-    "atr": 1.75,
+    "price": 78.59,
+    "rsi": 53.2,
+    "atr": 1.76,
     "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 2,
-      "suggested_dollars": 154.74,
-      "note": "2 sh @ $77.37 = $155 (Hold, 60% size) | $935 swing budget after"
+      "suggested_dollars": 157.18,
+      "note": "2 sh @ $78.59 = $157 (Hold, 60% size) | $1,000 swing budget after"
     }
   },
   "fundamentals": {
@@ -48,7 +49,7 @@
       ],
       "earnings_status": "distant",
       "next_earnings_date": "2026-07-30",
-      "days_to_earnings": 42
+      "days_to_earnings": 41
     }
   },
   "news": {
@@ -56,34 +57,34 @@
     "sentiment": "neutral",
     "health": "healthy",
     "key_events": [
-      "No recent news items available for analysis",
-      "Earnings report 42 days away (mid-term catalyst)",
-      "Market in Extreme Fear despite neutral VIX",
-      "Agricultural commodity cycles remain structural factor"
+      "No recent news available for analysis",
+      "Earnings report 41 days away",
+      "Market volatility neutral (VIX 16.4)",
+      "Extreme Fear sentiment in broader market"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "No news flow\u2014lack of positive catalysts in near-term",
-      "Position down 1.29% with no technical firing signals",
-      "Extreme Fear sentiment may indicate capitulation or opportunity depending on broader thesis"
+      "No active technical firing signals",
+      "RSI at 53.2 indicates no momentum conviction",
+      "Empty news feed limits conviction for swing trade"
     ],
-    "verdict": "Hold position; healthy fundamentals and distant earnings warrant patience, while lack of near-term catalysts and negative P&L do not justify exit given swing trade thesis.",
+    "verdict": "CTVA is stable but lacks near-term catalysts; hold modest position and await earnings setup or technical confirmation.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "CTVA",
-    "stock_return_3m": -2.26,
-    "benchmark_return_3m": 12.33,
-    "relative_strength": -14.59,
+    "stock_return_3m": 0.9,
+    "benchmark_return_3m": 13.49,
+    "relative_strength": -12.59,
     "label": "underperforming"
   },
   "final_tier": "Hold",
   "sizing": {
     "suggested_shares": 2,
-    "suggested_dollars": 154.74,
-    "note": "2 sh @ $77.37 = $155 (Hold, 60% size) | $935 swing budget after"
+    "suggested_dollars": 157.18,
+    "note": "2 sh @ $78.59 = $157 (Hold, 60% size) | $1,000 swing budget after"
   },
   "is_dca": false,
-  "saved_at": "2026-06-18T00:00:50.746017"
+  "saved_at": "2026-06-19T00:13:16.020559"
 }

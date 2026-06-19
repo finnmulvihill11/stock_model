@@ -1,0 +1,19 @@
+{
+  "current": {
+    "ticker": "XOM",
+    "company_name": "Exxon Mobil Corporation",
+    "action": "Add More",
+    "action_reason": "RSI oversold + BB squeeze + Extreme Fear = high probability reversal setup. Position is profitable (+0.13%), small (4.4% weight), and fundamental health is strong\u2014tactical add aligns with swing trader mentality of buying dips. Entry near BB lower band historically offers favorable risk/reward.",
+    "target_price": 142.5,
+    "target_reasoning": "",
+    "exit_trigger": "Close above 20-day MA with RSI >60, or breach of recent swing low ($135.20) on high volume with negative oil fundamentals",
+    "add_trigger": "RSI stays 20-35 for 2+ days AND price holds above $136.50 support, OR gap down on extreme fear spike with fundamentals unchanged",
+    "risk": "Geopolitical escalation impacting oil supply or demand destruction from recession fears; OPEC+ production changes; broad energy sector selloff unrelated to XOM's operations",
+    "outlook": "cautious",
+    "timeframe": "2-4 weeks for mean-reversion bounce; monitor for BB expansion confirming volatility release",
+    "generated_at": "2026-06-19T00:13:24.223008",
+    "price_at_generation": 137.81,
+    "pnl_at_generation": 0.13
+  },
+  "history": []
+}
