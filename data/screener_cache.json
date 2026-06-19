@@ -1,5 +1,131 @@
 {
-  "generated_at": "2026-06-18T19:15:21.168177",
-  "count": 0,
-  "results": []
+  "generated_at": "2026-06-18T15:47:47.600353",
+  "count": 5,
+  "results": [
+    {
+      "ticker": "PSX",
+      "direction": "buy",
+      "tier": "Buy",
+      "buy_score": 0.75,
+      "sell_score": 0.43,
+      "reasons": [
+        "BB: price near lower band (pct=-0.02)",
+        "BB Width: squeeze active (width=0.1198)",
+        "RSI: oversold zone (37.3)",
+        "200MA: price at/above 200MA (166.27 vs 149.66)",
+        "Golden cross: 50MA (171.49) above 200MA (149.66)",
+        "Volume: above average (1.10x)"
+      ],
+      "misses": [
+        "MACD: no bullish crossover or valley",
+        "RSI Divergence: no bullish divergence detected"
+      ],
+      "price": 166.27,
+      "rsi": 37.3,
+      "atr": 5.55,
+      "relative_strength": -19.44,
+      "rs_label": "underperforming",
+      "previously_owned": false
+    },
+    {
+      "ticker": "PFE",
+      "direction": "buy",
+      "tier": "Buy",
+      "buy_score": 0.75,
+      "sell_score": 0.43,
+      "reasons": [
+        "BB: price near lower band (pct=-0.05)",
+        "BB Width: squeeze active (width=0.0456)",
+        "RSI: oversold zone (39.2)",
+        "200MA: price at/above 200MA (25.20 vs 25.22)",
+        "Golden cross: 50MA (26.06) above 200MA (25.22)",
+        "Volume: above average (1.69x)"
+      ],
+      "misses": [
+        "MACD: no bullish crossover or valley",
+        "RSI Divergence: no bullish divergence detected"
+      ],
+      "price": 25.2,
+      "rsi": 39.2,
+      "atr": 0.53,
+      "relative_strength": -19.9,
+      "rs_label": "underperforming",
+      "previously_owned": false
+    },
+    {
+      "ticker": "XOM",
+      "direction": "buy",
+      "tier": "Buy",
+      "buy_score": 0.75,
+      "sell_score": 0.29,
+      "reasons": [
+        "BB: price near lower band (pct=-0.04)",
+        "BB Width: squeeze active (width=0.1285)",
+        "RSI: oversold zone (33.1)",
+        "200MA: price at/above 200MA (137.69 vs 133.03)",
+        "Golden cross: 50MA (149.72) above 200MA (133.03)",
+        "Volume: above average (1.05x)"
+      ],
+      "misses": [
+        "MACD: no bullish crossover or valley",
+        "RSI Divergence: no bullish divergence detected"
+      ],
+      "price": 137.69,
+      "rsi": 33.1,
+      "atr": 4.07,
+      "relative_strength": -25.71,
+      "rs_label": "underperforming",
+      "previously_owned": false
+    },
+    {
+      "ticker": "APA",
+      "direction": "buy",
+      "tier": "Buy",
+      "buy_score": 0.75,
+      "sell_score": 0.29,
+      "reasons": [
+        "BB: price near lower band (pct=-0.08)",
+        "BB Width: squeeze active (width=0.1741)",
+        "RSI: oversold zone (34.3)",
+        "200MA: price at/above 200MA (33.04 vs 29.49)",
+        "Golden cross: 50MA (37.68) above 200MA (29.49)",
+        "Volume: above average (1.18x)"
+      ],
+      "misses": [
+        "MACD: no bullish crossover or valley",
+        "RSI Divergence: no bullish divergence detected"
+      ],
+      "price": 33.04,
+      "rsi": 34.3,
+      "atr": 1.52,
+      "relative_strength": -25.96,
+      "rs_label": "underperforming",
+      "previously_owned": false
+    },
+    {
+      "ticker": "COP",
+      "direction": "buy",
+      "tier": "Buy",
+      "buy_score": 0.75,
+      "sell_score": 0.29,
+      "reasons": [
+        "BB: price near lower band (pct=-0.10)",
+        "BB Width: squeeze active (width=0.1169)",
+        "RSI: oversold zone (34.3)",
+        "200MA: price at/above 200MA (107.91 vs 103.84)",
+        "Golden cross: 50MA (118.68) above 200MA (103.84)",
+        "Volume: above average (1.11x)"
+      ],
+      "misses": [
+        "MACD: no bullish crossover or valley",
+        "RSI Divergence: no bullish divergence detected"
+      ],
+      "price": 107.91,
+      "rsi": 34.3,
+      "atr": 3.6,
+      "relative_strength": -27.09,
+      "rs_label": "underperforming",
+      "previously_owned": false
+    }
+  ]
 }
