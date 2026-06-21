@@ -3,19 +3,36 @@
     "ticker": "INTU",
     "company_name": "Intuit Inc.",
     "action": "Hold",
-    "action_reason": "Position is down 42.98%, triggering the philosophy rule to hold major losers. RSI at 31.3 suggests potential reversal zone; wait for either technical recovery signals or positive news catalyst before adding.",
-    "target_price": null,
+    "action_reason": "Position is down 42.98%, triggering the philosophy rule to hold major losers. RSI at 31.3 shows oversold conditions suitable for mean reversion, and Extreme Fear suggests capitulation bottom may be forming.",
+    "target_price": 380,
     "target_reasoning": "",
-    "exit_trigger": "Only exit if fundamentals deteriorate materially (e.g., guidance cuts, margin compression) OR technical breaks below recent lows with increased volume",
-    "add_trigger": "RSI crosses above 50 with volume confirmation, or positive post-earnings follow-up news; adds should not exceed current position size until recovery to -20%",
-    "risk": "Further downside if post-earnings guidance was weak; concentration risk at 25.9% portfolio weight; broader tech sector weakness amid elevated geopolitical tensions",
+    "exit_trigger": "Fundamental deterioration in SaaS metrics, revenue guidance cuts, or market structure break below $240",
+    "add_trigger": "RSI rebounds above 50 with volume confirmation, or positive earnings revision; consider adding 1-2 shares if price stabilizes above $250",
+    "risk": "Continued deterioration in subscription retention, macro software spending slowdown, or missed guidance reinitiation",
     "outlook": "cautious",
-    "timeframe": "3-8 weeks (monitor next earnings call for 2025 guidance; allow oversold bounce time)",
-    "generated_at": "2026-06-19T00:12:40.084269",
+    "timeframe": "4-8 weeks for technical stabilization; 2-3 quarters for fundamental recovery validation",
+    "generated_at": "2026-06-21T23:53:41.131599",
     "price_at_generation": 267.0,
     "pnl_at_generation": -42.98
   },
   "history": [
+    {
+      "ticker": "INTU",
+      "company_name": "Intuit Inc.",
+      "action": "Hold",
+      "action_reason": "Position is down 42.98%, triggering the philosophy rule to hold major losers. RSI at 31.3 suggests potential reversal zone; wait for either technical recovery signals or positive news catalyst before adding.",
+      "target_price": null,
+      "target_reasoning": "",
+      "exit_trigger": "Only exit if fundamentals deteriorate materially (e.g., guidance cuts, margin compression) OR technical breaks below recent lows with increased volume",
+      "add_trigger": "RSI crosses above 50 with volume confirmation, or positive post-earnings follow-up news; adds should not exceed current position size until recovery to -20%",
+      "risk": "Further downside if post-earnings guidance was weak; concentration risk at 25.9% portfolio weight; broader tech sector weakness amid elevated geopolitical tensions",
+      "outlook": "cautious",
+      "timeframe": "3-8 weeks (monitor next earnings call for 2025 guidance; allow oversold bounce time)",
+      "generated_at": "2026-06-19T00:12:40.084269",
+      "price_at_generation": 267.0,
+      "pnl_at_generation": -42.98,
+      "archived_at": "2026-06-21T23:53:41.131816"
+    },
     {
       "ticker": "INTU",
       "company_name": "Intuit Inc.",
@@ -117,23 +134,6 @@
       "price_at_generation": 276.91,
       "pnl_at_generation": -40.87,
       "archived_at": "2026-06-12T23:14:44.167576"
-    },
-    {
-      "ticker": "INTU",
-      "company_name": "Intuit Inc.",
-      "action": "Hold",
-      "action_reason": "Per philosophy, never exit >15% losers. RSI 29.4 + Extreme Fear + healthy fundamentals = capitulation setup. However, given 26.5% weight, consider this a forced hold with close monitoring rather than conviction add.",
-      "target_price": 380,
-      "target_reasoning": "",
-      "exit_trigger": "Breach below $250 (24% further down) with deteriorating fundamentals OR earnings miss after recovery begins",
-      "add_trigger": "RSI <20 + close below $270 on high volume (panic capitulation) with no fundamental deterioration",
-      "risk": "Continued sector rotation out of software; recession fears pressuring SaaS multiples; concentration risk at 26.5% weight",
-      "outlook": "cautious",
-      "timeframe": "3-8 weeks",
-      "generated_at": "2026-06-10T23:24:01.684578",
-      "price_at_generation": 284.22,
-      "pnl_at_generation": -39.31,
-      "archived_at": "2026-06-11T23:19:25.931354"
     }
   ]
 }

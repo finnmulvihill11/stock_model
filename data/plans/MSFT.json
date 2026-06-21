@@ -3,19 +3,36 @@
     "ticker": "MSFT",
     "company_name": "Microsoft Corporation",
     "action": "Hold",
-    "action_reason": "Down 18.79% exceeds your 15% threshold trigger, mandating hold per philosophy. RSI 35 indicates potential bounce zone; wait for technical confirmation before any decision.",
+    "action_reason": "Position is down 18.79%, triggering your NEVER-trim-major-losers rule. MSFT fundamentals remain healthy and RSI 35 is oversold territory\u2014classic swing recovery setup. Wait for technical confirmation (RSI cross above 50, positive divergence, or support hold) before adding.",
     "target_price": 425,
     "target_reasoning": "",
-    "exit_trigger": "Break below $365 (new 52-week lows) OR deteriorating fundamentals confirmed by earnings miss",
-    "add_trigger": "RSI rallies above 50 with volume confirmation AND news remains positive",
-    "risk": "Concentration risk (24.5% weight) in drawdown phase; geopolitical uncertainty unquantified; extended hold of underwater position",
+    "exit_trigger": "Breach below $360 on high volume with deteriorating fundamentals news; or if position recovers to breakeven with deteriorating technicals",
+    "add_trigger": "RSI crosses above 50 with confirmed bullish candle, or MSFT holds $375 support + VIX compression below 14",
+    "risk": "Continued broad market selloff dragging mega-cap tech lower; earnings miss on next cycle; weight concentration (24.5%) amplifies drawdown impact",
     "outlook": "cautious",
-    "timeframe": "4-8 weeks (next catalyst likely earnings preview or macro risk clarification)",
-    "generated_at": "2026-06-19T00:12:46.426602",
+    "timeframe": "3-6 weeks for reversal confirmation; next earnings cycle ~95 days out",
+    "generated_at": "2026-06-21T23:53:48.965509",
     "price_at_generation": 379.4,
     "pnl_at_generation": -18.79
   },
   "history": [
+    {
+      "ticker": "MSFT",
+      "company_name": "Microsoft Corporation",
+      "action": "Hold",
+      "action_reason": "Down 18.79% exceeds your 15% threshold trigger, mandating hold per philosophy. RSI 35 indicates potential bounce zone; wait for technical confirmation before any decision.",
+      "target_price": 425,
+      "target_reasoning": "",
+      "exit_trigger": "Break below $365 (new 52-week lows) OR deteriorating fundamentals confirmed by earnings miss",
+      "add_trigger": "RSI rallies above 50 with volume confirmation AND news remains positive",
+      "risk": "Concentration risk (24.5% weight) in drawdown phase; geopolitical uncertainty unquantified; extended hold of underwater position",
+      "outlook": "cautious",
+      "timeframe": "4-8 weeks (next catalyst likely earnings preview or macro risk clarification)",
+      "generated_at": "2026-06-19T00:12:46.426602",
+      "price_at_generation": 379.4,
+      "pnl_at_generation": -18.79,
+      "archived_at": "2026-06-21T23:53:48.965710"
+    },
     {
       "ticker": "MSFT",
       "company_name": "Microsoft Corporation",
@@ -117,23 +134,6 @@
       "price_at_generation": 390.34,
       "pnl_at_generation": -16.45,
       "archived_at": "2026-06-12T23:14:51.717679"
-    },
-    {
-      "ticker": "MSFT",
-      "company_name": "Microsoft Corporation",
-      "action": "Hold",
-      "action_reason": "Position is -14.94%, still within hold philosophy. Oversold RSI (40.5) + Extreme Fear sentiment suggests capitulation opportunity rather than deterioration signal. Wait for stabilization before any action.",
-      "target_price": 440,
-      "target_reasoning": "",
-      "exit_trigger": "Only if fundamentals deteriorate OR position breaks below $385 with negative guidance revision",
-      "add_trigger": "RSI drops to 30-35 AND VIX sustains above 20 (capitulation confirmation)",
-      "risk": "Further market decline could push position beyond -15% threshold; concentration at 24.7% amplifies drawdown impact",
-      "outlook": "cautious",
-      "timeframe": "3-4 weeks for RSI recovery + market stabilization signal",
-      "generated_at": "2026-06-10T23:24:07.507114",
-      "price_at_generation": 397.36,
-      "pnl_at_generation": -14.94,
-      "archived_at": "2026-06-11T23:19:33.763692"
     }
   ]
 }

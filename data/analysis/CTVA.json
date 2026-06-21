@@ -49,7 +49,7 @@
       ],
       "earnings_status": "distant",
       "next_earnings_date": "2026-07-30",
-      "days_to_earnings": 41
+      "days_to_earnings": 39
     }
   },
   "news": {
@@ -57,26 +57,25 @@
     "sentiment": "neutral",
     "health": "healthy",
     "key_events": [
-      "No recent news available for analysis",
-      "Earnings report 41 days away",
-      "Market volatility neutral (VIX 16.4)",
-      "Extreme Fear sentiment in broader market"
+      "No recent news items available for analysis",
+      "Earnings report 39 days out provides intermediate catalyst window",
+      "Market in Extreme Fear despite neutral VIX suggests potential dislocation"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "No active technical firing signals",
-      "RSI at 53.2 indicates no momentum conviction",
-      "Empty news feed limits conviction for swing trade"
+      "No actionable news flow to support swing trade thesis",
+      "RSI at 53.2 shows no directional conviction (neutral zone)",
+      "No technical firing patterns present"
     ],
-    "verdict": "CTVA is stable but lacks near-term catalysts; hold modest position and await earnings setup or technical confirmation.",
+    "verdict": "CTVA is fundamentally sound but lacks near-term catalysts; hold existing profitable position and reassess at earnings approach.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "CTVA",
     "stock_return_3m": 0.9,
-    "benchmark_return_3m": 13.49,
-    "relative_strength": -12.59,
+    "benchmark_return_3m": 13.78,
+    "relative_strength": -12.88,
     "label": "underperforming"
   },
   "final_tier": "Hold",
@@ -86,5 +85,5 @@
     "note": "2 sh @ $78.59 = $157 (Hold, 60% size) | $1,000 swing budget after"
   },
   "is_dca": false,
-  "saved_at": "2026-06-19T00:13:16.020559"
+  "saved_at": "2026-06-21T23:54:16.875189"
 }

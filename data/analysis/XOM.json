@@ -12,7 +12,7 @@
       "RSI: oversold zone (33.3)",
       "200MA: price at/above 200MA (137.81 vs 133.03)",
       "Golden cross: 50MA (149.72) above 200MA (133.03)",
-      "Volume: above average (2.60x)"
+      "Volume: above average (2.67x)"
     ],
     "misses": [
       "MACD: no bullish crossover or valley",
@@ -21,11 +21,11 @@
     "price": 137.81,
     "rsi": 33.3,
     "atr": 4.07,
-    "final_tier": "Buy",
+    "final_tier": "Strong Buy",
     "sizing": {
-      "suggested_shares": 1,
-      "suggested_dollars": 137.81,
-      "note": "1 sh @ $137.81 = $138 (Buy, 60% size) | $1,020 swing budget after"
+      "suggested_shares": 2,
+      "suggested_dollars": 275.62,
+      "note": "2 sh @ $137.81 = $276 (Strong Buy, full size) | $882 swing budget after"
     }
   },
   "fundamentals": {
@@ -54,42 +54,43 @@
       ],
       "earnings_status": "past",
       "next_earnings_date": "2026-05-01",
-      "days_to_earnings": -49
+      "days_to_earnings": -51
     }
   },
   "news": {
     "ticker": "XOM",
-    "sentiment": "neutral",
+    "sentiment": "positive",
     "health": "healthy",
     "key_events": [
-      "Bollinger Band squeeze active with price near lower band\u2014volatility compression suggests imminent breakout",
-      "RSI 33.3 indicates oversold conditions\u2014potential mean reversion setup",
-      "Extreme Fear in F&G index despite neutral VIX (16.4)\u2014market disconnect suggests opportunistic entry zone",
-      "Earnings passed 49 days ago\u2014no near-term catalyst risk"
+      "Price trading near lower Bollinger Band with squeeze active \u2014 mean reversion setup",
+      "RSI 33.3 in oversold territory \u2014 classic reversal signal",
+      "Extreme Fear in market (F&G) \u2014 contrarian buying opportunity",
+      "Earnings 51 days past \u2014 next catalyst ~3-4 months out",
+      "VIX 16.4 neutral \u2014 no acute market stress"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "No recent news data available\u2014unable to assess XOM-specific catalysts or sector headwinads",
-      "Geopolitical risk marked MODERATE\u2014energy sector sensitive to supply/conflict dynamics",
-      "Extreme Fear sentiment could precede further downside before reversal"
+      "No recent news flow \u2014 information vacuum heading into earnings cycle",
+      "Bollinger Band squeeze suggests low volatility before potential breakout",
+      "Position weight 4.4% is meaningful; monitor for concentration risk"
     ],
-    "verdict": "XOM presents technical mean-reversion setup in oversold conditions with healthy fundamentals, but lack of news context and moderate geopolitical risk warrant cautious positioning.",
+    "verdict": "XOM presents a textbook oversold swing setup with healthy fundamentals and extreme fear providing contrarian support; accumulation phase likely.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "XOM",
     "stock_return_3m": -12.28,
-    "benchmark_return_3m": 13.49,
-    "relative_strength": -25.76,
+    "benchmark_return_3m": 13.78,
+    "relative_strength": -26.05,
     "label": "underperforming"
   },
-  "final_tier": "Buy",
+  "final_tier": "Strong Buy",
   "sizing": {
-    "suggested_shares": 1,
-    "suggested_dollars": 137.81,
-    "note": "1 sh @ $137.81 = $138 (Buy, 60% size) | $1,020 swing budget after"
+    "suggested_shares": 2,
+    "suggested_dollars": 275.62,
+    "note": "2 sh @ $137.81 = $276 (Strong Buy, full size) | $882 swing budget after"
   },
   "is_dca": false,
-  "saved_at": "2026-06-19T00:13:24.223440"
+  "saved_at": "2026-06-21T23:54:23.991499"
 }

@@ -4,8 +4,8 @@
     "ticker": "ABT",
     "direction": "hold",
     "tier": "Hold",
-    "buy_score": 0.12,
-    "sell_score": 0.43,
+    "buy_score": 0.25,
+    "sell_score": 0.57,
     "reasons": [],
     "misses": [
       "BB: price not near lower band (pct=0.50)",
@@ -13,8 +13,7 @@
       "MACD: no bullish crossover or valley",
       "RSI Divergence: no bullish divergence detected",
       "200MA: price below 200MA \u2014 potential falling knife",
-      "Death cross active: 50MA (90.08) below 200MA (112.67)",
-      "Volume: below average (0.86x) \u2014 low conviction"
+      "Death cross active: 50MA (90.08) below 200MA (112.67)"
     ],
     "price": 88.41,
     "rsi": 47.6,
@@ -52,7 +51,7 @@
       ],
       "earnings_status": "past",
       "next_earnings_date": "2026-04-16",
-      "days_to_earnings": -64
+      "days_to_earnings": -66
     }
   },
   "news": {
@@ -60,26 +59,28 @@
     "sentiment": "neutral",
     "health": "healthy",
     "key_events": [
-      "Earnings reported 64 days ago (cycle complete, next catalyst approaching)",
-      "No recent news catalysts identified",
-      "Market in Extreme Fear mode despite neutral VIX"
+      "Stock down 19.46% from entry \u2014 significant drawdown",
+      "Earnings passed 66 days ago \u2014 no near-term catalyst",
+      "Market in Extreme Fear despite neutral VIX \u2014 potential washout selling",
+      "RSI 47.6 \u2014 mid-range, no oversold bounce setup yet",
+      "No recent news flow \u2014 information vacuum"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "19.46% drawdown triggers emotional pressure\u2014stay disciplined per your philosophy",
-      "RSI 47.6 shows neither oversold nor overbought conditions (neutral momentum)",
-      "No technical firing signals\u2014position lacks directional catalyst",
-      "No current news flow\u2014information vacuum increases chop risk"
+      "Deep underwater position conflicts with swing-trade timeframe",
+      "No firing technical signals \u2014 momentum dead",
+      "Extreme Fear sentiment suggests capitulation may not be complete",
+      "No catalysts visible for recovery bounce"
     ],
-    "verdict": "ABT fundamentals remain solid, but technical setup lacks conviction; position is in drawdown recovery zone requiring patience, not action.",
+    "verdict": "ABT is fundamentally sound but technically lifeless; position is trapped in a long-term hold, not a swing trade.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "ABT",
     "stock_return_3m": -17.0,
-    "benchmark_return_3m": 13.49,
-    "relative_strength": -30.49,
+    "benchmark_return_3m": 13.78,
+    "relative_strength": -30.78,
     "label": "underperforming"
   },
   "final_tier": "Hold",
@@ -89,5 +90,5 @@
     "note": "2 sh @ $88.41 = $177 (Hold, 60% size) | $981 swing budget after"
   },
   "is_dca": false,
-  "saved_at": "2026-06-19T00:12:53.378077"
+  "saved_at": "2026-06-21T23:53:56.183523"
 }

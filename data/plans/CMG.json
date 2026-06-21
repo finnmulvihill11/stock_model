@@ -3,19 +3,36 @@
     "ticker": "CMG",
     "company_name": "Chipotle Mexican Grill, Inc.",
     "action": "Hold",
-    "action_reason": "Position is modestly profitable (+3.24%) but lacks technical confirmation or catalyst momentum. High debt load and absent news warrant patience rather than accumulation. Hold and monitor for RSI breakout or pre-earnings volume spike.",
+    "action_reason": "Position is +3.24% profitable with neutral technicals (RSI 55.1, no firing signals). High leverage warrants caution against adding; lack of news/catalysts suggests waiting for earnings setup.",
     "target_price": null,
     "target_reasoning": "",
-    "exit_trigger": "Breach below $30.50 (entry -3.1%) OR sustained RSI <40 with declining volume",
-    "add_trigger": "RSI >65 with volume surge, OR confirmed bullish news catalyst reducing debt/margin concerns",
-    "risk": "Debt burden limits upside optionality; Extreme Fear backdrop could trigger sharp reversal despite small gain; missed earnings surprise in 40d",
+    "exit_trigger": "Break below $30.50 (support) or breakdown below 200-day MA; alternatively trim 25-50% on move to $34.50+ if technical resistance forms",
+    "add_trigger": "Only if RSI breaks above 65 with volume + positive earnings guidance whispers; otherwise avoid given debt load",
+    "risk": "Macro slowdown pressuring discretionary spending + high debt refinancing risk in higher rate environment",
     "outlook": "neutral",
-    "timeframe": "2-4 weeks until pre-earnings volatility; reassess at RSI extremes or news development",
-    "generated_at": "2026-06-19T00:13:08.849586",
+    "timeframe": "2-6 weeks until earnings (late May) \u2014 that's primary event risk/opportunity",
+    "generated_at": "2026-06-21T23:54:09.341067",
     "price_at_generation": 32.49,
     "pnl_at_generation": 3.24
   },
   "history": [
+    {
+      "ticker": "CMG",
+      "company_name": "Chipotle Mexican Grill, Inc.",
+      "action": "Hold",
+      "action_reason": "Position is modestly profitable (+3.24%) but lacks technical confirmation or catalyst momentum. High debt load and absent news warrant patience rather than accumulation. Hold and monitor for RSI breakout or pre-earnings volume spike.",
+      "target_price": null,
+      "target_reasoning": "",
+      "exit_trigger": "Breach below $30.50 (entry -3.1%) OR sustained RSI <40 with declining volume",
+      "add_trigger": "RSI >65 with volume surge, OR confirmed bullish news catalyst reducing debt/margin concerns",
+      "risk": "Debt burden limits upside optionality; Extreme Fear backdrop could trigger sharp reversal despite small gain; missed earnings surprise in 40d",
+      "outlook": "neutral",
+      "timeframe": "2-4 weeks until pre-earnings volatility; reassess at RSI extremes or news development",
+      "generated_at": "2026-06-19T00:13:08.849586",
+      "price_at_generation": 32.49,
+      "pnl_at_generation": 3.24,
+      "archived_at": "2026-06-21T23:54:09.341284"
+    },
     {
       "ticker": "CMG",
       "company_name": "Chipotle Mexican Grill, Inc.",
@@ -117,23 +134,6 @@
       "price_at_generation": 31.25,
       "pnl_at_generation": -0.7,
       "archived_at": "2026-06-12T23:15:14.199674"
-    },
-    {
-      "ticker": "CMG",
-      "company_name": "Chipotle Mexican Grill, Inc.",
-      "action": "Hold",
-      "action_reason": "Position is only -3.34%, well within recovery threshold. RSI oversold (34.3) suggests potential bounce; Extreme Fear sentiment and neutral VIX create contrarian opportunity. No exit triggers warranted yet.",
-      "target_price": null,
-      "target_reasoning": "",
-      "exit_trigger": "Loss exceeds 15% OR confirmed breakdown below recent support with deteriorating fundamentals",
-      "add_trigger": "RSI drops to 25-28 (deeper oversold) with volume spike OR positive earnings pre-announcement sentiment shift",
-      "risk": "Elevated debt servicing costs in weakening consumer environment; short-term momentum remains weak",
-      "outlook": "cautious",
-      "timeframe": "4-8 weeks (to earnings catalyst)",
-      "generated_at": "2026-06-10T23:24:28.652373",
-      "price_at_generation": 30.42,
-      "pnl_at_generation": -3.34,
-      "archived_at": "2026-06-11T23:19:56.376139"
     }
   ]
 }
