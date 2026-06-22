@@ -37,7 +37,12 @@ portfolio:
   - ticker: OXY
     shares: 2
     avg_cost: 51.9
+  - ticker: GRNI
+    shares: 4
+    avg_cost: 21.16
+    dca: true
   dca_tickers:
+  - GRNI
   - VOO
   - VXUS
   swing_tickers:
