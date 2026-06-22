@@ -34,6 +34,9 @@ portfolio:
   - ticker: XOM
     shares: 1
     avg_cost: 137.63
+  - ticker: OXY
+    shares: 2
+    avg_cost: 51.9
   dca_tickers:
   - VOO
   - VXUS
