@@ -102,6 +102,14 @@
       "amount": 103.8,
       "type": "swing",
       "action": "buy"
+    },
+    {
+      "date": "2026-06-22",
+      "ticker": "GRNI",
+      "shares": 4,
+      "amount": 84.62,
+      "type": "etf",
+      "action": "buy"
     }
   ]
 }
