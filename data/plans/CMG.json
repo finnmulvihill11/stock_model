@@ -3,19 +3,36 @@
     "ticker": "CMG",
     "company_name": "Chipotle Mexican Grill, Inc.",
     "action": "Hold",
-    "action_reason": "Position is +3.24% profitable with neutral technicals (RSI 55.1, no firing signals). High leverage warrants caution against adding; lack of news/catalysts suggests waiting for earnings setup.",
+    "action_reason": "Loss is minor (2.96%) and well below the 15% threshold; earnings in 37 days provide a meaningful catalyst that could reverse weakness. Wait for either a technical reversal signal or earnings approach before deciding on add/trim.",
     "target_price": null,
     "target_reasoning": "",
-    "exit_trigger": "Break below $30.50 (support) or breakdown below 200-day MA; alternatively trim 25-50% on move to $34.50+ if technical resistance forms",
-    "add_trigger": "Only if RSI breaks above 65 with volume + positive earnings guidance whispers; otherwise avoid given debt load",
-    "risk": "Macro slowdown pressuring discretionary spending + high debt refinancing risk in higher rate environment",
+    "exit_trigger": "Break below $28.50 (RSI <30 + close below 20-day MA) or negative earnings surprise with forward guidance cut",
+    "add_trigger": "RSI dips to 30-35 with bullish divergence + close above $31.50 resistance, OR positive pre-earnings momentum (price>$32.50)",
+    "risk": "High debt load limits financial flexibility; restaurant labor cost inflation; consumer discretionary spending weakness amid macro uncertainty",
     "outlook": "neutral",
-    "timeframe": "2-6 weeks until earnings (late May) \u2014 that's primary event risk/opportunity",
-    "generated_at": "2026-06-21T23:54:09.341067",
-    "price_at_generation": 32.49,
-    "pnl_at_generation": 3.24
+    "timeframe": "3-6 weeks (through earnings + post-announcement consolidation)",
+    "generated_at": "2026-06-22T23:53:25.145978",
+    "price_at_generation": 30.54,
+    "pnl_at_generation": -2.96
   },
   "history": [
+    {
+      "ticker": "CMG",
+      "company_name": "Chipotle Mexican Grill, Inc.",
+      "action": "Hold",
+      "action_reason": "Position is +3.24% profitable with neutral technicals (RSI 55.1, no firing signals). High leverage warrants caution against adding; lack of news/catalysts suggests waiting for earnings setup.",
+      "target_price": null,
+      "target_reasoning": "",
+      "exit_trigger": "Break below $30.50 (support) or breakdown below 200-day MA; alternatively trim 25-50% on move to $34.50+ if technical resistance forms",
+      "add_trigger": "Only if RSI breaks above 65 with volume + positive earnings guidance whispers; otherwise avoid given debt load",
+      "risk": "Macro slowdown pressuring discretionary spending + high debt refinancing risk in higher rate environment",
+      "outlook": "neutral",
+      "timeframe": "2-6 weeks until earnings (late May) \u2014 that's primary event risk/opportunity",
+      "generated_at": "2026-06-21T23:54:09.341067",
+      "price_at_generation": 32.49,
+      "pnl_at_generation": 3.24,
+      "archived_at": "2026-06-22T23:53:25.146256"
+    },
     {
       "ticker": "CMG",
       "company_name": "Chipotle Mexican Grill, Inc.",
@@ -117,23 +134,6 @@
       "price_at_generation": 32.23,
       "pnl_at_generation": 2.41,
       "archived_at": "2026-06-16T00:14:58.681010"
-    },
-    {
-      "ticker": "CMG",
-      "company_name": "Chipotle Mexican Grill, Inc.",
-      "action": "Hold",
-      "action_reason": "Loss is only -0.70%, well below the 15% threshold where your philosophy mandates holding. Lack of news and technical signals (RSI 41.2, no firing) suggests waiting for either a bounce or clarity before next move.",
-      "target_price": null,
-      "target_reasoning": "",
-      "exit_trigger": "Break below $30 (support) with VIX spike above 25 + confirmed bearish reversal pattern",
-      "add_trigger": "RSI drops to 30-35 (oversold) + positive gap or earnings-driven reversal; or break above $33 on volume with RSI >50",
-      "risk": "Elevated debt load (2.2x D/E) could pressure stock if consumer spending weakens or rates stay elevated; Extreme Fear backdrop may trigger capitulation selling.",
-      "outlook": "neutral",
-      "timeframe": "2-4 weeks until earnings (48d) \u2014 use this period to assess technical setup and macro sentiment shifts; decision clarity likely post-earnings.",
-      "generated_at": "2026-06-11T23:19:56.375930",
-      "price_at_generation": 31.25,
-      "pnl_at_generation": -0.7,
-      "archived_at": "2026-06-12T23:15:14.199674"
     }
   ]
 }

@@ -4,18 +4,20 @@
     "ticker": "INTU",
     "direction": "hold",
     "tier": "Hold",
-    "buy_score": 0.5,
-    "sell_score": 0.29,
+    "buy_score": 0.25,
+    "sell_score": 0.14,
     "reasons": [],
     "misses": [
       "BB Width: bands expanding, not squeezing",
+      "MACD: no bullish crossover or valley",
       "RSI Divergence: no bullish divergence detected",
       "200MA: price below 200MA \u2014 potential falling knife",
-      "Death cross active: 50MA (354.06) below 200MA (521.28)"
+      "Death cross active: 50MA (351.98) below 200MA (519.25)",
+      "Volume: below average (0.91x) \u2014 low conviction"
     ],
-    "price": 267.0,
-    "rsi": 31.3,
-    "atr": 16.3,
+    "price": 257.77,
+    "rsi": 29.3,
+    "atr": 15.08,
     "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 0,
@@ -49,7 +51,7 @@
       ],
       "earnings_status": "past",
       "next_earnings_date": "2026-05-20",
-      "days_to_earnings": -32
+      "days_to_earnings": -33
     }
   },
   "news": {
@@ -57,25 +59,27 @@
     "sentiment": "neutral",
     "health": "healthy",
     "key_events": [
-      "No recent news items provided for analysis",
-      "Earnings reported 32 days ago - results likely drove significant selloff",
-      "Extreme Fear environment suggests capitulation or panic selling"
+      "Earnings reported 33 days ago",
+      "Stock declined 45% from entry ($468.29 to $257.77)",
+      "Market showing extreme fear conditions (F&G indicator)",
+      "VIX at neutral levels (17.3) suggests market-wide volatility not driver"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "Severe drawdown of -42.98% from entry ($468.29 \u2192 $267.00)",
-      "No recent positive catalysts or news flow visible",
-      "Position represents 25.9% of portfolio - concentrated risk on underwater asset"
+      "No recent news available to assess catalyst or context for decline",
+      "Significant drawdown suggests company or sector-specific headwinds",
+      "Large portfolio weight (24%) concentrated in distressed position",
+      "RSI at 29.3 indicates oversold conditions but no reversal signals firing"
     ],
-    "verdict": "INTU fundamentals remain healthy but technical breakdown is severe; hold per philosophy and accumulate conviction on recovery catalysts.",
+    "verdict": "INTU fundamentals remain healthy, but lack of news context and extreme portfolio concentration in a major loser warrant information gathering before action.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "INTU",
-    "stock_return_3m": -41.17,
-    "benchmark_return_3m": 13.78,
-    "relative_strength": -54.95,
+    "stock_return_3m": -43.24,
+    "benchmark_return_3m": 15.07,
+    "relative_strength": -58.31,
     "label": "underperforming"
   },
   "final_tier": "Hold",
@@ -85,5 +89,5 @@
     "note": "Position already at 20% portfolio cap"
   },
   "is_dca": false,
-  "saved_at": "2026-06-21T23:53:41.132401"
+  "saved_at": "2026-06-22T23:52:55.582926"
 }

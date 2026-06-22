@@ -3,19 +3,36 @@
     "ticker": "INTU",
     "company_name": "Intuit Inc.",
     "action": "Hold",
-    "action_reason": "Position is down 42.98%, triggering the philosophy rule to hold major losers. RSI at 31.3 shows oversold conditions suitable for mean reversion, and Extreme Fear suggests capitulation bottom may be forming.",
-    "target_price": 380,
+    "action_reason": "Position exceeds 15% loss threshold; philosophy requires holding through major drawdowns. Use this period to research the decline catalyst and monitor for add triggers.",
+    "target_price": null,
     "target_reasoning": "",
-    "exit_trigger": "Fundamental deterioration in SaaS metrics, revenue guidance cuts, or market structure break below $240",
-    "add_trigger": "RSI rebounds above 50 with volume confirmation, or positive earnings revision; consider adding 1-2 shares if price stabilizes above $250",
-    "risk": "Continued deterioration in subscription retention, macro software spending slowdown, or missed guidance reinitiation",
+    "exit_trigger": "Only if fundamentals deteriorate materially (e.g., guidance cut, market share loss, management changes)",
+    "add_trigger": "RSI breaks above 40 with positive news catalyst, OR stock stabilizes at support with earnings recovery expectations in next quarter",
+    "risk": "Concentrated position weight (24%) amplifies downside if decline continues; lack of recent news suggests information gap on true cause of decline",
     "outlook": "cautious",
-    "timeframe": "4-8 weeks for technical stabilization; 2-3 quarters for fundamental recovery validation",
-    "generated_at": "2026-06-21T23:53:41.131599",
-    "price_at_generation": 267.0,
-    "pnl_at_generation": -42.98
+    "timeframe": "3-6 weeks \u2014 allow time for earnings-driven recovery narrative or stabilization signals to emerge",
+    "generated_at": "2026-06-22T23:52:55.582117",
+    "price_at_generation": 257.77,
+    "pnl_at_generation": -44.96
   },
   "history": [
+    {
+      "ticker": "INTU",
+      "company_name": "Intuit Inc.",
+      "action": "Hold",
+      "action_reason": "Position is down 42.98%, triggering the philosophy rule to hold major losers. RSI at 31.3 shows oversold conditions suitable for mean reversion, and Extreme Fear suggests capitulation bottom may be forming.",
+      "target_price": 380,
+      "target_reasoning": "",
+      "exit_trigger": "Fundamental deterioration in SaaS metrics, revenue guidance cuts, or market structure break below $240",
+      "add_trigger": "RSI rebounds above 50 with volume confirmation, or positive earnings revision; consider adding 1-2 shares if price stabilizes above $250",
+      "risk": "Continued deterioration in subscription retention, macro software spending slowdown, or missed guidance reinitiation",
+      "outlook": "cautious",
+      "timeframe": "4-8 weeks for technical stabilization; 2-3 quarters for fundamental recovery validation",
+      "generated_at": "2026-06-21T23:53:41.131599",
+      "price_at_generation": 267.0,
+      "pnl_at_generation": -42.98,
+      "archived_at": "2026-06-22T23:52:55.582332"
+    },
     {
       "ticker": "INTU",
       "company_name": "Intuit Inc.",
@@ -117,23 +134,6 @@
       "price_at_generation": 276.73,
       "pnl_at_generation": -40.91,
       "archived_at": "2026-06-16T00:14:29.140212"
-    },
-    {
-      "ticker": "INTU",
-      "company_name": "Intuit Inc.",
-      "action": "Hold",
-      "action_reason": "Position down 40.87% triggers your philosophy of holding major losers through recovery. Fundamental health + oversold RSI (41.2) suggest potential mean-reversion setup, but lack of bullish technical firing requires patience.",
-      "target_price": null,
-      "target_reasoning": "",
-      "exit_trigger": "Fundamental deterioration in next earnings (cash flow, margins, guidance cuts)",
-      "add_trigger": "RSI climbs above 50 on recovery volume + price breaks above $300 resistance",
-      "risk": "Further earnings misses, software spending slowdown in recession scenario, or sustained market risk-off (VIX spike) could extend losses. High portfolio weight amplifies damage.",
-      "outlook": "cautious",
-      "timeframe": "4-8 weeks to establish recovery pattern or confirm trend exhaustion",
-      "generated_at": "2026-06-11T23:19:25.931125",
-      "price_at_generation": 276.91,
-      "pnl_at_generation": -40.87,
-      "archived_at": "2026-06-12T23:14:44.167576"
     }
   ]
 }

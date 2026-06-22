@@ -3,19 +3,36 @@
     "ticker": "CTVA",
     "company_name": "Corteva, Inc.",
     "action": "Hold",
-    "action_reason": "Position is modestly profitable (+0.27%) with healthy fundamentals and small portfolio weight (2.5%). Absence of technical signals or negative catalysts argues against trimming. Wait for earnings catalyst or improved technical setup.",
-    "target_price": null,
+    "action_reason": "Position is modestly profitable (+0.61%) with healthy fundamentals and low portfolio weight (2.5%). Insufficient technical momentum or news catalysts warrant holding rather than trimming a winner.",
+    "target_price": 82.5,
     "target_reasoning": "",
-    "exit_trigger": "Break below $76.50 (recent support) on high volume OR deteriorating agricultural commodity prices signaling demand weakness",
-    "add_trigger": "RSI drops to 35-40 during market selloff + CTVA holds above $76.50 support OR clear bullish breakout above $80.50 on positive ag news",
-    "risk": "Agricultural sector sensitivity to commodity prices and weather; earnings miss in 39 days; macro uncertainty during Extreme Fear environment",
+    "exit_trigger": "Price reaches $82-83 or RSI exceeds 70 on rising volume (profit-taking signal)",
+    "add_trigger": "Pullback to $76-77 on institutional buying or positive agricultural/market news; RSI drops to 40 with volume",
+    "risk": "Agricultural commodity exposure and macro headwinds; lack of recent news suggests limited near-term catalysts",
     "outlook": "neutral",
-    "timeframe": "2-6 weeks until earnings catalyst; monitor for technical setup improvement",
-    "generated_at": "2026-06-21T23:54:16.874447",
-    "price_at_generation": 78.59,
-    "pnl_at_generation": 0.27
+    "timeframe": "2-4 weeks until earnings provide directional clarity; reassess if price approaches $82 resistance",
+    "generated_at": "2026-06-22T23:53:31.229989",
+    "price_at_generation": 78.86,
+    "pnl_at_generation": 0.61
   },
   "history": [
+    {
+      "ticker": "CTVA",
+      "company_name": "Corteva, Inc.",
+      "action": "Hold",
+      "action_reason": "Position is modestly profitable (+0.27%) with healthy fundamentals and small portfolio weight (2.5%). Absence of technical signals or negative catalysts argues against trimming. Wait for earnings catalyst or improved technical setup.",
+      "target_price": null,
+      "target_reasoning": "",
+      "exit_trigger": "Break below $76.50 (recent support) on high volume OR deteriorating agricultural commodity prices signaling demand weakness",
+      "add_trigger": "RSI drops to 35-40 during market selloff + CTVA holds above $76.50 support OR clear bullish breakout above $80.50 on positive ag news",
+      "risk": "Agricultural sector sensitivity to commodity prices and weather; earnings miss in 39 days; macro uncertainty during Extreme Fear environment",
+      "outlook": "neutral",
+      "timeframe": "2-6 weeks until earnings catalyst; monitor for technical setup improvement",
+      "generated_at": "2026-06-21T23:54:16.874447",
+      "price_at_generation": 78.59,
+      "pnl_at_generation": 0.27,
+      "archived_at": "2026-06-22T23:53:31.230181"
+    },
     {
       "ticker": "CTVA",
       "company_name": "Corteva, Inc.",
@@ -117,23 +134,6 @@
       "price_at_generation": 76.14,
       "pnl_at_generation": -2.86,
       "archived_at": "2026-06-16T00:15:13.987016"
-    },
-    {
-      "ticker": "CTVA",
-      "company_name": "Corteva, Inc.",
-      "action": "Hold",
-      "action_reason": "Position is down only 4.5% (well below 15% threshold), and technical indicators are firing classic oversold reversal patterns (RSI 28.5, lower BB, MACD turning). Extreme Fear sentiment is contrarian bullish. Hold for mean reversion into earnings window.",
-      "target_price": 82.5,
-      "target_reasoning": "",
-      "exit_trigger": "Break below $73.00 (technical support) or negative earnings revision",
-      "add_trigger": "Confirmed close above $76.50 on volume with RSI crossing 40, or pullback to $72.50-73.00 if technical setup remains intact",
-      "risk": "Commodity price weakness / geopolitical escalation pressuring ag sector; lack of positive news catalysts near-term",
-      "outlook": "cautious",
-      "timeframe": "2-4 weeks for technical recovery confirmation; hold through earnings (7 weeks)",
-      "generated_at": "2026-06-11T23:20:10.878098",
-      "price_at_generation": 74.86,
-      "pnl_at_generation": -4.49,
-      "archived_at": "2026-06-12T23:15:28.319374"
     }
   ]
 }

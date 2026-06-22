@@ -1,0 +1,92 @@
+{
+  "ticker": "OXY",
+  "signal": {
+    "ticker": "OXY",
+    "direction": "hold",
+    "tier": "Hold",
+    "buy_score": 0.62,
+    "sell_score": 0.14,
+    "reasons": [],
+    "misses": [
+      "MACD: no bullish crossover or valley",
+      "RSI Divergence: no bullish divergence detected",
+      "Volume: below average (0.75x) \u2014 low conviction"
+    ],
+    "price": 52.0,
+    "rsi": 34.9,
+    "atr": 1.85,
+    "final_tier": "Hold",
+    "sizing": {
+      "suggested_shares": 3,
+      "suggested_dollars": 156.0,
+      "note": "3 sh @ $52.00 = $156 (Hold, 60% size) | $898 swing budget after"
+    }
+  },
+  "fundamentals": {
+    "ticker": "OXY",
+    "health": "neutral",
+    "passed": [
+      "Debt-to-equity acceptable (0.4x)",
+      "Profitable (margin 22.4%)"
+    ],
+    "flags": [
+      "Revenue declining YoY (-8.3%)"
+    ],
+    "revenue_growth": -0.083,
+    "de_ratio": 41.989,
+    "profit_margins": 0.22421
+  },
+  "earnings": {
+    "proceed": true,
+    "reason": "Fundamentals intact \u2014 dip may be an overreaction",
+    "verdict": {
+      "ticker": "OXY",
+      "verdict": "consider",
+      "reason": "Fundamentals intact \u2014 dip may be an overreaction",
+      "notes": [
+        "Earnings growing YoY (+315.6%)",
+        "Revenue declining (-8.3%)"
+      ],
+      "earnings_status": "past",
+      "next_earnings_date": "2026-05-05",
+      "days_to_earnings": -48
+    }
+  },
+  "news": {
+    "ticker": "OXY",
+    "sentiment": "neutral",
+    "health": "deteriorating",
+    "key_events": [
+      "Revenue declining YoY (-8.3%) signals weakening operational performance",
+      "Earnings reported 48 days ago with no recent catalysts",
+      "Extreme Fear gauge suggests potential capitulation selling pressure",
+      "VIX at 17.3 indicates stable market, not crisis conditions"
+    ],
+    "macro_context": "",
+    "competitive_notes": "",
+    "red_flags": [
+      "Negative revenue trend YoY despite energy sector volatility",
+      "RSI at 34.9 approaches oversold but not yet confirming reversal",
+      "No technical firing signals suggests lack of momentum",
+      "Lack of recent news/catalysts limits upside catalysts near-term",
+      "Position still up modestly (+0.19%) \u2014 within trim-able range per philosophy"
+    ],
+    "verdict": "OXY shows fundamental deterioration with weak technicals, but extreme fear sentiment and neutral market conditions may present mean-reversion opportunity; position remains marginally profitable.",
+    "confidence": "medium"
+  },
+  "relative_strength": {
+    "ticker": "OXY",
+    "stock_return_3m": -13.95,
+    "benchmark_return_3m": 15.07,
+    "relative_strength": -29.02,
+    "label": "underperforming"
+  },
+  "final_tier": "Hold",
+  "sizing": {
+    "suggested_shares": 3,
+    "suggested_dollars": 156.0,
+    "note": "3 sh @ $52.00 = $156 (Hold, 60% size) | $898 swing budget after"
+  },
+  "is_dca": false,
+  "saved_at": "2026-06-22T23:53:46.271578"
+}

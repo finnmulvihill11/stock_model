@@ -13,9 +13,9 @@
       "RSI Divergence: no bullish divergence detected",
       "200MA: price below 200MA \u2014 potential falling knife"
     ],
-    "price": 379.4,
-    "rsi": 35.0,
-    "atr": 12.54,
+    "price": 367.34,
+    "rsi": 31.0,
+    "atr": 12.43,
     "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 0,
@@ -49,7 +49,7 @@
       ],
       "earnings_status": "past",
       "next_earnings_date": "2026-04-29",
-      "days_to_earnings": -53
+      "days_to_earnings": -54
     }
   },
   "news": {
@@ -57,27 +57,27 @@
     "sentiment": "neutral",
     "health": "healthy",
     "key_events": [
-      "No recent news items provided for analysis",
-      "Earnings reported 53 days ago - well into next cycle",
-      "Position established at $467.18, now trading $379.40",
-      "Market showing Extreme Fear despite neutral VIX"
+      "Position down 21.37% from entry ($467.18 \u2192 $367.34)",
+      "Earnings reported 54 days ago",
+      "RSI at 31.0 indicates oversold conditions",
+      "Market in Extreme Fear regime (contrarian bullish signal)",
+      "VIX at 17.3 shows normalized volatility"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "Severe drawdown (-18.79%) indicates broader market weakness or sector rotation",
-      "No technical firing signals (RSI 35 = oversold but no bullish reversal confirmation)",
-      "High portfolio weight (24.5%) concentrates risk during drawdown",
-      "Lack of news may indicate temporary information vacuum before next catalyst"
+      "No recent news available to assess catalyst timing",
+      "22.8% portfolio weight concentrated in single down position",
+      "Technical momentum firing: none"
     ],
-    "verdict": "Healthy fundamentals and oversold technicals support holding through this drawdown per strategy, but monitor for reversal confirmation before considering adds.",
+    "verdict": "MSFT fundamentals remain healthy with oversold technicals in a fear-driven market, creating asymmetric recovery setup.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "MSFT",
-    "stock_return_3m": -2.26,
-    "benchmark_return_3m": 13.78,
-    "relative_strength": -16.04,
+    "stock_return_3m": -3.6,
+    "benchmark_return_3m": 15.07,
+    "relative_strength": -18.67,
     "label": "underperforming"
   },
   "final_tier": "Hold",
@@ -87,5 +87,5 @@
     "note": "Position already at 20% portfolio cap"
   },
   "is_dca": false,
-  "saved_at": "2026-06-21T23:53:48.966241"
+  "saved_at": "2026-06-22T23:53:02.919129"
 }

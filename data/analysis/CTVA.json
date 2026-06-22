@@ -4,23 +4,24 @@
     "ticker": "CTVA",
     "direction": "hold",
     "tier": "Hold",
-    "buy_score": 0.5,
-    "sell_score": 0.29,
+    "buy_score": 0.38,
+    "sell_score": 0.14,
     "reasons": [],
     "misses": [
-      "BB: price not near lower band (pct=0.68)",
-      "RSI: not in buy zone (53.2, need 20-40)",
+      "BB: price not near lower band (pct=0.72)",
+      "RSI: not in buy zone (54.4, need 20-40)",
       "MACD: no bullish crossover or valley",
-      "RSI Divergence: no bullish divergence detected"
+      "RSI Divergence: no bullish divergence detected",
+      "Volume: below average (0.94x) \u2014 low conviction"
     ],
-    "price": 78.59,
-    "rsi": 53.2,
-    "atr": 1.76,
+    "price": 78.86,
+    "rsi": 54.4,
+    "atr": 1.72,
     "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 2,
-      "suggested_dollars": 157.18,
-      "note": "2 sh @ $78.59 = $157 (Hold, 60% size) | $1,000 swing budget after"
+      "suggested_dollars": 157.72,
+      "note": "2 sh @ $78.86 = $158 (Hold, 60% size) | $896 swing budget after"
     }
   },
   "fundamentals": {
@@ -49,7 +50,7 @@
       ],
       "earnings_status": "distant",
       "next_earnings_date": "2026-07-30",
-      "days_to_earnings": 39
+      "days_to_earnings": 38
     }
   },
   "news": {
@@ -57,33 +58,33 @@
     "sentiment": "neutral",
     "health": "healthy",
     "key_events": [
-      "No recent news items available for analysis",
-      "Earnings report 39 days out provides intermediate catalyst window",
-      "Market in Extreme Fear despite neutral VIX suggests potential dislocation"
+      "No recent news items to assess",
+      "Earnings 38 days out provides medium-term catalyst",
+      "Market in Extreme Fear despite neutral VIX (17.3)"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "No actionable news flow to support swing trade thesis",
-      "RSI at 53.2 shows no directional conviction (neutral zone)",
-      "No technical firing patterns present"
+      "No news flow reported - lack of catalysts or visibility",
+      "Extreme Fear sentiment creates uncertainty despite fundamentals",
+      "RSI at 54.4 shows no directional momentum"
     ],
-    "verdict": "CTVA is fundamentally sound but lacks near-term catalysts; hold existing profitable position and reassess at earnings approach.",
+    "verdict": "Small profitable position in healthy company with distant earnings; hold for swing development or wait for catalysts.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "CTVA",
-    "stock_return_3m": 0.9,
-    "benchmark_return_3m": 13.78,
-    "relative_strength": -12.88,
+    "stock_return_3m": 2.21,
+    "benchmark_return_3m": 15.07,
+    "relative_strength": -12.86,
     "label": "underperforming"
   },
   "final_tier": "Hold",
   "sizing": {
     "suggested_shares": 2,
-    "suggested_dollars": 157.18,
-    "note": "2 sh @ $78.59 = $157 (Hold, 60% size) | $1,000 swing budget after"
+    "suggested_dollars": 157.72,
+    "note": "2 sh @ $78.86 = $158 (Hold, 60% size) | $896 swing budget after"
   },
   "is_dca": false,
-  "saved_at": "2026-06-21T23:54:16.875189"
+  "saved_at": "2026-06-22T23:53:31.230642"
 }

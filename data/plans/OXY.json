@@ -1,0 +1,19 @@
+{
+  "current": {
+    "ticker": "OXY",
+    "company_name": "Occidental Petroleum Corporation",
+    "action": "Hold",
+    "action_reason": "While fundamentals are weakening and technicals lack conviction, the position is only +0.19% profit and VIX/Extreme Fear suggest capitulation selling. Holding allows for potential recovery without locking in minimal gains during fear-driven dips.",
+    "target_price": 54.5,
+    "target_reasoning": "",
+    "exit_trigger": "Close below $50.00 (approx -3.7% from entry); or if revenue decline accelerates YoY beyond -12%",
+    "add_trigger": "RSI drops below 25 with VIX spike + bounce confirmation at $49.50 support",
+    "risk": "Continued energy sector headwinds, recession impact on demand, dividend cut risk if cash flow deteriorates further",
+    "outlook": "cautious",
+    "timeframe": "4-8 weeks",
+    "generated_at": "2026-06-22T23:53:46.271131",
+    "price_at_generation": 52.0,
+    "pnl_at_generation": 0.19
+  },
+  "history": []
+}

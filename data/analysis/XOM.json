@@ -2,30 +2,24 @@
   "ticker": "XOM",
   "signal": {
     "ticker": "XOM",
-    "direction": "buy",
-    "tier": "Buy",
-    "buy_score": 0.75,
-    "sell_score": 0.29,
-    "reasons": [
-      "BB: price near lower band (pct=-0.04)",
-      "BB Width: squeeze active (width=0.1281)",
-      "RSI: oversold zone (33.3)",
-      "200MA: price at/above 200MA (137.81 vs 133.03)",
-      "Golden cross: 50MA (149.72) above 200MA (133.03)",
-      "Volume: above average (2.67x)"
-    ],
+    "direction": "hold",
+    "tier": "Hold",
+    "buy_score": 0.62,
+    "sell_score": 0.0,
+    "reasons": [],
     "misses": [
-      "MACD: no bullish crossover or valley",
-      "RSI Divergence: no bullish divergence detected"
+      "BB Width: bands expanding, not squeezing",
+      "RSI Divergence: no bullish divergence detected",
+      "Volume: below average (0.62x) \u2014 low conviction"
     ],
-    "price": 137.81,
-    "rsi": 33.3,
-    "atr": 4.07,
-    "final_tier": "Strong Buy",
+    "price": 138.47,
+    "rsi": 34.7,
+    "atr": 3.9,
+    "final_tier": "Hold",
     "sizing": {
-      "suggested_shares": 2,
-      "suggested_dollars": 275.62,
-      "note": "2 sh @ $137.81 = $276 (Strong Buy, full size) | $882 swing budget after"
+      "suggested_shares": 1,
+      "suggested_dollars": 138.47,
+      "note": "1 sh @ $138.47 = $138 (Hold, 60% size) | $915 swing budget after"
     }
   },
   "fundamentals": {
@@ -54,43 +48,41 @@
       ],
       "earnings_status": "past",
       "next_earnings_date": "2026-05-01",
-      "days_to_earnings": -51
+      "days_to_earnings": -52
     }
   },
   "news": {
     "ticker": "XOM",
-    "sentiment": "positive",
+    "sentiment": "neutral",
     "health": "healthy",
     "key_events": [
-      "Price trading near lower Bollinger Band with squeeze active \u2014 mean reversion setup",
-      "RSI 33.3 in oversold territory \u2014 classic reversal signal",
-      "Extreme Fear in market (F&G) \u2014 contrarian buying opportunity",
-      "Earnings 51 days past \u2014 next catalyst ~3-4 months out",
-      "VIX 16.4 neutral \u2014 no acute market stress"
+      "No recent news items provided for analysis",
+      "Earnings cycle: 52 days past (next earnings ~3-4 months out)",
+      "Market in Extreme Fear environment despite neutral VIX reading"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "No recent news flow \u2014 information vacuum heading into earnings cycle",
-      "Bollinger Band squeeze suggests low volatility before potential breakout",
-      "Position weight 4.4% is meaningful; monitor for concentration risk"
+      "RSI at 34.7 indicates oversold conditions but no technical firing signals",
+      "No active catalyst or news flow to support near-term momentum",
+      "Extreme Fear sentiment suggests potential capitulation selling"
     ],
-    "verdict": "XOM presents a textbook oversold swing setup with healthy fundamentals and extreme fear providing contrarian support; accumulation phase likely.",
+    "verdict": "XOM fundamentals remain healthy with modest gains; hold current position and wait for better entry or technical confirmation before adding.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "XOM",
-    "stock_return_3m": -12.28,
-    "benchmark_return_3m": 13.78,
-    "relative_strength": -26.05,
+    "stock_return_3m": -12.69,
+    "benchmark_return_3m": 15.07,
+    "relative_strength": -27.76,
     "label": "underperforming"
   },
-  "final_tier": "Strong Buy",
+  "final_tier": "Hold",
   "sizing": {
-    "suggested_shares": 2,
-    "suggested_dollars": 275.62,
-    "note": "2 sh @ $137.81 = $276 (Strong Buy, full size) | $882 swing budget after"
+    "suggested_shares": 1,
+    "suggested_dollars": 138.47,
+    "note": "1 sh @ $138.47 = $138 (Hold, 60% size) | $915 swing budget after"
   },
   "is_dca": false,
-  "saved_at": "2026-06-21T23:54:23.991499"
+  "saved_at": "2026-06-22T23:53:37.842855"
 }
