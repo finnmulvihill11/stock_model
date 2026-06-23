@@ -3,19 +3,36 @@
     "ticker": "CTVA",
     "company_name": "Corteva, Inc.",
     "action": "Hold",
-    "action_reason": "Position is modestly profitable (+0.61%) with healthy fundamentals and low portfolio weight (2.5%). Insufficient technical momentum or news catalysts warrant holding rather than trimming a winner.",
+    "action_reason": "Position is +0.93% profitable and fundamentally sound. Lack of news and distant earnings means swing opportunity is limited in next 2-3 weeks; wait for either technical breakout or pre-earnings buildup.",
     "target_price": 82.5,
     "target_reasoning": "",
-    "exit_trigger": "Price reaches $82-83 or RSI exceeds 70 on rising volume (profit-taking signal)",
-    "add_trigger": "Pullback to $76-77 on institutional buying or positive agricultural/market news; RSI drops to 40 with volume",
-    "risk": "Agricultural commodity exposure and macro headwinds; lack of recent news suggests limited near-term catalysts",
+    "exit_trigger": "Break below $76.80 (support at entry -2%) or confirmed breakdown below 50-day MA with volume spike",
+    "add_trigger": "Confirmed breakout above $80.50 on volume with RSI >60, or significant positive news catalyst on dip to $77.50",
+    "risk": "Sideways consolidation without catalyst could trap capital; Extreme Fear environment could trigger sudden flush despite healthy fundamentals",
     "outlook": "neutral",
-    "timeframe": "2-4 weeks until earnings provide directional clarity; reassess if price approaches $82 resistance",
-    "generated_at": "2026-06-22T23:53:31.229989",
-    "price_at_generation": 78.86,
-    "pnl_at_generation": 0.61
+    "timeframe": "2-4 weeks until earnings-driven volatility expected",
+    "generated_at": "2026-06-23T23:38:12.680107",
+    "price_at_generation": 79.11,
+    "pnl_at_generation": 0.93
   },
   "history": [
+    {
+      "ticker": "CTVA",
+      "company_name": "Corteva, Inc.",
+      "action": "Hold",
+      "action_reason": "Position is modestly profitable (+0.61%) with healthy fundamentals and low portfolio weight (2.5%). Insufficient technical momentum or news catalysts warrant holding rather than trimming a winner.",
+      "target_price": 82.5,
+      "target_reasoning": "",
+      "exit_trigger": "Price reaches $82-83 or RSI exceeds 70 on rising volume (profit-taking signal)",
+      "add_trigger": "Pullback to $76-77 on institutional buying or positive agricultural/market news; RSI drops to 40 with volume",
+      "risk": "Agricultural commodity exposure and macro headwinds; lack of recent news suggests limited near-term catalysts",
+      "outlook": "neutral",
+      "timeframe": "2-4 weeks until earnings provide directional clarity; reassess if price approaches $82 resistance",
+      "generated_at": "2026-06-22T23:53:31.229989",
+      "price_at_generation": 78.86,
+      "pnl_at_generation": 0.61,
+      "archived_at": "2026-06-23T23:38:12.680326"
+    },
     {
       "ticker": "CTVA",
       "company_name": "Corteva, Inc.",
@@ -117,23 +134,6 @@
       "price_at_generation": 75.71,
       "pnl_at_generation": -3.41,
       "archived_at": "2026-06-16T03:26:31.948648"
-    },
-    {
-      "ticker": "CTVA",
-      "company_name": "Corteva, Inc.",
-      "action": "Hold",
-      "action_reason": "Position loss is only 2.86% (well below 15% threshold), fundamentals remain healthy, and earnings in 48 days provide a concrete near-term catalyst. Extreme Fear conditions may create buying opportunity before recovery.",
-      "target_price": null,
-      "target_reasoning": "",
-      "exit_trigger": "Break below $74.20 (recent support) with deteriorating fundamentals OR close above $80.50 with 2-3% daily gain confirming reversal",
-      "add_trigger": "RSI bounces above 40 with VIX spike OR stock approaches $75 support on volume confirming institutional buying",
-      "risk": "Continued agricultural/economic weakness if macro deteriorates; missed opportunity if sharp bounce occurs before earnings",
-      "outlook": "neutral",
-      "timeframe": "3-6 weeks (hold through earnings for potential revaluation)",
-      "generated_at": "2026-06-12T23:15:28.319195",
-      "price_at_generation": 76.14,
-      "pnl_at_generation": -2.86,
-      "archived_at": "2026-06-16T00:15:13.987016"
     }
   ]
 }

@@ -8,20 +8,20 @@
     "sell_score": 0.14,
     "reasons": [],
     "misses": [
-      "BB: price not near lower band (pct=0.72)",
-      "RSI: not in buy zone (54.4, need 20-40)",
+      "BB: price not near lower band (pct=0.76)",
+      "RSI: not in buy zone (55.5, need 20-40)",
       "MACD: no bullish crossover or valley",
       "RSI Divergence: no bullish divergence detected",
-      "Volume: below average (0.94x) \u2014 low conviction"
+      "Volume: below average (0.60x) \u2014 low conviction"
     ],
-    "price": 78.86,
-    "rsi": 54.4,
-    "atr": 1.72,
+    "price": 79.11,
+    "rsi": 55.5,
+    "atr": 1.79,
     "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 2,
-      "suggested_dollars": 157.72,
-      "note": "2 sh @ $78.86 = $158 (Hold, 60% size) | $896 swing budget after"
+      "suggested_dollars": 158.22,
+      "note": "2 sh @ $79.11 = $158 (Hold, 60% size) | $896 swing budget after"
     }
   },
   "fundamentals": {
@@ -50,7 +50,7 @@
       ],
       "earnings_status": "distant",
       "next_earnings_date": "2026-07-30",
-      "days_to_earnings": 38
+      "days_to_earnings": 37
     }
   },
   "news": {
@@ -58,33 +58,33 @@
     "sentiment": "neutral",
     "health": "healthy",
     "key_events": [
-      "No recent news items to assess",
-      "Earnings 38 days out provides medium-term catalyst",
-      "Market in Extreme Fear despite neutral VIX (17.3)"
+      "No recent news items available for analysis",
+      "Earnings report 37 days away (mid-February timeframe)",
+      "Market in Extreme Fear despite neutral VIX reading"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "No news flow reported - lack of catalysts or visibility",
-      "Extreme Fear sentiment creates uncertainty despite fundamentals",
-      "RSI at 54.4 shows no directional momentum"
+      "No news catalyst visibility in near term",
+      "Extreme Fear sentiment creates volatility risk",
+      "No technical firing signals despite neutral RSI"
     ],
-    "verdict": "Small profitable position in healthy company with distant earnings; hold for swing development or wait for catalysts.",
+    "verdict": "Small profitable position in healthy company with no near-term catalysts; hold through quiet period and reassess at earnings approach.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "CTVA",
-    "stock_return_3m": 2.21,
-    "benchmark_return_3m": 15.07,
-    "relative_strength": -12.86,
+    "stock_return_3m": 1.97,
+    "benchmark_return_3m": 12.22,
+    "relative_strength": -10.25,
     "label": "underperforming"
   },
   "final_tier": "Hold",
   "sizing": {
     "suggested_shares": 2,
-    "suggested_dollars": 157.72,
-    "note": "2 sh @ $78.86 = $158 (Hold, 60% size) | $896 swing budget after"
+    "suggested_dollars": 158.22,
+    "note": "2 sh @ $79.11 = $158 (Hold, 60% size) | $896 swing budget after"
   },
   "is_dca": false,
-  "saved_at": "2026-06-22T23:53:31.230642"
+  "saved_at": "2026-06-23T23:38:12.680840"
 }

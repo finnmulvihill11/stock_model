@@ -3,17 +3,35 @@
     "ticker": "OXY",
     "company_name": "Occidental Petroleum Corporation",
     "action": "Hold",
-    "action_reason": "While fundamentals are weakening and technicals lack conviction, the position is only +0.19% profit and VIX/Extreme Fear suggest capitulation selling. Holding allows for potential recovery without locking in minimal gains during fear-driven dips.",
-    "target_price": 54.5,
+    "action_reason": "Position is modestly profitable (+0.64%) with minimal weight (3.2%), so no trimming justified. Fundamentals are weak (revenue declining), but extreme market fear and RSI near oversold create potential setup for rebound\u2014wait for technical confirmation before committing more capital.",
+    "target_price": 55.5,
     "target_reasoning": "",
-    "exit_trigger": "Close below $50.00 (approx -3.7% from entry); or if revenue decline accelerates YoY beyond -12%",
-    "add_trigger": "RSI drops below 25 with VIX spike + bounce confirmation at $49.50 support",
-    "risk": "Continued energy sector headwinds, recession impact on demand, dividend cut risk if cash flow deteriorates further",
+    "exit_trigger": "Break below $49.50 on high volume (invalidates support); or close below 200-day MA on deteriorating fundamentals",
+    "add_trigger": "RSI climbs above 45 + close above $53.50 resistance with volume spike; or positive oil/energy sector rotation confirmed",
+    "risk": "Oil price collapse, further revenue deterioration, or macro recession reducing energy demand; energy sector rotation into renewables",
     "outlook": "cautious",
     "timeframe": "4-8 weeks",
-    "generated_at": "2026-06-22T23:53:46.271131",
-    "price_at_generation": 52.0,
-    "pnl_at_generation": 0.19
+    "generated_at": "2026-06-23T23:38:27.905313",
+    "price_at_generation": 52.23,
+    "pnl_at_generation": 0.64
   },
-  "history": []
+  "history": [
+    {
+      "ticker": "OXY",
+      "company_name": "Occidental Petroleum Corporation",
+      "action": "Hold",
+      "action_reason": "While fundamentals are weakening and technicals lack conviction, the position is only +0.19% profit and VIX/Extreme Fear suggest capitulation selling. Holding allows for potential recovery without locking in minimal gains during fear-driven dips.",
+      "target_price": 54.5,
+      "target_reasoning": "",
+      "exit_trigger": "Close below $50.00 (approx -3.7% from entry); or if revenue decline accelerates YoY beyond -12%",
+      "add_trigger": "RSI drops below 25 with VIX spike + bounce confirmation at $49.50 support",
+      "risk": "Continued energy sector headwinds, recession impact on demand, dividend cut risk if cash flow deteriorates further",
+      "outlook": "cautious",
+      "timeframe": "4-8 weeks",
+      "generated_at": "2026-06-22T23:53:46.271131",
+      "price_at_generation": 52.0,
+      "pnl_at_generation": 0.19,
+      "archived_at": "2026-06-23T23:38:27.905493"
+    }
+  ]
 }

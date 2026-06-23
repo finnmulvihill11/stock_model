@@ -3,19 +3,36 @@
     "ticker": "ABT",
     "company_name": "Abbott Laboratories",
     "action": "Hold",
-    "action_reason": "Loss exceeds 15% threshold per philosophy (NEVER trim major losers). Healthy fundamentals + RSI 45.9 (approaching oversold) + Extreme Fear sentiment suggest capitulation, not deterioration. Wait for technical recovery confirmation before any action.",
-    "target_price": 102.5,
+    "action_reason": "Position exceeds 15% loss threshold, triggering philosophy to hold through major losers. Fundamentals remain healthy and RSI neutral suggests stabilization potential rather than collapse.",
+    "target_price": 105.0,
     "target_reasoning": "",
-    "exit_trigger": "Hold indefinitely per philosophy; only exit if fundamentals deteriorate (earnings miss, dividend cut, guidance slash)",
-    "add_trigger": "RSI drops below 35 + close below $85 on volume spike (capitulation confirmation)",
-    "risk": "Further sector rotation away from healthcare/pharma; macro headwinds if recession fears intensify despite neutral VIX",
+    "exit_trigger": "Fundamental deterioration in next earnings report OR break below $85 (new lows with volume confirmation)",
+    "add_trigger": "RSI falls to 35-40 range with VIX spike above 25 (panic washout); OR strong earnings beat with margin expansion",
+    "risk": "Extended macro downturn or healthcare sector weakness; portfolio concentration (5.6% weight) limits diversification buffer",
     "outlook": "cautious",
-    "timeframe": "4-8 weeks (post-earnings recovery window; next earnings ~90 days away)",
-    "generated_at": "2026-06-22T23:53:10.984308",
-    "price_at_generation": 87.83,
-    "pnl_at_generation": -19.99
+    "timeframe": "4-8 weeks (wait for next earnings catalyst + technical stabilization signals)",
+    "generated_at": "2026-06-23T23:37:52.525364",
+    "price_at_generation": 90.53,
+    "pnl_at_generation": -17.53
   },
   "history": [
+    {
+      "ticker": "ABT",
+      "company_name": "Abbott Laboratories",
+      "action": "Hold",
+      "action_reason": "Loss exceeds 15% threshold per philosophy (NEVER trim major losers). Healthy fundamentals + RSI 45.9 (approaching oversold) + Extreme Fear sentiment suggest capitulation, not deterioration. Wait for technical recovery confirmation before any action.",
+      "target_price": 102.5,
+      "target_reasoning": "",
+      "exit_trigger": "Hold indefinitely per philosophy; only exit if fundamentals deteriorate (earnings miss, dividend cut, guidance slash)",
+      "add_trigger": "RSI drops below 35 + close below $85 on volume spike (capitulation confirmation)",
+      "risk": "Further sector rotation away from healthcare/pharma; macro headwinds if recession fears intensify despite neutral VIX",
+      "outlook": "cautious",
+      "timeframe": "4-8 weeks (post-earnings recovery window; next earnings ~90 days away)",
+      "generated_at": "2026-06-22T23:53:10.984308",
+      "price_at_generation": 87.83,
+      "pnl_at_generation": -19.99,
+      "archived_at": "2026-06-23T23:37:52.525578"
+    },
     {
       "ticker": "ABT",
       "company_name": "Abbott Laboratories",
@@ -117,23 +134,6 @@
       "price_at_generation": 88.67,
       "pnl_at_generation": -19.22,
       "archived_at": "2026-06-16T03:25:59.004602"
-    },
-    {
-      "ticker": "ABT",
-      "company_name": "Abbott Laboratories",
-      "action": "Hold",
-      "action_reason": "Position is down 19.67%, triggering the philosophy rule to never exit major losers. Fundamentals remain healthy and RSI shows neutral momentum\u2014this appears to be market-driven selling in extreme fear conditions, not a company-specific issue.",
-      "target_price": 105.0,
-      "target_reasoning": "",
-      "exit_trigger": "Fundamentals deteriorate OR stock breaks below $82 (10% further loss)",
-      "add_trigger": "Stock approaches $80-82 with volume spike + RSI < 30, signaling capitulation",
-      "risk": "Broader market drawdown or unexpected negative catalyst; concentrated position amplifies impact",
-      "outlook": "cautious",
-      "timeframe": "4-8 weeks",
-      "generated_at": "2026-06-12T23:14:58.402434",
-      "price_at_generation": 88.18,
-      "pnl_at_generation": -19.67,
-      "archived_at": "2026-06-16T00:14:43.243677"
     }
   ]
 }

@@ -4,20 +4,19 @@
     "ticker": "INTU",
     "direction": "hold",
     "tier": "Hold",
-    "buy_score": 0.25,
+    "buy_score": 0.38,
     "sell_score": 0.14,
     "reasons": [],
     "misses": [
       "BB Width: bands expanding, not squeezing",
-      "MACD: no bullish crossover or valley",
       "RSI Divergence: no bullish divergence detected",
       "200MA: price below 200MA \u2014 potential falling knife",
-      "Death cross active: 50MA (351.98) below 200MA (519.25)",
-      "Volume: below average (0.91x) \u2014 low conviction"
+      "Death cross active: 50MA (350.12) below 200MA (517.22)",
+      "Volume: below average (0.88x) \u2014 low conviction"
     ],
-    "price": 257.77,
-    "rsi": 29.3,
-    "atr": 15.08,
+    "price": 258.05,
+    "rsi": 29.4,
+    "atr": 12.92,
     "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 0,
@@ -51,7 +50,7 @@
       ],
       "earnings_status": "past",
       "next_earnings_date": "2026-05-20",
-      "days_to_earnings": -33
+      "days_to_earnings": -34
     }
   },
   "news": {
@@ -59,27 +58,26 @@
     "sentiment": "neutral",
     "health": "healthy",
     "key_events": [
-      "Earnings reported 33 days ago",
-      "Stock declined 45% from entry ($468.29 to $257.77)",
-      "Market showing extreme fear conditions (F&G indicator)",
-      "VIX at neutral levels (17.3) suggests market-wide volatility not driver"
+      "Earnings reported 34 days ago",
+      "Stock down 44.9% from entry \u2014 significant drawdown",
+      "Extreme Fear market sentiment creating potential capitulation"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "No recent news available to assess catalyst or context for decline",
-      "Significant drawdown suggests company or sector-specific headwinds",
-      "Large portfolio weight (24%) concentrated in distressed position",
-      "RSI at 29.3 indicates oversold conditions but no reversal signals firing"
+      "Severe drawdown (-44.9%) suggests macro or sector headwinds beyond fundamentals",
+      "No recent news flow to assess catalyst recovery",
+      "RSI 29.4 indicates oversold but not yet panic-capitulation levels",
+      "24% portfolio weight concentrates risk on single underwater position"
     ],
-    "verdict": "INTU fundamentals remain healthy, but lack of news context and extreme portfolio concentration in a major loser warrant information gathering before action.",
+    "verdict": "Fundamentally healthy but technically wounded; hold per philosophy while monitoring for capitulation reversal or new negative catalysts.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "INTU",
-    "stock_return_3m": -43.24,
-    "benchmark_return_3m": 15.07,
-    "relative_strength": -58.31,
+    "stock_return_3m": -43.36,
+    "benchmark_return_3m": 12.22,
+    "relative_strength": -55.58,
     "label": "underperforming"
   },
   "final_tier": "Hold",
@@ -89,5 +87,5 @@
     "note": "Position already at 20% portfolio cap"
   },
   "is_dca": false,
-  "saved_at": "2026-06-22T23:52:55.582926"
+  "saved_at": "2026-06-23T23:37:39.298844"
 }

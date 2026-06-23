@@ -3,19 +3,36 @@
     "ticker": "TEM",
     "company_name": "Tempus AI, Inc.",
     "action": "Hold",
-    "action_reason": "Per swing trader philosophy, positions down >15% are held regardless of fundamental deterioration. However, this is a philosophy-driven hold, not a conviction hold. Monitor for material deterioration or bankruptcy risk.",
+    "action_reason": "Your stated philosophy prohibits exits on >15% losses. However, monitor closely for either a fundamental turnaround (path to profitability, cash flow positive) or technical capitulation (RSI <30 + volume surge) before considering any position adjustment.",
     "target_price": null,
     "target_reasoning": "",
-    "exit_trigger": "Company files for restructuring/bankruptcy; debt covenants breached; cash runway <6 months; or position recovers to break-even ($69.08)",
-    "add_trigger": "Do NOT add. Fundamentals deteriorating with no recovery catalysts visible.",
-    "risk": "Continued cash burn with 3.2x debt could lead to dilutive financing or restructuring; no path to profitability evident",
+    "exit_trigger": "RSI falls below 30 with volume surge (capitulation), OR company announces strategic pivot toward profitability + positive FCF guidance within 2 quarters",
+    "add_trigger": "Price drops below $40 (capitulation zone) AND RSI <25 with bullish divergence, indicating institutional accumulation",
+    "risk": "Bankruptcy/dilution risk if cash burn accelerates without revenue inflection; high debt burden limits runway",
     "outlook": "cautious",
-    "timeframe": "4-8 weeks (monitor next earnings for cash runway clarity)",
-    "generated_at": "2026-06-22T23:53:17.796738",
-    "price_at_generation": 47.85,
-    "pnl_at_generation": -30.73
+    "timeframe": "3-6 months for fundamental inflection or forced portfolio reset",
+    "generated_at": "2026-06-23T23:37:59.547699",
+    "price_at_generation": 48.61,
+    "pnl_at_generation": -29.63
   },
   "history": [
+    {
+      "ticker": "TEM",
+      "company_name": "Tempus AI, Inc.",
+      "action": "Hold",
+      "action_reason": "Per swing trader philosophy, positions down >15% are held regardless of fundamental deterioration. However, this is a philosophy-driven hold, not a conviction hold. Monitor for material deterioration or bankruptcy risk.",
+      "target_price": null,
+      "target_reasoning": "",
+      "exit_trigger": "Company files for restructuring/bankruptcy; debt covenants breached; cash runway <6 months; or position recovers to break-even ($69.08)",
+      "add_trigger": "Do NOT add. Fundamentals deteriorating with no recovery catalysts visible.",
+      "risk": "Continued cash burn with 3.2x debt could lead to dilutive financing or restructuring; no path to profitability evident",
+      "outlook": "cautious",
+      "timeframe": "4-8 weeks (monitor next earnings for cash runway clarity)",
+      "generated_at": "2026-06-22T23:53:17.796738",
+      "price_at_generation": 47.85,
+      "pnl_at_generation": -30.73,
+      "archived_at": "2026-06-23T23:37:59.547906"
+    },
     {
       "ticker": "TEM",
       "company_name": "Tempus AI, Inc.",
@@ -117,23 +134,6 @@
       "price_at_generation": 52.32,
       "pnl_at_generation": -24.26,
       "archived_at": "2026-06-16T03:26:07.091351"
-    },
-    {
-      "ticker": "TEM",
-      "company_name": "Tempus AI, Inc.",
-      "action": "Hold",
-      "action_reason": "Per trading philosophy, positions down >15% are held for recovery. However, this is a high-risk hold given deteriorating fundamentals and lack of news. Monitor for stabilization signals before considering any action.",
-      "target_price": null,
-      "target_reasoning": "",
-      "exit_trigger": "Break below $42 (new lows) with worsening fundamentals OR positive catalyst-driven bounce to $60+ followed by confirmation of business improvement",
-      "add_trigger": "RSI oversold <30 + insider buying or partnership announcement + VIX spike suggesting capitulation",
-      "risk": "Further deterioration in profitability/cash burn; high leverage could trigger restructuring; continued sector rotation away from unprofitable AI plays",
-      "outlook": "cautious",
-      "timeframe": "4-8 weeks to see stabilization or exit signals",
-      "generated_at": "2026-06-12T23:15:05.971339",
-      "price_at_generation": 47.82,
-      "pnl_at_generation": -30.78,
-      "archived_at": "2026-06-16T00:14:50.966958"
     }
   ]
 }

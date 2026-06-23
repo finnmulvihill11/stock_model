@@ -3,19 +3,36 @@
     "ticker": "CMG",
     "company_name": "Chipotle Mexican Grill, Inc.",
     "action": "Hold",
-    "action_reason": "Loss is minor (2.96%) and well below the 15% threshold; earnings in 37 days provide a meaningful catalyst that could reverse weakness. Wait for either a technical reversal signal or earnings approach before deciding on add/trim.",
+    "action_reason": "Position is only -1.65% with no major loss indicator, and extreme market fear may present asymmetric upside opportunity into earnings. Lack of negative news and neutral technical setup warrant patience rather than action.",
     "target_price": null,
     "target_reasoning": "",
-    "exit_trigger": "Break below $28.50 (RSI <30 + close below 20-day MA) or negative earnings surprise with forward guidance cut",
-    "add_trigger": "RSI dips to 30-35 with bullish divergence + close above $31.50 resistance, OR positive pre-earnings momentum (price>$32.50)",
-    "risk": "High debt load limits financial flexibility; restaurant labor cost inflation; consumer discretionary spending weakness amid macro uncertainty",
-    "outlook": "neutral",
-    "timeframe": "3-6 weeks (through earnings + post-announcement consolidation)",
-    "generated_at": "2026-06-22T23:53:25.145978",
-    "price_at_generation": 30.54,
-    "pnl_at_generation": -2.96
+    "exit_trigger": "Break below $29.50 (technical support) with volume, or material negative guidance ahead of earnings",
+    "add_trigger": "RSI drops to 30-35 range on continued weakness, or positive same-store sales catalyst emerges",
+    "risk": "High leverage (2.2x D/E) magnifies downside in consumer discretionary downturn; earnings miss could trigger sharp selloff",
+    "outlook": "cautious",
+    "timeframe": "4-6 weeks (until earnings catalyst)",
+    "generated_at": "2026-06-23T23:38:05.947962",
+    "price_at_generation": 30.95,
+    "pnl_at_generation": -1.65
   },
   "history": [
+    {
+      "ticker": "CMG",
+      "company_name": "Chipotle Mexican Grill, Inc.",
+      "action": "Hold",
+      "action_reason": "Loss is minor (2.96%) and well below the 15% threshold; earnings in 37 days provide a meaningful catalyst that could reverse weakness. Wait for either a technical reversal signal or earnings approach before deciding on add/trim.",
+      "target_price": null,
+      "target_reasoning": "",
+      "exit_trigger": "Break below $28.50 (RSI <30 + close below 20-day MA) or negative earnings surprise with forward guidance cut",
+      "add_trigger": "RSI dips to 30-35 with bullish divergence + close above $31.50 resistance, OR positive pre-earnings momentum (price>$32.50)",
+      "risk": "High debt load limits financial flexibility; restaurant labor cost inflation; consumer discretionary spending weakness amid macro uncertainty",
+      "outlook": "neutral",
+      "timeframe": "3-6 weeks (through earnings + post-announcement consolidation)",
+      "generated_at": "2026-06-22T23:53:25.145978",
+      "price_at_generation": 30.54,
+      "pnl_at_generation": -2.96,
+      "archived_at": "2026-06-23T23:38:05.948188"
+    },
     {
       "ticker": "CMG",
       "company_name": "Chipotle Mexican Grill, Inc.",
@@ -117,23 +134,6 @@
       "price_at_generation": 32.73,
       "pnl_at_generation": 4.0,
       "archived_at": "2026-06-16T03:26:15.446027"
-    },
-    {
-      "ticker": "CMG",
-      "company_name": "Chipotle Mexican Grill, Inc.",
-      "action": "Hold",
-      "action_reason": "Position is +2.41% profitable and at low weight (4%). Absence of news and technical signals suggests waiting for either earnings catalyst (47d) or a clear momentum breakout before adding. The neutral technical setup doesn't justify trimming a winning trade.",
-      "target_price": 34.5,
-      "target_reasoning": "",
-      "exit_trigger": "Trim 50% if price reaches $34.50 on high volume + RSI >70, or exit full position if breaks below $30.80 on volume (swing trade stop)",
-      "add_trigger": "Add if RSI breaks above 60 with volume confirmation + VIX stays <20, or hold for earnings surprise",
-      "risk": "High debt load amplifies downside if consumer spending slows; sentiment extremes could reverse sharply",
-      "outlook": "neutral",
-      "timeframe": "2-6 weeks (until earnings provide directional clarity)",
-      "generated_at": "2026-06-12T23:15:14.199465",
-      "price_at_generation": 32.23,
-      "pnl_at_generation": 2.41,
-      "archived_at": "2026-06-16T00:14:58.681010"
     }
   ]
 }
