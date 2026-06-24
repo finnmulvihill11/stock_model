@@ -3,19 +3,36 @@
     "ticker": "CMG",
     "company_name": "Chipotle Mexican Grill, Inc.",
     "action": "Hold",
-    "action_reason": "Position is only -1.65% with no major loss indicator, and extreme market fear may present asymmetric upside opportunity into earnings. Lack of negative news and neutral technical setup warrant patience rather than action.",
-    "target_price": null,
+    "action_reason": "Position is +0.70% profitable (exit-eligible per philosophy) but too close to entry with minimal gain. Waiting for earnings catalyst (35d) or RSI breakout above 55 offers better risk/reward than exiting now.",
+    "target_price": 33.5,
     "target_reasoning": "",
-    "exit_trigger": "Break below $29.50 (technical support) with volume, or material negative guidance ahead of earnings",
-    "add_trigger": "RSI drops to 30-35 range on continued weakness, or positive same-store sales catalyst emerges",
-    "risk": "High leverage (2.2x D/E) magnifies downside in consumer discretionary downturn; earnings miss could trigger sharp selloff",
+    "exit_trigger": "Break below $30.80 (entry support) OR take profits at $33.50+ (6.4% gain) if RSI reaches 70 before earnings",
+    "add_trigger": "RSI dips to 35-40 with VIX <16 and price holds above $31.00",
+    "risk": "Debt burden limits downside recovery potential; earnings miss in 35d could trigger sell-off; restaurant sector exposed to consumer spending slowdown given Extreme Fear backdrop",
     "outlook": "cautious",
-    "timeframe": "4-6 weeks (until earnings catalyst)",
-    "generated_at": "2026-06-23T23:38:05.947962",
-    "price_at_generation": 30.95,
-    "pnl_at_generation": -1.65
+    "timeframe": "4-5 weeks (to earnings catalyst)",
+    "generated_at": "2026-06-24T23:46:34.643313",
+    "price_at_generation": 31.69,
+    "pnl_at_generation": 0.7
   },
   "history": [
+    {
+      "ticker": "CMG",
+      "company_name": "Chipotle Mexican Grill, Inc.",
+      "action": "Hold",
+      "action_reason": "Position is only -1.65% with no major loss indicator, and extreme market fear may present asymmetric upside opportunity into earnings. Lack of negative news and neutral technical setup warrant patience rather than action.",
+      "target_price": null,
+      "target_reasoning": "",
+      "exit_trigger": "Break below $29.50 (technical support) with volume, or material negative guidance ahead of earnings",
+      "add_trigger": "RSI drops to 30-35 range on continued weakness, or positive same-store sales catalyst emerges",
+      "risk": "High leverage (2.2x D/E) magnifies downside in consumer discretionary downturn; earnings miss could trigger sharp selloff",
+      "outlook": "cautious",
+      "timeframe": "4-6 weeks (until earnings catalyst)",
+      "generated_at": "2026-06-23T23:38:05.947962",
+      "price_at_generation": 30.95,
+      "pnl_at_generation": -1.65,
+      "archived_at": "2026-06-24T23:46:34.643497"
+    },
     {
       "ticker": "CMG",
       "company_name": "Chipotle Mexican Grill, Inc.",
@@ -117,23 +134,6 @@
       "price_at_generation": 32.73,
       "pnl_at_generation": 4.0,
       "archived_at": "2026-06-17T00:00:09.691980"
-    },
-    {
-      "ticker": "CMG",
-      "company_name": "Chipotle Mexican Grill, Inc.",
-      "action": "Hold",
-      "action_reason": "4% gain is within normal swing range with no sell signals triggered. Earnings catalyst 43 days out provides defined risk/reward window; position weight (4.0%) is appropriate for this early-stage swing.",
-      "target_price": 34.5,
-      "target_reasoning": "",
-      "exit_trigger": "Break below $31.00 (entry level + stop-loss buffer) OR close below 50-day MA with RSI <40, OR Extreme Fear deepens into market correction (-5%+ SPX)",
-      "add_trigger": "RSI climbs to 65-70 with price above $33.50 AND bullish volume confirmation during next 2 weeks",
-      "risk": "Debt load (2.2x) limits downside recovery if consumer spending softens; geopolitical escalation could hurt discretionary restaurant spending; earnings miss in 43d could trigger sharp reversal.",
-      "outlook": "neutral",
-      "timeframe": "2-6 weeks",
-      "generated_at": "2026-06-16T00:14:58.680809",
-      "price_at_generation": 32.73,
-      "pnl_at_generation": 4.0,
-      "archived_at": "2026-06-16T03:26:15.446027"
     }
   ]
 }

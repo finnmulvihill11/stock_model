@@ -3,19 +3,36 @@
     "ticker": "TEM",
     "company_name": "Tempus AI, Inc.",
     "action": "Hold",
-    "action_reason": "Your stated philosophy prohibits exits on >15% losses. However, monitor closely for either a fundamental turnaround (path to profitability, cash flow positive) or technical capitulation (RSI <30 + volume surge) before considering any position adjustment.",
+    "action_reason": "Position is down 24.81%, exceeding the 15% threshold that triggers the hold-through-losses philosophy. However, await clarity on path to profitability or debt restructuring before considering adds.",
     "target_price": null,
     "target_reasoning": "",
-    "exit_trigger": "RSI falls below 30 with volume surge (capitulation), OR company announces strategic pivot toward profitability + positive FCF guidance within 2 quarters",
-    "add_trigger": "Price drops below $40 (capitulation zone) AND RSI <25 with bullish divergence, indicating institutional accumulation",
-    "risk": "Bankruptcy/dilution risk if cash burn accelerates without revenue inflection; high debt burden limits runway",
+    "exit_trigger": "Bankruptcy risk emerges, debt default becomes imminent, or cash runway falls below 6 months without capital raise",
+    "add_trigger": "Profitable quarter or positive FCF reported + break above $65 with RSI >70 + institutional accumulation signals",
+    "risk": "Negative cash flow + high debt = potential dilutive capital raise or restructuring. No earnings support recovery narrative.",
     "outlook": "cautious",
-    "timeframe": "3-6 months for fundamental inflection or forced portfolio reset",
-    "generated_at": "2026-06-23T23:37:59.547699",
-    "price_at_generation": 48.61,
-    "pnl_at_generation": -29.63
+    "timeframe": "4-8 weeks (monitor quarterly burn rate and debt covenants)",
+    "generated_at": "2026-06-24T23:46:26.494716",
+    "price_at_generation": 51.94,
+    "pnl_at_generation": -24.81
   },
   "history": [
+    {
+      "ticker": "TEM",
+      "company_name": "Tempus AI, Inc.",
+      "action": "Hold",
+      "action_reason": "Your stated philosophy prohibits exits on >15% losses. However, monitor closely for either a fundamental turnaround (path to profitability, cash flow positive) or technical capitulation (RSI <30 + volume surge) before considering any position adjustment.",
+      "target_price": null,
+      "target_reasoning": "",
+      "exit_trigger": "RSI falls below 30 with volume surge (capitulation), OR company announces strategic pivot toward profitability + positive FCF guidance within 2 quarters",
+      "add_trigger": "Price drops below $40 (capitulation zone) AND RSI <25 with bullish divergence, indicating institutional accumulation",
+      "risk": "Bankruptcy/dilution risk if cash burn accelerates without revenue inflection; high debt burden limits runway",
+      "outlook": "cautious",
+      "timeframe": "3-6 months for fundamental inflection or forced portfolio reset",
+      "generated_at": "2026-06-23T23:37:59.547699",
+      "price_at_generation": 48.61,
+      "pnl_at_generation": -29.63,
+      "archived_at": "2026-06-24T23:46:26.494910"
+    },
     {
       "ticker": "TEM",
       "company_name": "Tempus AI, Inc.",
@@ -117,23 +134,6 @@
       "price_at_generation": 52.32,
       "pnl_at_generation": -24.26,
       "archived_at": "2026-06-17T00:00:02.481435"
-    },
-    {
-      "ticker": "TEM",
-      "company_name": "Tempus AI, Inc.",
-      "action": "Hold",
-      "action_reason": "Position exceeds 15% loss threshold (philosophy mandates holding major losers). However, monitor closely for capitulation lows or further deterioration; this is a forced hold pending fundamental stabilization or technical reversal setup.",
-      "target_price": 45.5,
-      "target_reasoning": "",
-      "exit_trigger": "If stock breaks below $48 (fresh lows) OR if debt covenant breaches/capital raise dilution announced OR if RSI drops to <30 with no reversal within 2 weeks",
-      "add_trigger": "Only if RSI drops to 30-35 WITH positive news catalyst (profitability timeline, debt restructuring, major customer win) AND closes above moving averages",
-      "risk": "Solvency risk from high leverage + unprofitable operations. Potential dilutive financing or bankruptcy in bear case. No margin of safety.",
-      "outlook": "cautious",
-      "timeframe": "3-8 weeks",
-      "generated_at": "2026-06-16T00:14:50.966740",
-      "price_at_generation": 52.32,
-      "pnl_at_generation": -24.26,
-      "archived_at": "2026-06-16T03:26:07.091351"
     }
   ]
 }

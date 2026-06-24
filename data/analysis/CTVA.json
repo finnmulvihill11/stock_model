@@ -4,24 +4,23 @@
     "ticker": "CTVA",
     "direction": "hold",
     "tier": "Hold",
-    "buy_score": 0.38,
-    "sell_score": 0.14,
+    "buy_score": 0.5,
+    "sell_score": 0.43,
     "reasons": [],
     "misses": [
-      "BB: price not near lower band (pct=0.76)",
-      "RSI: not in buy zone (55.5, need 20-40)",
+      "BB: price not near lower band (pct=0.88)",
+      "RSI: not in buy zone (59.7, need 20-40)",
       "MACD: no bullish crossover or valley",
-      "RSI Divergence: no bullish divergence detected",
-      "Volume: below average (0.60x) \u2014 low conviction"
+      "RSI Divergence: no bullish divergence detected"
     ],
-    "price": 79.11,
-    "rsi": 55.5,
-    "atr": 1.79,
+    "price": 80.09,
+    "rsi": 59.7,
+    "atr": 1.78,
     "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 2,
-      "suggested_dollars": 158.22,
-      "note": "2 sh @ $79.11 = $158 (Hold, 60% size) | $896 swing budget after"
+      "suggested_dollars": 160.18,
+      "note": "2 sh @ $80.09 = $160 (Hold, 60% size) | $894 swing budget after"
     }
   },
   "fundamentals": {
@@ -50,7 +49,7 @@
       ],
       "earnings_status": "distant",
       "next_earnings_date": "2026-07-30",
-      "days_to_earnings": 37
+      "days_to_earnings": 36
     }
   },
   "news": {
@@ -59,32 +58,32 @@
     "health": "healthy",
     "key_events": [
       "No recent news items available for analysis",
-      "Earnings report 37 days away (mid-February timeframe)",
-      "Market in Extreme Fear despite neutral VIX reading"
+      "Earnings report 36 days away (mid-February timeframe)",
+      "Market in Extreme Fear despite neutral VIX (18.6)"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "No news catalyst visibility in near term",
-      "Extreme Fear sentiment creates volatility risk",
-      "No technical firing signals despite neutral RSI"
+      "Absence of recent catalysts or news flow",
+      "No technical firing signals despite RSI at 59.7 (neutral zone)",
+      "Extreme Fear sentiment creates potential volatility risk"
     ],
-    "verdict": "Small profitable position in healthy company with no near-term catalysts; hold through quiet period and reassess at earnings approach.",
+    "verdict": "CTVA is a healthy fundamentals play with modest 2.18% gains in a fear-driven market; hold for earnings catalyst.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "CTVA",
-    "stock_return_3m": 1.97,
-    "benchmark_return_3m": 12.22,
-    "relative_strength": -10.25,
+    "stock_return_3m": -0.38,
+    "benchmark_return_3m": 12.55,
+    "relative_strength": -12.93,
     "label": "underperforming"
   },
   "final_tier": "Hold",
   "sizing": {
     "suggested_shares": 2,
-    "suggested_dollars": 158.22,
-    "note": "2 sh @ $79.11 = $158 (Hold, 60% size) | $896 swing budget after"
+    "suggested_dollars": 160.18,
+    "note": "2 sh @ $80.09 = $160 (Hold, 60% size) | $894 swing budget after"
   },
   "is_dca": false,
-  "saved_at": "2026-06-23T23:38:12.680840"
+  "saved_at": "2026-06-24T23:46:40.740715"
 }

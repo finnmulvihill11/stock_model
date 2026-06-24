@@ -3,19 +3,36 @@
     "ticker": "MSFT",
     "company_name": "Microsoft Corporation",
     "action": "Hold",
-    "action_reason": "Position is -19.96% (below 15% exit threshold per philosophy); fundamentals remain healthy despite technical weakness. RSI oversold conditions suggest potential bounce, but wait for technical confirmation before adding.",
-    "target_price": null,
+    "action_reason": "Position exceeds -15% loss threshold, triggering the non-exit protocol. Fundamentals remain healthy and RSI oversold conditions typically precede reversals; wait for technical confirmation before any decision.",
+    "target_price": 485,
     "target_reasoning": "",
-    "exit_trigger": "Fundamentals deteriorate OR position falls below -25% AND fails to recover above $355 on next support test",
-    "add_trigger": "RSI bounces above 50 + price closes above $390 with increased volume (signals reversal confirmation)",
-    "risk": "Continued macro weakness in tech sector; portfolio concentration risk at 23.2% weight means further MSFT decline materially impacts overall returns",
+    "exit_trigger": "Earnings miss or material negative guidance; break below $340 (10% further loss); or RSI recovery above 50 with confirmed breakout above $410",
+    "add_trigger": "RSI rises above 40 with positive daily close + VIX remains below 20, or company-specific bullish catalyst announced",
+    "risk": "Further market weakness or MSFT-specific deterioration could extend losses to -30%+ before recovery; AI competition or enterprise spending slowdown",
     "outlook": "cautious",
-    "timeframe": "3-6 weeks",
-    "generated_at": "2026-06-23T23:37:46.074757",
-    "price_at_generation": 373.94,
-    "pnl_at_generation": -19.96
+    "timeframe": "4-8 weeks for recovery signal; re-evaluate at next earnings",
+    "generated_at": "2026-06-24T23:46:12.657263",
+    "price_at_generation": 365.46,
+    "pnl_at_generation": -21.77
   },
   "history": [
+    {
+      "ticker": "MSFT",
+      "company_name": "Microsoft Corporation",
+      "action": "Hold",
+      "action_reason": "Position is -19.96% (below 15% exit threshold per philosophy); fundamentals remain healthy despite technical weakness. RSI oversold conditions suggest potential bounce, but wait for technical confirmation before adding.",
+      "target_price": null,
+      "target_reasoning": "",
+      "exit_trigger": "Fundamentals deteriorate OR position falls below -25% AND fails to recover above $355 on next support test",
+      "add_trigger": "RSI bounces above 50 + price closes above $390 with increased volume (signals reversal confirmation)",
+      "risk": "Continued macro weakness in tech sector; portfolio concentration risk at 23.2% weight means further MSFT decline materially impacts overall returns",
+      "outlook": "cautious",
+      "timeframe": "3-6 weeks",
+      "generated_at": "2026-06-23T23:37:46.074757",
+      "price_at_generation": 373.94,
+      "pnl_at_generation": -19.96,
+      "archived_at": "2026-06-24T23:46:12.657449"
+    },
     {
       "ticker": "MSFT",
       "company_name": "Microsoft Corporation",
@@ -117,23 +134,6 @@
       "price_at_generation": 399.76,
       "pnl_at_generation": -14.43,
       "archived_at": "2026-06-16T23:59:46.820257"
-    },
-    {
-      "ticker": "MSFT",
-      "company_name": "Microsoft Corporation",
-      "action": "Hold",
-      "action_reason": "Loss of 14.43% is below the 15% exit threshold per trading philosophy. Fundamentals remain healthy and Extreme Fear sentiment historically precedes reversals; wait for RSI bounce or technical confirmation before adding.",
-      "target_price": null,
-      "target_reasoning": "",
-      "exit_trigger": "If loss extends beyond 15% breach AND RSI falls below 30 with breakdown below key support level, reassess philosophy constraint",
-      "add_trigger": "RSI rebounds above 50 with volume confirmation, OR gap fill to $420+ range with VIX compression below 15",
-      "risk": "Continued deterioration to 15%+ loss could create emotional/mechanical exit pressure; geopolitical escalation (China trade war) could extend weakness",
-      "outlook": "cautious",
-      "timeframe": "2-4 weeks for technical stabilization; monitor earnings cycle setup (next report ~3 months out)",
-      "generated_at": "2026-06-16T00:14:36.580672",
-      "price_at_generation": 399.76,
-      "pnl_at_generation": -14.43,
-      "archived_at": "2026-06-16T03:25:51.926814"
     }
   ]
 }

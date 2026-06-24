@@ -3,19 +3,36 @@
     "ticker": "CTVA",
     "company_name": "Corteva, Inc.",
     "action": "Hold",
-    "action_reason": "Position is +0.93% profitable and fundamentally sound. Lack of news and distant earnings means swing opportunity is limited in next 2-3 weeks; wait for either technical breakout or pre-earnings buildup.",
+    "action_reason": "Position is profitable with low weight (2.5%), fundamentals remain healthy, and earnings in 36 days provides a clear catalyst. Technical setup is neutral rather than deteriorating, justifying patience.",
     "target_price": 82.5,
     "target_reasoning": "",
-    "exit_trigger": "Break below $76.80 (support at entry -2%) or confirmed breakdown below 50-day MA with volume spike",
-    "add_trigger": "Confirmed breakout above $80.50 on volume with RSI >60, or significant positive news catalyst on dip to $77.50",
-    "risk": "Sideways consolidation without catalyst could trap capital; Extreme Fear environment could trigger sudden flush despite healthy fundamentals",
+    "exit_trigger": "Break below $76.50 (support near entry) OR close below 50-day MA with deteriorating fundamentals",
+    "add_trigger": "Pullback to $77.50-$78.00 on volume if fundamentals remain healthy; adds to existing position ahead of earnings",
+    "risk": "Earnings miss or guidance reduction in 36 days; market rotation out of agriculturals if macro weakens further",
     "outlook": "neutral",
-    "timeframe": "2-4 weeks until earnings-driven volatility expected",
-    "generated_at": "2026-06-23T23:38:12.680107",
-    "price_at_generation": 79.11,
-    "pnl_at_generation": 0.93
+    "timeframe": "4-6 weeks (through earnings + post-earnings confirmation)",
+    "generated_at": "2026-06-24T23:46:40.740080",
+    "price_at_generation": 80.09,
+    "pnl_at_generation": 2.18
   },
   "history": [
+    {
+      "ticker": "CTVA",
+      "company_name": "Corteva, Inc.",
+      "action": "Hold",
+      "action_reason": "Position is +0.93% profitable and fundamentally sound. Lack of news and distant earnings means swing opportunity is limited in next 2-3 weeks; wait for either technical breakout or pre-earnings buildup.",
+      "target_price": 82.5,
+      "target_reasoning": "",
+      "exit_trigger": "Break below $76.80 (support at entry -2%) or confirmed breakdown below 50-day MA with volume spike",
+      "add_trigger": "Confirmed breakout above $80.50 on volume with RSI >60, or significant positive news catalyst on dip to $77.50",
+      "risk": "Sideways consolidation without catalyst could trap capital; Extreme Fear environment could trigger sudden flush despite healthy fundamentals",
+      "outlook": "neutral",
+      "timeframe": "2-4 weeks until earnings-driven volatility expected",
+      "generated_at": "2026-06-23T23:38:12.680107",
+      "price_at_generation": 79.11,
+      "pnl_at_generation": 0.93,
+      "archived_at": "2026-06-24T23:46:40.740250"
+    },
     {
       "ticker": "CTVA",
       "company_name": "Corteva, Inc.",
@@ -117,23 +134,6 @@
       "price_at_generation": 75.71,
       "pnl_at_generation": -3.41,
       "archived_at": "2026-06-17T00:00:24.812103"
-    },
-    {
-      "ticker": "CTVA",
-      "company_name": "Corteva, Inc.",
-      "action": "Hold",
-      "action_reason": "Position down only 3.41% (well below 15% threshold). Fundamental health intact, earnings catalyst 44 days away provides ample recovery time, and market conditions remain neutral. No exit signal warranted.",
-      "target_price": 82.5,
-      "target_reasoning": "",
-      "exit_trigger": "Close below $70 or material negative earnings guidance; breach of major support with volume confirmation",
-      "add_trigger": "RSI drops to 25-28 (true oversold) + positive ag sector news or crop price strength",
-      "risk": "Geopolitical escalation impacting commodity prices; sector rotation out of industrials/agriculture if broader market momentum weakens",
-      "outlook": "cautious",
-      "timeframe": "3-6 weeks (to earnings catalyst)",
-      "generated_at": "2026-06-16T00:15:13.986757",
-      "price_at_generation": 75.71,
-      "pnl_at_generation": -3.41,
-      "archived_at": "2026-06-16T03:26:31.948648"
     }
   ]
 }

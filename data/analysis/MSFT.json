@@ -4,18 +4,19 @@
     "ticker": "MSFT",
     "direction": "hold",
     "tier": "Hold",
-    "buy_score": 0.5,
+    "buy_score": 0.38,
     "sell_score": 0.14,
     "reasons": [],
     "misses": [
       "BB Width: bands expanding, not squeezing",
       "RSI Divergence: no bullish divergence detected",
       "200MA: price below 200MA \u2014 potential falling knife",
-      "Volume: below average (0.97x) \u2014 low conviction"
+      "Death cross active: 50MA (412.06) below 200MA (447.59)",
+      "Volume: below average (0.94x) \u2014 low conviction"
     ],
-    "price": 373.94,
-    "rsi": 35.3,
-    "atr": 11.7,
+    "price": 365.46,
+    "rsi": 32.5,
+    "atr": 11.49,
     "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 0,
@@ -49,7 +50,7 @@
       ],
       "earnings_status": "past",
       "next_earnings_date": "2026-04-29",
-      "days_to_earnings": -55
+      "days_to_earnings": -56
     }
   },
   "news": {
@@ -58,26 +59,25 @@
     "health": "healthy",
     "key_events": [
       "No recent news items provided for analysis",
-      "Earnings reported 55 days ago (well past release volatility)",
-      "Position entered at $467.18, now trading $373.94 (-19.96%)",
-      "Market conditions: VIX 19.5 (neutral), Extreme Fear indicator present"
+      "Earnings reported 56 days ago (past cycle)",
+      "Position established at $467.18, currently down 21.77%"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "Significant drawdown of -19.96% with no catalyst context provided",
-      "High portfolio weight (23.2%) amplifies loss impact",
-      "No recent news to explain sharp decline or provide recovery catalyst",
-      "RSI at 35.3 indicates oversold conditions but no reversal signal firing yet"
+      "Significant unrealized loss (-21.77%) within swing trade timeframe",
+      "RSI at 32.5 suggests oversold conditions but no reversal confirmation yet",
+      "No technical firing signals despite oversold reading",
+      "Extreme Fear sentiment may indicate capitulation not yet complete"
     ],
-    "verdict": "Healthy fundamentals support holding through drawdown, but lack of positive catalysts and missing news context creates uncertainty.",
+    "verdict": "Hold position per philosophy; fundamental health intact and technicals suggest potential bottom-fishing opportunity despite material drawdown.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "MSFT",
-    "stock_return_3m": -2.15,
-    "benchmark_return_3m": 12.22,
-    "relative_strength": -14.37,
+    "stock_return_3m": -1.74,
+    "benchmark_return_3m": 12.55,
+    "relative_strength": -14.29,
     "label": "underperforming"
   },
   "final_tier": "Hold",
@@ -87,5 +87,5 @@
     "note": "Position already at 20% portfolio cap"
   },
   "is_dca": false,
-  "saved_at": "2026-06-23T23:37:46.075565"
+  "saved_at": "2026-06-24T23:46:12.657940"
 }
