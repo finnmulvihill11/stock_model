@@ -4,23 +4,22 @@
     "ticker": "OXY",
     "direction": "hold",
     "tier": "Hold",
-    "buy_score": 0.5,
+    "buy_score": 0.62,
     "sell_score": 0.0,
     "reasons": [],
     "misses": [
       "BB Width: bands expanding, not squeezing",
-      "MACD: no bullish crossover or valley",
       "RSI Divergence: no bullish divergence detected",
-      "Volume: below average (0.76x) \u2014 low conviction"
+      "Volume: below average (0.73x) \u2014 low conviction"
     ],
-    "price": 51.09,
-    "rsi": 32.9,
-    "atr": 1.84,
+    "price": 51.21,
+    "rsi": 33.6,
+    "atr": 1.83,
     "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 3,
-      "suggested_dollars": 153.27,
-      "note": "3 sh @ $51.09 = $153 (Hold, 60% size) | $900 swing budget after"
+      "suggested_dollars": 153.63,
+      "note": "3 sh @ $51.21 = $154 (Hold, 60% size) | $900 swing budget after"
     }
   },
   "fundamentals": {
@@ -50,43 +49,42 @@
       ],
       "earnings_status": "past",
       "next_earnings_date": "2026-05-05",
-      "days_to_earnings": -50
+      "days_to_earnings": -51
     }
   },
   "news": {
     "ticker": "OXY",
-    "sentiment": "neutral",
+    "sentiment": "negative",
     "health": "deteriorating",
     "key_events": [
-      "Revenue declining 8.3% YoY signals weakening demand or price headwinds",
-      "Earnings reported 50 days ago \u2014 cycle complete, awaiting next quarter",
-      "Extreme Fear (F&G) creates potential washout opportunity",
-      "VIX 18.6 indicates stable macro environment for recovery"
+      "Revenue declining 8.3% YoY indicates weakening operational performance",
+      "Earnings reported 51 days ago - results likely disappointed market",
+      "Extreme Fear (F&G) suggests capitulation and potential washout bottom"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "RSI 32.9 shows oversold but no bullish divergence yet",
-      "No technical firing signals \u2014 momentum absent",
-      "Revenue decline suggests structural weakness, not just cyclicality",
-      "Position underwater 1.56% despite -15% threshold policy"
+      "RSI at 33.6 indicates oversold but downward momentum persists",
+      "Down 1.33% on position - early-stage loss accumulation",
+      "Revenue headwinds reflect structural demand/pricing pressure",
+      "No recent positive news catalysts to reverse sentiment"
     ],
-    "verdict": "OXY is deteriorating fundamentally with weak technicals, but extreme fear backdrop and oversold RSI warrant patience per your hold-through-losses philosophy.",
+    "verdict": "OXY exhibits weakness but extreme fear conditions create asymmetric risk/reward for patient holders.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "OXY",
-    "stock_return_3m": -16.2,
-    "benchmark_return_3m": 12.55,
-    "relative_strength": -28.75,
+    "stock_return_3m": -16.82,
+    "benchmark_return_3m": 12.08,
+    "relative_strength": -28.9,
     "label": "underperforming"
   },
   "final_tier": "Hold",
   "sizing": {
     "suggested_shares": 3,
-    "suggested_dollars": 153.27,
-    "note": "3 sh @ $51.09 = $153 (Hold, 60% size) | $900 swing budget after"
+    "suggested_dollars": 153.63,
+    "note": "3 sh @ $51.21 = $154 (Hold, 60% size) | $900 swing budget after"
   },
   "is_dca": false,
-  "saved_at": "2026-06-24T23:46:55.526635"
+  "saved_at": "2026-06-25T23:56:07.647064"
 }

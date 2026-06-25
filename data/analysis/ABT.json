@@ -5,25 +5,25 @@
     "direction": "hold",
     "tier": "Hold",
     "buy_score": 0.12,
-    "sell_score": 0.29,
+    "sell_score": 0.43,
     "reasons": [],
     "misses": [
-      "BB: price not near lower band (pct=0.74)",
-      "RSI: not in buy zone (54.2, need 20-40)",
+      "BB: price not near lower band (pct=1.03)",
+      "RSI: not in buy zone (61.3, need 20-40)",
       "MACD: no bullish crossover or valley",
       "RSI Divergence: no bullish divergence detected",
       "200MA: price below 200MA \u2014 potential falling knife",
-      "Death cross active: 50MA (89.42) below 200MA (112.05)",
-      "Volume: below average (0.78x) \u2014 low conviction"
+      "Death cross active: 50MA (89.27) below 200MA (111.87)",
+      "Volume: below average (0.76x) \u2014 low conviction"
     ],
-    "price": 90.49,
-    "rsi": 54.2,
-    "atr": 2.35,
+    "price": 93.24,
+    "rsi": 61.3,
+    "atr": 2.33,
     "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 2,
-      "suggested_dollars": 180.98,
-      "note": "2 sh @ $90.49 = $181 (Hold, 60% size) | $873 swing budget after"
+      "suggested_dollars": 186.48,
+      "note": "2 sh @ $93.24 = $186 (Hold, 60% size) | $867 swing budget after"
     }
   },
   "fundamentals": {
@@ -50,9 +50,9 @@
         "Earnings declining YoY (-19.7%)",
         "Revenue growing (+7.8%)"
       ],
-      "earnings_status": "past",
-      "next_earnings_date": "2026-04-16",
-      "days_to_earnings": -69
+      "earnings_status": "upcoming",
+      "next_earnings_date": "2026-07-16",
+      "days_to_earnings": 21
     }
   },
   "news": {
@@ -60,33 +60,33 @@
     "sentiment": "neutral",
     "health": "healthy",
     "key_events": [
-      "Earnings reported 69 days ago (well into history)",
-      "No recent catalysts or news items available",
-      "Extreme Fear sentiment in broader market presents contrarian opportunity"
+      "Earnings report in 21 days - potential catalyst",
+      "Extreme Fear market sentiment presents contrarian opportunity",
+      "VIX 18.9 indicates stable volatility environment"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "17.56% drawdown from entry creates psychological pressure",
-      "No recent news flow suggests limited near-term catalysts",
-      "Position weight at 5.6% with unrealized losses concentrates risk"
+      "15.06% drawdown from entry - significant underwater position",
+      "No recent news catalysts visible - information vacuum",
+      "RSI 61.3 shows neither oversold nor overbought conditions"
     ],
-    "verdict": "Healthy fundamentals and neutral technicals support holding through drawdown; Extreme Fear creates mean-reversion setup.",
+    "verdict": "ABT is fundamentally healthy with earnings catalyst approaching; hold current position and monitor for accumulation opportunity given Extreme Fear sentiment.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "ABT",
-    "stock_return_3m": -12.5,
-    "benchmark_return_3m": 12.55,
-    "relative_strength": -25.04,
+    "stock_return_3m": -10.5,
+    "benchmark_return_3m": 12.08,
+    "relative_strength": -22.58,
     "label": "underperforming"
   },
   "final_tier": "Hold",
   "sizing": {
     "suggested_shares": 2,
-    "suggested_dollars": 180.98,
-    "note": "2 sh @ $90.49 = $181 (Hold, 60% size) | $873 swing budget after"
+    "suggested_dollars": 186.48,
+    "note": "2 sh @ $93.24 = $186 (Hold, 60% size) | $867 swing budget after"
   },
   "is_dca": false,
-  "saved_at": "2026-06-24T23:46:19.771711"
+  "saved_at": "2026-06-25T23:55:36.653990"
 }

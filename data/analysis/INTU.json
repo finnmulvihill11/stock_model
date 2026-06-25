@@ -4,20 +4,19 @@
     "ticker": "INTU",
     "direction": "hold",
     "tier": "Hold",
-    "buy_score": 0.25,
+    "buy_score": 0.38,
     "sell_score": 0.14,
     "reasons": [],
     "misses": [
-      "BB: price not near lower band (pct=0.21)",
       "BB Width: bands expanding, not squeezing",
       "RSI Divergence: no bullish divergence detected",
       "200MA: price below 200MA \u2014 potential falling knife",
-      "Death cross active: 50MA (347.98) below 200MA (515.19)",
-      "Volume: below average (0.80x) \u2014 low conviction"
+      "Death cross active: 50MA (345.74) below 200MA (513.13)",
+      "Volume: below average (0.67x) \u2014 low conviction"
     ],
-    "price": 262.23,
-    "rsi": 31.8,
-    "atr": 13.09,
+    "price": 255.07,
+    "rsi": 30.0,
+    "atr": 12.32,
     "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 0,
@@ -51,7 +50,7 @@
       ],
       "earnings_status": "past",
       "next_earnings_date": "2026-05-20",
-      "days_to_earnings": -35
+      "days_to_earnings": -36
     }
   },
   "news": {
@@ -59,26 +58,27 @@
     "sentiment": "neutral",
     "health": "healthy",
     "key_events": [
-      "Earnings passed 35 days ago",
-      "Stock down 44% from entry",
-      "RSI at 31.8 indicates oversold conditions",
-      "Market in Extreme Fear mode (capitulation risk)"
+      "Earnings reported 36 days ago",
+      "Stock declined 45.5% from entry",
+      "RSI at 30 indicates oversold conditions",
+      "Extreme Fear sentiment suggests capitulation"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "Severe drawdown (-44%) suggests broader selloff or sector weakness",
-      "No recent news available to assess catalyst recovery",
-      "Position weight of 24.4% creates concentration risk in underwater trade"
+      "Severe drawdown (-45.53%) below philosophy threshold creates hold obligation",
+      "No recent news catalysts identified",
+      "High portfolio weight (23.9%) concentrates risk",
+      "Oversold RSI may indicate capitulation selling rather than fundamental deterioration"
     ],
-    "verdict": "INTU fundamentals remain healthy but technicals show capitulation; hold through recovery per philosophy, but monitor for any deterioration in Q3/Q4 guidance.",
+    "verdict": "INTU fundamentals remain healthy despite severe technical breakdown; oversold conditions and Extreme Fear sentiment suggest potential reversal setup, but must hold per philosophy.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "INTU",
-    "stock_return_3m": -39.17,
-    "benchmark_return_3m": 12.55,
-    "relative_strength": -51.72,
+    "stock_return_3m": -40.06,
+    "benchmark_return_3m": 12.08,
+    "relative_strength": -52.14,
     "label": "underperforming"
   },
   "final_tier": "Hold",
@@ -88,5 +88,5 @@
     "note": "Position already at 20% portfolio cap"
   },
   "is_dca": false,
-  "saved_at": "2026-06-24T23:46:06.106377"
+  "saved_at": "2026-06-25T23:55:23.224375"
 }

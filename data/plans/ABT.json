@@ -3,19 +3,36 @@
     "ticker": "ABT",
     "company_name": "Abbott Laboratories",
     "action": "Hold",
-    "action_reason": "Position is down 17.56%, triggering your core philosophy to hold major losers. Fundamentals remain healthy, RSI at 54.2 shows no oversold panic, and market Extreme Fear suggests potential capitulation bottom forming.",
-    "target_price": 104.5,
+    "action_reason": "Position is deeply underwater (-15%), triggering your philosophy to hold through major losers. Upcoming earnings and Extreme Fear backdrop create potential recovery setup without forcing recovery action now.",
+    "target_price": null,
     "target_reasoning": "",
-    "exit_trigger": "Fundamental deterioration in earnings/guidance OR break below $85 on high volume signaling structural breakdown",
-    "add_trigger": "If ABT falls to $85-87 range while VIX remains elevated AND fundamentals intact\u2014adds conviction to recovery thesis",
-    "risk": "Further sector weakness in healthcare or macro recession could test support lower; negative earnings surprise would invalidate health rating",
+    "exit_trigger": "Fundamental deterioration (guidance cut, major product recall, dividend suspension) OR technical break below $88 with negative earnings",
+    "add_trigger": "If ABT drops below $90 AND maintains healthy fundamentals, accumulate on strength into earnings",
+    "risk": "Earnings miss could accelerate decline; healthcare sector rotation if rates spike; execution risk on core products",
     "outlook": "cautious",
-    "timeframe": "4-8 weeks for technical recovery; 2-3 quarters for fundamental re-rating",
-    "generated_at": "2026-06-24T23:46:19.770991",
-    "price_at_generation": 90.49,
-    "pnl_at_generation": -17.56
+    "timeframe": "2-6 weeks (earnings catalyst + 2-week post-earnings adjustment window)",
+    "generated_at": "2026-06-25T23:55:36.653153",
+    "price_at_generation": 93.24,
+    "pnl_at_generation": -15.06
   },
   "history": [
+    {
+      "ticker": "ABT",
+      "company_name": "Abbott Laboratories",
+      "action": "Hold",
+      "action_reason": "Position is down 17.56%, triggering your core philosophy to hold major losers. Fundamentals remain healthy, RSI at 54.2 shows no oversold panic, and market Extreme Fear suggests potential capitulation bottom forming.",
+      "target_price": 104.5,
+      "target_reasoning": "",
+      "exit_trigger": "Fundamental deterioration in earnings/guidance OR break below $85 on high volume signaling structural breakdown",
+      "add_trigger": "If ABT falls to $85-87 range while VIX remains elevated AND fundamentals intact\u2014adds conviction to recovery thesis",
+      "risk": "Further sector weakness in healthcare or macro recession could test support lower; negative earnings surprise would invalidate health rating",
+      "outlook": "cautious",
+      "timeframe": "4-8 weeks for technical recovery; 2-3 quarters for fundamental re-rating",
+      "generated_at": "2026-06-24T23:46:19.770991",
+      "price_at_generation": 90.49,
+      "pnl_at_generation": -17.56,
+      "archived_at": "2026-06-25T23:55:36.653394"
+    },
     {
       "ticker": "ABT",
       "company_name": "Abbott Laboratories",
@@ -117,23 +134,6 @@
       "price_at_generation": 90.62,
       "pnl_at_generation": -17.45,
       "archived_at": "2026-06-18T00:00:20.841759"
-    },
-    {
-      "ticker": "ABT",
-      "company_name": "Abbott Laboratories",
-      "action": "Hold",
-      "action_reason": "Position is down 19.22%, exceeding the 15% threshold that triggers the philosophy to hold through major losers. Fundamentals remain healthy and next earnings (~3 months out) may provide recovery catalyst.",
-      "target_price": null,
-      "target_reasoning": "",
-      "exit_trigger": "Only exit if fundamentals deteriorate materially (earnings miss, dividend cut, regulatory action) OR recover to +5% profit",
-      "add_trigger": "RSI drops below 35 AND price approaches $83-85 support level with bullish volume confirmation",
-      "risk": "Prolonged sector rotation away from healthcare/defensive; macro headwinds from Extreme Fear sentiment could drive further weakness before recovery",
-      "outlook": "cautious",
-      "timeframe": "3-6 weeks (hold for next earnings catalyst in ~90 days; re-evaluate if RSI bounces or breaks below $85)",
-      "generated_at": "2026-06-16T03:25:59.004408",
-      "price_at_generation": 88.67,
-      "pnl_at_generation": -19.22,
-      "archived_at": "2026-06-16T23:59:54.357919"
     }
   ]
 }

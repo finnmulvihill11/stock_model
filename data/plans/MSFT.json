@@ -3,19 +3,36 @@
     "ticker": "MSFT",
     "company_name": "Microsoft Corporation",
     "action": "Hold",
-    "action_reason": "Position exceeds -15% loss threshold, triggering the non-exit protocol. Fundamentals remain healthy and RSI oversold conditions typically precede reversals; wait for technical confirmation before any decision.",
-    "target_price": 485,
+    "action_reason": "Position exceeds 15% loss threshold; philosophy mandates hold. Oversold RSI (28.8) + market fear represent tactical entry point for averaging down rather than exit signal.",
+    "target_price": 420,
     "target_reasoning": "",
-    "exit_trigger": "Earnings miss or material negative guidance; break below $340 (10% further loss); or RSI recovery above 50 with confirmed breakout above $410",
-    "add_trigger": "RSI rises above 40 with positive daily close + VIX remains below 20, or company-specific bullish catalyst announced",
-    "risk": "Further market weakness or MSFT-specific deterioration could extend losses to -30%+ before recovery; AI competition or enterprise spending slowdown",
+    "exit_trigger": "Fundamental deterioration (earnings miss, guidance cut, structural business decline)\u2014NOT price-based stops",
+    "add_trigger": "Price touches $330-340 range OR RSI drops below 20 with healthy market structure intact",
+    "risk": "Continued macro weakness; concentration risk at 22% weight could force liquidation in portfolio crisis",
     "outlook": "cautious",
-    "timeframe": "4-8 weeks for recovery signal; re-evaluate at next earnings",
-    "generated_at": "2026-06-24T23:46:12.657263",
-    "price_at_generation": 365.46,
-    "pnl_at_generation": -21.77
+    "timeframe": "4-8 weeks until next earnings + potential rate clarity",
+    "generated_at": "2026-06-25T23:55:29.321325",
+    "price_at_generation": 352.83,
+    "pnl_at_generation": -24.48
   },
   "history": [
+    {
+      "ticker": "MSFT",
+      "company_name": "Microsoft Corporation",
+      "action": "Hold",
+      "action_reason": "Position exceeds -15% loss threshold, triggering the non-exit protocol. Fundamentals remain healthy and RSI oversold conditions typically precede reversals; wait for technical confirmation before any decision.",
+      "target_price": 485,
+      "target_reasoning": "",
+      "exit_trigger": "Earnings miss or material negative guidance; break below $340 (10% further loss); or RSI recovery above 50 with confirmed breakout above $410",
+      "add_trigger": "RSI rises above 40 with positive daily close + VIX remains below 20, or company-specific bullish catalyst announced",
+      "risk": "Further market weakness or MSFT-specific deterioration could extend losses to -30%+ before recovery; AI competition or enterprise spending slowdown",
+      "outlook": "cautious",
+      "timeframe": "4-8 weeks for recovery signal; re-evaluate at next earnings",
+      "generated_at": "2026-06-24T23:46:12.657263",
+      "price_at_generation": 365.46,
+      "pnl_at_generation": -21.77,
+      "archived_at": "2026-06-25T23:55:29.321515"
+    },
     {
       "ticker": "MSFT",
       "company_name": "Microsoft Corporation",
@@ -117,23 +134,6 @@
       "price_at_generation": 393.83,
       "pnl_at_generation": -15.7,
       "archived_at": "2026-06-18T00:00:13.744083"
-    },
-    {
-      "ticker": "MSFT",
-      "company_name": "Microsoft Corporation",
-      "action": "Hold",
-      "action_reason": "Position is at 14.43% loss (below 15% exit threshold per philosophy). RSI 42.8 near oversold suggests potential reversal; wait for stabilization or bullish technicals before adding.",
-      "target_price": null,
-      "target_reasoning": "",
-      "exit_trigger": "Breach of $380 (new structural low) + negative earnings guidance + fundamental deterioration",
-      "add_trigger": "RSI rebounds below 30 with VIX spike OR price stabilizes above $410 with bullish technical confirmation",
-      "risk": "Geopolitical escalation + tech sector rotation away from mega-cap + macro slowdown impacting cloud/AI demand",
-      "outlook": "cautious",
-      "timeframe": "3-6 weeks (monitor for post-fear stabilization and next earnings cycle setup)",
-      "generated_at": "2026-06-16T03:25:51.926602",
-      "price_at_generation": 399.76,
-      "pnl_at_generation": -14.43,
-      "archived_at": "2026-06-16T23:59:46.820257"
     }
   ]
 }

@@ -8,23 +8,23 @@
     "sell_score": 0.14,
     "reasons": [],
     "misses": [
-      "BB: price not near lower band (pct=0.63)",
+      "BB: price not near lower band (pct=0.74)",
       "BB Width: bands expanding, not squeezing",
-      "RSI: not in buy zone (50.6, need 20-40)",
+      "RSI: not in buy zone (53.7, need 20-40)",
       "MACD: no bullish crossover or valley",
       "RSI Divergence: no bullish divergence detected",
       "200MA: price below 200MA \u2014 potential falling knife",
-      "Death cross active: 50MA (32.47) below 200MA (35.67)",
-      "Volume: below average (0.52x) \u2014 low conviction"
+      "Death cross active: 50MA (32.42) below 200MA (35.63)",
+      "Volume: below average (0.98x) \u2014 low conviction"
     ],
-    "price": 31.69,
-    "rsi": 50.6,
-    "atr": 1.22,
+    "price": 32.28,
+    "rsi": 53.7,
+    "atr": 1.16,
     "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 5,
-      "suggested_dollars": 158.45,
-      "note": "5 sh @ $31.69 = $158 (Hold, 60% size) | $895 swing budget after"
+      "suggested_dollars": 161.4,
+      "note": "5 sh @ $32.28 = $161 (Hold, 60% size) | $892 swing budget after"
     }
   },
   "fundamentals": {
@@ -54,7 +54,7 @@
       ],
       "earnings_status": "distant",
       "next_earnings_date": "2026-07-29",
-      "days_to_earnings": 35
+      "days_to_earnings": 34
     }
   },
   "news": {
@@ -62,34 +62,35 @@
     "sentiment": "neutral",
     "health": "neutral",
     "key_events": [
-      "No recent news items available for analysis",
-      "Earnings report 35 days away - potential catalyst approaching",
-      "Market in Extreme Fear despite neutral VIX (18.6) - possible capitulation phase"
+      "No recent news items available for assessment",
+      "Earnings report 34 days away",
+      "Market in Extreme Fear despite neutral VIX (18.9)",
+      "RSI at 53.7 indicates no overbought/oversold conditions"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "High debt-to-equity ratio (2.2x) - elevated financial leverage",
-      "RSI at 50.6 - no directional momentum, stuck in equilibrium",
-      "No technical firing signals - lack of conviction",
-      "Extreme Fear sentiment contradicts neutral technicals - potential disconnect"
+      "High debt-to-equity ratio (2.2x) \u2014 elevated financial leverage risk",
+      "Extreme Fear sentiment in market \u2014 potential volatility ahead",
+      "No technical firing signals despite +2.57% gain",
+      "Lack of bullish catalysts before earnings"
     ],
-    "verdict": "Small profitable swing position showing no momentum; hold for either earnings catalyst or clear technical breakout within next 4 weeks.",
+    "verdict": "Profitable position showing modest gains with neutral technicals; hold for now pending earnings catalyst or deterioration.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "CMG",
-    "stock_return_3m": -3.27,
-    "benchmark_return_3m": 12.55,
-    "relative_strength": -15.81,
+    "stock_return_3m": -0.68,
+    "benchmark_return_3m": 12.08,
+    "relative_strength": -12.76,
     "label": "underperforming"
   },
   "final_tier": "Hold",
   "sizing": {
     "suggested_shares": 5,
-    "suggested_dollars": 158.45,
-    "note": "5 sh @ $31.69 = $158 (Hold, 60% size) | $895 swing budget after"
+    "suggested_dollars": 161.4,
+    "note": "5 sh @ $32.28 = $161 (Hold, 60% size) | $892 swing budget after"
   },
   "is_dca": false,
-  "saved_at": "2026-06-24T23:46:34.644070"
+  "saved_at": "2026-06-25T23:55:50.192373"
 }

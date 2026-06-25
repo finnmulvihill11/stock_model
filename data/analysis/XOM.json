@@ -10,16 +10,16 @@
     "misses": [
       "BB Width: bands expanding, not squeezing",
       "RSI Divergence: no bullish divergence detected",
-      "Volume: below average (0.88x) \u2014 low conviction"
+      "Volume: below average (0.50x) \u2014 low conviction"
     ],
-    "price": 136.9,
-    "rsi": 34.0,
-    "atr": 3.78,
+    "price": 137.55,
+    "rsi": 35.4,
+    "atr": 3.83,
     "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 1,
-      "suggested_dollars": 136.9,
-      "note": "1 sh @ $136.90 = $137 (Hold, 60% size) | $917 swing budget after"
+      "suggested_dollars": 137.55,
+      "note": "1 sh @ $137.55 = $138 (Hold, 60% size) | $916 swing budget after"
     }
   },
   "fundamentals": {
@@ -48,7 +48,7 @@
       ],
       "earnings_status": "past",
       "next_earnings_date": "2026-05-01",
-      "days_to_earnings": -54
+      "days_to_earnings": -55
     }
   },
   "news": {
@@ -56,34 +56,33 @@
     "sentiment": "neutral",
     "health": "healthy",
     "key_events": [
-      "Position down only -0.53%, well within normal swing volatility",
-      "RSI at 34.0 indicates oversold conditions (potential bounce zone)",
-      "Past earnings cycle reduces near-term catalyst risk",
-      "VIX 18.6 shows calm market environment despite Extreme Fear sentiment"
+      "No recent news items available for analysis",
+      "Earnings reported 55 days ago (outside typical swing window)",
+      "Position near entry with minimal drawdown"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "No active technical firing signals suggests momentum stalled",
-      "Extreme Fear indicator may indicate capitulation selling opportunity",
-      "No recent news flow limits near-term catalyst visibility"
+      "RSI at 35.4 indicates oversold conditions but no bullish confirmation yet",
+      "No technical firing signals despite oversold setup",
+      "Extreme Fear sentiment suggests capitulation may not be complete"
     ],
-    "verdict": "Healthy fundamental position with technical oversold setup; minor drawdown presents entry/hold opportunity rather than exit trigger.",
+    "verdict": "XOM fundamentals remain healthy with oversold technicals, but lack of news and firing signals warrants patience for clearer directional bias.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "XOM",
-    "stock_return_3m": -16.66,
-    "benchmark_return_3m": 12.55,
-    "relative_strength": -29.21,
+    "stock_return_3m": -15.18,
+    "benchmark_return_3m": 12.08,
+    "relative_strength": -27.26,
     "label": "underperforming"
   },
   "final_tier": "Hold",
   "sizing": {
     "suggested_shares": 1,
-    "suggested_dollars": 136.9,
-    "note": "1 sh @ $136.90 = $137 (Hold, 60% size) | $917 swing budget after"
+    "suggested_dollars": 137.55,
+    "note": "1 sh @ $137.55 = $138 (Hold, 60% size) | $916 swing budget after"
   },
   "is_dca": false,
-  "saved_at": "2026-06-24T23:46:47.675239"
+  "saved_at": "2026-06-25T23:56:01.883512"
 }

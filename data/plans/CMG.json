@@ -3,19 +3,36 @@
     "ticker": "CMG",
     "company_name": "Chipotle Mexican Grill, Inc.",
     "action": "Hold",
-    "action_reason": "Position is +0.70% profitable (exit-eligible per philosophy) but too close to entry with minimal gain. Waiting for earnings catalyst (35d) or RSI breakout above 55 offers better risk/reward than exiting now.",
-    "target_price": 33.5,
+    "action_reason": "Position is profitable (+2.57%) and RSI shows balanced conditions with no oversold setup. Earnings in 34 days provide potential catalyst; hold through this event rather than exit a winner.",
+    "target_price": 34.5,
     "target_reasoning": "",
-    "exit_trigger": "Break below $30.80 (entry support) OR take profits at $33.50+ (6.4% gain) if RSI reaches 70 before earnings",
-    "add_trigger": "RSI dips to 35-40 with VIX <16 and price holds above $31.00",
-    "risk": "Debt burden limits downside recovery potential; earnings miss in 35d could trigger sell-off; restaurant sector exposed to consumer spending slowdown given Extreme Fear backdrop",
-    "outlook": "cautious",
-    "timeframe": "4-5 weeks (to earnings catalyst)",
-    "generated_at": "2026-06-24T23:46:34.643313",
-    "price_at_generation": 31.69,
-    "pnl_at_generation": 0.7
+    "exit_trigger": "Break below $31.00 (entry level) OR RSI drops below 35 on high volume OR negative earnings surprise",
+    "add_trigger": "Pullback to $30.50-31.00 on RSI <40 with stabilizing volume, pending no negative news",
+    "risk": "High leverage (2.2x D/E) makes CMG vulnerable to macro slowdown; Extreme Fear sentiment could trigger sudden sell-offs",
+    "outlook": "neutral",
+    "timeframe": "2-6 weeks (until earnings catalyst resolves)",
+    "generated_at": "2026-06-25T23:55:50.191680",
+    "price_at_generation": 32.28,
+    "pnl_at_generation": 2.57
   },
   "history": [
+    {
+      "ticker": "CMG",
+      "company_name": "Chipotle Mexican Grill, Inc.",
+      "action": "Hold",
+      "action_reason": "Position is +0.70% profitable (exit-eligible per philosophy) but too close to entry with minimal gain. Waiting for earnings catalyst (35d) or RSI breakout above 55 offers better risk/reward than exiting now.",
+      "target_price": 33.5,
+      "target_reasoning": "",
+      "exit_trigger": "Break below $30.80 (entry support) OR take profits at $33.50+ (6.4% gain) if RSI reaches 70 before earnings",
+      "add_trigger": "RSI dips to 35-40 with VIX <16 and price holds above $31.00",
+      "risk": "Debt burden limits downside recovery potential; earnings miss in 35d could trigger sell-off; restaurant sector exposed to consumer spending slowdown given Extreme Fear backdrop",
+      "outlook": "cautious",
+      "timeframe": "4-5 weeks (to earnings catalyst)",
+      "generated_at": "2026-06-24T23:46:34.643313",
+      "price_at_generation": 31.69,
+      "pnl_at_generation": 0.7,
+      "archived_at": "2026-06-25T23:55:50.191873"
+    },
     {
       "ticker": "CMG",
       "company_name": "Chipotle Mexican Grill, Inc.",
@@ -117,23 +134,6 @@
       "price_at_generation": 32.61,
       "pnl_at_generation": 3.62,
       "archived_at": "2026-06-18T00:00:35.404184"
-    },
-    {
-      "ticker": "CMG",
-      "company_name": "Chipotle Mexican Grill, Inc.",
-      "action": "Hold",
-      "action_reason": "CMG is up 4% with neutral technicals and no news catalyst. Distant earnings (43d) and extreme fear backdrop suggest waiting for either a clearer technical setup or pre-earnings momentum before committing fresh capital. Current position has positive delta\u2014defend rather than add.",
-      "target_price": null,
-      "target_reasoning": "",
-      "exit_trigger": "Break below $31.00 (original entry zone) or if position drops below -15%; alternatively exit on close above $34.50 with 8%+ gain for risk-reward closure",
-      "add_trigger": "RSI breaks above 65 with volume confirmation, or positive pre-earnings catalyst emerges within next 3 weeks",
-      "risk": "High leverage (2.2x D/E) makes CMG vulnerable to broad market pullbacks; extreme fear sentiment could cascade into selling pressure before earnings clarity",
-      "outlook": "cautious",
-      "timeframe": "3-6 weeks until earnings; reassess after VIX stability or news flow emerges",
-      "generated_at": "2026-06-16T03:26:15.445815",
-      "price_at_generation": 32.73,
-      "pnl_at_generation": 4.0,
-      "archived_at": "2026-06-17T00:00:09.691980"
     }
   ]
 }
