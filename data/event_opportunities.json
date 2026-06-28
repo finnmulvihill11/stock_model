@@ -1,4 +1,221 @@
 {
-  "saved_at": "2026-06-22T03:58:02.541231",
-  "events": []
+  "saved_at": "2026-06-28T22:57:14.274796",
+  "events": [
+    {
+      "event_title": "US-China Tariff Escalation & Trade War Reignition",
+      "event_description": "The Trump administration has imposed sweeping tariffs on Chinese goods (up to 145%), with China retaliating with 125% tariffs on US exports. The tit-for-tat escalation is disrupting supply chains, forcing nearshoring decisions, and squeezing margins for importers. A potential negotiation window or further escalation is the near-term catalyst.",
+      "direction": "mixed",
+      "rationale": "PLXS (Plexus Corp) is a contract manufacturer with flexible nearshore facilities that wins when companies diversify away from China. GFF (Griffon Corp) makes consumer products domestically and benefits from import competition relief. KTOS (Kratos Defense) has US-only manufacturing with no China supply chain exposure. CEVA provides semiconductor IP and earns royalties regardless of where chips are made, insulating it. MNDY has no physical supply chain exposure and may benefit as enterprises accelerate digital workflow tools to manage supply chain complexity.",
+      "timeframe": "2-8 weeks",
+      "event_confidence": "high",
+      "tickers": [
+        {
+          "ticker": "CEVA",
+          "company_name": "CEVA, Inc.",
+          "sector": "Technology",
+          "in_standard_universe": false,
+          "signal_tier": "Hold",
+          "price": 42.32,
+          "rsi": 48.6,
+          "buy_score": 0.5,
+          "sell_score": 0.29,
+          "entry_trigger": "Break above $44.50 on volume >2M shares OR tariff escalation announcement triggers 3%+ intraday move; RSI confirmation >55",
+          "target_price": 48.75,
+          "exit_condition": "US-China trade deal announcement OR RSI >70 with bearish divergence OR close below $41.00; time-based exit at 6-week mark if thesis unwinds",
+          "risk": "CEVA's royalty model is backward-looking; tariff impact on semiconductor demand takes 2-3 quarters to materialize. If trade tensions ease suddenly, stock reverses. Tech sector rotation or chip cycle downturn undermines thesis regardless of tariffs.",
+          "event_conviction": "low"
+        },
+        {
+          "ticker": "MNDY",
+          "company_name": "monday.com Ltd.",
+          "sector": "Technology",
+          "in_standard_universe": false,
+          "signal_tier": "Hold",
+          "price": 73.02,
+          "rsi": 45.8,
+          "buy_score": 0.25,
+          "sell_score": 0.14,
+          "entry_trigger": "Break above $75.50 on volume >2M shares with positive guidance commentary on enterprise demand; OR pullback to $70-71 on tariff escalation news with RSI <40",
+          "target_price": 82,
+          "exit_condition": "Close below $70 or tariff negotiations announce ceasefire without enterprise IT spending acceleration; take profits at $80+ if trade war headlines fade within 3 weeks",
+          "risk": "MNDY is indirect beneficiary with weak correlation to tariff event; enterprise software spending may contract if recession fears dominate; valuation multiples compress if Fed maintains restrictive rates",
+          "event_conviction": "low"
+        },
+        {
+          "ticker": "PLXS",
+          "company_name": "Plexus Corp.",
+          "sector": "Technology",
+          "in_standard_universe": false,
+          "signal_tier": "Hold",
+          "price": 287.44,
+          "rsi": 53.9,
+          "buy_score": 0.5,
+          "sell_score": 0.43,
+          "entry_trigger": "PLXS breaks above $295 on volume as tariff headlines escalate, or dips to $280-283 support on pullback with RSI <45 during trade war rhetoric spike",
+          "target_price": 315,
+          "exit_condition": "Sell 50% at $310, trailing stop at $285; full exit if Trump-Xi negotiate ceasefire OR if PLXS reports missed guidance citing margin compression from tariff pass-through failure",
+          "risk": "PLXS may lack pricing power\u2014customers demand tariff absorption, crushing margins despite volume wins. Nearshore ramp-up takes 6-12mo, missing the 2-8wk catalyst window. Tariff reversal on surprise deal kills thesis.",
+          "event_conviction": "medium"
+        }
+      ]
+    },
+    {
+      "event_title": "Mexico & India Nearshoring Manufacturing Boom",
+      "event_description": "As tariffs make China-based manufacturing untenable, US companies are rapidly accelerating factory buildouts in Mexico and India. Industrial real estate, logistics infrastructure, and industrial automation companies serving these corridors are seeing order surges. USMCA-compliant production is increasingly valuable.",
+      "direction": "bullish",
+      "rationale": "FIHO (Fibra Macquarie) is a Mexican industrial REIT directly benefiting from nearshoring factory demand. AEIS (Advanced Energy Industries) supplies precision power systems to new semiconductor and electronics fabs being built in Mexico and India. ITRI (Itron) provides smart grid and metering infrastructure needed for new industrial zones. GTLS (Chart Industries) makes industrial gas and LNG equipment for new manufacturing facilities. TFIN (Triumph Financial) provides payments infrastructure for cross-border US-Mexico trade flows that are accelerating.",
+      "timeframe": "4-12 weeks",
+      "event_confidence": "medium",
+      "tickers": [
+        {
+          "ticker": "TFIN",
+          "company_name": "Triumph Financial, Inc.",
+          "sector": "Financial Services",
+          "in_standard_universe": false,
+          "signal_tier": "Hold",
+          "price": 76.81,
+          "rsi": 66.6,
+          "buy_score": 0.5,
+          "sell_score": 0.43,
+          "entry_trigger": "Pullback to $74.50-$75.20 on nearshoring acceleration headlines; break above $78.50 on earnings beat or new Mexico/India corridor partnership announcement",
+          "target_price": 82.5,
+          "exit_condition": "Take profit at $82.50 or above; stop loss at $73.80 (below 200-day MA); exit if cross-border trade tariff negotiations stall or reverse course",
+          "risk": "TFIN's payment infrastructure exposure is indirect vs. direct beneficiaries (FIHO, AEIS); tariff relief could kill the nearshoring thesis overnight; RSI at 66.6 suggests limited near-term momentum without fresh catalyst",
+          "event_conviction": "medium"
+        },
+        {
+          "ticker": "AEIS",
+          "company_name": "Advanced Energy Industries, Inc.",
+          "sector": "Industrials",
+          "in_standard_universe": false,
+          "signal_tier": "Hold",
+          "price": 348.11,
+          "rsi": 50.7,
+          "buy_score": 0.5,
+          "sell_score": 0.29,
+          "entry_trigger": "Break above $352 resistance with volume >2M shares; or pullback to $340-342 support on nearshoring deal announcements (Mexico/India fab expansions)",
+          "target_price": 375,
+          "exit_condition": "Close below $335 support; or if nearshoring momentum stalls (tariff policy reversal, deal delays); take profits at $370+",
+          "risk": "AEIS is cyclical semiconductor equipment supplier\u2014vulnerable to fab capex pullbacks if recession fears spike or tariff negotiations shift; Mexico/India fab timelines often slip; competition from established regional suppliers; RSI at 50.7 suggests no momentum tailwind yet",
+          "event_conviction": "medium"
+        }
+      ]
+    },
+    {
+      "event_title": "US Defense Budget Surge & Drone/Autonomous Systems Acceleration",
+      "event_description": "The Pentagon is pushing record procurement budgets with specific emphasis on autonomous drones, counter-drone systems, and munitions replenishment driven by Ukraine lessons and Taiwan contingency planning. Multiple contracts are expected to be awarded in Q2-Q3 2025, creating specific near-term revenue catalysts for smaller defense primes.",
+      "direction": "bullish",
+      "rationale": "KTOS (Kratos Defense) builds affordable tactical drones and is a direct beneficiary of low-cost attritable drone doctrine. AVAV (AeroVironment) makes Switchblade loitering munitions now in high demand globally. RCAT (Red Cat Holdings) is a small-cap pure-play on military small drones with recent DoD contracts. ATRO (Astronics) supplies aircraft and military electronics with near-term contract awards expected. These are mid/small caps where a single contract announcement can move the stock 15-30%.",
+      "timeframe": "4-10 weeks",
+      "event_confidence": "high",
+      "tickers": [
+        {
+          "ticker": "KTOS",
+          "company_name": "Kratos Defense & Security Solutions, Inc.",
+          "sector": "Industrials",
+          "in_standard_universe": false,
+          "signal_tier": "Hold",
+          "price": 47.21,
+          "rsi": 33.0,
+          "buy_score": 0.5,
+          "sell_score": 0.29,
+          "entry_trigger": "Break above $49.50 on volume >2M shares OR confirmed contract award announcement + close above $50",
+          "target_price": 58.5,
+          "exit_condition": "RSI >70 + profit taking volume OR close below $46 (thesis break) OR no contract award by end of Q2 2025",
+          "risk": "Contract delays beyond Q2-Q3 timeline, budget appropriations not flowing as expected, competition from larger primes (RTX, NOC, LMT) capturing lion's share, KTOS execution risk on scaling production",
+          "event_conviction": "medium"
+        },
+        {
+          "ticker": "AVAV",
+          "company_name": "AeroVironment, Inc.",
+          "sector": "Industrials",
+          "in_standard_universe": false,
+          "signal_tier": "Hold",
+          "price": 137.95,
+          "rsi": 32.0,
+          "buy_score": 0.62,
+          "sell_score": 0.29,
+          "entry_trigger": "Break above $142 on contract announcement news or Pentagon budget allocation specifics for loitering munitions; OR RSI crosses above 40 on volume spike coinciding with defense news flow",
+          "target_price": 165,
+          "exit_condition": "Take profits at $160-165 (20% gain); cut loss if RSI drops below 25 on contract delay/denial news OR stock closes below $132 on high volume",
+          "risk": "Switchblade demand already partially priced in; contract awards delayed beyond Q3 2025; geopolitical de-escalation reducing urgency; competitor underbidding on price; AVAV margin compression if forced into high-volume, low-margin production",
+          "event_conviction": "medium"
+        },
+        {
+          "ticker": "RCAT",
+          "company_name": "Red Cat Holdings, Inc.",
+          "sector": "Industrials",
+          "in_standard_universe": false,
+          "signal_tier": "Hold",
+          "price": 9.28,
+          "rsi": 39.7,
+          "buy_score": 0.38,
+          "sell_score": 0.14,
+          "entry_trigger": "Break above $9.80 on volume >2M shares OR announcement of Q2 2025 DoD contract award",
+          "target_price": 14.5,
+          "exit_condition": "Close below $8.90 OR failure to announce contract by end of Q2 2025 OR profit-taking at $13-14 resistance",
+          "risk": "Small-cap liquidity constraints; contract awards may face delays; competitive landscape (KTOS, AVAV) better capitalized; RSI 39.7 suggests limited momentum; announcement already priced in if market anticipates",
+          "event_conviction": "medium"
+        }
+      ]
+    },
+    {
+      "event_title": "AI Data Center Power & Cooling Infrastructure Crunch",
+      "event_description": "Hyperscalers (Microsoft, Google, Amazon, Meta) have committed over $300B in 2025 capex predominantly for AI data centers. The binding constraint is now power delivery, cooling systems, and grid interconnection \u2014 not chips. Utilities and specialized industrial companies serving this buildout have multi-year order backlogs with near-term earnings beats expected.",
+      "direction": "bullish",
+      "rationale": "POWL (Powell Industries) makes electrical switchgear and is booking record orders from data center and utility customers with Q2 earnings likely to show backlog surge. EFXT (Enerflex) provides modular power generation systems increasingly used for behind-the-meter data center power. MFGP is exposed to precision cooling manufacturing for hyperscale buildouts. HLNE (Hamilton Lane) benefits as private infrastructure capital floods into power and data center assets. These are sub-$5B market cap companies where data center exposure is not yet fully priced in.",
+      "timeframe": "3-8 weeks",
+      "event_confidence": "medium",
+      "tickers": [
+        {
+          "ticker": "GBDC",
+          "company_name": "Golub Capital BDC, Inc.",
+          "sector": "Financial Services",
+          "in_standard_universe": false,
+          "signal_tier": "Hold",
+          "price": 12.59,
+          "rsi": 48.6,
+          "buy_score": 0.62,
+          "sell_score": 0.43,
+          "entry_trigger": "GBDC closes above $12.80 on volume >2M shares with sector peers (POWL, EFXT, MFGP) showing 3%+ daily gains confirming institutional rotation into infrastructure plays",
+          "target_price": 14.25,
+          "exit_condition": "RSI exceeds 70 or if major hyperscaler delays capex announcement; also exit if GBDC's portfolio company exposure to data center power/cooling infrastructure is not disclosed in next earnings call",
+          "risk": "GBDC is a BDC with significant exposure to lower-mid-market companies\u2014actual portfolio tilt toward AI infrastructure remains unclear; execution risk on utility interconnection timelines could delay backlog conversion; sector trades on capex momentum that could shift if rate environment changes",
+          "event_conviction": "medium"
+        },
+        {
+          "ticker": "POWL",
+          "company_name": "Powell Industries, Inc.",
+          "sector": "Industrials",
+          "in_standard_universe": false,
+          "signal_tier": "Hold",
+          "price": 279.77,
+          "rsi": 46.8,
+          "buy_score": 0.62,
+          "sell_score": 0.43,
+          "entry_trigger": "Break above $285 on volume >2M shares concurrent with Q2 earnings beat on backlog/order growth; or pullback to $272-275 RSI <40 for lower-risk entry",
+          "target_price": 315,
+          "exit_condition": "Take 50% off at $300; stop loss at $268 (below recent support); exit full position if data center capex guidance disappoints or backlog growth decelerates in earnings call",
+          "risk": "Valuation already inflated on AI enthusiasm; execution risk on delivery timelines; commoditized switchgear faces margin pressure; macro slowdown could delay utility/hyperscaler spending; smaller market cap = liquidity/volatility risk",
+          "event_conviction": "medium"
+        },
+        {
+          "ticker": "EFXT",
+          "company_name": "Enerflex Ltd.",
+          "sector": "Energy",
+          "in_standard_universe": false,
+          "signal_tier": "Hold",
+          "price": 24.95,
+          "rsi": 49.7,
+          "buy_score": 0.38,
+          "sell_score": 0.14,
+          "entry_trigger": "Break above $25.50 on volume >2M shares with confirmation of data center power contract wins in next earnings or press release",
+          "target_price": 29.5,
+          "exit_condition": "Close below $24.00 or earnings miss on data center revenue growth; also exit if broader market rotation out of industrial/infrastructure plays occurs",
+          "risk": "EFXT relies on hyperscaler capex execution \u2014 delays in data center buildout timelines, grid interconnection bottlenecks shifting demand timeline, or hyperscalers building in-house power solutions would invalidate thesis. Also exposed to commodity power prices and financing cost headwinds.",
+          "event_conviction": "medium"
+        }
+      ]
+    }
+  ]
 }
