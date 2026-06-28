@@ -4,19 +4,20 @@
     "ticker": "MSFT",
     "direction": "hold",
     "tier": "Hold",
-    "buy_score": 0.38,
+    "buy_score": 0.25,
     "sell_score": 0.29,
     "reasons": [],
     "misses": [
+      "BB: price not near lower band (pct=0.27)",
       "BB Width: bands expanding, not squeezing",
-      "MACD: no bullish crossover or valley",
+      "RSI: not in buy zone (40.5, need 20-40)",
       "RSI Divergence: no bullish divergence detected",
       "200MA: price below 200MA \u2014 potential falling knife",
-      "Death cross active: 50MA (411.27) below 200MA (446.88)"
+      "Death cross active: 50MA (410.52) below 200MA (446.27)"
     ],
-    "price": 352.83,
-    "rsi": 28.8,
-    "atr": 11.95,
+    "price": 372.97,
+    "rsi": 40.5,
+    "atr": 12.58,
     "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 0,
@@ -50,7 +51,7 @@
       ],
       "earnings_status": "past",
       "next_earnings_date": "2026-04-29",
-      "days_to_earnings": -57
+      "days_to_earnings": -60
     }
   },
   "news": {
@@ -58,27 +59,27 @@
     "sentiment": "neutral",
     "health": "healthy",
     "key_events": [
-      "Position down 24.48% from entry at $467.18",
-      "RSI at 28.8 indicates oversold conditions",
-      "Extreme Fear sentiment presents potential reversal setup",
-      "VIX at 18.9 suggests market stabilization",
-      "Earnings passed 57 days ago\u2014next catalyst building"
+      "Position down 20.17% from entry",
+      "RSI at 40.5 indicates oversold conditions",
+      "Extreme Fear market sentiment presents contrarian opportunity",
+      "Earnings cycle past (60+ days) removes near-term catalyst risk",
+      "VIX 18.4 suggests market stabilizing"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "No recent news flow to assess catalysts",
-      "Large unrealized loss triggers emotional decision-making risk",
-      "22% portfolio weight concentrates risk significantly"
+      "Significant unrealized loss of $188.42 per share",
+      "No technical firing signals for reversal yet",
+      "22.7% portfolio weight creates concentration risk"
     ],
-    "verdict": "MSFT fundamentals remain healthy; oversold RSI + Extreme Fear suggest capitulation bottom forming\u2014hold and prepare to add on further weakness.",
+    "verdict": "MSFT fundamentals remain healthy with technical oversold conditions; hold position per philosophy and await recovery catalyst.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "MSFT",
-    "stock_return_3m": -4.7,
-    "benchmark_return_3m": 12.08,
-    "relative_strength": -16.79,
+    "stock_return_3m": 2.13,
+    "benchmark_return_3m": 13.3,
+    "relative_strength": -11.16,
     "label": "underperforming"
   },
   "final_tier": "Hold",
@@ -88,5 +89,5 @@
     "note": "Position already at 20% portfolio cap"
   },
   "is_dca": false,
-  "saved_at": "2026-06-25T23:55:29.321927"
+  "saved_at": "2026-06-28T23:41:31.235573"
 }

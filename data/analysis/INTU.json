@@ -5,18 +5,18 @@
     "direction": "hold",
     "tier": "Hold",
     "buy_score": 0.38,
-    "sell_score": 0.14,
+    "sell_score": 0.29,
     "reasons": [],
     "misses": [
+      "BB: price not near lower band (pct=0.31)",
       "BB Width: bands expanding, not squeezing",
       "RSI Divergence: no bullish divergence detected",
       "200MA: price below 200MA \u2014 potential falling knife",
-      "Death cross active: 50MA (345.74) below 200MA (513.13)",
-      "Volume: below average (0.67x) \u2014 low conviction"
+      "Death cross active: 50MA (343.30) below 200MA (511.14)"
     ],
-    "price": 255.07,
-    "rsi": 30.0,
-    "atr": 12.32,
+    "price": 267.72,
+    "rsi": 36.9,
+    "atr": 12.52,
     "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 0,
@@ -50,7 +50,7 @@
       ],
       "earnings_status": "past",
       "next_earnings_date": "2026-05-20",
-      "days_to_earnings": -36
+      "days_to_earnings": -39
     }
   },
   "news": {
@@ -58,27 +58,26 @@
     "sentiment": "neutral",
     "health": "healthy",
     "key_events": [
-      "Earnings reported 36 days ago",
-      "Stock declined 45.5% from entry",
-      "RSI at 30 indicates oversold conditions",
-      "Extreme Fear sentiment suggests capitulation"
+      "No recent news items provided for analysis",
+      "Earnings reported 39 days ago",
+      "Position underwater 42.83% from entry"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "Severe drawdown (-45.53%) below philosophy threshold creates hold obligation",
-      "No recent news catalysts identified",
-      "High portfolio weight (23.9%) concentrates risk",
-      "Oversold RSI may indicate capitulation selling rather than fundamental deterioration"
+      "Extreme Fear sentiment in market despite neutral VIX",
+      "No technical firing signals despite RSI 36.9 (oversold territory)",
+      "Significant drawdown with no identified catalyst for reversal",
+      "Portfolio concentration risk at 24.5% weight on losing position"
     ],
-    "verdict": "INTU fundamentals remain healthy despite severe technical breakdown; oversold conditions and Extreme Fear sentiment suggest potential reversal setup, but must hold per philosophy.",
+    "verdict": "INTU fundamentals remain healthy but stock is in severe drawdown; lack of positive catalysts and extreme fear environment delay recovery prospects.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "INTU",
-    "stock_return_3m": -40.06,
-    "benchmark_return_3m": 12.08,
-    "relative_strength": -52.14,
+    "stock_return_3m": -37.92,
+    "benchmark_return_3m": 13.3,
+    "relative_strength": -51.21,
     "label": "underperforming"
   },
   "final_tier": "Hold",
@@ -88,5 +87,5 @@
     "note": "Position already at 20% portfolio cap"
   },
   "is_dca": false,
-  "saved_at": "2026-06-25T23:55:23.224375"
+  "saved_at": "2026-06-28T23:41:25.040482"
 }

@@ -3,19 +3,36 @@
     "ticker": "MSFT",
     "company_name": "Microsoft Corporation",
     "action": "Hold",
-    "action_reason": "Position exceeds 15% loss threshold; philosophy mandates hold. Oversold RSI (28.8) + market fear represent tactical entry point for averaging down rather than exit signal.",
-    "target_price": 420,
+    "action_reason": "Loss exceeds 15% threshold, triggering hold-through-recovery protocol. RSI 40.5 and Extreme Fear sentiment suggest capitulation bottom may be forming, rewarding patience.",
+    "target_price": 520,
     "target_reasoning": "",
-    "exit_trigger": "Fundamental deterioration (earnings miss, guidance cut, structural business decline)\u2014NOT price-based stops",
-    "add_trigger": "Price touches $330-340 range OR RSI drops below 20 with healthy market structure intact",
-    "risk": "Continued macro weakness; concentration risk at 22% weight could force liquidation in portfolio crisis",
+    "exit_trigger": "Break below $350 with volume spike or fundamental deterioration announcement",
+    "add_trigger": "RSI drops below 30 + VIX spikes above 25 (panic washout confirmation)",
+    "risk": "Continued macro selloff or unforeseen negative fundamental shift; concentration risk at 22.7% weight",
     "outlook": "cautious",
-    "timeframe": "4-8 weeks until next earnings + potential rate clarity",
-    "generated_at": "2026-06-25T23:55:29.321325",
-    "price_at_generation": 352.83,
-    "pnl_at_generation": -24.48
+    "timeframe": "4-8 weeks for technical recovery; monitor next earnings for confirmation",
+    "generated_at": "2026-06-28T23:41:31.234826",
+    "price_at_generation": 372.97,
+    "pnl_at_generation": -20.17
   },
   "history": [
+    {
+      "ticker": "MSFT",
+      "company_name": "Microsoft Corporation",
+      "action": "Hold",
+      "action_reason": "Position exceeds 15% loss threshold; philosophy mandates hold. Oversold RSI (28.8) + market fear represent tactical entry point for averaging down rather than exit signal.",
+      "target_price": 420,
+      "target_reasoning": "",
+      "exit_trigger": "Fundamental deterioration (earnings miss, guidance cut, structural business decline)\u2014NOT price-based stops",
+      "add_trigger": "Price touches $330-340 range OR RSI drops below 20 with healthy market structure intact",
+      "risk": "Continued macro weakness; concentration risk at 22% weight could force liquidation in portfolio crisis",
+      "outlook": "cautious",
+      "timeframe": "4-8 weeks until next earnings + potential rate clarity",
+      "generated_at": "2026-06-25T23:55:29.321325",
+      "price_at_generation": 352.83,
+      "pnl_at_generation": -24.48,
+      "archived_at": "2026-06-28T23:41:31.235037"
+    },
     {
       "ticker": "MSFT",
       "company_name": "Microsoft Corporation",
@@ -117,23 +134,6 @@
       "price_at_generation": 378.91,
       "pnl_at_generation": -18.89,
       "archived_at": "2026-06-19T00:12:46.426790"
-    },
-    {
-      "ticker": "MSFT",
-      "company_name": "Microsoft Corporation",
-      "action": "Hold",
-      "action_reason": "Your position is exactly at your 15% loss threshold\u2014philosophy mandates holding. Fundamentals are sound and RSI hasn't reached oversold (<30), suggesting this is correction, not collapse.",
-      "target_price": null,
-      "target_reasoning": "",
-      "exit_trigger": "Break below $380 with confirmed breakdown on volume + deteriorating fundamentals",
-      "add_trigger": "RSI falls to 25-28 (oversold) + holds above $385 support on 3-day close",
-      "risk": "Portfolio concentration (24.3% weight) in single declining position increases drawdown risk if tech sector continues weakness",
-      "outlook": "cautious",
-      "timeframe": "4-8 weeks for recovery signal; reassess if position reaches -25% loss",
-      "generated_at": "2026-06-16T23:59:46.820025",
-      "price_at_generation": 393.83,
-      "pnl_at_generation": -15.7,
-      "archived_at": "2026-06-18T00:00:13.744083"
     }
   ]
 }

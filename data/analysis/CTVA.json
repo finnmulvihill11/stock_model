@@ -4,25 +4,24 @@
     "ticker": "CTVA",
     "direction": "hold",
     "tier": "Hold",
-    "buy_score": 0.25,
-    "sell_score": 0.14,
+    "buy_score": 0.38,
+    "sell_score": 0.29,
     "reasons": [],
     "misses": [
-      "BB: price not near lower band (pct=1.04)",
+      "BB: price not near lower band (pct=1.08)",
       "BB Width: bands expanding, not squeezing",
-      "RSI: not in buy zone (65.2, need 20-40)",
+      "RSI: not in buy zone (68.2, need 20-40)",
       "MACD: no bullish crossover or valley",
-      "RSI Divergence: no bullish divergence detected",
-      "Volume: below average (0.42x) \u2014 low conviction"
+      "RSI Divergence: no bullish divergence detected"
     ],
-    "price": 81.62,
-    "rsi": 65.2,
-    "atr": 1.78,
+    "price": 82.62,
+    "rsi": 68.2,
+    "atr": 1.75,
     "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 2,
-      "suggested_dollars": 163.24,
-      "note": "2 sh @ $81.62 = $163 (Hold, 60% size) | $890 swing budget after"
+      "suggested_dollars": 165.24,
+      "note": "2 sh @ $82.62 = $165 (Hold, 60% size) | $888 swing budget after"
     }
   },
   "fundamentals": {
@@ -51,7 +50,7 @@
       ],
       "earnings_status": "distant",
       "next_earnings_date": "2026-07-30",
-      "days_to_earnings": 35
+      "days_to_earnings": 32
     }
   },
   "news": {
@@ -59,33 +58,33 @@
     "sentiment": "neutral",
     "health": "healthy",
     "key_events": [
-      "No recent news items provided for analysis",
-      "Earnings 35 days out provides medium-term catalyst window",
-      "Market in Extreme Fear despite neutral VIX suggests potential opportunity"
+      "No recent news items available for analysis",
+      "Earnings 32 days out \u2014 sufficient runway for swing trading",
+      "VIX at 18.4 indicates stable market conditions"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "Lack of recent positive catalysts or news flow",
-      "RSI at 65.2 approaching overbought territory (70+)",
-      "No technical firing signals despite solid gains"
+      "RSI at 68.2 suggests overbought conditions \u2014 limited upside momentum",
+      "No technical firing signals despite 5.41% gain",
+      "Extreme Fear in Fear & Greed index conflicts with healthy fundamentals \u2014 potential disconnect"
     ],
-    "verdict": "Solid swing trade up 4.13% with healthy fundamentals; hold for near-term momentum while monitoring overbought conditions into earnings.",
+    "verdict": "Position is profitable with healthy fundamentals, but overbought technicals warrant caution; hold and monitor for exit triggers rather than add.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "CTVA",
-    "stock_return_3m": -0.27,
-    "benchmark_return_3m": 12.08,
-    "relative_strength": -12.35,
+    "stock_return_3m": 0.1,
+    "benchmark_return_3m": 13.3,
+    "relative_strength": -13.2,
     "label": "underperforming"
   },
   "final_tier": "Hold",
   "sizing": {
     "suggested_shares": 2,
-    "suggested_dollars": 163.24,
-    "note": "2 sh @ $81.62 = $163 (Hold, 60% size) | $890 swing budget after"
+    "suggested_dollars": 165.24,
+    "note": "2 sh @ $82.62 = $165 (Hold, 60% size) | $888 swing budget after"
   },
   "is_dca": false,
-  "saved_at": "2026-06-25T23:55:56.261375"
+  "saved_at": "2026-06-28T23:42:00.430843"
 }

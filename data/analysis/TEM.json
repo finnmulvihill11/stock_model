@@ -8,20 +8,20 @@
     "sell_score": 0.57,
     "reasons": [],
     "misses": [
-      "BB: price not near lower band (pct=1.07)",
-      "RSI: not in buy zone (59.3, need 20-40)",
+      "BB: price not near lower band (pct=1.09)",
+      "RSI: not in buy zone (61.2, need 20-40)",
       "MACD: no bullish crossover or valley",
       "RSI Divergence: no bullish divergence detected",
       "200MA: price below 200MA \u2014 potential falling knife"
     ],
-    "price": 54.87,
-    "rsi": 59.3,
-    "atr": 3.81,
+    "price": 56.14,
+    "rsi": 61.2,
+    "atr": 3.62,
     "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 3,
-      "suggested_dollars": 164.61,
-      "note": "3 sh @ $54.87 = $165 (Hold, 60% size) | $889 swing budget after"
+      "suggested_dollars": 168.42,
+      "note": "3 sh @ $56.14 = $168 (Hold, 60% size) | $885 swing budget after"
     }
   },
   "fundamentals": {
@@ -50,7 +50,7 @@
       ],
       "earnings_status": "past",
       "next_earnings_date": "2026-05-05",
-      "days_to_earnings": -51
+      "days_to_earnings": -54
     }
   },
   "news": {
@@ -58,35 +58,33 @@
     "sentiment": "negative",
     "health": "deteriorating",
     "key_events": [
-      "No recent news available",
-      "Earnings reported 51 days ago with significant miss",
-      "VIX at neutral 18.9 - market not signaling systemic stress"
+      "No recent news available to assess"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "Debt-to-equity ratio 3.2x (high leverage)",
-      "Not profitable with negative operating cash flow",
-      "Stock down 20.57% - liquidity risk for position",
-      "Extreme Fear gauge suggests panic selling",
-      "No recent news catalyst to reverse momentum"
+      "Debt-to-equity at 3.2x indicates high leverage risk",
+      "Not profitable with negative operating cash flow signals operational distress",
+      "Down 18.73% from entry\u2014liquidity risk if momentum breaks further",
+      "Extreme Fear sentiment (F&G) suggests panic selling or structural concerns",
+      "RSI at 61.2 lacks conviction; no technical firing signals despite recovery bounce"
     ],
-    "verdict": "TEM is fundamentally broken (unprofitable, negative FCF, high debt) with deteriorating technicals; position is a value trap absent concrete turnaround evidence.",
+    "verdict": "Tempus AI shows fundamental deterioration with unsustainable debt and cash burn; position is a major loss held by conviction, not technicals.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "TEM",
-    "stock_return_3m": 17.34,
-    "benchmark_return_3m": 12.08,
-    "relative_strength": 5.26,
+    "stock_return_3m": 23.3,
+    "benchmark_return_3m": 13.3,
+    "relative_strength": 10.01,
     "label": "outperforming"
   },
   "final_tier": "Hold",
   "sizing": {
     "suggested_shares": 3,
-    "suggested_dollars": 164.61,
-    "note": "3 sh @ $54.87 = $165 (Hold, 60% size) | $889 swing budget after"
+    "suggested_dollars": 168.42,
+    "note": "3 sh @ $56.14 = $168 (Hold, 60% size) | $885 swing budget after"
   },
   "is_dca": false,
-  "saved_at": "2026-06-25T23:55:43.625002"
+  "saved_at": "2026-06-28T23:41:43.476984"
 }
