@@ -3,6 +3,7 @@ portfolio:
   - XLK
   - DECK
   - WELL
+  - CTVA
   holdings:
   - ticker: INTU
     shares: 3
@@ -28,9 +29,6 @@ portfolio:
   - ticker: CMG
     shares: 4
     avg_cost: 31.47
-  - ticker: CTVA
-    shares: 1
-    avg_cost: 78.38
   - ticker: XOM
     shares: 1
     avg_cost: 137.63
