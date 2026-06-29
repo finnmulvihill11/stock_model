@@ -130,6 +130,14 @@
       "amount": 136.67,
       "type": "swing",
       "action": "buy"
+    },
+    {
+      "date": "2026-06-29",
+      "ticker": "OXY",
+      "shares": 1,
+      "amount": 49.75,
+      "type": "swing",
+      "action": "buy"
     }
   ]
 }
