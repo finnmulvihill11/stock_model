@@ -3,19 +3,36 @@
     "ticker": "INTU",
     "company_name": "Intuit Inc.",
     "action": "Hold",
-    "action_reason": "Position loss exceeds 15% threshold per trading philosophy\u2014must hold through recovery. RSI 36.9 suggests potential oversold conditions, but lack of technical firing signals indicates premature to add or exit.",
+    "action_reason": "Your philosophy mandates holding through >15% losses; at -43%, this position qualifies. Fundamental health + Extreme Fear sentiment + oversold RSI suggest potential recovery setup, but lack of technical firing signals prevents aggressive adding.",
     "target_price": null,
     "target_reasoning": "",
-    "exit_trigger": "Only exit if fundamentals deteriorate materially (e.g., missed guidance, market share loss) OR stock recovers to breakeven",
-    "add_trigger": "RSI dips below 30 + Extreme Fear persists + positive earnings surprise OR major product/guidance beat",
-    "risk": "Extended sideways/downward price action in high-weight position; further deterioration could challenge portfolio stability",
+    "exit_trigger": "RSI falls below 20 AND closes below $250 on high volume (capitulation), OR fundamentals deteriorate in next earnings cycle",
+    "add_trigger": "RSI crosses above 50 with bullish divergence + volume confirmation, OR company provides positive guidance update/acquisition news",
+    "risk": "Further earnings misses, SaaS margin compression, competitive pressure in tax/accounting software, or broader software sector rotation",
     "outlook": "cautious",
-    "timeframe": "3-8 weeks",
-    "generated_at": "2026-06-28T23:41:25.039729",
-    "price_at_generation": 267.72,
-    "pnl_at_generation": -42.83
+    "timeframe": "4-8 weeks (monitor for Q-end reversal or next catalyst)",
+    "generated_at": "2026-06-29T23:36:35.734652",
+    "price_at_generation": 266.4,
+    "pnl_at_generation": -43.11
   },
   "history": [
+    {
+      "ticker": "INTU",
+      "company_name": "Intuit Inc.",
+      "action": "Hold",
+      "action_reason": "Position loss exceeds 15% threshold per trading philosophy\u2014must hold through recovery. RSI 36.9 suggests potential oversold conditions, but lack of technical firing signals indicates premature to add or exit.",
+      "target_price": null,
+      "target_reasoning": "",
+      "exit_trigger": "Only exit if fundamentals deteriorate materially (e.g., missed guidance, market share loss) OR stock recovers to breakeven",
+      "add_trigger": "RSI dips below 30 + Extreme Fear persists + positive earnings surprise OR major product/guidance beat",
+      "risk": "Extended sideways/downward price action in high-weight position; further deterioration could challenge portfolio stability",
+      "outlook": "cautious",
+      "timeframe": "3-8 weeks",
+      "generated_at": "2026-06-28T23:41:25.039729",
+      "price_at_generation": 267.72,
+      "pnl_at_generation": -42.83,
+      "archived_at": "2026-06-29T23:36:35.734858"
+    },
     {
       "ticker": "INTU",
       "company_name": "Intuit Inc.",
@@ -117,23 +134,6 @@
       "price_at_generation": 267.0,
       "pnl_at_generation": -42.98,
       "archived_at": "2026-06-21T23:53:41.131816"
-    },
-    {
-      "ticker": "INTU",
-      "company_name": "Intuit Inc.",
-      "action": "Hold",
-      "action_reason": "Per stated philosophy, never exit positions down >15%. However, consider this a hard test of conviction\u2014if earnings next cycle disappoints or technicals break below support, reassess. INTU's healthy fundamentals suggest recovery potential, but monitor closely.",
-      "target_price": 380,
-      "target_reasoning": "",
-      "exit_trigger": "Break below $240 on high volume (new lows) OR negative guidance at next earnings",
-      "add_trigger": "RSI reversal above 50 + close above $310 on volume confirming recovery",
-      "risk": "Further deterioration if SaaS sector weakness accelerates; concentration at 25.6% amplifies losses",
-      "outlook": "cautious",
-      "timeframe": "3-6 months (next earnings cycle critical)",
-      "generated_at": "2026-06-18T00:00:05.975369",
-      "price_at_generation": 269.08,
-      "pnl_at_generation": -42.54,
-      "archived_at": "2026-06-19T00:12:40.084480"
     }
   ]
 }

@@ -2,20 +2,37 @@
   "current": {
     "ticker": "CMG",
     "company_name": "Chipotle Mexican Grill, Inc.",
-    "action": "Start Trimming",
-    "action_reason": "Position is +5.94% in a healthy technical state (RSI 58.7, Hold signal). With earnings 31 days away and extreme fear in the market, lock in gains incrementally rather than risk a pre-earnings pullback or gap. Trim 50% of position (2 shares) on any spike above $34.50.",
-    "target_price": 34.5,
+    "action": "Hold",
+    "action_reason": "You're +4.77% on a small 3.9% portfolio weight with no technical sell signals. Earnings in 30d is a key catalyst that could move the stock meaningfully \u2014 waiting for this event makes sense before taking profits. High debt-to-equity warrants caution but doesn't justify exit from a winning trade.",
+    "target_price": 35.5,
     "target_reasoning": "",
-    "exit_trigger": "Sell remaining 2 shares if CMG closes below $32.00 or gaps down 3%+ on earnings miss",
-    "add_trigger": "Do not add; preserve capital before earnings volatility",
-    "risk": "High debt-to-equity (2.2x) amplifies downside on negative earnings surprise; extreme fear may trigger sharp reversals despite neutral technicals",
-    "outlook": "cautious",
-    "timeframe": "2-4 weeks (trim before earnings event)",
-    "generated_at": "2026-06-28T23:41:53.630423",
-    "price_at_generation": 33.34,
-    "pnl_at_generation": 5.94
+    "exit_trigger": "Break below $31.00 (entry support) on high volume, or post-earnings disappointment with guidance reduction",
+    "add_trigger": "Consolidation above $33.50 + bullish earnings beat + RSI confirms above 60 without overbought divergence",
+    "risk": "Leverage amplifies downside if same-store sales disappoint; Extreme Fear backdrop suggests macro headwinds could trigger a sell-off",
+    "outlook": "neutral",
+    "timeframe": "2-4 weeks (hold through earnings; reassess after announcement)",
+    "generated_at": "2026-06-29T23:37:06.897060",
+    "price_at_generation": 32.97,
+    "pnl_at_generation": 4.77
   },
   "history": [
+    {
+      "ticker": "CMG",
+      "company_name": "Chipotle Mexican Grill, Inc.",
+      "action": "Start Trimming",
+      "action_reason": "Position is +5.94% in a healthy technical state (RSI 58.7, Hold signal). With earnings 31 days away and extreme fear in the market, lock in gains incrementally rather than risk a pre-earnings pullback or gap. Trim 50% of position (2 shares) on any spike above $34.50.",
+      "target_price": 34.5,
+      "target_reasoning": "",
+      "exit_trigger": "Sell remaining 2 shares if CMG closes below $32.00 or gaps down 3%+ on earnings miss",
+      "add_trigger": "Do not add; preserve capital before earnings volatility",
+      "risk": "High debt-to-equity (2.2x) amplifies downside on negative earnings surprise; extreme fear may trigger sharp reversals despite neutral technicals",
+      "outlook": "cautious",
+      "timeframe": "2-4 weeks (trim before earnings event)",
+      "generated_at": "2026-06-28T23:41:53.630423",
+      "price_at_generation": 33.34,
+      "pnl_at_generation": 5.94,
+      "archived_at": "2026-06-29T23:37:06.897251"
+    },
     {
       "ticker": "CMG",
       "company_name": "Chipotle Mexican Grill, Inc.",
@@ -117,23 +134,6 @@
       "price_at_generation": 32.49,
       "pnl_at_generation": 3.24,
       "archived_at": "2026-06-21T23:54:09.341284"
-    },
-    {
-      "ticker": "CMG",
-      "company_name": "Chipotle Mexican Grill, Inc.",
-      "action": "Hold",
-      "action_reason": "Position is modestly profitable (+1.24%) with minimal weight (4.0%). Lack of near-term news and technical firing suggests waiting for either a technical setup or earnings catalyst rather than adding or trimming a thin gainer.",
-      "target_price": null,
-      "target_reasoning": "",
-      "exit_trigger": "Close above $33.50 (resistance breakout) with volume confirmation for swing profit-taking, or if stock breaks below $30.80",
-      "add_trigger": "RSI breaks above 60 on increased volume, or if CMG approaches earnings with positive industry sentiment",
-      "risk": "High leverage (2.2x D/E) makes CMG vulnerable to sector downturns; negative earnings surprise in 41 days could trigger sharp reversal",
-      "outlook": "neutral",
-      "timeframe": "2-6 weeks (hold through earnings setup)",
-      "generated_at": "2026-06-18T00:00:35.403972",
-      "price_at_generation": 31.86,
-      "pnl_at_generation": 1.24,
-      "archived_at": "2026-06-19T00:13:08.849778"
     }
   ]
 }
