@@ -30,8 +30,8 @@ portfolio:
     shares: 4
     avg_cost: 31.47
   - ticker: XOM
-    shares: 1
-    avg_cost: 137.63
+    shares: 2
+    avg_cost: 137.15
   - ticker: OXY
     shares: 2
     avg_cost: 51.9
