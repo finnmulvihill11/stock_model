@@ -110,6 +110,18 @@
       "amount": 84.62,
       "type": "etf",
       "action": "buy"
+    },
+    {
+      "date": "2026-06-29",
+      "ticker": "CTVA",
+      "shares": 1,
+      "amount": -82.09,
+      "type": "swing",
+      "action": "sell",
+      "sell_price": 82.09,
+      "avg_cost": 78.38,
+      "realized_pnl": 3.71,
+      "realized_pnl_pct": 4.73
     }
   ]
 }
