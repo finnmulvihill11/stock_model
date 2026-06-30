@@ -3,19 +3,36 @@
     "ticker": "XOM",
     "company_name": "Exxon Mobil Corporation",
     "action": "Hold",
-    "action_reason": "Position is only -0.79% drawdown (well within tolerance), RSI 33.5 is oversold, and fundamentals remain healthy. Extreme Fear backdrop often precedes relief rallies in quality energy names.",
-    "target_price": 139.5,
+    "action_reason": "Position is down <1%, loss is immaterial, RSI oversold at 35.3 signals potential reversal, and fundamentals remain healthy. Wait for technical confirmation of reversal before adding.",
+    "target_price": 142.5,
     "target_reasoning": "",
-    "exit_trigger": "Close below $134.50 (breakdown below recent lows) OR close below 20-day MA with negative energy sector catalyst",
-    "add_trigger": "RSI bounces above 50 on volume + close above $137.50 (confirm swing leg higher)",
-    "risk": "Geopolitical escalation or crude demand shock could extend downside; lack of recent news limits conviction",
+    "exit_trigger": "Break below $134 (support) on volume + deteriorating fundamentals",
+    "add_trigger": "RSI cross above 40 + close above $138 on increased volume",
+    "risk": "Oil price collapse or macro recession reducing energy demand; geopolitical supply disruptions",
     "outlook": "neutral",
-    "timeframe": "2-4 weeks for RSI recovery; reassess if no bounce within 5 sessions",
-    "generated_at": "2026-06-29T23:37:13.671953",
-    "price_at_generation": 136.06,
-    "pnl_at_generation": -0.79
+    "timeframe": "2-4 weeks for technical recovery signal",
+    "generated_at": "2026-06-30T23:46:55.460154",
+    "price_at_generation": 136.72,
+    "pnl_at_generation": -0.31
   },
   "history": [
+    {
+      "ticker": "XOM",
+      "company_name": "Exxon Mobil Corporation",
+      "action": "Hold",
+      "action_reason": "Position is only -0.79% drawdown (well within tolerance), RSI 33.5 is oversold, and fundamentals remain healthy. Extreme Fear backdrop often precedes relief rallies in quality energy names.",
+      "target_price": 139.5,
+      "target_reasoning": "",
+      "exit_trigger": "Close below $134.50 (breakdown below recent lows) OR close below 20-day MA with negative energy sector catalyst",
+      "add_trigger": "RSI bounces above 50 on volume + close above $137.50 (confirm swing leg higher)",
+      "risk": "Geopolitical escalation or crude demand shock could extend downside; lack of recent news limits conviction",
+      "outlook": "neutral",
+      "timeframe": "2-4 weeks for RSI recovery; reassess if no bounce within 5 sessions",
+      "generated_at": "2026-06-29T23:37:13.671953",
+      "price_at_generation": 136.06,
+      "pnl_at_generation": -0.79,
+      "archived_at": "2026-06-30T23:46:55.460337"
+    },
     {
       "ticker": "XOM",
       "company_name": "Exxon Mobil Corporation",
@@ -117,23 +134,6 @@
       "price_at_generation": 137.81,
       "pnl_at_generation": 0.13,
       "archived_at": "2026-06-22T23:53:37.842422"
-    },
-    {
-      "ticker": "XOM",
-      "company_name": "Exxon Mobil Corporation",
-      "action": "Add More",
-      "action_reason": "RSI oversold + BB squeeze + Extreme Fear = high probability reversal setup. Position is profitable (+0.13%), small (4.4% weight), and fundamental health is strong\u2014tactical add aligns with swing trader mentality of buying dips. Entry near BB lower band historically offers favorable risk/reward.",
-      "target_price": 142.5,
-      "target_reasoning": "",
-      "exit_trigger": "Close above 20-day MA with RSI >60, or breach of recent swing low ($135.20) on high volume with negative oil fundamentals",
-      "add_trigger": "RSI stays 20-35 for 2+ days AND price holds above $136.50 support, OR gap down on extreme fear spike with fundamentals unchanged",
-      "risk": "Geopolitical escalation impacting oil supply or demand destruction from recession fears; OPEC+ production changes; broad energy sector selloff unrelated to XOM's operations",
-      "outlook": "cautious",
-      "timeframe": "2-4 weeks for mean-reversion bounce; monitor for BB expansion confirming volatility release",
-      "generated_at": "2026-06-19T00:13:24.223008",
-      "price_at_generation": 137.81,
-      "pnl_at_generation": 0.13,
-      "archived_at": "2026-06-21T23:54:23.991093"
     }
   ]
 }

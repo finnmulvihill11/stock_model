@@ -4,19 +4,21 @@
     "ticker": "MSFT",
     "direction": "hold",
     "tier": "Hold",
-    "buy_score": 0.38,
-    "sell_score": 0.29,
+    "buy_score": 0.12,
+    "sell_score": 0.14,
     "reasons": [],
     "misses": [
-      "BB: price not near lower band (pct=0.26)",
+      "BB: price not near lower band (pct=0.31)",
       "BB Width: bands expanding, not squeezing",
+      "RSI: not in buy zone (41.4, need 20-40)",
       "RSI Divergence: no bullish divergence detected",
       "200MA: price below 200MA \u2014 potential falling knife",
-      "Death cross active: 50MA (409.51) below 200MA (445.63)"
+      "Death cross active: 50MA (408.53) below 200MA (445.00)",
+      "Volume: below average (0.91x) \u2014 low conviction"
     ],
-    "price": 368.57,
-    "rsi": 39.0,
-    "atr": 13.0,
+    "price": 373.02,
+    "rsi": 41.4,
+    "atr": 12.95,
     "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 0,
@@ -50,7 +52,7 @@
       ],
       "earnings_status": "past",
       "next_earnings_date": "2026-04-29",
-      "days_to_earnings": -61
+      "days_to_earnings": -62
     }
   },
   "news": {
@@ -58,28 +60,25 @@
     "sentiment": "neutral",
     "health": "healthy",
     "key_events": [
-      "Position down -21.11% from entry ($467.18 \u2192 $368.57)",
-      "RSI at 39.0 indicates oversold conditions",
-      "Earnings passed 61 days ago \u2014 next catalyst unknown",
-      "Market volatility neutral (VIX 17.6) but Fear index extreme",
-      "No technical firing signals currently"
+      "No recent news items provided for analysis",
+      "Earnings reported 62 days ago (already digested by market)",
+      "Position underwater -20.15% from entry"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "Extreme Fear sentiment suggests capitulation \u2014 potential reversal zone",
-      "Large unrealized loss conflicts with swing trading timeframe",
-      "No news data provided \u2014 missing catalyst analysis",
-      "Position weight 21.8% is concentrated for a swing trade"
+      "Significant drawdown (-$188.32/share) suggests either poor entry timing or broader market pressure",
+      "RSI at 41.4 indicates mild bearish momentum but not oversold (<30)",
+      "Extreme Fear sentiment creates emotional exit temptation \u2014 resist per philosophy"
     ],
-    "verdict": "MSFT fundamentals remain healthy with oversold technicals, but lack of recent news and extreme market fear create opacity; hold per philosophy given >15% drawdown.",
+    "verdict": "Hold position through recovery; fundamentals remain healthy and drawdown does not warrant exit per trading philosophy.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "MSFT",
-    "stock_return_3m": 3.53,
-    "benchmark_return_3m": 17.16,
-    "relative_strength": -13.63,
+    "stock_return_3m": 4.14,
+    "benchmark_return_3m": 18.47,
+    "relative_strength": -14.33,
     "label": "underperforming"
   },
   "final_tier": "Hold",
@@ -89,5 +88,5 @@
     "note": "Position already at 20% portfolio cap"
   },
   "is_dca": false,
-  "saved_at": "2026-06-29T23:36:43.331812"
+  "saved_at": "2026-06-30T23:46:28.557053"
 }

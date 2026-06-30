@@ -3,19 +3,36 @@
     "ticker": "CMG",
     "company_name": "Chipotle Mexican Grill, Inc.",
     "action": "Hold",
-    "action_reason": "You're +4.77% on a small 3.9% portfolio weight with no technical sell signals. Earnings in 30d is a key catalyst that could move the stock meaningfully \u2014 waiting for this event makes sense before taking profits. High debt-to-equity warrants caution but doesn't justify exit from a winning trade.",
-    "target_price": 35.5,
+    "action_reason": "Position is profitable and weight is modest at 4%. Hold through earnings given your philosophy of managing winners tactically, then reassess based on Q3 results and guidance.",
+    "target_price": 37.5,
     "target_reasoning": "",
-    "exit_trigger": "Break below $31.00 (entry support) on high volume, or post-earnings disappointment with guidance reduction",
-    "add_trigger": "Consolidation above $33.50 + bullish earnings beat + RSI confirms above 60 without overbought divergence",
-    "risk": "Leverage amplifies downside if same-store sales disappoint; Extreme Fear backdrop suggests macro headwinds could trigger a sell-off",
-    "outlook": "neutral",
-    "timeframe": "2-4 weeks (hold through earnings; reassess after announcement)",
-    "generated_at": "2026-06-29T23:37:06.897060",
-    "price_at_generation": 32.97,
-    "pnl_at_generation": 4.77
+    "exit_trigger": "If price falls below $32.00 (near entry), or if earnings disappoint with negative forward guidance on margins/unit economics",
+    "add_trigger": "Only if price pulls back to $32.50-$33.00 AND earnings beat with strong comparable sales growth",
+    "risk": "High debt servicing pressure if consumer spending weakens; earnings miss could trigger sharp selloff given elevated multiples",
+    "outlook": "cautious",
+    "timeframe": "2-6 weeks (until earnings + post-earnings reaction)",
+    "generated_at": "2026-06-30T23:46:49.005127",
+    "price_at_generation": 34.0,
+    "pnl_at_generation": 8.04
   },
   "history": [
+    {
+      "ticker": "CMG",
+      "company_name": "Chipotle Mexican Grill, Inc.",
+      "action": "Hold",
+      "action_reason": "You're +4.77% on a small 3.9% portfolio weight with no technical sell signals. Earnings in 30d is a key catalyst that could move the stock meaningfully \u2014 waiting for this event makes sense before taking profits. High debt-to-equity warrants caution but doesn't justify exit from a winning trade.",
+      "target_price": 35.5,
+      "target_reasoning": "",
+      "exit_trigger": "Break below $31.00 (entry support) on high volume, or post-earnings disappointment with guidance reduction",
+      "add_trigger": "Consolidation above $33.50 + bullish earnings beat + RSI confirms above 60 without overbought divergence",
+      "risk": "Leverage amplifies downside if same-store sales disappoint; Extreme Fear backdrop suggests macro headwinds could trigger a sell-off",
+      "outlook": "neutral",
+      "timeframe": "2-4 weeks (hold through earnings; reassess after announcement)",
+      "generated_at": "2026-06-29T23:37:06.897060",
+      "price_at_generation": 32.97,
+      "pnl_at_generation": 4.77,
+      "archived_at": "2026-06-30T23:46:49.005313"
+    },
     {
       "ticker": "CMG",
       "company_name": "Chipotle Mexican Grill, Inc.",
@@ -117,23 +134,6 @@
       "price_at_generation": 32.49,
       "pnl_at_generation": 3.24,
       "archived_at": "2026-06-22T23:53:25.146256"
-    },
-    {
-      "ticker": "CMG",
-      "company_name": "Chipotle Mexican Grill, Inc.",
-      "action": "Hold",
-      "action_reason": "Position is modestly profitable (+3.24%) but lacks technical confirmation or catalyst momentum. High debt load and absent news warrant patience rather than accumulation. Hold and monitor for RSI breakout or pre-earnings volume spike.",
-      "target_price": null,
-      "target_reasoning": "",
-      "exit_trigger": "Breach below $30.50 (entry -3.1%) OR sustained RSI <40 with declining volume",
-      "add_trigger": "RSI >65 with volume surge, OR confirmed bullish news catalyst reducing debt/margin concerns",
-      "risk": "Debt burden limits upside optionality; Extreme Fear backdrop could trigger sharp reversal despite small gain; missed earnings surprise in 40d",
-      "outlook": "neutral",
-      "timeframe": "2-4 weeks until pre-earnings volatility; reassess at RSI extremes or news development",
-      "generated_at": "2026-06-19T00:13:08.849586",
-      "price_at_generation": 32.49,
-      "pnl_at_generation": 3.24,
-      "archived_at": "2026-06-21T23:54:09.341284"
     }
   ]
 }
