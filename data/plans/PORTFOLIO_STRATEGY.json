@@ -1,45 +1,85 @@
 {
   "current": {
-    "headline": "Portfolio holding firm through drawdown phase; Extreme Fear creates textbook mean-reversion entry points\u2014deploying remaining $1k budget into oversold quality names.",
+    "headline": "Portfolio anchored in deep value positions; extreme fear environment creates compelling mean-reversion entries\u2014deploy remaining $1k strategically on highest-conviction screener signals.",
     "market_stance": "offensive",
-    "overall_thesis": "VIX neutral, Fear extreme (15) \u2014 classic setup for mean-reversion swing trades. Your largest losers (INTU -44%, MSFT -20%) are being held per philosophy; they'll recover as sentiment normalizes. Deploy $1k into 3\u20134 oversold high-conviction buys (IONQ, ON, STLD, MPWR) to add mean-reversion upside while you wait out the current positions. Target 4\u20138 week horizon for reversals.",
+    "overall_thesis": "Extreme Fear (VIX 11, Fear & Greed 11) has created a classic mean-reversion setup across quality names. Your oversold core holdings (INTU RSI 38.2, MSFT RSI 47.0, XOM RSI 34.6, OXY RSI 25.7) are positioned to recover as sentiment normalizes. The screener has isolated five textbook oversold setups (IONQ, ON, STLD, MPWR, GOOGL) that offer superior risk/reward to cash\u2014deploy $1k into highest-confidence names to amplify recovery when fear breaks.",
     "priority_actions": [
       {
         "rank": 1,
         "action": "BUY",
         "ticker": "IONQ",
-        "instruction": "Buy ~50\u201360 shares (RSI 39.9, oversold). Entry near current price. Position size ~$300\u2013350.",
+        "instruction": "Buy 15\u201320 shares at market or on any dip toward lower Bollinger Band touch. RSI 39.9 is deeply oversold; persistent buy signal confirms strength of setup.",
         "urgency": "immediate"
       },
       {
         "rank": 2,
         "action": "BUY",
         "ticker": "ON",
-        "instruction": "Buy ~30\u201340 shares (RSI 37.2, oversold, near lower Bollinger Band). Entry near current price. Position size ~$300\u2013350.",
+        "instruction": "Buy 12\u201316 shares at market. RSI 37.2 + lower BB compression = textbook mean-reversion. Persistent signal validates entry.",
         "urgency": "immediate"
       },
       {
         "rank": 3,
         "action": "BUY",
         "ticker": "STLD",
-        "instruction": "Buy ~15\u201320 shares (RSI compressed, price near lower BB). Entry near current price. Position size ~$300\u2013350.",
+        "instruction": "Buy 8\u201312 shares if price holds near lower Bollinger Band. Compressed setup + persistent signal warrants entry with remaining $1k capacity.",
         "urgency": "this week"
       }
     ],
-    "biggest_risk": "INTU and MSFT are severely underwater (-44% and -20%). If tech weakness persists beyond 4\u20136 weeks, these may see further deterioration before recovery. Holding per philosophy, but watch for earnings misses or sector rotation that could extend drawdown. Portfolio P&L at -18.6% is manageable but concentrated in two names.",
+    "biggest_risk": "INTU at -43% is an extreme outlier\u2014if it breaks below current support without recovery signal, thesis on 'hold-through-major-losses' may need re-examination. Monitor for fundamental deterioration (earnings miss, downgrade) that would invalidate the mean-reversion case entirely.",
     "what_to_watch": [
-      "Fed messaging and rate-cut expectations (Extreme Fear often precedes pivot)",
-      "Tech earnings season (INTU, MSFT guidance critical to recovery narrative)",
-      "VIX movement above 20 (would confirm capitulation) or below 14 (complacency/bubble risk)",
-      "IONQ, ON, STLD momentum after entry \u2014 watch for RSI crossing back above 50 as early signal of mean-reversion working"
+      "Fear & Greed index\u2014entry point is strongest when extreme fear begins to lift (target: move from 11 toward 20\u201330 range over 2\u20134 weeks)",
+      "INTU earnings or analyst action\u2014any negative surprise could trigger stop-loss override; positive surprise would validate hold thesis",
+      "Screener entries (IONQ, ON, STLD) recovery trajectory\u2014confirm entries are gaining momentum and not rolling over into deeper losses within 5 trading days"
     ],
     "on_course_check": [
-      "\u2713 Plan working: if INTU/MSFT rally 10\u201315% over next 4 weeks while you add oversold names, mean-reversion thesis is intact",
-      "\u26a0 Revise plan if: Tech sector breaks to new lows OR VIX spikes above 22 (signals panic, not capitulation\u2014may need to raise cash and raise stop discipline)"
+      "\u2713 Plan is working if: oversold holdings (XOM, OXY, INTU) show RSI recovery toward neutral (45\u201355) while new entries (IONQ, ON, STLD) gain 5\u201310% within 10 days",
+      "\u26a0 Revise plan if: INTU breaks below 20-day moving average on high volume without RSI bounce, OR screener entries gap down >8% on no news (suggests signal timing was premature)"
     ],
-    "generated_at": "2026-06-30T23:47:16.217032"
+    "generated_at": "2026-07-01T23:54:13.744442"
   },
   "history": [
+    {
+      "headline": "Portfolio holding firm through drawdown phase; Extreme Fear creates textbook mean-reversion entry points\u2014deploying remaining $1k budget into oversold quality names.",
+      "market_stance": "offensive",
+      "overall_thesis": "VIX neutral, Fear extreme (15) \u2014 classic setup for mean-reversion swing trades. Your largest losers (INTU -44%, MSFT -20%) are being held per philosophy; they'll recover as sentiment normalizes. Deploy $1k into 3\u20134 oversold high-conviction buys (IONQ, ON, STLD, MPWR) to add mean-reversion upside while you wait out the current positions. Target 4\u20138 week horizon for reversals.",
+      "priority_actions": [
+        {
+          "rank": 1,
+          "action": "BUY",
+          "ticker": "IONQ",
+          "instruction": "Buy ~50\u201360 shares (RSI 39.9, oversold). Entry near current price. Position size ~$300\u2013350.",
+          "urgency": "immediate"
+        },
+        {
+          "rank": 2,
+          "action": "BUY",
+          "ticker": "ON",
+          "instruction": "Buy ~30\u201340 shares (RSI 37.2, oversold, near lower Bollinger Band). Entry near current price. Position size ~$300\u2013350.",
+          "urgency": "immediate"
+        },
+        {
+          "rank": 3,
+          "action": "BUY",
+          "ticker": "STLD",
+          "instruction": "Buy ~15\u201320 shares (RSI compressed, price near lower BB). Entry near current price. Position size ~$300\u2013350.",
+          "urgency": "this week"
+        }
+      ],
+      "biggest_risk": "INTU and MSFT are severely underwater (-44% and -20%). If tech weakness persists beyond 4\u20136 weeks, these may see further deterioration before recovery. Holding per philosophy, but watch for earnings misses or sector rotation that could extend drawdown. Portfolio P&L at -18.6% is manageable but concentrated in two names.",
+      "what_to_watch": [
+        "Fed messaging and rate-cut expectations (Extreme Fear often precedes pivot)",
+        "Tech earnings season (INTU, MSFT guidance critical to recovery narrative)",
+        "VIX movement above 20 (would confirm capitulation) or below 14 (complacency/bubble risk)",
+        "IONQ, ON, STLD momentum after entry \u2014 watch for RSI crossing back above 50 as early signal of mean-reversion working"
+      ],
+      "on_course_check": [
+        "\u2713 Plan working: if INTU/MSFT rally 10\u201315% over next 4 weeks while you add oversold names, mean-reversion thesis is intact",
+        "\u26a0 Revise plan if: Tech sector breaks to new lows OR VIX spikes above 22 (signals panic, not capitulation\u2014may need to raise cash and raise stop discipline)"
+      ],
+      "generated_at": "2026-06-30T23:47:16.217032",
+      "archived_at": "2026-07-01T23:54:13.744753"
+    },
     {
       "headline": "Portfolio underwater but holds firm; extreme fear creates mean-reversion entry opportunity with $1k dry powder.",
       "market_stance": "offensive",
@@ -323,54 +363,6 @@
       ],
       "generated_at": "2026-06-22T23:54:01.699058",
       "archived_at": "2026-06-23T23:38:42.672489"
-    },
-    {
-      "headline": "Portfolio deeply underwater but philosophically sound\u2014hold major losers, deploy remaining $1K into high-conviction mean-reversion setups in energy and REITs.",
-      "market_stance": "offensive",
-      "overall_thesis": "Extreme Fear (VIX 23) + persistent oversold technicals across energy, infrastructure, and real estate create a textbook mean-reversion environment. Your thesis is intact: quality names at 15%+ drawdowns will recover. Deploy remaining dry powder into the strongest technical setups (RSI 37\u201340, BB squeeze, persistent multi-day signals) to accelerate recovery and capture swing upside over 4\u20138 weeks.",
-      "priority_actions": [
-        {
-          "rank": 1,
-          "action": "ADD",
-          "ticker": "XOM",
-          "instruction": "Add $300 at market or on any dip below current price. XOM already held (4.4% weight), RSI 33.3, Strong Buy + persistent signal + Extreme Fear environment. This is your highest-conviction entry\u2014energy sector mispricing during fear spike.",
-          "urgency": "immediate"
-        },
-        {
-          "rank": 2,
-          "action": "BUY",
-          "ticker": "OXY",
-          "instruction": "Open $250 position. Persistent Buy signal (2+ consecutive scrapes), energy sector mean-reversion candidate, complements XOM add. Diversifies within energy tailwind.",
-          "urgency": "immediate"
-        },
-        {
-          "rank": 3,
-          "action": "BUY",
-          "ticker": "EQR",
-          "instruction": "Open $200 position. RSI 39.8 (oversold) + BB squeeze + persistent Buy signal. REIT sector severely beaten down; mean-reversion play with strong technicals.",
-          "urgency": "this week"
-        },
-        {
-          "rank": 4,
-          "action": "BUY",
-          "ticker": "AVB",
-          "instruction": "Open $250 position if capital remains after above 3 trades. RSI 37.6 (deeper oversold), REIT sector tailwind, persistent signal. Only if you have dry powder post-XOM/OXY/EQR.",
-          "urgency": "this week"
-        }
-      ],
-      "biggest_risk": "INTU concentration (25.9% vs. 25% cap) + portfolio is -19.75% YTD. A further market selloff (VIX >25) could create forced-liquidation pressure despite your no-trim philosophy. If portfolio hits -30%, reassess INTU position sizing (trim to cap\u2014not a loss-cutting move, a risk-management move) to preserve dry powder for recovery trades.",
-      "what_to_watch": [
-        "INTU rebalancing trigger: if INTU falls another 10%+ and creates >30% portfolio weight, trim to 25% cap specifically (not a loss-cut, a structural fix)",
-        "XOM/OXY/energy sector: any bounce off current lows should yield 5\u20138% swing gains within 2\u20134 weeks if thesis holds",
-        "Extreme Fear persistence: if Fear index drops below 20, mean-reversion window is closing\u2014tighten stops on new entries"
-      ],
-      "on_course_check": [
-        "\u2713 On course: Holding INTU/MSFT through >15% drawdowns per philosophy; capital discipline maintained ($1K dry powder remaining)",
-        "\u2713 On course: Energy + REIT sectors showing strongest technical oversold setups (RSI 37\u201340 cluster)",
-        "\u26a0 Revise if: Portfolio dips below -25% without any position showing +5% bounce (suggests thesis broken, not just timing); or if VIX crashes below 14 (fear trade window closes)"
-      ],
-      "generated_at": "2026-06-21T23:54:39.499861",
-      "archived_at": "2026-06-22T23:54:01.699342"
     }
   ]
 }

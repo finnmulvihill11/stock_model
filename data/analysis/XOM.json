@@ -4,22 +4,23 @@
     "ticker": "XOM",
     "direction": "hold",
     "tier": "Hold",
-    "buy_score": 0.62,
-    "sell_score": 0.14,
+    "buy_score": 0.5,
+    "sell_score": 0.0,
     "reasons": [],
     "misses": [
-      "BB: price not near lower band (pct=0.22)",
+      "BB: price not near lower band (pct=0.23)",
       "BB Width: bands expanding, not squeezing",
-      "RSI Divergence: no bullish divergence detected"
+      "RSI Divergence: no bullish divergence detected",
+      "Volume: below average (0.47x) \u2014 low conviction"
     ],
-    "price": 136.72,
-    "rsi": 35.3,
-    "atr": 3.47,
+    "price": 136.28,
+    "rsi": 34.6,
+    "atr": 3.35,
     "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 1,
-      "suggested_dollars": 136.72,
-      "note": "1 sh @ $136.72 = $137 (Hold, 60% size) | $813 swing budget after"
+      "suggested_dollars": 136.28,
+      "note": "1 sh @ $136.28 = $136 (Hold, 60% size) | $765 swing budget after"
     }
   },
   "fundamentals": {
@@ -48,43 +49,38 @@
       ],
       "earnings_status": "past",
       "next_earnings_date": "2026-05-01",
-      "days_to_earnings": -60
+      "days_to_earnings": -61
     }
   },
   "news": {
     "ticker": "XOM",
     "sentiment": "neutral",
     "health": "healthy",
-    "key_events": [
-      "Earnings cycle complete (past 60 days)",
-      "Market in Extreme Fear mode despite neutral VIX",
-      "XOM down only -0.31% from entry \u2014 minimal loss",
-      "RSI 35.3 suggests oversold conditions",
-      "No technical sell signals firing"
-    ],
+    "key_events": [],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "No recent news flow to assess momentum",
-      "Extreme Fear sentiment may indicate capitulation selling pressure",
-      "Energy sector cyclical exposure to macro headwinds"
+      "No recent news catalysts provided",
+      "RSI at 34.6 indicates oversold conditions",
+      "Extreme Fear sentiment suggests capitulation selling",
+      "Position down 0.63% with minimal momentum firing"
     ],
-    "verdict": "XOM is a minor losing position in oversold territory with healthy fundamentals and no technical breakdown \u2014 hold and monitor for accumulation opportunity.",
+    "verdict": "XOM fundamentals remain healthy despite technical weakness; position is micro loss and should be held per philosophy while awaiting recovery catalysts.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "XOM",
-    "stock_return_3m": -19.72,
-    "benchmark_return_3m": 18.47,
-    "relative_strength": -38.19,
+    "stock_return_3m": -19.13,
+    "benchmark_return_3m": 14.97,
+    "relative_strength": -34.1,
     "label": "underperforming"
   },
   "final_tier": "Hold",
   "sizing": {
     "suggested_shares": 1,
-    "suggested_dollars": 136.72,
-    "note": "1 sh @ $136.72 = $137 (Hold, 60% size) | $813 swing budget after"
+    "suggested_dollars": 136.28,
+    "note": "1 sh @ $136.28 = $136 (Hold, 60% size) | $765 swing budget after"
   },
   "is_dca": false,
-  "saved_at": "2026-06-30T23:46:55.460913"
+  "saved_at": "2026-07-01T23:53:54.771919"
 }

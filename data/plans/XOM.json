@@ -3,19 +3,36 @@
     "ticker": "XOM",
     "company_name": "Exxon Mobil Corporation",
     "action": "Hold",
-    "action_reason": "Position is down <1%, loss is immaterial, RSI oversold at 35.3 signals potential reversal, and fundamentals remain healthy. Wait for technical confirmation of reversal before adding.",
-    "target_price": 142.5,
+    "action_reason": "Loss is minimal (-0.63%) and well within acceptable swing trade variance. RSI oversold conditions (34.6) suggest potential bounce; Extreme Fear presents contrarian buying opportunity for energy plays with healthy fundamentals.",
+    "target_price": 140.5,
     "target_reasoning": "",
-    "exit_trigger": "Break below $134 (support) on volume + deteriorating fundamentals",
-    "add_trigger": "RSI cross above 40 + close above $138 on increased volume",
-    "risk": "Oil price collapse or macro recession reducing energy demand; geopolitical supply disruptions",
+    "exit_trigger": "Close below $134.00 or fundamental deterioration in energy sector; only consider if profit threshold reached above $142.00",
+    "add_trigger": "RSI drops below 30 with volume surge OR crude oil WTI breaks above $85/barrel on positive supply shock",
+    "risk": "Energy sector cyclicality; geopolitical supply disruptions; macro recession reducing demand; position weight at 7.8% is manageable",
     "outlook": "neutral",
-    "timeframe": "2-4 weeks for technical recovery signal",
-    "generated_at": "2026-06-30T23:46:55.460154",
-    "price_at_generation": 136.72,
-    "pnl_at_generation": -0.31
+    "timeframe": "2-4 weeks for recovery to $139-141 range as oversold conditions normalize",
+    "generated_at": "2026-07-01T23:53:54.771174",
+    "price_at_generation": 136.28,
+    "pnl_at_generation": -0.63
   },
   "history": [
+    {
+      "ticker": "XOM",
+      "company_name": "Exxon Mobil Corporation",
+      "action": "Hold",
+      "action_reason": "Position is down <1%, loss is immaterial, RSI oversold at 35.3 signals potential reversal, and fundamentals remain healthy. Wait for technical confirmation of reversal before adding.",
+      "target_price": 142.5,
+      "target_reasoning": "",
+      "exit_trigger": "Break below $134 (support) on volume + deteriorating fundamentals",
+      "add_trigger": "RSI cross above 40 + close above $138 on increased volume",
+      "risk": "Oil price collapse or macro recession reducing energy demand; geopolitical supply disruptions",
+      "outlook": "neutral",
+      "timeframe": "2-4 weeks for technical recovery signal",
+      "generated_at": "2026-06-30T23:46:55.460154",
+      "price_at_generation": 136.72,
+      "pnl_at_generation": -0.31,
+      "archived_at": "2026-07-01T23:53:54.771398"
+    },
     {
       "ticker": "XOM",
       "company_name": "Exxon Mobil Corporation",
@@ -117,23 +134,6 @@
       "price_at_generation": 138.47,
       "pnl_at_generation": 0.61,
       "archived_at": "2026-06-23T23:38:20.292985"
-    },
-    {
-      "ticker": "XOM",
-      "company_name": "Exxon Mobil Corporation",
-      "action": "Add More",
-      "action_reason": "RSI 33.3 + lower BB band + Extreme Fear create a low-risk entry for swing trade. XOM fundamentals healthy; this is technicals-driven reversal, not deterioration.",
-      "target_price": 142.5,
-      "target_reasoning": "",
-      "exit_trigger": "Break below $135.80 (lower Bollinger Band breach) on volume, or if RSI drops below 25 with negative news",
-      "add_trigger": "Add 0.5-1sh if RSI stays 20-35 AND price holds above $136.50, or on confirmed BB bounce with volume",
-      "risk": "Energy sector cyclicality + oil price sensitivity; sustained weakness below $135 could signal broader energy selloff",
-      "outlook": "short",
-      "timeframe": "2-4 weeks for BB mean reversion; target breakout to $142-145 before next earnings",
-      "generated_at": "2026-06-21T23:54:23.990928",
-      "price_at_generation": 137.81,
-      "pnl_at_generation": 0.13,
-      "archived_at": "2026-06-22T23:53:37.842422"
     }
   ]
 }

@@ -4,22 +4,23 @@
     "ticker": "OXY",
     "direction": "hold",
     "tier": "Hold",
-    "buy_score": 0.62,
-    "sell_score": 0.14,
+    "buy_score": 0.5,
+    "sell_score": 0.0,
     "reasons": [],
     "misses": [
       "BB Width: bands expanding, not squeezing",
       "MACD: no bullish crossover or valley",
-      "RSI Divergence: no bullish divergence detected"
+      "RSI Divergence: no bullish divergence detected",
+      "Volume: below average (0.65x) \u2014 low conviction"
     ],
-    "price": 48.57,
-    "rsi": 27.1,
-    "atr": 1.74,
+    "price": 47.94,
+    "rsi": 25.7,
+    "atr": 1.65,
     "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 3,
-      "suggested_dollars": 145.71,
-      "note": "3 sh @ $48.57 = $146 (Hold, 60% size) | $804 swing budget after"
+      "suggested_dollars": 143.82,
+      "note": "3 sh @ $47.94 = $144 (Hold, 60% size) | $758 swing budget after"
     }
   },
   "fundamentals": {
@@ -47,9 +48,9 @@
         "Earnings growing YoY (+315.6%)",
         "Revenue declining (-8.3%)"
       ],
-      "earnings_status": "past",
-      "next_earnings_date": "2026-05-05",
-      "days_to_earnings": -56
+      "earnings_status": "distant",
+      "next_earnings_date": "2026-08-05",
+      "days_to_earnings": 35
     }
   },
   "news": {
@@ -57,36 +58,35 @@
     "sentiment": "negative",
     "health": "deteriorating",
     "key_events": [
-      "Revenue declining 8.3% YoY indicates weakening operational performance",
-      "Earnings reported 56 days ago with no recent catalyst",
-      "Extreme Fear sentiment in market despite neutral VIX suggests sector-specific pressure",
-      "RSI at 27.1 signals oversold conditions but limited upside momentum"
+      "Revenue declining 8.3% YoY signals weakening operational performance",
+      "RSI at 25.7 indicates oversold conditions with potential for bounce",
+      "Extreme Fear environment suggests capitulation and possible reversal setup",
+      "Earnings 35 days out provides catalyst window for recovery"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "5.1% underwater on position within typical swing window",
-      "Revenue contraction YoY in commodity-exposed business",
-      "No recent news catalysts listed despite negative momentum",
-      "Earnings already priced in; next catalyst unclear",
-      "Extreme Fear may indicate further institutional selling in energy"
+      "4.84% loss on position approaching double-digit drawdown",
+      "No recent positive news catalysts visible",
+      "Neutral fundamentals with revenue headwinds",
+      "Technical firing indicators completely absent"
     ],
-    "verdict": "OXY is deteriorating on weak fundamentals and sector sentiment, but per your philosophy, holding through the drawdown is mandatory until recovery signals emerge.",
+    "verdict": "OXY is oversold with deteriorating fundamentals, but philosophy mandates holding through the drawdown while monitoring for reversal signals into earnings.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "OXY",
-    "stock_return_3m": -26.34,
-    "benchmark_return_3m": 18.47,
-    "relative_strength": -44.81,
+    "stock_return_3m": -25.91,
+    "benchmark_return_3m": 14.97,
+    "relative_strength": -40.87,
     "label": "underperforming"
   },
   "final_tier": "Hold",
   "sizing": {
     "suggested_shares": 3,
-    "suggested_dollars": 145.71,
-    "note": "3 sh @ $48.57 = $146 (Hold, 60% size) | $804 swing budget after"
+    "suggested_dollars": 143.82,
+    "note": "3 sh @ $47.94 = $144 (Hold, 60% size) | $758 swing budget after"
   },
   "is_dca": false,
-  "saved_at": "2026-06-30T23:47:03.029899"
+  "saved_at": "2026-07-01T23:54:01.246167"
 }

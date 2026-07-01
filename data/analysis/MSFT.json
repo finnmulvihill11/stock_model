@@ -8,17 +8,17 @@
     "sell_score": 0.14,
     "reasons": [],
     "misses": [
-      "BB: price not near lower band (pct=0.31)",
+      "BB: price not near lower band (pct=0.45)",
       "BB Width: bands expanding, not squeezing",
-      "RSI: not in buy zone (41.4, need 20-40)",
+      "RSI: not in buy zone (47.0, need 20-40)",
       "RSI Divergence: no bullish divergence detected",
       "200MA: price below 200MA \u2014 potential falling knife",
-      "Death cross active: 50MA (408.53) below 200MA (445.00)",
-      "Volume: below average (0.91x) \u2014 low conviction"
+      "Death cross active: 50MA (407.87) below 200MA (444.39)",
+      "Volume: below average (0.90x) \u2014 low conviction"
     ],
-    "price": 373.02,
-    "rsi": 41.4,
-    "atr": 12.95,
+    "price": 384.28,
+    "rsi": 47.0,
+    "atr": 13.51,
     "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 0,
@@ -52,7 +52,7 @@
       ],
       "earnings_status": "past",
       "next_earnings_date": "2026-04-29",
-      "days_to_earnings": -62
+      "days_to_earnings": -63
     }
   },
   "news": {
@@ -60,25 +60,28 @@
     "sentiment": "neutral",
     "health": "healthy",
     "key_events": [
-      "No recent news items provided for analysis",
-      "Earnings reported 62 days ago (already digested by market)",
-      "Position underwater -20.15% from entry"
+      "No recent news items available for assessment",
+      "Position established at $467.18, currently trading at $384.28",
+      "Earnings cycle complete (63+ days past)",
+      "Market conditions show extreme fear despite neutral VIX"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "Significant drawdown (-$188.32/share) suggests either poor entry timing or broader market pressure",
-      "RSI at 41.4 indicates mild bearish momentum but not oversold (<30)",
-      "Extreme Fear sentiment creates emotional exit temptation \u2014 resist per philosophy"
+      "Significant drawdown of -17.74% from entry",
+      "No technical firing signals despite RSI at 47.0 (neutral zone)",
+      "High portfolio weight (22.1%) amplifies downside impact",
+      "Extreme Fear sentiment conflicts with healthy fundamentals",
+      "Lack of recent catalysts or news flow"
     ],
-    "verdict": "Hold position through recovery; fundamentals remain healthy and drawdown does not warrant exit per trading philosophy.",
+    "verdict": "MSFT remains fundamentally sound but lacks near-term momentum; positioned at support levels with potential for reversal as sentiment normalizes.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "MSFT",
-    "stock_return_3m": 4.14,
-    "benchmark_return_3m": 18.47,
-    "relative_strength": -14.33,
+    "stock_return_3m": 4.04,
+    "benchmark_return_3m": 14.97,
+    "relative_strength": -10.93,
     "label": "underperforming"
   },
   "final_tier": "Hold",
@@ -88,5 +91,5 @@
     "note": "Position already at 20% portfolio cap"
   },
   "is_dca": false,
-  "saved_at": "2026-06-30T23:46:28.557053"
+  "saved_at": "2026-07-01T23:53:30.563193"
 }
