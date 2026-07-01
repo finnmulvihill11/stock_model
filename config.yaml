@@ -33,8 +33,8 @@ portfolio:
     shares: 2
     avg_cost: 137.15
   - ticker: OXY
-    shares: 3
-    avg_cost: 51.18
+    shares: 4
+    avg_cost: 50.38
   - ticker: GRNI
     shares: 4
     avg_cost: 21.16
