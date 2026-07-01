@@ -1,18 +1,32 @@
 {
   "current": {
     "recommendation": "consider_adding",
-    "summary": "VYM is at a strong technical position near 52-week highs with solid momentum (+25.2% YTM), but Fear & Greed shows extreme fear, suggesting attractive entry psychology despite elevated valuations. The dividend yield provides income stability during uncertain markets, making this a reasonable addition to a long-term portfolio now\u2014not for swing trading, but as a steady core holding.",
-    "this_month": "Contribute your NORMAL monthly DCA amount ($200\u2013$300 range, or whatever your baseline is). You're near highs but the extreme fear sentiment creates a contrarian buying opportunity. Don't chase; don't pause\u2014stick to discipline and let DCA smooth the entry.",
-    "long_term_thesis": "VYM's $96.1B asset base, low 0.06% expense ratio, and exposure to 400+ high-dividend US stocks make it a reliable income-generating core holding. Dividend aristocrats tend to outperform in uncertain markets and provide portfolio ballast while you accumulate growth assets elsewhere.",
-    "risks": "Dividend-heavy portfolios can lag in strong growth markets. If rates remain elevated or dividend growth slows, valuations could compress. Also, near 52-week highs limits margin of safety\u2014timing matters less than consistency here.",
+    "summary": "VYM is near 52-week highs in a strong uptrend with solid 1-year returns (+21.7%), but extreme fear sentiment and neutral technicals suggest waiting for a modest pullback before committing. The valuation is stretched relative to recent entry points, making this better suited for gradual accumulation rather than aggressive loading.",
+    "this_month": "Contribute 75% of your normal monthly DCA amount this month. VYM's proximity to 52w highs and extreme fear sentiment warrant partial restraint; save dry powder for a potential 3\u20135% dip, which would offer better average cost basis without missing upside.",
+    "long_term_thesis": "VYM's $96.1B AUM, 0.06% expense ratio, and diversified dividend-yield strategy make it a solid core holding for income-focused long-term investors seeking exposure to quality large-cap dividend payers with a proven track record of total return.",
+    "risks": "Dividend-heavy portfolios underperform in rising-rate environments; VYM's sensitivity to interest rates and exposure to value/mature sectors means it may lag growth during tech rallies. Extreme fear sentiment suggests market stress ahead\u2014pullbacks could be sharper than recent volatility indicates.",
     "worth_adding": true,
-    "add_rationale": "Yes, add VYM to your DCA stack, but NOT as a large lump sum. It deserves a modest allocation (10\u201315% of your dividend sleeve) alongside growth ETFs. The extreme fear backdrop + strong technicals + low fees justify entry now via monthly accumulation. This is defensive portfolio ballast, not a speculative add.",
-    "generated_at": "2026-06-18T14:36:37.593272",
+    "add_rationale": "VYM deserves a place in a balanced long-term portfolio for its dividend income, low expense ratio, and proven stability. However, given extreme fear sentiment and near-peak pricing, add it via reduced-pace DCA over the next 2\u20133 months rather than lump-sum or aggressive contributions. This allows you to build a meaningful position while minimizing timing risk and capturing potential weakness.",
+    "generated_at": "2026-07-01T23:15:22.966423",
     "ticker": "VYM",
     "name": "Vanguard High Dividend Yield ETF",
     "category": "Dividend"
   },
   "history": [
+    {
+      "recommendation": "consider_adding",
+      "summary": "VYM is at a strong technical position near 52-week highs with solid momentum (+25.2% YTM), but Fear & Greed shows extreme fear, suggesting attractive entry psychology despite elevated valuations. The dividend yield provides income stability during uncertain markets, making this a reasonable addition to a long-term portfolio now\u2014not for swing trading, but as a steady core holding.",
+      "this_month": "Contribute your NORMAL monthly DCA amount ($200\u2013$300 range, or whatever your baseline is). You're near highs but the extreme fear sentiment creates a contrarian buying opportunity. Don't chase; don't pause\u2014stick to discipline and let DCA smooth the entry.",
+      "long_term_thesis": "VYM's $96.1B asset base, low 0.06% expense ratio, and exposure to 400+ high-dividend US stocks make it a reliable income-generating core holding. Dividend aristocrats tend to outperform in uncertain markets and provide portfolio ballast while you accumulate growth assets elsewhere.",
+      "risks": "Dividend-heavy portfolios can lag in strong growth markets. If rates remain elevated or dividend growth slows, valuations could compress. Also, near 52-week highs limits margin of safety\u2014timing matters less than consistency here.",
+      "worth_adding": true,
+      "add_rationale": "Yes, add VYM to your DCA stack, but NOT as a large lump sum. It deserves a modest allocation (10\u201315% of your dividend sleeve) alongside growth ETFs. The extreme fear backdrop + strong technicals + low fees justify entry now via monthly accumulation. This is defensive portfolio ballast, not a speculative add.",
+      "generated_at": "2026-06-18T14:36:37.593272",
+      "ticker": "VYM",
+      "name": "Vanguard High Dividend Yield ETF",
+      "category": "Dividend",
+      "archived_at": "2026-07-01T23:15:22.966596"
+    },
     {
       "recommendation": "consider_adding",
       "summary": "VYM is trading near its 52-week high with a strong 1-year return of 27.7%, sitting comfortably above its 200-day moving average in a clear uptrend. The Fear & Greed index at 38 (Fear) is a mild positive contrarian signal, suggesting the broader market hasn't fully embraced risk yet \u2014 a reasonable environment to begin building a dividend position. Since this ETF is not currently in the portfolio, now is a sensible time to initiate a starter position rather than wait for a pullback that may not materialize.",

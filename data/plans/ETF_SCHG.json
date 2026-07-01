@@ -1,18 +1,32 @@
 {
   "current": {
     "recommendation": "consider_adding",
-    "summary": "SCHG is a quality large-cap growth ETF with strong 1Y momentum (+20.9%) and solid technicals (above 200MA, only -4.5% from highs), but extreme fear reading and near-52w highs suggest patience. The fund's 4.00% expense ratio is elevated for a passively managed large-cap product and warrants comparison to lower-cost alternatives before committing.",
-    "this_month": "Deploy 50\u201375% of your normal DCA allocation this month. SCHG's strength in a fearful market is contrarian bullish, but the elevated valuation entry point doesn't justify full monthly commitment yet. Wait for a 3\u20135% pullback or fear index stabilization before resuming 100% contributions.",
-    "long_term_thesis": "Large-cap growth remains a core holding for long-term accumulation, and SCHG's $61.1B AUM and solid track record make it a credible vehicle. However, this ETF should supplement\u2014not replace\u2014a broader, lower-cost core equity position like VOO or VTI.",
-    "risks": "High expense ratio (4.00%) drags returns vs. comparable broad-market ETFs; concentration in growth/momentum factors leaves portfolio vulnerable in value/cyclical rotations; entry near 52w highs limits margin of safety.",
+    "summary": "SCHG is a quality large-cap growth ETF in a confirmed uptrend and well above its 200MA, but it's trading near 52-week highs with extreme fear in the market suggesting potential pullback risk. The strong 1-year return (+17.3%) reflects momentum, not a bargain entry point.",
+    "this_month": "Deploy normal monthly DCA amount ($X). Don't increase allocation just because it's trendy\u2014extreme fear readings often precede volatility. Consistent monthly purchases protect you from timing the absolute high and benefit from any retracement.",
+    "long_term_thesis": "SCHG offers exposure to high-quality growth businesses with lower expense ratio discipline than many competitors. Its $61B AUM and proven track record make it a solid core holding for equity diversification in a long-term portfolio.",
+    "risks": "Valuation risk: buying near 52-week highs in a fear-driven market. Growth stocks are sensitive to interest rate expectations. The 4.00% expense ratio is reasonable but not the cheapest in category.",
     "worth_adding": true,
-    "add_rationale": "Yes, add to DCA stack\u2014but as a satellite position (10\u201315% of equity allocation), not core. If you lack large-cap growth exposure, SCHG fills the role adequately. Pair it with a lower-cost broad-market fund (VOO/VTI) to offset the fee drag. Consider waiting 2\u20134 weeks for a technical pullback to a better entry near $32\u201333 before full-sizing.",
-    "generated_at": "2026-06-18T14:37:23.160859",
+    "add_rationale": "Yes, add SCHG to your DCA stack, but as a measured core holding, not a rush. This ETF belongs in a diversified long-term portfolio, and the Fear & Greed extreme reading suggests the market may offer better entry points within 2\u20134 months. Dollar-cost averaging through volatility is your edge here\u2014commit to the plan rather than chasing momentum at resistance.",
+    "generated_at": "2026-07-01T23:16:10.666340",
     "ticker": "SCHG",
     "name": "Schwab US Large-Cap Growth ETF",
     "category": "Factor"
   },
   "history": [
+    {
+      "recommendation": "consider_adding",
+      "summary": "SCHG is a quality large-cap growth ETF with strong 1Y momentum (+20.9%) and solid technicals (above 200MA, only -4.5% from highs), but extreme fear reading and near-52w highs suggest patience. The fund's 4.00% expense ratio is elevated for a passively managed large-cap product and warrants comparison to lower-cost alternatives before committing.",
+      "this_month": "Deploy 50\u201375% of your normal DCA allocation this month. SCHG's strength in a fearful market is contrarian bullish, but the elevated valuation entry point doesn't justify full monthly commitment yet. Wait for a 3\u20135% pullback or fear index stabilization before resuming 100% contributions.",
+      "long_term_thesis": "Large-cap growth remains a core holding for long-term accumulation, and SCHG's $61.1B AUM and solid track record make it a credible vehicle. However, this ETF should supplement\u2014not replace\u2014a broader, lower-cost core equity position like VOO or VTI.",
+      "risks": "High expense ratio (4.00%) drags returns vs. comparable broad-market ETFs; concentration in growth/momentum factors leaves portfolio vulnerable in value/cyclical rotations; entry near 52w highs limits margin of safety.",
+      "worth_adding": true,
+      "add_rationale": "Yes, add to DCA stack\u2014but as a satellite position (10\u201315% of equity allocation), not core. If you lack large-cap growth exposure, SCHG fills the role adequately. Pair it with a lower-cost broad-market fund (VOO/VTI) to offset the fee drag. Consider waiting 2\u20134 weeks for a technical pullback to a better entry near $32\u201333 before full-sizing.",
+      "generated_at": "2026-06-18T14:37:23.160859",
+      "ticker": "SCHG",
+      "name": "Schwab US Large-Cap Growth ETF",
+      "category": "Factor",
+      "archived_at": "2026-07-01T23:16:10.666546"
+    },
     {
       "recommendation": "consider_adding",
       "summary": "SCHG is a high-quality large-cap growth ETF with strong momentum, sitting exactly at its 52-week high with a 32.4% 1-year return and a confirmed uptrend above its 200-day moving average. While the technical picture is bullish, the Fear & Greed index sitting in Fear territory (38) suggests the market has some underlying anxiety despite recent strength. For a long-term DCA investor not yet holding this ETF, this is a reasonable entry point to begin a position, though buying at all-time highs warrants a measured initial allocation.",

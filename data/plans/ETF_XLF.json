@@ -1,18 +1,32 @@
 {
   "current": {
     "recommendation": "consider_adding",
-    "summary": "XLF is in a healthy uptrend with solid 1-year returns (+9.5%) and sits just 3.5% below its 52-week high, supported by price above the 200MA. However, the extreme fear reading (15) and neutral VIX suggest the market is pricing in near-term uncertainty despite financial sector strength\u2014a nuanced entry point rather than a clear buy.",
-    "this_month": "Contribute 100% of your normal monthly XLF allocation (~$200\u2013300 if this is a core position you're building). You're near highs, but the DCA signal is NORMAL\u2014discipline matters more than timing at this stage. Use consistent monthly contributions to average out volatility.",
-    "long_term_thesis": "Financials are a cyclical but essential portfolio diversifier with durable dividends; XLF's $49.4B AUM and broad exposure to banks, insurance, and brokers make it a solid satellite holding for investors seeking earnings leverage to economic growth and interest rate stability over 5+ years.",
-    "risks": "High expense ratio (9.0%) eats into long-term returns\u2014consider comparing to lower-cost alternatives (e.g., VFV at ~0.13%). Sector concentration risk: financials are sensitive to rate cuts, credit cycles, and regulatory changes. Extreme fear sentiment suggests downside could emerge if growth stalls.",
+    "summary": "XLF is near 52-week highs with solid momentum (uptrend, +11.3% in 3M), but extreme fear in the market and a stretched valuation relative to the broader market warrant a measured entry. The financials sector is cyclical and sensitive to interest rates\u2014this is a good time to begin accumulation, but not aggressively.",
+    "this_month": "Contribute 75% of your normal monthly DCA amount. XLF is near resistance; scaling in gradually reduces timing risk and lets you dollar-cost average into a volatile sector rather than front-loading at the peak.",
+    "long_term_thesis": "Financials (banks, insurance, asset managers) are a structural pillar of a diversified portfolio and tend to outperform in rising-rate or normalizing economic environments. XLF provides broad sector exposure with low cost and high liquidity, making it ideal for long-term wealth building.",
+    "risks": "Financials are cyclical and sensitive to interest rate policy, credit cycles, and recession risk. At current valuations and with extreme fear in the market, a near-term pullback is possible. Regulatory and geopolitical shocks can hit this sector hard.",
     "worth_adding": true,
-    "add_rationale": "If financials are underweighted in your core portfolio (or absent), XLF deserves consideration. Its uptrend, solid AUM, and dividend appeal justify inclusion in a diversified DCA stack. However, prioritize it after core holdings (total market, bonds) and only if you can commit 5+ years. The high ER is a drag, so cap allocation at 5\u201310% of equity sleeve unless you have a specific financial sector thesis.",
-    "generated_at": "2026-06-18T14:37:12.193550",
+    "add_rationale": "Yes, add XLF to your DCA stack, but as a smaller allocation (start with 75% scaling). The sector fundamentals support long-term ownership, but the timing\u2014near highs with extreme fear\u2014suggests patience. Once you establish a position via DCA, you'll have built an average cost well below potential peaks. This is a core holding for diversified investors, not a speculative trade.",
+    "generated_at": "2026-07-01T23:15:59.170291",
     "ticker": "XLF",
     "name": "Financial Select Sector SPDR",
     "category": "Sector"
   },
   "history": [
+    {
+      "recommendation": "consider_adding",
+      "summary": "XLF is in a healthy uptrend with solid 1-year returns (+9.5%) and sits just 3.5% below its 52-week high, supported by price above the 200MA. However, the extreme fear reading (15) and neutral VIX suggest the market is pricing in near-term uncertainty despite financial sector strength\u2014a nuanced entry point rather than a clear buy.",
+      "this_month": "Contribute 100% of your normal monthly XLF allocation (~$200\u2013300 if this is a core position you're building). You're near highs, but the DCA signal is NORMAL\u2014discipline matters more than timing at this stage. Use consistent monthly contributions to average out volatility.",
+      "long_term_thesis": "Financials are a cyclical but essential portfolio diversifier with durable dividends; XLF's $49.4B AUM and broad exposure to banks, insurance, and brokers make it a solid satellite holding for investors seeking earnings leverage to economic growth and interest rate stability over 5+ years.",
+      "risks": "High expense ratio (9.0%) eats into long-term returns\u2014consider comparing to lower-cost alternatives (e.g., VFV at ~0.13%). Sector concentration risk: financials are sensitive to rate cuts, credit cycles, and regulatory changes. Extreme fear sentiment suggests downside could emerge if growth stalls.",
+      "worth_adding": true,
+      "add_rationale": "If financials are underweighted in your core portfolio (or absent), XLF deserves consideration. Its uptrend, solid AUM, and dividend appeal justify inclusion in a diversified DCA stack. However, prioritize it after core holdings (total market, bonds) and only if you can commit 5+ years. The high ER is a drag, so cap allocation at 5\u201310% of equity sleeve unless you have a specific financial sector thesis.",
+      "generated_at": "2026-06-18T14:37:12.193550",
+      "ticker": "XLF",
+      "name": "Financial Select Sector SPDR",
+      "category": "Sector",
+      "archived_at": "2026-07-01T23:15:59.170491"
+    },
     {
       "recommendation": "consider_adding",
       "summary": "XLF is trading about 8% below its 52-week high and is hovering just under its 200-day moving average, presenting a reasonable entry point for long-term accumulation. The Fear & Greed index sitting in 'Fear' territory historically favors patient buyers, and the 1-year return of +6.5% shows the financials sector still has underlying momentum. However, the short-term trend is mildly negative (-2.8% over 3 months), so sizing in gradually rather than deploying a large lump sum is the prudent approach.",

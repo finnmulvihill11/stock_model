@@ -1,18 +1,32 @@
 {
   "current": {
     "recommendation": "consider_adding",
-    "summary": "QQQM is in a strong uptrend near 52-week highs with exceptional 1-year returns (+39.9%), but extreme fear sentiment and elevated valuation create a reasonable entry point for patient accumulators. The ETF's tech-heavy concentration offers growth exposure, though timing suggests waiting for modest pullback rather than chasing here.",
-    "this_month": "Contribute 75% of normal monthly DCA amount. The 'NORMAL' signal is appropriate given proximity to highs, but extreme fear (15) provides a slight contrarian buffer. Preserve dry powder for potential 2\u20133% dip; resume full contributions if price pulls back to $295 or below.",
-    "long_term_thesis": "QQQM offers low-cost ($0.20% ER), large-cap growth exposure tied to high-quality NASDAQ-100 constituents\u2014ideal for long-term wealth building in tech-driven markets. Dollar-cost averaging into this instrument over 5\u201310 years captures both momentum and mean-reversion cycles.",
-    "risks": "Concentrated exposure to mega-cap tech; vulnerable to rate hikes, AI sentiment reversals, or earnings misses. Current valuation near all-time highs increases sequence-of-returns risk if market corrects 10\u201315% in near term.",
+    "summary": "QQQM is near 52-week highs after a strong 32% annual run, creating tension between quality and valuation. The extreme fear sentiment (11) and neutral VIX suggest the market hasn't fully priced in recent gains, leaving room for consolidation or correction before committing heavy capital.",
+    "this_month": "Contribute 75% of your normal DCA amount this month. The ETF's proximity to highs warrants measured entry rather than full commitment. Use any 3-5% dip as a signal to deploy the remaining 25% in subsequent weeks.",
+    "long_term_thesis": "QQQM provides core exposure to mega-cap tech and growth leaders (Nvidia, Apple, Tesla, Microsoft) with the liquidity and low cost of a $96.9B fund\u2014essential for long-term wealth building in a tech-driven economy. The 200MA confirmation and 3-month momentum (+25.8%) signal sustained structural strength despite valuation concerns.",
+    "risks": "Concentration in large-cap tech creates vulnerability to rate-shock corrections and regulatory headwinds. Near-term pullback risk is elevated given the extreme fear backdrop\u2014this often precedes 5-10% shakeouts that would offer better entry points. Valuation compression could drag returns if growth premiums normalize.",
     "worth_adding": true,
-    "add_rationale": "Yes, add to DCA stack\u2014but phase in gradually. QQQM deserves core allocation for its quality and scale, but the combination of recent highs + extreme fear suggests discipline over urgency. Begin with 75% contributions and scale to 100% after a 2\u20133% pullback. This balances conviction in long-term tech growth with respect for current valuation.",
-    "generated_at": "2026-06-18T14:36:49.172433",
+    "add_rationale": "Yes, add to your core DCA stack, but phase in gradually over 2-3 months rather than lump-sum. QQQM's scale, expense ratio, and thematic alignment with long-term secular growth trends justify permanent portfolio presence. The current setup (high price + extreme fear) is actually ideal for disciplined accumulation\u2014it forces you to buy weakness and avoid FOMO buys at peaks.",
+    "generated_at": "2026-07-01T23:15:35.133602",
     "ticker": "QQQM",
     "name": "Invesco NASDAQ-100 ETF (smaller share class)",
     "category": "Growth"
   },
   "history": [
+    {
+      "recommendation": "consider_adding",
+      "summary": "QQQM is in a strong uptrend near 52-week highs with exceptional 1-year returns (+39.9%), but extreme fear sentiment and elevated valuation create a reasonable entry point for patient accumulators. The ETF's tech-heavy concentration offers growth exposure, though timing suggests waiting for modest pullback rather than chasing here.",
+      "this_month": "Contribute 75% of normal monthly DCA amount. The 'NORMAL' signal is appropriate given proximity to highs, but extreme fear (15) provides a slight contrarian buffer. Preserve dry powder for potential 2\u20133% dip; resume full contributions if price pulls back to $295 or below.",
+      "long_term_thesis": "QQQM offers low-cost ($0.20% ER), large-cap growth exposure tied to high-quality NASDAQ-100 constituents\u2014ideal for long-term wealth building in tech-driven markets. Dollar-cost averaging into this instrument over 5\u201310 years captures both momentum and mean-reversion cycles.",
+      "risks": "Concentrated exposure to mega-cap tech; vulnerable to rate hikes, AI sentiment reversals, or earnings misses. Current valuation near all-time highs increases sequence-of-returns risk if market corrects 10\u201315% in near term.",
+      "worth_adding": true,
+      "add_rationale": "Yes, add to DCA stack\u2014but phase in gradually. QQQM deserves core allocation for its quality and scale, but the combination of recent highs + extreme fear suggests discipline over urgency. Begin with 75% contributions and scale to 100% after a 2\u20133% pullback. This balances conviction in long-term tech growth with respect for current valuation.",
+      "generated_at": "2026-06-18T14:36:49.172433",
+      "ticker": "QQQM",
+      "name": "Invesco NASDAQ-100 ETF (smaller share class)",
+      "category": "Growth",
+      "archived_at": "2026-07-01T23:15:35.133777"
+    },
     {
       "recommendation": "consider_adding",
       "summary": "QQQM is trading essentially at its 52-week high after a powerful 45% one-year run, reflecting strong momentum in large-cap tech and growth names. While the trend is undeniably bullish and the ETF sits comfortably above its 200-day moving average, the Fear & Greed index sitting at 38 (Fear) suggests the broader market sentiment is cautious despite price strength \u2014 an interesting divergence. For a long-term DCA investor not yet holding this position, this is a reasonable entry point to begin building, though starting at a normal or slightly reduced contribution makes sense given the extended run.",

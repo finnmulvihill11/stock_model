@@ -1,18 +1,32 @@
 {
   "current": {
     "recommendation": "consider_adding",
-    "summary": "VUG is near 52-week highs after a strong 24% annual return, but technicals remain healthy (above 200MA, strong uptrend). The extreme fear reading (15) combined with neutral VIX suggests a disconnect\u2014fear may create a better entry soon, but the current setup isn't punitive for a long-term builder.",
-    "this_month": "Contribute your NORMAL monthly DCA amount (~100% of planned allocation). The drawdown is only -4.1% from recent highs and well above longer moving averages\u2014no urgency to wait, but no reason to accelerate either.",
-    "long_term_thesis": "VUG provides large-cap growth exposure with a 393.8B AUM, low expense ratio (0.04%, not 4.00% as stated\u2014likely a typo), and solid fundamentals. For a core holding, growth-focused allocation during a bull trend above 200MA is appropriate for 5+ year horizons.",
-    "risks": "Valuation risk at 52-week highs; growth-heavy portfolio vulnerable if rates rise sharply or earnings disappoint. Extreme fear reading may signal correction ahead\u2014timing risk is real but not yet realized.",
+    "summary": "VUG is trading near 52-week highs with strong momentum (18.5% in 3M) and sits comfortably above its 200MA, signaling a healthy uptrend. However, extreme fear sentiment and a -4.5% monthly pullback suggest a brief consolidation within the broader rally\u2014a reasonable entry point for disciplined dollar-cost averaging rather than peak euphoria.",
+    "this_month": "Contribute your normal monthly DCA amount (100% of planned allocation). The recent 1M drawdown has given back some gains, and extreme fear sentiment creates a psychological advantage for systematic buyers. Do not increase allocation\u2014momentum is strong enough without aggressive sizing.",
+    "long_term_thesis": "VUG provides large-cap US growth exposure with a massive AUM base ($393.8B), low turnover, and broad diversification across mega-cap tech and quality growth names. It's a cornerstone holding for 10+ year horizons seeking capital appreciation with less volatility than small-cap growth.",
+    "risks": "Concentration in mega-cap tech and elevated valuations in a rising-rate environment; a market correction could see sharp drawdowns. The 4.00% expense ratio is notably higher than peer broad-market funds\u2014ensure this fits your fee tolerance.",
     "worth_adding": true,
-    "add_rationale": "Yes, add to the DCA stack. VUG meets core portfolio criteria (large AUM, liquid, quality growth exposure) and the current setup is reasonable for long-term accumulation. Avoid FOMO\u2014stick to monthly contributions rather than lump-sum buying at peaks. The disconnect between strong price action and extreme fear presents a natural hedge: steady DCA will average down if fear materializes, and capitalize if momentum resumes.",
-    "generated_at": "2026-06-18T14:36:43.757193",
+    "add_rationale": "Yes, add VUG to your DCA stack, but as a *complement* to, not replacement for, a total-market or broad-cap core holding. Its pure-growth tilt and mega-cap bias make it suitable for long-term accumulation if growth aligns with your risk tolerance and you're not already heavy in tech via other holdings. Start with normal monthly contributions and reassess positioning after 6\u201312 months.",
+    "generated_at": "2026-07-01T23:15:29.211570",
     "ticker": "VUG",
     "name": "Vanguard Growth ETF",
     "category": "Growth"
   },
   "history": [
+    {
+      "recommendation": "consider_adding",
+      "summary": "VUG is near 52-week highs after a strong 24% annual return, but technicals remain healthy (above 200MA, strong uptrend). The extreme fear reading (15) combined with neutral VIX suggests a disconnect\u2014fear may create a better entry soon, but the current setup isn't punitive for a long-term builder.",
+      "this_month": "Contribute your NORMAL monthly DCA amount (~100% of planned allocation). The drawdown is only -4.1% from recent highs and well above longer moving averages\u2014no urgency to wait, but no reason to accelerate either.",
+      "long_term_thesis": "VUG provides large-cap growth exposure with a 393.8B AUM, low expense ratio (0.04%, not 4.00% as stated\u2014likely a typo), and solid fundamentals. For a core holding, growth-focused allocation during a bull trend above 200MA is appropriate for 5+ year horizons.",
+      "risks": "Valuation risk at 52-week highs; growth-heavy portfolio vulnerable if rates rise sharply or earnings disappoint. Extreme fear reading may signal correction ahead\u2014timing risk is real but not yet realized.",
+      "worth_adding": true,
+      "add_rationale": "Yes, add to the DCA stack. VUG meets core portfolio criteria (large AUM, liquid, quality growth exposure) and the current setup is reasonable for long-term accumulation. Avoid FOMO\u2014stick to monthly contributions rather than lump-sum buying at peaks. The disconnect between strong price action and extreme fear presents a natural hedge: steady DCA will average down if fear materializes, and capitalize if momentum resumes.",
+      "generated_at": "2026-06-18T14:36:43.757193",
+      "ticker": "VUG",
+      "name": "Vanguard Growth ETF",
+      "category": "Growth",
+      "archived_at": "2026-07-01T23:15:29.211745"
+    },
     {
       "recommendation": "consider_adding",
       "summary": "VUG is sitting right at its 52-week high with strong momentum \u2014 up 35% over the past year and firmly above its 200-day moving average, signaling a healthy long-term uptrend. However, the Fear & Greed index at 38 (Fear) suggests the broader market sentiment is cautious, which is actually a reasonable backdrop for beginning a disciplined DCA position. At current all-time-high prices, there is no margin of safety on entry, so patience and consistency matter more than timing.",

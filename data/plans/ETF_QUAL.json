@@ -1,18 +1,32 @@
 {
   "current": {
     "recommendation": "consider_adding",
-    "summary": "QUAL is near 52-week highs after a strong 22.8% annual return, but the extreme fear reading suggests market sentiment hasn't caught up to fundamentals. The quality factor remains structurally sound for long-term portfolios, though valuation warrants caution on aggressive entry.",
-    "this_month": "Contribute 80\u201390% of your normal DCA amount this month. QUAL's proximity to recent highs justifies a slight reduction, but don't skip it entirely\u2014quality factors often compound through cycles. Resume full contributions next month if price retraces 2\u20133%.",
-    "long_term_thesis": "Quality-factor ETFs like QUAL outperform in both bull and bear markets by holding profitable, stable companies with strong fundamentals. At $47.1B AUM with a 15 bps expense ratio, it's a core holding that smooths portfolio volatility over 5+ years.",
-    "risks": "Mean reversion risk if recent momentum stalls; concentration risk in mega-cap tech and healthcare; factor rotation could underperform value or growth in specific market regimes.",
+    "summary": "QUAL is at all-time highs with strong momentum (+20.9% YTM) and quality fundamentals, but extreme fear in the market suggests caution on entry timing. The ETF's quality-factor focus offers defensive characteristics that could appeal during volatility spikes, making it worth adding to a long-term portfolio\u2014but not at peak euphoria.",
+    "this_month": "Contribute 75% of normal monthly DCA amount. QUAL is trading near 52w highs with minimal drawdown, reducing margin of safety. When fear normalizes and price pulls back 3\u20135%, increase to full allocation. Quality factors tend to outperform in late-cycle / early-recession phases, so patience now pays.",
+    "long_term_thesis": "Quality-factor ETFs have historically delivered better risk-adjusted returns and downside protection during corrections. QUAL's $47.1B AUM, low expense ratio (0.20% actual quality-factor ETF standard, not 15%), and large-cap U.S. focus make it a solid core holding that complements broad market exposure.",
+    "risks": "Valuation stretched at all-time highs; quality factors underperform during high-growth/low-rate regimes; extreme fear sentiment suggests potential near-term pullback before stabilization. If market rallies further, QUAL may outperform, but DCA discipline mitigates timing risk.",
     "worth_adding": true,
-    "add_rationale": "Despite the high entry price, QUAL deserves a spot in a long-term DCA plan because (1) quality is a reliable diversifier, (2) extreme fear sentiment creates a contrarian entry signal, and (3) consistent monthly contributions will average your cost basis lower over time. Start with reduced contributions and scale up on dips.",
-    "generated_at": "2026-06-18T14:37:17.427032",
+    "add_rationale": "Yes\u2014add to DCA stack, but reduce initial allocation. QUAL's quality-factor tilt provides diversification from broad-market cap-weighted ETFs and offers historically stronger downside protection. The high valuation and extreme fear signal warrant a measured entry (75% this month), allowing reinvestment at better prices if volatility increases.",
+    "generated_at": "2026-07-01T23:16:05.594553",
     "ticker": "QUAL",
     "name": "iShares MSCI USA Quality Factor ETF",
     "category": "Factor"
   },
   "history": [
+    {
+      "recommendation": "consider_adding",
+      "summary": "QUAL is near 52-week highs after a strong 22.8% annual return, but the extreme fear reading suggests market sentiment hasn't caught up to fundamentals. The quality factor remains structurally sound for long-term portfolios, though valuation warrants caution on aggressive entry.",
+      "this_month": "Contribute 80\u201390% of your normal DCA amount this month. QUAL's proximity to recent highs justifies a slight reduction, but don't skip it entirely\u2014quality factors often compound through cycles. Resume full contributions next month if price retraces 2\u20133%.",
+      "long_term_thesis": "Quality-factor ETFs like QUAL outperform in both bull and bear markets by holding profitable, stable companies with strong fundamentals. At $47.1B AUM with a 15 bps expense ratio, it's a core holding that smooths portfolio volatility over 5+ years.",
+      "risks": "Mean reversion risk if recent momentum stalls; concentration risk in mega-cap tech and healthcare; factor rotation could underperform value or growth in specific market regimes.",
+      "worth_adding": true,
+      "add_rationale": "Despite the high entry price, QUAL deserves a spot in a long-term DCA plan because (1) quality is a reliable diversifier, (2) extreme fear sentiment creates a contrarian entry signal, and (3) consistent monthly contributions will average your cost basis lower over time. Start with reduced contributions and scale up on dips.",
+      "generated_at": "2026-06-18T14:37:17.427032",
+      "ticker": "QUAL",
+      "name": "iShares MSCI USA Quality Factor ETF",
+      "category": "Factor",
+      "archived_at": "2026-07-01T23:16:05.594724"
+    },
     {
       "recommendation": "consider_adding",
       "summary": "QUAL is trading near its 52-week high with strong momentum (+24.4% over 1Y) and sits comfortably above its 200-day moving average, signaling a healthy long-term uptrend. Despite the Fear & Greed index sitting in 'Fear' territory (38), QUAL's quality-factor tilt \u2014 favoring high-ROE, low-leverage, stable-earnings companies \u2014 tends to hold up relatively well during market uncertainty. For a long-term DCA investor not yet holding this ETF, this is a reasonable entry point at normal contribution size.",

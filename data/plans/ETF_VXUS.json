@@ -1,18 +1,32 @@
 {
   "current": {
     "recommendation": "accumulate",
-    "summary": "VXUS is at 52-week highs after a strong 32.6% annual return, but remains fundamentally sound with massive liquidity (AUM $652.3B) and a secular tailwind from international equity valuations. The Fear & Greed extreme fear reading suggests market pessimism hasn't caught up with fundamentals\u2014a healthy setup for long-term accumulators.",
-    "this_month": "Maintain normal monthly DCA amount. Near recent highs warrants no acceleration, but also no pause\u2014international diversification is a strategic holding, not a timing bet. Consistency matters more than entry point at this stage of the trend.",
-    "long_term_thesis": "VXUS provides essential geographic diversification away from US-concentrated risk and captures growth from emerging and developed markets outside North America. As a core satellite holding, it hedges US dollar exposure and rounds out a globally balanced portfolio.",
-    "risks": "Currency headwinds (USD strength pressures returns), geopolitical instability in key markets, and valuation mean-reversion if US equities underperform relative expectations. Recent momentum is impressive but not guaranteed to persist.",
+    "summary": "VXUS is in a strong uptrend with solid 1Y returns (+25.9%) and sits just below 52-week highs, signaling healthy momentum. Despite extreme fear readings in the market, this ETF's technical setup and fundamentals remain sound for long-term accumulation. The current pullback (-2.9% from peak) creates a reasonable entry point without chasing extended rallies.",
+    "this_month": "Stick to your normal monthly DCA amount. You're near recent highs but not at an extreme valuation anomaly\u2014consistency matters more than timing. This is a disciplined entry, not FOMO.",
+    "long_term_thesis": "International equity exposure reduces home-country bias and provides diversification across developed and emerging markets with a 7bps expense ratio. VXUS's $652B AUM and Vanguard backing ensure liquidity and stability for decades of compounding.",
+    "risks": "Currency headwinds, geopolitical uncertainty (especially in developed Europe and Asia), and mean reversion if the current uptrend breaks below the 200MA. Extreme fear sentiment can amplify volatility in international equities relative to US-focused alternatives.",
     "worth_adding": true,
-    "add_rationale": "Already held with a strong gain (+16.95%). Continue accumulation via DCA as a permanent core position. The combination of strong technicals (above 200MA), low expense ratio (0.07%, correcting your data\u2014VXUS is 7bps, not 7%), and massive institutional backing makes this a keep-and-add forever holding for international equity exposure.",
-    "generated_at": "2026-06-18T14:35:44.287076",
+    "add_rationale": "Already held with +13.86% gains. Continue accumulation as core international equity sleeve. The strong technicals, momentum, and reasonable valuation entry on any pullback support ongoing DCA. This is a keeper.",
+    "generated_at": "2026-07-01T23:14:36.389723",
     "ticker": "VXUS",
     "name": "Vanguard Total International Stock ETF",
     "category": "International"
   },
   "history": [
+    {
+      "recommendation": "accumulate",
+      "summary": "VXUS is at 52-week highs after a strong 32.6% annual return, but remains fundamentally sound with massive liquidity (AUM $652.3B) and a secular tailwind from international equity valuations. The Fear & Greed extreme fear reading suggests market pessimism hasn't caught up with fundamentals\u2014a healthy setup for long-term accumulators.",
+      "this_month": "Maintain normal monthly DCA amount. Near recent highs warrants no acceleration, but also no pause\u2014international diversification is a strategic holding, not a timing bet. Consistency matters more than entry point at this stage of the trend.",
+      "long_term_thesis": "VXUS provides essential geographic diversification away from US-concentrated risk and captures growth from emerging and developed markets outside North America. As a core satellite holding, it hedges US dollar exposure and rounds out a globally balanced portfolio.",
+      "risks": "Currency headwinds (USD strength pressures returns), geopolitical instability in key markets, and valuation mean-reversion if US equities underperform relative expectations. Recent momentum is impressive but not guaranteed to persist.",
+      "worth_adding": true,
+      "add_rationale": "Already held with a strong gain (+16.95%). Continue accumulation via DCA as a permanent core position. The combination of strong technicals (above 200MA), low expense ratio (0.07%, correcting your data\u2014VXUS is 7bps, not 7%), and massive institutional backing makes this a keep-and-add forever holding for international equity exposure.",
+      "generated_at": "2026-06-18T14:35:44.287076",
+      "ticker": "VXUS",
+      "name": "Vanguard Total International Stock ETF",
+      "category": "International",
+      "archived_at": "2026-07-01T23:14:36.389901"
+    },
     {
       "recommendation": "hold",
       "summary": "VXUS is performing strongly with a +33.4% 1-year return and sits just 1.6% below its 52-week high, reflecting a broad international equity rally. With the Fear & Greed index in Fear territory (38) despite the price strength, the market is showing some caution, which warrants sticking to a disciplined, normal DCA contribution rather than chasing the momentum. Your current position is already up +13.48%, a solid unrealized gain that validates the long-term accumulation approach.",

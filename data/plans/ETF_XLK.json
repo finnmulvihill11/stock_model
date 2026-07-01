@@ -1,18 +1,32 @@
 {
   "current": {
     "recommendation": "consider_adding",
-    "summary": "XLK is in a strong uptrend with excellent 1-year performance (+58.7%), but it's currently near 52-week highs with extreme fear in the market\u2014a contrarian signal. The sector is fundamentally sound, but valuation and momentum suggest waiting for a better entry point rather than chasing at current levels.",
-    "this_month": "Deploy 50\u201375% of your normal monthly XLK allocation this month. Use the gap to build a small reserve for a potential pullback to the 200MA ($160\u2013$170 range). The extreme fear reading suggests downside risk is overstated, but entry discipline matters for long-term compounding.",
-    "long_term_thesis": "Technology is a structural growth driver with secular tailwinds (AI, automation, digital transformation), and XLK's $124.5B AUM provides deep liquidity. Dollar-cost averaging through cycles will smooth volatility and capture the sector's long-term upside.",
-    "risks": "Sector concentration risk\u2014XLK is heavily weighted to mega-cap tech giants whose valuations are sensitive to interest-rate changes. Near all-time highs means limited margin of safety; any rotation away from growth could trigger a sharp 10\u201315% correction.",
+    "summary": "XLK is in a strong uptrend with solid long-term momentum (+47.4% YTY), but current valuations are near 52-week highs and Fear & Greed is at extreme lows\u2014suggesting caution on entry size. The 6.2% pullback is modest and could offer a brief window before continued strength.",
+    "this_month": "Allocate 60\u201375% of your normal tech sector contribution this month. The pullback is mild and may not deepen; avoid FOMO-buying at highs, but don't wait for a crash that may not come. Use 25\u201340% as dry powder for a larger buy if it drops below $180.",
+    "long_term_thesis": "Tech sector leadership remains structural, driven by AI adoption and digital transformation. XLK's $124.5B AUM and low expense ratio (0.09% stated, not 9.00%) make it an efficient core holding for balanced sector exposure across mega-cap software, semiconductors, and IT services.",
+    "risks": "Valuation compression risk if growth expectations reset; sector concentration risk in a handful of mega-cap names; VIX at 16.6 is calm, so any market shock could trigger sharp reversal. The extreme fear reading suggests sentiment has disconnected from fundamentals\u2014be wary of mean reversion.",
     "worth_adding": true,
-    "add_rationale": "Yes, add XLK to your DCA stack, but as a *systematic* position, not a tactical bet. Tech is core to a modern portfolio, and the extreme fear reading (15) suggests the market is mispricing downside risk. Start with reduced monthly contributions now; increase them if XLK pulls back 5\u20138%. This avoids FOMO while preserving dry powder for better entries.",
-    "generated_at": "2026-06-18T14:36:54.289301",
+    "add_rationale": "Yes, add to DCA stack\u2014but as a *measured* position, not a concentrated bet. XLK deserves a place in a long-term tech allocation due to diversification across the sector. However, given current valuations (near highs) and fear/greed extremes, this is a 'dollar-cost average in steadily' case, not 'load the boat.' Start with 60\u201370% of planned allocation; scale in on weakness.",
+    "generated_at": "2026-07-01T23:15:41.756801",
     "ticker": "XLK",
     "name": "Technology Select Sector SPDR",
     "category": "Sector"
   },
   "history": [
+    {
+      "recommendation": "consider_adding",
+      "summary": "XLK is in a strong uptrend with excellent 1-year performance (+58.7%), but it's currently near 52-week highs with extreme fear in the market\u2014a contrarian signal. The sector is fundamentally sound, but valuation and momentum suggest waiting for a better entry point rather than chasing at current levels.",
+      "this_month": "Deploy 50\u201375% of your normal monthly XLK allocation this month. Use the gap to build a small reserve for a potential pullback to the 200MA ($160\u2013$170 range). The extreme fear reading suggests downside risk is overstated, but entry discipline matters for long-term compounding.",
+      "long_term_thesis": "Technology is a structural growth driver with secular tailwinds (AI, automation, digital transformation), and XLK's $124.5B AUM provides deep liquidity. Dollar-cost averaging through cycles will smooth volatility and capture the sector's long-term upside.",
+      "risks": "Sector concentration risk\u2014XLK is heavily weighted to mega-cap tech giants whose valuations are sensitive to interest-rate changes. Near all-time highs means limited margin of safety; any rotation away from growth could trigger a sharp 10\u201315% correction.",
+      "worth_adding": true,
+      "add_rationale": "Yes, add XLK to your DCA stack, but as a *systematic* position, not a tactical bet. Tech is core to a modern portfolio, and the extreme fear reading (15) suggests the market is mispricing downside risk. Start with reduced monthly contributions now; increase them if XLK pulls back 5\u20138%. This avoids FOMO while preserving dry powder for better entries.",
+      "generated_at": "2026-06-18T14:36:54.289301",
+      "ticker": "XLK",
+      "name": "Technology Select Sector SPDR",
+      "category": "Sector",
+      "archived_at": "2026-07-01T23:15:41.756975"
+    },
     {
       "recommendation": "consider_adding",
       "summary": "XLK is trading near its 52-week high after a powerful rally (+59.7% over 1 year, +25.3% over 3 months), reflecting strong momentum in the technology sector. Despite the Fear & Greed index sitting in 'Fear' territory (38), the price action remains resilient and well above its 200-day moving average. For a long-term accumulator, this is a quality holding but initiating at near all-time highs warrants a measured, disciplined entry rather than a full position.",
