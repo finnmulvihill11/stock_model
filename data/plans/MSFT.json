@@ -3,19 +3,36 @@
     "ticker": "MSFT",
     "company_name": "Microsoft Corporation",
     "action": "Hold",
-    "action_reason": "Drawdown exceeds 15% threshold\u2014philosophy mandates holding through major losses. Fundamentals remain healthy and no deterioration signals justify exit. Wait for technical confirmation of reversal or next earnings cycle.",
+    "action_reason": "Position down 16.42% triggers the NEVER-exit rule; fundamentals are sound and tech sector often recovers from fear-driven selloffs. Adding would be premature without technical confirmation.",
     "target_price": 420,
     "target_reasoning": "",
-    "exit_trigger": "Break below $360 on heavy volume (fundamental deterioration signal) OR exit on next 10%+ move into profitability per philosophy",
-    "add_trigger": "RSI breaks below 35 + Extreme Fear persists + price holds above $370 = accumulation opportunity",
-    "risk": "Continued macro weakness/recession narrative could extend drawdown to $340-350; concentration at 22.1% weight amplifies portfolio impact",
+    "exit_trigger": "Only if fundamentals deteriorate materially (earnings miss, guidance cut, or competitive loss); technical recovery to $420+ with RSI >60 would confirm hold thesis",
+    "add_trigger": "RSI breaks below 40 with volume spike OR if MSFT breaks below $375 on extreme capitulation (suggests panic bottom); only add if conviction increases",
+    "risk": "Continued macro weakness, AI competition risk, or tech rotation could extend drawdown to 20%+ before recovery",
     "outlook": "cautious",
-    "timeframe": "4-8 weeks",
-    "generated_at": "2026-07-01T23:53:30.562413",
-    "price_at_generation": 384.28,
-    "pnl_at_generation": -17.74
+    "timeframe": "4-8 weeks for RSI recovery and technical confirmation; earnings in ~3 months will be critical catalyst",
+    "generated_at": "2026-07-02T23:41:19.950278",
+    "price_at_generation": 390.49,
+    "pnl_at_generation": -16.42
   },
   "history": [
+    {
+      "ticker": "MSFT",
+      "company_name": "Microsoft Corporation",
+      "action": "Hold",
+      "action_reason": "Drawdown exceeds 15% threshold\u2014philosophy mandates holding through major losses. Fundamentals remain healthy and no deterioration signals justify exit. Wait for technical confirmation of reversal or next earnings cycle.",
+      "target_price": 420,
+      "target_reasoning": "",
+      "exit_trigger": "Break below $360 on heavy volume (fundamental deterioration signal) OR exit on next 10%+ move into profitability per philosophy",
+      "add_trigger": "RSI breaks below 35 + Extreme Fear persists + price holds above $370 = accumulation opportunity",
+      "risk": "Continued macro weakness/recession narrative could extend drawdown to $340-350; concentration at 22.1% weight amplifies portfolio impact",
+      "outlook": "cautious",
+      "timeframe": "4-8 weeks",
+      "generated_at": "2026-07-01T23:53:30.562413",
+      "price_at_generation": 384.28,
+      "pnl_at_generation": -17.74,
+      "archived_at": "2026-07-02T23:41:19.950531"
+    },
     {
       "ticker": "MSFT",
       "company_name": "Microsoft Corporation",
@@ -117,23 +134,6 @@
       "price_at_generation": 373.94,
       "pnl_at_generation": -19.96,
       "archived_at": "2026-06-24T23:46:12.657449"
-    },
-    {
-      "ticker": "MSFT",
-      "company_name": "Microsoft Corporation",
-      "action": "Hold",
-      "action_reason": "Position exceeds -15% loss threshold; per strategy, hold major losers for recovery. Oversold RSI (31) + Extreme Fear sentiment + healthy fundamentals suggest mean reversion probability is high. Next earnings catalyst upcoming in ~3 months.",
-      "target_price": 450,
-      "target_reasoning": "",
-      "exit_trigger": "Break below $350 on heavy volume with deteriorating fundamentals; OR position recovers to $467+ entry",
-      "add_trigger": "RSI drops to 25-28 (deeper oversold) with confirmed support + positive earnings pre-announcement sentiment",
-      "risk": "Macro deterioration (recession, AI hype deflation, cloud spending pullback) could extend losses; concentration risk at 22.8% weight",
-      "outlook": "cautious",
-      "timeframe": "6-12 weeks to next earnings; expect volatility recovery within 3-4 weeks as fear normalizes",
-      "generated_at": "2026-06-22T23:53:02.918306",
-      "price_at_generation": 367.34,
-      "pnl_at_generation": -21.37,
-      "archived_at": "2026-06-23T23:37:46.074981"
     }
   ]
 }

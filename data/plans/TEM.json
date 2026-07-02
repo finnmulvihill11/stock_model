@@ -3,19 +3,36 @@
     "ticker": "TEM",
     "company_name": "Tempus AI, Inc.",
     "action": "Hold",
-    "action_reason": "Per trading philosophy, positions down >15% must be held through recovery attempts. Current 10.83% loss doesn't trigger exit protocol. However, monitor closely for break below $58 support and any earnings guidance reductions.",
-    "target_price": 75.5,
+    "action_reason": "Per philosophy, position is only 12.75% down (below 15% threshold), so forced hold. However, this is a deteriorating business fundamentally unsound for swing trading; set strict exit triggers rather than averaging down.",
+    "target_price": null,
     "target_reasoning": "",
-    "exit_trigger": "Break and close below $58.00 (20% loss threshold) OR negative earnings revision OR debt covenant warning",
-    "add_trigger": "Close above $65 with positive company announcement OR RSI cools to <40 on volume expansion showing institutional accumulation",
-    "risk": "Continued cash burn leading to dilutive capital raise; weak market sentiment (extreme fear) could accelerate selling; high debt limits financial flexibility",
+    "exit_trigger": "Break below $57.25 (5% further loss) OR any earnings miss OR debt/liquidity concerns surface OR cash burn accelerates",
+    "add_trigger": "Do NOT add - fundamentals don't support averaging into a unprofitable, cash-burning position with high leverage",
+    "risk": "Bankruptcy risk if operating cash flow doesn't turn positive; debt servicing pressure in downturn; dilution from future financing rounds",
     "outlook": "cautious",
-    "timeframe": "4-8 weeks",
-    "generated_at": "2026-07-01T23:53:42.980321",
-    "price_at_generation": 61.6,
-    "pnl_at_generation": -10.83
+    "timeframe": "2-4 weeks to next catalyst or forced reassessment",
+    "generated_at": "2026-07-02T23:41:32.801823",
+    "price_at_generation": 60.27,
+    "pnl_at_generation": -12.75
   },
   "history": [
+    {
+      "ticker": "TEM",
+      "company_name": "Tempus AI, Inc.",
+      "action": "Hold",
+      "action_reason": "Per trading philosophy, positions down >15% must be held through recovery attempts. Current 10.83% loss doesn't trigger exit protocol. However, monitor closely for break below $58 support and any earnings guidance reductions.",
+      "target_price": 75.5,
+      "target_reasoning": "",
+      "exit_trigger": "Break and close below $58.00 (20% loss threshold) OR negative earnings revision OR debt covenant warning",
+      "add_trigger": "Close above $65 with positive company announcement OR RSI cools to <40 on volume expansion showing institutional accumulation",
+      "risk": "Continued cash burn leading to dilutive capital raise; weak market sentiment (extreme fear) could accelerate selling; high debt limits financial flexibility",
+      "outlook": "cautious",
+      "timeframe": "4-8 weeks",
+      "generated_at": "2026-07-01T23:53:42.980321",
+      "price_at_generation": 61.6,
+      "pnl_at_generation": -10.83,
+      "archived_at": "2026-07-02T23:41:32.802061"
+    },
     {
       "ticker": "TEM",
       "company_name": "Tempus AI, Inc.",
@@ -117,23 +134,6 @@
       "price_at_generation": 48.61,
       "pnl_at_generation": -29.63,
       "archived_at": "2026-06-24T23:46:26.494910"
-    },
-    {
-      "ticker": "TEM",
-      "company_name": "Tempus AI, Inc.",
-      "action": "Hold",
-      "action_reason": "Per swing trader philosophy, positions down >15% are held regardless of fundamental deterioration. However, this is a philosophy-driven hold, not a conviction hold. Monitor for material deterioration or bankruptcy risk.",
-      "target_price": null,
-      "target_reasoning": "",
-      "exit_trigger": "Company files for restructuring/bankruptcy; debt covenants breached; cash runway <6 months; or position recovers to break-even ($69.08)",
-      "add_trigger": "Do NOT add. Fundamentals deteriorating with no recovery catalysts visible.",
-      "risk": "Continued cash burn with 3.2x debt could lead to dilutive financing or restructuring; no path to profitability evident",
-      "outlook": "cautious",
-      "timeframe": "4-8 weeks (monitor next earnings for cash runway clarity)",
-      "generated_at": "2026-06-22T23:53:17.796738",
-      "price_at_generation": 47.85,
-      "pnl_at_generation": -30.73,
-      "archived_at": "2026-06-23T23:37:59.547906"
     }
   ]
 }

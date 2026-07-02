@@ -3,19 +3,36 @@
     "ticker": "ABT",
     "company_name": "Abbott Laboratories",
     "action": "Hold",
-    "action_reason": "Your trading philosophy prohibits exits on positions down >15%. The Extreme Fear sentiment and upcoming earnings (15d) present a potential inflection point for recovery; ABT's healthy fundamentals support patience.",
-    "target_price": 105,
+    "action_reason": "Loss is below 15% threshold, fundamentals are healthy, and imminent earnings present potential catalyst. Wait for earnings clarity before any portfolio adjustments.",
+    "target_price": null,
     "target_reasoning": "",
-    "exit_trigger": "Position becomes profitable (close above $109.77) OR earnings miss + guidance cut + technical breakdown below $88",
-    "add_trigger": "If ABT drops to $85-87 on earnings weakness (adds to position avg cost) OR RSI falls below 35 on volume before earnings",
-    "risk": "Earnings disappointment, continued sector rotation away from healthcare/pharma, macro recession concerns",
-    "outlook": "neutral",
-    "timeframe": "2-4 weeks (through earnings + immediate post-earnings period)",
-    "generated_at": "2026-07-01T23:53:36.364460",
-    "price_at_generation": 92.18,
-    "pnl_at_generation": -16.02
+    "exit_trigger": "Only exit if fundamentals deteriorate post-earnings or position loses >15% (drops below $93.30)",
+    "add_trigger": "Add if position drops to -15% AND fundamentals confirm healthy, or if RSI falls below 40 post-earnings with positive surprise",
+    "risk": "Earnings miss could accelerate decline; broad market selloff given Extreme Fear backdrop; binary event risk into print",
+    "outlook": "cautious",
+    "timeframe": "2-3 weeks (through earnings + recovery period)",
+    "generated_at": "2026-07-02T23:41:25.435158",
+    "price_at_generation": 95.4,
+    "pnl_at_generation": -13.09
   },
   "history": [
+    {
+      "ticker": "ABT",
+      "company_name": "Abbott Laboratories",
+      "action": "Hold",
+      "action_reason": "Your trading philosophy prohibits exits on positions down >15%. The Extreme Fear sentiment and upcoming earnings (15d) present a potential inflection point for recovery; ABT's healthy fundamentals support patience.",
+      "target_price": 105,
+      "target_reasoning": "",
+      "exit_trigger": "Position becomes profitable (close above $109.77) OR earnings miss + guidance cut + technical breakdown below $88",
+      "add_trigger": "If ABT drops to $85-87 on earnings weakness (adds to position avg cost) OR RSI falls below 35 on volume before earnings",
+      "risk": "Earnings disappointment, continued sector rotation away from healthcare/pharma, macro recession concerns",
+      "outlook": "neutral",
+      "timeframe": "2-4 weeks (through earnings + immediate post-earnings period)",
+      "generated_at": "2026-07-01T23:53:36.364460",
+      "price_at_generation": 92.18,
+      "pnl_at_generation": -16.02,
+      "archived_at": "2026-07-02T23:41:25.435370"
+    },
     {
       "ticker": "ABT",
       "company_name": "Abbott Laboratories",
@@ -117,23 +134,6 @@
       "price_at_generation": 90.53,
       "pnl_at_generation": -17.53,
       "archived_at": "2026-06-24T23:46:19.771186"
-    },
-    {
-      "ticker": "ABT",
-      "company_name": "Abbott Laboratories",
-      "action": "Hold",
-      "action_reason": "Loss exceeds 15% threshold per philosophy (NEVER trim major losers). Healthy fundamentals + RSI 45.9 (approaching oversold) + Extreme Fear sentiment suggest capitulation, not deterioration. Wait for technical recovery confirmation before any action.",
-      "target_price": 102.5,
-      "target_reasoning": "",
-      "exit_trigger": "Hold indefinitely per philosophy; only exit if fundamentals deteriorate (earnings miss, dividend cut, guidance slash)",
-      "add_trigger": "RSI drops below 35 + close below $85 on volume spike (capitulation confirmation)",
-      "risk": "Further sector rotation away from healthcare/pharma; macro headwinds if recession fears intensify despite neutral VIX",
-      "outlook": "cautious",
-      "timeframe": "4-8 weeks (post-earnings recovery window; next earnings ~90 days away)",
-      "generated_at": "2026-06-22T23:53:10.984308",
-      "price_at_generation": 87.83,
-      "pnl_at_generation": -19.99,
-      "archived_at": "2026-06-23T23:37:52.525578"
     }
   ]
 }

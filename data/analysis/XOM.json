@@ -8,19 +8,19 @@
     "sell_score": 0.0,
     "reasons": [],
     "misses": [
-      "BB: price not near lower band (pct=0.23)",
+      "BB: price not near lower band (pct=0.28)",
       "BB Width: bands expanding, not squeezing",
       "RSI Divergence: no bullish divergence detected",
-      "Volume: below average (0.47x) \u2014 low conviction"
+      "Volume: below average (0.75x) \u2014 low conviction"
     ],
-    "price": 136.28,
-    "rsi": 34.6,
-    "atr": 3.35,
+    "price": 137.09,
+    "rsi": 36.9,
+    "atr": 3.12,
     "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 1,
-      "suggested_dollars": 136.28,
-      "note": "1 sh @ $136.28 = $136 (Hold, 60% size) | $765 swing budget after"
+      "suggested_dollars": 137.09,
+      "note": "1 sh @ $137.09 = $137 (Hold, 60% size) | $764 swing budget after"
     }
   },
   "fundamentals": {
@@ -49,38 +49,42 @@
       ],
       "earnings_status": "past",
       "next_earnings_date": "2026-05-01",
-      "days_to_earnings": -61
+      "days_to_earnings": -62
     }
   },
   "news": {
     "ticker": "XOM",
     "sentiment": "neutral",
     "health": "healthy",
-    "key_events": [],
+    "key_events": [
+      "Position near entry price with minimal loss (-0.04%)",
+      "RSI at 36.9 indicates oversold conditions",
+      "Earnings reported 62 days ago - no imminent catalysts",
+      "Market in Extreme Fear despite neutral VIX (16.1)"
+    ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "No recent news catalysts provided",
-      "RSI at 34.6 indicates oversold conditions",
-      "Extreme Fear sentiment suggests capitulation selling",
-      "Position down 0.63% with minimal momentum firing"
+      "No technical firing signals - momentum absent",
+      "No recent news flow to assess sentiment shifts",
+      "Oversold RSI suggests potential mean reversion or further weakness"
     ],
-    "verdict": "XOM fundamentals remain healthy despite technical weakness; position is micro loss and should be held per philosophy while awaiting recovery catalysts.",
+    "verdict": "XOM is healthy fundamentally with minimal loss; await technical confirmation before acting.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "XOM",
-    "stock_return_3m": -19.13,
-    "benchmark_return_3m": 14.97,
-    "relative_strength": -34.1,
+    "stock_return_3m": -14.16,
+    "benchmark_return_3m": 13.96,
+    "relative_strength": -28.11,
     "label": "underperforming"
   },
   "final_tier": "Hold",
   "sizing": {
     "suggested_shares": 1,
-    "suggested_dollars": 136.28,
-    "note": "1 sh @ $136.28 = $136 (Hold, 60% size) | $765 swing budget after"
+    "suggested_dollars": 137.09,
+    "note": "1 sh @ $137.09 = $137 (Hold, 60% size) | $764 swing budget after"
   },
   "is_dca": false,
-  "saved_at": "2026-07-01T23:53:54.771919"
+  "saved_at": "2026-07-02T23:41:46.949768"
 }

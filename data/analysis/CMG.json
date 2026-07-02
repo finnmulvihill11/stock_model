@@ -8,22 +8,22 @@
     "sell_score": 0.29,
     "reasons": [],
     "misses": [
-      "BB: price not near lower band (pct=0.98)",
+      "BB: price not near lower band (pct=0.97)",
       "BB Width: bands expanding, not squeezing",
-      "RSI: not in buy zone (64.8, need 20-40)",
+      "RSI: not in buy zone (66.2, need 20-40)",
       "MACD: no bullish crossover or valley",
       "RSI Divergence: no bullish divergence detected",
-      "Death cross active: 50MA (32.29) below 200MA (35.53)",
-      "Volume: below average (0.58x) \u2014 low conviction"
+      "Death cross active: 50MA (32.27) below 200MA (35.51)",
+      "Volume: below average (0.67x) \u2014 low conviction"
     ],
-    "price": 35.0,
-    "rsi": 64.8,
-    "atr": 1.12,
+    "price": 35.39,
+    "rsi": 66.2,
+    "atr": 1.07,
     "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 4,
-      "suggested_dollars": 140.0,
-      "note": "4 sh @ $35.00 = $140 (Hold, 60% size) | $761 swing budget after"
+      "suggested_dollars": 141.56,
+      "note": "4 sh @ $35.39 = $142 (Hold, 60% size) | $760 swing budget after"
     }
   },
   "fundamentals": {
@@ -53,42 +53,42 @@
       ],
       "earnings_status": "upcoming",
       "next_earnings_date": "2026-07-29",
-      "days_to_earnings": 28
+      "days_to_earnings": 27
     }
   },
   "news": {
     "ticker": "CMG",
     "sentiment": "neutral",
-    "health": "neutral",
+    "health": "healthy",
     "key_events": [
-      "Earnings report in 28 days",
-      "VIX at 16.6 indicating neutral market conditions",
-      "Extreme Fear in sentiment despite +11.22% gain"
+      "Earnings report in 27 days",
+      "RSI at 66.2 indicates overbought conditions",
+      "Market showing Extreme Fear despite neutral VIX"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "High debt-to-equity ratio (2.2x) constrains financial flexibility",
-      "RSI at 64.8 approaching overbought territory (70+)",
-      "No recent positive news catalysts listed",
-      "Disconnect between portfolio health (Extreme Fear) and stock performance"
+      "High debt-to-equity ratio of 2.2x increases financial risk",
+      "RSI overbought (>65) suggests potential pullback risk",
+      "No recent catalytic news to sustain momentum",
+      "Earnings volatility upcoming within swing timeframe"
     ],
-    "verdict": "Position is profitable with approaching earnings; hold and monitor for overbought conditions before taking gains.",
+    "verdict": "CMG is profitably positioned with healthy +12.46% gains, but technical overbought conditions and upcoming earnings create exit-worthy opportunity for disciplined swing traders.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "CMG",
-    "stock_return_3m": 9.34,
-    "benchmark_return_3m": 14.97,
-    "relative_strength": -5.63,
+    "stock_return_3m": 8.46,
+    "benchmark_return_3m": 13.96,
+    "relative_strength": -5.5,
     "label": "underperforming"
   },
   "final_tier": "Hold",
   "sizing": {
     "suggested_shares": 4,
-    "suggested_dollars": 140.0,
-    "note": "4 sh @ $35.00 = $140 (Hold, 60% size) | $761 swing budget after"
+    "suggested_dollars": 141.56,
+    "note": "4 sh @ $35.39 = $142 (Hold, 60% size) | $760 swing budget after"
   },
   "is_dca": false,
-  "saved_at": "2026-07-01T23:53:48.392070"
+  "saved_at": "2026-07-02T23:41:39.947874"
 }

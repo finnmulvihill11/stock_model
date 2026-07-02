@@ -2,20 +2,37 @@
   "current": {
     "ticker": "XOM",
     "company_name": "Exxon Mobil Corporation",
-    "action": "Hold",
-    "action_reason": "Loss is minimal (-0.63%) and well within acceptable swing trade variance. RSI oversold conditions (34.6) suggest potential bounce; Extreme Fear presents contrarian buying opportunity for energy plays with healthy fundamentals.",
-    "target_price": 140.5,
+    "action": "Wait",
+    "action_reason": "Position is essentially flat with healthy fundamentals. RSI oversold condition could present a better entry or accumulation opportunity; hold current 2sh until either a clear technical setup emerges or market fear subsides.",
+    "target_price": null,
     "target_reasoning": "",
-    "exit_trigger": "Close below $134.00 or fundamental deterioration in energy sector; only consider if profit threshold reached above $142.00",
-    "add_trigger": "RSI drops below 30 with volume surge OR crude oil WTI breaks above $85/barrel on positive supply shock",
-    "risk": "Energy sector cyclicality; geopolitical supply disruptions; macro recession reducing demand; position weight at 7.8% is manageable",
+    "exit_trigger": "Break below $130 (8% loss) OR confirmed breakdown from current consolidation with volume",
+    "add_trigger": "RSI crosses above 40 with bullish volume, or XOM breaks above recent resistance near $140",
+    "risk": "Energy sector sensitivity to macro slowdown signals; crude oil demand concerns if recession fears intensify",
     "outlook": "neutral",
-    "timeframe": "2-4 weeks for recovery to $139-141 range as oversold conditions normalize",
-    "generated_at": "2026-07-01T23:53:54.771174",
-    "price_at_generation": 136.28,
-    "pnl_at_generation": -0.63
+    "timeframe": "2-4 weeks",
+    "generated_at": "2026-07-02T23:41:46.949049",
+    "price_at_generation": 137.09,
+    "pnl_at_generation": -0.04
   },
   "history": [
+    {
+      "ticker": "XOM",
+      "company_name": "Exxon Mobil Corporation",
+      "action": "Hold",
+      "action_reason": "Loss is minimal (-0.63%) and well within acceptable swing trade variance. RSI oversold conditions (34.6) suggest potential bounce; Extreme Fear presents contrarian buying opportunity for energy plays with healthy fundamentals.",
+      "target_price": 140.5,
+      "target_reasoning": "",
+      "exit_trigger": "Close below $134.00 or fundamental deterioration in energy sector; only consider if profit threshold reached above $142.00",
+      "add_trigger": "RSI drops below 30 with volume surge OR crude oil WTI breaks above $85/barrel on positive supply shock",
+      "risk": "Energy sector cyclicality; geopolitical supply disruptions; macro recession reducing demand; position weight at 7.8% is manageable",
+      "outlook": "neutral",
+      "timeframe": "2-4 weeks for recovery to $139-141 range as oversold conditions normalize",
+      "generated_at": "2026-07-01T23:53:54.771174",
+      "price_at_generation": 136.28,
+      "pnl_at_generation": -0.63,
+      "archived_at": "2026-07-02T23:41:46.949229"
+    },
     {
       "ticker": "XOM",
       "company_name": "Exxon Mobil Corporation",
@@ -117,23 +134,6 @@
       "price_at_generation": 139.73,
       "pnl_at_generation": 1.53,
       "archived_at": "2026-06-24T23:46:47.674736"
-    },
-    {
-      "ticker": "XOM",
-      "company_name": "Exxon Mobil Corporation",
-      "action": "Hold",
-      "action_reason": "Position is profitable (+0.61%) with healthy fundamentals and reasonable portfolio weight (4.3%). Oversold RSI (34.7) could precede bounce, but lack of technical signals or positive catalysts warrants patience rather than aggressive accumulation.",
-      "target_price": null,
-      "target_reasoning": "",
-      "exit_trigger": "Break below $130 on closing basis with deteriorating energy fundamentals or significant dividend cut announcement",
-      "add_trigger": "RSI drops to 25-30 + positive energy news OR price pullback to $132-135 with confirmed bullish divergence",
-      "risk": "Energy sector volatility tied to crude oil prices; geopolitical shocks or recession fears could pressure both XOM and energy demand",
-      "outlook": "neutral",
-      "timeframe": "2-4 weeks",
-      "generated_at": "2026-06-22T23:53:37.842244",
-      "price_at_generation": 138.47,
-      "pnl_at_generation": 0.61,
-      "archived_at": "2026-06-23T23:38:20.292985"
     }
   ]
 }

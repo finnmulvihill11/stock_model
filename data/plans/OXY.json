@@ -3,19 +3,36 @@
     "ticker": "OXY",
     "company_name": "Occidental Petroleum Corporation",
     "action": "Hold",
-    "action_reason": "Position is only -4.84% (well above 15% threshold); RSI oversold at 25.7 creates bounce potential; extreme fear sentiment often precedes reversals. Hold and await earnings catalyst or technical recovery confirmation.",
-    "target_price": 51.5,
+    "action_reason": "RSI 31.6 signals reversal potential, and Extreme Fear backdrop creates contrarian setup. Philosophy forbids exit on small losses. However, revenue decline argues against adding\u2014wait for technical bounce or earnings clarity.",
+    "target_price": 52.5,
     "target_reasoning": "",
-    "exit_trigger": "Break below $46.00 (technical support failure) OR negative earnings surprise beyond revenue decline trend",
-    "add_trigger": "RSI bounces to 35+ with volume confirmation AND price stabilizes above $47.50 support",
-    "risk": "Energy sector cyclicality; continued revenue declines could trigger downside acceleration if sentiment worsens post-earnings",
+    "exit_trigger": "Break below $46.50 (below recent lows) with volume; or earnings miss + guidance cut",
+    "add_trigger": "RSI bounce above 50 + close above $50.80 on oil price strength; or positive pre-earnings momentum",
+    "risk": "Energy commodity exposure + macro oil demand deterioration; execution risk on earnings given revenue headwinds",
     "outlook": "cautious",
-    "timeframe": "3-5 weeks (hold through earnings)",
-    "generated_at": "2026-07-01T23:54:01.245440",
-    "price_at_generation": 47.94,
-    "pnl_at_generation": -4.84
+    "timeframe": "2-5 weeks (through earnings on day 34)",
+    "generated_at": "2026-07-02T23:41:56.329491",
+    "price_at_generation": 48.91,
+    "pnl_at_generation": -2.92
   },
   "history": [
+    {
+      "ticker": "OXY",
+      "company_name": "Occidental Petroleum Corporation",
+      "action": "Hold",
+      "action_reason": "Position is only -4.84% (well above 15% threshold); RSI oversold at 25.7 creates bounce potential; extreme fear sentiment often precedes reversals. Hold and await earnings catalyst or technical recovery confirmation.",
+      "target_price": 51.5,
+      "target_reasoning": "",
+      "exit_trigger": "Break below $46.00 (technical support failure) OR negative earnings surprise beyond revenue decline trend",
+      "add_trigger": "RSI bounces to 35+ with volume confirmation AND price stabilizes above $47.50 support",
+      "risk": "Energy sector cyclicality; continued revenue declines could trigger downside acceleration if sentiment worsens post-earnings",
+      "outlook": "cautious",
+      "timeframe": "3-5 weeks (hold through earnings)",
+      "generated_at": "2026-07-01T23:54:01.245440",
+      "price_at_generation": 47.94,
+      "pnl_at_generation": -4.84,
+      "archived_at": "2026-07-02T23:41:56.329708"
+    },
     {
       "ticker": "OXY",
       "company_name": "Occidental Petroleum Corporation",
@@ -117,23 +134,6 @@
       "price_at_generation": 52.23,
       "pnl_at_generation": 0.64,
       "archived_at": "2026-06-24T23:46:55.526255"
-    },
-    {
-      "ticker": "OXY",
-      "company_name": "Occidental Petroleum Corporation",
-      "action": "Hold",
-      "action_reason": "While fundamentals are weakening and technicals lack conviction, the position is only +0.19% profit and VIX/Extreme Fear suggest capitulation selling. Holding allows for potential recovery without locking in minimal gains during fear-driven dips.",
-      "target_price": 54.5,
-      "target_reasoning": "",
-      "exit_trigger": "Close below $50.00 (approx -3.7% from entry); or if revenue decline accelerates YoY beyond -12%",
-      "add_trigger": "RSI drops below 25 with VIX spike + bounce confirmation at $49.50 support",
-      "risk": "Continued energy sector headwinds, recession impact on demand, dividend cut risk if cash flow deteriorates further",
-      "outlook": "cautious",
-      "timeframe": "4-8 weeks",
-      "generated_at": "2026-06-22T23:53:46.271131",
-      "price_at_generation": 52.0,
-      "pnl_at_generation": 0.19,
-      "archived_at": "2026-06-23T23:38:27.905493"
     }
   ]
 }
