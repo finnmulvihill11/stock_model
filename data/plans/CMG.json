@@ -2,20 +2,37 @@
   "current": {
     "ticker": "CMG",
     "company_name": "Chipotle Mexican Grill, Inc.",
-    "action": "Start Trimming",
-    "action_reason": "Position is +12.46% profitable and RSI shows overbought conditions at 66.2. Trim 50% (2 shares) now to lock in gains before earnings volatility and potential pullback, keeping 2 shares to capture any post-earnings upside.",
-    "target_price": 37.5,
+    "action": "Hold",
+    "action_reason": "Position is profitable with meaningful upside catalyst (earnings in 24d) approaching. Extreme Fear backdrop provides contrarian support, but RSI overbought conditions warrant patience before adding. Respect the swing trader rule: exit only when profitable.",
+    "target_price": 38.5,
     "target_reasoning": "",
-    "exit_trigger": "Sell remaining 2 shares if RSI drops below 50 or if stock closes below $33.50 on high volume (earnings uncertainty)",
-    "add_trigger": "Only add if stock pulls back to $32.50-$33.00 with bullish reversal pattern after earnings clarity",
-    "risk": "High leverage (debt-to-equity 2.2x) amplifies downside if earnings disappoint; earnings surprise volatility in 27 days could whipsaw position",
+    "exit_trigger": "RSI drops below 50 AND price closes below $34.20 on heavy volume (> 2M shares), signaling momentum loss before earnings",
+    "add_trigger": "CMG pulls back to $33.50-$34.00 on light volume while RSI normalizes to 45-55 range; signals healthy consolidation for re-entry",
+    "risk": "Earnings miss could trigger sharp reversal; elevated debt-to-equity reduces margin of safety for negative surprises",
     "outlook": "cautious",
-    "timeframe": "Execute trim over next 3-5 days; hold remainder through earnings for 2-6 week swing cycle",
-    "generated_at": "2026-07-02T23:41:39.947127",
+    "timeframe": "2-4 weeks (through earnings)",
+    "generated_at": "2026-07-05T23:38:26.107414",
     "price_at_generation": 35.39,
     "pnl_at_generation": 12.46
   },
   "history": [
+    {
+      "ticker": "CMG",
+      "company_name": "Chipotle Mexican Grill, Inc.",
+      "action": "Start Trimming",
+      "action_reason": "Position is +12.46% profitable and RSI shows overbought conditions at 66.2. Trim 50% (2 shares) now to lock in gains before earnings volatility and potential pullback, keeping 2 shares to capture any post-earnings upside.",
+      "target_price": 37.5,
+      "target_reasoning": "",
+      "exit_trigger": "Sell remaining 2 shares if RSI drops below 50 or if stock closes below $33.50 on high volume (earnings uncertainty)",
+      "add_trigger": "Only add if stock pulls back to $32.50-$33.00 with bullish reversal pattern after earnings clarity",
+      "risk": "High leverage (debt-to-equity 2.2x) amplifies downside if earnings disappoint; earnings surprise volatility in 27 days could whipsaw position",
+      "outlook": "cautious",
+      "timeframe": "Execute trim over next 3-5 days; hold remainder through earnings for 2-6 week swing cycle",
+      "generated_at": "2026-07-02T23:41:39.947127",
+      "price_at_generation": 35.39,
+      "pnl_at_generation": 12.46,
+      "archived_at": "2026-07-05T23:38:26.107586"
+    },
     {
       "ticker": "CMG",
       "company_name": "Chipotle Mexican Grill, Inc.",
@@ -117,23 +134,6 @@
       "price_at_generation": 31.69,
       "pnl_at_generation": 0.7,
       "archived_at": "2026-06-25T23:55:50.191873"
-    },
-    {
-      "ticker": "CMG",
-      "company_name": "Chipotle Mexican Grill, Inc.",
-      "action": "Hold",
-      "action_reason": "Position is only -1.65% with no major loss indicator, and extreme market fear may present asymmetric upside opportunity into earnings. Lack of negative news and neutral technical setup warrant patience rather than action.",
-      "target_price": null,
-      "target_reasoning": "",
-      "exit_trigger": "Break below $29.50 (technical support) with volume, or material negative guidance ahead of earnings",
-      "add_trigger": "RSI drops to 30-35 range on continued weakness, or positive same-store sales catalyst emerges",
-      "risk": "High leverage (2.2x D/E) magnifies downside in consumer discretionary downturn; earnings miss could trigger sharp selloff",
-      "outlook": "cautious",
-      "timeframe": "4-6 weeks (until earnings catalyst)",
-      "generated_at": "2026-06-23T23:38:05.947962",
-      "price_at_generation": 30.95,
-      "pnl_at_generation": -1.65,
-      "archived_at": "2026-06-24T23:46:34.643497"
     }
   ]
 }

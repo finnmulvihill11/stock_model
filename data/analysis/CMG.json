@@ -14,7 +14,7 @@
       "MACD: no bullish crossover or valley",
       "RSI Divergence: no bullish divergence detected",
       "Death cross active: 50MA (32.27) below 200MA (35.51)",
-      "Volume: below average (0.67x) \u2014 low conviction"
+      "Volume: below average (0.68x) \u2014 low conviction"
     ],
     "price": 35.39,
     "rsi": 66.2,
@@ -53,27 +53,28 @@
       ],
       "earnings_status": "upcoming",
       "next_earnings_date": "2026-07-29",
-      "days_to_earnings": 27
+      "days_to_earnings": 24
     }
   },
   "news": {
     "ticker": "CMG",
     "sentiment": "neutral",
-    "health": "healthy",
+    "health": "neutral",
     "key_events": [
-      "Earnings report in 27 days",
-      "RSI at 66.2 indicates overbought conditions",
-      "Market showing Extreme Fear despite neutral VIX"
+      "Earnings report in 24 days",
+      "RSI at 66.2 (approaching overbought)",
+      "VIX 16.1 indicates stable market conditions",
+      "Extreme Fear sentiment presents contrarian opportunity"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "High debt-to-equity ratio of 2.2x increases financial risk",
-      "RSI overbought (>65) suggests potential pullback risk",
-      "No recent catalytic news to sustain momentum",
-      "Earnings volatility upcoming within swing timeframe"
+      "High debt-to-equity ratio (2.2x) limits financial flexibility",
+      "RSI near overbought territory suggests pullback risk",
+      "No recent positive catalysts in news flow",
+      "Position weight at 3.4% is material if volatility strikes"
     ],
-    "verdict": "CMG is profitably positioned with healthy +12.46% gains, but technical overbought conditions and upcoming earnings create exit-worthy opportunity for disciplined swing traders.",
+    "verdict": "CMG has delivered strong gains (+12.46%) into technical resistance; hold for earnings catalyst while monitoring RSI mean reversion.",
     "confidence": "medium"
   },
   "relative_strength": {
@@ -90,5 +91,5 @@
     "note": "4 sh @ $35.39 = $142 (Hold, 60% size) | $760 swing budget after"
   },
   "is_dca": false,
-  "saved_at": "2026-07-02T23:41:39.947874"
+  "saved_at": "2026-07-05T23:38:26.108077"
 }

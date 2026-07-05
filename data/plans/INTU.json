@@ -3,19 +3,36 @@
     "ticker": "INTU",
     "company_name": "Intuit Inc.",
     "action": "Hold",
-    "action_reason": "Position is down >15% so philosophy mandates holding. Extreme Fear reading suggests capitulation nearing; wait for technical reversal signals (RSI <30 + bullish divergence) before adding or exiting.",
-    "target_price": null,
+    "action_reason": "Position is down 41.20%, triggering your rule against trimming major losers. Fundamentals healthy and VIX neutral suggest conditions may stabilize; hold for recovery without fighting the downtrend by adding.",
+    "target_price": 385,
     "target_reasoning": "",
-    "exit_trigger": "If fundamentals deteriorate (earnings miss, margin compression, guidance cut) OR if RSI breaks below 30 with failed reversal; otherwise hold through recovery",
-    "add_trigger": "RSI drops to 25-30 with bullish divergence + VIX stays elevated; indicates capitulation completion and mean-reversion setup",
-    "risk": "Further downside if software spending cycles weaken; potential earnings disappointment next quarter if macro deteriorates",
+    "exit_trigger": "Fundamentals deteriorate OR position rises above $380 with negative divergence in volume/RSI; only exit if health status changes",
+    "add_trigger": "RSI oversold (<30) + positive earnings revision OR major product/market catalyst announced",
+    "risk": "Continued macro weakness in small business/SMB software spending; SaaS sector rotation; valuation compression if rates remain elevated",
     "outlook": "cautious",
-    "timeframe": "4-12 weeks for recovery; monitor Q2 earnings for health confirmation",
-    "generated_at": "2026-07-02T23:41:11.772552",
+    "timeframe": "3-6 months for recovery to $350-385 range; monitor next earnings (likely 90+ days out)",
+    "generated_at": "2026-07-05T23:37:57.114131",
     "price_at_generation": 275.35,
     "pnl_at_generation": -41.2
   },
   "history": [
+    {
+      "ticker": "INTU",
+      "company_name": "Intuit Inc.",
+      "action": "Hold",
+      "action_reason": "Position is down >15% so philosophy mandates holding. Extreme Fear reading suggests capitulation nearing; wait for technical reversal signals (RSI <30 + bullish divergence) before adding or exiting.",
+      "target_price": null,
+      "target_reasoning": "",
+      "exit_trigger": "If fundamentals deteriorate (earnings miss, margin compression, guidance cut) OR if RSI breaks below 30 with failed reversal; otherwise hold through recovery",
+      "add_trigger": "RSI drops to 25-30 with bullish divergence + VIX stays elevated; indicates capitulation completion and mean-reversion setup",
+      "risk": "Further downside if software spending cycles weaken; potential earnings disappointment next quarter if macro deteriorates",
+      "outlook": "cautious",
+      "timeframe": "4-12 weeks for recovery; monitor Q2 earnings for health confirmation",
+      "generated_at": "2026-07-02T23:41:11.772552",
+      "price_at_generation": 275.35,
+      "pnl_at_generation": -41.2,
+      "archived_at": "2026-07-05T23:37:57.114343"
+    },
     {
       "ticker": "INTU",
       "company_name": "Intuit Inc.",
@@ -117,23 +134,6 @@
       "price_at_generation": 262.23,
       "pnl_at_generation": -44.0,
       "archived_at": "2026-06-25T23:55:23.223883"
-    },
-    {
-      "ticker": "INTU",
-      "company_name": "Intuit Inc.",
-      "action": "Hold",
-      "action_reason": "Position is down >15%, triggering your non-negotiable hold rule. Extreme Fear + oversold RSI (29.4) suggest potential washout near bottom; exit only on new fundamental deterioration or earnings miss.",
-      "target_price": 320,
-      "target_reasoning": "",
-      "exit_trigger": "Breach of $240 support OR negative earnings revision OR deteriorating fundamentals in next earnings",
-      "add_trigger": "RSI <20 with Extreme Fear persisting + confirmation of support hold at $250",
-      "risk": "Further macro deterioration (recession, SaaS spending cuts) could push INTU below $200; 24% weight amplifies portfolio impact",
-      "outlook": "cautious",
-      "timeframe": "4-8 weeks until next catalyst (earnings, macro stabilization, or capitulation flush)",
-      "generated_at": "2026-06-23T23:37:39.298057",
-      "price_at_generation": 258.05,
-      "pnl_at_generation": -44.9,
-      "archived_at": "2026-06-24T23:46:06.105784"
     }
   ]
 }

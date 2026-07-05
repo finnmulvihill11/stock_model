@@ -14,7 +14,7 @@
       "MACD: no bullish crossover or valley",
       "RSI Divergence: no bullish divergence detected",
       "200MA: price below 200MA \u2014 potential falling knife",
-      "Volume: below average (0.78x) \u2014 low conviction"
+      "Volume: below average (0.80x) \u2014 low conviction"
     ],
     "price": 60.27,
     "rsi": 64.7,
@@ -52,7 +52,7 @@
       ],
       "earnings_status": "past",
       "next_earnings_date": "2026-05-05",
-      "days_to_earnings": -58
+      "days_to_earnings": -61
     }
   },
   "news": {
@@ -60,21 +60,20 @@
     "sentiment": "negative",
     "health": "deteriorating",
     "key_events": [
-      "No recent news available for analysis",
-      "Earnings reported 58 days ago with significant negative impact",
-      "Position down 12.75% from entry"
+      "No recent news items available for analysis",
+      "Earnings reported 61 days ago with negative results",
+      "Market showing Extreme Fear sentiment despite neutral VIX"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "High debt-to-equity ratio (3.2x) indicates financial stress",
-      "Not profitable with negative operating cash flow - unsustainable burn",
-      "RSI at 64.7 suggests overextension despite price decline",
-      "Extreme Fear sentiment in market provides no tailwinds",
-      "No positive catalysts visible on horizon",
-      "Information vacuum - zero recent news items"
+      "Debt-to-equity ratio of 3.2x indicates high financial leverage",
+      "Company not profitable with negative operating cash flow",
+      "RSI at 64.7 suggests potential overbought condition despite price decline",
+      "No bullish technical signals ('Firing: none')",
+      "Information vacuum - no recent news to support recovery narrative"
     ],
-    "verdict": "Deteriorating fundamentals with negative cash flow and high leverage make this a speculative hold, not a recovery candidate; absence of news suggests lack of market interest.",
+    "verdict": "Deteriorating fundamentals combined with negative cash flow and high debt make this a challenged position, but philosophy dictates holding through the 12.75% drawdown.",
     "confidence": "medium"
   },
   "relative_strength": {
@@ -91,5 +90,5 @@
     "note": "2 sh @ $60.27 = $121 (Hold, 60% size) | $781 swing budget after"
   },
   "is_dca": false,
-  "saved_at": "2026-07-02T23:41:32.802760"
+  "saved_at": "2026-07-05T23:38:18.591180"
 }

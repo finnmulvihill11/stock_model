@@ -3,19 +3,36 @@
     "ticker": "ABT",
     "company_name": "Abbott Laboratories",
     "action": "Hold",
-    "action_reason": "Loss is below 15% threshold, fundamentals are healthy, and imminent earnings present potential catalyst. Wait for earnings clarity before any portfolio adjustments.",
-    "target_price": null,
+    "action_reason": "Position is down 13.09% (below your 15% exit threshold), fundamentals are healthy, and earnings in 11 days could be a re-rating catalyst. Extreme Fear backdrop suggests capitulation selling may be near completion.",
+    "target_price": 112.5,
     "target_reasoning": "",
-    "exit_trigger": "Only exit if fundamentals deteriorate post-earnings or position loses >15% (drops below $93.30)",
-    "add_trigger": "Add if position drops to -15% AND fundamentals confirm healthy, or if RSI falls below 40 post-earnings with positive surprise",
-    "risk": "Earnings miss could accelerate decline; broad market selloff given Extreme Fear backdrop; binary event risk into print",
+    "exit_trigger": "Breakdown below $92.00 with negative earnings surprise + deteriorating fundamentals confirmation",
+    "add_trigger": "Close above $100.50 post-earnings with positive guidance; or RSI retest of 50 with accumulation volume",
+    "risk": "Earnings miss or guidance cut could trigger further downside; healthcare sector rotation if rates rise unexpectedly",
     "outlook": "cautious",
-    "timeframe": "2-3 weeks (through earnings + recovery period)",
-    "generated_at": "2026-07-02T23:41:25.435158",
+    "timeframe": "2-4 weeks (through earnings + 1-2 week follow-through)",
+    "generated_at": "2026-07-05T23:38:10.686243",
     "price_at_generation": 95.4,
     "pnl_at_generation": -13.09
   },
   "history": [
+    {
+      "ticker": "ABT",
+      "company_name": "Abbott Laboratories",
+      "action": "Hold",
+      "action_reason": "Loss is below 15% threshold, fundamentals are healthy, and imminent earnings present potential catalyst. Wait for earnings clarity before any portfolio adjustments.",
+      "target_price": null,
+      "target_reasoning": "",
+      "exit_trigger": "Only exit if fundamentals deteriorate post-earnings or position loses >15% (drops below $93.30)",
+      "add_trigger": "Add if position drops to -15% AND fundamentals confirm healthy, or if RSI falls below 40 post-earnings with positive surprise",
+      "risk": "Earnings miss could accelerate decline; broad market selloff given Extreme Fear backdrop; binary event risk into print",
+      "outlook": "cautious",
+      "timeframe": "2-3 weeks (through earnings + recovery period)",
+      "generated_at": "2026-07-02T23:41:25.435158",
+      "price_at_generation": 95.4,
+      "pnl_at_generation": -13.09,
+      "archived_at": "2026-07-05T23:38:10.686424"
+    },
     {
       "ticker": "ABT",
       "company_name": "Abbott Laboratories",
@@ -117,23 +134,6 @@
       "price_at_generation": 90.49,
       "pnl_at_generation": -17.56,
       "archived_at": "2026-06-25T23:55:36.653394"
-    },
-    {
-      "ticker": "ABT",
-      "company_name": "Abbott Laboratories",
-      "action": "Hold",
-      "action_reason": "Position exceeds 15% loss threshold, triggering philosophy to hold through major losers. Fundamentals remain healthy and RSI neutral suggests stabilization potential rather than collapse.",
-      "target_price": 105.0,
-      "target_reasoning": "",
-      "exit_trigger": "Fundamental deterioration in next earnings report OR break below $85 (new lows with volume confirmation)",
-      "add_trigger": "RSI falls to 35-40 range with VIX spike above 25 (panic washout); OR strong earnings beat with margin expansion",
-      "risk": "Extended macro downturn or healthcare sector weakness; portfolio concentration (5.6% weight) limits diversification buffer",
-      "outlook": "cautious",
-      "timeframe": "4-8 weeks (wait for next earnings catalyst + technical stabilization signals)",
-      "generated_at": "2026-06-23T23:37:52.525364",
-      "price_at_generation": 90.53,
-      "pnl_at_generation": -17.53,
-      "archived_at": "2026-06-24T23:46:19.771186"
     }
   ]
 }

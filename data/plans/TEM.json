@@ -3,19 +3,36 @@
     "ticker": "TEM",
     "company_name": "Tempus AI, Inc.",
     "action": "Hold",
-    "action_reason": "Per philosophy, position is only 12.75% down (below 15% threshold), so forced hold. However, this is a deteriorating business fundamentally unsound for swing trading; set strict exit triggers rather than averaging down.",
+    "action_reason": "Position is down 12.75%, below the 15% threshold where philosophy permits exits. However, monitor closely for deterioration acceleration or debt/covenant concerns that could trigger forced selling.",
     "target_price": null,
     "target_reasoning": "",
-    "exit_trigger": "Break below $57.25 (5% further loss) OR any earnings miss OR debt/liquidity concerns surface OR cash burn accelerates",
-    "add_trigger": "Do NOT add - fundamentals don't support averaging into a unprofitable, cash-burning position with high leverage",
-    "risk": "Bankruptcy risk if operating cash flow doesn't turn positive; debt servicing pressure in downturn; dilution from future financing rounds",
+    "exit_trigger": "Loss exceeds 15% OR negative earnings catalyst OR debt covenant warning OR cash runway concerns emerge",
+    "add_trigger": "Company achieves operating cash flow breakeven AND debt-to-equity improves to <2.5x",
+    "risk": "Liquidity risk from negative cash burn; refinancing risk from elevated debt levels; continued losses could force dilutive capital raises",
     "outlook": "cautious",
-    "timeframe": "2-4 weeks to next catalyst or forced reassessment",
-    "generated_at": "2026-07-02T23:41:32.801823",
+    "timeframe": "2-4 weeks (monitor next earnings/guidance for path to profitability; high debt limits recovery potential)",
+    "generated_at": "2026-07-05T23:38:18.590427",
     "price_at_generation": 60.27,
     "pnl_at_generation": -12.75
   },
   "history": [
+    {
+      "ticker": "TEM",
+      "company_name": "Tempus AI, Inc.",
+      "action": "Hold",
+      "action_reason": "Per philosophy, position is only 12.75% down (below 15% threshold), so forced hold. However, this is a deteriorating business fundamentally unsound for swing trading; set strict exit triggers rather than averaging down.",
+      "target_price": null,
+      "target_reasoning": "",
+      "exit_trigger": "Break below $57.25 (5% further loss) OR any earnings miss OR debt/liquidity concerns surface OR cash burn accelerates",
+      "add_trigger": "Do NOT add - fundamentals don't support averaging into a unprofitable, cash-burning position with high leverage",
+      "risk": "Bankruptcy risk if operating cash flow doesn't turn positive; debt servicing pressure in downturn; dilution from future financing rounds",
+      "outlook": "cautious",
+      "timeframe": "2-4 weeks to next catalyst or forced reassessment",
+      "generated_at": "2026-07-02T23:41:32.801823",
+      "price_at_generation": 60.27,
+      "pnl_at_generation": -12.75,
+      "archived_at": "2026-07-05T23:38:18.590631"
+    },
     {
       "ticker": "TEM",
       "company_name": "Tempus AI, Inc.",
@@ -117,23 +134,6 @@
       "price_at_generation": 51.94,
       "pnl_at_generation": -24.81,
       "archived_at": "2026-06-25T23:55:43.624583"
-    },
-    {
-      "ticker": "TEM",
-      "company_name": "Tempus AI, Inc.",
-      "action": "Hold",
-      "action_reason": "Your stated philosophy prohibits exits on >15% losses. However, monitor closely for either a fundamental turnaround (path to profitability, cash flow positive) or technical capitulation (RSI <30 + volume surge) before considering any position adjustment.",
-      "target_price": null,
-      "target_reasoning": "",
-      "exit_trigger": "RSI falls below 30 with volume surge (capitulation), OR company announces strategic pivot toward profitability + positive FCF guidance within 2 quarters",
-      "add_trigger": "Price drops below $40 (capitulation zone) AND RSI <25 with bullish divergence, indicating institutional accumulation",
-      "risk": "Bankruptcy/dilution risk if cash burn accelerates without revenue inflection; high debt burden limits runway",
-      "outlook": "cautious",
-      "timeframe": "3-6 months for fundamental inflection or forced portfolio reset",
-      "generated_at": "2026-06-23T23:37:59.547699",
-      "price_at_generation": 48.61,
-      "pnl_at_generation": -29.63,
-      "archived_at": "2026-06-24T23:46:26.494910"
     }
   ]
 }
