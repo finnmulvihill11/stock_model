@@ -1,43 +1,86 @@
 {
   "current": {
-    "headline": "Portfolio locked in hold mode with $1k dry powder \u2014 patience for mean-reversion setups in oversold tech/infrastructure names.",
+    "headline": "Hold core positions through mean-reversion cycle; deploy remaining $1K into oversold quality names as Extreme Fear presents textbook entry opportunity.",
     "market_stance": "offensive",
-    "overall_thesis": "Extreme Fear (23) has flushed out multiple classic oversold mean-reversion setups across defensible names (WMT, ON, DLR, IRM). Portfolio is underwater but thesis intact \u2014 major losers (INTU -41%, MSFT -16%) stay held per discipline. Deploy remaining $1k into 1\u20132 highest-conviction buys as volatility compression reward trade over next 4\u20138 weeks.",
+    "overall_thesis": "Extreme Fear (24) combined with neutral VIX and oversold technicals across quality names creates a classic mean-reversion setup. Your portfolio's -15.93% drawdown is within philosophy\u2014hold INTU, MSFT, and other major losers through recovery. Deploy remaining $1K across 2\u20133 screened opportunities (ON, HPQ, IRM, DLR) with persistent Buy signals to average into quality at depressed prices.",
     "priority_actions": [
       {
         "rank": 1,
         "action": "BUY",
-        "ticker": "WMT",
-        "instruction": "Strong Buy signal detected. Deploy $400\u2013500 (\u22486\u20137 shares at ~$70\u201375) into Walmart mean-reversion setup. RSI oversold + defensive quality + earnings visibility make this the highest-conviction entry available.",
+        "ticker": "ON",
+        "instruction": "BUY 50\u201375 shares of ON on next dip to RSI \u226438 or at current market price if conviction remains high. Cost ~$550\u2013$825 depending on fill. Persistent Buy signal + oversold RSI 38.9 + Extreme Fear environment = high-conviction entry.",
         "urgency": "immediate"
       },
       {
         "rank": 2,
         "action": "BUY",
-        "ticker": "DLR",
-        "instruction": "Buy signal active 2+ scrapes. Deploy $300\u2013400 (\u22482\u20133 shares at ~$120\u2013150 range) into Digital Realty data-center play. RSI 33.3 deep oversold + inflation-hedge thesis + AI capex tailwind supports mean-reversion bounce.",
+        "ticker": "IRM",
+        "instruction": "BUY 30\u201350 shares of IRM on dip to RSI \u226435 or at market if signal persists. Cost ~$350\u2013$500. Textbook oversold (RSI 35.9) with persistent Buy signal in Fear environment.",
         "urgency": "this week"
       },
       {
         "rank": 3,
-        "action": "BUY",
-        "ticker": "IRM",
-        "instruction": "Persistent Buy signal. Allocate remaining $150\u2013200 (\u22481\u20132 shares) into Iron Mountain if WMT + DLR fill first. RSI 35.9 + infrastructure defensive play + dividend support = lower volatility recovery."
+        "action": "ADD",
+        "ticker": "XOM",
+        "instruction": "ADD 20\u201330 shares to XOM position if RSI stays \u226436 or on any intraday dip this week. Cost ~$150\u2013$250. XOM already held; RSI 35.8 signals mean-reversion bounce imminent. Top-up builds conviction on core energy play.",
+        "urgency": "this week"
       }
     ],
-    "biggest_risk": "INTU and MSFT positions are structural drags on portfolio (combined -$2,360 loss). If tech earnings miss badly this quarter, these could extend losses further. Mitigated only by hold discipline and eventual recovery \u2014 but watch for thesis break (e.g., major guidance cuts).",
+    "biggest_risk": "Broad market reversal if Extreme Fear spikes further (VIX >20) before mean-reversion plays recover. INTU's -41.9% drawdown and MSFT's -17.2% could compress further in a 5\u201310% market correction. Mitigate by holding dry powder (~$500) for deeper dips rather than deploying all $1K immediately.",
     "what_to_watch": [
-      "INTU earnings (late July) \u2014 need positive guidance reversal to justify 41% loss hold",
-      "CMG earnings in 24 days \u2014 current +12.5% winner; watch for beat/raise to validate swing thesis",
-      "VIX compression below 14 \u2014 confirms fear flush, likely triggers bounce in new mean-reversion entries (WMT, DLR, IRM)"
+      "ABT earnings in 10 days \u2014 catalyst for potential bounce or breakdown; currently -12.9% and near support",
+      "CMG earnings in 23 days \u2014 +8% gainer; watch for overbought consolidation before earnings volatility",
+      "Fed/macro data or rate expectations \u2014 VIX at 15.6 is calm; any hawkish surprise could trigger Fear spike and extend losses",
+      "Semiconductor momentum (ON, HPQ) \u2014 watch if ON/HPQ hold above recent lows; failure to bounce on Buy signals = thesis revision needed"
     ],
     "on_course_check": [
-      "\u2713 Plan working if: New mean-reversion entries (WMT, DLR) rally 8\u201312% within 2\u20133 weeks as VIX normalizes",
-      "\u26a0 Plan broken if: Tech sector (INTU, MSFT) break below recent lows with no earnings recovery catalyst in sight \u2014 would signal thesis is dead, not just oversold"
+      "\u2713 ON COURSE: Holding INTU, MSFT through >15% drawdowns per philosophy; portfolio P&L tracks mean-reversion playbook",
+      "\u2713 ON COURSE: Extreme Fear (24) validating thesis to buy oversold quality; deploying on screened signals aligns with strategy",
+      "\u26a0 REVISE IF: VIX spikes above 20 or market corrects >5% without mean-reversion bounce in 5\u20137 days \u2192 pause new buys, reserve cash",
+      "\u26a0 REVISE IF: ON, HPQ, IRM fail to bounce after Buy signals trigger and RSI stays <35 for >10 days \u2192 thesis broken, reassess fundamentals"
     ],
-    "generated_at": "2026-07-05T23:38:55.748537"
+    "generated_at": "2026-07-06T23:42:19.103973"
   },
   "history": [
+    {
+      "headline": "Portfolio locked in hold mode with $1k dry powder \u2014 patience for mean-reversion setups in oversold tech/infrastructure names.",
+      "market_stance": "offensive",
+      "overall_thesis": "Extreme Fear (23) has flushed out multiple classic oversold mean-reversion setups across defensible names (WMT, ON, DLR, IRM). Portfolio is underwater but thesis intact \u2014 major losers (INTU -41%, MSFT -16%) stay held per discipline. Deploy remaining $1k into 1\u20132 highest-conviction buys as volatility compression reward trade over next 4\u20138 weeks.",
+      "priority_actions": [
+        {
+          "rank": 1,
+          "action": "BUY",
+          "ticker": "WMT",
+          "instruction": "Strong Buy signal detected. Deploy $400\u2013500 (\u22486\u20137 shares at ~$70\u201375) into Walmart mean-reversion setup. RSI oversold + defensive quality + earnings visibility make this the highest-conviction entry available.",
+          "urgency": "immediate"
+        },
+        {
+          "rank": 2,
+          "action": "BUY",
+          "ticker": "DLR",
+          "instruction": "Buy signal active 2+ scrapes. Deploy $300\u2013400 (\u22482\u20133 shares at ~$120\u2013150 range) into Digital Realty data-center play. RSI 33.3 deep oversold + inflation-hedge thesis + AI capex tailwind supports mean-reversion bounce.",
+          "urgency": "this week"
+        },
+        {
+          "rank": 3,
+          "action": "BUY",
+          "ticker": "IRM",
+          "instruction": "Persistent Buy signal. Allocate remaining $150\u2013200 (\u22481\u20132 shares) into Iron Mountain if WMT + DLR fill first. RSI 35.9 + infrastructure defensive play + dividend support = lower volatility recovery."
+        }
+      ],
+      "biggest_risk": "INTU and MSFT positions are structural drags on portfolio (combined -$2,360 loss). If tech earnings miss badly this quarter, these could extend losses further. Mitigated only by hold discipline and eventual recovery \u2014 but watch for thesis break (e.g., major guidance cuts).",
+      "what_to_watch": [
+        "INTU earnings (late July) \u2014 need positive guidance reversal to justify 41% loss hold",
+        "CMG earnings in 24 days \u2014 current +12.5% winner; watch for beat/raise to validate swing thesis",
+        "VIX compression below 14 \u2014 confirms fear flush, likely triggers bounce in new mean-reversion entries (WMT, DLR, IRM)"
+      ],
+      "on_course_check": [
+        "\u2713 Plan working if: New mean-reversion entries (WMT, DLR) rally 8\u201312% within 2\u20133 weeks as VIX normalizes",
+        "\u26a0 Plan broken if: Tech sector (INTU, MSFT) break below recent lows with no earnings recovery catalyst in sight \u2014 would signal thesis is dead, not just oversold"
+      ],
+      "generated_at": "2026-07-05T23:38:55.748537",
+      "archived_at": "2026-07-06T23:42:19.104265"
+    },
     {
       "headline": "Portfolio holding firm through drawdown; Extreme Fear creates contrarian entry window\u2014deploy remaining $1k into oversold quality names.",
       "market_stance": "offensive",
@@ -320,47 +363,6 @@
       ],
       "generated_at": "2026-06-25T23:56:24.253933",
       "archived_at": "2026-06-28T23:42:32.120087"
-    },
-    {
-      "headline": "Portfolio underwater but holding major losers; extreme fear creates textbook oversold entry opportunities\u2014deploy remaining $1K strategically into mean-reversion setups.",
-      "market_stance": "offensive",
-      "overall_thesis": "Your core tech positions (INTU, MSFT) are severely underwater but fundamentally sound\u2014hold through recovery per your philosophy. Extreme Fear (VIX 17, F&G 17) and widespread oversold signals (RSI 30s\u201340s across energy, industrials, REITs) present high-conviction mean-reversion buys. Deploy your $1K budget into the strongest oversold setups with 2+ consecutive buy scrapes; these typically recover 8\u201315% within 4\u20138 weeks when fear resets.",
-      "priority_actions": [
-        {
-          "rank": 1,
-          "action": "BUY",
-          "ticker": "AKAM",
-          "instruction": "Buy ~$300 position (RSI 38.6 oversold, persistent buy signal, 2+ scrapes). Target entry near current support; plan to hold 4\u20136 weeks for 10\u201315% mean-reversion bounce.",
-          "urgency": "this week"
-        },
-        {
-          "rank": 2,
-          "action": "BUY",
-          "ticker": "EQR",
-          "instruction": "Buy ~$350 position (RSI 39.8 oversold, REIT oversold in fear environment, persistent buy). REITs historically snap back hard from extreme fear\u2014set target for 12\u201318% recovery in 6\u20138 weeks.",
-          "urgency": "this week"
-        },
-        {
-          "rank": 3,
-          "action": "BUY",
-          "ticker": "ADM",
-          "instruction": "Buy ~$350 position (RSI 38.8 oversold, agricultural sector under pressure but fundamentals stable). Typical recovery window 4\u20136 weeks, 8\u201312% upside on mean reversion.",
-          "urgency": "this week"
-        }
-      ],
-      "biggest_risk": "INTU at \u201344% and MSFT at \u201321.8% represent $1,800+ of drawdown. If tech continues to deteriorate (earnings miss, rate-hike surprise, sector rotation), both could test even lower before reversal. Your hold-through-major-losses rule keeps you in the game, but monitor quarterly earnings\u2014thesis break would be Q3 results that show demand collapse, not just valuation reset.",
-      "what_to_watch": [
-        "Fed speakers this week\u2014any hawkish surprise resets the fear trade and extends energy/rate-sensitive mean reversions",
-        "Tech earnings (Intel, Nvidia, Broadcom)\u2014any guidance miss could keep MSFT/INTU under pressure longer",
-        "Oil price stability\u2014XOM and OXY buy signals depend on energy holding support; crude <$70 would invalidate energy reversal thesis",
-        "Extreme Fear persistence\u2014if F&G remains <25, your new buys will have slower recovery; F&G >30 = faster mean-reversion snapback (typical)"
-      ],
-      "on_course_check": [
-        "\u2713 Plan working if: INTU/MSFT recover 5\u201310% within 3 weeks (early mean-reversion signal); new AKAM/EQR/ADM positions gain 8\u201312% by week 4",
-        "\u2717 Revise if: INTU breaks below 52-week lows or MSFT RSI falls below 25 (suggests structural break, not oversold bounce); or F&G spikes above 40 (capitulation reset could trigger deeper losses before reversal)"
-      ],
-      "generated_at": "2026-06-24T23:47:12.220433",
-      "archived_at": "2026-06-25T23:56:24.254191"
     }
   ]
 }

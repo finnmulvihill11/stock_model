@@ -3,19 +3,36 @@
     "ticker": "CMG",
     "company_name": "Chipotle Mexican Grill, Inc.",
     "action": "Hold",
-    "action_reason": "Position is profitable with meaningful upside catalyst (earnings in 24d) approaching. Extreme Fear backdrop provides contrarian support, but RSI overbought conditions warrant patience before adding. Respect the swing trader rule: exit only when profitable.",
-    "target_price": 38.5,
+    "action_reason": "Position is +7.98% profitable with an upcoming earnings catalyst in 23 days. Hold through earnings unless RSI breaks above 70 (overbought signal) or breaks below 40 on weakness. Risk/reward is balanced for a swing trade at this stage.",
+    "target_price": 36.5,
     "target_reasoning": "",
-    "exit_trigger": "RSI drops below 50 AND price closes below $34.20 on heavy volume (> 2M shares), signaling momentum loss before earnings",
-    "add_trigger": "CMG pulls back to $33.50-$34.00 on light volume while RSI normalizes to 45-55 range; signals healthy consolidation for re-entry",
-    "risk": "Earnings miss could trigger sharp reversal; elevated debt-to-equity reduces margin of safety for negative surprises",
-    "outlook": "cautious",
-    "timeframe": "2-4 weeks (through earnings)",
-    "generated_at": "2026-07-05T23:38:26.107414",
-    "price_at_generation": 35.39,
-    "pnl_at_generation": 12.46
+    "exit_trigger": "Exit 50% if RSI exceeds 70 OR if stock closes below $32.50 (support near entry). Full exit after earnings if thesis breaks.",
+    "add_trigger": "Add only if stock pulls back to $32-32.50 with RSI < 50 (buy dip confirmation)",
+    "risk": "Earnings miss could trigger sharp reversal; high leverage (2.2x D/E) amplifies downside if sector sentiment shifts negative",
+    "outlook": "neutral",
+    "timeframe": "2-3 weeks until earnings; reassess after report",
+    "generated_at": "2026-07-06T23:41:42.874989",
+    "price_at_generation": 33.98,
+    "pnl_at_generation": 7.98
   },
   "history": [
+    {
+      "ticker": "CMG",
+      "company_name": "Chipotle Mexican Grill, Inc.",
+      "action": "Hold",
+      "action_reason": "Position is profitable with meaningful upside catalyst (earnings in 24d) approaching. Extreme Fear backdrop provides contrarian support, but RSI overbought conditions warrant patience before adding. Respect the swing trader rule: exit only when profitable.",
+      "target_price": 38.5,
+      "target_reasoning": "",
+      "exit_trigger": "RSI drops below 50 AND price closes below $34.20 on heavy volume (> 2M shares), signaling momentum loss before earnings",
+      "add_trigger": "CMG pulls back to $33.50-$34.00 on light volume while RSI normalizes to 45-55 range; signals healthy consolidation for re-entry",
+      "risk": "Earnings miss could trigger sharp reversal; elevated debt-to-equity reduces margin of safety for negative surprises",
+      "outlook": "cautious",
+      "timeframe": "2-4 weeks (through earnings)",
+      "generated_at": "2026-07-05T23:38:26.107414",
+      "price_at_generation": 35.39,
+      "pnl_at_generation": 12.46,
+      "archived_at": "2026-07-06T23:41:42.875184"
+    },
     {
       "ticker": "CMG",
       "company_name": "Chipotle Mexican Grill, Inc.",
@@ -117,23 +134,6 @@
       "price_at_generation": 32.28,
       "pnl_at_generation": 2.57,
       "archived_at": "2026-06-28T23:41:53.630639"
-    },
-    {
-      "ticker": "CMG",
-      "company_name": "Chipotle Mexican Grill, Inc.",
-      "action": "Hold",
-      "action_reason": "Position is +0.70% profitable (exit-eligible per philosophy) but too close to entry with minimal gain. Waiting for earnings catalyst (35d) or RSI breakout above 55 offers better risk/reward than exiting now.",
-      "target_price": 33.5,
-      "target_reasoning": "",
-      "exit_trigger": "Break below $30.80 (entry support) OR take profits at $33.50+ (6.4% gain) if RSI reaches 70 before earnings",
-      "add_trigger": "RSI dips to 35-40 with VIX <16 and price holds above $31.00",
-      "risk": "Debt burden limits downside recovery potential; earnings miss in 35d could trigger sell-off; restaurant sector exposed to consumer spending slowdown given Extreme Fear backdrop",
-      "outlook": "cautious",
-      "timeframe": "4-5 weeks (to earnings catalyst)",
-      "generated_at": "2026-06-24T23:46:34.643313",
-      "price_at_generation": 31.69,
-      "pnl_at_generation": 0.7,
-      "archived_at": "2026-06-25T23:55:50.191873"
     }
   ]
 }

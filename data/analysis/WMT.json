@@ -1,0 +1,89 @@
+{
+  "ticker": "WMT",
+  "signal": {
+    "ticker": "WMT",
+    "direction": "hold",
+    "tier": "Hold",
+    "buy_score": 0.5,
+    "sell_score": 0.14,
+    "reasons": [],
+    "misses": [
+      "BB Width: bands expanding, not squeezing",
+      "MACD: no bullish crossover or valley",
+      "RSI Divergence: no bullish divergence detected",
+      "200MA: price below 200MA \u2014 potential falling knife"
+    ],
+    "price": 110.65,
+    "rsi": 33.7,
+    "atr": 2.96,
+    "final_tier": "Hold",
+    "sizing": {
+      "suggested_shares": 1,
+      "suggested_dollars": 110.65,
+      "note": "1 sh @ $110.65 = $111 (Hold, 60% size) | $650 swing budget after"
+    }
+  },
+  "fundamentals": {
+    "ticker": "WMT",
+    "health": "healthy",
+    "passed": [
+      "Revenue growing YoY (+7.3%)",
+      "Debt-to-equity acceptable (0.7x)",
+      "Profitable (margin 3.1%)"
+    ],
+    "flags": [],
+    "revenue_growth": 0.073,
+    "de_ratio": 74.816,
+    "profit_margins": 0.03135
+  },
+  "earnings": {
+    "proceed": true,
+    "reason": "Fundamentals intact \u2014 dip may be an overreaction",
+    "verdict": {
+      "ticker": "WMT",
+      "verdict": "consider",
+      "reason": "Fundamentals intact \u2014 dip may be an overreaction",
+      "notes": [
+        "Earnings growing YoY (+19.4%)",
+        "Revenue growing (+7.3%)"
+      ],
+      "earnings_status": "distant",
+      "next_earnings_date": "2026-08-20",
+      "days_to_earnings": 45
+    }
+  },
+  "news": {
+    "ticker": "WMT",
+    "sentiment": "neutral",
+    "health": "healthy",
+    "key_events": [
+      "No recent news items provided for analysis",
+      "Earnings 45 days out provides runway for recovery",
+      "Market in Extreme Fear sentiment (potential capitulation)"
+    ],
+    "macro_context": "",
+    "competitive_notes": "",
+    "red_flags": [
+      "RSI 33.7 indicates oversold conditions but no bounce yet",
+      "No firing signals on technicals\u2014lack of bullish confirmation",
+      "Position down 0.98% with no clear catalyst for reversal"
+    ],
+    "verdict": "WMT is fundamentally healthy and oversold; hold and monitor for technical reversal signals before next earnings.",
+    "confidence": "medium"
+  },
+  "relative_strength": {
+    "ticker": "WMT",
+    "stock_return_3m": -11.87,
+    "benchmark_return_3m": 14.85,
+    "relative_strength": -26.72,
+    "label": "underperforming"
+  },
+  "final_tier": "Hold",
+  "sizing": {
+    "suggested_shares": 1,
+    "suggested_dollars": 110.65,
+    "note": "1 sh @ $110.65 = $111 (Hold, 60% size) | $650 swing budget after"
+  },
+  "is_dca": false,
+  "saved_at": "2026-07-06T23:42:03.882920"
+}

@@ -3,19 +3,36 @@
     "ticker": "TEM",
     "company_name": "Tempus AI, Inc.",
     "action": "Hold",
-    "action_reason": "Position is down 12.75%, below the 15% threshold where philosophy permits exits. However, monitor closely for deterioration acceleration or debt/covenant concerns that could trigger forced selling.",
+    "action_reason": "Your trading philosophy prohibits exits on positions down >15% (currently -12.13%). However, monitor closely for deterioration below -15% threshold or positive catalyst emergence, as fundamentals remain weak.",
     "target_price": null,
     "target_reasoning": "",
-    "exit_trigger": "Loss exceeds 15% OR negative earnings catalyst OR debt covenant warning OR cash runway concerns emerge",
-    "add_trigger": "Company achieves operating cash flow breakeven AND debt-to-equity improves to <2.5x",
-    "risk": "Liquidity risk from negative cash burn; refinancing risk from elevated debt levels; continued losses could force dilutive capital raises",
+    "exit_trigger": "Position reaches -15% loss OR negative operating cash flow worsens materially OR debt restructuring concerns emerge",
+    "add_trigger": "Not recommended given deteriorating fundamentals; only consider if company announces profitability pathway or significant revenue inflection",
+    "risk": "Continued cash burn without profitability path; potential dilution via financing; debt covenant stress if revenue declines",
     "outlook": "cautious",
-    "timeframe": "2-4 weeks (monitor next earnings/guidance for path to profitability; high debt limits recovery potential)",
-    "generated_at": "2026-07-05T23:38:18.590427",
-    "price_at_generation": 60.27,
-    "pnl_at_generation": -12.75
+    "timeframe": "2-3 months to next catalyst or earnings",
+    "generated_at": "2026-07-06T23:41:35.759622",
+    "price_at_generation": 60.7,
+    "pnl_at_generation": -12.13
   },
   "history": [
+    {
+      "ticker": "TEM",
+      "company_name": "Tempus AI, Inc.",
+      "action": "Hold",
+      "action_reason": "Position is down 12.75%, below the 15% threshold where philosophy permits exits. However, monitor closely for deterioration acceleration or debt/covenant concerns that could trigger forced selling.",
+      "target_price": null,
+      "target_reasoning": "",
+      "exit_trigger": "Loss exceeds 15% OR negative earnings catalyst OR debt covenant warning OR cash runway concerns emerge",
+      "add_trigger": "Company achieves operating cash flow breakeven AND debt-to-equity improves to <2.5x",
+      "risk": "Liquidity risk from negative cash burn; refinancing risk from elevated debt levels; continued losses could force dilutive capital raises",
+      "outlook": "cautious",
+      "timeframe": "2-4 weeks (monitor next earnings/guidance for path to profitability; high debt limits recovery potential)",
+      "generated_at": "2026-07-05T23:38:18.590427",
+      "price_at_generation": 60.27,
+      "pnl_at_generation": -12.75,
+      "archived_at": "2026-07-06T23:41:35.759914"
+    },
     {
       "ticker": "TEM",
       "company_name": "Tempus AI, Inc.",
@@ -117,23 +134,6 @@
       "price_at_generation": 54.87,
       "pnl_at_generation": -20.57,
       "archived_at": "2026-06-28T23:41:43.476418"
-    },
-    {
-      "ticker": "TEM",
-      "company_name": "Tempus AI, Inc.",
-      "action": "Hold",
-      "action_reason": "Position is down 24.81%, exceeding the 15% threshold that triggers the hold-through-losses philosophy. However, await clarity on path to profitability or debt restructuring before considering adds.",
-      "target_price": null,
-      "target_reasoning": "",
-      "exit_trigger": "Bankruptcy risk emerges, debt default becomes imminent, or cash runway falls below 6 months without capital raise",
-      "add_trigger": "Profitable quarter or positive FCF reported + break above $65 with RSI >70 + institutional accumulation signals",
-      "risk": "Negative cash flow + high debt = potential dilutive capital raise or restructuring. No earnings support recovery narrative.",
-      "outlook": "cautious",
-      "timeframe": "4-8 weeks (monitor quarterly burn rate and debt covenants)",
-      "generated_at": "2026-06-24T23:46:26.494716",
-      "price_at_generation": 51.94,
-      "pnl_at_generation": -24.81,
-      "archived_at": "2026-06-25T23:55:43.624583"
     }
   ]
 }

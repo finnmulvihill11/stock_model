@@ -3,19 +3,36 @@
     "ticker": "OXY",
     "company_name": "Occidental Petroleum Corporation",
     "action": "Hold",
-    "action_reason": "Position is only -2.92%, well within tolerance. Philosophy forbids trimming losers <15%. Oversold RSI (31.6) + Extreme Fear sentiment creates swing opportunity; earnings in 31 days is key catalyst worth holding for.",
+    "action_reason": "Loss is modest (3.12%) and within acceptable swing trader variance. Upcoming earnings within 30 days is a critical catalyst; extreme market fear creates asymmetric risk/reward for recovery. Revenue decline is concerning but needs earnings context.",
     "target_price": 52.5,
     "target_reasoning": "",
-    "exit_trigger": "Break below $47 (critical support) OR negative earnings miss + breakdown below 200-day MA",
-    "add_trigger": "RSI touches 20\u201325 with reversal confirmation (bullish engulfing/hammer) OR oil prices spike on geopolitical news",
-    "risk": "Continued revenue erosion signals structural headwind; could retest $46\u201347 before recovery. Earnings could disappoint.",
+    "exit_trigger": "Break below $47.20 (near 4% loss) on volume, or post-earnings miss with negative guidance",
+    "add_trigger": "RSI climbs above 40 + close above $49.50 on earnings beat or positive production news",
+    "risk": "Commodity price weakness (oil downturn), disappointing earnings, continued revenue erosion. Extreme Fear may reverse sharply if macro deteriorates further.",
     "outlook": "cautious",
-    "timeframe": "3\u20134 weeks (hold until earnings; reassess post-release)",
-    "generated_at": "2026-07-05T23:38:41.181824",
-    "price_at_generation": 48.91,
-    "pnl_at_generation": -2.92
+    "timeframe": "2-4 weeks (through earnings announcement)",
+    "generated_at": "2026-07-06T23:41:56.595994",
+    "price_at_generation": 48.81,
+    "pnl_at_generation": -3.12
   },
   "history": [
+    {
+      "ticker": "OXY",
+      "company_name": "Occidental Petroleum Corporation",
+      "action": "Hold",
+      "action_reason": "Position is only -2.92%, well within tolerance. Philosophy forbids trimming losers <15%. Oversold RSI (31.6) + Extreme Fear sentiment creates swing opportunity; earnings in 31 days is key catalyst worth holding for.",
+      "target_price": 52.5,
+      "target_reasoning": "",
+      "exit_trigger": "Break below $47 (critical support) OR negative earnings miss + breakdown below 200-day MA",
+      "add_trigger": "RSI touches 20\u201325 with reversal confirmation (bullish engulfing/hammer) OR oil prices spike on geopolitical news",
+      "risk": "Continued revenue erosion signals structural headwind; could retest $46\u201347 before recovery. Earnings could disappoint.",
+      "outlook": "cautious",
+      "timeframe": "3\u20134 weeks (hold until earnings; reassess post-release)",
+      "generated_at": "2026-07-05T23:38:41.181824",
+      "price_at_generation": 48.91,
+      "pnl_at_generation": -2.92,
+      "archived_at": "2026-07-06T23:41:56.596207"
+    },
     {
       "ticker": "OXY",
       "company_name": "Occidental Petroleum Corporation",
@@ -117,23 +134,6 @@
       "price_at_generation": 51.21,
       "pnl_at_generation": -1.33,
       "archived_at": "2026-06-28T23:42:15.664126"
-    },
-    {
-      "ticker": "OXY",
-      "company_name": "Occidental Petroleum Corporation",
-      "action": "Hold",
-      "action_reason": "Position loss is modest (-1.56%), well below your 15% threshold for holding major losers. Extreme Fear sentiment and oversold RSI (32.9) suggest washout phase may be ending; hold for mean reversion or next earnings catalyst.",
-      "target_price": 54.5,
-      "target_reasoning": "",
-      "exit_trigger": "RSI breaks below 25 on high volume OR revenue guidance cut by >10% OR position reaches -15% (then hold per philosophy)",
-      "add_trigger": "RSI climbs to 45+ with confirmed higher low in price AND energy sector shows sector-wide recovery signal",
-      "risk": "Continued revenue erosion may indicate structural oil demand shift or company-specific operational issues; macro energy downturn could accelerate losses.",
-      "outlook": "cautious",
-      "timeframe": "3-4 weeks until next earnings provides clarity on revenue stabilization",
-      "generated_at": "2026-06-24T23:46:55.526098",
-      "price_at_generation": 51.09,
-      "pnl_at_generation": -1.56,
-      "archived_at": "2026-06-25T23:56:07.646724"
     }
   ]
 }

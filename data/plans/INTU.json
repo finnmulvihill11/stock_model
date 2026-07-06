@@ -3,19 +3,36 @@
     "ticker": "INTU",
     "company_name": "Intuit Inc.",
     "action": "Hold",
-    "action_reason": "Position is down 41.20%, triggering your rule against trimming major losers. Fundamentals healthy and VIX neutral suggest conditions may stabilize; hold for recovery without fighting the downtrend by adding.",
-    "target_price": 385,
+    "action_reason": "Philosophy mandates holding positions down >15%; fundamentals remain healthy and market shows extreme fear, which often precedes reversals. Earnings are in the rearview, reducing near-term event risk.",
+    "target_price": 380,
     "target_reasoning": "",
-    "exit_trigger": "Fundamentals deteriorate OR position rises above $380 with negative divergence in volume/RSI; only exit if health status changes",
-    "add_trigger": "RSI oversold (<30) + positive earnings revision OR major product/market catalyst announced",
-    "risk": "Continued macro weakness in small business/SMB software spending; SaaS sector rotation; valuation compression if rates remain elevated",
+    "exit_trigger": "Break below $250 on heavy volume; deteriorating fundamentals or guidance cut",
+    "add_trigger": "RSI falls to 25-30 (capitulation) AND positive news catalyst emerges; or earnings beat with raised guidance",
+    "risk": "Continued macro weakness in small business spending (INTU's core market); potential for further downside if recession fears intensify",
     "outlook": "cautious",
-    "timeframe": "3-6 months for recovery to $350-385 range; monitor next earnings (likely 90+ days out)",
-    "generated_at": "2026-07-05T23:37:57.114131",
-    "price_at_generation": 275.35,
-    "pnl_at_generation": -41.2
+    "timeframe": "4-8 weeks",
+    "generated_at": "2026-07-06T23:41:12.411389",
+    "price_at_generation": 272.14,
+    "pnl_at_generation": -41.89
   },
   "history": [
+    {
+      "ticker": "INTU",
+      "company_name": "Intuit Inc.",
+      "action": "Hold",
+      "action_reason": "Position is down 41.20%, triggering your rule against trimming major losers. Fundamentals healthy and VIX neutral suggest conditions may stabilize; hold for recovery without fighting the downtrend by adding.",
+      "target_price": 385,
+      "target_reasoning": "",
+      "exit_trigger": "Fundamentals deteriorate OR position rises above $380 with negative divergence in volume/RSI; only exit if health status changes",
+      "add_trigger": "RSI oversold (<30) + positive earnings revision OR major product/market catalyst announced",
+      "risk": "Continued macro weakness in small business/SMB software spending; SaaS sector rotation; valuation compression if rates remain elevated",
+      "outlook": "cautious",
+      "timeframe": "3-6 months for recovery to $350-385 range; monitor next earnings (likely 90+ days out)",
+      "generated_at": "2026-07-05T23:37:57.114131",
+      "price_at_generation": 275.35,
+      "pnl_at_generation": -41.2,
+      "archived_at": "2026-07-06T23:41:12.411598"
+    },
     {
       "ticker": "INTU",
       "company_name": "Intuit Inc.",
@@ -117,23 +134,6 @@
       "price_at_generation": 255.07,
       "pnl_at_generation": -45.53,
       "archived_at": "2026-06-28T23:41:25.039934"
-    },
-    {
-      "ticker": "INTU",
-      "company_name": "Intuit Inc.",
-      "action": "Hold",
-      "action_reason": "Position is down 44%, triggering your hold-through-major-losses rule. RSI at 31.8 (oversold) + Extreme Fear sentiment present potential reversal setup. Fundamentals intact, no deterioration signals yet.",
-      "target_price": 385,
-      "target_reasoning": "",
-      "exit_trigger": "Fundamental deterioration in next earnings OR break below $240 on heavy volume indicating capitulation exhaustion",
-      "add_trigger": "RSI rises above 45 with positive revenue guidance OR INTU reclaims $320 on reversal volume",
-      "risk": "Tax/SaaS sector weakness persists into 2025; market rotation away from software if rates stay elevated; concentration risk at 24.4% weight",
-      "outlook": "cautious",
-      "timeframe": "6-12 weeks (allow post-earnings recovery window, monitor Q3 guidance in Oct/Nov)",
-      "generated_at": "2026-06-24T23:46:06.105578",
-      "price_at_generation": 262.23,
-      "pnl_at_generation": -44.0,
-      "archived_at": "2026-06-25T23:55:23.223883"
     }
   ]
 }

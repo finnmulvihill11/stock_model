@@ -8,22 +8,22 @@
     "sell_score": 0.43,
     "reasons": [],
     "misses": [
-      "BB: price not near lower band (pct=0.95)",
+      "BB: price not near lower band (pct=0.92)",
       "BB Width: bands expanding, not squeezing",
-      "RSI: not in buy zone (64.7, need 20-40)",
+      "RSI: not in buy zone (65.3, need 20-40)",
       "MACD: no bullish crossover or valley",
       "RSI Divergence: no bullish divergence detected",
       "200MA: price below 200MA \u2014 potential falling knife",
-      "Volume: below average (0.80x) \u2014 low conviction"
+      "Volume: below average (0.65x) \u2014 low conviction"
     ],
-    "price": 60.27,
-    "rsi": 64.7,
-    "atr": 3.88,
+    "price": 60.7,
+    "rsi": 65.3,
+    "atr": 3.91,
     "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 2,
-      "suggested_dollars": 120.54,
-      "note": "2 sh @ $60.27 = $121 (Hold, 60% size) | $781 swing budget after"
+      "suggested_dollars": 121.4,
+      "note": "2 sh @ $60.70 = $121 (Hold, 60% size) | $639 swing budget after"
     }
   },
   "fundamentals": {
@@ -52,7 +52,7 @@
       ],
       "earnings_status": "past",
       "next_earnings_date": "2026-05-05",
-      "days_to_earnings": -61
+      "days_to_earnings": -62
     }
   },
   "news": {
@@ -60,35 +60,36 @@
     "sentiment": "negative",
     "health": "deteriorating",
     "key_events": [
-      "No recent news items available for analysis",
-      "Earnings reported 61 days ago with negative results",
-      "Market showing Extreme Fear sentiment despite neutral VIX"
+      "No recent news catalysts identified",
+      "Earnings reported 62 days ago with negative performance",
+      "Market showing Extreme Fear (F&G indicator)"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "Debt-to-equity ratio of 3.2x indicates high financial leverage",
-      "Company not profitable with negative operating cash flow",
-      "RSI at 64.7 suggests potential overbought condition despite price decline",
-      "No bullish technical signals ('Firing: none')",
-      "Information vacuum - no recent news to support recovery narrative"
+      "Negative operating cash flow - company burning cash",
+      "Not profitable with deteriorating fundamentals",
+      "High debt-to-equity ratio (3.2x) limits financial flexibility",
+      "RSI at 65.3 suggests potential overbought condition despite 12% loss",
+      "No bullish technical signals firing",
+      "Absence of recent news/catalysts suggests market indifference"
     ],
-    "verdict": "Deteriorating fundamentals combined with negative cash flow and high debt make this a challenged position, but philosophy dictates holding through the 12.75% drawdown.",
+    "verdict": "Fundamentally deteriorating AI company with no near-term catalysts; position underwater but philosophy dictates holding through >15% drawdown.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "TEM",
-    "stock_return_3m": 28.15,
-    "benchmark_return_3m": 13.96,
-    "relative_strength": 14.19,
+    "stock_return_3m": 28.09,
+    "benchmark_return_3m": 14.85,
+    "relative_strength": 13.24,
     "label": "outperforming"
   },
   "final_tier": "Hold",
   "sizing": {
     "suggested_shares": 2,
-    "suggested_dollars": 120.54,
-    "note": "2 sh @ $60.27 = $121 (Hold, 60% size) | $781 swing budget after"
+    "suggested_dollars": 121.4,
+    "note": "2 sh @ $60.70 = $121 (Hold, 60% size) | $639 swing budget after"
   },
   "is_dca": false,
-  "saved_at": "2026-07-05T23:38:18.591180"
+  "saved_at": "2026-07-06T23:41:35.761094"
 }

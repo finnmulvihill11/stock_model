@@ -8,22 +8,22 @@
     "sell_score": 0.29,
     "reasons": [],
     "misses": [
-      "BB: price not near lower band (pct=0.50)",
-      "RSI: not in buy zone (42.7, need 20-40)",
+      "BB: price not near lower band (pct=0.47)",
+      "RSI: not in buy zone (41.4, need 20-40)",
       "MACD: no bullish crossover or valley",
       "RSI Divergence: no bullish divergence detected",
       "200MA: price below 200MA \u2014 potential falling knife",
-      "Death cross active: 50MA (332.90) below 200MA (503.51)",
-      "Volume: below average (0.85x) \u2014 low conviction"
+      "Death cross active: 50MA (330.17) below 200MA (501.63)",
+      "Volume: below average (0.89x) \u2014 low conviction"
     ],
-    "price": 275.35,
-    "rsi": 42.7,
-    "atr": 11.79,
+    "price": 272.14,
+    "rsi": 41.4,
+    "atr": 11.99,
     "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 0,
       "suggested_dollars": 0,
-      "note": "Price exceeds 60% conviction ceiling ($17) \u2014 skip or wait for Strong Buy"
+      "note": "Position already at 20% portfolio cap"
     }
   },
   "fundamentals": {
@@ -52,7 +52,7 @@
       ],
       "earnings_status": "past",
       "next_earnings_date": "2026-05-20",
-      "days_to_earnings": -46
+      "days_to_earnings": -47
     }
   },
   "news": {
@@ -60,35 +60,35 @@
     "sentiment": "neutral",
     "health": "healthy",
     "key_events": [
-      "Earnings reported 46 days ago",
-      "Stock down 41.20% from entry",
-      "Extreme Fear sentiment in market",
-      "VIX neutral at 16.1"
+      "Earnings reported 47 days ago",
+      "Stock down 41.89% from entry",
+      "VIX at 15.6 indicating neutral market conditions",
+      "Extreme Fear sentiment in broader market (F&G index)"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "Significant drawdown of 41.20% suggests sector/macro headwinds or earnings disappointment",
-      "No recent news catalysts listed",
-      "RSI 42.7 indicates weakness but not oversold territory",
-      "19.6% portfolio weight concentrates risk during recovery phase"
+      "Severe drawdown of -41.89% suggests significant market repricing or sector headwinds",
+      "No recent news catalysts visible to support recovery narrative",
+      "Position weight at 22.3% is elevated given unrealized losses",
+      "RSI at 41.4 indicates neither oversold nor overbought conditions"
     ],
-    "verdict": "INTU fundamentals remain healthy despite severe drawdown; hold position per philosophy and await mean reversion, but avoid adding into weakness without positive catalyst.",
+    "verdict": "INTU fundamentals remain healthy, but the stock faces headwinds; hold per philosophy but monitor closely for capitulation signals.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "INTU",
-    "stock_return_3m": -35.14,
-    "benchmark_return_3m": 13.96,
-    "relative_strength": -49.1,
+    "stock_return_3m": -35.39,
+    "benchmark_return_3m": 14.85,
+    "relative_strength": -50.24,
     "label": "underperforming"
   },
   "final_tier": "Hold",
   "sizing": {
     "suggested_shares": 0,
     "suggested_dollars": 0,
-    "note": "Price exceeds 60% conviction ceiling ($17) \u2014 skip or wait for Strong Buy"
+    "note": "Position already at 20% portfolio cap"
   },
   "is_dca": false,
-  "saved_at": "2026-07-05T23:37:57.114888"
+  "saved_at": "2026-07-06T23:41:12.412227"
 }
