@@ -177,12 +177,12 @@ if page == "Strategy Dashboard":
             with st.form("log_purchase"):
                 lc1, lc2, lc3, lc4 = st.columns(4)
                 log_ticker = lc1.text_input("Ticker").upper().strip()
-                log_shares = lc2.number_input("Shares", min_value=1, step=1)
+                log_shares = lc2.number_input("Shares", min_value=0.001, step=0.001, format="%.3f")
                 log_price = lc3.number_input("Price ($)", min_value=0.01, step=0.01)
                 log_type = lc4.selectbox("Type", ["swing", "etf"])
                 if st.form_submit_button("Log Buy"):
-                    record_allocation(log_ticker, int(log_shares), log_shares * log_price, log_type)
-                    update_holding_after_buy(log_ticker, int(log_shares), log_price,
+                    record_allocation(log_ticker, round(log_shares, 3), log_shares * log_price, log_type)
+                    update_holding_after_buy(log_ticker, round(log_shares, 3), log_price,
                                              is_dca=(log_type == "etf"))
                     synced = sync_budget() and sync_config()
                     if synced:

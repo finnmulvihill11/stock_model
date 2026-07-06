@@ -67,7 +67,7 @@ def get_budget_state() -> dict:
     }
 
 
-def record_allocation(ticker: str, shares: int, amount: float, trade_type: str) -> None:
+def record_allocation(ticker: str, shares: float, amount: float, trade_type: str) -> None:
     """Record a purchase. trade_type: 'swing' or 'etf'"""
     data = _load()
     data["allocations"].append({

@@ -18,7 +18,7 @@ def _save_config(config: dict) -> None:
         yaml.dump(config, f, default_flow_style=False, sort_keys=False, allow_unicode=True)
 
 
-def update_holding_after_buy(ticker: str, shares_bought: int, buy_price: float,
+def update_holding_after_buy(ticker: str, shares_bought: float, buy_price: float,
                               is_dca: bool = False, high_risk: bool = False) -> dict:
     """Add or update a holding after a buy. Recalculates avg cost."""
     config = _reload_config()
