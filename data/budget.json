@@ -166,6 +166,14 @@
       "amount": 111.75,
       "type": "swing",
       "action": "buy"
+    },
+    {
+      "date": "2026-07-06",
+      "ticker": "VOO",
+      "shares": 0.072,
+      "amount": 49.43,
+      "type": "swing",
+      "action": "buy"
     }
   ]
 }
