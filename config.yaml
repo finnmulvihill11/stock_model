@@ -12,8 +12,8 @@ portfolio:
     shares: 2
     avg_cost: 467.18
   - ticker: VOO
-    shares: 1
-    avg_cost: 602.92
+    shares: 1.072
+    avg_cost: 608.54
     dca: true
   - ticker: ABT
     shares: 2
