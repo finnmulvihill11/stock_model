@@ -39,6 +39,9 @@ portfolio:
     shares: 4
     avg_cost: 21.16
     dca: true
+  - ticker: WMT
+    shares: 1
+    avg_cost: 111.75
   dca_tickers:
   - GRNI
   - VOO
