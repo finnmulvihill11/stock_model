@@ -26,8 +26,8 @@ portfolio:
     shares: 2
     avg_cost: 31.47
   - ticker: VXUS
-    shares: 2
-    avg_cost: 74.24
+    shares: 2.59
+    avg_cost: 76.63
     dca: true
   - ticker: XOM
     shares: 2
