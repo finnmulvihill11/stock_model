@@ -146,6 +146,18 @@
       "amount": 47.98,
       "type": "swing",
       "action": "buy"
+    },
+    {
+      "date": "2026-07-06",
+      "ticker": "CMG",
+      "shares": 2,
+      "amount": -70.0,
+      "type": "swing",
+      "action": "sell",
+      "sell_price": 35.0,
+      "avg_cost": 31.47,
+      "realized_pnl": 7.06,
+      "realized_pnl_pct": 11.22
     }
   ]
 }
