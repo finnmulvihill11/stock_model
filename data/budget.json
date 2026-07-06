@@ -158,6 +158,14 @@
       "avg_cost": 31.47,
       "realized_pnl": 7.06,
       "realized_pnl_pct": 11.22
+    },
+    {
+      "date": "2026-07-06",
+      "ticker": "WMT",
+      "shares": 1,
+      "amount": 111.75,
+      "type": "swing",
+      "action": "buy"
     }
   ]
 }
