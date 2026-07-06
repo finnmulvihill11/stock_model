@@ -147,13 +147,5 @@
       "type": "swing",
       "action": "buy"
     },
-    {
-      "date": "2026-07-03",
-      "ticker": "VOO",
-      "shares": 1,
-      "amount": 686.55,
-      "type": "etf",
-      "action": "buy"
-    }
   ]
 }
