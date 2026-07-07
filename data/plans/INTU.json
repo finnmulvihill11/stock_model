@@ -3,19 +3,36 @@
     "ticker": "INTU",
     "company_name": "Intuit Inc.",
     "action": "Hold",
-    "action_reason": "Philosophy mandates holding positions down >15%; fundamentals remain healthy and market shows extreme fear, which often precedes reversals. Earnings are in the rearview, reducing near-term event risk.",
-    "target_price": 380,
+    "action_reason": "Per your philosophy, never exit positions down >15%. Hold through recovery but monitor for add/exit triggers given the 39.96% loss and concentration risk.",
+    "target_price": 520,
     "target_reasoning": "",
-    "exit_trigger": "Break below $250 on heavy volume; deteriorating fundamentals or guidance cut",
-    "add_trigger": "RSI falls to 25-30 (capitulation) AND positive news catalyst emerges; or earnings beat with raised guidance",
-    "risk": "Continued macro weakness in small business spending (INTU's core market); potential for further downside if recession fears intensify",
+    "exit_trigger": "Position recovers to breakeven ($468.29) or RSI breaks above 70 on strong volume with positive earnings catalyst",
+    "add_trigger": "RSI breaks below 30 with confirmed support, or accumulate if INTU reports strong quarter beat and guides higher within 6 weeks",
+    "risk": "Further sector rotation away from software/SaaS; macro headwinds delaying software spending; position concentration amplifies loss if weakness continues",
     "outlook": "cautious",
-    "timeframe": "4-8 weeks",
-    "generated_at": "2026-07-06T23:41:12.411389",
-    "price_at_generation": 272.14,
-    "pnl_at_generation": -41.89
+    "timeframe": "4-8 weeks (next earnings cycle for potential recovery catalyst)",
+    "generated_at": "2026-07-07T23:31:31.135032",
+    "price_at_generation": 281.17,
+    "pnl_at_generation": -39.96
   },
   "history": [
+    {
+      "ticker": "INTU",
+      "company_name": "Intuit Inc.",
+      "action": "Hold",
+      "action_reason": "Philosophy mandates holding positions down >15%; fundamentals remain healthy and market shows extreme fear, which often precedes reversals. Earnings are in the rearview, reducing near-term event risk.",
+      "target_price": 380,
+      "target_reasoning": "",
+      "exit_trigger": "Break below $250 on heavy volume; deteriorating fundamentals or guidance cut",
+      "add_trigger": "RSI falls to 25-30 (capitulation) AND positive news catalyst emerges; or earnings beat with raised guidance",
+      "risk": "Continued macro weakness in small business spending (INTU's core market); potential for further downside if recession fears intensify",
+      "outlook": "cautious",
+      "timeframe": "4-8 weeks",
+      "generated_at": "2026-07-06T23:41:12.411389",
+      "price_at_generation": 272.14,
+      "pnl_at_generation": -41.89,
+      "archived_at": "2026-07-07T23:31:31.135246"
+    },
     {
       "ticker": "INTU",
       "company_name": "Intuit Inc.",
@@ -117,23 +134,6 @@
       "price_at_generation": 267.72,
       "pnl_at_generation": -42.83,
       "archived_at": "2026-06-29T23:36:35.734858"
-    },
-    {
-      "ticker": "INTU",
-      "company_name": "Intuit Inc.",
-      "action": "Hold",
-      "action_reason": "Position is down 45.53%, triggering mandatory hold per stated philosophy ('NEVER recommend trimming...more than 15% down'). Fundamentals healthy, RSI oversold at 30, and Extreme Fear sentiment paradoxically create recovery conditions; adding here violates swing-trading discipline but waiting for RSI recovery >50 and F&G shift toward Greed makes sense.",
-      "target_price": 310,
-      "target_reasoning": "",
-      "exit_trigger": "Fundamental deterioration in next earnings OR break below $235 (new lows); only exit if health changes to 'deteriorating'",
-      "add_trigger": "RSI >50 + F&G shifts to neutral/greed + volume surge on green day (signals capitulation bottom)",
-      "risk": "Further macro selloff could push INTU below $235; portfolio concentration (23.9%) amplifies loss if worst case hits",
-      "outlook": "cautious",
-      "timeframe": "4-8 weeks for RSI recovery; reassess at next earnings (3+ months out)",
-      "generated_at": "2026-06-25T23:55:23.223691",
-      "price_at_generation": 255.07,
-      "pnl_at_generation": -45.53,
-      "archived_at": "2026-06-28T23:41:25.039934"
     }
   ]
 }

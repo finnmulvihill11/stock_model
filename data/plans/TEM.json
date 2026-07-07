@@ -3,19 +3,36 @@
     "ticker": "TEM",
     "company_name": "Tempus AI, Inc.",
     "action": "Hold",
-    "action_reason": "Your trading philosophy prohibits exits on positions down >15% (currently -12.13%). However, monitor closely for deterioration below -15% threshold or positive catalyst emergence, as fundamentals remain weak.",
+    "action_reason": "Down 13.01% (below 15% threshold), philosophy mandates holding major losers. However, position warrants close monitoring given negative cash flow and high leverage. Do not add to this position given fundamentals.",
     "target_price": null,
     "target_reasoning": "",
-    "exit_trigger": "Position reaches -15% loss OR negative operating cash flow worsens materially OR debt restructuring concerns emerge",
-    "add_trigger": "Not recommended given deteriorating fundamentals; only consider if company announces profitability pathway or significant revenue inflection",
-    "risk": "Continued cash burn without profitability path; potential dilution via financing; debt covenant stress if revenue declines",
+    "exit_trigger": "Breach below $55 (additional 8.5% downside) OR announcement of significant dilutive financing OR cash runway concerns",
+    "add_trigger": "Do not add; wait for profitable quarter or major partnership/revenue milestone before considering averaging down",
+    "risk": "Liquidity crisis if cash burn accelerates; debt covenant violations; further equity deterioration in risk-off market environment",
     "outlook": "cautious",
-    "timeframe": "2-3 months to next catalyst or earnings",
-    "generated_at": "2026-07-06T23:41:35.759622",
-    "price_at_generation": 60.7,
-    "pnl_at_generation": -12.13
+    "timeframe": "3-6 weeks until next earnings or material news catalyst",
+    "generated_at": "2026-07-07T23:31:52.970102",
+    "price_at_generation": 60.09,
+    "pnl_at_generation": -13.01
   },
   "history": [
+    {
+      "ticker": "TEM",
+      "company_name": "Tempus AI, Inc.",
+      "action": "Hold",
+      "action_reason": "Your trading philosophy prohibits exits on positions down >15% (currently -12.13%). However, monitor closely for deterioration below -15% threshold or positive catalyst emergence, as fundamentals remain weak.",
+      "target_price": null,
+      "target_reasoning": "",
+      "exit_trigger": "Position reaches -15% loss OR negative operating cash flow worsens materially OR debt restructuring concerns emerge",
+      "add_trigger": "Not recommended given deteriorating fundamentals; only consider if company announces profitability pathway or significant revenue inflection",
+      "risk": "Continued cash burn without profitability path; potential dilution via financing; debt covenant stress if revenue declines",
+      "outlook": "cautious",
+      "timeframe": "2-3 months to next catalyst or earnings",
+      "generated_at": "2026-07-06T23:41:35.759622",
+      "price_at_generation": 60.7,
+      "pnl_at_generation": -12.13,
+      "archived_at": "2026-07-07T23:31:52.970317"
+    },
     {
       "ticker": "TEM",
       "company_name": "Tempus AI, Inc.",
@@ -117,23 +134,6 @@
       "price_at_generation": 56.14,
       "pnl_at_generation": -18.73,
       "archived_at": "2026-06-29T23:36:59.350279"
-    },
-    {
-      "ticker": "TEM",
-      "company_name": "Tempus AI, Inc.",
-      "action": "Hold",
-      "action_reason": "Position is down >15% (policy restriction). However, given deteriorating fundamentals and negative sentiment, this is a forced hold rather than conviction hold. Monitor closely for any operational improvement or debt restructuring announcements.",
-      "target_price": null,
-      "target_reasoning": "",
-      "exit_trigger": "If stock rallies to $62-65 (near breakeven) on volume with positive FCF guidance, trim 1-2 shares. Full exit only if price recovers to $69+ AND fundamentals show clear path to profitability.",
-      "add_trigger": "Do NOT add. Fundamentals must show: (1) clear profitability path, (2) FCF positive turn, (3) debt reduction plan. Currently fails all three.",
-      "risk": "Further deterioration in cash burn or debt covenant violations could trigger capitulation; tech sector rotation could extend losses.",
-      "outlook": "cautious",
-      "timeframe": "3-6 months (turnaround thesis requires time, but fundamentals must begin inflecting within this window)",
-      "generated_at": "2026-06-25T23:55:43.624395",
-      "price_at_generation": 54.87,
-      "pnl_at_generation": -20.57,
-      "archived_at": "2026-06-28T23:41:43.476418"
     }
   ]
 }

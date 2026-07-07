@@ -4,23 +4,24 @@
     "ticker": "XOM",
     "direction": "hold",
     "tier": "Hold",
-    "buy_score": 0.5,
+    "buy_score": 0.38,
     "sell_score": 0.0,
     "reasons": [],
     "misses": [
-      "BB: price not near lower band (pct=0.28)",
+      "BB: price not near lower band (pct=0.53)",
       "BB Width: bands expanding, not squeezing",
+      "RSI: not in buy zone (48.9, need 20-40)",
       "RSI Divergence: no bullish divergence detected",
-      "Volume: below average (0.76x) \u2014 low conviction"
+      "Volume: below average (0.80x) \u2014 low conviction"
     ],
-    "price": 136.44,
-    "rsi": 35.8,
-    "atr": 2.95,
+    "price": 141.69,
+    "rsi": 48.9,
+    "atr": 2.66,
     "final_tier": "Hold",
     "sizing": {
-      "suggested_shares": 1,
-      "suggested_dollars": 136.44,
-      "note": "1 sh @ $136.44 = $136 (Hold, 60% size) | $624 swing budget after"
+      "suggested_shares": 0,
+      "suggested_dollars": 0,
+      "note": "Price exceeds 60% conviction ceiling ($137) \u2014 skip or wait for Strong Buy"
     }
   },
   "fundamentals": {
@@ -49,7 +50,7 @@
       ],
       "earnings_status": "past",
       "next_earnings_date": "2026-05-01",
-      "days_to_earnings": -66
+      "days_to_earnings": -67
     }
   },
   "news": {
@@ -57,34 +58,35 @@
     "sentiment": "neutral",
     "health": "healthy",
     "key_events": [
-      "Earnings reported 66 days ago (well past event)",
-      "VIX at 15.6 indicates neutral market volatility environment",
-      "Extreme Fear gauge suggests potential capitulation/opportunity"
+      "Position up 3.31% with solid unrealized gains",
+      "Earnings reported 67 days ago \u2014 well past announcement volatility",
+      "VIX at 16.1 indicates neutral market environment",
+      "Market showing Fear & Greed signal \u2014 contrarian opportunity"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "RSI 35.8 approaching oversold territory (30 = oversold)",
-      "No technical firing signals despite weak price action",
-      "Minimal recent news flow",
-      "Position down 0.52% with no clear catalyst for reversal"
+      "RSI at 48.9 shows no momentum \u2014 neither overbought nor oversold",
+      "No technical firing signals \u2014 momentum stalled",
+      "Energy sector subject to geopolitical/macro headwinds",
+      "No recent news flow to catalyze next move"
     ],
-    "verdict": "XOM fundamentals remain healthy with oversold technicals in a fear-driven market; position is undersized loss warranting accumulation rather than exit.",
+    "verdict": "Profitable position with healthy fundamentals in neutral technicals; hold for next catalyst while monitoring for momentum inflection.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "XOM",
-    "stock_return_3m": -14.51,
-    "benchmark_return_3m": 14.85,
-    "relative_strength": -29.36,
+    "stock_return_3m": -12.68,
+    "benchmark_return_3m": 13.77,
+    "relative_strength": -26.45,
     "label": "underperforming"
   },
   "final_tier": "Hold",
   "sizing": {
-    "suggested_shares": 1,
-    "suggested_dollars": 136.44,
-    "note": "1 sh @ $136.44 = $136 (Hold, 60% size) | $624 swing budget after"
+    "suggested_shares": 0,
+    "suggested_dollars": 0,
+    "note": "Price exceeds 60% conviction ceiling ($137) \u2014 skip or wait for Strong Buy"
   },
   "is_dca": false,
-  "saved_at": "2026-07-06T23:41:49.512587"
+  "saved_at": "2026-07-07T23:32:06.350453"
 }

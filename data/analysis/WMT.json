@@ -5,22 +5,22 @@
     "direction": "hold",
     "tier": "Hold",
     "buy_score": 0.5,
-    "sell_score": 0.14,
+    "sell_score": 0.0,
     "reasons": [],
     "misses": [
       "BB Width: bands expanding, not squeezing",
-      "MACD: no bullish crossover or valley",
       "RSI Divergence: no bullish divergence detected",
-      "200MA: price below 200MA \u2014 potential falling knife"
+      "200MA: price below 200MA \u2014 potential falling knife",
+      "Volume: below average (0.80x) \u2014 low conviction"
     ],
-    "price": 110.65,
-    "rsi": 33.7,
-    "atr": 2.96,
+    "price": 111.54,
+    "rsi": 36.4,
+    "atr": 2.95,
     "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 1,
-      "suggested_dollars": 110.65,
-      "note": "1 sh @ $110.65 = $111 (Hold, 60% size) | $650 swing budget after"
+      "suggested_dollars": 111.54,
+      "note": "1 sh @ $111.54 = $112 (Hold, 60% size) | $649 swing budget after"
     }
   },
   "fundamentals": {
@@ -49,7 +49,7 @@
       ],
       "earnings_status": "distant",
       "next_earnings_date": "2026-08-20",
-      "days_to_earnings": 45
+      "days_to_earnings": 44
     }
   },
   "news": {
@@ -58,32 +58,32 @@
     "health": "healthy",
     "key_events": [
       "No recent news items provided for analysis",
-      "Earnings 45 days out provides runway for recovery",
-      "Market in Extreme Fear sentiment (potential capitulation)"
+      "Earnings report 44 days away - potential catalyst ahead",
+      "Market in fear mode (F&G indicator) despite neutral VIX"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "RSI 33.7 indicates oversold conditions but no bounce yet",
-      "No firing signals on technicals\u2014lack of bullish confirmation",
-      "Position down 0.98% with no clear catalyst for reversal"
+      "RSI at 36.4 indicates oversold conditions but no bullish firing signals",
+      "No technical momentum despite oversold setup",
+      "Fear sentiment in market environment may weigh on discretionary retail stocks"
     ],
-    "verdict": "WMT is fundamentally healthy and oversold; hold and monitor for technical reversal signals before next earnings.",
+    "verdict": "Hold current position; Walmart's healthy fundamentals support recovery, with earnings catalyst approaching in 6 weeks.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "WMT",
-    "stock_return_3m": -11.87,
-    "benchmark_return_3m": 14.85,
-    "relative_strength": -26.72,
+    "stock_return_3m": -11.86,
+    "benchmark_return_3m": 13.77,
+    "relative_strength": -25.63,
     "label": "underperforming"
   },
   "final_tier": "Hold",
   "sizing": {
     "suggested_shares": 1,
-    "suggested_dollars": 110.65,
-    "note": "1 sh @ $110.65 = $111 (Hold, 60% size) | $650 swing budget after"
+    "suggested_dollars": 111.54,
+    "note": "1 sh @ $111.54 = $112 (Hold, 60% size) | $649 swing budget after"
   },
   "is_dca": false,
-  "saved_at": "2026-07-06T23:42:03.882920"
+  "saved_at": "2026-07-07T23:32:19.163385"
 }

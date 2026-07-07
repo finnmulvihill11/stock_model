@@ -3,19 +3,36 @@
     "ticker": "OXY",
     "company_name": "Occidental Petroleum Corporation",
     "action": "Hold",
-    "action_reason": "Loss is modest (3.12%) and within acceptable swing trader variance. Upcoming earnings within 30 days is a critical catalyst; extreme market fear creates asymmetric risk/reward for recovery. Revenue decline is concerning but needs earnings context.",
-    "target_price": 52.5,
+    "action_reason": "Position is +2.58% profitable and earnings catalyst is imminent (29d). Lack of downside means you're not fighting a major loser; waiting for earnings clarity justifies holding through this consolidation.",
+    "target_price": null,
     "target_reasoning": "",
-    "exit_trigger": "Break below $47.20 (near 4% loss) on volume, or post-earnings miss with negative guidance",
-    "add_trigger": "RSI climbs above 40 + close above $49.50 on earnings beat or positive production news",
-    "risk": "Commodity price weakness (oil downturn), disappointing earnings, continued revenue erosion. Extreme Fear may reverse sharply if macro deteriorates further.",
+    "exit_trigger": "Close below $49.50 (below entry support) on heavy volume post-earnings, or if earnings miss and forward guidance indicates accelerating revenue decline",
+    "add_trigger": "OXY breaks above $53.00 on volume post-earnings with positive guidance; add if oil macro improves materially and RSI moves above 55",
+    "risk": "Revenue decline persists through earnings; oil prices weaken further; opportunity cost if better swing setups emerge",
     "outlook": "cautious",
-    "timeframe": "2-4 weeks (through earnings announcement)",
-    "generated_at": "2026-07-06T23:41:56.595994",
-    "price_at_generation": 48.81,
-    "pnl_at_generation": -3.12
+    "timeframe": "4 weeks (through earnings + post-earnings consolidation)",
+    "generated_at": "2026-07-07T23:32:12.875809",
+    "price_at_generation": 51.68,
+    "pnl_at_generation": 2.58
   },
   "history": [
+    {
+      "ticker": "OXY",
+      "company_name": "Occidental Petroleum Corporation",
+      "action": "Hold",
+      "action_reason": "Loss is modest (3.12%) and within acceptable swing trader variance. Upcoming earnings within 30 days is a critical catalyst; extreme market fear creates asymmetric risk/reward for recovery. Revenue decline is concerning but needs earnings context.",
+      "target_price": 52.5,
+      "target_reasoning": "",
+      "exit_trigger": "Break below $47.20 (near 4% loss) on volume, or post-earnings miss with negative guidance",
+      "add_trigger": "RSI climbs above 40 + close above $49.50 on earnings beat or positive production news",
+      "risk": "Commodity price weakness (oil downturn), disappointing earnings, continued revenue erosion. Extreme Fear may reverse sharply if macro deteriorates further.",
+      "outlook": "cautious",
+      "timeframe": "2-4 weeks (through earnings announcement)",
+      "generated_at": "2026-07-06T23:41:56.595994",
+      "price_at_generation": 48.81,
+      "pnl_at_generation": -3.12,
+      "archived_at": "2026-07-07T23:32:12.876010"
+    },
     {
       "ticker": "OXY",
       "company_name": "Occidental Petroleum Corporation",
@@ -117,23 +134,6 @@
       "price_at_generation": 49.99,
       "pnl_at_generation": -3.68,
       "archived_at": "2026-06-29T23:37:21.426910"
-    },
-    {
-      "ticker": "OXY",
-      "company_name": "Occidental Petroleum Corporation",
-      "action": "Hold",
-      "action_reason": "Per your philosophy, hold through downturns. Extreme Fear backdrop + oversold RSI suggests capitulation phase; down only 1.33% allows time for recovery without forced exit.",
-      "target_price": 56.5,
-      "target_reasoning": "",
-      "exit_trigger": "Break below $48 (10% loss threshold) on volume, or if revenue guidance cut further YoY",
-      "add_trigger": "RSI drops below 25 with VIX spike above 22, or positive energy demand data",
-      "risk": "Continued oil price weakness or demand destruction could drive 15-20% additional downside; energy sector rotation remains headwind",
-      "outlook": "cautious",
-      "timeframe": "4-8 weeks",
-      "generated_at": "2026-06-25T23:56:07.646563",
-      "price_at_generation": 51.21,
-      "pnl_at_generation": -1.33,
-      "archived_at": "2026-06-28T23:42:15.664126"
     }
   ]
 }
