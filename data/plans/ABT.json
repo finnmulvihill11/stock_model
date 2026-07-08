@@ -3,19 +3,36 @@
     "ticker": "ABT",
     "company_name": "Abbott Laboratories",
     "action": "Hold",
-    "action_reason": "Position is near but not beyond 15% loss threshold. Upcoming earnings catalyst in 9 days provides potential recovery catalyst. Fundamentals remain healthy and warrant patience.",
-    "target_price": null,
+    "action_reason": "Per philosophy, never exit positions down >15% (currently -13.29%). Earnings catalyst in 8 days provides potential reversal catalyst; fundamentals support recovery thesis.",
+    "target_price": 113.5,
     "target_reasoning": "",
-    "exit_trigger": "Break below $92.50 (additional 3.5% loss) or negative earnings guidance that contradicts 'healthy' fundamental assessment",
-    "add_trigger": "Only add if earnings beat + positive guidance confirmed, or if price reaches $88-90 on capitulation volume showing support",
-    "risk": "Earnings miss or downward guidance; broader market selloff into Fear sentiment could extend losses before recovery",
+    "exit_trigger": "Earnings miss with negative guidance OR fundamental deterioration confirmed post-earnings",
+    "add_trigger": "Drop to $92-93 on earnings weakness (if fundamentals intact) OR RSI drops below 40 with confirmed support",
+    "risk": "Earnings disappointment or broader healthcare sector pullback; Extreme Fear could persist through earnings",
     "outlook": "cautious",
-    "timeframe": "2-3 weeks (through earnings + post-earnings stabilization)",
-    "generated_at": "2026-07-07T23:31:46.148421",
-    "price_at_generation": 95.84,
-    "pnl_at_generation": -12.69
+    "timeframe": "2-4 weeks post-earnings for recovery signal",
+    "generated_at": "2026-07-08T23:40:14.924471",
+    "price_at_generation": 95.18,
+    "pnl_at_generation": -13.29
   },
   "history": [
+    {
+      "ticker": "ABT",
+      "company_name": "Abbott Laboratories",
+      "action": "Hold",
+      "action_reason": "Position is near but not beyond 15% loss threshold. Upcoming earnings catalyst in 9 days provides potential recovery catalyst. Fundamentals remain healthy and warrant patience.",
+      "target_price": null,
+      "target_reasoning": "",
+      "exit_trigger": "Break below $92.50 (additional 3.5% loss) or negative earnings guidance that contradicts 'healthy' fundamental assessment",
+      "add_trigger": "Only add if earnings beat + positive guidance confirmed, or if price reaches $88-90 on capitulation volume showing support",
+      "risk": "Earnings miss or downward guidance; broader market selloff into Fear sentiment could extend losses before recovery",
+      "outlook": "cautious",
+      "timeframe": "2-3 weeks (through earnings + post-earnings stabilization)",
+      "generated_at": "2026-07-07T23:31:46.148421",
+      "price_at_generation": 95.84,
+      "pnl_at_generation": -12.69,
+      "archived_at": "2026-07-08T23:40:14.924668"
+    },
     {
       "ticker": "ABT",
       "company_name": "Abbott Laboratories",
@@ -117,23 +134,6 @@
       "price_at_generation": 92.71,
       "pnl_at_generation": -15.54,
       "archived_at": "2026-06-30T23:46:34.933018"
-    },
-    {
-      "ticker": "ABT",
-      "company_name": "Abbott Laboratories",
-      "action": "Hold",
-      "action_reason": "Position is down 14.26%, triggering your philosophy to hold through major losers. Earnings in 18 days provides near-term catalyst; current setup favors recovery into event rather than forced exit.",
-      "target_price": 108.0,
-      "target_reasoning": "",
-      "exit_trigger": "Close below $88 (20% total loss) OR negative earnings surprise with guidance cut",
-      "add_trigger": "If price reaches $86-88 with RSI < 40 on higher volume, consider adding 1-2 shares before earnings",
-      "risk": "Earnings miss or broader market selloff could push position to -20%+ before recovery; Extreme Fear sentiment is fragile",
-      "outlook": "cautious",
-      "timeframe": "2-3 weeks through earnings; reassess post-report",
-      "generated_at": "2026-06-28T23:41:37.246568",
-      "price_at_generation": 94.12,
-      "pnl_at_generation": -14.26,
-      "archived_at": "2026-06-29T23:36:50.882313"
     }
   ]
 }

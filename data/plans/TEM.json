@@ -3,19 +3,36 @@
     "ticker": "TEM",
     "company_name": "Tempus AI, Inc.",
     "action": "Hold",
-    "action_reason": "Down 13.01% (below 15% threshold), philosophy mandates holding major losers. However, position warrants close monitoring given negative cash flow and high leverage. Do not add to this position given fundamentals.",
+    "action_reason": "Per philosophy, position is down 17.1% (exceeds 15% threshold) requiring hold-through. Any exit here locks in major loss; instead, await either fundamental inflection point or market-driven recovery opportunity.",
     "target_price": null,
     "target_reasoning": "",
-    "exit_trigger": "Breach below $55 (additional 8.5% downside) OR announcement of significant dilutive financing OR cash runway concerns",
-    "add_trigger": "Do not add; wait for profitable quarter or major partnership/revenue milestone before considering averaging down",
-    "risk": "Liquidity crisis if cash burn accelerates; debt covenant violations; further equity deterioration in risk-off market environment",
+    "exit_trigger": "Clear bankruptcy risk materialization OR profitable quarter + positive guidance + debt restructuring announcement",
+    "add_trigger": "Earnings beat + positive operating cash flow inflection OR strategic partnership announcement reducing debt burden",
+    "risk": "Continued cash burn without profitability path; refinancing risk given high leverage; further multiple compression in risk-off environment",
     "outlook": "cautious",
-    "timeframe": "3-6 weeks until next earnings or material news catalyst",
-    "generated_at": "2026-07-07T23:31:52.970102",
-    "price_at_generation": 60.09,
-    "pnl_at_generation": -13.01
+    "timeframe": "6-12 weeks (await next earnings for turnaround signals)",
+    "generated_at": "2026-07-08T23:40:23.236508",
+    "price_at_generation": 57.27,
+    "pnl_at_generation": -17.1
   },
   "history": [
+    {
+      "ticker": "TEM",
+      "company_name": "Tempus AI, Inc.",
+      "action": "Hold",
+      "action_reason": "Down 13.01% (below 15% threshold), philosophy mandates holding major losers. However, position warrants close monitoring given negative cash flow and high leverage. Do not add to this position given fundamentals.",
+      "target_price": null,
+      "target_reasoning": "",
+      "exit_trigger": "Breach below $55 (additional 8.5% downside) OR announcement of significant dilutive financing OR cash runway concerns",
+      "add_trigger": "Do not add; wait for profitable quarter or major partnership/revenue milestone before considering averaging down",
+      "risk": "Liquidity crisis if cash burn accelerates; debt covenant violations; further equity deterioration in risk-off market environment",
+      "outlook": "cautious",
+      "timeframe": "3-6 weeks until next earnings or material news catalyst",
+      "generated_at": "2026-07-07T23:31:52.970102",
+      "price_at_generation": 60.09,
+      "pnl_at_generation": -13.01,
+      "archived_at": "2026-07-08T23:40:23.236710"
+    },
     {
       "ticker": "TEM",
       "company_name": "Tempus AI, Inc.",
@@ -117,23 +134,6 @@
       "price_at_generation": 58.31,
       "pnl_at_generation": -15.59,
       "archived_at": "2026-06-30T23:46:42.704129"
-    },
-    {
-      "ticker": "TEM",
-      "company_name": "Tempus AI, Inc.",
-      "action": "Hold",
-      "action_reason": "Philosophy mandates holding positions down >15%. However, lack of positive catalysts or technical confirmation suggests waiting for material improvement before considering adds. Monitor for stabilization signals.",
-      "target_price": null,
-      "target_reasoning": "",
-      "exit_trigger": "Break below $50 (further 11% loss) or public deterioration of debt refinancing runway",
-      "add_trigger": "Profitability roadmap announced, debt restructuring, or positive earnings surprise with cash flow improvement",
-      "risk": "Continued cash burn could force dilutive financing or restructuring; high debt-to-equity limits downside protection",
-      "outlook": "cautious",
-      "timeframe": "3-6 months for fundamental inflection or re-evaluation",
-      "generated_at": "2026-06-28T23:41:43.476227",
-      "price_at_generation": 56.14,
-      "pnl_at_generation": -18.73,
-      "archived_at": "2026-06-29T23:36:59.350279"
     }
   ]
 }

@@ -3,19 +3,36 @@
     "ticker": "XOM",
     "company_name": "ExxonMobil Holdings Corporation",
     "action": "Hold",
-    "action_reason": "Position is profitable (+3.31%) and XOM's fundamentals remain healthy despite lack of current technical momentum. With Fear sentiment present, the risk/reward favors holding rather than trimming winners\u2014wait for clearer directional signal or next earnings catalyst.",
-    "target_price": 145.5,
+    "action_reason": "Position is profitable (+2.90%) and fundamentals are solid. However, lack of technical firing signals, neutral RSI, and absence of news catalysts make this unsuitable for aggressive swing trading. Hold for either a technical breakout or fundamental event that reignites momentum.",
+    "target_price": 145.0,
     "target_reasoning": "",
-    "exit_trigger": "Close below $135 (support break) or RSI falls below 35 on high volume without fundamental deterioration",
-    "add_trigger": "RSI bounces above 60 on volume with energy prices rallying, or positive oil demand forecast",
-    "risk": "Energy volatility (geopolitical, macro demand, rate expectations); lack of momentum could lead to range-bound consolidation",
+    "exit_trigger": "Close below $138.50 (below entry + 1%) on increased volume, signaling break of support",
+    "add_trigger": "RSI breaks above 60 on strong volume with oil price acceleration above $80/bbl or positive energy sector news",
+    "risk": "Macro headwinds (recession fears, demand destruction); Extreme Fear sentiment could trigger sudden sector capitulation despite healthy fundamentals",
     "outlook": "neutral",
-    "timeframe": "3-6 weeks (awaiting next earnings or commodity catalyst)",
-    "generated_at": "2026-07-07T23:32:06.349733",
-    "price_at_generation": 141.69,
-    "pnl_at_generation": 3.31
+    "timeframe": "2-4 weeks \u2014 wait for either technical confirmation or fundamental catalyst (earnings, oil spike, Fed pivot)",
+    "generated_at": "2026-07-08T23:40:41.276849",
+    "price_at_generation": 141.13,
+    "pnl_at_generation": 2.9
   },
   "history": [
+    {
+      "ticker": "XOM",
+      "company_name": "ExxonMobil Holdings Corporation",
+      "action": "Hold",
+      "action_reason": "Position is profitable (+3.31%) and XOM's fundamentals remain healthy despite lack of current technical momentum. With Fear sentiment present, the risk/reward favors holding rather than trimming winners\u2014wait for clearer directional signal or next earnings catalyst.",
+      "target_price": 145.5,
+      "target_reasoning": "",
+      "exit_trigger": "Close below $135 (support break) or RSI falls below 35 on high volume without fundamental deterioration",
+      "add_trigger": "RSI bounces above 60 on volume with energy prices rallying, or positive oil demand forecast",
+      "risk": "Energy volatility (geopolitical, macro demand, rate expectations); lack of momentum could lead to range-bound consolidation",
+      "outlook": "neutral",
+      "timeframe": "3-6 weeks (awaiting next earnings or commodity catalyst)",
+      "generated_at": "2026-07-07T23:32:06.349733",
+      "price_at_generation": 141.69,
+      "pnl_at_generation": 3.31,
+      "archived_at": "2026-07-08T23:40:41.277048"
+    },
     {
       "ticker": "XOM",
       "company_name": "ExxonMobil Holdings Corporation",
@@ -117,23 +134,6 @@
       "price_at_generation": 136.06,
       "pnl_at_generation": -0.79,
       "archived_at": "2026-06-30T23:46:55.460337"
-    },
-    {
-      "ticker": "XOM",
-      "company_name": "Exxon Mobil Corporation",
-      "action": "Add More",
-      "action_reason": "Triple technical confirmation (BB lower band + RSI oversold + MACD valley) at extreme fear sentiment presents high-probability swing entry. Position is micro-sized (4.2% weight) relative to signal strength.",
-      "target_price": 141.5,
-      "target_reasoning": "",
-      "exit_trigger": "RSI breaks above 70 with volume OR price closes above upper BB on elevated volume (profit-taking exit)",
-      "add_trigger": "Price dips to $135.50 on lower volume (continuation oversold); add up to 8.4% portfolio weight",
-      "risk": "Energy sector rotation or broader market pullback if VIX spikes above 25; geopolitical oil shock could gap past technicals",
-      "outlook": "short",
-      "timeframe": "2-4 weeks",
-      "generated_at": "2026-06-28T23:42:08.127545",
-      "price_at_generation": 136.54,
-      "pnl_at_generation": -0.79,
-      "archived_at": "2026-06-29T23:37:13.672147"
     }
   ]
 }

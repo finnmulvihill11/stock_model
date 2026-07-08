@@ -1,0 +1,19 @@
+{
+  "current": {
+    "ticker": "IRM",
+    "company_name": "Iron Mountain Incorporated",
+    "action": "Hold",
+    "action_reason": "Position is only -0.98% drawdown (well above 15% threshold). RSI near 33.9 and Extreme Fear reading suggest potential reversal zone, but absence of news and unavailable fundamentals warrant patience for entry confirmation signals rather than adding blindly.",
+    "target_price": null,
+    "target_reasoning": "",
+    "exit_trigger": "Breach below $112 (support) with volume spike + continued negative news flow; or if position reaches -15% loss (philosophy override)",
+    "add_trigger": "RSI breaks below 30 + VIX compression + positive news catalyst emerges, targeting $113-114 rebound",
+    "risk": "Information vacuum (no news, missing debt data) limits edge; potential earnings miss if guidance deteriorates; real estate market slowdown could pressure IRM's data center/storage demand",
+    "outlook": "neutral",
+    "timeframe": "2-4 weeks",
+    "generated_at": "2026-07-08T23:41:03.443237",
+    "price_at_generation": 115.46,
+    "pnl_at_generation": -0.98
+  },
+  "history": []
+}

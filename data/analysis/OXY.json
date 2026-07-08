@@ -8,19 +8,19 @@
     "sell_score": 0.14,
     "reasons": [],
     "misses": [
-      "BB: price not near lower band (pct=0.44)",
+      "BB: price not near lower band (pct=0.63)",
       "BB Width: bands expanding, not squeezing",
-      "RSI: not in buy zone (45.8, need 20-40)",
+      "RSI: not in buy zone (52.9, need 20-40)",
       "RSI Divergence: no bullish divergence detected"
     ],
-    "price": 51.68,
-    "rsi": 45.8,
-    "atr": 1.35,
+    "price": 53.59,
+    "rsi": 52.9,
+    "atr": 1.51,
     "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 2,
-      "suggested_dollars": 103.36,
-      "note": "2 sh @ $51.68 = $103 (Hold, 60% size) | $657 swing budget after"
+      "suggested_dollars": 107.18,
+      "note": "2 sh @ $53.59 = $107 (Hold, 60% size) | $536 swing budget after"
     }
   },
   "fundamentals": {
@@ -50,7 +50,7 @@
       ],
       "earnings_status": "upcoming",
       "next_earnings_date": "2026-08-05",
-      "days_to_earnings": 29
+      "days_to_earnings": 28
     }
   },
   "news": {
@@ -58,34 +58,35 @@
     "sentiment": "neutral",
     "health": "neutral",
     "key_events": [
-      "Earnings report in 29 days",
-      "Revenue declining 8.3% YoY indicating headwinds",
-      "Market volatility elevated (VIX 16.1) with fear bias"
+      "Earnings report in 28 days (major catalyst)",
+      "Revenue declining YoY (-8.3%) signals weakening operational performance",
+      "Extreme Fear in market (F&G) presents potential opportunity",
+      "VIX at 16.9 indicates stable market conditions for energy sector"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "Revenue contraction YoY",
-      "RSI at 45.8 shows no momentum",
-      "No technical firing signals",
-      "Fear sentiment in broader market despite neutral VIX"
+      "Revenue contraction YoY suggests volume/pricing pressure",
+      "RSI at 52.9 shows no momentum (neutral zone, not oversold)",
+      "No technical firing signals - chart lacks conviction",
+      "Earnings miss risk given declining revenue trend"
     ],
-    "verdict": "Position is profitable with modest gains but lacks catalyst clarity; hold for earnings inflection point while monitoring revenue trends.",
+    "verdict": "Position is profitable but lacks catalysts; hold for earnings event while monitoring revenue deterioration.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "OXY",
-    "stock_return_3m": -17.54,
-    "benchmark_return_3m": 13.77,
-    "relative_strength": -31.3,
+    "stock_return_3m": -14.46,
+    "benchmark_return_3m": 13.36,
+    "relative_strength": -27.83,
     "label": "underperforming"
   },
   "final_tier": "Hold",
   "sizing": {
     "suggested_shares": 2,
-    "suggested_dollars": 103.36,
-    "note": "2 sh @ $51.68 = $103 (Hold, 60% size) | $657 swing budget after"
+    "suggested_dollars": 107.18,
+    "note": "2 sh @ $53.59 = $107 (Hold, 60% size) | $536 swing budget after"
   },
   "is_dca": false,
-  "saved_at": "2026-07-07T23:32:12.876603"
+  "saved_at": "2026-07-08T23:40:48.724909"
 }

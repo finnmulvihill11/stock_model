@@ -5,25 +5,25 @@
     "direction": "hold",
     "tier": "Hold",
     "buy_score": 0.12,
-    "sell_score": 0.43,
+    "sell_score": 0.29,
     "reasons": [],
     "misses": [
-      "BB: price not near lower band (pct=0.85)",
+      "BB: price not near lower band (pct=0.68)",
       "BB Width: bands expanding, not squeezing",
-      "RSI: not in buy zone (63.7, need 20-40)",
+      "RSI: not in buy zone (56.8, need 20-40)",
       "MACD: no bullish crossover or valley",
       "RSI Divergence: no bullish divergence detected",
       "200MA: price below 200MA \u2014 potential falling knife",
-      "Volume: below average (0.60x) \u2014 low conviction"
+      "Volume: below average (0.70x) \u2014 low conviction"
     ],
-    "price": 60.09,
-    "rsi": 63.7,
-    "atr": 3.79,
+    "price": 57.27,
+    "rsi": 56.8,
+    "atr": 3.81,
     "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 2,
-      "suggested_dollars": 120.18,
-      "note": "2 sh @ $60.09 = $120 (Hold, 60% size) | $640 swing budget after"
+      "suggested_dollars": 114.54,
+      "note": "2 sh @ $57.27 = $115 (Hold, 60% size) | $529 swing budget after"
     }
   },
   "fundamentals": {
@@ -52,7 +52,7 @@
       ],
       "earnings_status": "past",
       "next_earnings_date": "2026-05-05",
-      "days_to_earnings": -63
+      "days_to_earnings": -64
     }
   },
   "news": {
@@ -60,35 +60,36 @@
     "sentiment": "negative",
     "health": "deteriorating",
     "key_events": [
-      "No recent news items available for analysis",
-      "Earnings reported 63 days ago with significant negative reaction",
-      "Company operates in competitive AI/biotech sector with execution risk"
+      "No recent news catalysts identified",
+      "Position down 17.1% from entry",
+      "64 days past earnings announcement",
+      "Market showing extreme fear (F&G indicator)"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "High debt-to-equity ratio (3.2x) constrains financial flexibility",
-      "Not profitable with negative operating cash flow indicates burn rate concerns",
-      "Down 13% from entry; RSI at 63.7 suggests momentum may be peaking",
-      "No recent catalysts or news to support recovery narrative",
-      "Market sentiment showing Fear despite neutral VIX"
+      "High debt-to-equity ratio (3.2x) limits financial flexibility",
+      "Not profitable with negative operating cash flow",
+      "No positive news flow to support recovery",
+      "Extreme fear sentiment may signal capitulation but also downside risk",
+      "Technical shows neutral RSI (56.8) with no bullish firing signals"
     ],
-    "verdict": "Position is deteriorating fundamentally with no near-term catalysts; hold per philosophy but monitor closely for additional deterioration.",
+    "verdict": "Tempus AI faces fundamental deterioration and capital structure stress with no near-term catalysts visible.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "TEM",
-    "stock_return_3m": 27.04,
-    "benchmark_return_3m": 13.77,
-    "relative_strength": 13.27,
+    "stock_return_3m": 22.33,
+    "benchmark_return_3m": 13.36,
+    "relative_strength": 8.97,
     "label": "outperforming"
   },
   "final_tier": "Hold",
   "sizing": {
     "suggested_shares": 2,
-    "suggested_dollars": 120.18,
-    "note": "2 sh @ $60.09 = $120 (Hold, 60% size) | $640 swing budget after"
+    "suggested_dollars": 114.54,
+    "note": "2 sh @ $57.27 = $115 (Hold, 60% size) | $529 swing budget after"
   },
   "is_dca": false,
-  "saved_at": "2026-07-07T23:31:52.970826"
+  "saved_at": "2026-07-08T23:40:23.237332"
 }

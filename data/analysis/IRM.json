@@ -1,0 +1,92 @@
+{
+  "ticker": "IRM",
+  "signal": {
+    "ticker": "IRM",
+    "direction": "hold",
+    "tier": "Hold",
+    "buy_score": 0.5,
+    "sell_score": 0.0,
+    "reasons": [],
+    "misses": [
+      "BB Width: bands expanding, not squeezing",
+      "MACD: no bullish crossover or valley",
+      "RSI Divergence: no bullish divergence detected",
+      "Volume: below average (0.95x) \u2014 low conviction"
+    ],
+    "price": 115.46,
+    "rsi": 33.9,
+    "atr": 4.48,
+    "final_tier": "Hold",
+    "sizing": {
+      "suggested_shares": 1,
+      "suggested_dollars": 115.46,
+      "note": "1 sh @ $115.46 = $115 (Hold, 60% size) | $528 swing budget after"
+    }
+  },
+  "fundamentals": {
+    "ticker": "IRM",
+    "health": "neutral",
+    "passed": [
+      "Revenue growing YoY (+21.6%)",
+      "Profitable (margin 3.8%)"
+    ],
+    "flags": [
+      "Debt-to-equity data unavailable"
+    ],
+    "revenue_growth": 0.216,
+    "de_ratio": null,
+    "profit_margins": 0.03758
+  },
+  "earnings": {
+    "proceed": true,
+    "reason": "Fundamentals intact \u2014 dip may be an overreaction",
+    "verdict": {
+      "ticker": "IRM",
+      "verdict": "consider",
+      "reason": "Fundamentals intact \u2014 dip may be an overreaction",
+      "notes": [
+        "Earnings growing YoY (+860.0%)",
+        "Revenue growing (+21.6%)"
+      ],
+      "earnings_status": "past",
+      "next_earnings_date": "2026-04-30",
+      "days_to_earnings": -69
+    }
+  },
+  "news": {
+    "ticker": "IRM",
+    "sentiment": "neutral",
+    "health": "neutral",
+    "key_events": [
+      "No recent news items available for analysis",
+      "Earnings reported 69 days ago (well past event)",
+      "VIX at 16.9 indicates neutral market conditions",
+      "Extreme Fear gauge suggests potential oversold conditions"
+    ],
+    "macro_context": "",
+    "competitive_notes": "",
+    "red_flags": [
+      "No current news flow or catalysts identified",
+      "Debt-to-equity data unavailable - fundamental opacity",
+      "RSI at 33.9 approaching oversold territory but not yet",
+      "Small position size (3.1% weight) limits swing trade impact"
+    ],
+    "verdict": "IRM shows neutral technicals with mild weakness; lack of news and information gaps prevent bullish conviction, but position-sizing discipline and oversold RSI suggest waiting for clearer signals rather than averaging down.",
+    "confidence": "medium"
+  },
+  "relative_strength": {
+    "ticker": "IRM",
+    "stock_return_3m": 11.0,
+    "benchmark_return_3m": 13.36,
+    "relative_strength": -2.37,
+    "label": "in-line"
+  },
+  "final_tier": "Hold",
+  "sizing": {
+    "suggested_shares": 1,
+    "suggested_dollars": 115.46,
+    "note": "1 sh @ $115.46 = $115 (Hold, 60% size) | $528 swing budget after"
+  },
+  "is_dca": false,
+  "saved_at": "2026-07-08T23:41:03.443712"
+}

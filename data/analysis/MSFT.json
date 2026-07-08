@@ -5,20 +5,20 @@
     "direction": "hold",
     "tier": "Hold",
     "buy_score": 0.12,
-    "sell_score": 0.29,
+    "sell_score": 0.43,
     "reasons": [],
     "misses": [
-      "BB: price not near lower band (pct=0.59)",
-      "RSI: not in buy zone (49.2, need 20-40)",
+      "BB: price not near lower band (pct=0.52)",
+      "RSI: not in buy zone (46.6, need 20-40)",
       "MACD: no bullish crossover or valley",
       "RSI Divergence: no bullish divergence detected",
       "200MA: price below 200MA \u2014 potential falling knife",
-      "Death cross active: 50MA (405.79) below 200MA (442.60)",
-      "Volume: below average (0.59x) \u2014 low conviction"
+      "Death cross active: 50MA (404.98) below 200MA (441.99)",
+      "Volume: below average (0.51x) \u2014 low conviction"
     ],
-    "price": 388.84,
-    "rsi": 49.2,
-    "atr": 13.0,
+    "price": 383.34,
+    "rsi": 46.6,
+    "atr": 12.89,
     "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 0,
@@ -50,9 +50,9 @@
         "Earnings growing YoY (+23.4%)",
         "Revenue growing (+18.3%)"
       ],
-      "earnings_status": "past",
-      "next_earnings_date": "2026-04-29",
-      "days_to_earnings": -69
+      "earnings_status": "upcoming",
+      "next_earnings_date": "2026-07-29",
+      "days_to_earnings": 21
     }
   },
   "news": {
@@ -60,28 +60,25 @@
     "sentiment": "neutral",
     "health": "healthy",
     "key_events": [
-      "Position down 16.77% from entry ($467.18 \u2192 $388.84)",
-      "Earnings reported 69 days ago",
-      "RSI at 49.2 indicates no oversold conditions",
-      "Market sentiment Fear despite neutral VIX 16.1",
-      "No technical firing signals"
+      "Earnings report in 21 days",
+      "VIX at 16.9 indicating neutral market volatility",
+      "Extreme Fear sentiment in broader market (F&G)"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "Significant unrealized loss exceeds 15% threshold",
-      "Fear sentiment in broader market despite healthy fundamentals",
-      "No bullish technical signals to support recovery thesis",
-      "Heavy portfolio weight (21%) amplifies drawdown impact"
+      "Position down 17.95% from entry",
+      "No technical firing signals (RSI 46.6 neutral)",
+      "Significant portfolio weight (20.3%) concentrated in underwater position"
     ],
-    "verdict": "MSFT fundamentals remain healthy but technicals lack conviction; hold position per loss-protection philosophy while monitoring for entry signals into strength.",
+    "verdict": "MSFT fundamentals remain healthy with earnings catalyst ahead; current drawdown appears driven by market sentiment rather than company deterioration.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "MSFT",
-    "stock_return_3m": 4.51,
-    "benchmark_return_3m": 13.77,
-    "relative_strength": -9.26,
+    "stock_return_3m": 3.19,
+    "benchmark_return_3m": 13.36,
+    "relative_strength": -10.17,
     "label": "underperforming"
   },
   "final_tier": "Hold",
@@ -91,5 +88,5 @@
     "note": "Position already at 20% portfolio cap"
   },
   "is_dca": false,
-  "saved_at": "2026-07-07T23:31:39.400160"
+  "saved_at": "2026-07-08T23:40:09.075262"
 }

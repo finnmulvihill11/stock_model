@@ -3,19 +3,36 @@
     "ticker": "MSFT",
     "company_name": "Microsoft Corporation",
     "action": "Hold",
-    "action_reason": "Position exceeds 15% loss threshold, triggering hold-through-recovery protocol regardless of technicals. Fundamentals intact and RSI neutral (not oversold), preserving recovery optionality without forced exit.",
-    "target_price": 425,
+    "action_reason": "Position is down 17.95%, triggering your rule against exits on major losers. Upcoming earnings (21d) and healthy fundamentals support a hold through potential recovery, especially given Extreme Fear market conditions that often precede bounces.",
+    "target_price": 420,
     "target_reasoning": "",
-    "exit_trigger": "Break below $370 (15% further downside) on volume; or exit only if position recovers to breakeven or better",
-    "add_trigger": "RSI drops below 30 (oversold) + confirmed support at $370 + positive technical crossover (9/21 EMA bullish cross)",
-    "risk": "Continued sector rotation away from mega-cap tech; macro weakness if Fear sentiment escalates; concentration risk (21% weight) amplifies losses",
+    "exit_trigger": "Only exit if fundamentals deteriorate post-earnings or stock breaks below $360 on heavy volume with deteriorating technicals",
+    "add_trigger": "Add only if stock falls to $360-365 range AND RSI drops to 30-35 AND earnings date approaches without negative catalyst",
+    "risk": "Continued macro weakness or disappointing earnings guidance could push stock lower; concentrated 20.3% position weight amplifies portfolio impact",
     "outlook": "cautious",
-    "timeframe": "4-8 weeks",
-    "generated_at": "2026-07-07T23:31:39.399413",
-    "price_at_generation": 388.84,
-    "pnl_at_generation": -16.77
+    "timeframe": "4-6 weeks (through earnings + initial reaction period)",
+    "generated_at": "2026-07-08T23:40:09.074471",
+    "price_at_generation": 383.34,
+    "pnl_at_generation": -17.95
   },
   "history": [
+    {
+      "ticker": "MSFT",
+      "company_name": "Microsoft Corporation",
+      "action": "Hold",
+      "action_reason": "Position exceeds 15% loss threshold, triggering hold-through-recovery protocol regardless of technicals. Fundamentals intact and RSI neutral (not oversold), preserving recovery optionality without forced exit.",
+      "target_price": 425,
+      "target_reasoning": "",
+      "exit_trigger": "Break below $370 (15% further downside) on volume; or exit only if position recovers to breakeven or better",
+      "add_trigger": "RSI drops below 30 (oversold) + confirmed support at $370 + positive technical crossover (9/21 EMA bullish cross)",
+      "risk": "Continued sector rotation away from mega-cap tech; macro weakness if Fear sentiment escalates; concentration risk (21% weight) amplifies losses",
+      "outlook": "cautious",
+      "timeframe": "4-8 weeks",
+      "generated_at": "2026-07-07T23:31:39.399413",
+      "price_at_generation": 388.84,
+      "pnl_at_generation": -16.77,
+      "archived_at": "2026-07-08T23:40:09.074679"
+    },
     {
       "ticker": "MSFT",
       "company_name": "Microsoft Corporation",
@@ -117,23 +134,6 @@
       "price_at_generation": 368.57,
       "pnl_at_generation": -21.11,
       "archived_at": "2026-06-30T23:46:28.556461"
-    },
-    {
-      "ticker": "MSFT",
-      "company_name": "Microsoft Corporation",
-      "action": "Hold",
-      "action_reason": "Loss exceeds 15% threshold, triggering hold-through-recovery protocol. RSI 40.5 and Extreme Fear sentiment suggest capitulation bottom may be forming, rewarding patience.",
-      "target_price": 520,
-      "target_reasoning": "",
-      "exit_trigger": "Break below $350 with volume spike or fundamental deterioration announcement",
-      "add_trigger": "RSI drops below 30 + VIX spikes above 25 (panic washout confirmation)",
-      "risk": "Continued macro selloff or unforeseen negative fundamental shift; concentration risk at 22.7% weight",
-      "outlook": "cautious",
-      "timeframe": "4-8 weeks for technical recovery; monitor next earnings for confirmation",
-      "generated_at": "2026-06-28T23:41:31.234826",
-      "price_at_generation": 372.97,
-      "pnl_at_generation": -20.17,
-      "archived_at": "2026-06-29T23:36:43.331173"
     }
   ]
 }

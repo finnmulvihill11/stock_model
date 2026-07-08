@@ -4,23 +4,25 @@
     "ticker": "WMT",
     "direction": "hold",
     "tier": "Hold",
-    "buy_score": 0.5,
+    "buy_score": 0.25,
     "sell_score": 0.0,
     "reasons": [],
     "misses": [
+      "BB: price not near lower band (pct=0.28)",
       "BB Width: bands expanding, not squeezing",
+      "RSI: not in buy zone (41.0, need 20-40)",
       "RSI Divergence: no bullish divergence detected",
       "200MA: price below 200MA \u2014 potential falling knife",
-      "Volume: below average (0.80x) \u2014 low conviction"
+      "Volume: below average (0.76x) \u2014 low conviction"
     ],
-    "price": 111.54,
-    "rsi": 36.4,
-    "atr": 2.95,
+    "price": 113.1,
+    "rsi": 41.0,
+    "atr": 2.9,
     "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 1,
-      "suggested_dollars": 111.54,
-      "note": "1 sh @ $111.54 = $112 (Hold, 60% size) | $649 swing budget after"
+      "suggested_dollars": 113.1,
+      "note": "1 sh @ $113.10 = $113 (Hold, 60% size) | $531 swing budget after"
     }
   },
   "fundamentals": {
@@ -49,7 +51,7 @@
       ],
       "earnings_status": "distant",
       "next_earnings_date": "2026-08-20",
-      "days_to_earnings": 44
+      "days_to_earnings": 43
     }
   },
   "news": {
@@ -57,33 +59,33 @@
     "sentiment": "neutral",
     "health": "healthy",
     "key_events": [
-      "No recent news items provided for analysis",
-      "Earnings report 44 days away - potential catalyst ahead",
-      "Market in fear mode (F&G indicator) despite neutral VIX"
+      "No recent news items provided for assessment",
+      "Earnings 43 days out \u2014 sufficient runway for swing trade",
+      "Market in Extreme Fear mode despite neutral VIX 16.9"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "RSI at 36.4 indicates oversold conditions but no bullish firing signals",
-      "No technical momentum despite oversold setup",
-      "Fear sentiment in market environment may weigh on discretionary retail stocks"
+      "No technical firing signals despite RSI 41.0 (not oversold yet)",
+      "Lack of recent catalysts or news flow",
+      "Empty news slate limits conviction for near-term moves"
     ],
-    "verdict": "Hold current position; Walmart's healthy fundamentals support recovery, with earnings catalyst approaching in 6 weeks.",
+    "verdict": "WMT showing modest gains in a fearful market; fundamentals intact but no immediate catalyst to accelerate momentum.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "WMT",
-    "stock_return_3m": -11.86,
-    "benchmark_return_3m": 13.77,
-    "relative_strength": -25.63,
+    "stock_return_3m": -7.49,
+    "benchmark_return_3m": 13.36,
+    "relative_strength": -20.85,
     "label": "underperforming"
   },
   "final_tier": "Hold",
   "sizing": {
     "suggested_shares": 1,
-    "suggested_dollars": 111.54,
-    "note": "1 sh @ $111.54 = $112 (Hold, 60% size) | $649 swing budget after"
+    "suggested_dollars": 113.1,
+    "note": "1 sh @ $113.10 = $113 (Hold, 60% size) | $531 swing budget after"
   },
   "is_dca": false,
-  "saved_at": "2026-07-07T23:32:19.163385"
+  "saved_at": "2026-07-08T23:40:56.690869"
 }
