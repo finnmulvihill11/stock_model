@@ -42,6 +42,9 @@ portfolio:
   - ticker: WMT
     shares: 1
     avg_cost: 111.75
+  - ticker: IRM
+    shares: 1.0
+    avg_cost: 116.6
   dca_tickers:
   - GRNI
   - VOO
