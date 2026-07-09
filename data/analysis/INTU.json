@@ -8,17 +8,17 @@
     "sell_score": 0.43,
     "reasons": [],
     "misses": [
-      "BB: price not near lower band (pct=0.52)",
-      "RSI: not in buy zone (42.5, need 20-40)",
+      "BB: price not near lower band (pct=0.59)",
+      "RSI: not in buy zone (43.2, need 20-40)",
       "MACD: no bullish crossover or valley",
       "RSI Divergence: no bullish divergence detected",
       "200MA: price below 200MA \u2014 potential falling knife",
-      "Death cross active: 50MA (325.65) below 200MA (497.75)",
-      "Volume: below average (0.74x) \u2014 low conviction"
+      "Death cross active: 50MA (323.32) below 200MA (495.70)",
+      "Volume: below average (0.69x) \u2014 low conviction"
     ],
-    "price": 272.1,
-    "rsi": 42.5,
-    "atr": 12.19,
+    "price": 273.38,
+    "rsi": 43.2,
+    "atr": 11.98,
     "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 0,
@@ -52,7 +52,7 @@
       ],
       "earnings_status": "past",
       "next_earnings_date": "2026-05-20",
-      "days_to_earnings": -49
+      "days_to_earnings": -50
     }
   },
   "news": {
@@ -60,26 +60,27 @@
     "sentiment": "neutral",
     "health": "healthy",
     "key_events": [
-      "No recent news items available for analysis",
-      "Earnings reported 49 days ago - results already priced in",
-      "Position established at $468.29, now trading at $272.10"
+      "Earnings reported within past 50 days",
+      "Extreme Fear sentiment in broader market (F&G index)",
+      "VIX at neutral levels (15.8) suggesting stabilizing volatility"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "Severe drawdown (-41.89%) with no recent catalysts to suggest recovery timing",
-      "No news flow to support near-term reversal",
-      "Position weight (21.6%) is elevated for a distressed holding",
-      "RSI at 42.5 indicates weakness without oversold confirmation"
+      "Position down 41.62% \u2014 significant drawdown from entry",
+      "No recent news available for assessment \u2014 information gap",
+      "RSI 43.2 indicates weakness but not oversold territory (<30)",
+      "21.6% portfolio weight concentrates risk in a depressed asset",
+      "Missing context on earnings beat/miss and guidance revision"
     ],
-    "verdict": "Hold position per philosophy, but monitor for capitulation signals; lack of news and continued weakness suggests consolidation phase before potential recovery.",
+    "verdict": "INTU fundamentals remain healthy, but position is deeply underwater with limited near-term catalysts visible; hold per philosophy while monitoring for recovery triggers.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "INTU",
-    "stock_return_3m": -33.47,
-    "benchmark_return_3m": 13.36,
-    "relative_strength": -46.83,
+    "stock_return_3m": -29.6,
+    "benchmark_return_3m": 11.48,
+    "relative_strength": -41.08,
     "label": "underperforming"
   },
   "final_tier": "Hold",
@@ -89,5 +90,5 @@
     "note": "Position already at 20% portfolio cap"
   },
   "is_dca": false,
-  "saved_at": "2026-07-08T23:39:59.700457"
+  "saved_at": "2026-07-09T23:48:29.829472"
 }

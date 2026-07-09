@@ -1,46 +1,90 @@
 {
   "current": {
-    "headline": "Portfolio underwater but hold discipline intact \u2014 deploy remaining $1k cash into high-conviction mean-reversion setups.",
+    "headline": "Portfolio in recovery mode\u2014hold major losers, selectively add oversold quality on mean-reversion setup.",
     "market_stance": "offensive",
-    "overall_thesis": "Extreme Fear reading (20) + multiple oversold screeners suggest capitulation opportunity. Your largest losers (INTU -41.9%, MSFT -17.9%, TEM -17.1%) are held per discipline and will recover in mean-reversion cycle. Allocate remaining $1k to fresh oversold high-conviction buys (ON, HPQ, IRM, DLR) to dollar-cost-average into quality names at depressed prices over next 2\u20134 weeks.",
+    "overall_thesis": "Your tech-heavy portfolio (INTU -41.6%, MSFT -17.7%) is deep underwater but fundamentally sound; hold and let recovery play out per your philosophy. Extreme Fear reading (22) + VIX 15.8 suggest a bottoming market ripe for disciplined mean-reversion adds into oversold quality names. Deploy remaining $1k into highest-conviction Buy signals to compound on recovery.",
     "priority_actions": [
       {
         "rank": 1,
         "action": "BUY",
-        "ticker": "IRM",
-        "instruction": "BUY 15\u201320 shares (~$300 allocation) on next dip toward RSI 35 support. IRM is already held (+0.5% gain) and now screened as persistent Buy (RSI 33.9, oversold). Add to existing position for mean-reversion confidence.",
-        "urgency": "this week"
+        "ticker": "WMT",
+        "instruction": "Add ~$250\u2013300 to existing position (3.0% weight). WMT is rare: Strong Buy signal + oversold RSI 39.2 + already profitable (+0.41%). Perfect add candidate for oversold recovery play without fight. Target 30\u201340 shares at current levels.",
+        "urgency": "immediate"
       },
       {
         "rank": 2,
         "action": "BUY",
-        "ticker": "ON",
-        "instruction": "BUY 20\u201325 shares (~$400 allocation) at market or on any dip below current level. Persistent Buy signal, RSI 38.9 oversold, semiconductor recovery play aligned with tech sector mean-reversion tailwind.",
+        "ticker": "DLR",
+        "instruction": "Open new position with $400\u2013500 of remaining budget. Persistent Buy signal, RSI 33.3 deeply oversold, data-center demand thesis intact despite drawdown. Position sizing ~$450 (12\u201315 shares range depending on entry).",
         "urgency": "this week"
       },
       {
         "rank": 3,
         "action": "BUY",
-        "ticker": "DLR",
-        "instruction": "BUY 8\u201310 shares (~$300 allocation) if RSI holds below 35. Data center infrastructure plays benefit from AI capex cycle; classic mean-reversion setup with earnings catalyst near-term.",
-        "urgency": "this month"
+        "ticker": "IRM",
+        "instruction": "Add ~$200\u2013250 to existing position (currently 3.2% weight). Persistent Buy signal + RSI 35.9 oversold + profitable (+2.47%). Double down on mean-reversion setup; this is exactly your playbook. 20\u201325 shares.",
+        "urgency": "this week"
       }
     ],
-    "biggest_risk": "INTU at -41.9% represents existential portfolio drag. If it continues to deteriorate another 20%+ (down to -60% total), conviction in hold discipline will be severely tested. Monitor INTU earnings date closely \u2014 if results are materially worse than guidance, thesis may break and warrant re-evaluation despite loss magnitude.",
+    "biggest_risk": "Geopolitical blind spot\u2014moderate risk flagged but headline data missing. US-China trade escalation could hammer MSFT, INTU, and semiconductor exposure (ON, HPQ). Verify current headlines on trade/tariff developments before committing cash to new adds.",
     "what_to_watch": [
-      "INTU earnings: fundamental catalyst that could justify or invalidate continued hold on largest loser",
-      "Fed commentary this week: any hawkish pivot could extend tech selloff and prevent mean-reversion bounce",
-      "VIX sustained above 18: would signal systemic fear shift and validate aggressive new-money deployment into oversold names",
-      "ABT approaching 15% loss threshold: monitor closely \u2014 if it dips below -15%, locks in hold discipline for another sector anchor",
-      "ON, HPQ, DLR first technical bounces: early wins on new buys will build conviction for sector rotation play"
+      "CMG earnings catalyst (upcoming swing trigger)",
+      "Tech earnings season for INTU/MSFT recovery narrative timing",
+      "VIX spike above 18\u201320 (could signal fresh washout \u2192 even better add prices)",
+      "US-China trade headlines (monitor before deploying final $1k)",
+      "RSI mean-reversion follow-through on WMT, DLR, IRM adds (should see 2\u20133% bounce on entry)"
     ],
     "on_course_check": [
-      "\u2713 Plan working IF: New buys (ON, IRM, DLR) bounce >5% within 2 weeks, signaling mean-reversion thesis intact and broad sector capitulation cycle beginning.",
-      "\u2717 Revise IF: INTU breaks below previous low and VIX stays elevated >18 for 5+ consecutive days \u2014 suggests sector structural weakness vs. mean-reversion dip; reduce new commitments and preserve cash."
+      "\u2713 Holding major losers (INTU, MSFT) per philosophy\u2014no panic exits despite pain.",
+      "\u2713 Fear reading (22) + oversold signals = offensive environment\u2014adds are justified.",
+      "\u26a0 Cash deployment plan: $250 WMT + $450 DLR + $250 IRM = $950. Retain ~$50 emergency dry powder.",
+      "\u26a0 If geopolitical headlines worsen before Friday, pause new adds and reassess tech thesis."
     ],
-    "generated_at": "2026-07-08T23:41:17.044931"
+    "generated_at": "2026-07-09T23:49:42.527492"
   },
   "history": [
+    {
+      "headline": "Portfolio underwater but hold discipline intact \u2014 deploy remaining $1k cash into high-conviction mean-reversion setups.",
+      "market_stance": "offensive",
+      "overall_thesis": "Extreme Fear reading (20) + multiple oversold screeners suggest capitulation opportunity. Your largest losers (INTU -41.9%, MSFT -17.9%, TEM -17.1%) are held per discipline and will recover in mean-reversion cycle. Allocate remaining $1k to fresh oversold high-conviction buys (ON, HPQ, IRM, DLR) to dollar-cost-average into quality names at depressed prices over next 2\u20134 weeks.",
+      "priority_actions": [
+        {
+          "rank": 1,
+          "action": "BUY",
+          "ticker": "IRM",
+          "instruction": "BUY 15\u201320 shares (~$300 allocation) on next dip toward RSI 35 support. IRM is already held (+0.5% gain) and now screened as persistent Buy (RSI 33.9, oversold). Add to existing position for mean-reversion confidence.",
+          "urgency": "this week"
+        },
+        {
+          "rank": 2,
+          "action": "BUY",
+          "ticker": "ON",
+          "instruction": "BUY 20\u201325 shares (~$400 allocation) at market or on any dip below current level. Persistent Buy signal, RSI 38.9 oversold, semiconductor recovery play aligned with tech sector mean-reversion tailwind.",
+          "urgency": "this week"
+        },
+        {
+          "rank": 3,
+          "action": "BUY",
+          "ticker": "DLR",
+          "instruction": "BUY 8\u201310 shares (~$300 allocation) if RSI holds below 35. Data center infrastructure plays benefit from AI capex cycle; classic mean-reversion setup with earnings catalyst near-term.",
+          "urgency": "this month"
+        }
+      ],
+      "biggest_risk": "INTU at -41.9% represents existential portfolio drag. If it continues to deteriorate another 20%+ (down to -60% total), conviction in hold discipline will be severely tested. Monitor INTU earnings date closely \u2014 if results are materially worse than guidance, thesis may break and warrant re-evaluation despite loss magnitude.",
+      "what_to_watch": [
+        "INTU earnings: fundamental catalyst that could justify or invalidate continued hold on largest loser",
+        "Fed commentary this week: any hawkish pivot could extend tech selloff and prevent mean-reversion bounce",
+        "VIX sustained above 18: would signal systemic fear shift and validate aggressive new-money deployment into oversold names",
+        "ABT approaching 15% loss threshold: monitor closely \u2014 if it dips below -15%, locks in hold discipline for another sector anchor",
+        "ON, HPQ, DLR first technical bounces: early wins on new buys will build conviction for sector rotation play"
+      ],
+      "on_course_check": [
+        "\u2713 Plan working IF: New buys (ON, IRM, DLR) bounce >5% within 2 weeks, signaling mean-reversion thesis intact and broad sector capitulation cycle beginning.",
+        "\u2717 Revise IF: INTU breaks below previous low and VIX stays elevated >18 for 5+ consecutive days \u2014 suggests sector structural weakness vs. mean-reversion dip; reduce new commitments and preserve cash."
+      ],
+      "generated_at": "2026-07-08T23:41:17.044931",
+      "archived_at": "2026-07-09T23:49:42.527768"
+    },
     {
       "headline": "Portfolio anchored by major losses (INTU -40%, MSFT -16.8%) \u2014 hold through recovery; deploy remaining $1k into high-conviction mean-reversion setups.",
       "market_stance": "offensive",
@@ -298,48 +342,6 @@
       ],
       "generated_at": "2026-06-30T23:47:16.217032",
       "archived_at": "2026-07-01T23:54:13.744753"
-    },
-    {
-      "headline": "Portfolio underwater but holds firm; extreme fear creates mean-reversion entry opportunity with $1k dry powder.",
-      "market_stance": "offensive",
-      "overall_thesis": "Your underwater core tech positions (INTU, MSFT) are held per philosophy and will recover in mean-reversion cycle\u2014Extreme Fear (12) is a contrarian buy signal. Deploy remaining $1k into highest-conviction oversold screener picks (IONQ, ON, STLD, MPWR, GOOGL) to establish swing positions into recovery. Next 4\u20138 weeks: rotate gains into recovering drawdowns, let major losers mean-revert upward.",
-      "priority_actions": [
-        {
-          "rank": 1,
-          "action": "BUY",
-          "ticker": "IONQ",
-          "instruction": "Buy ~45\u201350 shares (RSI 39.9 oversold, Bollinger Band touch). Allocate $350 of $1k budget. This is a classic mean-reversion setup with persistent buy signal.",
-          "urgency": "immediate"
-        },
-        {
-          "rank": 2,
-          "action": "BUY",
-          "ticker": "ON",
-          "instruction": "Buy ~35\u201340 shares (RSI 37.2 oversold, lower Bollinger Band). Allocate $250 of remaining budget. Textbook oversold semis are recovering into Extreme Fear.",
-          "urgency": "immediate"
-        },
-        {
-          "rank": 3,
-          "action": "BUY",
-          "ticker": "STLD",
-          "instruction": "Buy ~20\u201325 shares (RSI in oversold, price compressed at lower BB). Allocate remaining ~$400 of budget. Steel cyclical mean-reversion into fear floor.",
-          "urgency": "this week"
-        }
-      ],
-      "biggest_risk": "Geopolitical escalation (Middle East, Russia-Ukraine, US-China trade) could trigger renewed tech selloff before your oversold positions mean-revert. Monitor headlines daily. If VIX spikes >25 on geopolitical catalyst, consider 20% cash raise by trimming smallest profitable position (CMG +4.77%) to build optionality.",
-      "what_to_watch": [
-        "Fed speakers / rate signal \u2014 Extreme Fear may be pricing in rate cut cycle; confirm it's not a trap",
-        "Earnings season catalysts for MSFT, INTU, ABT (your three largest losers) \u2014 beats could spark sharp recoveries",
-        "Geopolitical headline risk (Middle East, China tariff threat) \u2014 could derail mean-reversion bounce before it starts",
-        "VIX mean reversion \u2014 at 17.6, if Fear index tightens above 15, fear trade may have already played out"
-      ],
-      "on_course_check": [
-        "\u2713 Plan is working IF: New buys (IONQ, ON, STLD) reverse within 2\u20133 weeks and MSFT/INTU stabilize RSI above 45 \u2014 triggers swing exit into strength",
-        "\u26a0 Revise plan IF: VIX spikes >22 on geopolitical news before new positions gain traction \u2014 raise cash, pare MPWR/STLD if they fill buys, hold tech mega-losers",
-        "\u26a0 Revise plan IF: Geopolitical risk assessment becomes HIGH and headlines confirm escalation \u2014 shift to defensive mode, trim all new buys at first 5% gain, revert to cash"
-      ],
-      "generated_at": "2026-06-29T23:37:35.938135",
-      "archived_at": "2026-06-30T23:47:16.217326"
     }
   ]
 }

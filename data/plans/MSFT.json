@@ -3,19 +3,36 @@
     "ticker": "MSFT",
     "company_name": "Microsoft Corporation",
     "action": "Hold",
-    "action_reason": "Position is down 17.95%, triggering your rule against exits on major losers. Upcoming earnings (21d) and healthy fundamentals support a hold through potential recovery, especially given Extreme Fear market conditions that often precede bounces.",
+    "action_reason": "Position is down 17.73%, triggering your rule to never exit major losers. Fundamentals remain healthy, RSI shows room for recovery, and earnings in 20 days could be a catalyst. Holding lets the recovery thesis play out.",
     "target_price": 420,
     "target_reasoning": "",
-    "exit_trigger": "Only exit if fundamentals deteriorate post-earnings or stock breaks below $360 on heavy volume with deteriorating technicals",
-    "add_trigger": "Add only if stock falls to $360-365 range AND RSI drops to 30-35 AND earnings date approaches without negative catalyst",
-    "risk": "Continued macro weakness or disappointing earnings guidance could push stock lower; concentrated 20.3% position weight amplifies portfolio impact",
+    "exit_trigger": "Break below $360 on volume (>100M shares/day) suggesting fundamental deterioration",
+    "add_trigger": "RSI drops to <35 AND closes above $400 on next recovery attempt = oversold bounce confirmation",
+    "risk": "Continued macro weakness from geopolitical tensions or broader tech selloff could extend drawdown to -25%+ before earnings; concentration in single position amplifies risk.",
     "outlook": "cautious",
-    "timeframe": "4-6 weeks (through earnings + initial reaction period)",
-    "generated_at": "2026-07-08T23:40:09.074471",
-    "price_at_generation": 383.34,
-    "pnl_at_generation": -17.95
+    "timeframe": "2-4 weeks to earnings catalyst; reassess after Q results",
+    "generated_at": "2026-07-09T23:48:37.205022",
+    "price_at_generation": 384.36,
+    "pnl_at_generation": -17.73
   },
   "history": [
+    {
+      "ticker": "MSFT",
+      "company_name": "Microsoft Corporation",
+      "action": "Hold",
+      "action_reason": "Position is down 17.95%, triggering your rule against exits on major losers. Upcoming earnings (21d) and healthy fundamentals support a hold through potential recovery, especially given Extreme Fear market conditions that often precede bounces.",
+      "target_price": 420,
+      "target_reasoning": "",
+      "exit_trigger": "Only exit if fundamentals deteriorate post-earnings or stock breaks below $360 on heavy volume with deteriorating technicals",
+      "add_trigger": "Add only if stock falls to $360-365 range AND RSI drops to 30-35 AND earnings date approaches without negative catalyst",
+      "risk": "Continued macro weakness or disappointing earnings guidance could push stock lower; concentrated 20.3% position weight amplifies portfolio impact",
+      "outlook": "cautious",
+      "timeframe": "4-6 weeks (through earnings + initial reaction period)",
+      "generated_at": "2026-07-08T23:40:09.074471",
+      "price_at_generation": 383.34,
+      "pnl_at_generation": -17.95,
+      "archived_at": "2026-07-09T23:48:37.205241"
+    },
     {
       "ticker": "MSFT",
       "company_name": "Microsoft Corporation",
@@ -117,23 +134,6 @@
       "price_at_generation": 373.02,
       "pnl_at_generation": -20.15,
       "archived_at": "2026-07-01T23:53:30.562642"
-    },
-    {
-      "ticker": "MSFT",
-      "company_name": "Microsoft Corporation",
-      "action": "Hold",
-      "action_reason": "Position exceeds -15% loss threshold, triggering philosophy rule to hold through major losers. RSI 39 suggests oversold bounce potential; await mean reversion or next earnings (likely 60+ days away).",
-      "target_price": 410,
-      "target_reasoning": "",
-      "exit_trigger": "Break below $355 (new 52-week lows) or earnings miss with deteriorating guidance",
-      "add_trigger": "RSI <30 + VIX >25 (capitulation confirmation), or clear rebound above $400 on volume",
-      "risk": "Extended macro weakness (recession fears, rate hikes) could extend drawdown to -30%+; concentration at 21.8% amplifies impact",
-      "outlook": "cautious",
-      "timeframe": "4-8 weeks (await next earnings or technical reversal)",
-      "generated_at": "2026-06-29T23:36:43.330985",
-      "price_at_generation": 368.57,
-      "pnl_at_generation": -21.11,
-      "archived_at": "2026-06-30T23:46:28.556461"
     }
   ]
 }

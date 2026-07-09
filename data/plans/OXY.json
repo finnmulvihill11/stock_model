@@ -3,19 +3,36 @@
     "ticker": "OXY",
     "company_name": "Occidental Petroleum Corporation",
     "action": "Hold",
-    "action_reason": "You're up 6.37% on a profitable swing with 28-day earnings catalyst ahead. Extreme Fear backdrop provides risk/reward asymmetry. Revenue decline is concerning but not yet a break-level; earnings will clarify trajectory.",
-    "target_price": 56.5,
+    "action_reason": "Position is +3.81% profitable and small (5.5% weight), making it ideal to hold through the 27-day earnings cycle. No technical or fundamental triggers warrant exit, and the lack of downside exposure removes urgency.",
+    "target_price": 54.5,
     "target_reasoning": "",
-    "exit_trigger": "Close below $51.20 (break of entry support) OR negative earnings surprise + guidance cut on revenue",
-    "add_trigger": "Price dips to $52.00-$52.50 with RSI <40 + bullish divergence before earnings",
-    "risk": "Revenue contraction could accelerate post-earnings; energy sector cyclical exposure to demand/macro weakness",
-    "outlook": "cautious",
-    "timeframe": "Hold through earnings (28d); reassess post-announcement for exit or accumulation",
-    "generated_at": "2026-07-08T23:40:48.724179",
-    "price_at_generation": 53.59,
-    "pnl_at_generation": 6.37
+    "exit_trigger": "Break below $49.50 (support) or miss earnings by >10% EPS; also exit if position turns profitable post-earnings and reaches RSI >70 with negative revisions.",
+    "add_trigger": "Only add if: (1) earnings beat with positive guidance, (2) geopolitical escalation drives oil >$85/bbl, or (3) RSI breaks above 60 with volume confirmation.",
+    "risk": "Energy cyclicality + revenue decline suggest weak demand environment; earnings miss could trigger 5-8% pullback. Geopolitical de-escalation would pressure crude prices.",
+    "outlook": "neutral",
+    "timeframe": "4 weeks (through earnings) \u2014 reassess position after 27d earnings report",
+    "generated_at": "2026-07-09T23:49:13.290925",
+    "price_at_generation": 52.3,
+    "pnl_at_generation": 3.81
   },
   "history": [
+    {
+      "ticker": "OXY",
+      "company_name": "Occidental Petroleum Corporation",
+      "action": "Hold",
+      "action_reason": "You're up 6.37% on a profitable swing with 28-day earnings catalyst ahead. Extreme Fear backdrop provides risk/reward asymmetry. Revenue decline is concerning but not yet a break-level; earnings will clarify trajectory.",
+      "target_price": 56.5,
+      "target_reasoning": "",
+      "exit_trigger": "Close below $51.20 (break of entry support) OR negative earnings surprise + guidance cut on revenue",
+      "add_trigger": "Price dips to $52.00-$52.50 with RSI <40 + bullish divergence before earnings",
+      "risk": "Revenue contraction could accelerate post-earnings; energy sector cyclical exposure to demand/macro weakness",
+      "outlook": "cautious",
+      "timeframe": "Hold through earnings (28d); reassess post-announcement for exit or accumulation",
+      "generated_at": "2026-07-08T23:40:48.724179",
+      "price_at_generation": 53.59,
+      "pnl_at_generation": 6.37,
+      "archived_at": "2026-07-09T23:49:13.291182"
+    },
     {
       "ticker": "OXY",
       "company_name": "Occidental Petroleum Corporation",
@@ -117,23 +134,6 @@
       "price_at_generation": 48.57,
       "pnl_at_generation": -5.1,
       "archived_at": "2026-07-01T23:54:01.245633"
-    },
-    {
-      "ticker": "OXY",
-      "company_name": "Occidental Petroleum Corporation",
-      "action": "Hold",
-      "action_reason": "Position loss is only -4.08% (well within tolerance), and RSI 28.3 oversold conditions historically precede bounces. Hold for mean reversion setup while monitoring for geopolitical developments that could reignite energy demand.",
-      "target_price": 54.5,
-      "target_reasoning": "",
-      "exit_trigger": "Break below $47.00 (major support) or if revenue decline accelerates beyond -12% without stabilization signal",
-      "add_trigger": "RSI crosses above 35 with volume confirmation + positive energy sector news or geopolitical escalation",
-      "risk": "Structural energy demand concerns; revenue decline suggests operational headwinds beyond cyclicality. Geopolitical risk stated as 'inconclusive' \u2014 lack of clarity is itself a risk.",
-      "outlook": "cautious",
-      "timeframe": "3-6 weeks (wait for next earnings or catalyst; RSI bounce window typically 2-3 weeks)",
-      "generated_at": "2026-06-29T23:37:21.426738",
-      "price_at_generation": 49.09,
-      "pnl_at_generation": -4.08,
-      "archived_at": "2026-06-30T23:47:03.029308"
     }
   ]
 }

@@ -3,19 +3,36 @@
     "ticker": "CMG",
     "company_name": "Chipotle Mexican Grill, Inc.",
     "action": "Hold",
-    "action_reason": "You're up 6.23% with a small 1.8% portfolio weight\u2014this is ideal swing trade territory to manage. Upcoming earnings (21d) is a major catalyst that could either validate the move or create volatility; holding through this event captures that asymmetry without adding risk.",
-    "target_price": 36.5,
+    "action_reason": "Position is solidly profitable with upcoming earnings as a major swing catalyst. Hold through the event and reassess based on results and forward guidance rather than exiting a winner.",
+    "target_price": 37.5,
     "target_reasoning": "",
-    "exit_trigger": "Close below $31.00 (original entry support) OR earnings miss with guidance cut AND RSI drops below 40",
-    "add_trigger": "Break above $35.50 on volume post-earnings with positive guidance, establishing higher conviction",
-    "risk": "High leverage (2.2x D/E) means CMG is sensitive to macroeconomic slowdown; extreme fear in market could trigger sudden drawdown regardless of technicals",
+    "exit_trigger": "RSI > 75 after earnings beat + 5%+ post-earnings pop, or close below $33.00 (support break)",
+    "add_trigger": "Dip to $32.50-$33.00 on market weakness before earnings; RSI < 40 with bullish divergence",
+    "risk": "Earnings miss + debt concerns could trigger -8-12% drawdown; geopolitical escalation could impact consumer spending",
     "outlook": "cautious",
-    "timeframe": "2-3 weeks until earnings, then 2-4 weeks post for swing resolution",
-    "generated_at": "2026-07-08T23:40:30.551546",
-    "price_at_generation": 33.43,
-    "pnl_at_generation": 6.23
+    "timeframe": "2-4 weeks (earnings catalyst driven)",
+    "generated_at": "2026-07-09T23:48:57.771543",
+    "price_at_generation": 34.6,
+    "pnl_at_generation": 9.95
   },
   "history": [
+    {
+      "ticker": "CMG",
+      "company_name": "Chipotle Mexican Grill, Inc.",
+      "action": "Hold",
+      "action_reason": "You're up 6.23% with a small 1.8% portfolio weight\u2014this is ideal swing trade territory to manage. Upcoming earnings (21d) is a major catalyst that could either validate the move or create volatility; holding through this event captures that asymmetry without adding risk.",
+      "target_price": 36.5,
+      "target_reasoning": "",
+      "exit_trigger": "Close below $31.00 (original entry support) OR earnings miss with guidance cut AND RSI drops below 40",
+      "add_trigger": "Break above $35.50 on volume post-earnings with positive guidance, establishing higher conviction",
+      "risk": "High leverage (2.2x D/E) means CMG is sensitive to macroeconomic slowdown; extreme fear in market could trigger sudden drawdown regardless of technicals",
+      "outlook": "cautious",
+      "timeframe": "2-3 weeks until earnings, then 2-4 weeks post for swing resolution",
+      "generated_at": "2026-07-08T23:40:30.551546",
+      "price_at_generation": 33.43,
+      "pnl_at_generation": 6.23,
+      "archived_at": "2026-07-09T23:48:57.771756"
+    },
     {
       "ticker": "CMG",
       "company_name": "Chipotle Mexican Grill, Inc.",
@@ -117,23 +134,6 @@
       "price_at_generation": 34.0,
       "pnl_at_generation": 8.04,
       "archived_at": "2026-07-01T23:53:48.391556"
-    },
-    {
-      "ticker": "CMG",
-      "company_name": "Chipotle Mexican Grill, Inc.",
-      "action": "Hold",
-      "action_reason": "You're +4.77% on a small 3.9% portfolio weight with no technical sell signals. Earnings in 30d is a key catalyst that could move the stock meaningfully \u2014 waiting for this event makes sense before taking profits. High debt-to-equity warrants caution but doesn't justify exit from a winning trade.",
-      "target_price": 35.5,
-      "target_reasoning": "",
-      "exit_trigger": "Break below $31.00 (entry support) on high volume, or post-earnings disappointment with guidance reduction",
-      "add_trigger": "Consolidation above $33.50 + bullish earnings beat + RSI confirms above 60 without overbought divergence",
-      "risk": "Leverage amplifies downside if same-store sales disappoint; Extreme Fear backdrop suggests macro headwinds could trigger a sell-off",
-      "outlook": "neutral",
-      "timeframe": "2-4 weeks (hold through earnings; reassess after announcement)",
-      "generated_at": "2026-06-29T23:37:06.897060",
-      "price_at_generation": 32.97,
-      "pnl_at_generation": 4.77,
-      "archived_at": "2026-06-30T23:46:49.005313"
     }
   ]
 }

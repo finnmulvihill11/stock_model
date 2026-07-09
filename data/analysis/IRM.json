@@ -4,23 +4,24 @@
     "ticker": "IRM",
     "direction": "hold",
     "tier": "Hold",
-    "buy_score": 0.5,
+    "buy_score": 0.38,
     "sell_score": 0.0,
     "reasons": [],
     "misses": [
+      "BB: price not near lower band (pct=0.26)",
       "BB Width: bands expanding, not squeezing",
-      "MACD: no bullish crossover or valley",
+      "RSI: not in buy zone (42.6, need 20-40)",
       "RSI Divergence: no bullish divergence detected",
-      "Volume: below average (0.95x) \u2014 low conviction"
+      "Volume: below average (0.77x) \u2014 low conviction"
     ],
-    "price": 115.46,
-    "rsi": 33.9,
-    "atr": 4.48,
+    "price": 119.48,
+    "rsi": 42.6,
+    "atr": 4.49,
     "final_tier": "Hold",
     "sizing": {
-      "suggested_shares": 1,
-      "suggested_dollars": 115.46,
-      "note": "1 sh @ $115.46 = $115 (Hold, 60% size) | $528 swing budget after"
+      "suggested_shares": 0,
+      "suggested_dollars": 0,
+      "note": "Price exceeds 60% conviction ceiling ($116) \u2014 skip or wait for Strong Buy"
     }
   },
   "fundamentals": {
@@ -50,7 +51,7 @@
       ],
       "earnings_status": "past",
       "next_earnings_date": "2026-04-30",
-      "days_to_earnings": -69
+      "days_to_earnings": -70
     }
   },
   "news": {
@@ -58,35 +59,36 @@
     "sentiment": "neutral",
     "health": "neutral",
     "key_events": [
-      "No recent news items available for analysis",
-      "Earnings reported 69 days ago (well past event)",
-      "VIX at 16.9 indicates neutral market conditions",
-      "Extreme Fear gauge suggests potential oversold conditions"
+      "No recent news available for assessment",
+      "Earnings reported 70+ days ago",
+      "Market volatility neutral (VIX 15.8)",
+      "Sentiment indicators show Extreme Fear in broader market"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "No current news flow or catalysts identified",
-      "Debt-to-equity data unavailable - fundamental opacity",
-      "RSI at 33.9 approaching oversold territory but not yet",
-      "Small position size (3.1% weight) limits swing trade impact"
+      "Debt-to-equity data unavailable - unable to assess leverage risk for capital-intensive business",
+      "No technical firing signals despite +2.47% gain",
+      "RSI at 42.6 suggests momentum is neutral/weak",
+      "Absence of recent news limits fundamental assessment",
+      "Information gap prevents confident decision-making"
     ],
-    "verdict": "IRM shows neutral technicals with mild weakness; lack of news and information gaps prevent bullish conviction, but position-sizing discipline and oversold RSI suggest waiting for clearer signals rather than averaging down.",
+    "verdict": "Position is modestly profitable but lacks catalysts and clarity; insufficient data for swing trade optimization.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "IRM",
-    "stock_return_3m": 11.0,
-    "benchmark_return_3m": 13.36,
-    "relative_strength": -2.37,
+    "stock_return_3m": 12.46,
+    "benchmark_return_3m": 11.48,
+    "relative_strength": 0.97,
     "label": "in-line"
   },
   "final_tier": "Hold",
   "sizing": {
-    "suggested_shares": 1,
-    "suggested_dollars": 115.46,
-    "note": "1 sh @ $115.46 = $115 (Hold, 60% size) | $528 swing budget after"
+    "suggested_shares": 0,
+    "suggested_dollars": 0,
+    "note": "Price exceeds 60% conviction ceiling ($116) \u2014 skip or wait for Strong Buy"
   },
   "is_dca": false,
-  "saved_at": "2026-07-08T23:41:03.443712"
+  "saved_at": "2026-07-09T23:49:29.517800"
 }

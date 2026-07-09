@@ -4,26 +4,25 @@
     "ticker": "TEM",
     "direction": "hold",
     "tier": "Hold",
-    "buy_score": 0.12,
-    "sell_score": 0.29,
+    "buy_score": 0.25,
+    "sell_score": 0.43,
     "reasons": [],
     "misses": [
-      "BB: price not near lower band (pct=0.68)",
+      "BB: price not near lower band (pct=0.86)",
       "BB Width: bands expanding, not squeezing",
-      "RSI: not in buy zone (56.8, need 20-40)",
+      "RSI: not in buy zone (63.2, need 20-40)",
       "MACD: no bullish crossover or valley",
       "RSI Divergence: no bullish divergence detected",
-      "200MA: price below 200MA \u2014 potential falling knife",
       "Volume: below average (0.70x) \u2014 low conviction"
     ],
-    "price": 57.27,
-    "rsi": 56.8,
-    "atr": 3.81,
+    "price": 61.5,
+    "rsi": 63.2,
+    "atr": 3.93,
     "final_tier": "Hold",
     "sizing": {
-      "suggested_shares": 2,
-      "suggested_dollars": 114.54,
-      "note": "2 sh @ $57.27 = $115 (Hold, 60% size) | $529 swing budget after"
+      "suggested_shares": 1,
+      "suggested_dollars": 61.5,
+      "note": "1 sh @ $61.50 = $62 (Hold, 60% size) | $582 swing budget after"
     }
   },
   "fundamentals": {
@@ -50,9 +49,9 @@
       "notes": [
         "Revenue growing (+36.1%)"
       ],
-      "earnings_status": "past",
-      "next_earnings_date": "2026-05-05",
-      "days_to_earnings": -64
+      "earnings_status": "upcoming",
+      "next_earnings_date": "2026-07-30",
+      "days_to_earnings": 21
     }
   },
   "news": {
@@ -60,36 +59,35 @@
     "sentiment": "negative",
     "health": "deteriorating",
     "key_events": [
-      "No recent news catalysts identified",
-      "Position down 17.1% from entry",
-      "64 days past earnings announcement",
-      "Market showing extreme fear (F&G indicator)"
+      "Earnings report in 21 days",
+      "Extreme Fear market sentiment (F&G index)",
+      "Moderate geopolitical tension backdrop"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "High debt-to-equity ratio (3.2x) limits financial flexibility",
+      "Debt-to-equity ratio 3.2x (elevated leverage)",
       "Not profitable with negative operating cash flow",
-      "No positive news flow to support recovery",
-      "Extreme fear sentiment may signal capitulation but also downside risk",
-      "Technical shows neutral RSI (56.8) with no bullish firing signals"
+      "No recent news coverage - information vacuum",
+      "RSI at 63.2 approaching overbought despite -10.97% drawdown",
+      "Position already -10.97% but below exit threshold per philosophy"
     ],
-    "verdict": "Tempus AI faces fundamental deterioration and capital structure stress with no near-term catalysts visible.",
+    "verdict": "Hold position through earnings despite deteriorating fundamentals; absence of news suggests limited near-term catalysts but upcoming earnings could clarify trajectory.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "TEM",
-    "stock_return_3m": 22.33,
-    "benchmark_return_3m": 13.36,
-    "relative_strength": 8.97,
+    "stock_return_3m": 29.47,
+    "benchmark_return_3m": 11.48,
+    "relative_strength": 17.99,
     "label": "outperforming"
   },
   "final_tier": "Hold",
   "sizing": {
-    "suggested_shares": 2,
-    "suggested_dollars": 114.54,
-    "note": "2 sh @ $57.27 = $115 (Hold, 60% size) | $529 swing budget after"
+    "suggested_shares": 1,
+    "suggested_dollars": 61.5,
+    "note": "1 sh @ $61.50 = $62 (Hold, 60% size) | $582 swing budget after"
   },
   "is_dca": false,
-  "saved_at": "2026-07-08T23:40:23.237332"
+  "saved_at": "2026-07-09T23:48:50.938716"
 }

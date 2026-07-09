@@ -4,25 +4,23 @@
     "ticker": "WMT",
     "direction": "hold",
     "tier": "Hold",
-    "buy_score": 0.25,
+    "buy_score": 0.5,
     "sell_score": 0.0,
     "reasons": [],
     "misses": [
-      "BB: price not near lower band (pct=0.28)",
+      "BB: price not near lower band (pct=0.25)",
       "BB Width: bands expanding, not squeezing",
-      "RSI: not in buy zone (41.0, need 20-40)",
-      "RSI Divergence: no bullish divergence detected",
       "200MA: price below 200MA \u2014 potential falling knife",
-      "Volume: below average (0.76x) \u2014 low conviction"
+      "Volume: below average (0.75x) \u2014 low conviction"
     ],
-    "price": 113.1,
-    "rsi": 41.0,
-    "atr": 2.9,
+    "price": 112.21,
+    "rsi": 39.2,
+    "atr": 2.79,
     "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 1,
-      "suggested_dollars": 113.1,
-      "note": "1 sh @ $113.10 = $113 (Hold, 60% size) | $531 swing budget after"
+      "suggested_dollars": 112.21,
+      "note": "1 sh @ $112.21 = $112 (Hold, 60% size) | $531 swing budget after"
     }
   },
   "fundamentals": {
@@ -51,7 +49,7 @@
       ],
       "earnings_status": "distant",
       "next_earnings_date": "2026-08-20",
-      "days_to_earnings": 43
+      "days_to_earnings": 42
     }
   },
   "news": {
@@ -59,33 +57,33 @@
     "sentiment": "neutral",
     "health": "healthy",
     "key_events": [
-      "No recent news items provided for assessment",
-      "Earnings 43 days out \u2014 sufficient runway for swing trade",
-      "Market in Extreme Fear mode despite neutral VIX 16.9"
+      "No recent news items available for assessment",
+      "Earnings report 42 days out provides defined catalyst window",
+      "Market in Extreme Fear state despite neutral VIX (15.8)"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "No technical firing signals despite RSI 41.0 (not oversold yet)",
-      "Lack of recent catalysts or news flow",
-      "Empty news slate limits conviction for near-term moves"
+      "RSI at 39.2 suggests oversold conditions but no buying signals triggered",
+      "Empty news feed limits fundamental conviction",
+      "Geopolitical risk rated MODERATE with insufficient data"
     ],
-    "verdict": "WMT showing modest gains in a fearful market; fundamentals intact but no immediate catalyst to accelerate momentum.",
+    "verdict": "WMT is fundamentally healthy with a small profitable swing position; hold and monitor for technical reversal signals ahead of earnings.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "WMT",
-    "stock_return_3m": -7.49,
-    "benchmark_return_3m": 13.36,
-    "relative_strength": -20.85,
+    "stock_return_3m": -11.66,
+    "benchmark_return_3m": 11.48,
+    "relative_strength": -23.14,
     "label": "underperforming"
   },
   "final_tier": "Hold",
   "sizing": {
     "suggested_shares": 1,
-    "suggested_dollars": 113.1,
-    "note": "1 sh @ $113.10 = $113 (Hold, 60% size) | $531 swing budget after"
+    "suggested_dollars": 112.21,
+    "note": "1 sh @ $112.21 = $112 (Hold, 60% size) | $531 swing budget after"
   },
   "is_dca": false,
-  "saved_at": "2026-07-08T23:40:56.690869"
+  "saved_at": "2026-07-09T23:49:21.947971"
 }

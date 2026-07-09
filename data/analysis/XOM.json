@@ -4,20 +4,19 @@
     "ticker": "XOM",
     "direction": "hold",
     "tier": "Hold",
-    "buy_score": 0.25,
-    "sell_score": 0.0,
+    "buy_score": 0.38,
+    "sell_score": 0.29,
     "reasons": [],
     "misses": [
-      "BB: price not near lower band (pct=0.54)",
-      "BB Width: bands expanding, not squeezing",
-      "RSI: not in buy zone (47.8, need 20-40)",
+      "BB: price not near lower band (pct=0.35)",
+      "RSI: not in buy zone (41.2, need 20-40)",
       "MACD: no bullish crossover or valley",
       "RSI Divergence: no bullish divergence detected",
-      "Volume: below average (0.82x) \u2014 low conviction"
+      "Volume: below average (0.76x) \u2014 low conviction"
     ],
-    "price": 141.13,
-    "rsi": 47.8,
-    "atr": 2.8,
+    "price": 137.46,
+    "rsi": 41.2,
+    "atr": 2.95,
     "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 0,
@@ -51,7 +50,7 @@
       ],
       "earnings_status": "past",
       "next_earnings_date": "2026-05-01",
-      "days_to_earnings": -68
+      "days_to_earnings": -69
     }
   },
   "news": {
@@ -59,26 +58,26 @@
     "sentiment": "neutral",
     "health": "healthy",
     "key_events": [
-      "No recent news items provided for analysis",
-      "Earnings reported 68 days ago \u2014 well past event",
-      "Position in profit at +2.90%"
+      "No recent news available for assessment",
+      "Earnings reported 69 days ago",
+      "Geopolitical risk at moderate level"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "RSI at 47.8 shows no momentum (neutral zone)",
-      "No technical firing signals despite profitable position",
-      "Extreme Fear sentiment contradicts healthy fundamentals \u2014 potential disconnect",
-      "No recent catalysts or news flow to drive swing trade momentum"
+      "Absence of recent news headlines limits sentiment analysis",
+      "RSI at 41.2 indicates mild bearish pressure without oversold conditions",
+      "No technical firing signals despite neutral hold rating",
+      "Extreme Fear market sentiment may create volatility"
     ],
-    "verdict": "XOM is a healthy fundamental position but lacks near-term swing trade momentum; hold and monitor for technical breakout or news catalyst.",
+    "verdict": "Maintain position; lack of recent catalysts and news limits upside conviction, but fundamentals remain healthy and position is profitable.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "XOM",
-    "stock_return_3m": -13.31,
-    "benchmark_return_3m": 13.36,
-    "relative_strength": -26.68,
+    "stock_return_3m": -11.41,
+    "benchmark_return_3m": 11.48,
+    "relative_strength": -22.9,
     "label": "underperforming"
   },
   "final_tier": "Hold",
@@ -88,5 +87,5 @@
     "note": "Price exceeds 60% conviction ceiling ($116) \u2014 skip or wait for Strong Buy"
   },
   "is_dca": false,
-  "saved_at": "2026-07-08T23:40:41.277628"
+  "saved_at": "2026-07-09T23:49:05.599629"
 }

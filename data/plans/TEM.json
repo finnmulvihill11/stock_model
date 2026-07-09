@@ -3,19 +3,36 @@
     "ticker": "TEM",
     "company_name": "Tempus AI, Inc.",
     "action": "Hold",
-    "action_reason": "Per philosophy, position is down 17.1% (exceeds 15% threshold) requiring hold-through. Any exit here locks in major loss; instead, await either fundamental inflection point or market-driven recovery opportunity.",
+    "action_reason": "Position is down 10.97%, below the 15% threshold mandating hold-through philosophy. Upcoming earnings in 21 days is critical catalyst that could validate or refute deteriorating metrics; exiting now locks in loss before key event.",
     "target_price": null,
     "target_reasoning": "",
-    "exit_trigger": "Clear bankruptcy risk materialization OR profitable quarter + positive guidance + debt restructuring announcement",
-    "add_trigger": "Earnings beat + positive operating cash flow inflection OR strategic partnership announcement reducing debt burden",
-    "risk": "Continued cash burn without profitability path; refinancing risk given high leverage; further multiple compression in risk-off environment",
+    "exit_trigger": "Break below $56.50 (post-earnings support) OR negative earnings surprise combined with revenue miss; reassess if debt metrics worsen further",
+    "add_trigger": "Only if earnings beat expectations AND management provides credible path to profitability/positive FCF; adds confirmation signal",
+    "risk": "Insolvency risk if cash burn accelerates; high debt load limits financial flexibility; potential dilution if capital raise required",
     "outlook": "cautious",
-    "timeframe": "6-12 weeks (await next earnings for turnaround signals)",
-    "generated_at": "2026-07-08T23:40:23.236508",
-    "price_at_generation": 57.27,
-    "pnl_at_generation": -17.1
+    "timeframe": "2-3 weeks until earnings (hold decision point); reassess portfolio weight if position recovers to -5% or falls to -15%+",
+    "generated_at": "2026-07-09T23:48:50.937944",
+    "price_at_generation": 61.5,
+    "pnl_at_generation": -10.97
   },
   "history": [
+    {
+      "ticker": "TEM",
+      "company_name": "Tempus AI, Inc.",
+      "action": "Hold",
+      "action_reason": "Per philosophy, position is down 17.1% (exceeds 15% threshold) requiring hold-through. Any exit here locks in major loss; instead, await either fundamental inflection point or market-driven recovery opportunity.",
+      "target_price": null,
+      "target_reasoning": "",
+      "exit_trigger": "Clear bankruptcy risk materialization OR profitable quarter + positive guidance + debt restructuring announcement",
+      "add_trigger": "Earnings beat + positive operating cash flow inflection OR strategic partnership announcement reducing debt burden",
+      "risk": "Continued cash burn without profitability path; refinancing risk given high leverage; further multiple compression in risk-off environment",
+      "outlook": "cautious",
+      "timeframe": "6-12 weeks (await next earnings for turnaround signals)",
+      "generated_at": "2026-07-08T23:40:23.236508",
+      "price_at_generation": 57.27,
+      "pnl_at_generation": -17.1,
+      "archived_at": "2026-07-09T23:48:50.938136"
+    },
     {
       "ticker": "TEM",
       "company_name": "Tempus AI, Inc.",
@@ -117,23 +134,6 @@
       "price_at_generation": 57.93,
       "pnl_at_generation": -16.14,
       "archived_at": "2026-07-01T23:53:42.980551"
-    },
-    {
-      "ticker": "TEM",
-      "company_name": "Tempus AI, Inc.",
-      "action": "Hold",
-      "action_reason": "Per philosophy, position is -15.59% (below 15% threshold technically, but within spirit of rule); however, hold strictly contingent on identifying a recovery catalyst within 2-3 weeks. Do not add capital until profitability roadmap is clarified.",
-      "target_price": null,
-      "target_reasoning": "",
-      "exit_trigger": "Break below $52.50 (20% loss floor) OR earnings miss by >50% again OR debt covenant breach disclosure",
-      "add_trigger": "Only if: (1) company announces clear path to profitability, (2) major strategic partnership/revenue acceleration, AND (3) stock stabilizes above $62 with RSI <50 (reset confirmation)",
-      "risk": "Continued cash burn leading to dilution or bankruptcy risk; high debt load limits runway; no near-term profitability visibility",
-      "outlook": "cautious",
-      "timeframe": "3-4 weeks (next catalyst watch: earnings update, capital raise announcement, or revenue inflection signal)",
-      "generated_at": "2026-06-29T23:36:59.350086",
-      "price_at_generation": 58.31,
-      "pnl_at_generation": -15.59,
-      "archived_at": "2026-06-30T23:46:42.704129"
     }
   ]
 }
