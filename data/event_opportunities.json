@@ -1,4 +1,221 @@
 {
-  "saved_at": "2026-07-05T22:51:52.908279",
-  "events": []
+  "saved_at": "2026-07-12T22:39:54.161499",
+  "events": [
+    {
+      "event_title": "US-China Tariff Escalation & Trade War Re-ignition",
+      "event_description": "The Trump administration has reimposed sweeping tariffs on Chinese goods (up to 145%), with China retaliating at 125%. This creates immediate supply chain disruption for US importers, boosts domestic manufacturers, and pressures retailers with China-heavy sourcing. Treasury negotiations and 90-day pause windows create binary catalysts.",
+      "direction": "mixed",
+      "rationale": "POWL (Powell Industries) builds electrical equipment domestically and benefits from reshoring demand. APOG (Apogee Enterprises) is a domestic glass/framing manufacturer insulated from tariffs. CEVA (semiconductor IP) has fabless exposure to China revenue risk. KTOS (Kratos Defense) benefits from defense-adjacent reshoring narratives. XPOF (Xponential Fitness) has China franchise exposure creating downside risk on sentiment.",
+      "timeframe": "2-8 weeks",
+      "event_confidence": "high",
+      "tickers": [
+        {
+          "ticker": "XPOF",
+          "company_name": "Xponential Fitness, Inc.",
+          "sector": "Consumer Cyclical",
+          "in_standard_universe": false,
+          "signal_tier": "Hold",
+          "price": 6.85,
+          "rsi": 57.3,
+          "buy_score": 0.38,
+          "sell_score": 0.29,
+          "entry_trigger": "Break below $6.50 on tariff escalation headlines + China franchise revenue disclosure; or short entry on failed rally to $7.20 if trade pause announced",
+          "target_price": 5.8,
+          "exit_condition": "Trade war 90-day pause confirmed by Treasury + stock rallies to $7.40; or stop loss at $7.50 (break of pre-event resistance)",
+          "risk": "XPOF China exposure is modest (~8-12% of franchise base); tariff narrative may not directly impact fitness franchisor model; sentiment-driven trade war reversal could trigger short squeeze; lack of China sourcing means limited direct tailwind/headwind vs. retail comps",
+          "event_conviction": "low"
+        },
+        {
+          "ticker": "POWL",
+          "company_name": "Powell Industries, Inc.",
+          "sector": "Industrials",
+          "in_standard_universe": false,
+          "signal_tier": "Hold",
+          "price": 232.19,
+          "rsi": 34.9,
+          "buy_score": 0.62,
+          "sell_score": 0.14,
+          "entry_trigger": "Break above $238 on tariff escalation news OR pullback to $225-228 RSI oversold confirmation with positive domestic manufacturing guidance",
+          "target_price": 255,
+          "exit_condition": "Trade deal announcement/90-day pause extension OR close below $220 on tariff pause rumors OR 6-week time decay without catalyst confirmation",
+          "risk": "Rapid tariff negotiation reversal, China supply chain resilience reducing reshoring urgency, POWL earnings miss on demand timing lag, sector rotation away from industrials on macro slowdown fears",
+          "event_conviction": "medium"
+        },
+        {
+          "ticker": "APOG",
+          "company_name": "Apogee Enterprises, Inc.",
+          "sector": "Industrials",
+          "in_standard_universe": false,
+          "signal_tier": "Hold",
+          "price": 38.82,
+          "rsi": 45.3,
+          "buy_score": 0.25,
+          "sell_score": 0.0,
+          "entry_trigger": "Break above $40.50 on tariff escalation headline confirmation, or dip to $37.50 on initial China retaliation with volume >2M shares",
+          "target_price": 44.25,
+          "exit_condition": "Take profits at $44+ or exit on Treasury announcement of tariff pause/rollback; hard stop at $36.50 or if tariff narrative loses momentum after 4 weeks",
+          "risk": "Tariff benefits may be priced in quickly; domestic glass demand still cyclical to construction/auto; surprise trade deal could evaporate thesis; APOG also carries commercial real estate exposure headwinds",
+          "event_conviction": "medium"
+        }
+      ]
+    },
+    {
+      "event_title": "US Defense Spending Surge & NATO Burden-Sharing Pressure",
+      "event_description": "European NATO members are rapidly accelerating defense budgets (Germany passed 500B EUR infrastructure/defense fund, others hitting 2%+ GDP targets). The US is simultaneously pushing record DoD budgets with next-gen drone, missile defense, and autonomous systems prioritized. Contract awards are accelerating in Q2 2025.",
+      "direction": "bullish",
+      "rationale": "KTOS (Kratos) builds affordable tactical drones and hypersonic targets \u2014 direct contract beneficiary. RCAT (Red Cat Holdings) is a small-cap tactical drone pure-play with military contracts expanding. AVAV (AeroVironment) makes loitering munitions and UAS systems surging in demand. VEC (Vectrus, now V2X) handles defense base operations and logistics contracts. DFEN (Direxion Defense ETF) captures the sector move for traders wanting basket exposure.",
+      "timeframe": "4-12 weeks",
+      "event_confidence": "high",
+      "tickers": [
+        {
+          "ticker": "KTOS",
+          "company_name": "Kratos Defense & Security Solutions, Inc.",
+          "sector": "Industrials",
+          "in_standard_universe": false,
+          "signal_tier": "Hold",
+          "price": 48.19,
+          "rsi": 39.3,
+          "buy_score": 0.12,
+          "sell_score": 0.29,
+          "entry_trigger": "Break above $50.50 resistance with volume >2M shares on Q2 contract award announcement or close above 200-day MA ($51.20) with RSI crossing 50",
+          "target_price": 58.5,
+          "exit_condition": "Close below $46.80 support OR RSI >70 with bearish divergence OR failure to secure major contract within 8-week window OR broader defense spending delays announced",
+          "risk": "Valuation compression if defense budgets face political delays; competition from larger primes (RTX, NOC, LMT); execution risk on new contract ramps; geopolitical de-escalation reducing urgency",
+          "event_conviction": "medium"
+        },
+        {
+          "ticker": "RCAT",
+          "company_name": "Red Cat Holdings, Inc.",
+          "sector": "Industrials",
+          "in_standard_universe": false,
+          "signal_tier": "Hold",
+          "price": 8.83,
+          "rsi": 38.0,
+          "buy_score": 0.38,
+          "sell_score": 0.29,
+          "entry_trigger": "Break above $9.50 with volume >2M shares OR confirmation of RCAT winning NATO/DoD contract announcement within 4-week window",
+          "target_price": 12.5,
+          "exit_condition": "Close below $8.20 (technical breakdown) OR stop-loss at -8% from entry OR take profits at $12+ if contract news confirmed within 6 weeks",
+          "risk": "Small-cap liquidity risk; RCAT dependent on contract awards that may not materialize on expected timeline; sector rotation if geopolitical tensions de-escalate; larger competitors (KTOS, AVAV) capture majority of defense budget allocation",
+          "event_conviction": "medium"
+        },
+        {
+          "ticker": "AVAV",
+          "company_name": "AeroVironment, Inc.",
+          "sector": "Industrials",
+          "in_standard_universe": false,
+          "signal_tier": "Hold",
+          "price": 144.58,
+          "rsi": 40.8,
+          "buy_score": 0.0,
+          "sell_score": 0.29,
+          "entry_trigger": "Break above $148.50 (recent resistance) on volume >2M shares, OR announcement of major NATO/DoD contract award specific to AVAV loitering munitions/tactical UAS",
+          "target_price": 165,
+          "exit_condition": "RSI >70 + close below $150 on high volume, OR broader defense budget legislative delay/political reversal, OR quarterly earnings miss on contract timing",
+          "risk": "AVAV highly dependent on specific contract awards (execution risk); geopolitical de-escalation could reverse NATO urgency narrative; competition from KTOS/RCAT on pricing; supply chain constraints limiting production ramp; valuation already pricing in growth (P/E expansion dependent on delivery)",
+          "event_conviction": "medium"
+        }
+      ]
+    },
+    {
+      "event_title": "AI Infrastructure Buildout \u2014 Power Grid & Data Center Bottleneck",
+      "event_description": "Hyperscalers (Microsoft, Google, Amazon, Meta) have collectively committed over $300B in 2025 capex, overwhelmingly to AI data centers. The binding constraint is now electrical power \u2014 grid interconnection queues, transformer shortages, and backup power. Utility and electrical infrastructure stocks are pricing in a multi-year supercycle with near-term order book catalysts.",
+      "direction": "bullish",
+      "rationale": "POWL (Powell Industries) makes switchgear and motor control centers \u2014 order backlog hitting records. GEV (GE Vernova) is the dominant grid equipment and gas turbine provider with massive AI-driven demand. NR (Newpark Resources) pivots to industrial minerals used in data center cooling/construction. CSWC (Capital Southwest) is a BDC lending heavily to energy infrastructure mid-market. WATT (Energous) is speculative wireless power but trades on AI energy hype cycles.",
+      "timeframe": "3-10 weeks",
+      "event_confidence": "medium",
+      "tickers": [
+        {
+          "ticker": "POWL",
+          "company_name": "Powell Industries, Inc.",
+          "sector": "Industrials",
+          "in_standard_universe": false,
+          "signal_tier": "Hold",
+          "price": 232.19,
+          "rsi": 34.9,
+          "buy_score": 0.62,
+          "sell_score": 0.14,
+          "entry_trigger": "RSI crosses above 40 on volume >500K shares; or break above $238 resistance with confirmation of Q1 2025 order intake guidance beat",
+          "target_price": 265,
+          "exit_condition": "RSI exceeds 70 and closes below entry on high volume; or grid interconnection queue delays reported by major utility; or 6-week hold without 8%+ directional move",
+          "risk": "Execution risk on hyperscaler capex (potential slowdown post-Q1); supply chain delays could defer POWL order conversion to revenue; valuation already pricing infrastructure supercycle (limited upside if consensus widens)",
+          "event_conviction": "medium"
+        },
+        {
+          "ticker": "GEV",
+          "company_name": "GE Vernova Inc.",
+          "sector": "Industrials",
+          "in_standard_universe": false,
+          "signal_tier": "Hold",
+          "price": 1091.57,
+          "rsi": 53.7,
+          "buy_score": 0.25,
+          "sell_score": 0.14,
+          "entry_trigger": "Break above $1,095 on volume >2M shares, or dip to $1,075-1,080 support with RSI <45 ahead of earnings/guidance update on AI power demand",
+          "target_price": 1180,
+          "exit_condition": "Take profits at $1,160-1,180 (8-10% gain). Hard stop at $1,055 (\u22123.3%). Exit if hyperscaler capex guidance disappoints or grid interconnection queue timelines push beyond 2025",
+          "risk": "GEV stock already priced for supercycle (up ~80% YTD); limited near-term catalyst specificity; grid interconnection permitting delays are structural, not binary; competitor POWL may capture margin share; valuation compression if rates rise or AI spending moderates",
+          "event_conviction": "medium"
+        },
+        {
+          "ticker": "CSWC",
+          "company_name": "Capital Southwest Corporation",
+          "sector": "Financial Services",
+          "in_standard_universe": false,
+          "signal_tier": "Hold",
+          "price": 23.84,
+          "rsi": 58.4,
+          "buy_score": 0.25,
+          "sell_score": 0.14,
+          "entry_trigger": "Break above $24.50 with volume >500K shares on AI infrastructure news or earnings beat; alternatively, dip to $23.20 on sector pullback with RSI <45 for re-entry",
+          "target_price": 27.5,
+          "exit_condition": "Take profit at $27.50 or 15% gain; stop loss at $22.80 (below support); exit if broader BDC sector sells off >3% or energy infrastructure capex guidance disappoints",
+          "risk": "CSWC is a lagging play\u2014direct exposure (POWL, GEV) captures demand faster; BDC duration/rate risk if Fed holds rates higher longer; energy infrastructure cycle may face political/permitting delays; mid-market borrower credit quality deterioration in recession scenario",
+          "event_conviction": "medium"
+        }
+      ]
+    },
+    {
+      "event_title": "GLP-1 Drug Expansion & Obesity Market Share Wars",
+      "event_description": "Eli Lilly and Novo Nordisk dominate GLP-1s, but pipeline catalysts from challengers (oral formulations, next-gen molecules) and manufacturing capacity expansion create near-term binary events. FDA decisions, trial readouts, and commercial supply updates expected in Q2-Q3 2025 create specific stock-level catalysts beyond the mega-caps.",
+      "direction": "mixed",
+      "rationale": "VKTX (Viking Therapeutics) has an oral GLP-1 candidate in trials \u2014 readout expected mid-2025 is a massive binary catalyst. RDUS (Radius Health) is repositioning with metabolic pipeline assets. HIMS (Hims & Hers) compounded semaglutide revenue is under FDA pressure \u2014 bearish risk as compounding restrictions tighten. PRAX (Praxis Precision) is adjacent CNS but trades on metabolic crossover narrative. ADMA Biologics has manufacturing capacity being eyed for biologics contract manufacturing as GLP-1 producers need fill-finish partners.",
+      "timeframe": "4-16 weeks",
+      "event_confidence": "medium",
+      "tickers": [
+        {
+          "ticker": "VKTX",
+          "company_name": "Viking Therapeutics, Inc.",
+          "sector": "Healthcare",
+          "in_standard_universe": false,
+          "signal_tier": "Hold",
+          "price": 38.86,
+          "rsi": 59.3,
+          "buy_score": 0.38,
+          "sell_score": 0.29,
+          "entry_trigger": "VKTX breaks above $40.50 on volume >2M shares OR FDA grants trial acceleration for oral GLP-1 candidate",
+          "target_price": 52.0,
+          "exit_condition": "Negative trial readout mid-2025 OR close below $36.00 (support break) OR competitive binary event favors mega-cap players (Lilly/NVO)",
+          "risk": "Binary trial failure risk is severe; crowded narrative means positive readout may already be priced in; manufacturing/supply chain delays could push catalysts beyond 4-16 week window; regulatory pathway for oral formulation may be more complex than implied",
+          "event_conviction": "medium"
+        },
+        {
+          "ticker": "PRAX",
+          "company_name": "Praxis Precision Medicines, Inc.",
+          "sector": "Healthcare",
+          "in_standard_universe": false,
+          "signal_tier": "Hold",
+          "price": 324.99,
+          "rsi": 55.0,
+          "buy_score": 0.25,
+          "sell_score": 0.14,
+          "entry_trigger": "PRAX breaks above $330 on volume >2M shares OR announces metabolic pipeline partnership/acquisition; avoid chasing above $340",
+          "target_price": 375,
+          "exit_condition": "Close below $310 (breaks support) OR GLP-1 pipeline catalyst misses (trial readout negative/delayed) OR FDA tightens compounding/contract manufacturing regulations in June-July 2025",
+          "risk": "PRAX is thinly connected to core GLP-1 narrative (CNS-focused); valuation premium may not hold if broader biotech corrects; mega-cap dominance (Lilly/NVO) limits spillover; FDA regulatory headwinds could suppress entire category",
+          "event_conviction": "low"
+        }
+      ]
+    }
+  ]
 }
