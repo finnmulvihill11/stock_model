@@ -3,19 +3,36 @@
     "ticker": "ABT",
     "company_name": "Abbott Laboratories",
     "action": "Hold",
-    "action_reason": "Position is down 14% (below 15% threshold), fundamentals are healthy, and earnings catalyst is imminent. Exiting before earnings would lock in losses; holding captures potential upside reversion if market sentiment shifts from Extreme Fear.",
-    "target_price": null,
+    "action_reason": "You're -14.43% (below your 15% exit threshold), and fundamentals are healthy. Imminent earnings could reignite momentum either direction. RSI at 56.6 is neutral but not oversold\u2014wait for post-earnings direction before any moves.",
+    "target_price": 105,
     "target_reasoning": "",
-    "exit_trigger": "Exit only if earnings reveal fundamental deterioration (guidance cut >5%, margin compression, competitive threats) OR if position drops below -20% before earnings",
-    "add_trigger": "Add if ABT drops to $90-92 on technical weakness before earnings and fundamentals confirm no deterioration; adds to recovery upside",
-    "risk": "Earnings miss could accelerate decline; Extreme Fear sentiment may mask real fundamental concerns\u2014verify latest 10-Q/guidance before earnings",
+    "exit_trigger": "Break below $88 (additional 6% loss from current) or negative earnings surprise with outlook reduction",
+    "add_trigger": "Post-earnings beat + RSI breaks above 65, or if price falls to $87-90 range on earnings weakness (adds conviction to recovery thesis)",
+    "risk": "Binary earnings miss could accelerate losses through 15% threshold; geopolitical escalation could pressure healthcare sector",
     "outlook": "cautious",
-    "timeframe": "1-2 weeks (hold through earnings, reassess within 3 trading days post-announcement)",
-    "generated_at": "2026-07-09T23:48:44.166360",
-    "price_at_generation": 94.4,
-    "pnl_at_generation": -14.0
+    "timeframe": "2-4 weeks (earnings resolution + 1-2 week post-earnings confirmation)",
+    "generated_at": "2026-07-12T23:31:02.671467",
+    "price_at_generation": 93.93,
+    "pnl_at_generation": -14.43
   },
   "history": [
+    {
+      "ticker": "ABT",
+      "company_name": "Abbott Laboratories",
+      "action": "Hold",
+      "action_reason": "Position is down 14% (below 15% threshold), fundamentals are healthy, and earnings catalyst is imminent. Exiting before earnings would lock in losses; holding captures potential upside reversion if market sentiment shifts from Extreme Fear.",
+      "target_price": null,
+      "target_reasoning": "",
+      "exit_trigger": "Exit only if earnings reveal fundamental deterioration (guidance cut >5%, margin compression, competitive threats) OR if position drops below -20% before earnings",
+      "add_trigger": "Add if ABT drops to $90-92 on technical weakness before earnings and fundamentals confirm no deterioration; adds to recovery upside",
+      "risk": "Earnings miss could accelerate decline; Extreme Fear sentiment may mask real fundamental concerns\u2014verify latest 10-Q/guidance before earnings",
+      "outlook": "cautious",
+      "timeframe": "1-2 weeks (hold through earnings, reassess within 3 trading days post-announcement)",
+      "generated_at": "2026-07-09T23:48:44.166360",
+      "price_at_generation": 94.4,
+      "pnl_at_generation": -14.0,
+      "archived_at": "2026-07-12T23:31:02.671699"
+    },
     {
       "ticker": "ABT",
       "company_name": "Abbott Laboratories",
@@ -117,23 +134,6 @@
       "price_at_generation": 92.18,
       "pnl_at_generation": -16.02,
       "archived_at": "2026-07-02T23:41:25.435370"
-    },
-    {
-      "ticker": "ABT",
-      "company_name": "Abbott Laboratories",
-      "action": "Hold",
-      "action_reason": "Position is -17.34%, triggering philosophy to hold through major losers. Fundamentals remain healthy with no deterioration signals, and upcoming earnings (16d) offers near-term catalyst for recovery.",
-      "target_price": null,
-      "target_reasoning": "",
-      "exit_trigger": "Fundamental deterioration (missed guidance, dividend cut, or major business setback); technical breakdown below $85 on high volume",
-      "add_trigger": "RSI drops to 30-35 (oversold) with strong support hold; positive earnings beat; market F&G returns to neutral",
-      "risk": "Earnings miss or guidance reduction could accelerate decline; macro weakness persists and drags ABT further down before recovery",
-      "outlook": "cautious",
-      "timeframe": "2-4 weeks (until earnings + post-earnings reaction)",
-      "generated_at": "2026-06-30T23:46:34.932814",
-      "price_at_generation": 90.74,
-      "pnl_at_generation": -17.34,
-      "archived_at": "2026-07-01T23:53:36.364660"
     }
   ]
 }

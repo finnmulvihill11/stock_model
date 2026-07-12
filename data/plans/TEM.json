@@ -3,19 +3,36 @@
     "ticker": "TEM",
     "company_name": "Tempus AI, Inc.",
     "action": "Hold",
-    "action_reason": "Position is down 10.97%, below the 15% threshold mandating hold-through philosophy. Upcoming earnings in 21 days is critical catalyst that could validate or refute deteriorating metrics; exiting now locks in loss before key event.",
+    "action_reason": "Philosophy mandates holding through >15% drawdowns. However, monitor closely for earnings catalyst (18d) and cash flow updates, as negative operating cash flow + high debt create bankruptcy risk if deterioration continues.",
     "target_price": null,
     "target_reasoning": "",
-    "exit_trigger": "Break below $56.50 (post-earnings support) OR negative earnings surprise combined with revenue miss; reassess if debt metrics worsen further",
-    "add_trigger": "Only if earnings beat expectations AND management provides credible path to profitability/positive FCF; adds confirmation signal",
-    "risk": "Insolvency risk if cash burn accelerates; high debt load limits financial flexibility; potential dilution if capital raise required",
+    "exit_trigger": "Break below $52 (technical support + fundamental break), or post-earnings guidance cut >20%, or debt covenant warning",
+    "add_trigger": "Only if post-earnings beat + positive FCF guidance + debt refinance news",
+    "risk": "Solvency risk: negative cash flow + 3.2x leverage means limited runway if revenue disappoints; earnings miss could trigger sharp drop",
     "outlook": "cautious",
-    "timeframe": "2-3 weeks until earnings (hold decision point); reassess portfolio weight if position recovers to -5% or falls to -15%+",
-    "generated_at": "2026-07-09T23:48:50.937944",
-    "price_at_generation": 61.5,
-    "pnl_at_generation": -10.97
+    "timeframe": "2-3 weeks (watch earnings closely)",
+    "generated_at": "2026-07-12T23:31:09.561560",
+    "price_at_generation": 58.23,
+    "pnl_at_generation": -15.71
   },
   "history": [
+    {
+      "ticker": "TEM",
+      "company_name": "Tempus AI, Inc.",
+      "action": "Hold",
+      "action_reason": "Position is down 10.97%, below the 15% threshold mandating hold-through philosophy. Upcoming earnings in 21 days is critical catalyst that could validate or refute deteriorating metrics; exiting now locks in loss before key event.",
+      "target_price": null,
+      "target_reasoning": "",
+      "exit_trigger": "Break below $56.50 (post-earnings support) OR negative earnings surprise combined with revenue miss; reassess if debt metrics worsen further",
+      "add_trigger": "Only if earnings beat expectations AND management provides credible path to profitability/positive FCF; adds confirmation signal",
+      "risk": "Insolvency risk if cash burn accelerates; high debt load limits financial flexibility; potential dilution if capital raise required",
+      "outlook": "cautious",
+      "timeframe": "2-3 weeks until earnings (hold decision point); reassess portfolio weight if position recovers to -5% or falls to -15%+",
+      "generated_at": "2026-07-09T23:48:50.937944",
+      "price_at_generation": 61.5,
+      "pnl_at_generation": -10.97,
+      "archived_at": "2026-07-12T23:31:09.561774"
+    },
     {
       "ticker": "TEM",
       "company_name": "Tempus AI, Inc.",
@@ -117,23 +134,6 @@
       "price_at_generation": 61.6,
       "pnl_at_generation": -10.83,
       "archived_at": "2026-07-02T23:41:32.802061"
-    },
-    {
-      "ticker": "TEM",
-      "company_name": "Tempus AI, Inc.",
-      "action": "Hold",
-      "action_reason": "Position is at -16.14% loss, triggering the philosophy rule to never exit major losers. However, lack of bullish catalysts and worsening fundamentals mean this is a waiting game for either a technical reversal or fundamental turnaround signal.",
-      "target_price": null,
-      "target_reasoning": "",
-      "exit_trigger": "RSI drops below 30 with confirmed breakdown below $55 support, OR company achieves positive operating cash flow with debt reduction announcement",
-      "add_trigger": "Only if: RSI falls to <35 with bullish divergence AND company announces debt refinancing or path to profitability",
-      "risk": "Continued cash burn and high debt burden could trigger dilutive financing or forced restructuring; AI enthusiasm may have peaked before profitability established",
-      "outlook": "cautious",
-      "timeframe": "3-6 months for either turnaround evidence or fundamental deterioration forcing exit decision",
-      "generated_at": "2026-06-30T23:46:42.703953",
-      "price_at_generation": 57.93,
-      "pnl_at_generation": -16.14,
-      "archived_at": "2026-07-01T23:53:42.980551"
     }
   ]
 }

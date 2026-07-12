@@ -3,19 +3,36 @@
     "ticker": "CMG",
     "company_name": "Chipotle Mexican Grill, Inc.",
     "action": "Hold",
-    "action_reason": "Position is solidly profitable with upcoming earnings as a major swing catalyst. Hold through the event and reassess based on results and forward guidance rather than exiting a winner.",
-    "target_price": 37.5,
+    "action_reason": "Position is profitable and sized modestly at 1.9% weight. Earnings in 17 days provides a concrete catalyst; holding avoids taxable exit and allows exposure to potential positive surprise given strong operational momentum in QSR sector.",
+    "target_price": 38.5,
     "target_reasoning": "",
-    "exit_trigger": "RSI > 75 after earnings beat + 5%+ post-earnings pop, or close below $33.00 (support break)",
-    "add_trigger": "Dip to $32.50-$33.00 on market weakness before earnings; RSI < 40 with bullish divergence",
-    "risk": "Earnings miss + debt concerns could trigger -8-12% drawdown; geopolitical escalation could impact consumer spending",
-    "outlook": "cautious",
-    "timeframe": "2-4 weeks (earnings catalyst driven)",
-    "generated_at": "2026-07-09T23:48:57.771543",
-    "price_at_generation": 34.6,
-    "pnl_at_generation": 9.95
+    "exit_trigger": "Break below $33.50 (closes below 20-day MA) OR if earnings miss with negative guidance AND VIX spikes above 20",
+    "add_trigger": "Only if price pulls back to $32.50-$33.00 on weakness AND RSI drops below 50, confirming consolidation pattern ahead of earnings",
+    "risk": "High leverage (2.2x debt-to-equity) makes CMG vulnerable to macro shocks; earnings miss could trigger sharp selloff given elevated expectations",
+    "outlook": "neutral",
+    "timeframe": "2-4 weeks through earnings",
+    "generated_at": "2026-07-12T23:31:16.839334",
+    "price_at_generation": 35.25,
+    "pnl_at_generation": 12.01
   },
   "history": [
+    {
+      "ticker": "CMG",
+      "company_name": "Chipotle Mexican Grill, Inc.",
+      "action": "Hold",
+      "action_reason": "Position is solidly profitable with upcoming earnings as a major swing catalyst. Hold through the event and reassess based on results and forward guidance rather than exiting a winner.",
+      "target_price": 37.5,
+      "target_reasoning": "",
+      "exit_trigger": "RSI > 75 after earnings beat + 5%+ post-earnings pop, or close below $33.00 (support break)",
+      "add_trigger": "Dip to $32.50-$33.00 on market weakness before earnings; RSI < 40 with bullish divergence",
+      "risk": "Earnings miss + debt concerns could trigger -8-12% drawdown; geopolitical escalation could impact consumer spending",
+      "outlook": "cautious",
+      "timeframe": "2-4 weeks (earnings catalyst driven)",
+      "generated_at": "2026-07-09T23:48:57.771543",
+      "price_at_generation": 34.6,
+      "pnl_at_generation": 9.95,
+      "archived_at": "2026-07-12T23:31:16.839549"
+    },
     {
       "ticker": "CMG",
       "company_name": "Chipotle Mexican Grill, Inc.",
@@ -117,23 +134,6 @@
       "price_at_generation": 35.0,
       "pnl_at_generation": 11.22,
       "archived_at": "2026-07-02T23:41:39.947337"
-    },
-    {
-      "ticker": "CMG",
-      "company_name": "Chipotle Mexican Grill, Inc.",
-      "action": "Hold",
-      "action_reason": "Position is profitable and weight is modest at 4%. Hold through earnings given your philosophy of managing winners tactically, then reassess based on Q3 results and guidance.",
-      "target_price": 37.5,
-      "target_reasoning": "",
-      "exit_trigger": "If price falls below $32.00 (near entry), or if earnings disappoint with negative forward guidance on margins/unit economics",
-      "add_trigger": "Only if price pulls back to $32.50-$33.00 AND earnings beat with strong comparable sales growth",
-      "risk": "High debt servicing pressure if consumer spending weakens; earnings miss could trigger sharp selloff given elevated multiples",
-      "outlook": "cautious",
-      "timeframe": "2-6 weeks (until earnings + post-earnings reaction)",
-      "generated_at": "2026-06-30T23:46:49.005127",
-      "price_at_generation": 34.0,
-      "pnl_at_generation": 8.04,
-      "archived_at": "2026-07-01T23:53:48.391556"
     }
   ]
 }

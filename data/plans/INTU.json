@@ -3,19 +3,36 @@
     "ticker": "INTU",
     "company_name": "Intuit Inc.",
     "action": "Hold",
-    "action_reason": "Down 41.62% triggers the policy to hold major losers through recovery rather than exit. RSI at 43.2 and healthy fundamentals suggest recovery potential, though no immediate technical strength signals imminent reversal.",
-    "target_price": 520,
+    "action_reason": "Position is -41.28%, triggering your rule to hold major losers through recovery. However, absence of bullish technical signals or positive catalysts demands tight monitoring for deterioration before adding capital.",
+    "target_price": 385,
     "target_reasoning": "",
-    "exit_trigger": "Position rebounds to breakeven or above $468.29; OR fundamentals deteriorate (e.g., guidance cut >15%, market share loss, macro recession confirmation)",
-    "add_trigger": "RSI drops below 30 (oversold) with positive earnings surprise OR clear technical reversal pattern (higher low + volume confirmation) near $260\u2013270 support",
-    "risk": "Continued sector rotation away from software/SaaS; macro slowdown impacting small-business accounting software adoption; potential dividend cut if cash flow deteriorates",
+    "exit_trigger": "If fundamentals deteriorate (missed guidance, margin compression, or guidance cut) OR RSI drops below 30 with continued selling on high volume\u2014only then break the hold rule.",
+    "add_trigger": "RSI crosses above 50 with volume confirmation AND next earnings beats expectations OR positive analyst upgrade cluster emerges.",
+    "risk": "Gap down on negative guidance/forecast; software sector rotation risk if rates spike; concentration amplifies drawdown if deterioration confirmed.",
     "outlook": "cautious",
-    "timeframe": "6-12 weeks (allow post-earnings recovery window; monitor for Q1/Q2 guidance execution)",
-    "generated_at": "2026-07-09T23:48:29.828669",
-    "price_at_generation": 273.38,
-    "pnl_at_generation": -41.62
+    "timeframe": "2-6 weeks (next catalyst or technical reversal signal required)",
+    "generated_at": "2026-07-12T23:30:49.672727",
+    "price_at_generation": 274.96,
+    "pnl_at_generation": -41.28
   },
   "history": [
+    {
+      "ticker": "INTU",
+      "company_name": "Intuit Inc.",
+      "action": "Hold",
+      "action_reason": "Down 41.62% triggers the policy to hold major losers through recovery rather than exit. RSI at 43.2 and healthy fundamentals suggest recovery potential, though no immediate technical strength signals imminent reversal.",
+      "target_price": 520,
+      "target_reasoning": "",
+      "exit_trigger": "Position rebounds to breakeven or above $468.29; OR fundamentals deteriorate (e.g., guidance cut >15%, market share loss, macro recession confirmation)",
+      "add_trigger": "RSI drops below 30 (oversold) with positive earnings surprise OR clear technical reversal pattern (higher low + volume confirmation) near $260\u2013270 support",
+      "risk": "Continued sector rotation away from software/SaaS; macro slowdown impacting small-business accounting software adoption; potential dividend cut if cash flow deteriorates",
+      "outlook": "cautious",
+      "timeframe": "6-12 weeks (allow post-earnings recovery window; monitor for Q1/Q2 guidance execution)",
+      "generated_at": "2026-07-09T23:48:29.828669",
+      "price_at_generation": 273.38,
+      "pnl_at_generation": -41.62,
+      "archived_at": "2026-07-12T23:30:49.672958"
+    },
     {
       "ticker": "INTU",
       "company_name": "Intuit Inc.",
@@ -117,23 +134,6 @@
       "price_at_generation": 267.08,
       "pnl_at_generation": -42.97,
       "archived_at": "2026-07-02T23:41:11.772785"
-    },
-    {
-      "ticker": "INTU",
-      "company_name": "Intuit Inc.",
-      "action": "Hold",
-      "action_reason": "Per your philosophy, never exit positions down >15%. Extreme Fear reading + oversold RSI suggest panic selling; maintain position and let recovery dynamics play out. Fundamentals intact.",
-      "target_price": 385,
-      "target_reasoning": "",
-      "exit_trigger": "Position recovers to breakeven or fundamentals deteriorate (guidance cuts, market share loss)",
-      "add_trigger": "Only if RSI falls below 25 AND VIX spikes >20 (capitulation confirmation)",
-      "risk": "Further macro weakness could push INTU lower; 23.2% weight amplifies portfolio drawdown if decline continues",
-      "outlook": "cautious",
-      "timeframe": "4-8 weeks for RSI recovery + earnings catalyst",
-      "generated_at": "2026-06-30T23:46:20.542250",
-      "price_at_generation": 261.0,
-      "pnl_at_generation": -44.27,
-      "archived_at": "2026-07-01T23:53:23.606511"
     }
   ]
 }

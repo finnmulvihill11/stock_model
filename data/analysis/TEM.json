@@ -4,25 +4,26 @@
     "ticker": "TEM",
     "direction": "hold",
     "tier": "Hold",
-    "buy_score": 0.25,
-    "sell_score": 0.43,
+    "buy_score": 0.12,
+    "sell_score": 0.29,
     "reasons": [],
     "misses": [
-      "BB: price not near lower band (pct=0.86)",
+      "BB: price not near lower band (pct=0.67)",
       "BB Width: bands expanding, not squeezing",
-      "RSI: not in buy zone (63.2, need 20-40)",
+      "RSI: not in buy zone (56.3, need 20-40)",
       "MACD: no bullish crossover or valley",
       "RSI Divergence: no bullish divergence detected",
-      "Volume: below average (0.70x) \u2014 low conviction"
+      "200MA: price below 200MA \u2014 potential falling knife",
+      "Volume: below average (0.68x) \u2014 low conviction"
     ],
-    "price": 61.5,
-    "rsi": 63.2,
-    "atr": 3.93,
+    "price": 58.23,
+    "rsi": 56.3,
+    "atr": 4.17,
     "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 1,
-      "suggested_dollars": 61.5,
-      "note": "1 sh @ $61.50 = $62 (Hold, 60% size) | $582 swing budget after"
+      "suggested_dollars": 58.23,
+      "note": "1 sh @ $58.23 = $58 (Hold, 60% size) | $585 swing budget after"
     }
   },
   "fundamentals": {
@@ -51,7 +52,7 @@
       ],
       "earnings_status": "upcoming",
       "next_earnings_date": "2026-07-30",
-      "days_to_earnings": 21
+      "days_to_earnings": 18
     }
   },
   "news": {
@@ -59,35 +60,35 @@
     "sentiment": "negative",
     "health": "deteriorating",
     "key_events": [
-      "Earnings report in 21 days",
-      "Extreme Fear market sentiment (F&G index)",
-      "Moderate geopolitical tension backdrop"
+      "Earnings report in 18 days",
+      "VIX at neutral levels (15.0)",
+      "Moderate geopolitical backdrop"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "Debt-to-equity ratio 3.2x (elevated leverage)",
+      "Debt-to-equity ratio of 3.2x (high leverage)",
       "Not profitable with negative operating cash flow",
-      "No recent news coverage - information vacuum",
-      "RSI at 63.2 approaching overbought despite -10.97% drawdown",
-      "Position already -10.97% but below exit threshold per philosophy"
+      "Down 15.71% from entry \u2014 at philosophy threshold",
+      "RSI 56.3 shows no momentum firing",
+      "No positive news catalysts in pipeline"
     ],
-    "verdict": "Hold position through earnings despite deteriorating fundamentals; absence of news suggests limited near-term catalysts but upcoming earnings could clarify trajectory.",
+    "verdict": "Deteriorating fundamentals and negative technicals warrant holding per philosophy, but position is structurally weak and vulnerable to earnings miss.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "TEM",
-    "stock_return_3m": 29.47,
-    "benchmark_return_3m": 11.48,
-    "relative_strength": 17.99,
+    "stock_return_3m": 31.86,
+    "benchmark_return_3m": 11.32,
+    "relative_strength": 20.54,
     "label": "outperforming"
   },
   "final_tier": "Hold",
   "sizing": {
     "suggested_shares": 1,
-    "suggested_dollars": 61.5,
-    "note": "1 sh @ $61.50 = $62 (Hold, 60% size) | $582 swing budget after"
+    "suggested_dollars": 58.23,
+    "note": "1 sh @ $58.23 = $58 (Hold, 60% size) | $585 swing budget after"
   },
   "is_dca": false,
-  "saved_at": "2026-07-09T23:48:50.938716"
+  "saved_at": "2026-07-12T23:31:09.562375"
 }

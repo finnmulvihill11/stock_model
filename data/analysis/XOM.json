@@ -5,18 +5,18 @@
     "direction": "hold",
     "tier": "Hold",
     "buy_score": 0.38,
-    "sell_score": 0.29,
+    "sell_score": 0.14,
     "reasons": [],
     "misses": [
-      "BB: price not near lower band (pct=0.35)",
-      "RSI: not in buy zone (41.2, need 20-40)",
+      "BB: price not near lower band (pct=0.47)",
+      "RSI: not in buy zone (44.4, need 20-40)",
       "MACD: no bullish crossover or valley",
       "RSI Divergence: no bullish divergence detected",
-      "Volume: below average (0.76x) \u2014 low conviction"
+      "Volume: below average (0.54x) \u2014 low conviction"
     ],
-    "price": 137.46,
-    "rsi": 41.2,
-    "atr": 2.95,
+    "price": 138.88,
+    "rsi": 44.4,
+    "atr": 2.73,
     "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 0,
@@ -50,7 +50,7 @@
       ],
       "earnings_status": "past",
       "next_earnings_date": "2026-05-01",
-      "days_to_earnings": -69
+      "days_to_earnings": -72
     }
   },
   "news": {
@@ -58,26 +58,27 @@
     "sentiment": "neutral",
     "health": "healthy",
     "key_events": [
-      "No recent news available for assessment",
-      "Earnings reported 69 days ago",
-      "Geopolitical risk at moderate level"
+      "Position up +1.26% with modest 2-share allocation (7.3% weight)",
+      "RSI at 44.4 indicates neither overbought nor oversold conditions",
+      "Earnings reported 72 days ago\u2014no near-term catalyst",
+      "VIX 15.0 reflects calm market; geopolitical risk at moderate baseline"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "Absence of recent news headlines limits sentiment analysis",
-      "RSI at 41.2 indicates mild bearish pressure without oversold conditions",
-      "No technical firing signals despite neutral hold rating",
-      "Extreme Fear market sentiment may create volatility"
+      "No active technical firing signals (Hold rating)",
+      "Fear sentiment in broader F&G index despite neutral VIX",
+      "No recent news flow to assess momentum drivers",
+      "Energy sector vulnerable to demand shocks and rate sensitivity"
     ],
-    "verdict": "Maintain position; lack of recent catalysts and news limits upside conviction, but fundamentals remain healthy and position is profitable.",
+    "verdict": "XOM is a stable, fundamentally healthy position with modest gains; lack of technical signals and upcoming catalysts argues for patience rather than action.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "XOM",
-    "stock_return_3m": -11.41,
-    "benchmark_return_3m": 11.48,
-    "relative_strength": -22.9,
+    "stock_return_3m": -9.82,
+    "benchmark_return_3m": 11.32,
+    "relative_strength": -21.14,
     "label": "underperforming"
   },
   "final_tier": "Hold",
@@ -87,5 +88,5 @@
     "note": "Price exceeds 60% conviction ceiling ($116) \u2014 skip or wait for Strong Buy"
   },
   "is_dca": false,
-  "saved_at": "2026-07-09T23:49:05.599629"
+  "saved_at": "2026-07-12T23:31:24.325993"
 }

@@ -3,19 +3,36 @@
     "ticker": "MSFT",
     "company_name": "Microsoft Corporation",
     "action": "Hold",
-    "action_reason": "Position is down 17.73%, triggering your rule to never exit major losers. Fundamentals remain healthy, RSI shows room for recovery, and earnings in 20 days could be a catalyst. Holding lets the recovery thesis play out.",
-    "target_price": 420,
+    "action_reason": "Philosophy mandates holding positions down >15%. Earnings in 17 days provide a binary catalyst that could reverse the drawdown. Adding more into weakness without a bullish technical signal (RSI still in neutral zone, no indicators firing) would violate swing trade discipline.",
+    "target_price": null,
     "target_reasoning": "",
-    "exit_trigger": "Break below $360 on volume (>100M shares/day) suggesting fundamental deterioration",
-    "add_trigger": "RSI drops to <35 AND closes above $400 on next recovery attempt = oversold bounce confirmation",
-    "risk": "Continued macro weakness from geopolitical tensions or broader tech selloff could extend drawdown to -25%+ before earnings; concentration in single position amplifies risk.",
+    "exit_trigger": "Fundamentals deteriorate OR position recovers to -5% loss (exit per swing trade rules only on profitability)",
+    "add_trigger": "RSI breaks above 60 on volume + bullish news catalyst, OR pre-earnings momentum shift with 3+ consecutive green daily closes",
+    "risk": "Earnings miss; continued sector rotation out of mega-cap tech; geopolitical escalation reducing risk appetite; portfolio concentration amplifies losses if MSFT breaks below $360 support",
     "outlook": "cautious",
-    "timeframe": "2-4 weeks to earnings catalyst; reassess after Q results",
-    "generated_at": "2026-07-09T23:48:37.205022",
-    "price_at_generation": 384.36,
-    "pnl_at_generation": -17.73
+    "timeframe": "2-4 weeks (until post-earnings confirmation)",
+    "generated_at": "2026-07-12T23:30:56.446173",
+    "price_at_generation": 385.1,
+    "pnl_at_generation": -17.57
   },
   "history": [
+    {
+      "ticker": "MSFT",
+      "company_name": "Microsoft Corporation",
+      "action": "Hold",
+      "action_reason": "Position is down 17.73%, triggering your rule to never exit major losers. Fundamentals remain healthy, RSI shows room for recovery, and earnings in 20 days could be a catalyst. Holding lets the recovery thesis play out.",
+      "target_price": 420,
+      "target_reasoning": "",
+      "exit_trigger": "Break below $360 on volume (>100M shares/day) suggesting fundamental deterioration",
+      "add_trigger": "RSI drops to <35 AND closes above $400 on next recovery attempt = oversold bounce confirmation",
+      "risk": "Continued macro weakness from geopolitical tensions or broader tech selloff could extend drawdown to -25%+ before earnings; concentration in single position amplifies risk.",
+      "outlook": "cautious",
+      "timeframe": "2-4 weeks to earnings catalyst; reassess after Q results",
+      "generated_at": "2026-07-09T23:48:37.205022",
+      "price_at_generation": 384.36,
+      "pnl_at_generation": -17.73,
+      "archived_at": "2026-07-12T23:30:56.446428"
+    },
     {
       "ticker": "MSFT",
       "company_name": "Microsoft Corporation",
@@ -117,23 +134,6 @@
       "price_at_generation": 384.28,
       "pnl_at_generation": -17.74,
       "archived_at": "2026-07-02T23:41:19.950531"
-    },
-    {
-      "ticker": "MSFT",
-      "company_name": "Microsoft Corporation",
-      "action": "Hold",
-      "action_reason": "Position is down 20.15%, exceeding the 15% threshold, which per philosophy mandates holding through major losers. Fundamentals remain healthy and technical shows stabilization (RSI 41.4 not deeply oversold). Wait for recovery setup.",
-      "target_price": 520,
-      "target_reasoning": "",
-      "exit_trigger": "Fundamental deterioration (earnings miss, guidance cut, or major product failure) OR break below $360 with volume confirmation",
-      "add_trigger": "RSI drops to 30-35 range on volume spike with no negative news catalyst, or if price rebounds to $410+ with bullish technical confirmation",
-      "risk": "Continued macro weakness in tech sector; gap down risk if unexpected negative news emerges; opportunity cost if capital needed elsewhere",
-      "outlook": "cautious",
-      "timeframe": "4-8 weeks for recovery attempt; reassess at next earnings or if technical support breaks",
-      "generated_at": "2026-06-30T23:46:28.556257",
-      "price_at_generation": 373.02,
-      "pnl_at_generation": -20.15,
-      "archived_at": "2026-07-01T23:53:30.562642"
     }
   ]
 }

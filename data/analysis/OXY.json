@@ -8,21 +8,21 @@
     "sell_score": 0.0,
     "reasons": [],
     "misses": [
-      "BB: price not near lower band (pct=0.53)",
+      "BB: price not near lower band (pct=0.62)",
       "BB Width: bands expanding, not squeezing",
-      "RSI: not in buy zone (48.3, need 20-40)",
+      "RSI: not in buy zone (50.4, need 20-40)",
       "MACD: no bullish crossover or valley",
       "RSI Divergence: no bullish divergence detected",
-      "Volume: below average (0.67x) \u2014 low conviction"
+      "Volume: below average (0.65x) \u2014 low conviction"
     ],
-    "price": 52.3,
-    "rsi": 48.3,
-    "atr": 1.53,
+    "price": 52.89,
+    "rsi": 50.4,
+    "atr": 1.49,
     "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 2,
-      "suggested_dollars": 104.6,
-      "note": "2 sh @ $52.30 = $105 (Hold, 60% size) | $539 swing budget after"
+      "suggested_dollars": 105.78,
+      "note": "2 sh @ $52.89 = $106 (Hold, 60% size) | $538 swing budget after"
     }
   },
   "fundamentals": {
@@ -52,7 +52,7 @@
       ],
       "earnings_status": "upcoming",
       "next_earnings_date": "2026-08-05",
-      "days_to_earnings": 27
+      "days_to_earnings": 24
     }
   },
   "news": {
@@ -60,34 +60,34 @@
     "sentiment": "neutral",
     "health": "neutral",
     "key_events": [
-      "Earnings report in 27 days (major catalyst)",
-      "Revenue declining YoY (-8.3%) suggests headwinds",
-      "Geopolitical risk remains moderate (oil price sensitivity)"
+      "Earnings report in 24 days",
+      "Revenue declining YoY (-8.3%)",
+      "Moderate geopolitical risk (baseline structural tensions)"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "No recent news available - information gap limits conviction",
-      "Revenue contraction YoY indicates operational/demand challenges",
-      "F&G Extreme Fear suggests market pessimism despite neutral VIX",
-      "RSI 48.3 shows no momentum (neither oversold nor overbought)"
+      "Revenue contraction YoY signals weakening demand or pricing pressure",
+      "No technical firing signals despite modest +4.98% gain",
+      "RSI at midpoint (50.4) shows no directional momentum",
+      "Fear sentiment in broader market despite neutral VIX"
     ],
-    "verdict": "OXY is marginally profitable but lacks catalysts and momentum; hold current position while awaiting earnings clarity.",
+    "verdict": "OXY is in a neutral holding pattern with a profitable swing position ahead of earnings; lack of technical confirmation and declining revenues warrant cautious patience.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "OXY",
-    "stock_return_3m": -12.09,
-    "benchmark_return_3m": 11.48,
-    "relative_strength": -23.58,
+    "stock_return_3m": -9.22,
+    "benchmark_return_3m": 11.32,
+    "relative_strength": -20.54,
     "label": "underperforming"
   },
   "final_tier": "Hold",
   "sizing": {
     "suggested_shares": 2,
-    "suggested_dollars": 104.6,
-    "note": "2 sh @ $52.30 = $105 (Hold, 60% size) | $539 swing budget after"
+    "suggested_dollars": 105.78,
+    "note": "2 sh @ $52.89 = $106 (Hold, 60% size) | $538 swing budget after"
   },
   "is_dca": false,
-  "saved_at": "2026-07-09T23:49:13.291862"
+  "saved_at": "2026-07-12T23:31:32.635107"
 }

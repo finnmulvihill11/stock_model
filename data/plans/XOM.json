@@ -3,19 +3,36 @@
     "ticker": "XOM",
     "company_name": "ExxonMobil Holdings Corporation",
     "action": "Hold",
-    "action_reason": "Position is modestly profitable (+0.23%) with healthy fundamentals and no deterioration signals. Neutral technicals and absence of news suggest waiting for clearer directional catalysts before adjusting. No profit-taking catalyst justifies exit at this marginal gain.",
+    "action_reason": "Position is profitable and small relative to portfolio. RSI neutral, no technical breakout imminent, and fundamentals solid. Wait for clearer directional bias (RSI <30 for add, technical breakdown for trim) before acting.",
     "target_price": null,
     "target_reasoning": "",
-    "exit_trigger": "Break below $132.50 (2.4% loss) with deteriorating fundamentals, or sustained break below 50-day MA on volume",
-    "add_trigger": "RSI drops to 30-35 on pullback with Energy sector strength, or geopolitical escalation drives oil spike above $85/bbl",
-    "risk": "Energy volatility tied to oil prices and geopolitical developments; Extreme Fear sentiment may trigger broader sell-off; lack of recent news creates information vacuum",
-    "outlook": "cautious",
-    "timeframe": "2-4 weeks",
-    "generated_at": "2026-07-09T23:49:05.598860",
-    "price_at_generation": 137.46,
-    "pnl_at_generation": 0.23
+    "exit_trigger": "Break below $135 on volume with deteriorating fundamentals, or sustained divergence between price and energy macro backdrop.",
+    "add_trigger": "RSI drops to 30\u201335 + VIX spike >18 on energy-specific weakness, signaling reaccumulation opportunity.",
+    "risk": "Geopolitical escalation could spike volatility; rate hikes weigh on energy valuations; demand destruction from recession.",
+    "outlook": "neutral",
+    "timeframe": "2\u20136 weeks (monitor for next earnings cycle or macro pivot)",
+    "generated_at": "2026-07-12T23:31:24.325193",
+    "price_at_generation": 138.88,
+    "pnl_at_generation": 1.26
   },
   "history": [
+    {
+      "ticker": "XOM",
+      "company_name": "ExxonMobil Holdings Corporation",
+      "action": "Hold",
+      "action_reason": "Position is modestly profitable (+0.23%) with healthy fundamentals and no deterioration signals. Neutral technicals and absence of news suggest waiting for clearer directional catalysts before adjusting. No profit-taking catalyst justifies exit at this marginal gain.",
+      "target_price": null,
+      "target_reasoning": "",
+      "exit_trigger": "Break below $132.50 (2.4% loss) with deteriorating fundamentals, or sustained break below 50-day MA on volume",
+      "add_trigger": "RSI drops to 30-35 on pullback with Energy sector strength, or geopolitical escalation drives oil spike above $85/bbl",
+      "risk": "Energy volatility tied to oil prices and geopolitical developments; Extreme Fear sentiment may trigger broader sell-off; lack of recent news creates information vacuum",
+      "outlook": "cautious",
+      "timeframe": "2-4 weeks",
+      "generated_at": "2026-07-09T23:49:05.598860",
+      "price_at_generation": 137.46,
+      "pnl_at_generation": 0.23,
+      "archived_at": "2026-07-12T23:31:24.325412"
+    },
     {
       "ticker": "XOM",
       "company_name": "ExxonMobil Holdings Corporation",
@@ -117,23 +134,6 @@
       "price_at_generation": 136.28,
       "pnl_at_generation": -0.63,
       "archived_at": "2026-07-02T23:41:46.949229"
-    },
-    {
-      "ticker": "XOM",
-      "company_name": "Exxon Mobil Corporation",
-      "action": "Hold",
-      "action_reason": "Position is down <1%, loss is immaterial, RSI oversold at 35.3 signals potential reversal, and fundamentals remain healthy. Wait for technical confirmation of reversal before adding.",
-      "target_price": 142.5,
-      "target_reasoning": "",
-      "exit_trigger": "Break below $134 (support) on volume + deteriorating fundamentals",
-      "add_trigger": "RSI cross above 40 + close above $138 on increased volume",
-      "risk": "Oil price collapse or macro recession reducing energy demand; geopolitical supply disruptions",
-      "outlook": "neutral",
-      "timeframe": "2-4 weeks for technical recovery signal",
-      "generated_at": "2026-06-30T23:46:55.460154",
-      "price_at_generation": 136.72,
-      "pnl_at_generation": -0.31,
-      "archived_at": "2026-07-01T23:53:54.771398"
     }
   ]
 }
