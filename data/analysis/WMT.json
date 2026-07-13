@@ -4,23 +4,24 @@
     "ticker": "WMT",
     "direction": "hold",
     "tier": "Hold",
-    "buy_score": 0.5,
+    "buy_score": 0.38,
     "sell_score": 0.0,
     "reasons": [],
     "misses": [
-      "BB: price not near lower band (pct=0.38)",
+      "BB: price not near lower band (pct=0.45)",
       "BB Width: bands expanding, not squeezing",
-      "RSI: not in buy zone (44.0, need 20-40)",
-      "Volume: below average (0.53x) \u2014 low conviction"
+      "RSI: not in buy zone (46.4, need 20-40)",
+      "MACD: no bullish crossover or valley",
+      "Volume: below average (0.68x) \u2014 low conviction"
     ],
-    "price": 113.9,
-    "rsi": 44.0,
-    "atr": 2.83,
+    "price": 114.78,
+    "rsi": 46.4,
+    "atr": 2.84,
     "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 1,
-      "suggested_dollars": 113.9,
-      "note": "1 sh @ $113.90 = $114 (Hold, 60% size) | $530 swing budget after"
+      "suggested_dollars": 114.78,
+      "note": "1 sh @ $114.78 = $115 (Hold, 60% size) | $529 swing budget after"
     }
   },
   "fundamentals": {
@@ -49,7 +50,7 @@
       ],
       "earnings_status": "distant",
       "next_earnings_date": "2026-08-20",
-      "days_to_earnings": 39
+      "days_to_earnings": 38
     }
   },
   "news": {
@@ -57,29 +58,32 @@
     "sentiment": "neutral",
     "health": "healthy",
     "key_events": [
-      "No material news events identified",
-      "Earnings 39 days out (mid-February timeline)",
-      "Geopolitical risk at moderate baseline levels"
+      "No recent news items provided for analysis",
+      "Earnings report 38 days away",
+      "Market volatility neutral (VIX 17.2)"
     ],
     "macro_context": "",
     "competitive_notes": "",
-    "red_flags": [],
-    "verdict": "Walmart shows healthy fundamentals with modest gains; hold position and await technical setup or earnings catalyst.",
+    "red_flags": [
+      "No news catalyst visible \u2014 momentum may fade",
+      "RSI at 46.4 shows no overbought condition; room to run but no urgency"
+    ],
+    "verdict": "WMT is trading profitably with healthy fundamentals; hold for swing target with earnings as potential catalyst or exit point.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "WMT",
-    "stock_return_3m": -11.63,
-    "benchmark_return_3m": 11.32,
-    "relative_strength": -22.95,
+    "stock_return_3m": -9.29,
+    "benchmark_return_3m": 10.54,
+    "relative_strength": -19.83,
     "label": "underperforming"
   },
   "final_tier": "Hold",
   "sizing": {
     "suggested_shares": 1,
-    "suggested_dollars": 113.9,
-    "note": "1 sh @ $113.90 = $114 (Hold, 60% size) | $530 swing budget after"
+    "suggested_dollars": 114.78,
+    "note": "1 sh @ $114.78 = $115 (Hold, 60% size) | $529 swing budget after"
   },
   "is_dca": false,
-  "saved_at": "2026-07-12T23:31:39.105885"
+  "saved_at": "2026-07-13T23:28:48.466761"
 }

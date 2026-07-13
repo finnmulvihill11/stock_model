@@ -1,25 +1,47 @@
 {
   "current": {
-    "headline": "Portfolio holding steady through tech drawdown; no new conviction signals today\u2014preserve dry powder for oversold quality entry.",
+    "headline": "Portfolio holding steady in neutral market; major losers (INTU, MSFT, TEM, ABT) locked in per philosophy; watching for mean reversion catalysts.",
     "market_stance": "neutral",
-    "overall_thesis": "Your mean-reversion thesis is intact: tech names (INTU, MSFT) are deeply underwater but fundamentally sound; hold through recovery per your philosophy. The next 4\u20138 weeks will be shaped by earnings (MSFT, CMG, OXY in ~17 days) and potential mean-reversion bounces in RSI-depressed holdings. Fear gauge at 26 suggests sentiment overshoot; wait for a clearer technical setup\u2014either a oversold bounce or a fresh breakdown to confirm trend\u2014before deploying the $1K dry powder.",
+    "overall_thesis": "Fear gauge at 28 signals mild panic\u2014ideal backdrop for mean-reversion thesis. Your four largest losers (INTU -38%, MSFT -16%, TEM -19%, ABT -16%) are all held per conviction rule; they offer recovery potential when sentiment turns. Next 4-8 weeks: monitor earnings catalysts (ABT in 3 days, CMG in 16 days) and allow oversold quality names time to revert.",
     "priority_actions": [],
-    "biggest_risk": "INTU at -41.3% is a significant anchor; if it breaks below support into -50%+ territory without fundamental change, you may face forced liquidation pressure or liquidity stress. Monitor quarterly results closely. Secondary risk: broad tech repricing if geopolitical escalation (US-China trade) triggers a risk-off spike.",
+    "biggest_risk": "INTU at -38% represents concentrated drawdown risk (22.5% weight). If conviction in recovery thesis weakens OR company guidance deteriorates at next earnings, position size becomes dangerous. Monitor closely.",
     "what_to_watch": [
-      "MSFT earnings (in 17 days)\u2014potential inflection point for largest holding (20.3% weight, -17.6%); strong beat could reverse momentum",
-      "CMG + OXY earnings (also ~17 days)\u2014both profitable; watch for guidance to justify hold or flag exit opportunity",
-      "RSI oversold bounces in XOM (44.4), WMT (44.0), IRM (46.4)\u2014if any spike to 60\u201365 on volume, consider partial trim on strength",
-      "INTU quarterly results\u2014only catalyst that could justify the -41.3% drawdown or signal thesis is broken; hold until then"
+      "ABT earnings (3 days): validate healthcare thesis or confirm deeper cyclical weakness",
+      "CMG earnings (16 days): test restaurant resilience; position already +16.4%\u2014set profit-taking level if RSI breaks 70",
+      "VIX trend: if Fear rises above 30\u201335, consider small opportunistic buys in oversold names; currently at 17.2 (too calm to act)",
+      "INTU technical breakdown: if RSI falls below 40 and breaks key support, reassess conviction thesis"
     ],
     "on_course_check": [
-      "\u2713 Holding major losers (INTU, MSFT, TEM, ABT) through >15% drawdown per philosophy",
-      "\u2713 Smaller profitable positions (CMG, OXY, WMT, IRM, XOM) anchoring portfolio and generating optionality",
-      "\u26a0 If INTU reports and misses guidance *and* forward outlook declines, thesis may be broken\u2014flag for re-evaluation",
-      "\u26a0 If VIX spikes above 20 on geopolitical headline without technical recovery in RSI, consider defensive posture (trim winners, raise cash)"
+      "\u2713 Holding major losers >15% down per philosophy (INTU, MSFT, TEM, ABT)",
+      "\u2713 No forced selling into weakness; $1K dry powder preserved for conviction setups",
+      "\u2713 Profitable positions (XOM, OXY, CMG, WMT, IRM) all consolidating\u2014no overbought exits yet",
+      "\u26a0 IF: ABT or INTU report weak guidance \u2192 reassess recovery timeline and position size",
+      "\u26a0 IF: portfolio drawdown approaches -20% \u2192 stress-test conviction thesis before market sentiment turns panic"
     ],
-    "generated_at": "2026-07-12T23:31:57.600978"
+    "generated_at": "2026-07-13T23:29:07.870638"
   },
   "history": [
+    {
+      "headline": "Portfolio holding steady through tech drawdown; no new conviction signals today\u2014preserve dry powder for oversold quality entry.",
+      "market_stance": "neutral",
+      "overall_thesis": "Your mean-reversion thesis is intact: tech names (INTU, MSFT) are deeply underwater but fundamentally sound; hold through recovery per your philosophy. The next 4\u20138 weeks will be shaped by earnings (MSFT, CMG, OXY in ~17 days) and potential mean-reversion bounces in RSI-depressed holdings. Fear gauge at 26 suggests sentiment overshoot; wait for a clearer technical setup\u2014either a oversold bounce or a fresh breakdown to confirm trend\u2014before deploying the $1K dry powder.",
+      "priority_actions": [],
+      "biggest_risk": "INTU at -41.3% is a significant anchor; if it breaks below support into -50%+ territory without fundamental change, you may face forced liquidation pressure or liquidity stress. Monitor quarterly results closely. Secondary risk: broad tech repricing if geopolitical escalation (US-China trade) triggers a risk-off spike.",
+      "what_to_watch": [
+        "MSFT earnings (in 17 days)\u2014potential inflection point for largest holding (20.3% weight, -17.6%); strong beat could reverse momentum",
+        "CMG + OXY earnings (also ~17 days)\u2014both profitable; watch for guidance to justify hold or flag exit opportunity",
+        "RSI oversold bounces in XOM (44.4), WMT (44.0), IRM (46.4)\u2014if any spike to 60\u201365 on volume, consider partial trim on strength",
+        "INTU quarterly results\u2014only catalyst that could justify the -41.3% drawdown or signal thesis is broken; hold until then"
+      ],
+      "on_course_check": [
+        "\u2713 Holding major losers (INTU, MSFT, TEM, ABT) through >15% drawdown per philosophy",
+        "\u2713 Smaller profitable positions (CMG, OXY, WMT, IRM, XOM) anchoring portfolio and generating optionality",
+        "\u26a0 If INTU reports and misses guidance *and* forward outlook declines, thesis may be broken\u2014flag for re-evaluation",
+        "\u26a0 If VIX spikes above 20 on geopolitical headline without technical recovery in RSI, consider defensive posture (trim winners, raise cash)"
+      ],
+      "generated_at": "2026-07-12T23:31:57.600978",
+      "archived_at": "2026-07-13T23:29:07.870946"
+    },
     {
       "headline": "Portfolio in recovery mode\u2014hold major losers, selectively add oversold quality on mean-reversion setup.",
       "market_stance": "offensive",
@@ -282,46 +304,6 @@
       ],
       "generated_at": "2026-07-02T23:42:11.771370",
       "archived_at": "2026-07-05T23:38:55.748851"
-    },
-    {
-      "headline": "Portfolio anchored in deep value positions; extreme fear environment creates compelling mean-reversion entries\u2014deploy remaining $1k strategically on highest-conviction screener signals.",
-      "market_stance": "offensive",
-      "overall_thesis": "Extreme Fear (VIX 11, Fear & Greed 11) has created a classic mean-reversion setup across quality names. Your oversold core holdings (INTU RSI 38.2, MSFT RSI 47.0, XOM RSI 34.6, OXY RSI 25.7) are positioned to recover as sentiment normalizes. The screener has isolated five textbook oversold setups (IONQ, ON, STLD, MPWR, GOOGL) that offer superior risk/reward to cash\u2014deploy $1k into highest-confidence names to amplify recovery when fear breaks.",
-      "priority_actions": [
-        {
-          "rank": 1,
-          "action": "BUY",
-          "ticker": "IONQ",
-          "instruction": "Buy 15\u201320 shares at market or on any dip toward lower Bollinger Band touch. RSI 39.9 is deeply oversold; persistent buy signal confirms strength of setup.",
-          "urgency": "immediate"
-        },
-        {
-          "rank": 2,
-          "action": "BUY",
-          "ticker": "ON",
-          "instruction": "Buy 12\u201316 shares at market. RSI 37.2 + lower BB compression = textbook mean-reversion. Persistent signal validates entry.",
-          "urgency": "immediate"
-        },
-        {
-          "rank": 3,
-          "action": "BUY",
-          "ticker": "STLD",
-          "instruction": "Buy 8\u201312 shares if price holds near lower Bollinger Band. Compressed setup + persistent signal warrants entry with remaining $1k capacity.",
-          "urgency": "this week"
-        }
-      ],
-      "biggest_risk": "INTU at -43% is an extreme outlier\u2014if it breaks below current support without recovery signal, thesis on 'hold-through-major-losses' may need re-examination. Monitor for fundamental deterioration (earnings miss, downgrade) that would invalidate the mean-reversion case entirely.",
-      "what_to_watch": [
-        "Fear & Greed index\u2014entry point is strongest when extreme fear begins to lift (target: move from 11 toward 20\u201330 range over 2\u20134 weeks)",
-        "INTU earnings or analyst action\u2014any negative surprise could trigger stop-loss override; positive surprise would validate hold thesis",
-        "Screener entries (IONQ, ON, STLD) recovery trajectory\u2014confirm entries are gaining momentum and not rolling over into deeper losses within 5 trading days"
-      ],
-      "on_course_check": [
-        "\u2713 Plan is working if: oversold holdings (XOM, OXY, INTU) show RSI recovery toward neutral (45\u201355) while new entries (IONQ, ON, STLD) gain 5\u201310% within 10 days",
-        "\u26a0 Revise plan if: INTU breaks below 20-day moving average on high volume without RSI bounce, OR screener entries gap down >8% on no news (suggests signal timing was premature)"
-      ],
-      "generated_at": "2026-07-01T23:54:13.744442",
-      "archived_at": "2026-07-02T23:42:11.771694"
     }
   ]
 }

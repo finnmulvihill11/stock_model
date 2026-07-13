@@ -4,19 +4,18 @@
     "ticker": "XOM",
     "direction": "hold",
     "tier": "Hold",
-    "buy_score": 0.38,
-    "sell_score": 0.14,
+    "buy_score": 0.5,
+    "sell_score": 0.43,
     "reasons": [],
     "misses": [
-      "BB: price not near lower band (pct=0.47)",
-      "RSI: not in buy zone (44.4, need 20-40)",
+      "BB: price not near lower band (pct=0.95)",
+      "RSI: not in buy zone (54.9, need 20-40)",
       "MACD: no bullish crossover or valley",
-      "RSI Divergence: no bullish divergence detected",
-      "Volume: below average (0.54x) \u2014 low conviction"
+      "RSI Divergence: no bullish divergence detected"
     ],
-    "price": 138.88,
-    "rsi": 44.4,
-    "atr": 2.73,
+    "price": 144.51,
+    "rsi": 54.9,
+    "atr": 3.04,
     "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 0,
@@ -50,7 +49,7 @@
       ],
       "earnings_status": "past",
       "next_earnings_date": "2026-05-01",
-      "days_to_earnings": -72
+      "days_to_earnings": -73
     }
   },
   "news": {
@@ -58,27 +57,27 @@
     "sentiment": "neutral",
     "health": "healthy",
     "key_events": [
-      "Position up +1.26% with modest 2-share allocation (7.3% weight)",
-      "RSI at 44.4 indicates neither overbought nor oversold conditions",
-      "Earnings reported 72 days ago\u2014no near-term catalyst",
-      "VIX 15.0 reflects calm market; geopolitical risk at moderate baseline"
+      "Position up 5.37% with modest 7.5% portfolio weight",
+      "RSI at 54.9 indicates balanced momentum, no overbought conditions",
+      "Earnings reported 73 days ago, well into new cycle",
+      "VIX at 17.2 suggests stable market environment",
+      "No recent news catalysts identified"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "No active technical firing signals (Hold rating)",
-      "Fear sentiment in broader F&G index despite neutral VIX",
-      "No recent news flow to assess momentum drivers",
-      "Energy sector vulnerable to demand shocks and rate sensitivity"
+      "Fear gauge active despite neutral VIX\u2014sentiment-fundamentals divergence",
+      "No bullish technical firing signals despite price strength",
+      "Lack of recent news may precede volatility or stagnation"
     ],
-    "verdict": "XOM is a stable, fundamentally healthy position with modest gains; lack of technical signals and upcoming catalysts argues for patience rather than action.",
+    "verdict": "Profitable swing position in healthy energy play with balanced technicals; hold for further upside or trim into strength if RSI breaks 60.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "XOM",
-    "stock_return_3m": -9.82,
-    "benchmark_return_3m": 11.32,
-    "relative_strength": -21.14,
+    "stock_return_3m": -4.6,
+    "benchmark_return_3m": 10.54,
+    "relative_strength": -15.15,
     "label": "underperforming"
   },
   "final_tier": "Hold",
@@ -88,5 +87,5 @@
     "note": "Price exceeds 60% conviction ceiling ($116) \u2014 skip or wait for Strong Buy"
   },
   "is_dca": false,
-  "saved_at": "2026-07-12T23:31:24.325993"
+  "saved_at": "2026-07-13T23:28:34.250657"
 }

@@ -8,17 +8,17 @@
     "sell_score": 0.29,
     "reasons": [],
     "misses": [
-      "BB: price not near lower band (pct=0.60)",
-      "RSI: not in buy zone (47.6, need 20-40)",
+      "BB: price not near lower band (pct=0.73)",
+      "RSI: not in buy zone (51.0, need 20-40)",
       "MACD: no bullish crossover or valley",
       "RSI Divergence: no bullish divergence detected",
       "200MA: price below 200MA \u2014 potential falling knife",
-      "Death cross active: 50MA (403.33) below 200MA (440.71)",
-      "Volume: below average (0.51x) \u2014 low conviction"
+      "Death cross active: 50MA (402.68) below 200MA (440.13)",
+      "Volume: below average (0.58x) \u2014 low conviction"
     ],
-    "price": 385.1,
-    "rsi": 47.6,
-    "atr": 12.68,
+    "price": 390.99,
+    "rsi": 51.0,
+    "atr": 12.32,
     "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 0,
@@ -52,7 +52,7 @@
       ],
       "earnings_status": "upcoming",
       "next_earnings_date": "2026-07-29",
-      "days_to_earnings": 17
+      "days_to_earnings": 16
     }
   },
   "news": {
@@ -60,28 +60,26 @@
     "sentiment": "neutral",
     "health": "healthy",
     "key_events": [
-      "Earnings report in 17 days",
-      "No recent news catalyst (empty news feed)",
-      "Market volatility at neutral levels (VIX 15.0)",
-      "Geopolitical risk at moderate baseline"
+      "Earnings report in 16 days",
+      "Market sentiment Fear & Greed index showing fear despite VIX at 17.2",
+      "No recent material news available"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "Position down 17.57% from entry \u2014 exceeds swing trade risk tolerance",
-      "RSI 47.6 shows no bullish momentum firing",
-      "20.3% portfolio weight concentrates risk in underwater asset",
-      "Tech sector sensitive to geopolitical escalation and rate expectations"
+      "16.31% unrealized loss indicates significant drawdown from entry",
+      "RSI at 51.0 shows no momentum direction",
+      "Fear sentiment in market despite neutral volatility"
     ],
-    "verdict": "Hold through earnings catalyst; fundamentals remain healthy but technical setup offers no entry signal for adding.",
+    "verdict": "MSFT fundamentals remain healthy; position should be held through upcoming earnings given philosophy and no deterioration signals.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "MSFT",
-    "stock_return_3m": 3.45,
-    "benchmark_return_3m": 11.32,
-    "relative_strength": -7.87,
-    "label": "underperforming"
+    "stock_return_3m": 5.65,
+    "benchmark_return_3m": 10.54,
+    "relative_strength": -4.89,
+    "label": "in-line"
   },
   "final_tier": "Hold",
   "sizing": {
@@ -90,5 +88,5 @@
     "note": "Position already at 20% portfolio cap"
   },
   "is_dca": false,
-  "saved_at": "2026-07-12T23:30:56.447021"
+  "saved_at": "2026-07-13T23:28:04.656868"
 }

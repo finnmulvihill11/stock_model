@@ -3,19 +3,36 @@
     "ticker": "INTU",
     "company_name": "Intuit Inc.",
     "action": "Hold",
-    "action_reason": "Position is -41.28%, triggering your rule to hold major losers through recovery. However, absence of bullish technical signals or positive catalysts demands tight monitoring for deterioration before adding capital.",
-    "target_price": 385,
+    "action_reason": "Philosophy mandates holding positions down >15%. However, monitor for technical capitulation (RSI <30) or earnings catalyst in next 6+ months that could trigger recovery or fundamental deterioration that would permit exit despite loss.",
+    "target_price": 425,
     "target_reasoning": "",
-    "exit_trigger": "If fundamentals deteriorate (missed guidance, margin compression, or guidance cut) OR RSI drops below 30 with continued selling on high volume\u2014only then break the hold rule.",
-    "add_trigger": "RSI crosses above 50 with volume confirmation AND next earnings beats expectations OR positive analyst upgrade cluster emerges.",
-    "risk": "Gap down on negative guidance/forecast; software sector rotation risk if rates spike; concentration amplifies drawdown if deterioration confirmed.",
+    "exit_trigger": "Earnings miss with guidance reduction OR fundamental deterioration announcement; alternatively, recovery to $425+ allows reassessment",
+    "add_trigger": "Only if RSI drops below 30 with positive news catalyst; otherwise avoid adding to concentrated losing position",
+    "risk": "Further deterioration if market enters bear phase; concentration risk at 22.5% of portfolio with large unrealized loss",
     "outlook": "cautious",
-    "timeframe": "2-6 weeks (next catalyst or technical reversal signal required)",
-    "generated_at": "2026-07-12T23:30:49.672727",
-    "price_at_generation": 274.96,
-    "pnl_at_generation": -41.28
+    "timeframe": "6-12 weeks until next earnings provides technical/fundamental catalyst",
+    "generated_at": "2026-07-13T23:27:58.352609",
+    "price_at_generation": 289.76,
+    "pnl_at_generation": -38.12
   },
   "history": [
+    {
+      "ticker": "INTU",
+      "company_name": "Intuit Inc.",
+      "action": "Hold",
+      "action_reason": "Position is -41.28%, triggering your rule to hold major losers through recovery. However, absence of bullish technical signals or positive catalysts demands tight monitoring for deterioration before adding capital.",
+      "target_price": 385,
+      "target_reasoning": "",
+      "exit_trigger": "If fundamentals deteriorate (missed guidance, margin compression, or guidance cut) OR RSI drops below 30 with continued selling on high volume\u2014only then break the hold rule.",
+      "add_trigger": "RSI crosses above 50 with volume confirmation AND next earnings beats expectations OR positive analyst upgrade cluster emerges.",
+      "risk": "Gap down on negative guidance/forecast; software sector rotation risk if rates spike; concentration amplifies drawdown if deterioration confirmed.",
+      "outlook": "cautious",
+      "timeframe": "2-6 weeks (next catalyst or technical reversal signal required)",
+      "generated_at": "2026-07-12T23:30:49.672727",
+      "price_at_generation": 274.96,
+      "pnl_at_generation": -41.28,
+      "archived_at": "2026-07-13T23:27:58.352826"
+    },
     {
       "ticker": "INTU",
       "company_name": "Intuit Inc.",
@@ -117,23 +134,6 @@
       "price_at_generation": 275.35,
       "pnl_at_generation": -41.2,
       "archived_at": "2026-07-05T23:37:57.114343"
-    },
-    {
-      "ticker": "INTU",
-      "company_name": "Intuit Inc.",
-      "action": "Hold",
-      "action_reason": "Philosophy mandates holding positions down >15%. RSI oversold (38.2) offers potential reversal setup, but lack of confirming signals (RSI divergence, volume, bullish candlestick) prevents adding. Fundamentals remain healthy.",
-      "target_price": 385,
-      "target_reasoning": "",
-      "exit_trigger": "Only exit if fundamentals deteriorate (earnings miss, guidance cut, or loss of market share evidence) OR if position reaches -60% with continued breakdown below key support",
-      "add_trigger": "RSI bounces above 50 with bullish divergence + volume confirmation, or if company announces strong quarterly results and forward guidance",
-      "risk": "Further drawdown to $220-240 if market sentiment remains pessimistic; concentration risk at 23% weight",
-      "outlook": "cautious",
-      "timeframe": "4-8 weeks for potential reversal; reassess after next earnings report",
-      "generated_at": "2026-07-01T23:53:23.606268",
-      "price_at_generation": 267.08,
-      "pnl_at_generation": -42.97,
-      "archived_at": "2026-07-02T23:41:11.772785"
     }
   ]
 }

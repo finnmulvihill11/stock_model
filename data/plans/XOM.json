@@ -3,19 +3,36 @@
     "ticker": "XOM",
     "company_name": "ExxonMobil Holdings Corporation",
     "action": "Hold",
-    "action_reason": "Position is profitable and small relative to portfolio. RSI neutral, no technical breakout imminent, and fundamentals solid. Wait for clearer directional bias (RSI <30 for add, technical breakdown for trim) before acting.",
-    "target_price": null,
+    "action_reason": "Position is profitable (5.37%) with healthy fundamentals and stable technicals. RSI at 54.9 leaves room for upside momentum without overbought risk. Exit only if price breaks below $140 or RSI rolls over below 45.",
+    "target_price": 149.5,
     "target_reasoning": "",
-    "exit_trigger": "Break below $135 on volume with deteriorating fundamentals, or sustained divergence between price and energy macro backdrop.",
-    "add_trigger": "RSI drops to 30\u201335 + VIX spike >18 on energy-specific weakness, signaling reaccumulation opportunity.",
-    "risk": "Geopolitical escalation could spike volatility; rate hikes weigh on energy valuations; demand destruction from recession.",
+    "exit_trigger": "Close below $140 or RSI drops below 45 on daily close",
+    "add_trigger": "Break above $148 on strong volume with RSI moving 55-65; max 3sh total to keep weight under 10%",
+    "risk": "Energy sector exposure to macro headwinds (recession fears reflected in F&G); lack of technical confirmation may signal stalling momentum",
     "outlook": "neutral",
-    "timeframe": "2\u20136 weeks (monitor for next earnings cycle or macro pivot)",
-    "generated_at": "2026-07-12T23:31:24.325193",
-    "price_at_generation": 138.88,
-    "pnl_at_generation": 1.26
+    "timeframe": "2-4 weeks",
+    "generated_at": "2026-07-13T23:28:34.249805",
+    "price_at_generation": 144.51,
+    "pnl_at_generation": 5.37
   },
   "history": [
+    {
+      "ticker": "XOM",
+      "company_name": "ExxonMobil Holdings Corporation",
+      "action": "Hold",
+      "action_reason": "Position is profitable and small relative to portfolio. RSI neutral, no technical breakout imminent, and fundamentals solid. Wait for clearer directional bias (RSI <30 for add, technical breakdown for trim) before acting.",
+      "target_price": null,
+      "target_reasoning": "",
+      "exit_trigger": "Break below $135 on volume with deteriorating fundamentals, or sustained divergence between price and energy macro backdrop.",
+      "add_trigger": "RSI drops to 30\u201335 + VIX spike >18 on energy-specific weakness, signaling reaccumulation opportunity.",
+      "risk": "Geopolitical escalation could spike volatility; rate hikes weigh on energy valuations; demand destruction from recession.",
+      "outlook": "neutral",
+      "timeframe": "2\u20136 weeks (monitor for next earnings cycle or macro pivot)",
+      "generated_at": "2026-07-12T23:31:24.325193",
+      "price_at_generation": 138.88,
+      "pnl_at_generation": 1.26,
+      "archived_at": "2026-07-13T23:28:34.250028"
+    },
     {
       "ticker": "XOM",
       "company_name": "ExxonMobil Holdings Corporation",
@@ -117,23 +134,6 @@
       "price_at_generation": 137.09,
       "pnl_at_generation": -0.04,
       "archived_at": "2026-07-05T23:38:33.300058"
-    },
-    {
-      "ticker": "XOM",
-      "company_name": "Exxon Mobil Corporation",
-      "action": "Hold",
-      "action_reason": "Loss is minimal (-0.63%) and well within acceptable swing trade variance. RSI oversold conditions (34.6) suggest potential bounce; Extreme Fear presents contrarian buying opportunity for energy plays with healthy fundamentals.",
-      "target_price": 140.5,
-      "target_reasoning": "",
-      "exit_trigger": "Close below $134.00 or fundamental deterioration in energy sector; only consider if profit threshold reached above $142.00",
-      "add_trigger": "RSI drops below 30 with volume surge OR crude oil WTI breaks above $85/barrel on positive supply shock",
-      "risk": "Energy sector cyclicality; geopolitical supply disruptions; macro recession reducing demand; position weight at 7.8% is manageable",
-      "outlook": "neutral",
-      "timeframe": "2-4 weeks for recovery to $139-141 range as oversold conditions normalize",
-      "generated_at": "2026-07-01T23:53:54.771174",
-      "price_at_generation": 136.28,
-      "pnl_at_generation": -0.63,
-      "archived_at": "2026-07-02T23:41:46.949229"
     }
   ]
 }

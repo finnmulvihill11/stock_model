@@ -3,19 +3,36 @@
     "ticker": "MSFT",
     "company_name": "Microsoft Corporation",
     "action": "Hold",
-    "action_reason": "Philosophy mandates holding positions down >15%. Earnings in 17 days provide a binary catalyst that could reverse the drawdown. Adding more into weakness without a bullish technical signal (RSI still in neutral zone, no indicators firing) would violate swing trade discipline.",
+    "action_reason": "Loss exceeds 15% threshold\u2014philosophy mandates holding major losers for recovery. Fundamentals healthy, RSI neutral, and earnings catalyst in 16 days provides potential inflection point. Do not exit at maximum pain.",
     "target_price": null,
     "target_reasoning": "",
-    "exit_trigger": "Fundamentals deteriorate OR position recovers to -5% loss (exit per swing trade rules only on profitability)",
-    "add_trigger": "RSI breaks above 60 on volume + bullish news catalyst, OR pre-earnings momentum shift with 3+ consecutive green daily closes",
-    "risk": "Earnings miss; continued sector rotation out of mega-cap tech; geopolitical escalation reducing risk appetite; portfolio concentration amplifies losses if MSFT breaks below $360 support",
+    "exit_trigger": "Exit only if fundamentals deteriorate materially or earnings reveal structural business weakness; not on price action alone.",
+    "add_trigger": "Add if MSFT breaks below $370 with confirmation that pullback is technical, not fundamental; validates accumulation at lower cost basis.",
+    "risk": "Further downside before earnings if market rotation from mega-cap tech accelerates; earnings miss could trigger 5-10% additional decline.",
     "outlook": "cautious",
-    "timeframe": "2-4 weeks (until post-earnings confirmation)",
-    "generated_at": "2026-07-12T23:30:56.446173",
-    "price_at_generation": 385.1,
-    "pnl_at_generation": -17.57
+    "timeframe": "2-6 weeks (earnings event + post-earnings consolidation)",
+    "generated_at": "2026-07-13T23:28:04.656110",
+    "price_at_generation": 390.99,
+    "pnl_at_generation": -16.31
   },
   "history": [
+    {
+      "ticker": "MSFT",
+      "company_name": "Microsoft Corporation",
+      "action": "Hold",
+      "action_reason": "Philosophy mandates holding positions down >15%. Earnings in 17 days provide a binary catalyst that could reverse the drawdown. Adding more into weakness without a bullish technical signal (RSI still in neutral zone, no indicators firing) would violate swing trade discipline.",
+      "target_price": null,
+      "target_reasoning": "",
+      "exit_trigger": "Fundamentals deteriorate OR position recovers to -5% loss (exit per swing trade rules only on profitability)",
+      "add_trigger": "RSI breaks above 60 on volume + bullish news catalyst, OR pre-earnings momentum shift with 3+ consecutive green daily closes",
+      "risk": "Earnings miss; continued sector rotation out of mega-cap tech; geopolitical escalation reducing risk appetite; portfolio concentration amplifies losses if MSFT breaks below $360 support",
+      "outlook": "cautious",
+      "timeframe": "2-4 weeks (until post-earnings confirmation)",
+      "generated_at": "2026-07-12T23:30:56.446173",
+      "price_at_generation": 385.1,
+      "pnl_at_generation": -17.57,
+      "archived_at": "2026-07-13T23:28:04.656328"
+    },
     {
       "ticker": "MSFT",
       "company_name": "Microsoft Corporation",
@@ -117,23 +134,6 @@
       "price_at_generation": 390.49,
       "pnl_at_generation": -16.42,
       "archived_at": "2026-07-05T23:38:04.415790"
-    },
-    {
-      "ticker": "MSFT",
-      "company_name": "Microsoft Corporation",
-      "action": "Hold",
-      "action_reason": "Drawdown exceeds 15% threshold\u2014philosophy mandates holding through major losses. Fundamentals remain healthy and no deterioration signals justify exit. Wait for technical confirmation of reversal or next earnings cycle.",
-      "target_price": 420,
-      "target_reasoning": "",
-      "exit_trigger": "Break below $360 on heavy volume (fundamental deterioration signal) OR exit on next 10%+ move into profitability per philosophy",
-      "add_trigger": "RSI breaks below 35 + Extreme Fear persists + price holds above $370 = accumulation opportunity",
-      "risk": "Continued macro weakness/recession narrative could extend drawdown to $340-350; concentration at 22.1% weight amplifies portfolio impact",
-      "outlook": "cautious",
-      "timeframe": "4-8 weeks",
-      "generated_at": "2026-07-01T23:53:30.562413",
-      "price_at_generation": 384.28,
-      "pnl_at_generation": -17.74,
-      "archived_at": "2026-07-02T23:41:19.950531"
     }
   ]
 }

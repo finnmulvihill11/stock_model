@@ -2,20 +2,37 @@
   "current": {
     "ticker": "OXY",
     "company_name": "Occidental Petroleum Corporation",
-    "action": "Hold",
-    "action_reason": "Position is profitable (+4.98%), providing strategic optionality. Upcoming earnings (24d) and moderate geopolitical backdrop create both risk and opportunity; holding captures potential mean-reversion while avoiding exit into strength.",
-    "target_price": 55.5,
+    "action": "Start Trimming",
+    "action_reason": "Position is +8.79% and profitable; revenue decline signals weakening fundamentals. Trim 50% (2sh) at current levels to secure gains before earnings volatility, hold remaining 2sh for upside if data improves.",
+    "target_price": 57.5,
     "target_reasoning": "",
-    "exit_trigger": "Break below $50.00 (initial support) on volume, OR close below 20-day MA on earnings miss, OR breach of broader portfolio risk tolerance.",
-    "add_trigger": "RSI dips to 35-40 with accumulation volume on pull-back to $50.50-$51.00 range ahead of earnings.",
-    "risk": "Revenue decline suggests structural headwinds; earnings miss in 24d could trigger sharp reversal; geopolitical escalation is wild card.",
+    "exit_trigger": "Close remaining 2sh if OXY breaks below $52.50 (support), or immediately post-earnings if guidance disappoints",
+    "add_trigger": "Only add if OXY closes above $57.50 on positive oil macro data or earnings beat",
+    "risk": "Energy sector cyclicality + revenue decline suggests margin pressure; earnings miss could trigger 5-10% pullback. Holding full position into earnings adds unnecessary volatility risk.",
     "outlook": "cautious",
-    "timeframe": "3-4 weeks (through earnings catalyst)",
-    "generated_at": "2026-07-12T23:31:32.634280",
-    "price_at_generation": 52.89,
-    "pnl_at_generation": 4.98
+    "timeframe": "2-3 weeks (trim before earnings event)",
+    "generated_at": "2026-07-13T23:28:41.666536",
+    "price_at_generation": 54.81,
+    "pnl_at_generation": 8.79
   },
   "history": [
+    {
+      "ticker": "OXY",
+      "company_name": "Occidental Petroleum Corporation",
+      "action": "Hold",
+      "action_reason": "Position is profitable (+4.98%), providing strategic optionality. Upcoming earnings (24d) and moderate geopolitical backdrop create both risk and opportunity; holding captures potential mean-reversion while avoiding exit into strength.",
+      "target_price": 55.5,
+      "target_reasoning": "",
+      "exit_trigger": "Break below $50.00 (initial support) on volume, OR close below 20-day MA on earnings miss, OR breach of broader portfolio risk tolerance.",
+      "add_trigger": "RSI dips to 35-40 with accumulation volume on pull-back to $50.50-$51.00 range ahead of earnings.",
+      "risk": "Revenue decline suggests structural headwinds; earnings miss in 24d could trigger sharp reversal; geopolitical escalation is wild card.",
+      "outlook": "cautious",
+      "timeframe": "3-4 weeks (through earnings catalyst)",
+      "generated_at": "2026-07-12T23:31:32.634280",
+      "price_at_generation": 52.89,
+      "pnl_at_generation": 4.98,
+      "archived_at": "2026-07-13T23:28:41.666754"
+    },
     {
       "ticker": "OXY",
       "company_name": "Occidental Petroleum Corporation",
@@ -117,23 +134,6 @@
       "price_at_generation": 48.91,
       "pnl_at_generation": -2.92,
       "archived_at": "2026-07-05T23:38:41.182018"
-    },
-    {
-      "ticker": "OXY",
-      "company_name": "Occidental Petroleum Corporation",
-      "action": "Hold",
-      "action_reason": "Position is only -4.84% (well above 15% threshold); RSI oversold at 25.7 creates bounce potential; extreme fear sentiment often precedes reversals. Hold and await earnings catalyst or technical recovery confirmation.",
-      "target_price": 51.5,
-      "target_reasoning": "",
-      "exit_trigger": "Break below $46.00 (technical support failure) OR negative earnings surprise beyond revenue decline trend",
-      "add_trigger": "RSI bounces to 35+ with volume confirmation AND price stabilizes above $47.50 support",
-      "risk": "Energy sector cyclicality; continued revenue declines could trigger downside acceleration if sentiment worsens post-earnings",
-      "outlook": "cautious",
-      "timeframe": "3-5 weeks (hold through earnings)",
-      "generated_at": "2026-07-01T23:54:01.245440",
-      "price_at_generation": 47.94,
-      "pnl_at_generation": -4.84,
-      "archived_at": "2026-07-02T23:41:56.329708"
     }
   ]
 }

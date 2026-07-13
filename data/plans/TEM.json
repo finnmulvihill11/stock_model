@@ -3,19 +3,36 @@
     "ticker": "TEM",
     "company_name": "Tempus AI, Inc.",
     "action": "Hold",
-    "action_reason": "Philosophy mandates holding through >15% drawdowns. However, monitor closely for earnings catalyst (18d) and cash flow updates, as negative operating cash flow + high debt create bankruptcy risk if deterioration continues.",
+    "action_reason": "Position is down 19%\u2014your philosophy mandates holding major losers for recovery. However, this is a high-risk hold contingent on upcoming earnings NOT triggering further capitulation.",
     "target_price": null,
     "target_reasoning": "",
-    "exit_trigger": "Break below $52 (technical support + fundamental break), or post-earnings guidance cut >20%, or debt covenant warning",
-    "add_trigger": "Only if post-earnings beat + positive FCF guidance + debt refinance news",
-    "risk": "Solvency risk: negative cash flow + 3.2x leverage means limited runway if revenue disappoints; earnings miss could trigger sharp drop",
+    "exit_trigger": "Earnings miss + guidance slash + debt covenant concerns OR break below $48 (another -14%) on heavy volume; otherwise hold until 25%+ recovery or earnings inflection",
+    "add_trigger": "Do NOT add; cash burn + leverage make this a value trap, not a dip-buy candidate",
+    "risk": "Solvency risk\u2014negative OCF + 3.2x debt-to-equity means TEM may face refinancing pressure or dilutive capital raise if earnings disappoint",
     "outlook": "cautious",
-    "timeframe": "2-3 weeks (watch earnings closely)",
-    "generated_at": "2026-07-12T23:31:09.561560",
-    "price_at_generation": 58.23,
-    "pnl_at_generation": -15.71
+    "timeframe": "Earnings in 17 days is critical; reassess after. If beaten down further, recovery window extends to 4-8 weeks minimum.",
+    "generated_at": "2026-07-13T23:28:20.090419",
+    "price_at_generation": 55.93,
+    "pnl_at_generation": -19.04
   },
   "history": [
+    {
+      "ticker": "TEM",
+      "company_name": "Tempus AI, Inc.",
+      "action": "Hold",
+      "action_reason": "Philosophy mandates holding through >15% drawdowns. However, monitor closely for earnings catalyst (18d) and cash flow updates, as negative operating cash flow + high debt create bankruptcy risk if deterioration continues.",
+      "target_price": null,
+      "target_reasoning": "",
+      "exit_trigger": "Break below $52 (technical support + fundamental break), or post-earnings guidance cut >20%, or debt covenant warning",
+      "add_trigger": "Only if post-earnings beat + positive FCF guidance + debt refinance news",
+      "risk": "Solvency risk: negative cash flow + 3.2x leverage means limited runway if revenue disappoints; earnings miss could trigger sharp drop",
+      "outlook": "cautious",
+      "timeframe": "2-3 weeks (watch earnings closely)",
+      "generated_at": "2026-07-12T23:31:09.561560",
+      "price_at_generation": 58.23,
+      "pnl_at_generation": -15.71,
+      "archived_at": "2026-07-13T23:28:20.090653"
+    },
     {
       "ticker": "TEM",
       "company_name": "Tempus AI, Inc.",
@@ -117,23 +134,6 @@
       "price_at_generation": 60.27,
       "pnl_at_generation": -12.75,
       "archived_at": "2026-07-05T23:38:18.590631"
-    },
-    {
-      "ticker": "TEM",
-      "company_name": "Tempus AI, Inc.",
-      "action": "Hold",
-      "action_reason": "Per trading philosophy, positions down >15% must be held through recovery attempts. Current 10.83% loss doesn't trigger exit protocol. However, monitor closely for break below $58 support and any earnings guidance reductions.",
-      "target_price": 75.5,
-      "target_reasoning": "",
-      "exit_trigger": "Break and close below $58.00 (20% loss threshold) OR negative earnings revision OR debt covenant warning",
-      "add_trigger": "Close above $65 with positive company announcement OR RSI cools to <40 on volume expansion showing institutional accumulation",
-      "risk": "Continued cash burn leading to dilutive capital raise; weak market sentiment (extreme fear) could accelerate selling; high debt limits financial flexibility",
-      "outlook": "cautious",
-      "timeframe": "4-8 weeks",
-      "generated_at": "2026-07-01T23:53:42.980321",
-      "price_at_generation": 61.6,
-      "pnl_at_generation": -10.83,
-      "archived_at": "2026-07-02T23:41:32.802061"
     }
   ]
 }

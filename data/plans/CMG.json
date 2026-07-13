@@ -3,19 +3,36 @@
     "ticker": "CMG",
     "company_name": "Chipotle Mexican Grill, Inc.",
     "action": "Hold",
-    "action_reason": "Position is profitable and sized modestly at 1.9% weight. Earnings in 17 days provides a concrete catalyst; holding avoids taxable exit and allows exposure to potential positive surprise given strong operational momentum in QSR sector.",
-    "target_price": 38.5,
+    "action_reason": "Position is +16.4% profitable with earnings 16 days away\u2014a major catalyst that could move the stock sharply. Holding allows you to capture post-earnings momentum if bullish, while the 2-week window gives time to reassess before execution.",
+    "target_price": 39.5,
     "target_reasoning": "",
-    "exit_trigger": "Break below $33.50 (closes below 20-day MA) OR if earnings miss with negative guidance AND VIX spikes above 20",
-    "add_trigger": "Only if price pulls back to $32.50-$33.00 on weakness AND RSI drops below 50, confirming consolidation pattern ahead of earnings",
-    "risk": "High leverage (2.2x debt-to-equity) makes CMG vulnerable to macro shocks; earnings miss could trigger sharp selloff given elevated expectations",
-    "outlook": "neutral",
-    "timeframe": "2-4 weeks through earnings",
-    "generated_at": "2026-07-12T23:31:16.839334",
-    "price_at_generation": 35.25,
-    "pnl_at_generation": 12.01
+    "exit_trigger": "1) Stock closes below $35.00 on high volume (support break), 2) Post-earnings miss with negative guidance, or 3) RSI breaks below 50 after earnings, signaling momentum loss",
+    "add_trigger": "Only add on pullback to $34-35 with bullish RSI divergence; current overbought conditions make new buys unattractive",
+    "risk": "Earnings disappointment or macro headwinds (inflation, consumer spending slowdown) could trigger sharp reversal; high leverage amplifies downside impact",
+    "outlook": "cautious",
+    "timeframe": "2-4 weeks (until post-earnings clarity)",
+    "generated_at": "2026-07-13T23:28:26.922386",
+    "price_at_generation": 36.63,
+    "pnl_at_generation": 16.4
   },
   "history": [
+    {
+      "ticker": "CMG",
+      "company_name": "Chipotle Mexican Grill, Inc.",
+      "action": "Hold",
+      "action_reason": "Position is profitable and sized modestly at 1.9% weight. Earnings in 17 days provides a concrete catalyst; holding avoids taxable exit and allows exposure to potential positive surprise given strong operational momentum in QSR sector.",
+      "target_price": 38.5,
+      "target_reasoning": "",
+      "exit_trigger": "Break below $33.50 (closes below 20-day MA) OR if earnings miss with negative guidance AND VIX spikes above 20",
+      "add_trigger": "Only if price pulls back to $32.50-$33.00 on weakness AND RSI drops below 50, confirming consolidation pattern ahead of earnings",
+      "risk": "High leverage (2.2x debt-to-equity) makes CMG vulnerable to macro shocks; earnings miss could trigger sharp selloff given elevated expectations",
+      "outlook": "neutral",
+      "timeframe": "2-4 weeks through earnings",
+      "generated_at": "2026-07-12T23:31:16.839334",
+      "price_at_generation": 35.25,
+      "pnl_at_generation": 12.01,
+      "archived_at": "2026-07-13T23:28:26.922613"
+    },
     {
       "ticker": "CMG",
       "company_name": "Chipotle Mexican Grill, Inc.",
@@ -117,23 +134,6 @@
       "price_at_generation": 35.39,
       "pnl_at_generation": 12.46,
       "archived_at": "2026-07-05T23:38:26.107586"
-    },
-    {
-      "ticker": "CMG",
-      "company_name": "Chipotle Mexican Grill, Inc.",
-      "action": "Hold",
-      "action_reason": "The +11.22% profit provides a healthy cushion, but RSI momentum and upcoming earnings create uncertainty. Wait for post-earnings clarity or RSI pullback before trimming.",
-      "target_price": 37.5,
-      "target_reasoning": "",
-      "exit_trigger": "RSI exceeds 75 OR earnings miss consensus estimates significantly OR close below $33.50",
-      "add_trigger": "RSI drops below 50 on pullback + positive earnings beat",
-      "risk": "Elevated leverage (2.2x D/E) limits downside support; earnings volatility could trigger sharp reversals",
-      "outlook": "neutral",
-      "timeframe": "2-4 weeks (through earnings)",
-      "generated_at": "2026-07-01T23:53:48.391334",
-      "price_at_generation": 35.0,
-      "pnl_at_generation": 11.22,
-      "archived_at": "2026-07-02T23:41:39.947337"
     }
   ]
 }
