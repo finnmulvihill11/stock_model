@@ -3,19 +3,36 @@
     "ticker": "INTU",
     "company_name": "Intuit Inc.",
     "action": "Hold",
-    "action_reason": "Philosophy mandates holding positions down >15%. However, monitor for technical capitulation (RSI <30) or earnings catalyst in next 6+ months that could trigger recovery or fundamental deterioration that would permit exit despite loss.",
-    "target_price": 425,
+    "action_reason": "Position exceeds 15% loss threshold; philosophy mandates holding major losers for recovery. Fundamental health supports this patience, but lack of technical firing signals and absence of bullish catalysts eliminates 'Add More' consideration.",
+    "target_price": null,
     "target_reasoning": "",
-    "exit_trigger": "Earnings miss with guidance reduction OR fundamental deterioration announcement; alternatively, recovery to $425+ allows reassessment",
-    "add_trigger": "Only if RSI drops below 30 with positive news catalyst; otherwise avoid adding to concentrated losing position",
-    "risk": "Further deterioration if market enters bear phase; concentration risk at 22.5% of portfolio with large unrealized loss",
+    "exit_trigger": "Fundamental deterioration (earnings miss, guidance cut, margin compression) or technical breakdown below recent support levels",
+    "add_trigger": "RSI oversold (<30) + positive earnings catalyst OR stock rallies 15-20% and reclaims key moving average with volume confirmation",
+    "risk": "Further drawdown to $250-265 if software sector weakness accelerates; concentration risk at 22.7% of portfolio if broader tech correction continues",
     "outlook": "cautious",
-    "timeframe": "6-12 weeks until next earnings provides technical/fundamental catalyst",
-    "generated_at": "2026-07-13T23:27:58.352609",
-    "price_at_generation": 289.76,
-    "pnl_at_generation": -38.12
+    "timeframe": "4-8 weeks (awaiting next earnings cycle or technical consolidation completion)",
+    "generated_at": "2026-07-14T23:27:07.614969",
+    "price_at_generation": 282.43,
+    "pnl_at_generation": -39.69
   },
   "history": [
+    {
+      "ticker": "INTU",
+      "company_name": "Intuit Inc.",
+      "action": "Hold",
+      "action_reason": "Philosophy mandates holding positions down >15%. However, monitor for technical capitulation (RSI <30) or earnings catalyst in next 6+ months that could trigger recovery or fundamental deterioration that would permit exit despite loss.",
+      "target_price": 425,
+      "target_reasoning": "",
+      "exit_trigger": "Earnings miss with guidance reduction OR fundamental deterioration announcement; alternatively, recovery to $425+ allows reassessment",
+      "add_trigger": "Only if RSI drops below 30 with positive news catalyst; otherwise avoid adding to concentrated losing position",
+      "risk": "Further deterioration if market enters bear phase; concentration risk at 22.5% of portfolio with large unrealized loss",
+      "outlook": "cautious",
+      "timeframe": "6-12 weeks until next earnings provides technical/fundamental catalyst",
+      "generated_at": "2026-07-13T23:27:58.352609",
+      "price_at_generation": 289.76,
+      "pnl_at_generation": -38.12,
+      "archived_at": "2026-07-14T23:27:07.615198"
+    },
     {
       "ticker": "INTU",
       "company_name": "Intuit Inc.",
@@ -117,23 +134,6 @@
       "price_at_generation": 275.35,
       "pnl_at_generation": -41.2,
       "archived_at": "2026-07-06T23:41:12.411598"
-    },
-    {
-      "ticker": "INTU",
-      "company_name": "Intuit Inc.",
-      "action": "Hold",
-      "action_reason": "Position is down >15% so philosophy mandates holding. Extreme Fear reading suggests capitulation nearing; wait for technical reversal signals (RSI <30 + bullish divergence) before adding or exiting.",
-      "target_price": null,
-      "target_reasoning": "",
-      "exit_trigger": "If fundamentals deteriorate (earnings miss, margin compression, guidance cut) OR if RSI breaks below 30 with failed reversal; otherwise hold through recovery",
-      "add_trigger": "RSI drops to 25-30 with bullish divergence + VIX stays elevated; indicates capitulation completion and mean-reversion setup",
-      "risk": "Further downside if software spending cycles weaken; potential earnings disappointment next quarter if macro deteriorates",
-      "outlook": "cautious",
-      "timeframe": "4-12 weeks for recovery; monitor Q2 earnings for health confirmation",
-      "generated_at": "2026-07-02T23:41:11.772552",
-      "price_at_generation": 275.35,
-      "pnl_at_generation": -41.2,
-      "archived_at": "2026-07-05T23:37:57.114343"
     }
   ]
 }

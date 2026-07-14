@@ -8,22 +8,22 @@
     "sell_score": 0.29,
     "reasons": [],
     "misses": [
-      "BB: price not near lower band (pct=0.54)",
+      "BB: price not near lower band (pct=0.67)",
       "BB Width: bands expanding, not squeezing",
-      "RSI: not in buy zone (51.9, need 20-40)",
+      "RSI: not in buy zone (56.2, need 20-40)",
       "MACD: no bullish crossover or valley",
       "RSI Divergence: no bullish divergence detected",
       "200MA: price below 200MA \u2014 potential falling knife",
-      "Volume: below average (0.65x) \u2014 low conviction"
+      "Volume: below average (0.59x) \u2014 low conviction"
     ],
-    "price": 55.93,
-    "rsi": 51.9,
-    "atr": 4.13,
+    "price": 58.67,
+    "rsi": 56.2,
+    "atr": 4.22,
     "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 2,
-      "suggested_dollars": 111.86,
-      "note": "2 sh @ $55.93 = $112 (Hold, 60% size) | $532 swing budget after"
+      "suggested_dollars": 117.34,
+      "note": "2 sh @ $58.67 = $117 (Hold, 60% size) | $634 swing budget after"
     }
   },
   "fundamentals": {
@@ -52,43 +52,43 @@
       ],
       "earnings_status": "upcoming",
       "next_earnings_date": "2026-07-30",
-      "days_to_earnings": 17
+      "days_to_earnings": 16
     }
   },
   "news": {
     "ticker": "TEM",
-    "sentiment": "negative",
+    "sentiment": "neutral",
     "health": "deteriorating",
     "key_events": [
-      "Earnings report in 17 days",
-      "No recent news catalysts identified",
-      "VIX at neutral 17.2 suggests market stability but sector-specific weakness"
+      "Earnings report in 16 days",
+      "Extreme Fear market sentiment (F&G index)",
+      "Neutral VIX environment (16.5) suggests capitulation rather than panic"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "Debt-to-equity ratio of 3.2x\u2014significantly overleveraged",
-      "Negative operating cash flow\u2014burning cash operationally",
-      "Not profitable\u2014no path to earnings visible",
-      "19% drawdown with RSI at 51.9\u2014no oversold bounce setup yet",
-      "Fear sentiment in market despite neutral VIX\u2014selective deleveraging pressure"
+      "High debt-to-equity ratio (3.2x) limits financial flexibility",
+      "Not profitable with negative operating cash flow \u2014 unsustainable long-term",
+      "15.07% drawdown already taken; fundamentals haven't stabilized",
+      "No technical catalysts firing (RSI 56.2 is neutral, not oversold)",
+      "Earnings in 16 days could trigger further downside if guidance disappoints"
     ],
-    "verdict": "TEM shows fundamental deterioration with elevated leverage and negative cash generation; hold per philosophy but acknowledge elevated bankruptcy/restructuring risk if earnings miss.",
+    "verdict": "Deteriorating fundamentals and negative cash flow make this a value trap; hold per philosophy but prepare for potential post-earnings capitulation.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "TEM",
-    "stock_return_3m": 30.25,
-    "benchmark_return_3m": 10.54,
-    "relative_strength": 19.71,
+    "stock_return_3m": 27.6,
+    "benchmark_return_3m": 9.86,
+    "relative_strength": 17.74,
     "label": "outperforming"
   },
   "final_tier": "Hold",
   "sizing": {
     "suggested_shares": 2,
-    "suggested_dollars": 111.86,
-    "note": "2 sh @ $55.93 = $112 (Hold, 60% size) | $532 swing budget after"
+    "suggested_dollars": 117.34,
+    "note": "2 sh @ $58.67 = $117 (Hold, 60% size) | $634 swing budget after"
   },
   "is_dca": false,
-  "saved_at": "2026-07-13T23:28:20.091204"
+  "saved_at": "2026-07-14T23:27:27.589711"
 }

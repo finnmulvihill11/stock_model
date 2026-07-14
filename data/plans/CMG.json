@@ -3,19 +3,36 @@
     "ticker": "CMG",
     "company_name": "Chipotle Mexican Grill, Inc.",
     "action": "Hold",
-    "action_reason": "Position is +16.4% profitable with earnings 16 days away\u2014a major catalyst that could move the stock sharply. Holding allows you to capture post-earnings momentum if bullish, while the 2-week window gives time to reassess before execution.",
+    "action_reason": "The 15.76% gain is healthy for a swing trade, but RSI overbought conditions + missing technical signals suggest waiting for earnings clarity before adding. Holding avoids exit taxation on profitable position while avoiding overexposure ahead of earnings volatility.",
     "target_price": 39.5,
     "target_reasoning": "",
-    "exit_trigger": "1) Stock closes below $35.00 on high volume (support break), 2) Post-earnings miss with negative guidance, or 3) RSI breaks below 50 after earnings, signaling momentum loss",
-    "add_trigger": "Only add on pullback to $34-35 with bullish RSI divergence; current overbought conditions make new buys unattractive",
-    "risk": "Earnings disappointment or macro headwinds (inflation, consumer spending slowdown) could trigger sharp reversal; high leverage amplifies downside impact",
-    "outlook": "cautious",
-    "timeframe": "2-4 weeks (until post-earnings clarity)",
-    "generated_at": "2026-07-13T23:28:26.922386",
-    "price_at_generation": 36.63,
-    "pnl_at_generation": 16.4
+    "exit_trigger": "Close below $34.50 (support) OR post-earnings drop below $33.00 + negative guidance",
+    "add_trigger": "Pullback to $34.50-35.25 with RSI resetting below 50 + positive pre-earnings news",
+    "risk": "Earnings miss + debt burden could trigger sharp 8-12% correction; geopolitical slowdown could dampen consumer traffic",
+    "outlook": "neutral",
+    "timeframe": "2 weeks (hold through earnings, reassess post-announcement)",
+    "generated_at": "2026-07-14T23:27:33.775678",
+    "price_at_generation": 36.43,
+    "pnl_at_generation": 15.76
   },
   "history": [
+    {
+      "ticker": "CMG",
+      "company_name": "Chipotle Mexican Grill, Inc.",
+      "action": "Hold",
+      "action_reason": "Position is +16.4% profitable with earnings 16 days away\u2014a major catalyst that could move the stock sharply. Holding allows you to capture post-earnings momentum if bullish, while the 2-week window gives time to reassess before execution.",
+      "target_price": 39.5,
+      "target_reasoning": "",
+      "exit_trigger": "1) Stock closes below $35.00 on high volume (support break), 2) Post-earnings miss with negative guidance, or 3) RSI breaks below 50 after earnings, signaling momentum loss",
+      "add_trigger": "Only add on pullback to $34-35 with bullish RSI divergence; current overbought conditions make new buys unattractive",
+      "risk": "Earnings disappointment or macro headwinds (inflation, consumer spending slowdown) could trigger sharp reversal; high leverage amplifies downside impact",
+      "outlook": "cautious",
+      "timeframe": "2-4 weeks (until post-earnings clarity)",
+      "generated_at": "2026-07-13T23:28:26.922386",
+      "price_at_generation": 36.63,
+      "pnl_at_generation": 16.4,
+      "archived_at": "2026-07-14T23:27:33.775876"
+    },
     {
       "ticker": "CMG",
       "company_name": "Chipotle Mexican Grill, Inc.",
@@ -117,23 +134,6 @@
       "price_at_generation": 35.39,
       "pnl_at_generation": 12.46,
       "archived_at": "2026-07-06T23:41:42.875184"
-    },
-    {
-      "ticker": "CMG",
-      "company_name": "Chipotle Mexican Grill, Inc.",
-      "action": "Start Trimming",
-      "action_reason": "Position is +12.46% profitable and RSI shows overbought conditions at 66.2. Trim 50% (2 shares) now to lock in gains before earnings volatility and potential pullback, keeping 2 shares to capture any post-earnings upside.",
-      "target_price": 37.5,
-      "target_reasoning": "",
-      "exit_trigger": "Sell remaining 2 shares if RSI drops below 50 or if stock closes below $33.50 on high volume (earnings uncertainty)",
-      "add_trigger": "Only add if stock pulls back to $32.50-$33.00 with bullish reversal pattern after earnings clarity",
-      "risk": "High leverage (debt-to-equity 2.2x) amplifies downside if earnings disappoint; earnings surprise volatility in 27 days could whipsaw position",
-      "outlook": "cautious",
-      "timeframe": "Execute trim over next 3-5 days; hold remainder through earnings for 2-6 week swing cycle",
-      "generated_at": "2026-07-02T23:41:39.947127",
-      "price_at_generation": 35.39,
-      "pnl_at_generation": 12.46,
-      "archived_at": "2026-07-05T23:38:26.107586"
     }
   ]
 }

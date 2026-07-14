@@ -1,26 +1,45 @@
 {
   "current": {
-    "headline": "Portfolio holding steady in neutral market; major losers (INTU, MSFT, TEM, ABT) locked in per philosophy; watching for mean reversion catalysts.",
+    "headline": "Portfolio holding firm through major tech drawdowns; no new entry conviction today despite extreme fear readings.",
     "market_stance": "neutral",
-    "overall_thesis": "Fear gauge at 28 signals mild panic\u2014ideal backdrop for mean-reversion thesis. Your four largest losers (INTU -38%, MSFT -16%, TEM -19%, ABT -16%) are all held per conviction rule; they offer recovery potential when sentiment turns. Next 4-8 weeks: monitor earnings catalysts (ABT in 3 days, CMG in 16 days) and allow oversold quality names time to revert.",
+    "overall_thesis": "You're in deep recovery mode on INTU (-39.7%) and MSFT (-17.6%), which your philosophy mandates holding through. The mean-reversion thesis remains intact: both are quality names and oversold technicals (RSI 47\u201348) suggest capitulation. Over the next 4\u20138 weeks, watch for earnings catalysts and technical stabilization to validate the hold. Your profitable positions (CMG, XOM, OXY, WMT, IRM) are providing cushion and should be left alone unless overbought extremes warrant trimming.",
     "priority_actions": [],
-    "biggest_risk": "INTU at -38% represents concentrated drawdown risk (22.5% weight). If conviction in recovery thesis weakens OR company guidance deteriorates at next earnings, position size becomes dangerous. Monitor closely.",
+    "biggest_risk": "INTU and MSFT represent $1,687 in underwater capital (45% of portfolio). If either breaks key support levels post-earnings or on fresh negative catalysts, conviction in the recovery thesis could break. Tech concentration (43.4%) amplifies this single-sector drawdown risk.",
     "what_to_watch": [
-      "ABT earnings (3 days): validate healthcare thesis or confirm deeper cyclical weakness",
-      "CMG earnings (16 days): test restaurant resilience; position already +16.4%\u2014set profit-taking level if RSI breaks 70",
-      "VIX trend: if Fear rises above 30\u201335, consider small opportunistic buys in oversold names; currently at 17.2 (too calm to act)",
-      "INTU technical breakdown: if RSI falls below 40 and breaks key support, reassess conviction thesis"
+      "ABT earnings in 2 days \u2014 potential earnings beat could validate quality thesis across holdings",
+      "TEM earnings catalyst approaching \u2014 monitor for support or breakdown",
+      "INTU and MSFT technical support levels \u2014 RSI near 48 is neutral; break below 35 would require reassessment",
+      "VIX climb above 20 or F&G shift from Extreme Fear \u2014 could signal fresh capitulation or stabilization"
     ],
     "on_course_check": [
-      "\u2713 Holding major losers >15% down per philosophy (INTU, MSFT, TEM, ABT)",
-      "\u2713 No forced selling into weakness; $1K dry powder preserved for conviction setups",
-      "\u2713 Profitable positions (XOM, OXY, CMG, WMT, IRM) all consolidating\u2014no overbought exits yet",
-      "\u26a0 IF: ABT or INTU report weak guidance \u2192 reassess recovery timeline and position size",
-      "\u26a0 IF: portfolio drawdown approaches -20% \u2192 stress-test conviction thesis before market sentiment turns panic"
+      "Plan is working IF: INTU/MSFT stabilize (RSI bounces above 50) and 2\u20133 week bounce begins \u2014 confirms mean reversion thesis",
+      "Plan needs revision IF: Either INTU or MSFT breaks 52-week lows, or new negative thesis emerges (e.g., earnings miss, guidance cut) \u2014 would trigger thesis reassessment despite loss threshold"
     ],
-    "generated_at": "2026-07-13T23:29:07.870638"
+    "generated_at": "2026-07-14T23:28:12.968918"
   },
   "history": [
+    {
+      "headline": "Portfolio holding steady in neutral market; major losers (INTU, MSFT, TEM, ABT) locked in per philosophy; watching for mean reversion catalysts.",
+      "market_stance": "neutral",
+      "overall_thesis": "Fear gauge at 28 signals mild panic\u2014ideal backdrop for mean-reversion thesis. Your four largest losers (INTU -38%, MSFT -16%, TEM -19%, ABT -16%) are all held per conviction rule; they offer recovery potential when sentiment turns. Next 4-8 weeks: monitor earnings catalysts (ABT in 3 days, CMG in 16 days) and allow oversold quality names time to revert.",
+      "priority_actions": [],
+      "biggest_risk": "INTU at -38% represents concentrated drawdown risk (22.5% weight). If conviction in recovery thesis weakens OR company guidance deteriorates at next earnings, position size becomes dangerous. Monitor closely.",
+      "what_to_watch": [
+        "ABT earnings (3 days): validate healthcare thesis or confirm deeper cyclical weakness",
+        "CMG earnings (16 days): test restaurant resilience; position already +16.4%\u2014set profit-taking level if RSI breaks 70",
+        "VIX trend: if Fear rises above 30\u201335, consider small opportunistic buys in oversold names; currently at 17.2 (too calm to act)",
+        "INTU technical breakdown: if RSI falls below 40 and breaks key support, reassess conviction thesis"
+      ],
+      "on_course_check": [
+        "\u2713 Holding major losers >15% down per philosophy (INTU, MSFT, TEM, ABT)",
+        "\u2713 No forced selling into weakness; $1K dry powder preserved for conviction setups",
+        "\u2713 Profitable positions (XOM, OXY, CMG, WMT, IRM) all consolidating\u2014no overbought exits yet",
+        "\u26a0 IF: ABT or INTU report weak guidance \u2192 reassess recovery timeline and position size",
+        "\u26a0 IF: portfolio drawdown approaches -20% \u2192 stress-test conviction thesis before market sentiment turns panic"
+      ],
+      "generated_at": "2026-07-13T23:29:07.870638",
+      "archived_at": "2026-07-14T23:28:12.969263"
+    },
     {
       "headline": "Portfolio holding steady through tech drawdown; no new conviction signals today\u2014preserve dry powder for oversold quality entry.",
       "market_stance": "neutral",
@@ -245,65 +264,6 @@
       ],
       "generated_at": "2026-07-05T23:38:55.748537",
       "archived_at": "2026-07-06T23:42:19.104265"
-    },
-    {
-      "headline": "Portfolio holding firm through drawdown; Extreme Fear creates contrarian entry window\u2014deploy remaining $1k into oversold quality names.",
-      "market_stance": "offensive",
-      "overall_thesis": "Your major positions (INTU, MSFT) are down >15% and locked in by philosophy\u2014hold through recovery. Extreme Fear backdrop (19) is a classic mean-reversion setup; deploy your $1k dry powder into screened oversold names (IONQ, ON, STLD, MPWR, GOOGL) that are hitting Bollinger Band lows with RSI <40. Trim the one profitable overbought position (CMG) to raise dry powder and lock in gains.",
-      "priority_actions": [
-        {
-          "rank": 1,
-          "action": "TRIM",
-          "ticker": "CMG",
-          "instruction": "Sell ~60% of CMG position (~2.4 shares if you hold ~4). Position is +12.5% profitable and RSI 66.2 signals overbought mean-reversion sell. Lock in gains and raise ~$320\u2013350 in additional dry powder for new buys.",
-          "urgency": "immediate"
-        },
-        {
-          "rank": 2,
-          "action": "BUY",
-          "ticker": "IONQ",
-          "instruction": "Commit $300 to IONQ. RSI 39.9 (oversold), price touching lower Bollinger Band, persistent Buy signal active. Textbook mean-reversion setup in Extreme Fear environment.",
-          "urgency": "this week"
-        },
-        {
-          "rank": 3,
-          "action": "BUY",
-          "ticker": "ON",
-          "instruction": "Commit $250 to ON. RSI 37.2 (deep oversold), lower BB touch, persistent Buy signal. Quality semi/chip name mean-reverting in fear backdrop.",
-          "urgency": "this week"
-        },
-        {
-          "rank": 4,
-          "action": "BUY",
-          "ticker": "STLD",
-          "instruction": "Commit $200 to STLD. RSI oversold, Bollinger Band compression, persistent Buy signal. Steel/cyclical name catching fear selloff\u2014high conviction reversal candidate.",
-          "urgency": "this week"
-        },
-        {
-          "rank": 5,
-          "action": "BUY",
-          "ticker": "GOOGL",
-          "instruction": "Commit remaining dry powder (~$250\u2013300 after CMG trim and prior buys) to GOOGL. RSI 33.3 (heavily oversold), price at lower BB, persistent Buy signal. Mega-cap quality name recovering from fear spike.",
-          "urgency": "this week"
-        }
-      ],
-      "biggest_risk": "INTU down 41.2% and MSFT down 16.4% represent 45.5% of portfolio. If tech drawdown accelerates beyond current levels, portfolio could slip further into red. Philosophy mandates holding, but if sector momentum turns decisively negative (e.g., major earnings miss, Fed shift), conviction will be tested\u2014monitor weekly.",
-      "what_to_watch": [
-        "INTU earnings/guidance recovery \u2014 $1.3k unrealized loss needs mean-reversion catalyst",
-        "MSFT fundamentals hold; watch for AI narrative inflection or cloud margin beats",
-        "New position entries (IONQ, ON, STLD, GOOGL) \u2014 watch for reversal confirmation in RSI >50 over 5\u201310 days",
-        "Extreme Fear (19) holding or widening \u2014 if drops below 15, capitulation may be near-term bottom",
-        "CMG trim execution \u2014 if it rallies past 66.2 RSI into 70+, you trimmed at the right time"
-      ],
-      "on_course_check": [
-        "\u2713 Plan working: INTU and MSFT held through >15% drawdowns per philosophy; discipline intact",
-        "\u2713 Plan working: Extreme Fear reading validates mean-reversion thesis; oversold screeners firing",
-        "\u2713 Plan working: CMG overbought trim raises dry powder without cutting losers",
-        "\u26a0 Revise if: Tech sector enters bear market (SPX -20% + NASDAQ -25%) \u2014 may need to raise cash defensively",
-        "\u26a0 Revise if: Extreme Fear spikes below 10 (capitulation) \u2014 may indicate oversold bounce already started; slow entries"
-      ],
-      "generated_at": "2026-07-02T23:42:11.771370",
-      "archived_at": "2026-07-05T23:38:55.748851"
     }
   ]
 }

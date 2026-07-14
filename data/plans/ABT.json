@@ -3,19 +3,36 @@
     "ticker": "ABT",
     "company_name": "Abbott Laboratories",
     "action": "Hold",
-    "action_reason": "Philosophy mandates holding positions down >15%; however, earnings in 3 days creates acute binary risk. Monitor earnings closely \u2014 post-earnings action will determine next move.",
+    "action_reason": "Despite the 18.96% loss, ABT fundamentals remain healthy and earnings in 2 days represents a potential catalyst for recovery. Per your trading philosophy, hold through major losers and let them recover rather than crystallizing losses.",
     "target_price": null,
     "target_reasoning": "",
-    "exit_trigger": "Post-earnings gap down >5% + close below $87 on poor guidance; or if fundamentals deteriorate",
-    "add_trigger": "Only after earnings clarity confirmed positive; add if post-earnings settles >$95 with positive guidance",
-    "risk": "Earnings miss or guidance cut could accelerate losses to -25%+; imminent catalyst creates whipsaw risk",
+    "exit_trigger": "If post-earnings guidance is withdrawn, margins deteriorate significantly, or fundamentals shift to 'deteriorating' status",
+    "add_trigger": "Only if ABT rallies post-earnings on strong results AND technical setup improves (RSI >50 with bullish structure)",
+    "risk": "Earnings miss could accelerate downside; Extreme Fear environment may cause gap-down move regardless of fundamentals",
     "outlook": "cautious",
-    "timeframe": "3 days to earnings (critical), then 2-4 weeks for recovery signal post-print",
-    "generated_at": "2026-07-13T23:28:12.841059",
-    "price_at_generation": 92.11,
-    "pnl_at_generation": -16.09
+    "timeframe": "2-6 weeks (through earnings and initial post-earnings consolidation)",
+    "generated_at": "2026-07-14T23:27:20.462355",
+    "price_at_generation": 88.96,
+    "pnl_at_generation": -18.96
   },
   "history": [
+    {
+      "ticker": "ABT",
+      "company_name": "Abbott Laboratories",
+      "action": "Hold",
+      "action_reason": "Philosophy mandates holding positions down >15%; however, earnings in 3 days creates acute binary risk. Monitor earnings closely \u2014 post-earnings action will determine next move.",
+      "target_price": null,
+      "target_reasoning": "",
+      "exit_trigger": "Post-earnings gap down >5% + close below $87 on poor guidance; or if fundamentals deteriorate",
+      "add_trigger": "Only after earnings clarity confirmed positive; add if post-earnings settles >$95 with positive guidance",
+      "risk": "Earnings miss or guidance cut could accelerate losses to -25%+; imminent catalyst creates whipsaw risk",
+      "outlook": "cautious",
+      "timeframe": "3 days to earnings (critical), then 2-4 weeks for recovery signal post-print",
+      "generated_at": "2026-07-13T23:28:12.841059",
+      "price_at_generation": 92.11,
+      "pnl_at_generation": -16.09,
+      "archived_at": "2026-07-14T23:27:20.462543"
+    },
     {
       "ticker": "ABT",
       "company_name": "Abbott Laboratories",
@@ -117,23 +134,6 @@
       "price_at_generation": 95.4,
       "pnl_at_generation": -13.09,
       "archived_at": "2026-07-06T23:41:27.850204"
-    },
-    {
-      "ticker": "ABT",
-      "company_name": "Abbott Laboratories",
-      "action": "Hold",
-      "action_reason": "Loss is below 15% threshold, fundamentals are healthy, and imminent earnings present potential catalyst. Wait for earnings clarity before any portfolio adjustments.",
-      "target_price": null,
-      "target_reasoning": "",
-      "exit_trigger": "Only exit if fundamentals deteriorate post-earnings or position loses >15% (drops below $93.30)",
-      "add_trigger": "Add if position drops to -15% AND fundamentals confirm healthy, or if RSI falls below 40 post-earnings with positive surprise",
-      "risk": "Earnings miss could accelerate decline; broad market selloff given Extreme Fear backdrop; binary event risk into print",
-      "outlook": "cautious",
-      "timeframe": "2-3 weeks (through earnings + recovery period)",
-      "generated_at": "2026-07-02T23:41:25.435158",
-      "price_at_generation": 95.4,
-      "pnl_at_generation": -13.09,
-      "archived_at": "2026-07-05T23:38:10.686424"
     }
   ]
 }

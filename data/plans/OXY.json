@@ -2,20 +2,37 @@
   "current": {
     "ticker": "OXY",
     "company_name": "Occidental Petroleum Corporation",
-    "action": "Start Trimming",
-    "action_reason": "Position is +8.79% and profitable; revenue decline signals weakening fundamentals. Trim 50% (2sh) at current levels to secure gains before earnings volatility, hold remaining 2sh for upside if data improves.",
+    "action": "Hold",
+    "action_reason": "You're up 8.32% with a near-term earnings catalyst (22d) that could either validate or invalidate the recent rally. Avoid trimming a profitable swing; let earnings determine next moves. VIX neutral and geopolitical baseline moderate don't justify early exit.",
     "target_price": 57.5,
     "target_reasoning": "",
-    "exit_trigger": "Close remaining 2sh if OXY breaks below $52.50 (support), or immediately post-earnings if guidance disappoints",
-    "add_trigger": "Only add if OXY closes above $57.50 on positive oil macro data or earnings beat",
-    "risk": "Energy sector cyclicality + revenue decline suggests margin pressure; earnings miss could trigger 5-10% pullback. Holding full position into earnings adds unnecessary volatility risk.",
+    "exit_trigger": "Close below $52.50 (below recent support) OR post-earnings miss with negative guidance; OR RSI drops below 40 on high volume",
+    "add_trigger": "Only add if OXY breaks above $56.50 on volume AND earnings beat expectations; otherwise, wait for pullback to $51\u201352 to add on strength",
+    "risk": "Revenue decline + extreme market fear = vulnerability to sudden oil price dip or earnings miss causing 5\u201310% pullback. Geopolitical de-escalation could also ease oil upside.",
     "outlook": "cautious",
-    "timeframe": "2-3 weeks (trim before earnings event)",
-    "generated_at": "2026-07-13T23:28:41.666536",
-    "price_at_generation": 54.81,
-    "pnl_at_generation": 8.79
+    "timeframe": "2\u20133 weeks (until earnings), then reassess for 1\u20134 week swing extension",
+    "generated_at": "2026-07-14T23:27:48.679756",
+    "price_at_generation": 54.57,
+    "pnl_at_generation": 8.32
   },
   "history": [
+    {
+      "ticker": "OXY",
+      "company_name": "Occidental Petroleum Corporation",
+      "action": "Start Trimming",
+      "action_reason": "Position is +8.79% and profitable; revenue decline signals weakening fundamentals. Trim 50% (2sh) at current levels to secure gains before earnings volatility, hold remaining 2sh for upside if data improves.",
+      "target_price": 57.5,
+      "target_reasoning": "",
+      "exit_trigger": "Close remaining 2sh if OXY breaks below $52.50 (support), or immediately post-earnings if guidance disappoints",
+      "add_trigger": "Only add if OXY closes above $57.50 on positive oil macro data or earnings beat",
+      "risk": "Energy sector cyclicality + revenue decline suggests margin pressure; earnings miss could trigger 5-10% pullback. Holding full position into earnings adds unnecessary volatility risk.",
+      "outlook": "cautious",
+      "timeframe": "2-3 weeks (trim before earnings event)",
+      "generated_at": "2026-07-13T23:28:41.666536",
+      "price_at_generation": 54.81,
+      "pnl_at_generation": 8.79,
+      "archived_at": "2026-07-14T23:27:48.679957"
+    },
     {
       "ticker": "OXY",
       "company_name": "Occidental Petroleum Corporation",
@@ -117,23 +134,6 @@
       "price_at_generation": 48.91,
       "pnl_at_generation": -2.92,
       "archived_at": "2026-07-06T23:41:56.596207"
-    },
-    {
-      "ticker": "OXY",
-      "company_name": "Occidental Petroleum Corporation",
-      "action": "Hold",
-      "action_reason": "RSI 31.6 signals reversal potential, and Extreme Fear backdrop creates contrarian setup. Philosophy forbids exit on small losses. However, revenue decline argues against adding\u2014wait for technical bounce or earnings clarity.",
-      "target_price": 52.5,
-      "target_reasoning": "",
-      "exit_trigger": "Break below $46.50 (below recent lows) with volume; or earnings miss + guidance cut",
-      "add_trigger": "RSI bounce above 50 + close above $50.80 on oil price strength; or positive pre-earnings momentum",
-      "risk": "Energy commodity exposure + macro oil demand deterioration; execution risk on earnings given revenue headwinds",
-      "outlook": "cautious",
-      "timeframe": "2-5 weeks (through earnings on day 34)",
-      "generated_at": "2026-07-02T23:41:56.329491",
-      "price_at_generation": 48.91,
-      "pnl_at_generation": -2.92,
-      "archived_at": "2026-07-05T23:38:41.182018"
     }
   ]
 }

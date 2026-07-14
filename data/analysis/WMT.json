@@ -4,24 +4,23 @@
     "ticker": "WMT",
     "direction": "hold",
     "tier": "Hold",
-    "buy_score": 0.38,
-    "sell_score": 0.0,
+    "buy_score": 0.5,
+    "sell_score": 0.14,
     "reasons": [],
     "misses": [
-      "BB: price not near lower band (pct=0.45)",
-      "BB Width: bands expanding, not squeezing",
-      "RSI: not in buy zone (46.4, need 20-40)",
+      "BB: price not near lower band (pct=0.40)",
+      "RSI: not in buy zone (44.0, need 20-40)",
       "MACD: no bullish crossover or valley",
-      "Volume: below average (0.68x) \u2014 low conviction"
+      "Volume: below average (0.61x) \u2014 low conviction"
     ],
-    "price": 114.78,
-    "rsi": 46.4,
-    "atr": 2.84,
+    "price": 113.7,
+    "rsi": 44.0,
+    "atr": 2.73,
     "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 1,
-      "suggested_dollars": 114.78,
-      "note": "1 sh @ $114.78 = $115 (Hold, 60% size) | $529 swing budget after"
+      "suggested_dollars": 113.7,
+      "note": "1 sh @ $113.70 = $114 (Hold, 60% size) | $638 swing budget after"
     }
   },
   "fundamentals": {
@@ -50,7 +49,7 @@
       ],
       "earnings_status": "distant",
       "next_earnings_date": "2026-08-20",
-      "days_to_earnings": 38
+      "days_to_earnings": 37
     }
   },
   "news": {
@@ -58,32 +57,34 @@
     "sentiment": "neutral",
     "health": "healthy",
     "key_events": [
-      "No recent news items provided for analysis",
-      "Earnings report 38 days away",
-      "Market volatility neutral (VIX 17.2)"
+      "No recent news items available for assessment",
+      "Earnings report 37 days away",
+      "Market volatility neutral (VIX 16.5)",
+      "Extreme Fear sentiment in broader market"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "No news catalyst visible \u2014 momentum may fade",
-      "RSI at 46.4 shows no overbought condition; room to run but no urgency"
+      "No technical firing signals despite positive price action",
+      "RSI at 44.0 suggests room for upside before overbought",
+      "Extreme Fear sentiment may create selling pressure despite WMT strength"
     ],
-    "verdict": "WMT is trading profitably with healthy fundamentals; hold for swing target with earnings as potential catalyst or exit point.",
+    "verdict": "WMT is in a healthy fundamental state with profitable positioning; maintain hold and await either technical confirmation or pre-earnings catalyst.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "WMT",
-    "stock_return_3m": -9.29,
-    "benchmark_return_3m": 10.54,
-    "relative_strength": -19.83,
+    "stock_return_3m": -8.55,
+    "benchmark_return_3m": 9.86,
+    "relative_strength": -18.41,
     "label": "underperforming"
   },
   "final_tier": "Hold",
   "sizing": {
     "suggested_shares": 1,
-    "suggested_dollars": 114.78,
-    "note": "1 sh @ $114.78 = $115 (Hold, 60% size) | $529 swing budget after"
+    "suggested_dollars": 113.7,
+    "note": "1 sh @ $113.70 = $114 (Hold, 60% size) | $638 swing budget after"
   },
   "is_dca": false,
-  "saved_at": "2026-07-13T23:28:48.466761"
+  "saved_at": "2026-07-14T23:27:54.450892"
 }

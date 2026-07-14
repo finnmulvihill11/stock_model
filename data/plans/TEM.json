@@ -3,19 +3,36 @@
     "ticker": "TEM",
     "company_name": "Tempus AI, Inc.",
     "action": "Hold",
-    "action_reason": "Position is down 19%\u2014your philosophy mandates holding major losers for recovery. However, this is a high-risk hold contingent on upcoming earnings NOT triggering further capitulation.",
+    "action_reason": "Philosophy forbids exiting 15%+ losers. However, monitor closely for earnings beat/miss as the next inflection point. Position size (4.7% weight) is manageable if further deterioration occurs.",
     "target_price": null,
     "target_reasoning": "",
-    "exit_trigger": "Earnings miss + guidance slash + debt covenant concerns OR break below $48 (another -14%) on heavy volume; otherwise hold until 25%+ recovery or earnings inflection",
-    "add_trigger": "Do NOT add; cash burn + leverage make this a value trap, not a dip-buy candidate",
-    "risk": "Solvency risk\u2014negative OCF + 3.2x debt-to-equity means TEM may face refinancing pressure or dilutive capital raise if earnings disappoint",
+    "exit_trigger": "Post-earnings miss (negative guidance, widening losses, debt covenant concerns, or cash burn acceleration). Exit if fundamentals show no path to profitability within 2 quarters.",
+    "add_trigger": "Only add if RSI drops below 40 AND earnings show surprise profitability or cash flow inflection with debt reduction plan.",
+    "risk": "Unprofitable AI company with high leverage in a crowded sector; macro downturn + sector rotation could accelerate losses. Earnings miss could trigger 20-30% further decline.",
     "outlook": "cautious",
-    "timeframe": "Earnings in 17 days is critical; reassess after. If beaten down further, recovery window extends to 4-8 weeks minimum.",
-    "generated_at": "2026-07-13T23:28:20.090419",
-    "price_at_generation": 55.93,
-    "pnl_at_generation": -19.04
+    "timeframe": "16 days to earnings; reassess position 1 week post-earnings",
+    "generated_at": "2026-07-14T23:27:27.588933",
+    "price_at_generation": 58.67,
+    "pnl_at_generation": -15.07
   },
   "history": [
+    {
+      "ticker": "TEM",
+      "company_name": "Tempus AI, Inc.",
+      "action": "Hold",
+      "action_reason": "Position is down 19%\u2014your philosophy mandates holding major losers for recovery. However, this is a high-risk hold contingent on upcoming earnings NOT triggering further capitulation.",
+      "target_price": null,
+      "target_reasoning": "",
+      "exit_trigger": "Earnings miss + guidance slash + debt covenant concerns OR break below $48 (another -14%) on heavy volume; otherwise hold until 25%+ recovery or earnings inflection",
+      "add_trigger": "Do NOT add; cash burn + leverage make this a value trap, not a dip-buy candidate",
+      "risk": "Solvency risk\u2014negative OCF + 3.2x debt-to-equity means TEM may face refinancing pressure or dilutive capital raise if earnings disappoint",
+      "outlook": "cautious",
+      "timeframe": "Earnings in 17 days is critical; reassess after. If beaten down further, recovery window extends to 4-8 weeks minimum.",
+      "generated_at": "2026-07-13T23:28:20.090419",
+      "price_at_generation": 55.93,
+      "pnl_at_generation": -19.04,
+      "archived_at": "2026-07-14T23:27:27.589161"
+    },
     {
       "ticker": "TEM",
       "company_name": "Tempus AI, Inc.",
@@ -117,23 +134,6 @@
       "price_at_generation": 60.27,
       "pnl_at_generation": -12.75,
       "archived_at": "2026-07-06T23:41:35.759914"
-    },
-    {
-      "ticker": "TEM",
-      "company_name": "Tempus AI, Inc.",
-      "action": "Hold",
-      "action_reason": "Per philosophy, position is only 12.75% down (below 15% threshold), so forced hold. However, this is a deteriorating business fundamentally unsound for swing trading; set strict exit triggers rather than averaging down.",
-      "target_price": null,
-      "target_reasoning": "",
-      "exit_trigger": "Break below $57.25 (5% further loss) OR any earnings miss OR debt/liquidity concerns surface OR cash burn accelerates",
-      "add_trigger": "Do NOT add - fundamentals don't support averaging into a unprofitable, cash-burning position with high leverage",
-      "risk": "Bankruptcy risk if operating cash flow doesn't turn positive; debt servicing pressure in downturn; dilution from future financing rounds",
-      "outlook": "cautious",
-      "timeframe": "2-4 weeks to next catalyst or forced reassessment",
-      "generated_at": "2026-07-02T23:41:32.801823",
-      "price_at_generation": 60.27,
-      "pnl_at_generation": -12.75,
-      "archived_at": "2026-07-05T23:38:18.590631"
     }
   ]
 }

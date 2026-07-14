@@ -4,24 +4,25 @@
     "ticker": "CMG",
     "direction": "hold",
     "tier": "Hold",
-    "buy_score": 0.38,
-    "sell_score": 0.43,
+    "buy_score": 0.25,
+    "sell_score": 0.29,
     "reasons": [],
     "misses": [
-      "BB: price not near lower band (pct=1.02)",
+      "BB: price not near lower band (pct=0.93)",
       "BB Width: bands expanding, not squeezing",
-      "RSI: not in buy zone (66.0, need 20-40)",
+      "RSI: not in buy zone (64.7, need 20-40)",
       "MACD: no bullish crossover or valley",
-      "RSI Divergence: no bullish divergence detected"
+      "RSI Divergence: no bullish divergence detected",
+      "Volume: below average (0.89x) \u2014 low conviction"
     ],
-    "price": 36.63,
-    "rsi": 66.0,
+    "price": 36.43,
+    "rsi": 64.7,
     "atr": 1.19,
     "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 3,
-      "suggested_dollars": 109.89,
-      "note": "3 sh @ $36.63 = $110 (Hold, 60% size) | $534 swing budget after"
+      "suggested_dollars": 109.29,
+      "note": "3 sh @ $36.43 = $109 (Hold, 60% size) | $642 swing budget after"
     }
   },
   "fundamentals": {
@@ -51,7 +52,7 @@
       ],
       "earnings_status": "upcoming",
       "next_earnings_date": "2026-07-29",
-      "days_to_earnings": 16
+      "days_to_earnings": 15
     }
   },
   "news": {
@@ -59,34 +60,34 @@
     "sentiment": "neutral",
     "health": "neutral",
     "key_events": [
-      "Earnings report in 16 days",
-      "RSI at 66.0 indicating overbought conditions",
-      "Market Fear gauge active despite neutral VIX"
+      "Earnings report in 15 days (critical catalyst)",
+      "RSI at 64.7 suggests overbought conditions but not extreme",
+      "VIX at 16.5 indicates calm market environment"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
       "High debt-to-equity ratio (2.2x) limits financial flexibility",
-      "RSI at 66 suggests momentum may be reversing or consolidating",
-      "No technical firing signals despite 16.4% gain",
-      "Earnings catalyst approaching with uncertainty"
+      "No technical firing signals despite 15.76% gain",
+      "Extreme Fear sentiment in broader market creates potential volatility ahead",
+      "Geopolitical tensions (US-China, regional conflicts) could impact consumer spending"
     ],
-    "verdict": "Strong unrealized gain in a neutral-to-overbought setup ahead of earnings; hold for now but prepare exit strategy.",
+    "verdict": "Position is profitable with moderate upside momentum, but lacks technical confirmation and faces near-term earnings uncertainty with elevated leverage on balance sheet.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "CMG",
-    "stock_return_3m": 7.45,
-    "benchmark_return_3m": 10.54,
-    "relative_strength": -3.09,
+    "stock_return_3m": 5.32,
+    "benchmark_return_3m": 9.86,
+    "relative_strength": -4.54,
     "label": "in-line"
   },
   "final_tier": "Hold",
   "sizing": {
     "suggested_shares": 3,
-    "suggested_dollars": 109.89,
-    "note": "3 sh @ $36.63 = $110 (Hold, 60% size) | $534 swing budget after"
+    "suggested_dollars": 109.29,
+    "note": "3 sh @ $36.43 = $109 (Hold, 60% size) | $642 swing budget after"
   },
   "is_dca": false,
-  "saved_at": "2026-07-13T23:28:26.923157"
+  "saved_at": "2026-07-14T23:27:33.776459"
 }

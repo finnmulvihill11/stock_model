@@ -5,20 +5,20 @@
     "direction": "hold",
     "tier": "Hold",
     "buy_score": 0.12,
-    "sell_score": 0.29,
+    "sell_score": 0.43,
     "reasons": [],
     "misses": [
-      "BB: price not near lower band (pct=0.73)",
-      "RSI: not in buy zone (51.0, need 20-40)",
+      "BB: price not near lower band (pct=0.60)",
+      "RSI: not in buy zone (47.5, need 20-40)",
       "MACD: no bullish crossover or valley",
       "RSI Divergence: no bullish divergence detected",
       "200MA: price below 200MA \u2014 potential falling knife",
-      "Death cross active: 50MA (402.68) below 200MA (440.13)",
-      "Volume: below average (0.58x) \u2014 low conviction"
+      "Death cross active: 50MA (402.24) below 200MA (439.52)",
+      "Volume: below average (0.59x) \u2014 low conviction"
     ],
-    "price": 390.99,
-    "rsi": 51.0,
-    "atr": 12.32,
+    "price": 384.93,
+    "rsi": 47.5,
+    "atr": 12.49,
     "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 0,
@@ -52,7 +52,7 @@
       ],
       "earnings_status": "upcoming",
       "next_earnings_date": "2026-07-29",
-      "days_to_earnings": 16
+      "days_to_earnings": 15
     }
   },
   "news": {
@@ -60,26 +60,28 @@
     "sentiment": "neutral",
     "health": "healthy",
     "key_events": [
-      "Earnings report in 16 days",
-      "Market sentiment Fear & Greed index showing fear despite VIX at 17.2",
-      "No recent material news available"
+      "Earnings report in 15 days",
+      "No recent news available for assessment",
+      "Position down 17.61% from entry"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "16.31% unrealized loss indicates significant drawdown from entry",
-      "RSI at 51.0 shows no momentum direction",
-      "Fear sentiment in market despite neutral volatility"
+      "Significant unrealized loss exceeding 15% threshold",
+      "RSI at 47.5 indicates neither overbought nor oversold conditions",
+      "No bullish technical firing signals present",
+      "Fear & Greed at Extreme Fear suggests market sentiment weakness",
+      "Geopolitical tensions (US-China) could impact tech sector"
     ],
-    "verdict": "MSFT fundamentals remain healthy; position should be held through upcoming earnings given philosophy and no deterioration signals.",
+    "verdict": "Hold position through earnings despite 17.61% drawdown; fundamentals remain healthy and upcoming catalyst warrants patience per trading philosophy.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "MSFT",
-    "stock_return_3m": 5.65,
-    "benchmark_return_3m": 10.54,
-    "relative_strength": -4.89,
-    "label": "in-line"
+    "stock_return_3m": 0.36,
+    "benchmark_return_3m": 9.86,
+    "relative_strength": -9.5,
+    "label": "underperforming"
   },
   "final_tier": "Hold",
   "sizing": {
@@ -88,5 +90,5 @@
     "note": "Position already at 20% portfolio cap"
   },
   "is_dca": false,
-  "saved_at": "2026-07-13T23:28:04.656868"
+  "saved_at": "2026-07-14T23:27:14.189679"
 }

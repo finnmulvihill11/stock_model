@@ -4,23 +4,24 @@
     "ticker": "XOM",
     "direction": "hold",
     "tier": "Hold",
-    "buy_score": 0.5,
-    "sell_score": 0.43,
+    "buy_score": 0.38,
+    "sell_score": 0.29,
     "reasons": [],
     "misses": [
-      "BB: price not near lower band (pct=0.95)",
-      "RSI: not in buy zone (54.9, need 20-40)",
+      "BB: price not near lower band (pct=1.05)",
+      "RSI: not in buy zone (55.9, need 20-40)",
       "MACD: no bullish crossover or valley",
-      "RSI Divergence: no bullish divergence detected"
+      "RSI Divergence: no bullish divergence detected",
+      "Volume: below average (0.86x) \u2014 low conviction"
     ],
-    "price": 144.51,
-    "rsi": 54.9,
-    "atr": 3.04,
+    "price": 145.09,
+    "rsi": 55.9,
+    "atr": 3.05,
     "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 0,
       "suggested_dollars": 0,
-      "note": "Price exceeds 60% conviction ceiling ($116) \u2014 skip or wait for Strong Buy"
+      "note": "Price exceeds 60% conviction ceiling ($135) \u2014 skip or wait for Strong Buy"
     }
   },
   "fundamentals": {
@@ -49,7 +50,7 @@
       ],
       "earnings_status": "past",
       "next_earnings_date": "2026-05-01",
-      "days_to_earnings": -73
+      "days_to_earnings": -74
     }
   },
   "news": {
@@ -57,35 +58,34 @@
     "sentiment": "neutral",
     "health": "healthy",
     "key_events": [
-      "Position up 5.37% with modest 7.5% portfolio weight",
-      "RSI at 54.9 indicates balanced momentum, no overbought conditions",
-      "Earnings reported 73 days ago, well into new cycle",
-      "VIX at 17.2 suggests stable market environment",
-      "No recent news catalysts identified"
+      "Position up +5.79% with modest 2-share allocation (7.8% weight)",
+      "Earnings reported 74 days ago\u2014sufficient time for digestion",
+      "RSI at 55.9 indicates neutral momentum (neither overbought nor oversold)",
+      "No technical firing signals despite holding pattern"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "Fear gauge active despite neutral VIX\u2014sentiment-fundamentals divergence",
-      "No bullish technical firing signals despite price strength",
-      "Lack of recent news may precede volatility or stagnation"
+      "No recent news data available\u2014limits conviction on near-term catalysts",
+      "Geopolitical risk remains moderate; oil prices sensitive to US-China tensions and Middle East developments",
+      "Market sentiment shows Extreme Fear despite neutral VIX, suggesting underlying uncertainty"
     ],
-    "verdict": "Profitable swing position in healthy energy play with balanced technicals; hold for further upside or trim into strength if RSI breaks 60.",
+    "verdict": "XOM is in healthy consolidation with positive unrealized gains; lack of technical signals and missing news data warrant patience rather than aggressive action.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "XOM",
-    "stock_return_3m": -4.6,
-    "benchmark_return_3m": 10.54,
-    "relative_strength": -15.15,
+    "stock_return_3m": -4.3,
+    "benchmark_return_3m": 9.86,
+    "relative_strength": -14.16,
     "label": "underperforming"
   },
   "final_tier": "Hold",
   "sizing": {
     "suggested_shares": 0,
     "suggested_dollars": 0,
-    "note": "Price exceeds 60% conviction ceiling ($116) \u2014 skip or wait for Strong Buy"
+    "note": "Price exceeds 60% conviction ceiling ($135) \u2014 skip or wait for Strong Buy"
   },
   "is_dca": false,
-  "saved_at": "2026-07-13T23:28:34.250657"
+  "saved_at": "2026-07-14T23:27:40.852610"
 }

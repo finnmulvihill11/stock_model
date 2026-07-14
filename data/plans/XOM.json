@@ -3,19 +3,36 @@
     "ticker": "XOM",
     "company_name": "ExxonMobil Holdings Corporation",
     "action": "Hold",
-    "action_reason": "Position is profitable (5.37%) with healthy fundamentals and stable technicals. RSI at 54.9 leaves room for upside momentum without overbought risk. Exit only if price breaks below $140 or RSI rolls over below 45.",
-    "target_price": 149.5,
+    "action_reason": "Position is profitable and fundamentally sound with no deterioration signals. RSI neutrality and lack of news catalysts suggest neither urgency to add nor reason to trim. Small position size (7.8%) provides flexibility.",
+    "target_price": 150,
     "target_reasoning": "",
-    "exit_trigger": "Close below $140 or RSI drops below 45 on daily close",
-    "add_trigger": "Break above $148 on strong volume with RSI moving 55-65; max 3sh total to keep weight under 10%",
-    "risk": "Energy sector exposure to macro headwinds (recession fears reflected in F&G); lack of technical confirmation may signal stalling momentum",
+    "exit_trigger": "Break below $140 (violates recent support) or RSI falls below 40 on high volume; alternatively, exit 50% at $150 to lock gains",
+    "add_trigger": "Pullback to $140\u2013$142 on RSI dip below 45 with positive energy news (OPEC+ production cuts, geopolitical de-escalation)",
+    "risk": "Geopolitical shock (escalation in Middle East or trade war) could crater oil prices and XOM's valuation; Extreme Fear sentiment hints at tail risk despite neutral technicals",
     "outlook": "neutral",
-    "timeframe": "2-4 weeks",
-    "generated_at": "2026-07-13T23:28:34.249805",
-    "price_at_generation": 144.51,
-    "pnl_at_generation": 5.37
+    "timeframe": "2\u20136 weeks",
+    "generated_at": "2026-07-14T23:27:40.851860",
+    "price_at_generation": 145.09,
+    "pnl_at_generation": 5.79
   },
   "history": [
+    {
+      "ticker": "XOM",
+      "company_name": "ExxonMobil Holdings Corporation",
+      "action": "Hold",
+      "action_reason": "Position is profitable (5.37%) with healthy fundamentals and stable technicals. RSI at 54.9 leaves room for upside momentum without overbought risk. Exit only if price breaks below $140 or RSI rolls over below 45.",
+      "target_price": 149.5,
+      "target_reasoning": "",
+      "exit_trigger": "Close below $140 or RSI drops below 45 on daily close",
+      "add_trigger": "Break above $148 on strong volume with RSI moving 55-65; max 3sh total to keep weight under 10%",
+      "risk": "Energy sector exposure to macro headwinds (recession fears reflected in F&G); lack of technical confirmation may signal stalling momentum",
+      "outlook": "neutral",
+      "timeframe": "2-4 weeks",
+      "generated_at": "2026-07-13T23:28:34.249805",
+      "price_at_generation": 144.51,
+      "pnl_at_generation": 5.37,
+      "archived_at": "2026-07-14T23:27:40.852054"
+    },
     {
       "ticker": "XOM",
       "company_name": "ExxonMobil Holdings Corporation",
@@ -117,23 +134,6 @@
       "price_at_generation": 137.09,
       "pnl_at_generation": -0.04,
       "archived_at": "2026-07-06T23:41:49.512038"
-    },
-    {
-      "ticker": "XOM",
-      "company_name": "Exxon Mobil Corporation",
-      "action": "Wait",
-      "action_reason": "Position is essentially flat with healthy fundamentals. RSI oversold condition could present a better entry or accumulation opportunity; hold current 2sh until either a clear technical setup emerges or market fear subsides.",
-      "target_price": null,
-      "target_reasoning": "",
-      "exit_trigger": "Break below $130 (8% loss) OR confirmed breakdown from current consolidation with volume",
-      "add_trigger": "RSI crosses above 40 with bullish volume, or XOM breaks above recent resistance near $140",
-      "risk": "Energy sector sensitivity to macro slowdown signals; crude oil demand concerns if recession fears intensify",
-      "outlook": "neutral",
-      "timeframe": "2-4 weeks",
-      "generated_at": "2026-07-02T23:41:46.949049",
-      "price_at_generation": 137.09,
-      "pnl_at_generation": -0.04,
-      "archived_at": "2026-07-05T23:38:33.300058"
     }
   ]
 }
