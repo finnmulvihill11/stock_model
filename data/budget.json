@@ -202,6 +202,18 @@
       "avg_cost": 50.38,
       "realized_pnl": 7.24,
       "realized_pnl_pct": 7.19
+    },
+    {
+      "date": "2026-07-15",
+      "ticker": "CMG",
+      "shares": 2,
+      "amount": -71.8,
+      "type": "swing",
+      "action": "sell",
+      "sell_price": 35.9,
+      "avg_cost": 31.47,
+      "realized_pnl": 8.86,
+      "realized_pnl_pct": 14.08
     }
   ]
 }
