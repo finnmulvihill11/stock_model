@@ -4,6 +4,7 @@ portfolio:
   - DECK
   - WELL
   - CTVA
+  - CMG
   holdings:
   - ticker: INTU
     shares: 3
@@ -22,9 +23,6 @@ portfolio:
     shares: 3
     avg_cost: 69.08
     high_risk: true
-  - ticker: CMG
-    shares: 2
-    avg_cost: 31.47
   - ticker: VXUS
     shares: 2.59
     avg_cost: 76.63
@@ -52,7 +50,6 @@ portfolio:
   swing_tickers:
   - INTU
   - MSFT
-  - CMG
   - ABT
   - TEM
   dca_cadence: monthly
