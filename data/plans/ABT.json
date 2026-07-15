@@ -3,19 +3,36 @@
     "ticker": "ABT",
     "company_name": "Abbott Laboratories",
     "action": "Hold",
-    "action_reason": "Despite the 18.96% loss, ABT fundamentals remain healthy and earnings in 2 days represents a potential catalyst for recovery. Per your trading philosophy, hold through major losers and let them recover rather than crystallizing losses.",
-    "target_price": null,
+    "action_reason": "Per philosophy, never exit positions down >15%. ABT's healthy fundamentals and imminent earnings present catalyst for recovery; extreme market fear creates contrarian setup. Wait for earnings clarity before any decisions.",
+    "target_price": 102.5,
     "target_reasoning": "",
-    "exit_trigger": "If post-earnings guidance is withdrawn, margins deteriorate significantly, or fundamentals shift to 'deteriorating' status",
-    "add_trigger": "Only if ABT rallies post-earnings on strong results AND technical setup improves (RSI >50 with bullish structure)",
-    "risk": "Earnings miss could accelerate downside; Extreme Fear environment may cause gap-down move regardless of fundamentals",
+    "exit_trigger": "Post-earnings: if ABT breaks below $85 on poor guidance or if fundamentals deteriorate; otherwise hold minimum 2-4 weeks",
+    "add_trigger": "Post-earnings beat with positive guidance + RSI recovery above 50; would add at $85-87 range",
+    "risk": "Earnings miss or negative forward guidance could extend losses to 25%+; healthcare regulatory headwinds",
     "outlook": "cautious",
-    "timeframe": "2-6 weeks (through earnings and initial post-earnings consolidation)",
-    "generated_at": "2026-07-14T23:27:20.462355",
-    "price_at_generation": 88.96,
-    "pnl_at_generation": -18.96
+    "timeframe": "Hold 2-4 weeks post-earnings; reassess after results clarity",
+    "generated_at": "2026-07-15T23:32:49.794596",
+    "price_at_generation": 89.27,
+    "pnl_at_generation": -18.68
   },
   "history": [
+    {
+      "ticker": "ABT",
+      "company_name": "Abbott Laboratories",
+      "action": "Hold",
+      "action_reason": "Despite the 18.96% loss, ABT fundamentals remain healthy and earnings in 2 days represents a potential catalyst for recovery. Per your trading philosophy, hold through major losers and let them recover rather than crystallizing losses.",
+      "target_price": null,
+      "target_reasoning": "",
+      "exit_trigger": "If post-earnings guidance is withdrawn, margins deteriorate significantly, or fundamentals shift to 'deteriorating' status",
+      "add_trigger": "Only if ABT rallies post-earnings on strong results AND technical setup improves (RSI >50 with bullish structure)",
+      "risk": "Earnings miss could accelerate downside; Extreme Fear environment may cause gap-down move regardless of fundamentals",
+      "outlook": "cautious",
+      "timeframe": "2-6 weeks (through earnings and initial post-earnings consolidation)",
+      "generated_at": "2026-07-14T23:27:20.462355",
+      "price_at_generation": 88.96,
+      "pnl_at_generation": -18.96,
+      "archived_at": "2026-07-15T23:32:49.794795"
+    },
     {
       "ticker": "ABT",
       "company_name": "Abbott Laboratories",
@@ -117,23 +134,6 @@
       "price_at_generation": 95.63,
       "pnl_at_generation": -12.88,
       "archived_at": "2026-07-07T23:31:46.148626"
-    },
-    {
-      "ticker": "ABT",
-      "company_name": "Abbott Laboratories",
-      "action": "Hold",
-      "action_reason": "Position is down 13.09% (below your 15% exit threshold), fundamentals are healthy, and earnings in 11 days could be a re-rating catalyst. Extreme Fear backdrop suggests capitulation selling may be near completion.",
-      "target_price": 112.5,
-      "target_reasoning": "",
-      "exit_trigger": "Breakdown below $92.00 with negative earnings surprise + deteriorating fundamentals confirmation",
-      "add_trigger": "Close above $100.50 post-earnings with positive guidance; or RSI retest of 50 with accumulation volume",
-      "risk": "Earnings miss or guidance cut could trigger further downside; healthcare sector rotation if rates rise unexpectedly",
-      "outlook": "cautious",
-      "timeframe": "2-4 weeks (through earnings + 1-2 week follow-through)",
-      "generated_at": "2026-07-05T23:38:10.686243",
-      "price_at_generation": 95.4,
-      "pnl_at_generation": -13.09,
-      "archived_at": "2026-07-06T23:41:27.850204"
     }
   ]
 }

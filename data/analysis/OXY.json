@@ -8,21 +8,21 @@
     "sell_score": 0.14,
     "reasons": [],
     "misses": [
-      "BB: price not near lower band (pct=0.84)",
+      "BB: price not near lower band (pct=0.76)",
       "BB Width: bands expanding, not squeezing",
-      "RSI: not in buy zone (55.7, need 20-40)",
+      "RSI: not in buy zone (52.6, need 20-40)",
       "MACD: no bullish crossover or valley",
       "RSI Divergence: no bullish divergence detected",
-      "Volume: below average (0.94x) \u2014 low conviction"
+      "Volume: below average (0.86x) \u2014 low conviction"
     ],
-    "price": 54.57,
-    "rsi": 55.7,
-    "atr": 1.62,
+    "price": 53.77,
+    "rsi": 52.6,
+    "atr": 1.6,
     "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 2,
-      "suggested_dollars": 109.14,
-      "note": "2 sh @ $54.57 = $109 (Hold, 60% size) | $643 swing budget after"
+      "suggested_dollars": 107.54,
+      "note": "2 sh @ $53.77 = $108 (Hold, 60% size) | $716 swing budget after"
     }
   },
   "fundamentals": {
@@ -52,7 +52,7 @@
       ],
       "earnings_status": "upcoming",
       "next_earnings_date": "2026-08-05",
-      "days_to_earnings": 22
+      "days_to_earnings": 21
     }
   },
   "news": {
@@ -60,34 +60,33 @@
     "sentiment": "neutral",
     "health": "neutral",
     "key_events": [
-      "Earnings report in 22 days (major catalyst)",
-      "Revenue declining YoY (-8.3%) suggests operational headwinds",
-      "Geopolitical tensions (US-China, regional conflicts) create oil price volatility"
+      "Earnings report in 21 days",
+      "Revenue declining 8.3% YoY signals demand/price headwinds",
+      "Extreme Fear backdrop presents potential washout opportunity"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "Revenue contraction YoY despite recent price recovery",
-      "Extreme Fear sentiment in broader market (F&G) suggests potential pullback risk",
-      "No technical firing signals despite 8.32% gain\u2014momentum may be fading",
-      "RSI 55.7 neutral zone offers limited confirmation of strength"
+      "Revenue contraction YoY despite profitable position",
+      "No bullish catalysts on horizon",
+      "RSI at 52.6 shows no momentum conviction"
     ],
-    "verdict": "Position is modestly profitable but lacks catalytic conviction; hold through earnings as the primary decision point.",
+    "verdict": "Position is profitable with modest upside but lacks conviction; hold and await earnings catalyst for clarity on fundamental trajectory.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "OXY",
-    "stock_return_3m": -5.58,
-    "benchmark_return_3m": 9.86,
-    "relative_strength": -15.44,
+    "stock_return_3m": -2.46,
+    "benchmark_return_3m": 8.97,
+    "relative_strength": -11.43,
     "label": "underperforming"
   },
   "final_tier": "Hold",
   "sizing": {
     "suggested_shares": 2,
-    "suggested_dollars": 109.14,
-    "note": "2 sh @ $54.57 = $109 (Hold, 60% size) | $643 swing budget after"
+    "suggested_dollars": 107.54,
+    "note": "2 sh @ $53.77 = $108 (Hold, 60% size) | $716 swing budget after"
   },
   "is_dca": false,
-  "saved_at": "2026-07-14T23:27:48.680596"
+  "saved_at": "2026-07-15T23:33:10.450870"
 }

@@ -8,19 +8,19 @@
     "sell_score": 0.14,
     "reasons": [],
     "misses": [
-      "BB: price not near lower band (pct=0.41)",
+      "BB: price not near lower band (pct=0.45)",
       "BB Width: bands expanding, not squeezing",
-      "RSI: not in buy zone (48.5, need 20-40)",
+      "RSI: not in buy zone (50.2, need 20-40)",
       "RSI Divergence: no bullish divergence detected"
     ],
-    "price": 122.66,
-    "rsi": 48.5,
+    "price": 123.52,
+    "rsi": 50.2,
     "atr": 4.27,
     "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 1,
-      "suggested_dollars": 122.66,
-      "note": "1 sh @ $122.66 = $123 (Hold, 60% size) | $629 swing budget after"
+      "suggested_dollars": 123.52,
+      "note": "1 sh @ $123.52 = $124 (Hold, 60% size) | $700 swing budget after"
     }
   },
   "fundamentals": {
@@ -48,9 +48,9 @@
         "Earnings growing YoY (+860.0%)",
         "Revenue growing (+21.6%)"
       ],
-      "earnings_status": "past",
-      "next_earnings_date": "2026-04-30",
-      "days_to_earnings": -75
+      "earnings_status": "upcoming",
+      "next_earnings_date": "2026-08-05",
+      "days_to_earnings": 21
     }
   },
   "news": {
@@ -58,35 +58,33 @@
     "sentiment": "neutral",
     "health": "neutral",
     "key_events": [
-      "Position up +5.20% from entry ($116.60 \u2192 $122.66)",
-      "RSI at 48.5 indicates no overbought/oversold condition",
-      "Earnings passed 75 days ago\u2014next catalyst unclear",
-      "No recent news available for assessment"
+      "Earnings report in 21 days",
+      "VIX at 15.7 indicating stable market conditions",
+      "Extreme Fear gauge suggests potential oversold opportunity"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "Debt-to-equity data unavailable\u2014cannot assess leverage risk for capital-intensive business",
-      "Extreme Fear sentiment in broader market (F&G) despite neutral VIX",
-      "No technical firing signals despite modest gains",
-      "News blackout limits conviction on hold decision"
+      "Debt-to-equity data unavailable limits fundamental analysis",
+      "No recent news catalysts visible",
+      "RSI at 50.2 shows no momentum direction"
     ],
-    "verdict": "Hold current position while awaiting clearer technical setup or next earnings catalyst.",
+    "verdict": "IRM is in a neutral holding pattern with modest gains; await earnings catalyst while monitoring technicals.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "IRM",
-    "stock_return_3m": 10.38,
-    "benchmark_return_3m": 9.86,
-    "relative_strength": 0.52,
+    "stock_return_3m": 9.06,
+    "benchmark_return_3m": 8.97,
+    "relative_strength": 0.09,
     "label": "in-line"
   },
   "final_tier": "Hold",
   "sizing": {
     "suggested_shares": 1,
-    "suggested_dollars": 122.66,
-    "note": "1 sh @ $122.66 = $123 (Hold, 60% size) | $629 swing budget after"
+    "suggested_dollars": 123.52,
+    "note": "1 sh @ $123.52 = $124 (Hold, 60% size) | $700 swing budget after"
   },
   "is_dca": false,
-  "saved_at": "2026-07-14T23:28:02.279250"
+  "saved_at": "2026-07-15T23:33:23.706238"
 }

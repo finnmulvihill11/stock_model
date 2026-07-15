@@ -4,25 +4,26 @@
     "ticker": "ABT",
     "direction": "hold",
     "tier": "Hold",
-    "buy_score": 0.25,
-    "sell_score": 0.43,
+    "buy_score": 0.12,
+    "sell_score": 0.29,
     "reasons": [],
     "misses": [
-      "BB: price not near lower band (pct=0.22)",
-      "RSI: not in buy zone (42.0, need 20-40)",
+      "BB: price not near lower band (pct=0.24)",
+      "RSI: not in buy zone (43.0, need 20-40)",
       "MACD: no bullish crossover or valley",
       "RSI Divergence: no bullish divergence detected",
       "200MA: price below 200MA \u2014 potential falling knife",
+      "Death cross active: 50MA (89.16) below 200MA (109.38)",
       "Volume: below average (0.93x) \u2014 low conviction"
     ],
-    "price": 88.96,
-    "rsi": 42.0,
-    "atr": 2.64,
+    "price": 89.27,
+    "rsi": 43.0,
+    "atr": 2.62,
     "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 1,
-      "suggested_dollars": 88.96,
-      "note": "1 sh @ $88.96 = $89 (Hold, 60% size) | $663 swing budget after"
+      "suggested_dollars": 89.27,
+      "note": "1 sh @ $89.27 = $89 (Hold, 60% size) | $734 swing budget after"
     }
   },
   "fundamentals": {
@@ -40,7 +41,7 @@
   },
   "earnings": {
     "proceed": false,
-    "reason": "Earnings in 2 days \u2014 wait for results before acting",
+    "reason": "Earnings in 1 days \u2014 wait for results before acting",
     "verdict": {
       "ticker": "ABT",
       "verdict": "consider",
@@ -51,7 +52,7 @@
       ],
       "earnings_status": "imminent",
       "next_earnings_date": "2026-07-16",
-      "days_to_earnings": 2
+      "days_to_earnings": 1
     }
   },
   "news": {
@@ -59,34 +60,35 @@
     "sentiment": "neutral",
     "health": "healthy",
     "key_events": [
-      "Earnings report in 2 days",
-      "Position down 18.96% from entry",
-      "Market in Extreme Fear mode despite neutral VIX",
-      "No technical buy signals (RSI 42.0, no firing indicators)"
+      "Earnings report imminent (1 day)",
+      "Extreme Fear market sentiment (F&G)",
+      "VIX 15.7 indicates neutral volatility environment",
+      "RSI 43.0 suggests oversold conditions without confirmed bounce"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "Significant drawdown (-18.96%) may indicate sector or company-specific weakness ahead of earnings",
-      "Extreme Fear sentiment suggests elevated volatility risk into earnings",
-      "No positive technical setup to support recovery thesis"
+      "Position down 18.68% \u2014 significant drawdown",
+      "No news items provided \u2014 lack of recent catalysts visibility",
+      "Technical RSI at 43 shows weakness, no bullish firing signals",
+      "Earnings imminent adds binary risk over next 24 hours"
     ],
-    "verdict": "Hold position through earnings given healthy fundamentals and your philosophy against exiting major losers; imminent catalyst may clarify the weakness.",
+    "verdict": "Hold position through earnings; fundamentals remain healthy and extreme fear creates opportunity for recovery.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "ABT",
     "stock_return_3m": -11.1,
-    "benchmark_return_3m": 9.86,
-    "relative_strength": -20.96,
+    "benchmark_return_3m": 8.97,
+    "relative_strength": -20.07,
     "label": "underperforming"
   },
   "final_tier": "Hold",
   "sizing": {
     "suggested_shares": 1,
-    "suggested_dollars": 88.96,
-    "note": "1 sh @ $88.96 = $89 (Hold, 60% size) | $663 swing budget after"
+    "suggested_dollars": 89.27,
+    "note": "1 sh @ $89.27 = $89 (Hold, 60% size) | $734 swing budget after"
   },
   "is_dca": false,
-  "saved_at": "2026-07-14T23:27:20.463131"
+  "saved_at": "2026-07-15T23:32:49.795460"
 }

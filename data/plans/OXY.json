@@ -3,19 +3,36 @@
     "ticker": "OXY",
     "company_name": "Occidental Petroleum Corporation",
     "action": "Hold",
-    "action_reason": "You're up 8.32% with a near-term earnings catalyst (22d) that could either validate or invalidate the recent rally. Avoid trimming a profitable swing; let earnings determine next moves. VIX neutral and geopolitical baseline moderate don't justify early exit.",
-    "target_price": 57.5,
+    "action_reason": "You're up 6.73% on a small 2.9% portfolio weight with earnings 3 weeks away\u2014risk/reward favors patience. The 'Extreme Fear' backdrop suggests downside is limited; let earnings reveal if revenue decline stabilizes or accelerates.",
+    "target_price": 56.5,
     "target_reasoning": "",
-    "exit_trigger": "Close below $52.50 (below recent support) OR post-earnings miss with negative guidance; OR RSI drops below 40 on high volume",
-    "add_trigger": "Only add if OXY breaks above $56.50 on volume AND earnings beat expectations; otherwise, wait for pullback to $51\u201352 to add on strength",
-    "risk": "Revenue decline + extreme market fear = vulnerability to sudden oil price dip or earnings miss causing 5\u201310% pullback. Geopolitical de-escalation could also ease oil upside.",
+    "exit_trigger": "Close above $56.50 with declining volume on earnings beat, or break below $50 support on negative earnings surprise",
+    "add_trigger": "Drop to $48\u2013$49 (below entry) on post-earnings weakness if fundamentals stabilize; oil price strength above $85/bbl",
+    "risk": "Revenue decline accelerates post-earnings; macro oil demand shock; macro rotation away from energy into tech rally",
     "outlook": "cautious",
-    "timeframe": "2\u20133 weeks (until earnings), then reassess for 1\u20134 week swing extension",
-    "generated_at": "2026-07-14T23:27:48.679756",
-    "price_at_generation": 54.57,
-    "pnl_at_generation": 8.32
+    "timeframe": "3 weeks (hold through earnings)",
+    "generated_at": "2026-07-15T23:33:10.450156",
+    "price_at_generation": 53.77,
+    "pnl_at_generation": 6.73
   },
   "history": [
+    {
+      "ticker": "OXY",
+      "company_name": "Occidental Petroleum Corporation",
+      "action": "Hold",
+      "action_reason": "You're up 8.32% with a near-term earnings catalyst (22d) that could either validate or invalidate the recent rally. Avoid trimming a profitable swing; let earnings determine next moves. VIX neutral and geopolitical baseline moderate don't justify early exit.",
+      "target_price": 57.5,
+      "target_reasoning": "",
+      "exit_trigger": "Close below $52.50 (below recent support) OR post-earnings miss with negative guidance; OR RSI drops below 40 on high volume",
+      "add_trigger": "Only add if OXY breaks above $56.50 on volume AND earnings beat expectations; otherwise, wait for pullback to $51\u201352 to add on strength",
+      "risk": "Revenue decline + extreme market fear = vulnerability to sudden oil price dip or earnings miss causing 5\u201310% pullback. Geopolitical de-escalation could also ease oil upside.",
+      "outlook": "cautious",
+      "timeframe": "2\u20133 weeks (until earnings), then reassess for 1\u20134 week swing extension",
+      "generated_at": "2026-07-14T23:27:48.679756",
+      "price_at_generation": 54.57,
+      "pnl_at_generation": 8.32,
+      "archived_at": "2026-07-15T23:33:10.450353"
+    },
     {
       "ticker": "OXY",
       "company_name": "Occidental Petroleum Corporation",
@@ -117,23 +134,6 @@
       "price_at_generation": 48.81,
       "pnl_at_generation": -3.12,
       "archived_at": "2026-07-07T23:32:12.876010"
-    },
-    {
-      "ticker": "OXY",
-      "company_name": "Occidental Petroleum Corporation",
-      "action": "Hold",
-      "action_reason": "Position is only -2.92%, well within tolerance. Philosophy forbids trimming losers <15%. Oversold RSI (31.6) + Extreme Fear sentiment creates swing opportunity; earnings in 31 days is key catalyst worth holding for.",
-      "target_price": 52.5,
-      "target_reasoning": "",
-      "exit_trigger": "Break below $47 (critical support) OR negative earnings miss + breakdown below 200-day MA",
-      "add_trigger": "RSI touches 20\u201325 with reversal confirmation (bullish engulfing/hammer) OR oil prices spike on geopolitical news",
-      "risk": "Continued revenue erosion signals structural headwind; could retest $46\u201347 before recovery. Earnings could disappoint.",
-      "outlook": "cautious",
-      "timeframe": "3\u20134 weeks (hold until earnings; reassess post-release)",
-      "generated_at": "2026-07-05T23:38:41.181824",
-      "price_at_generation": 48.91,
-      "pnl_at_generation": -2.92,
-      "archived_at": "2026-07-06T23:41:56.596207"
     }
   ]
 }
