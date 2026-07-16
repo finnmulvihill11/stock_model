@@ -3,19 +3,36 @@
     "ticker": "XOM",
     "company_name": "ExxonMobil Holdings Corporation",
     "action": "Hold",
-    "action_reason": "Position is profitable at +5.37% with healthy fundamentals and neutral technicals. Lack of momentum signals and absent news catalysts don't warrant aggressive trimming, but RSI neutrality suggests limited upside pressure in near term.",
-    "target_price": null,
+    "action_reason": "Position is +6.42% with healthy fundamentals and neutral technicals (RSI 57.1 not extended). Upcoming earnings (15d) is a major catalyst that warrants holding for potential expansion. Only trim if price breaks above $150+ post-earnings on strong beats.",
+    "target_price": 150,
     "target_reasoning": "",
-    "exit_trigger": "Break below $140 (recent support) on high volume, or deteriorating fundamentals in next earnings cycle",
-    "add_trigger": "XOM breaks above $148 with RSI >65 and positive energy sector rotation news",
-    "risk": "Oil price volatility and macroeconomic slowdown affecting energy demand; Extreme Fear market conditions could trigger sector rotation out of energy",
+    "exit_trigger": "Sell 50% at $150+ IF earnings beat with bullish guidance; sell remainder on close below $143 (support breach) or earnings miss with negative revision",
+    "add_trigger": "Only add if pullback to $141-143 on market weakness, then close above $144 with volume confirmation",
+    "risk": "Energy sector volatility; geopolitical oil supply shocks; earnings miss could trigger 4-5% pullback; Extreme Fear sentiment may trigger sudden macro rotation out of energy",
     "outlook": "neutral",
-    "timeframe": "2-4 weeks \u2014 monitor for technical breakout or fundamental catalyst before reassessing",
-    "generated_at": "2026-07-15T23:33:03.332658",
-    "price_at_generation": 144.51,
-    "pnl_at_generation": 5.37
+    "timeframe": "2-4 weeks (through earnings + post-earnings reaction)",
+    "generated_at": "2026-07-16T23:29:15.452837",
+    "price_at_generation": 145.95,
+    "pnl_at_generation": 6.42
   },
   "history": [
+    {
+      "ticker": "XOM",
+      "company_name": "ExxonMobil Holdings Corporation",
+      "action": "Hold",
+      "action_reason": "Position is profitable at +5.37% with healthy fundamentals and neutral technicals. Lack of momentum signals and absent news catalysts don't warrant aggressive trimming, but RSI neutrality suggests limited upside pressure in near term.",
+      "target_price": null,
+      "target_reasoning": "",
+      "exit_trigger": "Break below $140 (recent support) on high volume, or deteriorating fundamentals in next earnings cycle",
+      "add_trigger": "XOM breaks above $148 with RSI >65 and positive energy sector rotation news",
+      "risk": "Oil price volatility and macroeconomic slowdown affecting energy demand; Extreme Fear market conditions could trigger sector rotation out of energy",
+      "outlook": "neutral",
+      "timeframe": "2-4 weeks \u2014 monitor for technical breakout or fundamental catalyst before reassessing",
+      "generated_at": "2026-07-15T23:33:03.332658",
+      "price_at_generation": 144.51,
+      "pnl_at_generation": 5.37,
+      "archived_at": "2026-07-16T23:29:15.453032"
+    },
     {
       "ticker": "XOM",
       "company_name": "ExxonMobil Holdings Corporation",
@@ -117,23 +134,6 @@
       "price_at_generation": 141.69,
       "pnl_at_generation": 3.31,
       "archived_at": "2026-07-08T23:40:41.277048"
-    },
-    {
-      "ticker": "XOM",
-      "company_name": "ExxonMobil Holdings Corporation",
-      "action": "Add More",
-      "action_reason": "RSI 35.8 signals oversold conditions; Extreme Fear environment presents mean reversion opportunity. Healthy fundamentals + small loss (well within philosophy) + oversold technicals justify adding on weakness to average down.",
-      "target_price": 142,
-      "target_reasoning": "",
-      "exit_trigger": "Fundamentals deteriorate OR price falls >15% from entry ($116.55)",
-      "add_trigger": "RSI reaches 30 or price drops to $135, whichever comes first",
-      "risk": "Energy sector volatility + macro headwinds; geopolitical/demand shocks could pressure oil prices further",
-      "outlook": "cautious",
-      "timeframe": "3-8 weeks",
-      "generated_at": "2026-07-06T23:41:49.511848",
-      "price_at_generation": 136.44,
-      "pnl_at_generation": -0.52,
-      "archived_at": "2026-07-07T23:32:06.349902"
     }
   ]
 }

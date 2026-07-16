@@ -3,19 +3,36 @@
     "ticker": "INTU",
     "company_name": "Intuit Inc.",
     "action": "Hold",
-    "action_reason": "Philosophy mandates holding positions down >15%; fundamentals remain healthy and Extreme Fear environment often precedes reversals. Avoid averaging into concentration without clearer catalyst.",
+    "action_reason": "Position down >15% triggers hold-through policy regardless of technicals. Fundamentals remain healthy and earnings cycle reset in ~10 months provides recovery window. RSI neutral (not oversold) indicates patience required.",
     "target_price": 420,
     "target_reasoning": "",
-    "exit_trigger": "Fundamentals deteriorate (guidance cut, major customer loss) OR price breaks below $250 on volume indicating structural breakdown",
-    "add_trigger": "Accumulate only if: (1) RSI drops to <30 on down volume, (2) next earnings beat expectations, AND (3) VIX remains elevated (>20), signaling capitulation bottom",
-    "risk": "Further macro deterioration in software/SaaS valuations; concentration in single name amplifies drawdown impact if thesis breaks",
+    "exit_trigger": "Breach of $250 support or material deterioration in fundamentals (guidance cuts, market share loss, subscription churn acceleration)",
+    "add_trigger": "Oversold RSI <30 during broad market strength + confirmed technical support bounce",
+    "risk": "Continued software sector rotation away from SaaS growth names; potential macro slowdown impacting SMB/consumer tax/accounting spending",
     "outlook": "cautious",
-    "timeframe": "6-12 weeks for recovery signal; re-evaluate at next earnings (estimated 3 months)",
-    "generated_at": "2026-07-15T23:32:37.363197",
-    "price_at_generation": 279.7,
-    "pnl_at_generation": -40.27
+    "timeframe": "4-8 weeks minimum; monitor next earnings cycle (Jan 2026) for inflection",
+    "generated_at": "2026-07-16T23:28:47.534466",
+    "price_at_generation": 294.79,
+    "pnl_at_generation": -37.05
   },
   "history": [
+    {
+      "ticker": "INTU",
+      "company_name": "Intuit Inc.",
+      "action": "Hold",
+      "action_reason": "Philosophy mandates holding positions down >15%; fundamentals remain healthy and Extreme Fear environment often precedes reversals. Avoid averaging into concentration without clearer catalyst.",
+      "target_price": 420,
+      "target_reasoning": "",
+      "exit_trigger": "Fundamentals deteriorate (guidance cut, major customer loss) OR price breaks below $250 on volume indicating structural breakdown",
+      "add_trigger": "Accumulate only if: (1) RSI drops to <30 on down volume, (2) next earnings beat expectations, AND (3) VIX remains elevated (>20), signaling capitulation bottom",
+      "risk": "Further macro deterioration in software/SaaS valuations; concentration in single name amplifies drawdown impact if thesis breaks",
+      "outlook": "cautious",
+      "timeframe": "6-12 weeks for recovery signal; re-evaluate at next earnings (estimated 3 months)",
+      "generated_at": "2026-07-15T23:32:37.363197",
+      "price_at_generation": 279.7,
+      "pnl_at_generation": -40.27,
+      "archived_at": "2026-07-16T23:28:47.534661"
+    },
     {
       "ticker": "INTU",
       "company_name": "Intuit Inc.",
@@ -117,23 +134,6 @@
       "price_at_generation": 281.17,
       "pnl_at_generation": -39.96,
       "archived_at": "2026-07-08T23:39:59.699826"
-    },
-    {
-      "ticker": "INTU",
-      "company_name": "Intuit Inc.",
-      "action": "Hold",
-      "action_reason": "Philosophy mandates holding positions down >15%; fundamentals remain healthy and market shows extreme fear, which often precedes reversals. Earnings are in the rearview, reducing near-term event risk.",
-      "target_price": 380,
-      "target_reasoning": "",
-      "exit_trigger": "Break below $250 on heavy volume; deteriorating fundamentals or guidance cut",
-      "add_trigger": "RSI falls to 25-30 (capitulation) AND positive news catalyst emerges; or earnings beat with raised guidance",
-      "risk": "Continued macro weakness in small business spending (INTU's core market); potential for further downside if recession fears intensify",
-      "outlook": "cautious",
-      "timeframe": "4-8 weeks",
-      "generated_at": "2026-07-06T23:41:12.411389",
-      "price_at_generation": 272.14,
-      "pnl_at_generation": -41.89,
-      "archived_at": "2026-07-07T23:31:31.135246"
     }
   ]
 }

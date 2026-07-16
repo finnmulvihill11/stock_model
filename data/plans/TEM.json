@@ -3,19 +3,36 @@
     "ticker": "TEM",
     "company_name": "Tempus AI, Inc.",
     "action": "Hold",
-    "action_reason": "Position is already down 17.13%, triggering your policy to hold major losers and avoid crystallizing losses. Earnings in 15 days provides a defined catalyst that could either validate or accelerate the deterioration\u2014wait for this event.",
-    "target_price": 72.5,
+    "action_reason": "Portfolio philosophy prohibits exit on >15% losses. However, this is a deteriorating situation requiring strict monitoring. Use imminent earnings as decision point rather than current weakness.",
+    "target_price": null,
     "target_reasoning": "",
-    "exit_trigger": "If earnings miss + cash flow worsens OR debt refinancing concerns emerge; RSI falls below 30 with negative earnings revision",
-    "add_trigger": "Do not add; fundamentals must stabilize (path to profitability) and debt-to-equity must begin declining before considering additional exposure",
-    "risk": "Negative operating cash flow + high leverage = potential dilutive capital raise or covenant breach if momentum doesn't reverse; AI hype cycle may be deflating",
+    "exit_trigger": "If earnings miss consensus AND guidance is withdrawn/reduced, creating fresh 15%+ decline from post-earnings level. Alternatively, if debt covenant concerns surface or credit rating downgrade occurs.",
+    "add_trigger": "Do NOT add more. Fundamentals do not support averaging down on unprofitable, cash-burning companies with high leverage regardless of technical dips.",
+    "risk": "Insolvency risk over 12-month horizon if cash burn continues and debt refinancing becomes difficult in higher rate environment. Earnings miss could trigger capitulation selling.",
     "outlook": "cautious",
-    "timeframe": "2-3 weeks (until earnings); re-evaluate full position after Q results",
-    "generated_at": "2026-07-15T23:32:57.910695",
-    "price_at_generation": 57.25,
-    "pnl_at_generation": -17.13
+    "timeframe": "Hold through earnings (14 days), then reassess. If earnings stabilize narrative, potential for bounce. If disappointing, condition triggers exit on next 15%+ move down from that point.",
+    "generated_at": "2026-07-16T23:29:08.489639",
+    "price_at_generation": 53.59,
+    "pnl_at_generation": -22.42
   },
   "history": [
+    {
+      "ticker": "TEM",
+      "company_name": "Tempus AI, Inc.",
+      "action": "Hold",
+      "action_reason": "Position is already down 17.13%, triggering your policy to hold major losers and avoid crystallizing losses. Earnings in 15 days provides a defined catalyst that could either validate or accelerate the deterioration\u2014wait for this event.",
+      "target_price": 72.5,
+      "target_reasoning": "",
+      "exit_trigger": "If earnings miss + cash flow worsens OR debt refinancing concerns emerge; RSI falls below 30 with negative earnings revision",
+      "add_trigger": "Do not add; fundamentals must stabilize (path to profitability) and debt-to-equity must begin declining before considering additional exposure",
+      "risk": "Negative operating cash flow + high leverage = potential dilutive capital raise or covenant breach if momentum doesn't reverse; AI hype cycle may be deflating",
+      "outlook": "cautious",
+      "timeframe": "2-3 weeks (until earnings); re-evaluate full position after Q results",
+      "generated_at": "2026-07-15T23:32:57.910695",
+      "price_at_generation": 57.25,
+      "pnl_at_generation": -17.13,
+      "archived_at": "2026-07-16T23:29:08.489863"
+    },
     {
       "ticker": "TEM",
       "company_name": "Tempus AI, Inc.",
@@ -117,23 +134,6 @@
       "price_at_generation": 60.09,
       "pnl_at_generation": -13.01,
       "archived_at": "2026-07-08T23:40:23.236710"
-    },
-    {
-      "ticker": "TEM",
-      "company_name": "Tempus AI, Inc.",
-      "action": "Hold",
-      "action_reason": "Your trading philosophy prohibits exits on positions down >15% (currently -12.13%). However, monitor closely for deterioration below -15% threshold or positive catalyst emergence, as fundamentals remain weak.",
-      "target_price": null,
-      "target_reasoning": "",
-      "exit_trigger": "Position reaches -15% loss OR negative operating cash flow worsens materially OR debt restructuring concerns emerge",
-      "add_trigger": "Not recommended given deteriorating fundamentals; only consider if company announces profitability pathway or significant revenue inflection",
-      "risk": "Continued cash burn without profitability path; potential dilution via financing; debt covenant stress if revenue declines",
-      "outlook": "cautious",
-      "timeframe": "2-3 months to next catalyst or earnings",
-      "generated_at": "2026-07-06T23:41:35.759622",
-      "price_at_generation": 60.7,
-      "pnl_at_generation": -12.13,
-      "archived_at": "2026-07-07T23:31:52.970317"
     }
   ]
 }

@@ -3,19 +3,36 @@
     "ticker": "WMT",
     "company_name": "Walmart Inc.",
     "action": "Hold",
-    "action_reason": "Position is profitable (+0.70%) with healthy fundamentals and small weighting (3.1%). No trigger to trim yet; wait for either technical confirmation of strength or a pullback to add on weakness near $110-111.",
-    "target_price": 115.5,
+    "action_reason": "Position is profitable at +2.86% with healthy fundamentals and neutral technicals (RSI 48.1 shows no overbought condition). Extreme Fear in market may create better entry points for adding; maintain current position until clear technical signal or pre-earnings momentum develops.",
+    "target_price": 118.5,
     "target_reasoning": "",
-    "exit_trigger": "Break below $110.50 on high volume OR position drops into red and triggers 15%+ loss threshold",
-    "add_trigger": "Pullback to $110-111 with RSI bounce above 50, or positive earnings catalyst",
-    "risk": "Lack of near-term news/catalysts; if market fear deepens, defensive stocks like WMT may consolidate longer than expected despite quality",
+    "exit_trigger": "Close below $111 support or negative earnings surprise with breakdown below 20-day MA",
+    "add_trigger": "RSI climbs above 60 on strong volume OR dips to $112-113 on market weakness (Extreme Fear capitulation) with confirmed accumulation",
+    "risk": "Earnings miss in 35 days; broader market downturn if Fear transitions to panic; consumer spending weakness",
     "outlook": "neutral",
-    "timeframe": "2-6 weeks (monitor for earnings catalysts in 36 days)",
-    "generated_at": "2026-07-15T23:33:17.699590",
-    "price_at_generation": 112.53,
-    "pnl_at_generation": 0.7
+    "timeframe": "2-6 weeks to earnings",
+    "generated_at": "2026-07-16T23:29:28.680473",
+    "price_at_generation": 114.95,
+    "pnl_at_generation": 2.86
   },
   "history": [
+    {
+      "ticker": "WMT",
+      "company_name": "Walmart Inc.",
+      "action": "Hold",
+      "action_reason": "Position is profitable (+0.70%) with healthy fundamentals and small weighting (3.1%). No trigger to trim yet; wait for either technical confirmation of strength or a pullback to add on weakness near $110-111.",
+      "target_price": 115.5,
+      "target_reasoning": "",
+      "exit_trigger": "Break below $110.50 on high volume OR position drops into red and triggers 15%+ loss threshold",
+      "add_trigger": "Pullback to $110-111 with RSI bounce above 50, or positive earnings catalyst",
+      "risk": "Lack of near-term news/catalysts; if market fear deepens, defensive stocks like WMT may consolidate longer than expected despite quality",
+      "outlook": "neutral",
+      "timeframe": "2-6 weeks (monitor for earnings catalysts in 36 days)",
+      "generated_at": "2026-07-15T23:33:17.699590",
+      "price_at_generation": 112.53,
+      "pnl_at_generation": 0.7,
+      "archived_at": "2026-07-16T23:29:28.680659"
+    },
     {
       "ticker": "WMT",
       "company_name": "Walmart Inc.",
@@ -117,23 +134,6 @@
       "price_at_generation": 111.54,
       "pnl_at_generation": -0.19,
       "archived_at": "2026-07-08T23:40:56.690413"
-    },
-    {
-      "ticker": "WMT",
-      "company_name": "Walmart Inc.",
-      "action": "Hold",
-      "action_reason": "Loss is minimal (-0.98%), well below the 15% threshold; fundamentals remain intact and extreme market fear creates asymmetric upside. Swing traders should wait for RSI recovery above 50 or price reclaim of $112 before adding.",
-      "target_price": 115.5,
-      "target_reasoning": "",
-      "exit_trigger": "Break below $109 on heavy volume (structural support breach)",
-      "add_trigger": "RSI crosses above 50 + close above $112.50 (confirmed reversal)",
-      "risk": "Continued selloff in broad market if VIX spikes; retail weakness if consumer spending slows into holidays",
-      "outlook": "cautious",
-      "timeframe": "2-4 weeks until technical clarity; re-evaluate at earnings (45d)",
-      "generated_at": "2026-07-06T23:42:03.882384",
-      "price_at_generation": 110.65,
-      "pnl_at_generation": -0.98,
-      "archived_at": "2026-07-07T23:32:19.162942"
     }
   ]
 }

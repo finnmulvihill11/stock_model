@@ -8,22 +8,22 @@
     "sell_score": 0.14,
     "reasons": [],
     "misses": [
-      "BB: price not near lower band (pct=0.58)",
+      "BB: price not near lower band (pct=0.36)",
       "BB Width: bands expanding, not squeezing",
-      "RSI: not in buy zone (53.6, need 20-40)",
+      "RSI: not in buy zone (47.3, need 20-40)",
       "MACD: no bullish crossover or valley",
       "RSI Divergence: no bullish divergence detected",
       "200MA: price below 200MA \u2014 potential falling knife",
-      "Volume: below average (0.47x) \u2014 low conviction"
+      "Volume: below average (0.83x) \u2014 low conviction"
     ],
-    "price": 57.25,
-    "rsi": 53.6,
-    "atr": 4.17,
+    "price": 53.59,
+    "rsi": 47.3,
+    "atr": 4.28,
     "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 2,
-      "suggested_dollars": 114.5,
-      "note": "2 sh @ $57.25 = $114 (Hold, 60% size) | $709 swing budget after"
+      "suggested_dollars": 107.18,
+      "note": "2 sh @ $53.59 = $107 (Hold, 60% size) | $716 swing budget after"
     }
   },
   "fundamentals": {
@@ -41,8 +41,8 @@
     "profit_margins": -0.22205
   },
   "earnings": {
-    "proceed": true,
-    "reason": "Fundamentals intact \u2014 dip may be an overreaction",
+    "proceed": false,
+    "reason": "Earnings in 14 days \u2014 wait for results before acting",
     "verdict": {
       "ticker": "TEM",
       "verdict": "consider",
@@ -50,9 +50,9 @@
       "notes": [
         "Revenue growing (+36.1%)"
       ],
-      "earnings_status": "upcoming",
+      "earnings_status": "imminent",
       "next_earnings_date": "2026-07-30",
-      "days_to_earnings": 15
+      "days_to_earnings": 14
     }
   },
   "news": {
@@ -60,35 +60,36 @@
     "sentiment": "negative",
     "health": "deteriorating",
     "key_events": [
-      "Earnings report in 15 days - critical catalyst",
-      "Extreme Fear market sentiment (F&G) - potential washout or reversal setup",
-      "No recent news items to assess fundamental developments"
+      "Earnings report in 14 days (potential catalyst)",
+      "Company unprofitable with negative operating cash flow",
+      "High leverage at 3.2x debt-to-equity ratio",
+      "Market in Extreme Fear mode (potential capitulation opportunity)"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "High debt-to-equity (3.2x) - refinancing risk in rising rate environment",
-      "Negative operating cash flow - unsustainable without profitability or capital raises",
-      "Not profitable - AI/tech story needs execution to justify valuation",
-      "17% drawdown with no positive technical signals - momentum broken",
-      "Extreme Fear sentiment suggests capitulation but also potential washout territory"
+      "Deteriorating fundamentals with cash burn",
+      "High debt burden limits financial flexibility",
+      "No profitable operations to service debt",
+      "22.42% drawdown suggests institutional selling pressure",
+      "RSI at 47.3 shows weak momentum with no bullish firing signals"
     ],
-    "verdict": "Position is fundamentally challenged with deteriorating metrics, but 17% loss locks in your hold philosophy; upcoming earnings is the critical catalyst.",
+    "verdict": "Position is fundamentally broken with negative cash flow and high debt; imminent earnings could accelerate downside or provide rare stabilization opportunity.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "TEM",
-    "stock_return_3m": 15.59,
-    "benchmark_return_3m": 8.97,
-    "relative_strength": 6.62,
-    "label": "outperforming"
+    "stock_return_3m": -5.0,
+    "benchmark_return_3m": 7.53,
+    "relative_strength": -12.53,
+    "label": "underperforming"
   },
   "final_tier": "Hold",
   "sizing": {
     "suggested_shares": 2,
-    "suggested_dollars": 114.5,
-    "note": "2 sh @ $57.25 = $114 (Hold, 60% size) | $709 swing budget after"
+    "suggested_dollars": 107.18,
+    "note": "2 sh @ $53.59 = $107 (Hold, 60% size) | $716 swing budget after"
   },
   "is_dca": false,
-  "saved_at": "2026-07-15T23:32:57.911541"
+  "saved_at": "2026-07-16T23:29:08.490456"
 }
