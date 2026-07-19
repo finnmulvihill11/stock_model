@@ -4,24 +4,23 @@
     "ticker": "XOM",
     "direction": "hold",
     "tier": "Hold",
-    "buy_score": 0.38,
-    "sell_score": 0.29,
+    "buy_score": 0.5,
+    "sell_score": 0.43,
     "reasons": [],
     "misses": [
-      "BB: price not near lower band (pct=0.99)",
-      "RSI: not in buy zone (57.1, need 20-40)",
+      "BB: price not near lower band (pct=1.01)",
+      "RSI: not in buy zone (59.5, need 20-40)",
       "MACD: no bullish crossover or valley",
-      "RSI Divergence: no bullish divergence detected",
-      "Volume: below average (0.54x) \u2014 low conviction"
+      "RSI Divergence: no bullish divergence detected"
     ],
-    "price": 145.95,
-    "rsi": 57.1,
-    "atr": 2.92,
+    "price": 147.36,
+    "rsi": 59.5,
+    "atr": 3.09,
     "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 1,
-      "suggested_dollars": 145.95,
-      "note": "1 sh @ $145.95 = $146 (Hold, 60% size) | $677 swing budget after"
+      "suggested_dollars": 147.36,
+      "note": "1 sh @ $147.36 = $147 (Hold, 60% size) | $676 swing budget after"
     }
   },
   "fundamentals": {
@@ -38,8 +37,8 @@
     "profit_margins": 0.077649996
   },
   "earnings": {
-    "proceed": true,
-    "reason": "Fundamentals intact \u2014 dip may be an overreaction",
+    "proceed": false,
+    "reason": "Earnings in 12 days \u2014 wait for results before acting",
     "verdict": {
       "ticker": "XOM",
       "verdict": "consider",
@@ -48,9 +47,9 @@
         "Earnings declining YoY (-43.4%)",
         "Revenue growing (+2.6%)"
       ],
-      "earnings_status": "upcoming",
+      "earnings_status": "imminent",
       "next_earnings_date": "2026-07-31",
-      "days_to_earnings": 15
+      "days_to_earnings": 12
     }
   },
   "news": {
@@ -58,33 +57,33 @@
     "sentiment": "neutral",
     "health": "healthy",
     "key_events": [
-      "Earnings report in 15 days",
-      "Market in Extreme Fear despite neutral VIX (16.7)",
-      "XOM up 6.42% from entry \u2014 profitable position"
+      "Earnings report in 12 days (catalyst event)",
+      "VIX at 18.8 indicates neutral market volatility",
+      "Market sentiment Fear & Greed suggests cautious environment"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "No recent news items to assess (market sentiment unclear)",
-      "Extreme Fear indicator despite healthy technicals suggests disconnect",
-      "RSI at 57.1 shows no overbought condition \u2014 room to move"
+      "No recent news available to assess sentiment drivers",
+      "RSI at 59.5 approaching overbought territory (>70)",
+      "Imminent earnings could create volatility"
     ],
-    "verdict": "XOM is technically healthy with a profitable swing entry; hold through earnings with selective trimming if it gaps higher on bullish surprises.",
+    "verdict": "XOM is up 7.44% with healthy fundamentals and neutral technicals, but lacks clear momentum and faces earnings uncertainty within 12 days.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "XOM",
-    "stock_return_3m": -1.39,
-    "benchmark_return_3m": 7.53,
-    "relative_strength": -8.92,
+    "stock_return_3m": -2.38,
+    "benchmark_return_3m": 6.21,
+    "relative_strength": -8.59,
     "label": "underperforming"
   },
   "final_tier": "Hold",
   "sizing": {
     "suggested_shares": 1,
-    "suggested_dollars": 145.95,
-    "note": "1 sh @ $145.95 = $146 (Hold, 60% size) | $677 swing budget after"
+    "suggested_dollars": 147.36,
+    "note": "1 sh @ $147.36 = $147 (Hold, 60% size) | $676 swing budget after"
   },
   "is_dca": false,
-  "saved_at": "2026-07-16T23:29:15.453593"
+  "saved_at": "2026-07-19T23:32:45.841253"
 }

@@ -8,20 +8,20 @@
     "sell_score": 0.0,
     "reasons": [],
     "misses": [
-      "BB: price not near lower band (pct=0.39)",
+      "BB: price not near lower band (pct=0.48)",
       "BB Width: bands expanding, not squeezing",
-      "RSI: not in buy zone (46.6, need 20-40)",
+      "RSI: not in buy zone (51.0, need 20-40)",
       "RSI Divergence: no bullish divergence detected",
-      "Volume: below average (0.87x) \u2014 low conviction"
+      "Volume: below average (0.96x) \u2014 low conviction"
     ],
-    "price": 121.66,
-    "rsi": 46.6,
-    "atr": 4.19,
+    "price": 123.82,
+    "rsi": 51.0,
+    "atr": 4.4,
     "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 1,
-      "suggested_dollars": 121.66,
-      "note": "1 sh @ $121.66 = $122 (Hold, 60% size) | $702 swing budget after"
+      "suggested_dollars": 123.82,
+      "note": "1 sh @ $123.82 = $124 (Hold, 60% size) | $700 swing budget after"
     }
   },
   "fundamentals": {
@@ -51,7 +51,7 @@
       ],
       "earnings_status": "upcoming",
       "next_earnings_date": "2026-08-05",
-      "days_to_earnings": 20
+      "days_to_earnings": 17
     }
   },
   "news": {
@@ -59,34 +59,34 @@
     "sentiment": "neutral",
     "health": "neutral",
     "key_events": [
-      "Earnings report in 20 days",
-      "VIX at 16.7 indicating stable market conditions",
-      "Extreme Fear indicator suggests potential contrarian opportunity"
+      "Earnings report in 17 days",
+      "VIX at 18.8 indicating neutral market conditions",
+      "Market sentiment shows Fear & Greed index in Fear zone"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
       "No recent news catalysts available for analysis",
-      "Debt-to-equity data unavailable limits fundamental assessment",
-      "RSI at 46.6 shows no momentum conviction either direction",
-      "Technical setup shows no firing indicators"
+      "Debt-to-equity data unavailable - cannot assess leverage risk",
+      "Earnings upcoming within 2-3 weeks creates volatility uncertainty",
+      "F&G index in Fear territory despite neutral VIX"
     ],
-    "verdict": "Hold current position while monitoring for earnings catalyst and awaiting technical confirmation of directional bias.",
+    "verdict": "IRM showing healthy technical setup with +6.19% gain, but lack of fundamental visibility and upcoming earnings create near-term uncertainty.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "IRM",
-    "stock_return_3m": 7.87,
-    "benchmark_return_3m": 7.53,
-    "relative_strength": 0.34,
+    "stock_return_3m": 5.89,
+    "benchmark_return_3m": 6.21,
+    "relative_strength": -0.31,
     "label": "in-line"
   },
   "final_tier": "Hold",
   "sizing": {
     "suggested_shares": 1,
-    "suggested_dollars": 121.66,
-    "note": "1 sh @ $121.66 = $122 (Hold, 60% size) | $702 swing budget after"
+    "suggested_dollars": 123.82,
+    "note": "1 sh @ $123.82 = $124 (Hold, 60% size) | $700 swing budget after"
   },
   "is_dca": false,
-  "saved_at": "2026-07-16T23:29:35.694034"
+  "saved_at": "2026-07-19T23:33:08.940092"
 }

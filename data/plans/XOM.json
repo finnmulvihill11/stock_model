@@ -3,19 +3,36 @@
     "ticker": "XOM",
     "company_name": "ExxonMobil Holdings Corporation",
     "action": "Hold",
-    "action_reason": "Position is +6.42% with healthy fundamentals and neutral technicals (RSI 57.1 not extended). Upcoming earnings (15d) is a major catalyst that warrants holding for potential expansion. Only trim if price breaks above $150+ post-earnings on strong beats.",
-    "target_price": 150,
+    "action_reason": "Position is profitable and fundamentals are healthy. With earnings 12 days away, hold current 2sh to capture potential post-earnings move while avoiding premature trimming of a winning position.",
+    "target_price": 152,
     "target_reasoning": "",
-    "exit_trigger": "Sell 50% at $150+ IF earnings beat with bullish guidance; sell remainder on close below $143 (support breach) or earnings miss with negative revision",
-    "add_trigger": "Only add if pullback to $141-143 on market weakness, then close above $144 with volume confirmation",
-    "risk": "Energy sector volatility; geopolitical oil supply shocks; earnings miss could trigger 4-5% pullback; Extreme Fear sentiment may trigger sudden macro rotation out of energy",
+    "exit_trigger": "Close above $152 with RSI >70 on strong volume, or close below $140 post-earnings if guidance disappoints",
+    "add_trigger": "Dip below $143 on earnings-related weakness if fundamentals remain intact",
+    "risk": "Earnings volatility in next 12 days; energy sector sensitivity to macro/geopolitical factors; potential sell-off if guidance lowered",
     "outlook": "neutral",
-    "timeframe": "2-4 weeks (through earnings + post-earnings reaction)",
-    "generated_at": "2026-07-16T23:29:15.452837",
-    "price_at_generation": 145.95,
-    "pnl_at_generation": 6.42
+    "timeframe": "2-3 weeks (through earnings and post-earnings consolidation)",
+    "generated_at": "2026-07-19T23:32:45.840375",
+    "price_at_generation": 147.36,
+    "pnl_at_generation": 7.44
   },
   "history": [
+    {
+      "ticker": "XOM",
+      "company_name": "ExxonMobil Holdings Corporation",
+      "action": "Hold",
+      "action_reason": "Position is +6.42% with healthy fundamentals and neutral technicals (RSI 57.1 not extended). Upcoming earnings (15d) is a major catalyst that warrants holding for potential expansion. Only trim if price breaks above $150+ post-earnings on strong beats.",
+      "target_price": 150,
+      "target_reasoning": "",
+      "exit_trigger": "Sell 50% at $150+ IF earnings beat with bullish guidance; sell remainder on close below $143 (support breach) or earnings miss with negative revision",
+      "add_trigger": "Only add if pullback to $141-143 on market weakness, then close above $144 with volume confirmation",
+      "risk": "Energy sector volatility; geopolitical oil supply shocks; earnings miss could trigger 4-5% pullback; Extreme Fear sentiment may trigger sudden macro rotation out of energy",
+      "outlook": "neutral",
+      "timeframe": "2-4 weeks (through earnings + post-earnings reaction)",
+      "generated_at": "2026-07-16T23:29:15.452837",
+      "price_at_generation": 145.95,
+      "pnl_at_generation": 6.42,
+      "archived_at": "2026-07-19T23:32:45.840591"
+    },
     {
       "ticker": "XOM",
       "company_name": "ExxonMobil Holdings Corporation",
@@ -117,23 +134,6 @@
       "price_at_generation": 141.13,
       "pnl_at_generation": 2.9,
       "archived_at": "2026-07-09T23:49:05.599065"
-    },
-    {
-      "ticker": "XOM",
-      "company_name": "ExxonMobil Holdings Corporation",
-      "action": "Hold",
-      "action_reason": "Position is profitable (+3.31%) and XOM's fundamentals remain healthy despite lack of current technical momentum. With Fear sentiment present, the risk/reward favors holding rather than trimming winners\u2014wait for clearer directional signal or next earnings catalyst.",
-      "target_price": 145.5,
-      "target_reasoning": "",
-      "exit_trigger": "Close below $135 (support break) or RSI falls below 35 on high volume without fundamental deterioration",
-      "add_trigger": "RSI bounces above 60 on volume with energy prices rallying, or positive oil demand forecast",
-      "risk": "Energy volatility (geopolitical, macro demand, rate expectations); lack of momentum could lead to range-bound consolidation",
-      "outlook": "neutral",
-      "timeframe": "3-6 weeks (awaiting next earnings or commodity catalyst)",
-      "generated_at": "2026-07-07T23:32:06.349733",
-      "price_at_generation": 141.69,
-      "pnl_at_generation": 3.31,
-      "archived_at": "2026-07-08T23:40:41.277048"
     }
   ]
 }

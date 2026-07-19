@@ -3,19 +3,36 @@
     "ticker": "MSFT",
     "company_name": "Microsoft Corporation",
     "action": "Hold",
-    "action_reason": "Position is below your 15% loss threshold at -14.14%, triggering your core philosophy to hold major losers. Imminent earnings (13d) is a critical catalyst that could reverse the decline; exiting now locks in losses before this event.",
-    "target_price": 485,
+    "action_reason": "Per philosophy, never exit positions down >15%. Earnings catalyst in 10 days may reignite upside; holding through volatility is the discipline required here.",
+    "target_price": null,
     "target_reasoning": "",
-    "exit_trigger": "If post-earnings guidance disappoints fundamentals or stock breaks below $380 on volume; exit only if position becomes profitable (per your philosophy)",
-    "add_trigger": "Only add if RSI dips below 35 AND positive earnings surprise occurs; otherwise preserve capital given portfolio weight",
-    "risk": "Earnings miss could extend losses further; 21.5% weight amplifies downside impact on portfolio if MSFT declines post-earnings",
-    "outlook": "neutral",
-    "timeframe": "2-3 weeks (through earnings + initial market reaction)",
-    "generated_at": "2026-07-16T23:28:53.636637",
-    "price_at_generation": 401.1,
-    "pnl_at_generation": -14.14
+    "exit_trigger": "Sell only if earnings reveals fundamental deterioration in cloud/AI segments or guidance collapse",
+    "add_trigger": "Add if price breaks below $380 on earnings miss (averaging down before rebound)",
+    "risk": "Earnings miss could extend losses to -20%+; concentration (21.3% weight) amplifies downside if tech sector weakens",
+    "outlook": "cautious",
+    "timeframe": "2-3 weeks (earnings catalyst + post-earnings consolidation period)",
+    "generated_at": "2026-07-19T23:32:24.843718",
+    "price_at_generation": 393.82,
+    "pnl_at_generation": -15.7
   },
   "history": [
+    {
+      "ticker": "MSFT",
+      "company_name": "Microsoft Corporation",
+      "action": "Hold",
+      "action_reason": "Position is below your 15% loss threshold at -14.14%, triggering your core philosophy to hold major losers. Imminent earnings (13d) is a critical catalyst that could reverse the decline; exiting now locks in losses before this event.",
+      "target_price": 485,
+      "target_reasoning": "",
+      "exit_trigger": "If post-earnings guidance disappoints fundamentals or stock breaks below $380 on volume; exit only if position becomes profitable (per your philosophy)",
+      "add_trigger": "Only add if RSI dips below 35 AND positive earnings surprise occurs; otherwise preserve capital given portfolio weight",
+      "risk": "Earnings miss could extend losses further; 21.5% weight amplifies downside impact on portfolio if MSFT declines post-earnings",
+      "outlook": "neutral",
+      "timeframe": "2-3 weeks (through earnings + initial market reaction)",
+      "generated_at": "2026-07-16T23:28:53.636637",
+      "price_at_generation": 401.1,
+      "pnl_at_generation": -14.14,
+      "archived_at": "2026-07-19T23:32:24.843942"
+    },
     {
       "ticker": "MSFT",
       "company_name": "Microsoft Corporation",
@@ -117,23 +134,6 @@
       "price_at_generation": 383.34,
       "pnl_at_generation": -17.95,
       "archived_at": "2026-07-09T23:48:37.205241"
-    },
-    {
-      "ticker": "MSFT",
-      "company_name": "Microsoft Corporation",
-      "action": "Hold",
-      "action_reason": "Position exceeds 15% loss threshold, triggering hold-through-recovery protocol regardless of technicals. Fundamentals intact and RSI neutral (not oversold), preserving recovery optionality without forced exit.",
-      "target_price": 425,
-      "target_reasoning": "",
-      "exit_trigger": "Break below $370 (15% further downside) on volume; or exit only if position recovers to breakeven or better",
-      "add_trigger": "RSI drops below 30 (oversold) + confirmed support at $370 + positive technical crossover (9/21 EMA bullish cross)",
-      "risk": "Continued sector rotation away from mega-cap tech; macro weakness if Fear sentiment escalates; concentration risk (21% weight) amplifies losses",
-      "outlook": "cautious",
-      "timeframe": "4-8 weeks",
-      "generated_at": "2026-07-07T23:31:39.399413",
-      "price_at_generation": 388.84,
-      "pnl_at_generation": -16.77,
-      "archived_at": "2026-07-08T23:40:09.074679"
     }
   ]
 }

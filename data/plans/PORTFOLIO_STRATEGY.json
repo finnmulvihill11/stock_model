@@ -1,25 +1,66 @@
 {
   "current": {
-    "headline": "Portfolio locked in hold mode \u2014 all major losers protected, no new conviction signals despite extreme fear backdrop.",
-    "market_stance": "defensive",
-    "overall_thesis": "Your core philosophy is working: major losers (INTU -37%, MSFT -14.1%, TEM -22.4%) are being held through recovery windows rather than panic-sold. With $1,000 dry powder and Extreme Fear (25) in the market, the setup favors patient accumulation of quality names on stronger technical setups, not forced entries today. ABT earnings catalyst and energy holdings providing small buffer.",
-    "priority_actions": [],
-    "biggest_risk": "INTU concentration (23.8% of portfolio) at -37% P&L creates single-name vulnerability if fundamental thesis deteriorates further. Any negative guidance or guidance miss on next earnings call could force a thesis reconsideration\u2014but hold through it per plan unless fundamentals actually break.",
+    "headline": "Portfolio underwater but holding core thesis through major losers; deploy remaining $1k into oversold mean-reversion setups.",
+    "market_stance": "offensive",
+    "overall_thesis": "VIX at 18.8 and Fear at 28 create textbook mean-reversion environment. INTU, MSFT, and TEM are all >15% underwater\u2014philosophy demands holding these through recovery. Use $1k dry powder to buy into 4-5 oversold quality names (RSI <35) that have 2+ consecutive buy scrapes; these should recover faster and unlock wins while core losers heal over 4-8 weeks via earnings catalysts (MSFT in 10d, TEM in 11d, XOM in 12d).",
+    "priority_actions": [
+      {
+        "rank": 1,
+        "action": "BUY",
+        "ticker": "CDNS",
+        "instruction": "Buy ~13\u201317 shares at market open if RSI remains <30; allocate $400\u2013450. CDNS has RSI 28.6 (deep oversold) and qualifies as textbook mean-reversion. Target 2\u20133 week hold for RSI recovery to 50\u201360.",
+        "urgency": "immediate"
+      },
+      {
+        "rank": 2,
+        "action": "BUY",
+        "ticker": "COHR",
+        "instruction": "Buy ~8\u201310 shares at market open if RSI <35; allocate $300\u2013350. COHR shows persistent Buy signal (2+ consecutive scrapes) with RSI 33.3. Add on any dip below 10-day MA.",
+        "urgency": "immediate"
+      },
+      {
+        "rank": 3,
+        "action": "BUY",
+        "ticker": "CMS",
+        "instruction": "Buy ~5\u20137 shares if price holds above lower Bollinger Band and RSI <35; allocate $150\u2013200. CMS has persistent Buy signal and classic squeeze setup. Lowest conviction of the three, deploy last.",
+        "urgency": "this week"
+      }
+    ],
+    "biggest_risk": "INTU at -37.8% (23.6% portfolio weight) represents single largest underwater position. If it drops >10% further before earnings, portfolio P&L could hit -18% to -20%. However, philosophy demands holding\u2014watch for any fundamental thesis break, not price action alone.",
     "what_to_watch": [
-      "ABT earnings (imminent) \u2014 if beat/raise, validates healthcare mean-reversion thesis; if miss, signals broader weakness",
-      "INTU next earnings \u2014 must confirm no structural revenue decline to justify holding through -37% drawdown",
-      "VIX mean reversion toward 12\u201314 \u2014 would signal fear capitulation and potential relief bounce into your oversold quality holdings",
-      "Tech sector rotation \u2014 if mega-cap tech stabilizes (MSFT RSI 56.3, neutral), your concentration risk eases"
+      "MSFT earnings in 10 days \u2014 major catalyst for +21.3% weighted position; beat could unlock recovery for entire tech sleeve",
+      "TEM earnings in 11 days \u2014 -24% down position needs mean-reversion lift; watch for guidance and backlog commentary",
+      "CDNS, COHR, CMS RSI recovery back above 50 \u2014 signal mean-reversion thesis is working; exit if RSI reverses below entry after 2+ weeks",
+      "Overall market (VIX, Fear gauge) \u2014 if VIX spikes above 22 or Fear drops below 20, mean-reversion window may be closing; reduce new buys"
     ],
     "on_course_check": [
-      "\u2713 Holding major losers >15% without panic (INTU, TEM, MSFT) \u2014 philosophy intact",
-      "\u2713 Profitable positions (XOM +6.4%, OXY +6.5%) held without early trim \u2014 patient",
-      "\u2717 Would revise if INTU or MSFT guidance turns negative (thesis break, not just drawdown) \u2014 watch next earnings closely",
-      "\u2717 Would reassess if VIX spikes above 22 or new market structure breaks \u2014 defensive stance would need re-evaluation"
+      "\u2713 Plan working: MSFT/TEM/INTU showing RSI bounces (>50) while held through >15% drawdowns \u2014 thesis intact, patience rewarded by earnings catalysts",
+      "\u2717 Revise plan if: (1) INTU or TEM break to new 52-week lows before earnings, signaling fundamental deterioration; (2) new buys (CDNS, COHR) fail to bounce RSI above 50 within 3 weeks\u2014exit those immediately to preserve capital for next setup"
     ],
-    "generated_at": "2026-07-16T23:29:46.106283"
+    "generated_at": "2026-07-19T23:33:23.664171"
   },
   "history": [
+    {
+      "headline": "Portfolio locked in hold mode \u2014 all major losers protected, no new conviction signals despite extreme fear backdrop.",
+      "market_stance": "defensive",
+      "overall_thesis": "Your core philosophy is working: major losers (INTU -37%, MSFT -14.1%, TEM -22.4%) are being held through recovery windows rather than panic-sold. With $1,000 dry powder and Extreme Fear (25) in the market, the setup favors patient accumulation of quality names on stronger technical setups, not forced entries today. ABT earnings catalyst and energy holdings providing small buffer.",
+      "priority_actions": [],
+      "biggest_risk": "INTU concentration (23.8% of portfolio) at -37% P&L creates single-name vulnerability if fundamental thesis deteriorates further. Any negative guidance or guidance miss on next earnings call could force a thesis reconsideration\u2014but hold through it per plan unless fundamentals actually break.",
+      "what_to_watch": [
+        "ABT earnings (imminent) \u2014 if beat/raise, validates healthcare mean-reversion thesis; if miss, signals broader weakness",
+        "INTU next earnings \u2014 must confirm no structural revenue decline to justify holding through -37% drawdown",
+        "VIX mean reversion toward 12\u201314 \u2014 would signal fear capitulation and potential relief bounce into your oversold quality holdings",
+        "Tech sector rotation \u2014 if mega-cap tech stabilizes (MSFT RSI 56.3, neutral), your concentration risk eases"
+      ],
+      "on_course_check": [
+        "\u2713 Holding major losers >15% without panic (INTU, TEM, MSFT) \u2014 philosophy intact",
+        "\u2713 Profitable positions (XOM +6.4%, OXY +6.5%) held without early trim \u2014 patient",
+        "\u2717 Would revise if INTU or MSFT guidance turns negative (thesis break, not just drawdown) \u2014 watch next earnings closely",
+        "\u2717 Would reassess if VIX spikes above 22 or new market structure breaks \u2014 defensive stance would need re-evaluation"
+      ],
+      "generated_at": "2026-07-16T23:29:46.106283",
+      "archived_at": "2026-07-19T23:33:23.664440"
+    },
     {
       "headline": "Portfolio holding steady through drawdowns; extreme fear creates future opportunity but no strong signals today.",
       "market_stance": "neutral",
@@ -187,42 +228,6 @@
       ],
       "generated_at": "2026-07-08T23:41:17.044931",
       "archived_at": "2026-07-09T23:49:42.527768"
-    },
-    {
-      "headline": "Portfolio anchored by major losses (INTU -40%, MSFT -16.8%) \u2014 hold through recovery; deploy remaining $1k into high-conviction mean-reversion setups.",
-      "market_stance": "offensive",
-      "overall_thesis": "Your core thesis is intact: hold underwater quality names (INTU, MSFT) through their recoveries while systematically buying oversold opportunities at RSI <40 for mean-reversion gains. With $1k dry powder and Fear index at 27, this is the ideal environment to add tactical longs on screened names showing textbook oversold technicals. Earnings catalysts (ABT, CMG) and oil momentum (OXY) provide near-term upside optionality on existing positions.",
-      "priority_actions": [
-        {
-          "rank": 1,
-          "action": "BUY",
-          "ticker": "IRM",
-          "instruction": "Buy ~40\u201350 shares at market or on any dip to RSI 35\u201336 zone. IRM is in deep oversold (RSI 35.9) with persistent 2+ scrape Buy signal \u2014 textbook mean-reversion setup. Commit $600\u2013700 of available $1k.",
-          "urgency": "immediate"
-        },
-        {
-          "rank": 2,
-          "action": "BUY",
-          "ticker": "DLR",
-          "instruction": "Buy ~25\u201335 shares at market or on dip. DLR flashing oversold RSI 33.3 with persistent Buy signal \u2014 strong mean-reversion candidate. Deploy remaining $300\u2013400.",
-          "urgency": "this week"
-        }
-      ],
-      "biggest_risk": "INTU and MSFT combined represent 43.8% of portfolio and are down -40% and -16.8% respectively. While you are philosophically committed to hold-through-recovery, a macro shock (recession signal, tech earnings surprise) could extend their drawdowns further before reversal. Monitor for any thesis-breaking news (competitive disruption, guidance cuts).",
-      "what_to_watch": [
-        "ABT earnings catalyst (upcoming) \u2014 profitable near-term upside on existing 5.2% position",
-        "CMG earnings catalyst (upcoming) \u2014 +9.2% position could accelerate higher if beat",
-        "OXY earnings in 29d \u2014 oil catalysts and supply data could drive energy sector rotation",
-        "VIX and macro risk-off signals \u2014 if Fear index spikes above 40\u201350, avoid new buys and preserve dry powder",
-        "INTU/MSFT technical recovery levels \u2014 watch for RSI crosses back above 50 and Bollinger Band mean-reversion moves as recovery signals"
-      ],
-      "on_course_check": [
-        "\u2713 Portfolio staying true to mean-reversion thesis: holding major losers, deploying on oversold bounces",
-        "\u2713 Cash discipline maintained: only moving on Strong Buy signals, not forcing trades",
-        "\u26a0 Monitor: if INTU or MSFT break below recent lows on high volume, thesis integrity is questioned and you may need to reassess hold-through-recovery commitment"
-      ],
-      "generated_at": "2026-07-07T23:32:31.799784",
-      "archived_at": "2026-07-08T23:41:17.045231"
     }
   ]
 }

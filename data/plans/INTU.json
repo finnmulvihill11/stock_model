@@ -3,19 +3,36 @@
     "ticker": "INTU",
     "company_name": "Intuit Inc.",
     "action": "Hold",
-    "action_reason": "Position down >15% triggers hold-through policy regardless of technicals. Fundamentals remain healthy and earnings cycle reset in ~10 months provides recovery window. RSI neutral (not oversold) indicates patience required.",
-    "target_price": 420,
+    "action_reason": "Position is >15% underwater, which triggers your philosophy rule to hold and let recovery play out. Fundamentals remain healthy, and VIX neutrality suggests selling is not panic-driven. Wait for RSI to compress below 40 or capitulation signal before considering adds.",
+    "target_price": 385,
     "target_reasoning": "",
-    "exit_trigger": "Breach of $250 support or material deterioration in fundamentals (guidance cuts, market share loss, subscription churn acceleration)",
-    "add_trigger": "Oversold RSI <30 during broad market strength + confirmed technical support bounce",
-    "risk": "Continued software sector rotation away from SaaS growth names; potential macro slowdown impacting SMB/consumer tax/accounting spending",
+    "exit_trigger": "Deteriorating fundamentals (earnings miss, guidance cut) OR technical break below $280 (support) on volume.",
+    "add_trigger": "RSI drops below 30 (oversold) + VIX spike >22 OR stock stabilizes 5+ days above $310 with RSI recovery above 60.",
+    "risk": "Further downside if macro softens or Q2/Q3 guidance disappoints; concentration (23.6%) amplifies losses if INTU re-tests lows.",
     "outlook": "cautious",
-    "timeframe": "4-8 weeks minimum; monitor next earnings cycle (Jan 2026) for inflection",
-    "generated_at": "2026-07-16T23:28:47.534466",
-    "price_at_generation": 294.79,
-    "pnl_at_generation": -37.05
+    "timeframe": "4-8 weeks",
+    "generated_at": "2026-07-19T23:32:18.726888",
+    "price_at_generation": 291.09,
+    "pnl_at_generation": -37.84
   },
   "history": [
+    {
+      "ticker": "INTU",
+      "company_name": "Intuit Inc.",
+      "action": "Hold",
+      "action_reason": "Position down >15% triggers hold-through policy regardless of technicals. Fundamentals remain healthy and earnings cycle reset in ~10 months provides recovery window. RSI neutral (not oversold) indicates patience required.",
+      "target_price": 420,
+      "target_reasoning": "",
+      "exit_trigger": "Breach of $250 support or material deterioration in fundamentals (guidance cuts, market share loss, subscription churn acceleration)",
+      "add_trigger": "Oversold RSI <30 during broad market strength + confirmed technical support bounce",
+      "risk": "Continued software sector rotation away from SaaS growth names; potential macro slowdown impacting SMB/consumer tax/accounting spending",
+      "outlook": "cautious",
+      "timeframe": "4-8 weeks minimum; monitor next earnings cycle (Jan 2026) for inflection",
+      "generated_at": "2026-07-16T23:28:47.534466",
+      "price_at_generation": 294.79,
+      "pnl_at_generation": -37.05,
+      "archived_at": "2026-07-19T23:32:18.727122"
+    },
     {
       "ticker": "INTU",
       "company_name": "Intuit Inc.",
@@ -117,23 +134,6 @@
       "price_at_generation": 272.1,
       "pnl_at_generation": -41.89,
       "archived_at": "2026-07-09T23:48:29.828862"
-    },
-    {
-      "ticker": "INTU",
-      "company_name": "Intuit Inc.",
-      "action": "Hold",
-      "action_reason": "Per your philosophy, never exit positions down >15%. Hold through recovery but monitor for add/exit triggers given the 39.96% loss and concentration risk.",
-      "target_price": 520,
-      "target_reasoning": "",
-      "exit_trigger": "Position recovers to breakeven ($468.29) or RSI breaks above 70 on strong volume with positive earnings catalyst",
-      "add_trigger": "RSI breaks below 30 with confirmed support, or accumulate if INTU reports strong quarter beat and guides higher within 6 weeks",
-      "risk": "Further sector rotation away from software/SaaS; macro headwinds delaying software spending; position concentration amplifies loss if weakness continues",
-      "outlook": "cautious",
-      "timeframe": "4-8 weeks (next earnings cycle for potential recovery catalyst)",
-      "generated_at": "2026-07-07T23:31:31.135032",
-      "price_at_generation": 281.17,
-      "pnl_at_generation": -39.96,
-      "archived_at": "2026-07-08T23:39:59.699826"
     }
   ]
 }

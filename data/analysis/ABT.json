@@ -4,53 +4,54 @@
     "ticker": "ABT",
     "direction": "hold",
     "tier": "Hold",
-    "buy_score": 0.38,
+    "buy_score": 0.25,
     "sell_score": 0.43,
     "reasons": [],
     "misses": [
-      "BB: price not near lower band (pct=1.07)",
+      "BB: price not near lower band (pct=1.09)",
       "BB Width: bands expanding, not squeezing",
-      "RSI: not in buy zone (64.9, need 20-40)",
+      "RSI: not in buy zone (67.3, need 20-40)",
+      "MACD: no bullish crossover or valley",
       "RSI Divergence: no bullish divergence detected",
       "200MA: price below 200MA \u2014 potential falling knife"
     ],
-    "price": 98.83,
-    "rsi": 64.9,
-    "atr": 3.2,
+    "price": 100.68,
+    "rsi": 67.3,
+    "atr": 3.29,
     "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 1,
-      "suggested_dollars": 98.83,
-      "note": "1 sh @ $98.83 = $99 (Hold, 60% size) | $725 swing budget after"
+      "suggested_dollars": 100.68,
+      "note": "1 sh @ $100.68 = $101 (Hold, 60% size) | $723 swing budget after"
     }
   },
   "fundamentals": {
     "ticker": "ABT",
     "health": "healthy",
     "passed": [
-      "Revenue growing YoY (+7.8%)",
+      "Revenue growing YoY (+13.0%)",
       "Debt-to-equity acceptable (0.6x)",
-      "Profitable (margin 13.9%)"
+      "Profitable (margin 11.6%)"
     ],
     "flags": [],
-    "revenue_growth": 0.078,
+    "revenue_growth": 0.13,
     "de_ratio": 64.773,
-    "profit_margins": 0.13904999
+    "profit_margins": 0.116450004
   },
   "earnings": {
-    "proceed": false,
-    "reason": "Earnings in 0 days \u2014 wait for results before acting",
+    "proceed": true,
+    "reason": "Fundamentals intact \u2014 dip may be an overreaction",
     "verdict": {
       "ticker": "ABT",
       "verdict": "consider",
       "reason": "Fundamentals intact \u2014 dip may be an overreaction",
       "notes": [
-        "Earnings declining YoY (-19.7%)",
-        "Revenue growing (+7.8%)"
+        "Earnings declining YoY (-47.5%)",
+        "Revenue growing (+13.0%)"
       ],
-      "earnings_status": "imminent",
+      "earnings_status": "past",
       "next_earnings_date": "2026-07-16",
-      "days_to_earnings": 0
+      "days_to_earnings": -3
     }
   },
   "news": {
@@ -58,33 +59,34 @@
     "sentiment": "neutral",
     "health": "healthy",
     "key_events": [
-      "Imminent earnings announcement",
-      "Extreme Fear market sentiment (contrarian bullish signal)",
-      "VIX 16.7 indicates stable volatility environment"
+      "Earnings reported 3 days ago",
+      "Post-earnings pullback underway",
+      "VIX at neutral levels (18.8)",
+      "Market sentiment shifted to Fear & Greed"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "9.97% unrealized loss approaching concerning territory",
-      "RSI 64.9 shows overbought conditions on recovery attempts",
-      "No technical firing signals despite neutral technicals"
+      "8.28% drawdown post-earnings suggests weak market reception or profit-taking",
+      "RSI at 67.3 indicates overbought conditions prior to pullback",
+      "No technical firing signals\u2014momentum has stalled"
     ],
-    "verdict": "Healthy fundamentals and extreme fear sentiment provide accumulation opportunity, but hold pending earnings clarity.",
+    "verdict": "ABT experiencing typical post-earnings consolidation; fundamentals remain solid but technical setup deteriorated.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "ABT",
-    "stock_return_3m": -1.99,
-    "benchmark_return_3m": 7.53,
-    "relative_strength": -9.53,
-    "label": "underperforming"
+    "stock_return_3m": 6.21,
+    "benchmark_return_3m": 6.21,
+    "relative_strength": 0.0,
+    "label": "in-line"
   },
   "final_tier": "Hold",
   "sizing": {
     "suggested_shares": 1,
-    "suggested_dollars": 98.83,
-    "note": "1 sh @ $98.83 = $99 (Hold, 60% size) | $725 swing budget after"
+    "suggested_dollars": 100.68,
+    "note": "1 sh @ $100.68 = $101 (Hold, 60% size) | $723 swing budget after"
   },
   "is_dca": false,
-  "saved_at": "2026-07-16T23:29:00.599536"
+  "saved_at": "2026-07-19T23:32:32.317521"
 }

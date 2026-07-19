@@ -4,23 +4,22 @@
     "ticker": "WMT",
     "direction": "hold",
     "tier": "Hold",
-    "buy_score": 0.5,
-    "sell_score": 0.14,
+    "buy_score": 0.62,
+    "sell_score": 0.29,
     "reasons": [],
     "misses": [
-      "BB: price not near lower band (pct=0.55)",
-      "RSI: not in buy zone (48.1, need 20-40)",
-      "MACD: no bullish crossover or valley",
-      "Volume: below average (0.89x) \u2014 low conviction"
+      "BB: price not near lower band (pct=0.50)",
+      "RSI: not in buy zone (46.4, need 20-40)",
+      "MACD: no bullish crossover or valley"
     ],
-    "price": 114.95,
-    "rsi": 48.1,
-    "atr": 2.78,
+    "price": 114.24,
+    "rsi": 46.4,
+    "atr": 2.9,
     "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 1,
-      "suggested_dollars": 114.95,
-      "note": "1 sh @ $114.95 = $115 (Hold, 60% size) | $708 swing budget after"
+      "suggested_dollars": 114.24,
+      "note": "1 sh @ $114.24 = $114 (Hold, 60% size) | $709 swing budget after"
     }
   },
   "fundamentals": {
@@ -49,7 +48,7 @@
       ],
       "earnings_status": "distant",
       "next_earnings_date": "2026-08-20",
-      "days_to_earnings": 35
+      "days_to_earnings": 32
     }
   },
   "news": {
@@ -58,29 +57,32 @@
     "health": "healthy",
     "key_events": [
       "No recent news items provided for analysis",
-      "Earnings 35 days out provides medium-term catalyst",
-      "VIX at 16.7 indicates stable market conditions",
-      "Extreme Fear gauge suggests potential oversold conditions in broader market"
+      "Earnings report 32 days away (material event horizon)",
+      "Position up +2.23% with modest gains"
     ],
     "macro_context": "",
     "competitive_notes": "",
-    "red_flags": [],
-    "verdict": "WMT in healthy condition with modest gains; hold position and await earnings catalyst or technical confirmation before adding.",
+    "red_flags": [
+      "RSI at 46.4 shows no momentum firing (neutral zone, neither overbought nor oversold)",
+      "Fear gauge active despite neutral VIX\u2014sentiment disconnect",
+      "No technical catalyst identified for swing trade continuation"
+    ],
+    "verdict": "Walmart is fundamentally healthy but lacks near-term swing catalysts; hold through pre-earnings consolidation.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "WMT",
-    "stock_return_3m": -7.69,
-    "benchmark_return_3m": 7.53,
-    "relative_strength": -15.22,
+    "stock_return_3m": -8.3,
+    "benchmark_return_3m": 6.21,
+    "relative_strength": -14.51,
     "label": "underperforming"
   },
   "final_tier": "Hold",
   "sizing": {
     "suggested_shares": 1,
-    "suggested_dollars": 114.95,
-    "note": "1 sh @ $114.95 = $115 (Hold, 60% size) | $708 swing budget after"
+    "suggested_dollars": 114.24,
+    "note": "1 sh @ $114.24 = $114 (Hold, 60% size) | $709 swing budget after"
   },
   "is_dca": false,
-  "saved_at": "2026-07-16T23:29:28.681260"
+  "saved_at": "2026-07-19T23:33:01.223320"
 }
