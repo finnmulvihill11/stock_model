@@ -3,28 +3,48 @@
     "DECK": {
       "ticker": "DECK",
       "added_date": "2026-05-10",
-      "last_updated": "2026-07-15T15:02:12.808208",
+      "last_updated": "2026-07-19T22:43:08.315198",
       "reason": "Persistent Buy signal \u2014 active 2+ consecutive scrapes (score 75%)",
       "latest_signal": {
         "ticker": "DECK",
         "direction": "hold",
         "tier": "Hold",
         "buy_score": 0.38,
-        "sell_score": 0.14,
+        "sell_score": 0.29,
         "reasons": [],
         "misses": [
-          "BB: price not near lower band (pct=0.70)",
-          "RSI: not in buy zone (54.2, need 20-40)",
+          "BB: price not near lower band (pct=0.65)",
+          "RSI: not in buy zone (51.0, need 20-40)",
           "MACD: no bullish crossover or valley",
           "RSI Divergence: no bullish divergence detected",
-          "Volume: below average (0.10x) \u2014 low conviction"
+          "Volume: below average (0.76x) \u2014 low conviction"
         ],
-        "price": 107.9,
-        "rsi": 54.2,
-        "atr": 3.75,
+        "price": 106.49,
+        "rsi": 51.0,
+        "atr": 3.7,
         "final_tier": "Hold"
       },
       "signal_history": [
+        {
+          "ticker": "DECK",
+          "direction": "hold",
+          "tier": "Hold",
+          "buy_score": 0.38,
+          "sell_score": 0.14,
+          "reasons": [],
+          "misses": [
+            "BB: price not near lower band (pct=0.70)",
+            "RSI: not in buy zone (54.2, need 20-40)",
+            "MACD: no bullish crossover or valley",
+            "RSI Divergence: no bullish divergence detected",
+            "Volume: below average (0.10x) \u2014 low conviction"
+          ],
+          "price": 107.9,
+          "rsi": 54.2,
+          "atr": 3.75,
+          "final_tier": "Hold",
+          "recorded_at": "2026-07-15T15:02:12.808208"
+        },
         {
           "ticker": "DECK",
           "direction": "hold",
@@ -209,28 +229,47 @@
     "GRMN": {
       "ticker": "GRMN",
       "added_date": "2026-05-10",
-      "last_updated": "2026-07-15T15:02:16.380558",
+      "last_updated": "2026-07-19T22:43:11.753718",
       "reason": "Persistent Buy signal \u2014 active 2+ consecutive scrapes (score 88%)",
       "latest_signal": {
         "ticker": "GRMN",
         "direction": "hold",
         "tier": "Hold",
-        "buy_score": 0.38,
+        "buy_score": 0.5,
         "sell_score": 0.43,
         "reasons": [],
         "misses": [
-          "BB: price not near lower band (pct=0.81)",
-          "RSI: not in buy zone (57.7, need 20-40)",
+          "BB: price not near lower band (pct=0.91)",
+          "RSI: not in buy zone (61.1, need 20-40)",
           "MACD: no bullish crossover or valley",
-          "RSI Divergence: no bullish divergence detected",
-          "Volume: below average (0.11x) \u2014 low conviction"
+          "RSI Divergence: no bullish divergence detected"
         ],
-        "price": 245.21,
-        "rsi": 57.7,
-        "atr": 6.54,
+        "price": 249.56,
+        "rsi": 61.1,
+        "atr": 5.84,
         "final_tier": "Hold"
       },
       "signal_history": [
+        {
+          "ticker": "GRMN",
+          "direction": "hold",
+          "tier": "Hold",
+          "buy_score": 0.38,
+          "sell_score": 0.43,
+          "reasons": [],
+          "misses": [
+            "BB: price not near lower band (pct=0.81)",
+            "RSI: not in buy zone (57.7, need 20-40)",
+            "MACD: no bullish crossover or valley",
+            "RSI Divergence: no bullish divergence detected",
+            "Volume: below average (0.11x) \u2014 low conviction"
+          ],
+          "price": 245.21,
+          "rsi": 57.7,
+          "atr": 6.54,
+          "final_tier": "Hold",
+          "recorded_at": "2026-07-15T15:02:16.380558"
+        },
         {
           "ticker": "GRMN",
           "direction": "hold",
@@ -515,50 +554,6 @@
           "atr": 6.05,
           "final_tier": "Watch",
           "recorded_at": "2026-05-31T23:10:08.522458"
-        },
-        {
-          "ticker": "GRMN",
-          "direction": "buy",
-          "tier": "Watch",
-          "buy_score": 0.62,
-          "sell_score": 0.43,
-          "reasons": [
-            "BB Width: squeeze active (width=0.0863)",
-            "RSI Divergence: Price lower low (225.75 < 234.64) but RSI higher low (26.7 > 19.0)",
-            "200MA: price at/above 200MA (233.92 vs 227.52)",
-            "Golden cross: 50MA (244.54) above 200MA (227.52)",
-            "Volume: above average (2.28x)"
-          ],
-          "misses": [
-            "BB: price not near lower band (pct=0.37)",
-            "RSI: not in buy zone (43.2, need 20-30)",
-            "MACD: no bullish crossover or valley"
-          ],
-          "price": 233.92,
-          "rsi": 43.2,
-          "atr": 6.05,
-          "relative_strength": -17.7,
-          "rs_label": "underperforming",
-          "final_tier": "Watch",
-          "earnings_gate": {
-            "proceed": true,
-            "reason": "Fundamentals intact \u2014 dip may be an overreaction",
-            "verdict": {
-              "ticker": "GRMN",
-              "verdict": "consider",
-              "reason": "Fundamentals intact \u2014 dip may be an overreaction",
-              "notes": [
-                "Earnings growing YoY (+21.5%)",
-                "Revenue growing (+14.2%)"
-              ],
-              "earnings_status": "past",
-              "next_earnings_date": "2026-04-29",
-              "days_to_earnings": -32
-            }
-          },
-          "news_sentiment": "neutral",
-          "signal_streak": 0,
-          "recorded_at": "2026-05-31T23:03:57.469084"
         }
       ],
       "status": "watching"
@@ -566,28 +561,49 @@
     "TPL": {
       "ticker": "TPL",
       "added_date": "2026-05-10",
-      "last_updated": "2026-07-15T15:02:23.879145",
+      "last_updated": "2026-07-19T22:43:15.476659",
       "reason": "Persistent Buy signal \u2014 active 2+ consecutive scrapes (score 88%)",
       "latest_signal": {
         "ticker": "TPL",
         "direction": "hold",
         "tier": "Hold",
-        "buy_score": 0.38,
-        "sell_score": 0.0,
+        "buy_score": 0.25,
+        "sell_score": 0.14,
         "reasons": [],
         "misses": [
-          "BB: price not near lower band (pct=0.74)",
+          "BB: price not near lower band (pct=0.69)",
           "BB Width: bands expanding, not squeezing",
           "RSI: not in buy zone (57.7, need 20-40)",
           "MACD: no bullish crossover or valley",
-          "Volume: below average (0.06x) \u2014 low conviction"
+          "RSI Divergence: no bullish divergence detected",
+          "Volume: below average (0.76x) \u2014 low conviction"
         ],
-        "price": 414.48,
+        "price": 415.7,
         "rsi": 57.7,
-        "atr": 17.91,
+        "atr": 17.92,
         "final_tier": "Hold"
       },
       "signal_history": [
+        {
+          "ticker": "TPL",
+          "direction": "hold",
+          "tier": "Hold",
+          "buy_score": 0.38,
+          "sell_score": 0.0,
+          "reasons": [],
+          "misses": [
+            "BB: price not near lower band (pct=0.74)",
+            "BB Width: bands expanding, not squeezing",
+            "RSI: not in buy zone (57.7, need 20-40)",
+            "MACD: no bullish crossover or valley",
+            "Volume: below average (0.06x) \u2014 low conviction"
+          ],
+          "price": 414.48,
+          "rsi": 57.7,
+          "atr": 17.91,
+          "final_tier": "Hold",
+          "recorded_at": "2026-07-15T15:02:23.879145"
+        },
         {
           "ticker": "TPL",
           "direction": "hold",
@@ -863,50 +879,6 @@
           "atr": 15.19,
           "final_tier": "Watch",
           "recorded_at": "2026-05-31T23:10:08.552849"
-        },
-        {
-          "ticker": "TPL",
-          "direction": "buy",
-          "tier": "Watch",
-          "buy_score": 0.5,
-          "sell_score": 0.43,
-          "reasons": [
-            "BB Width: squeeze active (width=0.1486)",
-            "200MA: price at/above 200MA (393.00 vs 365.63)",
-            "Golden cross: 50MA (434.65) above 200MA (365.63)",
-            "Volume: above average (3.09x)"
-          ],
-          "misses": [
-            "BB: price not near lower band (pct=0.34)",
-            "RSI: not in buy zone (49.2, need 20-30)",
-            "MACD: no bullish crossover or valley",
-            "RSI Divergence: no bullish divergence detected"
-          ],
-          "price": 393.0,
-          "rsi": 49.2,
-          "atr": 15.19,
-          "relative_strength": -35.53,
-          "rs_label": "underperforming",
-          "final_tier": "Watch",
-          "earnings_gate": {
-            "proceed": true,
-            "reason": "Fundamentals intact \u2014 dip may be an overreaction",
-            "verdict": {
-              "ticker": "TPL",
-              "verdict": "consider",
-              "reason": "Fundamentals intact \u2014 dip may be an overreaction",
-              "notes": [
-                "Earnings growing YoY (+18.3%)",
-                "Revenue growing (+20.8%)"
-              ],
-              "earnings_status": "past",
-              "next_earnings_date": "2026-05-06",
-              "days_to_earnings": -25
-            }
-          },
-          "news_sentiment": "neutral",
-          "signal_streak": 0,
-          "recorded_at": "2026-05-31T23:09:05.851487"
         }
       ],
       "status": "watching"
@@ -914,28 +886,49 @@
     "PCG": {
       "ticker": "PCG",
       "added_date": "2026-05-10",
-      "last_updated": "2026-07-15T15:02:30.444623",
+      "last_updated": "2026-07-19T22:43:20.149639",
       "reason": "Persistent Buy signal \u2014 active 2+ consecutive scrapes (score 75%)",
       "latest_signal": {
         "ticker": "PCG",
         "direction": "hold",
         "tier": "Hold",
-        "buy_score": 0.38,
-        "sell_score": 0.43,
+        "buy_score": 0.25,
+        "sell_score": 0.29,
         "reasons": [],
         "misses": [
-          "BB: price not near lower band (pct=0.94)",
-          "RSI: not in buy zone (60.9, need 20-40)",
+          "BB: price not near lower band (pct=0.70)",
+          "BB Width: bands expanding, not squeezing",
+          "RSI: not in buy zone (56.1, need 20-40)",
           "MACD: no bullish crossover or valley",
           "RSI Divergence: no bullish divergence detected",
-          "Volume: below average (0.15x) \u2014 low conviction"
+          "Volume: below average (0.82x) \u2014 low conviction"
         ],
-        "price": 17.52,
-        "rsi": 60.9,
-        "atr": 0.35,
+        "price": 17.32,
+        "rsi": 56.1,
+        "atr": 0.38,
         "final_tier": "Hold"
       },
       "signal_history": [
+        {
+          "ticker": "PCG",
+          "direction": "hold",
+          "tier": "Hold",
+          "buy_score": 0.38,
+          "sell_score": 0.43,
+          "reasons": [],
+          "misses": [
+            "BB: price not near lower band (pct=0.94)",
+            "RSI: not in buy zone (60.9, need 20-40)",
+            "MACD: no bullish crossover or valley",
+            "RSI Divergence: no bullish divergence detected",
+            "Volume: below average (0.15x) \u2014 low conviction"
+          ],
+          "price": 17.52,
+          "rsi": 60.9,
+          "atr": 0.35,
+          "final_tier": "Hold",
+          "recorded_at": "2026-07-15T15:02:30.444623"
+        },
         {
           "ticker": "PCG",
           "direction": "hold",
@@ -1216,50 +1209,6 @@
           "atr": 0.46,
           "final_tier": "Watch",
           "recorded_at": "2026-05-31T23:10:08.583609"
-        },
-        {
-          "ticker": "PCG",
-          "direction": "buy",
-          "tier": "Watch",
-          "buy_score": 0.62,
-          "sell_score": 0.43,
-          "reasons": [
-            "BB Width: squeeze active (width=0.0570)",
-            "RSI Divergence: Price lower low (15.85 < 16.07) but RSI higher low (43.7 > 21.4)",
-            "200MA: price at/above 200MA (16.34 vs 16.26)",
-            "Golden cross: 50MA (16.96) above 200MA (16.26)",
-            "Volume: above average (1.32x)"
-          ],
-          "misses": [
-            "BB: price not near lower band (pct=0.48)",
-            "RSI: not in buy zone (53.9, need 20-30)",
-            "MACD: no bullish crossover or valley"
-          ],
-          "price": 16.34,
-          "rsi": 53.9,
-          "atr": 0.46,
-          "relative_strength": -24.33,
-          "rs_label": "underperforming",
-          "final_tier": "Watch",
-          "earnings_gate": {
-            "proceed": true,
-            "reason": "Fundamentals intact \u2014 dip may be an overreaction",
-            "verdict": {
-              "ticker": "PCG",
-              "verdict": "consider",
-              "reason": "Fundamentals intact \u2014 dip may be an overreaction",
-              "notes": [
-                "Earnings growing YoY (+39.8%)",
-                "Revenue growing (+15.0%)"
-              ],
-              "earnings_status": "past",
-              "next_earnings_date": "2026-04-23",
-              "days_to_earnings": -38
-            }
-          },
-          "news_sentiment": "neutral",
-          "signal_streak": 0,
-          "recorded_at": "2026-05-31T23:06:59.875504"
         }
       ],
       "status": "watching"
@@ -1267,28 +1216,48 @@
     "EXPE": {
       "ticker": "EXPE",
       "added_date": "2026-05-10",
-      "last_updated": "2026-07-15T15:02:35.006639",
+      "last_updated": "2026-07-19T22:43:23.804265",
       "reason": "Persistent Buy signal \u2014 active 2+ consecutive scrapes (score 75%)",
       "latest_signal": {
         "ticker": "EXPE",
         "direction": "hold",
         "tier": "Hold",
         "buy_score": 0.38,
-        "sell_score": 0.43,
+        "sell_score": 0.29,
         "reasons": [],
         "misses": [
-          "BB: price not near lower band (pct=0.74)",
-          "RSI: not in buy zone (60.5, need 20-40)",
+          "BB: price not near lower band (pct=0.68)",
+          "RSI: not in buy zone (59.8, need 20-40)",
           "MACD: no bullish crossover or valley",
           "RSI Divergence: no bullish divergence detected",
-          "Volume: below average (0.15x) \u2014 low conviction"
+          "Volume: below average (0.97x) \u2014 low conviction"
         ],
-        "price": 268.89,
-        "rsi": 60.5,
-        "atr": 11.61,
+        "price": 268.77,
+        "rsi": 59.8,
+        "atr": 9.98,
         "final_tier": "Hold"
       },
       "signal_history": [
+        {
+          "ticker": "EXPE",
+          "direction": "hold",
+          "tier": "Hold",
+          "buy_score": 0.38,
+          "sell_score": 0.43,
+          "reasons": [],
+          "misses": [
+            "BB: price not near lower band (pct=0.74)",
+            "RSI: not in buy zone (60.5, need 20-40)",
+            "MACD: no bullish crossover or valley",
+            "RSI Divergence: no bullish divergence detected",
+            "Volume: below average (0.15x) \u2014 low conviction"
+          ],
+          "price": 268.89,
+          "rsi": 60.5,
+          "atr": 11.61,
+          "final_tier": "Hold",
+          "recorded_at": "2026-07-15T15:02:35.006639"
+        },
         {
           "ticker": "EXPE",
           "direction": "hold",
@@ -1566,30 +1535,6 @@
           "atr": 10.2,
           "final_tier": "Hold",
           "recorded_at": "2026-05-24T23:03:01.802048"
-        },
-        {
-          "ticker": "EXPE",
-          "direction": "buy",
-          "tier": "Hold",
-          "buy_score": 0.38,
-          "sell_score": 0.14,
-          "reasons": [
-            "BB: price near lower band (pct=0.13)",
-            "MACD: histogram at valley / turning up",
-            "Golden cross: 50MA (239.24) above 200MA (237.27)"
-          ],
-          "misses": [
-            "BB Width: bands expanding, not squeezing",
-            "RSI: not in buy zone (30.1, need 20-30)",
-            "RSI Divergence: no bullish divergence detected",
-            "200MA: price below 200MA \u2014 potential falling knife",
-            "Volume: below average (0.79x) \u2014 low conviction"
-          ],
-          "price": 217.73,
-          "rsi": 30.1,
-          "atr": 10.17,
-          "final_tier": "Hold",
-          "recorded_at": "2026-05-17T23:29:30.110510"
         }
       ],
       "status": "watching"
@@ -1597,7 +1542,7 @@
     "WM": {
       "ticker": "WM",
       "added_date": "2026-05-10",
-      "last_updated": "2026-07-15T15:02:39.993545",
+      "last_updated": "2026-07-19T22:43:28.204556",
       "reason": "Persistent Buy signal \u2014 active 2+ consecutive scrapes (score 75%)",
       "latest_signal": {
         "ticker": "WM",
@@ -1607,19 +1552,40 @@
         "sell_score": 0.43,
         "reasons": [],
         "misses": [
-          "BB: price not near lower band (pct=0.85)",
+          "BB: price not near lower band (pct=0.84)",
           "BB Width: bands expanding, not squeezing",
-          "RSI: not in buy zone (64.7, need 20-40)",
+          "RSI: not in buy zone (63.1, need 20-40)",
           "MACD: no bullish crossover or valley",
           "RSI Divergence: no bullish divergence detected",
-          "Volume: below average (0.10x) \u2014 low conviction"
+          "Volume: below average (0.97x) \u2014 low conviction"
         ],
-        "price": 236.35,
-        "rsi": 64.7,
-        "atr": 4.87,
+        "price": 239.31,
+        "rsi": 63.1,
+        "atr": 5.49,
         "final_tier": "Hold"
       },
       "signal_history": [
+        {
+          "ticker": "WM",
+          "direction": "hold",
+          "tier": "Hold",
+          "buy_score": 0.25,
+          "sell_score": 0.43,
+          "reasons": [],
+          "misses": [
+            "BB: price not near lower band (pct=0.85)",
+            "BB Width: bands expanding, not squeezing",
+            "RSI: not in buy zone (64.7, need 20-40)",
+            "MACD: no bullish crossover or valley",
+            "RSI Divergence: no bullish divergence detected",
+            "Volume: below average (0.10x) \u2014 low conviction"
+          ],
+          "price": 236.35,
+          "rsi": 64.7,
+          "atr": 4.87,
+          "final_tier": "Hold",
+          "recorded_at": "2026-07-15T15:02:39.993545"
+        },
         {
           "ticker": "WM",
           "direction": "hold",
@@ -1950,30 +1916,6 @@
           "news_sentiment": "neutral",
           "signal_streak": 1,
           "recorded_at": "2026-06-04T03:31:02.374083"
-        },
-        {
-          "ticker": "WM",
-          "direction": "buy",
-          "tier": "Buy",
-          "buy_score": 0.75,
-          "sell_score": 0.43,
-          "reasons": [
-            "BB Width: squeeze active (width=0.0616)",
-            "MACD: histogram at valley / turning up",
-            "RSI Divergence: Price lower low (214.11 < 223.42) but RSI higher low (39.1 > 37.0)",
-            "200MA: price at/above 200MA (218.00 vs 220.76)",
-            "Golden cross: 50MA (223.90) above 200MA (220.76)",
-            "Volume: above average (1.06x)"
-          ],
-          "misses": [
-            "BB: price not near lower band (pct=0.56)",
-            "RSI: not in buy zone (53.0, need 20-30)"
-          ],
-          "price": 218.0,
-          "rsi": 53.0,
-          "atr": 3.8,
-          "final_tier": "Buy",
-          "recorded_at": "2026-06-04T03:29:38.544721"
         }
       ],
       "status": "watching"
@@ -1981,28 +1923,47 @@
     "APH": {
       "ticker": "APH",
       "added_date": "2026-05-10",
-      "last_updated": "2026-07-15T15:02:44.261712",
+      "last_updated": "2026-07-19T22:43:33.043379",
       "reason": "Persistent Buy signal \u2014 active 2+ consecutive scrapes (score 75%)",
       "latest_signal": {
         "ticker": "APH",
         "direction": "hold",
         "tier": "Hold",
-        "buy_score": 0.38,
+        "buy_score": 0.5,
         "sell_score": 0.14,
         "reasons": [],
         "misses": [
-          "BB: price not near lower band (pct=0.21)",
-          "RSI: not in buy zone (49.0, need 20-40)",
+          "RSI: not in buy zone (43.7, need 20-40)",
           "MACD: no bullish crossover or valley",
           "RSI Divergence: no bullish divergence detected",
-          "Volume: below average (0.22x) \u2014 low conviction"
+          "Volume: below average (0.84x) \u2014 low conviction"
         ],
-        "price": 156.68,
-        "rsi": 49.0,
-        "atr": 7.43,
+        "price": 151.2,
+        "rsi": 43.7,
+        "atr": 7.23,
         "final_tier": "Hold"
       },
       "signal_history": [
+        {
+          "ticker": "APH",
+          "direction": "hold",
+          "tier": "Hold",
+          "buy_score": 0.38,
+          "sell_score": 0.14,
+          "reasons": [],
+          "misses": [
+            "BB: price not near lower band (pct=0.21)",
+            "RSI: not in buy zone (49.0, need 20-40)",
+            "MACD: no bullish crossover or valley",
+            "RSI Divergence: no bullish divergence detected",
+            "Volume: below average (0.22x) \u2014 low conviction"
+          ],
+          "price": 156.68,
+          "rsi": 49.0,
+          "atr": 7.43,
+          "final_tier": "Hold",
+          "recorded_at": "2026-07-15T15:02:44.261712"
+        },
         {
           "ticker": "APH",
           "direction": "hold",
@@ -2295,30 +2256,6 @@
           "news_sentiment": "neutral",
           "signal_streak": 0,
           "recorded_at": "2026-05-24T23:03:30.601490"
-        },
-        {
-          "ticker": "APH",
-          "direction": "buy",
-          "tier": "Watch",
-          "buy_score": 0.5,
-          "sell_score": 0.29,
-          "reasons": [
-            "MACD: histogram at valley / turning up",
-            "200MA: price at/above 200MA (132.06 vs 132.60)",
-            "Golden cross: 50MA (134.97) above 200MA (132.60)",
-            "Volume: above average (1.53x)"
-          ],
-          "misses": [
-            "BB: price not near lower band (pct=0.47)",
-            "BB Width: bands expanding, not squeezing",
-            "RSI: not in buy zone (42.3, need 20-30)",
-            "RSI Divergence: no bullish divergence detected"
-          ],
-          "price": 132.06,
-          "rsi": 42.3,
-          "atr": 5.82,
-          "final_tier": "Watch",
-          "recorded_at": "2026-05-24T23:03:05.109438"
         }
       ],
       "status": "watching"
@@ -2326,7 +2263,7 @@
     "PH": {
       "ticker": "PH",
       "added_date": "2026-05-10",
-      "last_updated": "2026-07-15T15:02:48.483762",
+      "last_updated": "2026-07-19T22:43:36.489765",
       "reason": "Persistent Buy signal \u2014 active 2+ consecutive scrapes (score 75%)",
       "latest_signal": {
         "ticker": "PH",
@@ -2336,18 +2273,38 @@
         "sell_score": 0.29,
         "reasons": [],
         "misses": [
-          "BB: price not near lower band (pct=0.46)",
-          "RSI: not in buy zone (54.6, need 20-40)",
+          "BB: price not near lower band (pct=0.34)",
+          "RSI: not in buy zone (53.1, need 20-40)",
           "MACD: no bullish crossover or valley",
           "RSI Divergence: no bullish divergence detected",
-          "Volume: below average (0.14x) \u2014 low conviction"
+          "Volume: below average (0.97x) \u2014 low conviction"
         ],
-        "price": 954.46,
-        "rsi": 54.6,
-        "atr": 22.97,
+        "price": 953.21,
+        "rsi": 53.1,
+        "atr": 22.85,
         "final_tier": "Hold"
       },
       "signal_history": [
+        {
+          "ticker": "PH",
+          "direction": "hold",
+          "tier": "Hold",
+          "buy_score": 0.38,
+          "sell_score": 0.29,
+          "reasons": [],
+          "misses": [
+            "BB: price not near lower band (pct=0.46)",
+            "RSI: not in buy zone (54.6, need 20-40)",
+            "MACD: no bullish crossover or valley",
+            "RSI Divergence: no bullish divergence detected",
+            "Volume: below average (0.14x) \u2014 low conviction"
+          ],
+          "price": 954.46,
+          "rsi": 54.6,
+          "atr": 22.97,
+          "final_tier": "Hold",
+          "recorded_at": "2026-07-15T15:02:48.483762"
+        },
         {
           "ticker": "PH",
           "direction": "hold",
@@ -2632,49 +2589,6 @@
           "atr": 19.12,
           "final_tier": "Buy",
           "recorded_at": "2026-05-31T23:10:16.002118"
-        },
-        {
-          "ticker": "PH",
-          "direction": "buy",
-          "tier": "Buy",
-          "buy_score": 0.75,
-          "sell_score": 0.43,
-          "reasons": [
-            "BB: price near lower band (pct=0.05)",
-            "BB Width: squeeze active (width=0.0626)",
-            "RSI: oversold zone (28.9)",
-            "200MA: price at/above 200MA (844.63 vs 862.97)",
-            "Golden cross: 50MA (911.06) above 200MA (862.97)",
-            "Volume: above average (1.28x)"
-          ],
-          "misses": [
-            "MACD: no bullish crossover or valley",
-            "RSI Divergence: no bullish divergence detected"
-          ],
-          "price": 844.63,
-          "rsi": 28.9,
-          "atr": 19.12,
-          "relative_strength": -26.69,
-          "rs_label": "underperforming",
-          "final_tier": "Buy",
-          "earnings_gate": {
-            "proceed": true,
-            "reason": "Fundamentals intact \u2014 dip may be an overreaction",
-            "verdict": {
-              "ticker": "PH",
-              "verdict": "consider",
-              "reason": "Fundamentals intact \u2014 dip may be an overreaction",
-              "notes": [
-                "Revenue growing (+10.6%)"
-              ],
-              "earnings_status": "past",
-              "next_earnings_date": "2026-04-30",
-              "days_to_earnings": -31
-            }
-          },
-          "news_sentiment": "neutral",
-          "signal_streak": 1,
-          "recorded_at": "2026-05-31T22:48:54.594217"
         }
       ],
       "status": "watching"
@@ -2682,28 +2596,47 @@
     "BALL": {
       "ticker": "BALL",
       "added_date": "2026-05-10",
-      "last_updated": "2026-07-15T15:02:52.050300",
+      "last_updated": "2026-07-19T22:43:39.696591",
       "reason": "Persistent Buy signal \u2014 active 2+ consecutive scrapes (score 88%)",
       "latest_signal": {
         "ticker": "BALL",
         "direction": "hold",
         "tier": "Hold",
-        "buy_score": 0.38,
+        "buy_score": 0.5,
         "sell_score": 0.14,
         "reasons": [],
         "misses": [
-          "BB: price not near lower band (pct=0.56)",
-          "RSI: not in buy zone (56.5, need 20-40)",
-          "MACD: no bullish crossover or valley",
+          "BB: price not near lower band (pct=0.73)",
+          "RSI: not in buy zone (61.0, need 20-40)",
           "RSI Divergence: no bullish divergence detected",
-          "Volume: below average (0.06x) \u2014 low conviction"
+          "Volume: below average (0.63x) \u2014 low conviction"
         ],
-        "price": 61.16,
-        "rsi": 56.5,
-        "atr": 1.56,
+        "price": 62.71,
+        "rsi": 61.0,
+        "atr": 1.64,
         "final_tier": "Hold"
       },
       "signal_history": [
+        {
+          "ticker": "BALL",
+          "direction": "hold",
+          "tier": "Hold",
+          "buy_score": 0.38,
+          "sell_score": 0.14,
+          "reasons": [],
+          "misses": [
+            "BB: price not near lower band (pct=0.56)",
+            "RSI: not in buy zone (56.5, need 20-40)",
+            "MACD: no bullish crossover or valley",
+            "RSI Divergence: no bullish divergence detected",
+            "Volume: below average (0.06x) \u2014 low conviction"
+          ],
+          "price": 61.16,
+          "rsi": 56.5,
+          "atr": 1.56,
+          "final_tier": "Hold",
+          "recorded_at": "2026-07-15T15:02:52.050300"
+        },
         {
           "ticker": "BALL",
           "direction": "hold",
@@ -2991,50 +2924,6 @@
           "atr": 1.32,
           "final_tier": "Buy",
           "recorded_at": "2026-05-31T23:10:16.033105"
-        },
-        {
-          "ticker": "BALL",
-          "direction": "buy",
-          "tier": "Buy",
-          "buy_score": 0.88,
-          "sell_score": 0.43,
-          "reasons": [
-            "BB: price near lower band (pct=0.14)",
-            "BB Width: squeeze active (width=0.1229)",
-            "RSI: oversold zone (29.1)",
-            "RSI Divergence: Price lower low (55.11 < 57.11) but RSI higher low (29.8 > 27.9)",
-            "200MA: price at/above 200MA (54.67 vs 55.02)",
-            "Golden cross: 50MA (59.53) above 200MA (55.02)",
-            "Volume: above average (2.68x)"
-          ],
-          "misses": [
-            "MACD: no bullish crossover or valley"
-          ],
-          "price": 54.67,
-          "rsi": 29.1,
-          "atr": 1.32,
-          "relative_strength": -28.89,
-          "rs_label": "underperforming",
-          "final_tier": "Buy",
-          "earnings_gate": {
-            "proceed": true,
-            "reason": "Fundamentals intact \u2014 dip may be an overreaction",
-            "verdict": {
-              "ticker": "BALL",
-              "verdict": "consider",
-              "reason": "Fundamentals intact \u2014 dip may be an overreaction",
-              "notes": [
-                "Earnings growing YoY (+21.9%)",
-                "Revenue growing (+16.3%)"
-              ],
-              "earnings_status": "past",
-              "next_earnings_date": "2026-05-05",
-              "days_to_earnings": -26
-            }
-          },
-          "news_sentiment": "neutral",
-          "signal_streak": 1,
-          "recorded_at": "2026-05-31T22:48:58.253018"
         }
       ],
       "status": "watching"
@@ -3042,28 +2931,51 @@
     "DG": {
       "ticker": "DG",
       "added_date": "2026-05-10",
-      "last_updated": "2026-07-15T15:02:57.007141",
+      "last_updated": "2026-07-19T22:43:43.669175",
       "reason": "Persistent Buy signal \u2014 active 2+ consecutive scrapes (score 75%)",
       "latest_signal": {
         "ticker": "DG",
-        "direction": "hold",
-        "tier": "Hold",
-        "buy_score": 0.38,
-        "sell_score": 0.57,
-        "reasons": [],
-        "misses": [
-          "BB: price not near lower band (pct=0.92)",
-          "RSI: not in buy zone (61.9, need 20-40)",
-          "MACD: no bullish crossover or valley",
-          "RSI Divergence: no bullish divergence detected",
-          "Volume: below average (0.11x) \u2014 low conviction"
+        "direction": "sell",
+        "tier": "Sell",
+        "buy_score": 0.5,
+        "sell_score": 0.71,
+        "reasons": [
+          "BB: price near upper band (pct=0.98)",
+          "BB Width: squeeze/contraction after expansion",
+          "RSI Divergence: Price higher high (118.90 > 115.80) but RSI lower high (61.4 < 62.1)",
+          "Death cross: 50MA (111.56) below 200MA (120.94)",
+          "Volume: above average on sell (1.01x) \u2014 confirms distribution"
         ],
-        "price": 121.75,
-        "rsi": 61.9,
-        "atr": 3.87,
-        "final_tier": "Hold"
+        "misses": [
+          "RSI: not in sell zone (64.3, need 70-80)",
+          "MACD: no bearish crossover or peak"
+        ],
+        "price": 125.75,
+        "rsi": 64.3,
+        "atr": 4.11,
+        "final_tier": "Sell"
       },
       "signal_history": [
+        {
+          "ticker": "DG",
+          "direction": "hold",
+          "tier": "Hold",
+          "buy_score": 0.38,
+          "sell_score": 0.57,
+          "reasons": [],
+          "misses": [
+            "BB: price not near lower band (pct=0.92)",
+            "RSI: not in buy zone (61.9, need 20-40)",
+            "MACD: no bullish crossover or valley",
+            "RSI Divergence: no bullish divergence detected",
+            "Volume: below average (0.11x) \u2014 low conviction"
+          ],
+          "price": 121.75,
+          "rsi": 61.9,
+          "atr": 3.87,
+          "final_tier": "Hold",
+          "recorded_at": "2026-07-15T15:02:57.007141"
+        },
         {
           "ticker": "DG",
           "direction": "hold",
@@ -3348,50 +3260,6 @@
           "atr": 4.38,
           "final_tier": "Hold",
           "recorded_at": "2026-05-24T23:03:13.899844"
-        },
-        {
-          "ticker": "DG",
-          "direction": "buy",
-          "tier": "Buy",
-          "buy_score": 0.75,
-          "sell_score": 0.29,
-          "reasons": [
-            "BB: price near lower band (pct=0.10)",
-            "RSI: oversold zone (25.4)",
-            "MACD: histogram at valley / turning up",
-            "RSI Divergence: Price lower low (114.13 < 115.73) but RSI higher low (39.8 > 38.3)",
-            "Golden cross: 50MA (121.09) above 200MA (120.41)",
-            "Volume: above average (1.08x)"
-          ],
-          "misses": [
-            "BB Width: bands expanding, not squeezing",
-            "200MA: price below 200MA \u2014 potential falling knife"
-          ],
-          "price": 102.38,
-          "rsi": 25.4,
-          "atr": 3.98,
-          "relative_strength": -41.85,
-          "rs_label": "underperforming",
-          "final_tier": "Buy",
-          "earnings_gate": {
-            "proceed": true,
-            "reason": "Fundamentals intact \u2014 dip may be an overreaction",
-            "verdict": {
-              "ticker": "DG",
-              "verdict": "consider",
-              "reason": "Fundamentals intact \u2014 dip may be an overreaction",
-              "notes": [
-                "Earnings growing YoY (+121.9%)",
-                "Revenue growing (+5.9%)"
-              ],
-              "earnings_status": "upcoming",
-              "next_earnings_date": "2026-06-02",
-              "days_to_earnings": 16
-            }
-          },
-          "news_sentiment": "neutral",
-          "signal_streak": 1,
-          "recorded_at": "2026-05-17T23:33:06.087558"
         }
       ],
       "status": "watching"
@@ -3399,28 +3267,49 @@
     "OXY": {
       "ticker": "OXY",
       "added_date": "2026-05-17",
-      "last_updated": "2026-07-15T15:03:04.851550",
+      "last_updated": "2026-07-19T22:43:46.447590",
       "reason": "Persistent Buy signal \u2014 active 2+ consecutive scrapes (score 75%)",
       "latest_signal": {
         "ticker": "OXY",
         "direction": "hold",
         "tier": "Hold",
-        "buy_score": 0.38,
+        "buy_score": 0.25,
         "sell_score": 0.14,
         "reasons": [],
         "misses": [
-          "BB: price not near lower band (pct=0.73)",
-          "RSI: not in buy zone (51.8, need 20-40)",
+          "BB: price not near lower band (pct=0.86)",
+          "BB Width: bands expanding, not squeezing",
+          "RSI: not in buy zone (56.4, need 20-40)",
           "MACD: no bullish crossover or valley",
           "RSI Divergence: no bullish divergence detected",
-          "Volume: below average (0.21x) \u2014 low conviction"
+          "Volume: below average (0.79x) \u2014 low conviction"
         ],
-        "price": 53.48,
-        "rsi": 51.8,
-        "atr": 1.61,
+        "price": 54.86,
+        "rsi": 56.4,
+        "atr": 1.57,
         "final_tier": "Hold"
       },
       "signal_history": [
+        {
+          "ticker": "OXY",
+          "direction": "hold",
+          "tier": "Hold",
+          "buy_score": 0.38,
+          "sell_score": 0.14,
+          "reasons": [],
+          "misses": [
+            "BB: price not near lower band (pct=0.73)",
+            "RSI: not in buy zone (51.8, need 20-40)",
+            "MACD: no bullish crossover or valley",
+            "RSI Divergence: no bullish divergence detected",
+            "Volume: below average (0.21x) \u2014 low conviction"
+          ],
+          "price": 53.48,
+          "rsi": 51.8,
+          "atr": 1.61,
+          "final_tier": "Hold",
+          "recorded_at": "2026-07-15T15:03:04.851550"
+        },
         {
           "ticker": "OXY",
           "direction": "hold",
@@ -3785,25 +3674,6 @@
           "atr": 1.84,
           "final_tier": "Hold",
           "recorded_at": "2026-06-07T22:58:47.441437"
-        },
-        {
-          "ticker": "OXY",
-          "direction": "hold",
-          "tier": "Hold",
-          "buy_score": 0.5,
-          "sell_score": 0.14,
-          "reasons": [],
-          "misses": [
-            "BB: price not near lower band (pct=0.76)",
-            "RSI: not in buy zone (63.9, need 20-30)",
-            "MACD: no bullish crossover or valley",
-            "Volume: below average (0.70x) \u2014 low conviction"
-          ],
-          "price": 59.64,
-          "rsi": 63.9,
-          "atr": 1.9,
-          "final_tier": "Hold",
-          "recorded_at": "2026-06-04T04:08:57.529550"
         }
       ],
       "status": "watching"
@@ -3811,27 +3681,47 @@
     "MGM": {
       "ticker": "MGM",
       "added_date": "2026-05-17",
-      "last_updated": "2026-07-15T15:03:10.670231",
+      "last_updated": "2026-07-19T22:43:50.510326",
       "reason": "Persistent Buy signal \u2014 active 2+ consecutive scrapes (score 75%)",
       "latest_signal": {
         "ticker": "MGM",
         "direction": "hold",
         "tier": "Hold",
-        "buy_score": 0.5,
+        "buy_score": 0.38,
         "sell_score": 0.29,
         "reasons": [],
         "misses": [
-          "BB: price not near lower band (pct=0.35)",
-          "RSI: not in buy zone (53.0, need 20-40)",
+          "BB: price not near lower band (pct=0.20)",
+          "RSI: not in buy zone (47.9, need 20-40)",
+          "MACD: no bullish crossover or valley",
           "RSI Divergence: no bullish divergence detected",
-          "Volume: below average (0.14x) \u2014 low conviction"
+          "Volume: below average (0.73x) \u2014 low conviction"
         ],
-        "price": 46.83,
-        "rsi": 53.0,
-        "atr": 1.25,
+        "price": 46.13,
+        "rsi": 47.9,
+        "atr": 1.12,
         "final_tier": "Hold"
       },
       "signal_history": [
+        {
+          "ticker": "MGM",
+          "direction": "hold",
+          "tier": "Hold",
+          "buy_score": 0.5,
+          "sell_score": 0.29,
+          "reasons": [],
+          "misses": [
+            "BB: price not near lower band (pct=0.35)",
+            "RSI: not in buy zone (53.0, need 20-40)",
+            "RSI Divergence: no bullish divergence detected",
+            "Volume: below average (0.14x) \u2014 low conviction"
+          ],
+          "price": 46.83,
+          "rsi": 53.0,
+          "atr": 1.25,
+          "final_tier": "Hold",
+          "recorded_at": "2026-07-15T15:03:10.670231"
+        },
         {
           "ticker": "MGM",
           "direction": "hold",
@@ -4107,50 +3997,6 @@
           "atr": 1.27,
           "final_tier": "Hold",
           "recorded_at": "2026-05-24T23:03:18.228784"
-        },
-        {
-          "ticker": "MGM",
-          "direction": "buy",
-          "tier": "Buy",
-          "buy_score": 0.75,
-          "sell_score": 0.14,
-          "reasons": [
-            "BB: price near lower band (pct=0.13)",
-            "RSI: oversold zone (24.0)",
-            "MACD: histogram at valley / turning up",
-            "200MA: price at/above 200MA (36.97 vs 35.60)",
-            "Golden cross: 50MA (37.49) above 200MA (35.60)",
-            "Volume: above average (1.02x)"
-          ],
-          "misses": [
-            "BB Width: bands expanding, not squeezing",
-            "RSI Divergence: no bullish divergence detected"
-          ],
-          "price": 36.97,
-          "rsi": 24.0,
-          "atr": 1.3,
-          "relative_strength": -0.43,
-          "rs_label": "in-line",
-          "final_tier": "Buy",
-          "earnings_gate": {
-            "proceed": true,
-            "reason": "Fundamentals intact \u2014 dip may be an overreaction",
-            "verdict": {
-              "ticker": "MGM",
-              "verdict": "consider",
-              "reason": "Fundamentals intact \u2014 dip may be an overreaction",
-              "notes": [
-                "Earnings declining YoY (-5.9%)",
-                "Revenue growing (+4.2%)"
-              ],
-              "earnings_status": "past",
-              "next_earnings_date": "2026-04-29",
-              "days_to_earnings": -18
-            }
-          },
-          "news_sentiment": "neutral",
-          "signal_streak": 1,
-          "recorded_at": "2026-05-17T23:30:47.648549"
         }
       ],
       "status": "watching"
@@ -4158,7 +4004,7 @@
     "CVX": {
       "ticker": "CVX",
       "added_date": "2026-05-17",
-      "last_updated": "2026-07-15T15:03:16.348559",
+      "last_updated": "2026-07-19T22:43:54.308542",
       "reason": "Persistent Buy signal \u2014 active 2+ consecutive scrapes (score 75%)",
       "latest_signal": {
         "ticker": "CVX",
@@ -4168,19 +4014,40 @@
         "sell_score": 0.14,
         "reasons": [],
         "misses": [
-          "BB: price not near lower band (pct=0.80)",
+          "BB: price not near lower band (pct=1.02)",
           "BB Width: bands expanding, not squeezing",
-          "RSI: not in buy zone (53.9, need 20-40)",
+          "RSI: not in buy zone (63.9, need 20-40)",
           "MACD: no bullish crossover or valley",
           "RSI Divergence: no bullish divergence detected",
-          "Volume: below average (0.17x) \u2014 low conviction"
+          "Volume: below average (0.73x) \u2014 low conviction"
         ],
-        "price": 179.79,
-        "rsi": 53.9,
-        "atr": 3.81,
+        "price": 187.38,
+        "rsi": 63.9,
+        "atr": 3.8,
         "final_tier": "Hold"
       },
       "signal_history": [
+        {
+          "ticker": "CVX",
+          "direction": "hold",
+          "tier": "Hold",
+          "buy_score": 0.25,
+          "sell_score": 0.14,
+          "reasons": [],
+          "misses": [
+            "BB: price not near lower band (pct=0.80)",
+            "BB Width: bands expanding, not squeezing",
+            "RSI: not in buy zone (53.9, need 20-40)",
+            "MACD: no bullish crossover or valley",
+            "RSI Divergence: no bullish divergence detected",
+            "Volume: below average (0.17x) \u2014 low conviction"
+          ],
+          "price": 179.79,
+          "rsi": 53.9,
+          "atr": 3.81,
+          "final_tier": "Hold",
+          "recorded_at": "2026-07-15T15:03:16.348559"
+        },
         {
           "ticker": "CVX",
           "direction": "hold",
@@ -4604,26 +4471,6 @@
           "atr": 4.43,
           "final_tier": "Hold",
           "recorded_at": "2026-06-16T03:21:54.933376"
-        },
-        {
-          "ticker": "CVX",
-          "direction": "hold",
-          "tier": "Hold",
-          "buy_score": 0.38,
-          "sell_score": 0.29,
-          "reasons": [],
-          "misses": [
-            "BB: price not near lower band (pct=0.43)",
-            "RSI: not in buy zone (43.6, need 20-30)",
-            "MACD: no bullish crossover or valley",
-            "RSI Divergence: no bullish divergence detected",
-            "Volume: below average (0.93x) \u2014 low conviction"
-          ],
-          "price": 187.22,
-          "rsi": 43.6,
-          "atr": 4.29,
-          "final_tier": "Hold",
-          "recorded_at": "2026-06-14T23:01:36.997251"
         }
       ],
       "status": "watching"
@@ -4631,27 +4478,46 @@
     "KIM": {
       "ticker": "KIM",
       "added_date": "2026-05-17",
-      "last_updated": "2026-07-15T15:03:21.313876",
+      "last_updated": "2026-07-19T22:43:57.525810",
       "reason": "Persistent Buy signal \u2014 active 2+ consecutive scrapes (score 75%)",
       "latest_signal": {
         "ticker": "KIM",
         "direction": "hold",
         "tier": "Hold",
         "buy_score": 0.5,
-        "sell_score": 0.14,
+        "sell_score": 0.29,
         "reasons": [],
         "misses": [
-          "BB: price not near lower band (pct=0.57)",
-          "RSI: not in buy zone (55.6, need 20-40)",
+          "BB: price not near lower band (pct=0.98)",
+          "RSI: not in buy zone (64.7, need 20-40)",
           "RSI Divergence: no bullish divergence detected",
-          "Volume: below average (0.14x) \u2014 low conviction"
+          "Volume: below average (0.84x) \u2014 low conviction"
         ],
-        "price": 25.27,
-        "rsi": 55.6,
-        "atr": 0.36,
+        "price": 26.12,
+        "rsi": 64.7,
+        "atr": 0.43,
         "final_tier": "Hold"
       },
       "signal_history": [
+        {
+          "ticker": "KIM",
+          "direction": "hold",
+          "tier": "Hold",
+          "buy_score": 0.5,
+          "sell_score": 0.14,
+          "reasons": [],
+          "misses": [
+            "BB: price not near lower band (pct=0.57)",
+            "RSI: not in buy zone (55.6, need 20-40)",
+            "RSI Divergence: no bullish divergence detected",
+            "Volume: below average (0.14x) \u2014 low conviction"
+          ],
+          "price": 25.27,
+          "rsi": 55.6,
+          "atr": 0.36,
+          "final_tier": "Hold",
+          "recorded_at": "2026-07-15T15:03:21.313876"
+        },
         {
           "ticker": "KIM",
           "direction": "hold",
@@ -4925,50 +4791,6 @@
           "atr": 0.35,
           "final_tier": "Hold",
           "recorded_at": "2026-05-24T23:03:22.213108"
-        },
-        {
-          "ticker": "KIM",
-          "direction": "buy",
-          "tier": "Buy",
-          "buy_score": 0.75,
-          "sell_score": 0.29,
-          "reasons": [
-            "BB: price near lower band (pct=-0.03)",
-            "BB Width: squeeze active (width=0.0453)",
-            "RSI: oversold zone (28.8)",
-            "200MA: price at/above 200MA (23.00 vs 21.47)",
-            "Golden cross: 50MA (23.18) above 200MA (21.47)",
-            "Volume: above average (1.00x)"
-          ],
-          "misses": [
-            "MACD: no bullish crossover or valley",
-            "RSI Divergence: no bullish divergence detected"
-          ],
-          "price": 23.0,
-          "rsi": 28.8,
-          "atr": 0.34,
-          "relative_strength": -6.31,
-          "rs_label": "underperforming",
-          "final_tier": "Buy",
-          "earnings_gate": {
-            "proceed": true,
-            "reason": "Fundamentals intact \u2014 dip may be an overreaction",
-            "verdict": {
-              "ticker": "KIM",
-              "verdict": "consider",
-              "reason": "Fundamentals intact \u2014 dip may be an overreaction",
-              "notes": [
-                "Earnings growing YoY (+29.4%)",
-                "Revenue growing (+4.0%)"
-              ],
-              "earnings_status": "past",
-              "next_earnings_date": "2026-04-30",
-              "days_to_earnings": -17
-            }
-          },
-          "news_sentiment": "neutral",
-          "signal_streak": 1,
-          "recorded_at": "2026-05-17T23:31:08.558564"
         }
       ],
       "status": "watching"
@@ -4976,28 +4798,49 @@
     "SBAC": {
       "ticker": "SBAC",
       "added_date": "2026-05-17",
-      "last_updated": "2026-07-15T15:03:24.683893",
+      "last_updated": "2026-07-19T22:44:00.854595",
       "reason": "Persistent Buy signal \u2014 active 2+ consecutive scrapes (score 75%)",
       "latest_signal": {
         "ticker": "SBAC",
         "direction": "hold",
         "tier": "Hold",
-        "buy_score": 0.38,
-        "sell_score": 0.14,
+        "buy_score": 0.25,
+        "sell_score": 0.43,
         "reasons": [],
         "misses": [
-          "BB: price not near lower band (pct=0.65)",
-          "RSI: not in buy zone (49.1, need 20-40)",
+          "BB: price not near lower band (pct=0.60)",
+          "RSI: not in buy zone (45.7, need 20-40)",
           "MACD: no bullish crossover or valley",
           "RSI Divergence: no bullish divergence detected",
-          "Volume: below average (0.05x) \u2014 low conviction"
+          "200MA: price below 200MA \u2014 potential falling knife",
+          "Volume: below average (0.60x) \u2014 low conviction"
         ],
-        "price": 188.82,
-        "rsi": 49.1,
-        "atr": 5.89,
+        "price": 185.69,
+        "rsi": 45.7,
+        "atr": 5.7,
         "final_tier": "Hold"
       },
       "signal_history": [
+        {
+          "ticker": "SBAC",
+          "direction": "hold",
+          "tier": "Hold",
+          "buy_score": 0.38,
+          "sell_score": 0.14,
+          "reasons": [],
+          "misses": [
+            "BB: price not near lower band (pct=0.65)",
+            "RSI: not in buy zone (49.1, need 20-40)",
+            "MACD: no bullish crossover or valley",
+            "RSI Divergence: no bullish divergence detected",
+            "Volume: below average (0.05x) \u2014 low conviction"
+          ],
+          "price": 188.82,
+          "rsi": 49.1,
+          "atr": 5.89,
+          "final_tier": "Hold",
+          "recorded_at": "2026-07-15T15:03:24.683893"
+        },
         {
           "ticker": "SBAC",
           "direction": "hold",
@@ -5444,30 +5287,6 @@
           "news_sentiment": "neutral",
           "signal_streak": 1,
           "recorded_at": "2026-06-16T03:23:48.553574"
-        },
-        {
-          "ticker": "SBAC",
-          "direction": "buy",
-          "tier": "Buy",
-          "buy_score": 0.75,
-          "sell_score": 0.43,
-          "reasons": [
-            "BB: price near lower band (pct=0.01)",
-            "BB Width: squeeze active (width=0.0752)",
-            "RSI Divergence: Price lower low (196.21 < 198.42) but RSI higher low (37.7 > 36.9)",
-            "200MA: price at/above 200MA (195.82 vs 194.10)",
-            "Golden cross: 50MA (210.13) above 200MA (194.10)",
-            "Volume: above average (2.70x)"
-          ],
-          "misses": [
-            "RSI: not in buy zone (41.2, need 20-30)",
-            "MACD: no bullish crossover or valley"
-          ],
-          "price": 195.82,
-          "rsi": 41.2,
-          "atr": 6.91,
-          "final_tier": "Buy",
-          "recorded_at": "2026-06-16T03:21:59.029060"
         }
       ],
       "status": "watching"
@@ -5475,27 +5294,46 @@
     "KEY": {
       "ticker": "KEY",
       "added_date": "2026-05-17",
-      "last_updated": "2026-07-15T15:03:29.546845",
+      "last_updated": "2026-07-19T22:44:03.926119",
       "reason": "Persistent Buy signal \u2014 active 2+ consecutive scrapes (score 75%)",
       "latest_signal": {
         "ticker": "KEY",
         "direction": "hold",
         "tier": "Hold",
         "buy_score": 0.5,
-        "sell_score": 0.43,
+        "sell_score": 0.57,
         "reasons": [],
         "misses": [
-          "BB: price not near lower band (pct=0.88)",
-          "RSI: not in buy zone (61.8, need 20-40)",
-          "RSI Divergence: no bullish divergence detected",
-          "Volume: below average (0.12x) \u2014 low conviction"
+          "BB: price not near lower band (pct=0.77)",
+          "RSI: not in buy zone (58.9, need 20-40)",
+          "MACD: no bullish crossover or valley",
+          "RSI Divergence: no bullish divergence detected"
         ],
-        "price": 23.53,
-        "rsi": 61.8,
-        "atr": 0.45,
+        "price": 23.55,
+        "rsi": 58.9,
+        "atr": 0.47,
         "final_tier": "Hold"
       },
       "signal_history": [
+        {
+          "ticker": "KEY",
+          "direction": "hold",
+          "tier": "Hold",
+          "buy_score": 0.5,
+          "sell_score": 0.43,
+          "reasons": [],
+          "misses": [
+            "BB: price not near lower band (pct=0.88)",
+            "RSI: not in buy zone (61.8, need 20-40)",
+            "RSI Divergence: no bullish divergence detected",
+            "Volume: below average (0.12x) \u2014 low conviction"
+          ],
+          "price": 23.53,
+          "rsi": 61.8,
+          "atr": 0.45,
+          "final_tier": "Hold",
+          "recorded_at": "2026-07-15T15:03:29.546845"
+        },
         {
           "ticker": "KEY",
           "direction": "hold",
@@ -5786,50 +5624,6 @@
           "atr": 0.4,
           "final_tier": "Watch",
           "recorded_at": "2026-05-31T23:10:26.004313"
-        },
-        {
-          "ticker": "KEY",
-          "direction": "buy",
-          "tier": "Watch",
-          "buy_score": 0.5,
-          "sell_score": 0.43,
-          "reasons": [
-            "BB Width: squeeze active (width=0.0677)",
-            "200MA: price at/above 200MA (21.33 vs 19.73)",
-            "Golden cross: 50MA (21.16) above 200MA (19.73)",
-            "Volume: above average (1.87x)"
-          ],
-          "misses": [
-            "BB: price not near lower band (pct=0.43)",
-            "RSI: not in buy zone (45.0, need 20-30)",
-            "MACD: no bullish crossover or valley",
-            "RSI Divergence: no bullish divergence detected"
-          ],
-          "price": 21.33,
-          "rsi": 45.0,
-          "atr": 0.4,
-          "relative_strength": -6.71,
-          "rs_label": "underperforming",
-          "final_tier": "Watch",
-          "earnings_gate": {
-            "proceed": true,
-            "reason": "Fundamentals intact \u2014 dip may be an overreaction",
-            "verdict": {
-              "ticker": "KEY",
-              "verdict": "consider",
-              "reason": "Fundamentals intact \u2014 dip may be an overreaction",
-              "notes": [
-                "Earnings growing YoY (+33.3%)",
-                "Revenue growing (+11.8%)"
-              ],
-              "earnings_status": "past",
-              "next_earnings_date": "2026-04-16",
-              "days_to_earnings": -45
-            }
-          },
-          "news_sentiment": "neutral",
-          "signal_streak": 0,
-          "recorded_at": "2026-05-31T22:56:44.664017"
         }
       ],
       "status": "watching"
@@ -5837,27 +5631,50 @@
     "BAC": {
       "ticker": "BAC",
       "added_date": "2026-05-17",
-      "last_updated": "2026-07-15T15:03:34.622180",
+      "last_updated": "2026-07-19T22:44:07.251628",
       "reason": "Persistent Buy signal \u2014 active 2+ consecutive scrapes (score 75%)",
       "latest_signal": {
         "ticker": "BAC",
-        "direction": "hold",
-        "tier": "Hold",
+        "direction": "sell",
+        "tier": "Sell",
         "buy_score": 0.5,
-        "sell_score": 0.43,
-        "reasons": [],
-        "misses": [
-          "BB: price not near lower band (pct=1.11)",
-          "RSI: not in buy zone (73.5, need 20-40)",
-          "RSI Divergence: no bullish divergence detected",
-          "Volume: below average (0.43x) \u2014 low conviction"
+        "sell_score": 0.71,
+        "reasons": [
+          "BB: price near upper band (pct=0.88)",
+          "BB Width: squeeze/contraction after expansion",
+          "RSI: overbought zone (70.3)",
+          "MACD: histogram at peak / turning down",
+          "Volume: above average on sell (1.23x) \u2014 confirms distribution"
         ],
-        "price": 61.84,
-        "rsi": 73.5,
-        "atr": 1.24,
-        "final_tier": "Hold"
+        "misses": [
+          "RSI Divergence: no bearish divergence detected",
+          "Golden cross still active: 50MA above 200MA"
+        ],
+        "price": 61.27,
+        "rsi": 70.3,
+        "atr": 1.26,
+        "final_tier": "Sell"
       },
       "signal_history": [
+        {
+          "ticker": "BAC",
+          "direction": "hold",
+          "tier": "Hold",
+          "buy_score": 0.5,
+          "sell_score": 0.43,
+          "reasons": [],
+          "misses": [
+            "BB: price not near lower band (pct=1.11)",
+            "RSI: not in buy zone (73.5, need 20-40)",
+            "RSI Divergence: no bullish divergence detected",
+            "Volume: below average (0.43x) \u2014 low conviction"
+          ],
+          "price": 61.84,
+          "rsi": 73.5,
+          "atr": 1.24,
+          "final_tier": "Hold",
+          "recorded_at": "2026-07-15T15:03:34.622180"
+        },
         {
           "ticker": "BAC",
           "direction": "hold",
@@ -6151,50 +5968,6 @@
           "atr": 1.01,
           "final_tier": "Watch",
           "recorded_at": "2026-05-31T23:10:26.035813"
-        },
-        {
-          "ticker": "BAC",
-          "direction": "buy",
-          "tier": "Watch",
-          "buy_score": 0.5,
-          "sell_score": 0.43,
-          "reasons": [
-            "BB Width: squeeze active (width=0.0885)",
-            "MACD: histogram at valley / turning up",
-            "200MA: price at/above 200MA (51.60 vs 51.51)",
-            "Volume: above average (1.58x)"
-          ],
-          "misses": [
-            "BB: price not near lower band (pct=0.54)",
-            "RSI: not in buy zone (52.2, need 20-30)",
-            "RSI Divergence: no bullish divergence detected",
-            "Death cross active: 50MA (51.19) below 200MA (51.51)"
-          ],
-          "price": 51.6,
-          "rsi": 52.2,
-          "atr": 1.01,
-          "relative_strength": -6.44,
-          "rs_label": "underperforming",
-          "final_tier": "Watch",
-          "earnings_gate": {
-            "proceed": true,
-            "reason": "Fundamentals intact \u2014 dip may be an overreaction",
-            "verdict": {
-              "ticker": "BAC",
-              "verdict": "consider",
-              "reason": "Fundamentals intact \u2014 dip may be an overreaction",
-              "notes": [
-                "Earnings growing YoY (+24.4%)",
-                "Revenue growing (+8.1%)"
-              ],
-              "earnings_status": "distant",
-              "next_earnings_date": "2026-07-14",
-              "days_to_earnings": 44
-            }
-          },
-          "news_sentiment": "neutral",
-          "signal_streak": 0,
-          "recorded_at": "2026-05-31T22:56:29.072859"
         }
       ],
       "status": "watching"
@@ -6202,29 +5975,48 @@
     "YUM": {
       "ticker": "YUM",
       "added_date": "2026-05-17",
-      "last_updated": "2026-07-15T15:03:40.263399",
+      "last_updated": "2026-07-19T22:44:11.724897",
       "reason": "Persistent Buy signal \u2014 active 2+ consecutive scrapes (score 75%)",
       "latest_signal": {
         "ticker": "YUM",
         "direction": "hold",
         "tier": "Hold",
-        "buy_score": 0.25,
+        "buy_score": 0.5,
         "sell_score": 0.29,
         "reasons": [],
         "misses": [
-          "BB: price not near lower band (pct=0.39)",
           "BB Width: bands expanding, not squeezing",
-          "RSI: not in buy zone (46.5, need 20-40)",
           "MACD: no bullish crossover or valley",
           "RSI Divergence: no bullish divergence detected",
-          "Volume: below average (0.40x) \u2014 low conviction"
+          "200MA: price below 200MA \u2014 potential falling knife"
         ],
-        "price": 155.99,
-        "rsi": 46.5,
-        "atr": 4.44,
+        "price": 147.92,
+        "rsi": 35.6,
+        "atr": 4.87,
         "final_tier": "Hold"
       },
       "signal_history": [
+        {
+          "ticker": "YUM",
+          "direction": "hold",
+          "tier": "Hold",
+          "buy_score": 0.25,
+          "sell_score": 0.29,
+          "reasons": [],
+          "misses": [
+            "BB: price not near lower band (pct=0.39)",
+            "BB Width: bands expanding, not squeezing",
+            "RSI: not in buy zone (46.5, need 20-40)",
+            "MACD: no bullish crossover or valley",
+            "RSI Divergence: no bullish divergence detected",
+            "Volume: below average (0.40x) \u2014 low conviction"
+          ],
+          "price": 155.99,
+          "rsi": 46.5,
+          "atr": 4.44,
+          "final_tier": "Hold",
+          "recorded_at": "2026-07-15T15:03:40.263399"
+        },
         {
           "ticker": "YUM",
           "direction": "hold",
@@ -6507,50 +6299,6 @@
           "atr": 2.99,
           "final_tier": "Watch",
           "recorded_at": "2026-05-31T23:10:26.068347"
-        },
-        {
-          "ticker": "YUM",
-          "direction": "buy",
-          "tier": "Watch",
-          "buy_score": 0.62,
-          "sell_score": 0.43,
-          "reasons": [
-            "BB: price near lower band (pct=0.09)",
-            "BB Width: squeeze active (width=0.0670)",
-            "200MA: price at/above 200MA (147.95 vs 151.37)",
-            "Golden cross: 50MA (155.56) above 200MA (151.37)",
-            "Volume: above average (2.11x)"
-          ],
-          "misses": [
-            "RSI: not in buy zone (42.1, need 20-30)",
-            "MACD: no bullish crossover or valley",
-            "RSI Divergence: no bullish divergence detected"
-          ],
-          "price": 147.95,
-          "rsi": 42.1,
-          "atr": 2.99,
-          "relative_strength": -22.16,
-          "rs_label": "underperforming",
-          "final_tier": "Watch",
-          "earnings_gate": {
-            "proceed": true,
-            "reason": "Fundamentals intact \u2014 dip may be an overreaction",
-            "verdict": {
-              "ticker": "YUM",
-              "verdict": "consider",
-              "reason": "Fundamentals intact \u2014 dip may be an overreaction",
-              "notes": [
-                "Earnings growing YoY (+72.2%)",
-                "Revenue growing (+15.2%)"
-              ],
-              "earnings_status": "distant",
-              "next_earnings_date": "2026-07-30",
-              "days_to_earnings": 60
-            }
-          },
-          "news_sentiment": "neutral",
-          "signal_streak": 0,
-          "recorded_at": "2026-05-31T23:06:03.708290"
         }
       ],
       "status": "watching"
@@ -6558,29 +6306,50 @@
     "PNC": {
       "ticker": "PNC",
       "added_date": "2026-05-17",
-      "last_updated": "2026-07-15T15:03:44.803612",
+      "last_updated": "2026-07-19T22:44:15.540831",
       "reason": "Persistent Buy signal \u2014 active 2+ consecutive scrapes (score 75%)",
       "latest_signal": {
         "ticker": "PNC",
         "direction": "hold",
         "tier": "Hold",
         "buy_score": 0.25,
-        "sell_score": 0.14,
+        "sell_score": 0.0,
         "reasons": [],
         "misses": [
-          "BB: price not near lower band (pct=0.79)",
+          "BB: price not near lower band (pct=0.69)",
           "BB Width: bands expanding, not squeezing",
-          "RSI: not in buy zone (67.4, need 20-40)",
+          "RSI: not in buy zone (63.3, need 20-40)",
           "MACD: no bullish crossover or valley",
           "RSI Divergence: no bullish divergence detected",
-          "Volume: below average (0.29x) \u2014 low conviction"
+          "Volume: below average (0.90x) \u2014 low conviction"
         ],
-        "price": 254.04,
-        "rsi": 67.4,
-        "atr": 5.06,
+        "price": 252.86,
+        "rsi": 63.3,
+        "atr": 5.34,
         "final_tier": "Hold"
       },
       "signal_history": [
+        {
+          "ticker": "PNC",
+          "direction": "hold",
+          "tier": "Hold",
+          "buy_score": 0.25,
+          "sell_score": 0.14,
+          "reasons": [],
+          "misses": [
+            "BB: price not near lower band (pct=0.79)",
+            "BB Width: bands expanding, not squeezing",
+            "RSI: not in buy zone (67.4, need 20-40)",
+            "MACD: no bullish crossover or valley",
+            "RSI Divergence: no bullish divergence detected",
+            "Volume: below average (0.29x) \u2014 low conviction"
+          ],
+          "price": 254.04,
+          "rsi": 67.4,
+          "atr": 5.06,
+          "final_tier": "Hold",
+          "recorded_at": "2026-07-15T15:03:44.803612"
+        },
         {
           "ticker": "PNC",
           "direction": "hold",
@@ -6870,50 +6639,6 @@
           "atr": 4.01,
           "final_tier": "Watch",
           "recorded_at": "2026-05-31T23:10:26.102219"
-        },
-        {
-          "ticker": "PNC",
-          "direction": "buy",
-          "tier": "Watch",
-          "buy_score": 0.5,
-          "sell_score": 0.29,
-          "reasons": [
-            "BB Width: squeeze active (width=0.0657)",
-            "200MA: price at/above 200MA (221.12 vs 204.83)",
-            "Golden cross: 50MA (215.85) above 200MA (204.83)",
-            "Volume: above average (1.80x)"
-          ],
-          "misses": [
-            "BB: price not near lower band (pct=0.76)",
-            "RSI: not in buy zone (59.0, need 20-30)",
-            "MACD: no bullish crossover or valley",
-            "RSI Divergence: no bullish divergence detected"
-          ],
-          "price": 221.12,
-          "rsi": 59.0,
-          "atr": 4.01,
-          "relative_strength": -5.65,
-          "rs_label": "underperforming",
-          "final_tier": "Watch",
-          "earnings_gate": {
-            "proceed": true,
-            "reason": "Fundamentals intact \u2014 dip may be an overreaction",
-            "verdict": {
-              "ticker": "PNC",
-              "verdict": "consider",
-              "reason": "Fundamentals intact \u2014 dip may be an overreaction",
-              "notes": [
-                "Earnings growing YoY (+17.7%)",
-                "Revenue growing (+13.8%)"
-              ],
-              "earnings_status": "distant",
-              "next_earnings_date": "2026-07-15",
-              "days_to_earnings": 45
-            }
-          },
-          "news_sentiment": "neutral",
-          "signal_streak": 0,
-          "recorded_at": "2026-05-31T22:56:10.282477"
         }
       ],
       "status": "watching"
@@ -6921,29 +6646,49 @@
     "TFC": {
       "ticker": "TFC",
       "added_date": "2026-05-17",
-      "last_updated": "2026-07-15T15:03:50.327971",
+      "last_updated": "2026-07-19T22:44:18.688711",
       "reason": "Persistent Buy signal \u2014 active 2+ consecutive scrapes (score 75%)",
       "latest_signal": {
         "ticker": "TFC",
         "direction": "hold",
         "tier": "Hold",
-        "buy_score": 0.25,
-        "sell_score": 0.14,
+        "buy_score": 0.38,
+        "sell_score": 0.43,
         "reasons": [],
         "misses": [
-          "BB: price not near lower band (pct=0.99)",
+          "BB: price not near lower band (pct=0.81)",
           "BB Width: bands expanding, not squeezing",
-          "RSI: not in buy zone (63.8, need 20-40)",
+          "RSI: not in buy zone (60.3, need 20-40)",
           "MACD: no bullish crossover or valley",
-          "RSI Divergence: no bullish divergence detected",
-          "Volume: below average (0.12x) \u2014 low conviction"
+          "RSI Divergence: no bullish divergence detected"
         ],
-        "price": 52.83,
-        "rsi": 63.8,
-        "atr": 1.09,
+        "price": 52.5,
+        "rsi": 60.3,
+        "atr": 1.19,
         "final_tier": "Hold"
       },
       "signal_history": [
+        {
+          "ticker": "TFC",
+          "direction": "hold",
+          "tier": "Hold",
+          "buy_score": 0.25,
+          "sell_score": 0.14,
+          "reasons": [],
+          "misses": [
+            "BB: price not near lower band (pct=0.99)",
+            "BB Width: bands expanding, not squeezing",
+            "RSI: not in buy zone (63.8, need 20-40)",
+            "MACD: no bullish crossover or valley",
+            "RSI Divergence: no bullish divergence detected",
+            "Volume: below average (0.12x) \u2014 low conviction"
+          ],
+          "price": 52.83,
+          "rsi": 63.8,
+          "atr": 1.09,
+          "final_tier": "Hold",
+          "recorded_at": "2026-07-15T15:03:50.327971"
+        },
         {
           "ticker": "TFC",
           "direction": "hold",
@@ -7229,50 +6974,6 @@
           "atr": 0.97,
           "final_tier": "Watch",
           "recorded_at": "2026-05-31T23:10:26.135407"
-        },
-        {
-          "ticker": "TFC",
-          "direction": "buy",
-          "tier": "Watch",
-          "buy_score": 0.5,
-          "sell_score": 0.43,
-          "reasons": [
-            "BB Width: squeeze active (width=0.0906)",
-            "200MA: price at/above 200MA (48.21 vs 46.71)",
-            "Golden cross: 50MA (48.02) above 200MA (46.71)",
-            "Volume: above average (1.94x)"
-          ],
-          "misses": [
-            "BB: price not near lower band (pct=0.49)",
-            "RSI: not in buy zone (43.7, need 20-30)",
-            "MACD: no bullish crossover or valley",
-            "RSI Divergence: no bullish divergence detected"
-          ],
-          "price": 48.21,
-          "rsi": 43.7,
-          "atr": 0.97,
-          "relative_strength": -11.77,
-          "rs_label": "underperforming",
-          "final_tier": "Watch",
-          "earnings_gate": {
-            "proceed": true,
-            "reason": "Fundamentals intact \u2014 dip may be an overreaction",
-            "verdict": {
-              "ticker": "TFC",
-              "verdict": "consider",
-              "reason": "Fundamentals intact \u2014 dip may be an overreaction",
-              "notes": [
-                "Earnings growing YoY (+25.3%)",
-                "Revenue growing (+5.2%)"
-              ],
-              "earnings_status": "distant",
-              "next_earnings_date": "2026-07-17",
-              "days_to_earnings": 47
-            }
-          },
-          "news_sentiment": "neutral",
-          "signal_streak": 0,
-          "recorded_at": "2026-05-31T22:59:30.818983"
         }
       ],
       "status": "watching"
@@ -7280,28 +6981,49 @@
     "MTB": {
       "ticker": "MTB",
       "added_date": "2026-05-17",
-      "last_updated": "2026-07-15T15:03:54.226041",
+      "last_updated": "2026-07-19T22:44:22.760558",
       "reason": "Persistent Buy signal \u2014 active 2+ consecutive scrapes (score 88%)",
       "latest_signal": {
         "ticker": "MTB",
         "direction": "hold",
         "tier": "Hold",
-        "buy_score": 0.38,
-        "sell_score": 0.14,
+        "buy_score": 0.25,
+        "sell_score": 0.29,
         "reasons": [],
         "misses": [
-          "BB: price not near lower band (pct=0.93)",
+          "BB: price not near lower band (pct=0.87)",
           "BB Width: bands expanding, not squeezing",
-          "RSI: not in buy zone (69.7, need 20-40)",
+          "RSI: not in buy zone (66.4, need 20-40)",
+          "MACD: no bullish crossover or valley",
           "RSI Divergence: no bullish divergence detected",
-          "Volume: below average (0.53x) \u2014 low conviction"
+          "Volume: below average (0.89x) \u2014 low conviction"
         ],
-        "price": 246.54,
-        "rsi": 69.7,
-        "atr": 4.49,
+        "price": 249.24,
+        "rsi": 66.4,
+        "atr": 5.14,
         "final_tier": "Hold"
       },
       "signal_history": [
+        {
+          "ticker": "MTB",
+          "direction": "hold",
+          "tier": "Hold",
+          "buy_score": 0.38,
+          "sell_score": 0.14,
+          "reasons": [],
+          "misses": [
+            "BB: price not near lower band (pct=0.93)",
+            "BB Width: bands expanding, not squeezing",
+            "RSI: not in buy zone (69.7, need 20-40)",
+            "RSI Divergence: no bullish divergence detected",
+            "Volume: below average (0.53x) \u2014 low conviction"
+          ],
+          "price": 246.54,
+          "rsi": 69.7,
+          "atr": 4.49,
+          "final_tier": "Hold",
+          "recorded_at": "2026-07-15T15:03:54.226041"
+        },
         {
           "ticker": "MTB",
           "direction": "hold",
@@ -7593,50 +7315,6 @@
           "atr": 3.98,
           "final_tier": "Watch",
           "recorded_at": "2026-05-31T23:10:26.168233"
-        },
-        {
-          "ticker": "MTB",
-          "direction": "buy",
-          "tier": "Watch",
-          "buy_score": 0.5,
-          "sell_score": 0.29,
-          "reasons": [
-            "BB Width: squeeze active (width=0.0810)",
-            "200MA: price at/above 200MA (216.11 vs 202.75)",
-            "Golden cross: 50MA (212.16) above 200MA (202.75)",
-            "Volume: above average (1.76x)"
-          ],
-          "misses": [
-            "BB: price not near lower band (pct=0.77)",
-            "RSI: not in buy zone (57.9, need 20-30)",
-            "MACD: no bullish crossover or valley",
-            "RSI Divergence: no bullish divergence detected"
-          ],
-          "price": 216.11,
-          "rsi": 57.9,
-          "atr": 3.98,
-          "relative_strength": -10.28,
-          "rs_label": "underperforming",
-          "final_tier": "Watch",
-          "earnings_gate": {
-            "proceed": true,
-            "reason": "Fundamentals intact \u2014 dip may be an overreaction",
-            "verdict": {
-              "ticker": "MTB",
-              "verdict": "consider",
-              "reason": "Fundamentals intact \u2014 dip may be an overreaction",
-              "notes": [
-                "Earnings growing YoY (+24.4%)",
-                "Revenue growing (+5.7%)"
-              ],
-              "earnings_status": "distant",
-              "next_earnings_date": "2026-07-15",
-              "days_to_earnings": 45
-            }
-          },
-          "news_sentiment": "neutral",
-          "signal_streak": 0,
-          "recorded_at": "2026-05-31T22:58:12.700803"
         }
       ],
       "status": "watching"
@@ -7644,7 +7322,7 @@
     "TPR": {
       "ticker": "TPR",
       "added_date": "2026-05-17",
-      "last_updated": "2026-07-15T15:04:00.009675",
+      "last_updated": "2026-07-19T22:44:27.380653",
       "reason": "Persistent Buy signal \u2014 active 2+ consecutive scrapes (score 75%)",
       "latest_signal": {
         "ticker": "TPR",
@@ -7654,17 +7332,36 @@
         "sell_score": 0.14,
         "reasons": [],
         "misses": [
-          "BB: price not near lower band (pct=0.24)",
-          "RSI: not in buy zone (46.6, need 20-40)",
+          "BB: price not near lower band (pct=0.36)",
+          "RSI: not in buy zone (48.3, need 20-40)",
           "RSI Divergence: no bullish divergence detected",
-          "Volume: below average (0.13x) \u2014 low conviction"
+          "Volume: below average (0.80x) \u2014 low conviction"
         ],
-        "price": 140.95,
-        "rsi": 46.6,
-        "atr": 4.95,
+        "price": 141.46,
+        "rsi": 48.3,
+        "atr": 5.05,
         "final_tier": "Hold"
       },
       "signal_history": [
+        {
+          "ticker": "TPR",
+          "direction": "hold",
+          "tier": "Hold",
+          "buy_score": 0.5,
+          "sell_score": 0.14,
+          "reasons": [],
+          "misses": [
+            "BB: price not near lower band (pct=0.24)",
+            "RSI: not in buy zone (46.6, need 20-40)",
+            "RSI Divergence: no bullish divergence detected",
+            "Volume: below average (0.13x) \u2014 low conviction"
+          ],
+          "price": 140.95,
+          "rsi": 46.6,
+          "atr": 4.95,
+          "final_tier": "Hold",
+          "recorded_at": "2026-07-15T15:04:00.009675"
+        },
         {
           "ticker": "TPR",
           "direction": "hold",
@@ -7947,50 +7644,6 @@
           "atr": 4.64,
           "final_tier": "Watch",
           "recorded_at": "2026-05-31T23:10:26.200668"
-        },
-        {
-          "ticker": "TPR",
-          "direction": "buy",
-          "tier": "Watch",
-          "buy_score": 0.5,
-          "sell_score": 0.43,
-          "reasons": [
-            "RSI Divergence: Price lower low (129.32 < 136.92) but RSI higher low (32.9 > 31.4)",
-            "200MA: price at/above 200MA (145.46 vs 126.59)",
-            "Golden cross: 50MA (142.37) above 200MA (126.59)",
-            "Volume: above average (1.17x)"
-          ],
-          "misses": [
-            "BB: price not near lower band (pct=0.86)",
-            "BB Width: bands expanding, not squeezing",
-            "RSI: not in buy zone (72.1, need 20-30)",
-            "MACD: no bullish crossover or valley"
-          ],
-          "price": 145.46,
-          "rsi": 72.1,
-          "atr": 4.64,
-          "relative_strength": -16.76,
-          "rs_label": "underperforming",
-          "final_tier": "Watch",
-          "earnings_gate": {
-            "proceed": true,
-            "reason": "Fundamentals intact \u2014 dip may be an overreaction",
-            "verdict": {
-              "ticker": "TPR",
-              "verdict": "consider",
-              "reason": "Fundamentals intact \u2014 dip may be an overreaction",
-              "notes": [
-                "Earnings growing YoY (+73.7%)",
-                "Revenue growing (+21.2%)"
-              ],
-              "earnings_status": "past",
-              "next_earnings_date": "2026-05-07",
-              "days_to_earnings": -24
-            }
-          },
-          "news_sentiment": "neutral",
-          "signal_streak": 0,
-          "recorded_at": "2026-05-31T23:03:16.597982"
         }
       ],
       "status": "watching"
@@ -7998,29 +7651,49 @@
     "BG": {
       "ticker": "BG",
       "added_date": "2026-05-24",
-      "last_updated": "2026-07-15T15:04:05.296287",
+      "last_updated": "2026-07-19T22:44:31.266712",
       "reason": "Persistent Buy signal \u2014 active 2+ consecutive scrapes (score 75%)",
       "latest_signal": {
         "ticker": "BG",
         "direction": "hold",
         "tier": "Hold",
-        "buy_score": 0.25,
-        "sell_score": 0.0,
+        "buy_score": 0.38,
+        "sell_score": 0.29,
         "reasons": [],
         "misses": [
-          "BB: price not near lower band (pct=0.66)",
-          "BB Width: bands expanding, not squeezing",
-          "RSI: not in buy zone (50.1, need 20-40)",
+          "BB: price not near lower band (pct=0.95)",
+          "RSI: not in buy zone (56.9, need 20-40)",
           "MACD: no bullish crossover or valley",
           "RSI Divergence: no bullish divergence detected",
-          "Volume: below average (0.07x) \u2014 low conviction"
+          "Volume: below average (0.64x) \u2014 low conviction"
         ],
-        "price": 115.32,
-        "rsi": 50.1,
-        "atr": 3.42,
+        "price": 119.15,
+        "rsi": 56.9,
+        "atr": 3.26,
         "final_tier": "Hold"
       },
       "signal_history": [
+        {
+          "ticker": "BG",
+          "direction": "hold",
+          "tier": "Hold",
+          "buy_score": 0.25,
+          "sell_score": 0.0,
+          "reasons": [],
+          "misses": [
+            "BB: price not near lower band (pct=0.66)",
+            "BB Width: bands expanding, not squeezing",
+            "RSI: not in buy zone (50.1, need 20-40)",
+            "MACD: no bullish crossover or valley",
+            "RSI Divergence: no bullish divergence detected",
+            "Volume: below average (0.07x) \u2014 low conviction"
+          ],
+          "price": 115.32,
+          "rsi": 50.1,
+          "atr": 3.42,
+          "final_tier": "Hold",
+          "recorded_at": "2026-07-15T15:04:05.296287"
+        },
         {
           "ticker": "BG",
           "direction": "hold",
@@ -8307,50 +7980,6 @@
           "atr": 3.51,
           "final_tier": "Watch",
           "recorded_at": "2026-05-31T23:10:26.233939"
-        },
-        {
-          "ticker": "BG",
-          "direction": "buy",
-          "tier": "Watch",
-          "buy_score": 0.62,
-          "sell_score": 0.29,
-          "reasons": [
-            "BB Width: squeeze active (width=0.0842)",
-            "MACD: histogram at valley / turning up",
-            "200MA: price at/above 200MA (123.30 vs 103.21)",
-            "Golden cross: 50MA (123.74) above 200MA (103.21)",
-            "Volume: above average (1.53x)"
-          ],
-          "misses": [
-            "BB: price not near lower band (pct=0.50)",
-            "RSI: not in buy zone (47.5, need 20-30)",
-            "RSI Divergence: no bullish divergence detected"
-          ],
-          "price": 123.3,
-          "rsi": 47.5,
-          "atr": 3.51,
-          "relative_strength": -7.77,
-          "rs_label": "underperforming",
-          "final_tier": "Watch",
-          "earnings_gate": {
-            "proceed": true,
-            "reason": "Fundamentals intact \u2014 dip may be an overreaction",
-            "verdict": {
-              "ticker": "BG",
-              "verdict": "consider",
-              "reason": "Fundamentals intact \u2014 dip may be an overreaction",
-              "notes": [
-                "Earnings declining YoY (-76.4%)",
-                "Revenue growing (+87.8%)"
-              ],
-              "earnings_status": "past",
-              "next_earnings_date": "2026-04-29",
-              "days_to_earnings": -32
-            }
-          },
-          "news_sentiment": "neutral",
-          "signal_streak": 0,
-          "recorded_at": "2026-05-31T22:56:56.595209"
         }
       ],
       "status": "watching"
@@ -8358,27 +7987,46 @@
     "ETR": {
       "ticker": "ETR",
       "added_date": "2026-05-31",
-      "last_updated": "2026-07-15T15:04:09.345935",
+      "last_updated": "2026-07-19T22:44:35.203430",
       "reason": "Persistent Buy signal \u2014 active 2+ consecutive scrapes (score 75%)",
       "latest_signal": {
         "ticker": "ETR",
         "direction": "hold",
         "tier": "Hold",
         "buy_score": 0.5,
-        "sell_score": 0.14,
+        "sell_score": 0.29,
         "reasons": [],
         "misses": [
-          "BB: price not near lower band (pct=0.71)",
-          "RSI: not in buy zone (57.0, need 20-40)",
-          "RSI Divergence: no bullish divergence detected",
-          "Volume: below average (0.08x) \u2014 low conviction"
+          "BB: price not near lower band (pct=0.28)",
+          "RSI: not in buy zone (48.8, need 20-40)",
+          "MACD: no bullish crossover or valley",
+          "RSI Divergence: no bullish divergence detected"
         ],
-        "price": 115.35,
-        "rsi": 57.0,
-        "atr": 2.0,
+        "price": 113.24,
+        "rsi": 48.8,
+        "atr": 2.2,
         "final_tier": "Hold"
       },
       "signal_history": [
+        {
+          "ticker": "ETR",
+          "direction": "hold",
+          "tier": "Hold",
+          "buy_score": 0.5,
+          "sell_score": 0.14,
+          "reasons": [],
+          "misses": [
+            "BB: price not near lower band (pct=0.71)",
+            "RSI: not in buy zone (57.0, need 20-40)",
+            "RSI Divergence: no bullish divergence detected",
+            "Volume: below average (0.08x) \u2014 low conviction"
+          ],
+          "price": 115.35,
+          "rsi": 57.0,
+          "atr": 2.0,
+          "final_tier": "Hold",
+          "recorded_at": "2026-07-15T15:04:09.345935"
+        },
         {
           "ticker": "ETR",
           "direction": "hold",
@@ -8688,49 +8336,6 @@
           "atr": 2.27,
           "final_tier": "Hold",
           "recorded_at": "2026-06-04T03:30:43.316617"
-        },
-        {
-          "ticker": "ETR",
-          "direction": "buy",
-          "tier": "Buy",
-          "buy_score": 0.75,
-          "sell_score": 0.43,
-          "reasons": [
-            "BB: price near lower band (pct=0.15)",
-            "BB Width: squeeze active (width=0.0823)",
-            "RSI Divergence: Price lower low (109.03 < 109.87) but RSI higher low (40.0 > 39.3)",
-            "200MA: price at/above 200MA (109.05 vs 98.42)",
-            "Golden cross: 50MA (111.57) above 200MA (98.42)",
-            "Volume: above average (1.15x)"
-          ],
-          "misses": [
-            "RSI: not in buy zone (40.3, need 20-30)",
-            "MACD: no bullish crossover or valley"
-          ],
-          "price": 109.05,
-          "rsi": 40.3,
-          "atr": 1.84,
-          "relative_strength": -8.21,
-          "rs_label": "underperforming",
-          "final_tier": "Buy",
-          "earnings_gate": {
-            "proceed": true,
-            "reason": "Fundamentals intact \u2014 dip may be an overreaction",
-            "verdict": {
-              "ticker": "ETR",
-              "verdict": "consider",
-              "reason": "Fundamentals intact \u2014 dip may be an overreaction",
-              "notes": [
-                "Revenue growing (+12.0%)"
-              ],
-              "earnings_status": "past",
-              "next_earnings_date": "2026-04-29",
-              "days_to_earnings": -32
-            }
-          },
-          "news_sentiment": "neutral",
-          "signal_streak": 1,
-          "recorded_at": "2026-05-31T23:10:26.242212"
         }
       ],
       "status": "watching"
@@ -8738,28 +8343,47 @@
     "XOM": {
       "ticker": "XOM",
       "added_date": "2026-05-31",
-      "last_updated": "2026-07-15T15:04:14.841977",
+      "last_updated": "2026-07-19T22:44:39.481626",
       "reason": "Persistent Buy signal \u2014 active 2+ consecutive scrapes (score 75%)",
       "latest_signal": {
         "ticker": "XOM",
         "direction": "hold",
         "tier": "Hold",
-        "buy_score": 0.38,
-        "sell_score": 0.29,
+        "buy_score": 0.5,
+        "sell_score": 0.43,
         "reasons": [],
         "misses": [
-          "BB: price not near lower band (pct=0.88)",
-          "RSI: not in buy zone (51.8, need 20-40)",
+          "BB: price not near lower band (pct=1.01)",
+          "RSI: not in buy zone (59.5, need 20-40)",
           "MACD: no bullish crossover or valley",
-          "RSI Divergence: no bullish divergence detected",
-          "Volume: below average (0.14x) \u2014 low conviction"
+          "RSI Divergence: no bullish divergence detected"
         ],
-        "price": 142.86,
-        "rsi": 51.8,
-        "atr": 3.06,
+        "price": 147.36,
+        "rsi": 59.5,
+        "atr": 3.09,
         "final_tier": "Hold"
       },
       "signal_history": [
+        {
+          "ticker": "XOM",
+          "direction": "hold",
+          "tier": "Hold",
+          "buy_score": 0.38,
+          "sell_score": 0.29,
+          "reasons": [],
+          "misses": [
+            "BB: price not near lower band (pct=0.88)",
+            "RSI: not in buy zone (51.8, need 20-40)",
+            "MACD: no bullish crossover or valley",
+            "RSI Divergence: no bullish divergence detected",
+            "Volume: below average (0.14x) \u2014 low conviction"
+          ],
+          "price": 142.86,
+          "rsi": 51.8,
+          "atr": 3.06,
+          "final_tier": "Hold",
+          "recorded_at": "2026-07-15T15:04:14.841977"
+        },
         {
           "ticker": "XOM",
           "direction": "hold",
@@ -9081,27 +8705,45 @@
     "AME": {
       "ticker": "AME",
       "added_date": "2026-05-31",
-      "last_updated": "2026-07-15T15:04:21.181263",
+      "last_updated": "2026-07-19T22:44:43.351380",
       "reason": "Persistent Buy signal \u2014 active 2+ consecutive scrapes (score 75%)",
       "latest_signal": {
         "ticker": "AME",
         "direction": "hold",
         "tier": "Hold",
-        "buy_score": 0.5,
-        "sell_score": 0.29,
+        "buy_score": 0.62,
+        "sell_score": 0.43,
         "reasons": [],
         "misses": [
-          "BB: price not near lower band (pct=0.43)",
-          "RSI: not in buy zone (51.5, need 20-40)",
-          "RSI Divergence: no bullish divergence detected",
-          "Volume: below average (0.09x) \u2014 low conviction"
+          "BB: price not near lower band (pct=0.58)",
+          "RSI: not in buy zone (55.1, need 20-40)",
+          "RSI Divergence: no bullish divergence detected"
         ],
-        "price": 234.21,
-        "rsi": 51.5,
-        "atr": 5.45,
+        "price": 237.0,
+        "rsi": 55.1,
+        "atr": 5.46,
         "final_tier": "Hold"
       },
       "signal_history": [
+        {
+          "ticker": "AME",
+          "direction": "hold",
+          "tier": "Hold",
+          "buy_score": 0.5,
+          "sell_score": 0.29,
+          "reasons": [],
+          "misses": [
+            "BB: price not near lower band (pct=0.43)",
+            "RSI: not in buy zone (51.5, need 20-40)",
+            "RSI Divergence: no bullish divergence detected",
+            "Volume: below average (0.09x) \u2014 low conviction"
+          ],
+          "price": 234.21,
+          "rsi": 51.5,
+          "atr": 5.45,
+          "final_tier": "Hold",
+          "recorded_at": "2026-07-15T15:04:21.181263"
+        },
         {
           "ticker": "AME",
           "direction": "hold",
@@ -9367,29 +9009,49 @@
     "SRE": {
       "ticker": "SRE",
       "added_date": "2026-05-31",
-      "last_updated": "2026-07-15T15:04:29.045162",
+      "last_updated": "2026-07-19T22:44:46.578528",
       "reason": "Persistent Buy signal \u2014 active 2+ consecutive scrapes (score 75%)",
       "latest_signal": {
         "ticker": "SRE",
         "direction": "hold",
         "tier": "Hold",
-        "buy_score": 0.25,
-        "sell_score": 0.29,
+        "buy_score": 0.38,
+        "sell_score": 0.43,
         "reasons": [],
         "misses": [
-          "BB: price not near lower band (pct=0.70)",
-          "BB Width: bands expanding, not squeezing",
-          "RSI: not in buy zone (56.9, need 20-40)",
+          "BB: price not near lower band (pct=0.35)",
+          "RSI: not in buy zone (48.0, need 20-40)",
           "MACD: no bullish crossover or valley",
           "RSI Divergence: no bullish divergence detected",
-          "Volume: below average (0.19x) \u2014 low conviction"
+          "Volume: below average (0.86x) \u2014 low conviction"
         ],
-        "price": 94.15,
-        "rsi": 56.9,
-        "atr": 1.67,
+        "price": 92.25,
+        "rsi": 48.0,
+        "atr": 1.77,
         "final_tier": "Hold"
       },
       "signal_history": [
+        {
+          "ticker": "SRE",
+          "direction": "hold",
+          "tier": "Hold",
+          "buy_score": 0.25,
+          "sell_score": 0.29,
+          "reasons": [],
+          "misses": [
+            "BB: price not near lower band (pct=0.70)",
+            "BB Width: bands expanding, not squeezing",
+            "RSI: not in buy zone (56.9, need 20-40)",
+            "MACD: no bullish crossover or valley",
+            "RSI Divergence: no bullish divergence detected",
+            "Volume: below average (0.19x) \u2014 low conviction"
+          ],
+          "price": 94.15,
+          "rsi": 56.9,
+          "atr": 1.67,
+          "final_tier": "Hold",
+          "recorded_at": "2026-07-15T15:04:29.045162"
+        },
         {
           "ticker": "SRE",
           "direction": "hold",
@@ -9698,50 +9360,6 @@
           "atr": 1.89,
           "final_tier": "Hold",
           "recorded_at": "2026-06-04T03:30:53.592605"
-        },
-        {
-          "ticker": "SRE",
-          "direction": "buy",
-          "tier": "Buy",
-          "buy_score": 0.75,
-          "sell_score": 0.29,
-          "reasons": [
-            "BB: price near lower band (pct=0.03)",
-            "BB Width: squeeze active (width=0.0670)",
-            "RSI Divergence: Price lower low (90.23 < 92.38) but RSI higher low (40.3 > 30.2)",
-            "200MA: price at/above 200MA (89.13 vs 89.60)",
-            "Golden cross: 50MA (94.08) above 200MA (89.60)",
-            "Volume: above average (2.69x)"
-          ],
-          "misses": [
-            "RSI: not in buy zone (41.2, need 20-30)",
-            "MACD: no bullish crossover or valley"
-          ],
-          "price": 89.13,
-          "rsi": 41.2,
-          "atr": 1.86,
-          "relative_strength": -17.35,
-          "rs_label": "underperforming",
-          "final_tier": "Buy",
-          "earnings_gate": {
-            "proceed": true,
-            "reason": "Fundamentals intact \u2014 dip may be an overreaction",
-            "verdict": {
-              "ticker": "SRE",
-              "verdict": "consider",
-              "reason": "Fundamentals intact \u2014 dip may be an overreaction",
-              "notes": [
-                "Earnings growing YoY (+13.7%)",
-                "Revenue declining (-3.9%)"
-              ],
-              "earnings_status": "past",
-              "next_earnings_date": "2026-05-07",
-              "days_to_earnings": -24
-            }
-          },
-          "news_sentiment": "neutral",
-          "signal_streak": 1,
-          "recorded_at": "2026-05-31T23:10:26.283521"
         }
       ],
       "status": "watching"
@@ -9749,7 +9367,7 @@
     "EQT": {
       "ticker": "EQT",
       "added_date": "2026-05-31",
-      "last_updated": "2026-07-15T15:04:33.450380",
+      "last_updated": "2026-07-19T22:44:50.195367",
       "reason": "Persistent Buy signal \u2014 active 2+ consecutive scrapes (score 75%)",
       "latest_signal": {
         "ticker": "EQT",
@@ -9759,18 +9377,38 @@
         "sell_score": 0.29,
         "reasons": [],
         "misses": [
-          "MACD: no bullish crossover or valley",
+          "BB: price not near lower band (pct=0.21)",
           "RSI Divergence: no bullish divergence detected",
           "200MA: price below 200MA \u2014 potential falling knife",
-          "Death cross active: 50MA (54.00) below 200MA (56.40)",
-          "Volume: below average (0.13x) \u2014 low conviction"
+          "Death cross active: 50MA (53.45) below 200MA (56.33)",
+          "Volume: below average (0.67x) \u2014 low conviction"
         ],
-        "price": 49.69,
-        "rsi": 36.4,
-        "atr": 1.24,
+        "price": 49.56,
+        "rsi": 37.2,
+        "atr": 1.2,
         "final_tier": "Hold"
       },
       "signal_history": [
+        {
+          "ticker": "EQT",
+          "direction": "hold",
+          "tier": "Hold",
+          "buy_score": 0.38,
+          "sell_score": 0.29,
+          "reasons": [],
+          "misses": [
+            "MACD: no bullish crossover or valley",
+            "RSI Divergence: no bullish divergence detected",
+            "200MA: price below 200MA \u2014 potential falling knife",
+            "Death cross active: 50MA (54.00) below 200MA (56.40)",
+            "Volume: below average (0.13x) \u2014 low conviction"
+          ],
+          "price": 49.69,
+          "rsi": 36.4,
+          "atr": 1.24,
+          "final_tier": "Hold",
+          "recorded_at": "2026-07-15T15:04:33.450380"
+        },
         {
           "ticker": "EQT",
           "direction": "hold",
@@ -10032,30 +9670,49 @@
     "NEM": {
       "ticker": "NEM",
       "added_date": "2026-05-31",
-      "last_updated": "2026-07-15T15:04:37.917618",
+      "last_updated": "2026-07-19T22:44:53.604173",
       "reason": "Persistent Buy signal \u2014 active 2+ consecutive scrapes (score 75%)",
       "latest_signal": {
         "ticker": "NEM",
         "direction": "hold",
         "tier": "Hold",
-        "buy_score": 0.12,
-        "sell_score": 0.14,
+        "buy_score": 0.5,
+        "sell_score": 0.57,
         "reasons": [],
         "misses": [
-          "BB: price not near lower band (pct=0.36)",
-          "BB Width: bands expanding, not squeezing",
-          "RSI: not in buy zone (43.7, need 20-40)",
           "MACD: no bullish crossover or valley",
           "RSI Divergence: no bullish divergence detected",
           "200MA: price below 200MA \u2014 potential falling knife",
-          "Volume: below average (0.19x) \u2014 low conviction"
+          "Death cross active: 50MA (103.00) below 200MA (103.56)"
         ],
-        "price": 94.89,
-        "rsi": 43.7,
-        "atr": 3.22,
+        "price": 89.7,
+        "rsi": 36.6,
+        "atr": 3.34,
         "final_tier": "Hold"
       },
       "signal_history": [
+        {
+          "ticker": "NEM",
+          "direction": "hold",
+          "tier": "Hold",
+          "buy_score": 0.12,
+          "sell_score": 0.14,
+          "reasons": [],
+          "misses": [
+            "BB: price not near lower band (pct=0.36)",
+            "BB Width: bands expanding, not squeezing",
+            "RSI: not in buy zone (43.7, need 20-40)",
+            "MACD: no bullish crossover or valley",
+            "RSI Divergence: no bullish divergence detected",
+            "200MA: price below 200MA \u2014 potential falling knife",
+            "Volume: below average (0.19x) \u2014 low conviction"
+          ],
+          "price": 94.89,
+          "rsi": 43.7,
+          "atr": 3.22,
+          "final_tier": "Hold",
+          "recorded_at": "2026-07-15T15:04:37.917618"
+        },
         {
           "ticker": "NEM",
           "direction": "hold",
@@ -10371,50 +10028,6 @@
           "atr": 4.37,
           "final_tier": "Hold",
           "recorded_at": "2026-06-04T03:31:02.288479"
-        },
-        {
-          "ticker": "NEM",
-          "direction": "buy",
-          "tier": "Buy",
-          "buy_score": 0.75,
-          "sell_score": 0.29,
-          "reasons": [
-            "BB Width: squeeze active (width=0.1676)",
-            "MACD: histogram at valley / turning up",
-            "RSI Divergence: Price lower low (104.85 < 107.36) but RSI higher low (46.8 > 39.1)",
-            "200MA: price at/above 200MA (109.81 vs 99.75)",
-            "Golden cross: 50MA (110.60) above 200MA (99.75)",
-            "Volume: above average (2.07x)"
-          ],
-          "misses": [
-            "BB: price not near lower band (pct=0.42)",
-            "RSI: not in buy zone (41.0, need 20-30)"
-          ],
-          "price": 109.81,
-          "rsi": 41.0,
-          "atr": 4.45,
-          "relative_strength": -25.74,
-          "rs_label": "underperforming",
-          "final_tier": "Buy",
-          "earnings_gate": {
-            "proceed": true,
-            "reason": "Fundamentals intact \u2014 dip may be an overreaction",
-            "verdict": {
-              "ticker": "NEM",
-              "verdict": "consider",
-              "reason": "Fundamentals intact \u2014 dip may be an overreaction",
-              "notes": [
-                "Earnings growing YoY (+78.6%)",
-                "Revenue growing (+45.8%)"
-              ],
-              "earnings_status": "past",
-              "next_earnings_date": "2026-04-23",
-              "days_to_earnings": -38
-            }
-          },
-          "news_sentiment": "neutral",
-          "signal_streak": 1,
-          "recorded_at": "2026-05-31T23:10:26.311059"
         }
       ],
       "status": "watching"
@@ -10758,27 +10371,47 @@
     "XEL": {
       "ticker": "XEL",
       "added_date": "2026-06-04",
-      "last_updated": "2026-07-15T15:04:43.499186",
+      "last_updated": "2026-07-19T22:44:56.932873",
       "reason": "Persistent Buy signal \u2014 active 2+ consecutive scrapes (score 75%)",
       "latest_signal": {
         "ticker": "XEL",
         "direction": "hold",
         "tier": "Hold",
-        "buy_score": 0.5,
+        "buy_score": 0.38,
         "sell_score": 0.29,
         "reasons": [],
         "misses": [
-          "BB: price not near lower band (pct=0.57)",
-          "RSI: not in buy zone (53.2, need 20-40)",
+          "BB: price not near lower band (pct=0.21)",
+          "RSI: not in buy zone (45.8, need 20-40)",
+          "MACD: no bullish crossover or valley",
           "RSI Divergence: no bullish divergence detected",
-          "Volume: below average (0.20x) \u2014 low conviction"
+          "Volume: below average (0.97x) \u2014 low conviction"
         ],
-        "price": 80.52,
-        "rsi": 53.2,
-        "atr": 1.53,
+        "price": 78.77,
+        "rsi": 45.8,
+        "atr": 1.69,
         "final_tier": "Hold"
       },
       "signal_history": [
+        {
+          "ticker": "XEL",
+          "direction": "hold",
+          "tier": "Hold",
+          "buy_score": 0.5,
+          "sell_score": 0.29,
+          "reasons": [],
+          "misses": [
+            "BB: price not near lower band (pct=0.57)",
+            "RSI: not in buy zone (53.2, need 20-40)",
+            "RSI Divergence: no bullish divergence detected",
+            "Volume: below average (0.20x) \u2014 low conviction"
+          ],
+          "price": 80.52,
+          "rsi": 53.2,
+          "atr": 1.53,
+          "final_tier": "Hold",
+          "recorded_at": "2026-07-15T15:04:43.499186"
+        },
         {
           "ticker": "XEL",
           "direction": "hold",
@@ -11121,7 +10754,7 @@
     "SO": {
       "ticker": "SO",
       "added_date": "2026-06-04",
-      "last_updated": "2026-07-15T15:04:49.745738",
+      "last_updated": "2026-07-19T22:45:00.190972",
       "reason": "Persistent Buy signal \u2014 active 2+ consecutive scrapes (score 75%)",
       "latest_signal": {
         "ticker": "SO",
@@ -11131,18 +10764,38 @@
         "sell_score": 0.14,
         "reasons": [],
         "misses": [
-          "BB: price not near lower band (pct=0.63)",
-          "RSI: not in buy zone (54.3, need 20-40)",
+          "BB: price not near lower band (pct=0.41)",
+          "RSI: not in buy zone (50.5, need 20-40)",
           "MACD: no bullish crossover or valley",
           "RSI Divergence: no bullish divergence detected",
-          "Volume: below average (0.08x) \u2014 low conviction"
+          "Volume: below average (0.81x) \u2014 low conviction"
         ],
-        "price": 96.23,
-        "rsi": 54.3,
-        "atr": 1.66,
+        "price": 95.3,
+        "rsi": 50.5,
+        "atr": 1.82,
         "final_tier": "Hold"
       },
       "signal_history": [
+        {
+          "ticker": "SO",
+          "direction": "hold",
+          "tier": "Hold",
+          "buy_score": 0.38,
+          "sell_score": 0.14,
+          "reasons": [],
+          "misses": [
+            "BB: price not near lower band (pct=0.63)",
+            "RSI: not in buy zone (54.3, need 20-40)",
+            "MACD: no bullish crossover or valley",
+            "RSI Divergence: no bullish divergence detected",
+            "Volume: below average (0.08x) \u2014 low conviction"
+          ],
+          "price": 96.23,
+          "rsi": 54.3,
+          "atr": 1.66,
+          "final_tier": "Hold",
+          "recorded_at": "2026-07-15T15:04:49.745738"
+        },
         {
           "ticker": "SO",
           "direction": "hold",
@@ -11487,50 +11140,6 @@
           "atr": 1.56,
           "final_tier": "Buy",
           "recorded_at": "2026-06-04T04:10:04.013791"
-        },
-        {
-          "ticker": "SO",
-          "direction": "buy",
-          "tier": "Buy",
-          "buy_score": 0.75,
-          "sell_score": 0.29,
-          "reasons": [
-            "BB: price near lower band (pct=0.15)",
-            "BB Width: squeeze active (width=0.0632)",
-            "RSI Divergence: Price lower low (91.05 < 91.12) but RSI higher low (43.9 > 19.1)",
-            "200MA: price at/above 200MA (90.49 vs 91.13)",
-            "Golden cross: 50MA (93.75) above 200MA (91.13)",
-            "Volume: above average (1.18x)"
-          ],
-          "misses": [
-            "RSI: not in buy zone (42.4, need 20-30)",
-            "MACD: no bullish crossover or valley"
-          ],
-          "price": 90.49,
-          "rsi": 42.4,
-          "atr": 1.56,
-          "relative_strength": -16.93,
-          "rs_label": "underperforming",
-          "previously_owned": false,
-          "final_tier": "Buy",
-          "earnings_gate": {
-            "proceed": true,
-            "reason": "Fundamentals intact \u2014 dip may be an overreaction",
-            "verdict": {
-              "ticker": "SO",
-              "verdict": "consider",
-              "reason": "Fundamentals intact \u2014 dip may be an overreaction",
-              "notes": [
-                "Revenue growing (+8.0%)"
-              ],
-              "earnings_status": "past",
-              "next_earnings_date": "2026-04-30",
-              "days_to_earnings": -35
-            }
-          },
-          "news_sentiment": "neutral",
-          "signal_streak": 2,
-          "recorded_at": "2026-06-04T04:06:21.814566"
         }
       ],
       "status": "watching"
@@ -11538,28 +11147,47 @@
     "CL": {
       "ticker": "CL",
       "added_date": "2026-06-04",
-      "last_updated": "2026-07-15T15:04:53.884319",
+      "last_updated": "2026-07-19T22:45:03.356108",
       "reason": "Persistent Buy signal \u2014 active 2+ consecutive scrapes (score 75%)",
       "latest_signal": {
         "ticker": "CL",
         "direction": "hold",
         "tier": "Hold",
-        "buy_score": 0.38,
+        "buy_score": 0.5,
         "sell_score": 0.14,
         "reasons": [],
         "misses": [
-          "BB: price not near lower band (pct=0.44)",
-          "RSI: not in buy zone (50.5, need 20-40)",
-          "MACD: no bullish crossover or valley",
+          "BB: price not near lower band (pct=0.62)",
+          "RSI: not in buy zone (53.9, need 20-40)",
           "RSI Divergence: no bullish divergence detected",
-          "Volume: below average (0.10x) \u2014 low conviction"
+          "Volume: below average (0.83x) \u2014 low conviction"
         ],
-        "price": 91.5,
-        "rsi": 50.5,
-        "atr": 2.12,
+        "price": 92.98,
+        "rsi": 53.9,
+        "atr": 2.24,
         "final_tier": "Hold"
       },
       "signal_history": [
+        {
+          "ticker": "CL",
+          "direction": "hold",
+          "tier": "Hold",
+          "buy_score": 0.38,
+          "sell_score": 0.14,
+          "reasons": [],
+          "misses": [
+            "BB: price not near lower band (pct=0.44)",
+            "RSI: not in buy zone (50.5, need 20-40)",
+            "MACD: no bullish crossover or valley",
+            "RSI Divergence: no bullish divergence detected",
+            "Volume: below average (0.10x) \u2014 low conviction"
+          ],
+          "price": 91.5,
+          "rsi": 50.5,
+          "atr": 2.12,
+          "final_tier": "Hold",
+          "recorded_at": "2026-07-15T15:04:53.884319"
+        },
         {
           "ticker": "CL",
           "direction": "hold",
@@ -11905,51 +11533,6 @@
           "atr": 2.01,
           "final_tier": "Buy",
           "recorded_at": "2026-06-04T04:10:04.043289"
-        },
-        {
-          "ticker": "CL",
-          "direction": "buy",
-          "tier": "Buy",
-          "buy_score": 0.75,
-          "sell_score": 0.29,
-          "reasons": [
-            "BB: price near lower band (pct=-0.09)",
-            "BB Width: squeeze active (width=0.0769)",
-            "RSI Divergence: Price lower low (81.81 < 82.62) but RSI higher low (39.7 > 22.4)",
-            "200MA: price at/above 200MA (84.87 vs 83.37)",
-            "Golden cross: 50MA (86.16) above 200MA (83.37)",
-            "Volume: above average (1.43x)"
-          ],
-          "misses": [
-            "RSI: not in buy zone (38.9, need 20-30)",
-            "MACD: no bullish crossover or valley"
-          ],
-          "price": 84.87,
-          "rsi": 38.9,
-          "atr": 2.01,
-          "relative_strength": -20.76,
-          "rs_label": "underperforming",
-          "previously_owned": false,
-          "final_tier": "Buy",
-          "earnings_gate": {
-            "proceed": true,
-            "reason": "Fundamentals intact \u2014 dip may be an overreaction",
-            "verdict": {
-              "ticker": "CL",
-              "verdict": "consider",
-              "reason": "Fundamentals intact \u2014 dip may be an overreaction",
-              "notes": [
-                "Earnings declining YoY (-5.9%)",
-                "Revenue growing (+8.4%)"
-              ],
-              "earnings_status": "distant",
-              "next_earnings_date": "2026-07-31",
-              "days_to_earnings": 57
-            }
-          },
-          "news_sentiment": "neutral",
-          "signal_streak": 2,
-          "recorded_at": "2026-06-04T04:06:39.821173"
         }
       ],
       "status": "watching"
@@ -11957,29 +11540,47 @@
     "ED": {
       "ticker": "ED",
       "added_date": "2026-06-04",
-      "last_updated": "2026-07-15T15:04:58.603479",
+      "last_updated": "2026-07-19T22:45:06.288542",
       "reason": "Persistent Buy signal \u2014 active 2+ consecutive scrapes (score 75%)",
       "latest_signal": {
         "ticker": "ED",
         "direction": "hold",
         "tier": "Hold",
-        "buy_score": 0.25,
-        "sell_score": 0.14,
+        "buy_score": 0.62,
+        "sell_score": 0.29,
         "reasons": [],
         "misses": [
-          "BB: price not near lower band (pct=0.70)",
-          "BB Width: bands expanding, not squeezing",
-          "RSI: not in buy zone (57.5, need 20-40)",
-          "MACD: no bullish crossover or valley",
-          "RSI Divergence: no bullish divergence detected",
-          "Volume: below average (0.06x) \u2014 low conviction"
+          "BB: price not near lower band (pct=0.68)",
+          "RSI: not in buy zone (57.0, need 20-40)",
+          "RSI Divergence: no bullish divergence detected"
         ],
-        "price": 112.18,
-        "rsi": 57.5,
-        "atr": 1.94,
+        "price": 112.37,
+        "rsi": 57.0,
+        "atr": 2.13,
         "final_tier": "Hold"
       },
       "signal_history": [
+        {
+          "ticker": "ED",
+          "direction": "hold",
+          "tier": "Hold",
+          "buy_score": 0.25,
+          "sell_score": 0.14,
+          "reasons": [],
+          "misses": [
+            "BB: price not near lower band (pct=0.70)",
+            "BB Width: bands expanding, not squeezing",
+            "RSI: not in buy zone (57.5, need 20-40)",
+            "MACD: no bullish crossover or valley",
+            "RSI Divergence: no bullish divergence detected",
+            "Volume: below average (0.06x) \u2014 low conviction"
+          ],
+          "price": 112.18,
+          "rsi": 57.5,
+          "atr": 1.94,
+          "final_tier": "Hold",
+          "recorded_at": "2026-07-15T15:04:58.603479"
+        },
         {
           "ticker": "ED",
           "direction": "hold",
@@ -12209,28 +11810,47 @@
     "DUK": {
       "ticker": "DUK",
       "added_date": "2026-06-04",
-      "last_updated": "2026-07-15T15:05:03.014241",
+      "last_updated": "2026-07-19T22:45:10.348777",
       "reason": "Persistent Buy signal \u2014 active 2+ consecutive scrapes (score 75%)",
       "latest_signal": {
         "ticker": "DUK",
         "direction": "hold",
         "tier": "Hold",
-        "buy_score": 0.38,
-        "sell_score": 0.29,
+        "buy_score": 0.5,
+        "sell_score": 0.43,
         "reasons": [],
         "misses": [
-          "BB: price not near lower band (pct=0.53)",
-          "RSI: not in buy zone (51.7, need 20-40)",
+          "BB: price not near lower band (pct=0.30)",
+          "RSI: not in buy zone (48.0, need 20-40)",
           "MACD: no bullish crossover or valley",
-          "RSI Divergence: no bullish divergence detected",
-          "Volume: below average (0.16x) \u2014 low conviction"
+          "RSI Divergence: no bullish divergence detected"
         ],
-        "price": 126.46,
-        "rsi": 51.7,
-        "atr": 2.29,
+        "price": 125.01,
+        "rsi": 48.0,
+        "atr": 2.54,
         "final_tier": "Hold"
       },
       "signal_history": [
+        {
+          "ticker": "DUK",
+          "direction": "hold",
+          "tier": "Hold",
+          "buy_score": 0.38,
+          "sell_score": 0.29,
+          "reasons": [],
+          "misses": [
+            "BB: price not near lower band (pct=0.53)",
+            "RSI: not in buy zone (51.7, need 20-40)",
+            "MACD: no bullish crossover or valley",
+            "RSI Divergence: no bullish divergence detected",
+            "Volume: below average (0.16x) \u2014 low conviction"
+          ],
+          "price": 126.46,
+          "rsi": 51.7,
+          "atr": 2.29,
+          "final_tier": "Hold",
+          "recorded_at": "2026-07-15T15:05:03.014241"
+        },
         {
           "ticker": "DUK",
           "direction": "hold",
@@ -12551,7 +12171,7 @@
     "ATO": {
       "ticker": "ATO",
       "added_date": "2026-06-04",
-      "last_updated": "2026-07-15T15:05:07.987382",
+      "last_updated": "2026-07-19T22:45:14.325176",
       "reason": "Persistent Buy signal \u2014 active 2+ consecutive scrapes (score 75%)",
       "latest_signal": {
         "ticker": "ATO",
@@ -12561,18 +12181,38 @@
         "sell_score": 0.57,
         "reasons": [],
         "misses": [
-          "BB: price not near lower band (pct=0.83)",
-          "RSI: not in buy zone (57.3, need 20-40)",
+          "BB: price not near lower band (pct=0.75)",
+          "RSI: not in buy zone (55.5, need 20-40)",
           "MACD: no bullish crossover or valley",
           "RSI Divergence: no bullish divergence detected",
-          "Volume: below average (0.15x) \u2014 low conviction"
+          "Death cross active: 50MA (174.22) below 200MA (174.71)"
         ],
-        "price": 177.91,
-        "rsi": 57.3,
-        "atr": 3.1,
+        "price": 177.68,
+        "rsi": 55.5,
+        "atr": 3.31,
         "final_tier": "Hold"
       },
       "signal_history": [
+        {
+          "ticker": "ATO",
+          "direction": "hold",
+          "tier": "Hold",
+          "buy_score": 0.38,
+          "sell_score": 0.57,
+          "reasons": [],
+          "misses": [
+            "BB: price not near lower band (pct=0.83)",
+            "RSI: not in buy zone (57.3, need 20-40)",
+            "MACD: no bullish crossover or valley",
+            "RSI Divergence: no bullish divergence detected",
+            "Volume: below average (0.15x) \u2014 low conviction"
+          ],
+          "price": 177.91,
+          "rsi": 57.3,
+          "atr": 3.1,
+          "final_tier": "Hold",
+          "recorded_at": "2026-07-15T15:05:07.987382"
+        },
         {
           "ticker": "ATO",
           "direction": "hold",
@@ -12807,28 +12447,48 @@
     "GOOGL": {
       "ticker": "GOOGL",
       "added_date": "2026-06-07",
-      "last_updated": "2026-07-15T15:05:12.954945",
+      "last_updated": "2026-07-19T22:45:19.461492",
       "reason": "Persistent Buy signal \u2014 active 2+ consecutive scrapes (score 75%)",
       "latest_signal": {
         "ticker": "GOOGL",
         "direction": "hold",
         "tier": "Hold",
         "buy_score": 0.38,
-        "sell_score": 0.14,
+        "sell_score": 0.29,
         "reasons": [],
         "misses": [
-          "BB: price not near lower band (pct=0.73)",
-          "RSI: not in buy zone (54.3, need 20-40)",
+          "BB: price not near lower band (pct=0.25)",
+          "RSI: not in buy zone (42.2, need 20-40)",
           "MACD: no bullish crossover or valley",
           "RSI Divergence: no bullish divergence detected",
-          "Volume: below average (0.22x) \u2014 low conviction"
+          "Volume: below average (0.85x) \u2014 low conviction"
         ],
-        "price": 367.14,
-        "rsi": 54.3,
-        "atr": 10.57,
+        "price": 346.77,
+        "rsi": 42.2,
+        "atr": 11.07,
         "final_tier": "Hold"
       },
       "signal_history": [
+        {
+          "ticker": "GOOGL",
+          "direction": "hold",
+          "tier": "Hold",
+          "buy_score": 0.38,
+          "sell_score": 0.14,
+          "reasons": [],
+          "misses": [
+            "BB: price not near lower band (pct=0.73)",
+            "RSI: not in buy zone (54.3, need 20-40)",
+            "MACD: no bullish crossover or valley",
+            "RSI Divergence: no bullish divergence detected",
+            "Volume: below average (0.22x) \u2014 low conviction"
+          ],
+          "price": 367.14,
+          "rsi": 54.3,
+          "atr": 10.57,
+          "final_tier": "Hold",
+          "recorded_at": "2026-07-15T15:05:12.954945"
+        },
         {
           "ticker": "GOOGL",
           "direction": "hold",
@@ -13129,28 +12789,48 @@
     "GOOG": {
       "ticker": "GOOG",
       "added_date": "2026-06-07",
-      "last_updated": "2026-07-15T15:05:17.013629",
+      "last_updated": "2026-07-19T22:45:23.630130",
       "reason": "Persistent Buy signal \u2014 active 2+ consecutive scrapes (score 75%)",
       "latest_signal": {
         "ticker": "GOOG",
         "direction": "hold",
         "tier": "Hold",
         "buy_score": 0.38,
-        "sell_score": 0.14,
+        "sell_score": 0.29,
         "reasons": [],
         "misses": [
-          "BB: price not near lower band (pct=0.77)",
-          "RSI: not in buy zone (55.0, need 20-40)",
+          "BB: price not near lower band (pct=0.28)",
+          "RSI: not in buy zone (43.3, need 20-40)",
           "MACD: no bullish crossover or valley",
           "RSI Divergence: no bullish divergence detected",
-          "Volume: below average (0.21x) \u2014 low conviction"
+          "Volume: below average (0.94x) \u2014 low conviction"
         ],
-        "price": 365.39,
-        "rsi": 55.0,
-        "atr": 9.54,
+        "price": 346.12,
+        "rsi": 43.3,
+        "atr": 11.01,
         "final_tier": "Hold"
       },
       "signal_history": [
+        {
+          "ticker": "GOOG",
+          "direction": "hold",
+          "tier": "Hold",
+          "buy_score": 0.38,
+          "sell_score": 0.14,
+          "reasons": [],
+          "misses": [
+            "BB: price not near lower band (pct=0.77)",
+            "RSI: not in buy zone (55.0, need 20-40)",
+            "MACD: no bullish crossover or valley",
+            "RSI Divergence: no bullish divergence detected",
+            "Volume: below average (0.21x) \u2014 low conviction"
+          ],
+          "price": 365.39,
+          "rsi": 55.0,
+          "atr": 9.54,
+          "final_tier": "Hold",
+          "recorded_at": "2026-07-15T15:05:17.013629"
+        },
         {
           "ticker": "GOOG",
           "direction": "hold",
@@ -13448,29 +13128,49 @@
     "NSC": {
       "ticker": "NSC",
       "added_date": "2026-06-07",
-      "last_updated": "2026-07-15T15:05:22.787388",
+      "last_updated": "2026-07-19T22:45:27.633825",
       "reason": "Persistent Buy signal \u2014 active 2+ consecutive scrapes (score 75%)",
       "latest_signal": {
         "ticker": "NSC",
         "direction": "hold",
         "tier": "Hold",
-        "buy_score": 0.25,
-        "sell_score": 0.29,
+        "buy_score": 0.38,
+        "sell_score": 0.43,
         "reasons": [],
         "misses": [
-          "BB: price not near lower band (pct=0.83)",
+          "BB: price not near lower band (pct=0.97)",
           "BB Width: bands expanding, not squeezing",
-          "RSI: not in buy zone (64.3, need 20-40)",
+          "RSI: not in buy zone (74.0, need 20-40)",
           "MACD: no bullish crossover or valley",
-          "RSI Divergence: no bullish divergence detected",
-          "Volume: below average (0.08x) \u2014 low conviction"
+          "RSI Divergence: no bullish divergence detected"
         ],
-        "price": 327.11,
-        "rsi": 64.3,
-        "atr": 5.52,
+        "price": 340.16,
+        "rsi": 74.0,
+        "atr": 5.76,
         "final_tier": "Hold"
       },
       "signal_history": [
+        {
+          "ticker": "NSC",
+          "direction": "hold",
+          "tier": "Hold",
+          "buy_score": 0.25,
+          "sell_score": 0.29,
+          "reasons": [],
+          "misses": [
+            "BB: price not near lower band (pct=0.83)",
+            "BB Width: bands expanding, not squeezing",
+            "RSI: not in buy zone (64.3, need 20-40)",
+            "MACD: no bullish crossover or valley",
+            "RSI Divergence: no bullish divergence detected",
+            "Volume: below average (0.08x) \u2014 low conviction"
+          ],
+          "price": 327.11,
+          "rsi": 64.3,
+          "atr": 5.52,
+          "final_tier": "Hold",
+          "recorded_at": "2026-07-15T15:05:22.787388"
+        },
         {
           "ticker": "NSC",
           "direction": "hold",
@@ -13677,29 +13377,49 @@
     "JNJ": {
       "ticker": "JNJ",
       "added_date": "2026-06-07",
-      "last_updated": "2026-07-15T15:05:26.641299",
+      "last_updated": "2026-07-19T22:45:31.185526",
       "reason": "Persistent Buy signal \u2014 active 2+ consecutive scrapes (score 75%)",
       "latest_signal": {
         "ticker": "JNJ",
         "direction": "hold",
         "tier": "Hold",
-        "buy_score": 0.25,
+        "buy_score": 0.38,
         "sell_score": 0.14,
         "reasons": [],
         "misses": [
-          "BB: price not near lower band (pct=0.58)",
+          "BB: price not near lower band (pct=0.53)",
           "BB Width: bands expanding, not squeezing",
-          "RSI: not in buy zone (55.2, need 20-40)",
+          "RSI: not in buy zone (54.5, need 20-40)",
           "MACD: no bullish crossover or valley",
-          "RSI Divergence: no bullish divergence detected",
-          "Volume: below average (0.32x) \u2014 low conviction"
+          "RSI Divergence: no bullish divergence detected"
         ],
-        "price": 253.17,
-        "rsi": 55.2,
-        "atr": 6.76,
+        "price": 253.04,
+        "rsi": 54.5,
+        "atr": 6.57,
         "final_tier": "Hold"
       },
       "signal_history": [
+        {
+          "ticker": "JNJ",
+          "direction": "hold",
+          "tier": "Hold",
+          "buy_score": 0.25,
+          "sell_score": 0.14,
+          "reasons": [],
+          "misses": [
+            "BB: price not near lower band (pct=0.58)",
+            "BB Width: bands expanding, not squeezing",
+            "RSI: not in buy zone (55.2, need 20-40)",
+            "MACD: no bullish crossover or valley",
+            "RSI Divergence: no bullish divergence detected",
+            "Volume: below average (0.32x) \u2014 low conviction"
+          ],
+          "price": 253.17,
+          "rsi": 55.2,
+          "atr": 6.76,
+          "final_tier": "Hold",
+          "recorded_at": "2026-07-15T15:05:26.641299"
+        },
         {
           "ticker": "JNJ",
           "direction": "hold",
@@ -13918,7 +13638,7 @@
     "TSN": {
       "ticker": "TSN",
       "added_date": "2026-06-07",
-      "last_updated": "2026-07-15T15:05:31.031553",
+      "last_updated": "2026-07-19T22:45:35.133239",
       "reason": "Persistent Buy signal \u2014 active 2+ consecutive scrapes (score 75%)",
       "latest_signal": {
         "ticker": "TSN",
@@ -13928,18 +13648,38 @@
         "sell_score": 0.29,
         "reasons": [],
         "misses": [
-          "BB: price not near lower band (pct=0.60)",
-          "RSI: not in buy zone (46.9, need 20-40)",
+          "BB: price not near lower band (pct=0.50)",
+          "RSI: not in buy zone (45.5, need 20-40)",
           "MACD: no bullish crossover or valley",
           "RSI Divergence: no bullish divergence detected",
-          "Volume: below average (0.08x) \u2014 low conviction"
+          "Volume: below average (0.90x) \u2014 low conviction"
         ],
-        "price": 58.11,
-        "rsi": 46.9,
-        "atr": 1.17,
+        "price": 57.77,
+        "rsi": 45.5,
+        "atr": 1.22,
         "final_tier": "Hold"
       },
       "signal_history": [
+        {
+          "ticker": "TSN",
+          "direction": "hold",
+          "tier": "Hold",
+          "buy_score": 0.38,
+          "sell_score": 0.29,
+          "reasons": [],
+          "misses": [
+            "BB: price not near lower band (pct=0.60)",
+            "RSI: not in buy zone (46.9, need 20-40)",
+            "MACD: no bullish crossover or valley",
+            "RSI Divergence: no bullish divergence detected",
+            "Volume: below average (0.08x) \u2014 low conviction"
+          ],
+          "price": 58.11,
+          "rsi": 46.9,
+          "atr": 1.17,
+          "final_tier": "Hold",
+          "recorded_at": "2026-07-15T15:05:31.031553"
+        },
         {
           "ticker": "TSN",
           "direction": "hold",
@@ -14148,28 +13888,142 @@
     "CMS": {
       "ticker": "CMS",
       "added_date": "2026-06-07",
-      "last_updated": "2026-07-15T15:05:36.705032",
+      "last_updated": "2026-07-19T22:47:20.607420",
       "reason": "Persistent Buy signal \u2014 active 2+ consecutive scrapes (score 75%)",
       "latest_signal": {
         "ticker": "CMS",
-        "direction": "hold",
-        "tier": "Hold",
-        "buy_score": 0.38,
-        "sell_score": 0.14,
-        "reasons": [],
-        "misses": [
-          "BB: price not near lower band (pct=0.43)",
-          "BB Width: bands expanding, not squeezing",
-          "RSI: not in buy zone (50.1, need 20-40)",
-          "MACD: no bullish crossover or valley",
-          "Volume: below average (0.09x) \u2014 low conviction"
+        "direction": "buy",
+        "tier": "Buy",
+        "buy_score": 0.75,
+        "sell_score": 0.43,
+        "reasons": [
+          "BB: price near lower band (pct=0.14)",
+          "BB Width: squeeze active (width=0.0794)",
+          "RSI Divergence: Price lower low (70.22 < 71.64) but RSI higher low (35.7 > 33.9)",
+          "200MA: price at/above 200MA (73.65 vs 73.28)",
+          "Golden cross: 50MA (73.99) above 200MA (73.28)",
+          "Volume: above average (1.10x)"
         ],
-        "price": 75.28,
-        "rsi": 50.1,
-        "atr": 1.57,
-        "final_tier": "Hold"
+        "misses": [
+          "RSI: not in buy zone (43.8, need 20-40)",
+          "MACD: no bullish crossover or valley"
+        ],
+        "price": 73.65,
+        "rsi": 43.8,
+        "atr": 1.56,
+        "relative_strength": -11.18,
+        "rs_label": "underperforming",
+        "previously_owned": false,
+        "final_tier": "Buy",
+        "earnings_gate": {
+          "proceed": true,
+          "reason": "Fundamentals intact \u2014 dip may be an overreaction",
+          "verdict": {
+            "ticker": "CMS",
+            "verdict": "consider",
+            "reason": "Fundamentals intact \u2014 dip may be an overreaction",
+            "notes": [
+              "Earnings growing YoY (+8.9%)",
+              "Revenue growing (+11.6%)"
+            ],
+            "earnings_status": "unknown",
+            "next_earnings_date": null,
+            "days_to_earnings": null
+          }
+        },
+        "news_sentiment": "neutral",
+        "signal_streak": 1
       },
       "signal_history": [
+        {
+          "ticker": "CMS",
+          "direction": "buy",
+          "tier": "Buy",
+          "buy_score": 0.75,
+          "sell_score": 0.43,
+          "reasons": [
+            "BB: price near lower band (pct=0.14)",
+            "BB Width: squeeze active (width=0.0794)",
+            "RSI Divergence: Price lower low (70.22 < 71.64) but RSI higher low (35.7 > 33.9)",
+            "200MA: price at/above 200MA (73.65 vs 73.28)",
+            "Golden cross: 50MA (73.99) above 200MA (73.28)",
+            "Volume: above average (1.10x)"
+          ],
+          "misses": [
+            "RSI: not in buy zone (43.8, need 20-40)",
+            "MACD: no bullish crossover or valley"
+          ],
+          "price": 73.65,
+          "rsi": 43.8,
+          "atr": 1.56,
+          "final_tier": "Buy",
+          "recorded_at": "2026-07-19T22:45:35.186310"
+        },
+        {
+          "ticker": "CMS",
+          "direction": "buy",
+          "tier": "Buy",
+          "buy_score": 0.75,
+          "sell_score": 0.43,
+          "reasons": [
+            "BB: price near lower band (pct=0.14)",
+            "BB Width: squeeze active (width=0.0794)",
+            "RSI Divergence: Price lower low (70.22 < 71.64) but RSI higher low (35.7 > 33.9)",
+            "200MA: price at/above 200MA (73.65 vs 73.28)",
+            "Golden cross: 50MA (73.99) above 200MA (73.28)",
+            "Volume: above average (1.10x)"
+          ],
+          "misses": [
+            "RSI: not in buy zone (43.8, need 20-40)",
+            "MACD: no bullish crossover or valley"
+          ],
+          "price": 73.65,
+          "rsi": 43.8,
+          "atr": 1.56,
+          "relative_strength": -11.18,
+          "rs_label": "underperforming",
+          "previously_owned": false,
+          "final_tier": "Buy",
+          "earnings_gate": {
+            "proceed": true,
+            "reason": "Fundamentals intact \u2014 dip may be an overreaction",
+            "verdict": {
+              "ticker": "CMS",
+              "verdict": "consider",
+              "reason": "Fundamentals intact \u2014 dip may be an overreaction",
+              "notes": [
+                "Earnings growing YoY (+8.9%)",
+                "Revenue growing (+11.6%)"
+              ],
+              "earnings_status": "unknown",
+              "next_earnings_date": null,
+              "days_to_earnings": null
+            }
+          },
+          "news_sentiment": "neutral",
+          "signal_streak": 1,
+          "recorded_at": "2026-07-19T22:41:54.991939"
+        },
+        {
+          "ticker": "CMS",
+          "direction": "hold",
+          "tier": "Hold",
+          "buy_score": 0.38,
+          "sell_score": 0.14,
+          "reasons": [],
+          "misses": [
+            "BB: price not near lower band (pct=0.43)",
+            "BB Width: bands expanding, not squeezing",
+            "RSI: not in buy zone (50.1, need 20-40)",
+            "MACD: no bullish crossover or valley",
+            "Volume: below average (0.09x) \u2014 low conviction"
+          ],
+          "price": 75.28,
+          "rsi": 50.1,
+          "atr": 1.57,
+          "final_tier": "Hold",
+          "recorded_at": "2026-07-15T15:05:36.705032"
+        },
         {
           "ticker": "CMS",
           "direction": "hold",
@@ -14375,36 +14229,60 @@
           "recorded_at": "2026-06-07T23:00:00.282923"
         }
       ],
-      "status": "watching"
+      "status": "watching",
+      "signal_streak": 1,
+      "auto_added": true
     },
     "CME": {
       "ticker": "CME",
       "added_date": "2026-06-07",
-      "last_updated": "2026-07-15T15:05:40.168050",
+      "last_updated": "2026-07-19T22:45:38.928062",
       "reason": "Persistent Buy signal \u2014 active 2+ consecutive scrapes (score 75%)",
       "latest_signal": {
         "ticker": "CME",
         "direction": "hold",
         "tier": "Hold",
-        "buy_score": 0.0,
-        "sell_score": 0.14,
+        "buy_score": 0.12,
+        "sell_score": 0.43,
         "reasons": [],
         "misses": [
-          "BB: price not near lower band (pct=0.64)",
-          "BB Width: bands expanding, not squeezing",
-          "RSI: not in buy zone (50.1, need 20-40)",
+          "BB: price not near lower band (pct=0.71)",
+          "RSI: not in buy zone (49.0, need 20-40)",
           "MACD: no bullish crossover or valley",
           "RSI Divergence: no bullish divergence detected",
           "200MA: price below 200MA \u2014 potential falling knife",
-          "Death cross active: 50MA (262.10) below 200MA (274.19)",
-          "Volume: below average (0.08x) \u2014 low conviction"
+          "Death cross active: 50MA (259.53) below 200MA (273.94)",
+          "Volume: below average (0.89x) \u2014 low conviction"
         ],
-        "price": 246.32,
-        "rsi": 50.1,
-        "atr": 7.28,
+        "price": 245.05,
+        "rsi": 49.0,
+        "atr": 6.57,
         "final_tier": "Hold"
       },
       "signal_history": [
+        {
+          "ticker": "CME",
+          "direction": "hold",
+          "tier": "Hold",
+          "buy_score": 0.0,
+          "sell_score": 0.14,
+          "reasons": [],
+          "misses": [
+            "BB: price not near lower band (pct=0.64)",
+            "BB Width: bands expanding, not squeezing",
+            "RSI: not in buy zone (50.1, need 20-40)",
+            "MACD: no bullish crossover or valley",
+            "RSI Divergence: no bullish divergence detected",
+            "200MA: price below 200MA \u2014 potential falling knife",
+            "Death cross active: 50MA (262.10) below 200MA (274.19)",
+            "Volume: below average (0.08x) \u2014 low conviction"
+          ],
+          "price": 246.32,
+          "rsi": 50.1,
+          "atr": 7.28,
+          "final_tier": "Hold",
+          "recorded_at": "2026-07-15T15:05:40.168050"
+        },
         {
           "ticker": "CME",
           "direction": "hold",
@@ -14623,7 +14501,7 @@
     "AMZN": {
       "ticker": "AMZN",
       "added_date": "2026-06-14",
-      "last_updated": "2026-07-15T15:05:45.404034",
+      "last_updated": "2026-07-19T22:45:42.708725",
       "reason": "Persistent Buy signal \u2014 active 2+ consecutive scrapes (score 75%)",
       "latest_signal": {
         "ticker": "AMZN",
@@ -14633,18 +14511,38 @@
         "sell_score": 0.29,
         "reasons": [],
         "misses": [
-          "BB: price not near lower band (pct=0.98)",
-          "RSI: not in buy zone (58.9, need 20-40)",
+          "BB: price not near lower band (pct=0.69)",
+          "RSI: not in buy zone (51.3, need 20-40)",
           "MACD: no bullish crossover or valley",
           "RSI Divergence: no bullish divergence detected",
-          "Volume: below average (0.23x) \u2014 low conviction"
+          "Volume: below average (0.71x) \u2014 low conviction"
         ],
-        "price": 253.86,
-        "rsi": 58.9,
-        "atr": 7.85,
+        "price": 247.23,
+        "rsi": 51.3,
+        "atr": 7.55,
         "final_tier": "Hold"
       },
       "signal_history": [
+        {
+          "ticker": "AMZN",
+          "direction": "hold",
+          "tier": "Hold",
+          "buy_score": 0.38,
+          "sell_score": 0.29,
+          "reasons": [],
+          "misses": [
+            "BB: price not near lower band (pct=0.98)",
+            "RSI: not in buy zone (58.9, need 20-40)",
+            "MACD: no bullish crossover or valley",
+            "RSI Divergence: no bullish divergence detected",
+            "Volume: below average (0.23x) \u2014 low conviction"
+          ],
+          "price": 253.86,
+          "rsi": 58.9,
+          "atr": 7.85,
+          "final_tier": "Hold",
+          "recorded_at": "2026-07-15T15:05:45.404034"
+        },
         {
           "ticker": "AMZN",
           "direction": "hold",
@@ -14930,7 +14828,7 @@
     "SNPS": {
       "ticker": "SNPS",
       "added_date": "2026-06-14",
-      "last_updated": "2026-07-15T15:05:53.511040",
+      "last_updated": "2026-07-19T22:45:46.815059",
       "reason": "Persistent Buy signal \u2014 active 2+ consecutive scrapes (score 75%)",
       "latest_signal": {
         "ticker": "SNPS",
@@ -14940,17 +14838,36 @@
         "sell_score": 0.14,
         "reasons": [],
         "misses": [
+          "BB Width: bands expanding, not squeezing",
           "MACD: no bullish crossover or valley",
           "RSI Divergence: no bullish divergence detected",
-          "200MA: price below 200MA \u2014 potential falling knife",
-          "Volume: below average (0.15x) \u2014 low conviction"
+          "200MA: price below 200MA \u2014 potential falling knife"
         ],
-        "price": 424.33,
-        "rsi": 35.2,
-        "atr": 15.77,
+        "price": 384.28,
+        "rsi": 23.9,
+        "atr": 17.2,
         "final_tier": "Hold"
       },
       "signal_history": [
+        {
+          "ticker": "SNPS",
+          "direction": "hold",
+          "tier": "Hold",
+          "buy_score": 0.5,
+          "sell_score": 0.14,
+          "reasons": [],
+          "misses": [
+            "MACD: no bullish crossover or valley",
+            "RSI Divergence: no bullish divergence detected",
+            "200MA: price below 200MA \u2014 potential falling knife",
+            "Volume: below average (0.15x) \u2014 low conviction"
+          ],
+          "price": 424.33,
+          "rsi": 35.2,
+          "atr": 15.77,
+          "final_tier": "Hold",
+          "recorded_at": "2026-07-15T15:05:53.511040"
+        },
         {
           "ticker": "SNPS",
           "direction": "hold",
@@ -15135,7 +15052,7 @@
     "PSX": {
       "ticker": "PSX",
       "added_date": "2026-06-21",
-      "last_updated": "2026-07-15T15:05:58.564913",
+      "last_updated": "2026-07-19T22:45:50.789392",
       "reason": "Persistent Buy signal \u2014 active 2+ consecutive scrapes (score 75%)",
       "latest_signal": {
         "ticker": "PSX",
@@ -15145,19 +15062,40 @@
         "sell_score": 0.43,
         "reasons": [],
         "misses": [
-          "BB: price not near lower band (pct=0.92)",
+          "BB: price not near lower band (pct=0.98)",
           "BB Width: bands expanding, not squeezing",
-          "RSI: not in buy zone (67.9, need 20-40)",
+          "RSI: not in buy zone (73.0, need 20-40)",
           "MACD: no bullish crossover or valley",
           "RSI Divergence: no bullish divergence detected",
-          "Volume: below average (0.14x) \u2014 low conviction"
+          "Volume: below average (0.79x) \u2014 low conviction"
         ],
-        "price": 197.29,
-        "rsi": 67.9,
-        "atr": 5.8,
+        "price": 206.86,
+        "rsi": 73.0,
+        "atr": 6.2,
         "final_tier": "Hold"
       },
       "signal_history": [
+        {
+          "ticker": "PSX",
+          "direction": "hold",
+          "tier": "Hold",
+          "buy_score": 0.25,
+          "sell_score": 0.43,
+          "reasons": [],
+          "misses": [
+            "BB: price not near lower band (pct=0.92)",
+            "BB Width: bands expanding, not squeezing",
+            "RSI: not in buy zone (67.9, need 20-40)",
+            "MACD: no bullish crossover or valley",
+            "RSI Divergence: no bullish divergence detected",
+            "Volume: below average (0.14x) \u2014 low conviction"
+          ],
+          "price": 197.29,
+          "rsi": 67.9,
+          "atr": 5.8,
+          "final_tier": "Hold",
+          "recorded_at": "2026-07-15T15:05:58.564913"
+        },
         {
           "ticker": "PSX",
           "direction": "hold",
@@ -15450,29 +15388,51 @@
     "PFE": {
       "ticker": "PFE",
       "added_date": "2026-06-21",
-      "last_updated": "2026-07-15T15:06:04.533700",
+      "last_updated": "2026-07-19T22:45:54.319592",
       "reason": "Persistent Buy signal \u2014 active 2+ consecutive scrapes (score 75%)",
       "latest_signal": {
         "ticker": "PFE",
         "direction": "hold",
         "tier": "Hold",
-        "buy_score": 0.25,
-        "sell_score": 0.14,
+        "buy_score": 0.12,
+        "sell_score": 0.29,
         "reasons": [],
         "misses": [
-          "BB: price not near lower band (pct=0.56)",
+          "BB: price not near lower band (pct=0.85)",
           "BB Width: bands expanding, not squeezing",
-          "RSI: not in buy zone (49.7, need 20-40)",
+          "RSI: not in buy zone (53.8, need 20-40)",
           "MACD: no bullish crossover or valley",
           "RSI Divergence: no bullish divergence detected",
-          "Volume: below average (0.17x) \u2014 low conviction"
+          "Death cross active: 50MA (25.25) below 200MA (25.34)",
+          "Volume: below average (0.85x) \u2014 low conviction"
         ],
-        "price": 24.72,
-        "rsi": 49.7,
-        "atr": 0.59,
+        "price": 25.05,
+        "rsi": 53.8,
+        "atr": 0.53,
         "final_tier": "Hold"
       },
       "signal_history": [
+        {
+          "ticker": "PFE",
+          "direction": "hold",
+          "tier": "Hold",
+          "buy_score": 0.25,
+          "sell_score": 0.14,
+          "reasons": [],
+          "misses": [
+            "BB: price not near lower band (pct=0.56)",
+            "BB Width: bands expanding, not squeezing",
+            "RSI: not in buy zone (49.7, need 20-40)",
+            "MACD: no bullish crossover or valley",
+            "RSI Divergence: no bullish divergence detected",
+            "Volume: below average (0.17x) \u2014 low conviction"
+          ],
+          "price": 24.72,
+          "rsi": 49.7,
+          "atr": 0.59,
+          "final_tier": "Hold",
+          "recorded_at": "2026-07-15T15:06:04.533700"
+        },
         {
           "ticker": "PFE",
           "direction": "hold",
@@ -15766,7 +15726,7 @@
     "APA": {
       "ticker": "APA",
       "added_date": "2026-06-21",
-      "last_updated": "2026-07-15T15:06:09.067611",
+      "last_updated": "2026-07-19T22:45:58.004741",
       "reason": "Persistent Buy signal \u2014 active 2+ consecutive scrapes (score 75%)",
       "latest_signal": {
         "ticker": "APA",
@@ -15776,18 +15736,38 @@
         "sell_score": 0.29,
         "reasons": [],
         "misses": [
-          "BB: price not near lower band (pct=0.57)",
-          "RSI: not in buy zone (46.7, need 20-40)",
+          "BB: price not near lower band (pct=0.93)",
+          "RSI: not in buy zone (53.8, need 20-40)",
           "MACD: no bullish crossover or valley",
           "RSI Divergence: no bullish divergence detected",
-          "Volume: below average (0.33x) \u2014 low conviction"
+          "Volume: below average (0.79x) \u2014 low conviction"
         ],
-        "price": 33.78,
-        "rsi": 46.7,
-        "atr": 1.14,
+        "price": 35.22,
+        "rsi": 53.8,
+        "atr": 1.13,
         "final_tier": "Hold"
       },
       "signal_history": [
+        {
+          "ticker": "APA",
+          "direction": "hold",
+          "tier": "Hold",
+          "buy_score": 0.38,
+          "sell_score": 0.29,
+          "reasons": [],
+          "misses": [
+            "BB: price not near lower band (pct=0.57)",
+            "RSI: not in buy zone (46.7, need 20-40)",
+            "MACD: no bullish crossover or valley",
+            "RSI Divergence: no bullish divergence detected",
+            "Volume: below average (0.33x) \u2014 low conviction"
+          ],
+          "price": 33.78,
+          "rsi": 46.7,
+          "atr": 1.14,
+          "final_tier": "Hold",
+          "recorded_at": "2026-07-15T15:06:09.067611"
+        },
         {
           "ticker": "APA",
           "direction": "hold",
@@ -16175,7 +16155,7 @@
     "AKAM": {
       "ticker": "AKAM",
       "added_date": "2026-06-21",
-      "last_updated": "2026-07-15T15:06:14.398515",
+      "last_updated": "2026-07-19T22:46:02.526642",
       "reason": "Persistent Buy signal \u2014 active 2+ consecutive scrapes (score 75%)",
       "latest_signal": {
         "ticker": "AKAM",
@@ -16186,17 +16166,37 @@
         "reasons": [],
         "misses": [
           "BB: price not near lower band (pct=0.53)",
-          "RSI: not in buy zone (46.5, need 20-40)",
+          "RSI: not in buy zone (45.2, need 20-40)",
           "MACD: no bullish crossover or valley",
           "RSI Divergence: no bullish divergence detected",
-          "Volume: below average (0.17x) \u2014 low conviction"
+          "Volume: below average (0.88x) \u2014 low conviction"
         ],
-        "price": 121.85,
-        "rsi": 46.5,
-        "atr": 6.09,
+        "price": 120.19,
+        "rsi": 45.2,
+        "atr": 5.88,
         "final_tier": "Hold"
       },
       "signal_history": [
+        {
+          "ticker": "AKAM",
+          "direction": "hold",
+          "tier": "Hold",
+          "buy_score": 0.38,
+          "sell_score": 0.29,
+          "reasons": [],
+          "misses": [
+            "BB: price not near lower band (pct=0.53)",
+            "RSI: not in buy zone (46.5, need 20-40)",
+            "MACD: no bullish crossover or valley",
+            "RSI Divergence: no bullish divergence detected",
+            "Volume: below average (0.17x) \u2014 low conviction"
+          ],
+          "price": 121.85,
+          "rsi": 46.5,
+          "atr": 6.09,
+          "final_tier": "Hold",
+          "recorded_at": "2026-07-15T15:06:14.398515"
+        },
         {
           "ticker": "AKAM",
           "direction": "hold",
@@ -16514,28 +16514,48 @@
     "ADM": {
       "ticker": "ADM",
       "added_date": "2026-06-21",
-      "last_updated": "2026-07-15T15:06:21.612905",
+      "last_updated": "2026-07-19T22:46:05.513199",
       "reason": "Persistent Buy signal \u2014 active 2+ consecutive scrapes (score 75%)",
       "latest_signal": {
         "ticker": "ADM",
         "direction": "hold",
         "tier": "Hold",
         "buy_score": 0.38,
-        "sell_score": 0.43,
+        "sell_score": 0.57,
         "reasons": [],
         "misses": [
-          "BB: price not near lower band (pct=1.02)",
-          "RSI: not in buy zone (64.0, need 20-40)",
+          "BB: price not near lower band (pct=1.09)",
+          "BB Width: bands expanding, not squeezing",
+          "RSI: not in buy zone (73.1, need 20-40)",
           "MACD: no bullish crossover or valley",
-          "RSI Divergence: no bullish divergence detected",
-          "Volume: below average (0.07x) \u2014 low conviction"
+          "RSI Divergence: no bullish divergence detected"
         ],
-        "price": 82.14,
-        "rsi": 64.0,
-        "atr": 1.93,
+        "price": 85.9,
+        "rsi": 73.1,
+        "atr": 1.79,
         "final_tier": "Hold"
       },
       "signal_history": [
+        {
+          "ticker": "ADM",
+          "direction": "hold",
+          "tier": "Hold",
+          "buy_score": 0.38,
+          "sell_score": 0.43,
+          "reasons": [],
+          "misses": [
+            "BB: price not near lower band (pct=1.02)",
+            "RSI: not in buy zone (64.0, need 20-40)",
+            "MACD: no bullish crossover or valley",
+            "RSI Divergence: no bullish divergence detected",
+            "Volume: below average (0.07x) \u2014 low conviction"
+          ],
+          "price": 82.14,
+          "rsi": 64.0,
+          "atr": 1.93,
+          "final_tier": "Hold",
+          "recorded_at": "2026-07-15T15:06:21.612905"
+        },
         {
           "ticker": "ADM",
           "direction": "hold",
@@ -16755,7 +16775,7 @@
     "EQR": {
       "ticker": "EQR",
       "added_date": "2026-06-21",
-      "last_updated": "2026-07-15T15:06:25.999543",
+      "last_updated": "2026-07-19T22:46:09.337302",
       "reason": "Persistent Buy signal \u2014 active 2+ consecutive scrapes (score 75%)",
       "latest_signal": {
         "ticker": "EQR",
@@ -16765,19 +16785,40 @@
         "sell_score": 0.14,
         "reasons": [],
         "misses": [
-          "BB: price not near lower band (pct=0.68)",
+          "BB: price not near lower band (pct=0.64)",
           "BB Width: bands expanding, not squeezing",
-          "RSI: not in buy zone (57.6, need 20-40)",
+          "RSI: not in buy zone (56.0, need 20-40)",
           "MACD: no bullish crossover or valley",
           "RSI Divergence: no bullish divergence detected",
-          "Volume: below average (0.11x) \u2014 low conviction"
+          "Volume: below average (0.82x) \u2014 low conviction"
         ],
-        "price": 68.86,
-        "rsi": 57.6,
-        "atr": 1.24,
+        "price": 69.0,
+        "rsi": 56.0,
+        "atr": 1.38,
         "final_tier": "Hold"
       },
       "signal_history": [
+        {
+          "ticker": "EQR",
+          "direction": "hold",
+          "tier": "Hold",
+          "buy_score": 0.25,
+          "sell_score": 0.14,
+          "reasons": [],
+          "misses": [
+            "BB: price not near lower band (pct=0.68)",
+            "BB Width: bands expanding, not squeezing",
+            "RSI: not in buy zone (57.6, need 20-40)",
+            "MACD: no bullish crossover or valley",
+            "RSI Divergence: no bullish divergence detected",
+            "Volume: below average (0.11x) \u2014 low conviction"
+          ],
+          "price": 68.86,
+          "rsi": 57.6,
+          "atr": 1.24,
+          "final_tier": "Hold",
+          "recorded_at": "2026-07-15T15:06:25.999543"
+        },
         {
           "ticker": "EQR",
           "direction": "hold",
@@ -17004,7 +17045,7 @@
     "AVB": {
       "ticker": "AVB",
       "added_date": "2026-06-21",
-      "last_updated": "2026-07-15T15:06:30.166157",
+      "last_updated": "2026-07-19T22:46:13.459531",
       "reason": "Persistent Buy signal \u2014 active 2+ consecutive scrapes (score 75%)",
       "latest_signal": {
         "ticker": "AVB",
@@ -17014,19 +17055,40 @@
         "sell_score": 0.14,
         "reasons": [],
         "misses": [
-          "BB: price not near lower band (pct=0.70)",
+          "BB: price not near lower band (pct=0.66)",
           "BB Width: bands expanding, not squeezing",
-          "RSI: not in buy zone (57.7, need 20-40)",
+          "RSI: not in buy zone (56.0, need 20-40)",
           "MACD: no bullish crossover or valley",
           "RSI Divergence: no bullish divergence detected",
-          "Volume: below average (0.08x) \u2014 low conviction"
+          "Volume: below average (0.92x) \u2014 low conviction"
         ],
-        "price": 192.13,
-        "rsi": 57.7,
-        "atr": 3.71,
+        "price": 192.53,
+        "rsi": 56.0,
+        "atr": 4.05,
         "final_tier": "Hold"
       },
       "signal_history": [
+        {
+          "ticker": "AVB",
+          "direction": "hold",
+          "tier": "Hold",
+          "buy_score": 0.25,
+          "sell_score": 0.14,
+          "reasons": [],
+          "misses": [
+            "BB: price not near lower band (pct=0.70)",
+            "BB Width: bands expanding, not squeezing",
+            "RSI: not in buy zone (57.7, need 20-40)",
+            "MACD: no bullish crossover or valley",
+            "RSI Divergence: no bullish divergence detected",
+            "Volume: below average (0.08x) \u2014 low conviction"
+          ],
+          "price": 192.13,
+          "rsi": 57.7,
+          "atr": 3.71,
+          "final_tier": "Hold",
+          "recorded_at": "2026-07-15T15:06:30.166157"
+        },
         {
           "ticker": "AVB",
           "direction": "hold",
@@ -17252,29 +17314,47 @@
     "EW": {
       "ticker": "EW",
       "added_date": "2026-06-21",
-      "last_updated": "2026-07-15T15:06:33.346937",
+      "last_updated": "2026-07-19T22:46:17.722425",
       "reason": "Persistent Buy signal \u2014 active 2+ consecutive scrapes (score 75%)",
       "latest_signal": {
         "ticker": "EW",
         "direction": "hold",
         "tier": "Hold",
-        "buy_score": 0.25,
-        "sell_score": 0.0,
+        "buy_score": 0.62,
+        "sell_score": 0.14,
         "reasons": [],
         "misses": [
-          "BB: price not near lower band (pct=0.31)",
           "BB Width: bands expanding, not squeezing",
-          "RSI: not in buy zone (45.8, need 20-40)",
           "MACD: no bullish crossover or valley",
-          "RSI Divergence: no bullish divergence detected",
-          "Volume: below average (0.41x) \u2014 low conviction"
+          "RSI Divergence: no bullish divergence detected"
         ],
-        "price": 88.18,
-        "rsi": 45.8,
-        "atr": 2.58,
+        "price": 85.73,
+        "rsi": 39.8,
+        "atr": 2.46,
         "final_tier": "Hold"
       },
       "signal_history": [
+        {
+          "ticker": "EW",
+          "direction": "hold",
+          "tier": "Hold",
+          "buy_score": 0.25,
+          "sell_score": 0.0,
+          "reasons": [],
+          "misses": [
+            "BB: price not near lower band (pct=0.31)",
+            "BB Width: bands expanding, not squeezing",
+            "RSI: not in buy zone (45.8, need 20-40)",
+            "MACD: no bullish crossover or valley",
+            "RSI Divergence: no bullish divergence detected",
+            "Volume: below average (0.41x) \u2014 low conviction"
+          ],
+          "price": 88.18,
+          "rsi": 45.8,
+          "atr": 2.58,
+          "final_tier": "Hold",
+          "recorded_at": "2026-07-15T15:06:33.346937"
+        },
         {
           "ticker": "EW",
           "direction": "hold",
@@ -17501,29 +17581,50 @@
     "AMT": {
       "ticker": "AMT",
       "added_date": "2026-06-21",
-      "last_updated": "2026-07-15T15:06:37.523438",
+      "last_updated": "2026-07-19T22:46:21.604553",
       "reason": "Persistent Buy signal \u2014 active 2+ consecutive scrapes (score 75%)",
       "latest_signal": {
         "ticker": "AMT",
         "direction": "hold",
         "tier": "Hold",
         "buy_score": 0.25,
-        "sell_score": 0.14,
+        "sell_score": 0.29,
         "reasons": [],
         "misses": [
-          "BB: price not near lower band (pct=0.45)",
-          "BB Width: bands expanding, not squeezing",
-          "RSI: not in buy zone (46.3, need 20-40)",
+          "BB: price not near lower band (pct=0.54)",
+          "RSI: not in buy zone (46.6, need 20-40)",
+          "MACD: no bullish crossover or valley",
           "RSI Divergence: no bullish divergence detected",
           "200MA: price below 200MA \u2014 potential falling knife",
-          "Volume: below average (0.14x) \u2014 low conviction"
+          "Volume: below average (0.80x) \u2014 low conviction"
         ],
-        "price": 170.32,
-        "rsi": 46.3,
-        "atr": 5.18,
+        "price": 170.06,
+        "rsi": 46.6,
+        "atr": 4.22,
         "final_tier": "Hold"
       },
       "signal_history": [
+        {
+          "ticker": "AMT",
+          "direction": "hold",
+          "tier": "Hold",
+          "buy_score": 0.25,
+          "sell_score": 0.14,
+          "reasons": [],
+          "misses": [
+            "BB: price not near lower band (pct=0.45)",
+            "BB Width: bands expanding, not squeezing",
+            "RSI: not in buy zone (46.3, need 20-40)",
+            "RSI Divergence: no bullish divergence detected",
+            "200MA: price below 200MA \u2014 potential falling knife",
+            "Volume: below average (0.14x) \u2014 low conviction"
+          ],
+          "price": 170.32,
+          "rsi": 46.3,
+          "atr": 5.18,
+          "final_tier": "Hold",
+          "recorded_at": "2026-07-15T15:06:37.523438"
+        },
         {
           "ticker": "AMT",
           "direction": "hold",
@@ -17747,28 +17848,49 @@
     "FANG": {
       "ticker": "FANG",
       "added_date": "2026-06-21",
-      "last_updated": "2026-07-15T15:06:41.583344",
+      "last_updated": "2026-07-19T22:46:25.229576",
       "reason": "Persistent Buy signal \u2014 active 2+ consecutive scrapes (score 75%)",
       "latest_signal": {
         "ticker": "FANG",
         "direction": "hold",
         "tier": "Hold",
-        "buy_score": 0.38,
+        "buy_score": 0.25,
         "sell_score": 0.14,
         "reasons": [],
         "misses": [
-          "BB: price not near lower band (pct=0.75)",
-          "RSI: not in buy zone (52.8, need 20-40)",
+          "BB: price not near lower band (pct=0.95)",
+          "BB Width: bands expanding, not squeezing",
+          "RSI: not in buy zone (59.8, need 20-40)",
           "MACD: no bullish crossover or valley",
           "RSI Divergence: no bullish divergence detected",
-          "Volume: below average (0.07x) \u2014 low conviction"
+          "Volume: below average (0.86x) \u2014 low conviction"
         ],
-        "price": 188.74,
-        "rsi": 52.8,
-        "atr": 5.27,
+        "price": 195.54,
+        "rsi": 59.8,
+        "atr": 5.39,
         "final_tier": "Hold"
       },
       "signal_history": [
+        {
+          "ticker": "FANG",
+          "direction": "hold",
+          "tier": "Hold",
+          "buy_score": 0.38,
+          "sell_score": 0.14,
+          "reasons": [],
+          "misses": [
+            "BB: price not near lower band (pct=0.75)",
+            "RSI: not in buy zone (52.8, need 20-40)",
+            "MACD: no bullish crossover or valley",
+            "RSI Divergence: no bullish divergence detected",
+            "Volume: below average (0.07x) \u2014 low conviction"
+          ],
+          "price": 188.74,
+          "rsi": 52.8,
+          "atr": 5.27,
+          "final_tier": "Hold",
+          "recorded_at": "2026-07-15T15:06:41.583344"
+        },
         {
           "ticker": "FANG",
           "direction": "hold",
@@ -17991,29 +18113,48 @@
     "BKR": {
       "ticker": "BKR",
       "added_date": "2026-06-21",
-      "last_updated": "2026-07-15T15:06:46.301680",
+      "last_updated": "2026-07-19T22:46:28.784382",
       "reason": "Persistent Buy signal \u2014 active 2+ consecutive scrapes (score 75%)",
       "latest_signal": {
         "ticker": "BKR",
         "direction": "hold",
         "tier": "Hold",
-        "buy_score": 0.25,
-        "sell_score": 0.0,
+        "buy_score": 0.5,
+        "sell_score": 0.43,
         "reasons": [],
         "misses": [
-          "BB: price not near lower band (pct=0.46)",
-          "BB Width: bands expanding, not squeezing",
-          "RSI: not in buy zone (43.4, need 20-40)",
+          "BB: price not near lower band (pct=0.42)",
+          "RSI: not in buy zone (40.5, need 20-40)",
           "MACD: no bullish crossover or valley",
-          "RSI Divergence: no bullish divergence detected",
-          "Volume: below average (0.12x) \u2014 low conviction"
+          "RSI Divergence: no bullish divergence detected"
         ],
-        "price": 56.7,
-        "rsi": 43.4,
-        "atr": 1.77,
+        "price": 55.95,
+        "rsi": 40.5,
+        "atr": 1.67,
         "final_tier": "Hold"
       },
       "signal_history": [
+        {
+          "ticker": "BKR",
+          "direction": "hold",
+          "tier": "Hold",
+          "buy_score": 0.25,
+          "sell_score": 0.0,
+          "reasons": [],
+          "misses": [
+            "BB: price not near lower band (pct=0.46)",
+            "BB Width: bands expanding, not squeezing",
+            "RSI: not in buy zone (43.4, need 20-40)",
+            "MACD: no bullish crossover or valley",
+            "RSI Divergence: no bullish divergence detected",
+            "Volume: below average (0.12x) \u2014 low conviction"
+          ],
+          "price": 56.7,
+          "rsi": 43.4,
+          "atr": 1.77,
+          "final_tier": "Hold",
+          "recorded_at": "2026-07-15T15:06:46.301680"
+        },
         {
           "ticker": "BKR",
           "direction": "hold",
@@ -18333,7 +18474,7 @@
     "EOG": {
       "ticker": "EOG",
       "added_date": "2026-06-21",
-      "last_updated": "2026-07-15T15:06:50.586566",
+      "last_updated": "2026-07-19T22:46:35.136985",
       "reason": "Persistent Buy signal \u2014 active 2+ consecutive scrapes (score 75%)",
       "latest_signal": {
         "ticker": "EOG",
@@ -18343,18 +18484,38 @@
         "sell_score": 0.29,
         "reasons": [],
         "misses": [
-          "BB: price not near lower band (pct=0.80)",
-          "RSI: not in buy zone (52.8, need 20-40)",
+          "BB: price not near lower band (pct=0.97)",
+          "BB Width: bands expanding, not squeezing",
+          "RSI: not in buy zone (59.7, need 20-40)",
           "MACD: no bullish crossover or valley",
-          "RSI Divergence: no bullish divergence detected",
-          "Volume: below average (0.12x) \u2014 low conviction"
+          "RSI Divergence: no bullish divergence detected"
         ],
-        "price": 136.37,
-        "rsi": 52.8,
-        "atr": 3.6,
+        "price": 139.89,
+        "rsi": 59.7,
+        "atr": 3.59,
         "final_tier": "Hold"
       },
       "signal_history": [
+        {
+          "ticker": "EOG",
+          "direction": "hold",
+          "tier": "Hold",
+          "buy_score": 0.38,
+          "sell_score": 0.29,
+          "reasons": [],
+          "misses": [
+            "BB: price not near lower band (pct=0.80)",
+            "RSI: not in buy zone (52.8, need 20-40)",
+            "MACD: no bullish crossover or valley",
+            "RSI Divergence: no bullish divergence detected",
+            "Volume: below average (0.12x) \u2014 low conviction"
+          ],
+          "price": 136.37,
+          "rsi": 52.8,
+          "atr": 3.6,
+          "final_tier": "Hold",
+          "recorded_at": "2026-07-15T15:06:50.586566"
+        },
         {
           "ticker": "EOG",
           "direction": "hold",
@@ -18577,27 +18738,45 @@
     "IONQ": {
       "ticker": "IONQ",
       "added_date": "2026-06-28",
-      "last_updated": "2026-07-15T15:06:54.890699",
+      "last_updated": "2026-07-19T22:46:38.780775",
       "reason": "Persistent Buy signal \u2014 active 2+ consecutive scrapes (score 75%)",
       "latest_signal": {
         "ticker": "IONQ",
         "direction": "hold",
         "tier": "Hold",
-        "buy_score": 0.5,
-        "sell_score": 0.0,
+        "buy_score": 0.62,
+        "sell_score": 0.14,
         "reasons": [],
         "misses": [
           "BB Width: bands expanding, not squeezing",
           "RSI Divergence: no bullish divergence detected",
-          "200MA: price below 200MA \u2014 potential falling knife",
-          "Volume: below average (0.31x) \u2014 low conviction"
+          "200MA: price below 200MA \u2014 potential falling knife"
         ],
-        "price": 37.73,
-        "rsi": 28.9,
-        "atr": 3.49,
+        "price": 34.78,
+        "rsi": 26.1,
+        "atr": 3.29,
         "final_tier": "Hold"
       },
       "signal_history": [
+        {
+          "ticker": "IONQ",
+          "direction": "hold",
+          "tier": "Hold",
+          "buy_score": 0.5,
+          "sell_score": 0.0,
+          "reasons": [],
+          "misses": [
+            "BB Width: bands expanding, not squeezing",
+            "RSI Divergence: no bullish divergence detected",
+            "200MA: price below 200MA \u2014 potential falling knife",
+            "Volume: below average (0.31x) \u2014 low conviction"
+          ],
+          "price": 37.73,
+          "rsi": 28.9,
+          "atr": 3.49,
+          "final_tier": "Hold",
+          "recorded_at": "2026-07-15T15:06:54.890699"
+        },
         {
           "ticker": "IONQ",
           "direction": "hold",
@@ -18686,28 +18865,47 @@
     "ON": {
       "ticker": "ON",
       "added_date": "2026-06-28",
-      "last_updated": "2026-07-15T15:07:02.197442",
+      "last_updated": "2026-07-19T22:46:45.550649",
       "reason": "Persistent Buy signal \u2014 active 2+ consecutive scrapes (score 75%)",
       "latest_signal": {
         "ticker": "ON",
         "direction": "hold",
         "tier": "Hold",
-        "buy_score": 0.38,
+        "buy_score": 0.5,
         "sell_score": 0.0,
         "reasons": [],
         "misses": [
-          "BB: price not near lower band (pct=0.30)",
+          "BB: price not near lower band (pct=0.27)",
           "BB Width: bands expanding, not squeezing",
-          "RSI: not in buy zone (42.0, need 20-40)",
           "RSI Divergence: no bullish divergence detected",
-          "Volume: below average (0.16x) \u2014 low conviction"
+          "Volume: below average (0.70x) \u2014 low conviction"
         ],
-        "price": 92.39,
-        "rsi": 42.0,
-        "atr": 7.98,
+        "price": 87.37,
+        "rsi": 39.1,
+        "atr": 6.05,
         "final_tier": "Hold"
       },
       "signal_history": [
+        {
+          "ticker": "ON",
+          "direction": "hold",
+          "tier": "Hold",
+          "buy_score": 0.38,
+          "sell_score": 0.0,
+          "reasons": [],
+          "misses": [
+            "BB: price not near lower band (pct=0.30)",
+            "BB Width: bands expanding, not squeezing",
+            "RSI: not in buy zone (42.0, need 20-40)",
+            "RSI Divergence: no bullish divergence detected",
+            "Volume: below average (0.16x) \u2014 low conviction"
+          ],
+          "price": 92.39,
+          "rsi": 42.0,
+          "atr": 7.98,
+          "final_tier": "Hold",
+          "recorded_at": "2026-07-15T15:07:02.197442"
+        },
         {
           "ticker": "ON",
           "direction": "hold",
@@ -18890,28 +19088,48 @@
     "STLD": {
       "ticker": "STLD",
       "added_date": "2026-06-28",
-      "last_updated": "2026-07-15T15:07:06.850145",
+      "last_updated": "2026-07-19T22:46:48.918059",
       "reason": "Persistent Buy signal \u2014 active 2+ consecutive scrapes (score 75%)",
       "latest_signal": {
         "ticker": "STLD",
         "direction": "hold",
         "tier": "Hold",
         "buy_score": 0.38,
-        "sell_score": 0.14,
+        "sell_score": 0.29,
         "reasons": [],
         "misses": [
-          "BB: price not near lower band (pct=0.39)",
-          "BB Width: bands expanding, not squeezing",
-          "RSI: not in buy zone (45.0, need 20-40)",
+          "BB: price not near lower band (pct=0.52)",
+          "RSI: not in buy zone (47.3, need 20-40)",
+          "MACD: no bullish crossover or valley",
           "RSI Divergence: no bullish divergence detected",
-          "Volume: below average (0.12x) \u2014 low conviction"
+          "Volume: below average (0.59x) \u2014 low conviction"
         ],
-        "price": 232.64,
-        "rsi": 45.0,
-        "atr": 8.31,
+        "price": 235.51,
+        "rsi": 47.3,
+        "atr": 7.96,
         "final_tier": "Hold"
       },
       "signal_history": [
+        {
+          "ticker": "STLD",
+          "direction": "hold",
+          "tier": "Hold",
+          "buy_score": 0.38,
+          "sell_score": 0.14,
+          "reasons": [],
+          "misses": [
+            "BB: price not near lower band (pct=0.39)",
+            "BB Width: bands expanding, not squeezing",
+            "RSI: not in buy zone (45.0, need 20-40)",
+            "RSI Divergence: no bullish divergence detected",
+            "Volume: below average (0.12x) \u2014 low conviction"
+          ],
+          "price": 232.64,
+          "rsi": 45.0,
+          "atr": 8.31,
+          "final_tier": "Hold",
+          "recorded_at": "2026-07-15T15:07:06.850145"
+        },
         {
           "ticker": "STLD",
           "direction": "hold",
@@ -19001,28 +19219,49 @@
     "MPWR": {
       "ticker": "MPWR",
       "added_date": "2026-06-28",
-      "last_updated": "2026-07-15T15:07:12.745868",
+      "last_updated": "2026-07-19T22:46:53.216278",
       "reason": "Persistent Buy signal \u2014 active 2+ consecutive scrapes (score 75%)",
       "latest_signal": {
         "ticker": "MPWR",
         "direction": "hold",
         "tier": "Hold",
-        "buy_score": 0.38,
-        "sell_score": 0.0,
+        "buy_score": 0.25,
+        "sell_score": 0.14,
         "reasons": [],
         "misses": [
-          "BB: price not near lower band (pct=0.37)",
+          "BB: price not near lower band (pct=0.33)",
           "BB Width: bands expanding, not squeezing",
-          "RSI: not in buy zone (45.5, need 20-40)",
+          "RSI: not in buy zone (44.0, need 20-40)",
+          "MACD: no bullish crossover or valley",
           "RSI Divergence: no bullish divergence detected",
-          "Volume: below average (0.11x) \u2014 low conviction"
+          "Volume: below average (0.88x) \u2014 low conviction"
         ],
-        "price": 1343.37,
-        "rsi": 45.5,
-        "atr": 89.9,
+        "price": 1312.0,
+        "rsi": 44.0,
+        "atr": 85.88,
         "final_tier": "Hold"
       },
       "signal_history": [
+        {
+          "ticker": "MPWR",
+          "direction": "hold",
+          "tier": "Hold",
+          "buy_score": 0.38,
+          "sell_score": 0.0,
+          "reasons": [],
+          "misses": [
+            "BB: price not near lower band (pct=0.37)",
+            "BB Width: bands expanding, not squeezing",
+            "RSI: not in buy zone (45.5, need 20-40)",
+            "RSI Divergence: no bullish divergence detected",
+            "Volume: below average (0.11x) \u2014 low conviction"
+          ],
+          "price": 1343.37,
+          "rsi": 45.5,
+          "atr": 89.9,
+          "final_tier": "Hold",
+          "recorded_at": "2026-07-15T15:07:12.745868"
+        },
         {
           "ticker": "MPWR",
           "direction": "hold",
@@ -19113,7 +19352,7 @@
     "NVDA": {
       "ticker": "NVDA",
       "added_date": "2026-06-28",
-      "last_updated": "2026-07-15T15:07:17.210886",
+      "last_updated": "2026-07-19T22:46:57.221389",
       "reason": "Persistent Buy signal \u2014 active 2+ consecutive scrapes (score 75%)",
       "latest_signal": {
         "ticker": "NVDA",
@@ -19123,18 +19362,38 @@
         "sell_score": 0.29,
         "reasons": [],
         "misses": [
-          "BB: price not near lower band (pct=0.82)",
-          "RSI: not in buy zone (55.3, need 20-40)",
+          "BB: price not near lower band (pct=0.53)",
+          "RSI: not in buy zone (48.2, need 20-40)",
           "MACD: no bullish crossover or valley",
           "RSI Divergence: no bullish divergence detected",
-          "Volume: below average (0.23x) \u2014 low conviction"
+          "Volume: below average (0.99x) \u2014 low conviction"
         ],
-        "price": 210.16,
-        "rsi": 55.3,
-        "atr": 7.04,
+        "price": 202.81,
+        "rsi": 48.2,
+        "atr": 7.35,
         "final_tier": "Hold"
       },
       "signal_history": [
+        {
+          "ticker": "NVDA",
+          "direction": "hold",
+          "tier": "Hold",
+          "buy_score": 0.38,
+          "sell_score": 0.29,
+          "reasons": [],
+          "misses": [
+            "BB: price not near lower band (pct=0.82)",
+            "RSI: not in buy zone (55.3, need 20-40)",
+            "MACD: no bullish crossover or valley",
+            "RSI Divergence: no bullish divergence detected",
+            "Volume: below average (0.23x) \u2014 low conviction"
+          ],
+          "price": 210.16,
+          "rsi": 55.3,
+          "atr": 7.04,
+          "final_tier": "Hold",
+          "recorded_at": "2026-07-15T15:07:17.210886"
+        },
         {
           "ticker": "NVDA",
           "direction": "hold",
@@ -19223,7 +19482,7 @@
     "BMY": {
       "ticker": "BMY",
       "added_date": "2026-06-28",
-      "last_updated": "2026-07-15T15:07:22.170369",
+      "last_updated": "2026-07-19T22:47:01.545059",
       "reason": "Persistent Buy signal \u2014 active 2+ consecutive scrapes (score 75%)",
       "latest_signal": {
         "ticker": "BMY",
@@ -19233,18 +19492,38 @@
         "sell_score": 0.14,
         "reasons": [],
         "misses": [
-          "BB: price not near lower band (pct=0.87)",
+          "BB: price not near lower band (pct=0.95)",
           "BB Width: bands expanding, not squeezing",
-          "RSI: not in buy zone (58.9, need 20-40)",
+          "RSI: not in buy zone (61.7, need 20-40)",
           "MACD: no bullish crossover or valley",
-          "Volume: below average (0.19x) \u2014 low conviction"
+          "Volume: below average (0.90x) \u2014 low conviction"
         ],
-        "price": 59.01,
-        "rsi": 58.9,
-        "atr": 1.59,
+        "price": 60.74,
+        "rsi": 61.7,
+        "atr": 1.67,
         "final_tier": "Hold"
       },
       "signal_history": [
+        {
+          "ticker": "BMY",
+          "direction": "hold",
+          "tier": "Hold",
+          "buy_score": 0.38,
+          "sell_score": 0.14,
+          "reasons": [],
+          "misses": [
+            "BB: price not near lower band (pct=0.87)",
+            "BB Width: bands expanding, not squeezing",
+            "RSI: not in buy zone (58.9, need 20-40)",
+            "MACD: no bullish crossover or valley",
+            "Volume: below average (0.19x) \u2014 low conviction"
+          ],
+          "price": 59.01,
+          "rsi": 58.9,
+          "atr": 1.59,
+          "final_tier": "Hold",
+          "recorded_at": "2026-07-15T15:07:22.170369"
+        },
         {
           "ticker": "BMY",
           "direction": "hold",
@@ -19336,27 +19615,45 @@
     "WMT": {
       "ticker": "WMT",
       "added_date": "2026-07-05",
-      "last_updated": "2026-07-15T15:07:26.617230",
+      "last_updated": "2026-07-19T22:47:05.733401",
       "reason": "Strong Buy signal auto-detected by overnight scrape (score 75%)",
       "latest_signal": {
         "ticker": "WMT",
         "direction": "hold",
         "tier": "Hold",
-        "buy_score": 0.5,
-        "sell_score": 0.14,
+        "buy_score": 0.62,
+        "sell_score": 0.29,
         "reasons": [],
         "misses": [
-          "BB: price not near lower band (pct=0.42)",
-          "RSI: not in buy zone (44.7, need 20-40)",
-          "MACD: no bullish crossover or valley",
-          "Volume: below average (0.13x) \u2014 low conviction"
+          "BB: price not near lower band (pct=0.50)",
+          "RSI: not in buy zone (46.4, need 20-40)",
+          "MACD: no bullish crossover or valley"
         ],
-        "price": 114.05,
-        "rsi": 44.7,
-        "atr": 2.68,
+        "price": 114.24,
+        "rsi": 46.4,
+        "atr": 2.9,
         "final_tier": "Hold"
       },
       "signal_history": [
+        {
+          "ticker": "WMT",
+          "direction": "hold",
+          "tier": "Hold",
+          "buy_score": 0.5,
+          "sell_score": 0.14,
+          "reasons": [],
+          "misses": [
+            "BB: price not near lower band (pct=0.42)",
+            "RSI: not in buy zone (44.7, need 20-40)",
+            "MACD: no bullish crossover or valley",
+            "Volume: below average (0.13x) \u2014 low conviction"
+          ],
+          "price": 114.05,
+          "rsi": 44.7,
+          "atr": 2.68,
+          "final_tier": "Hold",
+          "recorded_at": "2026-07-15T15:07:26.617230"
+        },
         {
           "ticker": "WMT",
           "direction": "hold",
@@ -19496,28 +19793,47 @@
     "HPQ": {
       "ticker": "HPQ",
       "added_date": "2026-07-05",
-      "last_updated": "2026-07-15T15:07:31.551019",
+      "last_updated": "2026-07-19T22:47:09.219572",
       "reason": "Persistent Buy signal \u2014 active 2+ consecutive scrapes (score 75%)",
       "latest_signal": {
         "ticker": "HPQ",
         "direction": "hold",
         "tier": "Hold",
-        "buy_score": 0.38,
-        "sell_score": 0.29,
+        "buy_score": 0.5,
+        "sell_score": 0.43,
         "reasons": [],
         "misses": [
-          "BB: price not near lower band (pct=0.61)",
-          "RSI: not in buy zone (51.8, need 20-40)",
+          "BB: price not near lower band (pct=0.89)",
+          "RSI: not in buy zone (59.3, need 20-40)",
           "MACD: no bullish crossover or valley",
-          "RSI Divergence: no bullish divergence detected",
-          "Volume: below average (0.17x) \u2014 low conviction"
+          "RSI Divergence: no bullish divergence detected"
         ],
-        "price": 23.72,
-        "rsi": 51.8,
-        "atr": 0.83,
+        "price": 24.84,
+        "rsi": 59.3,
+        "atr": 0.92,
         "final_tier": "Hold"
       },
       "signal_history": [
+        {
+          "ticker": "HPQ",
+          "direction": "hold",
+          "tier": "Hold",
+          "buy_score": 0.38,
+          "sell_score": 0.29,
+          "reasons": [],
+          "misses": [
+            "BB: price not near lower band (pct=0.61)",
+            "RSI: not in buy zone (51.8, need 20-40)",
+            "MACD: no bullish crossover or valley",
+            "RSI Divergence: no bullish divergence detected",
+            "Volume: below average (0.17x) \u2014 low conviction"
+          ],
+          "price": 23.72,
+          "rsi": 51.8,
+          "atr": 0.83,
+          "final_tier": "Hold",
+          "recorded_at": "2026-07-15T15:07:31.551019"
+        },
         {
           "ticker": "HPQ",
           "direction": "hold",
@@ -19589,7 +19905,7 @@
     "IRM": {
       "ticker": "IRM",
       "added_date": "2026-07-05",
-      "last_updated": "2026-07-15T15:07:36.374581",
+      "last_updated": "2026-07-19T22:47:13.382317",
       "reason": "Persistent Buy signal \u2014 active 2+ consecutive scrapes (score 75%)",
       "latest_signal": {
         "ticker": "IRM",
@@ -19599,18 +19915,38 @@
         "sell_score": 0.0,
         "reasons": [],
         "misses": [
-          "BB: price not near lower band (pct=0.33)",
+          "BB: price not near lower band (pct=0.48)",
           "BB Width: bands expanding, not squeezing",
-          "RSI: not in buy zone (45.2, need 20-40)",
+          "RSI: not in buy zone (51.0, need 20-40)",
           "RSI Divergence: no bullish divergence detected",
-          "Volume: below average (0.23x) \u2014 low conviction"
+          "Volume: below average (0.96x) \u2014 low conviction"
         ],
-        "price": 120.71,
-        "rsi": 45.2,
-        "atr": 4.28,
+        "price": 123.82,
+        "rsi": 51.0,
+        "atr": 4.4,
         "final_tier": "Hold"
       },
       "signal_history": [
+        {
+          "ticker": "IRM",
+          "direction": "hold",
+          "tier": "Hold",
+          "buy_score": 0.38,
+          "sell_score": 0.0,
+          "reasons": [],
+          "misses": [
+            "BB: price not near lower band (pct=0.33)",
+            "BB Width: bands expanding, not squeezing",
+            "RSI: not in buy zone (45.2, need 20-40)",
+            "RSI Divergence: no bullish divergence detected",
+            "Volume: below average (0.23x) \u2014 low conviction"
+          ],
+          "price": 120.71,
+          "rsi": 45.2,
+          "atr": 4.28,
+          "final_tier": "Hold",
+          "recorded_at": "2026-07-15T15:07:36.374581"
+        },
         {
           "ticker": "IRM",
           "direction": "hold",
@@ -19682,27 +20018,45 @@
     "EME": {
       "ticker": "EME",
       "added_date": "2026-07-05",
-      "last_updated": "2026-07-15T15:07:40.441565",
+      "last_updated": "2026-07-19T22:47:16.686199",
       "reason": "Persistent Buy signal \u2014 active 2+ consecutive scrapes (score 75%)",
       "latest_signal": {
         "ticker": "EME",
         "direction": "hold",
         "tier": "Hold",
-        "buy_score": 0.5,
-        "sell_score": 0.0,
+        "buy_score": 0.62,
+        "sell_score": 0.14,
         "reasons": [],
         "misses": [
           "BB Width: bands expanding, not squeezing",
           "MACD: no bullish crossover or valley",
-          "RSI Divergence: no bullish divergence detected",
-          "Volume: below average (0.21x) \u2014 low conviction"
+          "RSI Divergence: no bullish divergence detected"
         ],
-        "price": 756.82,
-        "rsi": 38.0,
-        "atr": 33.22,
+        "price": 744.16,
+        "rsi": 36.4,
+        "atr": 30.16,
         "final_tier": "Hold"
       },
       "signal_history": [
+        {
+          "ticker": "EME",
+          "direction": "hold",
+          "tier": "Hold",
+          "buy_score": 0.5,
+          "sell_score": 0.0,
+          "reasons": [],
+          "misses": [
+            "BB Width: bands expanding, not squeezing",
+            "MACD: no bullish crossover or valley",
+            "RSI Divergence: no bullish divergence detected",
+            "Volume: below average (0.21x) \u2014 low conviction"
+          ],
+          "price": 756.82,
+          "rsi": 38.0,
+          "atr": 33.22,
+          "final_tier": "Hold",
+          "recorded_at": "2026-07-15T15:07:40.441565"
+        },
         {
           "ticker": "EME",
           "direction": "hold",
@@ -19773,28 +20127,47 @@
     "DLR": {
       "ticker": "DLR",
       "added_date": "2026-07-05",
-      "last_updated": "2026-07-15T15:07:44.304163",
+      "last_updated": "2026-07-19T22:47:20.557257",
       "reason": "Persistent Buy signal \u2014 active 2+ consecutive scrapes (score 75%)",
       "latest_signal": {
         "ticker": "DLR",
         "direction": "hold",
         "tier": "Hold",
-        "buy_score": 0.38,
+        "buy_score": 0.5,
         "sell_score": 0.0,
         "reasons": [],
         "misses": [
-          "BB: price not near lower band (pct=0.22)",
+          "BB: price not near lower band (pct=0.27)",
           "BB Width: bands expanding, not squeezing",
-          "MACD: no bullish crossover or valley",
           "RSI Divergence: no bullish divergence detected",
-          "Volume: below average (0.14x) \u2014 low conviction"
+          "Volume: below average (0.65x) \u2014 low conviction"
         ],
-        "price": 174.79,
-        "rsi": 38.4,
-        "atr": 4.62,
+        "price": 173.88,
+        "rsi": 39.3,
+        "atr": 4.96,
         "final_tier": "Hold"
       },
       "signal_history": [
+        {
+          "ticker": "DLR",
+          "direction": "hold",
+          "tier": "Hold",
+          "buy_score": 0.38,
+          "sell_score": 0.0,
+          "reasons": [],
+          "misses": [
+            "BB: price not near lower band (pct=0.22)",
+            "BB Width: bands expanding, not squeezing",
+            "MACD: no bullish crossover or valley",
+            "RSI Divergence: no bullish divergence detected",
+            "Volume: below average (0.14x) \u2014 low conviction"
+          ],
+          "price": 174.79,
+          "rsi": 38.4,
+          "atr": 4.62,
+          "final_tier": "Hold",
+          "recorded_at": "2026-07-15T15:07:44.304163"
+        },
         {
           "ticker": "DLR",
           "direction": "hold",
@@ -19862,6 +20235,113 @@
         }
       ],
       "status": "watching"
+    },
+    "COHR": {
+      "ticker": "COHR",
+      "added_date": "2026-07-19",
+      "last_updated": "2026-07-19T22:47:20.669229",
+      "reason": "Persistent Buy signal \u2014 active 2+ consecutive scrapes (score 75%)",
+      "latest_signal": {
+        "ticker": "COHR",
+        "direction": "buy",
+        "tier": "Buy",
+        "buy_score": 0.75,
+        "sell_score": 0.14,
+        "reasons": [
+          "BB: price near lower band (pct=0.11)",
+          "RSI: oversold zone (33.3)",
+          "MACD: histogram at valley / turning up",
+          "200MA: price at/above 200MA (277.60 vs 246.86)",
+          "Golden cross: 50MA (365.45) above 200MA (246.86)",
+          "Volume: above average (1.13x)"
+        ],
+        "misses": [
+          "BB Width: bands expanding, not squeezing",
+          "RSI Divergence: no bullish divergence detected"
+        ],
+        "price": 277.6,
+        "rsi": 33.3,
+        "atr": 27.68,
+        "relative_strength": -21.57,
+        "rs_label": "underperforming",
+        "previously_owned": false,
+        "final_tier": "Buy",
+        "earnings_gate": {
+          "proceed": true,
+          "reason": "Fundamentals intact \u2014 dip may be an overreaction",
+          "verdict": {
+            "ticker": "COHR",
+            "verdict": "consider",
+            "reason": "Fundamentals intact \u2014 dip may be an overreaction",
+            "notes": [
+              "Revenue growing (+20.5%)"
+            ],
+            "earnings_status": "past",
+            "next_earnings_date": "2026-05-06",
+            "days_to_earnings": -74
+          }
+        },
+        "news_sentiment": "neutral",
+        "signal_streak": 1
+      },
+      "signal_history": [],
+      "status": "watching",
+      "signal_streak": 1,
+      "auto_added": true
+    },
+    "CIEN": {
+      "ticker": "CIEN",
+      "added_date": "2026-07-19",
+      "last_updated": "2026-07-19T22:47:20.733140",
+      "reason": "Persistent Buy signal \u2014 active 2+ consecutive scrapes (score 88%)",
+      "latest_signal": {
+        "ticker": "CIEN",
+        "direction": "buy",
+        "tier": "Buy",
+        "buy_score": 0.88,
+        "sell_score": 0.29,
+        "reasons": [
+          "BB: price near lower band (pct=-0.08)",
+          "BB Width: squeeze active (width=0.2766)",
+          "RSI: oversold zone (32.7)",
+          "RSI Divergence: Price lower low (418.91 < 428.22) but RSI higher low (37.9 > 36.4)",
+          "200MA: price at/above 200MA (374.41 vs 340.06)",
+          "Golden cross: 50MA (499.95) above 200MA (340.06)",
+          "Volume: above average (1.20x)"
+        ],
+        "misses": [
+          "MACD: no bullish crossover or valley"
+        ],
+        "price": 374.41,
+        "rsi": 32.7,
+        "atr": 31.11,
+        "relative_strength": -30.59,
+        "rs_label": "underperforming",
+        "previously_owned": false,
+        "final_tier": "Buy",
+        "earnings_gate": {
+          "proceed": true,
+          "reason": "Fundamentals intact \u2014 dip may be an overreaction",
+          "verdict": {
+            "ticker": "CIEN",
+            "verdict": "consider",
+            "reason": "Fundamentals intact \u2014 dip may be an overreaction",
+            "notes": [
+              "Earnings growing YoY (+2383.3%)",
+              "Revenue growing (+39.5%)"
+            ],
+            "earnings_status": "past",
+            "next_earnings_date": "2026-06-04",
+            "days_to_earnings": -45
+          }
+        },
+        "news_sentiment": "neutral",
+        "signal_streak": 1
+      },
+      "signal_history": [],
+      "status": "watching",
+      "signal_streak": 1,
+      "auto_added": true
     }
   }
 }
