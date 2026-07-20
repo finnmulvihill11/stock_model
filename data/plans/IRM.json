@@ -3,19 +3,36 @@
     "ticker": "IRM",
     "company_name": "Iron Mountain Incorporated",
     "action": "Hold",
-    "action_reason": "Position is profitable with neutral RSI (51.0) showing no overbought conditions. Hold current 1.0sh position through earnings to capture potential upside; the 3.4% portfolio weight is manageable and not overexposed.",
-    "target_price": 128.5,
+    "action_reason": "The 6.54% gain provides a profitable exit cushion, but technical indicators lack conviction and earnings in 16 days present both upside and downside risk. Holding allows exposure to potential earnings beat while protecting existing gains.",
+    "target_price": 130.0,
     "target_reasoning": "",
-    "exit_trigger": "If price closes below $119.00 (support near entry) on high volume, or if earnings miss estimates with negative guidance",
-    "add_trigger": "Add 0.5sh if price dips to $120-121 with bullish RSI divergence before earnings",
-    "risk": "Earnings volatility in 17 days could trigger sharp 5-8% swings; missing debt metrics prevents full risk assessment",
-    "outlook": "cautious",
-    "timeframe": "2-4 weeks (through earnings + post-earnings consolidation)",
-    "generated_at": "2026-07-19T23:33:08.939258",
-    "price_at_generation": 123.82,
-    "pnl_at_generation": 6.19
+    "exit_trigger": "Close below $120 (support breach) OR decline >8% from current levels OR negative earnings surprise with breakdown below 50-day MA",
+    "add_trigger": "RSI breaks above 60 with volume confirmation AND price holds above $125 support ahead of earnings",
+    "risk": "Earnings miss could trigger 8-12% downside; IRM's high debt load (unavailable data) increases sensitivity to rate environment in inflationary/recessionary scenarios",
+    "outlook": "neutral",
+    "timeframe": "2-3 weeks (through earnings)",
+    "generated_at": "2026-07-20T23:34:34.180048",
+    "price_at_generation": 124.23,
+    "pnl_at_generation": 6.54
   },
   "history": [
+    {
+      "ticker": "IRM",
+      "company_name": "Iron Mountain Incorporated",
+      "action": "Hold",
+      "action_reason": "Position is profitable with neutral RSI (51.0) showing no overbought conditions. Hold current 1.0sh position through earnings to capture potential upside; the 3.4% portfolio weight is manageable and not overexposed.",
+      "target_price": 128.5,
+      "target_reasoning": "",
+      "exit_trigger": "If price closes below $119.00 (support near entry) on high volume, or if earnings miss estimates with negative guidance",
+      "add_trigger": "Add 0.5sh if price dips to $120-121 with bullish RSI divergence before earnings",
+      "risk": "Earnings volatility in 17 days could trigger sharp 5-8% swings; missing debt metrics prevents full risk assessment",
+      "outlook": "cautious",
+      "timeframe": "2-4 weeks (through earnings + post-earnings consolidation)",
+      "generated_at": "2026-07-19T23:33:08.939258",
+      "price_at_generation": 123.82,
+      "pnl_at_generation": 6.19,
+      "archived_at": "2026-07-20T23:34:34.180238"
+    },
     {
       "ticker": "IRM",
       "company_name": "Iron Mountain Incorporated",
@@ -117,23 +134,6 @@
       "price_at_generation": 119.48,
       "pnl_at_generation": 2.47,
       "archived_at": "2026-07-12T23:31:46.170177"
-    },
-    {
-      "ticker": "IRM",
-      "company_name": "Iron Mountain Incorporated",
-      "action": "Hold",
-      "action_reason": "Position is only -0.98% drawdown (well above 15% threshold). RSI near 33.9 and Extreme Fear reading suggest potential reversal zone, but absence of news and unavailable fundamentals warrant patience for entry confirmation signals rather than adding blindly.",
-      "target_price": null,
-      "target_reasoning": "",
-      "exit_trigger": "Breach below $112 (support) with volume spike + continued negative news flow; or if position reaches -15% loss (philosophy override)",
-      "add_trigger": "RSI breaks below 30 + VIX compression + positive news catalyst emerges, targeting $113-114 rebound",
-      "risk": "Information vacuum (no news, missing debt data) limits edge; potential earnings miss if guidance deteriorates; real estate market slowdown could pressure IRM's data center/storage demand",
-      "outlook": "neutral",
-      "timeframe": "2-4 weeks",
-      "generated_at": "2026-07-08T23:41:03.443237",
-      "price_at_generation": 115.46,
-      "pnl_at_generation": -0.98,
-      "archived_at": "2026-07-09T23:49:29.517314"
     }
   ]
 }

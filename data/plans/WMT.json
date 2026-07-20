@@ -3,19 +3,36 @@
     "ticker": "WMT",
     "company_name": "Walmart Inc.",
     "action": "Hold",
-    "action_reason": "Position is profitable (+2.23%) with healthy fundamentals and no technical breakdown. With earnings 32 days out, allow the consolidation pattern to develop before earnings volatility; no sell trigger justified.",
-    "target_price": 118.5,
+    "action_reason": "Position is modestly profitable (+0.40%) at 3% weight with healthy fundamentals and neutral technicals. Lack of news and distant earnings warrant patience rather than action; no reason to trim a small winner without a clear exit signal.",
+    "target_price": 115.5,
     "target_reasoning": "",
-    "exit_trigger": "Break below $111.00 (entry level) or close below 50-day moving average on high volume",
-    "add_trigger": "RSI climbs above 60 with VIX spike or positive pre-earnings guidance catalyst emerges",
-    "risk": "Earnings surprise in 32 days; lack of current momentum could stall position before breakout",
+    "exit_trigger": "RSI breaks below 35 on increased volume, or closes below $111.00 on deteriorating fundamentals",
+    "add_trigger": "RSI rises above 55 with confirmed breakout above $113.50 on increasing volume",
+    "risk": "Neutral market sentiment + Fear gauge could trigger sudden selloff; earnings miss in 31 days could create gap down",
     "outlook": "neutral",
-    "timeframe": "2-6 weeks (through pre-earnings period)",
-    "generated_at": "2026-07-19T23:33:01.222458",
-    "price_at_generation": 114.24,
-    "pnl_at_generation": 2.23
+    "timeframe": "3-6 weeks (hold through earnings approach)",
+    "generated_at": "2026-07-20T23:34:28.010169",
+    "price_at_generation": 112.2,
+    "pnl_at_generation": 0.4
   },
   "history": [
+    {
+      "ticker": "WMT",
+      "company_name": "Walmart Inc.",
+      "action": "Hold",
+      "action_reason": "Position is profitable (+2.23%) with healthy fundamentals and no technical breakdown. With earnings 32 days out, allow the consolidation pattern to develop before earnings volatility; no sell trigger justified.",
+      "target_price": 118.5,
+      "target_reasoning": "",
+      "exit_trigger": "Break below $111.00 (entry level) or close below 50-day moving average on high volume",
+      "add_trigger": "RSI climbs above 60 with VIX spike or positive pre-earnings guidance catalyst emerges",
+      "risk": "Earnings surprise in 32 days; lack of current momentum could stall position before breakout",
+      "outlook": "neutral",
+      "timeframe": "2-6 weeks (through pre-earnings period)",
+      "generated_at": "2026-07-19T23:33:01.222458",
+      "price_at_generation": 114.24,
+      "pnl_at_generation": 2.23,
+      "archived_at": "2026-07-20T23:34:28.010375"
+    },
     {
       "ticker": "WMT",
       "company_name": "Walmart Inc.",
@@ -117,23 +134,6 @@
       "price_at_generation": 112.21,
       "pnl_at_generation": 0.41,
       "archived_at": "2026-07-12T23:31:39.105343"
-    },
-    {
-      "ticker": "WMT",
-      "company_name": "Walmart Inc.",
-      "action": "Hold",
-      "action_reason": "Position is modestly profitable (+1.21%) with healthy fundamentals and neutral technicals. No reason to exit a winner. With earnings 43 days away and no bearish catalysts, maintain position and await either technical confirmation (RSI above 50 + volume) or news-driven catalyst.",
-      "target_price": 116.5,
-      "target_reasoning": "",
-      "exit_trigger": "Close below $110.50 on heavy volume (reversal of recent gain) OR fundamental deterioration (earnings miss/guidance cut)",
-      "add_trigger": "RSI climbs above 55 with price above $114.50 on strong volume \u2014 confirms momentum into earnings",
-      "risk": "Market rotation out of defensive retail into growth; weak consumer data ahead of earnings; VIX spike liquidation",
-      "outlook": "neutral",
-      "timeframe": "2-6 weeks (swing into earnings)",
-      "generated_at": "2026-07-08T23:40:56.690244",
-      "price_at_generation": 113.1,
-      "pnl_at_generation": 1.21,
-      "archived_at": "2026-07-09T23:49:21.947312"
     }
   ]
 }

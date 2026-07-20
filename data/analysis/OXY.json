@@ -10,19 +10,19 @@
     "misses": [
       "BB: price not near lower band (pct=0.86)",
       "BB Width: bands expanding, not squeezing",
-      "RSI: not in buy zone (56.4, need 20-40)",
+      "RSI: not in buy zone (57.5, need 20-40)",
       "MACD: no bullish crossover or valley",
       "RSI Divergence: no bullish divergence detected",
-      "Volume: below average (0.79x) \u2014 low conviction"
+      "Volume: below average (0.81x) \u2014 low conviction"
     ],
-    "price": 54.86,
-    "rsi": 56.4,
-    "atr": 1.57,
+    "price": 55.19,
+    "rsi": 57.5,
+    "atr": 1.59,
     "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 2,
-      "suggested_dollars": 109.72,
-      "note": "2 sh @ $54.86 = $110 (Hold, 60% size) | $714 swing budget after"
+      "suggested_dollars": 110.38,
+      "note": "2 sh @ $55.19 = $110 (Hold, 60% size) | $713 swing budget after"
     }
   },
   "fundamentals": {
@@ -52,7 +52,7 @@
       ],
       "earnings_status": "upcoming",
       "next_earnings_date": "2026-08-05",
-      "days_to_earnings": 17
+      "days_to_earnings": 16
     }
   },
   "news": {
@@ -60,35 +60,34 @@
     "sentiment": "neutral",
     "health": "neutral",
     "key_events": [
-      "Earnings report in 17 days (major catalyst)",
-      "Revenue declining 8.3% YoY (structural headwind)",
-      "VIX 18.8 indicates calm market (favorable for swing trades)",
-      "Fear gauge present despite neutral technicals"
+      "Earnings report in 16 days (major catalyst)",
+      "Revenue declining YoY (-8.3%) signals headwinds",
+      "VIX at 18.6 indicates stable market conditions",
+      "Fear gauge present despite neutral volatility"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "Revenue contraction suggests demand/production challenges",
-      "No recent positive news catalysts listed",
-      "RSI 56.4 lacks conviction (neither overbought nor oversold)",
-      "Fear sentiment contradicts neutral technicals"
+      "Revenue contraction YoY suggests operational or market challenges",
+      "No recent news flow (empty news section) limits conviction",
+      "Fear sentiment in market despite neutral VIX\u2014potential disconnect"
     ],
-    "verdict": "Position is profitable with moderate upside but lacks technical conviction; earnings catalyst in 17 days presents both opportunity and risk.",
+    "verdict": "Position is profitable with reasonable momentum, but fundamental weakness and upcoming earnings create a critical decision point within 16 days.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "OXY",
-    "stock_return_3m": -3.09,
-    "benchmark_return_3m": 6.21,
-    "relative_strength": -9.29,
-    "label": "underperforming"
+    "stock_return_3m": 3.08,
+    "benchmark_return_3m": 4.77,
+    "relative_strength": -1.69,
+    "label": "in-line"
   },
   "final_tier": "Hold",
   "sizing": {
     "suggested_shares": 2,
-    "suggested_dollars": 109.72,
-    "note": "2 sh @ $54.86 = $110 (Hold, 60% size) | $714 swing budget after"
+    "suggested_dollars": 110.38,
+    "note": "2 sh @ $55.19 = $110 (Hold, 60% size) | $713 swing budget after"
   },
   "is_dca": false,
-  "saved_at": "2026-07-19T23:32:54.570880"
+  "saved_at": "2026-07-20T23:34:21.814802"
 }

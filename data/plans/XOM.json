@@ -3,19 +3,36 @@
     "ticker": "XOM",
     "company_name": "ExxonMobil Holdings Corporation",
     "action": "Hold",
-    "action_reason": "Position is profitable and fundamentals are healthy. With earnings 12 days away, hold current 2sh to capture potential post-earnings move while avoiding premature trimming of a winning position.",
-    "target_price": 152,
+    "action_reason": "Position is up 8.17% with fundamentals healthy; earnings in 11 days introduces unpredictability. Absence of sell signals and profitable status argue against trimming. Wait for earnings catalyst and post-report consolidation before considering adjustments.",
+    "target_price": 155.0,
     "target_reasoning": "",
-    "exit_trigger": "Close above $152 with RSI >70 on strong volume, or close below $140 post-earnings if guidance disappoints",
-    "add_trigger": "Dip below $143 on earnings-related weakness if fundamentals remain intact",
-    "risk": "Earnings volatility in next 12 days; energy sector sensitivity to macro/geopolitical factors; potential sell-off if guidance lowered",
+    "exit_trigger": "Close below $140 on high volume post-earnings, or if energy sector deteriorates on macro factors",
+    "add_trigger": "Post-earnings consolidation above $148 with positive guidance; or pullback to $144-145 on dip buying",
+    "risk": "Earnings miss or negative energy sector outlook could trigger sharp 5-8% pullback; geopolitical oil price volatility",
     "outlook": "neutral",
-    "timeframe": "2-3 weeks (through earnings and post-earnings consolidation)",
-    "generated_at": "2026-07-19T23:32:45.840375",
-    "price_at_generation": 147.36,
-    "pnl_at_generation": 7.44
+    "timeframe": "2-3 weeks (through earnings + 1-2 week post-report window)",
+    "generated_at": "2026-07-20T23:34:09.543255",
+    "price_at_generation": 148.36,
+    "pnl_at_generation": 8.17
   },
   "history": [
+    {
+      "ticker": "XOM",
+      "company_name": "ExxonMobil Holdings Corporation",
+      "action": "Hold",
+      "action_reason": "Position is profitable and fundamentals are healthy. With earnings 12 days away, hold current 2sh to capture potential post-earnings move while avoiding premature trimming of a winning position.",
+      "target_price": 152,
+      "target_reasoning": "",
+      "exit_trigger": "Close above $152 with RSI >70 on strong volume, or close below $140 post-earnings if guidance disappoints",
+      "add_trigger": "Dip below $143 on earnings-related weakness if fundamentals remain intact",
+      "risk": "Earnings volatility in next 12 days; energy sector sensitivity to macro/geopolitical factors; potential sell-off if guidance lowered",
+      "outlook": "neutral",
+      "timeframe": "2-3 weeks (through earnings and post-earnings consolidation)",
+      "generated_at": "2026-07-19T23:32:45.840375",
+      "price_at_generation": 147.36,
+      "pnl_at_generation": 7.44,
+      "archived_at": "2026-07-20T23:34:09.543458"
+    },
     {
       "ticker": "XOM",
       "company_name": "ExxonMobil Holdings Corporation",
@@ -117,23 +134,6 @@
       "price_at_generation": 137.46,
       "pnl_at_generation": 0.23,
       "archived_at": "2026-07-12T23:31:24.325412"
-    },
-    {
-      "ticker": "XOM",
-      "company_name": "ExxonMobil Holdings Corporation",
-      "action": "Hold",
-      "action_reason": "Position is profitable (+2.90%) and fundamentals are solid. However, lack of technical firing signals, neutral RSI, and absence of news catalysts make this unsuitable for aggressive swing trading. Hold for either a technical breakout or fundamental event that reignites momentum.",
-      "target_price": 145.0,
-      "target_reasoning": "",
-      "exit_trigger": "Close below $138.50 (below entry + 1%) on increased volume, signaling break of support",
-      "add_trigger": "RSI breaks above 60 on strong volume with oil price acceleration above $80/bbl or positive energy sector news",
-      "risk": "Macro headwinds (recession fears, demand destruction); Extreme Fear sentiment could trigger sudden sector capitulation despite healthy fundamentals",
-      "outlook": "neutral",
-      "timeframe": "2-4 weeks \u2014 wait for either technical confirmation or fundamental catalyst (earnings, oil spike, Fed pivot)",
-      "generated_at": "2026-07-08T23:40:41.276849",
-      "price_at_generation": 141.13,
-      "pnl_at_generation": 2.9,
-      "archived_at": "2026-07-09T23:49:05.599065"
     }
   ]
 }

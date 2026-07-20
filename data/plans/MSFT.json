@@ -3,19 +3,36 @@
     "ticker": "MSFT",
     "company_name": "Microsoft Corporation",
     "action": "Hold",
-    "action_reason": "Per philosophy, never exit positions down >15%. Earnings catalyst in 10 days may reignite upside; holding through volatility is the discipline required here.",
+    "action_reason": "Position is -13.89% (below 15% threshold), and earnings in 9 days represents a major catalyst. Per philosophy, hold through material losers. Fundamentals healthy and VIX neutral support patience.",
     "target_price": null,
     "target_reasoning": "",
-    "exit_trigger": "Sell only if earnings reveals fundamental deterioration in cloud/AI segments or guidance collapse",
-    "add_trigger": "Add if price breaks below $380 on earnings miss (averaging down before rebound)",
-    "risk": "Earnings miss could extend losses to -20%+; concentration (21.3% weight) amplifies downside if tech sector weakens",
+    "exit_trigger": "Only exit if earnings reveals fundamental deterioration (guidance cuts, margin compression, weak forward outlook) OR position recovers to breakeven or better",
+    "add_trigger": "Add on break below $385 (additional 4% drop) only if fundamentals remain healthy post-earnings, confirming technical capitulation",
+    "risk": "Earnings miss could accelerate downside to $370-$380; continued macro weakness (Fear sentiment) could amplify losses before recovery",
     "outlook": "cautious",
-    "timeframe": "2-3 weeks (earnings catalyst + post-earnings consolidation period)",
-    "generated_at": "2026-07-19T23:32:24.843718",
-    "price_at_generation": 393.82,
-    "pnl_at_generation": -15.7
+    "timeframe": "9 days to earnings; reassess completely post-announcement. Recovery window 2-4 weeks if positive",
+    "generated_at": "2026-07-20T23:33:51.059091",
+    "price_at_generation": 402.29,
+    "pnl_at_generation": -13.89
   },
   "history": [
+    {
+      "ticker": "MSFT",
+      "company_name": "Microsoft Corporation",
+      "action": "Hold",
+      "action_reason": "Per philosophy, never exit positions down >15%. Earnings catalyst in 10 days may reignite upside; holding through volatility is the discipline required here.",
+      "target_price": null,
+      "target_reasoning": "",
+      "exit_trigger": "Sell only if earnings reveals fundamental deterioration in cloud/AI segments or guidance collapse",
+      "add_trigger": "Add if price breaks below $380 on earnings miss (averaging down before rebound)",
+      "risk": "Earnings miss could extend losses to -20%+; concentration (21.3% weight) amplifies downside if tech sector weakens",
+      "outlook": "cautious",
+      "timeframe": "2-3 weeks (earnings catalyst + post-earnings consolidation period)",
+      "generated_at": "2026-07-19T23:32:24.843718",
+      "price_at_generation": 393.82,
+      "pnl_at_generation": -15.7,
+      "archived_at": "2026-07-20T23:33:51.059305"
+    },
     {
       "ticker": "MSFT",
       "company_name": "Microsoft Corporation",
@@ -117,23 +134,6 @@
       "price_at_generation": 384.36,
       "pnl_at_generation": -17.73,
       "archived_at": "2026-07-12T23:30:56.446428"
-    },
-    {
-      "ticker": "MSFT",
-      "company_name": "Microsoft Corporation",
-      "action": "Hold",
-      "action_reason": "Position is down 17.95%, triggering your rule against exits on major losers. Upcoming earnings (21d) and healthy fundamentals support a hold through potential recovery, especially given Extreme Fear market conditions that often precede bounces.",
-      "target_price": 420,
-      "target_reasoning": "",
-      "exit_trigger": "Only exit if fundamentals deteriorate post-earnings or stock breaks below $360 on heavy volume with deteriorating technicals",
-      "add_trigger": "Add only if stock falls to $360-365 range AND RSI drops to 30-35 AND earnings date approaches without negative catalyst",
-      "risk": "Continued macro weakness or disappointing earnings guidance could push stock lower; concentrated 20.3% position weight amplifies portfolio impact",
-      "outlook": "cautious",
-      "timeframe": "4-6 weeks (through earnings + initial reaction period)",
-      "generated_at": "2026-07-08T23:40:09.074471",
-      "price_at_generation": 383.34,
-      "pnl_at_generation": -17.95,
-      "archived_at": "2026-07-09T23:48:37.205241"
     }
   ]
 }

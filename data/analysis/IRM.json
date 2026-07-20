@@ -4,24 +4,25 @@
     "ticker": "IRM",
     "direction": "hold",
     "tier": "Hold",
-    "buy_score": 0.38,
+    "buy_score": 0.25,
     "sell_score": 0.0,
     "reasons": [],
     "misses": [
-      "BB: price not near lower band (pct=0.48)",
+      "BB: price not near lower band (pct=0.51)",
       "BB Width: bands expanding, not squeezing",
-      "RSI: not in buy zone (51.0, need 20-40)",
+      "RSI: not in buy zone (51.8, need 20-40)",
+      "MACD: no bullish crossover or valley",
       "RSI Divergence: no bullish divergence detected",
-      "Volume: below average (0.96x) \u2014 low conviction"
+      "Volume: below average (0.49x) \u2014 low conviction"
     ],
-    "price": 123.82,
-    "rsi": 51.0,
-    "atr": 4.4,
+    "price": 124.23,
+    "rsi": 51.8,
+    "atr": 4.24,
     "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 1,
-      "suggested_dollars": 123.82,
-      "note": "1 sh @ $123.82 = $124 (Hold, 60% size) | $700 swing budget after"
+      "suggested_dollars": 124.23,
+      "note": "1 sh @ $124.23 = $124 (Hold, 60% size) | $699 swing budget after"
     }
   },
   "fundamentals": {
@@ -51,7 +52,7 @@
       ],
       "earnings_status": "upcoming",
       "next_earnings_date": "2026-08-05",
-      "days_to_earnings": 17
+      "days_to_earnings": 16
     }
   },
   "news": {
@@ -59,34 +60,34 @@
     "sentiment": "neutral",
     "health": "neutral",
     "key_events": [
-      "Earnings report in 17 days",
-      "VIX at 18.8 indicating neutral market conditions",
-      "Market sentiment shows Fear & Greed index in Fear zone"
+      "Earnings report due in 16 days",
+      "VIX at 18.6 indicates stable market conditions",
+      "No recent news catalysts identified"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "No recent news catalysts available for analysis",
-      "Debt-to-equity data unavailable - cannot assess leverage risk",
-      "Earnings upcoming within 2-3 weeks creates volatility uncertainty",
-      "F&G index in Fear territory despite neutral VIX"
+      "Debt-to-equity data unavailable - limits fundamental assessment",
+      "RSI at 51.8 shows no momentum (neutral zone)",
+      "No technical firing signals despite 6.54% gain",
+      "Fear gauge present despite position profitability"
     ],
-    "verdict": "IRM showing healthy technical setup with +6.19% gain, but lack of fundamental visibility and upcoming earnings create near-term uncertainty.",
+    "verdict": "Position is profitable with no clear directional bias; hold ahead of earnings catalyst while monitoring for momentum confirmation.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "IRM",
-    "stock_return_3m": 5.89,
-    "benchmark_return_3m": 6.21,
-    "relative_strength": -0.31,
+    "stock_return_3m": 5.94,
+    "benchmark_return_3m": 4.77,
+    "relative_strength": 1.17,
     "label": "in-line"
   },
   "final_tier": "Hold",
   "sizing": {
     "suggested_shares": 1,
-    "suggested_dollars": 123.82,
-    "note": "1 sh @ $123.82 = $124 (Hold, 60% size) | $700 swing budget after"
+    "suggested_dollars": 124.23,
+    "note": "1 sh @ $124.23 = $124 (Hold, 60% size) | $699 swing budget after"
   },
   "is_dca": false,
-  "saved_at": "2026-07-19T23:33:08.940092"
+  "saved_at": "2026-07-20T23:34:34.180776"
 }

@@ -9,16 +9,16 @@
     "reasons": [],
     "misses": [
       "BB: price not near lower band (pct=0.91)",
-      "RSI: not in buy zone (52.7, need 20-40)",
+      "RSI: not in buy zone (54.0, need 20-40)",
       "MACD: no bullish crossover or valley",
       "RSI Divergence: no bullish divergence detected",
       "200MA: price below 200MA \u2014 potential falling knife",
-      "Death cross active: 50MA (308.62) below 200MA (481.41)",
-      "Volume: below average (0.67x) \u2014 low conviction"
+      "Death cross active: 50MA (306.76) below 200MA (479.50)",
+      "Volume: below average (0.85x) \u2014 low conviction"
     ],
-    "price": 291.09,
-    "rsi": 52.7,
-    "atr": 13.24,
+    "price": 293.82,
+    "rsi": 54.0,
+    "atr": 13.51,
     "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 0,
@@ -52,7 +52,7 @@
       ],
       "earnings_status": "past",
       "next_earnings_date": "2026-05-20",
-      "days_to_earnings": -60
+      "days_to_earnings": -61
     }
   },
   "news": {
@@ -60,28 +60,25 @@
     "sentiment": "neutral",
     "health": "healthy",
     "key_events": [
-      "Stock down 37.84% from entry \u2014 significant drawdown",
-      "Earnings passed 60+ days ago \u2014 catalyst behind us",
-      "RSI 52.7 \u2014 neutral zone, no oversold bounce setup yet",
-      "VIX 18.8 \u2014 calm market environment, not panic selling",
-      "Fear & Greed indicator at Fear \u2014 sentiment headwind but not capitulation"
+      "Earnings reported 61 days ago",
+      "Stock down 37.26% from entry despite healthy fundamentals",
+      "Market sentiment Fear/Greed but VIX neutral at 18.6"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "No recent news catalysts visible \u2014 information vacuum",
-      "Position weight 23.6% with 37.84% loss \u2014 concentration risk amplifies drawdown impact",
-      "RSI not in oversold territory (<30) \u2014 technical bounce potential limited",
-      "Post-earnings window closed \u2014 no near-term catalyst clarity"
+      "Severe drawdown (-37%) suggests sector or macro headwinds beyond fundamentals",
+      "No recent news flow to assess catalysts for recovery",
+      "Large position weight (23.8%) amplifies portfolio risk during recovery period"
     ],
-    "verdict": "INTU is fundamentally healthy but technically unspooled; hold per philosophy while monitoring for oversold reversal setup.",
+    "verdict": "INTU has healthy fundamentals but is trapped in a significant drawdown; hold position per philosophy and await next earnings or technical reversal catalyst.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "INTU",
-    "stock_return_3m": -24.47,
-    "benchmark_return_3m": 6.21,
-    "relative_strength": -30.68,
+    "stock_return_3m": -24.95,
+    "benchmark_return_3m": 4.77,
+    "relative_strength": -29.72,
     "label": "underperforming"
   },
   "final_tier": "Hold",
@@ -91,5 +88,5 @@
     "note": "Position already at 20% portfolio cap"
   },
   "is_dca": false,
-  "saved_at": "2026-07-19T23:32:18.727747"
+  "saved_at": "2026-07-20T23:33:43.824798"
 }
