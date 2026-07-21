@@ -3,19 +3,36 @@
     "ticker": "IRM",
     "company_name": "Iron Mountain Incorporated",
     "action": "Hold",
-    "action_reason": "The 6.54% gain provides a profitable exit cushion, but technical indicators lack conviction and earnings in 16 days present both upside and downside risk. Holding allows exposure to potential earnings beat while protecting existing gains.",
-    "target_price": 130.0,
+    "action_reason": "Position is +7.68% profitable with neutral technicals (RSI 54.4, no firing signals). Earnings in 15 days provides a natural catalyst; Extreme Fear backdrop may indicate undervaluation. Monitor for debt concerns that are currently unavailable.",
+    "target_price": 135,
     "target_reasoning": "",
-    "exit_trigger": "Close below $120 (support breach) OR decline >8% from current levels OR negative earnings surprise with breakdown below 50-day MA",
-    "add_trigger": "RSI breaks above 60 with volume confirmation AND price holds above $125 support ahead of earnings",
-    "risk": "Earnings miss could trigger 8-12% downside; IRM's high debt load (unavailable data) increases sensitivity to rate environment in inflationary/recessionary scenarios",
+    "exit_trigger": "Close below $115 or negative earnings guidance with debt-to-equity above 2.5x",
+    "add_trigger": "Dip to $120 on volume during Extreme Fear conditions, or positive earnings beat with guidance raise",
+    "risk": "Elevated leverage unknown; earnings miss could trigger sharp pullback; real estate/data center sector rotation risk",
     "outlook": "neutral",
-    "timeframe": "2-3 weeks (through earnings)",
-    "generated_at": "2026-07-20T23:34:34.180048",
-    "price_at_generation": 124.23,
-    "pnl_at_generation": 6.54
+    "timeframe": "2-3 weeks (through earnings + post-report confirmation)",
+    "generated_at": "2026-07-21T23:32:57.310363",
+    "price_at_generation": 125.56,
+    "pnl_at_generation": 7.68
   },
   "history": [
+    {
+      "ticker": "IRM",
+      "company_name": "Iron Mountain Incorporated",
+      "action": "Hold",
+      "action_reason": "The 6.54% gain provides a profitable exit cushion, but technical indicators lack conviction and earnings in 16 days present both upside and downside risk. Holding allows exposure to potential earnings beat while protecting existing gains.",
+      "target_price": 130.0,
+      "target_reasoning": "",
+      "exit_trigger": "Close below $120 (support breach) OR decline >8% from current levels OR negative earnings surprise with breakdown below 50-day MA",
+      "add_trigger": "RSI breaks above 60 with volume confirmation AND price holds above $125 support ahead of earnings",
+      "risk": "Earnings miss could trigger 8-12% downside; IRM's high debt load (unavailable data) increases sensitivity to rate environment in inflationary/recessionary scenarios",
+      "outlook": "neutral",
+      "timeframe": "2-3 weeks (through earnings)",
+      "generated_at": "2026-07-20T23:34:34.180048",
+      "price_at_generation": 124.23,
+      "pnl_at_generation": 6.54,
+      "archived_at": "2026-07-21T23:32:57.310588"
+    },
     {
       "ticker": "IRM",
       "company_name": "Iron Mountain Incorporated",
@@ -117,23 +134,6 @@
       "price_at_generation": 121.51,
       "pnl_at_generation": 4.21,
       "archived_at": "2026-07-13T23:28:55.423921"
-    },
-    {
-      "ticker": "IRM",
-      "company_name": "Iron Mountain Incorporated",
-      "action": "Hold",
-      "action_reason": "Profitable position (2.47% gain) should not be trimmed per strategy. However, the lack of news, technical signals, and financial data prevents adding. Hold and monitor for news catalysts or technical breakout confirmation before committing more capital.",
-      "target_price": null,
-      "target_reasoning": "",
-      "exit_trigger": "Break below $114.50 (recent support invalidation) OR confirmation of deteriorating fundamentals when debt metrics become available",
-      "add_trigger": "RSI breaks above 55 with volume confirmation AND positive catalyst news emerges OR price holds $119+ for 3+ days with upside breakout setup",
-      "risk": "Information vacuum\u2014IRM's capital structure (high debt typical for REIT) and geopolitical exposure (data centers/facilities) are material risks. Earnings are stale. One negative headline could spark sharp reversal.",
-      "outlook": "neutral",
-      "timeframe": "2-4 weeks",
-      "generated_at": "2026-07-09T23:49:29.517150",
-      "price_at_generation": 119.48,
-      "pnl_at_generation": 2.47,
-      "archived_at": "2026-07-12T23:31:46.170177"
     }
   ]
 }

@@ -1,48 +1,90 @@
 {
   "current": {
-    "headline": "Portfolio holding steady through major drawdowns; three oversold mean-reversion buys available within $1K budget.",
+    "headline": "Portfolio holding steady through drawdowns; $1k dry powder allocated to three textbook mean-reversion setups firing simultaneously.",
     "market_stance": "offensive",
-    "overall_thesis": "Your core thesis is intact: hold through INTU and TEM drawdowns (>15%) and let them recover, while deploying remaining $1K into textbook oversold setups (RSI <35). The next 4\u20138 weeks will test conviction on tech recovery (MSFT earnings in 9 days, XOM in 11 days) and whether the oversold cohort (CDNS, FSLR, QCOM, COHR, CMS) snap back to mean. Fear index at 29 supports contrarian buying into weakness.",
+    "overall_thesis": "Extreme Fear (VIX 17, F&G 25) is creating high-quality oversold opportunities in tech and industrials. Deploy capital into CDNS, COHR, and CMS\u2014all firing persistent 2+ consecutive buy scrapes with RSI <35. Current losers (INTU -38%, TEM -29%) held per philosophy; they'll recover as fear unwinds over 4-8 weeks.",
     "priority_actions": [
       {
         "rank": 1,
         "action": "BUY",
         "ticker": "CDNS",
-        "instruction": "Buy ~12\u201315 shares at current market price or better on any dip toward lower Bollinger Band. Allocate $400\u2013450 of your remaining $1K budget. RSI 28.6 is extreme oversold\u2014classic mean-reversion entry.",
+        "instruction": "BUY 15\u201317 shares at market or on any dip to lower Bollinger Band. Textbook oversold reversal (RSI 28.6), already profitable in portfolio (+2%), and firing persistent buy signal for 2+ consecutive days. Strong mean-reversion candidate.",
         "urgency": "immediate"
       },
       {
         "rank": 2,
         "action": "BUY",
         "ticker": "COHR",
-        "instruction": "Buy ~8\u201310 shares at current market price. Allocate $350\u2013400. Persistent 2+ scrape Buy signal with RSI 33.3 in deep oversold. This is a high-conviction repeat screener.",
-        "urgency": "immediate"
+        "instruction": "BUY 8\u201310 shares at market. RSI 33.3 deeply oversold, firing persistent 2+ consecutive buy scrapes. High-quality semiconductor/industrial compounder at capitulation levels.",
+        "urgency": "this week"
       },
       {
         "rank": 3,
         "action": "BUY",
         "ticker": "CMS",
-        "instruction": "Buy ~12\u201316 shares if price remains near lower Bollinger Band. Allocate remaining ~$150\u2013250 of budget. Persistent Buy signal (2+ scrapes); classic squeeze setup supports recovery pop.",
+        "instruction": "BUY 20\u201325 shares at market. Price squeezed near lower Bollinger, RSI indicating oversold, persistent buy signal active 2+ days. Utility-grade stability with mean-reversion edge.",
         "urgency": "this week"
       }
     ],
-    "biggest_risk": "Tech sector earnings volatility (MSFT in 9 days, XOM in 11 days) could trigger forced selling if market shifts defensive. Additionally, INTU at \u201337.3% and TEM at \u201329.9% are significant portfolio drags\u2014if both break support or thesis fundamentals deteriorate, conviction to hold through will be tested hard.",
+    "biggest_risk": "INTU drawdown (-38%) and TEM drawdown (-29%) will feel worse if market rolls over further before recovery. Your hold-through philosophy is correct, but psychological pain is real. Do not let fear override discipline.",
     "what_to_watch": [
-      "MSFT earnings (9 days) \u2014 largest holding at 21.7% weight; any miss could cascade into broader tech selloff",
-      "XOM earnings (11 days) \u2014 your only profitable energy position; holds 8% weight and introduces uncertainty window",
-      "VIX persistence \u2014 Fear at 29 is supporting mean-reversion trades, but if VIX spikes >25 and stays there, new buys may get stopped out quickly",
-      "CDNS, COHR, CMS recovery traction \u2014 entry signals are strong, but track 1\u20132 week performance to confirm oversold bounce thesis is valid",
-      "INTU and TEM bottoming pattern \u2014 watch for RSI bounces off 39\u201340 to validate hold-through philosophy"
+      "XOM & OXY earnings catalysts (10\u201315 days out) \u2014 both profitable; let them run into reports",
+      "WMT earnings in ~3 days \u2014 currently at RSI 38.3 (oversold), watch for reversal bounce post-earnings",
+      "Fear & Greed index: if it drops below 20, add one more tranche to CMS or COHR; if it rises above 40, begin taking TRIM profits on XOM/OXY"
     ],
     "on_course_check": [
-      "\u2713 Plan is working if: CDNS, COHR, CMS show 8\u201315% gains within 10 trading days (mean-reversion snap-back validates screener)",
-      "\u2713 Plan is working if: MSFT and XOM earnings don't trigger broad tech selloff; sector holds relative strength",
-      "\u26a0 Revise plan if: INTU breaks below recent swing low or breaks below 50-day MA (thesis broken, not just drawdown); same for TEM",
-      "\u26a0 Revise plan if: VIX spikes above 28\u201330 and stays >25 for 3+ days (defensive rotation mode, new buys too risky)"
+      "\u2713 PLAN WORKING: VIX neutral, Extreme Fear backdrop ideal for mean-reversion buys; three new positions all firing persistent signals simultaneously",
+      "\u2713 PLAN WORKING: Large losers (INTU, TEM) held per philosophy; no panic selling; discipline maintained",
+      "\u26a0 REVISE IF: Market VIX spikes above 25 or F&G turns to Extreme Greed (>75)\u2014pause new buys and lock in XOM/OXY gains with TRIM orders",
+      "\u26a0 REVISE IF: INTU or TEM breach 50% losses without stabilization sign (RSI >50 + MACD bullish cross) \u2014 escalate review (but still hold per mandate)"
     ],
-    "generated_at": "2026-07-20T23:34:47.863132"
+    "generated_at": "2026-07-21T23:33:18.912389"
   },
   "history": [
+    {
+      "headline": "Portfolio holding steady through major drawdowns; three oversold mean-reversion buys available within $1K budget.",
+      "market_stance": "offensive",
+      "overall_thesis": "Your core thesis is intact: hold through INTU and TEM drawdowns (>15%) and let them recover, while deploying remaining $1K into textbook oversold setups (RSI <35). The next 4\u20138 weeks will test conviction on tech recovery (MSFT earnings in 9 days, XOM in 11 days) and whether the oversold cohort (CDNS, FSLR, QCOM, COHR, CMS) snap back to mean. Fear index at 29 supports contrarian buying into weakness.",
+      "priority_actions": [
+        {
+          "rank": 1,
+          "action": "BUY",
+          "ticker": "CDNS",
+          "instruction": "Buy ~12\u201315 shares at current market price or better on any dip toward lower Bollinger Band. Allocate $400\u2013450 of your remaining $1K budget. RSI 28.6 is extreme oversold\u2014classic mean-reversion entry.",
+          "urgency": "immediate"
+        },
+        {
+          "rank": 2,
+          "action": "BUY",
+          "ticker": "COHR",
+          "instruction": "Buy ~8\u201310 shares at current market price. Allocate $350\u2013400. Persistent 2+ scrape Buy signal with RSI 33.3 in deep oversold. This is a high-conviction repeat screener.",
+          "urgency": "immediate"
+        },
+        {
+          "rank": 3,
+          "action": "BUY",
+          "ticker": "CMS",
+          "instruction": "Buy ~12\u201316 shares if price remains near lower Bollinger Band. Allocate remaining ~$150\u2013250 of budget. Persistent Buy signal (2+ scrapes); classic squeeze setup supports recovery pop.",
+          "urgency": "this week"
+        }
+      ],
+      "biggest_risk": "Tech sector earnings volatility (MSFT in 9 days, XOM in 11 days) could trigger forced selling if market shifts defensive. Additionally, INTU at \u201337.3% and TEM at \u201329.9% are significant portfolio drags\u2014if both break support or thesis fundamentals deteriorate, conviction to hold through will be tested hard.",
+      "what_to_watch": [
+        "MSFT earnings (9 days) \u2014 largest holding at 21.7% weight; any miss could cascade into broader tech selloff",
+        "XOM earnings (11 days) \u2014 your only profitable energy position; holds 8% weight and introduces uncertainty window",
+        "VIX persistence \u2014 Fear at 29 is supporting mean-reversion trades, but if VIX spikes >25 and stays there, new buys may get stopped out quickly",
+        "CDNS, COHR, CMS recovery traction \u2014 entry signals are strong, but track 1\u20132 week performance to confirm oversold bounce thesis is valid",
+        "INTU and TEM bottoming pattern \u2014 watch for RSI bounces off 39\u201340 to validate hold-through philosophy"
+      ],
+      "on_course_check": [
+        "\u2713 Plan is working if: CDNS, COHR, CMS show 8\u201315% gains within 10 trading days (mean-reversion snap-back validates screener)",
+        "\u2713 Plan is working if: MSFT and XOM earnings don't trigger broad tech selloff; sector holds relative strength",
+        "\u26a0 Revise plan if: INTU breaks below recent swing low or breaks below 50-day MA (thesis broken, not just drawdown); same for TEM",
+        "\u26a0 Revise plan if: VIX spikes above 28\u201330 and stays >25 for 3+ days (defensive rotation mode, new buys too risky)"
+      ],
+      "generated_at": "2026-07-20T23:34:47.863132",
+      "archived_at": "2026-07-21T23:33:18.912699"
+    },
     {
       "headline": "Portfolio underwater but holding core thesis through major losers; deploy remaining $1k into oversold mean-reversion setups.",
       "market_stance": "offensive",
@@ -186,50 +228,6 @@
       ],
       "generated_at": "2026-07-12T23:31:57.600978",
       "archived_at": "2026-07-13T23:29:07.870946"
-    },
-    {
-      "headline": "Portfolio in recovery mode\u2014hold major losers, selectively add oversold quality on mean-reversion setup.",
-      "market_stance": "offensive",
-      "overall_thesis": "Your tech-heavy portfolio (INTU -41.6%, MSFT -17.7%) is deep underwater but fundamentally sound; hold and let recovery play out per your philosophy. Extreme Fear reading (22) + VIX 15.8 suggest a bottoming market ripe for disciplined mean-reversion adds into oversold quality names. Deploy remaining $1k into highest-conviction Buy signals to compound on recovery.",
-      "priority_actions": [
-        {
-          "rank": 1,
-          "action": "BUY",
-          "ticker": "WMT",
-          "instruction": "Add ~$250\u2013300 to existing position (3.0% weight). WMT is rare: Strong Buy signal + oversold RSI 39.2 + already profitable (+0.41%). Perfect add candidate for oversold recovery play without fight. Target 30\u201340 shares at current levels.",
-          "urgency": "immediate"
-        },
-        {
-          "rank": 2,
-          "action": "BUY",
-          "ticker": "DLR",
-          "instruction": "Open new position with $400\u2013500 of remaining budget. Persistent Buy signal, RSI 33.3 deeply oversold, data-center demand thesis intact despite drawdown. Position sizing ~$450 (12\u201315 shares range depending on entry).",
-          "urgency": "this week"
-        },
-        {
-          "rank": 3,
-          "action": "BUY",
-          "ticker": "IRM",
-          "instruction": "Add ~$200\u2013250 to existing position (currently 3.2% weight). Persistent Buy signal + RSI 35.9 oversold + profitable (+2.47%). Double down on mean-reversion setup; this is exactly your playbook. 20\u201325 shares.",
-          "urgency": "this week"
-        }
-      ],
-      "biggest_risk": "Geopolitical blind spot\u2014moderate risk flagged but headline data missing. US-China trade escalation could hammer MSFT, INTU, and semiconductor exposure (ON, HPQ). Verify current headlines on trade/tariff developments before committing cash to new adds.",
-      "what_to_watch": [
-        "CMG earnings catalyst (upcoming swing trigger)",
-        "Tech earnings season for INTU/MSFT recovery narrative timing",
-        "VIX spike above 18\u201320 (could signal fresh washout \u2192 even better add prices)",
-        "US-China trade headlines (monitor before deploying final $1k)",
-        "RSI mean-reversion follow-through on WMT, DLR, IRM adds (should see 2\u20133% bounce on entry)"
-      ],
-      "on_course_check": [
-        "\u2713 Holding major losers (INTU, MSFT) per philosophy\u2014no panic exits despite pain.",
-        "\u2713 Fear reading (22) + oversold signals = offensive environment\u2014adds are justified.",
-        "\u26a0 Cash deployment plan: $250 WMT + $450 DLR + $250 IRM = $950. Retain ~$50 emergency dry powder.",
-        "\u26a0 If geopolitical headlines worsen before Friday, pause new adds and reassess tech thesis."
-      ],
-      "generated_at": "2026-07-09T23:49:42.527492",
-      "archived_at": "2026-07-12T23:31:57.601288"
     }
   ]
 }

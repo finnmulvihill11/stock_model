@@ -3,19 +3,36 @@
     "ticker": "MSFT",
     "company_name": "Microsoft Corporation",
     "action": "Hold",
-    "action_reason": "Position is -13.89% (below 15% threshold), and earnings in 9 days represents a major catalyst. Per philosophy, hold through material losers. Fundamentals healthy and VIX neutral support patience.",
+    "action_reason": "Your philosophy prohibits exits on >15% losses. Fundamentals remain healthy, and the Extreme Fear sentiment may represent capitulation opportunity. Let earnings catalyst resolve before reassessing.",
     "target_price": null,
     "target_reasoning": "",
-    "exit_trigger": "Only exit if earnings reveals fundamental deterioration (guidance cuts, margin compression, weak forward outlook) OR position recovers to breakeven or better",
-    "add_trigger": "Add on break below $385 (additional 4% drop) only if fundamentals remain healthy post-earnings, confirming technical capitulation",
-    "risk": "Earnings miss could accelerate downside to $370-$380; continued macro weakness (Fear sentiment) could amplify losses before recovery",
+    "exit_trigger": "Post-earnings: exit if guidance misses badly OR if technical breaks below $375 on high volume with deteriorating fundamentals",
+    "add_trigger": "Add only if price breaks below $380 AND fundamentals deteriorate, or wait for post-earnings stability with positive guidance",
+    "risk": "Earnings miss or weak guidance could trigger further 5-10% downside; 19.6% weight amplifies portfolio drawdown",
     "outlook": "cautious",
-    "timeframe": "9 days to earnings; reassess completely post-announcement. Recovery window 2-4 weeks if positive",
-    "generated_at": "2026-07-20T23:33:51.059091",
-    "price_at_generation": 402.29,
-    "pnl_at_generation": -13.89
+    "timeframe": "1-2 weeks (through earnings) then reassess",
+    "generated_at": "2026-07-21T23:32:14.989879",
+    "price_at_generation": 397.75,
+    "pnl_at_generation": -14.86
   },
   "history": [
+    {
+      "ticker": "MSFT",
+      "company_name": "Microsoft Corporation",
+      "action": "Hold",
+      "action_reason": "Position is -13.89% (below 15% threshold), and earnings in 9 days represents a major catalyst. Per philosophy, hold through material losers. Fundamentals healthy and VIX neutral support patience.",
+      "target_price": null,
+      "target_reasoning": "",
+      "exit_trigger": "Only exit if earnings reveals fundamental deterioration (guidance cuts, margin compression, weak forward outlook) OR position recovers to breakeven or better",
+      "add_trigger": "Add on break below $385 (additional 4% drop) only if fundamentals remain healthy post-earnings, confirming technical capitulation",
+      "risk": "Earnings miss could accelerate downside to $370-$380; continued macro weakness (Fear sentiment) could amplify losses before recovery",
+      "outlook": "cautious",
+      "timeframe": "9 days to earnings; reassess completely post-announcement. Recovery window 2-4 weeks if positive",
+      "generated_at": "2026-07-20T23:33:51.059091",
+      "price_at_generation": 402.29,
+      "pnl_at_generation": -13.89,
+      "archived_at": "2026-07-21T23:32:14.990148"
+    },
     {
       "ticker": "MSFT",
       "company_name": "Microsoft Corporation",
@@ -117,23 +134,6 @@
       "price_at_generation": 385.1,
       "pnl_at_generation": -17.57,
       "archived_at": "2026-07-13T23:28:04.656328"
-    },
-    {
-      "ticker": "MSFT",
-      "company_name": "Microsoft Corporation",
-      "action": "Hold",
-      "action_reason": "Position is down 17.73%, triggering your rule to never exit major losers. Fundamentals remain healthy, RSI shows room for recovery, and earnings in 20 days could be a catalyst. Holding lets the recovery thesis play out.",
-      "target_price": 420,
-      "target_reasoning": "",
-      "exit_trigger": "Break below $360 on volume (>100M shares/day) suggesting fundamental deterioration",
-      "add_trigger": "RSI drops to <35 AND closes above $400 on next recovery attempt = oversold bounce confirmation",
-      "risk": "Continued macro weakness from geopolitical tensions or broader tech selloff could extend drawdown to -25%+ before earnings; concentration in single position amplifies risk.",
-      "outlook": "cautious",
-      "timeframe": "2-4 weeks to earnings catalyst; reassess after Q results",
-      "generated_at": "2026-07-09T23:48:37.205022",
-      "price_at_generation": 384.36,
-      "pnl_at_generation": -17.73,
-      "archived_at": "2026-07-12T23:30:56.446428"
     }
   ]
 }

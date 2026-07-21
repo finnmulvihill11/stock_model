@@ -8,21 +8,21 @@
     "sell_score": 0.14,
     "reasons": [],
     "misses": [
-      "BB: price not near lower band (pct=0.86)",
+      "BB: price not near lower band (pct=0.93)",
       "BB Width: bands expanding, not squeezing",
-      "RSI: not in buy zone (57.5, need 20-40)",
+      "RSI: not in buy zone (61.7, need 20-40)",
       "MACD: no bullish crossover or valley",
       "RSI Divergence: no bullish divergence detected",
-      "Volume: below average (0.81x) \u2014 low conviction"
+      "Volume: below average (0.78x) \u2014 low conviction"
     ],
-    "price": 55.19,
-    "rsi": 57.5,
-    "atr": 1.59,
+    "price": 56.5,
+    "rsi": 61.7,
+    "atr": 1.6,
     "final_tier": "Hold",
     "sizing": {
-      "suggested_shares": 2,
-      "suggested_dollars": 110.38,
-      "note": "2 sh @ $55.19 = $110 (Hold, 60% size) | $713 swing budget after"
+      "suggested_shares": 1,
+      "suggested_dollars": 56.5,
+      "note": "1 sh @ $56.50 = $56 (Hold, 60% size) | $429 swing budget after"
     }
   },
   "fundamentals": {
@@ -52,7 +52,7 @@
       ],
       "earnings_status": "upcoming",
       "next_earnings_date": "2026-08-05",
-      "days_to_earnings": 16
+      "days_to_earnings": 15
     }
   },
   "news": {
@@ -60,34 +60,34 @@
     "sentiment": "neutral",
     "health": "neutral",
     "key_events": [
-      "Earnings report in 16 days (major catalyst)",
-      "Revenue declining YoY (-8.3%) signals headwinds",
-      "VIX at 18.6 indicates stable market conditions",
-      "Fear gauge present despite neutral volatility"
+      "Earnings report in 15 days - potential catalyst",
+      "Revenue declining 8.3% YoY - headwind for fundamentals",
+      "Extreme Fear sentiment in market - potential capitulation bottom",
+      "VIX 17.0 - stable volatility environment"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "Revenue contraction YoY suggests operational or market challenges",
-      "No recent news flow (empty news section) limits conviction",
-      "Fear sentiment in market despite neutral VIX\u2014potential disconnect"
+      "Negative revenue trend suggests weakening operational performance",
+      "No recent bullish news catalysts visible",
+      "RSI 61.7 approaching overbought but not confirming breakout"
     ],
-    "verdict": "Position is profitable with reasonable momentum, but fundamental weakness and upcoming earnings create a critical decision point within 16 days.",
+    "verdict": "Position is profitable with +12.15% gains; hold ahead of earnings catalyst while monitoring for continuation signals.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "OXY",
-    "stock_return_3m": 3.08,
-    "benchmark_return_3m": 4.77,
-    "relative_strength": -1.69,
+    "stock_return_3m": 4.19,
+    "benchmark_return_3m": 5.85,
+    "relative_strength": -1.67,
     "label": "in-line"
   },
   "final_tier": "Hold",
   "sizing": {
-    "suggested_shares": 2,
-    "suggested_dollars": 110.38,
-    "note": "2 sh @ $55.19 = $110 (Hold, 60% size) | $713 swing budget after"
+    "suggested_shares": 1,
+    "suggested_dollars": 56.5,
+    "note": "1 sh @ $56.50 = $56 (Hold, 60% size) | $429 swing budget after"
   },
   "is_dca": false,
-  "saved_at": "2026-07-20T23:34:21.814802"
+  "saved_at": "2026-07-21T23:32:44.536990"
 }

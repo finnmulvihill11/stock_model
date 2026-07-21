@@ -4,24 +4,22 @@
     "ticker": "WMT",
     "direction": "hold",
     "tier": "Hold",
-    "buy_score": 0.38,
+    "buy_score": 0.62,
     "sell_score": 0.43,
     "reasons": [],
     "misses": [
-      "BB: price not near lower band (pct=0.33)",
-      "RSI: not in buy zone (41.9, need 20-40)",
       "MACD: no bullish crossover or valley",
       "200MA: price below 200MA \u2014 potential falling knife",
-      "Volume: below average (0.79x) \u2014 low conviction"
+      "Volume: below average (0.98x) \u2014 low conviction"
     ],
-    "price": 112.2,
-    "rsi": 41.9,
-    "atr": 2.88,
+    "price": 110.39,
+    "rsi": 38.3,
+    "atr": 2.92,
     "final_tier": "Hold",
     "sizing": {
-      "suggested_shares": 1,
-      "suggested_dollars": 112.2,
-      "note": "1 sh @ $112.20 = $112 (Hold, 60% size) | $711 swing budget after"
+      "suggested_shares": 0,
+      "suggested_dollars": 0,
+      "note": "Price exceeds 60% conviction ceiling ($87) \u2014 skip or wait for Strong Buy"
     }
   },
   "fundamentals": {
@@ -48,9 +46,9 @@
         "Earnings growing YoY (+19.4%)",
         "Revenue growing (+7.3%)"
       ],
-      "earnings_status": "distant",
+      "earnings_status": "upcoming",
       "next_earnings_date": "2026-08-20",
-      "days_to_earnings": 31
+      "days_to_earnings": 30
     }
   },
   "news": {
@@ -58,33 +56,33 @@
     "sentiment": "neutral",
     "health": "healthy",
     "key_events": [
-      "No recent news items provided for assessment",
-      "Earnings report 31 days away \u2014 potential catalyst",
-      "VIX at 18.6 indicates neutral market environment"
+      "Earnings report within 30 days",
+      "Market in Extreme Fear despite neutral VIX",
+      "No recent news catalysts visible"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "RSI at 41.9 suggests no overbought conditions but also limited momentum",
-      "No technical firing signals \u2014 position lacks directional confirmation",
-      "Fear gauge present despite neutral VIX \u2014 potential sentiment disconnect"
+      "Position down 1.22% with no technical support signals",
+      "RSI at 38.3 indicates weakness without oversold confirmation",
+      "Gap between market sentiment (Extreme Fear) and VIX (17.0) suggests uncertainty"
     ],
-    "verdict": "Small profitable position in fundamentally sound company with no immediate catalysts; hold and monitor for technical setup improvement or earnings approach.",
+    "verdict": "Healthy fundamentals and small loss position WMT well for hold-and-wait strategy ahead of earnings.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "WMT",
-    "stock_return_3m": -11.83,
-    "benchmark_return_3m": 4.77,
-    "relative_strength": -16.6,
+    "stock_return_3m": -13.54,
+    "benchmark_return_3m": 5.85,
+    "relative_strength": -19.39,
     "label": "underperforming"
   },
   "final_tier": "Hold",
   "sizing": {
-    "suggested_shares": 1,
-    "suggested_dollars": 112.2,
-    "note": "1 sh @ $112.20 = $112 (Hold, 60% size) | $711 swing budget after"
+    "suggested_shares": 0,
+    "suggested_dollars": 0,
+    "note": "Price exceeds 60% conviction ceiling ($87) \u2014 skip or wait for Strong Buy"
   },
   "is_dca": false,
-  "saved_at": "2026-07-20T23:34:28.010902"
+  "saved_at": "2026-07-21T23:32:50.878174"
 }

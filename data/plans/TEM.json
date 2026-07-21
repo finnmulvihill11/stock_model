@@ -3,19 +3,36 @@
     "ticker": "TEM",
     "company_name": "Tempus AI, Inc.",
     "action": "Hold",
-    "action_reason": "Position is down >15%, triggering philosophy to hold through major losers. However, immediately prepare exit plan if earnings disappoint or debt concerns accelerate.",
+    "action_reason": "Position is down 29.10% (exceeds 15% threshold), triggering your hold-through-major-losers philosophy. Earnings in 9 days could be a reversal catalyst. Do not add or trim before this event.",
     "target_price": null,
     "target_reasoning": "",
-    "exit_trigger": "Earnings miss with guidance cut, or debt covenant breach announcement, or close below $40 (major support break)",
-    "add_trigger": "Do NOT add\u2014fundamentals do not support averaging down; wait for profitability proof post-earnings",
-    "risk": "Insolvency risk if operating cash flow doesn't improve; debt refinancing challenges if equity value continues eroding",
+    "exit_trigger": "Post-earnings: Exit if guidance/FCF outlook deteriorates further, debt refinancing concerns surface, or stock breaks below $42 on heavy volume",
+    "add_trigger": "Only if: (1) Earnings beat + path to profitability shown, AND (2) stock stabilizes above $52 with positive RSI divergence",
+    "risk": "Liquidity risk if debt becomes unmanageable; further losses if earnings disappoint and cash burn accelerates. Opportunity cost in neutral market.",
     "outlook": "cautious",
-    "timeframe": "2 weeks (earnings catalyst critical\u2014reassess immediately after results)",
-    "generated_at": "2026-07-20T23:34:02.746692",
-    "price_at_generation": 48.41,
-    "pnl_at_generation": -29.92
+    "timeframe": "9-14 days (until post-earnings clarity); reassess position size after earnings if fundamentals confirm deterioration",
+    "generated_at": "2026-07-21T23:32:29.079898",
+    "price_at_generation": 48.98,
+    "pnl_at_generation": -29.1
   },
   "history": [
+    {
+      "ticker": "TEM",
+      "company_name": "Tempus AI, Inc.",
+      "action": "Hold",
+      "action_reason": "Position is down >15%, triggering philosophy to hold through major losers. However, immediately prepare exit plan if earnings disappoint or debt concerns accelerate.",
+      "target_price": null,
+      "target_reasoning": "",
+      "exit_trigger": "Earnings miss with guidance cut, or debt covenant breach announcement, or close below $40 (major support break)",
+      "add_trigger": "Do NOT add\u2014fundamentals do not support averaging down; wait for profitability proof post-earnings",
+      "risk": "Insolvency risk if operating cash flow doesn't improve; debt refinancing challenges if equity value continues eroding",
+      "outlook": "cautious",
+      "timeframe": "2 weeks (earnings catalyst critical\u2014reassess immediately after results)",
+      "generated_at": "2026-07-20T23:34:02.746692",
+      "price_at_generation": 48.41,
+      "pnl_at_generation": -29.92,
+      "archived_at": "2026-07-21T23:32:29.080152"
+    },
     {
       "ticker": "TEM",
       "company_name": "Tempus AI, Inc.",
@@ -117,23 +134,6 @@
       "price_at_generation": 58.23,
       "pnl_at_generation": -15.71,
       "archived_at": "2026-07-13T23:28:20.090653"
-    },
-    {
-      "ticker": "TEM",
-      "company_name": "Tempus AI, Inc.",
-      "action": "Hold",
-      "action_reason": "Position is down 10.97%, below the 15% threshold mandating hold-through philosophy. Upcoming earnings in 21 days is critical catalyst that could validate or refute deteriorating metrics; exiting now locks in loss before key event.",
-      "target_price": null,
-      "target_reasoning": "",
-      "exit_trigger": "Break below $56.50 (post-earnings support) OR negative earnings surprise combined with revenue miss; reassess if debt metrics worsen further",
-      "add_trigger": "Only if earnings beat expectations AND management provides credible path to profitability/positive FCF; adds confirmation signal",
-      "risk": "Insolvency risk if cash burn accelerates; high debt load limits financial flexibility; potential dilution if capital raise required",
-      "outlook": "cautious",
-      "timeframe": "2-3 weeks until earnings (hold decision point); reassess portfolio weight if position recovers to -5% or falls to -15%+",
-      "generated_at": "2026-07-09T23:48:50.937944",
-      "price_at_generation": 61.5,
-      "pnl_at_generation": -10.97,
-      "archived_at": "2026-07-12T23:31:09.561774"
     }
   ]
 }

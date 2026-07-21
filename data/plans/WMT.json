@@ -3,19 +3,36 @@
     "ticker": "WMT",
     "company_name": "Walmart Inc.",
     "action": "Hold",
-    "action_reason": "Position is modestly profitable (+0.40%) at 3% weight with healthy fundamentals and neutral technicals. Lack of news and distant earnings warrant patience rather than action; no reason to trim a small winner without a clear exit signal.",
-    "target_price": 115.5,
+    "action_reason": "Loss is minimal (1.22%) and well below the 15% threshold. Upcoming earnings in 30 days is a key catalyst that could drive recovery. Fundamentals remain healthy with no deterioration signals.",
+    "target_price": null,
     "target_reasoning": "",
-    "exit_trigger": "RSI breaks below 35 on increased volume, or closes below $111.00 on deteriorating fundamentals",
-    "add_trigger": "RSI rises above 55 with confirmed breakout above $113.50 on increasing volume",
-    "risk": "Neutral market sentiment + Fear gauge could trigger sudden selloff; earnings miss in 31 days could create gap down",
+    "exit_trigger": "Price breaks below $108 (support) OR fundamentals shift to 'deteriorating' OR post-earnings sell-off with volume confirmation",
+    "add_trigger": "Price tests $108-109 support with RSI <30 AND positive pre-earnings momentum",
+    "risk": "Earnings volatility could accelerate downside; Extreme Fear environment may persist, pressuring defensive names",
     "outlook": "neutral",
-    "timeframe": "3-6 weeks (hold through earnings approach)",
-    "generated_at": "2026-07-20T23:34:28.010169",
-    "price_at_generation": 112.2,
-    "pnl_at_generation": 0.4
+    "timeframe": "3-5 weeks until earnings catalyst; reassess after Q3 report",
+    "generated_at": "2026-07-21T23:32:50.877297",
+    "price_at_generation": 110.39,
+    "pnl_at_generation": -1.22
   },
   "history": [
+    {
+      "ticker": "WMT",
+      "company_name": "Walmart Inc.",
+      "action": "Hold",
+      "action_reason": "Position is modestly profitable (+0.40%) at 3% weight with healthy fundamentals and neutral technicals. Lack of news and distant earnings warrant patience rather than action; no reason to trim a small winner without a clear exit signal.",
+      "target_price": 115.5,
+      "target_reasoning": "",
+      "exit_trigger": "RSI breaks below 35 on increased volume, or closes below $111.00 on deteriorating fundamentals",
+      "add_trigger": "RSI rises above 55 with confirmed breakout above $113.50 on increasing volume",
+      "risk": "Neutral market sentiment + Fear gauge could trigger sudden selloff; earnings miss in 31 days could create gap down",
+      "outlook": "neutral",
+      "timeframe": "3-6 weeks (hold through earnings approach)",
+      "generated_at": "2026-07-20T23:34:28.010169",
+      "price_at_generation": 112.2,
+      "pnl_at_generation": 0.4,
+      "archived_at": "2026-07-21T23:32:50.877539"
+    },
     {
       "ticker": "WMT",
       "company_name": "Walmart Inc.",
@@ -117,23 +134,6 @@
       "price_at_generation": 113.9,
       "pnl_at_generation": 1.92,
       "archived_at": "2026-07-13T23:28:48.466183"
-    },
-    {
-      "ticker": "WMT",
-      "company_name": "Walmart Inc.",
-      "action": "Hold",
-      "action_reason": "Position is profitable (+0.41%), RSI oversold conditions may present an opportunity, but lack of firing technicals and absent news requires patience. Add only on confirmed reversal or accumulate on weakness if conviction remains.",
-      "target_price": null,
-      "target_reasoning": "",
-      "exit_trigger": "Close above $115 with volume confirmation (take 50% off at profit target); exit immediately if fundamentals deteriorate or earnings miss badly",
-      "add_trigger": "RSI drops to 25-30 on volume spike + price holds above $110 support; or positive pre-earnings catalyst emerges",
-      "risk": "Earnings miss or broader retail sector weakness; geopolitical escalation affecting consumer spending",
-      "outlook": "neutral",
-      "timeframe": "2-6 weeks until earnings catalyst",
-      "generated_at": "2026-07-09T23:49:21.947105",
-      "price_at_generation": 112.21,
-      "pnl_at_generation": 0.41,
-      "archived_at": "2026-07-12T23:31:39.105343"
     }
   ]
 }

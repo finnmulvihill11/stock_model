@@ -8,21 +8,21 @@
     "sell_score": 0.0,
     "reasons": [],
     "misses": [
-      "BB: price not near lower band (pct=0.51)",
+      "BB: price not near lower band (pct=0.58)",
       "BB Width: bands expanding, not squeezing",
-      "RSI: not in buy zone (51.8, need 20-40)",
+      "RSI: not in buy zone (54.4, need 20-40)",
       "MACD: no bullish crossover or valley",
       "RSI Divergence: no bullish divergence detected",
-      "Volume: below average (0.49x) \u2014 low conviction"
+      "Volume: below average (0.55x) \u2014 low conviction"
     ],
-    "price": 124.23,
-    "rsi": 51.8,
-    "atr": 4.24,
+    "price": 125.56,
+    "rsi": 54.4,
+    "atr": 4.14,
     "final_tier": "Hold",
     "sizing": {
-      "suggested_shares": 1,
-      "suggested_dollars": 124.23,
-      "note": "1 sh @ $124.23 = $124 (Hold, 60% size) | $699 swing budget after"
+      "suggested_shares": 0,
+      "suggested_dollars": 0,
+      "note": "Price exceeds 60% conviction ceiling ($87) \u2014 skip or wait for Strong Buy"
     }
   },
   "fundamentals": {
@@ -52,42 +52,41 @@
       ],
       "earnings_status": "upcoming",
       "next_earnings_date": "2026-08-05",
-      "days_to_earnings": 16
+      "days_to_earnings": 15
     }
   },
   "news": {
     "ticker": "IRM",
     "sentiment": "neutral",
-    "health": "neutral",
+    "health": "healthy",
     "key_events": [
-      "Earnings report due in 16 days",
-      "VIX at 18.6 indicates stable market conditions",
-      "No recent news catalysts identified"
+      "Earnings report in 15 days",
+      "VIX at 17.0 indicating neutral market volatility",
+      "Extreme Fear gauge suggesting potential market bottom"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "Debt-to-equity data unavailable - limits fundamental assessment",
-      "RSI at 51.8 shows no momentum (neutral zone)",
-      "No technical firing signals despite 6.54% gain",
-      "Fear gauge present despite position profitability"
+      "Debt-to-equity data unavailable - cannot assess leverage risk",
+      "No recent news catalysts visible",
+      "RSI at 54.4 shows no overbought conditions or momentum"
     ],
-    "verdict": "Position is profitable with no clear directional bias; hold ahead of earnings catalyst while monitoring for momentum confirmation.",
+    "verdict": "IRM is a profitable position with positive technicals and no sell signals; hold through earnings with attention to debt metrics.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "IRM",
-    "stock_return_3m": 5.94,
-    "benchmark_return_3m": 4.77,
-    "relative_strength": 1.17,
+    "stock_return_3m": 4.89,
+    "benchmark_return_3m": 5.85,
+    "relative_strength": -0.97,
     "label": "in-line"
   },
   "final_tier": "Hold",
   "sizing": {
-    "suggested_shares": 1,
-    "suggested_dollars": 124.23,
-    "note": "1 sh @ $124.23 = $124 (Hold, 60% size) | $699 swing budget after"
+    "suggested_shares": 0,
+    "suggested_dollars": 0,
+    "note": "Price exceeds 60% conviction ceiling ($87) \u2014 skip or wait for Strong Buy"
   },
   "is_dca": false,
-  "saved_at": "2026-07-20T23:34:34.180776"
+  "saved_at": "2026-07-21T23:32:57.311224"
 }

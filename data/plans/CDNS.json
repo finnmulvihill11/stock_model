@@ -1,0 +1,19 @@
+{
+  "current": {
+    "ticker": "CDNS",
+    "company_name": "Cadence Design Systems, Inc.",
+    "action": "Hold",
+    "action_reason": "Position is profitable (+1.96%) with textbook oversold reversal setup (BB lower band + RSI + MACD valley). Extreme Fear sentiment suggests capitulation selling. Wait for post-earnings clarity before adding or trimming.",
+    "target_price": 358,
+    "target_reasoning": "",
+    "exit_trigger": "Close below $335 (support break) or negative earnings surprise with technical breakdown",
+    "add_trigger": "Price holds above $340 + positive earnings beat with follow-through above $355",
+    "risk": "Earnings volatility could spike in either direction; early momentum exhaustion if RSI fails to hold above 40",
+    "outlook": "cautious",
+    "timeframe": "Hold 1-2 weeks through earnings; reassess position size post-results",
+    "generated_at": "2026-07-21T23:33:05.662594",
+    "price_at_generation": 344.64,
+    "pnl_at_generation": 1.96
+  },
+  "history": []
+}
