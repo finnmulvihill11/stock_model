@@ -43,6 +43,9 @@ portfolio:
   - ticker: IRM
     shares: 1.0
     avg_cost: 116.6
+  - ticker: CDNS
+    shares: 1.0
+    avg_cost: 338.03
   dca_tickers:
   - GRNI
   - VOO
