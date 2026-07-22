@@ -8,21 +8,21 @@
     "sell_score": 0.14,
     "reasons": [],
     "misses": [
-      "BB: price not near lower band (pct=0.93)",
+      "BB: price not near lower band (pct=0.96)",
       "BB Width: bands expanding, not squeezing",
-      "RSI: not in buy zone (61.7, need 20-40)",
+      "RSI: not in buy zone (64.5, need 20-40)",
       "MACD: no bullish crossover or valley",
       "RSI Divergence: no bullish divergence detected",
-      "Volume: below average (0.78x) \u2014 low conviction"
+      "Volume: below average (0.79x) \u2014 low conviction"
     ],
-    "price": 56.5,
-    "rsi": 61.7,
-    "atr": 1.6,
+    "price": 57.5,
+    "rsi": 64.5,
+    "atr": 1.63,
     "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 1,
-      "suggested_dollars": 56.5,
-      "note": "1 sh @ $56.50 = $56 (Hold, 60% size) | $429 swing budget after"
+      "suggested_dollars": 57.5,
+      "note": "1 sh @ $57.50 = $58 (Hold, 60% size) | $428 swing budget after"
     }
   },
   "fundamentals": {
@@ -40,8 +40,8 @@
     "profit_margins": 0.22421
   },
   "earnings": {
-    "proceed": true,
-    "reason": "Fundamentals intact \u2014 dip may be an overreaction",
+    "proceed": false,
+    "reason": "Earnings in 14 days \u2014 wait for results before acting",
     "verdict": {
       "ticker": "OXY",
       "verdict": "consider",
@@ -50,9 +50,9 @@
         "Earnings growing YoY (+315.6%)",
         "Revenue declining (-8.3%)"
       ],
-      "earnings_status": "upcoming",
+      "earnings_status": "imminent",
       "next_earnings_date": "2026-08-05",
-      "days_to_earnings": 15
+      "days_to_earnings": 14
     }
   },
   "news": {
@@ -60,34 +60,35 @@
     "sentiment": "neutral",
     "health": "neutral",
     "key_events": [
-      "Earnings report in 15 days - potential catalyst",
-      "Revenue declining 8.3% YoY - headwind for fundamentals",
-      "Extreme Fear sentiment in market - potential capitulation bottom",
-      "VIX 17.0 - stable volatility environment"
+      "Earnings report imminent (14 days)",
+      "Revenue declining YoY (-8.3%)",
+      "Position up +14.13% \u2014 profitable entry",
+      "Moderate geopolitical backdrop (unquantified impact)"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "Negative revenue trend suggests weakening operational performance",
-      "No recent bullish news catalysts visible",
-      "RSI 61.7 approaching overbought but not confirming breakout"
+      "Declining revenue suggests demand/pricing pressure",
+      "RSI 64.5 approaching overbought (70) \u2014 momentum fading",
+      "No recent news data \u2014 blind spot on catalysts/headwinds",
+      "Fear sentiment in broader market (F&G index) despite neutral VIX"
     ],
-    "verdict": "Position is profitable with +12.15% gains; hold ahead of earnings catalyst while monitoring for continuation signals.",
+    "verdict": "OXY is a profitable swing with technical exhaustion signals; trim ahead of earnings given revenue headwinds and lack of positive catalysts.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "OXY",
-    "stock_return_3m": 4.19,
-    "benchmark_return_3m": 5.85,
-    "relative_strength": -1.67,
+    "stock_return_3m": 2.55,
+    "benchmark_return_3m": 6.43,
+    "relative_strength": -3.88,
     "label": "in-line"
   },
   "final_tier": "Hold",
   "sizing": {
     "suggested_shares": 1,
-    "suggested_dollars": 56.5,
-    "note": "1 sh @ $56.50 = $56 (Hold, 60% size) | $429 swing budget after"
+    "suggested_dollars": 57.5,
+    "note": "1 sh @ $57.50 = $58 (Hold, 60% size) | $428 swing budget after"
   },
   "is_dca": false,
-  "saved_at": "2026-07-21T23:32:44.536990"
+  "saved_at": "2026-07-22T23:33:37.188596"
 }

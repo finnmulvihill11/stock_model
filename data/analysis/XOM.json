@@ -8,16 +8,16 @@
     "sell_score": 0.14,
     "reasons": [],
     "misses": [
-      "BB: price not near lower band (pct=1.05)",
+      "BB: price not near lower band (pct=1.06)",
       "BB Width: bands expanding, not squeezing",
-      "RSI: not in buy zone (66.0, need 20-40)",
+      "RSI: not in buy zone (69.4, need 20-40)",
       "MACD: no bullish crossover or valley",
       "RSI Divergence: no bullish divergence detected",
-      "Volume: below average (0.84x) \u2014 low conviction"
+      "Volume: below average (0.88x) \u2014 low conviction"
     ],
-    "price": 151.71,
-    "rsi": 66.0,
-    "atr": 3.26,
+    "price": 154.45,
+    "rsi": 69.4,
+    "atr": 3.34,
     "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 0,
@@ -40,7 +40,7 @@
   },
   "earnings": {
     "proceed": false,
-    "reason": "Earnings in 10 days \u2014 wait for results before acting",
+    "reason": "Earnings in 9 days \u2014 wait for results before acting",
     "verdict": {
       "ticker": "XOM",
       "verdict": "consider",
@@ -51,7 +51,7 @@
       ],
       "earnings_status": "imminent",
       "next_earnings_date": "2026-07-31",
-      "days_to_earnings": 10
+      "days_to_earnings": 9
     }
   },
   "news": {
@@ -59,25 +59,25 @@
     "sentiment": "neutral",
     "health": "healthy",
     "key_events": [
-      "Earnings report due in 10 days",
-      "VIX at 17.0 indicates neutral market volatility",
-      "Extreme Fear sentiment in market despite healthy fundamentals"
+      "Earnings report in 9 days",
+      "Strong YTD performance (+12.61%)",
+      "Moderate geopolitical backdrop affecting energy sector"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "RSI at 66.0 approaching overbought territory (70+)",
-      "No recent news catalysts visible",
-      "Earnings imminent\u2014volatility risk in next 10 days"
+      "RSI at 69.4 indicates overbought conditions",
+      "No recent news data limits sentiment assessment",
+      "Earnings event creates near-term volatility risk"
     ],
-    "verdict": "XOM is fundamentally healthy with strong gains (+10.62%), but faces near-term earnings volatility and technical overbought conditions.",
+    "verdict": "Strong position with healthy fundamentals, but overbought technicals warrant caution before earnings.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "XOM",
-    "stock_return_3m": 3.43,
-    "benchmark_return_3m": 5.85,
-    "relative_strength": -2.43,
+    "stock_return_3m": 4.81,
+    "benchmark_return_3m": 6.43,
+    "relative_strength": -1.62,
     "label": "in-line"
   },
   "final_tier": "Hold",
@@ -87,5 +87,5 @@
     "note": "Price exceeds 60% conviction ceiling ($87) \u2014 skip or wait for Strong Buy"
   },
   "is_dca": false,
-  "saved_at": "2026-07-21T23:32:36.331774"
+  "saved_at": "2026-07-22T23:33:28.952903"
 }

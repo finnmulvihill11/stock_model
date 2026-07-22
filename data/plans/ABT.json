@@ -3,19 +3,36 @@
     "ticker": "ABT",
     "company_name": "Abbott Laboratories",
     "action": "Hold",
-    "action_reason": "Loss is contained at -9.2% (well below 15% hold mandate). Fundamentals are healthy and post-earnings volatility is normal; RSI at 63.3 suggests potential stabilization without oversold conditions requiring panic exit.",
-    "target_price": 112.0,
+    "action_reason": "Position is only 8.38% underwater (well below 15% threshold), fundamentals remain healthy, and current Fear sentiment environment typically favors defensive healthcare plays. RSI elevated but not yet critical signal in neutral volatility backdrop.",
+    "target_price": null,
     "target_reasoning": "",
-    "exit_trigger": "Breach of $95.00 (breaking major support) OR deteriorating fundamental news on next earnings",
-    "add_trigger": "Stabilization above $98.00 with positive catalyst news OR if stock reaches $92.00 (strong support) on volume without further bad news",
-    "risk": "Further post-earnings disappointment or macro market downturn despite Extreme Fear already priced in",
-    "outlook": "cautious",
-    "timeframe": "3-6 weeks for recovery to $109+ as market digests earnings and fear subsides",
-    "generated_at": "2026-07-21T23:32:21.935973",
-    "price_at_generation": 99.67,
-    "pnl_at_generation": -9.2
+    "exit_trigger": "Break below $95.00 (major support) with deteriorating fundamentals OR position reaches -15% loss threshold reversal",
+    "add_trigger": "ABT pulls back to $97-98 range on RSI <50 with maintained fundamental health; geopolitical risk clarification materially negative",
+    "risk": "Continued post-earnings weakness if guidance was reduced; geopolitical escalation could unwind defensive positioning; sector rotation away from healthcare",
+    "outlook": "neutral",
+    "timeframe": "2-6 weeks",
+    "generated_at": "2026-07-22T23:32:52.081955",
+    "price_at_generation": 100.57,
+    "pnl_at_generation": -8.38
   },
   "history": [
+    {
+      "ticker": "ABT",
+      "company_name": "Abbott Laboratories",
+      "action": "Hold",
+      "action_reason": "Loss is contained at -9.2% (well below 15% hold mandate). Fundamentals are healthy and post-earnings volatility is normal; RSI at 63.3 suggests potential stabilization without oversold conditions requiring panic exit.",
+      "target_price": 112.0,
+      "target_reasoning": "",
+      "exit_trigger": "Breach of $95.00 (breaking major support) OR deteriorating fundamental news on next earnings",
+      "add_trigger": "Stabilization above $98.00 with positive catalyst news OR if stock reaches $92.00 (strong support) on volume without further bad news",
+      "risk": "Further post-earnings disappointment or macro market downturn despite Extreme Fear already priced in",
+      "outlook": "cautious",
+      "timeframe": "3-6 weeks for recovery to $109+ as market digests earnings and fear subsides",
+      "generated_at": "2026-07-21T23:32:21.935973",
+      "price_at_generation": 99.67,
+      "pnl_at_generation": -9.2,
+      "archived_at": "2026-07-22T23:32:52.082175"
+    },
     {
       "ticker": "ABT",
       "company_name": "Abbott Laboratories",
@@ -117,23 +134,6 @@
       "price_at_generation": 92.11,
       "pnl_at_generation": -16.09,
       "archived_at": "2026-07-14T23:27:20.462543"
-    },
-    {
-      "ticker": "ABT",
-      "company_name": "Abbott Laboratories",
-      "action": "Hold",
-      "action_reason": "You're -14.43% (below your 15% exit threshold), and fundamentals are healthy. Imminent earnings could reignite momentum either direction. RSI at 56.6 is neutral but not oversold\u2014wait for post-earnings direction before any moves.",
-      "target_price": 105,
-      "target_reasoning": "",
-      "exit_trigger": "Break below $88 (additional 6% loss from current) or negative earnings surprise with outlook reduction",
-      "add_trigger": "Post-earnings beat + RSI breaks above 65, or if price falls to $87-90 range on earnings weakness (adds conviction to recovery thesis)",
-      "risk": "Binary earnings miss could accelerate losses through 15% threshold; geopolitical escalation could pressure healthcare sector",
-      "outlook": "cautious",
-      "timeframe": "2-4 weeks (earnings resolution + 1-2 week post-earnings confirmation)",
-      "generated_at": "2026-07-12T23:31:02.671467",
-      "price_at_generation": 93.93,
-      "pnl_at_generation": -14.43,
-      "archived_at": "2026-07-13T23:28:12.841295"
     }
   ]
 }

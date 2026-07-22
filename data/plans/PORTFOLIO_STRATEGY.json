@@ -1,46 +1,95 @@
 {
   "current": {
-    "headline": "Portfolio holding steady through drawdowns; $1k dry powder allocated to three textbook mean-reversion setups firing simultaneously.",
-    "market_stance": "offensive",
-    "overall_thesis": "Extreme Fear (VIX 17, F&G 25) is creating high-quality oversold opportunities in tech and industrials. Deploy capital into CDNS, COHR, and CMS\u2014all firing persistent 2+ consecutive buy scrapes with RSI <35. Current losers (INTU -38%, TEM -29%) held per philosophy; they'll recover as fear unwinds over 4-8 weeks.",
+    "headline": "Portfolio holding major losers; deploying remaining capital into high-conviction mean-reversion setups while tech stabilizes.",
+    "market_stance": "neutral",
+    "overall_thesis": "Your thesis remains intact: hold INTU and MSFT through their >15% drawdowns for recovery while deploying $1,000 into oversold quality names (CDNS, QCOM, FSLR) that are printing textbook mean-reversion setups. Trim profitable energy positions (OXY, IRM) into strength ahead of earnings volatility. Next 4\u20138 weeks: tech should find support as macro uncertainty remains bounded (VIX 16.6, Fear 33); energy earnings may provide exit catalyst.",
     "priority_actions": [
       {
         "rank": 1,
         "action": "BUY",
         "ticker": "CDNS",
-        "instruction": "BUY 15\u201317 shares at market or on any dip to lower Bollinger Band. Textbook oversold reversal (RSI 28.6), already profitable in portfolio (+2%), and firing persistent buy signal for 2+ consecutive days. Strong mean-reversion candidate.",
+        "instruction": "BUY 22\u201325 shares at market or on any dip to $165\u2013167. CDNS is already 8.4% of portfolio; this is an ADD-to-existing, not new position. RSI 28.6 (deeply oversold), MACD inflection live, Bollinger Band setup perfect. High conviction.",
         "urgency": "immediate"
       },
       {
         "rank": 2,
         "action": "BUY",
-        "ticker": "COHR",
-        "instruction": "BUY 8\u201310 shares at market. RSI 33.3 deeply oversold, firing persistent 2+ consecutive buy scrapes. High-quality semiconductor/industrial compounder at capitulation levels.",
+        "ticker": "QCOM",
+        "instruction": "BUY 8\u201310 shares at market or on weakness to $167\u2013170. RSI 38.1 oversold, price hugging lower Bollinger Band. Semiconductor sector mean-reversion setup. Deploy ~$1,400\u20131,700 of remaining $1,000 budget over next 2\u20133 days if capital becomes available.",
         "urgency": "this week"
       },
       {
         "rank": 3,
-        "action": "BUY",
-        "ticker": "CMS",
-        "instruction": "BUY 20\u201325 shares at market. Price squeezed near lower Bollinger, RSI indicating oversold, persistent buy signal active 2+ days. Utility-grade stability with mean-reversion edge.",
+        "action": "TRIM",
+        "ticker": "OXY",
+        "instruction": "TRIM 60% of OXY position (~30\u201335 shares if holding ~60). Position is +14.1%, RSI extended (64.5), earnings in 14 days. Lock in profit before vol event; keep 40% for upside.",
+        "urgency": "this week"
+      },
+      {
+        "rank": 4,
+        "action": "TRIM",
+        "ticker": "IRM",
+        "instruction": "TRIM 60% of IRM position (~25\u201330 shares if holding ~50). Position is +6.8%, RSI neutral (52.0), earnings approaching. Take partial profit; retain 40% exposure.",
         "urgency": "this week"
       }
     ],
-    "biggest_risk": "INTU drawdown (-38%) and TEM drawdown (-29%) will feel worse if market rolls over further before recovery. Your hold-through philosophy is correct, but psychological pain is real. Do not let fear override discipline.",
+    "biggest_risk": "INTU and MSFT remain deeply underwater (\u201339.2% and \u201316.4% respectively); if either breaks below key support or fundamentals deteriorate materially, you'll face a multi-month recovery or forced realization of losses. Geopolitical blind spot (no recent news data) means you may be exposed to an unquantified tail risk event. VIX expansion from 16.6 could trigger broader tech selloff.",
     "what_to_watch": [
-      "XOM & OXY earnings catalysts (10\u201315 days out) \u2014 both profitable; let them run into reports",
-      "WMT earnings in ~3 days \u2014 currently at RSI 38.3 (oversold), watch for reversal bounce post-earnings",
-      "Fear & Greed index: if it drops below 20, add one more tranche to CMS or COHR; if it rises above 40, begin taking TRIM profits on XOM/OXY"
+      "INTU earnings + guidance (cloud/AI product adoption trends \u2014 this is your thesis test)",
+      "MSFT earnings + Azure growth rates (if cloud spending rolls over, thesis breaks)",
+      "XOM earnings in ~2 weeks (energy sector momentum inflection point)",
+      "Geopolitical headlines (trade, sanctions, Middle East) \u2014 current data vacuum is dangerous",
+      "Semiconductor sector rotation (QCOM, CDNS, FSLR oversold setup sustainability)"
     ],
     "on_course_check": [
-      "\u2713 PLAN WORKING: VIX neutral, Extreme Fear backdrop ideal for mean-reversion buys; three new positions all firing persistent signals simultaneously",
-      "\u2713 PLAN WORKING: Large losers (INTU, TEM) held per philosophy; no panic selling; discipline maintained",
-      "\u26a0 REVISE IF: Market VIX spikes above 25 or F&G turns to Extreme Greed (>75)\u2014pause new buys and lock in XOM/OXY gains with TRIM orders",
-      "\u26a0 REVISE IF: INTU or TEM breach 50% losses without stabilization sign (RSI >50 + MACD bullish cross) \u2014 escalate review (but still hold per mandate)"
+      "\u2713 Plan working if: CDNS/QCOM bounce 5\u20138% within 2 weeks; INTU stabilizes RSI >50 by late August; energy trims lock in profit without breakdown",
+      "\u2717 Plan needs revision if: INTU or MSFT close below 52-week lows (thesis invalidated); VIX spikes >25 (reduces margin for mean-reversion plays); geopolitical event triggers >5% market drop (reduce new positions immediately)"
     ],
-    "generated_at": "2026-07-21T23:33:18.912389"
+    "generated_at": "2026-07-22T23:34:15.746505"
   },
   "history": [
+    {
+      "headline": "Portfolio holding steady through drawdowns; $1k dry powder allocated to three textbook mean-reversion setups firing simultaneously.",
+      "market_stance": "offensive",
+      "overall_thesis": "Extreme Fear (VIX 17, F&G 25) is creating high-quality oversold opportunities in tech and industrials. Deploy capital into CDNS, COHR, and CMS\u2014all firing persistent 2+ consecutive buy scrapes with RSI <35. Current losers (INTU -38%, TEM -29%) held per philosophy; they'll recover as fear unwinds over 4-8 weeks.",
+      "priority_actions": [
+        {
+          "rank": 1,
+          "action": "BUY",
+          "ticker": "CDNS",
+          "instruction": "BUY 15\u201317 shares at market or on any dip to lower Bollinger Band. Textbook oversold reversal (RSI 28.6), already profitable in portfolio (+2%), and firing persistent buy signal for 2+ consecutive days. Strong mean-reversion candidate.",
+          "urgency": "immediate"
+        },
+        {
+          "rank": 2,
+          "action": "BUY",
+          "ticker": "COHR",
+          "instruction": "BUY 8\u201310 shares at market. RSI 33.3 deeply oversold, firing persistent 2+ consecutive buy scrapes. High-quality semiconductor/industrial compounder at capitulation levels.",
+          "urgency": "this week"
+        },
+        {
+          "rank": 3,
+          "action": "BUY",
+          "ticker": "CMS",
+          "instruction": "BUY 20\u201325 shares at market. Price squeezed near lower Bollinger, RSI indicating oversold, persistent buy signal active 2+ days. Utility-grade stability with mean-reversion edge.",
+          "urgency": "this week"
+        }
+      ],
+      "biggest_risk": "INTU drawdown (-38%) and TEM drawdown (-29%) will feel worse if market rolls over further before recovery. Your hold-through philosophy is correct, but psychological pain is real. Do not let fear override discipline.",
+      "what_to_watch": [
+        "XOM & OXY earnings catalysts (10\u201315 days out) \u2014 both profitable; let them run into reports",
+        "WMT earnings in ~3 days \u2014 currently at RSI 38.3 (oversold), watch for reversal bounce post-earnings",
+        "Fear & Greed index: if it drops below 20, add one more tranche to CMS or COHR; if it rises above 40, begin taking TRIM profits on XOM/OXY"
+      ],
+      "on_course_check": [
+        "\u2713 PLAN WORKING: VIX neutral, Extreme Fear backdrop ideal for mean-reversion buys; three new positions all firing persistent signals simultaneously",
+        "\u2713 PLAN WORKING: Large losers (INTU, TEM) held per philosophy; no panic selling; discipline maintained",
+        "\u26a0 REVISE IF: Market VIX spikes above 25 or F&G turns to Extreme Greed (>75)\u2014pause new buys and lock in XOM/OXY gains with TRIM orders",
+        "\u26a0 REVISE IF: INTU or TEM breach 50% losses without stabilization sign (RSI >50 + MACD bullish cross) \u2014 escalate review (but still hold per mandate)"
+      ],
+      "generated_at": "2026-07-21T23:33:18.912389",
+      "archived_at": "2026-07-22T23:34:15.746776"
+    },
     {
       "headline": "Portfolio holding steady through major drawdowns; three oversold mean-reversion buys available within $1K budget.",
       "market_stance": "offensive",
@@ -207,27 +256,6 @@
       ],
       "generated_at": "2026-07-13T23:29:07.870638",
       "archived_at": "2026-07-14T23:28:12.969263"
-    },
-    {
-      "headline": "Portfolio holding steady through tech drawdown; no new conviction signals today\u2014preserve dry powder for oversold quality entry.",
-      "market_stance": "neutral",
-      "overall_thesis": "Your mean-reversion thesis is intact: tech names (INTU, MSFT) are deeply underwater but fundamentally sound; hold through recovery per your philosophy. The next 4\u20138 weeks will be shaped by earnings (MSFT, CMG, OXY in ~17 days) and potential mean-reversion bounces in RSI-depressed holdings. Fear gauge at 26 suggests sentiment overshoot; wait for a clearer technical setup\u2014either a oversold bounce or a fresh breakdown to confirm trend\u2014before deploying the $1K dry powder.",
-      "priority_actions": [],
-      "biggest_risk": "INTU at -41.3% is a significant anchor; if it breaks below support into -50%+ territory without fundamental change, you may face forced liquidation pressure or liquidity stress. Monitor quarterly results closely. Secondary risk: broad tech repricing if geopolitical escalation (US-China trade) triggers a risk-off spike.",
-      "what_to_watch": [
-        "MSFT earnings (in 17 days)\u2014potential inflection point for largest holding (20.3% weight, -17.6%); strong beat could reverse momentum",
-        "CMG + OXY earnings (also ~17 days)\u2014both profitable; watch for guidance to justify hold or flag exit opportunity",
-        "RSI oversold bounces in XOM (44.4), WMT (44.0), IRM (46.4)\u2014if any spike to 60\u201365 on volume, consider partial trim on strength",
-        "INTU quarterly results\u2014only catalyst that could justify the -41.3% drawdown or signal thesis is broken; hold until then"
-      ],
-      "on_course_check": [
-        "\u2713 Holding major losers (INTU, MSFT, TEM, ABT) through >15% drawdown per philosophy",
-        "\u2713 Smaller profitable positions (CMG, OXY, WMT, IRM, XOM) anchoring portfolio and generating optionality",
-        "\u26a0 If INTU reports and misses guidance *and* forward outlook declines, thesis may be broken\u2014flag for re-evaluation",
-        "\u26a0 If VIX spikes above 20 on geopolitical headline without technical recovery in RSI, consider defensive posture (trim winners, raise cash)"
-      ],
-      "generated_at": "2026-07-12T23:31:57.600978",
-      "archived_at": "2026-07-13T23:29:07.870946"
     }
   ]
 }

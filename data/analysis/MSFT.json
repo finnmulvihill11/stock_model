@@ -8,22 +8,22 @@
     "sell_score": 0.43,
     "reasons": [],
     "misses": [
-      "BB: price not near lower band (pct=0.77)",
-      "RSI: not in buy zone (53.4, need 20-40)",
+      "BB: price not near lower band (pct=0.61)",
+      "RSI: not in buy zone (49.2, need 20-40)",
       "MACD: no bullish crossover or valley",
       "RSI Divergence: no bullish divergence detected",
       "200MA: price below 200MA \u2014 potential falling knife",
-      "Death cross active: 50MA (400.66) below 200MA (436.70)",
-      "Volume: below average (0.54x) \u2014 low conviction"
+      "Death cross active: 50MA (400.18) below 200MA (436.09)",
+      "Volume: below average (0.64x) \u2014 low conviction"
     ],
-    "price": 397.75,
-    "rsi": 53.4,
-    "atr": 10.9,
+    "price": 390.34,
+    "rsi": 49.2,
+    "atr": 10.78,
     "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 0,
       "suggested_dollars": 0,
-      "note": "Price exceeds 60% conviction ceiling ($14) \u2014 skip or wait for Strong Buy"
+      "note": "Price exceeds 60% conviction ceiling ($21) \u2014 skip or wait for Strong Buy"
     }
   },
   "fundamentals": {
@@ -41,7 +41,7 @@
   },
   "earnings": {
     "proceed": false,
-    "reason": "Earnings in 8 days \u2014 wait for results before acting",
+    "reason": "Earnings in 7 days \u2014 wait for results before acting",
     "verdict": {
       "ticker": "MSFT",
       "verdict": "consider",
@@ -52,7 +52,7 @@
       ],
       "earnings_status": "imminent",
       "next_earnings_date": "2026-07-29",
-      "days_to_earnings": 8
+      "days_to_earnings": 7
     }
   },
   "news": {
@@ -60,35 +60,36 @@
     "sentiment": "neutral",
     "health": "healthy",
     "key_events": [
-      "Earnings report in 8 days \u2014 critical catalyst",
-      "Extreme Fear sentiment despite healthy fundamentals \u2014 potential disconnect",
-      "VIX 17.0 indicates market calm; fear is sector/stock specific",
-      "No recent news items available for analysis"
+      "Earnings report due within 7 days",
+      "RSI at 49.2 indicates neutral momentum (neither overbought nor oversold)",
+      "VIX at 16.6 suggests calm market conditions",
+      "Position down 16.45% from entry"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "14.86% drawdown \u2014 significant loss already realized",
-      "19.6% portfolio weight \u2014 elevated concentration risk",
-      "RSI 53.4 with no technical firing \u2014 lack of momentum confirmation",
-      "Earnings imminent during volatile period \u2014 headline risk"
+      "Significant drawdown (-16.45%) approaching philosophy threshold",
+      "No technical firing signals; lack of bullish catalysts on charts",
+      "Fear sentiment in broader market (F&G indicator)",
+      "Absence of recent news data limits visibility into catalysts",
+      "Imminent earnings creates binary event risk"
     ],
-    "verdict": "Hold position through earnings given healthy fundamentals and your portfolio concentration; avoid panic selling into Extreme Fear.",
+    "verdict": "Hold current position through earnings given healthy fundamentals and your loss-aversion philosophy, but prepare contingency plan for post-earnings volatility.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "MSFT",
-    "stock_return_3m": -4.65,
-    "benchmark_return_3m": 5.85,
-    "relative_strength": -10.51,
+    "stock_return_3m": -7.77,
+    "benchmark_return_3m": 6.43,
+    "relative_strength": -14.2,
     "label": "underperforming"
   },
   "final_tier": "Hold",
   "sizing": {
     "suggested_shares": 0,
     "suggested_dollars": 0,
-    "note": "Price exceeds 60% conviction ceiling ($14) \u2014 skip or wait for Strong Buy"
+    "note": "Price exceeds 60% conviction ceiling ($21) \u2014 skip or wait for Strong Buy"
   },
   "is_dca": false,
-  "saved_at": "2026-07-21T23:32:14.990749"
+  "saved_at": "2026-07-22T23:32:44.528943"
 }

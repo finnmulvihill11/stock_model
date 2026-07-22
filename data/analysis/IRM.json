@@ -8,16 +8,16 @@
     "sell_score": 0.0,
     "reasons": [],
     "misses": [
-      "BB: price not near lower band (pct=0.58)",
+      "BB: price not near lower band (pct=0.56)",
       "BB Width: bands expanding, not squeezing",
-      "RSI: not in buy zone (54.4, need 20-40)",
+      "RSI: not in buy zone (52.0, need 20-40)",
       "MACD: no bullish crossover or valley",
       "RSI Divergence: no bullish divergence detected",
-      "Volume: below average (0.55x) \u2014 low conviction"
+      "Volume: below average (0.57x) \u2014 low conviction"
     ],
-    "price": 125.56,
-    "rsi": 54.4,
-    "atr": 4.14,
+    "price": 124.51,
+    "rsi": 52.0,
+    "atr": 3.92,
     "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 0,
@@ -40,8 +40,8 @@
     "profit_margins": 0.03758
   },
   "earnings": {
-    "proceed": true,
-    "reason": "Fundamentals intact \u2014 dip may be an overreaction",
+    "proceed": false,
+    "reason": "Earnings in 14 days \u2014 wait for results before acting",
     "verdict": {
       "ticker": "IRM",
       "verdict": "consider",
@@ -50,35 +50,38 @@
         "Earnings growing YoY (+860.0%)",
         "Revenue growing (+21.6%)"
       ],
-      "earnings_status": "upcoming",
+      "earnings_status": "imminent",
       "next_earnings_date": "2026-08-05",
-      "days_to_earnings": 15
+      "days_to_earnings": 14
     }
   },
   "news": {
     "ticker": "IRM",
     "sentiment": "neutral",
-    "health": "healthy",
+    "health": "neutral",
     "key_events": [
-      "Earnings report in 15 days",
-      "VIX at 17.0 indicating neutral market volatility",
-      "Extreme Fear gauge suggesting potential market bottom"
+      "Earnings report due within 14 days",
+      "Position up 6.78% \u2014 profitable exit window available",
+      "RSI at 52.0 \u2014 no overbought/oversold signals",
+      "VIX 16.6 \u2014 stable volatility environment"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "Debt-to-equity data unavailable - cannot assess leverage risk",
-      "No recent news catalysts visible",
-      "RSI at 54.4 shows no overbought conditions or momentum"
+      "Debt-to-equity data unavailable \u2014 unable to assess leverage risk",
+      "No technical firing signals \u2014 momentum absent",
+      "Fear sentiment in market \u2014 rotation risk into defensive trades",
+      "Geopolitical risk unquantified \u2014 baseline uncertainty present",
+      "No recent news flow \u2014 information vacuum ahead of earnings"
     ],
-    "verdict": "IRM is a profitable position with positive technicals and no sell signals; hold through earnings with attention to debt metrics.",
+    "verdict": "IRM is consolidating profitably with neutral technicals; earnings catalyst in 14d creates execution risk that warrants tactical positioning.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "IRM",
-    "stock_return_3m": 4.89,
-    "benchmark_return_3m": 5.85,
-    "relative_strength": -0.97,
+    "stock_return_3m": 6.39,
+    "benchmark_return_3m": 6.43,
+    "relative_strength": -0.04,
     "label": "in-line"
   },
   "final_tier": "Hold",
@@ -88,5 +91,5 @@
     "note": "Price exceeds 60% conviction ceiling ($87) \u2014 skip or wait for Strong Buy"
   },
   "is_dca": false,
-  "saved_at": "2026-07-21T23:32:57.311224"
+  "saved_at": "2026-07-22T23:33:52.153753"
 }
