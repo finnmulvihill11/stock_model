@@ -3,19 +3,36 @@
     "ticker": "MSFT",
     "company_name": "Microsoft Corporation",
     "action": "Hold",
-    "action_reason": "Position is at 16.45% loss, just beyond your 15% threshold where philosophy prohibits exits. Fundamentals remain healthy and RSI at midpoint suggests no panic selling. Earnings within 7 days could provide recovery catalyst.",
-    "target_price": 425,
+    "action_reason": "Per strategy philosophy, never exit positions down >15%. Earnings in 6 days provides near-term catalyst; healthy fundamentals support recovery potential. Current drawdown likely represents market-wide weakness, not company-specific deterioration.",
+    "target_price": null,
     "target_reasoning": "",
-    "exit_trigger": "Break below $375 (20% loss) post-earnings with deteriorating fundamentals; or clear deterioration in earnings guidance",
-    "add_trigger": "Only if earnings beat significantly AND RSI rises above 60 with price reclaiming $420+",
-    "risk": "Earnings miss could accelerate downside; geopolitical uncertainty unquantified; position weight at 19.5% is heavy for a drawdown situation",
+    "exit_trigger": "ONLY exit if fundamentals deteriorate post-earnings OR price breaks below $350 on heavy volume post-earnings miss",
+    "add_trigger": "Add if MSFT drops below $360 post-earnings with bullish guidance, or after earnings beat triggers RSI recovery above 60",
+    "risk": "Earnings miss could accelerate decline; 19.2% portfolio weight concentrates risk during volatile period",
     "outlook": "cautious",
-    "timeframe": "1-2 weeks (earnings-dependent), reassess after 7d earnings announcement",
-    "generated_at": "2026-07-22T23:32:44.528114",
-    "price_at_generation": 390.34,
-    "pnl_at_generation": -16.45
+    "timeframe": "Hold through earnings (6 days), reassess 2-3 days post-earnings based on guidance and execution",
+    "generated_at": "2026-07-23T23:30:49.652889",
+    "price_at_generation": 381.58,
+    "pnl_at_generation": -18.32
   },
   "history": [
+    {
+      "ticker": "MSFT",
+      "company_name": "Microsoft Corporation",
+      "action": "Hold",
+      "action_reason": "Position is at 16.45% loss, just beyond your 15% threshold where philosophy prohibits exits. Fundamentals remain healthy and RSI at midpoint suggests no panic selling. Earnings within 7 days could provide recovery catalyst.",
+      "target_price": 425,
+      "target_reasoning": "",
+      "exit_trigger": "Break below $375 (20% loss) post-earnings with deteriorating fundamentals; or clear deterioration in earnings guidance",
+      "add_trigger": "Only if earnings beat significantly AND RSI rises above 60 with price reclaiming $420+",
+      "risk": "Earnings miss could accelerate downside; geopolitical uncertainty unquantified; position weight at 19.5% is heavy for a drawdown situation",
+      "outlook": "cautious",
+      "timeframe": "1-2 weeks (earnings-dependent), reassess after 7d earnings announcement",
+      "generated_at": "2026-07-22T23:32:44.528114",
+      "price_at_generation": 390.34,
+      "pnl_at_generation": -16.45,
+      "archived_at": "2026-07-23T23:30:49.653093"
+    },
     {
       "ticker": "MSFT",
       "company_name": "Microsoft Corporation",
@@ -117,23 +134,6 @@
       "price_at_generation": 384.93,
       "pnl_at_generation": -17.61,
       "archived_at": "2026-07-15T23:32:43.505833"
-    },
-    {
-      "ticker": "MSFT",
-      "company_name": "Microsoft Corporation",
-      "action": "Hold",
-      "action_reason": "Loss exceeds 15% threshold\u2014philosophy mandates holding major losers for recovery. Fundamentals healthy, RSI neutral, and earnings catalyst in 16 days provides potential inflection point. Do not exit at maximum pain.",
-      "target_price": null,
-      "target_reasoning": "",
-      "exit_trigger": "Exit only if fundamentals deteriorate materially or earnings reveal structural business weakness; not on price action alone.",
-      "add_trigger": "Add if MSFT breaks below $370 with confirmation that pullback is technical, not fundamental; validates accumulation at lower cost basis.",
-      "risk": "Further downside before earnings if market rotation from mega-cap tech accelerates; earnings miss could trigger 5-10% additional decline.",
-      "outlook": "cautious",
-      "timeframe": "2-6 weeks (earnings event + post-earnings consolidation)",
-      "generated_at": "2026-07-13T23:28:04.656110",
-      "price_at_generation": 390.99,
-      "pnl_at_generation": -16.31,
-      "archived_at": "2026-07-14T23:27:14.189118"
     }
   ]
 }

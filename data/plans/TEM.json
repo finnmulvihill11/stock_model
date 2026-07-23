@@ -3,19 +3,36 @@
     "ticker": "TEM",
     "company_name": "Tempus AI, Inc.",
     "action": "Hold",
-    "action_reason": "Position is down 29.10% (exceeds 15% threshold), triggering your hold-through-major-losers philosophy. Earnings in 9 days could be a reversal catalyst. Do not add or trim before this event.",
+    "action_reason": "Your philosophy prohibits exits on >15% losses. However, this is a forced hold, not a conviction hold\u2014prepare for earnings as a potential exit trigger if guidance deteriorates further. Use the 7-day window to assess management credibility on path to profitability and cash flow improvement.",
     "target_price": null,
     "target_reasoning": "",
-    "exit_trigger": "Post-earnings: Exit if guidance/FCF outlook deteriorates further, debt refinancing concerns surface, or stock breaks below $42 on heavy volume",
-    "add_trigger": "Only if: (1) Earnings beat + path to profitability shown, AND (2) stock stabilizes above $52 with positive RSI divergence",
-    "risk": "Liquidity risk if debt becomes unmanageable; further losses if earnings disappoint and cash burn accelerates. Opportunity cost in neutral market.",
+    "exit_trigger": "Earnings miss + negative guidance on profitability timeline, or if RSI breaks below 30 on high volume without reversal signal within 2 weeks",
+    "add_trigger": "Do NOT add. Fundamentals do not support averaging down; wait for evidence of operational improvement post-earnings",
+    "risk": "Cash burn could accelerate, forcing dilutive financing; debt covenant pressure if cash position weakens; AI market rotation could extend the selloff",
     "outlook": "cautious",
-    "timeframe": "9-14 days (until post-earnings clarity); reassess position size after earnings if fundamentals confirm deterioration",
-    "generated_at": "2026-07-21T23:32:29.079898",
-    "price_at_generation": 48.98,
-    "pnl_at_generation": -29.1
+    "timeframe": "1-2 weeks (earnings-dependent; reassess post-results)",
+    "generated_at": "2026-07-23T23:31:03.041449",
+    "price_at_generation": 46.01,
+    "pnl_at_generation": -33.4
   },
   "history": [
+    {
+      "ticker": "TEM",
+      "company_name": "Tempus AI, Inc.",
+      "action": "Hold",
+      "action_reason": "Position is down 29.10% (exceeds 15% threshold), triggering your hold-through-major-losers philosophy. Earnings in 9 days could be a reversal catalyst. Do not add or trim before this event.",
+      "target_price": null,
+      "target_reasoning": "",
+      "exit_trigger": "Post-earnings: Exit if guidance/FCF outlook deteriorates further, debt refinancing concerns surface, or stock breaks below $42 on heavy volume",
+      "add_trigger": "Only if: (1) Earnings beat + path to profitability shown, AND (2) stock stabilizes above $52 with positive RSI divergence",
+      "risk": "Liquidity risk if debt becomes unmanageable; further losses if earnings disappoint and cash burn accelerates. Opportunity cost in neutral market.",
+      "outlook": "cautious",
+      "timeframe": "9-14 days (until post-earnings clarity); reassess position size after earnings if fundamentals confirm deterioration",
+      "generated_at": "2026-07-21T23:32:29.079898",
+      "price_at_generation": 48.98,
+      "pnl_at_generation": -29.1,
+      "archived_at": "2026-07-23T23:31:03.041702"
+    },
     {
       "ticker": "TEM",
       "company_name": "Tempus AI, Inc.",
@@ -117,23 +134,6 @@
       "price_at_generation": 55.93,
       "pnl_at_generation": -19.04,
       "archived_at": "2026-07-14T23:27:27.589161"
-    },
-    {
-      "ticker": "TEM",
-      "company_name": "Tempus AI, Inc.",
-      "action": "Hold",
-      "action_reason": "Philosophy mandates holding through >15% drawdowns. However, monitor closely for earnings catalyst (18d) and cash flow updates, as negative operating cash flow + high debt create bankruptcy risk if deterioration continues.",
-      "target_price": null,
-      "target_reasoning": "",
-      "exit_trigger": "Break below $52 (technical support + fundamental break), or post-earnings guidance cut >20%, or debt covenant warning",
-      "add_trigger": "Only if post-earnings beat + positive FCF guidance + debt refinance news",
-      "risk": "Solvency risk: negative cash flow + 3.2x leverage means limited runway if revenue disappoints; earnings miss could trigger sharp drop",
-      "outlook": "cautious",
-      "timeframe": "2-3 weeks (watch earnings closely)",
-      "generated_at": "2026-07-12T23:31:09.561560",
-      "price_at_generation": 58.23,
-      "pnl_at_generation": -15.71,
-      "archived_at": "2026-07-13T23:28:20.090653"
     }
   ]
 }

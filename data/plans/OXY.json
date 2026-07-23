@@ -3,19 +3,36 @@
     "ticker": "OXY",
     "company_name": "Occidental Petroleum Corporation",
     "action": "Start Trimming",
-    "action_reason": "Position is +14.13% profitable and RSI is extended (64.5). Earnings in 14 days present IV crush and downside risk given YoY revenue decline; lock in gains on 1 share and hold 1 share for upside if geopolitical tensions spike oil prices.",
+    "action_reason": "Position is +14.33% profitable with imminent earnings 13 days out. Trim 50% (1sh) now to lock in gains before event risk; declining fundamentals (YoY revenue -8.3%) suggest limited upside, and RSI overbought conditions favor taking profits.",
     "target_price": 60.5,
     "target_reasoning": "",
-    "exit_trigger": "Close remaining 1sh if RSI drops below 50 or post-earnings stock breaks $55 support on negative guidance.",
-    "add_trigger": "Do not add. Wait for post-earnings consolidation and RSI reset below 50 before re-entry.",
-    "risk": "Earnings miss given revenue decline; geopolitical tail-risk (unquantified) could provide surprise upside but downside from valuation/production concerns outweighs it.",
+    "exit_trigger": "Full exit if earnings misses and stock breaks below $55; or hold remaining 1sh for $62+ target post-earnings if beat",
+    "add_trigger": "Do not add; de-risk instead. Only reconsider entry below $52 if earnings surprise positive",
+    "risk": "Earnings miss on weak revenue backdrop; energy sector volatility; geopolitical oil price swings",
     "outlook": "cautious",
-    "timeframe": "Next 2-3 weeks (earnings catalyst + post-event volatility)",
-    "generated_at": "2026-07-22T23:33:37.187766",
-    "price_at_generation": 57.5,
-    "pnl_at_generation": 14.13
+    "timeframe": "13 days to earnings; trim decision within 2-3 days",
+    "generated_at": "2026-07-23T23:31:18.224517",
+    "price_at_generation": 57.6,
+    "pnl_at_generation": 14.33
   },
   "history": [
+    {
+      "ticker": "OXY",
+      "company_name": "Occidental Petroleum Corporation",
+      "action": "Start Trimming",
+      "action_reason": "Position is +14.13% profitable and RSI is extended (64.5). Earnings in 14 days present IV crush and downside risk given YoY revenue decline; lock in gains on 1 share and hold 1 share for upside if geopolitical tensions spike oil prices.",
+      "target_price": 60.5,
+      "target_reasoning": "",
+      "exit_trigger": "Close remaining 1sh if RSI drops below 50 or post-earnings stock breaks $55 support on negative guidance.",
+      "add_trigger": "Do not add. Wait for post-earnings consolidation and RSI reset below 50 before re-entry.",
+      "risk": "Earnings miss given revenue decline; geopolitical tail-risk (unquantified) could provide surprise upside but downside from valuation/production concerns outweighs it.",
+      "outlook": "cautious",
+      "timeframe": "Next 2-3 weeks (earnings catalyst + post-event volatility)",
+      "generated_at": "2026-07-22T23:33:37.187766",
+      "price_at_generation": 57.5,
+      "pnl_at_generation": 14.13,
+      "archived_at": "2026-07-23T23:31:18.224713"
+    },
     {
       "ticker": "OXY",
       "company_name": "Occidental Petroleum Corporation",
@@ -117,23 +134,6 @@
       "price_at_generation": 54.57,
       "pnl_at_generation": 8.32,
       "archived_at": "2026-07-15T23:33:10.450353"
-    },
-    {
-      "ticker": "OXY",
-      "company_name": "Occidental Petroleum Corporation",
-      "action": "Start Trimming",
-      "action_reason": "Position is +8.79% and profitable; revenue decline signals weakening fundamentals. Trim 50% (2sh) at current levels to secure gains before earnings volatility, hold remaining 2sh for upside if data improves.",
-      "target_price": 57.5,
-      "target_reasoning": "",
-      "exit_trigger": "Close remaining 2sh if OXY breaks below $52.50 (support), or immediately post-earnings if guidance disappoints",
-      "add_trigger": "Only add if OXY closes above $57.50 on positive oil macro data or earnings beat",
-      "risk": "Energy sector cyclicality + revenue decline suggests margin pressure; earnings miss could trigger 5-10% pullback. Holding full position into earnings adds unnecessary volatility risk.",
-      "outlook": "cautious",
-      "timeframe": "2-3 weeks (trim before earnings event)",
-      "generated_at": "2026-07-13T23:28:41.666536",
-      "price_at_generation": 54.81,
-      "pnl_at_generation": 8.79,
-      "archived_at": "2026-07-14T23:27:48.679957"
     }
   ]
 }

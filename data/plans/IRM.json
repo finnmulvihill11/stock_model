@@ -2,20 +2,37 @@
   "current": {
     "ticker": "IRM",
     "company_name": "Iron Mountain Incorporated",
-    "action": "Start Trimming",
-    "action_reason": "Take partial profits on a 6.78% gain while RSI is neutral and before earnings volatility. A modest 30-40% trim locks gains and reduces binary event risk while maintaining upside exposure if bullish thesis holds post-earnings.",
-    "target_price": 128.5,
+    "action": "Hold",
+    "action_reason": "Position is +6.82% profitable with no negative news to warrant exit. Imminent earnings (13d) will provide fundamental clarity; trimming a profitable position before this event is premature. RSI neutral suggests consolidation before directional move.",
+    "target_price": null,
     "target_reasoning": "",
-    "exit_trigger": "Close above $130 on volume post-earnings (full exit); or break below $120 intraday before earnings (stop-loss trim to 0.6sh)",
-    "add_trigger": "Post-earnings dip to $118-120 on positive guidance or beat (reload to 1.5sh); or RSI crosses above 60 on volume",
-    "risk": "Earnings miss + negative guidance could trigger institutional rotation out of cyclical real estate; geopolitical escalation could pressure debt refinancing costs given missing leverage data",
+    "exit_trigger": "Post-earnings deterioration in guidance, dividend cut announcement, or debt covenant concerns when data becomes available",
+    "add_trigger": "Post-earnings confirmation of stable/growing FFO and positive guidance; only if IRM breaks above $127 on earnings strength",
+    "risk": "Binary earnings miss could gap below $120; hidden leverage/refinancing risks due to unavailable debt metrics; sector rotation away from REITs if rates spike",
     "outlook": "cautious",
-    "timeframe": "2-3 weeks (manage through earnings event, reassess post-report)",
-    "generated_at": "2026-07-22T23:33:52.152964",
-    "price_at_generation": 124.51,
-    "pnl_at_generation": 6.78
+    "timeframe": "Hold through earnings (2 weeks), reassess post-release",
+    "generated_at": "2026-07-23T23:31:32.161989",
+    "price_at_generation": 124.55,
+    "pnl_at_generation": 6.82
   },
   "history": [
+    {
+      "ticker": "IRM",
+      "company_name": "Iron Mountain Incorporated",
+      "action": "Start Trimming",
+      "action_reason": "Take partial profits on a 6.78% gain while RSI is neutral and before earnings volatility. A modest 30-40% trim locks gains and reduces binary event risk while maintaining upside exposure if bullish thesis holds post-earnings.",
+      "target_price": 128.5,
+      "target_reasoning": "",
+      "exit_trigger": "Close above $130 on volume post-earnings (full exit); or break below $120 intraday before earnings (stop-loss trim to 0.6sh)",
+      "add_trigger": "Post-earnings dip to $118-120 on positive guidance or beat (reload to 1.5sh); or RSI crosses above 60 on volume",
+      "risk": "Earnings miss + negative guidance could trigger institutional rotation out of cyclical real estate; geopolitical escalation could pressure debt refinancing costs given missing leverage data",
+      "outlook": "cautious",
+      "timeframe": "2-3 weeks (manage through earnings event, reassess post-report)",
+      "generated_at": "2026-07-22T23:33:52.152964",
+      "price_at_generation": 124.51,
+      "pnl_at_generation": 6.78,
+      "archived_at": "2026-07-23T23:31:32.162183"
+    },
     {
       "ticker": "IRM",
       "company_name": "Iron Mountain Incorporated",
@@ -117,23 +134,6 @@
       "price_at_generation": 122.66,
       "pnl_at_generation": 5.2,
       "archived_at": "2026-07-15T23:33:23.705642"
-    },
-    {
-      "ticker": "IRM",
-      "company_name": "Iron Mountain Incorporated",
-      "action": "Hold",
-      "action_reason": "Position is profitable (+4.95%) with healthy 3.2% weight. Without news catalysts or technical breakout signals, maintain current exposure while monitoring for either a breakout above resistance or deteriorating technicals.",
-      "target_price": null,
-      "target_reasoning": "",
-      "exit_trigger": "Break below $115 (support near entry) on high volume, or sustained RSI below 40 with negative news",
-      "add_trigger": "RSI breaks above 60 on volume with positive earnings surprise or debt-to-equity improvement; price crosses above $125",
-      "risk": "Missing fundamental deterioration due to unavailable D/E data; range-bound consolidation could break downward if broader market weakens",
-      "outlook": "neutral",
-      "timeframe": "4-8 weeks until next earnings catalyst",
-      "generated_at": "2026-07-13T23:28:55.423733",
-      "price_at_generation": 122.37,
-      "pnl_at_generation": 4.95,
-      "archived_at": "2026-07-14T23:28:02.278684"
     }
   ]
 }

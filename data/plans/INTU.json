@@ -3,19 +3,36 @@
     "ticker": "INTU",
     "company_name": "Intuit Inc.",
     "action": "Hold",
-    "action_reason": "Philosophy mandates holding major losers (>15% down) for recovery. Fundamentals remain healthy and RSI is neutral (not oversold), so no technical urgency to exit. Absence of news prevents escalation to 'Add More' but doesn't warrant exit.",
+    "action_reason": "Position down 39.88% triggers mandatory hold protocol regardless of sentiment. Fundamentals remain healthy and Fear-tilted market creates potential recovery conditions; wait for next earnings (likely Q2/Q3 2024) for re-evaluation.",
     "target_price": null,
     "target_reasoning": "",
-    "exit_trigger": "Exit only if fundamentals deteriorate (earnings miss, guidance cut) OR if position becomes profitable and reaches 5-10% gain threshold",
-    "add_trigger": "RSI drops below 30 with positive earnings catalyst OR major support holds with bullish reversal pattern",
-    "risk": "Continued macro weakness or sector rotation away from software; 39% drawdown leaves limited buffer before stop-loss consideration",
+    "exit_trigger": "Fundamental deterioration signal OR position recovers to breakeven and fails to sustain above $480",
+    "add_trigger": "Stock closes below $260 on elevated volume (capitulation signal) combined with no new fundamental deterioration",
+    "risk": "Continued SaaS sector malaise; macro shift to higher rates; competitive pressure; concentrated position drag on portfolio",
     "outlook": "cautious",
-    "timeframe": "4-8 weeks (next earnings cycle for potential catalyst)",
-    "generated_at": "2026-07-22T23:32:37.166037",
-    "price_at_generation": 284.47,
-    "pnl_at_generation": -39.25
+    "timeframe": "6-12 weeks until next earnings provides catalyst",
+    "generated_at": "2026-07-23T23:30:43.073932",
+    "price_at_generation": 281.53,
+    "pnl_at_generation": -39.88
   },
   "history": [
+    {
+      "ticker": "INTU",
+      "company_name": "Intuit Inc.",
+      "action": "Hold",
+      "action_reason": "Philosophy mandates holding major losers (>15% down) for recovery. Fundamentals remain healthy and RSI is neutral (not oversold), so no technical urgency to exit. Absence of news prevents escalation to 'Add More' but doesn't warrant exit.",
+      "target_price": null,
+      "target_reasoning": "",
+      "exit_trigger": "Exit only if fundamentals deteriorate (earnings miss, guidance cut) OR if position becomes profitable and reaches 5-10% gain threshold",
+      "add_trigger": "RSI drops below 30 with positive earnings catalyst OR major support holds with bullish reversal pattern",
+      "risk": "Continued macro weakness or sector rotation away from software; 39% drawdown leaves limited buffer before stop-loss consideration",
+      "outlook": "cautious",
+      "timeframe": "4-8 weeks (next earnings cycle for potential catalyst)",
+      "generated_at": "2026-07-22T23:32:37.166037",
+      "price_at_generation": 284.47,
+      "pnl_at_generation": -39.25,
+      "archived_at": "2026-07-23T23:30:43.074138"
+    },
     {
       "ticker": "INTU",
       "company_name": "Intuit Inc.",
@@ -117,23 +134,6 @@
       "price_at_generation": 282.43,
       "pnl_at_generation": -39.69,
       "archived_at": "2026-07-15T23:32:37.363413"
-    },
-    {
-      "ticker": "INTU",
-      "company_name": "Intuit Inc.",
-      "action": "Hold",
-      "action_reason": "Philosophy mandates holding positions down >15%. However, monitor for technical capitulation (RSI <30) or earnings catalyst in next 6+ months that could trigger recovery or fundamental deterioration that would permit exit despite loss.",
-      "target_price": 425,
-      "target_reasoning": "",
-      "exit_trigger": "Earnings miss with guidance reduction OR fundamental deterioration announcement; alternatively, recovery to $425+ allows reassessment",
-      "add_trigger": "Only if RSI drops below 30 with positive news catalyst; otherwise avoid adding to concentrated losing position",
-      "risk": "Further deterioration if market enters bear phase; concentration risk at 22.5% of portfolio with large unrealized loss",
-      "outlook": "cautious",
-      "timeframe": "6-12 weeks until next earnings provides technical/fundamental catalyst",
-      "generated_at": "2026-07-13T23:27:58.352609",
-      "price_at_generation": 289.76,
-      "pnl_at_generation": -38.12,
-      "archived_at": "2026-07-14T23:27:07.615198"
     }
   ]
 }

@@ -2,26 +2,20 @@
   "ticker": "WMT",
   "signal": {
     "ticker": "WMT",
-    "direction": "buy",
-    "tier": "Buy",
-    "buy_score": 0.75,
-    "sell_score": 0.57,
-    "reasons": [
-      "BB: price near lower band (pct=0.11)",
-      "BB Width: squeeze active (width=0.0856)",
-      "RSI: oversold zone (36.4)",
-      "RSI Divergence: Price lower low (108.82 < 113.06) but RSI higher low (25.9 > 25.9)",
-      "Golden cross: 50MA (118.47) above 200MA (117.34)",
-      "Volume: above average (1.03x)"
-    ],
+    "direction": "hold",
+    "tier": "Hold",
+    "buy_score": 0.62,
+    "sell_score": 0.43,
+    "reasons": [],
     "misses": [
       "MACD: no bullish crossover or valley",
-      "200MA: price below 200MA \u2014 potential falling knife"
+      "200MA: price below 200MA \u2014 potential falling knife",
+      "Volume: below average (0.94x) \u2014 low conviction"
     ],
-    "price": 109.33,
-    "rsi": 36.4,
-    "atr": 2.61,
-    "final_tier": "Buy",
+    "price": 108.4,
+    "rsi": 34.7,
+    "atr": 2.53,
+    "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 0,
       "suggested_dollars": 0,
@@ -54,7 +48,7 @@
       ],
       "earnings_status": "upcoming",
       "next_earnings_date": "2026-08-20",
-      "days_to_earnings": 29
+      "days_to_earnings": 28
     }
   },
   "news": {
@@ -62,34 +56,33 @@
     "sentiment": "neutral",
     "health": "healthy",
     "key_events": [
-      "Earnings report in 29 days",
-      "Bollinger Band squeeze with price at lower band",
-      "RSI oversold at 36.4",
-      "VIX neutral at 16.6"
+      "Earnings report in 28 days",
+      "VIX at 18.7 indicates neutral market volatility",
+      "Market sentiment in Fear zone despite neutral volatility"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "No recent news data available for assessment",
-      "Geopolitical risks unquantified",
-      "Position down 2.17% with upcoming earnings volatility risk"
+      "Position down 3% with no clear catalyst for recovery in near term",
+      "RSI at 34.7 indicates oversold conditions but no technical firing signals",
+      "Fear sentiment in market despite healthy fundamentals suggests sentiment disconnect"
     ],
-    "verdict": "WMT shows classic oversold bounce setup with technical alignment, but earnings catalyst in 29 days adds uncertainty; healthy fundamentals support holding.",
+    "verdict": "WMT is fundamentally healthy with oversold technicals, but lacks immediate catalysts; hold and monitor for earnings or technical reversal.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "WMT",
-    "stock_return_3m": -15.48,
-    "benchmark_return_3m": 6.43,
-    "relative_strength": -21.91,
+    "stock_return_3m": -16.44,
+    "benchmark_return_3m": 4.06,
+    "relative_strength": -20.5,
     "label": "underperforming"
   },
-  "final_tier": "Buy",
+  "final_tier": "Hold",
   "sizing": {
     "suggested_shares": 0,
     "suggested_dollars": 0,
     "note": "Price exceeds 60% conviction ceiling ($87) \u2014 skip or wait for Strong Buy"
   },
   "is_dca": false,
-  "saved_at": "2026-07-22T23:33:44.114664"
+  "saved_at": "2026-07-23T23:31:25.207985"
 }

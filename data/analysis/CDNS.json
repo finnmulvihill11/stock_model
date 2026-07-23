@@ -2,26 +2,21 @@
   "ticker": "CDNS",
   "signal": {
     "ticker": "CDNS",
-    "direction": "buy",
-    "tier": "Buy",
-    "buy_score": 0.75,
-    "sell_score": 0.14,
-    "reasons": [
-      "BB: price near lower band (pct=0.06)",
-      "RSI: oversold zone (35.6)",
-      "MACD: histogram at valley / turning up",
-      "200MA: price at/above 200MA (337.01 vs 327.92)",
-      "Golden cross: 50MA (373.63) above 200MA (327.92)",
-      "Volume: above average (1.09x)"
-    ],
+    "direction": "hold",
+    "tier": "Hold",
+    "buy_score": 0.5,
+    "sell_score": 0.0,
+    "reasons": [],
     "misses": [
       "BB Width: bands expanding, not squeezing",
-      "RSI Divergence: no bullish divergence detected"
+      "MACD: no bullish crossover or valley",
+      "RSI Divergence: no bullish divergence detected",
+      "Volume: below average (0.99x) \u2014 low conviction"
     ],
-    "price": 337.01,
-    "rsi": 35.6,
-    "atr": 15.29,
-    "final_tier": "Avoid",
+    "price": 330.46,
+    "rsi": 33.4,
+    "atr": 15.3,
+    "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 0,
       "suggested_dollars": 0,
@@ -43,7 +38,7 @@
   },
   "earnings": {
     "proceed": false,
-    "reason": "Earnings in 5 days \u2014 wait for results before acting",
+    "reason": "Earnings in 4 days \u2014 wait for results before acting",
     "verdict": {
       "ticker": "CDNS",
       "verdict": "consider",
@@ -54,41 +49,42 @@
       ],
       "earnings_status": "imminent",
       "next_earnings_date": "2026-07-27",
-      "days_to_earnings": 5
+      "days_to_earnings": 4
     }
   },
   "news": {
     "ticker": "CDNS",
-    "sentiment": "positive",
+    "sentiment": "neutral",
     "health": "healthy",
     "key_events": [
-      "Earnings report imminent (5 days)",
-      "Technical confluence: oversold RSI (35.6), price at lower Bollinger Band, MACD histogram turning up",
-      "Market volatility neutral (VIX 16.6)"
+      "Earnings report due in 4 days",
+      "Position down 2.24% from entry",
+      "Market sentiment Fear despite neutral VIX (18.7)",
+      "RSI at 33.4 indicates oversold conditions"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "No recent news available for sentiment confirmation",
-      "Geopolitical risk unquantified due to data absence",
-      "Position down 0.30% with earnings catalyst ahead (volatility risk)"
+      "No recent news flow visible (empty news section)",
+      "Fear sentiment in broader market despite low VIX reading",
+      "Imminent earnings creates binary event risk"
     ],
-    "verdict": "Strong technical setup with oversold conditions and MACD reversal signal presents low-risk entry opportunity ahead of earnings.",
+    "verdict": "Hold current position through earnings; RSI oversold conditions suggest near-term bounce potential, and fundamentals remain healthy despite modest drawdown.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "CDNS",
-    "stock_return_3m": 3.43,
-    "benchmark_return_3m": 6.43,
-    "relative_strength": -3.0,
+    "stock_return_3m": -0.35,
+    "benchmark_return_3m": 4.06,
+    "relative_strength": -4.41,
     "label": "in-line"
   },
-  "final_tier": "Avoid",
+  "final_tier": "Hold",
   "sizing": {
     "suggested_shares": 0,
     "suggested_dollars": 0,
     "note": "Price exceeds 60% conviction ceiling ($87) \u2014 skip or wait for Strong Buy"
   },
   "is_dca": false,
-  "saved_at": "2026-07-22T23:34:00.671317"
+  "saved_at": "2026-07-23T23:31:38.847780"
 }

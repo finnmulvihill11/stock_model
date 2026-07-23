@@ -5,20 +5,20 @@
     "direction": "hold",
     "tier": "Hold",
     "buy_score": 0.12,
-    "sell_score": 0.29,
+    "sell_score": 0.43,
     "reasons": [],
     "misses": [
-      "BB: price not near lower band (pct=0.89)",
+      "BB: price not near lower band (pct=0.86)",
       "BB Width: bands expanding, not squeezing",
-      "RSI: not in buy zone (64.6, need 20-40)",
+      "RSI: not in buy zone (64.9, need 20-40)",
       "MACD: no bullish crossover or valley",
       "RSI Divergence: no bullish divergence detected",
       "200MA: price below 200MA \u2014 potential falling knife",
-      "Volume: below average (0.75x) \u2014 low conviction"
+      "Volume: below average (0.74x) \u2014 low conviction"
     ],
-    "price": 100.57,
-    "rsi": 64.6,
-    "atr": 3.15,
+    "price": 100.75,
+    "rsi": 64.9,
+    "atr": 3.01,
     "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 0,
@@ -52,7 +52,7 @@
       ],
       "earnings_status": "past",
       "next_earnings_date": "2026-07-16",
-      "days_to_earnings": -6
+      "days_to_earnings": -7
     }
   },
   "news": {
@@ -60,26 +60,22 @@
     "sentiment": "neutral",
     "health": "healthy",
     "key_events": [
-      "Earnings reported 6 days ago (post-earnings volatility likely settled)",
-      "VIX 16.6 indicates neutral market environment",
-      "Market sentiment: Fear (suggests defensive positioning favorable for healthcare)"
+      "Earnings reported within last 7 days",
+      "Post-earnings pullback (-8.22% from entry)",
+      "Market sentiment: Fear & Greed indicator shows Fear phase"
     ],
     "macro_context": "",
     "competitive_notes": "",
-    "red_flags": [
-      "No recent news data available for assessment",
-      "RSI 64.6 approaching overbought territory on technicals",
-      "8.38% drawdown from entry within 2-6 weeks suggests post-earnings sell-off"
-    ],
-    "verdict": "ABT showing typical post-earnings consolidation with healthy fundamentals intact; no exit trigger warranted given philosophy and position size.",
+    "red_flags": [],
+    "verdict": "Healthy fundamental company experiencing normal post-earnings volatility; position is within acceptable drawdown tolerance for swing trading.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "ABT",
-    "stock_return_3m": 9.24,
-    "benchmark_return_3m": 6.43,
-    "relative_strength": 2.81,
-    "label": "in-line"
+    "stock_return_3m": 10.65,
+    "benchmark_return_3m": 4.06,
+    "relative_strength": 6.59,
+    "label": "outperforming"
   },
   "final_tier": "Hold",
   "sizing": {
@@ -88,5 +84,5 @@
     "note": "Price exceeds 60% conviction ceiling ($87) \u2014 skip or wait for Strong Buy"
   },
   "is_dca": false,
-  "saved_at": "2026-07-22T23:32:52.082745"
+  "saved_at": "2026-07-23T23:30:55.290424"
 }
