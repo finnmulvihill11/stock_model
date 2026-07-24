@@ -234,6 +234,18 @@
       "avg_cost": 48.38,
       "realized_pnl": 17.84,
       "realized_pnl_pct": 18.44
+    },
+    {
+      "date": "2026-07-24",
+      "ticker": "IRM",
+      "shares": 1,
+      "amount": -127.99,
+      "type": "swing",
+      "action": "sell",
+      "sell_price": 127.99,
+      "avg_cost": 116.6,
+      "realized_pnl": 11.39,
+      "realized_pnl_pct": 9.77
     }
   ]
 }
