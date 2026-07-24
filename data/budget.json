@@ -222,6 +222,18 @@
       "amount": 338.03,
       "type": "swing",
       "action": "buy"
+    },
+    {
+      "date": "2026-07-24",
+      "ticker": "OXY",
+      "shares": 2,
+      "amount": -114.6,
+      "type": "swing",
+      "action": "sell",
+      "sell_price": 57.3,
+      "avg_cost": 50.38,
+      "realized_pnl": 13.84,
+      "realized_pnl_pct": 13.74
     }
   ]
 }
