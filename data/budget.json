@@ -231,9 +231,9 @@
       "type": "swing",
       "action": "sell",
       "sell_price": 57.3,
-      "avg_cost": 50.38,
-      "realized_pnl": 13.84,
-      "realized_pnl_pct": 13.74
+      "avg_cost": 48.38,
+      "realized_pnl": 17.84,
+      "realized_pnl_pct": 18.44
     }
   ]
 }
