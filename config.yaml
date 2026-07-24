@@ -6,6 +6,7 @@ portfolio:
   - CTVA
   - CMG
   - OXY
+  - IRM
   holdings:
   - ticker: INTU
     shares: 3
@@ -38,9 +39,6 @@ portfolio:
   - ticker: WMT
     shares: 1
     avg_cost: 111.75
-  - ticker: IRM
-    shares: 1.0
-    avg_cost: 116.6
   - ticker: CDNS
     shares: 1.0
     avg_cost: 338.03
