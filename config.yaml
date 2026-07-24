@@ -5,6 +5,7 @@ portfolio:
   - WELL
   - CTVA
   - CMG
+  - OXY
   holdings:
   - ticker: INTU
     shares: 3
@@ -30,9 +31,6 @@ portfolio:
   - ticker: XOM
     shares: 2
     avg_cost: 137.15
-  - ticker: OXY
-    shares: 2
-    avg_cost: 50.38
   - ticker: GRNI
     shares: 4
     avg_cost: 21.16
