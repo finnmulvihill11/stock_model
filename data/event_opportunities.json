@@ -1,4 +1,221 @@
 {
-  "saved_at": "2026-07-19T22:43:04.638755",
-  "events": []
+  "saved_at": "2026-07-26T22:51:46.707158",
+  "events": [
+    {
+      "event_title": "US-China Tariff Escalation & Trade War Reignition",
+      "event_description": "The Trump administration has reimposed and expanded tariffs on Chinese goods, with China retaliating. This creates near-term disruption for US importers reliant on Chinese manufacturing while benefiting domestic producers and reshoring plays. Specific tariff lists and exemption decisions are rolling out over weeks, creating stock-specific catalysts.",
+      "direction": "mixed",
+      "rationale": "ONTO (Onto Innovation) sells semiconductor inspection equipment with China revenue exposure, facing direct demand risk. CASS Information Systems processes freight invoices and benefits from supply chain complexity driving fees. DXPE Enterprises and POWL (Powell Industries) are domestic industrial manufacturers benefiting from reshoring capex. GFF (Griffon Corp) makes US-manufactured building products that gain pricing power vs. Chinese imports.",
+      "timeframe": "2-8 weeks",
+      "event_confidence": "high",
+      "tickers": [
+        {
+          "ticker": "ONTO",
+          "company_name": "Onto Innovation Inc.",
+          "sector": "Technology",
+          "in_standard_universe": false,
+          "signal_tier": "Hold",
+          "price": 272.62,
+          "rsi": 42.6,
+          "buy_score": 0.38,
+          "sell_score": 0.0,
+          "entry_trigger": "Break below $265 on tariff exemption uncertainty for semiconductor equipment; or China revenue guidance cut >10% YoY",
+          "target_price": null,
+          "exit_condition": "Tariff exemptions granted to semiconductor equipment (removes demand risk); RSI >70 on relief rally; position +15% or -8% hard stops",
+          "risk": "ONTO may secure tariff exemptions as critical infrastructure; China could stabilize demand faster than expected; mixed direction thesis reduces conviction on directional move",
+          "event_conviction": "low"
+        },
+        {
+          "ticker": "CASS",
+          "company_name": "Cass Information Systems, Inc.",
+          "sector": "Industrials",
+          "in_standard_universe": false,
+          "signal_tier": "Hold",
+          "price": 54.25,
+          "rsi": 66.0,
+          "buy_score": 0.62,
+          "sell_score": 0.57,
+          "entry_trigger": "CASS breaks above $55.50 on volume spike coinciding with tariff exemption announcements or supply chain disruption headlines; or RSI pulls back to 55-58 range offering lower-risk entry",
+          "target_price": 58.5,
+          "exit_condition": "Close below $53.00 or RSI drops below 50; tariff negotiations show signs of resolution/de-escalation; or position reaches 2-week holding window without tariff catalyst acceleration",
+          "risk": "CASS is a processing/logistics beneficiary but indirect\u2014thesis depends on sustained supply chain friction; rapid tariff reversal or negotiated rollback removes catalyst; stock already extended (RSI 66) with limited margin of safety",
+          "event_conviction": "medium"
+        },
+        {
+          "ticker": "DXPE",
+          "company_name": "DXP Enterprises, Inc.",
+          "sector": "Industrials",
+          "in_standard_universe": false,
+          "signal_tier": "Hold",
+          "price": 168.94,
+          "rsi": 53.9,
+          "buy_score": 0.38,
+          "sell_score": 0.29,
+          "entry_trigger": "Break above $171.50 on tariff exemption announcement favoring industrial distributors, or confirmed large capex order from domestic manufacturers citing reshoring",
+          "target_price": 185,
+          "exit_condition": "Close below $165 on tariff rollback/China deal news, or hold expires after 8 weeks if no material capex acceleration confirmed",
+          "risk": "Tariff exemptions granted to Chinese imports; DXPE's mixed revenue streams may not benefit uniformly; industrial spending slowdown if broader recession fears emerge",
+          "event_conviction": "medium"
+        }
+      ]
+    },
+    {
+      "event_title": "US Defense Budget Expansion & NATO Spending Push",
+      "event_description": "Congressional pressure for increased US defense spending combined with NATO allies being pushed to hit 3-5% GDP defense targets is accelerating procurement cycles. Continuing resolution uncertainty resolved, with supplemental defense spending likely. Smaller defense primes and electronics/munitions specialists see order acceleration before larger primes digest contracts.",
+      "direction": "bullish",
+      "rationale": "RCAT (Red Cat Holdings) is a small drone maker with direct DoD contracts benefiting from counter-drone and reconnaissance spending surge. CACI International wins IT and intelligence contracts leveraged to supplemental spending. VVX (V2X) handles base operations and logistics support with recurring government contracts. DRS (Leonardo DRS) specializes in electronic warfare and vetronics with NATO upgrade cycles. KTOS (Kratos Defense) builds target drones and hypersonic test vehicles with near-term contract announcements expected.",
+      "timeframe": "4-12 weeks",
+      "event_confidence": "high",
+      "tickers": [
+        {
+          "ticker": "RCAT",
+          "company_name": "Red Cat Holdings, Inc.",
+          "sector": "Industrials",
+          "in_standard_universe": false,
+          "signal_tier": "Hold",
+          "price": 7.64,
+          "rsi": 37.5,
+          "buy_score": 0.5,
+          "sell_score": 0.29,
+          "entry_trigger": "Break above $8.50 resistance with volume >2M shares, or confirmed DoD contract announcement; RSI recovery above 45",
+          "target_price": 12.5,
+          "exit_condition": "Close below $7.00 support; RSI drops below 30 after entry; or no material contract wins announced by week 8",
+          "risk": "Small-cap liquidity risk; execution delays on government contracts; competition from larger primes (DRS, KTOS); sector rotation if macro sentiment shifts; RCAT's track record of dilutive financing",
+          "event_conviction": "medium"
+        },
+        {
+          "ticker": "CACI",
+          "company_name": "CACI International Inc",
+          "sector": "Technology",
+          "in_standard_universe": false,
+          "signal_tier": "Hold",
+          "price": 486.77,
+          "rsi": 53.4,
+          "buy_score": 0.12,
+          "sell_score": 0.29,
+          "entry_trigger": "Break above $495 with volume >2M shares on defense spending bill passage OR close above $500 on positive earnings guidance citing supplemental spending tailwinds",
+          "target_price": 535,
+          "exit_condition": "Exit 50% at $520, remainder at $535 OR close below $485 on defense budget delays/reversal OR >8 weeks without material contract announcement",
+          "risk": "Congressional budget gridlock extending resolution period; larger primes (RTX, NOC, LMT) absorb supplemental spending faster than mid-caps; profit-taking on defense sector rotation; CACI valuation already elevated at 486 (RSI 53.4 suggests limited momentum cushion)",
+          "event_conviction": "medium"
+        },
+        {
+          "ticker": "VVX",
+          "company_name": "V2X, Inc.",
+          "sector": "Industrials",
+          "in_standard_universe": false,
+          "signal_tier": "Hold",
+          "price": 83.57,
+          "rsi": 63.4,
+          "buy_score": 0.5,
+          "sell_score": 0.43,
+          "entry_trigger": "Break above $85.50 on volume >2M shares with defense spending bill passage announcement, or pullback to $80-81 support if RSI cools to 50-55 range",
+          "target_price": 95,
+          "exit_condition": "Close below $81 support, or at 12-week mark if defense spending bill stalls in Congress, or at 8% profit target if price reaches $90 before catalyst confirmation",
+          "risk": "VVX is base operations/logistics play with lower multiplier effect vs pure munitions/drone names (RCAT, KTOS); event dependent on Congressional passage timing which faces political uncertainty; RSI at 63.4 suggests limited room before overbought conditions; smaller primes may see profit-taking after initial surge before large prime awards flow down",
+          "event_conviction": "medium"
+        }
+      ]
+    },
+    {
+      "event_title": "AI Data Center Power Infrastructure Crunch",
+      "event_description": "Hyperscaler capex commitments for AI data centers are running into hard power availability constraints. Utilities are overwhelmed with interconnection requests, creating a multi-year bottleneck. Near-term catalysts include utility rate case decisions, generator backlog disclosures in earnings, and new grid interconnection policy announcements from FERC.",
+      "direction": "bullish",
+      "rationale": "POWL (Powell Industries) makes electrical switchgear with a surging backlog tied directly to data center power distribution \u2014 recent earnings showed 2-year backlogs. MYRG (MYR Group) is an electrical contractor specializing in commercial/data center work with strong forward bookings. GEV (GE Vernova) supplies grid equipment and gas turbines for backup power with a visible multi-quarter order catalyst. NVEE (NV5 Global) provides grid and infrastructure engineering services with data center exposure. These are mid-cap specialists vs. the obvious Nvidia/Vistra mega-caps.",
+      "timeframe": "3-10 weeks",
+      "event_confidence": "high",
+      "tickers": [
+        {
+          "ticker": "POWL",
+          "company_name": "Powell Industries, Inc.",
+          "sector": "Industrials",
+          "in_standard_universe": false,
+          "signal_tier": "Hold",
+          "price": 232.21,
+          "rsi": 41.0,
+          "buy_score": 0.25,
+          "sell_score": 0.14,
+          "entry_trigger": "POWL closes above $238 on volume >1.5M shares, or earnings beat on backlog/margin expansion with FY guidance raise citing data center demand acceleration",
+          "target_price": 265,
+          "exit_condition": "Close below $220 on earnings miss or backlog guidance reduction; or take profits at $258+ if target reached before week 6",
+          "risk": "Backlog conversion slows if hyperscalers pull forward capex timelines or shift to captive power solutions; utility rate case delays could push FERC announcements beyond 10-week window; RSI at 41 suggests limited near-term momentum without catalyst confirmation",
+          "event_conviction": "medium"
+        },
+        {
+          "ticker": "MYRG",
+          "company_name": "MYR Group Inc.",
+          "sector": "Industrials",
+          "in_standard_universe": false,
+          "signal_tier": "Hold",
+          "price": 379.17,
+          "rsi": 35.6,
+          "buy_score": 0.62,
+          "sell_score": 0.29,
+          "entry_trigger": "MYRG closes above $385 on volume >1.5M shares coinciding with utility rate case decision announcement or quarterly earnings showing data center backlog acceleration YoY",
+          "target_price": 420,
+          "exit_condition": "RSI >70 on daily close, or close below $370 on >2M volume, or competing power solution narrative emerges reducing interconnection bottleneck urgency",
+          "risk": "MYRG has lower direct exposure than POWL to switchgear/electrical equipment; execution risk on project delivery if supply chain fails; broader market selloff unwinds momentum; utility capex plans delayed by regulatory pushback",
+          "event_conviction": "medium"
+        },
+        {
+          "ticker": "GEV",
+          "company_name": "GE Vernova Inc.",
+          "sector": "Industrials",
+          "in_standard_universe": false,
+          "signal_tier": "Hold",
+          "price": 1014.75,
+          "rsi": 45.7,
+          "buy_score": 0.5,
+          "sell_score": 0.29,
+          "entry_trigger": "GEV breaks above $1,020 on volume >2M shares, or announces multi-GW grid equipment order from major utility; alternatively wait for pullback to $990-$1,000 if RSI dips to 35-40",
+          "target_price": 1180,
+          "exit_condition": "Take 50% at $1,100 (8-10% gain); trail stop at $1,040 for remainder. Hard exit if major order announcement delays >4 weeks or grid policy shifts toward renewables-only without backup power requirement",
+          "risk": "GEV's backlog visibility lags POWL/MYRG; execution delays on large turbine orders common in legacy industrial; AI capex slowdown or forced efficiency improvements reduce emergency generator demand; regulatory risk if FERC tightens interconnection timelines, reducing backup power needs",
+          "event_conviction": "medium"
+        }
+      ]
+    },
+    {
+      "event_title": "Regional Bank Stress & Commercial Real Estate Loan Losses",
+      "event_description": "Ongoing maturity wall for commercial real estate loans hitting regional and community banks through 2025, with office and multifamily delinquencies rising. FDIC and Fed stress test results and Q2 earnings will force more explicit reserve-building disclosures. Individual banks with high CRE concentrations face specific de-rating events while specialized distressed debt buyers benefit.",
+      "direction": "bearish",
+      "rationale": "NYCB (now Flagstar) remains under scrutiny with elevated multifamily and CRE exposure in NYC \u2014 any reserve announcement is a catalyst. VLY (Valley National) has above-peer CRE concentration ratios flagged by analysts. BCO (Brinks) is a misdirect \u2014 actual picks are distressed-exposed regionals. PKBK (Parke Bancorp) and CLBK (Columbia Financial) are small NJ/NY community banks with high office CRE loan-to-asset ratios that have not yet fully repriced. Earnings season in July will be the specific catalyst for reserve disclosures.",
+      "timeframe": "4-8 weeks",
+      "event_confidence": "medium",
+      "tickers": [
+        {
+          "ticker": "VLY",
+          "company_name": "Valley National Bancorp",
+          "sector": "Financial Services",
+          "in_standard_universe": false,
+          "signal_tier": "Hold",
+          "price": 14.34,
+          "rsi": 46.3,
+          "buy_score": 0.62,
+          "sell_score": 0.29,
+          "entry_trigger": "VLY breaks below $13.80 on volume ahead of Q2 earnings (late July); or gap down on peer reserve announcement (NYCB/CLBK); RSI below 40 confirms weakness",
+          "target_price": 12.5,
+          "exit_condition": "Close above $15.20 on earnings beat or smaller-than-expected reserve build; or if Fed/FDIC stress test results show VLY CRE reserve adequacy; or if regional bank rally persists >2 weeks post-earnings",
+          "risk": "Fed policy pivot to rate cuts could ease CRE pressure; strong commercial real estate market stabilization in Northeast invalidates thesis; VLY may have already reserved adequately, limiting downside surprise; short squeeze risk if heavily shorted",
+          "event_conviction": "medium"
+        },
+        {
+          "ticker": "BCO",
+          "company_name": "The Brink's Company",
+          "sector": "Industrials",
+          "in_standard_universe": false,
+          "signal_tier": "Hold",
+          "price": 122.0,
+          "rsi": 75.8,
+          "buy_score": 0.25,
+          "sell_score": 0.57,
+          "entry_trigger": "Do not enter \u2014 BCO is a misdirect. BCO is an armored cash/valuables transport company with no material CRE loan exposure. The thesis applies to regional banks (NYCB, VLY, PKBK, CLBK), not BCO.",
+          "target_price": null,
+          "exit_condition": "N/A \u2014 position should not be initiated",
+          "risk": "Fundamental misalignment: BCO operates in cash logistics, not lending. Shorting or betting bearish on BCO based on bank CRE stress is category error. RSI at 75.8 suggests overbought conditions on BCO itself, but unrelated to the stated thesis.",
+          "event_conviction": "low"
+        }
+      ]
+    }
+  ]
 }
