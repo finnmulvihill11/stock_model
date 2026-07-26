@@ -3,19 +3,36 @@
     "ticker": "INTU",
     "company_name": "Intuit Inc.",
     "action": "Hold",
-    "action_reason": "Position down 39.88% triggers mandatory hold protocol regardless of sentiment. Fundamentals remain healthy and Fear-tilted market creates potential recovery conditions; wait for next earnings (likely Q2/Q3 2024) for re-evaluation.",
+    "action_reason": "Position is down >15%, triggering philosophy hold-through rule. Fundamentals remain healthy despite drawdown. Wait for RSI compression below 40 or positive catalyst before considering add.",
     "target_price": null,
     "target_reasoning": "",
-    "exit_trigger": "Fundamental deterioration signal OR position recovers to breakeven and fails to sustain above $480",
-    "add_trigger": "Stock closes below $260 on elevated volume (capitulation signal) combined with no new fundamental deterioration",
-    "risk": "Continued SaaS sector malaise; macro shift to higher rates; competitive pressure; concentrated position drag on portfolio",
+    "exit_trigger": "Fundamental deterioration in earnings/guidance, or break below $250 on heavy volume (new structural lows)",
+    "add_trigger": "RSI drops to 35-40 + positive earnings surprise OR company-specific positive news announcement",
+    "risk": "Continued underperformance if software/fintech sector stays under pressure; recovery could take 6-12 months",
     "outlook": "cautious",
-    "timeframe": "6-12 weeks until next earnings provides catalyst",
-    "generated_at": "2026-07-23T23:30:43.073932",
-    "price_at_generation": 281.53,
-    "pnl_at_generation": -39.88
+    "timeframe": "3-6 months (hold through earnings cycle; reassess after next earnings report)",
+    "generated_at": "2026-07-26T23:31:53.279340",
+    "price_at_generation": 296.33,
+    "pnl_at_generation": -36.72
   },
   "history": [
+    {
+      "ticker": "INTU",
+      "company_name": "Intuit Inc.",
+      "action": "Hold",
+      "action_reason": "Position down 39.88% triggers mandatory hold protocol regardless of sentiment. Fundamentals remain healthy and Fear-tilted market creates potential recovery conditions; wait for next earnings (likely Q2/Q3 2024) for re-evaluation.",
+      "target_price": null,
+      "target_reasoning": "",
+      "exit_trigger": "Fundamental deterioration signal OR position recovers to breakeven and fails to sustain above $480",
+      "add_trigger": "Stock closes below $260 on elevated volume (capitulation signal) combined with no new fundamental deterioration",
+      "risk": "Continued SaaS sector malaise; macro shift to higher rates; competitive pressure; concentrated position drag on portfolio",
+      "outlook": "cautious",
+      "timeframe": "6-12 weeks until next earnings provides catalyst",
+      "generated_at": "2026-07-23T23:30:43.073932",
+      "price_at_generation": 281.53,
+      "pnl_at_generation": -39.88,
+      "archived_at": "2026-07-26T23:31:53.279535"
+    },
     {
       "ticker": "INTU",
       "company_name": "Intuit Inc.",
@@ -117,23 +134,6 @@
       "price_at_generation": 279.7,
       "pnl_at_generation": -40.27,
       "archived_at": "2026-07-16T23:28:47.534661"
-    },
-    {
-      "ticker": "INTU",
-      "company_name": "Intuit Inc.",
-      "action": "Hold",
-      "action_reason": "Position exceeds 15% loss threshold; philosophy mandates holding major losers for recovery. Fundamental health supports this patience, but lack of technical firing signals and absence of bullish catalysts eliminates 'Add More' consideration.",
-      "target_price": null,
-      "target_reasoning": "",
-      "exit_trigger": "Fundamental deterioration (earnings miss, guidance cut, margin compression) or technical breakdown below recent support levels",
-      "add_trigger": "RSI oversold (<30) + positive earnings catalyst OR stock rallies 15-20% and reclaims key moving average with volume confirmation",
-      "risk": "Further drawdown to $250-265 if software sector weakness accelerates; concentration risk at 22.7% of portfolio if broader tech correction continues",
-      "outlook": "cautious",
-      "timeframe": "4-8 weeks (awaiting next earnings cycle or technical consolidation completion)",
-      "generated_at": "2026-07-14T23:27:07.614969",
-      "price_at_generation": 282.43,
-      "pnl_at_generation": -39.69,
-      "archived_at": "2026-07-15T23:32:37.363413"
     }
   ]
 }

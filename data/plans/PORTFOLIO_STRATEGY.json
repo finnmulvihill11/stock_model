@@ -1,59 +1,93 @@
 {
   "current": {
-    "headline": "Portfolio locked in hold mode; deploy $1K cash into oversold mean-reversion setups while protecting large underwater positions.",
+    "headline": "Hold all current positions through drawdowns; deploy remaining $1K selectively into oversold mean-reversion setups with persistent signals.",
     "market_stance": "neutral",
-    "overall_thesis": "Your core thesis remains intact: INTU and MSFT are long-term holds through current drawdowns (39.9% and 18.3% respectively per your philosophy), while XOM and OXY trims lock in gains ahead of earnings. Deploy remaining $1K into 3\u20134 oversold quality names (QCOM, CDNS, COHR) that are printing textbook RSI <35 mean-reversion signals; these should provide swing gains to offset portfolio drag over 4\u20138 weeks.",
+    "overall_thesis": "Your portfolio is executing the mean-reversion playbook correctly: major losers (INTU -36.7%, TEM -38.2%, MSFT -18.3%) are held per philosophy and positioned for recovery. VIX at 18.6 and Fear at 26 suggest mild stress but no capitulation. Deploy remaining $1K into high-conviction oversold names (LUV, WST) with 2+ consecutive buy scrapes\u2014these offer better risk/reward than waiting for existing positions to bounce.",
     "priority_actions": [
       {
         "rank": 1,
         "action": "BUY",
-        "ticker": "CDNS",
-        "instruction": "Buy 2\u20133 shares at market or on any dip to $107\u2013109 (RSI 28.6, oversold, already held 8.3% portfolio weight). This is a double signal: existing hold + screener mean-reversion setup.",
-        "urgency": "immediate"
+        "ticker": "LUV",
+        "instruction": "Buy ~70\u201380 shares at current market or on any dip to RSI 35\u201340 zone. LUV shows persistent 2+ consecutive buy signal scrapes with RSI 39.7 in oversold territory\u2014textbook mean-reversion setup. Allocate $500\u2013600 of available $1K.",
+        "urgency": "this week"
       },
       {
         "rank": 2,
         "action": "BUY",
-        "ticker": "QCOM",
-        "instruction": "Buy 2 shares at market or limit $95\u201397 (RSI 38.1 oversold, strong mean-reversion structure). Allocation: ~$190\u2013194.",
-        "urgency": "immediate"
-      },
-      {
-        "rank": 3,
-        "action": "BUY",
-        "ticker": "COHR",
-        "instruction": "Buy 1\u20132 shares at market or on dip to $52\u201354 (RSI 33.3, persistent buy signal 2+ scrapes, oversold). Allocation: ~$52\u2013108.",
-        "urgency": "this week"
-      },
-      {
-        "rank": 4,
-        "action": "TRIM",
-        "ticker": "XOM",
-        "instruction": "Sell 1 share (~50% of position) at market. RSI 72.1 (overbought), P&L +14.4%, no earnings catalyst imminent. Lock in gain and reduce portfolio weight.",
-        "urgency": "immediate"
-      },
-      {
-        "rank": 5,
-        "action": "TRIM",
-        "ticker": "OXY",
-        "instruction": "Sell 1 share (~50% of position) at market. P&L +14.3%, RSI 64.8 (elevated), earnings in 13 days. Trim ahead of event risk.",
+        "ticker": "WST",
+        "instruction": "Buy ~30\u201340 shares at current market or on dip to lower Bollinger Band. WST is a quality healthcare compounder with persistent buy signal (2+ scrapes) and is at technical inflection. Allocate remaining $400\u2013500 from $1K budget.",
         "urgency": "this week"
       }
     ],
-    "biggest_risk": "INTU down 39.9% and MSFT down 18.3% represent 40.5% of portfolio in a single tech drawdown; if broad tech weakness persists or macro deteriorates, you could see cumulative portfolio loss exceed 20%. Monitor VIX and tech sector breadth closely. Your philosophy commits to holding through this, so be mentally prepared for mark-to-market pain before mean reversion.",
+    "biggest_risk": "INTU and TEM are severely underwater (-36.7% and -38.2% respectively). If either breaks below 52-week lows or reports deteriorating guidance, the hold-through philosophy could be tested\u2014but you must stay disciplined and let them recover. MSFT earnings are upcoming; any miss could push it deeper before mean reversion triggers.",
     "what_to_watch": [
-      "MSFT earnings in 6 days \u2014 catalyst for recovery or further downside on this 19.2% weight",
-      "Broad tech sector (QQQ) breadth and relative strength \u2014 if tech stays weak, oversold buys (QCOM, CDNS, COHR) may not recover as expected",
-      "VIX creeping above 20 \u2014 would signal macro stress and argue for defensive posture; keep dry powder for deeper buys",
-      "XOM and OXY post-trim: monitor for overbought reversal after trims; don't chase if they continue higher"
+      "MSFT earnings catalyst \u2014 watch for post-earnings stabilization as recovery signal for oversold tech holdings",
+      "XOM RSI cooling from 72.2 overbought \u2014 consider light trim if it stays >70 after next pullback",
+      "LUV and WST entry fills \u2014 track daily RSI and Bollinger Band position to confirm oversold bounce is underway",
+      "VIX holding <20 \u2014 if fear spreads (VIX >25), new oversold opportunities may emerge but don't chase"
     ],
     "on_course_check": [
-      "\u2713 Plan is working if: CDNS, QCOM, COHR bounce 5\u20138% within 2 weeks (mean reversion confirms thesis); XOM/OXY trims avoid any 10%+ pullback",
-      "\u26a0 Plan needs revision if: MSFT reports earnings miss and breaks below $310 (forces reconsideration of hold thesis); or tech sector (QQQ) falls >5% in next week (argues for pausing new buys and preserving cash)"
+      "\u2713 Plan working: holding major losers despite >15% drawdowns; market volatility neutral; ready to deploy dry powder into high-conviction setups",
+      "\u26a0 Revise if: VIX spikes above 30, broad market breaks below 200-day MA, or MSFT/INTU breach critical support levels (would signal thesis breakdown, not just drawdown)"
     ],
-    "generated_at": "2026-07-23T23:31:54.631679"
+    "generated_at": "2026-07-26T23:32:49.988530"
   },
   "history": [
+    {
+      "headline": "Portfolio locked in hold mode; deploy $1K cash into oversold mean-reversion setups while protecting large underwater positions.",
+      "market_stance": "neutral",
+      "overall_thesis": "Your core thesis remains intact: INTU and MSFT are long-term holds through current drawdowns (39.9% and 18.3% respectively per your philosophy), while XOM and OXY trims lock in gains ahead of earnings. Deploy remaining $1K into 3\u20134 oversold quality names (QCOM, CDNS, COHR) that are printing textbook RSI <35 mean-reversion signals; these should provide swing gains to offset portfolio drag over 4\u20138 weeks.",
+      "priority_actions": [
+        {
+          "rank": 1,
+          "action": "BUY",
+          "ticker": "CDNS",
+          "instruction": "Buy 2\u20133 shares at market or on any dip to $107\u2013109 (RSI 28.6, oversold, already held 8.3% portfolio weight). This is a double signal: existing hold + screener mean-reversion setup.",
+          "urgency": "immediate"
+        },
+        {
+          "rank": 2,
+          "action": "BUY",
+          "ticker": "QCOM",
+          "instruction": "Buy 2 shares at market or limit $95\u201397 (RSI 38.1 oversold, strong mean-reversion structure). Allocation: ~$190\u2013194.",
+          "urgency": "immediate"
+        },
+        {
+          "rank": 3,
+          "action": "BUY",
+          "ticker": "COHR",
+          "instruction": "Buy 1\u20132 shares at market or on dip to $52\u201354 (RSI 33.3, persistent buy signal 2+ scrapes, oversold). Allocation: ~$52\u2013108.",
+          "urgency": "this week"
+        },
+        {
+          "rank": 4,
+          "action": "TRIM",
+          "ticker": "XOM",
+          "instruction": "Sell 1 share (~50% of position) at market. RSI 72.1 (overbought), P&L +14.4%, no earnings catalyst imminent. Lock in gain and reduce portfolio weight.",
+          "urgency": "immediate"
+        },
+        {
+          "rank": 5,
+          "action": "TRIM",
+          "ticker": "OXY",
+          "instruction": "Sell 1 share (~50% of position) at market. P&L +14.3%, RSI 64.8 (elevated), earnings in 13 days. Trim ahead of event risk.",
+          "urgency": "this week"
+        }
+      ],
+      "biggest_risk": "INTU down 39.9% and MSFT down 18.3% represent 40.5% of portfolio in a single tech drawdown; if broad tech weakness persists or macro deteriorates, you could see cumulative portfolio loss exceed 20%. Monitor VIX and tech sector breadth closely. Your philosophy commits to holding through this, so be mentally prepared for mark-to-market pain before mean reversion.",
+      "what_to_watch": [
+        "MSFT earnings in 6 days \u2014 catalyst for recovery or further downside on this 19.2% weight",
+        "Broad tech sector (QQQ) breadth and relative strength \u2014 if tech stays weak, oversold buys (QCOM, CDNS, COHR) may not recover as expected",
+        "VIX creeping above 20 \u2014 would signal macro stress and argue for defensive posture; keep dry powder for deeper buys",
+        "XOM and OXY post-trim: monitor for overbought reversal after trims; don't chase if they continue higher"
+      ],
+      "on_course_check": [
+        "\u2713 Plan is working if: CDNS, QCOM, COHR bounce 5\u20138% within 2 weeks (mean reversion confirms thesis); XOM/OXY trims avoid any 10%+ pullback",
+        "\u26a0 Plan needs revision if: MSFT reports earnings miss and breaks below $310 (forces reconsideration of hold thesis); or tech sector (QQQ) falls >5% in next week (argues for pausing new buys and preserving cash)"
+      ],
+      "generated_at": "2026-07-23T23:31:54.631679",
+      "archived_at": "2026-07-26T23:32:49.988850"
+    },
     {
       "headline": "Portfolio holding major losers; deploying remaining capital into high-conviction mean-reversion setups while tech stabilizes.",
       "market_stance": "neutral",
@@ -270,25 +304,6 @@
       ],
       "generated_at": "2026-07-15T23:33:33.567920",
       "archived_at": "2026-07-16T23:29:46.106531"
-    },
-    {
-      "headline": "Portfolio holding firm through major tech drawdowns; no new entry conviction today despite extreme fear readings.",
-      "market_stance": "neutral",
-      "overall_thesis": "You're in deep recovery mode on INTU (-39.7%) and MSFT (-17.6%), which your philosophy mandates holding through. The mean-reversion thesis remains intact: both are quality names and oversold technicals (RSI 47\u201348) suggest capitulation. Over the next 4\u20138 weeks, watch for earnings catalysts and technical stabilization to validate the hold. Your profitable positions (CMG, XOM, OXY, WMT, IRM) are providing cushion and should be left alone unless overbought extremes warrant trimming.",
-      "priority_actions": [],
-      "biggest_risk": "INTU and MSFT represent $1,687 in underwater capital (45% of portfolio). If either breaks key support levels post-earnings or on fresh negative catalysts, conviction in the recovery thesis could break. Tech concentration (43.4%) amplifies this single-sector drawdown risk.",
-      "what_to_watch": [
-        "ABT earnings in 2 days \u2014 potential earnings beat could validate quality thesis across holdings",
-        "TEM earnings catalyst approaching \u2014 monitor for support or breakdown",
-        "INTU and MSFT technical support levels \u2014 RSI near 48 is neutral; break below 35 would require reassessment",
-        "VIX climb above 20 or F&G shift from Extreme Fear \u2014 could signal fresh capitulation or stabilization"
-      ],
-      "on_course_check": [
-        "Plan is working IF: INTU/MSFT stabilize (RSI bounces above 50) and 2\u20133 week bounce begins \u2014 confirms mean reversion thesis",
-        "Plan needs revision IF: Either INTU or MSFT breaks 52-week lows, or new negative thesis emerges (e.g., earnings miss, guidance cut) \u2014 would trigger thesis reassessment despite loss threshold"
-      ],
-      "generated_at": "2026-07-14T23:28:12.968918",
-      "archived_at": "2026-07-15T23:33:33.568294"
     }
   ]
 }

@@ -5,21 +5,21 @@
     "direction": "hold",
     "tier": "Hold",
     "buy_score": 0.62,
-    "sell_score": 0.43,
+    "sell_score": 0.29,
     "reasons": [],
     "misses": [
       "MACD: no bullish crossover or valley",
       "200MA: price below 200MA \u2014 potential falling knife",
-      "Volume: below average (0.94x) \u2014 low conviction"
+      "Volume: below average (0.81x) \u2014 low conviction"
     ],
-    "price": 108.4,
-    "rsi": 34.7,
-    "atr": 2.53,
+    "price": 109.47,
+    "rsi": 38.2,
+    "atr": 2.43,
     "final_tier": "Hold",
     "sizing": {
-      "suggested_shares": 0,
-      "suggested_dollars": 0,
-      "note": "Price exceeds 60% conviction ceiling ($87) \u2014 skip or wait for Strong Buy"
+      "suggested_shares": 1,
+      "suggested_dollars": 109.47,
+      "note": "1 sh @ $109.47 = $109 (Hold, 60% size) | $619 swing budget after"
     }
   },
   "fundamentals": {
@@ -48,7 +48,7 @@
       ],
       "earnings_status": "upcoming",
       "next_earnings_date": "2026-08-20",
-      "days_to_earnings": 28
+      "days_to_earnings": 25
     }
   },
   "news": {
@@ -56,33 +56,33 @@
     "sentiment": "neutral",
     "health": "healthy",
     "key_events": [
-      "Earnings report in 28 days",
-      "VIX at 18.7 indicates neutral market volatility",
-      "Market sentiment in Fear zone despite neutral volatility"
+      "Earnings report in 25 days",
+      "VIX at 18.6 indicates neutral market volatility",
+      "Market in Fear & Greed cycle"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "Position down 3% with no clear catalyst for recovery in near term",
-      "RSI at 34.7 indicates oversold conditions but no technical firing signals",
-      "Fear sentiment in market despite healthy fundamentals suggests sentiment disconnect"
+      "Position down 2.04% with no technical firing signals",
+      "RSI at 38.2 approaching oversold but not yet confirming reversal",
+      "No recent news catalysts visible"
     ],
-    "verdict": "WMT is fundamentally healthy with oversold technicals, but lacks immediate catalysts; hold and monitor for earnings or technical reversal.",
+    "verdict": "Hold current position through earnings; fundamentals remain healthy despite near-term weakness.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "WMT",
-    "stock_return_3m": -16.44,
-    "benchmark_return_3m": 4.06,
-    "relative_strength": -20.5,
+    "stock_return_3m": -16.93,
+    "benchmark_return_3m": 4.57,
+    "relative_strength": -21.5,
     "label": "underperforming"
   },
   "final_tier": "Hold",
   "sizing": {
-    "suggested_shares": 0,
-    "suggested_dollars": 0,
-    "note": "Price exceeds 60% conviction ceiling ($87) \u2014 skip or wait for Strong Buy"
+    "suggested_shares": 1,
+    "suggested_dollars": 109.47,
+    "note": "1 sh @ $109.47 = $109 (Hold, 60% size) | $619 swing budget after"
   },
   "is_dca": false,
-  "saved_at": "2026-07-23T23:31:25.207985"
+  "saved_at": "2026-07-26T23:32:30.530888"
 }

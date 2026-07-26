@@ -3,19 +3,36 @@
     "ticker": "WMT",
     "company_name": "Walmart Inc.",
     "action": "Hold",
-    "action_reason": "Position is only 3% underwater and represents just 2.7% portfolio weight. Fundamentals remain healthy and RSI suggests oversold conditions ripe for mean reversion. Upcoming earnings in 28 days provides a natural catalyst window.",
-    "target_price": 115.5,
+    "action_reason": "Loss is minor (2.04%) and well below the 15% threshold. Upcoming earnings in 25 days is a major catalyst that could recover position. RSI suggests potential reversal zone without confirmed downtrend.",
+    "target_price": 114.5,
     "target_reasoning": "",
-    "exit_trigger": "Close below $105.00 on high volume OR negative earnings surprise with deteriorating guidance",
-    "add_trigger": "RSI drops to 25-30 range OR price hits $106.00-$107.00 with volume confirmation",
-    "risk": "Broader market weakness pulling WMT lower before earnings; consumer spending slowdown impacting retail fundamentals",
-    "outlook": "neutral",
-    "timeframe": "4-6 weeks (through earnings and initial post-earnings reaction)",
-    "generated_at": "2026-07-23T23:31:25.207236",
-    "price_at_generation": 108.4,
-    "pnl_at_generation": -3.0
+    "exit_trigger": "Close below $107.00 (3.5% further loss) on high volume; or break of key support on earnings miss",
+    "add_trigger": "RSI breaks below 30 with bullish divergence; or accumulate on $107-$108 support if fundamentals hold",
+    "risk": "Extended weakness into earnings if macro sentiment deteriorates or company guidance disappoints",
+    "outlook": "cautious",
+    "timeframe": "2-6 weeks (hold through earnings)",
+    "generated_at": "2026-07-26T23:32:30.530131",
+    "price_at_generation": 109.47,
+    "pnl_at_generation": -2.04
   },
   "history": [
+    {
+      "ticker": "WMT",
+      "company_name": "Walmart Inc.",
+      "action": "Hold",
+      "action_reason": "Position is only 3% underwater and represents just 2.7% portfolio weight. Fundamentals remain healthy and RSI suggests oversold conditions ripe for mean reversion. Upcoming earnings in 28 days provides a natural catalyst window.",
+      "target_price": 115.5,
+      "target_reasoning": "",
+      "exit_trigger": "Close below $105.00 on high volume OR negative earnings surprise with deteriorating guidance",
+      "add_trigger": "RSI drops to 25-30 range OR price hits $106.00-$107.00 with volume confirmation",
+      "risk": "Broader market weakness pulling WMT lower before earnings; consumer spending slowdown impacting retail fundamentals",
+      "outlook": "neutral",
+      "timeframe": "4-6 weeks (through earnings and initial post-earnings reaction)",
+      "generated_at": "2026-07-23T23:31:25.207236",
+      "price_at_generation": 108.4,
+      "pnl_at_generation": -3.0,
+      "archived_at": "2026-07-26T23:32:30.530324"
+    },
     {
       "ticker": "WMT",
       "company_name": "Walmart Inc.",
@@ -117,23 +134,6 @@
       "price_at_generation": 112.53,
       "pnl_at_generation": 0.7,
       "archived_at": "2026-07-16T23:29:28.680659"
-    },
-    {
-      "ticker": "WMT",
-      "company_name": "Walmart Inc.",
-      "action": "Hold",
-      "action_reason": "Position is profitable at +1.74% with healthy fundamentals and no negative catalysts. Lack of technical firing signals suggests momentum may be early; wait for RSI confirmation (>50) or news catalyst before adding.",
-      "target_price": 116.5,
-      "target_reasoning": "",
-      "exit_trigger": "Break below $110.00 (support) with volume or fundamental deterioration",
-      "add_trigger": "RSI crosses above 55 with volume confirmation, or positive pre-earnings news/data",
-      "risk": "Broad market correction driven by Extreme Fear sentiment; geopolitical escalation impacting consumer spending",
-      "outlook": "neutral",
-      "timeframe": "2-4 weeks (hold into earnings catalyst at 37 days)",
-      "generated_at": "2026-07-14T23:27:54.450166",
-      "price_at_generation": 113.7,
-      "pnl_at_generation": 1.74,
-      "archived_at": "2026-07-15T23:33:17.699813"
     }
   ]
 }

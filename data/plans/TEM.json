@@ -3,19 +3,36 @@
     "ticker": "TEM",
     "company_name": "Tempus AI, Inc.",
     "action": "Hold",
-    "action_reason": "Your philosophy prohibits exits on >15% losses. However, this is a forced hold, not a conviction hold\u2014prepare for earnings as a potential exit trigger if guidance deteriorates further. Use the 7-day window to assess management credibility on path to profitability and cash flow improvement.",
+    "action_reason": "Your stated philosophy explicitly forbids exiting positions down >15%, and TEM is down 38.2%. However, this creates a logical conflict\u2014holding a deteriorating company with negative cash flow and high debt through earnings is high-risk. Earnings in 4 days could trigger liquidation event.",
     "target_price": null,
     "target_reasoning": "",
-    "exit_trigger": "Earnings miss + negative guidance on profitability timeline, or if RSI breaks below 30 on high volume without reversal signal within 2 weeks",
-    "add_trigger": "Do NOT add. Fundamentals do not support averaging down; wait for evidence of operational improvement post-earnings",
-    "risk": "Cash burn could accelerate, forcing dilutive financing; debt covenant pressure if cash position weakens; AI market rotation could extend the selloff",
+    "exit_trigger": "CRITICAL: Earnings miss or negative guidance in 4 days; break below $38 (new lows); any debt covenant warning; operating cash flow deteriorates further",
+    "add_trigger": "None recommended. Avoid averaging down into fundamental deterioration.",
+    "risk": "Bankruptcy risk if cash burn accelerates post-earnings; further dilution likely given negative OCF and high debt servicing costs",
     "outlook": "cautious",
-    "timeframe": "1-2 weeks (earnings-dependent; reassess post-results)",
-    "generated_at": "2026-07-23T23:31:03.041449",
-    "price_at_generation": 46.01,
-    "pnl_at_generation": -33.4
+    "timeframe": "4 days (earnings catalyst) \u2014 reassess immediately after announcement",
+    "generated_at": "2026-07-26T23:32:14.776424",
+    "price_at_generation": 42.69,
+    "pnl_at_generation": -38.2
   },
   "history": [
+    {
+      "ticker": "TEM",
+      "company_name": "Tempus AI, Inc.",
+      "action": "Hold",
+      "action_reason": "Your philosophy prohibits exits on >15% losses. However, this is a forced hold, not a conviction hold\u2014prepare for earnings as a potential exit trigger if guidance deteriorates further. Use the 7-day window to assess management credibility on path to profitability and cash flow improvement.",
+      "target_price": null,
+      "target_reasoning": "",
+      "exit_trigger": "Earnings miss + negative guidance on profitability timeline, or if RSI breaks below 30 on high volume without reversal signal within 2 weeks",
+      "add_trigger": "Do NOT add. Fundamentals do not support averaging down; wait for evidence of operational improvement post-earnings",
+      "risk": "Cash burn could accelerate, forcing dilutive financing; debt covenant pressure if cash position weakens; AI market rotation could extend the selloff",
+      "outlook": "cautious",
+      "timeframe": "1-2 weeks (earnings-dependent; reassess post-results)",
+      "generated_at": "2026-07-23T23:31:03.041449",
+      "price_at_generation": 46.01,
+      "pnl_at_generation": -33.4,
+      "archived_at": "2026-07-26T23:32:14.776646"
+    },
     {
       "ticker": "TEM",
       "company_name": "Tempus AI, Inc.",
@@ -117,23 +134,6 @@
       "price_at_generation": 58.67,
       "pnl_at_generation": -15.07,
       "archived_at": "2026-07-15T23:32:57.910897"
-    },
-    {
-      "ticker": "TEM",
-      "company_name": "Tempus AI, Inc.",
-      "action": "Hold",
-      "action_reason": "Position is down 19%\u2014your philosophy mandates holding major losers for recovery. However, this is a high-risk hold contingent on upcoming earnings NOT triggering further capitulation.",
-      "target_price": null,
-      "target_reasoning": "",
-      "exit_trigger": "Earnings miss + guidance slash + debt covenant concerns OR break below $48 (another -14%) on heavy volume; otherwise hold until 25%+ recovery or earnings inflection",
-      "add_trigger": "Do NOT add; cash burn + leverage make this a value trap, not a dip-buy candidate",
-      "risk": "Solvency risk\u2014negative OCF + 3.2x debt-to-equity means TEM may face refinancing pressure or dilutive capital raise if earnings disappoint",
-      "outlook": "cautious",
-      "timeframe": "Earnings in 17 days is critical; reassess after. If beaten down further, recovery window extends to 4-8 weeks minimum.",
-      "generated_at": "2026-07-13T23:28:20.090419",
-      "price_at_generation": 55.93,
-      "pnl_at_generation": -19.04,
-      "archived_at": "2026-07-14T23:27:27.589161"
     }
   ]
 }

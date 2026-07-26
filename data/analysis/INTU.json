@@ -8,17 +8,17 @@
     "sell_score": 0.43,
     "reasons": [],
     "misses": [
-      "BB: price not near lower band (pct=0.59)",
-      "RSI: not in buy zone (47.3, need 20-40)",
+      "BB: price not near lower band (pct=0.89)",
+      "RSI: not in buy zone (55.1, need 20-40)",
       "MACD: no bullish crossover or valley",
       "RSI Divergence: no bullish divergence detected",
       "200MA: price below 200MA \u2014 potential falling knife",
-      "Death cross active: 50MA (300.05) below 200MA (473.69)",
-      "Volume: below average (0.53x) \u2014 low conviction"
+      "Death cross active: 50MA (298.26) below 200MA (471.86)",
+      "Volume: below average (0.74x) \u2014 low conviction"
     ],
-    "price": 281.53,
-    "rsi": 47.3,
-    "atr": 14.03,
+    "price": 296.33,
+    "rsi": 55.1,
+    "atr": 14.28,
     "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 0,
@@ -52,7 +52,7 @@
       ],
       "earnings_status": "past",
       "next_earnings_date": "2026-05-20",
-      "days_to_earnings": -64
+      "days_to_earnings": -67
     }
   },
   "news": {
@@ -60,25 +60,28 @@
     "sentiment": "neutral",
     "health": "healthy",
     "key_events": [
-      "Earnings passed 64 days ago - next catalyst likely 3-4 months out",
-      "Stock down 39.88% from entry - significant drawdown but fundamentals remain intact",
-      "Market sentiment tilted to Fear despite neutral VIX (18.7) - potential capitulation setup"
+      "Earnings reported 67 days ago (results not specified in news feed)",
+      "Stock down 36.72% from entry, significant drawdown from highs",
+      "Market sentiment Fear & Greed shows fear despite neutral VIX (18.6)",
+      "No recent catalysts or news items available"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "No recent news items provided - unusual silence for mega-cap",
-      "Heavy portfolio weight (21.3%) concentrates risk in depressed position",
-      "RSI 47.3 shows neither oversold nor overbought - lack of technical conviction"
+      "Massive unrealized loss (-36.72%) with no clear recovery catalyst on horizon",
+      "No recent news or upcoming catalysts visible",
+      "Fear sentiment in F&G index despite neutral market volatility\u2014sector or company-specific concern",
+      "RSI 55.1 shows no oversold bounce setup; neutral momentum",
+      "Heavy portfolio weight (23.6%) concentrates risk during recovery phase"
     ],
-    "verdict": "Hold position per philosophy; INTU fundamentals healthy but stock faces headwinds until next earnings catalyst provides direction.",
+    "verdict": "Healthy fundamentals support long-term hold, but lack of near-term catalysts and sector headwinds warrant patience rather than averaging down.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "INTU",
-    "stock_return_3m": -30.81,
-    "benchmark_return_3m": 4.06,
-    "relative_strength": -34.87,
+    "stock_return_3m": -22.35,
+    "benchmark_return_3m": 4.57,
+    "relative_strength": -26.92,
     "label": "underperforming"
   },
   "final_tier": "Hold",
@@ -88,5 +91,5 @@
     "note": "Position already at 20% portfolio cap"
   },
   "is_dca": false,
-  "saved_at": "2026-07-23T23:30:43.074726"
+  "saved_at": "2026-07-26T23:31:53.280115"
 }
