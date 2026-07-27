@@ -246,6 +246,18 @@
       "avg_cost": 116.6,
       "realized_pnl": 11.39,
       "realized_pnl_pct": 9.77
+    },
+    {
+      "date": "2026-07-27",
+      "ticker": "XOM",
+      "shares": 2,
+      "amount": -307.1,
+      "type": "swing",
+      "action": "sell",
+      "sell_price": 153.55,
+      "avg_cost": 137.15,
+      "realized_pnl": 32.8,
+      "realized_pnl_pct": 11.96
     }
   ]
 }
