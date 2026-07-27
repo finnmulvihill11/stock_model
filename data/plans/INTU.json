@@ -3,19 +3,36 @@
     "ticker": "INTU",
     "company_name": "Intuit Inc.",
     "action": "Hold",
-    "action_reason": "Position is down >15%, triggering philosophy hold-through rule. Fundamentals remain healthy despite drawdown. Wait for RSI compression below 40 or positive catalyst before considering add.",
+    "action_reason": "Your philosophy mandates holding positions down >15%. However, given absence of technical firing signals or near-term catalysts, avoid adding. Wait for either oversold RSI (<30) + reversal confirmation OR next earnings beat to justify holding this concentrated 26% weight.",
     "target_price": null,
     "target_reasoning": "",
-    "exit_trigger": "Fundamental deterioration in earnings/guidance, or break below $250 on heavy volume (new structural lows)",
-    "add_trigger": "RSI drops to 35-40 + positive earnings surprise OR company-specific positive news announcement",
-    "risk": "Continued underperformance if software/fintech sector stays under pressure; recovery could take 6-12 months",
+    "exit_trigger": "If RSI drops below 30 with volume confirmation and fails to bounce within 2 weeks; or if next earnings miss and guides lower",
+    "add_trigger": "RSI <30 + bullish candlestick reversal + volume spike, OR company-specific positive news (partnership, margin guidance raise)",
+    "risk": "Concentrated 26% position + deteriorating macro for software/SaaS if rates remain sticky; opportunity cost if capital needed elsewhere",
     "outlook": "cautious",
-    "timeframe": "3-6 months (hold through earnings cycle; reassess after next earnings report)",
-    "generated_at": "2026-07-26T23:31:53.279340",
-    "price_at_generation": 296.33,
-    "pnl_at_generation": -36.72
+    "timeframe": "4-8 weeks until next earnings (likely late April/May); reassess post-results",
+    "generated_at": "2026-07-27T23:37:43.693090",
+    "price_at_generation": 303.91,
+    "pnl_at_generation": -35.1
   },
   "history": [
+    {
+      "ticker": "INTU",
+      "company_name": "Intuit Inc.",
+      "action": "Hold",
+      "action_reason": "Position is down >15%, triggering philosophy hold-through rule. Fundamentals remain healthy despite drawdown. Wait for RSI compression below 40 or positive catalyst before considering add.",
+      "target_price": null,
+      "target_reasoning": "",
+      "exit_trigger": "Fundamental deterioration in earnings/guidance, or break below $250 on heavy volume (new structural lows)",
+      "add_trigger": "RSI drops to 35-40 + positive earnings surprise OR company-specific positive news announcement",
+      "risk": "Continued underperformance if software/fintech sector stays under pressure; recovery could take 6-12 months",
+      "outlook": "cautious",
+      "timeframe": "3-6 months (hold through earnings cycle; reassess after next earnings report)",
+      "generated_at": "2026-07-26T23:31:53.279340",
+      "price_at_generation": 296.33,
+      "pnl_at_generation": -36.72,
+      "archived_at": "2026-07-27T23:37:43.693343"
+    },
     {
       "ticker": "INTU",
       "company_name": "Intuit Inc.",
@@ -117,23 +134,6 @@
       "price_at_generation": 294.79,
       "pnl_at_generation": -37.05,
       "archived_at": "2026-07-19T23:32:18.727122"
-    },
-    {
-      "ticker": "INTU",
-      "company_name": "Intuit Inc.",
-      "action": "Hold",
-      "action_reason": "Philosophy mandates holding positions down >15%; fundamentals remain healthy and Extreme Fear environment often precedes reversals. Avoid averaging into concentration without clearer catalyst.",
-      "target_price": 420,
-      "target_reasoning": "",
-      "exit_trigger": "Fundamentals deteriorate (guidance cut, major customer loss) OR price breaks below $250 on volume indicating structural breakdown",
-      "add_trigger": "Accumulate only if: (1) RSI drops to <30 on down volume, (2) next earnings beat expectations, AND (3) VIX remains elevated (>20), signaling capitulation bottom",
-      "risk": "Further macro deterioration in software/SaaS valuations; concentration in single name amplifies drawdown impact if thesis breaks",
-      "outlook": "cautious",
-      "timeframe": "6-12 weeks for recovery signal; re-evaluate at next earnings (estimated 3 months)",
-      "generated_at": "2026-07-15T23:32:37.363197",
-      "price_at_generation": 279.7,
-      "pnl_at_generation": -40.27,
-      "archived_at": "2026-07-16T23:28:47.534661"
     }
   ]
 }

@@ -2,20 +2,37 @@
   "current": {
     "ticker": "WMT",
     "company_name": "Walmart Inc.",
-    "action": "Hold",
-    "action_reason": "Loss is minor (2.04%) and well below the 15% threshold. Upcoming earnings in 25 days is a major catalyst that could recover position. RSI suggests potential reversal zone without confirmed downtrend.",
-    "target_price": 114.5,
+    "action": "Wait",
+    "action_reason": "With earnings 24 days away and RSI in neutral territory (44.6), this is a 'show me' setup. Earnings will be the primary swing catalyst; entering or adding before that event carries elevated binary risk.",
+    "target_price": null,
     "target_reasoning": "",
-    "exit_trigger": "Close below $107.00 (3.5% further loss) on high volume; or break of key support on earnings miss",
-    "add_trigger": "RSI breaks below 30 with bullish divergence; or accumulate on $107-$108 support if fundamentals hold",
-    "risk": "Extended weakness into earnings if macro sentiment deteriorates or company guidance disappoints",
-    "outlook": "cautious",
-    "timeframe": "2-6 weeks (hold through earnings)",
-    "generated_at": "2026-07-26T23:32:30.530131",
-    "price_at_generation": 109.47,
-    "pnl_at_generation": -2.04
+    "exit_trigger": "Exit only if WMT closes below $106.50 (4.7% loss) on volume spike, indicating breakdown of support; or hold through earnings if fundamentals remain healthy",
+    "add_trigger": "Add 0.5-1 share position if RSI climbs to 55+ AND price confirms above $113.50 on volume, suggesting momentum into earnings",
+    "risk": "Earnings binary event in 24 days could swing position significantly; geopolitical uncertainty poorly characterized; macro headwinds via consumer spending data",
+    "outlook": "neutral",
+    "timeframe": "2-4 weeks until earnings; reassess post-earnings for swing exit opportunity",
+    "generated_at": "2026-07-27T23:38:13.822949",
+    "price_at_generation": 111.74,
+    "pnl_at_generation": -0.01
   },
   "history": [
+    {
+      "ticker": "WMT",
+      "company_name": "Walmart Inc.",
+      "action": "Hold",
+      "action_reason": "Loss is minor (2.04%) and well below the 15% threshold. Upcoming earnings in 25 days is a major catalyst that could recover position. RSI suggests potential reversal zone without confirmed downtrend.",
+      "target_price": 114.5,
+      "target_reasoning": "",
+      "exit_trigger": "Close below $107.00 (3.5% further loss) on high volume; or break of key support on earnings miss",
+      "add_trigger": "RSI breaks below 30 with bullish divergence; or accumulate on $107-$108 support if fundamentals hold",
+      "risk": "Extended weakness into earnings if macro sentiment deteriorates or company guidance disappoints",
+      "outlook": "cautious",
+      "timeframe": "2-6 weeks (hold through earnings)",
+      "generated_at": "2026-07-26T23:32:30.530131",
+      "price_at_generation": 109.47,
+      "pnl_at_generation": -2.04,
+      "archived_at": "2026-07-27T23:38:13.823150"
+    },
     {
       "ticker": "WMT",
       "company_name": "Walmart Inc.",
@@ -117,23 +134,6 @@
       "price_at_generation": 114.95,
       "pnl_at_generation": 2.86,
       "archived_at": "2026-07-19T23:33:01.222674"
-    },
-    {
-      "ticker": "WMT",
-      "company_name": "Walmart Inc.",
-      "action": "Hold",
-      "action_reason": "Position is profitable (+0.70%) with healthy fundamentals and small weighting (3.1%). No trigger to trim yet; wait for either technical confirmation of strength or a pullback to add on weakness near $110-111.",
-      "target_price": 115.5,
-      "target_reasoning": "",
-      "exit_trigger": "Break below $110.50 on high volume OR position drops into red and triggers 15%+ loss threshold",
-      "add_trigger": "Pullback to $110-111 with RSI bounce above 50, or positive earnings catalyst",
-      "risk": "Lack of near-term news/catalysts; if market fear deepens, defensive stocks like WMT may consolidate longer than expected despite quality",
-      "outlook": "neutral",
-      "timeframe": "2-6 weeks (monitor for earnings catalysts in 36 days)",
-      "generated_at": "2026-07-15T23:33:17.699590",
-      "price_at_generation": 112.53,
-      "pnl_at_generation": 0.7,
-      "archived_at": "2026-07-16T23:29:28.680659"
     }
   ]
 }

@@ -3,19 +3,36 @@
     "ticker": "MSFT",
     "company_name": "Microsoft Corporation",
     "action": "Hold",
-    "action_reason": "Position exceeds 15% loss threshold, triggering hold-through philosophy. Earnings catalyst in 3 days could provide recovery inflection; exiting now locks in losses unnecessarily.",
-    "target_price": 420,
+    "action_reason": "Philosophy mandates holding major losers (>15% down). However, post-earnings volatility with 22.2% concentration creates asymmetric risk \u2014 prioritize earnings result before considering adds or rebalancing.",
+    "target_price": null,
     "target_reasoning": "",
-    "exit_trigger": "Post-earnings weakness with RSI breaking below 30 and close below $370 on high volume; or fundamentals deteriorate materially",
-    "add_trigger": "RSI oversold (<30) + positive earnings beat + close above $400 on expansion",
-    "risk": "Earnings miss could accelerate downside to $360; macro deterioration if VIX spikes above 25",
+    "exit_trigger": "Exit only if fundamentals deteriorate (guidance slash, margin compression, AI capex disappointment signals weakness ahead) OR position recovers to breakeven/+5% profit zone",
+    "add_trigger": "Only add if: (1) earnings beat + guidance raised, (2) RSI recovers to 55+, AND (3) daily closes above $420",
+    "risk": "Earnings miss could cascade to $360\u2013370 (further 7\u20138% loss). Geopolitical escalation + fear sentiment could suppress post-earnings rebound despite healthy fundamentals.",
     "outlook": "cautious",
-    "timeframe": "3 days to 2 weeks (earnings-dependent)",
-    "generated_at": "2026-07-26T23:32:00.056195",
-    "price_at_generation": 381.7,
-    "pnl_at_generation": -18.3
+    "timeframe": "2-4 weeks post-earnings; reassess fundamentals and technicals after catalyst clarity",
+    "generated_at": "2026-07-27T23:37:51.866929",
+    "price_at_generation": 389.1,
+    "pnl_at_generation": -16.71
   },
   "history": [
+    {
+      "ticker": "MSFT",
+      "company_name": "Microsoft Corporation",
+      "action": "Hold",
+      "action_reason": "Position exceeds 15% loss threshold, triggering hold-through philosophy. Earnings catalyst in 3 days could provide recovery inflection; exiting now locks in losses unnecessarily.",
+      "target_price": 420,
+      "target_reasoning": "",
+      "exit_trigger": "Post-earnings weakness with RSI breaking below 30 and close below $370 on high volume; or fundamentals deteriorate materially",
+      "add_trigger": "RSI oversold (<30) + positive earnings beat + close above $400 on expansion",
+      "risk": "Earnings miss could accelerate downside to $360; macro deterioration if VIX spikes above 25",
+      "outlook": "cautious",
+      "timeframe": "3 days to 2 weeks (earnings-dependent)",
+      "generated_at": "2026-07-26T23:32:00.056195",
+      "price_at_generation": 381.7,
+      "pnl_at_generation": -18.3,
+      "archived_at": "2026-07-27T23:37:51.867142"
+    },
     {
       "ticker": "MSFT",
       "company_name": "Microsoft Corporation",
@@ -117,23 +134,6 @@
       "price_at_generation": 401.1,
       "pnl_at_generation": -14.14,
       "archived_at": "2026-07-19T23:32:24.843942"
-    },
-    {
-      "ticker": "MSFT",
-      "company_name": "Microsoft Corporation",
-      "action": "Hold",
-      "action_reason": "Loss exceeds 15% threshold\u2014philosophy mandates holding through major drawdowns. Earnings within 14 days is a key catalyst that could drive recovery; exiting now locks in loss unnecessarily.",
-      "target_price": null,
-      "target_reasoning": "",
-      "exit_trigger": "Only exit if fundamentals deteriorate post-earnings or if position reaches +15% profit",
-      "add_trigger": "Do not add; position already 21.6% of portfolio. If this recovers to -10% before earnings, reassess sizing",
-      "risk": "Pre-earnings volatility; potential disappointment if guidance lowered; concentration risk (>20% weighting)",
-      "outlook": "cautious",
-      "timeframe": "2-4 weeks (through earnings + post-earnings consolidation)",
-      "generated_at": "2026-07-15T23:32:43.505597",
-      "price_at_generation": 395.63,
-      "pnl_at_generation": -15.32,
-      "archived_at": "2026-07-16T23:28:53.636880"
     }
   ]
 }
