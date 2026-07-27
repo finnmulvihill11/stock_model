@@ -7,6 +7,7 @@ portfolio:
   - CMG
   - OXY
   - IRM
+  - XOM
   holdings:
   - ticker: INTU
     shares: 3
@@ -29,9 +30,6 @@ portfolio:
     shares: 2.59
     avg_cost: 76.63
     dca: true
-  - ticker: XOM
-    shares: 2
-    avg_cost: 137.15
   - ticker: GRNI
     shares: 4
     avg_cost: 21.16
