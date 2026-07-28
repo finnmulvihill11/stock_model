@@ -2,20 +2,37 @@
   "current": {
     "ticker": "WMT",
     "company_name": "Walmart Inc.",
-    "action": "Wait",
-    "action_reason": "With earnings 24 days away and RSI in neutral territory (44.6), this is a 'show me' setup. Earnings will be the primary swing catalyst; entering or adding before that event carries elevated binary risk.",
-    "target_price": null,
+    "action": "Hold",
+    "action_reason": "Position is +1.21% profitable with solid fundamentals. RSI neutrality and lack of technical firing suggest waiting for post-earnings clarity rather than trimming a winner. Let earnings catalyze the next move.",
+    "target_price": 117.5,
     "target_reasoning": "",
-    "exit_trigger": "Exit only if WMT closes below $106.50 (4.7% loss) on volume spike, indicating breakdown of support; or hold through earnings if fundamentals remain healthy",
-    "add_trigger": "Add 0.5-1 share position if RSI climbs to 55+ AND price confirms above $113.50 on volume, suggesting momentum into earnings",
-    "risk": "Earnings binary event in 24 days could swing position significantly; geopolitical uncertainty poorly characterized; macro headwinds via consumer spending data",
+    "exit_trigger": "Close below $110.50 (support break) OR close above $117.50 with declining volume (distribution signal)",
+    "add_trigger": "RSI breaks above 60 with volume surge OR post-earnings gap up with confirmation",
+    "risk": "Earnings volatility in 23 days could swing position sharply negative; premature exit before catalyst.",
     "outlook": "neutral",
-    "timeframe": "2-4 weeks until earnings; reassess post-earnings for swing exit opportunity",
-    "generated_at": "2026-07-27T23:38:13.822949",
-    "price_at_generation": 111.74,
-    "pnl_at_generation": -0.01
+    "timeframe": "3-6 weeks (hold through earnings)",
+    "generated_at": "2026-07-28T23:33:12.297052",
+    "price_at_generation": 113.1,
+    "pnl_at_generation": 1.21
   },
   "history": [
+    {
+      "ticker": "WMT",
+      "company_name": "Walmart Inc.",
+      "action": "Wait",
+      "action_reason": "With earnings 24 days away and RSI in neutral territory (44.6), this is a 'show me' setup. Earnings will be the primary swing catalyst; entering or adding before that event carries elevated binary risk.",
+      "target_price": null,
+      "target_reasoning": "",
+      "exit_trigger": "Exit only if WMT closes below $106.50 (4.7% loss) on volume spike, indicating breakdown of support; or hold through earnings if fundamentals remain healthy",
+      "add_trigger": "Add 0.5-1 share position if RSI climbs to 55+ AND price confirms above $113.50 on volume, suggesting momentum into earnings",
+      "risk": "Earnings binary event in 24 days could swing position significantly; geopolitical uncertainty poorly characterized; macro headwinds via consumer spending data",
+      "outlook": "neutral",
+      "timeframe": "2-4 weeks until earnings; reassess post-earnings for swing exit opportunity",
+      "generated_at": "2026-07-27T23:38:13.822949",
+      "price_at_generation": 111.74,
+      "pnl_at_generation": -0.01,
+      "archived_at": "2026-07-28T23:33:12.297246"
+    },
     {
       "ticker": "WMT",
       "company_name": "Walmart Inc.",
@@ -117,23 +134,6 @@
       "price_at_generation": 114.24,
       "pnl_at_generation": 2.23,
       "archived_at": "2026-07-20T23:34:28.010375"
-    },
-    {
-      "ticker": "WMT",
-      "company_name": "Walmart Inc.",
-      "action": "Hold",
-      "action_reason": "Position is profitable at +2.86% with healthy fundamentals and neutral technicals (RSI 48.1 shows no overbought condition). Extreme Fear in market may create better entry points for adding; maintain current position until clear technical signal or pre-earnings momentum develops.",
-      "target_price": 118.5,
-      "target_reasoning": "",
-      "exit_trigger": "Close below $111 support or negative earnings surprise with breakdown below 20-day MA",
-      "add_trigger": "RSI climbs above 60 on strong volume OR dips to $112-113 on market weakness (Extreme Fear capitulation) with confirmed accumulation",
-      "risk": "Earnings miss in 35 days; broader market downturn if Fear transitions to panic; consumer spending weakness",
-      "outlook": "neutral",
-      "timeframe": "2-6 weeks to earnings",
-      "generated_at": "2026-07-16T23:29:28.680473",
-      "price_at_generation": 114.95,
-      "pnl_at_generation": 2.86,
-      "archived_at": "2026-07-19T23:33:01.222674"
     }
   ]
 }

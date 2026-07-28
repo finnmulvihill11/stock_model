@@ -4,21 +4,20 @@
     "ticker": "MSFT",
     "direction": "hold",
     "tier": "Hold",
-    "buy_score": 0.12,
+    "buy_score": 0.25,
     "sell_score": 0.43,
     "reasons": [],
     "misses": [
-      "BB: price not near lower band (pct=0.55)",
-      "RSI: not in buy zone (49.0, need 20-40)",
+      "BB: price not near lower band (pct=0.65)",
+      "RSI: not in buy zone (51.8, need 20-40)",
       "MACD: no bullish crossover or valley",
       "RSI Divergence: no bullish divergence detected",
       "200MA: price below 200MA \u2014 potential falling knife",
-      "Death cross active: 50MA (399.22) below 200MA (434.75)",
-      "Volume: below average (0.68x) \u2014 low conviction"
+      "Death cross active: 50MA (398.46) below 200MA (433.41)"
     ],
-    "price": 389.1,
-    "rsi": 49.0,
-    "atr": 11.44,
+    "price": 393.35,
+    "rsi": 51.8,
+    "atr": 11.66,
     "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 0,
@@ -41,7 +40,7 @@
   },
   "earnings": {
     "proceed": false,
-    "reason": "Earnings in 2 days \u2014 wait for results before acting",
+    "reason": "Earnings in 1 days \u2014 wait for results before acting",
     "verdict": {
       "ticker": "MSFT",
       "verdict": "consider",
@@ -52,7 +51,7 @@
       ],
       "earnings_status": "imminent",
       "next_earnings_date": "2026-07-29",
-      "days_to_earnings": 2
+      "days_to_earnings": 1
     }
   },
   "news": {
@@ -60,27 +59,27 @@
     "sentiment": "neutral",
     "health": "healthy",
     "key_events": [
-      "Earnings report in 2 days \u2014 critical catalyst",
-      "Position down 16.71% \u2014 below entry significantly",
-      "RSI at 49.0 \u2014 neutral, no oversold bounce setup yet",
-      "VIX 18.7 \u2014 low volatility environment favors mean reversion",
-      "No recent news provided \u2014 geopolitical risk unclear"
+      "Earnings report imminent (1 day)",
+      "Position down -15.80% from entry",
+      "Market sentiment: Fear & Greed indicator showing Fear",
+      "VIX at 18.2 (neutral volatility environment)"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "Earnings imminent with elevated position weight (22.2%) \u2014 concentration risk before catalyst",
-      "Geopolitical context incomplete \u2014 cannot assess if decline is macro-driven",
-      "No technical firing signals despite neutral RSI \u2014 suggests institutional selling, not panic"
+      "Significant drawdown (-15.80%) approaching philosophy threshold",
+      "Earnings catalyst imminent\u2014high volatility risk",
+      "Fear sentiment despite healthy fundamentals suggests valuation pressure",
+      "No recent positive news flow to support recovery momentum"
     ],
-    "verdict": "Hold through earnings; position size warrants caution post-release given 22.2% portfolio weight and 16.71% drawdown.",
+    "verdict": "Hold position through earnings despite drawdown; avoid action until post-earnings volatility resolves.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "MSFT",
-    "stock_return_3m": -6.21,
-    "benchmark_return_3m": 4.59,
-    "relative_strength": -10.8,
+    "stock_return_3m": -7.21,
+    "benchmark_return_3m": 3.86,
+    "relative_strength": -11.07,
     "label": "underperforming"
   },
   "final_tier": "Hold",
@@ -90,5 +89,5 @@
     "note": "Position already at 20% portfolio cap"
   },
   "is_dca": false,
-  "saved_at": "2026-07-27T23:37:51.867715"
+  "saved_at": "2026-07-28T23:32:51.945637"
 }

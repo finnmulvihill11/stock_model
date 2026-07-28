@@ -3,19 +3,36 @@
     "ticker": "INTU",
     "company_name": "Intuit Inc.",
     "action": "Hold",
-    "action_reason": "Your philosophy mandates holding positions down >15%. However, given absence of technical firing signals or near-term catalysts, avoid adding. Wait for either oversold RSI (<30) + reversal confirmation OR next earnings beat to justify holding this concentrated 26% weight.",
-    "target_price": null,
+    "action_reason": "Loss exceeds 15% threshold\u2014philosophy mandates holding major losers. Fundamentals remain healthy and no deterioration signals justify exit. Wait for technical recovery or next earnings catalyst.",
+    "target_price": 420,
     "target_reasoning": "",
-    "exit_trigger": "If RSI drops below 30 with volume confirmation and fails to bounce within 2 weeks; or if next earnings miss and guides lower",
-    "add_trigger": "RSI <30 + bullish candlestick reversal + volume spike, OR company-specific positive news (partnership, margin guidance raise)",
-    "risk": "Concentrated 26% position + deteriorating macro for software/SaaS if rates remain sticky; opportunity cost if capital needed elsewhere",
+    "exit_trigger": "Fundamentals deteriorate OR stock breaks below $290 (further 7% downside) on volume without recovery",
+    "add_trigger": "Stock stabilizes above $320 + RSI climbs above 70 + positive earnings surprise or product announcement",
+    "risk": "Continued sector weakness in software/SaaS; macro recession fear; valuation compression if guidance lowered at next earnings",
     "outlook": "cautious",
-    "timeframe": "4-8 weeks until next earnings (likely late April/May); reassess post-results",
-    "generated_at": "2026-07-27T23:37:43.693090",
-    "price_at_generation": 303.91,
-    "pnl_at_generation": -35.1
+    "timeframe": "4-8 weeks until next catalyst or technical confirmation of reversal",
+    "generated_at": "2026-07-28T23:32:44.881559",
+    "price_at_generation": 312.99,
+    "pnl_at_generation": -33.16
   },
   "history": [
+    {
+      "ticker": "INTU",
+      "company_name": "Intuit Inc.",
+      "action": "Hold",
+      "action_reason": "Your philosophy mandates holding positions down >15%. However, given absence of technical firing signals or near-term catalysts, avoid adding. Wait for either oversold RSI (<30) + reversal confirmation OR next earnings beat to justify holding this concentrated 26% weight.",
+      "target_price": null,
+      "target_reasoning": "",
+      "exit_trigger": "If RSI drops below 30 with volume confirmation and fails to bounce within 2 weeks; or if next earnings miss and guides lower",
+      "add_trigger": "RSI <30 + bullish candlestick reversal + volume spike, OR company-specific positive news (partnership, margin guidance raise)",
+      "risk": "Concentrated 26% position + deteriorating macro for software/SaaS if rates remain sticky; opportunity cost if capital needed elsewhere",
+      "outlook": "cautious",
+      "timeframe": "4-8 weeks until next earnings (likely late April/May); reassess post-results",
+      "generated_at": "2026-07-27T23:37:43.693090",
+      "price_at_generation": 303.91,
+      "pnl_at_generation": -35.1,
+      "archived_at": "2026-07-28T23:32:44.881845"
+    },
     {
       "ticker": "INTU",
       "company_name": "Intuit Inc.",
@@ -117,23 +134,6 @@
       "price_at_generation": 291.09,
       "pnl_at_generation": -37.84,
       "archived_at": "2026-07-20T23:33:43.824238"
-    },
-    {
-      "ticker": "INTU",
-      "company_name": "Intuit Inc.",
-      "action": "Hold",
-      "action_reason": "Position down >15% triggers hold-through policy regardless of technicals. Fundamentals remain healthy and earnings cycle reset in ~10 months provides recovery window. RSI neutral (not oversold) indicates patience required.",
-      "target_price": 420,
-      "target_reasoning": "",
-      "exit_trigger": "Breach of $250 support or material deterioration in fundamentals (guidance cuts, market share loss, subscription churn acceleration)",
-      "add_trigger": "Oversold RSI <30 during broad market strength + confirmed technical support bounce",
-      "risk": "Continued software sector rotation away from SaaS growth names; potential macro slowdown impacting SMB/consumer tax/accounting spending",
-      "outlook": "cautious",
-      "timeframe": "4-8 weeks minimum; monitor next earnings cycle (Jan 2026) for inflection",
-      "generated_at": "2026-07-16T23:28:47.534466",
-      "price_at_generation": 294.79,
-      "pnl_at_generation": -37.05,
-      "archived_at": "2026-07-19T23:32:18.727122"
     }
   ]
 }
