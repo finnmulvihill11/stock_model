@@ -4,18 +4,17 @@
     "ticker": "CDNS",
     "direction": "hold",
     "tier": "Hold",
-    "buy_score": 0.5,
+    "buy_score": 0.62,
     "sell_score": 0.14,
     "reasons": [],
     "misses": [
-      "BB: price not near lower band (pct=0.33)",
+      "BB: price not near lower band (pct=0.22)",
       "BB Width: bands expanding, not squeezing",
-      "RSI: not in buy zone (43.3, need 20-40)",
       "RSI Divergence: no bullish divergence detected"
     ],
-    "price": 344.72,
-    "rsi": 43.3,
-    "atr": 16.22,
+    "price": 332.76,
+    "rsi": 38.6,
+    "atr": 16.26,
     "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 0,
@@ -27,14 +26,14 @@
     "ticker": "CDNS",
     "health": "healthy",
     "passed": [
-      "Revenue growing YoY (+18.7%)",
-      "Debt-to-equity acceptable (0.5x)",
-      "Profitable (margin 21.2%)"
+      "Revenue growing YoY (+24.2%)",
+      "Debt-to-equity acceptable (0.4x)",
+      "Profitable (margin 23.6%)"
     ],
     "flags": [],
-    "revenue_growth": 0.187,
-    "de_ratio": 46.992,
-    "profit_margins": 0.21180001
+    "revenue_growth": 0.242,
+    "de_ratio": 36.194,
+    "profit_margins": 0.23605
   },
   "earnings": {
     "proceed": true,
@@ -44,12 +43,12 @@
       "verdict": "consider",
       "reason": "Fundamentals intact \u2014 dip may be an overreaction",
       "notes": [
-        "Earnings growing YoY (+23.0%)",
-        "Revenue growing (+18.7%)"
+        "Earnings growing YoY (+125.4%)",
+        "Revenue growing (+24.2%)"
       ],
       "earnings_status": "past",
       "next_earnings_date": "2026-07-27",
-      "days_to_earnings": -1
+      "days_to_earnings": -2
     }
   },
   "news": {
@@ -57,25 +56,27 @@
     "sentiment": "neutral",
     "health": "healthy",
     "key_events": [
-      "Earnings reported 1 day ago",
-      "Stock up +1.98% post-earnings",
-      "RSI at 43.3 indicates neither overbought nor oversold conditions"
+      "Earnings reported 2 days ago",
+      "RSI at 38.6 indicates oversold conditions",
+      "VIX at 20.7 suggests stable market environment",
+      "Fear & Greed Index shows Fear sentiment"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "No firing signals from technical analysis",
-      "Market sentiment Fear despite neutral VIX suggests caution",
-      "No recent news catalysts visible"
+      "Post-earnings selloff (-1.56% from entry)",
+      "No technical firing signals despite oversold RSI",
+      "Fear sentiment in broader market despite neutral VIX",
+      "Moderate geopolitical risk baseline"
     ],
-    "verdict": "CDNS showing post-earnings stability with healthy fundamentals; position is modestly profitable but lacks technical momentum for aggressive swing trading.",
+    "verdict": "CDNS is healthy fundamentally but experiencing typical post-earnings consolidation in an oversold state; position sizing is reasonable at 9.3% weight.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "CDNS",
-    "stock_return_3m": 2.43,
-    "benchmark_return_3m": 3.86,
-    "relative_strength": -1.43,
+    "stock_return_3m": 2.29,
+    "benchmark_return_3m": 2.76,
+    "relative_strength": -0.47,
     "label": "in-line"
   },
   "final_tier": "Hold",
@@ -85,5 +86,5 @@
     "note": "Price exceeds 60% conviction ceiling ($186) \u2014 skip or wait for Strong Buy"
   },
   "is_dca": false,
-  "saved_at": "2026-07-28T23:33:19.308025"
+  "saved_at": "2026-07-29T23:34:59.951033"
 }

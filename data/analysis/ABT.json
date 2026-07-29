@@ -8,21 +8,21 @@
     "sell_score": 0.43,
     "reasons": [],
     "misses": [
-      "BB: price not near lower band (pct=0.99)",
+      "BB: price not near lower band (pct=0.95)",
       "BB Width: bands expanding, not squeezing",
-      "RSI: not in buy zone (73.6, need 20-40)",
+      "RSI: not in buy zone (74.4, need 20-40)",
       "MACD: no bullish crossover or valley",
       "RSI Divergence: no bullish divergence detected",
-      "Volume: below average (0.79x) \u2014 low conviction"
+      "Volume: below average (0.93x) \u2014 low conviction"
     ],
-    "price": 107.27,
-    "rsi": 73.6,
-    "atr": 3.28,
+    "price": 108.0,
+    "rsi": 74.4,
+    "atr": 3.41,
     "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 1,
-      "suggested_dollars": 107.27,
-      "note": "1 sh @ $107.27 = $107 (Hold, 60% size) | $928 swing budget after"
+      "suggested_dollars": 108.0,
+      "note": "1 sh @ $108.00 = $108 (Hold, 60% size) | $927 swing budget after"
     }
   },
   "fundamentals": {
@@ -49,9 +49,9 @@
         "Earnings declining YoY (-47.5%)",
         "Revenue growing (+13.0%)"
       ],
-      "earnings_status": "past",
-      "next_earnings_date": "2026-07-16",
-      "days_to_earnings": -12
+      "earnings_status": "distant",
+      "next_earnings_date": "2026-10-14",
+      "days_to_earnings": 77
     }
   },
   "news": {
@@ -59,34 +59,33 @@
     "sentiment": "neutral",
     "health": "healthy",
     "key_events": [
-      "Earnings reported 12 days ago",
-      "Stock down 2.28% from entry",
-      "RSI at 73.6 indicates overbought conditions despite recent pullback",
-      "Market showing Fear sentiment with neutral volatility"
+      "No recent news catalysts available",
+      "Earnings 77 days out (ample runway)",
+      "RSI at 74.4 indicates overbought conditions on recent move"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "No recent news catalysts visible",
-      "RSI elevated at 73.6 suggests potential pullback risk",
-      "Fear sentiment in market environment despite VIX neutrality"
+      "Overbought RSI suggesting pullback risk",
+      "No bullish technical firing signals despite elevated RSI",
+      "Position underwater -1.61% with no immediate catalyst"
     ],
-    "verdict": "Healthy fundamentals support the position, but lack of near-term catalysts and technical overbought conditions warrant patience rather than action.",
+    "verdict": "ABT is fundamentally sound but technically extended; minor loss is noise given the philosophy constraints and healthy fundamentals.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "ABT",
-    "stock_return_3m": 16.42,
-    "benchmark_return_3m": 3.86,
-    "relative_strength": 12.56,
+    "stock_return_3m": 15.89,
+    "benchmark_return_3m": 2.76,
+    "relative_strength": 13.12,
     "label": "outperforming"
   },
   "final_tier": "Hold",
   "sizing": {
     "suggested_shares": 1,
-    "suggested_dollars": 107.27,
-    "note": "1 sh @ $107.27 = $107 (Hold, 60% size) | $928 swing budget after"
+    "suggested_dollars": 108.0,
+    "note": "1 sh @ $108.00 = $108 (Hold, 60% size) | $927 swing budget after"
   },
   "is_dca": false,
-  "saved_at": "2026-07-28T23:32:58.609842"
+  "saved_at": "2026-07-29T23:34:37.539005"
 }

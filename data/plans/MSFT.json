@@ -3,19 +3,36 @@
     "ticker": "MSFT",
     "company_name": "Microsoft Corporation",
     "action": "Hold",
-    "action_reason": "Position is at -15.80%, triggering your philosophy to hold through major losers. Imminent earnings creates a natural catalyst that could reverse the drawdown; exiting now locks in losses before this event.",
-    "target_price": 425,
+    "action_reason": "Position is -16.4%, triggering hold-through-losses rule. Fundamentals remain healthy and RSI neutral suggests stabilization; earnings catalyst could reverse losses. Portfolio concentration warrants caution but not panic selling.",
+    "target_price": 420,
     "target_reasoning": "",
-    "exit_trigger": "If MSFT closes below $375 post-earnings on negative guidance, or if fundamentals deteriorate materially",
-    "add_trigger": "Add if price falls to $365-370 AND earnings beat with strong forward guidance; adds to convex payoff",
-    "risk": "Further downside post-earnings if guidance disappoints; position weight (22.1%) concentrates risk",
+    "exit_trigger": "Break below $375 (10% below current) post-earnings OR fundamentals deteriorate materially",
+    "add_trigger": "Position breaks above $410 with positive earnings surprise + RSI >60",
+    "risk": "Earnings miss + tech sector rotation could trigger another 8-12% leg down; geopolitical shock during information vacuum",
     "outlook": "cautious",
-    "timeframe": "1-3 weeks (through earnings + post-earnings stabilization)",
-    "generated_at": "2026-07-28T23:32:51.944878",
-    "price_at_generation": 393.35,
-    "pnl_at_generation": -15.8
+    "timeframe": "1-3 weeks (earnings-driven, then reassess post-announcement)",
+    "generated_at": "2026-07-29T23:34:31.405703",
+    "price_at_generation": 390.54,
+    "pnl_at_generation": -16.4
   },
   "history": [
+    {
+      "ticker": "MSFT",
+      "company_name": "Microsoft Corporation",
+      "action": "Hold",
+      "action_reason": "Position is at -15.80%, triggering your philosophy to hold through major losers. Imminent earnings creates a natural catalyst that could reverse the drawdown; exiting now locks in losses before this event.",
+      "target_price": 425,
+      "target_reasoning": "",
+      "exit_trigger": "If MSFT closes below $375 post-earnings on negative guidance, or if fundamentals deteriorate materially",
+      "add_trigger": "Add if price falls to $365-370 AND earnings beat with strong forward guidance; adds to convex payoff",
+      "risk": "Further downside post-earnings if guidance disappoints; position weight (22.1%) concentrates risk",
+      "outlook": "cautious",
+      "timeframe": "1-3 weeks (through earnings + post-earnings stabilization)",
+      "generated_at": "2026-07-28T23:32:51.944878",
+      "price_at_generation": 393.35,
+      "pnl_at_generation": -15.8,
+      "archived_at": "2026-07-29T23:34:31.405914"
+    },
     {
       "ticker": "MSFT",
       "company_name": "Microsoft Corporation",
@@ -117,23 +134,6 @@
       "price_at_generation": 402.29,
       "pnl_at_generation": -13.89,
       "archived_at": "2026-07-21T23:32:14.990148"
-    },
-    {
-      "ticker": "MSFT",
-      "company_name": "Microsoft Corporation",
-      "action": "Hold",
-      "action_reason": "Per philosophy, never exit positions down >15%. Earnings catalyst in 10 days may reignite upside; holding through volatility is the discipline required here.",
-      "target_price": null,
-      "target_reasoning": "",
-      "exit_trigger": "Sell only if earnings reveals fundamental deterioration in cloud/AI segments or guidance collapse",
-      "add_trigger": "Add if price breaks below $380 on earnings miss (averaging down before rebound)",
-      "risk": "Earnings miss could extend losses to -20%+; concentration (21.3% weight) amplifies downside if tech sector weakens",
-      "outlook": "cautious",
-      "timeframe": "2-3 weeks (earnings catalyst + post-earnings consolidation period)",
-      "generated_at": "2026-07-19T23:32:24.843718",
-      "price_at_generation": 393.82,
-      "pnl_at_generation": -15.7,
-      "archived_at": "2026-07-20T23:33:51.059305"
     }
   ]
 }

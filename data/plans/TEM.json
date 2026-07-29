@@ -3,19 +3,36 @@
     "ticker": "TEM",
     "company_name": "Tempus AI, Inc.",
     "action": "Hold",
-    "action_reason": "Philosophy dictates holding major losers through recovery attempts. Earnings in 2 days could catalyze recovery or validate downtrend; waiting for this event before any decision.",
+    "action_reason": "Position is down 39.85% (>15% threshold), so philosophy mandates holding through major losers. However, earnings tomorrow is a binary event\u2014wait for results before reassessing.",
     "target_price": null,
     "target_reasoning": "",
-    "exit_trigger": "Earnings miss + guidance reduction + close below $38 (technical breakdown)",
-    "add_trigger": "Beat earnings + positive guidance + RSI recovery above 50 with volume confirmation",
-    "risk": "Continued deterioration without profitability path; debt burden may force dilution or restructuring; earnings could confirm death spiral",
+    "exit_trigger": "If post-earnings guidance shows accelerated cash burn, covenant breaches, or financing issues; OR if stock drops below $35 on earnings miss (additional 16% downside)",
+    "add_trigger": "Do NOT add. Fundamentals must stabilize (positive FCF, debt reduction plan, or meaningful revenue inflection) before considering averaging down.",
+    "risk": "Earnings miss causing gap-down opening; potential liquidity crisis if debt refinancing fails; dilutive capital raise if cash runway shortens",
     "outlook": "cautious",
-    "timeframe": "2-7 days (post-earnings decision point)",
-    "generated_at": "2026-07-28T23:33:05.633835",
-    "price_at_generation": 42.9,
-    "pnl_at_generation": -37.9
+    "timeframe": "1 day (earnings), then reassess over 2-4 weeks depending on guidance",
+    "generated_at": "2026-07-29T23:34:45.464744",
+    "price_at_generation": 41.55,
+    "pnl_at_generation": -39.85
   },
   "history": [
+    {
+      "ticker": "TEM",
+      "company_name": "Tempus AI, Inc.",
+      "action": "Hold",
+      "action_reason": "Philosophy dictates holding major losers through recovery attempts. Earnings in 2 days could catalyze recovery or validate downtrend; waiting for this event before any decision.",
+      "target_price": null,
+      "target_reasoning": "",
+      "exit_trigger": "Earnings miss + guidance reduction + close below $38 (technical breakdown)",
+      "add_trigger": "Beat earnings + positive guidance + RSI recovery above 50 with volume confirmation",
+      "risk": "Continued deterioration without profitability path; debt burden may force dilution or restructuring; earnings could confirm death spiral",
+      "outlook": "cautious",
+      "timeframe": "2-7 days (post-earnings decision point)",
+      "generated_at": "2026-07-28T23:33:05.633835",
+      "price_at_generation": 42.9,
+      "pnl_at_generation": -37.9,
+      "archived_at": "2026-07-29T23:34:45.464951"
+    },
     {
       "ticker": "TEM",
       "company_name": "Tempus AI, Inc.",
@@ -117,23 +134,6 @@
       "price_at_generation": 52.47,
       "pnl_at_generation": -24.04,
       "archived_at": "2026-07-20T23:34:02.746885"
-    },
-    {
-      "ticker": "TEM",
-      "company_name": "Tempus AI, Inc.",
-      "action": "Hold",
-      "action_reason": "Portfolio philosophy prohibits exit on >15% losses. However, this is a deteriorating situation requiring strict monitoring. Use imminent earnings as decision point rather than current weakness.",
-      "target_price": null,
-      "target_reasoning": "",
-      "exit_trigger": "If earnings miss consensus AND guidance is withdrawn/reduced, creating fresh 15%+ decline from post-earnings level. Alternatively, if debt covenant concerns surface or credit rating downgrade occurs.",
-      "add_trigger": "Do NOT add more. Fundamentals do not support averaging down on unprofitable, cash-burning companies with high leverage regardless of technical dips.",
-      "risk": "Insolvency risk over 12-month horizon if cash burn continues and debt refinancing becomes difficult in higher rate environment. Earnings miss could trigger capitulation selling.",
-      "outlook": "cautious",
-      "timeframe": "Hold through earnings (14 days), then reassess. If earnings stabilize narrative, potential for bounce. If disappointing, condition triggers exit on next 15%+ move down from that point.",
-      "generated_at": "2026-07-16T23:29:08.489639",
-      "price_at_generation": 53.59,
-      "pnl_at_generation": -22.42,
-      "archived_at": "2026-07-19T23:32:40.096501"
     }
   ]
 }

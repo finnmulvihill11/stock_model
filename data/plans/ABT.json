@@ -1,21 +1,38 @@
 {
   "current": {
     "ticker": "ABT",
-    "company_name": "Abbott Laboratories",
+    "company_name": "ABT",
     "action": "Hold",
-    "action_reason": "Position is only -2.28% (well within normal swing range), earnings already reported, and fundamentals remain solid. Recent RSI elevation suggests consolidation phase; allow pullback to create better add opportunity.",
-    "target_price": 111.5,
+    "action_reason": "Position is only -1.61% down (well within recovery tolerance) with healthy fundamentals and distant earnings. Overbought RSI suggests consolidation rather than crash; let it digest before adding.",
+    "target_price": null,
     "target_reasoning": "",
-    "exit_trigger": "Break below $105.00 on volume with deteriorating fundamentals, or close below 200-day MA",
-    "add_trigger": "RSI drops below 50 + price pulls to $105-106 support with volume confirmation",
-    "risk": "Macro headwind from market Fear sentiment; healthcare sector rotation risk if growth outperforms",
+    "exit_trigger": "Fundamentals deteriorate OR position reaches -15% (philosophy floor)",
+    "add_trigger": "RSI drops below 50 + positive earnings preview OR price pulls back 3-5% on volume (better entry for conviction)",
+    "risk": "Geopolitical uncertainty (moderate baseline) + overbought pullback could extend near-term weakness; healthcare sector rotation risk if rates spike",
     "outlook": "neutral",
-    "timeframe": "2-4 weeks",
-    "generated_at": "2026-07-28T23:32:58.608992",
-    "price_at_generation": 107.27,
-    "pnl_at_generation": -2.28
+    "timeframe": "2-4 weeks (let RSI normalize and watch for pre-earnings momentum)",
+    "generated_at": "2026-07-29T23:34:37.538195",
+    "price_at_generation": 108.0,
+    "pnl_at_generation": -1.61
   },
   "history": [
+    {
+      "ticker": "ABT",
+      "company_name": "Abbott Laboratories",
+      "action": "Hold",
+      "action_reason": "Position is only -2.28% (well within normal swing range), earnings already reported, and fundamentals remain solid. Recent RSI elevation suggests consolidation phase; allow pullback to create better add opportunity.",
+      "target_price": 111.5,
+      "target_reasoning": "",
+      "exit_trigger": "Break below $105.00 on volume with deteriorating fundamentals, or close below 200-day MA",
+      "add_trigger": "RSI drops below 50 + price pulls to $105-106 support with volume confirmation",
+      "risk": "Macro headwind from market Fear sentiment; healthcare sector rotation risk if growth outperforms",
+      "outlook": "neutral",
+      "timeframe": "2-4 weeks",
+      "generated_at": "2026-07-28T23:32:58.608992",
+      "price_at_generation": 107.27,
+      "pnl_at_generation": -2.28,
+      "archived_at": "2026-07-29T23:34:37.538391"
+    },
     {
       "ticker": "ABT",
       "company_name": "Abbott Laboratories",
@@ -117,23 +134,6 @@
       "price_at_generation": 101.66,
       "pnl_at_generation": -7.39,
       "archived_at": "2026-07-21T23:32:21.936213"
-    },
-    {
-      "ticker": "ABT",
-      "company_name": "Abbott Laboratories",
-      "action": "Hold",
-      "action_reason": "Position is only -8.28% (well below 15% threshold). Earnings catalyst already priced in; allow pullback to complete and position to stabilize before reassessing.",
-      "target_price": 105.5,
-      "target_reasoning": "",
-      "exit_trigger": "Close below $97 (>11% loss) on high volume, or fundamental deterioration in next earnings",
-      "add_trigger": "RSI drops to 40-45 range + close above $104 on volume (re-entry confirmation)",
-      "risk": "Further post-earnings weakness if guidance or underlying metrics disappoined; macro Fear sentiment could pressure defensives short-term",
-      "outlook": "cautious",
-      "timeframe": "2-4 weeks (allow earnings digestion and technical reset)",
-      "generated_at": "2026-07-19T23:32:32.316646",
-      "price_at_generation": 100.68,
-      "pnl_at_generation": -8.28,
-      "archived_at": "2026-07-20T23:33:56.662487"
     }
   ]
 }
