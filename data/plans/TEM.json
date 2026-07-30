@@ -3,19 +3,36 @@
     "ticker": "TEM",
     "company_name": "Tempus AI, Inc.",
     "action": "Hold",
-    "action_reason": "Position is down 39.85% (>15% threshold), so philosophy mandates holding through major losers. However, earnings tomorrow is a binary event\u2014wait for results before reassessing.",
+    "action_reason": "Philosophy mandates holding through >15% drawdowns. However, given imminent earnings with deteriorating fundamentals, do NOT add. Wait for earnings results to clarify cash runway and profitability path before reassessing hold thesis.",
     "target_price": null,
     "target_reasoning": "",
-    "exit_trigger": "If post-earnings guidance shows accelerated cash burn, covenant breaches, or financing issues; OR if stock drops below $35 on earnings miss (additional 16% downside)",
-    "add_trigger": "Do NOT add. Fundamentals must stabilize (positive FCF, debt reduction plan, or meaningful revenue inflection) before considering averaging down.",
-    "risk": "Earnings miss causing gap-down opening; potential liquidity crisis if debt refinancing fails; dilutive capital raise if cash runway shortens",
+    "exit_trigger": "Post-earnings: cash runway <12 months OR guidance misses AND closes below $40 on high volume. If debt refinance risk emerges, exit immediately regardless of drawdown.",
+    "add_trigger": "Post-earnings beat + positive cash flow guidance + new strategic partnership announced. Only then consider averaging down to $35-38 range.",
+    "risk": "Accelerating cash burn forces dilutive financing or bankruptcy risk; unprofitable AI company vulnerable to funding freeze in risk-off environment.",
     "outlook": "cautious",
-    "timeframe": "1 day (earnings), then reassess over 2-4 weeks depending on guidance",
-    "generated_at": "2026-07-29T23:34:45.464744",
-    "price_at_generation": 41.55,
-    "pnl_at_generation": -39.85
+    "timeframe": "Earnings-dependent (likely <2 weeks). Position viability determined by cash runway clarity and path to profitability. Reassess hold thesis after earnings; if negative, prepare exit on any bounce.",
+    "generated_at": "2026-07-30T23:35:06.538227",
+    "price_at_generation": 44.29,
+    "pnl_at_generation": -35.89
   },
   "history": [
+    {
+      "ticker": "TEM",
+      "company_name": "Tempus AI, Inc.",
+      "action": "Hold",
+      "action_reason": "Position is down 39.85% (>15% threshold), so philosophy mandates holding through major losers. However, earnings tomorrow is a binary event\u2014wait for results before reassessing.",
+      "target_price": null,
+      "target_reasoning": "",
+      "exit_trigger": "If post-earnings guidance shows accelerated cash burn, covenant breaches, or financing issues; OR if stock drops below $35 on earnings miss (additional 16% downside)",
+      "add_trigger": "Do NOT add. Fundamentals must stabilize (positive FCF, debt reduction plan, or meaningful revenue inflection) before considering averaging down.",
+      "risk": "Earnings miss causing gap-down opening; potential liquidity crisis if debt refinancing fails; dilutive capital raise if cash runway shortens",
+      "outlook": "cautious",
+      "timeframe": "1 day (earnings), then reassess over 2-4 weeks depending on guidance",
+      "generated_at": "2026-07-29T23:34:45.464744",
+      "price_at_generation": 41.55,
+      "pnl_at_generation": -39.85,
+      "archived_at": "2026-07-30T23:35:06.538453"
+    },
     {
       "ticker": "TEM",
       "company_name": "Tempus AI, Inc.",
@@ -117,23 +134,6 @@
       "price_at_generation": 48.41,
       "pnl_at_generation": -29.92,
       "archived_at": "2026-07-21T23:32:29.080152"
-    },
-    {
-      "ticker": "TEM",
-      "company_name": "Tempus AI, Inc.",
-      "action": "Hold",
-      "action_reason": "Philosophy mandates holding positions down >15%. Earnings in 11 days is the next major catalyst; do not exit losers before high-impact events. Monitor closely for earnings miss.",
-      "target_price": null,
-      "target_reasoning": "",
-      "exit_trigger": "Post-earnings: if guidance slashed, cash burn accelerates, or debt concerns intensify. Also exit if position rallies back above $65 (trim 1-2 sh if profitable spike occurs).",
-      "add_trigger": "Do NOT add. Fundamentals are deteriorating; wait for profitability roadmap or positive earnings surprise before averaging down.",
-      "risk": "Bankruptcy/dilution risk if cash burn continues and debt refinancing fails. Earnings miss could trigger 15-30% additional downside.",
-      "outlook": "cautious",
-      "timeframe": "11 days to earnings, then reassess. If survive earnings, 2-4 weeks for recovery setup.",
-      "generated_at": "2026-07-19T23:32:40.096294",
-      "price_at_generation": 52.47,
-      "pnl_at_generation": -24.04,
-      "archived_at": "2026-07-20T23:34:02.746885"
     }
   ]
 }

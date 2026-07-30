@@ -8,13 +8,13 @@
     "sell_score": 0.14,
     "reasons": [],
     "misses": [
-      "BB: price not near lower band (pct=0.22)",
+      "BB: price not near lower band (pct=0.24)",
       "BB Width: bands expanding, not squeezing",
       "RSI Divergence: no bullish divergence detected"
     ],
-    "price": 332.76,
-    "rsi": 38.6,
-    "atr": 16.26,
+    "price": 332.82,
+    "rsi": 38.7,
+    "atr": 16.52,
     "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 0,
@@ -48,7 +48,7 @@
       ],
       "earnings_status": "past",
       "next_earnings_date": "2026-07-27",
-      "days_to_earnings": -2
+      "days_to_earnings": -3
     }
   },
   "news": {
@@ -56,27 +56,26 @@
     "sentiment": "neutral",
     "health": "healthy",
     "key_events": [
-      "Earnings reported 2 days ago",
-      "RSI at 38.6 indicates oversold conditions",
-      "VIX at 20.7 suggests stable market environment",
-      "Fear & Greed Index shows Fear sentiment"
+      "Earnings reported 3 days ago",
+      "Post-earnings pullback of -1.54%",
+      "RSI at 38.7 indicating oversold conditions",
+      "Market sentiment Fear & Greed neutral (VIX 17.1)"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "Post-earnings selloff (-1.56% from entry)",
-      "No technical firing signals despite oversold RSI",
-      "Fear sentiment in broader market despite neutral VIX",
-      "Moderate geopolitical risk baseline"
+      "No recent news catalysts visible",
+      "RSI deeply oversold suggests technical weakness post-earnings",
+      "Timing suspicious: entry at $338.03 right into earnings volatility"
     ],
-    "verdict": "CDNS is healthy fundamentally but experiencing typical post-earnings consolidation in an oversold state; position sizing is reasonable at 9.3% weight.",
+    "verdict": "Healthy fundamentals with post-earnings technical weakness; position is consolidating after earnings release with no exit signals triggered.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "CDNS",
-    "stock_return_3m": 2.29,
-    "benchmark_return_3m": 2.76,
-    "relative_strength": -0.47,
+    "stock_return_3m": 0.87,
+    "benchmark_return_3m": 4.5,
+    "relative_strength": -3.63,
     "label": "in-line"
   },
   "final_tier": "Hold",
@@ -86,5 +85,5 @@
     "note": "Price exceeds 60% conviction ceiling ($186) \u2014 skip or wait for Strong Buy"
   },
   "is_dca": false,
-  "saved_at": "2026-07-29T23:34:59.951033"
+  "saved_at": "2026-07-30T23:35:19.409454"
 }

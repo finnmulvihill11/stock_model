@@ -4,23 +4,24 @@
     "ticker": "WMT",
     "direction": "hold",
     "tier": "Hold",
-    "buy_score": 0.5,
-    "sell_score": 0.43,
+    "buy_score": 0.38,
+    "sell_score": 0.57,
     "reasons": [],
     "misses": [
-      "BB: price not near lower band (pct=0.77)",
-      "RSI: not in buy zone (51.5, need 20-40)",
+      "BB: price not near lower band (pct=0.36)",
+      "RSI: not in buy zone (44.1, need 20-40)",
       "MACD: no bullish crossover or valley",
-      "Death cross active: 50MA (116.54) below 200MA (117.57)"
+      "200MA: price below 200MA \u2014 potential falling knife",
+      "Death cross active: 50MA (116.09) below 200MA (117.62)"
     ],
-    "price": 114.22,
-    "rsi": 51.5,
-    "atr": 2.6,
+    "price": 111.1,
+    "rsi": 44.1,
+    "atr": 2.71,
     "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 1,
-      "suggested_dollars": 114.22,
-      "note": "1 sh @ $114.22 = $114 (Hold, 60% size) | $921 swing budget after"
+      "suggested_dollars": 111.1,
+      "note": "1 sh @ $111.10 = $111 (Hold, 60% size) | $924 swing budget after"
     }
   },
   "fundamentals": {
@@ -49,7 +50,7 @@
       ],
       "earnings_status": "upcoming",
       "next_earnings_date": "2026-08-20",
-      "days_to_earnings": 22
+      "days_to_earnings": 21
     }
   },
   "news": {
@@ -57,33 +58,33 @@
     "sentiment": "neutral",
     "health": "healthy",
     "key_events": [
-      "Earnings report in 22 days (major catalyst)",
-      "VIX at 20.7 indicates neutral market volatility environment",
-      "No recent news items to assess"
+      "Earnings report due in 21 days",
+      "VIX at 17.1 indicating neutral market volatility",
+      "Market sentiment in Fear zone despite neutral technicals"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "Absence of recent news flow limits conviction",
-      "Geopolitical baseline tensions persist without clarity",
-      "RSI at 51.5 shows no momentum divergence yet"
+      "No recent news flow (9 empty slots suggests lack of catalyst coverage)",
+      "RSI at 44.1 indicates neither oversold nor overbought \u2014 neutral momentum",
+      "Small -0.58% loss suggests position recently entered or choppy price action"
     ],
-    "verdict": "Hold position through earnings catalyst; current 2.21% gain is modest and fundamentals remain healthy.",
+    "verdict": "WMT fundamentals remain healthy with upcoming earnings as the primary catalyst; current position is minimal loss with neutral technicals \u2014 hold for mean reversion or earnings catalyst.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "WMT",
-    "stock_return_3m": -10.31,
-    "benchmark_return_3m": 2.76,
-    "relative_strength": -13.07,
+    "stock_return_3m": -13.04,
+    "benchmark_return_3m": 4.5,
+    "relative_strength": -17.54,
     "label": "underperforming"
   },
   "final_tier": "Hold",
   "sizing": {
     "suggested_shares": 1,
-    "suggested_dollars": 114.22,
-    "note": "1 sh @ $114.22 = $114 (Hold, 60% size) | $921 swing budget after"
+    "suggested_dollars": 111.1,
+    "note": "1 sh @ $111.10 = $111 (Hold, 60% size) | $924 swing budget after"
   },
   "is_dca": false,
-  "saved_at": "2026-07-29T23:34:53.109390"
+  "saved_at": "2026-07-30T23:35:13.049705"
 }

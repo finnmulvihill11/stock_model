@@ -1,39 +1,84 @@
 {
   "current": {
-    "headline": "Portfolio down 13.73% with major losers held as planned; $1k dry powder positioned for mean-reversion entries in oversold quality names.",
+    "headline": "Hold core positions through oversold conditions; deploy $1K selectively into high-conviction mean-reversion setups with persistent buy signals.",
     "market_stance": "offensive",
-    "overall_thesis": "VIX at 20.7 and Fear at 29 create a classic mean-reversion environment. Core holdings (INTU, MSFT, ABT, CDNS) are being held through drawdowns per philosophy. With $1k available and multiple high-conviction oversold setups active (LUV, WST, FLEX, GNRC), deploy into the highest-probability entries to add positions during this weakness.",
+    "overall_thesis": "Market fear (VIX 17.1, Fear Index 28) has created technical oversold conditions across quality names\u2014classic swing setup. Your losers (INTU -32.6%, TEM -35.9%) align with your hold-through-drawdown philosophy; meanwhile, screener has surfaced 2 persistent buy signals (LUV, WST) with RSI in 30\u201340 zone. Deploy remaining $1K capital into these setups over the next 2\u20133 weeks as confirmations stack.",
     "priority_actions": [
       {
         "rank": 1,
         "action": "BUY",
         "ticker": "LUV",
-        "instruction": "BUY ~55\u201360 shares at market open if RSI remains 35\u201342 and price is below $18.50. Persistent 2+ scrape Buy signal active. Allocation: ~$1,000 to stay under cash reserve.",
-        "urgency": "immediate"
+        "instruction": "Buy 10\u201312 shares on next dip to RSI \u226439 or hold for >2% pullback below current entry. Persistent 2+ scrape buy signal + oversold RSI = strong mean-reversion candidate. Target allocation ~$250\u2013300.",
+        "urgency": "this week"
       },
       {
         "rank": 2,
         "action": "BUY",
         "ticker": "WST",
-        "instruction": "BUY ~20\u201325 shares if RSI dips back to 38\u201345 and price holds above $410. Healthcare quality compounder at inflection; persistent Buy signal. Scale in if LUV fills first.",
+        "instruction": "Buy 5\u20137 shares on next RSI dip toward 35 or on 1\u20132% pullback. Healthcare compounder with persistent buy signal; quality thesis aligns with your style. Target allocation ~$300\u2013350.",
         "urgency": "this week"
+      },
+      {
+        "rank": 3,
+        "action": "BUY",
+        "ticker": "GNRC",
+        "instruction": "Monitor GNRC (RSI 29.5, deeply oversold) if it holds above support next 2\u20133 days. Only pull trigger if screener confirms 2+ consecutive scrapes (persistence rule). Allocate $200\u2013250 on confirmation.",
+        "urgency": "this month"
       }
     ],
-    "biggest_risk": "INTU at 27.9% exceeds 25% portfolio cap and is down 28.86%\u2014position concentration risk is elevated. Recovery may take 6+ weeks given current oversold state. If INTU continues to decline further, the concentrated loss will drag entire portfolio P&L.",
+    "biggest_risk": "INTU concentration at 25.8% (exceeds 25% cap) combined with -32.6% loss creates portfolio drag and violates your sizing rule. While you hold major losers, this position needs trimming once it recovers to \u201320% or better to rebalance. Monitor for any fundamental deterioration that would break your thesis.",
     "what_to_watch": [
-      "INTU RSI mean-reversion trigger: watch for RSI drop below 65 + MACD bullish crossover (potential rebalance to 25% cap after recovery)",
-      "WMT earnings in 22 days: currently +2.2%; watch for post-earnings gap that could free up capital",
-      "TEM recovery inflection: down 39.85% but RSI 31.6 suggests capitulation; watch for weekly close above $48 as recovery signal",
-      "Fear/VIX regime shift: if VIX rises above 25 or Fear drops below 20, defensive posture may be warranted"
+      "INTU earnings or guidance (watch for inflection above -25% loss; trim 30\u201340% of shares if recovery reaches -20%)",
+      "TEM earnings catalyst (imminent per brief; hold through announcement but reassess thesis if guidance misses badly)",
+      "MSFT RSI at 71.8 (overbought but fundamentals solid; watch for rejection at highs; no action unless it breaks support)",
+      "LUV & WST persistence: confirm 2+ additional consecutive buy scrapes before deploying full $600 allocation",
+      "VIX spike above 20 (would validate oversold setup, create more swing opportunities)"
     ],
     "on_course_check": [
-      "\u2713 Plan is working: holding major losers (INTU -28.9%, TEM -39.9%, MSFT -16.4%) per mean-reversion philosophy; cash preserved for new entries",
-      "\u2713 Opportunity arriving: oversold screeners (LUV, WST, FLEX, GNRC) align with Fear=29 regime; offensive entry is justified",
-      "\u26a0 Condition to watch: if INTU falls below $140 or MSFT falls below $360 without RSI divergence, thesis may need revision; TEM below $45 would signal further capitulation"
+      "\u2713 On course: Major losers (INTU, TEM) held through >15% drawdowns per philosophy; no panic selling",
+      "\u2713 On course: $1K dry powder deployed into high-RSI oversold screener hits (LUV, WST) with persistence validation",
+      "\u26a0 Revise if: INTU breaches $19 support (new lows) without earnings catalyst \u2014 would signal thesis break, consider small EXIT trim",
+      "\u26a0 Revise if: TEM earnings miss guidance materially \u2014 thesis broken; can override hold rule if announcement is devastating",
+      "\u26a0 Revise if: VIX stays below 15 for 5+ days and rally accelerates \u2014 fewer mean-reversion setups, shift to defensive"
     ],
-    "generated_at": "2026-07-29T23:35:12.406321"
+    "generated_at": "2026-07-30T23:35:34.200326"
   },
   "history": [
+    {
+      "headline": "Portfolio down 13.73% with major losers held as planned; $1k dry powder positioned for mean-reversion entries in oversold quality names.",
+      "market_stance": "offensive",
+      "overall_thesis": "VIX at 20.7 and Fear at 29 create a classic mean-reversion environment. Core holdings (INTU, MSFT, ABT, CDNS) are being held through drawdowns per philosophy. With $1k available and multiple high-conviction oversold setups active (LUV, WST, FLEX, GNRC), deploy into the highest-probability entries to add positions during this weakness.",
+      "priority_actions": [
+        {
+          "rank": 1,
+          "action": "BUY",
+          "ticker": "LUV",
+          "instruction": "BUY ~55\u201360 shares at market open if RSI remains 35\u201342 and price is below $18.50. Persistent 2+ scrape Buy signal active. Allocation: ~$1,000 to stay under cash reserve.",
+          "urgency": "immediate"
+        },
+        {
+          "rank": 2,
+          "action": "BUY",
+          "ticker": "WST",
+          "instruction": "BUY ~20\u201325 shares if RSI dips back to 38\u201345 and price holds above $410. Healthcare quality compounder at inflection; persistent Buy signal. Scale in if LUV fills first.",
+          "urgency": "this week"
+        }
+      ],
+      "biggest_risk": "INTU at 27.9% exceeds 25% portfolio cap and is down 28.86%\u2014position concentration risk is elevated. Recovery may take 6+ weeks given current oversold state. If INTU continues to decline further, the concentrated loss will drag entire portfolio P&L.",
+      "what_to_watch": [
+        "INTU RSI mean-reversion trigger: watch for RSI drop below 65 + MACD bullish crossover (potential rebalance to 25% cap after recovery)",
+        "WMT earnings in 22 days: currently +2.2%; watch for post-earnings gap that could free up capital",
+        "TEM recovery inflection: down 39.85% but RSI 31.6 suggests capitulation; watch for weekly close above $48 as recovery signal",
+        "Fear/VIX regime shift: if VIX rises above 25 or Fear drops below 20, defensive posture may be warranted"
+      ],
+      "on_course_check": [
+        "\u2713 Plan is working: holding major losers (INTU -28.9%, TEM -39.9%, MSFT -16.4%) per mean-reversion philosophy; cash preserved for new entries",
+        "\u2713 Opportunity arriving: oversold screeners (LUV, WST, FLEX, GNRC) align with Fear=29 regime; offensive entry is justified",
+        "\u26a0 Condition to watch: if INTU falls below $140 or MSFT falls below $360 without RSI divergence, thesis may need revision; TEM below $45 would signal further capitulation"
+      ],
+      "generated_at": "2026-07-29T23:35:12.406321",
+      "archived_at": "2026-07-30T23:35:34.200608"
+    },
     {
       "headline": "Portfolio underwater but philosophy holds firm on major losers; deploy remaining $1K on mean-reversion opportunities with proven technical setups.",
       "market_stance": "neutral",
@@ -284,50 +329,6 @@
       ],
       "generated_at": "2026-07-21T23:33:18.912389",
       "archived_at": "2026-07-22T23:34:15.746776"
-    },
-    {
-      "headline": "Portfolio holding steady through major drawdowns; three oversold mean-reversion buys available within $1K budget.",
-      "market_stance": "offensive",
-      "overall_thesis": "Your core thesis is intact: hold through INTU and TEM drawdowns (>15%) and let them recover, while deploying remaining $1K into textbook oversold setups (RSI <35). The next 4\u20138 weeks will test conviction on tech recovery (MSFT earnings in 9 days, XOM in 11 days) and whether the oversold cohort (CDNS, FSLR, QCOM, COHR, CMS) snap back to mean. Fear index at 29 supports contrarian buying into weakness.",
-      "priority_actions": [
-        {
-          "rank": 1,
-          "action": "BUY",
-          "ticker": "CDNS",
-          "instruction": "Buy ~12\u201315 shares at current market price or better on any dip toward lower Bollinger Band. Allocate $400\u2013450 of your remaining $1K budget. RSI 28.6 is extreme oversold\u2014classic mean-reversion entry.",
-          "urgency": "immediate"
-        },
-        {
-          "rank": 2,
-          "action": "BUY",
-          "ticker": "COHR",
-          "instruction": "Buy ~8\u201310 shares at current market price. Allocate $350\u2013400. Persistent 2+ scrape Buy signal with RSI 33.3 in deep oversold. This is a high-conviction repeat screener.",
-          "urgency": "immediate"
-        },
-        {
-          "rank": 3,
-          "action": "BUY",
-          "ticker": "CMS",
-          "instruction": "Buy ~12\u201316 shares if price remains near lower Bollinger Band. Allocate remaining ~$150\u2013250 of budget. Persistent Buy signal (2+ scrapes); classic squeeze setup supports recovery pop.",
-          "urgency": "this week"
-        }
-      ],
-      "biggest_risk": "Tech sector earnings volatility (MSFT in 9 days, XOM in 11 days) could trigger forced selling if market shifts defensive. Additionally, INTU at \u201337.3% and TEM at \u201329.9% are significant portfolio drags\u2014if both break support or thesis fundamentals deteriorate, conviction to hold through will be tested hard.",
-      "what_to_watch": [
-        "MSFT earnings (9 days) \u2014 largest holding at 21.7% weight; any miss could cascade into broader tech selloff",
-        "XOM earnings (11 days) \u2014 your only profitable energy position; holds 8% weight and introduces uncertainty window",
-        "VIX persistence \u2014 Fear at 29 is supporting mean-reversion trades, but if VIX spikes >25 and stays there, new buys may get stopped out quickly",
-        "CDNS, COHR, CMS recovery traction \u2014 entry signals are strong, but track 1\u20132 week performance to confirm oversold bounce thesis is valid",
-        "INTU and TEM bottoming pattern \u2014 watch for RSI bounces off 39\u201340 to validate hold-through philosophy"
-      ],
-      "on_course_check": [
-        "\u2713 Plan is working if: CDNS, COHR, CMS show 8\u201315% gains within 10 trading days (mean-reversion snap-back validates screener)",
-        "\u2713 Plan is working if: MSFT and XOM earnings don't trigger broad tech selloff; sector holds relative strength",
-        "\u26a0 Revise plan if: INTU breaks below recent swing low or breaks below 50-day MA (thesis broken, not just drawdown); same for TEM",
-        "\u26a0 Revise plan if: VIX spikes above 28\u201330 and stays >25 for 3+ days (defensive rotation mode, new buys too risky)"
-      ],
-      "generated_at": "2026-07-20T23:34:47.863132",
-      "archived_at": "2026-07-21T23:33:18.912699"
     }
   ]
 }

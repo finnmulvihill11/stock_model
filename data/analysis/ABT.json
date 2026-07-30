@@ -8,21 +8,21 @@
     "sell_score": 0.43,
     "reasons": [],
     "misses": [
-      "BB: price not near lower band (pct=0.95)",
+      "BB: price not near lower band (pct=0.81)",
       "BB Width: bands expanding, not squeezing",
-      "RSI: not in buy zone (74.4, need 20-40)",
+      "RSI: not in buy zone (67.1, need 20-40)",
       "MACD: no bullish crossover or valley",
       "RSI Divergence: no bullish divergence detected",
-      "Volume: below average (0.93x) \u2014 low conviction"
+      "Volume: below average (0.50x) \u2014 low conviction"
     ],
-    "price": 108.0,
-    "rsi": 74.4,
-    "atr": 3.41,
+    "price": 105.61,
+    "rsi": 67.1,
+    "atr": 3.55,
     "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 1,
-      "suggested_dollars": 108.0,
-      "note": "1 sh @ $108.00 = $108 (Hold, 60% size) | $927 swing budget after"
+      "suggested_dollars": 105.61,
+      "note": "1 sh @ $105.61 = $106 (Hold, 60% size) | $929 swing budget after"
     }
   },
   "fundamentals": {
@@ -35,7 +35,7 @@
     ],
     "flags": [],
     "revenue_growth": 0.13,
-    "de_ratio": 64.773,
+    "de_ratio": 63.212,
     "profit_margins": 0.116450004
   },
   "earnings": {
@@ -49,9 +49,9 @@
         "Earnings declining YoY (-47.5%)",
         "Revenue growing (+13.0%)"
       ],
-      "earnings_status": "distant",
-      "next_earnings_date": "2026-10-14",
-      "days_to_earnings": 77
+      "earnings_status": "past",
+      "next_earnings_date": "2026-07-16",
+      "days_to_earnings": -14
     }
   },
   "news": {
@@ -59,33 +59,34 @@
     "sentiment": "neutral",
     "health": "healthy",
     "key_events": [
-      "No recent news catalysts available",
-      "Earnings 77 days out (ample runway)",
-      "RSI at 74.4 indicates overbought conditions on recent move"
+      "Earnings reported 14 days ago",
+      "Stock down 3.79% from entry",
+      "RSI at 67.1 indicating overbought conditions historically, now cooling",
+      "Market sentiment Fear despite neutral VIX (17.1)"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "Overbought RSI suggesting pullback risk",
-      "No bullish technical firing signals despite elevated RSI",
-      "Position underwater -1.61% with no immediate catalyst"
+      "No recent news catalysts visible",
+      "Post-earnings pullback without clear recovery momentum",
+      "Market Fear sentiment despite low volatility suggesting rotation risk"
     ],
-    "verdict": "ABT is fundamentally sound but technically extended; minor loss is noise given the philosophy constraints and healthy fundamentals.",
+    "verdict": "Healthy fundamentals support holding; position is manageable at -3.79% loss with strong portfolio weighting discipline.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "ABT",
-    "stock_return_3m": 15.89,
-    "benchmark_return_3m": 2.76,
-    "relative_strength": 13.12,
+    "stock_return_3m": 16.46,
+    "benchmark_return_3m": 4.5,
+    "relative_strength": 11.96,
     "label": "outperforming"
   },
   "final_tier": "Hold",
   "sizing": {
     "suggested_shares": 1,
-    "suggested_dollars": 108.0,
-    "note": "1 sh @ $108.00 = $108 (Hold, 60% size) | $927 swing budget after"
+    "suggested_dollars": 105.61,
+    "note": "1 sh @ $105.61 = $106 (Hold, 60% size) | $929 swing budget after"
   },
   "is_dca": false,
-  "saved_at": "2026-07-29T23:34:37.539005"
+  "saved_at": "2026-07-30T23:34:57.473094"
 }

@@ -5,23 +5,23 @@
     "direction": "hold",
     "tier": "Hold",
     "buy_score": 0.38,
-    "sell_score": 0.14,
+    "sell_score": 0.29,
     "reasons": [],
     "misses": [
+      "BB: price not near lower band (pct=0.23)",
       "BB Width: bands expanding, not squeezing",
       "RSI Divergence: no bullish divergence detected",
       "200MA: price below 200MA \u2014 potential falling knife",
-      "Death cross active: 50MA (51.05) below 200MA (59.91)",
-      "Volume: below average (0.84x) \u2014 low conviction"
+      "Death cross active: 50MA (51.06) below 200MA (59.65)"
     ],
-    "price": 41.55,
-    "rsi": 31.6,
-    "atr": 3.36,
+    "price": 44.29,
+    "rsi": 38.6,
+    "atr": 3.19,
     "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 4,
-      "suggested_dollars": 166.2,
-      "note": "4 sh @ $41.55 = $166 (Hold, 60% size) | $869 swing budget after"
+      "suggested_dollars": 177.16,
+      "note": "4 sh @ $44.29 = $177 (Hold, 60% size) | $858 swing budget after"
     }
   },
   "fundamentals": {
@@ -40,7 +40,7 @@
   },
   "earnings": {
     "proceed": false,
-    "reason": "Earnings in 1 days \u2014 wait for results before acting",
+    "reason": "Earnings in 0 days \u2014 wait for results before acting",
     "verdict": {
       "ticker": "TEM",
       "verdict": "consider",
@@ -50,7 +50,7 @@
       ],
       "earnings_status": "imminent",
       "next_earnings_date": "2026-07-30",
-      "days_to_earnings": 1
+      "days_to_earnings": 0
     }
   },
   "news": {
@@ -58,38 +58,36 @@
     "sentiment": "negative",
     "health": "deteriorating",
     "key_events": [
-      "Earnings report imminent (1 day)",
-      "Stock down 39.85% from entry",
-      "High debt-to-equity ratio (3.2x)",
-      "Negative operating cash flow",
-      "Not profitable"
+      "Earnings imminent \u2014 critical catalyst for direction",
+      "RSI 38.6 \u2014 oversold territory but no bullish divergence firing",
+      "High debt-to-equity (3.2x) \u2014 leverage risk in downturn",
+      "Negative operating cash flow \u2014 sustainability concerns"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "Deteriorating fundamentals with unsustainable debt levels",
-      "Negative cash flow indicates burn rate concerns",
-      "RSI at 31.6 suggests oversold but no relief rally firing",
-      "Earnings catalyst imminent with weak fundamentals = downside risk",
-      "No positive news catalysts visible",
-      "Fear sentiment in broader market"
+      "Not profitable + negative OCF = cash burn accelerating",
+      "35.89% drawdown from entry \u2014 severe underwater position",
+      "No technical firing signals despite oversold RSI",
+      "Fear sentiment in market adds headwinds to unprofitable growth stock",
+      "Earnings imminent with deteriorating fundamentals = high gap risk"
     ],
-    "verdict": "TEM is a deteriorating biotech with critical cash burn and debt concerns; imminent earnings could trigger further downside.",
+    "verdict": "High-risk unprofitable AI stock with negative cash burn, deteriorating fundamentals, and imminent earnings; position is severely underwater with limited near-term catalysts for recovery.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "TEM",
-    "stock_return_3m": -18.69,
-    "benchmark_return_3m": 2.76,
-    "relative_strength": -21.45,
+    "stock_return_3m": -11.46,
+    "benchmark_return_3m": 4.5,
+    "relative_strength": -15.96,
     "label": "underperforming"
   },
   "final_tier": "Hold",
   "sizing": {
     "suggested_shares": 4,
-    "suggested_dollars": 166.2,
-    "note": "4 sh @ $41.55 = $166 (Hold, 60% size) | $869 swing budget after"
+    "suggested_dollars": 177.16,
+    "note": "4 sh @ $44.29 = $177 (Hold, 60% size) | $858 swing budget after"
   },
   "is_dca": false,
-  "saved_at": "2026-07-29T23:34:45.465487"
+  "saved_at": "2026-07-30T23:35:06.538996"
 }

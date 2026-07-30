@@ -3,19 +3,36 @@
     "ticker": "WMT",
     "company_name": "Walmart Inc.",
     "action": "Hold",
-    "action_reason": "Position is profitable with healthy fundamentals and an earnings event in 22 days that could provide directional clarity. Current gain is insufficient to warrant profit-taking given swing trader timeframe.",
-    "target_price": null,
+    "action_reason": "Position is only -0.58% down (well within normal swing volatility) and fundamentals are healthy. Upcoming earnings in 3 weeks is a natural catalyst to hold for; adding would dilute entry price unnecessarily before that event.",
+    "target_price": 114.5,
     "target_reasoning": "",
-    "exit_trigger": "Exit if price closes below $108.50 (support break below 3% initial risk) OR if earnings disappoint with forward guidance reduction. Exit if VIX spikes above 25 without fundamental support.",
-    "add_trigger": "Add if price pulls back to $111-112 on technical dip with RSI below 45, maintaining conviction before earnings. Only add if fundamentals remain unchanged.",
-    "risk": "Pre-earnings volatility could cause sharp moves in either direction; gap risk on earnings miss; geopolitical escalation could pressure consumer retail.",
+    "exit_trigger": "Break below $108.50 (technical support) on high volume, or negative earnings surprise with forward guidance cut",
+    "add_trigger": "If WMT drops to $107\u2013$108 on market weakness (creating better risk/reward before earnings) AND RSI remains above 30",
+    "risk": "Earnings disappointment could trigger 3\u20135% selloff; retail sector sensitivity to consumer spending narratives in Fear market environment",
     "outlook": "neutral",
-    "timeframe": "22 days (earnings-driven), reassess 2-3 days post-earnings",
-    "generated_at": "2026-07-29T23:34:53.108658",
-    "price_at_generation": 114.22,
-    "pnl_at_generation": 2.21
+    "timeframe": "3 weeks (hold through earnings)",
+    "generated_at": "2026-07-30T23:35:13.048897",
+    "price_at_generation": 111.1,
+    "pnl_at_generation": -0.58
   },
   "history": [
+    {
+      "ticker": "WMT",
+      "company_name": "Walmart Inc.",
+      "action": "Hold",
+      "action_reason": "Position is profitable with healthy fundamentals and an earnings event in 22 days that could provide directional clarity. Current gain is insufficient to warrant profit-taking given swing trader timeframe.",
+      "target_price": null,
+      "target_reasoning": "",
+      "exit_trigger": "Exit if price closes below $108.50 (support break below 3% initial risk) OR if earnings disappoint with forward guidance reduction. Exit if VIX spikes above 25 without fundamental support.",
+      "add_trigger": "Add if price pulls back to $111-112 on technical dip with RSI below 45, maintaining conviction before earnings. Only add if fundamentals remain unchanged.",
+      "risk": "Pre-earnings volatility could cause sharp moves in either direction; gap risk on earnings miss; geopolitical escalation could pressure consumer retail.",
+      "outlook": "neutral",
+      "timeframe": "22 days (earnings-driven), reassess 2-3 days post-earnings",
+      "generated_at": "2026-07-29T23:34:53.108658",
+      "price_at_generation": 114.22,
+      "pnl_at_generation": 2.21,
+      "archived_at": "2026-07-30T23:35:13.049097"
+    },
     {
       "ticker": "WMT",
       "company_name": "Walmart Inc.",
@@ -117,23 +134,6 @@
       "price_at_generation": 110.39,
       "pnl_at_generation": -1.22,
       "archived_at": "2026-07-22T23:33:44.114138"
-    },
-    {
-      "ticker": "WMT",
-      "company_name": "Walmart Inc.",
-      "action": "Hold",
-      "action_reason": "Position is modestly profitable (+0.40%) at 3% weight with healthy fundamentals and neutral technicals. Lack of news and distant earnings warrant patience rather than action; no reason to trim a small winner without a clear exit signal.",
-      "target_price": 115.5,
-      "target_reasoning": "",
-      "exit_trigger": "RSI breaks below 35 on increased volume, or closes below $111.00 on deteriorating fundamentals",
-      "add_trigger": "RSI rises above 55 with confirmed breakout above $113.50 on increasing volume",
-      "risk": "Neutral market sentiment + Fear gauge could trigger sudden selloff; earnings miss in 31 days could create gap down",
-      "outlook": "neutral",
-      "timeframe": "3-6 weeks (hold through earnings approach)",
-      "generated_at": "2026-07-20T23:34:28.010169",
-      "price_at_generation": 112.2,
-      "pnl_at_generation": 0.4,
-      "archived_at": "2026-07-21T23:32:50.877539"
     }
   ]
 }
