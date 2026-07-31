@@ -40,6 +40,9 @@ portfolio:
   - ticker: CDNS
     shares: 1.0
     avg_cost: 338.03
+  - ticker: GNRC
+    shares: 1.0
+    avg_cost: 196.88
   dca_tickers:
   - GRNI
   - VOO
