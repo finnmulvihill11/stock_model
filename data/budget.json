@@ -258,6 +258,14 @@
       "avg_cost": 137.15,
       "realized_pnl": 32.8,
       "realized_pnl_pct": 11.96
+    },
+    {
+      "date": "2026-07-31",
+      "ticker": "GNRC",
+      "shares": 1.0,
+      "amount": 196.88,
+      "type": "swing",
+      "action": "buy"
     }
   ]
 }
