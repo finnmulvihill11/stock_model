@@ -1,18 +1,32 @@
 {
   "current": {
-    "recommendation": "consider_adding",
-    "summary": "VTI is trading near 52-week highs in a strong uptrend with solid 1Y momentum (+22.9%), but extreme fear sentiment and neutral technicals suggest caution on initial sizing. This is an opportune entry point for dollar-cost averaging rather than a lump-sum accumulation.",
-    "this_month": "Allocate 100% of your normal monthly DCA amount. Do not increase position size due to proximity to recent highs, but maintain discipline\u2014this is a core holding that benefits from regular, consistent buys regardless of price level.",
-    "long_term_thesis": "VTI provides complete U.S. market exposure (3,500+ holdings) with ultra-low costs (0.03% ER), making it the foundational broad-market ETF for long-term wealth building. Its $2.3T AUM ensures liquidity and staying power.",
-    "risks": "Valuation risk if equity multiples compress; concentration in mega-cap tech; broad market downside if recession occurs. Current extreme fear sentiment could precede 10\u201315% pullback.",
-    "worth_adding": true,
-    "add_rationale": "VTI is a must-own for any long-term core portfolio. Despite being near highs, the fear/greed disconnect (extreme fear at market peak) creates a psychological edge for DCA investors\u2014you'll buy more shares on future weakness while maintaining exposure to upside. Start with normal contributions and let market volatility create better entry points.",
-    "generated_at": "2026-07-01T23:14:54.096426",
     "ticker": "VTI",
     "name": "Vanguard Total Stock Market ETF",
-    "category": "Broad Us"
+    "category": "Broad Us",
+    "recommendation": "hold",
+    "summary": "Analysis unavailable: Unterminated string starting at: line 9 column 19 (char 1944)",
+    "this_month": "Stick to normal amount",
+    "long_term_thesis": "",
+    "risks": "",
+    "worth_adding": false,
+    "add_rationale": "",
+    "generated_at": "2026-08-01T22:54:36.610863"
   },
   "history": [
+    {
+      "recommendation": "consider_adding",
+      "summary": "VTI is trading near 52-week highs in a strong uptrend with solid 1Y momentum (+22.9%), but extreme fear sentiment and neutral technicals suggest caution on initial sizing. This is an opportune entry point for dollar-cost averaging rather than a lump-sum accumulation.",
+      "this_month": "Allocate 100% of your normal monthly DCA amount. Do not increase position size due to proximity to recent highs, but maintain discipline\u2014this is a core holding that benefits from regular, consistent buys regardless of price level.",
+      "long_term_thesis": "VTI provides complete U.S. market exposure (3,500+ holdings) with ultra-low costs (0.03% ER), making it the foundational broad-market ETF for long-term wealth building. Its $2.3T AUM ensures liquidity and staying power.",
+      "risks": "Valuation risk if equity multiples compress; concentration in mega-cap tech; broad market downside if recession occurs. Current extreme fear sentiment could precede 10\u201315% pullback.",
+      "worth_adding": true,
+      "add_rationale": "VTI is a must-own for any long-term core portfolio. Despite being near highs, the fear/greed disconnect (extreme fear at market peak) creates a psychological edge for DCA investors\u2014you'll buy more shares on future weakness while maintaining exposure to upside. Start with normal contributions and let market volatility create better entry points.",
+      "generated_at": "2026-07-01T23:14:54.096426",
+      "ticker": "VTI",
+      "name": "Vanguard Total Stock Market ETF",
+      "category": "Broad Us",
+      "archived_at": "2026-08-01T22:54:36.611053"
+    },
     {
       "recommendation": "consider_adding",
       "summary": "VTI is near 52-week highs in a strong uptrend, but the extreme fear reading suggests market pessimism hasn't caught up with price strength. This is a textbook setup for steady accumulation\u2014the broad market foundation is performing well despite sentiment headwinds, making it an ideal DCA candidate.",

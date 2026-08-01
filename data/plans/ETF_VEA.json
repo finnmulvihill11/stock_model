@@ -1,18 +1,32 @@
 {
   "current": {
     "recommendation": "consider_adding",
-    "summary": "VEA is near 52-week highs after a strong +27% annual return, signaling healthy momentum in developed markets ex-US. However, extreme fear readings (11) suggest market anxiety despite the uptrend, creating a nuanced entry point\u2014neither panic nor euphoria.",
-    "this_month": "Contribute your normal monthly DCA amount (~100% of planned allocation). The ETF's position near highs justifies sticking to discipline rather than chasing or deferring; dollar-cost averaging smooths entry risk over time.",
-    "long_term_thesis": "Developed international exposure (Europe, Japan, Australia, Canada) provides essential geographic diversification away from US-concentrated risk and captures secular growth in mature economies with strong dividend yields and corporate governance.",
-    "risks": "Currency headwinds (USD strength), slower GDP growth vs. emerging markets, and valuation compression if US equity outperformance persists. Near-highs mean limited margin of safety if sentiment turns.",
+    "summary": "VEA is near 52-week highs after a strong +28.1% annual run, but remains well-positioned above its 200MA in a solid uptrend. The Fear & Greed reading of 27 suggests some caution, yet the fund's massive $316.3B AUM and 0.05% expense ratio make it a reliable long-term core holding despite near-term valuation caution.",
+    "this_month": "Proceed with your normal monthly DCA amount\u2014do not accelerate or skip. At near-highs, consistent dollar-cost averaging actually protects you by spreading entry across multiple price levels over time. This is when discipline matters most.",
+    "long_term_thesis": "Developed international markets offer crucial portfolio diversification beyond U.S. equities and are underrepresented in many U.S. investor portfolios. VEA's ultra-low expense ratio (0.05%) and broad exposure to Europe, Japan, and other developed economies make it a natural complement to U.S. core holdings over a 10+ year horizon.",
+    "risks": "Currency headwinds (USD strength reduces returns for U.S. investors), cyclical weakness in developed economies, and valuation compression if growth expectations reset lower. Near 52-week highs also means limited margin of safety\u2014near-term pullback is possible.",
     "worth_adding": true,
-    "add_rationale": "VEA merits inclusion in a diversified long-term core. It holds $317B in AUM (highly liquid), has a reasonable 0.05% expense ratio (note: the 5.00% figure appears to be a data error\u2014VEA's true ratio is ~0.05%), and developed markets remain essential for balanced global exposure. The combination of strong trend + extreme fear creates a psychologically favorable entry for systematic accumulation.",
-    "generated_at": "2026-07-01T23:15:06.179700",
+    "add_rationale": "If VEA is not yet in your portfolio, add it to your DCA stack now\u2014but only as a monthly commitment, not a lump sum. The current price elevation is precisely why systematic monthly accumulation works better than waiting: you'll average in smoothly. Target allocation: 15-25% of your international equity sleeve, scaling up gradually over 6-12 months.",
+    "generated_at": "2026-08-01T22:54:48.631768",
     "ticker": "VEA",
     "name": "Vanguard Developed Markets ETF",
     "category": "International"
   },
   "history": [
+    {
+      "recommendation": "consider_adding",
+      "summary": "VEA is near 52-week highs after a strong +27% annual return, signaling healthy momentum in developed markets ex-US. However, extreme fear readings (11) suggest market anxiety despite the uptrend, creating a nuanced entry point\u2014neither panic nor euphoria.",
+      "this_month": "Contribute your normal monthly DCA amount (~100% of planned allocation). The ETF's position near highs justifies sticking to discipline rather than chasing or deferring; dollar-cost averaging smooths entry risk over time.",
+      "long_term_thesis": "Developed international exposure (Europe, Japan, Australia, Canada) provides essential geographic diversification away from US-concentrated risk and captures secular growth in mature economies with strong dividend yields and corporate governance.",
+      "risks": "Currency headwinds (USD strength), slower GDP growth vs. emerging markets, and valuation compression if US equity outperformance persists. Near-highs mean limited margin of safety if sentiment turns.",
+      "worth_adding": true,
+      "add_rationale": "VEA merits inclusion in a diversified long-term core. It holds $317B in AUM (highly liquid), has a reasonable 0.05% expense ratio (note: the 5.00% figure appears to be a data error\u2014VEA's true ratio is ~0.05%), and developed markets remain essential for balanced global exposure. The combination of strong trend + extreme fear creates a psychologically favorable entry for systematic accumulation.",
+      "generated_at": "2026-07-01T23:15:06.179700",
+      "ticker": "VEA",
+      "name": "Vanguard Developed Markets ETF",
+      "category": "International",
+      "archived_at": "2026-08-01T22:54:48.631957"
+    },
     {
       "recommendation": "consider_adding",
       "summary": "VEA is at all-time highs after a strong 1-year run (+33.9%), but the Fear & Greed extreme fear reading suggests a disconnect between price momentum and market sentiment. This is actually a favorable entry point for long-term DCA\u2014you're buying quality developed market exposure when others are fearful, not euphoric.",

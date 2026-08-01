@@ -1,18 +1,32 @@
 {
   "current": {
     "recommendation": "consider_adding",
-    "summary": "QQQ is near 52-week highs after a strong 32% annual return, but the Fear & Greed extreme fear reading suggests meaningful pullback risk remains. The strong uptrend and above-200MA positioning are positive, but valuation and sentiment warrant measured entry rather than aggressive buying at current levels.",
-    "this_month": "Allocate 100% of normal monthly DCA amount. Do not increase. QQQ's proximity to recent highs and extreme fear sentiment make this a 'stick to plan' month\u2014let your disciplined monthly contribution work for you rather than front-loading into strength.",
-    "long_term_thesis": "QQQ provides concentrated exposure to mega-cap tech and growth leaders that have driven US equity returns; as a core holding for 10+ year horizons, regular DCA through cycles smooths volatility and captures the sector's structural tailwinds in AI, cloud, and digital transformation.",
-    "risks": "Concentration risk in 7 mega-cap stocks (~50% of fund); tech sector valuation sensitivity to rate expectations; drawdown from highs could exceed 10-15% in a correction\u2014test your conviction before adding.",
+    "summary": "QQQ is a high-quality mega-cap tech ETF in a strong uptrend, currently pulled back 7.7% from its 52-week high\u2014a modest correction in a bull market rather than a capitulation signal. The Fear & Greed reading of 27 suggests some caution in the market, but the ETF remains above its 200MA with solid 1-year returns (+21.7%), making this a reasonable entry point for new capital rather than an urgent accumulation opportunity.",
+    "this_month": "Add 10\u201315% above your normal monthly DCA amount. The pullback is modest and healthy; you're not catching a falling knife, but you're taking advantage of a 7.7% discount from recent highs. Don't overcommit\u2014this is a measured increase, not a lump-sum buy.",
+    "long_term_thesis": "QQQ provides concentrated exposure to the 100 largest non-financial Nasdaq stocks, capturing long-term secular growth in technology, AI, and innovation. For a buy-and-hold investor, it's a core holding that balances growth with the stability of mega-cap names, though it carries higher volatility than the broader market.",
+    "risks": "High concentration in mega-cap tech and AI narrative exposure means it will amplify downturns in risk-off environments. Valuations are rich; a sustained market correction or tech slowdown could see 20%+ drawdowns. Not suitable as your sole equity holding.",
     "worth_adding": true,
-    "add_rationale": "Yes, add to DCA stack at normal monthly amounts. Despite extreme fear and proximity to highs, QQQ's $494B AUM, tight 0.20% expense ratio, and dominance of structural growth themes justify inclusion in a long-term core portfolio. Dollar-cost averaging through fear and greed cycles is precisely when DCA wins. Start small and steady rather than waiting for a deeper pullback\u2014time in market beats timing.",
-    "generated_at": "2026-07-01T23:14:59.651725",
+    "add_rationale": "Yes\u2014add QQQ as a core DCA position, but only if your portfolio can tolerate its volatility and you're not already overweight in tech elsewhere. It's a legitimate long-term compounder with $490B in AUM and near-zero tracking error. However, don't make it your largest position; pair it with broader market exposure (VTI/VOO) to reduce single-sector risk. The current pullback is a good *entry*, not a bargain-basement opportunity.",
+    "generated_at": "2026-08-01T22:54:42.928656",
     "ticker": "QQQ",
     "name": "Invesco NASDAQ-100 ETF",
     "category": "Broad Us"
   },
   "history": [
+    {
+      "recommendation": "consider_adding",
+      "summary": "QQQ is near 52-week highs after a strong 32% annual return, but the Fear & Greed extreme fear reading suggests meaningful pullback risk remains. The strong uptrend and above-200MA positioning are positive, but valuation and sentiment warrant measured entry rather than aggressive buying at current levels.",
+      "this_month": "Allocate 100% of normal monthly DCA amount. Do not increase. QQQ's proximity to recent highs and extreme fear sentiment make this a 'stick to plan' month\u2014let your disciplined monthly contribution work for you rather than front-loading into strength.",
+      "long_term_thesis": "QQQ provides concentrated exposure to mega-cap tech and growth leaders that have driven US equity returns; as a core holding for 10+ year horizons, regular DCA through cycles smooths volatility and captures the sector's structural tailwinds in AI, cloud, and digital transformation.",
+      "risks": "Concentration risk in 7 mega-cap stocks (~50% of fund); tech sector valuation sensitivity to rate expectations; drawdown from highs could exceed 10-15% in a correction\u2014test your conviction before adding.",
+      "worth_adding": true,
+      "add_rationale": "Yes, add to DCA stack at normal monthly amounts. Despite extreme fear and proximity to highs, QQQ's $494B AUM, tight 0.20% expense ratio, and dominance of structural growth themes justify inclusion in a long-term core portfolio. Dollar-cost averaging through fear and greed cycles is precisely when DCA wins. Start small and steady rather than waiting for a deeper pullback\u2014time in market beats timing.",
+      "generated_at": "2026-07-01T23:14:59.651725",
+      "ticker": "QQQ",
+      "name": "Invesco NASDAQ-100 ETF",
+      "category": "Broad Us",
+      "archived_at": "2026-08-01T22:54:42.928869"
+    },
     {
       "recommendation": "consider_adding",
       "summary": "QQQ is trading near 52-week highs with strong momentum (+39.8% YTM), but the Fear & Greed extreme fear reading suggests market sentiment is disconnected from prices\u2014a warning sign. The strong uptrend and positioning above 200MA are positive, but valuation risk is elevated at current levels.",

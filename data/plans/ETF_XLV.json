@@ -1,18 +1,32 @@
 {
   "current": {
     "recommendation": "consider_adding",
-    "summary": "XLV is at near-52-week highs with strong momentum (+20.4% YoY) and sits safely above its 200MA, signaling healthy long-term trend. However, extreme fear sentiment and neutral VIX suggest caution on timing\u2014this is a good entry point for consistent DCA, not a rush-in moment. The sector fundamentals (defensive healthcare exposure) remain sound despite valuation concerns at current levels.",
-    "this_month": "Contribute your normal monthly DCA amount (100% of planned allocation). Do not increase despite strong performance. XLV's proximity to 52-week highs justifies disciplined, unvaried contributions rather than aggressive buying.",
-    "long_term_thesis": "Healthcare is a structural growth sector with aging demographics, defensive characteristics during downturns, and essential demand inelasticity. XLV's $38.2B AUM and broad sector exposure make it a reliable core holding for long-term wealth building, especially as part of a diversified sector rotation strategy.",
-    "risks": "Valuation risk at current highs; sector concentration (large-cap pharma/medtech bias); regulatory headwinds (drug pricing, healthcare reform); already priced in significant YoY gains, leaving less margin of safety.",
+    "summary": "XLV is in a strong uptrend and near 52-week highs with solid 1Y returns (+23.2%), but current valuation and Fear & Greed sentiment (27) suggest waiting for a pullback before committing. The healthcare sector fundamentals remain sound for long-term exposure, but entry timing matters for DCA discipline.",
+    "this_month": "Skip this month or allocate only 50% of normal DCA amount. XLV is 2.8% from its 52-week high and Fear sentiment indicates potential near-term consolidation. Use cash to build dry powder for a 5\u201310% pullback, then accelerate contributions.",
+    "long_term_thesis": "Healthcare is a defensive, dividend-rich sector with secular tailwinds (aging populations, innovation pipeline) and lower beta than broad market. XLV's $40.6B AUM and 0.09% expense ratio make it a core holding for a balanced portfolio.",
+    "risks": "High valuation relative to recent history; sector rotation risk if growth outperforms; regulatory/pricing pressure on pharma and medical devices; near-term pullback likely given proximity to 52w high.",
     "worth_adding": true,
-    "add_rationale": "XLV merits inclusion in a diversified long-term portfolio as a core sector holding, but add it via steady DCA rather than lump-sum or accelerated buying. The extreme fear environment + strong technical setup creates a reasonable entry, but high valuations argue for gradual position building. Start at normal monthly contribution and reassess on any 5\u20138% pullback.",
-    "generated_at": "2026-07-01T23:15:47.670519",
+    "add_rationale": "XLV belongs in a long-term core portfolio for its defensive characteristics and dividend yield, but current technicals (near highs, low VIX, Fear sentiment) argue for staged entry rather than full commitment now. Begin with 50% DCA contributions this month, then shift to normal or accelerated amounts on any 5\u20138% pullback.",
+    "generated_at": "2026-08-01T22:55:26.953124",
     "ticker": "XLV",
     "name": "Health Care Select Sector SPDR",
     "category": "Sector"
   },
   "history": [
+    {
+      "recommendation": "consider_adding",
+      "summary": "XLV is at near-52-week highs with strong momentum (+20.4% YoY) and sits safely above its 200MA, signaling healthy long-term trend. However, extreme fear sentiment and neutral VIX suggest caution on timing\u2014this is a good entry point for consistent DCA, not a rush-in moment. The sector fundamentals (defensive healthcare exposure) remain sound despite valuation concerns at current levels.",
+      "this_month": "Contribute your normal monthly DCA amount (100% of planned allocation). Do not increase despite strong performance. XLV's proximity to 52-week highs justifies disciplined, unvaried contributions rather than aggressive buying.",
+      "long_term_thesis": "Healthcare is a structural growth sector with aging demographics, defensive characteristics during downturns, and essential demand inelasticity. XLV's $38.2B AUM and broad sector exposure make it a reliable core holding for long-term wealth building, especially as part of a diversified sector rotation strategy.",
+      "risks": "Valuation risk at current highs; sector concentration (large-cap pharma/medtech bias); regulatory headwinds (drug pricing, healthcare reform); already priced in significant YoY gains, leaving less margin of safety.",
+      "worth_adding": true,
+      "add_rationale": "XLV merits inclusion in a diversified long-term portfolio as a core sector holding, but add it via steady DCA rather than lump-sum or accelerated buying. The extreme fear environment + strong technical setup creates a reasonable entry, but high valuations argue for gradual position building. Start at normal monthly contribution and reassess on any 5\u20138% pullback.",
+      "generated_at": "2026-07-01T23:15:47.670519",
+      "ticker": "XLV",
+      "name": "Health Care Select Sector SPDR",
+      "category": "Sector",
+      "archived_at": "2026-08-01T22:55:26.953305"
+    },
     {
       "recommendation": "consider_adding",
       "summary": "XLV is in a healthy uptrend with solid 1-year performance (+14.2%), currently trading 6.2% below its 52-week high\u2014a reasonable entry point for long-term accumulation. However, the extremely fearful market sentiment (Fear & Greed: 15) suggests caution; this pullback may deepen before healthcare stabilizes as a defensive core holding.",
