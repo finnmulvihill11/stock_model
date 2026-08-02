@@ -3,19 +3,36 @@
     "ticker": "TEM",
     "company_name": "Tempus AI, Inc.",
     "action": "Hold",
-    "action_reason": "Philosophy mandates holding through >15% drawdowns. However, given imminent earnings with deteriorating fundamentals, do NOT add. Wait for earnings results to clarify cash runway and profitability path before reassessing hold thesis.",
-    "target_price": null,
+    "action_reason": "Loss exceeds 15% threshold; philosophy requires holding major losers. However, monitor closely for deterioration acceleration or bankruptcy risk\u2014this is a forced hold, not conviction.",
+    "target_price": 55.0,
     "target_reasoning": "",
-    "exit_trigger": "Post-earnings: cash runway <12 months OR guidance misses AND closes below $40 on high volume. If debt refinance risk emerges, exit immediately regardless of drawdown.",
-    "add_trigger": "Post-earnings beat + positive cash flow guidance + new strategic partnership announced. Only then consider averaging down to $35-38 range.",
-    "risk": "Accelerating cash burn forces dilutive financing or bankruptcy risk; unprofitable AI company vulnerable to funding freeze in risk-off environment.",
+    "exit_trigger": "Break below $35 or announcement of dilutive financing/covenant breach; alternatively, hold until 20%+ recovery or clear profitability path emerges",
+    "add_trigger": "Not recommended given fundamentals; only if company announces debt restructuring + path to profitability AND stock stabilizes above $45",
+    "risk": "Continued cash burn and debt pressure could force dilutive equity raises or restructuring; biotech/AI valuations remain compressed",
     "outlook": "cautious",
-    "timeframe": "Earnings-dependent (likely <2 weeks). Position viability determined by cash runway clarity and path to profitability. Reassess hold thesis after earnings; if negative, prepare exit on any bounce.",
-    "generated_at": "2026-07-30T23:35:06.538227",
-    "price_at_generation": 44.29,
-    "pnl_at_generation": -35.89
+    "timeframe": "3-6 months (watch next earnings closely; needs operational improvement)",
+    "generated_at": "2026-08-02T23:31:58.230050",
+    "price_at_generation": 43.87,
+    "pnl_at_generation": -36.49
   },
   "history": [
+    {
+      "ticker": "TEM",
+      "company_name": "Tempus AI, Inc.",
+      "action": "Hold",
+      "action_reason": "Philosophy mandates holding through >15% drawdowns. However, given imminent earnings with deteriorating fundamentals, do NOT add. Wait for earnings results to clarify cash runway and profitability path before reassessing hold thesis.",
+      "target_price": null,
+      "target_reasoning": "",
+      "exit_trigger": "Post-earnings: cash runway <12 months OR guidance misses AND closes below $40 on high volume. If debt refinance risk emerges, exit immediately regardless of drawdown.",
+      "add_trigger": "Post-earnings beat + positive cash flow guidance + new strategic partnership announced. Only then consider averaging down to $35-38 range.",
+      "risk": "Accelerating cash burn forces dilutive financing or bankruptcy risk; unprofitable AI company vulnerable to funding freeze in risk-off environment.",
+      "outlook": "cautious",
+      "timeframe": "Earnings-dependent (likely <2 weeks). Position viability determined by cash runway clarity and path to profitability. Reassess hold thesis after earnings; if negative, prepare exit on any bounce.",
+      "generated_at": "2026-07-30T23:35:06.538227",
+      "price_at_generation": 44.29,
+      "pnl_at_generation": -35.89,
+      "archived_at": "2026-08-02T23:31:58.230311"
+    },
     {
       "ticker": "TEM",
       "company_name": "Tempus AI, Inc.",
@@ -117,23 +134,6 @@
       "price_at_generation": 48.98,
       "pnl_at_generation": -29.1,
       "archived_at": "2026-07-23T23:31:03.041702"
-    },
-    {
-      "ticker": "TEM",
-      "company_name": "Tempus AI, Inc.",
-      "action": "Hold",
-      "action_reason": "Position is down >15%, triggering philosophy to hold through major losers. However, immediately prepare exit plan if earnings disappoint or debt concerns accelerate.",
-      "target_price": null,
-      "target_reasoning": "",
-      "exit_trigger": "Earnings miss with guidance cut, or debt covenant breach announcement, or close below $40 (major support break)",
-      "add_trigger": "Do NOT add\u2014fundamentals do not support averaging down; wait for profitability proof post-earnings",
-      "risk": "Insolvency risk if operating cash flow doesn't improve; debt refinancing challenges if equity value continues eroding",
-      "outlook": "cautious",
-      "timeframe": "2 weeks (earnings catalyst critical\u2014reassess immediately after results)",
-      "generated_at": "2026-07-20T23:34:02.746692",
-      "price_at_generation": 48.41,
-      "pnl_at_generation": -29.92,
-      "archived_at": "2026-07-21T23:32:29.080152"
     }
   ]
 }

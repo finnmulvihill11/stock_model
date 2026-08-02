@@ -4,20 +4,19 @@
     "ticker": "MSFT",
     "direction": "hold",
     "tier": "Hold",
-    "buy_score": 0.25,
+    "buy_score": 0.38,
     "sell_score": 0.57,
     "reasons": [],
     "misses": [
-      "BB: price not near lower band (pct=1.47)",
+      "BB: price not near lower band (pct=1.28)",
       "BB Width: bands expanding, not squeezing",
-      "RSI: not in buy zone (71.8, need 20-40)",
+      "RSI: not in buy zone (74.5, need 20-40)",
       "MACD: no bullish crossover or valley",
-      "RSI Divergence: no bullish divergence detected",
-      "Death cross active: 50MA (398.42) below 200MA (432.49)"
+      "RSI Divergence: no bullish divergence detected"
     ],
-    "price": 451.1,
-    "rsi": 71.8,
-    "atr": 15.87,
+    "price": 464.72,
+    "rsi": 74.5,
+    "atr": 16.44,
     "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 0,
@@ -29,14 +28,14 @@
     "ticker": "MSFT",
     "health": "healthy",
     "passed": [
-      "Revenue growing YoY (+18.3%)",
+      "Revenue growing YoY (+17.7%)",
       "Debt-to-equity acceptable (0.3x)",
-      "Profitable (margin 39.3%)"
+      "Profitable (margin 40.3%)"
     ],
     "flags": [],
-    "revenue_growth": 0.183,
-    "de_ratio": 30.271,
-    "profit_margins": 0.39341998
+    "revenue_growth": 0.177,
+    "de_ratio": 29.118,
+    "profit_margins": 0.40305
   },
   "earnings": {
     "proceed": true,
@@ -46,12 +45,12 @@
       "verdict": "consider",
       "reason": "Fundamentals intact \u2014 dip may be an overreaction",
       "notes": [
-        "Earnings growing YoY (+23.4%)",
-        "Revenue growing (+18.3%)"
+        "Earnings growing YoY (+31.7%)",
+        "Revenue growing (+17.7%)"
       ],
       "earnings_status": "past",
       "next_earnings_date": "2026-07-29",
-      "days_to_earnings": -1
+      "days_to_earnings": -4
     }
   },
   "news": {
@@ -59,26 +58,26 @@
     "sentiment": "neutral",
     "health": "healthy",
     "key_events": [
-      "Earnings reported 1 day ago",
-      "RSI at 71.8 indicates overbought conditions on the bounce",
-      "Market sentiment Fear despite neutral VIX (17.1)"
+      "Earnings reported 4 days ago (post-earnings period)",
+      "RSI at 74.5 indicates overbought conditions",
+      "VIX 16.0 suggests market stability with underlying fear sentiment"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "No news items available for analysis",
-      "Post-earnings volatility creating uncertainty",
-      "Fear sentiment despite technical strength suggests conviction weakness"
+      "RSI 74.5 signals potential pullback or consolidation phase",
+      "No firing technical signals despite overbought reading",
+      "Fear & Greed index showing 'Fear' despite healthy fundamentals creates mixed sentiment"
     ],
-    "verdict": "MSFT showing healthy fundamentals with technical pullback post-earnings; hold position through drawdown per strategy philosophy.",
+    "verdict": "MSFT remains fundamentally sound post-earnings but is in a technical consolidation phase after overbought conditions; position is slightly underwater but well within recovery range.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "MSFT",
-    "stock_return_3m": 6.51,
-    "benchmark_return_3m": 4.5,
-    "relative_strength": 2.01,
-    "label": "in-line"
+    "stock_return_3m": 14.21,
+    "benchmark_return_3m": 4.22,
+    "relative_strength": 9.99,
+    "label": "outperforming"
   },
   "final_tier": "Hold",
   "sizing": {
@@ -87,5 +86,5 @@
     "note": "Position already at 20% portfolio cap"
   },
   "is_dca": false,
-  "saved_at": "2026-07-30T23:34:51.820344"
+  "saved_at": "2026-08-02T23:31:43.348568"
 }

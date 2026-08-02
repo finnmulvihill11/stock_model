@@ -8,49 +8,49 @@
     "sell_score": 0.29,
     "reasons": [],
     "misses": [
-      "BB: price not near lower band (pct=0.23)",
+      "BB: price not near lower band (pct=0.24)",
       "BB Width: bands expanding, not squeezing",
       "RSI Divergence: no bullish divergence detected",
       "200MA: price below 200MA \u2014 potential falling knife",
-      "Death cross active: 50MA (51.06) below 200MA (59.65)"
+      "Death cross active: 50MA (51.03) below 200MA (59.40)"
     ],
-    "price": 44.29,
-    "rsi": 38.6,
-    "atr": 3.19,
+    "price": 43.87,
+    "rsi": 38.0,
+    "atr": 3.21,
     "final_tier": "Hold",
     "sizing": {
-      "suggested_shares": 4,
-      "suggested_dollars": 177.16,
-      "note": "4 sh @ $44.29 = $177 (Hold, 60% size) | $858 swing budget after"
+      "suggested_shares": 3,
+      "suggested_dollars": 131.61,
+      "note": "3 sh @ $43.87 = $132 (Hold, 60% size) | $707 swing budget after"
     }
   },
   "fundamentals": {
     "ticker": "TEM",
     "health": "deteriorating",
     "passed": [
-      "Revenue growing YoY (+36.1%)"
+      "Revenue growing YoY (+21.6%)"
     ],
     "flags": [
       "High debt-to-equity (3.2x)",
       "Not profitable and negative operating cash flow"
     ],
-    "revenue_growth": 0.361,
-    "de_ratio": 316.647,
-    "profit_margins": -0.22205
+    "revenue_growth": 0.216,
+    "de_ratio": 324.58,
+    "profit_margins": -0.17767
   },
   "earnings": {
-    "proceed": false,
-    "reason": "Earnings in 0 days \u2014 wait for results before acting",
+    "proceed": true,
+    "reason": "Fundamentals intact \u2014 dip may be an overreaction",
     "verdict": {
       "ticker": "TEM",
       "verdict": "consider",
       "reason": "Fundamentals intact \u2014 dip may be an overreaction",
       "notes": [
-        "Revenue growing (+36.1%)"
+        "Revenue growing (+21.6%)"
       ],
-      "earnings_status": "imminent",
+      "earnings_status": "past",
       "next_earnings_date": "2026-07-30",
-      "days_to_earnings": 0
+      "days_to_earnings": -3
     }
   },
   "news": {
@@ -58,36 +58,36 @@
     "sentiment": "negative",
     "health": "deteriorating",
     "key_events": [
-      "Earnings imminent \u2014 critical catalyst for direction",
-      "RSI 38.6 \u2014 oversold territory but no bullish divergence firing",
-      "High debt-to-equity (3.2x) \u2014 leverage risk in downturn",
-      "Negative operating cash flow \u2014 sustainability concerns"
+      "Earnings reported 3 days ago",
+      "Significant price decline (-36.49%) post-earnings",
+      "No recent news catalysts available for analysis"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "Not profitable + negative OCF = cash burn accelerating",
-      "35.89% drawdown from entry \u2014 severe underwater position",
-      "No technical firing signals despite oversold RSI",
-      "Fear sentiment in market adds headwinds to unprofitable growth stock",
-      "Earnings imminent with deteriorating fundamentals = high gap risk"
+      "Negative operating cash flow indicates operational stress",
+      "High debt-to-equity ratio (3.2x) limits financial flexibility",
+      "Not profitable with deteriorating fundamentals",
+      "RSI at 38.0 shows weakness without reversal signals yet",
+      "Post-earnings sell-off suggests market rejected guidance/results",
+      "Fear sentiment in market adds headwinds"
     ],
-    "verdict": "High-risk unprofitable AI stock with negative cash burn, deteriorating fundamentals, and imminent earnings; position is severely underwater with limited near-term catalysts for recovery.",
+    "verdict": "Position is fundamentally troubled with no technical recovery signals, but philosophy mandates holding through >15% drawdowns to avoid locking in losses.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "TEM",
-    "stock_return_3m": -11.46,
-    "benchmark_return_3m": 4.5,
-    "relative_strength": -15.96,
+    "stock_return_3m": -20.93,
+    "benchmark_return_3m": 4.22,
+    "relative_strength": -25.14,
     "label": "underperforming"
   },
   "final_tier": "Hold",
   "sizing": {
-    "suggested_shares": 4,
-    "suggested_dollars": 177.16,
-    "note": "4 sh @ $44.29 = $177 (Hold, 60% size) | $858 swing budget after"
+    "suggested_shares": 3,
+    "suggested_dollars": 131.61,
+    "note": "3 sh @ $43.87 = $132 (Hold, 60% size) | $707 swing budget after"
   },
   "is_dca": false,
-  "saved_at": "2026-07-30T23:35:06.538996"
+  "saved_at": "2026-08-02T23:31:58.232188"
 }

@@ -1,0 +1,90 @@
+{
+  "ticker": "GNRC",
+  "signal": {
+    "ticker": "GNRC",
+    "direction": "hold",
+    "tier": "Hold",
+    "buy_score": 0.5,
+    "sell_score": 0.29,
+    "reasons": [],
+    "misses": [
+      "BB: price not near lower band (pct=0.22)",
+      "BB Width: bands expanding, not squeezing",
+      "RSI Divergence: no bullish divergence detected",
+      "200MA: price below 200MA \u2014 potential falling knife"
+    ],
+    "price": 197.11,
+    "rsi": 31.1,
+    "atr": 11.18,
+    "final_tier": "Hold",
+    "sizing": {
+      "suggested_shares": 0,
+      "suggested_dollars": 0,
+      "note": "Price exceeds 60% conviction ceiling ($151) \u2014 skip or wait for Strong Buy"
+    }
+  },
+  "fundamentals": {
+    "ticker": "GNRC",
+    "health": "healthy",
+    "passed": [
+      "Revenue growing YoY (+10.6%)",
+      "Debt-to-equity acceptable (0.5x)",
+      "Profitable (margin 5.8%)"
+    ],
+    "flags": [],
+    "revenue_growth": 0.106,
+    "de_ratio": 52.202,
+    "profit_margins": 0.05817
+  },
+  "earnings": {
+    "proceed": true,
+    "reason": "Fundamentals intact \u2014 dip may be an overreaction",
+    "verdict": {
+      "ticker": "GNRC",
+      "verdict": "consider",
+      "reason": "Fundamentals intact \u2014 dip may be an overreaction",
+      "notes": [
+        "Earnings growing YoY (+92.0%)",
+        "Revenue growing (+10.6%)"
+      ],
+      "earnings_status": "past",
+      "next_earnings_date": "2026-07-29",
+      "days_to_earnings": -4
+    }
+  },
+  "news": {
+    "ticker": "GNRC",
+    "sentiment": "neutral",
+    "health": "healthy",
+    "key_events": [
+      "Earnings reported 4 days ago",
+      "RSI at 31.1 indicates oversold conditions",
+      "VIX at 16.0 shows neutral market volatility",
+      "Market sentiment tilted to Fear despite neutral vol"
+    ],
+    "macro_context": "",
+    "competitive_notes": "",
+    "red_flags": [
+      "No recent news catalysts visible",
+      "Post-earnings period typically shows volatility",
+      "Fear sentiment despite healthy fundamentals suggests disconnect"
+    ],
+    "verdict": "GNRC fundamentals remain healthy with oversold technicals; position is micro-profitable with minimal loss risk\u2014hold and monitor for reversal signals.",
+    "confidence": "medium"
+  },
+  "relative_strength": {
+    "ticker": "GNRC",
+    "stock_return_3m": -23.96,
+    "benchmark_return_3m": 4.22,
+    "relative_strength": -28.18,
+    "label": "underperforming"
+  },
+  "final_tier": "Hold",
+  "sizing": {
+    "suggested_shares": 0,
+    "suggested_dollars": 0,
+    "note": "Price exceeds 60% conviction ceiling ($151) \u2014 skip or wait for Strong Buy"
+  },
+  "is_dca": false,
+  "saved_at": "2026-08-02T23:32:20.685646"
+}

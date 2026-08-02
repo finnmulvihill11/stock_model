@@ -3,19 +3,36 @@
     "ticker": "CDNS",
     "company_name": "Cadence Design Systems, Inc.",
     "action": "Hold",
-    "action_reason": "Loss is only -1.54% (well below 15% threshold). RSI oversold at 38.7 suggests potential mean reversion bounce. Fundamentals remain healthy and earnings is now behind us, removing event risk.",
-    "target_price": 345,
+    "action_reason": "Position is profitable (+0.59%) with healthy fundamentals and small portfolio weight (8.7%). Lack of momentum and missing technical triggers suggest waiting for clearer directional setup rather than adding into weakness.",
+    "target_price": 350,
     "target_reasoning": "",
-    "exit_trigger": "Break below $325 (3.2% lower) on volume with deteriorating fundamentals OR hold through recovery to $345+",
-    "add_trigger": "If drops to $320-325 range on heavy institutional accumulation signals OR RSI bounces from 30 with bullish reversal candle",
-    "risk": "Semiconductor sector rotation risk if Fed signals remain hawkish; earnings miss digestion may extend weakness another 1-2 weeks",
-    "outlook": "cautious",
-    "timeframe": "2-4 weeks to recovery; monitor for stabilization in week 1",
-    "generated_at": "2026-07-30T23:35:19.408655",
-    "price_at_generation": 332.82,
-    "pnl_at_generation": -1.54
+    "exit_trigger": "Break below $330 (post-earnings support) on volume, or if RSI sustains below 30 with negative earnings revision",
+    "add_trigger": "RSI breaks above 55 with volume spike, or positive product/partnership announcement drives consolidation breakout",
+    "risk": "Post-earnings volatility decay; lack of news catalysts could lead to sideways consolidation; sector rotation away from semiconductor tools if macro fears escalate",
+    "outlook": "neutral",
+    "timeframe": "2-4 weeks until next catalyst or technical breakout",
+    "generated_at": "2026-08-02T23:32:13.857800",
+    "price_at_generation": 340.02,
+    "pnl_at_generation": 0.59
   },
   "history": [
+    {
+      "ticker": "CDNS",
+      "company_name": "Cadence Design Systems, Inc.",
+      "action": "Hold",
+      "action_reason": "Loss is only -1.54% (well below 15% threshold). RSI oversold at 38.7 suggests potential mean reversion bounce. Fundamentals remain healthy and earnings is now behind us, removing event risk.",
+      "target_price": 345,
+      "target_reasoning": "",
+      "exit_trigger": "Break below $325 (3.2% lower) on volume with deteriorating fundamentals OR hold through recovery to $345+",
+      "add_trigger": "If drops to $320-325 range on heavy institutional accumulation signals OR RSI bounces from 30 with bullish reversal candle",
+      "risk": "Semiconductor sector rotation risk if Fed signals remain hawkish; earnings miss digestion may extend weakness another 1-2 weeks",
+      "outlook": "cautious",
+      "timeframe": "2-4 weeks to recovery; monitor for stabilization in week 1",
+      "generated_at": "2026-07-30T23:35:19.408655",
+      "price_at_generation": 332.82,
+      "pnl_at_generation": -1.54,
+      "archived_at": "2026-08-02T23:32:13.858016"
+    },
     {
       "ticker": "CDNS",
       "company_name": "Cadence Design Systems, Inc.",
@@ -117,23 +134,6 @@
       "price_at_generation": 337.01,
       "pnl_at_generation": -0.3,
       "archived_at": "2026-07-23T23:31:38.847310"
-    },
-    {
-      "ticker": "CDNS",
-      "company_name": "Cadence Design Systems, Inc.",
-      "action": "Hold",
-      "action_reason": "Position is profitable (+1.96%) with textbook oversold reversal setup (BB lower band + RSI + MACD valley). Extreme Fear sentiment suggests capitulation selling. Wait for post-earnings clarity before adding or trimming.",
-      "target_price": 358,
-      "target_reasoning": "",
-      "exit_trigger": "Close below $335 (support break) or negative earnings surprise with technical breakdown",
-      "add_trigger": "Price holds above $340 + positive earnings beat with follow-through above $355",
-      "risk": "Earnings volatility could spike in either direction; early momentum exhaustion if RSI fails to hold above 40",
-      "outlook": "cautious",
-      "timeframe": "Hold 1-2 weeks through earnings; reassess position size post-results",
-      "generated_at": "2026-07-21T23:33:05.662594",
-      "price_at_generation": 344.64,
-      "pnl_at_generation": 1.96,
-      "archived_at": "2026-07-22T23:34:00.670817"
     }
   ]
 }

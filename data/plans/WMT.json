@@ -3,19 +3,36 @@
     "ticker": "WMT",
     "company_name": "Walmart Inc.",
     "action": "Hold",
-    "action_reason": "Position is only -0.58% down (well within normal swing volatility) and fundamentals are healthy. Upcoming earnings in 3 weeks is a natural catalyst to hold for; adding would dilute entry price unnecessarily before that event.",
-    "target_price": 114.5,
+    "action_reason": "Position is down only 0.49% (well above your 15% threshold for mandatory holds). Fundamentals are healthy and upcoming earnings in 18 days provide a near-term catalyst. RSI at 44.4 leaves room for both upside and downside without extremes.",
+    "target_price": null,
     "target_reasoning": "",
-    "exit_trigger": "Break below $108.50 (technical support) on high volume, or negative earnings surprise with forward guidance cut",
-    "add_trigger": "If WMT drops to $107\u2013$108 on market weakness (creating better risk/reward before earnings) AND RSI remains above 30",
-    "risk": "Earnings disappointment could trigger 3\u20135% selloff; retail sector sensitivity to consumer spending narratives in Fear market environment",
+    "exit_trigger": "Exit only if WMT closes below $108 (3% loss) with a breakdown below 200-day MA, or if earnings disappoint with negative forward guidance",
+    "add_trigger": "Add on a pullback to $109-110 if RSI dips below 40 on higher volume, showing capitulation before earnings",
+    "risk": "Earnings miss or negative retail/consumer guidance could trigger a 4-6% drop; broad market weakness ahead of earnings could also pressure the position",
     "outlook": "neutral",
-    "timeframe": "3 weeks (hold through earnings)",
-    "generated_at": "2026-07-30T23:35:13.048897",
-    "price_at_generation": 111.1,
-    "pnl_at_generation": -0.58
+    "timeframe": "2-3 weeks (hold through earnings announcement)",
+    "generated_at": "2026-08-02T23:32:05.754369",
+    "price_at_generation": 111.2,
+    "pnl_at_generation": -0.49
   },
   "history": [
+    {
+      "ticker": "WMT",
+      "company_name": "Walmart Inc.",
+      "action": "Hold",
+      "action_reason": "Position is only -0.58% down (well within normal swing volatility) and fundamentals are healthy. Upcoming earnings in 3 weeks is a natural catalyst to hold for; adding would dilute entry price unnecessarily before that event.",
+      "target_price": 114.5,
+      "target_reasoning": "",
+      "exit_trigger": "Break below $108.50 (technical support) on high volume, or negative earnings surprise with forward guidance cut",
+      "add_trigger": "If WMT drops to $107\u2013$108 on market weakness (creating better risk/reward before earnings) AND RSI remains above 30",
+      "risk": "Earnings disappointment could trigger 3\u20135% selloff; retail sector sensitivity to consumer spending narratives in Fear market environment",
+      "outlook": "neutral",
+      "timeframe": "3 weeks (hold through earnings)",
+      "generated_at": "2026-07-30T23:35:13.048897",
+      "price_at_generation": 111.1,
+      "pnl_at_generation": -0.58,
+      "archived_at": "2026-08-02T23:32:05.754590"
+    },
     {
       "ticker": "WMT",
       "company_name": "Walmart Inc.",
@@ -117,23 +134,6 @@
       "price_at_generation": 109.33,
       "pnl_at_generation": -2.17,
       "archived_at": "2026-07-23T23:31:25.207464"
-    },
-    {
-      "ticker": "WMT",
-      "company_name": "Walmart Inc.",
-      "action": "Hold",
-      "action_reason": "Loss is minimal (1.22%) and well below the 15% threshold. Upcoming earnings in 30 days is a key catalyst that could drive recovery. Fundamentals remain healthy with no deterioration signals.",
-      "target_price": null,
-      "target_reasoning": "",
-      "exit_trigger": "Price breaks below $108 (support) OR fundamentals shift to 'deteriorating' OR post-earnings sell-off with volume confirmation",
-      "add_trigger": "Price tests $108-109 support with RSI <30 AND positive pre-earnings momentum",
-      "risk": "Earnings volatility could accelerate downside; Extreme Fear environment may persist, pressuring defensive names",
-      "outlook": "neutral",
-      "timeframe": "3-5 weeks until earnings catalyst; reassess after Q3 report",
-      "generated_at": "2026-07-21T23:32:50.877297",
-      "price_at_generation": 110.39,
-      "pnl_at_generation": -1.22,
-      "archived_at": "2026-07-22T23:33:44.114138"
     }
   ]
 }
