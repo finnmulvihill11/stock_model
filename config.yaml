@@ -43,6 +43,9 @@ portfolio:
   - ticker: GNRC
     shares: 1.0
     avg_cost: 196.88
+  - ticker: KLAC
+    shares: 1.0
+    avg_cost: 178.03
   dca_tickers:
   - GRNI
   - VOO
