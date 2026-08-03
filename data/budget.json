@@ -274,6 +274,14 @@
       "amount": 178.03,
       "type": "swing",
       "action": "buy"
+    },
+    {
+      "date": "2026-08-03",
+      "ticker": "VOO",
+      "shares": 0.288,
+      "amount": 199.96,
+      "type": "etf",
+      "action": "buy"
     }
   ]
 }
