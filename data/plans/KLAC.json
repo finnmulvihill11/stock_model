@@ -1,0 +1,19 @@
+{
+  "current": {
+    "ticker": "KLAC",
+    "company_name": "KLA Corporation",
+    "action": "Hold",
+    "action_reason": "Position is profitable (+2.65%) and RSI is oversold (38.2), typically a mean-reversion setup. No exit catalyst exists; allow the swing to mature through post-earnings consolidation.",
+    "target_price": 188.5,
+    "target_reasoning": "",
+    "exit_trigger": "RSI exceeds 70 with distribution volume OR position drops below $170 (4.5% loss threshold)",
+    "add_trigger": "RSI bounces to 45-50 range with bullish volume confirmation OR on any dip to $180 if fundamentals remain intact",
+    "risk": "Post-earnings volatility could extend drawdown; semiconductor sector sentiment shifts; geopolitical escalation impacting chip demand",
+    "outlook": "neutral",
+    "timeframe": "2-4 weeks",
+    "generated_at": "2026-08-03T23:41:02.687462",
+    "price_at_generation": 182.75,
+    "pnl_at_generation": 2.65
+  },
+  "history": []
+}

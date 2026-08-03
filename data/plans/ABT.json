@@ -3,19 +3,36 @@
     "ticker": "ABT",
     "company_name": "ABT",
     "action": "Hold",
-    "action_reason": "Position is down only 3.71%, well within the 15% threshold. Fundamentals remain healthy and no deterioration is evident. Let swing setup develop with patience.",
+    "action_reason": "Position is only -2.41% down (well within noise), fundamentals are solid, and earnings provide a defined catalyst 72 days out. RSI elevation suggests consolidation; wait for clearer directional signals before adding or exiting.",
     "target_price": null,
     "target_reasoning": "",
-    "exit_trigger": "Break below $102.50 (lower support) OR positive RSI divergence with price weakness indicates structural failure",
-    "add_trigger": "RSI drops below 50 AND price holds above $104.00 (shows accumulation without breakdown)",
-    "risk": "Continued sector rotation out of healthcare/pharma; macro headwinds from Fear sentiment could pressure further short-term",
+    "exit_trigger": "Loss exceeds 15% OR fundamental deterioration confirmed OR breaks below 200-day MA with volume surge",
+    "add_trigger": "RSI cools below 50 + price stabilizes above $106.50 + positive earnings pre-announcements",
+    "risk": "Continued market-wide risk-off sentiment pulling defensive healthcare lower; earnings miss or guidance cut in 72 days",
     "outlook": "neutral",
-    "timeframe": "2-4 weeks",
-    "generated_at": "2026-08-02T23:31:50.504056",
-    "price_at_generation": 105.7,
-    "pnl_at_generation": -3.71
+    "timeframe": "4-8 weeks (through earnings)",
+    "generated_at": "2026-08-03T23:40:28.050679",
+    "price_at_generation": 107.12,
+    "pnl_at_generation": -2.41
   },
   "history": [
+    {
+      "ticker": "ABT",
+      "company_name": "ABT",
+      "action": "Hold",
+      "action_reason": "Position is down only 3.71%, well within the 15% threshold. Fundamentals remain healthy and no deterioration is evident. Let swing setup develop with patience.",
+      "target_price": null,
+      "target_reasoning": "",
+      "exit_trigger": "Break below $102.50 (lower support) OR positive RSI divergence with price weakness indicates structural failure",
+      "add_trigger": "RSI drops below 50 AND price holds above $104.00 (shows accumulation without breakdown)",
+      "risk": "Continued sector rotation out of healthcare/pharma; macro headwinds from Fear sentiment could pressure further short-term",
+      "outlook": "neutral",
+      "timeframe": "2-4 weeks",
+      "generated_at": "2026-08-02T23:31:50.504056",
+      "price_at_generation": 105.7,
+      "pnl_at_generation": -3.71,
+      "archived_at": "2026-08-03T23:40:28.050892"
+    },
     {
       "ticker": "ABT",
       "company_name": "Abbott Laboratories",
@@ -117,23 +134,6 @@
       "price_at_generation": 100.75,
       "pnl_at_generation": -8.22,
       "archived_at": "2026-07-26T23:32:07.510294"
-    },
-    {
-      "ticker": "ABT",
-      "company_name": "Abbott Laboratories",
-      "action": "Hold",
-      "action_reason": "Position is only 8.38% underwater (well below 15% threshold), fundamentals remain healthy, and current Fear sentiment environment typically favors defensive healthcare plays. RSI elevated but not yet critical signal in neutral volatility backdrop.",
-      "target_price": null,
-      "target_reasoning": "",
-      "exit_trigger": "Break below $95.00 (major support) with deteriorating fundamentals OR position reaches -15% loss threshold reversal",
-      "add_trigger": "ABT pulls back to $97-98 range on RSI <50 with maintained fundamental health; geopolitical risk clarification materially negative",
-      "risk": "Continued post-earnings weakness if guidance was reduced; geopolitical escalation could unwind defensive positioning; sector rotation away from healthcare",
-      "outlook": "neutral",
-      "timeframe": "2-6 weeks",
-      "generated_at": "2026-07-22T23:32:52.081955",
-      "price_at_generation": 100.57,
-      "pnl_at_generation": -8.38,
-      "archived_at": "2026-07-23T23:30:55.289855"
     }
   ]
 }

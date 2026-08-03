@@ -3,19 +3,36 @@
     "ticker": "WMT",
     "company_name": "Walmart Inc.",
     "action": "Hold",
-    "action_reason": "Position is down only 0.49% (well above your 15% threshold for mandatory holds). Fundamentals are healthy and upcoming earnings in 18 days provide a near-term catalyst. RSI at 44.4 leaves room for both upside and downside without extremes.",
+    "action_reason": "Position is only 0.93% underwater with healthy fundamentals; earnings catalyst in 17 days could provide directional clarity. RSI 43.3 suggests room to move either direction without triggering mechanical buy/sell signals.",
     "target_price": null,
     "target_reasoning": "",
-    "exit_trigger": "Exit only if WMT closes below $108 (3% loss) with a breakdown below 200-day MA, or if earnings disappoint with negative forward guidance",
-    "add_trigger": "Add on a pullback to $109-110 if RSI dips below 40 on higher volume, showing capitulation before earnings",
-    "risk": "Earnings miss or negative retail/consumer guidance could trigger a 4-6% drop; broad market weakness ahead of earnings could also pressure the position",
+    "exit_trigger": "Break below $108.50 (1.5% stop) OR break below 200-day MA on heavy volume post-earnings",
+    "add_trigger": "Only if dips to $107.50-$108.00 on weakness OR post-earnings confirmation of beat with bullish guidance",
+    "risk": "Earnings disappointment could gap down; geopolitical uncertainty and consumer spending pressure in Fear environment; retail sector rotation risk",
     "outlook": "neutral",
-    "timeframe": "2-3 weeks (hold through earnings announcement)",
-    "generated_at": "2026-08-02T23:32:05.754369",
-    "price_at_generation": 111.2,
-    "pnl_at_generation": -0.49
+    "timeframe": "2-3 weeks (through earnings + post-earnings reaction)",
+    "generated_at": "2026-08-03T23:40:42.039213",
+    "price_at_generation": 110.71,
+    "pnl_at_generation": -0.93
   },
   "history": [
+    {
+      "ticker": "WMT",
+      "company_name": "Walmart Inc.",
+      "action": "Hold",
+      "action_reason": "Position is down only 0.49% (well above your 15% threshold for mandatory holds). Fundamentals are healthy and upcoming earnings in 18 days provide a near-term catalyst. RSI at 44.4 leaves room for both upside and downside without extremes.",
+      "target_price": null,
+      "target_reasoning": "",
+      "exit_trigger": "Exit only if WMT closes below $108 (3% loss) with a breakdown below 200-day MA, or if earnings disappoint with negative forward guidance",
+      "add_trigger": "Add on a pullback to $109-110 if RSI dips below 40 on higher volume, showing capitulation before earnings",
+      "risk": "Earnings miss or negative retail/consumer guidance could trigger a 4-6% drop; broad market weakness ahead of earnings could also pressure the position",
+      "outlook": "neutral",
+      "timeframe": "2-3 weeks (hold through earnings announcement)",
+      "generated_at": "2026-08-02T23:32:05.754369",
+      "price_at_generation": 111.2,
+      "pnl_at_generation": -0.49,
+      "archived_at": "2026-08-03T23:40:42.039445"
+    },
     {
       "ticker": "WMT",
       "company_name": "Walmart Inc.",
@@ -117,23 +134,6 @@
       "price_at_generation": 108.4,
       "pnl_at_generation": -3.0,
       "archived_at": "2026-07-26T23:32:30.530324"
-    },
-    {
-      "ticker": "WMT",
-      "company_name": "Walmart Inc.",
-      "action": "Hold",
-      "action_reason": "Position is only -2.17% (well above your 15% threshold). Technical setup favors reversal (RSI oversold + BB squeeze) with BB width expansion likely imminent, providing low-risk swing recovery potential before earnings.",
-      "target_price": 113.5,
-      "target_reasoning": "",
-      "exit_trigger": "Break below $108.00 (support) on volume, or negative earnings guidance",
-      "add_trigger": "RSI bounces above 45 with BB squeeze breakout; add only if price breaks $110.50 resistance",
-      "risk": "Earnings volatility (29d) could trigger sharp move in either direction; lack of recent news limits sentiment confirmation",
-      "outlook": "short",
-      "timeframe": "2-4 weeks (target bounce before earnings; reevaluate post-earnings for swing exit)",
-      "generated_at": "2026-07-22T23:33:44.113912",
-      "price_at_generation": 109.33,
-      "pnl_at_generation": -2.17,
-      "archived_at": "2026-07-23T23:31:25.207464"
     }
   ]
 }

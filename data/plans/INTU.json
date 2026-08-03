@@ -3,19 +3,36 @@
     "ticker": "INTU",
     "company_name": "Intuit Inc.",
     "action": "Hold",
-    "action_reason": "Position is down 32.51%, triggering the philosophy rule to hold major losers through recovery. Upcoming earnings in 23 days is a critical catalyst that could reverse the decline if fundamentals are intact.",
-    "target_price": 420,
+    "action_reason": "Position is down 32% (exceeds your 15% threshold for forced holding), fundamentals are healthy, and earnings in 22 days represent a major inflection point. Wait for earnings results and post-earnings momentum before reassessing.",
+    "target_price": null,
     "target_reasoning": "",
-    "exit_trigger": "Break below $290 (20% below current) on high volume indicating fundamental deterioration, or if earnings miss consensus by >10% with negative guidance",
-    "add_trigger": "Only add if earnings beat and guidance is raised; consider if INTU reaches $280-290 support with positive catalyst",
-    "risk": "Earnings miss or weak forward guidance could accelerate decline; overweighting at 24.3% concentrates risk; market sentiment remains fearful despite neutral technicals",
+    "exit_trigger": "If post-earnings fundamentals deteriorate OR if price falls below $280 (additional 12% loss indicating broken support)",
+    "add_trigger": "Only add if fundamentals remain healthy AND RSI dips below 40 with positive earnings surprise confirmation",
+    "risk": "Earnings miss could accelerate downside; heavy position weight (21.6%) means unfavorable earnings could significantly impact portfolio",
     "outlook": "cautious",
-    "timeframe": "23 days to earnings, then reassess within 2-3 days post-report",
-    "generated_at": "2026-08-02T23:31:35.479259",
-    "price_at_generation": 316.07,
-    "pnl_at_generation": -32.51
+    "timeframe": "22-45 days (through earnings + post-earnings consolidation)",
+    "generated_at": "2026-08-03T23:40:13.152504",
+    "price_at_generation": 318.39,
+    "pnl_at_generation": -32.01
   },
   "history": [
+    {
+      "ticker": "INTU",
+      "company_name": "Intuit Inc.",
+      "action": "Hold",
+      "action_reason": "Position is down 32.51%, triggering the philosophy rule to hold major losers through recovery. Upcoming earnings in 23 days is a critical catalyst that could reverse the decline if fundamentals are intact.",
+      "target_price": 420,
+      "target_reasoning": "",
+      "exit_trigger": "Break below $290 (20% below current) on high volume indicating fundamental deterioration, or if earnings miss consensus by >10% with negative guidance",
+      "add_trigger": "Only add if earnings beat and guidance is raised; consider if INTU reaches $280-290 support with positive catalyst",
+      "risk": "Earnings miss or weak forward guidance could accelerate decline; overweighting at 24.3% concentrates risk; market sentiment remains fearful despite neutral technicals",
+      "outlook": "cautious",
+      "timeframe": "23 days to earnings, then reassess within 2-3 days post-report",
+      "generated_at": "2026-08-02T23:31:35.479259",
+      "price_at_generation": 316.07,
+      "pnl_at_generation": -32.51,
+      "archived_at": "2026-08-03T23:40:13.152734"
+    },
     {
       "ticker": "INTU",
       "company_name": "Intuit Inc.",
@@ -117,23 +134,6 @@
       "price_at_generation": 281.53,
       "pnl_at_generation": -39.88,
       "archived_at": "2026-07-26T23:31:53.279535"
-    },
-    {
-      "ticker": "INTU",
-      "company_name": "Intuit Inc.",
-      "action": "Hold",
-      "action_reason": "Philosophy mandates holding major losers (>15% down) for recovery. Fundamentals remain healthy and RSI is neutral (not oversold), so no technical urgency to exit. Absence of news prevents escalation to 'Add More' but doesn't warrant exit.",
-      "target_price": null,
-      "target_reasoning": "",
-      "exit_trigger": "Exit only if fundamentals deteriorate (earnings miss, guidance cut) OR if position becomes profitable and reaches 5-10% gain threshold",
-      "add_trigger": "RSI drops below 30 with positive earnings catalyst OR major support holds with bullish reversal pattern",
-      "risk": "Continued macro weakness or sector rotation away from software; 39% drawdown leaves limited buffer before stop-loss consideration",
-      "outlook": "cautious",
-      "timeframe": "4-8 weeks (next earnings cycle for potential catalyst)",
-      "generated_at": "2026-07-22T23:32:37.166037",
-      "price_at_generation": 284.47,
-      "pnl_at_generation": -39.25,
-      "archived_at": "2026-07-23T23:30:43.074138"
     }
   ]
 }

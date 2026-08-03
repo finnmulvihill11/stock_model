@@ -3,17 +3,35 @@
     "ticker": "GNRC",
     "company_name": "Generac Holdings Inc.",
     "action": "Hold",
-    "action_reason": "Position is profitable (+0.12%), fundamentals are healthy, and RSI 31.1 signals oversold conditions that typically precede reversals. No reason to exit a winning trade; let technicals catch up to fundamentals.",
-    "target_price": 205.0,
+    "action_reason": "Position is profitable (+2.20%) with healthy fundamentals intact. RSI approaching oversold presents potential reversal opportunity rather than exit signal. Wait for technical confirmation before adding or trimming.",
+    "target_price": 210,
     "target_reasoning": "",
-    "exit_trigger": "Close below $195.00 (near-term support break) or if RSI drops below 20 on volume spike with deteriorating guidance",
-    "add_trigger": "RSI breaks below 25 with volume support OR price tests $194-195 support zone (accumulation opportunity)",
-    "risk": "Post-earnings volatility extension; disconnect between healthy fundamentals and Fear sentiment could indicate hidden headwinds or sector rotation away from generator demand",
+    "exit_trigger": "Break below $195 (entry level) with RSI <30 + confirmed bearish volume; OR close above $210 on strong volume to secure partial gains",
+    "add_trigger": "RSI touches 30 (oversold) + bullish divergence on daily chart + positive news catalyst",
+    "risk": "Post-earnings earnings volatility; lack of recent news/catalysts; broader market fear sentiment despite neutral technicals",
     "outlook": "neutral",
     "timeframe": "2-4 weeks",
-    "generated_at": "2026-08-02T23:32:20.685100",
-    "price_at_generation": 197.11,
-    "pnl_at_generation": 0.12
+    "generated_at": "2026-08-03T23:40:56.010129",
+    "price_at_generation": 201.21,
+    "pnl_at_generation": 2.2
   },
-  "history": []
+  "history": [
+    {
+      "ticker": "GNRC",
+      "company_name": "Generac Holdings Inc.",
+      "action": "Hold",
+      "action_reason": "Position is profitable (+0.12%), fundamentals are healthy, and RSI 31.1 signals oversold conditions that typically precede reversals. No reason to exit a winning trade; let technicals catch up to fundamentals.",
+      "target_price": 205.0,
+      "target_reasoning": "",
+      "exit_trigger": "Close below $195.00 (near-term support break) or if RSI drops below 20 on volume spike with deteriorating guidance",
+      "add_trigger": "RSI breaks below 25 with volume support OR price tests $194-195 support zone (accumulation opportunity)",
+      "risk": "Post-earnings volatility extension; disconnect between healthy fundamentals and Fear sentiment could indicate hidden headwinds or sector rotation away from generator demand",
+      "outlook": "neutral",
+      "timeframe": "2-4 weeks",
+      "generated_at": "2026-08-02T23:32:20.685100",
+      "price_at_generation": 197.11,
+      "pnl_at_generation": 0.12,
+      "archived_at": "2026-08-03T23:40:56.010330"
+    }
+  ]
 }

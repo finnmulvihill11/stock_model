@@ -8,20 +8,20 @@
     "sell_score": 0.57,
     "reasons": [],
     "misses": [
-      "BB: price not near lower band (pct=0.38)",
-      "RSI: not in buy zone (44.4, need 20-40)",
+      "BB: price not near lower band (pct=0.31)",
+      "RSI: not in buy zone (43.3, need 20-40)",
       "MACD: no bullish crossover or valley",
       "200MA: price below 200MA \u2014 potential falling knife",
-      "Death cross active: 50MA (115.63) below 200MA (117.67)"
+      "Death cross active: 50MA (115.23) below 200MA (117.69)"
     ],
-    "price": 111.2,
-    "rsi": 44.4,
-    "atr": 2.74,
+    "price": 110.71,
+    "rsi": 43.3,
+    "atr": 2.79,
     "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 1,
-      "suggested_dollars": 111.2,
-      "note": "1 sh @ $111.20 = $111 (Hold, 60% size) | $727 swing budget after"
+      "suggested_dollars": 110.71,
+      "note": "1 sh @ $110.71 = $111 (Hold, 60% size) | $549 swing budget after"
     }
   },
   "fundamentals": {
@@ -50,7 +50,7 @@
       ],
       "earnings_status": "upcoming",
       "next_earnings_date": "2026-08-20",
-      "days_to_earnings": 18
+      "days_to_earnings": 17
     }
   },
   "news": {
@@ -58,33 +58,33 @@
     "sentiment": "neutral",
     "health": "healthy",
     "key_events": [
-      "Earnings report in 18 days",
-      "VIX at 16.0 indicates neutral market volatility",
-      "Market sentiment shows Fear & Greed index leaning Fear"
+      "Earnings report in 17 days",
+      "Market sentiment Fear-leaning despite neutral VIX",
+      "Geopolitical moderate risk (data insufficient)"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "No recent news catalysts visible",
-      "RSI at 44.4 suggests neither overbought nor oversold, but momentum is subdued",
-      "Position currently down 0.49% with no technical firing signals"
+      "RSI 43.3 showing weakness without oversold confirmation",
+      "No technical firing signals",
+      "Minimal news flow limiting conviction"
     ],
-    "verdict": "Walmart fundamentals remain healthy; hold position ahead of earnings with neutral technicals and modest drawdown.",
+    "verdict": "WMT fundamentals remain solid but lacks near-term catalysts; hold through earnings volatility given small 0.93% drawdown and 2.5% portfolio weight.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "WMT",
-    "stock_return_3m": -15.55,
-    "benchmark_return_3m": 4.22,
-    "relative_strength": -19.77,
+    "stock_return_3m": -15.71,
+    "benchmark_return_3m": 5.41,
+    "relative_strength": -21.12,
     "label": "underperforming"
   },
   "final_tier": "Hold",
   "sizing": {
     "suggested_shares": 1,
-    "suggested_dollars": 111.2,
-    "note": "1 sh @ $111.20 = $111 (Hold, 60% size) | $727 swing budget after"
+    "suggested_dollars": 110.71,
+    "note": "1 sh @ $110.71 = $111 (Hold, 60% size) | $549 swing budget after"
   },
   "is_dca": false,
-  "saved_at": "2026-08-02T23:32:05.755174"
+  "saved_at": "2026-08-03T23:40:42.040054"
 }

@@ -5,24 +5,24 @@
     "direction": "hold",
     "tier": "Hold",
     "buy_score": 0.25,
-    "sell_score": 0.29,
+    "sell_score": 0.43,
     "reasons": [],
     "misses": [
-      "BB: price not near lower band (pct=0.79)",
+      "BB: price not near lower band (pct=0.81)",
       "BB Width: bands expanding, not squeezing",
-      "RSI: not in buy zone (67.2, need 20-40)",
+      "RSI: not in buy zone (69.3, need 20-40)",
       "MACD: no bullish crossover or valley",
       "RSI Divergence: no bullish divergence detected",
-      "Volume: below average (0.75x) \u2014 low conviction"
+      "Volume: below average (0.39x) \u2014 low conviction"
     ],
-    "price": 105.7,
-    "rsi": 67.2,
-    "atr": 3.63,
+    "price": 107.12,
+    "rsi": 69.3,
+    "atr": 3.64,
     "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 1,
-      "suggested_dollars": 105.7,
-      "note": "1 sh @ $105.70 = $106 (Hold, 60% size) | $733 swing budget after"
+      "suggested_dollars": 107.12,
+      "note": "1 sh @ $107.12 = $107 (Hold, 60% size) | $553 swing budget after"
     }
   },
   "fundamentals": {
@@ -51,7 +51,7 @@
       ],
       "earnings_status": "distant",
       "next_earnings_date": "2026-10-14",
-      "days_to_earnings": 73
+      "days_to_earnings": 72
     }
   },
   "news": {
@@ -60,32 +60,32 @@
     "health": "healthy",
     "key_events": [
       "No recent news items available for analysis",
-      "Earnings 73 days away - no near-term catalyst",
-      "Market sentiment: Fear & Greed indicator showing Fear"
+      "Earnings 72 days out provides extended runway before next catalyst",
+      "Market sentiment Fear-driven despite neutral VIX (15.9)"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "RSI at 67.2 indicates overbought conditions on entry",
-      "Position down 3.71% with no positive momentum firing",
-      "Market fear sentiment despite neutral VIX suggests sector/stock-specific weakness"
+      "RSI at 69.3 suggests overbought conditions or recent pullback from resistance",
+      "Position underwater -2.41% with no immediate positive catalyst",
+      "Lack of news flow suggests limited near-term momentum drivers"
     ],
-    "verdict": "ABT is fundamentally healthy but technicals show weakness; hold for recovery given policy of not exiting minor losses.",
+    "verdict": "ABT remains fundamentally healthy but lacks near-term catalysts; current drawdown is minor and manageable for a swing position.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "ABT",
-    "stock_return_3m": 17.25,
-    "benchmark_return_3m": 4.22,
-    "relative_strength": 13.04,
+    "stock_return_3m": 20.59,
+    "benchmark_return_3m": 5.41,
+    "relative_strength": 15.19,
     "label": "outperforming"
   },
   "final_tier": "Hold",
   "sizing": {
     "suggested_shares": 1,
-    "suggested_dollars": 105.7,
-    "note": "1 sh @ $105.70 = $106 (Hold, 60% size) | $733 swing budget after"
+    "suggested_dollars": 107.12,
+    "note": "1 sh @ $107.12 = $107 (Hold, 60% size) | $553 swing budget after"
   },
   "is_dca": false,
-  "saved_at": "2026-08-02T23:31:50.504894"
+  "saved_at": "2026-08-03T23:40:28.051506"
 }
