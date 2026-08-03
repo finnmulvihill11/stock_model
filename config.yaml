@@ -27,8 +27,8 @@ portfolio:
     avg_cost: 69.08
     high_risk: true
   - ticker: VXUS
-    shares: 2.59
-    avg_cost: 76.63
+    shares: 3.178
+    avg_cost: 78.16
     dca: true
   - ticker: GRNI
     shares: 4
