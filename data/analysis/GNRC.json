@@ -5,16 +5,16 @@
     "direction": "hold",
     "tier": "Hold",
     "buy_score": 0.62,
-    "sell_score": 0.29,
+    "sell_score": 0.43,
     "reasons": [],
     "misses": [
-      "BB: price not near lower band (pct=0.29)",
-      "BB Width: bands expanding, not squeezing",
+      "BB: price not near lower band (pct=0.59)",
+      "RSI: not in buy zone (47.8, need 20-40)",
       "RSI Divergence: no bullish divergence detected"
     ],
-    "price": 201.21,
-    "rsi": 34.8,
-    "atr": 11.35,
+    "price": 218.63,
+    "rsi": 47.8,
+    "atr": 11.91,
     "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 0,
@@ -48,7 +48,7 @@
       ],
       "earnings_status": "past",
       "next_earnings_date": "2026-07-29",
-      "days_to_earnings": -5
+      "days_to_earnings": -6
     }
   },
   "news": {
@@ -56,26 +56,26 @@
     "sentiment": "neutral",
     "health": "healthy",
     "key_events": [
-      "Earnings reported 5 days ago (past earnings cycle)",
-      "Stock up +2.20% from entry despite post-earnings period",
-      "RSI at 34.8 suggests recent selling pressure but not yet oversold"
+      "Earnings reported 6 days ago",
+      "Stock up 11.05% from entry, near recent highs",
+      "RSI at 47.8 indicates neither overbought nor oversold conditions",
+      "Market backdrop neutral with VIX 16.5 but extreme fear gauge present"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "No recent news items available for analysis",
-      "RSI 34.8 indicates weakness; approaching oversold at 30",
-      "Fear sentiment in broader market (F&G index) despite neutral VIX",
-      "Post-earnings volatility period typically high-risk for swing traders"
+      "No technical firing signals despite strong price move suggests momentum may be fading",
+      "Extreme fear sentiment creates potential for volatility despite healthy fundamentals",
+      "Post-earnings period typically sees profit-taking after 6+ days"
     ],
-    "verdict": "GNRC shows modest gains post-earnings with healthy fundamentals, but weak technical setup and absence of bullish catalysts warrant cautious positioning.",
+    "verdict": "Profitable swing trade in healthy company at intermediate resistance; prudent to take partial profits before mean reversion.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "GNRC",
-    "stock_return_3m": -22.41,
-    "benchmark_return_3m": 5.41,
-    "relative_strength": -27.82,
+    "stock_return_3m": -14.95,
+    "benchmark_return_3m": 7.7,
+    "relative_strength": -22.66,
     "label": "underperforming"
   },
   "final_tier": "Hold",
@@ -85,5 +85,5 @@
     "note": "Price exceeds 60% conviction ceiling ($119) \u2014 skip or wait for Strong Buy"
   },
   "is_dca": false,
-  "saved_at": "2026-08-03T23:40:56.010804"
+  "saved_at": "2026-08-04T23:35:56.131587"
 }

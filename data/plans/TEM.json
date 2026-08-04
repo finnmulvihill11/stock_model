@@ -3,19 +3,36 @@
     "ticker": "TEM",
     "company_name": "Tempus AI, Inc.",
     "action": "Hold",
-    "action_reason": "Philosophy mandates holding major losers (>15% down). However, this is a hard hold to justify given unprofitability and negative cash flow. Monitor for stabilization signals (RSI recovery above 50, earnings beat, or path to profitability announcement) before considering add-on.",
+    "action_reason": "Position is down 31.89%, triggering your hold-through-major-losses rule. Exiting now locks in losses; wait for technical reversal signals (RSI <30 oversold bounce or bullish divergence) or fundamental stabilization before reconsidering.",
     "target_price": null,
     "target_reasoning": "",
-    "exit_trigger": "Exit if debt restructuring announced, dilutive financing occurs, or OCF deteriorates further in next earnings; OR if RSI breaks below 30 and closes below $40 on high volume (capitulation)",
-    "add_trigger": "Do NOT add. Only reconsider if: (1) company announces path to profitability, (2) RSI recovers to 60+ with bullish divergence, AND (3) broader market VIX drops below 13",
-    "risk": "Continued cash burn + high debt = potential dilution event or covenant breach. Biotech/AI upstarts with negative FCF are liquidation risks in downturns.",
+    "exit_trigger": "Exit only if: (1) RSI drops below 30 with failed bounce attempt, or (2) company files bankruptcy/dilutive capital raise, or (3) fundamentals show 2+ consecutive quarters of improvement with stock recovering to $55+",
+    "add_trigger": "Add only if RSI drops to 20-25 (oversold) with bullish candlestick reversal AND positive guidance/cash flow announcement",
+    "risk": "Continued cash burn and potential need for dilutive financing; stock could fall further to $35-40 before bottoming. Debt covenants may be tested if losses persist.",
     "outlook": "cautious",
-    "timeframe": "3-6 weeks for stabilization signals; if none materialize by next earnings, reassess hold thesis",
-    "generated_at": "2026-08-03T23:40:35.839939",
-    "price_at_generation": 46.05,
-    "pnl_at_generation": -33.34
+    "timeframe": "3-6 months for fundamental recovery signals; reassess at next earnings (likely +4-6 weeks)",
+    "generated_at": "2026-08-04T23:35:36.441619",
+    "price_at_generation": 47.05,
+    "pnl_at_generation": -31.89
   },
   "history": [
+    {
+      "ticker": "TEM",
+      "company_name": "Tempus AI, Inc.",
+      "action": "Hold",
+      "action_reason": "Philosophy mandates holding major losers (>15% down). However, this is a hard hold to justify given unprofitability and negative cash flow. Monitor for stabilization signals (RSI recovery above 50, earnings beat, or path to profitability announcement) before considering add-on.",
+      "target_price": null,
+      "target_reasoning": "",
+      "exit_trigger": "Exit if debt restructuring announced, dilutive financing occurs, or OCF deteriorates further in next earnings; OR if RSI breaks below 30 and closes below $40 on high volume (capitulation)",
+      "add_trigger": "Do NOT add. Only reconsider if: (1) company announces path to profitability, (2) RSI recovers to 60+ with bullish divergence, AND (3) broader market VIX drops below 13",
+      "risk": "Continued cash burn + high debt = potential dilution event or covenant breach. Biotech/AI upstarts with negative FCF are liquidation risks in downturns.",
+      "outlook": "cautious",
+      "timeframe": "3-6 weeks for stabilization signals; if none materialize by next earnings, reassess hold thesis",
+      "generated_at": "2026-08-03T23:40:35.839939",
+      "price_at_generation": 46.05,
+      "pnl_at_generation": -33.34,
+      "archived_at": "2026-08-04T23:35:36.441840"
+    },
     {
       "ticker": "TEM",
       "company_name": "Tempus AI, Inc.",
@@ -117,23 +134,6 @@
       "price_at_generation": 42.69,
       "pnl_at_generation": -38.2,
       "archived_at": "2026-07-27T23:38:05.856071"
-    },
-    {
-      "ticker": "TEM",
-      "company_name": "Tempus AI, Inc.",
-      "action": "Hold",
-      "action_reason": "Your philosophy prohibits exits on >15% losses. However, this is a forced hold, not a conviction hold\u2014prepare for earnings as a potential exit trigger if guidance deteriorates further. Use the 7-day window to assess management credibility on path to profitability and cash flow improvement.",
-      "target_price": null,
-      "target_reasoning": "",
-      "exit_trigger": "Earnings miss + negative guidance on profitability timeline, or if RSI breaks below 30 on high volume without reversal signal within 2 weeks",
-      "add_trigger": "Do NOT add. Fundamentals do not support averaging down; wait for evidence of operational improvement post-earnings",
-      "risk": "Cash burn could accelerate, forcing dilutive financing; debt covenant pressure if cash position weakens; AI market rotation could extend the selloff",
-      "outlook": "cautious",
-      "timeframe": "1-2 weeks (earnings-dependent; reassess post-results)",
-      "generated_at": "2026-07-23T23:31:03.041449",
-      "price_at_generation": 46.01,
-      "pnl_at_generation": -33.4,
-      "archived_at": "2026-07-26T23:32:14.776646"
     }
   ]
 }

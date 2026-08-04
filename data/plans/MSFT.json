@@ -3,19 +3,36 @@
     "ticker": "MSFT",
     "company_name": "Microsoft Corporation",
     "action": "Hold",
-    "action_reason": "Position is solidly profitable (+4.38%); trimming profitable positions aligns with strategy. However, overbought RSI suggests waiting for a pullback before adding. Hold current 2sh and monitor for re-entry opportunity on dip.",
+    "action_reason": "Position is profitable and fundamentals remain solid. RSI overbought suggests waiting for a pullback or consolidation before adding; exiting a +5.49% winner violates swing discipline.",
     "target_price": 510,
     "target_reasoning": "",
-    "exit_trigger": "Close below $475 (breaks recent support) OR RSI drops below 50 with volume confirmation on down day",
-    "add_trigger": "RSI falls to 50-60 range on pullback to $470-478 with positive volume",
-    "risk": "Overbought pullback (-3 to -5%) before continuation; geopolitical surprise given moderate risk",
+    "exit_trigger": "Break below $480 on increased volume; RSI falls below 50 with close on support; or VIX spikes above 25 signaling broader market stress",
+    "add_trigger": "RSI drops to 50-60 range (healthy pullback) with price holding above $480; or on 5-10% pullback if fundamentals remain intact",
+    "risk": "Overbought mean reversion in elevated F&G environment; sector rotation risk if AI enthusiasm cools; geopolitical escalation affecting risk appetite",
     "outlook": "cautious",
-    "timeframe": "2-4 weeks \u2014 expect consolidation in near-term (1-2 weeks), then potential retest of $500+ resistance",
-    "generated_at": "2026-08-03T23:40:21.132355",
-    "price_at_generation": 487.65,
-    "pnl_at_generation": 4.38
+    "timeframe": "2-4 weeks",
+    "generated_at": "2026-08-04T23:35:22.503230",
+    "price_at_generation": 492.81,
+    "pnl_at_generation": 5.49
   },
   "history": [
+    {
+      "ticker": "MSFT",
+      "company_name": "Microsoft Corporation",
+      "action": "Hold",
+      "action_reason": "Position is solidly profitable (+4.38%); trimming profitable positions aligns with strategy. However, overbought RSI suggests waiting for a pullback before adding. Hold current 2sh and monitor for re-entry opportunity on dip.",
+      "target_price": 510,
+      "target_reasoning": "",
+      "exit_trigger": "Close below $475 (breaks recent support) OR RSI drops below 50 with volume confirmation on down day",
+      "add_trigger": "RSI falls to 50-60 range on pullback to $470-478 with positive volume",
+      "risk": "Overbought pullback (-3 to -5%) before continuation; geopolitical surprise given moderate risk",
+      "outlook": "cautious",
+      "timeframe": "2-4 weeks \u2014 expect consolidation in near-term (1-2 weeks), then potential retest of $500+ resistance",
+      "generated_at": "2026-08-03T23:40:21.132355",
+      "price_at_generation": 487.65,
+      "pnl_at_generation": 4.38,
+      "archived_at": "2026-08-04T23:35:22.503464"
+    },
     {
       "ticker": "MSFT",
       "company_name": "Microsoft Corporation",
@@ -117,23 +134,6 @@
       "price_at_generation": 381.7,
       "pnl_at_generation": -18.3,
       "archived_at": "2026-07-27T23:37:51.867142"
-    },
-    {
-      "ticker": "MSFT",
-      "company_name": "Microsoft Corporation",
-      "action": "Hold",
-      "action_reason": "Per strategy philosophy, never exit positions down >15%. Earnings in 6 days provides near-term catalyst; healthy fundamentals support recovery potential. Current drawdown likely represents market-wide weakness, not company-specific deterioration.",
-      "target_price": null,
-      "target_reasoning": "",
-      "exit_trigger": "ONLY exit if fundamentals deteriorate post-earnings OR price breaks below $350 on heavy volume post-earnings miss",
-      "add_trigger": "Add if MSFT drops below $360 post-earnings with bullish guidance, or after earnings beat triggers RSI recovery above 60",
-      "risk": "Earnings miss could accelerate decline; 19.2% portfolio weight concentrates risk during volatile period",
-      "outlook": "cautious",
-      "timeframe": "Hold through earnings (6 days), reassess 2-3 days post-earnings based on guidance and execution",
-      "generated_at": "2026-07-23T23:30:49.652889",
-      "price_at_generation": 381.58,
-      "pnl_at_generation": -18.32,
-      "archived_at": "2026-07-26T23:32:00.056384"
     }
   ]
 }

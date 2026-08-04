@@ -3,19 +3,36 @@
     "ticker": "ABT",
     "company_name": "ABT",
     "action": "Hold",
-    "action_reason": "Position is only -2.41% down (well within noise), fundamentals are solid, and earnings provide a defined catalyst 72 days out. RSI elevation suggests consolidation; wait for clearer directional signals before adding or exiting.",
+    "action_reason": "Position is only -3.93% (well above 15% threshold), fundamentals are healthy, and earnings catalyst is 71 days away. Use this consolidation period to add on weakness rather than exit.",
     "target_price": null,
     "target_reasoning": "",
-    "exit_trigger": "Loss exceeds 15% OR fundamental deterioration confirmed OR breaks below 200-day MA with volume surge",
-    "add_trigger": "RSI cools below 50 + price stabilizes above $106.50 + positive earnings pre-announcements",
-    "risk": "Continued market-wide risk-off sentiment pulling defensive healthcare lower; earnings miss or guidance cut in 72 days",
+    "exit_trigger": "Break below $102.50 (support) on high volume + deteriorating fundamentals OR hold if price recovers to $108+ before earnings",
+    "add_trigger": "ABT dips to $103-$104 range on RSI <40 + market weakness; accumulate on F&G Fear extreme conditions",
+    "risk": "Healthcare sector rotation, macro headwinds if VIX spikes, or earnings miss in December",
     "outlook": "neutral",
-    "timeframe": "4-8 weeks (through earnings)",
-    "generated_at": "2026-08-03T23:40:28.050679",
-    "price_at_generation": 107.12,
-    "pnl_at_generation": -2.41
+    "timeframe": "4-8 weeks (hold through consolidation to earnings)",
+    "generated_at": "2026-08-04T23:35:29.105923",
+    "price_at_generation": 105.46,
+    "pnl_at_generation": -3.93
   },
   "history": [
+    {
+      "ticker": "ABT",
+      "company_name": "ABT",
+      "action": "Hold",
+      "action_reason": "Position is only -2.41% down (well within noise), fundamentals are solid, and earnings provide a defined catalyst 72 days out. RSI elevation suggests consolidation; wait for clearer directional signals before adding or exiting.",
+      "target_price": null,
+      "target_reasoning": "",
+      "exit_trigger": "Loss exceeds 15% OR fundamental deterioration confirmed OR breaks below 200-day MA with volume surge",
+      "add_trigger": "RSI cools below 50 + price stabilizes above $106.50 + positive earnings pre-announcements",
+      "risk": "Continued market-wide risk-off sentiment pulling defensive healthcare lower; earnings miss or guidance cut in 72 days",
+      "outlook": "neutral",
+      "timeframe": "4-8 weeks (through earnings)",
+      "generated_at": "2026-08-03T23:40:28.050679",
+      "price_at_generation": 107.12,
+      "pnl_at_generation": -2.41,
+      "archived_at": "2026-08-04T23:35:29.106164"
+    },
     {
       "ticker": "ABT",
       "company_name": "ABT",
@@ -117,23 +134,6 @@
       "price_at_generation": 103.06,
       "pnl_at_generation": -6.11,
       "archived_at": "2026-07-27T23:37:58.678954"
-    },
-    {
-      "ticker": "ABT",
-      "company_name": "Abbott Laboratories",
-      "action": "Hold",
-      "action_reason": "Loss of -8.22% is well below the 15% threshold requiring forced hold-through. RSI at 64.9 suggests momentum is not yet exhausted, and neutral VIX provides no systemic risk signal.",
-      "target_price": 112.5,
-      "target_reasoning": "",
-      "exit_trigger": "Price recovers to $112+ (original target achieved) OR RSI exceeds 75 with divergence + close above $111",
-      "add_trigger": "Price dips to $97-98 (support test) with RSI < 50 and no negative news catalysts",
-      "risk": "Further post-earnings selling if guidance revision or sector headwinds emerge; Fear sentiment could extend drawdown to 12-15%",
-      "outlook": "neutral",
-      "timeframe": "2-4 weeks",
-      "generated_at": "2026-07-23T23:30:55.289646",
-      "price_at_generation": 100.75,
-      "pnl_at_generation": -8.22,
-      "archived_at": "2026-07-26T23:32:07.510294"
     }
   ]
 }

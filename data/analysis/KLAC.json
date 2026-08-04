@@ -4,17 +4,18 @@
     "ticker": "KLAC",
     "direction": "hold",
     "tier": "Hold",
-    "buy_score": 0.62,
-    "sell_score": 0.0,
+    "buy_score": 0.5,
+    "sell_score": 0.14,
     "reasons": [],
     "misses": [
+      "BB: price not near lower band (pct=0.33)",
       "BB Width: bands expanding, not squeezing",
-      "RSI Divergence: no bullish divergence detected",
-      "Volume: below average (0.82x) \u2014 low conviction"
+      "RSI: not in buy zone (44.3, need 20-40)",
+      "RSI Divergence: no bullish divergence detected"
     ],
-    "price": 182.75,
-    "rsi": 38.2,
-    "atr": 13.8,
+    "price": 195.45,
+    "rsi": 44.3,
+    "atr": 13.37,
     "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 0,
@@ -48,7 +49,7 @@
       ],
       "earnings_status": "past",
       "next_earnings_date": "2026-07-28",
-      "days_to_earnings": -6
+      "days_to_earnings": -7
     }
   },
   "news": {
@@ -56,28 +57,26 @@
     "sentiment": "neutral",
     "health": "healthy",
     "key_events": [
-      "Earnings reported 6 days ago (post-announcement consolidation phase)",
-      "RSI at 38.2 indicates oversold conditions with recovery potential",
-      "Position up 2.65% despite post-earnings volatility",
-      "VIX at 15.9 suggests stable macro environment"
+      "Earnings reported 7 days ago",
+      "Position up +9.78% \u2014 profitable swing trade",
+      "RSI at 44.3 suggests no overbought condition; room for upside"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "No recent news flow visible\u2014lack of catalyst clarity",
-      "RSI below 40 suggests recent selling pressure post-earnings",
-      "Fear sentiment in market despite neutral VIX",
-      "Geopolitical data insufficient for full risk assessment"
+      "No recent news data available for assessment",
+      "Geopolitical risk elevated (MODERATE) \u2014 semiconductor sector sensitive",
+      "F&G Extreme Fear suggests contrarian buying pressure but market sentiment fragile"
     ],
-    "verdict": "KLAC is fundamentally healthy with a profitable swing entry; hold for oversold RSI recovery while monitoring earnings digestion phase.",
+    "verdict": "Hold current profitable position; lack of news data and RSI positioning suggest consolidation phase before next directional move.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "KLAC",
-    "stock_return_3m": 6.0,
-    "benchmark_return_3m": 5.41,
-    "relative_strength": 0.59,
-    "label": "in-line"
+    "stock_return_3m": 14.22,
+    "benchmark_return_3m": 7.7,
+    "relative_strength": 6.52,
+    "label": "outperforming"
   },
   "final_tier": "Hold",
   "sizing": {
@@ -86,5 +85,5 @@
     "note": "Price exceeds 60% conviction ceiling ($119) \u2014 skip or wait for Strong Buy"
   },
   "is_dca": false,
-  "saved_at": "2026-08-03T23:41:02.687967"
+  "saved_at": "2026-08-04T23:36:02.965418"
 }

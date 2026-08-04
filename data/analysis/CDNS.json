@@ -8,15 +8,15 @@
     "sell_score": 0.0,
     "reasons": [],
     "misses": [
-      "BB: price not near lower band (pct=0.32)",
+      "BB: price not near lower band (pct=0.39)",
       "BB Width: bands expanding, not squeezing",
-      "RSI: not in buy zone (41.3, need 20-40)",
+      "RSI: not in buy zone (44.0, need 20-40)",
       "RSI Divergence: no bullish divergence detected",
-      "Volume: below average (0.75x) \u2014 low conviction"
+      "Volume: below average (0.84x) \u2014 low conviction"
     ],
-    "price": 336.15,
-    "rsi": 41.3,
-    "atr": 16.29,
+    "price": 340.62,
+    "rsi": 44.0,
+    "atr": 16.05,
     "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 0,
@@ -50,7 +50,7 @@
       ],
       "earnings_status": "past",
       "next_earnings_date": "2026-07-27",
-      "days_to_earnings": -7
+      "days_to_earnings": -8
     }
   },
   "news": {
@@ -58,25 +58,27 @@
     "sentiment": "neutral",
     "health": "healthy",
     "key_events": [
-      "Earnings reported 7 days ago",
-      "Post-earnings consolidation phase",
-      "RSI at 41.3 indicates neither overbought nor oversold conditions"
+      "Earnings reported 8 days ago",
+      "RSI at 44.0 suggests neither overbought nor oversold conditions",
+      "VIX at 16.5 indicates calm market environment",
+      "Extreme Fear sentiment despite neutral technicals"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "No recent news available for sentiment confirmation",
-      "Market sentiment shows Fear despite neutral VIX (15.9)",
-      "Position down 0.56% in early swing phase"
+      "No active technical firing signals despite 7.6% portfolio weight",
+      "RSI approaching neutral zone with no directional momentum",
+      "Earnings already digested with minimal follow-through",
+      "Extreme Fear disconnect from healthy fundamentals suggests market irrationality"
     ],
-    "verdict": "CDNS showing healthy fundamentals with normal post-earnings pullback; hold through consolidation for swing recovery.",
+    "verdict": "CDNS shows healthy fundamentals and neutral technicals post-earnings, but lacks clear directional momentum with modest gains and no buy signals firing.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "CDNS",
-    "stock_return_3m": -1.4,
-    "benchmark_return_3m": 5.41,
-    "relative_strength": -6.81,
+    "stock_return_3m": -2.54,
+    "benchmark_return_3m": 7.7,
+    "relative_strength": -10.25,
     "label": "underperforming"
   },
   "final_tier": "Hold",
@@ -86,5 +88,5 @@
     "note": "Price exceeds 60% conviction ceiling ($119) \u2014 skip or wait for Strong Buy"
   },
   "is_dca": false,
-  "saved_at": "2026-08-03T23:40:48.478907"
+  "saved_at": "2026-08-04T23:35:48.497624"
 }

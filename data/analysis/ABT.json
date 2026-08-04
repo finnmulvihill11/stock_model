@@ -5,24 +5,24 @@
     "direction": "hold",
     "tier": "Hold",
     "buy_score": 0.25,
-    "sell_score": 0.43,
+    "sell_score": 0.29,
     "reasons": [],
     "misses": [
-      "BB: price not near lower band (pct=0.81)",
+      "BB: price not near lower band (pct=0.72)",
       "BB Width: bands expanding, not squeezing",
-      "RSI: not in buy zone (69.3, need 20-40)",
+      "RSI: not in buy zone (64.2, need 20-40)",
       "MACD: no bullish crossover or valley",
       "RSI Divergence: no bullish divergence detected",
-      "Volume: below average (0.39x) \u2014 low conviction"
+      "Volume: below average (0.45x) \u2014 low conviction"
     ],
-    "price": 107.12,
-    "rsi": 69.3,
+    "price": 105.46,
+    "rsi": 64.2,
     "atr": 3.64,
     "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 1,
-      "suggested_dollars": 107.12,
-      "note": "1 sh @ $107.12 = $107 (Hold, 60% size) | $553 swing budget after"
+      "suggested_dollars": 105.46,
+      "note": "1 sh @ $105.46 = $105 (Hold, 60% size) | $555 swing budget after"
     }
   },
   "fundamentals": {
@@ -51,7 +51,7 @@
       ],
       "earnings_status": "distant",
       "next_earnings_date": "2026-10-14",
-      "days_to_earnings": 72
+      "days_to_earnings": 71
     }
   },
   "news": {
@@ -59,33 +59,33 @@
     "sentiment": "neutral",
     "health": "healthy",
     "key_events": [
-      "No recent news items available for analysis",
-      "Earnings 72 days out provides extended runway before next catalyst",
-      "Market sentiment Fear-driven despite neutral VIX (15.9)"
+      "No recent news available for assessment",
+      "Earnings 71 days out (mid-December timeframe)",
+      "Position down 3.93% \u2014 manageable drawdown"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "RSI at 69.3 suggests overbought conditions or recent pullback from resistance",
-      "Position underwater -2.41% with no immediate positive catalyst",
-      "Lack of news flow suggests limited near-term momentum drivers"
+      "RSI at 64.2 suggests mild overbought conditions on recent bounce",
+      "No technical firing signals \u2014 momentum stalling",
+      "Extreme Fear in F&G index indicates potential market capitulation or opportunities"
     ],
-    "verdict": "ABT remains fundamentally healthy but lacks near-term catalysts; current drawdown is minor and manageable for a swing position.",
+    "verdict": "ABT remains fundamentally sound with manageable drawdown; hold current position and monitor for technical entry points on weakness.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "ABT",
-    "stock_return_3m": 20.59,
-    "benchmark_return_3m": 5.41,
-    "relative_strength": 15.19,
+    "stock_return_3m": 21.33,
+    "benchmark_return_3m": 7.7,
+    "relative_strength": 13.63,
     "label": "outperforming"
   },
   "final_tier": "Hold",
   "sizing": {
     "suggested_shares": 1,
-    "suggested_dollars": 107.12,
-    "note": "1 sh @ $107.12 = $107 (Hold, 60% size) | $553 swing budget after"
+    "suggested_dollars": 105.46,
+    "note": "1 sh @ $105.46 = $105 (Hold, 60% size) | $555 swing budget after"
   },
   "is_dca": false,
-  "saved_at": "2026-08-03T23:40:28.051506"
+  "saved_at": "2026-08-04T23:35:29.106769"
 }

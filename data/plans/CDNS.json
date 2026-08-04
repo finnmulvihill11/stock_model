@@ -3,19 +3,36 @@
     "ticker": "CDNS",
     "company_name": "Cadence Design Systems, Inc.",
     "action": "Hold",
-    "action_reason": "Position is only -0.56% with healthy fundamentals and RSI in neutral zone (41.3). Post-earnings volatility typically resolves within 2-4 weeks. Insufficient downside to warrant exit per philosophy.",
-    "target_price": 350.0,
+    "action_reason": "Position is modestly profitable (+0.77%) with healthy fundamentals and neutral technicals. Hold for clearer entry signals or wait for RSI to move decisively above 50 before adding; avoid trimming a small winner.",
+    "target_price": null,
     "target_reasoning": "",
-    "exit_trigger": "Break below $330 (2.4% further downside) or negative earnings surprise confirmation",
-    "add_trigger": "Pullback to $330-332 range with RSI <30 + positive news catalyst",
-    "risk": "Broader semiconductor sector rotation or macro headwind if VIX spikes above 20; geopolitical risk unquantified",
+    "exit_trigger": "Close below $330 (below recent support) or deteriorating fundamentals",
+    "add_trigger": "RSI breaks above 55 with volume confirmation OR pullback to $335 with RSI >50 and broader market support",
+    "risk": "Lack of momentum continuation post-earnings; potential pullback if semiconductor sector weakens amid macro uncertainty",
     "outlook": "neutral",
-    "timeframe": "2-4 weeks (post-earnings consolidation resolution)",
-    "generated_at": "2026-08-03T23:40:48.478051",
-    "price_at_generation": 336.15,
-    "pnl_at_generation": -0.56
+    "timeframe": "2-4 weeks \u2014 monitoring for technical breakout or clearer setup to justify larger position",
+    "generated_at": "2026-08-04T23:35:48.496774",
+    "price_at_generation": 340.62,
+    "pnl_at_generation": 0.77
   },
   "history": [
+    {
+      "ticker": "CDNS",
+      "company_name": "Cadence Design Systems, Inc.",
+      "action": "Hold",
+      "action_reason": "Position is only -0.56% with healthy fundamentals and RSI in neutral zone (41.3). Post-earnings volatility typically resolves within 2-4 weeks. Insufficient downside to warrant exit per philosophy.",
+      "target_price": 350.0,
+      "target_reasoning": "",
+      "exit_trigger": "Break below $330 (2.4% further downside) or negative earnings surprise confirmation",
+      "add_trigger": "Pullback to $330-332 range with RSI <30 + positive news catalyst",
+      "risk": "Broader semiconductor sector rotation or macro headwind if VIX spikes above 20; geopolitical risk unquantified",
+      "outlook": "neutral",
+      "timeframe": "2-4 weeks (post-earnings consolidation resolution)",
+      "generated_at": "2026-08-03T23:40:48.478051",
+      "price_at_generation": 336.15,
+      "pnl_at_generation": -0.56,
+      "archived_at": "2026-08-04T23:35:48.497021"
+    },
     {
       "ticker": "CDNS",
       "company_name": "Cadence Design Systems, Inc.",
@@ -117,23 +134,6 @@
       "price_at_generation": 326.24,
       "pnl_at_generation": -3.49,
       "archived_at": "2026-07-27T23:38:22.052679"
-    },
-    {
-      "ticker": "CDNS",
-      "company_name": "Cadence Design Systems, Inc.",
-      "action": "Hold",
-      "action_reason": "Position is only down 2.24%, well within normal swing trading variance. With RSI at 33.4 (oversold), earnings catalyst in 4 days, and healthy fundamentals, holding allows you to capture either a recovery bounce or earnings-driven move without forced exit from a minor loss.",
-      "target_price": 345,
-      "target_reasoning": "",
-      "exit_trigger": "Close below $325 on strong volume, or clear deterioration in semiconductor demand signals post-earnings",
-      "add_trigger": "RSI bounces above 40 with volume confirmation OR positive earnings surprise with guidance maintained/raised",
-      "risk": "Earnings miss could accelerate decline; fear sentiment may intensify pre-announcement volatility and shake out position",
-      "outlook": "neutral",
-      "timeframe": "1-2 weeks (through earnings + 3-5 day post-earnings momentum window)",
-      "generated_at": "2026-07-23T23:31:38.847107",
-      "price_at_generation": 330.46,
-      "pnl_at_generation": -2.24,
-      "archived_at": "2026-07-26T23:32:37.948386"
     }
   ]
 }

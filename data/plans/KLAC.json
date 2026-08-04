@@ -3,17 +3,35 @@
     "ticker": "KLAC",
     "company_name": "KLA Corporation",
     "action": "Hold",
-    "action_reason": "Position is profitable (+2.65%) and RSI is oversold (38.2), typically a mean-reversion setup. No exit catalyst exists; allow the swing to mature through post-earnings consolidation.",
-    "target_price": 188.5,
+    "action_reason": "Position is solidly profitable (+9.78%) with healthy fundamentals and no technical sell signals. RSI at 44.3 is neutral, leaving room for mean reversion upside without being overextended. Wait for clearer technical setup or news catalyst.",
+    "target_price": 205,
     "target_reasoning": "",
-    "exit_trigger": "RSI exceeds 70 with distribution volume OR position drops below $170 (4.5% loss threshold)",
-    "add_trigger": "RSI bounces to 45-50 range with bullish volume confirmation OR on any dip to $180 if fundamentals remain intact",
-    "risk": "Post-earnings volatility could extend drawdown; semiconductor sector sentiment shifts; geopolitical escalation impacting chip demand",
+    "exit_trigger": "Close below 20-day MA or bearish earnings revision; alternatively, take profits if price reaches $205-210 with RSI >70",
+    "add_trigger": "Dip to $185-190 on volume with RSI <35 and no deteriorating fundamentals",
+    "risk": "Semiconductor cyclicality + geopolitical tensions (Taiwan exposure) + post-earnings volatility",
     "outlook": "neutral",
-    "timeframe": "2-4 weeks",
-    "generated_at": "2026-08-03T23:41:02.687462",
-    "price_at_generation": 182.75,
-    "pnl_at_generation": 2.65
+    "timeframe": "3-6 weeks",
+    "generated_at": "2026-08-04T23:36:02.964732",
+    "price_at_generation": 195.45,
+    "pnl_at_generation": 9.78
   },
-  "history": []
+  "history": [
+    {
+      "ticker": "KLAC",
+      "company_name": "KLA Corporation",
+      "action": "Hold",
+      "action_reason": "Position is profitable (+2.65%) and RSI is oversold (38.2), typically a mean-reversion setup. No exit catalyst exists; allow the swing to mature through post-earnings consolidation.",
+      "target_price": 188.5,
+      "target_reasoning": "",
+      "exit_trigger": "RSI exceeds 70 with distribution volume OR position drops below $170 (4.5% loss threshold)",
+      "add_trigger": "RSI bounces to 45-50 range with bullish volume confirmation OR on any dip to $180 if fundamentals remain intact",
+      "risk": "Post-earnings volatility could extend drawdown; semiconductor sector sentiment shifts; geopolitical escalation impacting chip demand",
+      "outlook": "neutral",
+      "timeframe": "2-4 weeks",
+      "generated_at": "2026-08-03T23:41:02.687462",
+      "price_at_generation": 182.75,
+      "pnl_at_generation": 2.65,
+      "archived_at": "2026-08-04T23:36:02.964919"
+    }
+  ]
 }
