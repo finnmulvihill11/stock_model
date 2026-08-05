@@ -8,21 +8,21 @@
     "sell_score": 0.29,
     "reasons": [],
     "misses": [
-      "BB: price not near lower band (pct=0.72)",
+      "BB: price not near lower band (pct=0.71)",
       "BB Width: bands expanding, not squeezing",
-      "RSI: not in buy zone (64.2, need 20-40)",
+      "RSI: not in buy zone (64.6, need 20-40)",
       "MACD: no bullish crossover or valley",
       "RSI Divergence: no bullish divergence detected",
-      "Volume: below average (0.45x) \u2014 low conviction"
+      "Volume: below average (0.72x) \u2014 low conviction"
     ],
-    "price": 105.46,
-    "rsi": 64.2,
-    "atr": 3.64,
+    "price": 105.71,
+    "rsi": 64.6,
+    "atr": 2.92,
     "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 1,
-      "suggested_dollars": 105.46,
-      "note": "1 sh @ $105.46 = $105 (Hold, 60% size) | $555 swing budget after"
+      "suggested_dollars": 105.71,
+      "note": "1 sh @ $105.71 = $106 (Hold, 60% size) | $554 swing budget after"
     }
   },
   "fundamentals": {
@@ -51,7 +51,7 @@
       ],
       "earnings_status": "distant",
       "next_earnings_date": "2026-10-14",
-      "days_to_earnings": 71
+      "days_to_earnings": 70
     }
   },
   "news": {
@@ -59,33 +59,33 @@
     "sentiment": "neutral",
     "health": "healthy",
     "key_events": [
-      "No recent news available for assessment",
-      "Earnings 71 days out (mid-December timeframe)",
-      "Position down 3.93% \u2014 manageable drawdown"
+      "No recent news items provided for analysis",
+      "Earnings 70 days out provides runway for recovery",
+      "VIX at 15.8 indicates stable market environment"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "RSI at 64.2 suggests mild overbought conditions on recent bounce",
-      "No technical firing signals \u2014 momentum stalling",
-      "Extreme Fear in F&G index indicates potential market capitulation or opportunities"
+      "RSI at 64.6 suggests overbought conditions on entry (poor entry timing)",
+      "Market sentiment Fear (despite neutral VIX) may indicate sector headwinds",
+      "No current positive catalysts visible in news feed"
     ],
-    "verdict": "ABT remains fundamentally sound with manageable drawdown; hold current position and monitor for technical entry points on weakness.",
+    "verdict": "Hold position through drawdown; ABT fundamentals remain healthy with no deterioration signals, but entry was poorly timed at resistance.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "ABT",
-    "stock_return_3m": 21.33,
-    "benchmark_return_3m": 7.7,
-    "relative_strength": 13.63,
+    "stock_return_3m": 22.13,
+    "benchmark_return_3m": 6.63,
+    "relative_strength": 15.5,
     "label": "outperforming"
   },
   "final_tier": "Hold",
   "sizing": {
     "suggested_shares": 1,
-    "suggested_dollars": 105.46,
-    "note": "1 sh @ $105.46 = $105 (Hold, 60% size) | $555 swing budget after"
+    "suggested_dollars": 105.71,
+    "note": "1 sh @ $105.71 = $106 (Hold, 60% size) | $554 swing budget after"
   },
   "is_dca": false,
-  "saved_at": "2026-08-04T23:35:29.106769"
+  "saved_at": "2026-08-05T23:31:35.556537"
 }

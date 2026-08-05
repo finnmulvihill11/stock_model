@@ -3,19 +3,36 @@
     "ticker": "MSFT",
     "company_name": "Microsoft Corporation",
     "action": "Hold",
-    "action_reason": "Position is profitable and fundamentals remain solid. RSI overbought suggests waiting for a pullback or consolidation before adding; exiting a +5.49% winner violates swing discipline.",
-    "target_price": 510,
+    "action_reason": "Position is +4.34% profitable and fundamentals remain healthy. However, overbought RSI (76.1) with no active technical signals suggests limited upside momentum in near-term. No sell trigger warranted on a profitable swing; instead, wait for pullback to reload.",
+    "target_price": 495,
     "target_reasoning": "",
-    "exit_trigger": "Break below $480 on increased volume; RSI falls below 50 with close on support; or VIX spikes above 25 signaling broader market stress",
-    "add_trigger": "RSI drops to 50-60 range (healthy pullback) with price holding above $480; or on 5-10% pullback if fundamentals remain intact",
-    "risk": "Overbought mean reversion in elevated F&G environment; sector rotation risk if AI enthusiasm cools; geopolitical escalation affecting risk appetite",
-    "outlook": "cautious",
-    "timeframe": "2-4 weeks",
-    "generated_at": "2026-08-04T23:35:22.503230",
-    "price_at_generation": 492.81,
-    "pnl_at_generation": 5.49
+    "exit_trigger": "Close below $475 (support) on high volume OR if RSI cools below 50 and closes below 20-day MA with negative news catalyst",
+    "add_trigger": "Pullback to $470-475 range (near entry) on RSI <60 + positive AI/cloud revenue catalyst OR clear breakout above $495 on volume",
+    "risk": "Overbought pullback (5-8%) given elevated RSI; market-wide risk if Fear sentiment materializes into volatility spike",
+    "outlook": "neutral",
+    "timeframe": "2-4 weeks \u2014 post-earnings digestion phase; watch for next catalyst or technical consolidation",
+    "generated_at": "2026-08-05T23:31:28.348873",
+    "price_at_generation": 487.46,
+    "pnl_at_generation": 4.34
   },
   "history": [
+    {
+      "ticker": "MSFT",
+      "company_name": "Microsoft Corporation",
+      "action": "Hold",
+      "action_reason": "Position is profitable and fundamentals remain solid. RSI overbought suggests waiting for a pullback or consolidation before adding; exiting a +5.49% winner violates swing discipline.",
+      "target_price": 510,
+      "target_reasoning": "",
+      "exit_trigger": "Break below $480 on increased volume; RSI falls below 50 with close on support; or VIX spikes above 25 signaling broader market stress",
+      "add_trigger": "RSI drops to 50-60 range (healthy pullback) with price holding above $480; or on 5-10% pullback if fundamentals remain intact",
+      "risk": "Overbought mean reversion in elevated F&G environment; sector rotation risk if AI enthusiasm cools; geopolitical escalation affecting risk appetite",
+      "outlook": "cautious",
+      "timeframe": "2-4 weeks",
+      "generated_at": "2026-08-04T23:35:22.503230",
+      "price_at_generation": 492.81,
+      "pnl_at_generation": 5.49,
+      "archived_at": "2026-08-05T23:31:28.349065"
+    },
     {
       "ticker": "MSFT",
       "company_name": "Microsoft Corporation",
@@ -117,23 +134,6 @@
       "price_at_generation": 389.1,
       "pnl_at_generation": -16.71,
       "archived_at": "2026-07-28T23:32:51.945089"
-    },
-    {
-      "ticker": "MSFT",
-      "company_name": "Microsoft Corporation",
-      "action": "Hold",
-      "action_reason": "Position exceeds 15% loss threshold, triggering hold-through philosophy. Earnings catalyst in 3 days could provide recovery inflection; exiting now locks in losses unnecessarily.",
-      "target_price": 420,
-      "target_reasoning": "",
-      "exit_trigger": "Post-earnings weakness with RSI breaking below 30 and close below $370 on high volume; or fundamentals deteriorate materially",
-      "add_trigger": "RSI oversold (<30) + positive earnings beat + close above $400 on expansion",
-      "risk": "Earnings miss could accelerate downside to $360; macro deterioration if VIX spikes above 25",
-      "outlook": "cautious",
-      "timeframe": "3 days to 2 weeks (earnings-dependent)",
-      "generated_at": "2026-07-26T23:32:00.056195",
-      "price_at_generation": 381.7,
-      "pnl_at_generation": -18.3,
-      "archived_at": "2026-07-27T23:37:51.867142"
     }
   ]
 }

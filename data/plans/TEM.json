@@ -3,19 +3,36 @@
     "ticker": "TEM",
     "company_name": "Tempus AI, Inc.",
     "action": "Hold",
-    "action_reason": "Position is down 31.89%, triggering your hold-through-major-losses rule. Exiting now locks in losses; wait for technical reversal signals (RSI <30 oversold bounce or bullish divergence) or fundamental stabilization before reconsidering.",
+    "action_reason": "Position is -32.4%, exceeding the 15% threshold that triggers your 'never exit' rule. Hold and monitor for recovery catalyst or cash flow inflection; do not add into fundamental weakness.",
     "target_price": null,
     "target_reasoning": "",
-    "exit_trigger": "Exit only if: (1) RSI drops below 30 with failed bounce attempt, or (2) company files bankruptcy/dilutive capital raise, or (3) fundamentals show 2+ consecutive quarters of improvement with stock recovering to $55+",
-    "add_trigger": "Add only if RSI drops to 20-25 (oversold) with bullish candlestick reversal AND positive guidance/cash flow announcement",
-    "risk": "Continued cash burn and potential need for dilutive financing; stock could fall further to $35-40 before bottoming. Debt covenants may be tested if losses persist.",
+    "exit_trigger": "If stock rallies above $75-78 and company achieves positive operating cash flow or reduces D/E below 2.5x",
+    "add_trigger": "Do not add; wait for fundamentals to stabilize (profitability path or positive OCF) before considering averaging down",
+    "risk": "Further deterioration if burn rate accelerates, debt becomes unmanageable, or dilution occurs via capital raise",
     "outlook": "cautious",
-    "timeframe": "3-6 months for fundamental recovery signals; reassess at next earnings (likely +4-6 weeks)",
-    "generated_at": "2026-08-04T23:35:36.441619",
-    "price_at_generation": 47.05,
-    "pnl_at_generation": -31.89
+    "timeframe": "2-3 months for turnaround signals or 6+ months for recovery if company executes",
+    "generated_at": "2026-08-05T23:31:41.659807",
+    "price_at_generation": 46.7,
+    "pnl_at_generation": -32.4
   },
   "history": [
+    {
+      "ticker": "TEM",
+      "company_name": "Tempus AI, Inc.",
+      "action": "Hold",
+      "action_reason": "Position is down 31.89%, triggering your hold-through-major-losses rule. Exiting now locks in losses; wait for technical reversal signals (RSI <30 oversold bounce or bullish divergence) or fundamental stabilization before reconsidering.",
+      "target_price": null,
+      "target_reasoning": "",
+      "exit_trigger": "Exit only if: (1) RSI drops below 30 with failed bounce attempt, or (2) company files bankruptcy/dilutive capital raise, or (3) fundamentals show 2+ consecutive quarters of improvement with stock recovering to $55+",
+      "add_trigger": "Add only if RSI drops to 20-25 (oversold) with bullish candlestick reversal AND positive guidance/cash flow announcement",
+      "risk": "Continued cash burn and potential need for dilutive financing; stock could fall further to $35-40 before bottoming. Debt covenants may be tested if losses persist.",
+      "outlook": "cautious",
+      "timeframe": "3-6 months for fundamental recovery signals; reassess at next earnings (likely +4-6 weeks)",
+      "generated_at": "2026-08-04T23:35:36.441619",
+      "price_at_generation": 47.05,
+      "pnl_at_generation": -31.89,
+      "archived_at": "2026-08-05T23:31:41.659997"
+    },
     {
       "ticker": "TEM",
       "company_name": "Tempus AI, Inc.",
@@ -117,23 +134,6 @@
       "price_at_generation": 42.91,
       "pnl_at_generation": -37.88,
       "archived_at": "2026-07-28T23:33:05.634018"
-    },
-    {
-      "ticker": "TEM",
-      "company_name": "Tempus AI, Inc.",
-      "action": "Hold",
-      "action_reason": "Your stated philosophy explicitly forbids exiting positions down >15%, and TEM is down 38.2%. However, this creates a logical conflict\u2014holding a deteriorating company with negative cash flow and high debt through earnings is high-risk. Earnings in 4 days could trigger liquidation event.",
-      "target_price": null,
-      "target_reasoning": "",
-      "exit_trigger": "CRITICAL: Earnings miss or negative guidance in 4 days; break below $38 (new lows); any debt covenant warning; operating cash flow deteriorates further",
-      "add_trigger": "None recommended. Avoid averaging down into fundamental deterioration.",
-      "risk": "Bankruptcy risk if cash burn accelerates post-earnings; further dilution likely given negative OCF and high debt servicing costs",
-      "outlook": "cautious",
-      "timeframe": "4 days (earnings catalyst) \u2014 reassess immediately after announcement",
-      "generated_at": "2026-07-26T23:32:14.776424",
-      "price_at_generation": 42.69,
-      "pnl_at_generation": -38.2,
-      "archived_at": "2026-07-27T23:38:05.856071"
     }
   ]
 }

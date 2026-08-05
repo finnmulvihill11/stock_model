@@ -2,20 +2,37 @@
   "current": {
     "ticker": "WMT",
     "company_name": "Walmart Inc.",
-    "action": "Wait",
-    "action_reason": "Position is essentially flat with earnings 16 days away\u2014a major catalyst that could break the current holding pattern. Extreme Fear sentiment suggests WMT's defensive characteristics are undervalued; hold for either earnings surprise or mean reversion in broader market sentiment.",
-    "target_price": null,
+    "action": "Hold",
+    "action_reason": "Position is +0.53% profitable with healthy fundamentals intact. Upcoming earnings in 15 days creates binary event risk that doesn't warrant adding or trimming at current technicals (RSI neutral, no firing signals).",
+    "target_price": 115.5,
     "target_reasoning": "",
-    "exit_trigger": "Break below $108 (3.4% loss) OR confirmed bearish earnings miss with forward guidance cut",
-    "add_trigger": "RSI drops to 30-35 on volume spike (oversold reversal) OR positive earnings beat with raised guidance AND price holds above $112",
-    "risk": "Earnings miss or macro downturn could trigger 5-10% flush; limited upside in neutral technicals despite healthy fundamentals",
-    "outlook": "neutral",
-    "timeframe": "2-3 weeks (through earnings + post-earnings volatility)",
-    "generated_at": "2026-08-04T23:35:43.398776",
-    "price_at_generation": 111.55,
-    "pnl_at_generation": -0.18
+    "exit_trigger": "Break below $110.50 (support) on high volume or negative earnings miss with forward guidance reduction",
+    "add_trigger": "RSI drops to 35-40 range on volume spike OR positive pre-earnings momentum with RSI crossing above 55",
+    "risk": "Earnings volatility in 15 days; negative consumer spending data could trigger sharp pullback despite healthy balance sheet",
+    "outlook": "cautious",
+    "timeframe": "2-3 weeks (hold through earnings event)",
+    "generated_at": "2026-08-05T23:31:48.440829",
+    "price_at_generation": 112.34,
+    "pnl_at_generation": 0.53
   },
   "history": [
+    {
+      "ticker": "WMT",
+      "company_name": "Walmart Inc.",
+      "action": "Wait",
+      "action_reason": "Position is essentially flat with earnings 16 days away\u2014a major catalyst that could break the current holding pattern. Extreme Fear sentiment suggests WMT's defensive characteristics are undervalued; hold for either earnings surprise or mean reversion in broader market sentiment.",
+      "target_price": null,
+      "target_reasoning": "",
+      "exit_trigger": "Break below $108 (3.4% loss) OR confirmed bearish earnings miss with forward guidance cut",
+      "add_trigger": "RSI drops to 30-35 on volume spike (oversold reversal) OR positive earnings beat with raised guidance AND price holds above $112",
+      "risk": "Earnings miss or macro downturn could trigger 5-10% flush; limited upside in neutral technicals despite healthy fundamentals",
+      "outlook": "neutral",
+      "timeframe": "2-3 weeks (through earnings + post-earnings volatility)",
+      "generated_at": "2026-08-04T23:35:43.398776",
+      "price_at_generation": 111.55,
+      "pnl_at_generation": -0.18,
+      "archived_at": "2026-08-05T23:31:48.441025"
+    },
     {
       "ticker": "WMT",
       "company_name": "Walmart Inc.",
@@ -117,23 +134,6 @@
       "price_at_generation": 111.74,
       "pnl_at_generation": -0.01,
       "archived_at": "2026-07-28T23:33:12.297246"
-    },
-    {
-      "ticker": "WMT",
-      "company_name": "Walmart Inc.",
-      "action": "Hold",
-      "action_reason": "Loss is minor (2.04%) and well below the 15% threshold. Upcoming earnings in 25 days is a major catalyst that could recover position. RSI suggests potential reversal zone without confirmed downtrend.",
-      "target_price": 114.5,
-      "target_reasoning": "",
-      "exit_trigger": "Close below $107.00 (3.5% further loss) on high volume; or break of key support on earnings miss",
-      "add_trigger": "RSI breaks below 30 with bullish divergence; or accumulate on $107-$108 support if fundamentals hold",
-      "risk": "Extended weakness into earnings if macro sentiment deteriorates or company guidance disappoints",
-      "outlook": "cautious",
-      "timeframe": "2-6 weeks (hold through earnings)",
-      "generated_at": "2026-07-26T23:32:30.530131",
-      "price_at_generation": 109.47,
-      "pnl_at_generation": -2.04,
-      "archived_at": "2026-07-27T23:38:13.823150"
     }
   ]
 }

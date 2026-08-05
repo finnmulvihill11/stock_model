@@ -8,17 +8,17 @@
     "sell_score": 0.57,
     "reasons": [],
     "misses": [
-      "BB: price not near lower band (pct=0.88)",
-      "RSI: not in buy zone (62.0, need 20-40)",
+      "BB: price not near lower band (pct=0.89)",
+      "RSI: not in buy zone (63.6, need 20-40)",
       "MACD: no bullish crossover or valley",
       "RSI Divergence: no bullish divergence detected",
       "200MA: price below 200MA \u2014 potential falling knife",
-      "Death cross active: 50MA (290.23) below 200MA (460.36)",
-      "Volume: below average (0.80x) \u2014 low conviction"
+      "Death cross active: 50MA (290.41) below 200MA (458.80)",
+      "Volume: below average (0.77x) \u2014 low conviction"
     ],
-    "price": 323.6,
-    "rsi": 62.0,
-    "atr": 16.3,
+    "price": 327.94,
+    "rsi": 63.6,
+    "atr": 15.4,
     "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 0,
@@ -52,7 +52,7 @@
       ],
       "earnings_status": "upcoming",
       "next_earnings_date": "2026-08-25",
-      "days_to_earnings": 21
+      "days_to_earnings": 20
     }
   },
   "news": {
@@ -60,26 +60,26 @@
     "sentiment": "neutral",
     "health": "healthy",
     "key_events": [
-      "Earnings report in 21 days",
-      "RSI at 62.0 suggests neutral momentum (not overbought/oversold)",
-      "Extreme Fear market sentiment creates potential reversal opportunity",
-      "VIX 16.5 indicates stable volatility environment"
+      "Earnings report in 20 days",
+      "VIX at 15.8 indicates stable market conditions",
+      "Market sentiment showing Fear & Greed neutral stance"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "Position down 30.90% \u2014 significant drawdown",
-      "21.6% portfolio weight \u2014 concentrated risk exposure",
-      "No recent news data available \u2014 unable to assess recent catalysts or sentiment shifts"
+      "Position down 29.97% \u2014 significant unrealized loss",
+      "RSI at 63.6 suggests overbought conditions on any bounce",
+      "No recent news catalysts to drive recovery",
+      "Heavy portfolio weight (21.9%) concentrates risk"
     ],
-    "verdict": "Hold current position through earnings; avoid panic selling during fear-driven market conditions despite significant losses.",
+    "verdict": "INTU fundamentals remain healthy but technicals show weakness; hold through earnings catalyst with conviction on recovery thesis.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "INTU",
-    "stock_return_3m": -20.14,
-    "benchmark_return_3m": 7.7,
-    "relative_strength": -27.84,
+    "stock_return_3m": -17.3,
+    "benchmark_return_3m": 6.63,
+    "relative_strength": -23.94,
     "label": "underperforming"
   },
   "final_tier": "Hold",
@@ -89,5 +89,5 @@
     "note": "Position already at 20% portfolio cap"
   },
   "is_dca": false,
-  "saved_at": "2026-08-04T23:35:15.484959"
+  "saved_at": "2026-08-05T23:31:20.063805"
 }
