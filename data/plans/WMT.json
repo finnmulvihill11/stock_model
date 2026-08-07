@@ -3,19 +3,36 @@
     "ticker": "WMT",
     "company_name": "Walmart Inc.",
     "action": "Hold",
-    "action_reason": "Position is +0.53% profitable with healthy fundamentals intact. Upcoming earnings in 15 days creates binary event risk that doesn't warrant adding or trimming at current technicals (RSI neutral, no firing signals).",
+    "action_reason": "Position is profitable with healthy fundamentals. Wait for earnings catalyst (13d) which could provide directional confirmation. Current +0.29% gain doesn't warrant trimming per philosophy.",
     "target_price": 115.5,
     "target_reasoning": "",
-    "exit_trigger": "Break below $110.50 (support) on high volume or negative earnings miss with forward guidance reduction",
-    "add_trigger": "RSI drops to 35-40 range on volume spike OR positive pre-earnings momentum with RSI crossing above 55",
-    "risk": "Earnings volatility in 15 days; negative consumer spending data could trigger sharp pullback despite healthy balance sheet",
-    "outlook": "cautious",
-    "timeframe": "2-3 weeks (hold through earnings event)",
-    "generated_at": "2026-08-05T23:31:48.440829",
-    "price_at_generation": 112.34,
-    "pnl_at_generation": 0.53
+    "exit_trigger": "If price drops below $108 OR if earnings miss on guidance; if RSI falls below 35 with price breakdown",
+    "add_trigger": "Add on dip to $110.50 if RSI holds above 40; or add post-earnings if beat occurs and price retests support",
+    "risk": "Earnings volatility in 13 days could swing position 3-5% either direction; Fear sentiment despite neutral technicals suggests hidden weakness",
+    "outlook": "neutral",
+    "timeframe": "2-4 weeks (earnings-driven)",
+    "generated_at": "2026-08-07T01:37:58.237509",
+    "price_at_generation": 112.07,
+    "pnl_at_generation": 0.29
   },
   "history": [
+    {
+      "ticker": "WMT",
+      "company_name": "Walmart Inc.",
+      "action": "Hold",
+      "action_reason": "Position is +0.53% profitable with healthy fundamentals intact. Upcoming earnings in 15 days creates binary event risk that doesn't warrant adding or trimming at current technicals (RSI neutral, no firing signals).",
+      "target_price": 115.5,
+      "target_reasoning": "",
+      "exit_trigger": "Break below $110.50 (support) on high volume or negative earnings miss with forward guidance reduction",
+      "add_trigger": "RSI drops to 35-40 range on volume spike OR positive pre-earnings momentum with RSI crossing above 55",
+      "risk": "Earnings volatility in 15 days; negative consumer spending data could trigger sharp pullback despite healthy balance sheet",
+      "outlook": "cautious",
+      "timeframe": "2-3 weeks (hold through earnings event)",
+      "generated_at": "2026-08-05T23:31:48.440829",
+      "price_at_generation": 112.34,
+      "pnl_at_generation": 0.53,
+      "archived_at": "2026-08-07T01:37:58.237714"
+    },
     {
       "ticker": "WMT",
       "company_name": "Walmart Inc.",
@@ -117,23 +134,6 @@
       "price_at_generation": 113.1,
       "pnl_at_generation": 1.21,
       "archived_at": "2026-07-29T23:34:53.108843"
-    },
-    {
-      "ticker": "WMT",
-      "company_name": "Walmart Inc.",
-      "action": "Wait",
-      "action_reason": "With earnings 24 days away and RSI in neutral territory (44.6), this is a 'show me' setup. Earnings will be the primary swing catalyst; entering or adding before that event carries elevated binary risk.",
-      "target_price": null,
-      "target_reasoning": "",
-      "exit_trigger": "Exit only if WMT closes below $106.50 (4.7% loss) on volume spike, indicating breakdown of support; or hold through earnings if fundamentals remain healthy",
-      "add_trigger": "Add 0.5-1 share position if RSI climbs to 55+ AND price confirms above $113.50 on volume, suggesting momentum into earnings",
-      "risk": "Earnings binary event in 24 days could swing position significantly; geopolitical uncertainty poorly characterized; macro headwinds via consumer spending data",
-      "outlook": "neutral",
-      "timeframe": "2-4 weeks until earnings; reassess post-earnings for swing exit opportunity",
-      "generated_at": "2026-07-27T23:38:13.822949",
-      "price_at_generation": 111.74,
-      "pnl_at_generation": -0.01,
-      "archived_at": "2026-07-28T23:33:12.297246"
     }
   ]
 }

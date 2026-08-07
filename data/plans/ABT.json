@@ -3,19 +3,36 @@
     "ticker": "ABT",
     "company_name": "ABT",
     "action": "Hold",
-    "action_reason": "Loss is only -3.70%, well within acceptable swing trade variance. Philosophy mandates holding positions down <15%, and ABT's fundamentals remain intact with 70 days until earnings providing recovery catalyst window.",
-    "target_price": 112.5,
+    "action_reason": "Loss is only -1.65% (well under 15% threshold), fundamentals remain healthy, and RSI overbought conditions are resolving naturally. Wait for technical setup to improve before considering adds.",
+    "target_price": null,
     "target_reasoning": "",
-    "exit_trigger": "Break below $103.50 (support) with volume spike OR earnings miss + guidance reduction",
-    "add_trigger": "RSI drops below 40 + price holds above $104 with positive sector rotation news",
-    "risk": "Healthcare sector rotation risk; entry at local resistance leaves limited upside before resistance retest",
+    "exit_trigger": "Only if fundamentals deteriorate OR stock breaks below $104 (critical support) on heavy volume with confirmed bad news",
+    "add_trigger": "RSI falls below 40 + price holds above $106 support + positive clinical catalyst",
+    "risk": "Healthcare sector rotation risk if market rotates to cyclicals; short-term weakness could extend to 8-10% drawdown before stabilizing",
     "outlook": "neutral",
-    "timeframe": "4-8 weeks (through earnings catalyst)",
-    "generated_at": "2026-08-05T23:31:35.555866",
-    "price_at_generation": 105.71,
-    "pnl_at_generation": -3.7
+    "timeframe": "2-4 weeks for technical reset; re-evaluate for adds in 3-4 weeks near earnings cycle",
+    "generated_at": "2026-08-07T01:37:43.713354",
+    "price_at_generation": 107.96,
+    "pnl_at_generation": -1.65
   },
   "history": [
+    {
+      "ticker": "ABT",
+      "company_name": "ABT",
+      "action": "Hold",
+      "action_reason": "Loss is only -3.70%, well within acceptable swing trade variance. Philosophy mandates holding positions down <15%, and ABT's fundamentals remain intact with 70 days until earnings providing recovery catalyst window.",
+      "target_price": 112.5,
+      "target_reasoning": "",
+      "exit_trigger": "Break below $103.50 (support) with volume spike OR earnings miss + guidance reduction",
+      "add_trigger": "RSI drops below 40 + price holds above $104 with positive sector rotation news",
+      "risk": "Healthcare sector rotation risk; entry at local resistance leaves limited upside before resistance retest",
+      "outlook": "neutral",
+      "timeframe": "4-8 weeks (through earnings catalyst)",
+      "generated_at": "2026-08-05T23:31:35.555866",
+      "price_at_generation": 105.71,
+      "pnl_at_generation": -3.7,
+      "archived_at": "2026-08-07T01:37:43.713568"
+    },
     {
       "ticker": "ABT",
       "company_name": "ABT",
@@ -117,23 +134,6 @@
       "price_at_generation": 107.27,
       "pnl_at_generation": -2.28,
       "archived_at": "2026-07-29T23:34:37.538391"
-    },
-    {
-      "ticker": "ABT",
-      "company_name": "Abbott Laboratories",
-      "action": "Hold",
-      "action_reason": "Position is only -4.81% (well within normal swing trade volatility) and fundamentals are healthy. Loss threshold of 15% hasn't been approached, aligning with portfolio philosophy. Post-earnings consolidation is normal; wait for technical confirmation before action.",
-      "target_price": 112.5,
-      "target_reasoning": "",
-      "exit_trigger": "Break below $102.00 (technical support) OR deteriorating fundamentals disclosed in next earnings cycle",
-      "add_trigger": "Break above $110.50 on volume with RSI cooling below 70, signaling renewed uptrend momentum",
-      "risk": "Lack of recent news creates information vacuum; geopolitical uncertainty could trigger broader market selloff. RSI at 70 suggests limited near-term upside without consolidation.",
-      "outlook": "neutral",
-      "timeframe": "2-4 weeks",
-      "generated_at": "2026-07-27T23:37:58.678744",
-      "price_at_generation": 104.49,
-      "pnl_at_generation": -4.81,
-      "archived_at": "2026-07-28T23:32:58.609214"
     }
   ]
 }

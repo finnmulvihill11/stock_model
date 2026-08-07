@@ -4,18 +4,19 @@
     "ticker": "GNRC",
     "direction": "hold",
     "tier": "Hold",
-    "buy_score": 0.5,
-    "sell_score": 0.43,
+    "buy_score": 0.38,
+    "sell_score": 0.29,
     "reasons": [],
     "misses": [
-      "BB: price not near lower band (pct=0.59)",
-      "RSI: not in buy zone (47.1, need 20-40)",
+      "BB: price not near lower band (pct=0.50)",
+      "RSI: not in buy zone (43.6, need 20-40)",
       "MACD: no bullish crossover or valley",
-      "RSI Divergence: no bullish divergence detected"
+      "RSI Divergence: no bullish divergence detected",
+      "Volume: below average (0.86x) \u2014 low conviction"
     ],
-    "price": 217.41,
-    "rsi": 47.1,
-    "atr": 11.7,
+    "price": 211.18,
+    "rsi": 43.6,
+    "atr": 11.71,
     "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 0,
@@ -33,7 +34,7 @@
     ],
     "flags": [],
     "revenue_growth": 0.106,
-    "de_ratio": 52.202,
+    "de_ratio": 49.003,
     "profit_margins": 0.05817
   },
   "earnings": {
@@ -49,7 +50,7 @@
       ],
       "earnings_status": "past",
       "next_earnings_date": "2026-07-29",
-      "days_to_earnings": -7
+      "days_to_earnings": -9
     }
   },
   "news": {
@@ -57,28 +58,26 @@
     "sentiment": "neutral",
     "health": "healthy",
     "key_events": [
-      "Stock up +10.43% from entry (strong swing gain)",
-      "Earnings reported 7 days ago (results digested)",
-      "RSI at 47.1 (neutral zone, not overbought)",
-      "VIX 15.8 (calm market environment)",
-      "No new catalysts in news queue"
+      "Earnings reported 9 days ago",
+      "Stock up 7.26% from entry",
+      "VIX at neutral levels (15.1)"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "No active technical firing signals",
-      "Fear-weighted sentiment despite neutral VIX",
-      "Lack of fresh news/catalysts to sustain momentum",
-      "RSI neutral\u2014no conviction from technicals"
+      "RSI 43.6 shows no momentum firing",
+      "No recent news catalyst visible",
+      "Fear index despite neutral VIX suggests sector/stock-specific concern",
+      "Post-earnings window with no follow-through momentum"
     ],
-    "verdict": "Profitable swing position with healthy fundamentals but lacking near-term catalysts; hold and monitor for exit signals.",
+    "verdict": "Profitable position with solid fundamentals but lacking momentum confirmation post-earnings; waiting for next catalyst is prudent.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "GNRC",
-    "stock_return_3m": -17.55,
-    "benchmark_return_3m": 6.63,
-    "relative_strength": -24.18,
+    "stock_return_3m": -21.03,
+    "benchmark_return_3m": 5.0,
+    "relative_strength": -26.03,
     "label": "underperforming"
   },
   "final_tier": "Hold",
@@ -88,5 +87,5 @@
     "note": "Price exceeds 60% conviction ceiling ($119) \u2014 skip or wait for Strong Buy"
   },
   "is_dca": false,
-  "saved_at": "2026-08-05T23:32:00.909182"
+  "saved_at": "2026-08-07T01:38:12.787190"
 }

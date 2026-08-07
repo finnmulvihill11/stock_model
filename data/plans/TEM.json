@@ -3,19 +3,36 @@
     "ticker": "TEM",
     "company_name": "Tempus AI, Inc.",
     "action": "Hold",
-    "action_reason": "Position is -32.4%, exceeding the 15% threshold that triggers your 'never exit' rule. Hold and monitor for recovery catalyst or cash flow inflection; do not add into fundamental weakness.",
-    "target_price": null,
+    "action_reason": "Position is down 33.24%, exceeding the 15% threshold that triggers your hold-through-recovery philosophy. Exit is contraindicated by your stated rules regardless of deteriorating fundamentals.",
+    "target_price": 52.5,
     "target_reasoning": "",
-    "exit_trigger": "If stock rallies above $75-78 and company achieves positive operating cash flow or reduces D/E below 2.5x",
-    "add_trigger": "Do not add; wait for fundamentals to stabilize (profitability path or positive OCF) before considering averaging down",
-    "risk": "Further deterioration if burn rate accelerates, debt becomes unmanageable, or dilution occurs via capital raise",
+    "exit_trigger": "Position breaks back to profitability OR debt-to-equity improves below 2.0x with positive operating cash flow announcement",
+    "add_trigger": "RSI falls below 30 (oversold) with bullish divergence + company announces debt restructuring or path to profitability",
+    "risk": "Company's negative cash flow + high leverage creates refinancing risk; potential dilution, restructuring, or bankruptcy if operational performance doesn't improve within 2-3 quarters",
     "outlook": "cautious",
-    "timeframe": "2-3 months for turnaround signals or 6+ months for recovery if company executes",
-    "generated_at": "2026-08-05T23:31:41.659807",
-    "price_at_generation": 46.7,
-    "pnl_at_generation": -32.4
+    "timeframe": "3-6 months",
+    "generated_at": "2026-08-07T01:37:51.669120",
+    "price_at_generation": 46.12,
+    "pnl_at_generation": -33.24
   },
   "history": [
+    {
+      "ticker": "TEM",
+      "company_name": "Tempus AI, Inc.",
+      "action": "Hold",
+      "action_reason": "Position is -32.4%, exceeding the 15% threshold that triggers your 'never exit' rule. Hold and monitor for recovery catalyst or cash flow inflection; do not add into fundamental weakness.",
+      "target_price": null,
+      "target_reasoning": "",
+      "exit_trigger": "If stock rallies above $75-78 and company achieves positive operating cash flow or reduces D/E below 2.5x",
+      "add_trigger": "Do not add; wait for fundamentals to stabilize (profitability path or positive OCF) before considering averaging down",
+      "risk": "Further deterioration if burn rate accelerates, debt becomes unmanageable, or dilution occurs via capital raise",
+      "outlook": "cautious",
+      "timeframe": "2-3 months for turnaround signals or 6+ months for recovery if company executes",
+      "generated_at": "2026-08-05T23:31:41.659807",
+      "price_at_generation": 46.7,
+      "pnl_at_generation": -32.4,
+      "archived_at": "2026-08-07T01:37:51.669314"
+    },
     {
       "ticker": "TEM",
       "company_name": "Tempus AI, Inc.",
@@ -117,23 +134,6 @@
       "price_at_generation": 42.9,
       "pnl_at_generation": -37.9,
       "archived_at": "2026-07-29T23:34:45.464951"
-    },
-    {
-      "ticker": "TEM",
-      "company_name": "Tempus AI, Inc.",
-      "action": "Hold",
-      "action_reason": "Position is down 37.88%, triggering your >15% hold-through policy. However, await earnings report to assess if fundamentals stabilize or worsen before committing additional capital.",
-      "target_price": null,
-      "target_reasoning": "",
-      "exit_trigger": "Earnings miss with negative guidance revision, or debt covenant concerns surface; OR price recovers to $65+ with improving OCF trajectory",
-      "add_trigger": "Only if post-earnings: company achieves profitability roadmap OR secures debt refinancing at favorable terms, AND RSI confirms recovery above 50 with volume",
-      "risk": "Continued cash burn could force dilutive financing or bankruptcy if debt not refinanced; earnings miss likely in 3 days given negative OCF trend",
-      "outlook": "cautious",
-      "timeframe": "3-4 weeks (earnings catalyst window) \u2014 reassess position 24-48 hours post-report",
-      "generated_at": "2026-07-27T23:38:05.855856",
-      "price_at_generation": 42.91,
-      "pnl_at_generation": -37.88,
-      "archived_at": "2026-07-28T23:33:05.634018"
     }
   ]
 }

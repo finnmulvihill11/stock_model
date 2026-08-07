@@ -8,16 +8,16 @@
     "sell_score": 0.0,
     "reasons": [],
     "misses": [
-      "BB: price not near lower band (pct=0.36)",
+      "BB: price not near lower band (pct=0.40)",
       "BB Width: bands expanding, not squeezing",
-      "RSI: not in buy zone (42.3, need 20-40)",
+      "RSI: not in buy zone (43.2, need 20-40)",
       "MACD: no bullish crossover or valley",
       "RSI Divergence: no bullish divergence detected",
-      "Volume: below average (0.69x) \u2014 low conviction"
+      "Volume: below average (0.64x) \u2014 low conviction"
     ],
-    "price": 337.07,
-    "rsi": 42.3,
-    "atr": 16.02,
+    "price": 338.42,
+    "rsi": 43.2,
+    "atr": 13.46,
     "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 0,
@@ -51,7 +51,7 @@
       ],
       "earnings_status": "past",
       "next_earnings_date": "2026-07-27",
-      "days_to_earnings": -9
+      "days_to_earnings": -11
     }
   },
   "news": {
@@ -59,21 +59,24 @@
     "sentiment": "neutral",
     "health": "healthy",
     "key_events": [
-      "Earnings reported 9 days ago",
-      "Post-earnings consolidation phase",
-      "No recent news catalysts identified"
+      "Earnings reported 11 days ago",
+      "No recent news catalysts available for analysis"
     ],
     "macro_context": "",
     "competitive_notes": "",
-    "red_flags": [],
-    "verdict": "Small post-earnings pullback in a fundamentally healthy company; neutral technicals suggest consolidation before next move.",
+    "red_flags": [
+      "No news flow to support momentum",
+      "RSI at 43.2 indicates no overbought conditions but lacks bullish conviction",
+      "Market sentiment shows Fear despite neutral VIX\u2014suggests sector or stock-specific concern"
+    ],
+    "verdict": "CDNS is fundamentally healthy post-earnings but lacks near-term catalysts; minimal position gain offers exit opportunity if better risk-adjusted trades emerge.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "CDNS",
-    "stock_return_3m": -4.68,
-    "benchmark_return_3m": 6.63,
-    "relative_strength": -11.32,
+    "stock_return_3m": -4.64,
+    "benchmark_return_3m": 5.0,
+    "relative_strength": -9.65,
     "label": "underperforming"
   },
   "final_tier": "Hold",
@@ -83,5 +86,5 @@
     "note": "Price exceeds 60% conviction ceiling ($119) \u2014 skip or wait for Strong Buy"
   },
   "is_dca": false,
-  "saved_at": "2026-08-05T23:31:54.292480"
+  "saved_at": "2026-08-07T01:38:05.156416"
 }
