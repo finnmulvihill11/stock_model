@@ -46,6 +46,9 @@ portfolio:
   - ticker: KLAC
     shares: 1.0
     avg_cost: 178.03
+  - ticker: MGM
+    shares: 1.0
+    avg_cost: 44.43
   dca_tickers:
   - GRNI
   - VOO
