@@ -172,7 +172,7 @@
       "ticker": "VOO",
       "shares": 0.072,
       "amount": 49.43,
-      "type": "swing",
+      "type": "etf",
       "action": "buy"
     },
     {
@@ -180,7 +180,7 @@
       "ticker": "VXUS",
       "shares": 0.59,
       "amount": 49.99,
-      "type": "swing",
+      "type": "etf",
       "action": "buy"
     },
     {
