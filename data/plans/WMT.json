@@ -3,19 +3,36 @@
     "ticker": "WMT",
     "company_name": "Walmart Inc.",
     "action": "Hold",
-    "action_reason": "Position is profitable with healthy fundamentals. Wait for earnings catalyst (13d) which could provide directional confirmation. Current +0.29% gain doesn't warrant trimming per philosophy.",
-    "target_price": 115.5,
+    "action_reason": "Position is marginally profitable (+0.09%), and earnings catalyst in 11 days could move stock meaningfully in either direction. Holding allows capture of potential upside while respecting risk of pre-earnings pullback.",
+    "target_price": null,
     "target_reasoning": "",
-    "exit_trigger": "If price drops below $108 OR if earnings miss on guidance; if RSI falls below 35 with price breakdown",
-    "add_trigger": "Add on dip to $110.50 if RSI holds above 40; or add post-earnings if beat occurs and price retests support",
-    "risk": "Earnings volatility in 13 days could swing position 3-5% either direction; Fear sentiment despite neutral technicals suggests hidden weakness",
-    "outlook": "neutral",
-    "timeframe": "2-4 weeks (earnings-driven)",
-    "generated_at": "2026-08-07T01:37:58.237509",
-    "price_at_generation": 112.07,
-    "pnl_at_generation": 0.29
+    "exit_trigger": "Exit 50% if earnings miss guidance AND stock closes below $108.50; exit remainder if drops below $106 (support test).",
+    "add_trigger": "Add only post-earnings if WMT reports beat AND guides higher; accumulate on dip to $109-110 after earnings volatility settles.",
+    "risk": "Earnings miss could trigger sharp sell-off; VIX complacency masks tail risk; geopolitical event could cascade across consumer stocks.",
+    "outlook": "cautious",
+    "timeframe": "11 days to earnings; reassess within 1-2 weeks post-report",
+    "generated_at": "2026-08-09T23:02:19.860060",
+    "price_at_generation": 111.85,
+    "pnl_at_generation": 0.09
   },
   "history": [
+    {
+      "ticker": "WMT",
+      "company_name": "Walmart Inc.",
+      "action": "Hold",
+      "action_reason": "Position is profitable with healthy fundamentals. Wait for earnings catalyst (13d) which could provide directional confirmation. Current +0.29% gain doesn't warrant trimming per philosophy.",
+      "target_price": 115.5,
+      "target_reasoning": "",
+      "exit_trigger": "If price drops below $108 OR if earnings miss on guidance; if RSI falls below 35 with price breakdown",
+      "add_trigger": "Add on dip to $110.50 if RSI holds above 40; or add post-earnings if beat occurs and price retests support",
+      "risk": "Earnings volatility in 13 days could swing position 3-5% either direction; Fear sentiment despite neutral technicals suggests hidden weakness",
+      "outlook": "neutral",
+      "timeframe": "2-4 weeks (earnings-driven)",
+      "generated_at": "2026-08-07T01:37:58.237509",
+      "price_at_generation": 112.07,
+      "pnl_at_generation": 0.29,
+      "archived_at": "2026-08-09T23:02:19.860254"
+    },
     {
       "ticker": "WMT",
       "company_name": "Walmart Inc.",
@@ -117,23 +134,6 @@
       "price_at_generation": 114.22,
       "pnl_at_generation": 2.21,
       "archived_at": "2026-07-30T23:35:13.049097"
-    },
-    {
-      "ticker": "WMT",
-      "company_name": "Walmart Inc.",
-      "action": "Hold",
-      "action_reason": "Position is +1.21% profitable with solid fundamentals. RSI neutrality and lack of technical firing suggest waiting for post-earnings clarity rather than trimming a winner. Let earnings catalyze the next move.",
-      "target_price": 117.5,
-      "target_reasoning": "",
-      "exit_trigger": "Close below $110.50 (support break) OR close above $117.50 with declining volume (distribution signal)",
-      "add_trigger": "RSI breaks above 60 with volume surge OR post-earnings gap up with confirmation",
-      "risk": "Earnings volatility in 23 days could swing position sharply negative; premature exit before catalyst.",
-      "outlook": "neutral",
-      "timeframe": "3-6 weeks (hold through earnings)",
-      "generated_at": "2026-07-28T23:33:12.297052",
-      "price_at_generation": 113.1,
-      "pnl_at_generation": 1.21,
-      "archived_at": "2026-07-29T23:34:53.108843"
     }
   ]
 }

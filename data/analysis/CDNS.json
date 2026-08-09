@@ -8,21 +8,21 @@
     "sell_score": 0.0,
     "reasons": [],
     "misses": [
-      "BB: price not near lower band (pct=0.40)",
+      "BB: price not near lower band (pct=0.43)",
       "BB Width: bands expanding, not squeezing",
-      "RSI: not in buy zone (43.2, need 20-40)",
+      "RSI: not in buy zone (43.8, need 20-40)",
       "MACD: no bullish crossover or valley",
       "RSI Divergence: no bullish divergence detected",
-      "Volume: below average (0.64x) \u2014 low conviction"
+      "Volume: below average (0.86x) \u2014 low conviction"
     ],
-    "price": 338.42,
-    "rsi": 43.2,
-    "atr": 13.46,
+    "price": 339.24,
+    "rsi": 43.8,
+    "atr": 13.61,
     "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 0,
       "suggested_dollars": 0,
-      "note": "Price exceeds 60% conviction ceiling ($119) \u2014 skip or wait for Strong Buy"
+      "note": "Price exceeds 60% conviction ceiling ($129) \u2014 skip or wait for Strong Buy"
     }
   },
   "fundamentals": {
@@ -51,7 +51,7 @@
       ],
       "earnings_status": "past",
       "next_earnings_date": "2026-07-27",
-      "days_to_earnings": -11
+      "days_to_earnings": -13
     }
   },
   "news": {
@@ -59,32 +59,33 @@
     "sentiment": "neutral",
     "health": "healthy",
     "key_events": [
-      "Earnings reported 11 days ago",
-      "No recent news catalysts available for analysis"
+      "Earnings reported 13 days ago",
+      "RSI at 43.8 indicates neither overbought nor oversold conditions",
+      "Low VIX environment (14.9) suggests market complacency"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "No news flow to support momentum",
-      "RSI at 43.2 indicates no overbought conditions but lacks bullish conviction",
-      "Market sentiment shows Fear despite neutral VIX\u2014suggests sector or stock-specific concern"
+      "No recent news catalysts available for analysis",
+      "Moderate geopolitical risk with insufficient data",
+      "Post-earnings period typically shows consolidation or weakness"
     ],
-    "verdict": "CDNS is fundamentally healthy post-earnings but lacks near-term catalysts; minimal position gain offers exit opportunity if better risk-adjusted trades emerge.",
+    "verdict": "CDNS is in a holding pattern post-earnings with modest gains; maintain position while awaiting clearer directional catalyst.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "CDNS",
-    "stock_return_3m": -4.64,
-    "benchmark_return_3m": 5.0,
-    "relative_strength": -9.65,
+    "stock_return_3m": -4.95,
+    "benchmark_return_3m": 5.97,
+    "relative_strength": -10.92,
     "label": "underperforming"
   },
   "final_tier": "Hold",
   "sizing": {
     "suggested_shares": 0,
     "suggested_dollars": 0,
-    "note": "Price exceeds 60% conviction ceiling ($119) \u2014 skip or wait for Strong Buy"
+    "note": "Price exceeds 60% conviction ceiling ($129) \u2014 skip or wait for Strong Buy"
   },
   "is_dca": false,
-  "saved_at": "2026-08-07T01:38:05.156416"
+  "saved_at": "2026-08-09T23:02:25.708702"
 }

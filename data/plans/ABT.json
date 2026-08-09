@@ -1,21 +1,38 @@
 {
   "current": {
     "ticker": "ABT",
-    "company_name": "ABT",
+    "company_name": "Abbott Laboratories",
     "action": "Hold",
-    "action_reason": "Loss is only -1.65% (well under 15% threshold), fundamentals remain healthy, and RSI overbought conditions are resolving naturally. Wait for technical setup to improve before considering adds.",
-    "target_price": null,
+    "action_reason": "Position down only 1.79% (well within hold philosophy threshold). Fundamentals healthy, earnings already priced in. RSI overbought suggests consolidation imminent rather than breakout; wait for pullback and RSI reset before adding.",
+    "target_price": 111.5,
     "target_reasoning": "",
-    "exit_trigger": "Only if fundamentals deteriorate OR stock breaks below $104 (critical support) on heavy volume with confirmed bad news",
-    "add_trigger": "RSI falls below 40 + price holds above $106 support + positive clinical catalyst",
-    "risk": "Healthcare sector rotation risk if market rotates to cyclicals; short-term weakness could extend to 8-10% drawdown before stabilizing",
+    "exit_trigger": "Break below $105.50 (invalidates technical support) OR deteriorating quarterly fundamentals signal",
+    "add_trigger": "RSI drops to 40-45 range AND price holds above $106.00 support on pullback",
+    "risk": "Extended market correction amid Fear sentiment; geopolitical escalation; healthcare sector headwinds",
     "outlook": "neutral",
-    "timeframe": "2-4 weeks for technical reset; re-evaluate for adds in 3-4 weeks near earnings cycle",
-    "generated_at": "2026-08-07T01:37:43.713354",
-    "price_at_generation": 107.96,
-    "pnl_at_generation": -1.65
+    "timeframe": "3-6 weeks for technical reset and accumulation opportunity",
+    "generated_at": "2026-08-09T23:02:07.150337",
+    "price_at_generation": 107.81,
+    "pnl_at_generation": -1.79
   },
   "history": [
+    {
+      "ticker": "ABT",
+      "company_name": "ABT",
+      "action": "Hold",
+      "action_reason": "Loss is only -1.65% (well under 15% threshold), fundamentals remain healthy, and RSI overbought conditions are resolving naturally. Wait for technical setup to improve before considering adds.",
+      "target_price": null,
+      "target_reasoning": "",
+      "exit_trigger": "Only if fundamentals deteriorate OR stock breaks below $104 (critical support) on heavy volume with confirmed bad news",
+      "add_trigger": "RSI falls below 40 + price holds above $106 support + positive clinical catalyst",
+      "risk": "Healthcare sector rotation risk if market rotates to cyclicals; short-term weakness could extend to 8-10% drawdown before stabilizing",
+      "outlook": "neutral",
+      "timeframe": "2-4 weeks for technical reset; re-evaluate for adds in 3-4 weeks near earnings cycle",
+      "generated_at": "2026-08-07T01:37:43.713354",
+      "price_at_generation": 107.96,
+      "pnl_at_generation": -1.65,
+      "archived_at": "2026-08-09T23:02:07.150524"
+    },
     {
       "ticker": "ABT",
       "company_name": "ABT",
@@ -117,23 +134,6 @@
       "price_at_generation": 108.0,
       "pnl_at_generation": -1.61,
       "archived_at": "2026-07-30T23:34:57.472494"
-    },
-    {
-      "ticker": "ABT",
-      "company_name": "Abbott Laboratories",
-      "action": "Hold",
-      "action_reason": "Position is only -2.28% (well within normal swing range), earnings already reported, and fundamentals remain solid. Recent RSI elevation suggests consolidation phase; allow pullback to create better add opportunity.",
-      "target_price": 111.5,
-      "target_reasoning": "",
-      "exit_trigger": "Break below $105.00 on volume with deteriorating fundamentals, or close below 200-day MA",
-      "add_trigger": "RSI drops below 50 + price pulls to $105-106 support with volume confirmation",
-      "risk": "Macro headwind from market Fear sentiment; healthcare sector rotation risk if growth outperforms",
-      "outlook": "neutral",
-      "timeframe": "2-4 weeks",
-      "generated_at": "2026-07-28T23:32:58.608992",
-      "price_at_generation": 107.27,
-      "pnl_at_generation": -2.28,
-      "archived_at": "2026-07-29T23:34:37.538391"
     }
   ]
 }

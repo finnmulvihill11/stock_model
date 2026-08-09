@@ -5,24 +5,24 @@
     "direction": "hold",
     "tier": "Hold",
     "buy_score": 0.25,
-    "sell_score": 0.14,
+    "sell_score": 0.29,
     "reasons": [],
     "misses": [
-      "BB: price not near lower band (pct=0.39)",
+      "BB: price not near lower band (pct=0.69)",
       "BB Width: bands expanding, not squeezing",
-      "RSI: not in buy zone (43.7, need 20-40)",
+      "RSI: not in buy zone (56.3, need 20-40)",
+      "MACD: no bullish crossover or valley",
       "RSI Divergence: no bullish divergence detected",
-      "200MA: price below 200MA \u2014 potential falling knife",
-      "Volume: below average (0.48x) \u2014 low conviction"
+      "200MA: price below 200MA \u2014 potential falling knife"
     ],
-    "price": 46.12,
-    "rsi": 43.7,
-    "atr": 2.95,
+    "price": 52.05,
+    "rsi": 56.3,
+    "atr": 3.03,
     "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 2,
-      "suggested_dollars": 92.24,
-      "note": "2 sh @ $46.12 = $92 (Hold, 60% size) | $568 swing budget after"
+      "suggested_dollars": 104.1,
+      "note": "2 sh @ $52.05 = $104 (Hold, 60% size) | $611 swing budget after"
     }
   },
   "fundamentals": {
@@ -51,7 +51,7 @@
       ],
       "earnings_status": "past",
       "next_earnings_date": "2026-07-30",
-      "days_to_earnings": -8
+      "days_to_earnings": -10
     }
   },
   "news": {
@@ -59,37 +59,35 @@
     "sentiment": "negative",
     "health": "deteriorating",
     "key_events": [
-      "Earnings reported 8 days ago",
-      "Position down 33.24% from entry",
-      "High debt-to-equity ratio of 3.2x indicating financial stress",
-      "Negative operating cash flow signals operational challenges"
+      "Earnings reported 10 days ago",
+      "Stock down 24.65% from entry",
+      "VIX at 14.9 indicating market complacency"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
+      "Debt-to-equity ratio of 3.2x (elevated leverage)",
       "Not profitable with negative operating cash flow",
-      "High leverage (3.2x D/E) limits financial flexibility",
-      "RSI at 43.7 shows weakness without oversold bounce signals",
-      "Recent earnings miss (indicated by -8d timing)",
-      "No positive news catalysts in pipeline",
-      "Market Fear sentiment despite neutral VIX"
+      "Post-earnings selloff suggests disappointing results",
+      "No positive catalysts visible in news feed",
+      "RSI at 56.3 shows weakness without oversold conditions"
     ],
-    "verdict": "Tempus AI faces fundamental deterioration with unprofitability, negative cash flow, and high debt; position remains deeply underwater but philosophy mandates holding.",
+    "verdict": "Tempus AI shows fundamental deterioration with unprofitable operations and high debt, but position is held per philosophy given >15% drawdown.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "TEM",
-    "stock_return_3m": -13.79,
-    "benchmark_return_3m": 5.0,
-    "relative_strength": -18.8,
-    "label": "underperforming"
+    "stock_return_3m": 5.22,
+    "benchmark_return_3m": 5.97,
+    "relative_strength": -0.75,
+    "label": "in-line"
   },
   "final_tier": "Hold",
   "sizing": {
     "suggested_shares": 2,
-    "suggested_dollars": 92.24,
-    "note": "2 sh @ $46.12 = $92 (Hold, 60% size) | $568 swing budget after"
+    "suggested_dollars": 104.1,
+    "note": "2 sh @ $52.05 = $104 (Hold, 60% size) | $611 swing budget after"
   },
   "is_dca": false,
-  "saved_at": "2026-08-07T01:37:51.669944"
+  "saved_at": "2026-08-09T23:02:13.274930"
 }

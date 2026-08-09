@@ -3,19 +3,36 @@
     "ticker": "INTU",
     "company_name": "Intuit Inc.",
     "action": "Hold",
-    "action_reason": "Loss exceeds 15% threshold\u2014exit is off-table per strategy. With healthy fundamentals and earnings catalyst in 18 days, position has recovery potential; volatility could work in your favor post-earnings.",
-    "target_price": 425,
+    "action_reason": "Per philosophy, never exit positions down >15%. Upcoming earnings is a critical inflection point that should determine recovery trajectory. Current technicals offer no firing signals to warrant early exit.",
+    "target_price": null,
     "target_reasoning": "",
-    "exit_trigger": "Fundamentals deteriorate OR post-earnings breakdown below $305 (new support)",
-    "add_trigger": "Do not add; capital better preserved until post-earnings clarity",
-    "risk": "Earnings miss could accelerate decline; concentration risk at 21.5% weight exposes portfolio to single-stock volatility",
+    "exit_trigger": "Post-earnings: Exit if guidance misses AND RSI breaks below 40 with volume confirmation, or if fundamentals deteriorate materially",
+    "add_trigger": "Only if INTU rallies to $380-$390 with bullish reversal signal (RSI 50+, volume spike) before earnings to confirm recovery momentum",
+    "risk": "Earnings disappointment could drive further downside; low VIX suggests complacency before a potential volatility spike",
     "outlook": "cautious",
-    "timeframe": "18 days (to earnings) + 2-4 weeks post-earnings for recovery signal",
-    "generated_at": "2026-08-07T01:37:29.228255",
-    "price_at_generation": 321.91,
-    "pnl_at_generation": -31.26
+    "timeframe": "2-3 weeks (through earnings + post-earnings reaction)",
+    "generated_at": "2026-08-09T23:01:52.616001",
+    "price_at_generation": 325.25,
+    "pnl_at_generation": -30.55
   },
   "history": [
+    {
+      "ticker": "INTU",
+      "company_name": "Intuit Inc.",
+      "action": "Hold",
+      "action_reason": "Loss exceeds 15% threshold\u2014exit is off-table per strategy. With healthy fundamentals and earnings catalyst in 18 days, position has recovery potential; volatility could work in your favor post-earnings.",
+      "target_price": 425,
+      "target_reasoning": "",
+      "exit_trigger": "Fundamentals deteriorate OR post-earnings breakdown below $305 (new support)",
+      "add_trigger": "Do not add; capital better preserved until post-earnings clarity",
+      "risk": "Earnings miss could accelerate decline; concentration risk at 21.5% weight exposes portfolio to single-stock volatility",
+      "outlook": "cautious",
+      "timeframe": "18 days (to earnings) + 2-4 weeks post-earnings for recovery signal",
+      "generated_at": "2026-08-07T01:37:29.228255",
+      "price_at_generation": 321.91,
+      "pnl_at_generation": -31.26,
+      "archived_at": "2026-08-09T23:01:52.616197"
+    },
     {
       "ticker": "INTU",
       "company_name": "Intuit Inc.",
@@ -117,23 +134,6 @@
       "price_at_generation": 333.13,
       "pnl_at_generation": -28.86,
       "archived_at": "2026-07-30T23:34:46.079659"
-    },
-    {
-      "ticker": "INTU",
-      "company_name": "Intuit Inc.",
-      "action": "Hold",
-      "action_reason": "Loss exceeds 15% threshold\u2014philosophy mandates holding major losers. Fundamentals remain healthy and no deterioration signals justify exit. Wait for technical recovery or next earnings catalyst.",
-      "target_price": 420,
-      "target_reasoning": "",
-      "exit_trigger": "Fundamentals deteriorate OR stock breaks below $290 (further 7% downside) on volume without recovery",
-      "add_trigger": "Stock stabilizes above $320 + RSI climbs above 70 + positive earnings surprise or product announcement",
-      "risk": "Continued sector weakness in software/SaaS; macro recession fear; valuation compression if guidance lowered at next earnings",
-      "outlook": "cautious",
-      "timeframe": "4-8 weeks until next catalyst or technical confirmation of reversal",
-      "generated_at": "2026-07-28T23:32:44.881559",
-      "price_at_generation": 312.99,
-      "pnl_at_generation": -33.16,
-      "archived_at": "2026-07-29T23:34:24.030622"
     }
   ]
 }

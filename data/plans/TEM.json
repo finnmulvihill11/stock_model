@@ -3,19 +3,36 @@
     "ticker": "TEM",
     "company_name": "Tempus AI, Inc.",
     "action": "Hold",
-    "action_reason": "Position is down 33.24%, exceeding the 15% threshold that triggers your hold-through-recovery philosophy. Exit is contraindicated by your stated rules regardless of deteriorating fundamentals.",
-    "target_price": 52.5,
+    "action_reason": "Policy restricts exits on positions down >15%; however, monitor closely for stabilization signals. This is a forced hold on deteriorating fundamentals.",
+    "target_price": null,
     "target_reasoning": "",
-    "exit_trigger": "Position breaks back to profitability OR debt-to-equity improves below 2.0x with positive operating cash flow announcement",
-    "add_trigger": "RSI falls below 30 (oversold) with bullish divergence + company announces debt restructuring or path to profitability",
-    "risk": "Company's negative cash flow + high leverage creates refinancing risk; potential dilution, restructuring, or bankruptcy if operational performance doesn't improve within 2-3 quarters",
+    "exit_trigger": "Position becomes profitable OR fundamental restructuring announced (debt reduction, path to profitability) fails to materialize within 8 weeks; alternatively, break below $45 on volume suggests further deterioration",
+    "add_trigger": "Do not add; company lacks profitable operations and positive cash flow. Wait for evidence of operational turnaround before considering addition.",
+    "risk": "High financial risk from 3.2x debt-to-equity amid negative cash flow; potential dilution or debt restructuring; continued post-earnings weakness.",
     "outlook": "cautious",
-    "timeframe": "3-6 months",
-    "generated_at": "2026-08-07T01:37:51.669120",
-    "price_at_generation": 46.12,
-    "pnl_at_generation": -33.24
+    "timeframe": "4-8 weeks to reassess after next earnings or material news",
+    "generated_at": "2026-08-09T23:02:13.274171",
+    "price_at_generation": 52.05,
+    "pnl_at_generation": -24.65
   },
   "history": [
+    {
+      "ticker": "TEM",
+      "company_name": "Tempus AI, Inc.",
+      "action": "Hold",
+      "action_reason": "Position is down 33.24%, exceeding the 15% threshold that triggers your hold-through-recovery philosophy. Exit is contraindicated by your stated rules regardless of deteriorating fundamentals.",
+      "target_price": 52.5,
+      "target_reasoning": "",
+      "exit_trigger": "Position breaks back to profitability OR debt-to-equity improves below 2.0x with positive operating cash flow announcement",
+      "add_trigger": "RSI falls below 30 (oversold) with bullish divergence + company announces debt restructuring or path to profitability",
+      "risk": "Company's negative cash flow + high leverage creates refinancing risk; potential dilution, restructuring, or bankruptcy if operational performance doesn't improve within 2-3 quarters",
+      "outlook": "cautious",
+      "timeframe": "3-6 months",
+      "generated_at": "2026-08-07T01:37:51.669120",
+      "price_at_generation": 46.12,
+      "pnl_at_generation": -33.24,
+      "archived_at": "2026-08-09T23:02:13.274361"
+    },
     {
       "ticker": "TEM",
       "company_name": "Tempus AI, Inc.",
@@ -117,23 +134,6 @@
       "price_at_generation": 41.55,
       "pnl_at_generation": -39.85,
       "archived_at": "2026-07-30T23:35:06.538453"
-    },
-    {
-      "ticker": "TEM",
-      "company_name": "Tempus AI, Inc.",
-      "action": "Hold",
-      "action_reason": "Philosophy dictates holding major losers through recovery attempts. Earnings in 2 days could catalyze recovery or validate downtrend; waiting for this event before any decision.",
-      "target_price": null,
-      "target_reasoning": "",
-      "exit_trigger": "Earnings miss + guidance reduction + close below $38 (technical breakdown)",
-      "add_trigger": "Beat earnings + positive guidance + RSI recovery above 50 with volume confirmation",
-      "risk": "Continued deterioration without profitability path; debt burden may force dilution or restructuring; earnings could confirm death spiral",
-      "outlook": "cautious",
-      "timeframe": "2-7 days (post-earnings decision point)",
-      "generated_at": "2026-07-28T23:33:05.633835",
-      "price_at_generation": 42.9,
-      "pnl_at_generation": -37.9,
-      "archived_at": "2026-07-29T23:34:45.464951"
     }
   ]
 }

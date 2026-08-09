@@ -1,0 +1,97 @@
+{
+  "ticker": "MGM",
+  "signal": {
+    "ticker": "MGM",
+    "direction": "buy",
+    "tier": "Buy",
+    "buy_score": 0.75,
+    "sell_score": 0.29,
+    "reasons": [
+      "BB: price near lower band (pct=0.14)",
+      "BB Width: squeeze active (width=0.0764)",
+      "MACD: histogram at valley / turning up",
+      "200MA: price at/above 200MA (44.47 vs 38.53)",
+      "Golden cross: 50MA (46.68) above 200MA (38.53)",
+      "Volume: above average (1.09x)"
+    ],
+    "misses": [
+      "RSI: not in buy zone (41.6, need 20-40)",
+      "RSI Divergence: no bullish divergence detected"
+    ],
+    "price": 44.47,
+    "rsi": 41.6,
+    "atr": 1.06,
+    "final_tier": "Buy",
+    "sizing": {
+      "suggested_shares": 2,
+      "suggested_dollars": 88.94,
+      "note": "2 sh @ $44.47 = $89 (Buy, 60% size) | $626 swing budget after"
+    }
+  },
+  "fundamentals": {
+    "ticker": "MGM",
+    "health": "neutral",
+    "passed": [
+      "Revenue growing YoY (+1.0%)",
+      "Profitable (margin 2.4%)"
+    ],
+    "flags": [
+      "High debt-to-equity (8.9x)"
+    ],
+    "revenue_growth": 0.01,
+    "de_ratio": 893.311,
+    "profit_margins": 0.02398
+  },
+  "earnings": {
+    "proceed": true,
+    "reason": "Fundamentals intact \u2014 dip may be an overreaction",
+    "verdict": {
+      "ticker": "MGM",
+      "verdict": "consider",
+      "reason": "Fundamentals intact \u2014 dip may be an overreaction",
+      "notes": [
+        "Earnings growing YoY (+519.4%)",
+        "Revenue growing (+1.0%)"
+      ],
+      "earnings_status": "past",
+      "next_earnings_date": "2026-07-29",
+      "days_to_earnings": -11
+    }
+  },
+  "news": {
+    "ticker": "MGM",
+    "sentiment": "neutral",
+    "health": "neutral",
+    "key_events": [
+      "Earnings reported 11 days ago",
+      "Bollinger Band squeeze active with price near lower band",
+      "MACD histogram turning up from valley (early momentum signal)",
+      "VIX at 14.9 indicating low volatility environment"
+    ],
+    "macro_context": "",
+    "competitive_notes": "",
+    "red_flags": [
+      "High debt-to-equity ratio of 8.9x creates leverage risk",
+      "Fear sentiment in broader market despite low VIX (complacency warning)",
+      "No recent news catalysts identified",
+      "Post-earnings period often exhibits consolidation/weakness"
+    ],
+    "verdict": "MGM shows early technical recovery signals from oversold conditions, but fundamental leverage and lack of positive catalysts warrant a cautious hold.",
+    "confidence": "medium"
+  },
+  "relative_strength": {
+    "ticker": "MGM",
+    "stock_return_3m": 16.69,
+    "benchmark_return_3m": 5.97,
+    "relative_strength": 10.72,
+    "label": "outperforming"
+  },
+  "final_tier": "Buy",
+  "sizing": {
+    "suggested_shares": 2,
+    "suggested_dollars": 88.94,
+    "note": "2 sh @ $44.47 = $89 (Buy, 60% size) | $626 swing budget after"
+  },
+  "is_dca": false,
+  "saved_at": "2026-08-09T23:02:47.941172"
+}
