@@ -9,6 +9,7 @@ portfolio:
   - IRM
   - XOM
   - GNRC
+  - KLAC
   holdings:
   - ticker: INTU
     shares: 3
@@ -41,9 +42,6 @@ portfolio:
   - ticker: CDNS
     shares: 1.0
     avg_cost: 338.03
-  - ticker: KLAC
-    shares: 1.0
-    avg_cost: 178.03
   - ticker: MGM
     shares: 1.0
     avg_cost: 44.43
