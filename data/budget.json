@@ -298,6 +298,18 @@
       "amount": 44.43,
       "type": "swing",
       "action": "buy"
+    },
+    {
+      "date": "2026-08-10",
+      "ticker": "GNRC",
+      "shares": 1,
+      "amount": -209.91,
+      "type": "swing",
+      "action": "sell",
+      "sell_price": 209.91,
+      "avg_cost": 196.88,
+      "realized_pnl": 13.03,
+      "realized_pnl_pct": 6.62
     }
   ]
 }
