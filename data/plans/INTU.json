@@ -3,19 +3,36 @@
     "ticker": "INTU",
     "company_name": "Intuit Inc.",
     "action": "Hold",
-    "action_reason": "Per philosophy, never exit positions down >15%. Upcoming earnings is a critical inflection point that should determine recovery trajectory. Current technicals offer no firing signals to warrant early exit.",
-    "target_price": null,
+    "action_reason": "Position is down 28.58%, well beyond the 15% threshold where your philosophy mandates holding major losers for recovery. Earnings in 15 days is a critical catalyst; exiting now crystallizes the loss unnecessarily.",
+    "target_price": 425,
     "target_reasoning": "",
-    "exit_trigger": "Post-earnings: Exit if guidance misses AND RSI breaks below 40 with volume confirmation, or if fundamentals deteriorate materially",
-    "add_trigger": "Only if INTU rallies to $380-$390 with bullish reversal signal (RSI 50+, volume spike) before earnings to confirm recovery momentum",
-    "risk": "Earnings disappointment could drive further downside; low VIX suggests complacency before a potential volatility spike",
+    "exit_trigger": "Close above $425 post-earnings with confirmed momentum, or earnings miss with deteriorating guidance and RSI below 40",
+    "add_trigger": "Price breaks below $320 with strong support + RSI oversold (<30) ahead of earnings",
+    "risk": "Earnings disappointment could drive further downside; market sentiment (Fear) suggests headwinds, but healthy fundamentals support thesis",
     "outlook": "cautious",
-    "timeframe": "2-3 weeks (through earnings + post-earnings reaction)",
-    "generated_at": "2026-08-09T23:01:52.616001",
-    "price_at_generation": 325.25,
-    "pnl_at_generation": -30.55
+    "timeframe": "2-3 weeks (through earnings + post-earnings consolidation)",
+    "generated_at": "2026-08-10T23:09:05.099651",
+    "price_at_generation": 334.43,
+    "pnl_at_generation": -28.58
   },
   "history": [
+    {
+      "ticker": "INTU",
+      "company_name": "Intuit Inc.",
+      "action": "Hold",
+      "action_reason": "Per philosophy, never exit positions down >15%. Upcoming earnings is a critical inflection point that should determine recovery trajectory. Current technicals offer no firing signals to warrant early exit.",
+      "target_price": null,
+      "target_reasoning": "",
+      "exit_trigger": "Post-earnings: Exit if guidance misses AND RSI breaks below 40 with volume confirmation, or if fundamentals deteriorate materially",
+      "add_trigger": "Only if INTU rallies to $380-$390 with bullish reversal signal (RSI 50+, volume spike) before earnings to confirm recovery momentum",
+      "risk": "Earnings disappointment could drive further downside; low VIX suggests complacency before a potential volatility spike",
+      "outlook": "cautious",
+      "timeframe": "2-3 weeks (through earnings + post-earnings reaction)",
+      "generated_at": "2026-08-09T23:01:52.616001",
+      "price_at_generation": 325.25,
+      "pnl_at_generation": -30.55,
+      "archived_at": "2026-08-10T23:09:05.099885"
+    },
     {
       "ticker": "INTU",
       "company_name": "Intuit Inc.",
@@ -117,23 +134,6 @@
       "price_at_generation": 315.5,
       "pnl_at_generation": -32.63,
       "archived_at": "2026-08-02T23:31:35.479516"
-    },
-    {
-      "ticker": "INTU",
-      "company_name": "Intuit Inc.",
-      "action": "Hold",
-      "action_reason": "Position is down 28.86%, exceeding the 15% threshold that triggers hold-through philosophy. Fundamentals remain healthy and earnings are past; allow recovery window without forced exit.",
-      "target_price": null,
-      "target_reasoning": "",
-      "exit_trigger": "Only exit if fundamentals deteriorate materially (e.g., revenue guidance cut, margin compression) or position reaches +15% profit",
-      "add_trigger": "RSI drops below 40 AND positive product/earnings catalyst emerges; rebalance if weight exceeds 30%",
-      "risk": "Continued weakness in software/SaaS valuations; macro rotation away from growth; position concentration if broader portfolio declines",
-      "outlook": "cautious",
-      "timeframe": "6-12 weeks",
-      "generated_at": "2026-07-29T23:34:24.030395",
-      "price_at_generation": 333.13,
-      "pnl_at_generation": -28.86,
-      "archived_at": "2026-07-30T23:34:46.079659"
     }
   ]
 }

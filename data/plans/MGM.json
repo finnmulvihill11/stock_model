@@ -3,17 +3,35 @@
     "ticker": "MGM",
     "company_name": "MGM Resorts International",
     "action": "Hold",
-    "action_reason": "Position is profitable (+0.09%) with emerging bullish technicals (MACD turning, BB squeeze setup). Wait for price to confirm breakout above BB upper band or RSI >50 before adding, given high debt burden and neutral fundamentals.",
-    "target_price": 46.5,
+    "action_reason": "Position is only down 2.41%, well below the 15% threshold requiring forced holds. However, lack of bullish technicals and deteriorating fundamentals mean no new capital should be deployed. Wait for concrete recovery signals.",
+    "target_price": null,
     "target_reasoning": "",
-    "exit_trigger": "Break below $43.20 (recent swing low) with volume; or if RSI falls back below 35 after failing to hold above 50",
-    "add_trigger": "Price closes above upper Bollinger Band ($45.80) with RSI confirmation >55, signaling squeeze breakout",
-    "risk": "High financial leverage (8.9x D/E) amplifies downside risk in market stress; gaming sector sensitivity to consumer spending slowdown",
-    "outlook": "short",
-    "timeframe": "2-4 weeks to confirm MACD/BB breakout or rejection",
-    "generated_at": "2026-08-09T23:02:47.940710",
-    "price_at_generation": 44.47,
-    "pnl_at_generation": 0.09
+    "exit_trigger": "RSI rises above 50 with confirmed higher highs on volume AND debt refinancing news, OR position reaches -15% on breakdown below $37.66 support",
+    "add_trigger": "RSI bounces from oversold (<30) with bullish volume surge AND positive earnings guidance revision",
+    "risk": "Debt servicing pressure during economic slowdown; casino revenue cyclicality; near-term technical breakdown below $42 could accelerate losses",
+    "outlook": "cautious",
+    "timeframe": "3-4 weeks to see post-earnings stabilization or confirmation of continued decline",
+    "generated_at": "2026-08-10T23:09:45.818813",
+    "price_at_generation": 43.36,
+    "pnl_at_generation": -2.41
   },
-  "history": []
+  "history": [
+    {
+      "ticker": "MGM",
+      "company_name": "MGM Resorts International",
+      "action": "Hold",
+      "action_reason": "Position is profitable (+0.09%) with emerging bullish technicals (MACD turning, BB squeeze setup). Wait for price to confirm breakout above BB upper band or RSI >50 before adding, given high debt burden and neutral fundamentals.",
+      "target_price": 46.5,
+      "target_reasoning": "",
+      "exit_trigger": "Break below $43.20 (recent swing low) with volume; or if RSI falls back below 35 after failing to hold above 50",
+      "add_trigger": "Price closes above upper Bollinger Band ($45.80) with RSI confirmation >55, signaling squeeze breakout",
+      "risk": "High financial leverage (8.9x D/E) amplifies downside risk in market stress; gaming sector sensitivity to consumer spending slowdown",
+      "outlook": "short",
+      "timeframe": "2-4 weeks to confirm MACD/BB breakout or rejection",
+      "generated_at": "2026-08-09T23:02:47.940710",
+      "price_at_generation": 44.47,
+      "pnl_at_generation": 0.09,
+      "archived_at": "2026-08-10T23:09:45.818974"
+    }
+  ]
 }

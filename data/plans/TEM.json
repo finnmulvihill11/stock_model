@@ -3,19 +3,36 @@
     "ticker": "TEM",
     "company_name": "Tempus AI, Inc.",
     "action": "Hold",
-    "action_reason": "Policy restricts exits on positions down >15%; however, monitor closely for stabilization signals. This is a forced hold on deteriorating fundamentals.",
+    "action_reason": "Position is down 20.3%, triggering your philosophy to hold through major losses. However, monitor for cash flow deterioration or debt covenant risks that would constitute a fundamental break requiring exit regardless of loss magnitude.",
     "target_price": null,
     "target_reasoning": "",
-    "exit_trigger": "Position becomes profitable OR fundamental restructuring announced (debt reduction, path to profitability) fails to materialize within 8 weeks; alternatively, break below $45 on volume suggests further deterioration",
-    "add_trigger": "Do not add; company lacks profitable operations and positive cash flow. Wait for evidence of operational turnaround before considering addition.",
-    "risk": "High financial risk from 3.2x debt-to-equity amid negative cash flow; potential dilution or debt restructuring; continued post-earnings weakness.",
+    "exit_trigger": "Stock breaks below $50 with volume spike, or news of funding crisis/debt restructuring emerges",
+    "add_trigger": "Do not add \u2014 unprofitable, cash-flow negative names are too risky on weakness",
+    "risk": "Continued cash burn and debt servicing pressure could force dilutive financing or restructuring; swing recovery unlikely given fundamentals",
     "outlook": "cautious",
-    "timeframe": "4-8 weeks to reassess after next earnings or material news",
-    "generated_at": "2026-08-09T23:02:13.274171",
-    "price_at_generation": 52.05,
-    "pnl_at_generation": -24.65
+    "timeframe": "3-6 weeks (monitor earnings follow-up guidance; AI hype cycle may provide temporary relief, but fundamentals must improve)",
+    "generated_at": "2026-08-10T23:09:24.718641",
+    "price_at_generation": 55.06,
+    "pnl_at_generation": -20.3
   },
   "history": [
+    {
+      "ticker": "TEM",
+      "company_name": "Tempus AI, Inc.",
+      "action": "Hold",
+      "action_reason": "Policy restricts exits on positions down >15%; however, monitor closely for stabilization signals. This is a forced hold on deteriorating fundamentals.",
+      "target_price": null,
+      "target_reasoning": "",
+      "exit_trigger": "Position becomes profitable OR fundamental restructuring announced (debt reduction, path to profitability) fails to materialize within 8 weeks; alternatively, break below $45 on volume suggests further deterioration",
+      "add_trigger": "Do not add; company lacks profitable operations and positive cash flow. Wait for evidence of operational turnaround before considering addition.",
+      "risk": "High financial risk from 3.2x debt-to-equity amid negative cash flow; potential dilution or debt restructuring; continued post-earnings weakness.",
+      "outlook": "cautious",
+      "timeframe": "4-8 weeks to reassess after next earnings or material news",
+      "generated_at": "2026-08-09T23:02:13.274171",
+      "price_at_generation": 52.05,
+      "pnl_at_generation": -24.65,
+      "archived_at": "2026-08-10T23:09:24.718828"
+    },
     {
       "ticker": "TEM",
       "company_name": "Tempus AI, Inc.",
@@ -117,23 +134,6 @@
       "price_at_generation": 44.29,
       "pnl_at_generation": -35.89,
       "archived_at": "2026-08-02T23:31:58.230311"
-    },
-    {
-      "ticker": "TEM",
-      "company_name": "Tempus AI, Inc.",
-      "action": "Hold",
-      "action_reason": "Position is down 39.85% (>15% threshold), so philosophy mandates holding through major losers. However, earnings tomorrow is a binary event\u2014wait for results before reassessing.",
-      "target_price": null,
-      "target_reasoning": "",
-      "exit_trigger": "If post-earnings guidance shows accelerated cash burn, covenant breaches, or financing issues; OR if stock drops below $35 on earnings miss (additional 16% downside)",
-      "add_trigger": "Do NOT add. Fundamentals must stabilize (positive FCF, debt reduction plan, or meaningful revenue inflection) before considering averaging down.",
-      "risk": "Earnings miss causing gap-down opening; potential liquidity crisis if debt refinancing fails; dilutive capital raise if cash runway shortens",
-      "outlook": "cautious",
-      "timeframe": "1 day (earnings), then reassess over 2-4 weeks depending on guidance",
-      "generated_at": "2026-07-29T23:34:45.464744",
-      "price_at_generation": 41.55,
-      "pnl_at_generation": -39.85,
-      "archived_at": "2026-07-30T23:35:06.538453"
     }
   ]
 }

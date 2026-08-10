@@ -4,25 +4,26 @@
     "ticker": "WMT",
     "direction": "hold",
     "tier": "Hold",
-    "buy_score": 0.25,
-    "sell_score": 0.43,
+    "buy_score": 0.12,
+    "sell_score": 0.29,
     "reasons": [],
     "misses": [
-      "BB: price not near lower band (pct=0.48)",
-      "RSI: not in buy zone (46.8, need 20-40)",
+      "BB: price not near lower band (pct=0.61)",
+      "RSI: not in buy zone (49.5, need 20-40)",
       "MACD: no bullish crossover or valley",
+      "RSI Divergence: no bullish divergence detected",
       "200MA: price below 200MA \u2014 potential falling knife",
-      "Death cross active: 50MA (114.61) below 200MA (117.79)",
-      "Volume: below average (0.86x) \u2014 low conviction"
+      "Death cross active: 50MA (114.49) below 200MA (117.83)",
+      "Volume: below average (0.83x) \u2014 low conviction"
     ],
-    "price": 111.85,
-    "rsi": 46.8,
-    "atr": 2.63,
+    "price": 112.66,
+    "rsi": 49.5,
+    "atr": 2.61,
     "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 1,
-      "suggested_dollars": 111.85,
-      "note": "1 sh @ $111.85 = $112 (Hold, 60% size) | $603 swing budget after"
+      "suggested_dollars": 112.66,
+      "note": "1 sh @ $112.66 = $113 (Hold, 60% size) | $1,007 swing budget after"
     }
   },
   "fundamentals": {
@@ -40,7 +41,7 @@
   },
   "earnings": {
     "proceed": false,
-    "reason": "Earnings in 11 days \u2014 wait for results before acting",
+    "reason": "Earnings in 10 days \u2014 wait for results before acting",
     "verdict": {
       "ticker": "WMT",
       "verdict": "consider",
@@ -51,7 +52,7 @@
       ],
       "earnings_status": "imminent",
       "next_earnings_date": "2026-08-20",
-      "days_to_earnings": 11
+      "days_to_earnings": 10
     }
   },
   "news": {
@@ -59,34 +60,33 @@
     "sentiment": "neutral",
     "health": "healthy",
     "key_events": [
-      "Earnings report in 11 days (material catalyst)",
-      "VIX at 14.9 indicating low volatility/market complacency",
-      "Fear gauge active despite low VIX (sentiment disconnect)"
+      "Earnings report due in 10 days",
+      "VIX at 15.5 indicates stable market conditions",
+      "Market sentiment shows Fear (contrarian bullish signal)"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "RSI 46.8 shows no momentum (neither oversold nor overbought)",
-      "No technical firing signals",
-      "Geopolitical risk unassessed - data insufficient",
-      "Fear sentiment amid low volatility suggests hidden uncertainty"
+      "No recent news catalysts visible",
+      "RSI at 49.5 shows no momentum direction",
+      "Imminent earnings creates binary event risk"
     ],
-    "verdict": "Hold position ahead of earnings; minimal P&L doesn't justify exit, but avoid adding until post-earnings clarity.",
+    "verdict": "Profitable swing position in fundamentally sound company with earnings catalyst approaching; hold and monitor for pre-earnings momentum or post-earnings gap.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "WMT",
-    "stock_return_3m": -13.93,
-    "benchmark_return_3m": 5.97,
-    "relative_strength": -19.9,
+    "stock_return_3m": -13.62,
+    "benchmark_return_3m": 5.07,
+    "relative_strength": -18.69,
     "label": "underperforming"
   },
   "final_tier": "Hold",
   "sizing": {
     "suggested_shares": 1,
-    "suggested_dollars": 111.85,
-    "note": "1 sh @ $111.85 = $112 (Hold, 60% size) | $603 swing budget after"
+    "suggested_dollars": 112.66,
+    "note": "1 sh @ $112.66 = $113 (Hold, 60% size) | $1,007 swing budget after"
   },
   "is_dca": false,
-  "saved_at": "2026-08-09T23:02:19.860861"
+  "saved_at": "2026-08-10T23:09:32.049164"
 }
