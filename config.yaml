@@ -8,6 +8,7 @@ portfolio:
   - OXY
   - IRM
   - XOM
+  - GNRC
   holdings:
   - ticker: INTU
     shares: 3
@@ -40,9 +41,6 @@ portfolio:
   - ticker: CDNS
     shares: 1.0
     avg_cost: 338.03
-  - ticker: GNRC
-    shares: 1.0
-    avg_cost: 196.88
   - ticker: KLAC
     shares: 1.0
     avg_cost: 178.03
