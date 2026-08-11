@@ -15,7 +15,7 @@ portfolio:
     shares: 3
     avg_cost: 468.29
   - ticker: MSFT
-    shares: 2
+    shares: 1
     avg_cost: 467.18
   - ticker: VOO
     shares: 1.36
