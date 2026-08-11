@@ -334,6 +334,14 @@
       "avg_cost": 467.18,
       "realized_pnl": 34.72,
       "realized_pnl_pct": 7.43
+    },
+    {
+      "date": "2026-08-11",
+      "ticker": "CNP",
+      "shares": 4.0,
+      "amount": 159.59,
+      "type": "swing",
+      "action": "buy"
     }
   ]
 }
