@@ -342,6 +342,14 @@
       "amount": 159.59,
       "type": "swing",
       "action": "buy"
+    },
+    {
+      "date": "2026-08-11",
+      "ticker": "MNST",
+      "shares": 1.0,
+      "amount": 45.33,
+      "type": "swing",
+      "action": "buy"
     }
   ]
 }
