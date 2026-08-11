@@ -1,0 +1,89 @@
+{
+  "ticker": "MNST",
+  "signal": {
+    "ticker": "MNST",
+    "direction": "hold",
+    "tier": "Hold",
+    "buy_score": 0.5,
+    "sell_score": 0.0,
+    "reasons": [],
+    "misses": [
+      "BB Width: bands expanding, not squeezing",
+      "MACD: no bullish crossover or valley",
+      "RSI Divergence: no bullish divergence detected",
+      "Volume: below average (0.75x) \u2014 low conviction"
+    ],
+    "price": 45.53,
+    "rsi": 39.9,
+    "atr": 1.28,
+    "final_tier": "Hold",
+    "sizing": {
+      "suggested_shares": 5,
+      "suggested_dollars": 227.65,
+      "note": "5 sh @ $45.53 = $228 (Hold, 60% size) | $1,189 swing budget after"
+    }
+  },
+  "fundamentals": {
+    "ticker": "MNST",
+    "health": "healthy",
+    "passed": [
+      "Revenue growing YoY (+20.2%)",
+      "Debt-to-equity acceptable (0.0x)",
+      "Profitable (margin 23.1%)"
+    ],
+    "flags": [],
+    "revenue_growth": 0.202,
+    "de_ratio": 0.992,
+    "profit_margins": 0.23079
+  },
+  "earnings": {
+    "proceed": true,
+    "reason": "Fundamentals intact \u2014 dip may be an overreaction",
+    "verdict": {
+      "ticker": "MNST",
+      "verdict": "consider",
+      "reason": "Fundamentals intact \u2014 dip may be an overreaction",
+      "notes": [
+        "Earnings growing YoY (+18.0%)",
+        "Revenue growing (+20.2%)"
+      ],
+      "earnings_status": "past",
+      "next_earnings_date": "2026-08-06",
+      "days_to_earnings": -5
+    }
+  },
+  "news": {
+    "ticker": "MNST",
+    "sentiment": "neutral",
+    "health": "healthy",
+    "key_events": [
+      "Earnings reported 5 days ago",
+      "RSI at 39.9 suggests mild oversold conditions post-earnings",
+      "Small gain of +0.44% indicates consolidation phase"
+    ],
+    "macro_context": "",
+    "competitive_notes": "",
+    "red_flags": [
+      "No recent news flow to support momentum",
+      "Fear sentiment in broader market despite neutral VIX",
+      "RSI below 50 indicates lack of buying pressure"
+    ],
+    "verdict": "MNST is consolidating post-earnings in a healthy manner; profitable position warrants holding for swing continuation.",
+    "confidence": "medium"
+  },
+  "relative_strength": {
+    "ticker": "MNST",
+    "stock_return_3m": 5.38,
+    "benchmark_return_3m": 4.5,
+    "relative_strength": 0.88,
+    "label": "in-line"
+  },
+  "final_tier": "Hold",
+  "sizing": {
+    "suggested_shares": 5,
+    "suggested_dollars": 227.65,
+    "note": "5 sh @ $45.53 = $228 (Hold, 60% size) | $1,189 swing budget after"
+  },
+  "is_dca": false,
+  "saved_at": "2026-08-11T23:21:21.740815"
+}

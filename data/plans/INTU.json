@@ -3,19 +3,36 @@
     "ticker": "INTU",
     "company_name": "Intuit Inc.",
     "action": "Hold",
-    "action_reason": "Position is down 28.58%, well beyond the 15% threshold where your philosophy mandates holding major losers for recovery. Earnings in 15 days is a critical catalyst; exiting now crystallizes the loss unnecessarily.",
+    "action_reason": "Your position philosophy mandates holding major losers (>15% down) for recovery. With healthy fundamentals and earnings as the key near-term catalyst, liquidating now locks in losses. Earnings volatility is expected risk, not a reason to sell.",
     "target_price": 425,
     "target_reasoning": "",
-    "exit_trigger": "Close above $425 post-earnings with confirmed momentum, or earnings miss with deteriorating guidance and RSI below 40",
-    "add_trigger": "Price breaks below $320 with strong support + RSI oversold (<30) ahead of earnings",
-    "risk": "Earnings disappointment could drive further downside; market sentiment (Fear) suggests headwinds, but healthy fundamentals support thesis",
+    "exit_trigger": "Only exit if: (1) post-earnings fundamentals deteriorate materially, OR (2) position recovers to breakeven/profit, per your philosophy",
+    "add_trigger": "Add only if post-earnings confirmation shows guidance strength and RSI pulls back below 50 (risk/reward improves)",
+    "risk": "Earnings miss or guidance reduction could trigger 5-15% additional downside; concentrated position weight amplifies impact",
     "outlook": "cautious",
-    "timeframe": "2-3 weeks (through earnings + post-earnings consolidation)",
-    "generated_at": "2026-08-10T23:09:05.099651",
-    "price_at_generation": 334.43,
-    "pnl_at_generation": -28.58
+    "timeframe": "2-6 weeks (earnings catalyst + recovery window)",
+    "generated_at": "2026-08-11T23:20:28.205558",
+    "price_at_generation": 336.44,
+    "pnl_at_generation": -28.16
   },
   "history": [
+    {
+      "ticker": "INTU",
+      "company_name": "Intuit Inc.",
+      "action": "Hold",
+      "action_reason": "Position is down 28.58%, well beyond the 15% threshold where your philosophy mandates holding major losers for recovery. Earnings in 15 days is a critical catalyst; exiting now crystallizes the loss unnecessarily.",
+      "target_price": 425,
+      "target_reasoning": "",
+      "exit_trigger": "Close above $425 post-earnings with confirmed momentum, or earnings miss with deteriorating guidance and RSI below 40",
+      "add_trigger": "Price breaks below $320 with strong support + RSI oversold (<30) ahead of earnings",
+      "risk": "Earnings disappointment could drive further downside; market sentiment (Fear) suggests headwinds, but healthy fundamentals support thesis",
+      "outlook": "cautious",
+      "timeframe": "2-3 weeks (through earnings + post-earnings consolidation)",
+      "generated_at": "2026-08-10T23:09:05.099651",
+      "price_at_generation": 334.43,
+      "pnl_at_generation": -28.58,
+      "archived_at": "2026-08-11T23:20:28.205767"
+    },
     {
       "ticker": "INTU",
       "company_name": "Intuit Inc.",
@@ -117,23 +134,6 @@
       "price_at_generation": 316.07,
       "pnl_at_generation": -32.51,
       "archived_at": "2026-08-03T23:40:13.152734"
-    },
-    {
-      "ticker": "INTU",
-      "company_name": "Intuit Inc.",
-      "action": "Hold",
-      "action_reason": "Position down 32.63% locks in your philosophy of holding major losers. Fundamentals remain healthy and upcoming earnings (26d) is a catalyst event worth waiting for; technical weakness is likely a normal consolidation before volatility.",
-      "target_price": 420,
-      "target_reasoning": "",
-      "exit_trigger": "Fundamentals deteriorate OR price breaks below $290 (major support) on high volume before earnings",
-      "add_trigger": "Price pulls back to $285\u2013$300 range on MACD bullish crossover + increased institutional accumulation signal",
-      "risk": "Further downside before earnings if market sentiment shifts negative; high portfolio weight (25.8%) means losses cascade quickly on volatility spikes",
-      "outlook": "cautious",
-      "timeframe": "2\u20134 weeks until earnings; reassess post-report for momentum recovery",
-      "generated_at": "2026-07-30T23:34:46.079448",
-      "price_at_generation": 315.5,
-      "pnl_at_generation": -32.63,
-      "archived_at": "2026-08-02T23:31:35.479516"
     }
   ]
 }

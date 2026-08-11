@@ -1,21 +1,38 @@
 {
   "current": {
     "ticker": "MGM",
-    "company_name": "MGM Resorts International",
+    "company_name": "MGM",
     "action": "Hold",
-    "action_reason": "Position is only down 2.41%, well below the 15% threshold requiring forced holds. However, lack of bullish technicals and deteriorating fundamentals mean no new capital should be deployed. Wait for concrete recovery signals.",
-    "target_price": null,
+    "action_reason": "Loss is only -0.68%, well below the 15% threshold for forced holds. Await technical bounce (RSI recovery toward 50) or next catalyst before any action.",
+    "target_price": 46.5,
     "target_reasoning": "",
-    "exit_trigger": "RSI rises above 50 with confirmed higher highs on volume AND debt refinancing news, OR position reaches -15% on breakdown below $37.66 support",
-    "add_trigger": "RSI bounces from oversold (<30) with bullish volume surge AND positive earnings guidance revision",
-    "risk": "Debt servicing pressure during economic slowdown; casino revenue cyclicality; near-term technical breakdown below $42 could accelerate losses",
+    "exit_trigger": "Break below $42.50 (support) OR if debt metrics materially worsen in next earnings",
+    "add_trigger": "RSI crosses above 50 with volume OR price holds $43.50 for 3+ days, signaling stabilization",
+    "risk": "High debt load makes MGM vulnerable to rate spikes or gaming downturn; negative earnings surprise could trigger leverage unwind",
     "outlook": "cautious",
-    "timeframe": "3-4 weeks to see post-earnings stabilization or confirmation of continued decline",
-    "generated_at": "2026-08-10T23:09:45.818813",
-    "price_at_generation": 43.36,
-    "pnl_at_generation": -2.41
+    "timeframe": "2-4 weeks",
+    "generated_at": "2026-08-11T23:21:07.929779",
+    "price_at_generation": 44.13,
+    "pnl_at_generation": -0.68
   },
   "history": [
+    {
+      "ticker": "MGM",
+      "company_name": "MGM Resorts International",
+      "action": "Hold",
+      "action_reason": "Position is only down 2.41%, well below the 15% threshold requiring forced holds. However, lack of bullish technicals and deteriorating fundamentals mean no new capital should be deployed. Wait for concrete recovery signals.",
+      "target_price": null,
+      "target_reasoning": "",
+      "exit_trigger": "RSI rises above 50 with confirmed higher highs on volume AND debt refinancing news, OR position reaches -15% on breakdown below $37.66 support",
+      "add_trigger": "RSI bounces from oversold (<30) with bullish volume surge AND positive earnings guidance revision",
+      "risk": "Debt servicing pressure during economic slowdown; casino revenue cyclicality; near-term technical breakdown below $42 could accelerate losses",
+      "outlook": "cautious",
+      "timeframe": "3-4 weeks to see post-earnings stabilization or confirmation of continued decline",
+      "generated_at": "2026-08-10T23:09:45.818813",
+      "price_at_generation": 43.36,
+      "pnl_at_generation": -2.41,
+      "archived_at": "2026-08-11T23:21:07.929951"
+    },
     {
       "ticker": "MGM",
       "company_name": "MGM Resorts International",

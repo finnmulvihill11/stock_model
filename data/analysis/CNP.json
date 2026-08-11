@@ -1,0 +1,91 @@
+{
+  "ticker": "CNP",
+  "signal": {
+    "ticker": "CNP",
+    "direction": "hold",
+    "tier": "Hold",
+    "buy_score": 0.62,
+    "sell_score": 0.0,
+    "reasons": [],
+    "misses": [
+      "BB Width: bands expanding, not squeezing",
+      "RSI Divergence: no bullish divergence detected",
+      "Volume: below average (0.84x) \u2014 low conviction"
+    ],
+    "price": 40.18,
+    "rsi": 30.9,
+    "atr": 1.08,
+    "final_tier": "Hold",
+    "sizing": {
+      "suggested_shares": 6,
+      "suggested_dollars": 241.08,
+      "note": "6 sh @ $40.18 = $241 (Hold, 60% size) | $1,176 swing budget after"
+    }
+  },
+  "fundamentals": {
+    "ticker": "CNP",
+    "health": "neutral",
+    "passed": [
+      "Revenue growing YoY (+10.7%)",
+      "Profitable (margin 11.6%)"
+    ],
+    "flags": [
+      "High debt-to-equity (2.1x)"
+    ],
+    "revenue_growth": 0.107,
+    "de_ratio": 210.256,
+    "profit_margins": 0.11611
+  },
+  "earnings": {
+    "proceed": true,
+    "reason": "Fundamentals intact \u2014 dip may be an overreaction",
+    "verdict": {
+      "ticker": "CNP",
+      "verdict": "consider",
+      "reason": "Fundamentals intact \u2014 dip may be an overreaction",
+      "notes": [
+        "Earnings growing YoY (+23.3%)",
+        "Revenue growing (+10.7%)"
+      ],
+      "earnings_status": "past",
+      "next_earnings_date": "2026-07-28",
+      "days_to_earnings": -14
+    }
+  },
+  "news": {
+    "ticker": "CNP",
+    "sentiment": "neutral",
+    "health": "neutral",
+    "key_events": [
+      "Earnings reported 14 days ago",
+      "RSI at 30.9 indicates oversold conditions",
+      "High debt-to-equity ratio (2.1x) typical for utility sector but warrants monitoring",
+      "Market volatility (VIX 15.3) remains low and stable"
+    ],
+    "macro_context": "",
+    "competitive_notes": "",
+    "red_flags": [
+      "High leverage (2.1x D/E) limits financial flexibility",
+      "No recent positive catalysts or news flow",
+      "RSI near oversold but no bullish firing signals yet",
+      "Geopolitical risks present structural headwinds"
+    ],
+    "verdict": "CNP shows technical oversold conditions with modest gains; neutral fundamentals and high debt warrant cautious positioning in a utility play with limited near-term catalysts.",
+    "confidence": "medium"
+  },
+  "relative_strength": {
+    "ticker": "CNP",
+    "stock_return_3m": -4.42,
+    "benchmark_return_3m": 4.5,
+    "relative_strength": -8.92,
+    "label": "underperforming"
+  },
+  "final_tier": "Hold",
+  "sizing": {
+    "suggested_shares": 6,
+    "suggested_dollars": 241.08,
+    "note": "6 sh @ $40.18 = $241 (Hold, 60% size) | $1,176 swing budget after"
+  },
+  "is_dca": false,
+  "saved_at": "2026-08-11T23:21:14.914120"
+}

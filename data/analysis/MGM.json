@@ -8,18 +8,18 @@
     "sell_score": 0.14,
     "reasons": [],
     "misses": [
-      "MACD: no bullish crossover or valley",
+      "RSI: not in buy zone (41.8, need 20-40)",
       "RSI Divergence: no bullish divergence detected",
-      "Volume: below average (0.72x) \u2014 low conviction"
+      "Volume: below average (0.54x) \u2014 low conviction"
     ],
-    "price": 43.36,
-    "rsi": 35.8,
-    "atr": 1.09,
+    "price": 44.13,
+    "rsi": 41.8,
+    "atr": 1.11,
     "final_tier": "Hold",
     "sizing": {
-      "suggested_shares": 4,
-      "suggested_dollars": 173.44,
-      "note": "4 sh @ $43.36 = $173 (Hold, 60% size) | $947 swing budget after"
+      "suggested_shares": 5,
+      "suggested_dollars": 220.65,
+      "note": "5 sh @ $44.13 = $221 (Hold, 60% size) | $1,196 swing budget after"
     }
   },
   "fundamentals": {
@@ -49,43 +49,42 @@
       ],
       "earnings_status": "past",
       "next_earnings_date": "2026-07-29",
-      "days_to_earnings": -12
+      "days_to_earnings": -13
     }
   },
   "news": {
     "ticker": "MGM",
-    "sentiment": "negative",
-    "health": "deteriorating",
+    "sentiment": "neutral",
+    "health": "neutral",
     "key_events": [
-      "Earnings reported 12 days ago (negative performance indicated)",
-      "High debt-to-equity ratio of 8.9x signals financial leverage risk",
-      "Current position down 2.41% with RSI at 35.8 (oversold territory)"
+      "Earnings reported 13 days ago",
+      "VIX at 15.3 suggests stable market conditions",
+      "Moderate geopolitical risks present but not acute"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "RSI 35.8 indicates oversold but no bullish reversal signals firing yet",
-      "Earnings miss 12 days ago suggests operational headwinds",
-      "Extreme leverage (8.9x D/E) limits downside protection and recovery capacity",
-      "Fear sentiment in broader market adds selling pressure",
-      "No technical bullish indicators present (RSI firing: none)"
+      "High debt-to-equity ratio of 8.9x creates leverage risk",
+      "RSI at 41.8 indicates weakness without oversold conditions",
+      "Fear sentiment in market despite neutral VIX",
+      "No bullish technical signals firing"
     ],
-    "verdict": "MGM shows weakness post-earnings with overleveraged balance sheet, but 2.41% loss triggers hold philosophy\u2014monitor for reversal signals before considering exit.",
+    "verdict": "MGM is in consolidation with elevated leverage risk; position is underwater but within holding parameters given swing trade thesis.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "MGM",
-    "stock_return_3m": 11.78,
-    "benchmark_return_3m": 5.07,
-    "relative_strength": 6.71,
+    "stock_return_3m": 18.31,
+    "benchmark_return_3m": 4.5,
+    "relative_strength": 13.81,
     "label": "outperforming"
   },
   "final_tier": "Hold",
   "sizing": {
-    "suggested_shares": 4,
-    "suggested_dollars": 173.44,
-    "note": "4 sh @ $43.36 = $173 (Hold, 60% size) | $947 swing budget after"
+    "suggested_shares": 5,
+    "suggested_dollars": 220.65,
+    "note": "5 sh @ $44.13 = $221 (Hold, 60% size) | $1,196 swing budget after"
   },
   "is_dca": false,
-  "saved_at": "2026-08-10T23:09:45.819491"
+  "saved_at": "2026-08-11T23:21:07.930431"
 }

@@ -1,0 +1,19 @@
+{
+  "current": {
+    "ticker": "CNP",
+    "company_name": "CenterPoint Energy, Inc.",
+    "action": "Hold",
+    "action_reason": "Position is profitable (+0.70%) and small (4.1% weight). Technical oversold conditions (RSI 30.9) may offer a bounce opportunity, but lack of bullish signals and high leverage argue against adding. Hold for mean reversion or exit confirmation.",
+    "target_price": 41.5,
+    "target_reasoning": "",
+    "exit_trigger": "Break below $39.00 or deterioration in debt metrics; exit if position drops to -15% and shows no recovery signs beyond 6 weeks",
+    "add_trigger": "RSI recovery above 50 with volume confirmation AND a positive earnings beat in next cycle",
+    "risk": "Sector sensitivity to interest rates (impacts financing costs on 2.1x debt); utility underperformance in rising rate environment; geopolitical pressures on energy infrastructure",
+    "outlook": "neutral",
+    "timeframe": "3-6 weeks",
+    "generated_at": "2026-08-11T23:21:14.913608",
+    "price_at_generation": 40.18,
+    "pnl_at_generation": 0.7
+  },
+  "history": []
+}
