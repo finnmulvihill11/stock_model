@@ -48,6 +48,9 @@ portfolio:
   - ticker: CNP
     shares: 4.0
     avg_cost: 39.9
+  - ticker: MNST
+    shares: 1.0
+    avg_cost: 45.33
   dca_tickers:
   - GRNI
   - VOO
