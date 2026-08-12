@@ -8,18 +8,18 @@
     "sell_score": 0.14,
     "reasons": [],
     "misses": [
-      "RSI: not in buy zone (41.8, need 20-40)",
+      "RSI: not in buy zone (41.1, need 20-40)",
       "RSI Divergence: no bullish divergence detected",
-      "Volume: below average (0.54x) \u2014 low conviction"
+      "Volume: below average (0.45x) \u2014 low conviction"
     ],
-    "price": 44.13,
-    "rsi": 41.8,
+    "price": 43.98,
+    "rsi": 41.1,
     "atr": 1.11,
     "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 5,
-      "suggested_dollars": 220.65,
-      "note": "5 sh @ $44.13 = $221 (Hold, 60% size) | $1,196 swing budget after"
+      "suggested_dollars": 219.9,
+      "note": "5 sh @ $43.98 = $220 (Hold, 60% size) | $1,110 swing budget after"
     }
   },
   "fundamentals": {
@@ -49,7 +49,7 @@
       ],
       "earnings_status": "past",
       "next_earnings_date": "2026-07-29",
-      "days_to_earnings": -13
+      "days_to_earnings": -14
     }
   },
   "news": {
@@ -57,34 +57,34 @@
     "sentiment": "neutral",
     "health": "neutral",
     "key_events": [
-      "Earnings reported 13 days ago",
-      "VIX at 15.3 suggests stable market conditions",
-      "Moderate geopolitical risks present but not acute"
+      "Earnings reported 14 days ago (recent volatility likely priced in)",
+      "VIX at 14.6 indicates market complacency with elevated sell-side risk",
+      "Fear & Greed Index shows Fear sentiment (contrarian signal)"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "High debt-to-equity ratio of 8.9x creates leverage risk",
-      "RSI at 41.8 indicates weakness without oversold conditions",
-      "Fear sentiment in market despite neutral VIX",
-      "No bullish technical signals firing"
+      "Debt-to-equity at 8.9x \u2014 extremely high leverage limits downside protection",
+      "RSI at 41.1 \u2014 approaching oversold but not yet capitulation territory",
+      "No recent news catalysts; vacuum creates susceptibility to macro headwinds",
+      "Low VIX complacency often precedes sharp reversals"
     ],
-    "verdict": "MGM is in consolidation with elevated leverage risk; position is underwater but within holding parameters given swing trade thesis.",
+    "verdict": "MGM is in a holding pattern with deteriorating risk/reward; leverage exposure is concerning if volatility spikes.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "MGM",
-    "stock_return_3m": 18.31,
-    "benchmark_return_3m": 4.5,
-    "relative_strength": 13.81,
+    "stock_return_3m": 15.4,
+    "benchmark_return_3m": 4.92,
+    "relative_strength": 10.49,
     "label": "outperforming"
   },
   "final_tier": "Hold",
   "sizing": {
     "suggested_shares": 5,
-    "suggested_dollars": 220.65,
-    "note": "5 sh @ $44.13 = $221 (Hold, 60% size) | $1,196 swing budget after"
+    "suggested_dollars": 219.9,
+    "note": "5 sh @ $43.98 = $220 (Hold, 60% size) | $1,110 swing budget after"
   },
   "is_dca": false,
-  "saved_at": "2026-08-11T23:21:07.930431"
+  "saved_at": "2026-08-12T23:19:19.697420"
 }

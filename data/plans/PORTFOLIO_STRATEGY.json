@@ -1,33 +1,96 @@
 {
   "current": {
-    "headline": "Portfolio locked in hold mode with $1K dry powder; six oversold names flashing mean-reversion buys, but INTU concentration overhang demands discipline.",
+    "headline": "Trim overbought winners to rebalance and fund mean-reversion buys; hold major losers per philosophy.",
     "market_stance": "neutral",
-    "overall_thesis": "VIX at 15.3 and Fear=29 create a mild contrarian setup favoring oversold quality. Your philosophy demands holding INTU and TEM through >15% drawdowns, so focus capital deployment on fresh oversold entries (MNST, D, MGM, AEP) that offer asymmetric risk/reward without adding to an already tech-heavy portfolio. Over 4\u20138 weeks, expect mean reversion in these screened names to fund eventual INTU position reduction once it recovers toward the 57% Bollinger Band sell target.",
+    "overall_thesis": "Low VIX (14.6) signals complacency\u2014raise sell discipline on overbought technicals while respecting your hard rule: never exit positions down >15%. Trim MSFT, ABT, and WMT (all overbought RSI >70, all profitable) to raise ~$400\u2013500 dry powder and fund oversold mean-reversion setups (MNST, D, CNP). Rebalance INTU exposure back under 25% cap once a trim opportunity emerges.",
     "priority_actions": [
       {
         "rank": 1,
-        "action": "BUY",
-        "ticker": "MGM",
-        "instruction": "Buy ~62 shares at current market (~$16.15) using $1,000 dry powder allocation. MGM shows persistent 2+ consecutive Buy scrapes with RSI 41.8 (oversold), low current weight (1.1%), and only -0.7% P&L\u2014ideal mean-reversion candidate without concentration risk.",
+        "action": "TRIM",
+        "ticker": "MSFT",
+        "instruction": "Sell ~60% of position (~$740 notional) at market or limit +5.5%\u20135.7%. RSI 70.8 is overbought; position +5.4% profit confirms no loss risk. Frees ~$440 cash.",
         "urgency": "immediate"
+      },
+      {
+        "rank": 2,
+        "action": "TRIM",
+        "ticker": "ABT",
+        "instruction": "Sell ~60% of position (~$210 notional) at market or limit +1.0%\u20131.2%. RSI 72.6 is peak overbought; low VIX reduces tail-risk hedge value. Frees ~$125 cash.",
+        "urgency": "this week"
+      },
+      {
+        "rank": 3,
+        "action": "TRIM",
+        "ticker": "WMT",
+        "instruction": "Sell ~60% of position (~$105 notional) ahead of earnings volatility. RSI 59.3 neutral but position +3.81% and low VIX means trim-and-hold is prudent. Lock in swing gain, frees ~$65 cash.",
+        "urgency": "this week"
+      },
+      {
+        "rank": 4,
+        "action": "BUY",
+        "ticker": "MNST",
+        "instruction": "Buy $200\u2013250 notional (~5\u20137 shares at $35\u201340 range) after trims complete. Persistent Buy signal + RSI 37 oversold + healthy fundamentals = classic mean-reversion setup. Add to existing 1.2% position.",
+        "urgency": "this week"
+      },
+      {
+        "rank": 5,
+        "action": "BUY",
+        "ticker": "D",
+        "instruction": "Buy $150\u2013200 notional (~2\u20133 shares at current) after trims. New oversold screener signal + RSI 39.2 + Bollinger squeeze = mean-reversion opportunity. New position.",
+        "urgency": "this week"
+      },
+      {
+        "rank": 6,
+        "action": "ADD",
+        "ticker": "CNP",
+        "instruction": "Add $100\u2013150 notional (~2\u20133 shares) to existing 4.1% position. Persistent Buy + RSI 32.5 oversold + defensive utility fundamentals = strong conviction add. Position +1.58% so no loss risk.",
+        "urgency": "this month"
       }
     ],
-    "biggest_risk": "INTU concentration (25.8%) locked in a -28.2% drawdown creates forced-hold drag. If tech sector reverses sharply downward, INTU's overweight status will amplify losses. Your philosophy prevents exit, so capital trapped here delays dry-powder deployment on better opportunities.",
+    "biggest_risk": "INTU at 25.2% of portfolio, -28.5% P&L, exceeds your 25% cap. You cannot exit (>15% rule) but must trim opportunistically once position rebounds or overbought signals emerge. Concentration risk until rebalance.",
     "what_to_watch": [
-      "INTU bounce toward 57% Bollinger Band sell level (~$135\u2013$145 range) \u2014 signals rebalancing opportunity to trim excess concentration",
-      "WMT earnings catalyst (noted in brief) \u2014 if beats, small position becomes larger profit; monitor for any shock that breaks thesis",
-      "D, AEP, MNST technical follow-through \u2014 confirm RSI holds oversold after Buy entry to validate mean-reversion setup validity",
-      "Geopolitical escalation on US-China trade \u2014 given tariff uncertainty noted, any sharp negative headline could liquidate tech rally and test your major losers further"
+      "INTU technical recovery: watch for RSI >70 or overbought Bollinger Band touch\u2014trim to ~20% of portfolio at that signal",
+      "VIX creep above 16: if volatility rises, reduce sell pressure on overbought positions; if VIX stays <15, continue trim discipline",
+      "TEM (-20.9%): hold per philosophy, but monitor for any fundamental breakdown (earnings, guidance); if thesis breaks, re-evaluate at month-end",
+      "Post-trim cash: after MSFT/ABT/WMT trims, should have ~$600\u2013700 dry powder\u2014deploy to MNST/D/CNP mean-reversion plays this week"
     ],
     "on_course_check": [
-      "\u2713 Holding INTU and TEM through >15% drawdowns per your philosophy \u2014 no exit pressure justified",
-      "\u2713 MSFT RSI=77.7 is overbought but position +7.8% profitable; hold unless it hits Strong Sell signal, don't pre-trim",
-      "\u26a0 **REVISE if**: INTU breaches 30% drawdown (>$900 loss) AND shows breakdown in price structure \u2014 escalate to reassess whether fundamentals are truly broken vs. temporary oversold mean reversion",
-      "\u26a0 **REVISE if**: Tech sector sells off >5% on tariff shock and VIX spikes >20 \u2014 may need to reduce concentration risk despite philosophy, or reallocate MGM/D/AEP buys to defensive names (CNP oversold, already held)"
+      "\u2713 Plan working if: MSFT/ABT trims execute without slippage, cash raised funds MNST/D buys, and mean-reversion plays recover 5\u201310% within 4 weeks",
+      "\u26a0 Revise plan if: INTU rebounds >10% and breaks 25% cap\u2014immediately trim 5\u201310% of INTU at that overbought signal to lock rebalance",
+      "\u26a0 Revise plan if: VIX spikes >18 suddenly\u2014pause new buys, hold cash, reduce trim pressure (lower volatility sensitivity)"
     ],
-    "generated_at": "2026-08-11T23:21:38.033752"
+    "generated_at": "2026-08-12T23:19:50.577597"
   },
   "history": [
+    {
+      "headline": "Portfolio locked in hold mode with $1K dry powder; six oversold names flashing mean-reversion buys, but INTU concentration overhang demands discipline.",
+      "market_stance": "neutral",
+      "overall_thesis": "VIX at 15.3 and Fear=29 create a mild contrarian setup favoring oversold quality. Your philosophy demands holding INTU and TEM through >15% drawdowns, so focus capital deployment on fresh oversold entries (MNST, D, MGM, AEP) that offer asymmetric risk/reward without adding to an already tech-heavy portfolio. Over 4\u20138 weeks, expect mean reversion in these screened names to fund eventual INTU position reduction once it recovers toward the 57% Bollinger Band sell target.",
+      "priority_actions": [
+        {
+          "rank": 1,
+          "action": "BUY",
+          "ticker": "MGM",
+          "instruction": "Buy ~62 shares at current market (~$16.15) using $1,000 dry powder allocation. MGM shows persistent 2+ consecutive Buy scrapes with RSI 41.8 (oversold), low current weight (1.1%), and only -0.7% P&L\u2014ideal mean-reversion candidate without concentration risk.",
+          "urgency": "immediate"
+        }
+      ],
+      "biggest_risk": "INTU concentration (25.8%) locked in a -28.2% drawdown creates forced-hold drag. If tech sector reverses sharply downward, INTU's overweight status will amplify losses. Your philosophy prevents exit, so capital trapped here delays dry-powder deployment on better opportunities.",
+      "what_to_watch": [
+        "INTU bounce toward 57% Bollinger Band sell level (~$135\u2013$145 range) \u2014 signals rebalancing opportunity to trim excess concentration",
+        "WMT earnings catalyst (noted in brief) \u2014 if beats, small position becomes larger profit; monitor for any shock that breaks thesis",
+        "D, AEP, MNST technical follow-through \u2014 confirm RSI holds oversold after Buy entry to validate mean-reversion setup validity",
+        "Geopolitical escalation on US-China trade \u2014 given tariff uncertainty noted, any sharp negative headline could liquidate tech rally and test your major losers further"
+      ],
+      "on_course_check": [
+        "\u2713 Holding INTU and TEM through >15% drawdowns per your philosophy \u2014 no exit pressure justified",
+        "\u2713 MSFT RSI=77.7 is overbought but position +7.8% profitable; hold unless it hits Strong Sell signal, don't pre-trim",
+        "\u26a0 **REVISE if**: INTU breaches 30% drawdown (>$900 loss) AND shows breakdown in price structure \u2014 escalate to reassess whether fundamentals are truly broken vs. temporary oversold mean reversion",
+        "\u26a0 **REVISE if**: Tech sector sells off >5% on tariff shock and VIX spikes >20 \u2014 may need to reduce concentration risk despite philosophy, or reallocate MGM/D/AEP buys to defensive names (CNP oversold, already held)"
+      ],
+      "generated_at": "2026-08-11T23:21:38.033752",
+      "archived_at": "2026-08-12T23:19:50.577923"
+    },
     {
       "headline": "Portfolio holding firm through drawdowns; deploying remaining $1K into three high-conviction mean-reversion setups.",
       "market_stance": "offensive",
@@ -261,42 +324,6 @@
       ],
       "generated_at": "2026-08-03T23:41:19.115895",
       "archived_at": "2026-08-04T23:36:16.666151"
-    },
-    {
-      "headline": "Portfolio holding firm through major drawdowns; $1,000 cash deployed into oversold mean-reversion setups.",
-      "market_stance": "offensive",
-      "overall_thesis": "Fear gauge at 27 and VIX neutral create a textbook environment for mean-reversion plays into oversold quality names. INTU and TEM are major losers triggering hold-through philosophy; focus capital on fresh oversold opportunities (MGM, KLAC, EVRG) that show 2+ consecutive buy scrapes with RSI in 38\u201340 zone and positive Bollinger Band reversal signals. Over 4\u20138 weeks, expect recovery in existing tech positions and mean-reversion gains from new entries.",
-      "priority_actions": [
-        {
-          "rank": 1,
-          "action": "BUY",
-          "ticker": "KLAC",
-          "instruction": "Buy ~12\u201313 shares (at ~$77\u201379 current range) to deploy $950 of available $1,000 cash. RSI 38.2 is textbook oversold; 2+ consecutive buy scrapes confirm signal strength. Stop monitoring if RSI breaks above 50 without position buildup.",
-          "urgency": "immediate"
-        },
-        {
-          "rank": 2,
-          "action": "BUY",
-          "ticker": "MGM",
-          "instruction": "Add to watchlist for secondary fill if KLAC fills first and shows early strength. Hold $50 cash reserve. MGM RSI 39 + persistent buy signal is equally strong; execute only if KLAC rallies 3%+ intraday and confirms reversal.",
-          "urgency": "this week"
-        }
-      ],
-      "biggest_risk": "INTU at -32.5% and TEM at -36.5% represent 27.7% portfolio weight in deep drawdown. While philosophy mandates holding, a further 10\u201315% deterioration in either (market shock, earnings miss) could crater portfolio to -18% P&L. No hedges in place.",
-      "what_to_watch": [
-        "INTU earnings or product announcement \u2014 needs catalyst to arrest -32.5% bleed; watch for guidance reset",
-        "Tech sector breadth \u2014 if MSFT (RSI 74.5) and CDNS (RSI 43) both roll over, mean-reversion thesis weakens; consider trimming winners if RSI >70 persists",
-        "KLAC/MGM post-entry behavior \u2014 if either gaps up >5% in first 2 days, take 40% profit and lock in mean-reversion gains early",
-        "VIX creep to 18+ \u2014 would increase portfolio volatility and delay recovery timeline on major losers"
-      ],
-      "on_course_check": [
-        "\u2713 Plan is working: MSFT, ABT, WMT, CDNS, GNRC all flat to slightly positive; no forced exits needed",
-        "\u2713 Plan is working: Fear gauge at 27 validates offensive posture; cash allocation into oversold setups is timely",
-        "\u26a0 Plan at risk if: INTU or TEM break below current lows by >5% without technical bounce \u2014 may signal broken thesis rather than temporary drawdown",
-        "\u26a0 Plan at risk if: New buys (KLAC/MGM) fail to bounce within 3\u20135 trading days of entry \u2014 suggests deeper systematic weakness"
-      ],
-      "generated_at": "2026-08-02T23:32:34.090981",
-      "archived_at": "2026-08-03T23:41:19.116209"
     }
   ]
 }

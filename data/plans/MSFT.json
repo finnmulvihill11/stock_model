@@ -2,20 +2,37 @@
   "current": {
     "ticker": "MSFT",
     "company_name": "Microsoft Corporation",
-    "action": "Hold",
-    "action_reason": "Profitable position in healthy company warrants holding; however, RSI 77.7 suggests limited near-term upside without a pullback. Avoid adding at current price levels.",
-    "target_price": 520,
+    "action": "Start Trimming",
+    "action_reason": "Position is profitable (+5.40%), overbought technically (RSI 70.8), and represents concentrated risk at 12.3% portfolio weight. Low volatility environment raises sell sensitivity per strategy guidelines. Trim 50% to lock in gains and reduce concentration.",
+    "target_price": 500,
     "target_reasoning": "",
-    "exit_trigger": "Break below $490 on heavy volume, or RSI falls below 50 with confirmed breakdown of recent support",
-    "add_trigger": "RSI drops to 55-65 range on pullback; add if price holds above $495 with reversal confirmation",
-    "risk": "Overbought technicals; profit-taking pullback could erase gains; broader market fear sentiment may trigger sector rotation out of mega-caps",
-    "outlook": "neutral",
-    "timeframe": "2-4 weeks",
-    "generated_at": "2026-08-11T23:20:35.996824",
-    "price_at_generation": 503.81,
-    "pnl_at_generation": 7.84
+    "exit_trigger": "If MSFT breaks above $500 with RSI >75, exit remaining 50%. If breaks below $485 with confirmed technical breakdown, exit remaining position.",
+    "add_trigger": "Only re-add if RSI drops below 50 AND position retraces to $470-475 with bullish confirmation.",
+    "risk": "Momentum reversal from overbought conditions; lack of recent news/catalysts increases vulnerability to profit-taking.",
+    "outlook": "cautious",
+    "timeframe": "1-3 weeks",
+    "generated_at": "2026-08-12T23:18:42.388689",
+    "price_at_generation": 492.43,
+    "pnl_at_generation": 5.4
   },
   "history": [
+    {
+      "ticker": "MSFT",
+      "company_name": "Microsoft Corporation",
+      "action": "Hold",
+      "action_reason": "Profitable position in healthy company warrants holding; however, RSI 77.7 suggests limited near-term upside without a pullback. Avoid adding at current price levels.",
+      "target_price": 520,
+      "target_reasoning": "",
+      "exit_trigger": "Break below $490 on heavy volume, or RSI falls below 50 with confirmed breakdown of recent support",
+      "add_trigger": "RSI drops to 55-65 range on pullback; add if price holds above $495 with reversal confirmation",
+      "risk": "Overbought technicals; profit-taking pullback could erase gains; broader market fear sentiment may trigger sector rotation out of mega-caps",
+      "outlook": "neutral",
+      "timeframe": "2-4 weeks",
+      "generated_at": "2026-08-11T23:20:35.996824",
+      "price_at_generation": 503.81,
+      "pnl_at_generation": 7.84,
+      "archived_at": "2026-08-12T23:18:42.388896"
+    },
     {
       "ticker": "MSFT",
       "company_name": "Microsoft Corporation",
@@ -117,23 +134,6 @@
       "price_at_generation": 487.65,
       "pnl_at_generation": 4.38,
       "archived_at": "2026-08-04T23:35:22.503464"
-    },
-    {
-      "ticker": "MSFT",
-      "company_name": "Microsoft Corporation",
-      "action": "Hold",
-      "action_reason": "Loss of only -0.53% is immaterial and position remains small (23.8% weight). Earnings are behind us, fundamentals are healthy, and RSI overbought conditions often precede continuation moves rather than reversals in strong uptrends. Wait for technical setup to improve.",
-      "target_price": 475,
-      "target_reasoning": "",
-      "exit_trigger": "Close below $455 (approximately -2.6% further) or break of major support with deteriorating fundamentals",
-      "add_trigger": "RSI drops below 50 with price holding above $462, or pullback to $460-462 range on positive market breadth",
-      "risk": "Broad tech sector rotation risk if market risk-off accelerates; overbought RSI could trigger 2-3% correction before continuation",
-      "outlook": "neutral",
-      "timeframe": "2-3 weeks",
-      "generated_at": "2026-08-02T23:31:43.347745",
-      "price_at_generation": 464.72,
-      "pnl_at_generation": -0.53,
-      "archived_at": "2026-08-03T23:40:21.132584"
     }
   ]
 }

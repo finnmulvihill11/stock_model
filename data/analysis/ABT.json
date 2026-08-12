@@ -4,25 +4,24 @@
     "ticker": "ABT",
     "direction": "hold",
     "tier": "Hold",
-    "buy_score": 0.25,
-    "sell_score": 0.43,
+    "buy_score": 0.38,
+    "sell_score": 0.57,
     "reasons": [],
     "misses": [
-      "BB: price not near lower band (pct=0.80)",
-      "BB Width: bands expanding, not squeezing",
-      "RSI: not in buy zone (70.8, need 20-40)",
+      "BB: price not near lower band (pct=0.91)",
+      "RSI: not in buy zone (72.6, need 20-40)",
       "MACD: no bullish crossover or valley",
       "RSI Divergence: no bullish divergence detected",
-      "Volume: below average (0.39x) \u2014 low conviction"
+      "Volume: below average (0.47x) \u2014 low conviction"
     ],
-    "price": 109.72,
-    "rsi": 70.8,
-    "atr": 2.84,
+    "price": 110.91,
+    "rsi": 72.6,
+    "atr": 2.98,
     "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 2,
-      "suggested_dollars": 219.44,
-      "note": "2 sh @ $109.72 = $219 (Hold, 60% size) | $1,198 swing budget after"
+      "suggested_dollars": 221.82,
+      "note": "2 sh @ $110.91 = $222 (Hold, 60% size) | $1,108 swing budget after"
     }
   },
   "fundamentals": {
@@ -51,7 +50,7 @@
       ],
       "earnings_status": "distant",
       "next_earnings_date": "2026-10-14",
-      "days_to_earnings": 64
+      "days_to_earnings": 63
     }
   },
   "news": {
@@ -59,33 +58,34 @@
     "sentiment": "neutral",
     "health": "healthy",
     "key_events": [
-      "No recent news catalysts identified",
-      "Earnings 64 days out \u2014 no near-term catalyst",
-      "RSI at 70.8 indicates overbought conditions"
+      "No material news items provided for analysis",
+      "Earnings 63 days out - intermediate-term catalyst present",
+      "Low VIX environment (14.6) suggests market complacency"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "RSI 70.8 suggests potential pullback or consolidation risk",
-      "No technical firing signals despite overbought reading",
-      "Fear sentiment in broader market (F&G) despite neutral VIX"
+      "RSI at 72.6 indicates overbought conditions - mean reversion risk",
+      "No firing signals despite technical strength - momentum may be exhausted",
+      "Fear gauge contradicts low VIX - potential divergence warning",
+      "Lack of news catalysts in near term limits upside momentum"
     ],
-    "verdict": "ABT is fundamentally healthy but technically overbought with no near-term catalysts; hold and await pullback or earnings setup.",
+    "verdict": "Profitable swing position in overbought territory with healthy fundamentals but limited near-term catalysts; trim into strength given RSI extremes and low volatility bias.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "ABT",
-    "stock_return_3m": 33.85,
-    "benchmark_return_3m": 4.5,
-    "relative_strength": 29.35,
+    "stock_return_3m": 32.43,
+    "benchmark_return_3m": 4.92,
+    "relative_strength": 27.51,
     "label": "outperforming"
   },
   "final_tier": "Hold",
   "sizing": {
     "suggested_shares": 2,
-    "suggested_dollars": 219.44,
-    "note": "2 sh @ $109.72 = $219 (Hold, 60% size) | $1,198 swing budget after"
+    "suggested_dollars": 221.82,
+    "note": "2 sh @ $110.91 = $222 (Hold, 60% size) | $1,108 swing budget after"
   },
   "is_dca": false,
-  "saved_at": "2026-08-11T23:20:42.075505"
+  "saved_at": "2026-08-12T23:18:49.158573"
 }

@@ -2,20 +2,37 @@
   "current": {
     "ticker": "WMT",
     "company_name": "Walmart Inc.",
-    "action": "Hold",
-    "action_reason": "Position is profitable with healthy fundamentals and modest weight. Earnings in 9 days present a natural catalyst; holding allows exposure to potential upside while maintaining optionality post-earnings.",
-    "target_price": null,
+    "action": "Start Trimming",
+    "action_reason": "Lock in +3.81% gain on a healthy swing trade ahead of earnings volatility. VIX at 14.6 indicates complacency that typically resolves with post-earnings whipsaw. Trim 50-60% of position to secure profit while holding core for potential upside surprise.",
+    "target_price": 118.5,
     "target_reasoning": "",
-    "exit_trigger": "Close above $116 post-earnings with RSI >65 (take half profits); or below $110 on deteriorating fundamentals",
-    "add_trigger": "Pull back to $110-111 on higher volume if fundamentals remain intact; or breakout above $115 with RSI >60",
-    "risk": "Earnings miss or guidance cut could trigger 3-5% pullback; geopolitical escalation impacts consumer discretionary spending",
-    "outlook": "neutral",
-    "timeframe": "2-3 weeks (through earnings + post-earnings consolidation)",
-    "generated_at": "2026-08-11T23:20:55.575440",
-    "price_at_generation": 113.26,
-    "pnl_at_generation": 1.35
+    "exit_trigger": "Sell 60% at market open if stock gaps up to $117.50+. Exit remaining 40% if earnings miss consensus or guidance disappoints. Re-enter on post-earnings dip if fundamentals remain healthy.",
+    "add_trigger": "Only add if stock pulls back to $113.50 after earnings beat and VIX normalizes above 16.",
+    "risk": "Gap down post-earnings on earnings miss or macro uncertainty; momentum loss if retail data disappoints.",
+    "outlook": "cautious",
+    "timeframe": "3-5 days (until earnings) + 2 weeks (post-earnings volatility window)",
+    "generated_at": "2026-08-12T23:19:04.112095",
+    "price_at_generation": 116.01,
+    "pnl_at_generation": 3.81
   },
   "history": [
+    {
+      "ticker": "WMT",
+      "company_name": "Walmart Inc.",
+      "action": "Hold",
+      "action_reason": "Position is profitable with healthy fundamentals and modest weight. Earnings in 9 days present a natural catalyst; holding allows exposure to potential upside while maintaining optionality post-earnings.",
+      "target_price": null,
+      "target_reasoning": "",
+      "exit_trigger": "Close above $116 post-earnings with RSI >65 (take half profits); or below $110 on deteriorating fundamentals",
+      "add_trigger": "Pull back to $110-111 on higher volume if fundamentals remain intact; or breakout above $115 with RSI >60",
+      "risk": "Earnings miss or guidance cut could trigger 3-5% pullback; geopolitical escalation impacts consumer discretionary spending",
+      "outlook": "neutral",
+      "timeframe": "2-3 weeks (through earnings + post-earnings consolidation)",
+      "generated_at": "2026-08-11T23:20:55.575440",
+      "price_at_generation": 113.26,
+      "pnl_at_generation": 1.35,
+      "archived_at": "2026-08-12T23:19:04.112296"
+    },
     {
       "ticker": "WMT",
       "company_name": "Walmart Inc.",
@@ -117,23 +134,6 @@
       "price_at_generation": 110.71,
       "pnl_at_generation": -0.93,
       "archived_at": "2026-08-04T23:35:43.399037"
-    },
-    {
-      "ticker": "WMT",
-      "company_name": "Walmart Inc.",
-      "action": "Hold",
-      "action_reason": "Position is down only 0.49% (well above your 15% threshold for mandatory holds). Fundamentals are healthy and upcoming earnings in 18 days provide a near-term catalyst. RSI at 44.4 leaves room for both upside and downside without extremes.",
-      "target_price": null,
-      "target_reasoning": "",
-      "exit_trigger": "Exit only if WMT closes below $108 (3% loss) with a breakdown below 200-day MA, or if earnings disappoint with negative forward guidance",
-      "add_trigger": "Add on a pullback to $109-110 if RSI dips below 40 on higher volume, showing capitulation before earnings",
-      "risk": "Earnings miss or negative retail/consumer guidance could trigger a 4-6% drop; broad market weakness ahead of earnings could also pressure the position",
-      "outlook": "neutral",
-      "timeframe": "2-3 weeks (hold through earnings announcement)",
-      "generated_at": "2026-08-02T23:32:05.754369",
-      "price_at_generation": 111.2,
-      "pnl_at_generation": -0.49,
-      "archived_at": "2026-08-03T23:40:42.039445"
     }
   ]
 }

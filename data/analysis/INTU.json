@@ -8,16 +8,16 @@
     "sell_score": 0.57,
     "reasons": [],
     "misses": [
-      "BB: price not near lower band (pct=0.86)",
-      "RSI: not in buy zone (65.5, need 20-40)",
+      "BB: price not near lower band (pct=0.81)",
+      "RSI: not in buy zone (64.2, need 20-40)",
       "MACD: no bullish crossover or valley",
       "RSI Divergence: no bullish divergence detected",
       "200MA: price below 200MA \u2014 potential falling knife",
-      "Volume: below average (0.72x) \u2014 low conviction"
+      "Volume: below average (0.64x) \u2014 low conviction"
     ],
-    "price": 336.44,
-    "rsi": 65.5,
-    "atr": 14.7,
+    "price": 334.71,
+    "rsi": 64.2,
+    "atr": 14.51,
     "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 0,
@@ -40,7 +40,7 @@
   },
   "earnings": {
     "proceed": false,
-    "reason": "Earnings in 14 days \u2014 wait for results before acting",
+    "reason": "Earnings in 13 days \u2014 wait for results before acting",
     "verdict": {
       "ticker": "INTU",
       "verdict": "consider",
@@ -51,7 +51,7 @@
       ],
       "earnings_status": "imminent",
       "next_earnings_date": "2026-08-25",
-      "days_to_earnings": 14
+      "days_to_earnings": 13
     }
   },
   "news": {
@@ -59,27 +59,26 @@
     "sentiment": "neutral",
     "health": "healthy",
     "key_events": [
-      "Earnings report due within 14 days \u2014 critical catalyst",
-      "RSI at 65.5 indicates strong momentum but approaching overbought territory",
-      "Market volatility neutral (VIX 15.3) \u2014 no macro headwinds amplifying risk",
-      "Position down 28.16% from entry \u2014 significant underwater loss"
+      "Earnings report in 13 days \u2014 critical catalyst",
+      "VIX at 14.6 indicates market complacency with elevated risk of sudden volatility shifts",
+      "RSI at 64.2 shows neutral momentum, not yet overbought but near resistance zone"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "Earnings imminent \u2014 high volatility risk within 2 weeks",
-      "No recent news flow suggests information vacuum before earnings",
-      "Position weight 25.8% of portfolio \u2014 concentrated risk on single holding",
-      "Market sentiment Fear \u2014 defensive positioning across market"
+      "Position down 28.53% \u2014 significant underwater loss",
+      "25.2% portfolio weight creates concentration risk, especially in drawdown",
+      "Imminent earnings could trigger sharp move in either direction; current technicals offer no directional signal",
+      "Fear index despite low VIX suggests institutional caution \u2014 disconnect between volatility and sentiment"
     ],
-    "verdict": "Hold position through earnings catalyst; fundamentals remain healthy and philosophy prevents exit on 28% drawdown.",
+    "verdict": "Hold through earnings; position fundamentals remain intact despite severe drawdown, but monitor for deterioration post-results.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "INTU",
-    "stock_return_3m": -14.08,
-    "benchmark_return_3m": 4.5,
-    "relative_strength": -18.57,
+    "stock_return_3m": -13.29,
+    "benchmark_return_3m": 4.92,
+    "relative_strength": -18.21,
     "label": "underperforming"
   },
   "final_tier": "Hold",
@@ -89,5 +88,5 @@
     "note": "Position already at 20% portfolio cap"
   },
   "is_dca": false,
-  "saved_at": "2026-08-11T23:20:28.206391"
+  "saved_at": "2026-08-12T23:18:35.863018"
 }

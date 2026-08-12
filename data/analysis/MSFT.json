@@ -5,24 +5,24 @@
     "direction": "hold",
     "tier": "Hold",
     "buy_score": 0.25,
-    "sell_score": 0.57,
+    "sell_score": 0.43,
     "reasons": [],
     "misses": [
-      "BB: price not near lower band (pct=0.84)",
+      "BB: price not near lower band (pct=0.75)",
       "BB Width: bands expanding, not squeezing",
-      "RSI: not in buy zone (77.7, need 20-40)",
+      "RSI: not in buy zone (70.8, need 20-40)",
       "MACD: no bullish crossover or valley",
       "RSI Divergence: no bullish divergence detected",
-      "Volume: below average (0.58x) \u2014 low conviction"
+      "Volume: below average (0.70x) \u2014 low conviction"
     ],
-    "price": 503.81,
-    "rsi": 77.7,
-    "atr": 17.52,
+    "price": 492.43,
+    "rsi": 70.8,
+    "atr": 17.37,
     "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 0,
       "suggested_dollars": 0,
-      "note": "Price exceeds 60% conviction ceiling ($255) \u2014 skip or wait for Strong Buy"
+      "note": "Price exceeds 60% conviction ceiling ($239) \u2014 skip or wait for Strong Buy"
     }
   },
   "fundamentals": {
@@ -51,7 +51,7 @@
       ],
       "earnings_status": "past",
       "next_earnings_date": "2026-07-29",
-      "days_to_earnings": -13
+      "days_to_earnings": -14
     }
   },
   "news": {
@@ -59,35 +59,34 @@
     "sentiment": "neutral",
     "health": "healthy",
     "key_events": [
-      "Earnings reported 13 days ago (past cycle)",
-      "Strong price momentum: +7.84% gain from entry",
-      "RSI at 77.7 indicates overbought conditions",
-      "No recent news catalysts to drive further upside"
+      "No recent news items provided for analysis",
+      "Earnings reported 14 days ago (past event)",
+      "Position up 5.40% - in profitable territory"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "RSI 77.7 signals overbought territory\u2014pullback risk elevated",
-      "No technical firing signals despite strong momentum",
-      "Fear sentiment in broader market (F&G)\u2014risk-off environment possible",
-      "Position weight at 12.9% creates concentration risk if reversal occurs"
+      "RSI at 70.8 indicates overbought conditions",
+      "No technical firing signals despite rally",
+      "Market Fear & Greed shows Fear despite low VIX",
+      "Position weight at 12.3% is concentrated"
     ],
-    "verdict": "Position is fundamentally sound and profitable, but technical setup is extended with overbought RSI; hold and monitor for pullback entry opportunities to add.",
+    "verdict": "MSFT is overbought after a solid rally with no fresh catalysts; exit on strength given elevated risk/reward and elevated portfolio weight.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "MSFT",
-    "stock_return_3m": 22.35,
-    "benchmark_return_3m": 4.5,
-    "relative_strength": 17.86,
+    "stock_return_3m": 21.02,
+    "benchmark_return_3m": 4.92,
+    "relative_strength": 16.11,
     "label": "outperforming"
   },
   "final_tier": "Hold",
   "sizing": {
     "suggested_shares": 0,
     "suggested_dollars": 0,
-    "note": "Price exceeds 60% conviction ceiling ($255) \u2014 skip or wait for Strong Buy"
+    "note": "Price exceeds 60% conviction ceiling ($239) \u2014 skip or wait for Strong Buy"
   },
   "is_dca": false,
-  "saved_at": "2026-08-11T23:20:35.997603"
+  "saved_at": "2026-08-12T23:18:42.389462"
 }

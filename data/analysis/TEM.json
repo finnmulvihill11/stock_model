@@ -8,22 +8,22 @@
     "sell_score": 0.29,
     "reasons": [],
     "misses": [
-      "BB: price not near lower band (pct=0.90)",
+      "BB: price not near lower band (pct=0.87)",
       "BB Width: bands expanding, not squeezing",
-      "RSI: not in buy zone (62.0, need 20-40)",
+      "RSI: not in buy zone (59.4, need 20-40)",
       "MACD: no bullish crossover or valley",
       "RSI Divergence: no bullish divergence detected",
       "200MA: price below 200MA \u2014 potential falling knife",
-      "Volume: below average (0.66x) \u2014 low conviction"
+      "Volume: below average (0.63x) \u2014 low conviction"
     ],
-    "price": 55.69,
-    "rsi": 62.0,
-    "atr": 3.3,
+    "price": 54.61,
+    "rsi": 59.4,
+    "atr": 3.39,
     "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 4,
-      "suggested_dollars": 222.76,
-      "note": "4 sh @ $55.69 = $223 (Hold, 60% size) | $1,194 swing budget after"
+      "suggested_dollars": 218.44,
+      "note": "4 sh @ $54.61 = $218 (Hold, 60% size) | $1,111 swing budget after"
     }
   },
   "fundamentals": {
@@ -52,7 +52,7 @@
       ],
       "earnings_status": "past",
       "next_earnings_date": "2026-07-30",
-      "days_to_earnings": -12
+      "days_to_earnings": -13
     }
   },
   "news": {
@@ -60,36 +60,36 @@
     "sentiment": "negative",
     "health": "deteriorating",
     "key_events": [
-      "Earnings report 12 days ago",
-      "High debt-to-equity ratio (3.2x) indicates financial stress",
-      "Negative operating cash flow signals operational challenges"
+      "Earnings reported 13 days ago",
+      "Stock down 20.95% from entry",
+      "VIX at 14.6 indicating market complacency with underlying fragility"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "Not profitable with negative operating cash flow",
-      "High leverage (3.2x D/E) limits financial flexibility",
-      "19.38% drawdown from entry",
-      "No recent positive catalysts in news",
-      "Fear sentiment in broader market (F&G)",
-      "RSI at 62 shows no oversold bounce opportunity yet"
+      "Negative operating cash flow signals unsustainable business model",
+      "High debt-to-equity ratio (3.2x) leaves minimal margin for error",
+      "Not profitable - burning cash while servicing debt",
+      "RSI 59.4 shows no oversold conditions; no technical capitulation yet",
+      "Post-earnings weakness suggests market repriced fundamentals downward",
+      "No positive catalysts in news pipeline"
     ],
-    "verdict": "Tempus AI faces structural profitability challenges with unsustainable debt levels; position is a speculative hold pending recovery signals.",
+    "verdict": "TEM exhibits deteriorating fundamentals with unprofitable operations and high leverage, but position loss exceeds 15% threshold requiring hold discipline per your philosophy.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "TEM",
-    "stock_return_3m": 14.92,
-    "benchmark_return_3m": 4.5,
-    "relative_strength": 10.42,
+    "stock_return_3m": 16.32,
+    "benchmark_return_3m": 4.92,
+    "relative_strength": 11.4,
     "label": "outperforming"
   },
   "final_tier": "Hold",
   "sizing": {
     "suggested_shares": 4,
-    "suggested_dollars": 222.76,
-    "note": "4 sh @ $55.69 = $223 (Hold, 60% size) | $1,194 swing budget after"
+    "suggested_dollars": 218.44,
+    "note": "4 sh @ $54.61 = $218 (Hold, 60% size) | $1,111 swing budget after"
   },
   "is_dca": false,
-  "saved_at": "2026-08-11T23:20:49.159627"
+  "saved_at": "2026-08-12T23:18:56.419920"
 }

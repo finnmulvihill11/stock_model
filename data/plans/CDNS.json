@@ -3,19 +3,36 @@
     "ticker": "CDNS",
     "company_name": "Cadence Design Systems, Inc.",
     "action": "Hold",
-    "action_reason": "Position is down only 3.11% (well within swing tolerance) with healthy fundamentals intact. RSI oversold conditions typically precede recoveries; wait for RSI >50 or bullish signal before adding. Philosophy dictates holding profitable or minor-loss positions until clear exit signals emerge.",
-    "target_price": 345,
+    "action_reason": "Position is only -4.41% (well above the -15% hard floor), fundamentals remain healthy, and RSI oversold conditions present natural bounce opportunity. Avoid adding without clear technical confirmation or news catalyst.",
+    "target_price": null,
     "target_reasoning": "",
-    "exit_trigger": "Break below $320 on heavy volume OR deteriorating quarterly guidance at next earnings",
-    "add_trigger": "RSI crosses above 50 with volume confirmation, or dips to $315-320 range if fundamentals remain healthy",
-    "risk": "Semiconductor/EDA sector rotation if macro conditions deteriorate; earnings disappointment impact still absorbing",
-    "outlook": "cautious",
-    "timeframe": "2-4 weeks",
-    "generated_at": "2026-08-11T23:21:01.564644",
-    "price_at_generation": 327.53,
-    "pnl_at_generation": -3.11
+    "exit_trigger": "Only exit if fundamentals deteriorate materially OR position recovers to breakeven/slight profit with sell signal confirmation",
+    "add_trigger": "RSI bounces back above 45 with volume confirmation + positive sector news, OR 5-10% further decline with technical reversal pattern",
+    "risk": "Earnings volatility already priced in; main risk is sector rotation away from semiconductor design tools if broader chip cycle weakens",
+    "outlook": "neutral",
+    "timeframe": "3-6 weeks for technical recovery; monitor for post-earnings stabilization and sector momentum shifts",
+    "generated_at": "2026-08-12T23:19:11.845279",
+    "price_at_generation": 323.13,
+    "pnl_at_generation": -4.41
   },
   "history": [
+    {
+      "ticker": "CDNS",
+      "company_name": "Cadence Design Systems, Inc.",
+      "action": "Hold",
+      "action_reason": "Position is down only 3.11% (well within swing tolerance) with healthy fundamentals intact. RSI oversold conditions typically precede recoveries; wait for RSI >50 or bullish signal before adding. Philosophy dictates holding profitable or minor-loss positions until clear exit signals emerge.",
+      "target_price": 345,
+      "target_reasoning": "",
+      "exit_trigger": "Break below $320 on heavy volume OR deteriorating quarterly guidance at next earnings",
+      "add_trigger": "RSI crosses above 50 with volume confirmation, or dips to $315-320 range if fundamentals remain healthy",
+      "risk": "Semiconductor/EDA sector rotation if macro conditions deteriorate; earnings disappointment impact still absorbing",
+      "outlook": "cautious",
+      "timeframe": "2-4 weeks",
+      "generated_at": "2026-08-11T23:21:01.564644",
+      "price_at_generation": 327.53,
+      "pnl_at_generation": -3.11,
+      "archived_at": "2026-08-12T23:19:11.845462"
+    },
     {
       "ticker": "CDNS",
       "company_name": "Cadence Design Systems, Inc.",
@@ -117,23 +134,6 @@
       "price_at_generation": 336.15,
       "pnl_at_generation": -0.56,
       "archived_at": "2026-08-04T23:35:48.497021"
-    },
-    {
-      "ticker": "CDNS",
-      "company_name": "Cadence Design Systems, Inc.",
-      "action": "Hold",
-      "action_reason": "Position is profitable (+0.59%) with healthy fundamentals and small portfolio weight (8.7%). Lack of momentum and missing technical triggers suggest waiting for clearer directional setup rather than adding into weakness.",
-      "target_price": 350,
-      "target_reasoning": "",
-      "exit_trigger": "Break below $330 (post-earnings support) on volume, or if RSI sustains below 30 with negative earnings revision",
-      "add_trigger": "RSI breaks above 55 with volume spike, or positive product/partnership announcement drives consolidation breakout",
-      "risk": "Post-earnings volatility decay; lack of news catalysts could lead to sideways consolidation; sector rotation away from semiconductor tools if macro fears escalate",
-      "outlook": "neutral",
-      "timeframe": "2-4 weeks until next catalyst or technical breakout",
-      "generated_at": "2026-08-02T23:32:13.857800",
-      "price_at_generation": 340.02,
-      "pnl_at_generation": 0.59,
-      "archived_at": "2026-08-03T23:40:48.478288"
     }
   ]
 }

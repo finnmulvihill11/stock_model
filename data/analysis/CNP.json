@@ -10,16 +10,16 @@
     "misses": [
       "BB Width: bands expanding, not squeezing",
       "RSI Divergence: no bullish divergence detected",
-      "Volume: below average (0.84x) \u2014 low conviction"
+      "Volume: below average (0.64x) \u2014 low conviction"
     ],
-    "price": 40.18,
-    "rsi": 30.9,
-    "atr": 1.08,
+    "price": 40.53,
+    "rsi": 35.3,
+    "atr": 1.05,
     "final_tier": "Hold",
     "sizing": {
-      "suggested_shares": 6,
-      "suggested_dollars": 241.08,
-      "note": "6 sh @ $40.18 = $241 (Hold, 60% size) | $1,176 swing budget after"
+      "suggested_shares": 5,
+      "suggested_dollars": 202.65,
+      "note": "5 sh @ $40.53 = $203 (Hold, 60% size) | $1,127 swing budget after"
     }
   },
   "fundamentals": {
@@ -49,7 +49,7 @@
       ],
       "earnings_status": "past",
       "next_earnings_date": "2026-07-28",
-      "days_to_earnings": -14
+      "days_to_earnings": -15
     }
   },
   "news": {
@@ -57,35 +57,34 @@
     "sentiment": "neutral",
     "health": "neutral",
     "key_events": [
-      "Earnings reported 14 days ago",
-      "RSI at 30.9 indicates oversold conditions",
-      "High debt-to-equity ratio (2.1x) typical for utility sector but warrants monitoring",
-      "Market volatility (VIX 15.3) remains low and stable"
+      "Earnings reported 15 days ago",
+      "VIX at 14.6 indicates low volatility environment with potential for sharp reversals",
+      "RSI at 35.3 suggests oversold conditions but no immediate bullish confirmation"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "High leverage (2.1x D/E) limits financial flexibility",
-      "No recent positive catalysts or news flow",
-      "RSI near oversold but no bullish firing signals yet",
-      "Geopolitical risks present structural headwinds"
+      "High debt-to-equity ratio (2.1x) limits financial flexibility",
+      "RSI in oversold territory without firing indicators suggests weakness may persist",
+      "Earnings miss within recent timeframe (-15d) likely catalyst for weakness",
+      "No news catalysts identified to support recovery"
     ],
-    "verdict": "CNP shows technical oversold conditions with modest gains; neutral fundamentals and high debt warrant cautious positioning in a utility play with limited near-term catalysts.",
+    "verdict": "Profitable swing position with modest gains in a low-volatility, fear-tinged market; hold but monitor for consolidation breakdown.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "CNP",
-    "stock_return_3m": -4.42,
-    "benchmark_return_3m": 4.5,
-    "relative_strength": -8.92,
+    "stock_return_3m": -2.32,
+    "benchmark_return_3m": 4.92,
+    "relative_strength": -7.24,
     "label": "underperforming"
   },
   "final_tier": "Hold",
   "sizing": {
-    "suggested_shares": 6,
-    "suggested_dollars": 241.08,
-    "note": "6 sh @ $40.18 = $241 (Hold, 60% size) | $1,176 swing budget after"
+    "suggested_shares": 5,
+    "suggested_dollars": 202.65,
+    "note": "5 sh @ $40.53 = $203 (Hold, 60% size) | $1,127 swing budget after"
   },
   "is_dca": false,
-  "saved_at": "2026-08-11T23:21:14.914120"
+  "saved_at": "2026-08-12T23:19:26.845498"
 }

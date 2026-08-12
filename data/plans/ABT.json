@@ -2,20 +2,37 @@
   "current": {
     "ticker": "ABT",
     "company_name": "ABT",
-    "action": "Hold",
-    "action_reason": "Position is essentially flat (-0.05%), fundamentals remain solid, and holding for either mean reversion bounce or earnings (64d). No profit-taking warranted yet, and position weight (5.6%) is reasonable.",
-    "target_price": null,
+    "action": "Start Trimming",
+    "action_reason": "Position is +1.04% with RSI at overbought 72.6, and low VIX environment reduces upside volatility premium. Trim 1 share to lock in gains and reduce weight below 5% while maintaining exposure through earnings cycle.",
+    "target_price": 112.5,
     "target_reasoning": "",
-    "exit_trigger": "Break below $107.50 (support) on high volume OR sustained close below 200-day MA if earnings outlook deteriorates",
-    "add_trigger": "RSI drops below 50 + close above $111.20 on volume, signaling healthy pullback and renewed uptrend",
-    "risk": "Overbought technicals could trigger 2-3% pullback; geopolitical uncertainty (MODERATE) could weigh on healthcare sector rotation",
-    "outlook": "neutral",
-    "timeframe": "3-6 weeks (monitor for consolidation through earnings announcement)",
-    "generated_at": "2026-08-11T23:20:42.074590",
-    "price_at_generation": 109.72,
-    "pnl_at_generation": -0.05
+    "exit_trigger": "RSI sustains above 75 with no new bullish signals, or close below $109.50",
+    "add_trigger": "RSI drops below 50 AND close above $111.50 on volume confirmation",
+    "risk": "Overbought reversal into earnings; healthcare sector rotation risk; gap down if macro sentiment shifts",
+    "outlook": "cautious",
+    "timeframe": "2-4 weeks until earnings catalyst",
+    "generated_at": "2026-08-12T23:18:49.157839",
+    "price_at_generation": 110.91,
+    "pnl_at_generation": 1.04
   },
   "history": [
+    {
+      "ticker": "ABT",
+      "company_name": "ABT",
+      "action": "Hold",
+      "action_reason": "Position is essentially flat (-0.05%), fundamentals remain solid, and holding for either mean reversion bounce or earnings (64d). No profit-taking warranted yet, and position weight (5.6%) is reasonable.",
+      "target_price": null,
+      "target_reasoning": "",
+      "exit_trigger": "Break below $107.50 (support) on high volume OR sustained close below 200-day MA if earnings outlook deteriorates",
+      "add_trigger": "RSI drops below 50 + close above $111.20 on volume, signaling healthy pullback and renewed uptrend",
+      "risk": "Overbought technicals could trigger 2-3% pullback; geopolitical uncertainty (MODERATE) could weigh on healthcare sector rotation",
+      "outlook": "neutral",
+      "timeframe": "3-6 weeks (monitor for consolidation through earnings announcement)",
+      "generated_at": "2026-08-11T23:20:42.074590",
+      "price_at_generation": 109.72,
+      "pnl_at_generation": -0.05,
+      "archived_at": "2026-08-12T23:18:49.158013"
+    },
     {
       "ticker": "ABT",
       "company_name": "Abbott Laboratories",
@@ -117,23 +134,6 @@
       "price_at_generation": 107.12,
       "pnl_at_generation": -2.41,
       "archived_at": "2026-08-04T23:35:29.106164"
-    },
-    {
-      "ticker": "ABT",
-      "company_name": "ABT",
-      "action": "Hold",
-      "action_reason": "Position is down only 3.71%, well within the 15% threshold. Fundamentals remain healthy and no deterioration is evident. Let swing setup develop with patience.",
-      "target_price": null,
-      "target_reasoning": "",
-      "exit_trigger": "Break below $102.50 (lower support) OR positive RSI divergence with price weakness indicates structural failure",
-      "add_trigger": "RSI drops below 50 AND price holds above $104.00 (shows accumulation without breakdown)",
-      "risk": "Continued sector rotation out of healthcare/pharma; macro headwinds from Fear sentiment could pressure further short-term",
-      "outlook": "neutral",
-      "timeframe": "2-4 weeks",
-      "generated_at": "2026-08-02T23:31:50.504056",
-      "price_at_generation": 105.7,
-      "pnl_at_generation": -3.71,
-      "archived_at": "2026-08-03T23:40:28.050892"
     }
   ]
 }

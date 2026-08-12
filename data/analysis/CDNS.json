@@ -4,23 +4,22 @@
     "ticker": "CDNS",
     "direction": "hold",
     "tier": "Hold",
-    "buy_score": 0.5,
+    "buy_score": 0.62,
     "sell_score": 0.29,
     "reasons": [],
     "misses": [
-      "BB: price not near lower band (pct=0.25)",
       "MACD: no bullish crossover or valley",
       "RSI Divergence: no bullish divergence detected",
-      "Volume: below average (0.77x) \u2014 low conviction"
+      "Volume: below average (0.75x) \u2014 low conviction"
     ],
-    "price": 327.53,
-    "rsi": 37.8,
-    "atr": 12.81,
+    "price": 323.13,
+    "rsi": 35.8,
+    "atr": 12.8,
     "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 0,
       "suggested_dollars": 0,
-      "note": "Price exceeds 60% conviction ceiling ($255) \u2014 skip or wait for Strong Buy"
+      "note": "Price exceeds 60% conviction ceiling ($239) \u2014 skip or wait for Strong Buy"
     }
   },
   "fundamentals": {
@@ -49,7 +48,7 @@
       ],
       "earnings_status": "past",
       "next_earnings_date": "2026-07-27",
-      "days_to_earnings": -15
+      "days_to_earnings": -16
     }
   },
   "news": {
@@ -57,33 +56,35 @@
     "sentiment": "neutral",
     "health": "healthy",
     "key_events": [
-      "Earnings reported 15 days ago (already digested)",
-      "No current news catalysts identified",
-      "Market volatility remains subdued (VIX 15.3)"
+      "Stock down 4.41% from entry despite healthy fundamentals",
+      "Earnings reported 16 days ago - market digesting results",
+      "RSI at 35.8 indicates oversold conditions but no technical firing signals",
+      "VIX at 14.6 suggests low volatility environment with complacency risk"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "RSI at 37.8 indicates oversold conditions but no reversal firing yet",
-      "3.11% drawdown post-earnings suggests profit-taking or sector headwinds",
-      "No bullish technical signals to confirm recovery"
+      "No recent news catalysts visible - information vacuum",
+      "Fear & Greed Index showing Fear despite low VIX (divergence)",
+      "Position weight at 8.1% is concentrated for a swing trade",
+      "Post-earnings consolidation phase with unclear direction"
     ],
-    "verdict": "CDNS is oversold post-earnings with healthy fundamentals; hold and await technical confirmation of recovery.",
+    "verdict": "CDNS is fundamentally sound but technically weak; oversold RSI offers potential bounce, but lack of conviction signals warrants patience over action.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "CDNS",
-    "stock_return_3m": -10.07,
-    "benchmark_return_3m": 4.5,
-    "relative_strength": -14.57,
+    "stock_return_3m": -9.75,
+    "benchmark_return_3m": 4.92,
+    "relative_strength": -14.67,
     "label": "underperforming"
   },
   "final_tier": "Hold",
   "sizing": {
     "suggested_shares": 0,
     "suggested_dollars": 0,
-    "note": "Price exceeds 60% conviction ceiling ($255) \u2014 skip or wait for Strong Buy"
+    "note": "Price exceeds 60% conviction ceiling ($239) \u2014 skip or wait for Strong Buy"
   },
   "is_dca": false,
-  "saved_at": "2026-08-11T23:21:01.565438"
+  "saved_at": "2026-08-12T23:19:11.846092"
 }
