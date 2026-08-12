@@ -350,6 +350,14 @@
       "amount": 45.33,
       "type": "swing",
       "action": "buy"
+    },
+    {
+      "date": "2026-08-12",
+      "ticker": "MGM",
+      "shares": 2.0,
+      "amount": 87.52,
+      "type": "swing",
+      "action": "buy"
     }
   ]
 }
