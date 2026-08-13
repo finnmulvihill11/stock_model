@@ -40,8 +40,8 @@ portfolio:
     shares: 3.0
     avg_cost: 43.98
   - ticker: CNP
-    shares: 4.0
-    avg_cost: 39.9
+    shares: 7.0
+    avg_cost: 40.17
   - ticker: MNST
     shares: 2.0
     avg_cost: 46.05
