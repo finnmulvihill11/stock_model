@@ -12,13 +12,11 @@ portfolio:
   - KLAC
   - ABT
   - WMT
+  - MSFT
   holdings:
   - ticker: INTU
     shares: 3
     avg_cost: 468.29
-  - ticker: MSFT
-    shares: 1
-    avg_cost: 467.18
   - ticker: VOO
     shares: 1.36
     avg_cost: 626.71
@@ -56,7 +54,6 @@ portfolio:
   - VXUS
   swing_tickers:
   - INTU
-  - MSFT
   - TEM
   dca_cadence: monthly
   max_position_pct: 0.25
