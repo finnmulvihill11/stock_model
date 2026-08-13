@@ -370,6 +370,14 @@
       "avg_cost": 109.77,
       "realized_pnl": 3.2,
       "realized_pnl_pct": 1.46
+    },
+    {
+      "date": "2026-08-13",
+      "ticker": "D",
+      "shares": 1.0,
+      "amount": 68.28,
+      "type": "swing",
+      "action": "buy"
     }
   ]
 }
