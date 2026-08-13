@@ -47,8 +47,8 @@ portfolio:
     shares: 4.0
     avg_cost: 39.9
   - ticker: MNST
-    shares: 1.0
-    avg_cost: 45.33
+    shares: 2.0
+    avg_cost: 46.05
   - ticker: D
     shares: 1.0
     avg_cost: 68.28
