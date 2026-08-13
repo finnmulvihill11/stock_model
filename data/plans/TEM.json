@@ -3,19 +3,36 @@
     "ticker": "TEM",
     "company_name": "Tempus AI, Inc.",
     "action": "Hold",
-    "action_reason": "Your philosophy mandates holding major losers (>15% underwater) regardless of fundamentals. Exiting now locks in 20.95% loss. Position must remain open for recovery opportunity despite weak outlook.",
+    "action_reason": "Philosophy mandates holding positions down >15%. However, escalate monitoring for a reversal signal (earnings surprise, debt refinancing, or profitability roadmap) or a capitulation washout that could signal a reversal setup.",
     "target_price": null,
     "target_reasoning": "",
-    "exit_trigger": "Position recovers to breakeven ($69.08) OR company achieves positive operating cash flow with debt reduction plan announced",
-    "add_trigger": "RSI drops below 35 (oversold capitulation) + news of major partnership or significant cash raise announcement",
-    "risk": "Further deterioration to profitability, potential dilutive capital raise, debt refinancing crisis if market conditions tighten",
+    "exit_trigger": "Further deterioration in cash burn, covenant breach risk, or dilution announcement; alternatively, exit on recovery to breakeven (+21.41%) if no fundamental improvement emerges within 6-8 weeks.",
+    "add_trigger": "Only add if: (1) positive earnings surprise, (2) tangible profitability milestone announced, or (3) RSI drops to 30-35 on high volume (capitulation) with catalyst visible.",
+    "risk": "Continued cash burn and leverage could force dilutive financing; further downside below $50 risks structural deterioration.",
     "outlook": "cautious",
-    "timeframe": "3-6 months for recovery signal or fundamental inflection point",
-    "generated_at": "2026-08-12T23:18:56.419122",
-    "price_at_generation": 54.61,
-    "pnl_at_generation": -20.95
+    "timeframe": "4-8 weeks for clarity; re-evaluate at next earnings or if stock hits $45 support",
+    "generated_at": "2026-08-13T23:21:18.937145",
+    "price_at_generation": 54.29,
+    "pnl_at_generation": -21.41
   },
   "history": [
+    {
+      "ticker": "TEM",
+      "company_name": "Tempus AI, Inc.",
+      "action": "Hold",
+      "action_reason": "Your philosophy mandates holding major losers (>15% underwater) regardless of fundamentals. Exiting now locks in 20.95% loss. Position must remain open for recovery opportunity despite weak outlook.",
+      "target_price": null,
+      "target_reasoning": "",
+      "exit_trigger": "Position recovers to breakeven ($69.08) OR company achieves positive operating cash flow with debt reduction plan announced",
+      "add_trigger": "RSI drops below 35 (oversold capitulation) + news of major partnership or significant cash raise announcement",
+      "risk": "Further deterioration to profitability, potential dilutive capital raise, debt refinancing crisis if market conditions tighten",
+      "outlook": "cautious",
+      "timeframe": "3-6 months for recovery signal or fundamental inflection point",
+      "generated_at": "2026-08-12T23:18:56.419122",
+      "price_at_generation": 54.61,
+      "pnl_at_generation": -20.95,
+      "archived_at": "2026-08-13T23:21:18.937379"
+    },
     {
       "ticker": "TEM",
       "company_name": "Tempus AI, Inc.",
@@ -117,23 +134,6 @@
       "price_at_generation": 47.05,
       "pnl_at_generation": -31.89,
       "archived_at": "2026-08-05T23:31:41.659997"
-    },
-    {
-      "ticker": "TEM",
-      "company_name": "Tempus AI, Inc.",
-      "action": "Hold",
-      "action_reason": "Philosophy mandates holding major losers (>15% down). However, this is a hard hold to justify given unprofitability and negative cash flow. Monitor for stabilization signals (RSI recovery above 50, earnings beat, or path to profitability announcement) before considering add-on.",
-      "target_price": null,
-      "target_reasoning": "",
-      "exit_trigger": "Exit if debt restructuring announced, dilutive financing occurs, or OCF deteriorates further in next earnings; OR if RSI breaks below 30 and closes below $40 on high volume (capitulation)",
-      "add_trigger": "Do NOT add. Only reconsider if: (1) company announces path to profitability, (2) RSI recovers to 60+ with bullish divergence, AND (3) broader market VIX drops below 13",
-      "risk": "Continued cash burn + high debt = potential dilution event or covenant breach. Biotech/AI upstarts with negative FCF are liquidation risks in downturns.",
-      "outlook": "cautious",
-      "timeframe": "3-6 weeks for stabilization signals; if none materialize by next earnings, reassess hold thesis",
-      "generated_at": "2026-08-03T23:40:35.839939",
-      "price_at_generation": 46.05,
-      "pnl_at_generation": -33.34,
-      "archived_at": "2026-08-04T23:35:36.441840"
     }
   ]
 }

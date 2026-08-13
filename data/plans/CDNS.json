@@ -3,19 +3,36 @@
     "ticker": "CDNS",
     "company_name": "Cadence Design Systems, Inc.",
     "action": "Hold",
-    "action_reason": "Position is only -4.41% (well above the -15% hard floor), fundamentals remain healthy, and RSI oversold conditions present natural bounce opportunity. Avoid adding without clear technical confirmation or news catalyst.",
-    "target_price": null,
+    "action_reason": "Position is only -4.22% and represents healthy fundamentals; swing trader philosophy prohibits exit until major loss threshold (>15%) is breached. RSI at 36.3 offers potential reversal setup if technicals fire.",
+    "target_price": 345,
     "target_reasoning": "",
-    "exit_trigger": "Only exit if fundamentals deteriorate materially OR position recovers to breakeven/slight profit with sell signal confirmation",
-    "add_trigger": "RSI bounces back above 45 with volume confirmation + positive sector news, OR 5-10% further decline with technical reversal pattern",
-    "risk": "Earnings volatility already priced in; main risk is sector rotation away from semiconductor design tools if broader chip cycle weakens",
-    "outlook": "neutral",
-    "timeframe": "3-6 weeks for technical recovery; monitor for post-earnings stabilization and sector momentum shifts",
-    "generated_at": "2026-08-12T23:19:11.845279",
-    "price_at_generation": 323.13,
-    "pnl_at_generation": -4.41
+    "exit_trigger": "Close below $315 (7.5% further loss) or break of structural support on volume; only exit if loss exceeds 15% OR price reclaims $345+ (trim 50% at 0.5% profit on recovery bounce)",
+    "add_trigger": "RSI drops to 25-30 (oversold confirmation) on high volume with 1-2% further pullback; add 0.5sh if sector momentum remains intact",
+    "risk": "Extended tech sector correction amid rate uncertainty; Fear sentiment could trigger VIX spike and forced selling. Earnings already priced in but no positive catalyst visible.",
+    "outlook": "cautious",
+    "timeframe": "2-4 weeks for recovery attempt or breakdown decision point",
+    "generated_at": "2026-08-13T23:21:28.093023",
+    "price_at_generation": 323.77,
+    "pnl_at_generation": -4.22
   },
   "history": [
+    {
+      "ticker": "CDNS",
+      "company_name": "Cadence Design Systems, Inc.",
+      "action": "Hold",
+      "action_reason": "Position is only -4.41% (well above the -15% hard floor), fundamentals remain healthy, and RSI oversold conditions present natural bounce opportunity. Avoid adding without clear technical confirmation or news catalyst.",
+      "target_price": null,
+      "target_reasoning": "",
+      "exit_trigger": "Only exit if fundamentals deteriorate materially OR position recovers to breakeven/slight profit with sell signal confirmation",
+      "add_trigger": "RSI bounces back above 45 with volume confirmation + positive sector news, OR 5-10% further decline with technical reversal pattern",
+      "risk": "Earnings volatility already priced in; main risk is sector rotation away from semiconductor design tools if broader chip cycle weakens",
+      "outlook": "neutral",
+      "timeframe": "3-6 weeks for technical recovery; monitor for post-earnings stabilization and sector momentum shifts",
+      "generated_at": "2026-08-12T23:19:11.845279",
+      "price_at_generation": 323.13,
+      "pnl_at_generation": -4.41,
+      "archived_at": "2026-08-13T23:21:28.093234"
+    },
     {
       "ticker": "CDNS",
       "company_name": "Cadence Design Systems, Inc.",
@@ -117,23 +134,6 @@
       "price_at_generation": 340.62,
       "pnl_at_generation": 0.77,
       "archived_at": "2026-08-05T23:31:54.291971"
-    },
-    {
-      "ticker": "CDNS",
-      "company_name": "Cadence Design Systems, Inc.",
-      "action": "Hold",
-      "action_reason": "Position is only -0.56% with healthy fundamentals and RSI in neutral zone (41.3). Post-earnings volatility typically resolves within 2-4 weeks. Insufficient downside to warrant exit per philosophy.",
-      "target_price": 350.0,
-      "target_reasoning": "",
-      "exit_trigger": "Break below $330 (2.4% further downside) or negative earnings surprise confirmation",
-      "add_trigger": "Pullback to $330-332 range with RSI <30 + positive news catalyst",
-      "risk": "Broader semiconductor sector rotation or macro headwind if VIX spikes above 20; geopolitical risk unquantified",
-      "outlook": "neutral",
-      "timeframe": "2-4 weeks (post-earnings consolidation resolution)",
-      "generated_at": "2026-08-03T23:40:48.478051",
-      "price_at_generation": 336.15,
-      "pnl_at_generation": -0.56,
-      "archived_at": "2026-08-04T23:35:48.497021"
     }
   ]
 }

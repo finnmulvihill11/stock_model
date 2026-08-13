@@ -5,21 +5,21 @@
     "direction": "hold",
     "tier": "Hold",
     "buy_score": 0.62,
-    "sell_score": 0.29,
+    "sell_score": 0.14,
     "reasons": [],
     "misses": [
       "MACD: no bullish crossover or valley",
       "RSI Divergence: no bullish divergence detected",
-      "Volume: below average (0.75x) \u2014 low conviction"
+      "Volume: below average (0.88x) \u2014 low conviction"
     ],
-    "price": 323.13,
-    "rsi": 35.8,
-    "atr": 12.8,
+    "price": 323.77,
+    "rsi": 36.3,
+    "atr": 12.63,
     "final_tier": "Hold",
     "sizing": {
-      "suggested_shares": 0,
-      "suggested_dollars": 0,
-      "note": "Price exceeds 60% conviction ceiling ($239) \u2014 skip or wait for Strong Buy"
+      "suggested_shares": 1,
+      "suggested_dollars": 323.77,
+      "note": "1 sh @ $323.77 = $324 (Hold, 60% size) | $1,602 swing budget after"
     }
   },
   "fundamentals": {
@@ -48,7 +48,7 @@
       ],
       "earnings_status": "past",
       "next_earnings_date": "2026-07-27",
-      "days_to_earnings": -16
+      "days_to_earnings": -17
     }
   },
   "news": {
@@ -56,35 +56,34 @@
     "sentiment": "neutral",
     "health": "healthy",
     "key_events": [
-      "Stock down 4.41% from entry despite healthy fundamentals",
-      "Earnings reported 16 days ago - market digesting results",
-      "RSI at 35.8 indicates oversold conditions but no technical firing signals",
-      "VIX at 14.6 suggests low volatility environment with complacency risk"
+      "Earnings reported 17 days ago",
+      "Post-earnings pullback in progress",
+      "VIX at 14.6 indicates market complacency with latent downside risk"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "No recent news catalysts visible - information vacuum",
-      "Fear & Greed Index showing Fear despite low VIX (divergence)",
-      "Position weight at 8.1% is concentrated for a swing trade",
-      "Post-earnings consolidation phase with unclear direction"
+      "RSI 36.3 approaching oversold but not yet triggered",
+      "No technical firing signals despite 4.2% drawdown",
+      "Market sentiment Fear vs. low volatility suggests potential capitulation risk",
+      "No recent news catalyst to support recovery narrative"
     ],
-    "verdict": "CDNS is fundamentally sound but technically weak; oversold RSI offers potential bounce, but lack of conviction signals warrants patience over action.",
+    "verdict": "CDNS is healthy fundamentally but caught in post-earnings reversion with light technicals; hold through pullback per position philosophy.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "CDNS",
-    "stock_return_3m": -9.75,
-    "benchmark_return_3m": 4.92,
-    "relative_strength": -14.67,
+    "stock_return_3m": -8.68,
+    "benchmark_return_3m": 5.06,
+    "relative_strength": -13.74,
     "label": "underperforming"
   },
   "final_tier": "Hold",
   "sizing": {
-    "suggested_shares": 0,
-    "suggested_dollars": 0,
-    "note": "Price exceeds 60% conviction ceiling ($239) \u2014 skip or wait for Strong Buy"
+    "suggested_shares": 1,
+    "suggested_dollars": 323.77,
+    "note": "1 sh @ $323.77 = $324 (Hold, 60% size) | $1,602 swing budget after"
   },
   "is_dca": false,
-  "saved_at": "2026-08-12T23:19:11.846092"
+  "saved_at": "2026-08-13T23:21:28.093860"
 }

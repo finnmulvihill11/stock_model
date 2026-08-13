@@ -1,0 +1,19 @@
+{
+  "current": {
+    "ticker": "D",
+    "company_name": "Dominion Energy, Inc.",
+    "action": "Start Trimming",
+    "action_reason": "Position is modestly profitable (+0.38%) in a low-volatility environment where risk/reward is unfavorable. Given D's high debt burden and lack of technical conviction (RSI neutral, no firing signals), take this small win before mean reversion or volatility spike erodes gains.",
+    "target_price": null,
+    "target_reasoning": "",
+    "exit_trigger": "Exit 50% on close above $69.50 with volume; exit remaining tranche if RSI breaks below 40 or VIX spikes >18 (risk-off event)",
+    "add_trigger": "Do not add; this is a trim candidate, not an accumulation opportunity",
+    "risk": "Utility dividend cut risk from debt refinancing; mean reversion if rate expectations shift; portfolio weight at 2.0% limits downside but caps upside",
+    "outlook": "cautious",
+    "timeframe": "1-3 weeks",
+    "generated_at": "2026-08-13T23:22:02.334409",
+    "price_at_generation": 68.54,
+    "pnl_at_generation": 0.38
+  },
+  "history": []
+}
