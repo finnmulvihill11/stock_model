@@ -49,6 +49,9 @@ portfolio:
   - ticker: MNST
     shares: 1.0
     avg_cost: 45.33
+  - ticker: D
+    shares: 1.0
+    avg_cost: 68.28
   dca_tickers:
   - GRNI
   - VOO
