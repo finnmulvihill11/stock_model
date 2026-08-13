@@ -358,6 +358,18 @@
       "amount": 87.52,
       "type": "swing",
       "action": "buy"
+    },
+    {
+      "date": "2026-08-13",
+      "ticker": "ABT",
+      "shares": 2,
+      "amount": -222.74,
+      "type": "swing",
+      "action": "sell",
+      "sell_price": 111.37,
+      "avg_cost": 109.77,
+      "realized_pnl": 3.2,
+      "realized_pnl_pct": 1.46
     }
   ]
 }
