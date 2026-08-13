@@ -398,6 +398,18 @@
       "avg_cost": 111.75,
       "realized_pnl": 3.56,
       "realized_pnl_pct": 3.19
+    },
+    {
+      "date": "2026-08-13",
+      "ticker": "MSFT",
+      "shares": 1,
+      "amount": -494.6,
+      "type": "swing",
+      "action": "sell",
+      "sell_price": 494.6,
+      "avg_cost": 467.18,
+      "realized_pnl": 27.42,
+      "realized_pnl_pct": 5.87
     }
   ]
 }
