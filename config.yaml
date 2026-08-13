@@ -11,6 +11,7 @@ portfolio:
   - GNRC
   - KLAC
   - ABT
+  - WMT
   holdings:
   - ticker: INTU
     shares: 3
@@ -34,9 +35,6 @@ portfolio:
     shares: 4
     avg_cost: 21.16
     dca: true
-  - ticker: WMT
-    shares: 1
-    avg_cost: 111.75
   - ticker: CDNS
     shares: 1.0
     avg_cost: 338.03
