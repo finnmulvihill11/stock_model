@@ -37,8 +37,8 @@ portfolio:
     shares: 1.0
     avg_cost: 338.03
   - ticker: MGM
-    shares: 3.0
-    avg_cost: 43.98
+    shares: 5.0
+    avg_cost: 44.04
   - ticker: CNP
     shares: 7.0
     avg_cost: 40.17
