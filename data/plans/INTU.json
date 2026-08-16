@@ -3,19 +3,36 @@
     "ticker": "INTU",
     "company_name": "Intuit Inc.",
     "action": "Hold",
-    "action_reason": "Position is down 23.49%, triggering the philosophical rule against exiting major losers. Upcoming earnings (12d) provides a defined catalyst window for potential mean-reversion recovery.",
-    "target_price": 425,
+    "action_reason": "Down 26.19% exceeds the 15% threshold\u2014philosophy mandates holding. Earnings in 9 days will likely resolve uncertainty; fundamentals are healthy, supporting recovery potential post-earnings.",
+    "target_price": null,
     "target_reasoning": "",
-    "exit_trigger": "Break below $340 (technical support) OR post-earnings collapse below $330 with deteriorating fundamentals",
-    "add_trigger": "Only add if fundamentals deteriorate sharply AND RSI falls to <35, signaling capitulation\u2014otherwise preserve capital",
-    "risk": "Earnings miss or guidance reduction could accelerate losses; low VIX may spike post-announcement, creating volatility shock",
+    "exit_trigger": "Earnings miss with guidance cut + close below $330 (major support breach); OR position recovers to breakeven\u2014exit at $468+",
+    "add_trigger": "Only if post-earnings rally confirms bullish reversal; do NOT add into weakness before earnings",
+    "risk": "Earnings miss could trigger further downside; 29.4% portfolio weight means losses disproportionately impact total P&L. VIX complacency suggests sharp moves possible post-earnings.",
     "outlook": "cautious",
-    "timeframe": "2-3 weeks (through earnings + 1 week post-announcement)",
-    "generated_at": "2026-08-13T23:21:10.851027",
-    "price_at_generation": 358.29,
-    "pnl_at_generation": -23.49
+    "timeframe": "9 days to earnings, then 2-4 weeks post-earnings for recovery trajectory",
+    "generated_at": "2026-08-16T22:49:37.112832",
+    "price_at_generation": 345.66,
+    "pnl_at_generation": -26.19
   },
   "history": [
+    {
+      "ticker": "INTU",
+      "company_name": "Intuit Inc.",
+      "action": "Hold",
+      "action_reason": "Position is down 23.49%, triggering the philosophical rule against exiting major losers. Upcoming earnings (12d) provides a defined catalyst window for potential mean-reversion recovery.",
+      "target_price": 425,
+      "target_reasoning": "",
+      "exit_trigger": "Break below $340 (technical support) OR post-earnings collapse below $330 with deteriorating fundamentals",
+      "add_trigger": "Only add if fundamentals deteriorate sharply AND RSI falls to <35, signaling capitulation\u2014otherwise preserve capital",
+      "risk": "Earnings miss or guidance reduction could accelerate losses; low VIX may spike post-announcement, creating volatility shock",
+      "outlook": "cautious",
+      "timeframe": "2-3 weeks (through earnings + 1 week post-announcement)",
+      "generated_at": "2026-08-13T23:21:10.851027",
+      "price_at_generation": 358.29,
+      "pnl_at_generation": -23.49,
+      "archived_at": "2026-08-16T22:49:37.113067"
+    },
     {
       "ticker": "INTU",
       "company_name": "Intuit Inc.",
@@ -117,23 +134,6 @@
       "price_at_generation": 327.94,
       "pnl_at_generation": -29.97,
       "archived_at": "2026-08-07T01:37:29.228463"
-    },
-    {
-      "ticker": "INTU",
-      "company_name": "Intuit Inc.",
-      "action": "Hold",
-      "action_reason": "Your philosophy prohibits exits on 30%+ losers. Fundamentals remain healthy, RSI shows no exhaustion signals, and upcoming earnings (21d) provide a near-term catalyst. Extreme Fear suggests potential mean reversion opportunity.",
-      "target_price": 385,
-      "target_reasoning": "",
-      "exit_trigger": "Fundamentals deteriorate post-earnings OR price breaks below $300 on volume with negative earnings guidance",
-      "add_trigger": "Price falls to $290-300 range on weakness IF fundamentals remain intact post-earnings",
-      "risk": "Further downside if earnings miss expectations or FY guidance is reduced; concentrated 21.6% weight amplifies losses",
-      "outlook": "cautious",
-      "timeframe": "2-6 weeks (through earnings + post-earnings consolidation)",
-      "generated_at": "2026-08-04T23:35:15.484120",
-      "price_at_generation": 323.6,
-      "pnl_at_generation": -30.9,
-      "archived_at": "2026-08-05T23:31:20.063326"
     }
   ]
 }

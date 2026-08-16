@@ -8,20 +8,20 @@
     "sell_score": 0.0,
     "reasons": [],
     "misses": [
-      "BB: price not near lower band (pct=0.36)",
+      "BB: price not near lower band (pct=0.40)",
       "BB Width: bands expanding, not squeezing",
-      "RSI: not in buy zone (47.7, need 20-40)",
+      "RSI: not in buy zone (49.5, need 20-40)",
       "RSI Divergence: no bullish divergence detected",
-      "Volume: below average (0.77x) \u2014 low conviction"
+      "Volume: below average (0.55x) \u2014 low conviction"
     ],
-    "price": 68.54,
-    "rsi": 47.7,
-    "atr": 1.37,
+    "price": 68.77,
+    "rsi": 49.5,
+    "atr": 1.32,
     "final_tier": "Hold",
     "sizing": {
-      "suggested_shares": 5,
-      "suggested_dollars": 342.7,
-      "note": "5 sh @ $68.54 = $343 (Hold, 60% size) | $1,583 swing budget after"
+      "suggested_shares": 4,
+      "suggested_dollars": 275.08,
+      "note": "4 sh @ $68.77 = $275 (Hold, 60% size) | $1,562 swing budget after"
     }
   },
   "fundamentals": {
@@ -51,7 +51,7 @@
       ],
       "earnings_status": "past",
       "next_earnings_date": "2026-07-31",
-      "days_to_earnings": -13
+      "days_to_earnings": -16
     }
   },
   "news": {
@@ -59,35 +59,34 @@
     "sentiment": "neutral",
     "health": "neutral",
     "key_events": [
-      "Earnings reported 13 days ago",
-      "VIX at 14.6 indicating market complacency",
-      "No recent news catalysts identified"
+      "Earnings reported 16 days ago",
+      "Low volatility environment (VIX 14.2) suggests complacency",
+      "Fear gauge indicator present despite low VIX"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
       "High debt-to-equity ratio (1.6x) limits financial flexibility",
-      "RSI at 47.7 shows no directional momentum",
-      "Fear gauge vs. low VIX suggests sentiment disconnect",
-      "Minimal position gain (+0.38%) offers limited profit cushion",
-      "Post-earnings period typically shows volatility settling"
+      "RSI at 49.5 shows no directional momentum",
+      "No technical firing signals detected",
+      "Disconnect: Fear sentiment despite low VIX suggests underlying concern"
     ],
-    "verdict": "Utility holding in neutral setup with elevated leverage; profitable but lacks momentum for swing trade continuation.",
+    "verdict": "Small profitable position in utility with neutral technicals and elevated leverage; hold for swing trade confirmation or trim into strength.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "D",
-    "stock_return_3m": 10.37,
-    "benchmark_return_3m": 5.06,
-    "relative_strength": 5.31,
+    "stock_return_3m": 10.39,
+    "benchmark_return_3m": 4.03,
+    "relative_strength": 6.36,
     "label": "outperforming"
   },
   "final_tier": "Hold",
   "sizing": {
-    "suggested_shares": 5,
-    "suggested_dollars": 342.7,
-    "note": "5 sh @ $68.54 = $343 (Hold, 60% size) | $1,583 swing budget after"
+    "suggested_shares": 4,
+    "suggested_dollars": 275.08,
+    "note": "4 sh @ $68.77 = $275 (Hold, 60% size) | $1,562 swing budget after"
   },
   "is_dca": false,
-  "saved_at": "2026-08-13T23:22:02.334988"
+  "saved_at": "2026-08-16T22:50:19.419108"
 }

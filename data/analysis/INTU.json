@@ -2,24 +2,22 @@
   "ticker": "INTU",
   "signal": {
     "ticker": "INTU",
-    "direction": "sell",
-    "tier": "Sell",
-    "buy_score": 0.38,
-    "sell_score": 0.71,
-    "reasons": [
-      "BB: price near upper band (pct=1.03)",
-      "BB Width: squeeze/contraction after expansion",
-      "RSI: overbought zone (72.0)",
-      "Death cross: 50MA (292.15) below 200MA (448.88)",
-      "Volume: above average on sell (1.23x) \u2014 confirms distribution"
-    ],
+    "direction": "hold",
+    "tier": "Hold",
+    "buy_score": 0.25,
+    "sell_score": 0.57,
+    "reasons": [],
     "misses": [
-      "MACD: no bearish crossover or peak",
-      "RSI Divergence: no bearish divergence detected"
+      "BB: price not near lower band (pct=0.84)",
+      "RSI: not in buy zone (64.0, need 20-40)",
+      "MACD: no bullish crossover or valley",
+      "RSI Divergence: no bullish divergence detected",
+      "200MA: price below 200MA \u2014 potential falling knife",
+      "Volume: below average (0.88x) \u2014 low conviction"
     ],
-    "price": 358.29,
-    "rsi": 72.0,
-    "atr": 15.32,
+    "price": 345.66,
+    "rsi": 64.0,
+    "atr": 15.55,
     "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 0,
@@ -42,7 +40,7 @@
   },
   "earnings": {
     "proceed": false,
-    "reason": "Earnings in 12 days \u2014 wait for results before acting",
+    "reason": "Earnings in 9 days \u2014 wait for results before acting",
     "verdict": {
       "ticker": "INTU",
       "verdict": "consider",
@@ -53,7 +51,7 @@
       ],
       "earnings_status": "imminent",
       "next_earnings_date": "2026-08-25",
-      "days_to_earnings": 12
+      "days_to_earnings": 9
     }
   },
   "news": {
@@ -61,26 +59,26 @@
     "sentiment": "neutral",
     "health": "healthy",
     "key_events": [
-      "Earnings announcement in 12 days",
-      "Low VIX environment (14.6) suggests complacency",
-      "Technical setup showing overbought conditions at upper Bollinger Band"
+      "Earnings report in 9 days",
+      "VIX at 14.2 indicating low volatility/market complacency",
+      "Fear & Greed Index showing Fear phase"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "Position down 23.49% from entry\u2014well below swing trade risk tolerance",
-      "RSI 72.0 indicates overbought, typical of local tops",
-      "BB squeeze after expansion suggests volatility contraction before breakout/breakdown",
-      "30.9% portfolio weight on a struggling position creates concentration risk"
+      "Position down 26.19% from entry",
+      "High portfolio weight at 29.4% amplifies risk",
+      "Earnings catalyst imminent\u2014high volatility risk",
+      "Disconnect: healthy fundamentals vs. sharp drawdown suggests market repricing"
     ],
-    "verdict": "Hold position per philosophy; earnings catalyst in 12d could provide recovery catalyst, but prepare for potential washout before rebound.",
+    "verdict": "Hold position through earnings; fundamentals remain intact but imminent catalyst and elevated portfolio concentration warrant defensive positioning.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "INTU",
-    "stock_return_3m": -3.18,
-    "benchmark_return_3m": 5.06,
-    "relative_strength": -8.25,
+    "stock_return_3m": -8.22,
+    "benchmark_return_3m": 4.03,
+    "relative_strength": -12.25,
     "label": "underperforming"
   },
   "final_tier": "Hold",
@@ -90,5 +88,5 @@
     "note": "Position already at 20% portfolio cap"
   },
   "is_dca": false,
-  "saved_at": "2026-08-13T23:21:10.851940"
+  "saved_at": "2026-08-16T22:49:37.113748"
 }

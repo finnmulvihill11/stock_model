@@ -8,19 +8,19 @@
     "sell_score": 0.0,
     "reasons": [],
     "misses": [
-      "BB: price not near lower band (pct=0.22)",
+      "BB: price not near lower band (pct=0.30)",
       "BB Width: bands expanding, not squeezing",
       "RSI Divergence: no bullish divergence detected",
       "Volume: below average (0.47x) \u2014 low conviction"
     ],
-    "price": 40.48,
-    "rsi": 35.0,
-    "atr": 1.06,
+    "price": 40.83,
+    "rsi": 38.9,
+    "atr": 1.03,
     "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 8,
-      "suggested_dollars": 323.84,
-      "note": "8 sh @ $40.48 = $324 (Hold, 60% size) | $1,602 swing budget after"
+      "suggested_dollars": 326.64,
+      "note": "8 sh @ $40.83 = $327 (Hold, 60% size) | $1,511 swing budget after"
     }
   },
   "fundamentals": {
@@ -50,7 +50,7 @@
       ],
       "earnings_status": "past",
       "next_earnings_date": "2026-07-28",
-      "days_to_earnings": -16
+      "days_to_earnings": -19
     }
   },
   "news": {
@@ -58,35 +58,35 @@
     "sentiment": "neutral",
     "health": "neutral",
     "key_events": [
-      "Earnings reported 16 days ago",
-      "RSI at 35 indicates oversold conditions",
-      "Low VIX environment suggests reduced volatility expectations",
-      "High debt-to-equity ratio (2.1x) remains structural concern"
+      "Earnings reported 19 days ago",
+      "Low volatility environment (VIX 14.2)",
+      "Sentiment shift to Fear despite low VIX"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "No active firing signals on technicals",
-      "Elevated leverage limits upside flexibility",
-      "Position weight at 8.2% creates concentration risk",
-      "Fear sentiment in broader market despite low VIX"
+      "High debt-to-equity ratio (2.1x) limits financial flexibility",
+      "RSI at 38.9 suggests weakness but not oversold",
+      "No technical firing signals despite modest gains",
+      "Fear sentiment contradicts low volatility environment",
+      "Utility sector vulnerable to rate hike expectations"
     ],
-    "verdict": "Utility stock holding steady post-earnings in low-volatility environment; RSI oversold suggests consolidation phase rather than breakdown.",
+    "verdict": "Position is marginally profitable with mixed signals; CNP's high leverage and post-earnings period present headwinds despite small gains.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "CNP",
-    "stock_return_3m": -3.71,
-    "benchmark_return_3m": 5.06,
-    "relative_strength": -8.77,
+    "stock_return_3m": -3.49,
+    "benchmark_return_3m": 4.03,
+    "relative_strength": -7.53,
     "label": "underperforming"
   },
   "final_tier": "Hold",
   "sizing": {
     "suggested_shares": 8,
-    "suggested_dollars": 323.84,
-    "note": "8 sh @ $40.48 = $324 (Hold, 60% size) | $1,602 swing budget after"
+    "suggested_dollars": 326.64,
+    "note": "8 sh @ $40.83 = $327 (Hold, 60% size) | $1,511 swing budget after"
   },
   "is_dca": false,
-  "saved_at": "2026-08-13T23:21:43.781996"
+  "saved_at": "2026-08-16T22:50:07.350755"
 }
