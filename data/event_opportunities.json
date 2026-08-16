@@ -1,4 +1,173 @@
 {
-  "saved_at": "2026-08-09T22:21:32.841501",
-  "events": []
+  "saved_at": "2026-08-16T22:13:11.221141",
+  "events": [
+    {
+      "event_title": "US-China Tariff Escalation & Trade War Reignition",
+      "event_description": "The Trump administration has reimposed sweeping tariffs on Chinese goods (up to 145%), with China retaliating with 125% tariffs on US exports. This is actively reshaping supply chains, hitting importers with China exposure, and forcing nearshoring decisions. Earnings guidance cuts are imminent for Q2 reporting season.",
+      "direction": "bearish",
+      "rationale": "YETI sources significantly from China and faces direct margin compression. ELF Beauty has heavy China manufacturing exposure and already warned on costs. BIRD (Allbirds) is a small-cap with China sourcing vulnerable to sentiment and cost shocks. FTCH and DXPE represent mid-cap names with either China revenue or supply-chain dependencies that will see guidance risk into Q2 earnings.",
+      "timeframe": "2-8 weeks",
+      "event_confidence": "high",
+      "tickers": [
+        {
+          "ticker": "YETI",
+          "company_name": "YETI Holdings, Inc.",
+          "sector": "Consumer Cyclical",
+          "in_standard_universe": false,
+          "signal_tier": "Hold",
+          "price": 44.56,
+          "rsi": 32.6,
+          "buy_score": 0.62,
+          "sell_score": 0.14,
+          "entry_trigger": "Break below $43.50 with volume spike on tariff escalation headlines, or gap down at open following Q2 guidance miss; RSI below 30 confirms oversold entry",
+          "target_price": 38.5,
+          "exit_condition": "Close above $46.50 on relief rally, Trump tariff pause announcement, or if YETI provides reassuring Q2 guidance (margins held >50%); hard stop at $47.00",
+          "risk": "Tariff pass-through to consumers absorbs margin hit faster than expected; activist investor/buyout speculation lifts stock; China supply chain adapts quicker than modeled; Fed rate cuts spark risk-on rotation before earnings",
+          "event_conviction": "medium"
+        },
+        {
+          "ticker": "BIRD",
+          "company_name": "Smartbird, Inc",
+          "sector": "Technology",
+          "in_standard_universe": false,
+          "signal_tier": "Hold",
+          "price": 2.55,
+          "rsi": 41.2,
+          "buy_score": 0.12,
+          "sell_score": 0.43,
+          "entry_trigger": "Break below $2.40 on volume >2M shares, or bearish close below 200-day MA with RSI confirmation below 35",
+          "target_price": 1.85,
+          "exit_condition": "Close above $2.75 on reversal, or tariff deal announcement/rollback, or if stock holds above $2.55 for 3+ weeks without further deterioration",
+          "risk": "Small-cap liquidity risk; tariff narrative reversal if negotiations restart; BIRD's low price attracts short-squeeze volatility; limited downside room at $2.55 already reflects weakness",
+          "event_conviction": "medium"
+        }
+      ]
+    },
+    {
+      "event_title": "Nearshoring & Mexico/India Manufacturing Boom",
+      "event_description": "As US companies accelerate exit from Chinese manufacturing, Mexico (via USMCA) and India are the primary beneficiaries. Industrial real estate, logistics, and Mexican border infrastructure are seeing surging demand. This is a multi-quarter theme with near-term stock catalysts as earnings call commentary confirms capex shifts.",
+      "direction": "bullish",
+      "rationale": "ROAD (Construction Partners) builds industrial and logistics infrastructure in the US Sun Belt benefiting from nearshoring capex. TFIN (Triumph Financial) serves trucking and cross-border freight payments \u2014 volumes rise as Mexico trade grows. ATEX (Anterix) provides private broadband to utilities and industrial sites being built out. Smaller construction and logistics plays have more direct earnings torque than mega-caps like Caterpillar.",
+      "timeframe": "4-12 weeks",
+      "event_confidence": "medium",
+      "tickers": [
+        {
+          "ticker": "TFIN",
+          "company_name": "Triumph Financial, Inc.",
+          "sector": "Financial Services",
+          "in_standard_universe": false,
+          "signal_tier": "Hold",
+          "price": 78.22,
+          "rsi": 54.2,
+          "buy_score": 0.5,
+          "sell_score": 0.14,
+          "entry_trigger": "Break above $80.50 on volume >500k shares with positive earnings guidance mentioning Mexico/cross-border freight growth, or gap up on nearshoring capex commentary",
+          "target_price": 92.5,
+          "exit_condition": "Close below $75 on higher volume, or if Mexico trade policy reverses (tariffs/USMCA renegotiation), or if Q earnings miss cross-border volumes expectations after 8 weeks",
+          "risk": "TFIN is smaller-cap fintech infrastructure play with execution risk; nearshoring thesis takes longer to translate to measurable freight payment volumes; policy uncertainty around Mexico relations; competitor scale advantages; macro slowdown reduces capex spend",
+          "event_conviction": "medium"
+        },
+        {
+          "ticker": "ATEX",
+          "company_name": "Anterix Inc.",
+          "sector": "Communication Services",
+          "in_standard_universe": false,
+          "signal_tier": "Hold",
+          "price": 91.53,
+          "rsi": 47.3,
+          "buy_score": 0.62,
+          "sell_score": 0.29,
+          "entry_trigger": "Break above $95.50 on volume >500K shares with positive earnings commentary on industrial/utility capex expansion; or pullback to $87-89 if RSI drops to 35-40 during market consolidation",
+          "target_price": 108,
+          "exit_condition": "Take 50% profits at $103-105; trail stop at $94 for remainder. Exit full position if ATEX earnings miss on industrial customer capex guidance or if nearshoring thesis stalls (evidenced by Mexico trade data or US-Mexico policy reversal)",
+          "risk": "ATEX is speculative micro-cap ($1.8B market cap) with execution risk; private broadband adoption slower than expected; Mexico political/tariff uncertainty; thesis dependent on multi-quarter capex cycle that could defer or contract; crowded nearshoring trade may already price in gains",
+          "event_conviction": "medium"
+        }
+      ]
+    },
+    {
+      "event_title": "AI Data Center Power Crisis & Grid Infrastructure Buildout",
+      "event_description": "Hyperscaler AI capex (Microsoft, Google, Meta collectively committing $300B+ in 2025) is creating a genuine electricity shortage. Grid interconnection queues are multi-year long. Utilities, nuclear operators, and power equipment makers face a hard demand surge with specific contract announcements acting as near-term catalysts.",
+      "direction": "bullish",
+      "rationale": "VST (Vistra Energy) is a deregulated power generator with direct data center PPAs \u2014 less followed than utilities. POWL (Powell Industries) makes switchgear and power distribution equipment seeing record backlogs; small-cap with massive earnings torque. NNE (Nano Nuclear Energy) is a speculative small-cap on SMR hype with binary catalyst risk. GEV (GE Vernova) is the mid-cap turbine/grid pure-play spun out recently. These are second-order picks versus obvious plays like Nvidia.",
+      "timeframe": "4-16 weeks",
+      "event_confidence": "high",
+      "tickers": [
+        {
+          "ticker": "VST",
+          "company_name": "Vistra Corp.",
+          "sector": "Utilities",
+          "in_standard_universe": false,
+          "signal_tier": "Hold",
+          "price": 148.13,
+          "rsi": 47.6,
+          "buy_score": 0.12,
+          "sell_score": 0.14,
+          "entry_trigger": "Break above $152 on volume >2M shares with positive earnings guidance tied to datacenter PPA announcements, or pullback to $140-142 support on sector strength",
+          "target_price": 175,
+          "exit_condition": "Close below $138 on volume; or if major datacenter capex disappoints in earnings; or 16-week timeframe expires without PPA contract catalyst materialization",
+          "risk": "Regulatory risk on deregulated power markets; grid interconnection delays push PPA timelines beyond 16 weeks; broader market correction crushes speculative energy plays; competition from traditional utilities and renewable PPAs erodes VST's pricing power",
+          "event_conviction": "medium"
+        },
+        {
+          "ticker": "CSWC",
+          "company_name": "Capital Southwest Corporation",
+          "sector": "Financial Services",
+          "in_standard_universe": false,
+          "signal_tier": "Hold",
+          "price": 24.88,
+          "rsi": 64.6,
+          "buy_score": 0.25,
+          "sell_score": 0.14,
+          "entry_trigger": "CSWC announcement of new data center infrastructure financing deal or utility/power sector loan origination; alternatively, break above $26.50 resistance with volume confirmation",
+          "target_price": 28.5,
+          "exit_condition": "Stop loss at $23.80 (RSI mean reversion + technical support); take partial profits at $27.00; exit full position if AI capex cycle delays materialize or if competitive BDC lending spreads compress",
+          "risk": "CSWC is a BDC with portfolio concentration risk\u2014lacks direct exposure to power/grid hardware. Thesis relies on indirect benefit through infrastructure lending to utilities/power operators, which is slower to monetize than direct equipment/generation plays. Rising rates also pressure BDC valuations; energy transition capex delays would crater thesis.",
+          "event_conviction": "low"
+        },
+        {
+          "ticker": "GEV",
+          "company_name": "GE Vernova Inc.",
+          "sector": "Industrials",
+          "in_standard_universe": false,
+          "signal_tier": "Hold",
+          "price": 1063.25,
+          "rsi": 56.6,
+          "buy_score": 0.38,
+          "sell_score": 0.29,
+          "entry_trigger": "Break above $1,075 on volume >2M shares with positive earnings/contract announcement, or pullback to $1,045-$1,050 RSI support during broader grid infrastructure news cycle",
+          "target_price": 1280,
+          "exit_condition": "Take 50% at $1,180 | Full exit on close below $1,040 or if major hyperscaler capex guidance disappoints; also exit if timeframe extends beyond 16 weeks without material contract wins",
+          "risk": "GEV is newly public (liquidity/float risk); execution risk on delivery timelines; regulatory/permitting delays on grid interconnection could push demand further out; valuation already reflects some bull case at current levels; competition from Siemens Gamesa and domestic Chinese turbine makers",
+          "event_conviction": "medium"
+        }
+      ]
+    },
+    {
+      "event_title": "Federal Reserve Rate Cut Timeline Reset & Regional Bank Stress",
+      "event_description": "Sticky inflation data (CPI running above 3%) combined with tariff-driven price pressures has pushed Fed rate cut expectations from early 2025 to late 2025 or 2026. This directly pressures regional banks holding unrealized bond losses, strains commercial real estate refinancing, and hits rate-sensitive small caps. FOMC meetings in coming months are hard catalysts.",
+      "direction": "bearish",
+      "rationale": "NYCB remains structurally vulnerable with CRE exposure and has been a flashpoint for regional bank stress. COLB (Columbia Banking) and FFWM (First Foundation) have significant CRE loan books that need refinancing in a higher-for-longer environment. OFG Bancorp and WSFS are mid-size regionals where NIM compression and loan loss provisions will hit earnings. These are direct rate-sensitivity plays without the diversification buffer of money-center banks.",
+      "timeframe": "3-10 weeks",
+      "event_confidence": "medium",
+      "tickers": [
+        {
+          "ticker": "COLB",
+          "company_name": "Columbia Banking System, Inc.",
+          "sector": "Financial Services",
+          "in_standard_universe": false,
+          "signal_tier": "Hold",
+          "price": 32.69,
+          "rsi": 60.4,
+          "buy_score": 0.25,
+          "sell_score": 0.0,
+          "entry_trigger": "COLB closes below $31.50 on FOMC hawkish guidance or CPI print >3.2%; confirm with volume >2M shares",
+          "target_price": 28.5,
+          "exit_condition": "Fed signals rate cuts incoming OR COLB closes above $34.20 on 2+ consecutive days OR positions breach -8% loss",
+          "risk": "Surprise Fed dovish pivot, stronger-than-expected Q4 earnings, CRE forbearance extensions, or short-covering rally if regional bank stress narrative inverts",
+          "event_conviction": "medium"
+        }
+      ]
+    }
+  ]
 }

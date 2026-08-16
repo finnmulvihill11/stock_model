@@ -1,204 +1,79 @@
 {
-  "generated_at": "2026-08-09T22:20:05.835114",
-  "count": 8,
+  "generated_at": "2026-08-16T22:11:43.625965",
+  "count": 3,
   "results": [
     {
-      "ticker": "MNST",
+      "ticker": "HRL",
       "direction": "buy",
       "tier": "Buy",
       "buy_score": 0.75,
       "sell_score": 0.29,
       "reasons": [
-        "BB: price near lower band (pct=-0.10)",
-        "BB Width: squeeze active (width=0.0926)",
-        "RSI: oversold zone (37.0)",
-        "200MA: price at/above 200MA (90.36 vs 81.19)",
-        "Golden cross: 50MA (94.08) above 200MA (81.19)",
-        "Volume: above average (1.44x)"
+        "BB: price near lower band (pct=0.18)",
+        "BB Width: squeeze active (width=0.0759)",
+        "MACD: histogram at valley / turning up",
+        "200MA: price at/above 200MA (24.54 vs 22.85)",
+        "Golden cross: 50MA (24.64) above 200MA (22.85)",
+        "Volume: above average (1.04x)"
       ],
       "misses": [
-        "MACD: no bullish crossover or valley",
+        "RSI: not in buy zone (45.9, need 20-40)",
         "RSI Divergence: no bullish divergence detected"
       ],
-      "price": 90.36,
-      "rsi": 37.0,
-      "atr": 2.42,
-      "relative_strength": 12.97,
+      "price": 24.54,
+      "rsi": 45.9,
+      "atr": 0.56,
+      "relative_strength": 19.03,
       "rs_label": "outperforming",
       "previously_owned": false
     },
     {
-      "ticker": "MGM",
+      "ticker": "CB",
       "direction": "buy",
       "tier": "Buy",
       "buy_score": 0.75,
       "sell_score": 0.29,
       "reasons": [
         "BB: price near lower band (pct=0.14)",
-        "BB Width: squeeze active (width=0.0764)",
+        "BB Width: squeeze active (width=0.0653)",
         "MACD: histogram at valley / turning up",
-        "200MA: price at/above 200MA (44.47 vs 38.53)",
-        "Golden cross: 50MA (46.68) above 200MA (38.53)",
-        "Volume: above average (1.09x)"
+        "200MA: price at/above 200MA (343.64 vs 320.65)",
+        "Golden cross: 50MA (342.71) above 200MA (320.65)",
+        "Volume: above average (1.36x)"
       ],
       "misses": [
-        "RSI: not in buy zone (41.6, need 20-40)",
+        "RSI: not in buy zone (44.8, need 20-40)",
         "RSI Divergence: no bullish divergence detected"
       ],
-      "price": 44.47,
-      "rsi": 41.6,
-      "atr": 1.06,
-      "relative_strength": 10.72,
+      "price": 343.64,
+      "rsi": 44.8,
+      "atr": 6.1,
+      "relative_strength": 5.05,
       "rs_label": "outperforming",
       "previously_owned": false
     },
     {
-      "ticker": "D",
-      "direction": "buy",
-      "tier": "Buy",
-      "buy_score": 0.75,
-      "sell_score": 0.43,
-      "reasons": [
-        "BB: price near lower band (pct=0.02)",
-        "BB Width: squeeze active (width=0.0782)",
-        "RSI: oversold zone (39.2)",
-        "200MA: price at/above 200MA (67.39 vs 62.59)",
-        "Golden cross: 50MA (68.77) above 200MA (62.59)",
-        "Volume: above average (1.29x)"
-      ],
-      "misses": [
-        "MACD: no bullish crossover or valley",
-        "RSI Divergence: no bullish divergence detected"
-      ],
-      "price": 67.39,
-      "rsi": 39.2,
-      "atr": 1.46,
-      "relative_strength": 4.51,
-      "rs_label": "in-line",
-      "previously_owned": false
-    },
-    {
-      "ticker": "EIX",
-      "direction": "buy",
-      "tier": "Buy",
-      "buy_score": 0.75,
-      "sell_score": 0.14,
-      "reasons": [
-        "BB: price near lower band (pct=0.08)",
-        "RSI: oversold zone (33.3)",
-        "MACD: histogram at valley / turning up",
-        "200MA: price at/above 200MA (68.62 vs 66.05)",
-        "Golden cross: 50MA (73.59) above 200MA (66.05)",
-        "Volume: above average (1.11x)"
-      ],
-      "misses": [
-        "BB Width: bands expanding, not squeezing",
-        "RSI Divergence: no bullish divergence detected"
-      ],
-      "price": 68.62,
-      "rsi": 33.3,
-      "atr": 2.59,
-      "relative_strength": -4.71,
-      "rs_label": "in-line",
-      "previously_owned": false
-    },
-    {
-      "ticker": "CMS",
-      "direction": "buy",
-      "tier": "Buy",
-      "buy_score": 0.75,
-      "sell_score": 0.29,
-      "reasons": [
-        "BB: price near lower band (pct=0.19)",
-        "BB Width: squeeze active (width=0.0752)",
-        "RSI: oversold zone (38.1)",
-        "MACD: histogram at valley / turning up",
-        "200MA: price at/above 200MA (71.03 vs 72.76)",
-        "Golden cross: 50MA (73.29) above 200MA (72.76)"
-      ],
-      "misses": [
-        "RSI Divergence: no bullish divergence detected",
-        "Volume: below average (0.96x) \u2014 low conviction"
-      ],
-      "price": 71.03,
-      "rsi": 38.1,
-      "atr": 1.5,
-      "relative_strength": -8.4,
-      "rs_label": "underperforming",
-      "previously_owned": false
-    },
-    {
-      "ticker": "CNP",
-      "direction": "buy",
-      "tier": "Buy",
-      "buy_score": 0.75,
-      "sell_score": 0.14,
-      "reasons": [
-        "BB: price near lower band (pct=0.07)",
-        "RSI: oversold zone (32.5)",
-        "MACD: histogram at valley / turning up",
-        "200MA: price at/above 200MA (40.68 vs 41.14)",
-        "Golden cross: 50MA (43.00) above 200MA (41.14)",
-        "Volume: above average (1.08x)"
-      ],
-      "misses": [
-        "BB Width: bands expanding, not squeezing",
-        "RSI Divergence: no bullish divergence detected"
-      ],
-      "price": 40.68,
-      "rsi": 32.5,
-      "atr": 1.04,
-      "relative_strength": -9.14,
-      "rs_label": "underperforming",
-      "previously_owned": false
-    },
-    {
-      "ticker": "AEP",
-      "direction": "buy",
-      "tier": "Buy",
-      "buy_score": 0.75,
-      "sell_score": 0.14,
-      "reasons": [
-        "BB: price near lower band (pct=0.11)",
-        "RSI: oversold zone (35.1)",
-        "MACD: histogram at valley / turning up",
-        "200MA: price at/above 200MA (125.73 vs 125.46)",
-        "Golden cross: 50MA (131.31) above 200MA (125.46)",
-        "Volume: above average (1.06x)"
-      ],
-      "misses": [
-        "BB Width: bands expanding, not squeezing",
-        "RSI Divergence: no bullish divergence detected"
-      ],
-      "price": 125.73,
-      "rsi": 35.1,
-      "atr": 2.9,
-      "relative_strength": -9.85,
-      "rs_label": "underperforming",
-      "previously_owned": false
-    },
-    {
-      "ticker": "WDC",
+      "ticker": "CDNS",
       "direction": "buy",
       "tier": "Buy",
       "buy_score": 0.88,
       "sell_score": 0.29,
       "reasons": [
-        "BB: price near lower band (pct=0.03)",
-        "BB Width: squeeze active (width=0.3199)",
-        "RSI: oversold zone (38.4)",
-        "RSI Divergence: Price lower low (462.04 < 466.81) but RSI higher low (39.3 > 38.3)",
-        "200MA: price at/above 200MA (434.30 vs 341.09)",
-        "Golden cross: 50MA (561.18) above 200MA (341.09)",
-        "Volume: above average (1.42x)"
+        "BB: price near lower band (pct=0.16)",
+        "BB Width: squeeze active (width=0.0799)",
+        "RSI: oversold zone (37.3)",
+        "MACD: histogram at valley / turning up",
+        "200MA: price at/above 200MA (324.82 vs 327.60)",
+        "Golden cross: 50MA (361.26) above 200MA (327.60)",
+        "Volume: above average (1.05x)"
       ],
       "misses": [
-        "MACD: no bullish crossover or valley"
+        "RSI Divergence: no bullish divergence detected"
       ],
-      "price": 434.3,
-      "rsi": 38.4,
-      "atr": 54.2,
-      "relative_strength": -12.33,
+      "price": 324.82,
+      "rsi": 37.3,
+      "atr": 12.01,
+      "relative_strength": -11.97,
       "rs_label": "underperforming",
       "previously_owned": false
     }
