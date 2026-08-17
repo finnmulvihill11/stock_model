@@ -8,15 +8,15 @@
     "sell_score": 0.0,
     "reasons": [],
     "misses": [
-      "BB: price not near lower band (pct=0.40)",
+      "BB: price not near lower band (pct=0.42)",
       "BB Width: bands expanding, not squeezing",
-      "RSI: not in buy zone (49.5, need 20-40)",
+      "RSI: not in buy zone (49.2, need 20-40)",
       "RSI Divergence: no bullish divergence detected",
-      "Volume: below average (0.55x) \u2014 low conviction"
+      "Volume: below average (0.82x) \u2014 low conviction"
     ],
     "price": 68.77,
-    "rsi": 49.5,
-    "atr": 1.32,
+    "rsi": 49.2,
+    "atr": 1.25,
     "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 4,
@@ -51,7 +51,7 @@
       ],
       "earnings_status": "past",
       "next_earnings_date": "2026-07-31",
-      "days_to_earnings": -16
+      "days_to_earnings": -17
     }
   },
   "news": {
@@ -59,26 +59,26 @@
     "sentiment": "neutral",
     "health": "neutral",
     "key_events": [
-      "Earnings reported 16 days ago",
-      "Low volatility environment (VIX 14.2) suggests complacency",
-      "Fear gauge indicator present despite low VIX"
+      "Earnings reported 17 days ago",
+      "No recent news catalysts identified",
+      "Market volatility remains subdued (VIX 15.2)"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
       "High debt-to-equity ratio (1.6x) limits financial flexibility",
-      "RSI at 49.5 shows no directional momentum",
-      "No technical firing signals detected",
-      "Disconnect: Fear sentiment despite low VIX suggests underlying concern"
+      "RSI at 49.2 shows no momentum direction",
+      "Fear sentiment in broader market despite neutral VIX",
+      "No technical firing signals"
     ],
-    "verdict": "Small profitable position in utility with neutral technicals and elevated leverage; hold for swing trade confirmation or trim into strength.",
+    "verdict": "Small profitable position in utility holding steady; lacks near-term catalysts for swing trading but fundamentally stable given sector.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "D",
-    "stock_return_3m": 10.39,
-    "benchmark_return_3m": 4.03,
-    "relative_strength": 6.36,
+    "stock_return_3m": 12.52,
+    "benchmark_return_3m": 4.8,
+    "relative_strength": 7.72,
     "label": "outperforming"
   },
   "final_tier": "Hold",
@@ -88,5 +88,5 @@
     "note": "4 sh @ $68.77 = $275 (Hold, 60% size) | $1,562 swing budget after"
   },
   "is_dca": false,
-  "saved_at": "2026-08-16T22:50:19.419108"
+  "saved_at": "2026-08-17T22:53:08.779501"
 }

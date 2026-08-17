@@ -3,19 +3,36 @@
     "ticker": "CDNS",
     "company_name": "Cadence Design Systems, Inc.",
     "action": "Hold",
-    "action_reason": "Position is only -3.91%, well above the 15% threshold where philosophy mandates holding. Technical setup (oversold RSI + BB squeeze + near lower band) is classically bullish for swing trades; wait for mean reversion bounce.",
+    "action_reason": "Position is only -4.31% (well within philosophy thresholds). RSI 36.5 + BB squeeze creates high-probability reversal setup. Add is justified if price holds above $318 support.",
     "target_price": 345,
     "target_reasoning": "",
-    "exit_trigger": "Close below lower Bollinger Band on high volume or break below $320 support; alternatively, trim 50% if position reaches +8-10% near upper BB",
-    "add_trigger": "RSI dips below 30 with volume spike OR price holds $322 support and RSI begins recovery above 40",
-    "risk": "Post-earnings volatility decay; low VIX suggests sudden volatility spike could accelerate losses if technicals fail; sector rotation away from semiconductors/EDA",
-    "outlook": "short",
-    "timeframe": "2-4 weeks for BB squeeze resolution and RSI recovery",
-    "generated_at": "2026-08-16T22:49:51.210171",
-    "price_at_generation": 324.82,
-    "pnl_at_generation": -3.91
+    "exit_trigger": "Break below $310 (invalidates oversold reversal; indicates structural breakdown)",
+    "add_trigger": "Price holds $318-320 support with RSI bounce above 40, OR break above upper BB at $333+ with volume",
+    "risk": "Sector rotation away from semiconductors/design tools if macro deteriorates; earnings miss could have created longer-term headwind",
+    "outlook": "cautious",
+    "timeframe": "2-4 weeks to reversal target; reassess if BB squeeze persists beyond 3 weeks",
+    "generated_at": "2026-08-17T22:52:42.889080",
+    "price_at_generation": 323.47,
+    "pnl_at_generation": -4.31
   },
   "history": [
+    {
+      "ticker": "CDNS",
+      "company_name": "Cadence Design Systems, Inc.",
+      "action": "Hold",
+      "action_reason": "Position is only -3.91%, well above the 15% threshold where philosophy mandates holding. Technical setup (oversold RSI + BB squeeze + near lower band) is classically bullish for swing trades; wait for mean reversion bounce.",
+      "target_price": 345,
+      "target_reasoning": "",
+      "exit_trigger": "Close below lower Bollinger Band on high volume or break below $320 support; alternatively, trim 50% if position reaches +8-10% near upper BB",
+      "add_trigger": "RSI dips below 30 with volume spike OR price holds $322 support and RSI begins recovery above 40",
+      "risk": "Post-earnings volatility decay; low VIX suggests sudden volatility spike could accelerate losses if technicals fail; sector rotation away from semiconductors/EDA",
+      "outlook": "short",
+      "timeframe": "2-4 weeks for BB squeeze resolution and RSI recovery",
+      "generated_at": "2026-08-16T22:49:51.210171",
+      "price_at_generation": 324.82,
+      "pnl_at_generation": -3.91,
+      "archived_at": "2026-08-17T22:52:42.889296"
+    },
     {
       "ticker": "CDNS",
       "company_name": "Cadence Design Systems, Inc.",
@@ -117,23 +134,6 @@
       "price_at_generation": 338.42,
       "pnl_at_generation": 0.12,
       "archived_at": "2026-08-09T23:02:25.708120"
-    },
-    {
-      "ticker": "CDNS",
-      "company_name": "Cadence Design Systems, Inc.",
-      "action": "Hold",
-      "action_reason": "Position is only -0.28% underwater with healthy fundamentals and neutral RSI (42.3) indicating no oversold panic. Recent earnings have passed; wait for market digestion and next catalyst.",
-      "target_price": null,
-      "target_reasoning": "",
-      "exit_trigger": "Break below $330 on high volume with deteriorating fundamentals OR close above $345 to take partial profits",
-      "add_trigger": "RSI drops to 30-35 on volume with technicals forming bullish pattern, or positive guidance revision post-earnings",
-      "risk": "Semiconductor/design tools sector cyclicality; post-earnings volatility; macro tech weakness if fear sentiment escalates",
-      "outlook": "neutral",
-      "timeframe": "2-4 weeks",
-      "generated_at": "2026-08-05T23:31:54.291783",
-      "price_at_generation": 337.07,
-      "pnl_at_generation": -0.28,
-      "archived_at": "2026-08-07T01:38:05.155880"
     }
   ]
 }

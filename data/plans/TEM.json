@@ -3,19 +3,36 @@
     "ticker": "TEM",
     "company_name": "Tempus AI, Inc.",
     "action": "Hold",
-    "action_reason": "Position is down 24.58%, exceeding the 15% threshold that mandates holding through recovery. Exit only viable if stop-loss is triggered or fundamentals stabilize enough to reassess.",
+    "action_reason": "Position is down >15%, triggering your core philosophy to hold major losers. However, add NO capital and monitor for structural improvement signals before considering recovery.",
     "target_price": null,
     "target_reasoning": "",
-    "exit_trigger": "Break below $45 (psychological support + additional 13% loss); OR positive earnings surprise with path to profitability; OR capital raise announcement reducing debt burden",
-    "add_trigger": "Only if RSI compresses to <30 AND positive news catalyst emerges (partnership, revenue acceleration, debt restructuring); otherwise avoid averaging down into deteriorating fundamentals",
-    "risk": "Continued cash burn, potential covenant violations, dilutive capital raise, or bankruptcy risk if losses accelerate\u2014typical of unprofitable tech with high leverage",
+    "exit_trigger": "Sustained profitability + positive FCF OR loss exceeds 40% and company shows no path to cash flow break-even within 6 months",
+    "add_trigger": "Revenue acceleration + gross margin expansion + clear path to profitability with positive FCF guidance",
+    "risk": "Continued cash burn + debt refinancing risk if market conditions tighten; potential dilution or restructuring if runway depletes",
     "outlook": "cautious",
-    "timeframe": "3-6 months (allow time for recovery or forced exit via stop-loss)",
-    "generated_at": "2026-08-16T22:49:44.133909",
-    "price_at_generation": 52.1,
-    "pnl_at_generation": -24.58
+    "timeframe": "6-12 months (requires multiple quarters of operational improvement)",
+    "generated_at": "2026-08-17T22:52:35.636967",
+    "price_at_generation": 51.64,
+    "pnl_at_generation": -25.25
   },
   "history": [
+    {
+      "ticker": "TEM",
+      "company_name": "Tempus AI, Inc.",
+      "action": "Hold",
+      "action_reason": "Position is down 24.58%, exceeding the 15% threshold that mandates holding through recovery. Exit only viable if stop-loss is triggered or fundamentals stabilize enough to reassess.",
+      "target_price": null,
+      "target_reasoning": "",
+      "exit_trigger": "Break below $45 (psychological support + additional 13% loss); OR positive earnings surprise with path to profitability; OR capital raise announcement reducing debt burden",
+      "add_trigger": "Only if RSI compresses to <30 AND positive news catalyst emerges (partnership, revenue acceleration, debt restructuring); otherwise avoid averaging down into deteriorating fundamentals",
+      "risk": "Continued cash burn, potential covenant violations, dilutive capital raise, or bankruptcy risk if losses accelerate\u2014typical of unprofitable tech with high leverage",
+      "outlook": "cautious",
+      "timeframe": "3-6 months (allow time for recovery or forced exit via stop-loss)",
+      "generated_at": "2026-08-16T22:49:44.133909",
+      "price_at_generation": 52.1,
+      "pnl_at_generation": -24.58,
+      "archived_at": "2026-08-17T22:52:35.637200"
+    },
     {
       "ticker": "TEM",
       "company_name": "Tempus AI, Inc.",
@@ -117,23 +134,6 @@
       "price_at_generation": 46.12,
       "pnl_at_generation": -33.24,
       "archived_at": "2026-08-09T23:02:13.274361"
-    },
-    {
-      "ticker": "TEM",
-      "company_name": "Tempus AI, Inc.",
-      "action": "Hold",
-      "action_reason": "Position is -32.4%, exceeding the 15% threshold that triggers your 'never exit' rule. Hold and monitor for recovery catalyst or cash flow inflection; do not add into fundamental weakness.",
-      "target_price": null,
-      "target_reasoning": "",
-      "exit_trigger": "If stock rallies above $75-78 and company achieves positive operating cash flow or reduces D/E below 2.5x",
-      "add_trigger": "Do not add; wait for fundamentals to stabilize (profitability path or positive OCF) before considering averaging down",
-      "risk": "Further deterioration if burn rate accelerates, debt becomes unmanageable, or dilution occurs via capital raise",
-      "outlook": "cautious",
-      "timeframe": "2-3 months for turnaround signals or 6+ months for recovery if company executes",
-      "generated_at": "2026-08-05T23:31:41.659807",
-      "price_at_generation": 46.7,
-      "pnl_at_generation": -32.4,
-      "archived_at": "2026-08-07T01:37:51.669314"
     }
   ]
 }

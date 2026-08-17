@@ -1,21 +1,38 @@
 {
   "current": {
     "ticker": "MGM",
-    "company_name": "MGM",
+    "company_name": "MGM Resorts International",
     "action": "Hold",
-    "action_reason": "Position is micro-profitable and not in major loss territory. However, lack of technical firing and high leverage make this a low-conviction hold. Wait for either a clear breakout above RSI 50+ or a profitable exit opportunity above $45+.",
+    "action_reason": "Position is only -0.59% (well under 15% loss threshold). Technical setup (BB squeeze + RSI oversold) suggests potential mean reversion bounce is forming; wait for confirmation before adding.",
     "target_price": 46.5,
     "target_reasoning": "",
-    "exit_trigger": "Break below $42.50 (2.3% stop-loss) OR sustained close above $46.50 with RSI >60 (trim 50% for profit-taking)",
-    "add_trigger": "Only add if MGM breaks above $46+ with RSI >60 AND VIX remains elevated (>18), confirming volatility-driven upside rather than complacency",
-    "risk": "High debt (8.9x D/E) makes MGM vulnerable to macro shocks; low VIX complacency could reverse sharply, triggering casino sector selloff. Leverage amplifies downside.",
+    "exit_trigger": "Break below $42.00 on heavy volume or if debt concerns materialize in next earnings",
+    "add_trigger": "RSI climbs above 50 with price bouncing off $43.00 support AND positive gaming sector news emerges",
+    "risk": "High leverage (8.9x D/E) makes MGM vulnerable to macro downturns or credit concerns; casino discretionary spending exposed to consumer weakness",
     "outlook": "cautious",
-    "timeframe": "2-4 weeks",
-    "generated_at": "2026-08-16T22:49:59.767734",
-    "price_at_generation": 44.1,
-    "pnl_at_generation": 0.14
+    "timeframe": "3-6 weeks for BB squeeze breakout confirmation",
+    "generated_at": "2026-08-17T22:52:49.704793",
+    "price_at_generation": 43.78,
+    "pnl_at_generation": -0.59
   },
   "history": [
+    {
+      "ticker": "MGM",
+      "company_name": "MGM",
+      "action": "Hold",
+      "action_reason": "Position is micro-profitable and not in major loss territory. However, lack of technical firing and high leverage make this a low-conviction hold. Wait for either a clear breakout above RSI 50+ or a profitable exit opportunity above $45+.",
+      "target_price": 46.5,
+      "target_reasoning": "",
+      "exit_trigger": "Break below $42.50 (2.3% stop-loss) OR sustained close above $46.50 with RSI >60 (trim 50% for profit-taking)",
+      "add_trigger": "Only add if MGM breaks above $46+ with RSI >60 AND VIX remains elevated (>18), confirming volatility-driven upside rather than complacency",
+      "risk": "High debt (8.9x D/E) makes MGM vulnerable to macro shocks; low VIX complacency could reverse sharply, triggering casino sector selloff. Leverage amplifies downside.",
+      "outlook": "cautious",
+      "timeframe": "2-4 weeks",
+      "generated_at": "2026-08-16T22:49:59.767734",
+      "price_at_generation": 44.1,
+      "pnl_at_generation": 0.14,
+      "archived_at": "2026-08-17T22:52:49.705010"
+    },
     {
       "ticker": "MGM",
       "company_name": "MGM",
