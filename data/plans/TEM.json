@@ -3,19 +3,36 @@
     "ticker": "TEM",
     "company_name": "Tempus AI, Inc.",
     "action": "Hold",
-    "action_reason": "Position is down >15%, triggering your core philosophy to hold major losers. However, add NO capital and monitor for structural improvement signals before considering recovery.",
+    "action_reason": "Position is -28.55%, triggering the philosophy of holding major losers without trimming. However, this conflicts with poor fundamentals\u2014the hold is defensive, not constructive. Monitor for capitulation or cash flow inflection.",
     "target_price": null,
     "target_reasoning": "",
-    "exit_trigger": "Sustained profitability + positive FCF OR loss exceeds 40% and company shows no path to cash flow break-even within 6 months",
-    "add_trigger": "Revenue acceleration + gross margin expansion + clear path to profitability with positive FCF guidance",
-    "risk": "Continued cash burn + debt refinancing risk if market conditions tighten; potential dilution or restructuring if runway depletes",
+    "exit_trigger": "Stock rallies >20% on positive FCF or profitability guidance; or debt restructuring/covenant breach news emerges requiring forced liquidation",
+    "add_trigger": "Do not add. Fundamentals don't support averaging down\u2014wait for profitability path to clarify",
+    "risk": "Continued deterioration \u2192 dilutive capital raise, debt refinancing risk, or bankruptcy if cash burn accelerates",
     "outlook": "cautious",
-    "timeframe": "6-12 months (requires multiple quarters of operational improvement)",
-    "generated_at": "2026-08-17T22:52:35.636967",
-    "price_at_generation": 51.64,
-    "pnl_at_generation": -25.25
+    "timeframe": "4-8 weeks (reassess post next earnings or material news)",
+    "generated_at": "2026-08-18T22:53:47.025832",
+    "price_at_generation": 49.36,
+    "pnl_at_generation": -28.55
   },
   "history": [
+    {
+      "ticker": "TEM",
+      "company_name": "Tempus AI, Inc.",
+      "action": "Hold",
+      "action_reason": "Position is down >15%, triggering your core philosophy to hold major losers. However, add NO capital and monitor for structural improvement signals before considering recovery.",
+      "target_price": null,
+      "target_reasoning": "",
+      "exit_trigger": "Sustained profitability + positive FCF OR loss exceeds 40% and company shows no path to cash flow break-even within 6 months",
+      "add_trigger": "Revenue acceleration + gross margin expansion + clear path to profitability with positive FCF guidance",
+      "risk": "Continued cash burn + debt refinancing risk if market conditions tighten; potential dilution or restructuring if runway depletes",
+      "outlook": "cautious",
+      "timeframe": "6-12 months (requires multiple quarters of operational improvement)",
+      "generated_at": "2026-08-17T22:52:35.636967",
+      "price_at_generation": 51.64,
+      "pnl_at_generation": -25.25,
+      "archived_at": "2026-08-18T22:53:47.026014"
+    },
     {
       "ticker": "TEM",
       "company_name": "Tempus AI, Inc.",
@@ -117,23 +134,6 @@
       "price_at_generation": 52.05,
       "pnl_at_generation": -24.65,
       "archived_at": "2026-08-10T23:09:24.718828"
-    },
-    {
-      "ticker": "TEM",
-      "company_name": "Tempus AI, Inc.",
-      "action": "Hold",
-      "action_reason": "Position is down 33.24%, exceeding the 15% threshold that triggers your hold-through-recovery philosophy. Exit is contraindicated by your stated rules regardless of deteriorating fundamentals.",
-      "target_price": 52.5,
-      "target_reasoning": "",
-      "exit_trigger": "Position breaks back to profitability OR debt-to-equity improves below 2.0x with positive operating cash flow announcement",
-      "add_trigger": "RSI falls below 30 (oversold) with bullish divergence + company announces debt restructuring or path to profitability",
-      "risk": "Company's negative cash flow + high leverage creates refinancing risk; potential dilution, restructuring, or bankruptcy if operational performance doesn't improve within 2-3 quarters",
-      "outlook": "cautious",
-      "timeframe": "3-6 months",
-      "generated_at": "2026-08-07T01:37:51.669120",
-      "price_at_generation": 46.12,
-      "pnl_at_generation": -33.24,
-      "archived_at": "2026-08-09T23:02:13.274361"
     }
   ]
 }

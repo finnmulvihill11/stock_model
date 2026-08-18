@@ -11,16 +11,16 @@
       "BB: price not near lower band (pct=0.29)",
       "BB Width: bands expanding, not squeezing",
       "RSI Divergence: no bullish divergence detected",
-      "Volume: below average (0.51x) \u2014 low conviction"
+      "Volume: below average (0.71x) \u2014 low conviction"
     ],
-    "price": 40.63,
-    "rsi": 37.4,
-    "atr": 0.94,
+    "price": 40.54,
+    "rsi": 36.8,
+    "atr": 0.86,
     "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 8,
-      "suggested_dollars": 325.04,
-      "note": "8 sh @ $40.63 = $325 (Hold, 60% size) | $1,512 swing budget after"
+      "suggested_dollars": 324.32,
+      "note": "8 sh @ $40.54 = $324 (Hold, 60% size) | $1,513 swing budget after"
     }
   },
   "fundamentals": {
@@ -50,7 +50,7 @@
       ],
       "earnings_status": "past",
       "next_earnings_date": "2026-07-28",
-      "days_to_earnings": -20
+      "days_to_earnings": -21
     }
   },
   "news": {
@@ -58,35 +58,36 @@
     "sentiment": "neutral",
     "health": "neutral",
     "key_events": [
-      "Earnings reported 20 days ago",
-      "Position up +1.15% with modest gains",
-      "High debt-to-equity ratio (2.1x) presents refinancing risk",
-      "Utility sector typically defensive but rate-sensitive"
+      "Earnings reported 21 days ago",
+      "Position up 0.92% with modest 8.1% portfolio weight",
+      "RSI at 36.8 indicating oversold conditions but no bullish firing signals",
+      "VIX at 15.8 reflecting calm market environment"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "High leverage (2.1x D/E) in rising rate environment",
-      "RSI at 37.4 indicates mild oversold conditions but no momentum",
-      "No recent positive catalysts in news flow",
-      "Fear sentiment in broader market despite low VIX"
+      "High debt-to-equity ratio (2.1x) limits financial flexibility",
+      "No active technical firing signals despite oversold RSI",
+      "Fear sentiment in broader market sentiment index",
+      "Post-earnings period with no momentum catalyst identified",
+      "Utility sector sensitivity to interest rate movements given leverage"
     ],
-    "verdict": "CNP is a stabilized utility position with modest gains; hold for dividend/recovery without adding until technical confirmation emerges.",
+    "verdict": "CNP is a marginal profitable swing position in a neutral setup with leverage concerns\u2014hold current position pending clearer directional signal.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "CNP",
-    "stock_return_3m": -1.63,
-    "benchmark_return_3m": 4.8,
-    "relative_strength": -6.43,
+    "stock_return_3m": -2.3,
+    "benchmark_return_3m": 4.17,
+    "relative_strength": -6.46,
     "label": "underperforming"
   },
   "final_tier": "Hold",
   "sizing": {
     "suggested_shares": 8,
-    "suggested_dollars": 325.04,
-    "note": "8 sh @ $40.63 = $325 (Hold, 60% size) | $1,512 swing budget after"
+    "suggested_dollars": 324.32,
+    "note": "8 sh @ $40.54 = $324 (Hold, 60% size) | $1,513 swing budget after"
   },
   "is_dca": false,
-  "saved_at": "2026-08-17T22:52:57.111023"
+  "saved_at": "2026-08-18T22:54:10.737723"
 }

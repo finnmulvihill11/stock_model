@@ -2,30 +2,25 @@
   "ticker": "CDNS",
   "signal": {
     "ticker": "CDNS",
-    "direction": "buy",
-    "tier": "Buy",
-    "buy_score": 0.75,
+    "direction": "hold",
+    "tier": "Hold",
+    "buy_score": 0.5,
     "sell_score": 0.14,
-    "reasons": [
-      "BB: price near lower band (pct=0.14)",
-      "BB Width: squeeze active (width=0.0842)",
-      "RSI: oversold zone (36.5)",
-      "MACD: histogram at valley / turning up",
-      "200MA: price at/above 200MA (323.47 vs 327.51)",
-      "Golden cross: 50MA (359.49) above 200MA (327.51)"
-    ],
+    "reasons": [],
     "misses": [
+      "MACD: no bullish crossover or valley",
       "RSI Divergence: no bullish divergence detected",
-      "Volume: below average (0.78x) \u2014 low conviction"
+      "200MA: price below 200MA \u2014 potential falling knife",
+      "Volume: below average (0.69x) \u2014 low conviction"
     ],
-    "price": 323.47,
-    "rsi": 36.5,
-    "atr": 11.29,
-    "final_tier": "Buy",
+    "price": 316.52,
+    "rsi": 32.9,
+    "atr": 10.58,
+    "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 1,
-      "suggested_dollars": 323.47,
-      "note": "1 sh @ $323.47 = $323 (Buy, 60% size) | $1,514 swing budget after"
+      "suggested_dollars": 316.52,
+      "note": "1 sh @ $316.52 = $317 (Hold, 60% size) | $1,521 swing budget after"
     }
   },
   "fundamentals": {
@@ -54,7 +49,7 @@
       ],
       "earnings_status": "past",
       "next_earnings_date": "2026-07-27",
-      "days_to_earnings": -21
+      "days_to_earnings": -22
     }
   },
   "news": {
@@ -62,34 +57,34 @@
     "sentiment": "neutral",
     "health": "healthy",
     "key_events": [
-      "Price near lower Bollinger Band with squeeze active",
-      "RSI deeply oversold at 36.5 (major reversal signal)",
-      "Earnings reported 21 days ago (volatility likely priced in)",
-      "VIX neutral at 15.2 (no market stress)"
+      "Earnings reported 22 days ago (post-earnings volatility likely settling)",
+      "Stock down 6.36% from entry, approaching minor support",
+      "RSI at 32.9 indicates oversold conditions (potential bounce zone)",
+      "No active technical signals firing; consolidation phase"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "No recent news catalysts visible",
-      "Market Fear sentiment despite neutral VIX",
-      "Broad sector weakness possible in EDA/semiconductors"
+      "Recent post-earnings selloff suggests market disappointment or sector rotation",
+      "9% portfolio weight elevated for swing position with no bullish catalysts yet",
+      "Fear sentiment in broader market (F&G) may weigh on semiconductor/design tools sector"
     ],
-    "verdict": "CDNS shows classic oversold technicals with healthy fundamentals post-earnings; positioned for mean reversion bounce within next 2-4 weeks.",
+    "verdict": "CDNS is oversold but lacks immediate catalysts; hold through recovery or accumulation zone while monitoring RSI bounce.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "CDNS",
-    "stock_return_3m": -6.85,
-    "benchmark_return_3m": 4.8,
-    "relative_strength": -11.65,
+    "stock_return_3m": -8.52,
+    "benchmark_return_3m": 4.17,
+    "relative_strength": -12.68,
     "label": "underperforming"
   },
-  "final_tier": "Buy",
+  "final_tier": "Hold",
   "sizing": {
     "suggested_shares": 1,
-    "suggested_dollars": 323.47,
-    "note": "1 sh @ $323.47 = $323 (Buy, 60% size) | $1,514 swing budget after"
+    "suggested_dollars": 316.52,
+    "note": "1 sh @ $316.52 = $317 (Hold, 60% size) | $1,521 swing budget after"
   },
   "is_dca": false,
-  "saved_at": "2026-08-17T22:52:42.889923"
+  "saved_at": "2026-08-18T22:53:54.775032"
 }

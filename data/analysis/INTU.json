@@ -2,22 +2,24 @@
   "ticker": "INTU",
   "signal": {
     "ticker": "INTU",
-    "direction": "hold",
-    "tier": "Hold",
-    "buy_score": 0.25,
-    "sell_score": 0.43,
-    "reasons": [],
-    "misses": [
-      "BB: price not near lower band (pct=0.69)",
-      "RSI: not in buy zone (58.4, need 20-40)",
-      "MACD: no bullish crossover or valley",
-      "RSI Divergence: no bullish divergence detected",
-      "200MA: price below 200MA \u2014 potential falling knife",
-      "Volume: below average (0.92x) \u2014 low conviction"
+    "direction": "sell",
+    "tier": "Sell",
+    "buy_score": 0.38,
+    "sell_score": 0.71,
+    "reasons": [
+      "BB: price near upper band (pct=0.84)",
+      "BB Width: squeeze/contraction after expansion",
+      "MACD: histogram at peak / turning down",
+      "Death cross: 50MA (294.66) below 200MA (444.04)",
+      "Volume: above average on sell (1.04x) \u2014 confirms distribution"
     ],
-    "price": 335.6,
-    "rsi": 58.4,
-    "atr": 15.37,
+    "misses": [
+      "RSI: not in sell zone (63.5, need 70-80)",
+      "RSI Divergence: no bearish divergence detected"
+    ],
+    "price": 350.41,
+    "rsi": 63.5,
+    "atr": 15.1,
     "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 0,
@@ -40,7 +42,7 @@
   },
   "earnings": {
     "proceed": false,
-    "reason": "Earnings in 8 days \u2014 wait for results before acting",
+    "reason": "Earnings in 7 days \u2014 wait for results before acting",
     "verdict": {
       "ticker": "INTU",
       "verdict": "consider",
@@ -51,7 +53,7 @@
       ],
       "earnings_status": "imminent",
       "next_earnings_date": "2026-08-25",
-      "days_to_earnings": 8
+      "days_to_earnings": 7
     }
   },
   "news": {
@@ -59,25 +61,27 @@
     "sentiment": "neutral",
     "health": "healthy",
     "key_events": [
-      "Earnings report in 8 days \u2014 critical catalyst",
-      "VIX at 15.2 \u2014 low volatility environment favors mean reversion",
-      "Position down 28.34% from entry \u2014 significant drawdown"
+      "Earnings report imminent (within 7 days)",
+      "Price near upper Bollinger Band (0.84 pct) suggests potential pullback",
+      "BB Width contraction after expansion indicates volatility squeeze"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "No recent news flow \u2014 information vacuum before earnings",
-      "Fear/Greed index shows Fear \u2014 risk-off sentiment in broader market",
-      "Heavy portfolio weight (28.9%) concentrates risk during uncertainty"
+      "Position down 25.17% \u2014 significant unrealized loss",
+      "Technical sell signal with RSI 63.5 (overbought territory)",
+      "MACD histogram at peak turning down \u2014 momentum reversal warning",
+      "Earnings catalyst creates binary risk within holding period",
+      "Portfolio weight at 30.1% \u2014 concentrated position risk"
     ],
-    "verdict": "Hold through earnings with strict discipline; fundamentals remain intact and timing suggests mean-reversion setup post-report.",
+    "verdict": "Hold through imminent earnings as position exceeds -15% loss threshold; fundamentals remain healthy and technical setup suggests mean reversion opportunity post-earnings volatility.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "INTU",
-    "stock_return_3m": -14.23,
-    "benchmark_return_3m": 4.8,
-    "relative_strength": -19.03,
+    "stock_return_3m": -12.7,
+    "benchmark_return_3m": 4.17,
+    "relative_strength": -16.87,
     "label": "underperforming"
   },
   "final_tier": "Hold",
@@ -87,5 +91,5 @@
     "note": "Position already at 20% portfolio cap"
   },
   "is_dca": false,
-  "saved_at": "2026-08-17T22:52:29.266999"
+  "saved_at": "2026-08-18T22:53:39.026390"
 }

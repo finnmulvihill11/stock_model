@@ -9,18 +9,18 @@
     "reasons": [],
     "misses": [
       "BB Width: bands expanding, not squeezing",
-      "RSI: not in buy zone (11.9, need 20-40)",
+      "RSI: not in buy zone (15.4, need 20-40)",
       "RSI Divergence: no bullish divergence detected",
       "200MA: price below 200MA \u2014 potential falling knife"
     ],
-    "price": 45.52,
-    "rsi": 11.9,
-    "atr": 5.28,
+    "price": 47.38,
+    "rsi": 15.4,
+    "atr": 5.15,
     "final_tier": "Hold",
     "sizing": {
-      "suggested_shares": 7,
-      "suggested_dollars": 318.64,
-      "note": "7 sh @ $45.52 = $319 (Hold, 60% size) | $1,519 swing budget after"
+      "suggested_shares": 6,
+      "suggested_dollars": 284.28,
+      "note": "6 sh @ $47.38 = $284 (Hold, 60% size) | $1,553 swing budget after"
     }
   },
   "fundamentals": {
@@ -49,7 +49,7 @@
       ],
       "earnings_status": "past",
       "next_earnings_date": "2026-08-06",
-      "days_to_earnings": -11
+      "days_to_earnings": -12
     }
   },
   "news": {
@@ -57,33 +57,34 @@
     "sentiment": "neutral",
     "health": "healthy",
     "key_events": [
-      "Earnings reported 11 days ago",
-      "RSI extremely oversold at 11.9 (potential mean reversion setup)",
-      "VIX 15.2 suggests broader market stability"
+      "Earnings reported 12 days ago",
+      "RSI severely oversold at 15.4 (extreme dislocation)",
+      "Position profitable at +2.89%",
+      "Market volatility neutral (VIX 15.8)"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "No recent news catalysts visible",
-      "Post-earnings weakness suggests disappointment or profit-taking",
-      "Fear sentiment in market despite neutral VIX"
+      "RSI 15.4 indicates extreme oversold conditions\u2014unusual for a healthy fundamental stock",
+      "No news flow visible (10 empty slots)\u2014lack of catalyst support",
+      "Post-earnings positioning unclear\u2014potential disappointment priced in"
     ],
-    "verdict": "MNST showing classic post-earnings oversold setup with healthy fundamentals; position loss within acceptable range for swing recovery play.",
+    "verdict": "Hold current position; extreme RSI oversold creates asymmetric risk/reward, but profitability status and healthy fundamentals warrant patience for recovery.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "MNST",
-    "stock_return_3m": -46.96,
-    "benchmark_return_3m": 4.8,
-    "relative_strength": -51.76,
+    "stock_return_3m": -45.6,
+    "benchmark_return_3m": 4.17,
+    "relative_strength": -49.76,
     "label": "underperforming"
   },
   "final_tier": "Hold",
   "sizing": {
-    "suggested_shares": 7,
-    "suggested_dollars": 318.64,
-    "note": "7 sh @ $45.52 = $319 (Hold, 60% size) | $1,519 swing budget after"
+    "suggested_shares": 6,
+    "suggested_dollars": 284.28,
+    "note": "6 sh @ $47.38 = $284 (Hold, 60% size) | $1,553 swing budget after"
   },
   "is_dca": false,
-  "saved_at": "2026-08-17T22:53:03.557055"
+  "saved_at": "2026-08-18T22:54:19.340494"
 }

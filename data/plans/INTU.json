@@ -3,19 +3,36 @@
     "ticker": "INTU",
     "company_name": "Intuit Inc.",
     "action": "Hold",
-    "action_reason": "Position is down 28% (beyond 15% exit threshold per philosophy), and earnings catalyst is imminent. Hold to allow earnings upside/downside to resolve before any action; the 8-day window is too short to exit into Fear sentiment and miss recovery.",
-    "target_price": 420,
+    "action_reason": "Position loss of -25.17% triggers mandatory hold policy. Earnings within 7 days create catalyst for recovery; selling ahead of results locks in loss. Wait for earnings reaction before reassessing.",
+    "target_price": null,
     "target_reasoning": "",
-    "exit_trigger": "Close below $300 (fresh 52w low + fundamental deterioration signal) OR negative earnings surprise combined with forward guidance miss",
-    "add_trigger": "Post-earnings rally above $380 with positive guidance; or if VIX spikes >20 and INTU holds above $320 (accumulation setup)",
-    "risk": "Earnings miss + macro slowdown in SMB/consumer spending; software sector multiple compression if rates surprise higher",
+    "exit_trigger": "Post-earnings only: (1) If fundamentals deteriorate in earnings call, or (2) If price closes below $330 (additional 6% downside) on high volume post-earnings; (3) If position recovers to -10% loss, reassess sizing given 30.1% weight",
+    "add_trigger": "Do not add \u2014 position already concentrated at 30.1% weight; wait for earnings clarity and loss recovery to -15% or better before considering position scaling",
+    "risk": "Earnings miss/guidance cut could accelerate decline; position concentration (30.1%) magnifies portfolio impact; VIX at 15.8 may underestimate volatility spike around earnings",
     "outlook": "cautious",
-    "timeframe": "2-3 weeks (earnings + post-report stabilization period)",
-    "generated_at": "2026-08-17T22:52:29.266113",
-    "price_at_generation": 335.6,
-    "pnl_at_generation": -28.34
+    "timeframe": "7-14 days (earnings event + 1 week post-reaction)",
+    "generated_at": "2026-08-18T22:53:39.025596",
+    "price_at_generation": 350.41,
+    "pnl_at_generation": -25.17
   },
   "history": [
+    {
+      "ticker": "INTU",
+      "company_name": "Intuit Inc.",
+      "action": "Hold",
+      "action_reason": "Position is down 28% (beyond 15% exit threshold per philosophy), and earnings catalyst is imminent. Hold to allow earnings upside/downside to resolve before any action; the 8-day window is too short to exit into Fear sentiment and miss recovery.",
+      "target_price": 420,
+      "target_reasoning": "",
+      "exit_trigger": "Close below $300 (fresh 52w low + fundamental deterioration signal) OR negative earnings surprise combined with forward guidance miss",
+      "add_trigger": "Post-earnings rally above $380 with positive guidance; or if VIX spikes >20 and INTU holds above $320 (accumulation setup)",
+      "risk": "Earnings miss + macro slowdown in SMB/consumer spending; software sector multiple compression if rates surprise higher",
+      "outlook": "cautious",
+      "timeframe": "2-3 weeks (earnings + post-report stabilization period)",
+      "generated_at": "2026-08-17T22:52:29.266113",
+      "price_at_generation": 335.6,
+      "pnl_at_generation": -28.34,
+      "archived_at": "2026-08-18T22:53:39.025811"
+    },
     {
       "ticker": "INTU",
       "company_name": "Intuit Inc.",
@@ -117,23 +134,6 @@
       "price_at_generation": 325.25,
       "pnl_at_generation": -30.55,
       "archived_at": "2026-08-10T23:09:05.099885"
-    },
-    {
-      "ticker": "INTU",
-      "company_name": "Intuit Inc.",
-      "action": "Hold",
-      "action_reason": "Loss exceeds 15% threshold\u2014exit is off-table per strategy. With healthy fundamentals and earnings catalyst in 18 days, position has recovery potential; volatility could work in your favor post-earnings.",
-      "target_price": 425,
-      "target_reasoning": "",
-      "exit_trigger": "Fundamentals deteriorate OR post-earnings breakdown below $305 (new support)",
-      "add_trigger": "Do not add; capital better preserved until post-earnings clarity",
-      "risk": "Earnings miss could accelerate decline; concentration risk at 21.5% weight exposes portfolio to single-stock volatility",
-      "outlook": "cautious",
-      "timeframe": "18 days (to earnings) + 2-4 weeks post-earnings for recovery signal",
-      "generated_at": "2026-08-07T01:37:29.228255",
-      "price_at_generation": 321.91,
-      "pnl_at_generation": -31.26,
-      "archived_at": "2026-08-09T23:01:52.616197"
     }
   ]
 }
