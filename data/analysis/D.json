@@ -8,20 +8,20 @@
     "sell_score": 0.0,
     "reasons": [],
     "misses": [
-      "BB: price not near lower band (pct=0.41)",
+      "BB: price not near lower band (pct=0.37)",
       "BB Width: bands expanding, not squeezing",
-      "RSI: not in buy zone (48.1, need 20-40)",
+      "RSI: not in buy zone (46.2, need 20-40)",
       "RSI Divergence: no bullish divergence detected",
-      "Volume: below average (0.64x) \u2014 low conviction"
+      "Volume: below average (0.78x) \u2014 low conviction"
     ],
-    "price": 68.61,
-    "rsi": 48.1,
-    "atr": 1.21,
+    "price": 68.29,
+    "rsi": 46.2,
+    "atr": 1.17,
     "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 4,
-      "suggested_dollars": 274.44,
-      "note": "4 sh @ $68.61 = $274 (Hold, 60% size) | $1,563 swing budget after"
+      "suggested_dollars": 273.16,
+      "note": "4 sh @ $68.29 = $273 (Hold, 60% size) | $1,564 swing budget after"
     }
   },
   "fundamentals": {
@@ -51,7 +51,7 @@
       ],
       "earnings_status": "past",
       "next_earnings_date": "2026-07-31",
-      "days_to_earnings": -18
+      "days_to_earnings": -19
     }
   },
   "news": {
@@ -59,34 +59,35 @@
     "sentiment": "neutral",
     "health": "neutral",
     "key_events": [
-      "Earnings reported 18 days ago",
-      "VIX at 15.8 \u2014 low volatility environment",
-      "Geopolitical baseline moderate risk (structural tensions)"
+      "Earnings reported 19 days ago",
+      "VIX at 14.9 indicating market complacency",
+      "No recent news catalysts identified"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "High debt-to-equity ratio (1.6x) \u2014 refinancing risk in rising rate environment",
-      "No technical firing signals \u2014 momentum absent",
-      "RSI at 48.1 \u2014 neutral, no oversold bounce setup yet",
-      "Utility sector sensitivity to interest rate policy"
+      "High debt-to-equity ratio (1.6x) limits financial flexibility",
+      "RSI at 46.2 shows no momentum in either direction",
+      "Minimal price movement despite holding for swing trade",
+      "No technical firing signals present",
+      "Earnings already in rear-view mirror (stale catalyst)"
     ],
-    "verdict": "Small profitable position in neutral setup with elevated balance sheet risk; hold for dividend yield but monitor debt sustainability.",
+    "verdict": "Position is treading water with no catalysts or technical conviction\u2014unsuitable for active swing trading.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "D",
-    "stock_return_3m": 2.57,
-    "benchmark_return_3m": 4.17,
-    "relative_strength": -1.6,
-    "label": "in-line"
+    "stock_return_3m": 11.73,
+    "benchmark_return_3m": 5.09,
+    "relative_strength": 6.65,
+    "label": "outperforming"
   },
   "final_tier": "Hold",
   "sizing": {
     "suggested_shares": 4,
-    "suggested_dollars": 274.44,
-    "note": "4 sh @ $68.61 = $274 (Hold, 60% size) | $1,563 swing budget after"
+    "suggested_dollars": 273.16,
+    "note": "4 sh @ $68.29 = $273 (Hold, 60% size) | $1,564 swing budget after"
   },
   "is_dca": false,
-  "saved_at": "2026-08-18T22:54:25.634556"
+  "saved_at": "2026-08-19T22:54:29.617102"
 }

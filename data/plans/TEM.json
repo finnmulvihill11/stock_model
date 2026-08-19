@@ -3,19 +3,36 @@
     "ticker": "TEM",
     "company_name": "Tempus AI, Inc.",
     "action": "Hold",
-    "action_reason": "Position is -28.55%, triggering the philosophy of holding major losers without trimming. However, this conflicts with poor fundamentals\u2014the hold is defensive, not constructive. Monitor for capitulation or cash flow inflection.",
+    "action_reason": "Your philosophy mandates holding positions down >15%. However, this is a forced hold on deteriorating fundamentals\u2014not a conviction hold. Monitor closely for the exit trigger below.",
     "target_price": null,
     "target_reasoning": "",
-    "exit_trigger": "Stock rallies >20% on positive FCF or profitability guidance; or debt restructuring/covenant breach news emerges requiring forced liquidation",
-    "add_trigger": "Do not add. Fundamentals don't support averaging down\u2014wait for profitability path to clarify",
-    "risk": "Continued deterioration \u2192 dilutive capital raise, debt refinancing risk, or bankruptcy if cash burn accelerates",
+    "exit_trigger": "Break below $55 (10% further loss) OR positive operating cash flow announcement + profitable quarter + debt reduction plan",
+    "add_trigger": "Do NOT add. Fundamentals must improve first: path to profitability + positive OCF + debt management visible",
+    "risk": "Continued cash burn, leverage amplification if stock falls further, potential dilution from financing needs, no profitability timeline",
     "outlook": "cautious",
-    "timeframe": "4-8 weeks (reassess post next earnings or material news)",
-    "generated_at": "2026-08-18T22:53:47.025832",
-    "price_at_generation": 49.36,
-    "pnl_at_generation": -28.55
+    "timeframe": "2-4 weeks to reassess; earnings cycle will be critical",
+    "generated_at": "2026-08-19T22:53:51.979191",
+    "price_at_generation": 61.25,
+    "pnl_at_generation": -11.33
   },
   "history": [
+    {
+      "ticker": "TEM",
+      "company_name": "Tempus AI, Inc.",
+      "action": "Hold",
+      "action_reason": "Position is -28.55%, triggering the philosophy of holding major losers without trimming. However, this conflicts with poor fundamentals\u2014the hold is defensive, not constructive. Monitor for capitulation or cash flow inflection.",
+      "target_price": null,
+      "target_reasoning": "",
+      "exit_trigger": "Stock rallies >20% on positive FCF or profitability guidance; or debt restructuring/covenant breach news emerges requiring forced liquidation",
+      "add_trigger": "Do not add. Fundamentals don't support averaging down\u2014wait for profitability path to clarify",
+      "risk": "Continued deterioration \u2192 dilutive capital raise, debt refinancing risk, or bankruptcy if cash burn accelerates",
+      "outlook": "cautious",
+      "timeframe": "4-8 weeks (reassess post next earnings or material news)",
+      "generated_at": "2026-08-18T22:53:47.025832",
+      "price_at_generation": 49.36,
+      "pnl_at_generation": -28.55,
+      "archived_at": "2026-08-19T22:53:51.979444"
+    },
     {
       "ticker": "TEM",
       "company_name": "Tempus AI, Inc.",
@@ -117,23 +134,6 @@
       "price_at_generation": 55.06,
       "pnl_at_generation": -20.3,
       "archived_at": "2026-08-11T23:20:49.159016"
-    },
-    {
-      "ticker": "TEM",
-      "company_name": "Tempus AI, Inc.",
-      "action": "Hold",
-      "action_reason": "Policy restricts exits on positions down >15%; however, monitor closely for stabilization signals. This is a forced hold on deteriorating fundamentals.",
-      "target_price": null,
-      "target_reasoning": "",
-      "exit_trigger": "Position becomes profitable OR fundamental restructuring announced (debt reduction, path to profitability) fails to materialize within 8 weeks; alternatively, break below $45 on volume suggests further deterioration",
-      "add_trigger": "Do not add; company lacks profitable operations and positive cash flow. Wait for evidence of operational turnaround before considering addition.",
-      "risk": "High financial risk from 3.2x debt-to-equity amid negative cash flow; potential dilution or debt restructuring; continued post-earnings weakness.",
-      "outlook": "cautious",
-      "timeframe": "4-8 weeks to reassess after next earnings or material news",
-      "generated_at": "2026-08-09T23:02:13.274171",
-      "price_at_generation": 52.05,
-      "pnl_at_generation": -24.65,
-      "archived_at": "2026-08-10T23:09:24.718828"
     }
   ]
 }

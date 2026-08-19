@@ -1,40 +1,85 @@
 {
   "current": {
-    "headline": "Portfolio holding steady with two high-conviction mean-reversion entry points available; deploy remaining $1K into oversold screener names before window closes.",
+    "headline": "Portfolio holding steady through near-term headwinds; INTU concentration risk and earnings volatility are the critical watch.",
     "market_stance": "neutral",
-    "overall_thesis": "VIX at 15.8 and Fear index at 41 create textbook mean-reversion environment. Major losers (INTU, TEM) locked in HOLD per philosophy; focus capital on fresh oversold setups (HRL, CB) that offer asymmetric upside without adding to underwater positions. Next 4\u20138 weeks: let INTU navigate earnings, allow CDNS and MGM to bounce from depressed RSI levels, and capture snap-back moves in HRL/CB before sentiment normalizes.",
+    "overall_thesis": "VIX at 14.9 signals complacency \u2014 raise sell discipline on overbought names. With $1,000 dry powder and three strong buy signals active (HRL, CB, MGM setup), prioritize adding to oversold quality (RSI <40) rather than chasing. INTU earnings in 6 days is a pivot point; hold through the event and reassess position sizing post-earnings to bring weight back to 25% cap.",
     "priority_actions": [
       {
         "rank": 1,
         "action": "BUY",
-        "ticker": "HRL",
-        "instruction": "Classic mean-reversion entry: HRL pinned near 52-week lows with likely oversold RSI. Allocate $500\u2013600 (6\u20138% of portfolio). Enter on any further weakness or RSI <30. Target hold through first bounce (4\u20136 weeks).",
+        "ticker": "CB",
+        "instruction": "Initiate 30\u201340 shares at current Bollinger Band lower-band scrape. Entry target: $185\u2013$188. Allocation: $5,500\u2013$7,000 (if capital available post-rebalance). Stop loss: none \u2014 mean-reversion core position, hold through volatility.",
         "urgency": "this week"
       },
       {
         "rank": 2,
         "action": "BUY",
-        "ticker": "CB",
-        "instruction": "Bollinger Band squeeze play with 2+ scrapes of lower band \u2014 persistent Buy signal. Allocate remaining $400\u2013500 (5\u20136% of portfolio). Scale in if CB dips below band or closes below key support level. Mean-reversion target typically 3\u20135 week move.",
+        "ticker": "HRL",
+        "instruction": "Initiate 35\u201350 shares at current oversold level near 52-week low. Entry target: $35\u2013$36. Allocation: $1,200\u2013$1,800. Stop loss: none \u2014 classic mean-reversion setup with low P/E; hold through recovery.",
         "urgency": "this week"
+      },
+      {
+        "rank": 3,
+        "action": "ADD",
+        "ticker": "MGM",
+        "instruction": "Add 15\u201320 shares to existing position if RSI holds 35\u201340 and price remains within lower Bollinger Band. Entry target: $19.50\u2013$20.50. Use remaining $1,000 dry powder. MGM Buy signal + low drawdown + BB support = high conviction.",
+        "urgency": "immediate"
       }
     ],
-    "biggest_risk": "INTU concentration at 30.1% (exceeds 25% cap) combined with -25.2% loss creates single-stock portfolio drag into earnings. Earnings event within 7 days could trigger volatility; you are locked in HOLD per philosophy, but post-earnings gap risk is material. Rebalance down after stabilization if position rebounds.",
+    "biggest_risk": "INTU at 30.5% weight and -22.6% P&L creates concentrated downside risk ahead of earnings (6 days). If earnings disappoint, this position could cascade into a larger portfolio loss. Post-earnings rebalance is mandatory to bring weight back to \u226425%.",
     "what_to_watch": [
-      "INTU earnings catalyst (within 7 days) \u2014 watch for gap up/down; if thesis breaks (revenue miss + forward guide cut), re-evaluate hold stance post-event",
-      "HRL/CB entry fills and RSI bottoming \u2014 confirm oversold bounce is in motion before committing second tranche",
-      "CDNS RSI at 32.9 (oversold) \u2014 likely bounce candidate; if it rallies back to RSI 50\u201360 over next 2\u20133 weeks, that's healthy mean-reversion confirmation",
-      "MNST RSI 15.4 capitulation extreme \u2014 this is a reversal signal; monitor for first +5% bounce as confirmation before adding"
+      "INTU earnings date (6 days) \u2014 hold through; reassess sizing post-event",
+      "VIX: if complacency breaks and VIX spikes >18, reduce overbought exposure (INTU RSI 67, TEM RSI 65.7)",
+      "CB and HRL mean-reversion execution \u2014 monitor for RSI bounce off oversold; take profits at RSI >70 or upper BB breach",
+      "MGM momentum \u2014 if RSI climbs into 50\u201360 range with volume, this is a strong swing candidate",
+      "CDNS recovery signal (RSI 32.1 is deeply oversold) \u2014 potential ADD candidate if buy % rises or BB reversal initiates"
     ],
     "on_course_check": [
-      "\u2713 Plan on track: Two screener opportunities (HRL, CB) offer fresh entry points in neutral volatility environment; deploying $1K into oversold quality keeps dry powder working",
-      "\u2713 Plan on track: HOLD discipline on underwater positions (INTU -25%, TEM -28%) protects against panic selling during temporary weakness",
-      "\u26a0 Revise if: INTU earnings miss badly (revenue miss + cut guidance) \u2014 post-event, reassess if thesis is broken and consider TRIM if it bounces to profitability after the gap. Current 30.1% weight becomes untenable if momentum turns decisively negative",
-      "\u26a0 Revise if: VIX spikes above 20 on geopolitical escalation \u2014 shift to full defensive and pause new buys until volatility stabilizes"
+      "\u2713 Plan working if: CB and HRL initiate mean-reversion bounces (RSI 30\u219250+) within 10 trading days, adding to portfolio gain without breaking discipline.",
+      "\u2713 Plan working if: INTU holds or recovers 5\u201310% into earnings; earnings beat/forward guidance = clean rebalance and profit-taking.",
+      "\u26a0 Revise if: VIX spikes >16\u201318 on unexpected macro event; exit overbought positions (INTU, TEM) to raise dry powder for panic buys.",
+      "\u26a0 Revise if: INTU drops >30% total or earnings guidance collapses; only then consider a forced exit to limit portfolio drag, violating hold-through-loss rule only under thesis-broken condition.",
+      "\u26a0 Revise if: CB or HRL fail to bounce by RSI 50 after 15 days; exit and redeploy capital to higher-conviction setup."
     ],
-    "generated_at": "2026-08-18T22:54:40.068462"
+    "generated_at": "2026-08-19T22:54:47.585902"
   },
   "history": [
+    {
+      "headline": "Portfolio holding steady with two high-conviction mean-reversion entry points available; deploy remaining $1K into oversold screener names before window closes.",
+      "market_stance": "neutral",
+      "overall_thesis": "VIX at 15.8 and Fear index at 41 create textbook mean-reversion environment. Major losers (INTU, TEM) locked in HOLD per philosophy; focus capital on fresh oversold setups (HRL, CB) that offer asymmetric upside without adding to underwater positions. Next 4\u20138 weeks: let INTU navigate earnings, allow CDNS and MGM to bounce from depressed RSI levels, and capture snap-back moves in HRL/CB before sentiment normalizes.",
+      "priority_actions": [
+        {
+          "rank": 1,
+          "action": "BUY",
+          "ticker": "HRL",
+          "instruction": "Classic mean-reversion entry: HRL pinned near 52-week lows with likely oversold RSI. Allocate $500\u2013600 (6\u20138% of portfolio). Enter on any further weakness or RSI <30. Target hold through first bounce (4\u20136 weeks).",
+          "urgency": "this week"
+        },
+        {
+          "rank": 2,
+          "action": "BUY",
+          "ticker": "CB",
+          "instruction": "Bollinger Band squeeze play with 2+ scrapes of lower band \u2014 persistent Buy signal. Allocate remaining $400\u2013500 (5\u20136% of portfolio). Scale in if CB dips below band or closes below key support level. Mean-reversion target typically 3\u20135 week move.",
+          "urgency": "this week"
+        }
+      ],
+      "biggest_risk": "INTU concentration at 30.1% (exceeds 25% cap) combined with -25.2% loss creates single-stock portfolio drag into earnings. Earnings event within 7 days could trigger volatility; you are locked in HOLD per philosophy, but post-earnings gap risk is material. Rebalance down after stabilization if position rebounds.",
+      "what_to_watch": [
+        "INTU earnings catalyst (within 7 days) \u2014 watch for gap up/down; if thesis breaks (revenue miss + forward guide cut), re-evaluate hold stance post-event",
+        "HRL/CB entry fills and RSI bottoming \u2014 confirm oversold bounce is in motion before committing second tranche",
+        "CDNS RSI at 32.9 (oversold) \u2014 likely bounce candidate; if it rallies back to RSI 50\u201360 over next 2\u20133 weeks, that's healthy mean-reversion confirmation",
+        "MNST RSI 15.4 capitulation extreme \u2014 this is a reversal signal; monitor for first +5% bounce as confirmation before adding"
+      ],
+      "on_course_check": [
+        "\u2713 Plan on track: Two screener opportunities (HRL, CB) offer fresh entry points in neutral volatility environment; deploying $1K into oversold quality keeps dry powder working",
+        "\u2713 Plan on track: HOLD discipline on underwater positions (INTU -25%, TEM -28%) protects against panic selling during temporary weakness",
+        "\u26a0 Revise if: INTU earnings miss badly (revenue miss + cut guidance) \u2014 post-event, reassess if thesis is broken and consider TRIM if it bounces to profitability after the gap. Current 30.1% weight becomes untenable if momentum turns decisively negative",
+        "\u26a0 Revise if: VIX spikes above 20 on geopolitical escalation \u2014 shift to full defensive and pause new buys until volatility stabilizes"
+      ],
+      "generated_at": "2026-08-18T22:54:40.068462",
+      "archived_at": "2026-08-19T22:54:47.586243"
+    },
     {
       "headline": "Portfolio holding steady through mean-reversion thesis; two high-conviction oversold setups available within cash budget.",
       "market_stance": "neutral",
@@ -283,55 +328,6 @@
       ],
       "generated_at": "2026-08-10T23:09:57.883151",
       "archived_at": "2026-08-11T23:21:38.034071"
-    },
-    {
-      "headline": "Portfolio holding steady with $1K dry powder; three oversold mean-reversion setups emerging as VIX complacency creates entry opportunity.",
-      "market_stance": "neutral",
-      "overall_thesis": "Low VIX (14.9) and Fear reading (31) suggest complacency\u2014classic environment for mean-reversion trades into oversold pockets. Thesis: deploy remaining $1K selectively into MNST, D, or CNP (all RSI <40, Bollinger pinned) while defending existing winners (MSFT, KLAC) via trimming. Next 4-8 weeks will hinge on INTU earnings recovery and whether tech rotation away from mega-cap plays.",
-      "priority_actions": [
-        {
-          "rank": 1,
-          "action": "TRIM",
-          "ticker": "MSFT",
-          "instruction": "Sell ~60% of MSFT position (reduce to ~$2,100 value). RSI 78.1 is deeply overbought; +7% profit locked in provides cushion. Exit into strength, redeploy proceeds into oversold opportunities.",
-          "urgency": "immediate"
-        },
-        {
-          "rank": 2,
-          "action": "TRIM",
-          "ticker": "KLAC",
-          "instruction": "Sell ~40% of KLAC position (~$1,850 value). Position is +11.28% profitable in a low-volatility fear market\u2014trim while thesis intact. RSI 46 is neutral; take profits before potential mean-reversion drawdown.",
-          "urgency": "this week"
-        },
-        {
-          "rank": 3,
-          "action": "BUY",
-          "ticker": "MNST",
-          "instruction": "Deploy $400\u2013500 on confirmed dip. RSI 37 (oversold), MACD turning, price hugging lower Bollinger Band. Buy on any intraday weakness; target $1.5\u20132 recovery bounce within 3\u20134 weeks. Entry ~$42\u201344 range.",
-          "urgency": "this week"
-        },
-        {
-          "rank": 4,
-          "action": "BUY",
-          "ticker": "D",
-          "instruction": "Deploy $300\u2013400 on dip. RSI 39.2 (oversold), Bollinger Band squeeze setup, fundamentals sound. Bollinger Band mean-reversion trades work best in low-VIX regimes. Entry ~$78\u201380 range.",
-          "urgency": "this week"
-        }
-      ],
-      "biggest_risk": "INTU down -30.6% and still holding\u2014earnings catalyst is binary. If guidance disappoints, position could drop another 15\u201320% before recovery. Geopolitical data gap also leaves portfolio exposed to unmonitored escalation (VIX spike would hurt oversold mean-reversion trades immediately).",
-      "what_to_watch": [
-        "INTU earnings date and forward guidance (critical thesis test for largest holding)",
-        "WMT earnings in 11 days (small position but potential positive catalyst)",
-        "MSFT and KLAC trim execution\u2014lock profits while overbought/neutral before rotations",
-        "Geopolitical headlines\u2014obtain current news sources to assess risk before deploying remaining cash",
-        "VIX spike above 18\u2014would invalidate low-volatility mean-reversion thesis and trigger risk-off rotation"
-      ],
-      "on_course_check": [
-        "\u2713 Plan working: MSFT/KLAC trimming into overbought strength; maintaining INTU hold through -30% drawdown per philosophy",
-        "\u26a0 Revise if: INTU earnings miss badly OR geopolitical tensions escalate (would justify raising cash further and deferring MNST/D entry)"
-      ],
-      "generated_at": "2026-08-09T23:03:01.861038",
-      "archived_at": "2026-08-10T23:09:57.883491"
     }
   ]
 }

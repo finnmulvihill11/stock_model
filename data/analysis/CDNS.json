@@ -11,16 +11,16 @@
       "MACD: no bullish crossover or valley",
       "RSI Divergence: no bullish divergence detected",
       "200MA: price below 200MA \u2014 potential falling knife",
-      "Volume: below average (0.69x) \u2014 low conviction"
+      "Volume: below average (0.76x) \u2014 low conviction"
     ],
-    "price": 316.52,
-    "rsi": 32.9,
-    "atr": 10.58,
+    "price": 314.98,
+    "rsi": 32.1,
+    "atr": 10.12,
     "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 1,
-      "suggested_dollars": 316.52,
-      "note": "1 sh @ $316.52 = $317 (Hold, 60% size) | $1,521 swing budget after"
+      "suggested_dollars": 314.98,
+      "note": "1 sh @ $314.98 = $315 (Hold, 60% size) | $1,522 swing budget after"
     }
   },
   "fundamentals": {
@@ -49,7 +49,7 @@
       ],
       "earnings_status": "past",
       "next_earnings_date": "2026-07-27",
-      "days_to_earnings": -22
+      "days_to_earnings": -23
     }
   },
   "news": {
@@ -57,34 +57,33 @@
     "sentiment": "neutral",
     "health": "healthy",
     "key_events": [
-      "Earnings reported 22 days ago (post-earnings volatility likely settling)",
-      "Stock down 6.36% from entry, approaching minor support",
-      "RSI at 32.9 indicates oversold conditions (potential bounce zone)",
-      "No active technical signals firing; consolidation phase"
+      "No recent news items available for analysis",
+      "Earnings reported 23 days ago (past cycle)",
+      "Position down 6.82% from entry"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "Recent post-earnings selloff suggests market disappointment or sector rotation",
-      "9% portfolio weight elevated for swing position with no bullish catalysts yet",
-      "Fear sentiment in broader market (F&G) may weigh on semiconductor/design tools sector"
+      "RSI at 32.1 indicates oversold conditions but no reversal signals firing yet",
+      "Fear gauge active despite low VIX (14.9) \u2014 potential divergence warning",
+      "No technical buy signals confirmed; holding in weakness without confirmation"
     ],
-    "verdict": "CDNS is oversold but lacks immediate catalysts; hold through recovery or accumulation zone while monitoring RSI bounce.",
+    "verdict": "CDNS fundamentals remain healthy, but technical weakness and lack of bullish confirmation warrant disciplined holding with clear exit parameters.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "CDNS",
-    "stock_return_3m": -8.52,
-    "benchmark_return_3m": 4.17,
-    "relative_strength": -12.68,
+    "stock_return_3m": -6.84,
+    "benchmark_return_3m": 5.09,
+    "relative_strength": -11.93,
     "label": "underperforming"
   },
   "final_tier": "Hold",
   "sizing": {
     "suggested_shares": 1,
-    "suggested_dollars": 316.52,
-    "note": "1 sh @ $316.52 = $317 (Hold, 60% size) | $1,521 swing budget after"
+    "suggested_dollars": 314.98,
+    "note": "1 sh @ $314.98 = $315 (Hold, 60% size) | $1,522 swing budget after"
   },
   "is_dca": false,
-  "saved_at": "2026-08-18T22:53:54.775032"
+  "saved_at": "2026-08-19T22:53:59.015564"
 }

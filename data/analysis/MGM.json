@@ -2,24 +2,30 @@
   "ticker": "MGM",
   "signal": {
     "ticker": "MGM",
-    "direction": "hold",
-    "tier": "Hold",
-    "buy_score": 0.62,
+    "direction": "buy",
+    "tier": "Buy",
+    "buy_score": 0.75,
     "sell_score": 0.14,
-    "reasons": [],
-    "misses": [
-      "MACD: no bullish crossover or valley",
-      "RSI Divergence: no bullish divergence detected",
-      "Volume: below average (0.66x) \u2014 low conviction"
+    "reasons": [
+      "BB: price near lower band (pct=0.13)",
+      "BB Width: squeeze active (width=0.0917)",
+      "RSI: oversold zone (37.0)",
+      "MACD: histogram at valley / turning up",
+      "200MA: price at/above 200MA (43.22 vs 38.78)",
+      "Golden cross: 50MA (46.29) above 200MA (38.78)"
     ],
-    "price": 43.32,
-    "rsi": 37.2,
-    "atr": 0.96,
-    "final_tier": "Hold",
+    "misses": [
+      "RSI Divergence: no bullish divergence detected",
+      "Volume: below average (0.71x) \u2014 low conviction"
+    ],
+    "price": 43.22,
+    "rsi": 37.0,
+    "atr": 0.92,
+    "final_tier": "Buy",
     "sizing": {
       "suggested_shares": 7,
-      "suggested_dollars": 303.24,
-      "note": "7 sh @ $43.32 = $303 (Hold, 60% size) | $1,534 swing budget after"
+      "suggested_dollars": 302.54,
+      "note": "7 sh @ $43.22 = $303 (Buy, 60% size) | $1,535 swing budget after"
     }
   },
   "fundamentals": {
@@ -49,7 +55,7 @@
       ],
       "earnings_status": "past",
       "next_earnings_date": "2026-07-29",
-      "days_to_earnings": -20
+      "days_to_earnings": -21
     }
   },
   "news": {
@@ -57,35 +63,34 @@
     "sentiment": "neutral",
     "health": "neutral",
     "key_events": [
-      "Position down only -1.63%, well within swing trading volatility",
-      "RSI at 37.2 indicates oversold conditions but no confirmation signals firing",
-      "Earnings passed 20 days ago with no immediate catalyst visibility",
-      "VIX at 15.8 suggests market stability, reducing volatility headwinds"
+      "Price testing lower Bollinger Band with squeeze active - potential mean reversion setup",
+      "RSI 37 indicates oversold conditions",
+      "Earnings reported 21 days ago - volatility likely to normalize",
+      "Low VIX (14.9) suggests market complacency; MGM sensitivity to risk-off events elevated"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "High debt-to-equity ratio of 8.9x limits downside protection and recovery optionality",
-      "No technical firing signals despite oversold RSI suggests weak buying conviction",
-      "Fear sentiment in broader market may pressurize cyclical hospitality sector",
-      "Moderate geopolitical risk could impact travel/gaming demand"
+      "High debt-to-equity ratio (8.9x) creates leverage risk in market downturns",
+      "No news flow to support recovery - silence during oversold conditions is concerning",
+      "Already down 1.86% on small position; further weakness could compound"
     ],
-    "verdict": "MGM is in neutral territory with oversold technicals but insufficient bullish confirmation; manageable loss allows disciplined hold for mean reversion or technical breakout.",
+    "verdict": "MGM presents a technical bounce opportunity from oversold levels, but elevated leverage and lack of catalysts warrant cautious positioning given low-volatility environment.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "MGM",
-    "stock_return_3m": 16.8,
-    "benchmark_return_3m": 4.17,
-    "relative_strength": 12.63,
+    "stock_return_3m": 17.41,
+    "benchmark_return_3m": 5.09,
+    "relative_strength": 12.33,
     "label": "outperforming"
   },
-  "final_tier": "Hold",
+  "final_tier": "Buy",
   "sizing": {
     "suggested_shares": 7,
-    "suggested_dollars": 303.24,
-    "note": "7 sh @ $43.32 = $303 (Hold, 60% size) | $1,534 swing budget after"
+    "suggested_dollars": 302.54,
+    "note": "7 sh @ $43.22 = $303 (Buy, 60% size) | $1,535 swing budget after"
   },
   "is_dca": false,
-  "saved_at": "2026-08-18T22:54:02.964205"
+  "saved_at": "2026-08-19T22:54:06.815538"
 }

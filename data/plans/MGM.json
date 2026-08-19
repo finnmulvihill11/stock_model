@@ -1,21 +1,38 @@
 {
   "current": {
     "ticker": "MGM",
-    "company_name": "MGM Resorts International",
+    "company_name": "MGM",
     "action": "Hold",
-    "action_reason": "Position is down only -1.63% (far below 15% hold-through threshold) with RSI at 37.2 showing oversold potential. Wait for RSI bounce + volume confirmation or technical firing signal before adding; no urgency to exit a small loss in neutral market conditions.",
+    "action_reason": "Position down only 1.86% (well within acceptable drawdown). Technical setup (BB squeeze + oversold RSI) suggests mean reversion potential over next 2-4 weeks. Avoid selling on weakness.",
     "target_price": 46.5,
     "target_reasoning": "",
-    "exit_trigger": "Break below $41.50 (10% loss) with confirmed break of technical support and volume; OR close above $46+ on RSI divergence confirming recovery momentum",
-    "add_trigger": "RSI bounces above 45 with volume spike + price holds above $42.80 intraday support; signals trapped shorts covering",
-    "risk": "High leverage (8.9x D/E) amplifies drawdown risk if gaming/travel demand deteriorates; geopolitical escalation could crush discretionary spending",
+    "exit_trigger": "Break below $41.50 (support) OR VIX spike above 20 with sector rotation away from discretionary",
+    "add_trigger": "Price holds $42.50 support AND RSI bounces above 45 on volume",
+    "risk": "High leverage (8.9x D/E) amplifies downside in risk-off scenarios; VIX complacency could reverse sharply given macro uncertainty",
     "outlook": "cautious",
-    "timeframe": "2-4 weeks for technical mean reversion; reassess if no RSI bounce signal by week 2",
-    "generated_at": "2026-08-18T22:54:02.963437",
-    "price_at_generation": 43.32,
-    "pnl_at_generation": -1.63
+    "timeframe": "2-4 weeks",
+    "generated_at": "2026-08-19T22:54:06.814587",
+    "price_at_generation": 43.22,
+    "pnl_at_generation": -1.86
   },
   "history": [
+    {
+      "ticker": "MGM",
+      "company_name": "MGM Resorts International",
+      "action": "Hold",
+      "action_reason": "Position is down only -1.63% (far below 15% hold-through threshold) with RSI at 37.2 showing oversold potential. Wait for RSI bounce + volume confirmation or technical firing signal before adding; no urgency to exit a small loss in neutral market conditions.",
+      "target_price": 46.5,
+      "target_reasoning": "",
+      "exit_trigger": "Break below $41.50 (10% loss) with confirmed break of technical support and volume; OR close above $46+ on RSI divergence confirming recovery momentum",
+      "add_trigger": "RSI bounces above 45 with volume spike + price holds above $42.80 intraday support; signals trapped shorts covering",
+      "risk": "High leverage (8.9x D/E) amplifies drawdown risk if gaming/travel demand deteriorates; geopolitical escalation could crush discretionary spending",
+      "outlook": "cautious",
+      "timeframe": "2-4 weeks for technical mean reversion; reassess if no RSI bounce signal by week 2",
+      "generated_at": "2026-08-18T22:54:02.963437",
+      "price_at_generation": 43.32,
+      "pnl_at_generation": -1.63,
+      "archived_at": "2026-08-19T22:54:06.814850"
+    },
     {
       "ticker": "MGM",
       "company_name": "MGM Resorts International",
@@ -117,23 +134,6 @@
       "price_at_generation": 43.36,
       "pnl_at_generation": -2.41,
       "archived_at": "2026-08-11T23:21:07.929951"
-    },
-    {
-      "ticker": "MGM",
-      "company_name": "MGM Resorts International",
-      "action": "Hold",
-      "action_reason": "Position is profitable (+0.09%) with emerging bullish technicals (MACD turning, BB squeeze setup). Wait for price to confirm breakout above BB upper band or RSI >50 before adding, given high debt burden and neutral fundamentals.",
-      "target_price": 46.5,
-      "target_reasoning": "",
-      "exit_trigger": "Break below $43.20 (recent swing low) with volume; or if RSI falls back below 35 after failing to hold above 50",
-      "add_trigger": "Price closes above upper Bollinger Band ($45.80) with RSI confirmation >55, signaling squeeze breakout",
-      "risk": "High financial leverage (8.9x D/E) amplifies downside risk in market stress; gaming sector sensitivity to consumer spending slowdown",
-      "outlook": "short",
-      "timeframe": "2-4 weeks to confirm MACD/BB breakout or rejection",
-      "generated_at": "2026-08-09T23:02:47.940710",
-      "price_at_generation": 44.47,
-      "pnl_at_generation": 0.09,
-      "archived_at": "2026-08-10T23:09:45.818974"
     }
   ]
 }
