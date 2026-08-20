@@ -8,19 +8,19 @@
     "sell_score": 0.0,
     "reasons": [],
     "misses": [
-      "BB: price not near lower band (pct=0.29)",
+      "BB: price not near lower band (pct=0.28)",
       "BB Width: bands expanding, not squeezing",
       "RSI Divergence: no bullish divergence detected",
-      "Volume: below average (0.61x) \u2014 low conviction"
+      "Volume: below average (0.94x) \u2014 low conviction"
     ],
-    "price": 40.4,
-    "rsi": 35.9,
-    "atr": 0.83,
+    "price": 40.2,
+    "rsi": 34.4,
+    "atr": 0.87,
     "final_tier": "Hold",
     "sizing": {
-      "suggested_shares": 8,
-      "suggested_dollars": 323.2,
-      "note": "8 sh @ $40.40 = $323 (Hold, 60% size) | $1,514 swing budget after"
+      "suggested_shares": 7,
+      "suggested_dollars": 281.4,
+      "note": "7 sh @ $40.20 = $281 (Hold, 60% size) | $1,470 swing budget after"
     }
   },
   "fundamentals": {
@@ -50,7 +50,7 @@
       ],
       "earnings_status": "past",
       "next_earnings_date": "2026-07-28",
-      "days_to_earnings": -22
+      "days_to_earnings": -23
     }
   },
   "news": {
@@ -58,35 +58,34 @@
     "sentiment": "neutral",
     "health": "neutral",
     "key_events": [
-      "Earnings reported 22 days ago",
-      "VIX at 14.9 indicating low volatility environment",
-      "No recent news catalysts identified"
+      "Earnings reported 23 days ago",
+      "VIX at 16.0 indicating calm market conditions",
+      "Fear & Greed Index in Greed territory"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "High debt-to-equity ratio of 2.1x increases financial risk",
-      "RSI at 35.9 suggests oversold conditions but weak momentum",
+      "High debt-to-equity ratio of 2.1x creates refinancing risk in rising rate environment",
+      "RSI at 34.4 suggests oversold conditions but no recent momentum to confirm reversal",
       "No technical firing signals despite oversold RSI",
-      "Utilities typically underperform in low-volatility, risk-on environments",
-      "Fear gauge active despite low VIX - potential disconnect"
+      "Utility sector typically vulnerable to rate hikes given high leverage"
     ],
-    "verdict": "CNP is a defensive utility holding in a complacent market; maintain current position but monitor for weakness given high leverage and lack of bullish technicals.",
+    "verdict": "CNP is in a holding pattern with weak technicals and elevated leverage, suitable only for swing traders with patience for utility sector mean reversion.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "CNP",
-    "stock_return_3m": -2.19,
-    "benchmark_return_3m": 5.09,
-    "relative_strength": -7.27,
+    "stock_return_3m": -3.12,
+    "benchmark_return_3m": 3.15,
+    "relative_strength": -6.26,
     "label": "underperforming"
   },
   "final_tier": "Hold",
   "sizing": {
-    "suggested_shares": 8,
-    "suggested_dollars": 323.2,
-    "note": "8 sh @ $40.40 = $323 (Hold, 60% size) | $1,514 swing budget after"
+    "suggested_shares": 7,
+    "suggested_dollars": 281.4,
+    "note": "7 sh @ $40.20 = $281 (Hold, 60% size) | $1,470 swing budget after"
   },
   "is_dca": false,
-  "saved_at": "2026-08-19T22:54:14.782718"
+  "saved_at": "2026-08-20T22:57:43.481540"
 }

@@ -3,19 +3,36 @@
     "ticker": "TEM",
     "company_name": "Tempus AI, Inc.",
     "action": "Hold",
-    "action_reason": "Your philosophy mandates holding positions down >15%. However, this is a forced hold on deteriorating fundamentals\u2014not a conviction hold. Monitor closely for the exit trigger below.",
+    "action_reason": "Loss is only -3.52%, well below the 15% threshold where position recovery discipline applies. Avoid crystallizing loss on a deteriorating fundamental story without sufficient downside pressure. Monitor for stabilization or capitulation signal.",
     "target_price": null,
     "target_reasoning": "",
-    "exit_trigger": "Break below $55 (10% further loss) OR positive operating cash flow announcement + profitable quarter + debt reduction plan",
-    "add_trigger": "Do NOT add. Fundamentals must improve first: path to profitability + positive OCF + debt management visible",
-    "risk": "Continued cash burn, leverage amplification if stock falls further, potential dilution from financing needs, no profitability timeline",
+    "exit_trigger": "Break below $62.50 (15% stop loss) OR positive earnings revision with revenue acceleration + operating cash flow inflection",
+    "add_trigger": "Stock rallies to $72+ on volume AND RSI resets below 50 showing institutional re-entry; only if debt refinancing or profitability roadmap announced",
+    "risk": "Continued cash burn, potential dilution if debt spirals, and weakening growth post-earnings miss",
     "outlook": "cautious",
-    "timeframe": "2-4 weeks to reassess; earnings cycle will be critical",
-    "generated_at": "2026-08-19T22:53:51.979191",
-    "price_at_generation": 61.25,
-    "pnl_at_generation": -11.33
+    "timeframe": "4-8 weeks",
+    "generated_at": "2026-08-20T22:57:23.655336",
+    "price_at_generation": 66.65,
+    "pnl_at_generation": -3.52
   },
   "history": [
+    {
+      "ticker": "TEM",
+      "company_name": "Tempus AI, Inc.",
+      "action": "Hold",
+      "action_reason": "Your philosophy mandates holding positions down >15%. However, this is a forced hold on deteriorating fundamentals\u2014not a conviction hold. Monitor closely for the exit trigger below.",
+      "target_price": null,
+      "target_reasoning": "",
+      "exit_trigger": "Break below $55 (10% further loss) OR positive operating cash flow announcement + profitable quarter + debt reduction plan",
+      "add_trigger": "Do NOT add. Fundamentals must improve first: path to profitability + positive OCF + debt management visible",
+      "risk": "Continued cash burn, leverage amplification if stock falls further, potential dilution from financing needs, no profitability timeline",
+      "outlook": "cautious",
+      "timeframe": "2-4 weeks to reassess; earnings cycle will be critical",
+      "generated_at": "2026-08-19T22:53:51.979191",
+      "price_at_generation": 61.25,
+      "pnl_at_generation": -11.33,
+      "archived_at": "2026-08-20T22:57:23.655565"
+    },
     {
       "ticker": "TEM",
       "company_name": "Tempus AI, Inc.",
@@ -117,23 +134,6 @@
       "price_at_generation": 55.69,
       "pnl_at_generation": -19.38,
       "archived_at": "2026-08-12T23:18:56.419314"
-    },
-    {
-      "ticker": "TEM",
-      "company_name": "Tempus AI, Inc.",
-      "action": "Hold",
-      "action_reason": "Position is down 20.3%, triggering your philosophy to hold through major losses. However, monitor for cash flow deterioration or debt covenant risks that would constitute a fundamental break requiring exit regardless of loss magnitude.",
-      "target_price": null,
-      "target_reasoning": "",
-      "exit_trigger": "Stock breaks below $50 with volume spike, or news of funding crisis/debt restructuring emerges",
-      "add_trigger": "Do not add \u2014 unprofitable, cash-flow negative names are too risky on weakness",
-      "risk": "Continued cash burn and debt servicing pressure could force dilutive financing or restructuring; swing recovery unlikely given fundamentals",
-      "outlook": "cautious",
-      "timeframe": "3-6 weeks (monitor earnings follow-up guidance; AI hype cycle may provide temporary relief, but fundamentals must improve)",
-      "generated_at": "2026-08-10T23:09:24.718641",
-      "price_at_generation": 55.06,
-      "pnl_at_generation": -20.3,
-      "archived_at": "2026-08-11T23:20:49.159016"
     }
   ]
 }

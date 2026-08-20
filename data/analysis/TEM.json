@@ -5,23 +5,23 @@
     "direction": "hold",
     "tier": "Hold",
     "buy_score": 0.38,
-    "sell_score": 0.43,
+    "sell_score": 0.57,
     "reasons": [],
     "misses": [
-      "BB: price not near lower band (pct=1.07)",
+      "BB: price not near lower band (pct=1.13)",
       "BB Width: bands expanding, not squeezing",
-      "RSI: not in buy zone (65.7, need 20-40)",
+      "RSI: not in buy zone (70.7, need 20-40)",
       "MACD: no bullish crossover or valley",
       "RSI Divergence: no bullish divergence detected"
     ],
-    "price": 61.25,
-    "rsi": 65.7,
-    "atr": 3.91,
+    "price": 66.65,
+    "rsi": 70.7,
+    "atr": 4.18,
     "final_tier": "Hold",
     "sizing": {
-      "suggested_shares": 5,
-      "suggested_dollars": 306.25,
-      "note": "5 sh @ $61.25 = $306 (Hold, 60% size) | $1,531 swing budget after"
+      "suggested_shares": 4,
+      "suggested_dollars": 266.6,
+      "note": "4 sh @ $66.65 = $267 (Hold, 60% size) | $1,485 swing budget after"
     }
   },
   "fundamentals": {
@@ -50,44 +50,39 @@
       ],
       "earnings_status": "past",
       "next_earnings_date": "2026-07-30",
-      "days_to_earnings": -20
+      "days_to_earnings": -21
     }
   },
   "news": {
     "ticker": "TEM",
     "sentiment": "negative",
     "health": "deteriorating",
-    "key_events": [
-      "Post-earnings period (-20d) with no follow-up catalyst",
-      "RSI at 65.7 suggests overbought conditions despite price decline",
-      "VIX at 14.9 indicates low volatility environment masking underlying weakness"
-    ],
+    "key_events": [],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "Debt-to-equity at 3.2x \u2014 high leverage risk in volatile market",
-      "Negative operating cash flow \u2014 company burning cash",
-      "Not profitable \u2014 no earnings cushion",
-      "Down 11.33% already with deteriorating fundamentals",
-      "No positive news catalysts visible",
-      "RSI elevated despite downtrend suggests weak momentum structure"
+      "High debt-to-equity ratio (3.2x) indicates elevated financial leverage",
+      "Not profitable with negative operating cash flow \u2014 unsustainable burn rate",
+      "RSI at 70.7 suggests overbought conditions despite recent decline",
+      "Earnings missed expectations 21 days ago, triggering downside move",
+      "No recent news catalysts to support recovery narrative"
     ],
-    "verdict": "TEM exhibits fundamental deterioration with high financial risk; position is a major structural concern despite swing trading constraints.",
+    "verdict": "Tempus AI shows fundamental deterioration with negative cash flow and high leverage, but position loss of -3.52% falls below the 15% hold-through threshold, warranting a disciplined hold pending recovery or a clear catalyst.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "TEM",
-    "stock_return_3m": 34.53,
-    "benchmark_return_3m": 5.09,
-    "relative_strength": 29.44,
+    "stock_return_3m": 45.27,
+    "benchmark_return_3m": 3.15,
+    "relative_strength": 42.12,
     "label": "outperforming"
   },
   "final_tier": "Hold",
   "sizing": {
-    "suggested_shares": 5,
-    "suggested_dollars": 306.25,
-    "note": "5 sh @ $61.25 = $306 (Hold, 60% size) | $1,531 swing budget after"
+    "suggested_shares": 4,
+    "suggested_dollars": 266.6,
+    "note": "4 sh @ $66.65 = $267 (Hold, 60% size) | $1,485 swing budget after"
   },
   "is_dca": false,
-  "saved_at": "2026-08-19T22:53:51.980133"
+  "saved_at": "2026-08-20T22:57:23.656212"
 }

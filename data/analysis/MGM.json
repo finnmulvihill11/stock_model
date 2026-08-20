@@ -7,25 +7,25 @@
     "buy_score": 0.75,
     "sell_score": 0.14,
     "reasons": [
-      "BB: price near lower band (pct=0.13)",
-      "BB Width: squeeze active (width=0.0917)",
-      "RSI: oversold zone (37.0)",
+      "BB: price near lower band (pct=0.15)",
+      "BB Width: squeeze active (width=0.0905)",
+      "RSI: oversold zone (36.7)",
       "MACD: histogram at valley / turning up",
-      "200MA: price at/above 200MA (43.22 vs 38.78)",
-      "Golden cross: 50MA (46.29) above 200MA (38.78)"
+      "200MA: price at/above 200MA (43.17 vs 38.83)",
+      "Golden cross: 50MA (46.19) above 200MA (38.83)"
     ],
     "misses": [
       "RSI Divergence: no bullish divergence detected",
-      "Volume: below average (0.71x) \u2014 low conviction"
+      "Volume: below average (0.61x) \u2014 low conviction"
     ],
-    "price": 43.22,
-    "rsi": 37.0,
-    "atr": 0.92,
+    "price": 43.17,
+    "rsi": 36.7,
+    "atr": 0.88,
     "final_tier": "Buy",
     "sizing": {
       "suggested_shares": 7,
-      "suggested_dollars": 302.54,
-      "note": "7 sh @ $43.22 = $303 (Buy, 60% size) | $1,535 swing budget after"
+      "suggested_dollars": 302.19,
+      "note": "7 sh @ $43.17 = $302 (Buy, 60% size) | $1,449 swing budget after"
     }
   },
   "fundamentals": {
@@ -55,7 +55,7 @@
       ],
       "earnings_status": "past",
       "next_earnings_date": "2026-07-29",
-      "days_to_earnings": -21
+      "days_to_earnings": -22
     }
   },
   "news": {
@@ -63,34 +63,33 @@
     "sentiment": "neutral",
     "health": "neutral",
     "key_events": [
-      "Price testing lower Bollinger Band with squeeze active - potential mean reversion setup",
-      "RSI 37 indicates oversold conditions",
-      "Earnings reported 21 days ago - volatility likely to normalize",
-      "Low VIX (14.9) suggests market complacency; MGM sensitivity to risk-off events elevated"
+      "Earnings reported 22 days ago",
+      "Bollinger Band squeeze active with price near lower band",
+      "RSI deeply oversold at 36.7"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "High debt-to-equity ratio (8.9x) creates leverage risk in market downturns",
-      "No news flow to support recovery - silence during oversold conditions is concerning",
-      "Already down 1.86% on small position; further weakness could compound"
+      "High debt-to-equity ratio (8.9x) limits financial flexibility",
+      "No recent positive catalyst or news flow",
+      "Position down 1.24% in small timeframe suggests ongoing weakness"
     ],
-    "verdict": "MGM presents a technical bounce opportunity from oversold levels, but elevated leverage and lack of catalysts warrant cautious positioning given low-volatility environment.",
+    "verdict": "MGM shows classic oversold reversal setup with technical compression, but weak fundamentals and lack of near-term catalysts require patience before escalating conviction.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "MGM",
-    "stock_return_3m": 17.41,
-    "benchmark_return_3m": 5.09,
-    "relative_strength": 12.33,
+    "stock_return_3m": 16.77,
+    "benchmark_return_3m": 3.15,
+    "relative_strength": 13.63,
     "label": "outperforming"
   },
   "final_tier": "Buy",
   "sizing": {
     "suggested_shares": 7,
-    "suggested_dollars": 302.54,
-    "note": "7 sh @ $43.22 = $303 (Buy, 60% size) | $1,535 swing budget after"
+    "suggested_dollars": 302.19,
+    "note": "7 sh @ $43.17 = $302 (Buy, 60% size) | $1,449 swing budget after"
   },
   "is_dca": false,
-  "saved_at": "2026-08-19T22:54:06.815538"
+  "saved_at": "2026-08-20T22:57:37.232506"
 }

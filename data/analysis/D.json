@@ -5,23 +5,23 @@
     "direction": "hold",
     "tier": "Hold",
     "buy_score": 0.38,
-    "sell_score": 0.0,
+    "sell_score": 0.14,
     "reasons": [],
     "misses": [
-      "BB: price not near lower band (pct=0.37)",
-      "BB Width: bands expanding, not squeezing",
-      "RSI: not in buy zone (46.2, need 20-40)",
+      "BB: price not near lower band (pct=0.23)",
+      "RSI: not in buy zone (40.9, need 20-40)",
+      "MACD: no bullish crossover or valley",
       "RSI Divergence: no bullish divergence detected",
-      "Volume: below average (0.78x) \u2014 low conviction"
+      "Volume: below average (0.91x) \u2014 low conviction"
     ],
-    "price": 68.29,
-    "rsi": 46.2,
-    "atr": 1.17,
+    "price": 67.47,
+    "rsi": 40.9,
+    "atr": 1.19,
     "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 4,
-      "suggested_dollars": 273.16,
-      "note": "4 sh @ $68.29 = $273 (Hold, 60% size) | $1,564 swing budget after"
+      "suggested_dollars": 269.88,
+      "note": "4 sh @ $67.47 = $270 (Hold, 60% size) | $1,482 swing budget after"
     }
   },
   "fundamentals": {
@@ -51,7 +51,7 @@
       ],
       "earnings_status": "past",
       "next_earnings_date": "2026-07-31",
-      "days_to_earnings": -19
+      "days_to_earnings": -20
     }
   },
   "news": {
@@ -59,35 +59,34 @@
     "sentiment": "neutral",
     "health": "neutral",
     "key_events": [
-      "Earnings reported 19 days ago",
-      "VIX at 14.9 indicating market complacency",
-      "No recent news catalysts identified"
+      "Earnings reported 20 days ago (results not specified)",
+      "VIX at 16.0 indicating stable market conditions",
+      "Fear & Greed Index at Greed suggests elevated equity valuations"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "High debt-to-equity ratio (1.6x) limits financial flexibility",
-      "RSI at 46.2 shows no momentum in either direction",
-      "Minimal price movement despite holding for swing trade",
-      "No technical firing signals present",
-      "Earnings already in rear-view mirror (stale catalyst)"
+      "High debt-to-equity ratio of 1.6x limits financial flexibility",
+      "RSI at 40.9 approaching oversold territory (30) but not yet triggered",
+      "Position down 1.19% with no technical firing signals",
+      "No recent news catalysts to drive reversal"
     ],
-    "verdict": "Position is treading water with no catalysts or technical conviction\u2014unsuitable for active swing trading.",
+    "verdict": "Dominion Energy shows neutral technicals and fundamentals with elevated leverage; suitable for swing holding given small drawdown and utility defensive characteristics.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "D",
-    "stock_return_3m": 11.73,
-    "benchmark_return_3m": 5.09,
-    "relative_strength": 6.65,
-    "label": "outperforming"
+    "stock_return_3m": 0.87,
+    "benchmark_return_3m": 3.15,
+    "relative_strength": -2.28,
+    "label": "in-line"
   },
   "final_tier": "Hold",
   "sizing": {
     "suggested_shares": 4,
-    "suggested_dollars": 273.16,
-    "note": "4 sh @ $68.29 = $273 (Hold, 60% size) | $1,564 swing budget after"
+    "suggested_dollars": 269.88,
+    "note": "4 sh @ $67.47 = $270 (Hold, 60% size) | $1,482 swing budget after"
   },
   "is_dca": false,
-  "saved_at": "2026-08-19T22:54:29.617102"
+  "saved_at": "2026-08-20T22:57:55.720529"
 }

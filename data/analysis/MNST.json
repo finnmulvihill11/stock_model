@@ -4,23 +4,24 @@
     "ticker": "MNST",
     "direction": "hold",
     "tier": "Hold",
-    "buy_score": 0.5,
+    "buy_score": 0.38,
     "sell_score": 0.14,
     "reasons": [],
     "misses": [
+      "BB: price not near lower band (pct=0.21)",
       "BB Width: bands expanding, not squeezing",
-      "RSI: not in buy zone (15.3, need 20-40)",
+      "RSI: not in buy zone (15.4, need 20-40)",
       "RSI Divergence: no bullish divergence detected",
       "200MA: price below 200MA \u2014 potential falling knife"
     ],
-    "price": 47.43,
-    "rsi": 15.3,
-    "atr": 5.04,
+    "price": 47.49,
+    "rsi": 15.4,
+    "atr": 4.97,
     "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 6,
-      "suggested_dollars": 284.58,
-      "note": "6 sh @ $47.43 = $285 (Hold, 60% size) | $1,553 swing budget after"
+      "suggested_dollars": 284.94,
+      "note": "6 sh @ $47.49 = $285 (Hold, 60% size) | $1,467 swing budget after"
     }
   },
   "fundamentals": {
@@ -49,7 +50,7 @@
       ],
       "earnings_status": "past",
       "next_earnings_date": "2026-08-06",
-      "days_to_earnings": -13
+      "days_to_earnings": -14
     }
   },
   "news": {
@@ -57,35 +58,33 @@
     "sentiment": "neutral",
     "health": "healthy",
     "key_events": [
-      "Earnings reported 13 days ago",
-      "Position up +3.0% with modest weight (2.7%)",
-      "RSI extremely depressed at 15.3 (oversold territory)",
-      "Market environment: low VIX (14.9) = complacency, elevated correction risk"
+      "Earnings reported 14 days ago",
+      "RSI deeply oversold at 15.4 suggesting potential reversal setup",
+      "Position +3.13% despite market consolidation"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "No recent news/catalysts visible \u2014 information void",
-      "RSI 15.3 suggests selling exhaustion but also potential reversal weakness",
-      "Fear gauge active despite low VIX \u2014 sentiment divergence",
-      "Post-earnings period (13 days) \u2014 volatility may re-expand"
+      "No recent news flow\u2014information vacuum increases uncertainty",
+      "RSI 15.4 is extreme oversold but no bullish confirmation yet",
+      "Earnings already digested; next catalyst unclear"
     ],
-    "verdict": "Small profitable swing with healthy fundamentals but missing catalysts; hold for target or defined exit, avoid greed-driven extension.",
+    "verdict": "MNST is oversold with healthy fundamentals, but lack of news and post-earnings timing create a waiting period before swing setup confirmation.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "MNST",
-    "stock_return_3m": -45.54,
-    "benchmark_return_3m": 5.09,
-    "relative_strength": -50.62,
+    "stock_return_3m": -46.36,
+    "benchmark_return_3m": 3.15,
+    "relative_strength": -49.51,
     "label": "underperforming"
   },
   "final_tier": "Hold",
   "sizing": {
     "suggested_shares": 6,
-    "suggested_dollars": 284.58,
-    "note": "6 sh @ $47.43 = $285 (Hold, 60% size) | $1,553 swing budget after"
+    "suggested_dollars": 284.94,
+    "note": "6 sh @ $47.49 = $285 (Hold, 60% size) | $1,467 swing budget after"
   },
   "is_dca": false,
-  "saved_at": "2026-08-19T22:54:22.301529"
+  "saved_at": "2026-08-20T22:57:49.600288"
 }
