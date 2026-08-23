@@ -2,30 +2,25 @@
   "ticker": "MGM",
   "signal": {
     "ticker": "MGM",
-    "direction": "buy",
-    "tier": "Buy",
-    "buy_score": 0.75,
+    "direction": "hold",
+    "tier": "Hold",
+    "buy_score": 0.5,
     "sell_score": 0.14,
-    "reasons": [
-      "BB: price near lower band (pct=0.15)",
-      "BB Width: squeeze active (width=0.0905)",
-      "RSI: oversold zone (36.7)",
-      "MACD: histogram at valley / turning up",
-      "200MA: price at/above 200MA (43.17 vs 38.83)",
-      "Golden cross: 50MA (46.19) above 200MA (38.83)"
-    ],
+    "reasons": [],
     "misses": [
+      "BB: price not near lower band (pct=0.32)",
+      "RSI: not in buy zone (42.4, need 20-40)",
       "RSI Divergence: no bullish divergence detected",
-      "Volume: below average (0.61x) \u2014 low conviction"
+      "Volume: below average (0.80x) \u2014 low conviction"
     ],
-    "price": 43.17,
-    "rsi": 36.7,
-    "atr": 0.88,
-    "final_tier": "Buy",
+    "price": 43.74,
+    "rsi": 42.4,
+    "atr": 0.85,
+    "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 7,
-      "suggested_dollars": 302.19,
-      "note": "7 sh @ $43.17 = $302 (Buy, 60% size) | $1,449 swing budget after"
+      "suggested_dollars": 306.18,
+      "note": "7 sh @ $43.74 = $306 (Hold, 60% size) | $1,445 swing budget after"
     }
   },
   "fundamentals": {
@@ -55,7 +50,7 @@
       ],
       "earnings_status": "past",
       "next_earnings_date": "2026-07-29",
-      "days_to_earnings": -22
+      "days_to_earnings": -25
     }
   },
   "news": {
@@ -63,33 +58,34 @@
     "sentiment": "neutral",
     "health": "neutral",
     "key_events": [
-      "Earnings reported 22 days ago",
-      "Bollinger Band squeeze active with price near lower band",
-      "RSI deeply oversold at 36.7"
+      "Earnings reported 25 days ago",
+      "VIX at 15.1 suggests stable market conditions",
+      "Market in 'Greed' phase - potential euphoria/overvaluation risk"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "High debt-to-equity ratio (8.9x) limits financial flexibility",
-      "No recent positive catalyst or news flow",
-      "Position down 1.24% in small timeframe suggests ongoing weakness"
+      "High debt-to-equity ratio of 8.9x indicates significant leverage and financial risk",
+      "RSI at 42.4 shows weakness without clear bullish momentum",
+      "No recent positive news catalysts visible",
+      "Post-earnings period with no directional conviction"
     ],
-    "verdict": "MGM shows classic oversold reversal setup with technical compression, but weak fundamentals and lack of near-term catalysts require patience before escalating conviction.",
+    "verdict": "MGM remains a speculative hold with elevated leverage risk; wait for technical confirmation before committing more capital.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "MGM",
-    "stock_return_3m": 16.77,
-    "benchmark_return_3m": 3.15,
-    "relative_strength": 13.63,
+    "stock_return_3m": 16.14,
+    "benchmark_return_3m": 3.36,
+    "relative_strength": 12.78,
     "label": "outperforming"
   },
-  "final_tier": "Buy",
+  "final_tier": "Hold",
   "sizing": {
     "suggested_shares": 7,
-    "suggested_dollars": 302.19,
-    "note": "7 sh @ $43.17 = $302 (Buy, 60% size) | $1,449 swing budget after"
+    "suggested_dollars": 306.18,
+    "note": "7 sh @ $43.74 = $306 (Hold, 60% size) | $1,445 swing budget after"
   },
   "is_dca": false,
-  "saved_at": "2026-08-20T22:57:37.232506"
+  "saved_at": "2026-08-23T22:51:34.863857"
 }

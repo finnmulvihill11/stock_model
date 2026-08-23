@@ -2,20 +2,37 @@
   "current": {
     "ticker": "TEM",
     "company_name": "Tempus AI, Inc.",
-    "action": "Hold",
-    "action_reason": "Loss is only -3.52%, well below the 15% threshold where position recovery discipline applies. Avoid crystallizing loss on a deteriorating fundamental story without sufficient downside pressure. Monitor for stabilization or capitulation signal.",
-    "target_price": null,
+    "action": "Start Trimming",
+    "action_reason": "You're up 5.23% with clear overbought technicals (RSI 75.1) and a company with negative cash flow, no profitability, and high leverage. Lock in gains now rather than wait for mean reversion to erase profits.",
+    "target_price": 75.5,
     "target_reasoning": "",
-    "exit_trigger": "Break below $62.50 (15% stop loss) OR positive earnings revision with revenue acceleration + operating cash flow inflection",
-    "add_trigger": "Stock rallies to $72+ on volume AND RSI resets below 50 showing institutional re-entry; only if debt refinancing or profitability roadmap announced",
-    "risk": "Continued cash burn, potential dilution if debt spirals, and weakening growth post-earnings miss",
+    "exit_trigger": "RSI drops below 60 or price closes below $71.00; reduce remaining shares if VIX spikes above 18",
+    "add_trigger": "Do not add\u2014fundamentals do not support accumulation at these valuations",
+    "risk": "Overbought bounce could extend to $75-76 short-term, but sustainability is low given negative FCF and profitability gap",
     "outlook": "cautious",
-    "timeframe": "4-8 weeks",
-    "generated_at": "2026-08-20T22:57:23.655336",
-    "price_at_generation": 66.65,
-    "pnl_at_generation": -3.52
+    "timeframe": "1-3 weeks to trim 50% of position; monitor for reversal before VIX shifts",
+    "generated_at": "2026-08-23T22:51:22.179632",
+    "price_at_generation": 72.69,
+    "pnl_at_generation": 5.23
   },
   "history": [
+    {
+      "ticker": "TEM",
+      "company_name": "Tempus AI, Inc.",
+      "action": "Hold",
+      "action_reason": "Loss is only -3.52%, well below the 15% threshold where position recovery discipline applies. Avoid crystallizing loss on a deteriorating fundamental story without sufficient downside pressure. Monitor for stabilization or capitulation signal.",
+      "target_price": null,
+      "target_reasoning": "",
+      "exit_trigger": "Break below $62.50 (15% stop loss) OR positive earnings revision with revenue acceleration + operating cash flow inflection",
+      "add_trigger": "Stock rallies to $72+ on volume AND RSI resets below 50 showing institutional re-entry; only if debt refinancing or profitability roadmap announced",
+      "risk": "Continued cash burn, potential dilution if debt spirals, and weakening growth post-earnings miss",
+      "outlook": "cautious",
+      "timeframe": "4-8 weeks",
+      "generated_at": "2026-08-20T22:57:23.655336",
+      "price_at_generation": 66.65,
+      "pnl_at_generation": -3.52,
+      "archived_at": "2026-08-23T22:51:22.179875"
+    },
     {
       "ticker": "TEM",
       "company_name": "Tempus AI, Inc.",
@@ -117,23 +134,6 @@
       "price_at_generation": 54.61,
       "pnl_at_generation": -20.95,
       "archived_at": "2026-08-13T23:21:18.937379"
-    },
-    {
-      "ticker": "TEM",
-      "company_name": "Tempus AI, Inc.",
-      "action": "Hold",
-      "action_reason": "Position is down 19.38%, triggering the philosophy to hold major losers through recovery. No exit until profitability trajectory or cash flow inflection is visible.",
-      "target_price": 72.5,
-      "target_reasoning": "",
-      "exit_trigger": "If stock breaks below $50 (additional -10% loss) without positive FCF guidance, or if debt-to-equity exceeds 4.0x in next quarterly filing",
-      "add_trigger": "Only add if: (1) company achieves positive operating cash flow, (2) announces debt reduction plan, AND (3) RSI drops below 40 on volume spike",
-      "risk": "Liquidity crisis risk if company cannot service 3.2x debt load; potential dilutive equity raise or restructuring",
-      "outlook": "cautious",
-      "timeframe": "4-8 weeks (next earnings cycle)",
-      "generated_at": "2026-08-11T23:20:49.158803",
-      "price_at_generation": 55.69,
-      "pnl_at_generation": -19.38,
-      "archived_at": "2026-08-12T23:18:56.419314"
     }
   ]
 }

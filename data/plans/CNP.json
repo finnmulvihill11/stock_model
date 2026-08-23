@@ -3,19 +3,36 @@
     "ticker": "CNP",
     "company_name": "CenterPoint Energy, Inc.",
     "action": "Hold",
-    "action_reason": "Position is marginally profitable (+0.07%) and CNP's oversold RSI (34.4) suggests potential bounce, but deteriorating technicals and high debt load warrant waiting for clearer reversal signals before adding. The utility's sensitivity to rates makes it risky in current macro environment.",
-    "target_price": 41.5,
+    "action_reason": "Position is down only 3.49% (well above the 15% hold-through threshold). RSI at 26.9 signals oversold conditions with potential for reversal. Neutral fundamentals and stable market conditions support waiting for technical recovery.",
+    "target_price": 42.5,
     "target_reasoning": "",
-    "exit_trigger": "Close below $39.25 (7.2% loss) or RSI continues declining below 30 with volume confirmation",
-    "add_trigger": "RSI bounces above 45 with volume AND price breaks above $41.00 resistance",
-    "risk": "Refinancing risk from 2.1x debt-to-equity if Fed maintains rates higher for longer; utility dividend sustainability if economic slowdown impacts cash flow",
-    "outlook": "cautious",
+    "exit_trigger": "Loss exceeds 15% OR debt-to-equity rises above 2.3x with deteriorating credit outlook",
+    "add_trigger": "RSI drops below 20 with volume spike, OR positive earnings surprise on next report with debt reduction guidance",
+    "risk": "High leverage (2.1x D/E) limits downside support; utility sector mean reversion can be slow; macro rate hikes could stress dividend sustainability",
+    "outlook": "neutral",
     "timeframe": "3-6 weeks",
-    "generated_at": "2026-08-20T22:57:43.480687",
-    "price_at_generation": 40.2,
-    "pnl_at_generation": 0.07
+    "generated_at": "2026-08-23T22:51:41.981267",
+    "price_at_generation": 38.77,
+    "pnl_at_generation": -3.49
   },
   "history": [
+    {
+      "ticker": "CNP",
+      "company_name": "CenterPoint Energy, Inc.",
+      "action": "Hold",
+      "action_reason": "Position is marginally profitable (+0.07%) and CNP's oversold RSI (34.4) suggests potential bounce, but deteriorating technicals and high debt load warrant waiting for clearer reversal signals before adding. The utility's sensitivity to rates makes it risky in current macro environment.",
+      "target_price": 41.5,
+      "target_reasoning": "",
+      "exit_trigger": "Close below $39.25 (7.2% loss) or RSI continues declining below 30 with volume confirmation",
+      "add_trigger": "RSI bounces above 45 with volume AND price breaks above $41.00 resistance",
+      "risk": "Refinancing risk from 2.1x debt-to-equity if Fed maintains rates higher for longer; utility dividend sustainability if economic slowdown impacts cash flow",
+      "outlook": "cautious",
+      "timeframe": "3-6 weeks",
+      "generated_at": "2026-08-20T22:57:43.480687",
+      "price_at_generation": 40.2,
+      "pnl_at_generation": 0.07,
+      "archived_at": "2026-08-23T22:51:41.981498"
+    },
     {
       "ticker": "CNP",
       "company_name": "CenterPoint Energy, Inc.",
@@ -117,23 +134,6 @@
       "price_at_generation": 40.53,
       "pnl_at_generation": 1.58,
       "archived_at": "2026-08-13T23:21:43.781476"
-    },
-    {
-      "ticker": "CNP",
-      "company_name": "CenterPoint Energy, Inc.",
-      "action": "Hold",
-      "action_reason": "Position is profitable (+0.70%) and small (4.1% weight). Technical oversold conditions (RSI 30.9) may offer a bounce opportunity, but lack of bullish signals and high leverage argue against adding. Hold for mean reversion or exit confirmation.",
-      "target_price": 41.5,
-      "target_reasoning": "",
-      "exit_trigger": "Break below $39.00 or deterioration in debt metrics; exit if position drops to -15% and shows no recovery signs beyond 6 weeks",
-      "add_trigger": "RSI recovery above 50 with volume confirmation AND a positive earnings beat in next cycle",
-      "risk": "Sector sensitivity to interest rates (impacts financing costs on 2.1x debt); utility underperformance in rising rate environment; geopolitical pressures on energy infrastructure",
-      "outlook": "neutral",
-      "timeframe": "3-6 weeks",
-      "generated_at": "2026-08-11T23:21:14.913608",
-      "price_at_generation": 40.18,
-      "pnl_at_generation": 0.7,
-      "archived_at": "2026-08-12T23:19:26.845029"
     }
   ]
 }

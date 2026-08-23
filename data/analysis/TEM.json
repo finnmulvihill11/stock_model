@@ -8,20 +8,20 @@
     "sell_score": 0.57,
     "reasons": [],
     "misses": [
-      "BB: price not near lower band (pct=1.13)",
+      "BB: price not near lower band (pct=1.15)",
       "BB Width: bands expanding, not squeezing",
-      "RSI: not in buy zone (70.7, need 20-40)",
+      "RSI: not in buy zone (75.1, need 20-40)",
       "MACD: no bullish crossover or valley",
       "RSI Divergence: no bullish divergence detected"
     ],
-    "price": 66.65,
-    "rsi": 70.7,
-    "atr": 4.18,
+    "price": 72.69,
+    "rsi": 75.1,
+    "atr": 4.38,
     "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 4,
-      "suggested_dollars": 266.6,
-      "note": "4 sh @ $66.65 = $267 (Hold, 60% size) | $1,485 swing budget after"
+      "suggested_dollars": 290.76,
+      "note": "4 sh @ $72.69 = $291 (Hold, 60% size) | $1,461 swing budget after"
     }
   },
   "fundamentals": {
@@ -50,39 +50,40 @@
       ],
       "earnings_status": "past",
       "next_earnings_date": "2026-07-30",
-      "days_to_earnings": -21
+      "days_to_earnings": -24
     }
   },
   "news": {
     "ticker": "TEM",
-    "sentiment": "negative",
+    "sentiment": "neutral",
     "health": "deteriorating",
     "key_events": [],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "High debt-to-equity ratio (3.2x) indicates elevated financial leverage",
-      "Not profitable with negative operating cash flow \u2014 unsustainable burn rate",
-      "RSI at 70.7 suggests overbought conditions despite recent decline",
-      "Earnings missed expectations 21 days ago, triggering downside move",
-      "No recent news catalysts to support recovery narrative"
+      "RSI 75.1 indicates overbought conditions despite fundamentals weakness",
+      "High debt-to-equity ratio (3.2x) limits financial flexibility",
+      "Negative operating cash flow signals operational stress",
+      "Not profitable\u2014no earnings cushion during downturns",
+      "Recent earnings miss (-24d) suggests momentum may be artificial",
+      "No recent news catalyst to support current momentum"
     ],
-    "verdict": "Tempus AI shows fundamental deterioration with negative cash flow and high leverage, but position loss of -3.52% falls below the 15% hold-through threshold, warranting a disciplined hold pending recovery or a clear catalyst.",
+    "verdict": "Strong technical headwinds meeting deteriorating fundamentals creates an exit opportunity in a profitable position.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "TEM",
-    "stock_return_3m": 45.27,
-    "benchmark_return_3m": 3.15,
-    "relative_strength": 42.12,
+    "stock_return_3m": 56.36,
+    "benchmark_return_3m": 3.36,
+    "relative_strength": 52.99,
     "label": "outperforming"
   },
   "final_tier": "Hold",
   "sizing": {
     "suggested_shares": 4,
-    "suggested_dollars": 266.6,
-    "note": "4 sh @ $66.65 = $267 (Hold, 60% size) | $1,485 swing budget after"
+    "suggested_dollars": 290.76,
+    "note": "4 sh @ $72.69 = $291 (Hold, 60% size) | $1,461 swing budget after"
   },
   "is_dca": false,
-  "saved_at": "2026-08-20T22:57:23.656212"
+  "saved_at": "2026-08-23T22:51:22.180526"
 }

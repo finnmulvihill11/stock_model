@@ -3,19 +3,36 @@
     "ticker": "MGM",
     "company_name": "MGM",
     "action": "Hold",
-    "action_reason": "Position is only -1.24% (well within tolerance), and technical setup favors mean reversion as RSI 36.7 and BB squeeze suggest imminent bounce. Loss is minimal; hold for oversold reversal rather than adding into weakness without catalyst confirmation.",
-    "target_price": 45.5,
+    "action_reason": "Position is flat and not triggering exit rules. RSI below 50 suggests caution; avoid adding into weakness. Monitor for RSI recovery above 50 and volume confirmation before considering expansion.",
+    "target_price": 46.5,
     "target_reasoning": "",
-    "exit_trigger": "RSI falls below 30 with gap down + earnings miss when next reported, OR closes below $41.50 (support break)",
-    "add_trigger": "RSI bounces above 45 on volume with positive gaming/Las Vegas revenue data, OR MGM reports debt reduction initiative",
-    "risk": "High leverage (8.9x D/E) amplifies downside in recession; consumer discretionary exposure vulnerable to economic slowdown; geopolitical escalation could reduce tourism",
-    "outlook": "neutral",
-    "timeframe": "2-4 weeks for oversold reversal test; monitor earnings follow-up guidance for direction confirmation",
-    "generated_at": "2026-08-20T22:57:37.231638",
-    "price_at_generation": 43.17,
-    "pnl_at_generation": -1.24
+    "exit_trigger": "Close below $40.50 (7.3% loss) OR debt-to-equity deteriorates materially OR earnings disappoint again",
+    "add_trigger": "RSI climbs above 60 with volume + price closes above $46 resistance on 3+ consecutive days",
+    "risk": "High leverage (8.9x D/E) amplifies downside in market corrections; cyclical gaming exposure vulnerable to economic slowdown",
+    "outlook": "cautious",
+    "timeframe": "3-6 weeks (await next earnings cycle and RSI recovery confirmation)",
+    "generated_at": "2026-08-23T22:51:34.863000",
+    "price_at_generation": 43.74,
+    "pnl_at_generation": 0.07
   },
   "history": [
+    {
+      "ticker": "MGM",
+      "company_name": "MGM",
+      "action": "Hold",
+      "action_reason": "Position is only -1.24% (well within tolerance), and technical setup favors mean reversion as RSI 36.7 and BB squeeze suggest imminent bounce. Loss is minimal; hold for oversold reversal rather than adding into weakness without catalyst confirmation.",
+      "target_price": 45.5,
+      "target_reasoning": "",
+      "exit_trigger": "RSI falls below 30 with gap down + earnings miss when next reported, OR closes below $41.50 (support break)",
+      "add_trigger": "RSI bounces above 45 on volume with positive gaming/Las Vegas revenue data, OR MGM reports debt reduction initiative",
+      "risk": "High leverage (8.9x D/E) amplifies downside in recession; consumer discretionary exposure vulnerable to economic slowdown; geopolitical escalation could reduce tourism",
+      "outlook": "neutral",
+      "timeframe": "2-4 weeks for oversold reversal test; monitor earnings follow-up guidance for direction confirmation",
+      "generated_at": "2026-08-20T22:57:37.231638",
+      "price_at_generation": 43.17,
+      "pnl_at_generation": -1.24,
+      "archived_at": "2026-08-23T22:51:34.863258"
+    },
     {
       "ticker": "MGM",
       "company_name": "MGM",
@@ -117,23 +134,6 @@
       "price_at_generation": 43.98,
       "pnl_at_generation": -0.0,
       "archived_at": "2026-08-13T23:21:35.795914"
-    },
-    {
-      "ticker": "MGM",
-      "company_name": "MGM",
-      "action": "Hold",
-      "action_reason": "Loss is only -0.68%, well below the 15% threshold for forced holds. Await technical bounce (RSI recovery toward 50) or next catalyst before any action.",
-      "target_price": 46.5,
-      "target_reasoning": "",
-      "exit_trigger": "Break below $42.50 (support) OR if debt metrics materially worsen in next earnings",
-      "add_trigger": "RSI crosses above 50 with volume OR price holds $43.50 for 3+ days, signaling stabilization",
-      "risk": "High debt load makes MGM vulnerable to rate spikes or gaming downturn; negative earnings surprise could trigger leverage unwind",
-      "outlook": "cautious",
-      "timeframe": "2-4 weeks",
-      "generated_at": "2026-08-11T23:21:07.929779",
-      "price_at_generation": 44.13,
-      "pnl_at_generation": -0.68,
-      "archived_at": "2026-08-12T23:19:19.696908"
     }
   ]
 }
