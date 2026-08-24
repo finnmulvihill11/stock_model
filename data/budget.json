@@ -434,6 +434,18 @@
       "amount": 85.77,
       "type": "swing",
       "action": "buy"
+    },
+    {
+      "date": "2026-08-24",
+      "ticker": "TEM",
+      "shares": 3,
+      "amount": -208.14,
+      "type": "swing",
+      "action": "sell",
+      "sell_price": 69.38,
+      "avg_cost": 69.08,
+      "realized_pnl": 0.9,
+      "realized_pnl_pct": 0.43
     }
   ]
 }
