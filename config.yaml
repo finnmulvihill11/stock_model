@@ -13,6 +13,7 @@ portfolio:
   - ABT
   - WMT
   - MSFT
+  - TEM
   holdings:
   - ticker: INTU
     shares: 3
@@ -21,10 +22,6 @@ portfolio:
     shares: 1.36
     avg_cost: 626.71
     dca: true
-  - ticker: TEM
-    shares: 3
-    avg_cost: 69.08
-    high_risk: true
   - ticker: VXUS
     shares: 3.178
     avg_cost: 78.16
@@ -54,7 +51,6 @@ portfolio:
   - VXUS
   swing_tickers:
   - INTU
-  - TEM
   dca_cadence: monthly
   max_position_pct: 0.25
   tech_concentration_tickers:
