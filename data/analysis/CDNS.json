@@ -8,18 +8,18 @@
     "sell_score": 0.14,
     "reasons": [],
     "misses": [
-      "BB: price not near lower band (pct=0.21)",
       "RSI Divergence: no bullish divergence detected",
-      "Volume: below average (0.93x) \u2014 low conviction"
+      "200MA: price below 200MA \u2014 potential falling knife",
+      "Volume: below average (0.88x) \u2014 low conviction"
     ],
-    "price": 319.02,
-    "rsi": 37.2,
-    "atr": 9.33,
+    "price": 315.92,
+    "rsi": 35.4,
+    "atr": 8.95,
     "final_tier": "Hold",
     "sizing": {
-      "suggested_shares": 0,
-      "suggested_dollars": 0,
-      "note": "Price exceeds 60% conviction ceiling ($315) \u2014 skip or wait for Strong Buy"
+      "suggested_shares": 1,
+      "suggested_dollars": 315.92,
+      "note": "1 sh @ $315.92 = $316 (Hold, 60% size) | $1,644 swing budget after"
     }
   },
   "fundamentals": {
@@ -48,7 +48,7 @@
       ],
       "earnings_status": "past",
       "next_earnings_date": "2026-07-27",
-      "days_to_earnings": -27
+      "days_to_earnings": -28
     }
   },
   "news": {
@@ -56,34 +56,34 @@
     "sentiment": "neutral",
     "health": "healthy",
     "key_events": [
-      "Earnings reported 27 days ago",
-      "Stock down 5.62% from entry",
-      "RSI at 37.2 indicates oversold conditions",
-      "Market in Greed mode with neutral VIX"
+      "Earnings reported 28 days ago",
+      "Stock down 6.54% from entry",
+      "RSI at 35.4 indicates oversold conditions",
+      "No recent news available for assessment"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "No recent news flow to support recovery",
-      "Technical firing indicators absent",
-      "Post-earnings weakness suggests initial market disappointment"
+      "Lack of recent news/catalysts limits conviction",
+      "RSI oversold but no technical firing signals yet",
+      "Geopolitical risk unassessable due to limited information"
     ],
-    "verdict": "CDNS faces post-earnings headwinds but fundamentals remain healthy; oversold RSI presents swing recovery opportunity.",
+    "verdict": "CDNS is fundamentally healthy with oversold technicals, but lacks near-term catalysts; hold position and monitor for RSI recovery or bullish technical setup.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "CDNS",
-    "stock_return_3m": -11.0,
-    "benchmark_return_3m": 3.36,
-    "relative_strength": -14.36,
+    "stock_return_3m": -15.44,
+    "benchmark_return_3m": 2.66,
+    "relative_strength": -18.09,
     "label": "underperforming"
   },
   "final_tier": "Hold",
   "sizing": {
-    "suggested_shares": 0,
-    "suggested_dollars": 0,
-    "note": "Price exceeds 60% conviction ceiling ($315) \u2014 skip or wait for Strong Buy"
+    "suggested_shares": 1,
+    "suggested_dollars": 315.92,
+    "note": "1 sh @ $315.92 = $316 (Hold, 60% size) | $1,644 swing budget after"
   },
   "is_dca": false,
-  "saved_at": "2026-08-23T22:51:28.591801"
+  "saved_at": "2026-08-24T22:55:51.744280"
 }

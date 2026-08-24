@@ -9,18 +9,18 @@
     "reasons": [],
     "misses": [
       "BB: price not near lower band (pct=0.32)",
-      "RSI: not in buy zone (42.4, need 20-40)",
+      "RSI: not in buy zone (42.0, need 20-40)",
       "RSI Divergence: no bullish divergence detected",
-      "Volume: below average (0.80x) \u2014 low conviction"
+      "Volume: below average (0.66x) \u2014 low conviction"
     ],
-    "price": 43.74,
-    "rsi": 42.4,
-    "atr": 0.85,
+    "price": 43.69,
+    "rsi": 42.0,
+    "atr": 0.8,
     "final_tier": "Hold",
     "sizing": {
-      "suggested_shares": 7,
-      "suggested_dollars": 306.18,
-      "note": "7 sh @ $43.74 = $306 (Hold, 60% size) | $1,445 swing budget after"
+      "suggested_shares": 8,
+      "suggested_dollars": 349.52,
+      "note": "8 sh @ $43.69 = $350 (Hold, 60% size) | $1,610 swing budget after"
     }
   },
   "fundamentals": {
@@ -50,7 +50,7 @@
       ],
       "earnings_status": "past",
       "next_earnings_date": "2026-07-29",
-      "days_to_earnings": -25
+      "days_to_earnings": -26
     }
   },
   "news": {
@@ -58,34 +58,35 @@
     "sentiment": "neutral",
     "health": "neutral",
     "key_events": [
-      "Earnings reported 25 days ago",
-      "VIX at 15.1 suggests stable market conditions",
-      "Market in 'Greed' phase - potential euphoria/overvaluation risk"
+      "Earnings reported 26 days ago",
+      "VIX at 15.9 suggesting stable market conditions",
+      "Market sentiment in Greed phase"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "High debt-to-equity ratio of 8.9x indicates significant leverage and financial risk",
-      "RSI at 42.4 shows weakness without clear bullish momentum",
-      "No recent positive news catalysts visible",
-      "Post-earnings period with no directional conviction"
+      "Extremely high debt-to-equity ratio (8.9x) \u2014 significant financial leverage risk",
+      "RSI at 42.0 indicates slight bearish pressure, below neutral 50 level",
+      "No technical firing signals \u2014 momentum absent",
+      "No recent news coverage limits catalyst visibility",
+      "Geopolitical risk assessment incomplete due to data gaps"
     ],
-    "verdict": "MGM remains a speculative hold with elevated leverage risk; wait for technical confirmation before committing more capital.",
+    "verdict": "MGM shows no immediate swing trade catalysts; hold current position given minimal loss and cyclical recovery potential in gaming sector.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "MGM",
-    "stock_return_3m": 16.14,
-    "benchmark_return_3m": 3.36,
-    "relative_strength": 12.78,
+    "stock_return_3m": 13.78,
+    "benchmark_return_3m": 2.66,
+    "relative_strength": 11.12,
     "label": "outperforming"
   },
   "final_tier": "Hold",
   "sizing": {
-    "suggested_shares": 7,
-    "suggested_dollars": 306.18,
-    "note": "7 sh @ $43.74 = $306 (Hold, 60% size) | $1,445 swing budget after"
+    "suggested_shares": 8,
+    "suggested_dollars": 349.52,
+    "note": "8 sh @ $43.69 = $350 (Hold, 60% size) | $1,610 swing budget after"
   },
   "is_dca": false,
-  "saved_at": "2026-08-23T22:51:34.863857"
+  "saved_at": "2026-08-24T22:56:00.531690"
 }

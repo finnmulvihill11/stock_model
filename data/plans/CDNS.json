@@ -3,19 +3,36 @@
     "ticker": "CDNS",
     "company_name": "Cadence Design Systems, Inc.",
     "action": "Hold",
-    "action_reason": "Position is only -5.62%, well above the 15% hold-through threshold. Oversold RSI (37.2) with healthy fundamentals suggests near-term bounce potential. No sell signals justified given swing trader timeframe.",
-    "target_price": 335,
+    "action_reason": "Position is only -6.54% (well above the 15% hold-through threshold) with healthy fundamentals. RSI at 35.4 suggests mean reversion opportunity, but wait for technical confirmation before adding.",
+    "target_price": 365,
     "target_reasoning": "",
-    "exit_trigger": "Break below $310 with volume; or RSI drops below 25 with negative guidance update",
-    "add_trigger": "RSI bounces to 45+ with reclaimed $325 support and positive analyst commentary",
-    "risk": "Extended semiconductor sector weakness or disappointing forward guidance could trigger capitulation to $300",
+    "exit_trigger": "Fundamental deterioration or break below $305 with volume spike; OR position reaches +20% (trimming candidate)",
+    "add_trigger": "RSI recovers above 40 + bullish candlestick pattern, or dip to $305 on high conviction news",
+    "risk": "Continued semiconductor sector weakness; missing visibility on next earnings catalyst; geopolitical escalation affecting tech",
     "outlook": "cautious",
-    "timeframe": "2-4 weeks",
-    "generated_at": "2026-08-23T22:51:28.590955",
-    "price_at_generation": 319.02,
-    "pnl_at_generation": -5.62
+    "timeframe": "3-6 weeks",
+    "generated_at": "2026-08-24T22:55:51.743643",
+    "price_at_generation": 315.92,
+    "pnl_at_generation": -6.54
   },
   "history": [
+    {
+      "ticker": "CDNS",
+      "company_name": "Cadence Design Systems, Inc.",
+      "action": "Hold",
+      "action_reason": "Position is only -5.62%, well above the 15% hold-through threshold. Oversold RSI (37.2) with healthy fundamentals suggests near-term bounce potential. No sell signals justified given swing trader timeframe.",
+      "target_price": 335,
+      "target_reasoning": "",
+      "exit_trigger": "Break below $310 with volume; or RSI drops below 25 with negative guidance update",
+      "add_trigger": "RSI bounces to 45+ with reclaimed $325 support and positive analyst commentary",
+      "risk": "Extended semiconductor sector weakness or disappointing forward guidance could trigger capitulation to $300",
+      "outlook": "cautious",
+      "timeframe": "2-4 weeks",
+      "generated_at": "2026-08-23T22:51:28.590955",
+      "price_at_generation": 319.02,
+      "pnl_at_generation": -5.62,
+      "archived_at": "2026-08-24T22:55:51.743838"
+    },
     {
       "ticker": "CDNS",
       "company_name": "Cadence Design Systems, Inc.",
@@ -117,23 +134,6 @@
       "price_at_generation": 323.77,
       "pnl_at_generation": -4.22,
       "archived_at": "2026-08-16T22:49:51.210373"
-    },
-    {
-      "ticker": "CDNS",
-      "company_name": "Cadence Design Systems, Inc.",
-      "action": "Hold",
-      "action_reason": "Position is only -4.41% (well above the -15% hard floor), fundamentals remain healthy, and RSI oversold conditions present natural bounce opportunity. Avoid adding without clear technical confirmation or news catalyst.",
-      "target_price": null,
-      "target_reasoning": "",
-      "exit_trigger": "Only exit if fundamentals deteriorate materially OR position recovers to breakeven/slight profit with sell signal confirmation",
-      "add_trigger": "RSI bounces back above 45 with volume confirmation + positive sector news, OR 5-10% further decline with technical reversal pattern",
-      "risk": "Earnings volatility already priced in; main risk is sector rotation away from semiconductor design tools if broader chip cycle weakens",
-      "outlook": "neutral",
-      "timeframe": "3-6 weeks for technical recovery; monitor for post-earnings stabilization and sector momentum shifts",
-      "generated_at": "2026-08-12T23:19:11.845279",
-      "price_at_generation": 323.13,
-      "pnl_at_generation": -4.41,
-      "archived_at": "2026-08-13T23:21:28.093234"
     }
   ]
 }

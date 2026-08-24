@@ -12,14 +12,14 @@
       "MACD: no bullish crossover or valley",
       "RSI Divergence: no bullish divergence detected"
     ],
-    "price": 66.6,
-    "rsi": 35.9,
-    "atr": 1.2,
+    "price": 66.61,
+    "rsi": 36.0,
+    "atr": 1.13,
     "final_tier": "Hold",
     "sizing": {
-      "suggested_shares": 4,
-      "suggested_dollars": 266.4,
-      "note": "4 sh @ $66.60 = $266 (Hold, 60% size) | $1,485 swing budget after"
+      "suggested_shares": 5,
+      "suggested_dollars": 333.05,
+      "note": "5 sh @ $66.61 = $333 (Hold, 60% size) | $1,627 swing budget after"
     }
   },
   "fundamentals": {
@@ -49,7 +49,7 @@
       ],
       "earnings_status": "past",
       "next_earnings_date": "2026-07-31",
-      "days_to_earnings": -23
+      "days_to_earnings": -24
     }
   },
   "news": {
@@ -57,34 +57,35 @@
     "sentiment": "neutral",
     "health": "neutral",
     "key_events": [
-      "Earnings reported 23 days ago",
-      "VIX at 15.1 indicates neutral market environment",
-      "Market sentiment in Greed zone"
+      "Earnings reported 24 days ago",
+      "Position down 2.45% from entry",
+      "VIX at 15.9 indicating neutral market conditions",
+      "No recent news available for fundamental assessment"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "High debt-to-equity ratio (1.6x) limits financial flexibility",
-      "RSI at 35.9 suggests oversold conditions but no momentum recovery yet",
-      "No recent news catalysts to drive reversal",
-      "Position down 2.46% with negative momentum"
+      "High debt-to-equity ratio of 1.6x limits financial flexibility",
+      "RSI at 36.0 approaching oversold territory",
+      "No technical firing signals despite weakness",
+      "Lack of recent news prevents current risk assessment"
     ],
-    "verdict": "Dominion Energy showing oversold technicals but lacks near-term catalysts; maintain hold position pending recovery signal.",
+    "verdict": "Dominion Energy remains in neutral holding territory with weak technicals but manageable drawdown; lack of news creates uncertainty.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "D",
-    "stock_return_3m": -1.5,
-    "benchmark_return_3m": 3.36,
-    "relative_strength": -4.86,
+    "stock_return_3m": -0.58,
+    "benchmark_return_3m": 2.66,
+    "relative_strength": -3.24,
     "label": "in-line"
   },
   "final_tier": "Hold",
   "sizing": {
-    "suggested_shares": 4,
-    "suggested_dollars": 266.4,
-    "note": "4 sh @ $66.60 = $266 (Hold, 60% size) | $1,485 swing budget after"
+    "suggested_shares": 5,
+    "suggested_dollars": 333.05,
+    "note": "5 sh @ $66.61 = $333 (Hold, 60% size) | $1,627 swing budget after"
   },
   "is_dca": false,
-  "saved_at": "2026-08-23T22:51:54.235570"
+  "saved_at": "2026-08-24T22:56:26.188416"
 }

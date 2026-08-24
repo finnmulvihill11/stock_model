@@ -1,21 +1,38 @@
 {
   "current": {
     "ticker": "MGM",
-    "company_name": "MGM",
+    "company_name": "MGM Resorts International",
     "action": "Hold",
-    "action_reason": "Position is flat and not triggering exit rules. RSI below 50 suggests caution; avoid adding into weakness. Monitor for RSI recovery above 50 and volume confirmation before considering expansion.",
-    "target_price": 46.5,
+    "action_reason": "Position is essentially flat (-0.05%) with no clear technical or fundamental trigger to exit. The high debt load is a structural concern but not an immediate swing catalyst. Wait for either technical confirmation (RSI >50 + volume support) or positive catalyst news before considering add.",
+    "target_price": null,
     "target_reasoning": "",
-    "exit_trigger": "Close below $40.50 (7.3% loss) OR debt-to-equity deteriorates materially OR earnings disappoint again",
-    "add_trigger": "RSI climbs above 60 with volume + price closes above $46 resistance on 3+ consecutive days",
-    "risk": "High leverage (8.9x D/E) amplifies downside in market corrections; cyclical gaming exposure vulnerable to economic slowdown",
-    "outlook": "cautious",
-    "timeframe": "3-6 weeks (await next earnings cycle and RSI recovery confirmation)",
-    "generated_at": "2026-08-23T22:51:34.863000",
-    "price_at_generation": 43.74,
-    "pnl_at_generation": 0.07
+    "exit_trigger": "Break below $41.50 on volume (5%+ loss from entry) OR confirmed downtrend below 20-day MA with RSI <30",
+    "add_trigger": "RSI bounces above 55 with price holding above $45.00 AND positive gaming/tourism news emerges; add 1-2 shares max given high debt risk",
+    "risk": "Leveraged balance sheet (8.9x D/E) amplifies downside in recession/credit stress; entertainment/travel demand sensitivity; limited near-term catalysts",
+    "outlook": "neutral",
+    "timeframe": "2-4 weeks \u2014 reassess at next earnings or if technical pattern establishes (breakout above $45 resistance or breakdown below $41 support)",
+    "generated_at": "2026-08-24T22:56:00.531021",
+    "price_at_generation": 43.69,
+    "pnl_at_generation": -0.05
   },
   "history": [
+    {
+      "ticker": "MGM",
+      "company_name": "MGM",
+      "action": "Hold",
+      "action_reason": "Position is flat and not triggering exit rules. RSI below 50 suggests caution; avoid adding into weakness. Monitor for RSI recovery above 50 and volume confirmation before considering expansion.",
+      "target_price": 46.5,
+      "target_reasoning": "",
+      "exit_trigger": "Close below $40.50 (7.3% loss) OR debt-to-equity deteriorates materially OR earnings disappoint again",
+      "add_trigger": "RSI climbs above 60 with volume + price closes above $46 resistance on 3+ consecutive days",
+      "risk": "High leverage (8.9x D/E) amplifies downside in market corrections; cyclical gaming exposure vulnerable to economic slowdown",
+      "outlook": "cautious",
+      "timeframe": "3-6 weeks (await next earnings cycle and RSI recovery confirmation)",
+      "generated_at": "2026-08-23T22:51:34.863000",
+      "price_at_generation": 43.74,
+      "pnl_at_generation": 0.07,
+      "archived_at": "2026-08-24T22:56:00.531206"
+    },
     {
       "ticker": "MGM",
       "company_name": "MGM",
@@ -117,23 +134,6 @@
       "price_at_generation": 44.07,
       "pnl_at_generation": 0.2,
       "archived_at": "2026-08-16T22:49:59.767917"
-    },
-    {
-      "ticker": "MGM",
-      "company_name": "MGM",
-      "action": "Hold",
-      "action_reason": "Position is flat (no loss), and philosophy prohibits exit before 15% drawdown. However, use this window to monitor leverage risk and wait for clearer technical setup (RSI confirmation or news catalyst) before adding.",
-      "target_price": 46.5,
-      "target_reasoning": "",
-      "exit_trigger": "Break below $41.50 (5.6% stop) OR VIX spike >20 + MGM breaks $42.00 on high volume",
-      "add_trigger": "RSI drops to 30-35 (true oversold) on volume, or positive earnings surprise with debt reduction commentary",
-      "risk": "High leverage (8.9x D/E) amplifies downside in economic slowdown or rate shock; VIX complacency masks tail risk",
-      "outlook": "cautious",
-      "timeframe": "2-4 weeks",
-      "generated_at": "2026-08-12T23:19:19.696750",
-      "price_at_generation": 43.98,
-      "pnl_at_generation": -0.0,
-      "archived_at": "2026-08-13T23:21:35.795914"
     }
   ]
 }

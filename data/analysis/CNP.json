@@ -4,23 +4,24 @@
     "ticker": "CNP",
     "direction": "hold",
     "tier": "Hold",
-    "buy_score": 0.5,
-    "sell_score": 0.14,
+    "buy_score": 0.38,
+    "sell_score": 0.0,
     "reasons": [],
     "misses": [
       "BB Width: bands expanding, not squeezing",
       "MACD: no bullish crossover or valley",
       "RSI Divergence: no bullish divergence detected",
-      "200MA: price below 200MA \u2014 potential falling knife"
+      "200MA: price below 200MA \u2014 potential falling knife",
+      "Volume: below average (0.93x) \u2014 low conviction"
     ],
-    "price": 38.77,
-    "rsi": 26.9,
-    "atr": 0.92,
+    "price": 39.1,
+    "rsi": 31.3,
+    "atr": 0.88,
     "final_tier": "Hold",
     "sizing": {
-      "suggested_shares": 8,
-      "suggested_dollars": 310.16,
-      "note": "8 sh @ $38.77 = $310 (Hold, 60% size) | $1,441 swing budget after"
+      "suggested_shares": 9,
+      "suggested_dollars": 351.9,
+      "note": "9 sh @ $39.10 = $352 (Hold, 60% size) | $1,608 swing budget after"
     }
   },
   "fundamentals": {
@@ -50,7 +51,7 @@
       ],
       "earnings_status": "past",
       "next_earnings_date": "2026-07-28",
-      "days_to_earnings": -26
+      "days_to_earnings": -27
     }
   },
   "news": {
@@ -58,35 +59,34 @@
     "sentiment": "neutral",
     "health": "neutral",
     "key_events": [
-      "Earnings reported 26 days ago",
-      "RSI at 26.9 indicates oversold conditions",
-      "VIX at 15.1 suggests stable market environment",
-      "Market sentiment in Greed phase"
+      "Earnings reported 27 days ago",
+      "No recent news available for assessment",
+      "VIX at 15.9 indicates stable market conditions"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "High debt-to-equity ratio (2.1x) limits financial flexibility",
-      "Position down 3.49% with no positive catalysts visible",
-      "No recent news flow to support recovery",
-      "Utility sector typically moves slowly; oversold condition may take time to resolve"
+      "High debt-to-equity ratio of 2.1x creates refinancing risk",
+      "Position down 2.66% with no technical momentum (RSI 31.3 approaching oversold)",
+      "No firing indicators on technical setup",
+      "Absence of recent news limits visibility into company-specific catalysts"
     ],
-    "verdict": "CNP is oversold technically but weighed down by high leverage; hold for mean reversion while monitoring debt sustainability.",
+    "verdict": "CNP is a stable utility with concerning leverage; hold current position pending technical recovery or earnings catalyst.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "CNP",
-    "stock_return_3m": -8.17,
-    "benchmark_return_3m": 3.36,
-    "relative_strength": -11.53,
+    "stock_return_3m": -8.16,
+    "benchmark_return_3m": 2.66,
+    "relative_strength": -10.82,
     "label": "underperforming"
   },
   "final_tier": "Hold",
   "sizing": {
-    "suggested_shares": 8,
-    "suggested_dollars": 310.16,
-    "note": "8 sh @ $38.77 = $310 (Hold, 60% size) | $1,441 swing budget after"
+    "suggested_shares": 9,
+    "suggested_dollars": 351.9,
+    "note": "9 sh @ $39.10 = $352 (Hold, 60% size) | $1,608 swing budget after"
   },
   "is_dca": false,
-  "saved_at": "2026-08-23T22:51:41.982145"
+  "saved_at": "2026-08-24T22:56:08.989435"
 }
