@@ -4,20 +4,19 @@
     "ticker": "INTU",
     "direction": "hold",
     "tier": "Hold",
-    "buy_score": 0.25,
+    "buy_score": 0.38,
     "sell_score": 0.57,
     "reasons": [],
     "misses": [
-      "BB: price not near lower band (pct=0.94)",
-      "RSI: not in buy zone (69.0, need 20-40)",
+      "BB: price not near lower band (pct=0.75)",
+      "RSI: not in buy zone (61.4, need 20-40)",
       "MACD: no bullish crossover or valley",
       "RSI Divergence: no bullish divergence detected",
-      "200MA: price below 200MA \u2014 potential falling knife",
-      "Volume: below average (0.85x) \u2014 low conviction"
+      "200MA: price below 200MA \u2014 potential falling knife"
     ],
-    "price": 369.92,
-    "rsi": 69.0,
-    "atr": 13.2,
+    "price": 357.46,
+    "rsi": 61.4,
+    "atr": 13.61,
     "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 0,
@@ -40,7 +39,7 @@
   },
   "earnings": {
     "proceed": false,
-    "reason": "Earnings in 1 days \u2014 wait for results before acting",
+    "reason": "Earnings in 0 days \u2014 wait for results before acting",
     "verdict": {
       "ticker": "INTU",
       "verdict": "consider",
@@ -51,7 +50,7 @@
       ],
       "earnings_status": "imminent",
       "next_earnings_date": "2026-08-25",
-      "days_to_earnings": 1
+      "days_to_earnings": 0
     }
   },
   "news": {
@@ -59,27 +58,26 @@
     "sentiment": "neutral",
     "health": "healthy",
     "key_events": [
-      "Earnings report imminent (1 day)",
-      "Stock down 21% from entry - significant drawdown",
-      "RSI at 69 indicates overbought conditions on recovery bounces",
-      "Position represents 31.8% portfolio weight - concentrated risk"
+      "Imminent earnings announcement",
+      "No recent news items available for assessment",
+      "Market in greed mode with neutral volatility (VIX 15.4)"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "No news available to assess catalysts or risks pre-earnings",
-      "Earnings volatility could exacerbate downside given current weakness",
-      "Heavy portfolio concentration (31.8%) amplifies swing risk",
-      "RSI 69 suggests limited upside momentum despite technical 'Hold'"
+      "Position down 23.67% from entry \u2014 significant drawdown",
+      "Heavy portfolio weight at 30.9% concentrates risk",
+      "No current technical momentum (RSI 61.4 is neutral, no firing signals)",
+      "Lack of recent news may indicate quiet period before earnings"
     ],
-    "verdict": "Hold through imminent earnings given philosophy, but position size and lack of positive catalysts create elevated risk.",
+    "verdict": "Hold position through earnings; fundamental health and philosophy rule out exit despite 23.67% loss.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "INTU",
-    "stock_return_3m": 16.13,
-    "benchmark_return_3m": 2.66,
-    "relative_strength": 13.48,
+    "stock_return_3m": 17.97,
+    "benchmark_return_3m": 2.3,
+    "relative_strength": 15.67,
     "label": "outperforming"
   },
   "final_tier": "Hold",
@@ -89,5 +87,5 @@
     "note": "Position already at 20% portfolio cap"
   },
   "is_dca": false,
-  "saved_at": "2026-08-24T22:55:44.791327"
+  "saved_at": "2026-08-25T22:57:41.413592"
 }

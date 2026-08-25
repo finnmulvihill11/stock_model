@@ -8,18 +8,18 @@
     "sell_score": 0.14,
     "reasons": [],
     "misses": [
-      "BB Width: bands expanding, not squeezing",
-      "MACD: no bullish crossover or valley",
-      "RSI Divergence: no bullish divergence detected"
+      "BB: price not near lower band (pct=0.21)",
+      "RSI Divergence: no bullish divergence detected",
+      "Volume: below average (0.88x) \u2014 low conviction"
     ],
-    "price": 66.61,
-    "rsi": 36.0,
-    "atr": 1.13,
+    "price": 66.93,
+    "rsi": 39.0,
+    "atr": 1.09,
     "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 5,
-      "suggested_dollars": 333.05,
-      "note": "5 sh @ $66.61 = $333 (Hold, 60% size) | $1,627 swing budget after"
+      "suggested_dollars": 334.65,
+      "note": "5 sh @ $66.93 = $335 (Hold, 60% size) | $1,625 swing budget after"
     }
   },
   "fundamentals": {
@@ -49,7 +49,7 @@
       ],
       "earnings_status": "past",
       "next_earnings_date": "2026-07-31",
-      "days_to_earnings": -24
+      "days_to_earnings": -25
     }
   },
   "news": {
@@ -57,35 +57,33 @@
     "sentiment": "neutral",
     "health": "neutral",
     "key_events": [
-      "Earnings reported 24 days ago",
-      "Position down 2.45% from entry",
-      "VIX at 15.9 indicating neutral market conditions",
-      "No recent news available for fundamental assessment"
+      "Earnings reported 25 days ago (recent cycle complete)",
+      "No material news catalysts identified",
+      "VIX at 15.4 indicates stable market conditions"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
       "High debt-to-equity ratio of 1.6x limits financial flexibility",
-      "RSI at 36.0 approaching oversold territory",
-      "No technical firing signals despite weakness",
-      "Lack of recent news prevents current risk assessment"
+      "RSI at 39.0 suggests weak momentum but not yet oversold",
+      "Stock down -1.98% from entry; utility underperformance in greed environment"
     ],
-    "verdict": "Dominion Energy remains in neutral holding territory with weak technicals but manageable drawdown; lack of news creates uncertainty.",
+    "verdict": "Neutral utility holding with weak near-term momentum; hold position given small drawdown and lack of negative catalysts.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "D",
-    "stock_return_3m": -0.58,
-    "benchmark_return_3m": 2.66,
-    "relative_strength": -3.24,
+    "stock_return_3m": 0.48,
+    "benchmark_return_3m": 2.3,
+    "relative_strength": -1.83,
     "label": "in-line"
   },
   "final_tier": "Hold",
   "sizing": {
     "suggested_shares": 5,
-    "suggested_dollars": 333.05,
-    "note": "5 sh @ $66.61 = $333 (Hold, 60% size) | $1,627 swing budget after"
+    "suggested_dollars": 334.65,
+    "note": "5 sh @ $66.93 = $335 (Hold, 60% size) | $1,625 swing budget after"
   },
   "is_dca": false,
-  "saved_at": "2026-08-24T22:56:26.188416"
+  "saved_at": "2026-08-25T22:58:13.057679"
 }

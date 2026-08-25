@@ -5,21 +5,21 @@
     "direction": "hold",
     "tier": "Hold",
     "buy_score": 0.62,
-    "sell_score": 0.14,
+    "sell_score": 0.29,
     "reasons": [],
     "misses": [
-      "RSI Divergence: no bullish divergence detected",
-      "200MA: price below 200MA \u2014 potential falling knife",
-      "Volume: below average (0.88x) \u2014 low conviction"
+      "BB: price not near lower band (pct=0.60)",
+      "RSI: not in buy zone (49.4, need 20-40)",
+      "RSI Divergence: no bullish divergence detected"
     ],
-    "price": 315.92,
-    "rsi": 35.4,
-    "atr": 8.95,
+    "price": 331.9,
+    "rsi": 49.4,
+    "atr": 9.32,
     "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 1,
-      "suggested_dollars": 315.92,
-      "note": "1 sh @ $315.92 = $316 (Hold, 60% size) | $1,644 swing budget after"
+      "suggested_dollars": 331.9,
+      "note": "1 sh @ $331.90 = $332 (Hold, 60% size) | $1,628 swing budget after"
     }
   },
   "fundamentals": {
@@ -48,7 +48,7 @@
       ],
       "earnings_status": "past",
       "next_earnings_date": "2026-07-27",
-      "days_to_earnings": -28
+      "days_to_earnings": -29
     }
   },
   "news": {
@@ -56,34 +56,33 @@
     "sentiment": "neutral",
     "health": "healthy",
     "key_events": [
-      "Earnings reported 28 days ago",
-      "Stock down 6.54% from entry",
-      "RSI at 35.4 indicates oversold conditions",
-      "No recent news available for assessment"
+      "Earnings reported 29 days ago",
+      "No recent news catalysts",
+      "Greed sentiment in broader market suggests potential overextension"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "Lack of recent news/catalysts limits conviction",
-      "RSI oversold but no technical firing signals yet",
-      "Geopolitical risk unassessable due to limited information"
+      "No news flow to drive swing trade momentum",
+      "RSI at 49.4 shows no directional conviction",
+      "Position down 1.81% with no clear reversal setup yet"
     ],
-    "verdict": "CDNS is fundamentally healthy with oversold technicals, but lacks near-term catalysts; hold position and monitor for RSI recovery or bullish technical setup.",
+    "verdict": "CDNS is fundamentally healthy but lacks technical setup or news catalysts for swing trade progression; hold and await clearer entry/exit signals.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "CDNS",
-    "stock_return_3m": -15.44,
-    "benchmark_return_3m": 2.66,
-    "relative_strength": -18.09,
+    "stock_return_3m": -13.06,
+    "benchmark_return_3m": 2.3,
+    "relative_strength": -15.36,
     "label": "underperforming"
   },
   "final_tier": "Hold",
   "sizing": {
     "suggested_shares": 1,
-    "suggested_dollars": 315.92,
-    "note": "1 sh @ $315.92 = $316 (Hold, 60% size) | $1,644 swing budget after"
+    "suggested_dollars": 331.9,
+    "note": "1 sh @ $331.90 = $332 (Hold, 60% size) | $1,628 swing budget after"
   },
   "is_dca": false,
-  "saved_at": "2026-08-24T22:55:51.744280"
+  "saved_at": "2026-08-25T22:57:47.721053"
 }

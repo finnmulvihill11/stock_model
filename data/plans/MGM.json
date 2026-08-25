@@ -3,19 +3,36 @@
     "ticker": "MGM",
     "company_name": "MGM Resorts International",
     "action": "Hold",
-    "action_reason": "Position is essentially flat (-0.05%) with no clear technical or fundamental trigger to exit. The high debt load is a structural concern but not an immediate swing catalyst. Wait for either technical confirmation (RSI >50 + volume support) or positive catalyst news before considering add.",
-    "target_price": null,
+    "action_reason": "Position is only -0.85% (well above the 15% threshold), RSI suggests potential support near current levels, and stable market conditions provide runway for recovery. Insufficient conviction to add; no reason to trim given loss magnitude.",
+    "target_price": 46.5,
     "target_reasoning": "",
-    "exit_trigger": "Break below $41.50 on volume (5%+ loss from entry) OR confirmed downtrend below 20-day MA with RSI <30",
-    "add_trigger": "RSI bounces above 55 with price holding above $45.00 AND positive gaming/tourism news emerges; add 1-2 shares max given high debt risk",
-    "risk": "Leveraged balance sheet (8.9x D/E) amplifies downside in recession/credit stress; entertainment/travel demand sensitivity; limited near-term catalysts",
-    "outlook": "neutral",
-    "timeframe": "2-4 weeks \u2014 reassess at next earnings or if technical pattern establishes (breakout above $45 resistance or breakdown below $41 support)",
-    "generated_at": "2026-08-24T22:56:00.531021",
-    "price_at_generation": 43.69,
-    "pnl_at_generation": -0.05
+    "exit_trigger": "Break below $41.00 (support) with confirmed volume or if debt concerns materialize in next earnings",
+    "add_trigger": "RSI falls to 30 or below with VIX spike, or positive gaming revenue catalyst emerges",
+    "risk": "High leverage amplifies downside in recession; casino cyclicality sensitive to consumer spending slowdown",
+    "outlook": "cautious",
+    "timeframe": "3-6 weeks",
+    "generated_at": "2026-08-25T22:57:54.194534",
+    "price_at_generation": 43.34,
+    "pnl_at_generation": -0.85
   },
   "history": [
+    {
+      "ticker": "MGM",
+      "company_name": "MGM Resorts International",
+      "action": "Hold",
+      "action_reason": "Position is essentially flat (-0.05%) with no clear technical or fundamental trigger to exit. The high debt load is a structural concern but not an immediate swing catalyst. Wait for either technical confirmation (RSI >50 + volume support) or positive catalyst news before considering add.",
+      "target_price": null,
+      "target_reasoning": "",
+      "exit_trigger": "Break below $41.50 on volume (5%+ loss from entry) OR confirmed downtrend below 20-day MA with RSI <30",
+      "add_trigger": "RSI bounces above 55 with price holding above $45.00 AND positive gaming/tourism news emerges; add 1-2 shares max given high debt risk",
+      "risk": "Leveraged balance sheet (8.9x D/E) amplifies downside in recession/credit stress; entertainment/travel demand sensitivity; limited near-term catalysts",
+      "outlook": "neutral",
+      "timeframe": "2-4 weeks \u2014 reassess at next earnings or if technical pattern establishes (breakout above $45 resistance or breakdown below $41 support)",
+      "generated_at": "2026-08-24T22:56:00.531021",
+      "price_at_generation": 43.69,
+      "pnl_at_generation": -0.05,
+      "archived_at": "2026-08-25T22:57:54.194745"
+    },
     {
       "ticker": "MGM",
       "company_name": "MGM",
@@ -117,23 +134,6 @@
       "price_at_generation": 44.1,
       "pnl_at_generation": 0.14,
       "archived_at": "2026-08-17T22:52:49.705010"
-    },
-    {
-      "ticker": "MGM",
-      "company_name": "MGM",
-      "action": "Hold",
-      "action_reason": "Position is slightly profitable (+0.20%) and RSI 41.8 offers room for upside before resistance; however, lack of technical confirmation and high debt levels prevent adding. Wait for clearer directional signal or profit-taking opportunity above $45.",
-      "target_price": 45.5,
-      "target_reasoning": "",
-      "exit_trigger": "Break above $45.50 on volume with RSI >60 (take 50% profit), or close below $42.50 (cut remaining position \u2014 debt risk too high if momentum breaks)",
-      "add_trigger": "RSI dips to 30-35 + VIX spike >18 + support holds at $42.00 (signals capitulation, 1:3 risk-reward setup)",
-      "risk": "Debt spiral in recession; leverage amplifies downside if casino revenue deteriorates",
-      "outlook": "cautious",
-      "timeframe": "2-4 weeks",
-      "generated_at": "2026-08-13T23:21:35.795714",
-      "price_at_generation": 44.07,
-      "pnl_at_generation": 0.2,
-      "archived_at": "2026-08-16T22:49:59.767917"
     }
   ]
 }
