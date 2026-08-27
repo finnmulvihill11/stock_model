@@ -3,19 +3,36 @@
     "ticker": "INTU",
     "company_name": "Intuit Inc.",
     "action": "Hold",
-    "action_reason": "Per trading philosophy, positions down >15% are held through recovery. Fundamentals remain healthy, and imminent earnings could be a catalyst. RSI at 61.4 offers room to move without oversold conditions.",
-    "target_price": 510,
+    "action_reason": "Drawdown exceeds 15% threshold\u2014strategy mandates holding major losers for recovery. Fundamentals intact and RSI neutral (not oversold), suggesting bounce potential before exit consideration.",
+    "target_price": 425,
     "target_reasoning": "",
-    "exit_trigger": "Position recovers to breakeven ($468.29); reassess if fundamentals deteriorate post-earnings OR position exceeds 50% loss (extreme scenario)",
-    "add_trigger": "Post-earnings, if INTU confirms strong guidance and price stabilizes above $400 on positive sentiment",
-    "risk": "Earnings miss or guidance cut could accelerate losses; high portfolio weight amplifies downside impact",
+    "exit_trigger": "Position returns to profitability OR fundamentals deteriorate materially (e.g., guidance cut, revenue deceleration)",
+    "add_trigger": "Stock stabilizes above $340 AND RSI crosses above 60 with volume confirmation",
+    "risk": "Further earnings revisions downward; SaaS sector rotation if rates rise; concentration risk at 30.2% of portfolio",
     "outlook": "cautious",
-    "timeframe": "2-4 weeks (through earnings + post-earnings stability)",
-    "generated_at": "2026-08-25T22:57:41.412715",
-    "price_at_generation": 357.46,
-    "pnl_at_generation": -23.67
+    "timeframe": "4-8 weeks for recovery attempt; reassess after next quarterly guidance",
+    "generated_at": "2026-08-27T03:30:33.305146",
+    "price_at_generation": 345.88,
+    "pnl_at_generation": -26.14
   },
   "history": [
+    {
+      "ticker": "INTU",
+      "company_name": "Intuit Inc.",
+      "action": "Hold",
+      "action_reason": "Per trading philosophy, positions down >15% are held through recovery. Fundamentals remain healthy, and imminent earnings could be a catalyst. RSI at 61.4 offers room to move without oversold conditions.",
+      "target_price": 510,
+      "target_reasoning": "",
+      "exit_trigger": "Position recovers to breakeven ($468.29); reassess if fundamentals deteriorate post-earnings OR position exceeds 50% loss (extreme scenario)",
+      "add_trigger": "Post-earnings, if INTU confirms strong guidance and price stabilizes above $400 on positive sentiment",
+      "risk": "Earnings miss or guidance cut could accelerate losses; high portfolio weight amplifies downside impact",
+      "outlook": "cautious",
+      "timeframe": "2-4 weeks (through earnings + post-earnings stability)",
+      "generated_at": "2026-08-25T22:57:41.412715",
+      "price_at_generation": 357.46,
+      "pnl_at_generation": -23.67,
+      "archived_at": "2026-08-27T03:30:33.305387"
+    },
     {
       "ticker": "INTU",
       "company_name": "Intuit Inc.",
@@ -117,23 +134,6 @@
       "price_at_generation": 335.6,
       "pnl_at_generation": -28.34,
       "archived_at": "2026-08-18T22:53:39.025811"
-    },
-    {
-      "ticker": "INTU",
-      "company_name": "Intuit Inc.",
-      "action": "Hold",
-      "action_reason": "Down 26.19% exceeds the 15% threshold\u2014philosophy mandates holding. Earnings in 9 days will likely resolve uncertainty; fundamentals are healthy, supporting recovery potential post-earnings.",
-      "target_price": null,
-      "target_reasoning": "",
-      "exit_trigger": "Earnings miss with guidance cut + close below $330 (major support breach); OR position recovers to breakeven\u2014exit at $468+",
-      "add_trigger": "Only if post-earnings rally confirms bullish reversal; do NOT add into weakness before earnings",
-      "risk": "Earnings miss could trigger further downside; 29.4% portfolio weight means losses disproportionately impact total P&L. VIX complacency suggests sharp moves possible post-earnings.",
-      "outlook": "cautious",
-      "timeframe": "9 days to earnings, then 2-4 weeks post-earnings for recovery trajectory",
-      "generated_at": "2026-08-16T22:49:37.112832",
-      "price_at_generation": 345.66,
-      "pnl_at_generation": -26.19,
-      "archived_at": "2026-08-17T22:52:29.266344"
     }
   ]
 }

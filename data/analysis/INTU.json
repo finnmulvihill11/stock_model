@@ -8,15 +8,15 @@
     "sell_score": 0.57,
     "reasons": [],
     "misses": [
-      "BB: price not near lower band (pct=0.75)",
-      "RSI: not in buy zone (61.4, need 20-40)",
+      "BB: price not near lower band (pct=0.58)",
+      "RSI: not in buy zone (55.3, need 20-40)",
       "MACD: no bullish crossover or valley",
       "RSI Divergence: no bullish divergence detected",
       "200MA: price below 200MA \u2014 potential falling knife"
     ],
-    "price": 357.46,
-    "rsi": 61.4,
-    "atr": 13.61,
+    "price": 345.88,
+    "rsi": 55.3,
+    "atr": 15.24,
     "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 0,
@@ -38,8 +38,8 @@
     "profit_margins": 0.21907
   },
   "earnings": {
-    "proceed": false,
-    "reason": "Earnings in 0 days \u2014 wait for results before acting",
+    "proceed": true,
+    "reason": "Fundamentals intact \u2014 dip may be an overreaction",
     "verdict": {
       "ticker": "INTU",
       "verdict": "consider",
@@ -48,9 +48,9 @@
         "Earnings growing YoY (+10.7%)",
         "Revenue growing (+10.4%)"
       ],
-      "earnings_status": "imminent",
+      "earnings_status": "past",
       "next_earnings_date": "2026-08-25",
-      "days_to_earnings": 0
+      "days_to_earnings": -2
     }
   },
   "news": {
@@ -58,26 +58,26 @@
     "sentiment": "neutral",
     "health": "healthy",
     "key_events": [
-      "Imminent earnings announcement",
+      "Earnings reported 2 days ago (post-announcement volatility)",
       "No recent news items available for assessment",
-      "Market in greed mode with neutral volatility (VIX 15.4)"
+      "Market in Greed mode with neutral VIX (15.2)"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "Position down 23.67% from entry \u2014 significant drawdown",
-      "Heavy portfolio weight at 30.9% concentrates risk",
-      "No current technical momentum (RSI 61.4 is neutral, no firing signals)",
-      "Lack of recent news may indicate quiet period before earnings"
+      "Severe drawdown of -26.14% from entry",
+      "Position weight at 30.2% creates concentration risk",
+      "RSI at 55.3 shows no momentum strength",
+      "Recent earnings miss likely catalyst for decline"
     ],
-    "verdict": "Hold position through earnings; fundamental health and philosophy rule out exit despite 23.67% loss.",
+    "verdict": "INTU fundamentals remain healthy but stock is digesting post-earnings selloff; position in drawdown territory requires patience per strategy rules.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "INTU",
-    "stock_return_3m": 17.97,
-    "benchmark_return_3m": 2.3,
-    "relative_strength": 15.67,
+    "stock_return_3m": 12.9,
+    "benchmark_return_3m": 2.34,
+    "relative_strength": 10.55,
     "label": "outperforming"
   },
   "final_tier": "Hold",
@@ -87,5 +87,5 @@
     "note": "Position already at 20% portfolio cap"
   },
   "is_dca": false,
-  "saved_at": "2026-08-25T22:57:41.413592"
+  "saved_at": "2026-08-27T03:30:33.306017"
 }

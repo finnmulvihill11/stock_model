@@ -4,22 +4,23 @@
     "ticker": "CDNS",
     "direction": "hold",
     "tier": "Hold",
-    "buy_score": 0.62,
+    "buy_score": 0.5,
     "sell_score": 0.29,
     "reasons": [],
     "misses": [
-      "BB: price not near lower band (pct=0.60)",
-      "RSI: not in buy zone (49.4, need 20-40)",
+      "BB: price not near lower band (pct=0.67)",
+      "RSI: not in buy zone (51.3, need 20-40)",
+      "MACD: no bullish crossover or valley",
       "RSI Divergence: no bullish divergence detected"
     ],
-    "price": 331.9,
-    "rsi": 49.4,
-    "atr": 9.32,
+    "price": 334.68,
+    "rsi": 51.3,
+    "atr": 9.61,
     "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 1,
-      "suggested_dollars": 331.9,
-      "note": "1 sh @ $331.90 = $332 (Hold, 60% size) | $1,628 swing budget after"
+      "suggested_dollars": 334.68,
+      "note": "1 sh @ $334.68 = $335 (Hold, 60% size) | $1,625 swing budget after"
     }
   },
   "fundamentals": {
@@ -48,7 +49,7 @@
       ],
       "earnings_status": "past",
       "next_earnings_date": "2026-07-27",
-      "days_to_earnings": -29
+      "days_to_earnings": -31
     }
   },
   "news": {
@@ -56,33 +57,29 @@
     "sentiment": "neutral",
     "health": "healthy",
     "key_events": [
-      "Earnings reported 29 days ago",
-      "No recent news catalysts",
-      "Greed sentiment in broader market suggests potential overextension"
+      "Earnings reported 31 days ago - results digested by market",
+      "No recent news catalysts identified",
+      "Position slightly underwater at -0.99%"
     ],
     "macro_context": "",
     "competitive_notes": "",
-    "red_flags": [
-      "No news flow to drive swing trade momentum",
-      "RSI at 49.4 shows no directional conviction",
-      "Position down 1.81% with no clear reversal setup yet"
-    ],
-    "verdict": "CDNS is fundamentally healthy but lacks technical setup or news catalysts for swing trade progression; hold and await clearer entry/exit signals.",
+    "red_flags": [],
+    "verdict": "CDNS remains fundamentally healthy with neutral technicals; minor drawdown is within normal swing trading range and does not warrant action.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "CDNS",
-    "stock_return_3m": -13.06,
-    "benchmark_return_3m": 2.3,
-    "relative_strength": -15.36,
+    "stock_return_3m": -10.53,
+    "benchmark_return_3m": 2.34,
+    "relative_strength": -12.87,
     "label": "underperforming"
   },
   "final_tier": "Hold",
   "sizing": {
     "suggested_shares": 1,
-    "suggested_dollars": 331.9,
-    "note": "1 sh @ $331.90 = $332 (Hold, 60% size) | $1,628 swing budget after"
+    "suggested_dollars": 334.68,
+    "note": "1 sh @ $334.68 = $335 (Hold, 60% size) | $1,625 swing budget after"
   },
   "is_dca": false,
-  "saved_at": "2026-08-25T22:57:47.721053"
+  "saved_at": "2026-08-27T03:30:41.105460"
 }

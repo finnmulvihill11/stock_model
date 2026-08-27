@@ -10,16 +10,16 @@
     "misses": [
       "BB: price not near lower band (pct=0.21)",
       "RSI Divergence: no bullish divergence detected",
-      "Volume: below average (0.88x) \u2014 low conviction"
+      "Volume: below average (0.80x) \u2014 low conviction"
     ],
-    "price": 66.93,
-    "rsi": 39.0,
-    "atr": 1.09,
+    "price": 66.91,
+    "rsi": 38.9,
+    "atr": 0.93,
     "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 5,
-      "suggested_dollars": 334.65,
-      "note": "5 sh @ $66.93 = $335 (Hold, 60% size) | $1,625 swing budget after"
+      "suggested_dollars": 334.55,
+      "note": "5 sh @ $66.91 = $335 (Hold, 60% size) | $1,625 swing budget after"
     }
   },
   "fundamentals": {
@@ -49,7 +49,7 @@
       ],
       "earnings_status": "past",
       "next_earnings_date": "2026-07-31",
-      "days_to_earnings": -25
+      "days_to_earnings": -27
     }
   },
   "news": {
@@ -57,33 +57,34 @@
     "sentiment": "neutral",
     "health": "neutral",
     "key_events": [
-      "Earnings reported 25 days ago (recent cycle complete)",
-      "No material news catalysts identified",
-      "VIX at 15.4 indicates stable market conditions"
+      "Earnings reported 27 days ago",
+      "VIX at 15.2 indicates stable market conditions",
+      "Market sentiment at 'Greed' phase"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "High debt-to-equity ratio of 1.6x limits financial flexibility",
-      "RSI at 39.0 suggests weak momentum but not yet oversold",
-      "Stock down -1.98% from entry; utility underperformance in greed environment"
+      "High debt-to-equity ratio of 1.6x constrains financial flexibility",
+      "RSI at 38.9 approaching oversold conditions",
+      "No recent positive catalysts identified",
+      "Position down 2.01% with no bullish technical signals"
     ],
-    "verdict": "Neutral utility holding with weak near-term momentum; hold position given small drawdown and lack of negative catalysts.",
+    "verdict": "Utility stock showing weakness without clear recovery catalysts; neutral technicals and elevated leverage warrant cautious holding.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "D",
-    "stock_return_3m": 0.48,
-    "benchmark_return_3m": 2.3,
-    "relative_strength": -1.83,
+    "stock_return_3m": 0.57,
+    "benchmark_return_3m": 2.34,
+    "relative_strength": -1.78,
     "label": "in-line"
   },
   "final_tier": "Hold",
   "sizing": {
     "suggested_shares": 5,
-    "suggested_dollars": 334.65,
-    "note": "5 sh @ $66.93 = $335 (Hold, 60% size) | $1,625 swing budget after"
+    "suggested_dollars": 334.55,
+    "note": "5 sh @ $66.91 = $335 (Hold, 60% size) | $1,625 swing budget after"
   },
   "is_dca": false,
-  "saved_at": "2026-08-25T22:58:13.057679"
+  "saved_at": "2026-08-27T03:31:11.478430"
 }
