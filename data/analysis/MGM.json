@@ -4,23 +4,22 @@
     "ticker": "MGM",
     "direction": "hold",
     "tier": "Hold",
-    "buy_score": 0.5,
-    "sell_score": 0.14,
+    "buy_score": 0.62,
+    "sell_score": 0.29,
     "reasons": [],
     "misses": [
-      "BB: price not near lower band (pct=0.29)",
-      "RSI: not in buy zone (40.7, need 20-40)",
+      "MACD: no bullish crossover or valley",
       "RSI Divergence: no bullish divergence detected",
-      "Volume: below average (0.73x) \u2014 low conviction"
+      "Volume: below average (0.87x) \u2014 low conviction"
     ],
-    "price": 43.46,
-    "rsi": 40.7,
-    "atr": 0.69,
+    "price": 42.97,
+    "rsi": 37.0,
+    "atr": 0.7,
     "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 8,
-      "suggested_dollars": 347.68,
-      "note": "8 sh @ $43.46 = $348 (Hold, 60% size) | $1,612 swing budget after"
+      "suggested_dollars": 343.76,
+      "note": "8 sh @ $42.97 = $344 (Hold, 60% size) | $1,616 swing budget after"
     }
   },
   "fundamentals": {
@@ -50,7 +49,7 @@
       ],
       "earnings_status": "past",
       "next_earnings_date": "2026-07-29",
-      "days_to_earnings": -29
+      "days_to_earnings": -30
     }
   },
   "news": {
@@ -58,35 +57,34 @@
     "sentiment": "neutral",
     "health": "neutral",
     "key_events": [
-      "Earnings reported 29 days ago",
-      "VIX at 15.2 suggests stable market conditions",
-      "Market sentiment in Greed phase"
+      "Earnings reported within last 30 days",
+      "VIX at 14.5 indicating market complacency",
+      "RSI at 37.0 suggesting oversold conditions"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "High debt-to-equity ratio of 8.9x indicates significant financial leverage",
-      "RSI at 40.7 approaching oversold territory (below 30)",
-      "No technical firing signals present",
-      "Position down -0.57% with no recent catalysts visible",
-      "No recent news flow to drive momentum"
+      "High debt-to-equity ratio of 8.9x creates refinancing risk",
+      "Position down 1.69% with no positive catalysts visible",
+      "No news flow to drive recovery",
+      "Market sentiment shifted to Greed (potential correction risk)"
     ],
-    "verdict": "MGM is in a consolidation phase with elevated leverage risk; current modest loss does not warrant exit per strategy, but position requires monitoring for technical deterioration.",
+    "verdict": "MGM is technically oversold with deteriorating fundamentals; hold and monitor for capitulation signals before considering entry on weakness.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "MGM",
-    "stock_return_3m": 3.6,
-    "benchmark_return_3m": 2.34,
-    "relative_strength": 1.26,
+    "stock_return_3m": 0.09,
+    "benchmark_return_3m": 2.45,
+    "relative_strength": -2.36,
     "label": "in-line"
   },
   "final_tier": "Hold",
   "sizing": {
     "suggested_shares": 8,
-    "suggested_dollars": 347.68,
-    "note": "8 sh @ $43.46 = $348 (Hold, 60% size) | $1,612 swing budget after"
+    "suggested_dollars": 343.76,
+    "note": "8 sh @ $42.97 = $344 (Hold, 60% size) | $1,616 swing budget after"
   },
   "is_dca": false,
-  "saved_at": "2026-08-27T03:30:49.204192"
+  "saved_at": "2026-08-28T06:16:05.821973"
 }

@@ -4,24 +4,25 @@
     "ticker": "MNST",
     "direction": "hold",
     "tier": "Hold",
-    "buy_score": 0.38,
+    "buy_score": 0.25,
     "sell_score": 0.14,
     "reasons": [],
     "misses": [
       "BB: price not near lower band (pct=0.35)",
       "BB Width: bands expanding, not squeezing",
-      "RSI: not in buy zone (42.4, need 20-40)",
+      "RSI: not in buy zone (42.0, need 20-40)",
       "200MA: price below 200MA \u2014 potential falling knife",
-      "Volume: below average (0.69x) \u2014 low conviction"
+      "Death cross active: 50MA (78.20) below 200MA (78.64)",
+      "Volume: below average (0.81x) \u2014 low conviction"
     ],
-    "price": 47.81,
-    "rsi": 42.4,
-    "atr": 10.87,
+    "price": 46.7,
+    "rsi": 42.0,
+    "atr": 7.55,
     "final_tier": "Hold",
     "sizing": {
-      "suggested_shares": 5,
-      "suggested_dollars": 239.05,
-      "note": "5 sh @ $47.81 = $239 (Hold, 60% size) | $1,721 swing budget after"
+      "suggested_shares": 7,
+      "suggested_dollars": 326.9,
+      "note": "7 sh @ $46.70 = $327 (Hold, 60% size) | $1,633 swing budget after"
     }
   },
   "fundamentals": {
@@ -50,7 +51,7 @@
       ],
       "earnings_status": "past",
       "next_earnings_date": "2026-08-06",
-      "days_to_earnings": -21
+      "days_to_earnings": -22
     }
   },
   "news": {
@@ -58,33 +59,34 @@
     "sentiment": "neutral",
     "health": "healthy",
     "key_events": [
-      "Earnings reported 21 days ago",
-      "VIX at 15.2 indicating neutral market conditions",
-      "Market sentiment in Greed zone"
+      "Earnings reported 22 days ago",
+      "Low market volatility environment (VIX 14.5)",
+      "Market in Greed mode - elevated valuations"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "No recent news catalysts available for analysis",
-      "RSI at 42.4 suggests lack of momentum (below 50 midpoint)",
-      "Technical setup shows no active firing signals"
+      "No recent news catalysts provided",
+      "RSI at 42 indicates neither overbought nor oversold, lacking momentum",
+      "Post-earnings period typically shows volatility decay",
+      "Greed sentiment raises valuation risk in low-vol environment"
     ],
-    "verdict": "MNST is profitable but lacks near-term catalysts; hold position and await clearer directional setup or earnings anniversary volatility.",
+    "verdict": "Small profitable swing position lacks momentum and fresh catalysts; hold while monitoring for exit opportunity in higher-volatility environment.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "MNST",
-    "stock_return_3m": -45.31,
-    "benchmark_return_3m": 2.34,
-    "relative_strength": -47.65,
+    "stock_return_3m": -47.67,
+    "benchmark_return_3m": 2.45,
+    "relative_strength": -50.12,
     "label": "underperforming"
   },
   "final_tier": "Hold",
   "sizing": {
-    "suggested_shares": 5,
-    "suggested_dollars": 239.05,
-    "note": "5 sh @ $47.81 = $239 (Hold, 60% size) | $1,721 swing budget after"
+    "suggested_shares": 7,
+    "suggested_dollars": 326.9,
+    "note": "7 sh @ $46.70 = $327 (Hold, 60% size) | $1,633 swing budget after"
   },
   "is_dca": false,
-  "saved_at": "2026-08-27T03:31:04.477337"
+  "saved_at": "2026-08-28T06:16:21.156438"
 }

@@ -4,24 +4,23 @@
     "ticker": "CNP",
     "direction": "hold",
     "tier": "Hold",
-    "buy_score": 0.38,
-    "sell_score": 0.0,
+    "buy_score": 0.5,
+    "sell_score": 0.14,
     "reasons": [],
     "misses": [
-      "BB: price not near lower band (pct=0.29)",
-      "BB Width: bands expanding, not squeezing",
+      "BB: price not near lower band (pct=0.23)",
       "RSI Divergence: no bullish divergence detected",
       "200MA: price below 200MA \u2014 potential falling knife",
-      "Volume: below average (0.91x) \u2014 low conviction"
+      "Volume: below average (0.75x) \u2014 low conviction"
     ],
-    "price": 39.59,
-    "rsi": 38.6,
-    "atr": 0.81,
+    "price": 39.29,
+    "rsi": 36.5,
+    "atr": 0.78,
     "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 8,
-      "suggested_dollars": 316.72,
-      "note": "8 sh @ $39.59 = $317 (Hold, 60% size) | $1,643 swing budget after"
+      "suggested_dollars": 314.32,
+      "note": "8 sh @ $39.29 = $314 (Hold, 60% size) | $1,645 swing budget after"
     }
   },
   "fundamentals": {
@@ -51,7 +50,7 @@
       ],
       "earnings_status": "past",
       "next_earnings_date": "2026-07-28",
-      "days_to_earnings": -30
+      "days_to_earnings": -31
     }
   },
   "news": {
@@ -59,35 +58,35 @@
     "sentiment": "neutral",
     "health": "neutral",
     "key_events": [
-      "Earnings reported within past 30 days",
-      "Position down 1.44% from entry",
-      "VIX at 15.2 indicates stable market conditions",
-      "Market sentiment in Greed phase"
+      "No recent news catalysts identified",
+      "Earnings already reported (past -31d)",
+      "Low volatility environment (VIX 14.5)",
+      "Market in Greed mode \u2014 potential pullback risk"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "High debt-to-equity ratio of 2.1x raises financial leverage concerns",
-      "RSI at 38.6 suggests weakness but not yet oversold (<30)",
-      "No technical firing signals present",
-      "Utility sector sensitivity to rate environment"
+      "High debt-to-equity ratio (2.1x) \u2014 refinancing/rate risk exposure",
+      "RSI 36.5 \u2014 oversold but no bullish confirmation signals yet",
+      "Position down -2.19% with no technical firing patterns",
+      "Lack of news flow suggests potential for unexpected negatives"
     ],
-    "verdict": "CNP shows neutral technicals with manageable downside; hold position and await better entry signals before adding.",
+    "verdict": "CNP is oversold on technicals but lacks catalysts to reverse; hold and wait for RSI recovery or news-driven setup.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "CNP",
-    "stock_return_3m": -7.53,
-    "benchmark_return_3m": 2.34,
-    "relative_strength": -9.87,
+    "stock_return_3m": -6.38,
+    "benchmark_return_3m": 2.45,
+    "relative_strength": -8.83,
     "label": "underperforming"
   },
   "final_tier": "Hold",
   "sizing": {
     "suggested_shares": 8,
-    "suggested_dollars": 316.72,
-    "note": "8 sh @ $39.59 = $317 (Hold, 60% size) | $1,643 swing budget after"
+    "suggested_dollars": 314.32,
+    "note": "8 sh @ $39.29 = $314 (Hold, 60% size) | $1,645 swing budget after"
   },
   "is_dca": false,
-  "saved_at": "2026-08-27T03:30:56.515879"
+  "saved_at": "2026-08-28T06:16:13.559709"
 }

@@ -3,19 +3,36 @@
     "ticker": "CNP",
     "company_name": "CenterPoint Energy, Inc.",
     "action": "Hold",
-    "action_reason": "Loss is minimal at -1.44%, well below the 15% hold-through threshold. RSI at 38.6 offers potential bounce room without immediate distress signals. Wait for stabilization or clearer technical setup before committing more capital.",
+    "action_reason": "Position is only -2.19% down (well above 15% threshold), so philosophy mandates holding. RSI 36.5 suggests potential mean reversion, but no buy signal has fired yet. Wait for technical confirmation before adding.",
     "target_price": 41.5,
     "target_reasoning": "",
-    "exit_trigger": "Close below $37.50 (7% from entry) with confirmed breakdown of support + fundamentals deteriorate further",
-    "add_trigger": "RSI dips to 30-32 range with volume support, or break above $41.00 with positive earnings guidance",
-    "risk": "Elevated debt burden limits financial flexibility; utility dividend vulnerability to rate hikes; sector rotation risk in current Greed environment",
+    "exit_trigger": "If position reaches -15% or below, strict hold protocol applies. Exit only if breach below $34.14 with high-volume breakdown or debt/credit event.",
+    "add_trigger": "RSI crosses above 45 with volume + confirmation of utility sector strength, OR positive earnings surprise/dividend increase announced.",
+    "risk": "Elevated leverage (2.1x D/E) in rising rate environment; utility dividend cut risk if cash flow deteriorates; sector rotation away from defensive plays.",
     "outlook": "cautious",
-    "timeframe": "2-4 weeks for technical clarity",
-    "generated_at": "2026-08-27T03:30:56.515060",
-    "price_at_generation": 39.59,
-    "pnl_at_generation": -1.44
+    "timeframe": "3-6 weeks",
+    "generated_at": "2026-08-28T06:16:13.558863",
+    "price_at_generation": 39.29,
+    "pnl_at_generation": -2.19
   },
   "history": [
+    {
+      "ticker": "CNP",
+      "company_name": "CenterPoint Energy, Inc.",
+      "action": "Hold",
+      "action_reason": "Loss is minimal at -1.44%, well below the 15% hold-through threshold. RSI at 38.6 offers potential bounce room without immediate distress signals. Wait for stabilization or clearer technical setup before committing more capital.",
+      "target_price": 41.5,
+      "target_reasoning": "",
+      "exit_trigger": "Close below $37.50 (7% from entry) with confirmed breakdown of support + fundamentals deteriorate further",
+      "add_trigger": "RSI dips to 30-32 range with volume support, or break above $41.00 with positive earnings guidance",
+      "risk": "Elevated debt burden limits financial flexibility; utility dividend vulnerability to rate hikes; sector rotation risk in current Greed environment",
+      "outlook": "cautious",
+      "timeframe": "2-4 weeks for technical clarity",
+      "generated_at": "2026-08-27T03:30:56.515060",
+      "price_at_generation": 39.59,
+      "pnl_at_generation": -1.44,
+      "archived_at": "2026-08-28T06:16:13.559091"
+    },
     {
       "ticker": "CNP",
       "company_name": "CenterPoint Energy, Inc.",
@@ -117,23 +134,6 @@
       "price_at_generation": 40.54,
       "pnl_at_generation": 0.92,
       "archived_at": "2026-08-19T22:54:14.782128"
-    },
-    {
-      "ticker": "CNP",
-      "company_name": "CenterPoint Energy, Inc.",
-      "action": "Hold",
-      "action_reason": "Position is profitable and small (+1.15%), but lacks technical momentum (RSI 37.4, no firing indicators). Utility fundamentals remain neutral with debt concerns offsetting defensive qualities. Insufficient catalyst to trim a winner or add exposure.",
-      "target_price": 42.5,
-      "target_reasoning": "",
-      "exit_trigger": "Break below $38.50 (near-term support) or if debt refinancing concerns escalate; exit if position reaches +8-10% on renewed RSI strength above 60",
-      "add_trigger": "RSI crosses above 50 on volume with positive earnings revision OR debt-to-equity improves materially in next quarterly report",
-      "risk": "Refinancing risk from 2.1x leverage if rates stay elevated; utility sector underperformance in high-rate regime",
-      "outlook": "neutral",
-      "timeframe": "4-8 weeks \u2014 monitor next quarterly earnings for debt management commentary and rate environment shifts",
-      "generated_at": "2026-08-17T22:52:57.110245",
-      "price_at_generation": 40.63,
-      "pnl_at_generation": 1.15,
-      "archived_at": "2026-08-18T22:54:10.737175"
     }
   ]
 }

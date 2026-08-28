@@ -3,19 +3,36 @@
     "ticker": "INTU",
     "company_name": "Intuit Inc.",
     "action": "Hold",
-    "action_reason": "Drawdown exceeds 15% threshold\u2014strategy mandates holding major losers for recovery. Fundamentals intact and RSI neutral (not oversold), suggesting bounce potential before exit consideration.",
-    "target_price": 425,
+    "action_reason": "Loss exceeds 15% threshold\u2014philosophy mandates holding major losers for recovery. Fundamentals remain intact post-earnings; no deterioration warrants forced exit.",
+    "target_price": 520,
     "target_reasoning": "",
-    "exit_trigger": "Position returns to profitability OR fundamentals deteriorate materially (e.g., guidance cut, revenue deceleration)",
-    "add_trigger": "Stock stabilizes above $340 AND RSI crosses above 60 with volume confirmation",
-    "risk": "Further earnings revisions downward; SaaS sector rotation if rates rise; concentration risk at 30.2% of portfolio",
+    "exit_trigger": "Only exit if fundamentals deteriorate (guidance cut, margin compression, competitive loss) OR position rebounds to breakeven/profit",
+    "add_trigger": "Add if INTU breaks below $320 on high volume + RSI <40, signaling capitulation and bounce potential; reduces average cost",
+    "risk": "Further drawdown if software/SaaS sector faces macro headwinds; high weight (30.2%) amplifies portfolio volatility",
     "outlook": "cautious",
-    "timeframe": "4-8 weeks for recovery attempt; reassess after next quarterly guidance",
-    "generated_at": "2026-08-27T03:30:33.305146",
-    "price_at_generation": 345.88,
-    "pnl_at_generation": -26.14
+    "timeframe": "3-8 weeks (post-earnings quiet period; watch for macro clarity + next product cycles)",
+    "generated_at": "2026-08-28T06:15:51.068649",
+    "price_at_generation": 348.0,
+    "pnl_at_generation": -25.69
   },
   "history": [
+    {
+      "ticker": "INTU",
+      "company_name": "Intuit Inc.",
+      "action": "Hold",
+      "action_reason": "Drawdown exceeds 15% threshold\u2014strategy mandates holding major losers for recovery. Fundamentals intact and RSI neutral (not oversold), suggesting bounce potential before exit consideration.",
+      "target_price": 425,
+      "target_reasoning": "",
+      "exit_trigger": "Position returns to profitability OR fundamentals deteriorate materially (e.g., guidance cut, revenue deceleration)",
+      "add_trigger": "Stock stabilizes above $340 AND RSI crosses above 60 with volume confirmation",
+      "risk": "Further earnings revisions downward; SaaS sector rotation if rates rise; concentration risk at 30.2% of portfolio",
+      "outlook": "cautious",
+      "timeframe": "4-8 weeks for recovery attempt; reassess after next quarterly guidance",
+      "generated_at": "2026-08-27T03:30:33.305146",
+      "price_at_generation": 345.88,
+      "pnl_at_generation": -26.14,
+      "archived_at": "2026-08-28T06:15:51.068906"
+    },
     {
       "ticker": "INTU",
       "company_name": "Intuit Inc.",
@@ -117,23 +134,6 @@
       "price_at_generation": 350.41,
       "pnl_at_generation": -25.17,
       "archived_at": "2026-08-19T22:53:44.632187"
-    },
-    {
-      "ticker": "INTU",
-      "company_name": "Intuit Inc.",
-      "action": "Hold",
-      "action_reason": "Position is down 28% (beyond 15% exit threshold per philosophy), and earnings catalyst is imminent. Hold to allow earnings upside/downside to resolve before any action; the 8-day window is too short to exit into Fear sentiment and miss recovery.",
-      "target_price": 420,
-      "target_reasoning": "",
-      "exit_trigger": "Close below $300 (fresh 52w low + fundamental deterioration signal) OR negative earnings surprise combined with forward guidance miss",
-      "add_trigger": "Post-earnings rally above $380 with positive guidance; or if VIX spikes >20 and INTU holds above $320 (accumulation setup)",
-      "risk": "Earnings miss + macro slowdown in SMB/consumer spending; software sector multiple compression if rates surprise higher",
-      "outlook": "cautious",
-      "timeframe": "2-3 weeks (earnings + post-report stabilization period)",
-      "generated_at": "2026-08-17T22:52:29.266113",
-      "price_at_generation": 335.6,
-      "pnl_at_generation": -28.34,
-      "archived_at": "2026-08-18T22:53:39.025811"
     }
   ]
 }
