@@ -458,6 +458,14 @@
       "avg_cost": 338.03,
       "realized_pnl": 1.98,
       "realized_pnl_pct": 0.59
+    },
+    {
+      "date": "2026-08-28",
+      "ticker": "FITB",
+      "shares": 2.0,
+      "amount": 109.16,
+      "type": "swing",
+      "action": "buy"
     }
   ]
 }
