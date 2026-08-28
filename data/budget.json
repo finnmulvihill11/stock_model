@@ -446,6 +446,18 @@
       "avg_cost": 69.08,
       "realized_pnl": 0.9,
       "realized_pnl_pct": 0.43
+    },
+    {
+      "date": "2026-08-28",
+      "ticker": "CDNS",
+      "shares": 1,
+      "amount": -340.01,
+      "type": "swing",
+      "action": "sell",
+      "sell_price": 340.015,
+      "avg_cost": 338.03,
+      "realized_pnl": 1.98,
+      "realized_pnl_pct": 0.59
     }
   ]
 }
