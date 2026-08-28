@@ -14,6 +14,7 @@ portfolio:
   - WMT
   - MSFT
   - TEM
+  - CDNS
   holdings:
   - ticker: INTU
     shares: 3
@@ -30,9 +31,6 @@ portfolio:
     shares: 4
     avg_cost: 21.16
     dca: true
-  - ticker: CDNS
-    shares: 1.0
-    avg_cost: 338.03
   - ticker: MGM
     shares: 7.0
     avg_cost: 43.71
