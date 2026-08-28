@@ -75,11 +75,17 @@ def load_market_context():
     return get_market_context()
 
 def load_full_analysis(ticker, high_risk=False, force_live=False, pnl_pct=None, portfolio_value=0.0, position_value=0.0):
-    """Load analysis from overnight cache. Falls back to live only if forced (Ticker Detail)."""
+    """Load analysis from overnight cache. Falls back to live only if forced (Ticker Detail).
+
+    pnl_pct is accepted on the 0-100 percent scale (matches holding['unrealized_pnl_pct'])
+    and converted to a fraction below — the major-loser guard expects -0.15 == -15%.
+    """
     if not force_live:
         cached = load_ticker_analysis(ticker)
         if cached:
             return cached
+
+    pnl_pct = pnl_pct / 100 if pnl_pct is not None else None
 
     # Live fallback (Ticker Detail or cache miss)
     signal = get_technical_signal(ticker)

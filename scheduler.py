@@ -65,7 +65,10 @@ def run_nightly():
             combined = generate_plan_with_news(holding, sig, fund, gate, market)
             news_result = combined["news"]
 
-            tier = _final_tier(sig["tier"], fund["health"], news_result.get("sentiment", "neutral"), gate["proceed"], geo_risk, holding.get("unrealized_pnl_pct"))
+            # unrealized_pnl_pct is on a 0-100 percent scale (src/portfolio.py); _final_tier's
+            # major-loser guard expects a fraction (-0.15 == -15%).
+            pnl_fraction = holding["unrealized_pnl_pct"] / 100
+            tier = _final_tier(sig["tier"], fund["health"], news_result.get("sentiment", "neutral"), gate["proceed"], geo_risk, pnl_fraction)
             sig["final_tier"] = tier
 
             sz = size_swing_trade(
@@ -166,8 +169,9 @@ def run_weekly():
         print(f"  {ticker}...")
         try:
             fund = check_fundamentals(ticker)
+            gate = earnings_gate(ticker)
             news_result = analyze_company(ticker)
-            tier = _final_tier(candidate["tier"], fund["health"], news_result.get("sentiment", "neutral"), True, geo_risk)
+            tier = _final_tier(candidate["tier"], fund["health"], news_result.get("sentiment", "neutral"), gate["proceed"], geo_risk)
             sz = size_swing_trade(
                 ticker, candidate["price"], candidate.get("atr") or 1,
                 tier=tier,

@@ -437,6 +437,7 @@ def generate_plan_with_news(
     fundamentals: dict,
     earnings: dict,
     market_context: dict,
+    save: bool = True,
 ) -> dict:
     """Single Haiku call combining news analysis + position plan. Use in nightly scheduler."""
     ticker = holding["ticker"]
@@ -527,9 +528,11 @@ One JSON with news assessment + position plan:
             "price_at_generation": current_price,
             "pnl_at_generation": pnl_pct,
         }
-        _save_plan(ticker, plan)
+        if save:
+            _save_plan(ticker, plan)
         return {"news": news, "plan": plan}
     except Exception as e:
         _plan_fallback["action_reason"] = f"Analysis unavailable: {e}"
-        _save_plan(ticker, _plan_fallback)
+        if save:
+            _save_plan(ticker, _plan_fallback)
         return {"news": _news_fallback, "plan": _plan_fallback}

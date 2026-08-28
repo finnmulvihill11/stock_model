@@ -15,6 +15,7 @@ from src.news import analyze_company
 from src.market_context import get_relative_strength
 from src.budget import size_swing_trade
 from src.tier import _final_tier
+from src.planner import generate_plan_with_news, generate_opportunity_plan
 
 DB_PATH = Path(__file__).parent.parent / "data" / "virtual_trader.db"
 
@@ -116,6 +117,25 @@ def get_open_tickers(db_path: Path = None) -> list[str]:
         conn.close()
 
 
+def get_open_position(ticker: str, db_path: Path = None) -> dict | None:
+    """Latest open position for a ticker, or None. Used to reconstruct a
+    synthetic 'holding' (entry price as cost basis) for exit decisions."""
+    path = str(db_path or DB_PATH)
+    conn = sqlite3.connect(path)
+    try:
+        row = conn.execute(
+            """SELECT entry_price, entry_date, entry_metrics FROM virtual_trades
+               WHERE ticker=? AND status='open' ORDER BY id DESC LIMIT 1""",
+            (ticker,),
+        ).fetchone()
+        if not row:
+            return None
+        entry_price, entry_date, entry_metrics = row
+        return {"entry_price": entry_price, "entry_date": entry_date, "entry_metrics": entry_metrics}
+    finally:
+        conn.close()
+
+
 def build_metric_snapshot(
     ticker: str,
     df: "pd.DataFrame",
@@ -128,6 +148,7 @@ def build_metric_snapshot(
     market: dict,
     final_tier: str,
     sz: dict,
+    plan: dict = None,
 ) -> str:
     """Assemble a complete metric snapshot from all analysis components. Returns JSON string."""
 
@@ -199,6 +220,10 @@ def build_metric_snapshot(
         "final_tier":        final_tier,
         "suggested_shares":  sz.get("shares"),
         "suggested_dollars": sz.get("amount"),
+        # Position plan — same Claude call the real pipeline uses (generate_plan_with_news
+        # for exits: action/action_reason; generate_opportunity_plan for entries:
+        # conviction/buy_case/entry_condition/etc). Stored raw since the shape differs.
+        "plan": plan or {},
     }
     return json.dumps(snapshot)
 
@@ -256,8 +281,16 @@ def run_virtual_entries(cache: dict, market: dict, geo_risk: str, db_path: Path 
                 ticker, entry_price, entry_atr,
                 tier=tier, portfolio_value=0, current_position_value=0,
             )
+            # Same buy-plan generation the real weekly pipeline runs for new
+            # opportunities (generate_opportunity_plan) — folds the news verdict
+            # into a conviction/buy-case narrative rather than just gating on tier.
+            plan = generate_opportunity_plan(
+                ticker=ticker, signal=candidate, fundamentals=fund, news=news,
+                market_context=market, final_tier=tier, portfolio_value=0,
+                sizing={"suggested_dollars": sz["amount"], "suggested_shares": sz["shares"]},
+            )
             metrics_json = build_metric_snapshot(
-                ticker, df, div, tech_sig, fund, gate, news, rs_data, market, tier, sz
+                ticker, df, div, tech_sig, fund, gate, news, rs_data, market, tier, sz, plan=plan
             )
             open_position(ticker, today, entry_price, tier, metrics_json, db_path=db_path)
             print(f"[VT]   Opened {ticker} @ ${entry_price:.2f} ({tier})")
@@ -267,10 +300,15 @@ def run_virtual_entries(cache: dict, market: dict, geo_risk: str, db_path: Path 
 
 def run_virtual_exits(market: dict, geo_risk: str, db_path: Path = None) -> None:
     """
-    Nightly: check every open virtual position. If the full two-pillar analysis
-    produces Sell or Strong Sell, close all open positions for that ticker.
-    Mirrors run_nightly() holdings analysis but targets virtual_trades, not the
-    real portfolio.
+    Nightly: check every open virtual position using the exact same exit
+    decision the real pipeline uses for holdings — the Claude-generated plan
+    action from generate_plan_with_news (Hold / Add More / Start Trimming /
+    Exit / Wait) — not a raw technical tier. A virtual position closes fully
+    on "Start Trimming" or "Exit" since virtual_trades has no partial-share
+    tracking. Mirrors run_nightly() holdings analysis but targets
+    virtual_trades, not the real portfolio, and never writes to the shared
+    data/plans/<ticker>.json store (save=False) so it can't clobber a real
+    holding's plan for the same ticker.
     """
     today = str(date.today())
     open_tickers = get_open_tickers(db_path=db_path)
@@ -278,42 +316,69 @@ def run_virtual_exits(market: dict, geo_risk: str, db_path: Path = None) -> None
 
     for ticker in open_tickers:
         try:
+            position = get_open_position(ticker, db_path=db_path)
+            if not position:
+                continue
+
             df = fetch_ohlcv(ticker)
             df = add_all_indicators(df)
             div = detect_rsi_divergence(df)
             tech_sig = get_technical_signal(ticker)
             fund = check_fundamentals(ticker)
             gate = earnings_gate(ticker)
-            news = analyze_company(ticker)
             rs_data = {}
             try:
                 rs_data = get_relative_strength(ticker)
             except Exception:
                 pass
 
-            tier = _final_tier(
-                tech_sig["tier"], fund["health"],
-                news.get("sentiment", "neutral"), gate["proceed"], geo_risk,
-            )
-            if tier not in ("Sell", "Strong Sell"):
-                print(f"[VT]   {ticker}: {tier} — holding")
-                continue
-
             clean = df.dropna(subset=["Close"])
             row = clean.iloc[-1]
-            exit_price = float(row["Close"])
-            exit_atr = float(row["atr"]) if pd.notna(row.get("atr")) else 1.0
+            current_price = float(row["Close"])
+            entry_price = position["entry_price"]
+            pnl_pct = (current_price - entry_price) / entry_price
 
+            try:
+                shares = json.loads(position["entry_metrics"]).get("suggested_shares") or 1
+            except (TypeError, ValueError, json.JSONDecodeError):
+                shares = 1
+
+            # Synthetic holding: entry price as cost basis, no real portfolio
+            # weight to report since this is a standalone paper position.
+            holding = {
+                "ticker": ticker,
+                "shares": shares,
+                "avg_cost": entry_price,
+                "current_price": current_price,
+                "unrealized_pnl_pct": pnl_pct,
+                "portfolio_pct": 0,
+            }
+
+            combined = generate_plan_with_news(holding, tech_sig, fund, gate, market, save=False)
+            news = combined["news"]
+            plan = combined["plan"]
+
+            tier = _final_tier(
+                tech_sig["tier"], fund["health"],
+                news.get("sentiment", "neutral"), gate["proceed"], geo_risk, pnl_pct,
+            )
+
+            action = plan.get("action", "Hold")
+            if action not in ("Start Trimming", "Exit"):
+                print(f"[VT]   {ticker}: plan={action} (tier={tier}) — holding")
+                continue
+
+            exit_atr = float(row["atr"]) if pd.notna(row.get("atr")) else 1.0
             sz = size_swing_trade(
-                ticker, exit_price, exit_atr,
+                ticker, current_price, exit_atr,
                 tier=tier, portfolio_value=0, current_position_value=0,
             )
             metrics_json = build_metric_snapshot(
-                ticker, df, div, tech_sig, fund, gate, news, rs_data, market, tier, sz
+                ticker, df, div, tech_sig, fund, gate, news, rs_data, market, tier, sz, plan=plan
             )
             count = close_open_positions_for_ticker(
-                ticker, today, exit_price, tier, metrics_json, db_path=db_path
+                ticker, today, current_price, action, metrics_json, db_path=db_path
             )
-            print(f"[VT]   Closed {count} position(s) for {ticker} @ ${exit_price:.2f} ({tier})")
+            print(f"[VT]   Closed {count} position(s) for {ticker} @ ${current_price:.2f} (plan={action}, tier={tier})")
         except Exception as e:
             print(f"[VT]   {ticker} exit failed: {e}")

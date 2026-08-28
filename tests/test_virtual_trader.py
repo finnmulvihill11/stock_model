@@ -333,6 +333,11 @@ def _fake_analysis_mocks(final_tier_return: str):
             "shares": 5, "amount": 750.0,
         }),
         "_final_tier": MagicMock(return_value=final_tier_return),
+        "generate_opportunity_plan": MagicMock(return_value={
+            "ticker": "AAPL", "conviction": "high", "buy_case": "Strong setup.",
+            "entry_condition": "", "suggested_entry_price": None, "target_price": None,
+            "exit_condition": "", "timeframe": "4-8 weeks", "risk": "", "priority": "high",
+        }),
     }
 
 
@@ -433,7 +438,9 @@ class TestRunVirtualEntries:
 from src.virtual_trader import run_virtual_exits
 
 
-def _fake_exit_mocks(final_tier_return: str, price: float = 160.0):
+def _fake_exit_mocks(action: str, price: float = 160.0):
+    """action controls the plan the (mocked) real pipeline would generate —
+    that's what actually gates closing a virtual position, not the raw tier."""
     fake_df = _make_indicator_df()
     return {
         "fetch_ohlcv": MagicMock(return_value=fake_df),
@@ -453,13 +460,16 @@ def _fake_exit_mocks(final_tier_return: str, price: float = 160.0):
         "earnings_gate": MagicMock(return_value={
             "proceed": True, "reason": "No earnings", "verdict": {},
         }),
-        "analyze_company": MagicMock(return_value={
-            "sentiment": "neutral", "health": "ok", "key_events": [],
-            "red_flags": [], "confidence": "medium", "verdict": "Hold",
-        }),
         "get_relative_strength": MagicMock(return_value={}),
         "size_swing_trade": MagicMock(return_value={"shares": 0, "amount": 0.0}),
-        "_final_tier": MagicMock(return_value=final_tier_return),
+        "_final_tier": MagicMock(return_value="Sell"),
+        "generate_plan_with_news": MagicMock(return_value={
+            "news": {
+                "sentiment": "neutral", "health": "ok", "key_events": [],
+                "red_flags": [], "confidence": "medium", "verdict": "Hold",
+            },
+            "plan": {"action": action, "action_reason": "test"},
+        }),
     }
 
 
@@ -471,34 +481,46 @@ class TestRunVirtualExits:
             "geopolitical": {"risk_level": "low"},
         }
 
-    def test_closes_position_on_sell_signal(self):
+    def test_closes_position_on_exit_action(self):
         tmp = _tmp_db()
         try:
             _init_db(tmp)
             open_position("AAPL", "2026-06-01", 145.00, "Buy", '{}', db_path=tmp)
-            with patch.multiple("src.virtual_trader", **_fake_exit_mocks("Sell")):
+            with patch.multiple("src.virtual_trader", **_fake_exit_mocks("Exit")):
                 run_virtual_exits(self._market(), "low", db_path=tmp)
             assert get_open_tickers(db_path=tmp) == []
         finally:
             os.unlink(tmp)
 
-    def test_closes_position_on_strong_sell_signal(self):
+    def test_closes_position_on_start_trimming_action(self):
+        """No partial-share tracking in the schema — a trim call fully closes the paper position."""
         tmp = _tmp_db()
         try:
             _init_db(tmp)
             open_position("AAPL", "2026-06-01", 145.00, "Buy", '{}', db_path=tmp)
-            with patch.multiple("src.virtual_trader", **_fake_exit_mocks("Strong Sell")):
+            with patch.multiple("src.virtual_trader", **_fake_exit_mocks("Start Trimming")):
                 run_virtual_exits(self._market(), "low", db_path=tmp)
             assert get_open_tickers(db_path=tmp) == []
         finally:
             os.unlink(tmp)
 
-    def test_holds_position_when_not_sell_tier(self):
+    def test_holds_position_when_action_is_hold(self):
         tmp = _tmp_db()
         try:
             _init_db(tmp)
             open_position("AAPL", "2026-06-01", 145.00, "Buy", '{}', db_path=tmp)
             with patch.multiple("src.virtual_trader", **_fake_exit_mocks("Hold")):
+                run_virtual_exits(self._market(), "low", db_path=tmp)
+            assert get_open_tickers(db_path=tmp) == ["AAPL"]
+        finally:
+            os.unlink(tmp)
+
+    def test_holds_position_when_action_is_wait_or_add_more(self):
+        tmp = _tmp_db()
+        try:
+            _init_db(tmp)
+            open_position("AAPL", "2026-06-01", 145.00, "Buy", '{}', db_path=tmp)
+            with patch.multiple("src.virtual_trader", **_fake_exit_mocks("Add More")):
                 run_virtual_exits(self._market(), "low", db_path=tmp)
             assert get_open_tickers(db_path=tmp) == ["AAPL"]
         finally:
@@ -511,7 +533,7 @@ class TestRunVirtualExits:
             _init_db(tmp)
             open_position("AAPL", "2026-06-01", 145.00, "Buy", '{}', db_path=tmp)
             open_position("AAPL", "2026-06-08", 148.00, "Buy", '{}', db_path=tmp)
-            with patch.multiple("src.virtual_trader", **_fake_exit_mocks("Sell", price=160.0)):
+            with patch.multiple("src.virtual_trader", **_fake_exit_mocks("Exit", price=160.0)):
                 run_virtual_exits(self._market(), "low", db_path=tmp)
             assert get_open_tickers(db_path=tmp) == []
             conn = sqlite3.connect(str(tmp))
@@ -530,7 +552,7 @@ class TestRunVirtualExits:
         tmp = _tmp_db()
         try:
             _init_db(tmp)
-            mocks = _fake_exit_mocks("Sell")
+            mocks = _fake_exit_mocks("Exit")
             with patch.multiple("src.virtual_trader", **mocks):
                 run_virtual_exits(self._market(), "low", db_path=tmp)
             mocks["get_technical_signal"].assert_not_called()
@@ -543,7 +565,7 @@ class TestRunVirtualExits:
             _init_db(tmp)
             open_position("FAIL", "2026-06-01", 50.00, "Buy", '{}', db_path=tmp)
             open_position("AAPL", "2026-06-01", 145.00, "Buy", '{}', db_path=tmp)
-            mocks = _fake_exit_mocks("Sell")
+            mocks = _fake_exit_mocks("Exit")
             mocks["get_technical_signal"] = MagicMock(
                 side_effect=[RuntimeError("timeout"), {
                     "ticker": "AAPL", "tier": "Sell", "direction": "sell",

@@ -1,0 +1,16 @@
+{
+  "current": {
+    "recommendation": "consider_adding",
+    "summary": "FCG (Fidelity MSCI Energy ETF) is trading 15.5% below its 52-week high in a strong uptrend, supported by a 0% expense ratio and solid $590M AUM. The extreme fear reading (22) combined with the drawdown suggests a genuine accumulation opportunity in energy, though recent 3M weakness (-12.6%) warrants cautious entry rather than aggressive loading.",
+    "this_month": "Initiate a small position (50% of normal monthly DCA amount) this month. Energy is cyclical and sentiment-driven\u2014use this Fear & Greed extreme to begin building, but preserve dry powder for potential further weakness given the -12.6% 3M trend.",
+    "long_term_thesis": "Energy remains structurally underweighted in most long-term portfolios, and FCG's zero expense ratio makes it an efficient core holding. A 20+ year investor benefits from dollar-cost averaging through commodity cycles, capturing both mean reversion and structural energy demand growth.",
+    "risks": "Energy is highly cyclical and geopolitically volatile; the recent 3M drawdown could extend. FCG tracks MSCI Energy\u2014concentrated sector exposure, not diversification. Oil price shocks and energy transition concerns remain persistent headwinds.",
+    "worth_adding": true,
+    "add_rationale": "Yes, add to DCA stack, but as a satellite position (5\u201310% of portfolio max). The 0% expense ratio is exceptional, the drawdown is genuine value, and extreme fear is a contrarian buy signal. However, energy should be a tactical complement to core holdings (broad market/dividend/international), not a core pillar. Start small, scale gradually.",
+    "generated_at": "2026-07-08T22:05:49.430569",
+    "ticker": "FCG",
+    "name": "FCG",
+    "category": "ETF"
+  },
+  "history": []
+}

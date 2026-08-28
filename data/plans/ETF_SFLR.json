@@ -1,0 +1,16 @@
+{
+  "current": {
+    "recommendation": "consider_adding",
+    "summary": "SFLR is a solid defensive equity play with zero expense ratio and strong 1-year performance (+13.1%), but current extreme fear sentiment combined with proximity to 52-week highs suggests patience. The managed floor structure provides downside protection\u2014valuable during market stress\u2014making it a complementary addition rather than urgent.",
+    "this_month": "Contribute 75% of normal monthly DCA amount. The ETF is near recent highs and Fear & Greed is at extreme lows, indicating others are capitulating. Building a position slowly over 4\u20136 months lets you average in without front-loading at the top. Skip aggressive sizing until either price pulls back or VIX spikes.",
+    "long_term_thesis": "SFLR's zero expense ratio and built-in floor mechanism make it an excellent core holding for risk-averse long-term investors seeking equity upside with defined downside. It's particularly valuable as a stabilizer during drawdowns, reducing portfolio volatility while maintaining participation in bull markets.",
+    "risks": "Managed floor ETFs sacrifice some upside in strong rallies due to hedging costs embedded in the strategy; performance lags unhedged equity indices in sustained bull runs. Current extreme fear may reverse sharply, and you could face short-term paper losses if markets rally hard before your full position builds.",
+    "worth_adding": true,
+    "add_rationale": "Yes\u2014add it to your DCA stack, but as a satellite position (10\u201315% of equity allocation max, building over 5\u20136 months). The combination of zero fees, downside protection, and $2.1B AUM makes it compelling for the long term. However, skip it if your portfolio is already heavily hedged or if you have low risk tolerance and prefer simpler broad-market exposure. Extreme fear is actually a good entry signal for a defensive product like this.",
+    "generated_at": "2026-07-21T14:35:44.060974",
+    "ticker": "SFLR",
+    "name": "Innovator Equity Managed Floor ETF",
+    "category": "Equity Hedged"
+  },
+  "history": []
+}
