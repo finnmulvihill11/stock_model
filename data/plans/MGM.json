@@ -3,19 +3,36 @@
     "ticker": "MGM",
     "company_name": "MGM Resorts International",
     "action": "Hold",
-    "action_reason": "Loss is below 15% threshold per philosophy. RSI 37 suggests near-term bounce potential, but high leverage and neutral fundamentals argue against adding. Wait for clearer directional signal before action.",
-    "target_price": null,
+    "action_reason": "Position is only -3.27%, well above the 15% threshold that locks in holding per your philosophy. However, the combination of extreme leverage, technical weakness, and elevated portfolio weight makes this a monitored hold, not a core conviction.",
+    "target_price": 38.5,
     "target_reasoning": "",
-    "exit_trigger": "Break below $40.50 (support) with volume OR if debt metrics worsen further",
-    "add_trigger": "RSI drops below 30 with capitulation volume + gaming metrics show stabilization",
-    "risk": "Cyclical downturn in gaming/hospitality demand; refinancing pressure if rates stay elevated; leverage amplifies downside",
+    "exit_trigger": "If position drops below -15% AND RSI fails to hold above 30 on a second test, OR if debt metrics deteriorate further in next earnings",
+    "add_trigger": "Only if RSI bounces above 45 with volume confirmation AND VIX spikes above 18 (fear capitulation setup)",
+    "risk": "High debt load + cyclical sector vulnerability; leverage amplifies downside if gaming/hospitality demand falters",
     "outlook": "cautious",
-    "timeframe": "2-6 weeks",
-    "generated_at": "2026-08-28T06:16:05.821061",
-    "price_at_generation": 42.97,
-    "pnl_at_generation": -1.69
+    "timeframe": "2-4 weeks until next catalyst or technical resolution",
+    "generated_at": "2026-08-31T00:47:39.914162",
+    "price_at_generation": 42.28,
+    "pnl_at_generation": -3.27
   },
   "history": [
+    {
+      "ticker": "MGM",
+      "company_name": "MGM Resorts International",
+      "action": "Hold",
+      "action_reason": "Loss is below 15% threshold per philosophy. RSI 37 suggests near-term bounce potential, but high leverage and neutral fundamentals argue against adding. Wait for clearer directional signal before action.",
+      "target_price": null,
+      "target_reasoning": "",
+      "exit_trigger": "Break below $40.50 (support) with volume OR if debt metrics worsen further",
+      "add_trigger": "RSI drops below 30 with capitulation volume + gaming metrics show stabilization",
+      "risk": "Cyclical downturn in gaming/hospitality demand; refinancing pressure if rates stay elevated; leverage amplifies downside",
+      "outlook": "cautious",
+      "timeframe": "2-6 weeks",
+      "generated_at": "2026-08-28T06:16:05.821061",
+      "price_at_generation": 42.97,
+      "pnl_at_generation": -1.69,
+      "archived_at": "2026-08-31T00:47:39.914429"
+    },
     {
       "ticker": "MGM",
       "company_name": "MGM Resorts International",
@@ -117,23 +134,6 @@
       "price_at_generation": 43.22,
       "pnl_at_generation": -1.86,
       "archived_at": "2026-08-20T22:57:37.231850"
-    },
-    {
-      "ticker": "MGM",
-      "company_name": "MGM Resorts International",
-      "action": "Hold",
-      "action_reason": "Position is down only -1.63% (far below 15% hold-through threshold) with RSI at 37.2 showing oversold potential. Wait for RSI bounce + volume confirmation or technical firing signal before adding; no urgency to exit a small loss in neutral market conditions.",
-      "target_price": 46.5,
-      "target_reasoning": "",
-      "exit_trigger": "Break below $41.50 (10% loss) with confirmed break of technical support and volume; OR close above $46+ on RSI divergence confirming recovery momentum",
-      "add_trigger": "RSI bounces above 45 with volume spike + price holds above $42.80 intraday support; signals trapped shorts covering",
-      "risk": "High leverage (8.9x D/E) amplifies drawdown risk if gaming/travel demand deteriorates; geopolitical escalation could crush discretionary spending",
-      "outlook": "cautious",
-      "timeframe": "2-4 weeks for technical mean reversion; reassess if no RSI bounce signal by week 2",
-      "generated_at": "2026-08-18T22:54:02.963437",
-      "price_at_generation": 43.32,
-      "pnl_at_generation": -1.63,
-      "archived_at": "2026-08-19T22:54:06.814850"
     }
   ]
 }

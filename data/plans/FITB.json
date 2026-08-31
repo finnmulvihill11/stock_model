@@ -1,0 +1,19 @@
+{
+  "current": {
+    "ticker": "FITB",
+    "company_name": "Fifth Third Bancorp",
+    "action": "Hold",
+    "action_reason": "Position is essentially flat (-0.07%), and technical setup (RSI oversold + BB compression + MACD valley reversal) supports a near-term relief bounce. Holding preserves optionality without adding dead money; only 2sh makes position sizing manageable.",
+    "target_price": 56.5,
+    "target_reasoning": "",
+    "exit_trigger": "Close above $56.50 on volume (swing high recapture) or RSI >70 (exit on strength, not weakness)",
+    "add_trigger": "RSI bounces to 45-50 on MACD positive crossover confirmation + VIX stays <16 (low slippage). Size: 1 more share max.",
+    "risk": "Banking sector sector rotation; rising rate sensitivity if Fed narrative shifts; lack of news means no volume/momentum driver \u2014 bounce may be anemic.",
+    "outlook": "short",
+    "timeframe": "2-4 weeks (earnings in 49d provides hard deadline; expect mean-reversion bounce before then)",
+    "generated_at": "2026-08-31T00:48:11.064104",
+    "price_at_generation": 54.54,
+    "pnl_at_generation": -0.07
+  },
+  "history": []
+}

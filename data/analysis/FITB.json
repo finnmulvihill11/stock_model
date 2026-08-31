@@ -1,0 +1,99 @@
+{
+  "ticker": "FITB",
+  "signal": {
+    "ticker": "FITB",
+    "direction": "buy",
+    "tier": "Buy",
+    "buy_score": 0.75,
+    "sell_score": 0.14,
+    "reasons": [
+      "BB: price near lower band (pct=0.16)",
+      "RSI: oversold zone (36.4)",
+      "MACD: histogram at valley / turning up",
+      "200MA: price at/above 200MA (54.54 vs 50.07)",
+      "Golden cross: 50MA (56.58) above 200MA (50.07)",
+      "Volume: above average (1.12x)"
+    ],
+    "misses": [
+      "BB Width: bands expanding, not squeezing",
+      "RSI Divergence: no bullish divergence detected"
+    ],
+    "price": 54.54,
+    "rsi": 36.4,
+    "atr": 0.98,
+    "final_tier": "Buy",
+    "sizing": {
+      "suggested_shares": 7,
+      "suggested_dollars": 381.78,
+      "note": "7 sh @ $54.54 = $382 (Buy, 60% size) | $1,809 swing budget after"
+    }
+  },
+  "fundamentals": {
+    "ticker": "FITB",
+    "health": "neutral",
+    "passed": [
+      "Revenue growing YoY (+51.8%)",
+      "Profitable (margin 23.2%)"
+    ],
+    "flags": [
+      "Debt-to-equity data unavailable"
+    ],
+    "revenue_growth": 0.518,
+    "de_ratio": null,
+    "profit_margins": 0.23239
+  },
+  "earnings": {
+    "proceed": true,
+    "reason": "Fundamentals intact \u2014 dip may be an overreaction",
+    "verdict": {
+      "ticker": "FITB",
+      "verdict": "consider",
+      "reason": "Fundamentals intact \u2014 dip may be an overreaction",
+      "notes": [
+        "Earnings declining YoY (-5.7%)",
+        "Revenue growing (+51.8%)"
+      ],
+      "earnings_status": "distant",
+      "next_earnings_date": "2026-10-19",
+      "days_to_earnings": 49
+    }
+  },
+  "news": {
+    "ticker": "FITB",
+    "sentiment": "neutral",
+    "health": "neutral",
+    "key_events": [
+      "RSI deep in oversold territory (36.4) \u2014 classic reversal setup",
+      "Price touching lower Bollinger Band (pct=0.16) \u2014 extreme compression",
+      "MACD histogram at valley with upward inflection \u2014 bullish divergence forming",
+      "Low VIX (14.4) with market complacency \u2014 reduces swing volatility advantage",
+      "Earnings 49 days out \u2014 low near-term catalysts",
+      "No recent news flow \u2014 information vacuum"
+    ],
+    "macro_context": "",
+    "competitive_notes": "",
+    "red_flags": [
+      "Position down -0.07% but RSI oversold suggests prior downtrend exhaustion",
+      "Debt-to-equity unavailable \u2014 fundamental opacity on leverage risk",
+      "VIX complacency raises false-signal risk on technical setups",
+      "Lack of news suggests limited swing driver momentum"
+    ],
+    "verdict": "Oversold bounce candidate with weak momentum catalysts; technical setup attractive but low volatility environment dilutes swing-trade edge.",
+    "confidence": "medium"
+  },
+  "relative_strength": {
+    "ticker": "FITB",
+    "stock_return_3m": 10.01,
+    "benchmark_return_3m": 1.96,
+    "relative_strength": 8.04,
+    "label": "outperforming"
+  },
+  "final_tier": "Buy",
+  "sizing": {
+    "suggested_shares": 7,
+    "suggested_dollars": 381.78,
+    "note": "7 sh @ $54.54 = $382 (Buy, 60% size) | $1,809 swing budget after"
+  },
+  "is_dca": false,
+  "saved_at": "2026-08-31T00:48:11.064585"
+}

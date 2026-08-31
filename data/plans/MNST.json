@@ -2,20 +2,37 @@
   "current": {
     "ticker": "MNST",
     "company_name": "Monster Beverage Corporation",
-    "action": "Hold",
-    "action_reason": "Position is modestly profitable (+1.41%) with healthy fundamentals, but technical setup shows no firing signals and RSI lacks conviction. Wait for higher volatility or clearer directional bias before considering trimming gains.",
+    "action": "Start Trimming",
+    "action_reason": "Position is profitable (+1.76%) in a low-volatility, greedy market environment where sell signals are elevated. Small position size (2.9%) and lack of technical firing (RSI 42.1 = no momentum) support trimming 50% to lock in gains while fundamentals remain intact. This adheres to your philosophy by only exiting profitable positions.",
     "target_price": 48.5,
     "target_reasoning": "",
-    "exit_trigger": "RSI breaks above 60 with volume confirmation and VIX spikes above 18, or price closes below $45.50 on high volume",
-    "add_trigger": "Only add if RSI rebounds to 50-55 with positive news catalyst and price reclaims $47.50 support convincingly",
-    "risk": "Low-volatility complacency may suddenly reverse; VIX spike could trigger profit-taking in Greed-mode positions. Post-earnings momentum exhaustion.",
+    "exit_trigger": "RSI breaks above 60 without volume confirmation OR VIX drops below 12 (extreme complacency)",
+    "add_trigger": "RSI falls below 30 AND positive earnings catalyst announced",
+    "risk": "Missing upside if beverage sector rallies; alternatively, holding into late-cycle correction with complacent market conditions",
     "outlook": "cautious",
-    "timeframe": "2-4 weeks to next catalyst or technical breakout; reassess if VIX normalizes upward",
-    "generated_at": "2026-08-28T06:16:21.155586",
-    "price_at_generation": 46.7,
-    "pnl_at_generation": 1.41
+    "timeframe": "2-4 weeks",
+    "generated_at": "2026-08-31T00:47:54.312223",
+    "price_at_generation": 46.86,
+    "pnl_at_generation": 1.76
   },
   "history": [
+    {
+      "ticker": "MNST",
+      "company_name": "Monster Beverage Corporation",
+      "action": "Hold",
+      "action_reason": "Position is modestly profitable (+1.41%) with healthy fundamentals, but technical setup shows no firing signals and RSI lacks conviction. Wait for higher volatility or clearer directional bias before considering trimming gains.",
+      "target_price": 48.5,
+      "target_reasoning": "",
+      "exit_trigger": "RSI breaks above 60 with volume confirmation and VIX spikes above 18, or price closes below $45.50 on high volume",
+      "add_trigger": "Only add if RSI rebounds to 50-55 with positive news catalyst and price reclaims $47.50 support convincingly",
+      "risk": "Low-volatility complacency may suddenly reverse; VIX spike could trigger profit-taking in Greed-mode positions. Post-earnings momentum exhaustion.",
+      "outlook": "cautious",
+      "timeframe": "2-4 weeks to next catalyst or technical breakout; reassess if VIX normalizes upward",
+      "generated_at": "2026-08-28T06:16:21.155586",
+      "price_at_generation": 46.7,
+      "pnl_at_generation": 1.41,
+      "archived_at": "2026-08-31T00:47:54.312409"
+    },
     {
       "ticker": "MNST",
       "company_name": "Monster Beverage Corporation",
@@ -117,23 +134,6 @@
       "price_at_generation": 47.43,
       "pnl_at_generation": 3.0,
       "archived_at": "2026-08-20T22:57:49.599657"
-    },
-    {
-      "ticker": "MNST",
-      "company_name": "Monster Beverage Corporation",
-      "action": "Hold",
-      "action_reason": "RSI 15.4 is a capitulation extreme that typically precedes bounces in fundamentally sound stocks. With +2.89% profit already locked in and healthy fundamentals intact, holding allows participation in mean-reversion while protecting the gain from a profitable position.",
-      "target_price": 50.5,
-      "target_reasoning": "",
-      "exit_trigger": "Close above $50 on volume >2M shares (take 50% off) or break below $44.80 on heavy selling (exit remaining position\u2014reversal of swing thesis)",
-      "add_trigger": "Only if RSI climbs above 30 AND price holds above $46.80 with positive news catalyst (adds confirmation, avoids catching falling knife)",
-      "risk": "Post-earnings volatility or sector rotation in beverages; lack of near-term catalysts could trap capital if $46 level breaks",
-      "outlook": "neutral",
-      "timeframe": "2-4 weeks (wait for RSI normalization above 30 and next earnings cycle visibility)",
-      "generated_at": "2026-08-18T22:54:19.339811",
-      "price_at_generation": 47.38,
-      "pnl_at_generation": 2.89,
-      "archived_at": "2026-08-19T22:54:22.300976"
     }
   ]
 }
