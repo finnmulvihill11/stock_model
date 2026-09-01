@@ -1,18 +1,32 @@
 {
   "current": {
     "recommendation": "consider_adding",
-    "summary": "QQQ is a high-quality mega-cap tech ETF in a strong uptrend, currently pulled back 7.7% from its 52-week high\u2014a modest correction in a bull market rather than a capitulation signal. The Fear & Greed reading of 27 suggests some caution in the market, but the ETF remains above its 200MA with solid 1-year returns (+21.7%), making this a reasonable entry point for new capital rather than an urgent accumulation opportunity.",
-    "this_month": "Add 10\u201315% above your normal monthly DCA amount. The pullback is modest and healthy; you're not catching a falling knife, but you're taking advantage of a 7.7% discount from recent highs. Don't overcommit\u2014this is a measured increase, not a lump-sum buy.",
-    "long_term_thesis": "QQQ provides concentrated exposure to the 100 largest non-financial Nasdaq stocks, capturing long-term secular growth in technology, AI, and innovation. For a buy-and-hold investor, it's a core holding that balances growth with the stability of mega-cap names, though it carries higher volatility than the broader market.",
-    "risks": "High concentration in mega-cap tech and AI narrative exposure means it will amplify downturns in risk-off environments. Valuations are rich; a sustained market correction or tech slowdown could see 20%+ drawdowns. Not suitable as your sole equity holding.",
+    "summary": "QQQ is a high-quality, mega-cap growth ETF in a strong uptrend and trading only 5% below its 52-week high\u2014a modest pullback in a bull market. At current valuations and with neutral-to-greedy sentiment, it's a reasonable entry point for long-term accumulators, though not urgent.",
+    "this_month": "Allocate a normal or slightly elevated DCA contribution (110\u2013120% of your standard monthly amount). The 5% drawdown offers a mild entry advantage without requiring aggressive timing. This is a 'add regularly' month, not a 'skip this month' situation.",
+    "long_term_thesis": "QQQ provides concentrated exposure to the most dominant US tech and growth companies (Apple, Microsoft, Nvidia, Tesla, etc.), which have driven market returns for a decade and remain structural beneficiaries of AI, cloud, and digitalization trends. As a core holding for long-term growth, it complements broad-market exposure by overweighting secular winners.",
+    "risks": "Concentration risk: QQQ's top 10 holdings represent ~50% of assets. Vulnerable to rate hikes, tech rotation, and AI sentiment swings. The 20 bps expense ratio is on the higher end. A sustained bear market or growth-to-value rotation could see sharp drawdowns.",
     "worth_adding": true,
-    "add_rationale": "Yes\u2014add QQQ as a core DCA position, but only if your portfolio can tolerate its volatility and you're not already overweight in tech elsewhere. It's a legitimate long-term compounder with $490B in AUM and near-zero tracking error. However, don't make it your largest position; pair it with broader market exposure (VTI/VOO) to reduce single-sector risk. The current pullback is a good *entry*, not a bargain-basement opportunity.",
-    "generated_at": "2026-08-01T22:54:42.928656",
+    "add_rationale": "QQQ should be part of a diversified long-term portfolio if you believe in US tech leadership and don't already have heavy tech exposure elsewhere. It's not a replacement for broad-market ETFs (VTI, SCHB), but a meaningful complement. The pullback creates a psychologically easier entry without overpaying for momentum. Start with a core 10\u201315% allocation to growth and scale via DCA.",
+    "generated_at": "2026-09-01T23:48:55.068986",
     "ticker": "QQQ",
     "name": "Invesco NASDAQ-100 ETF",
     "category": "Broad Us"
   },
   "history": [
+    {
+      "recommendation": "consider_adding",
+      "summary": "QQQ is a high-quality mega-cap tech ETF in a strong uptrend, currently pulled back 7.7% from its 52-week high\u2014a modest correction in a bull market rather than a capitulation signal. The Fear & Greed reading of 27 suggests some caution in the market, but the ETF remains above its 200MA with solid 1-year returns (+21.7%), making this a reasonable entry point for new capital rather than an urgent accumulation opportunity.",
+      "this_month": "Add 10\u201315% above your normal monthly DCA amount. The pullback is modest and healthy; you're not catching a falling knife, but you're taking advantage of a 7.7% discount from recent highs. Don't overcommit\u2014this is a measured increase, not a lump-sum buy.",
+      "long_term_thesis": "QQQ provides concentrated exposure to the 100 largest non-financial Nasdaq stocks, capturing long-term secular growth in technology, AI, and innovation. For a buy-and-hold investor, it's a core holding that balances growth with the stability of mega-cap names, though it carries higher volatility than the broader market.",
+      "risks": "High concentration in mega-cap tech and AI narrative exposure means it will amplify downturns in risk-off environments. Valuations are rich; a sustained market correction or tech slowdown could see 20%+ drawdowns. Not suitable as your sole equity holding.",
+      "worth_adding": true,
+      "add_rationale": "Yes\u2014add QQQ as a core DCA position, but only if your portfolio can tolerate its volatility and you're not already overweight in tech elsewhere. It's a legitimate long-term compounder with $490B in AUM and near-zero tracking error. However, don't make it your largest position; pair it with broader market exposure (VTI/VOO) to reduce single-sector risk. The current pullback is a good *entry*, not a bargain-basement opportunity.",
+      "generated_at": "2026-08-01T22:54:42.928656",
+      "ticker": "QQQ",
+      "name": "Invesco NASDAQ-100 ETF",
+      "category": "Broad Us",
+      "archived_at": "2026-09-01T23:48:55.069192"
+    },
     {
       "recommendation": "consider_adding",
       "summary": "QQQ is near 52-week highs after a strong 32% annual return, but the Fear & Greed extreme fear reading suggests meaningful pullback risk remains. The strong uptrend and above-200MA positioning are positive, but valuation and sentiment warrant measured entry rather than aggressive buying at current levels.",

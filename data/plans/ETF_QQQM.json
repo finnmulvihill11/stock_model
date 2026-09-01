@@ -1,18 +1,32 @@
 {
   "current": {
     "recommendation": "consider_adding",
-    "summary": "QQQM is a quality growth core holding with strong 1Y momentum (+21.8%) and is currently 7.7% off its 52-week high\u2014a mild pullback in an otherwise solid uptrend. The Fear & Greed reading (27) suggests some caution in the market, but the ETF remains above its 200MA and VIX is neutral, making this a reasonable entry point for long-term accumulators who don't already own large-cap tech exposure.",
-    "this_month": "If adding QQQM to your DCA stack, allocate 120\u2013130% of your normal monthly contribution this month to capitalize on the 7.7% drawdown. This is a modest increase, not a panic buy\u2014remain disciplined and revert to normal sizing next month regardless of price movement.",
-    "long_term_thesis": "QQQM provides concentrated exposure to high-quality, growth-oriented mega-cap tech and secular leaders (NVIDIA, Apple, Microsoft, Tesla, etc.) with low fees and massive liquidity. For a 5\u201310+ year horizon, this ETF is a core holding that captures long-term productivity and AI-driven growth trends.",
-    "risks": "Concentration risk in mega-cap tech; vulnerable to rate hikes and growth rotation; recent momentum means valuations are stretched. A sustained market downturn could see 15\u201320% drawdowns. Not suitable as a sole equity holding.",
+    "summary": "QQQM is a quality growth core holding with strong 1-year momentum (+23.3%) and solid technicals (above 200MA). The 5% pullback from highs creates a reasonable entry point for dollar-cost averaging, though current valuations and \"Greed\" sentiment warrant measured accumulation rather than aggressive loading.",
+    "this_month": "Contribute 120\u2013130% of your normal monthly DCA amount. The drawdown from 52-week highs is modest and tactically sound, but don't chase aggressively given elevated sentiment. Spread purchases across 2\u20133 weeks to reduce timing risk.",
+    "long_term_thesis": "QQQM provides concentrated exposure to the Nasdaq-100's highest-quality tech and growth names with low fees (0.20% ER), making it a core satellite holding for long-term wealth building. It's ideal for investors with a 5\u201310+ year horizon who believe in secular tech/innovation trends.",
+    "risks": "High concentration in mega-cap tech; vulnerable to rate hikes, valuation mean reversion, and sector rotation. The 3-month drawdown (-4.6%) shows it can be volatile. Greed sentiment (69) suggests limited upside surprise near-term.",
     "worth_adding": true,
-    "add_rationale": "Yes, add to DCA stack if you lack significant Nasdaq-100 or large-cap growth exposure. QQQM is the appropriate vehicle for this sleeve\u2014low cost, excellent AUM ($101.3B liquidity), and a proven long-term compounder. The current pullback and fear sentiment make now a reasonable time to initiate or increase a position. Start with modest DCA and don't try to time the bottom; consistency matters more than perfection.",
-    "generated_at": "2026-08-01T22:55:15.976410",
+    "add_rationale": "Yes, add to your DCA rotation. QQQM is a foundational growth pillar missing from your portfolio. The 5% pullback + solid fundamentals + sub-0.20% fees make it a strategic long-term buy. Start with modest monthly contributions and increase if it stays within or retests the $260\u2013$280 zone.",
+    "generated_at": "2026-09-01T23:49:32.127127",
     "ticker": "QQQM",
     "name": "Invesco NASDAQ-100 ETF (smaller share class)",
     "category": "Growth"
   },
   "history": [
+    {
+      "recommendation": "consider_adding",
+      "summary": "QQQM is a quality growth core holding with strong 1Y momentum (+21.8%) and is currently 7.7% off its 52-week high\u2014a mild pullback in an otherwise solid uptrend. The Fear & Greed reading (27) suggests some caution in the market, but the ETF remains above its 200MA and VIX is neutral, making this a reasonable entry point for long-term accumulators who don't already own large-cap tech exposure.",
+      "this_month": "If adding QQQM to your DCA stack, allocate 120\u2013130% of your normal monthly contribution this month to capitalize on the 7.7% drawdown. This is a modest increase, not a panic buy\u2014remain disciplined and revert to normal sizing next month regardless of price movement.",
+      "long_term_thesis": "QQQM provides concentrated exposure to high-quality, growth-oriented mega-cap tech and secular leaders (NVIDIA, Apple, Microsoft, Tesla, etc.) with low fees and massive liquidity. For a 5\u201310+ year horizon, this ETF is a core holding that captures long-term productivity and AI-driven growth trends.",
+      "risks": "Concentration risk in mega-cap tech; vulnerable to rate hikes and growth rotation; recent momentum means valuations are stretched. A sustained market downturn could see 15\u201320% drawdowns. Not suitable as a sole equity holding.",
+      "worth_adding": true,
+      "add_rationale": "Yes, add to DCA stack if you lack significant Nasdaq-100 or large-cap growth exposure. QQQM is the appropriate vehicle for this sleeve\u2014low cost, excellent AUM ($101.3B liquidity), and a proven long-term compounder. The current pullback and fear sentiment make now a reasonable time to initiate or increase a position. Start with modest DCA and don't try to time the bottom; consistency matters more than perfection.",
+      "generated_at": "2026-08-01T22:55:15.976410",
+      "ticker": "QQQM",
+      "name": "Invesco NASDAQ-100 ETF (smaller share class)",
+      "category": "Growth",
+      "archived_at": "2026-09-01T23:49:32.127317"
+    },
     {
       "recommendation": "consider_adding",
       "summary": "QQQM is near 52-week highs after a strong 32% annual run, creating tension between quality and valuation. The extreme fear sentiment (11) and neutral VIX suggest the market hasn't fully priced in recent gains, leaving room for consolidation or correction before committing heavy capital.",

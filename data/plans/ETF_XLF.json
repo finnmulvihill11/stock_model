@@ -1,18 +1,32 @@
 {
   "current": {
     "recommendation": "consider_adding",
-    "summary": "XLF is in a strong uptrend and near 52-week highs, but the Fear & Greed reading (27) suggests underlying caution in the market despite neutral volatility. The ETF's fundamentals are solid with strong 1Y performance (+9.7%), making it attractive for long-term accumulation\u2014but timing entry near recent highs warrants a measured approach.",
-    "this_month": "Contribute 75% of your normal XLF allocation this month. The strong uptrend and above-200MA positioning are encouraging, but the Fear gauge and proximity to 52w highs justify holding 25% dry powder for a potential pullback. If added to portfolio, use dollar-cost averaging to smooth entry over 2\u20133 months.",
-    "long_term_thesis": "The financial sector is cyclically resilient and benefits from normalized rate environments; XLF's large AUM ($51.4B) ensures tight spreads and liquidity. For a diversified core portfolio, financial sector exposure is a natural complement to broad market ETFs.",
-    "risks": "High expense ratio (9.00%) is unusually steep for a sector ETF\u2014compare to 0.10\u20130.20% alternatives. Near-term pullback risk given Fear sentiment; rates sensitivity could pressure valuations if policy shifts. Cyclical downturn exposure typical of financials.",
+    "summary": "XLF is in a strong uptrend near 52-week highs with solid 3-month momentum (+11.5%), but current valuation and elevated market sentiment (Greed 69) suggest waiting for a better entry. The fundamentals remain solid for long-term financial sector exposure, but there's no urgency to initiate a position at current levels.",
+    "this_month": "Skip this month or allocate 50% of normal DCA amount. Wait for a pullback to the $53\u2013$55 range (5\u20137% dip) before resuming full monthly contributions. Near-term momentum is strong, but you'll get better dollar-cost averaging value with patience.",
+    "long_term_thesis": "Financials are a core economic sector with dividend-paying exposure and cyclical upside potential in rising-rate or economic-growth scenarios. XLF's $57.9B AUM and broad diversification make it a reliable satellite holding alongside broad-market core positions.",
+    "risks": "9.00% expense ratio is elevated for a sector ETF\u2014consider lower-cost alternatives like VFV (0.08%) or IYF (0.39%). Sector-level volatility and interest-rate sensitivity; financials underperform during yield-curve flattening or recession fears.",
     "worth_adding": true,
-    "add_rationale": "XLF deserves a spot in a long-term DCA portfolio as sector diversification, but only after confirming your core broad-market holdings (VTI/VOO) are in place. Start with 75% of planned monthly contribution to avoid overleveraging at peak valuations. Monitor the expense ratio\u2014if cost-conscious, consider alternatives like a lower-cost financials substitute.",
-    "generated_at": "2026-08-01T22:55:39.203638",
+    "add_rationale": "Yes, but with conditions. XLF belongs in a diversified long-term portfolio as a sector tilt, not a core holding. However, the high expense ratio is a drag; compare to VFV before committing. Initiate at current price only if you're comfortable overpaying for momentum, otherwise stage entry over the next 2\u20133 months during any consolidation.",
+    "generated_at": "2026-09-01T23:49:55.742578",
     "ticker": "XLF",
     "name": "Financial Select Sector SPDR",
     "category": "Sector"
   },
   "history": [
+    {
+      "recommendation": "consider_adding",
+      "summary": "XLF is in a strong uptrend and near 52-week highs, but the Fear & Greed reading (27) suggests underlying caution in the market despite neutral volatility. The ETF's fundamentals are solid with strong 1Y performance (+9.7%), making it attractive for long-term accumulation\u2014but timing entry near recent highs warrants a measured approach.",
+      "this_month": "Contribute 75% of your normal XLF allocation this month. The strong uptrend and above-200MA positioning are encouraging, but the Fear gauge and proximity to 52w highs justify holding 25% dry powder for a potential pullback. If added to portfolio, use dollar-cost averaging to smooth entry over 2\u20133 months.",
+      "long_term_thesis": "The financial sector is cyclically resilient and benefits from normalized rate environments; XLF's large AUM ($51.4B) ensures tight spreads and liquidity. For a diversified core portfolio, financial sector exposure is a natural complement to broad market ETFs.",
+      "risks": "High expense ratio (9.00%) is unusually steep for a sector ETF\u2014compare to 0.10\u20130.20% alternatives. Near-term pullback risk given Fear sentiment; rates sensitivity could pressure valuations if policy shifts. Cyclical downturn exposure typical of financials.",
+      "worth_adding": true,
+      "add_rationale": "XLF deserves a spot in a long-term DCA portfolio as sector diversification, but only after confirming your core broad-market holdings (VTI/VOO) are in place. Start with 75% of planned monthly contribution to avoid overleveraging at peak valuations. Monitor the expense ratio\u2014if cost-conscious, consider alternatives like a lower-cost financials substitute.",
+      "generated_at": "2026-08-01T22:55:39.203638",
+      "ticker": "XLF",
+      "name": "Financial Select Sector SPDR",
+      "category": "Sector",
+      "archived_at": "2026-09-01T23:49:55.742762"
+    },
     {
       "recommendation": "consider_adding",
       "summary": "XLF is near 52-week highs with solid momentum (uptrend, +11.3% in 3M), but extreme fear in the market and a stretched valuation relative to the broader market warrant a measured entry. The financials sector is cyclical and sensitive to interest rates\u2014this is a good time to begin accumulation, but not aggressively.",

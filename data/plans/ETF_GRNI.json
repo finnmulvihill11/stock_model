@@ -1,18 +1,32 @@
 {
   "current": {
     "recommendation": "consider_adding",
-    "summary": "GRNI is down 36% from its 52-week high and trading below its 200MA, signaling a genuine drawdown rather than a trend reversal. The 0% expense ratio is exceptional, but the lack of 1Y return data and current downtrend warrant cautious entry rather than aggressive accumulation at this stage.",
-    "this_month": "Contribute 50\u201375% of your normal monthly DCA amount. The valuation is attractive, but wait for a stabilization signal (price holding above a key support or positive weekly close) before ramping to full allocation. This hedges timing risk while capitalizing on the discount.",
-    "long_term_thesis": "If GRNI's underlying strategy or holdings align with your core beliefs and the 0% fee structure persists, the 36% drawdown presents a genuine long-term accumulation opportunity. The zero expense ratio is rare and valuable for wealth compounding over decades.",
-    "risks": "Lack of 1-year return data is a red flag\u2014this ETF may be new, renamed, or have incomplete history. The downtrend and absence of 200MA support suggest potential further weakness. Unknown AUM raises questions about liquidity and fund viability.",
-    "worth_adding": false,
-    "add_rationale": "Do not add GRNI as a *new* position to your DCA stack without first resolving what caused the missing 1Y return data and confirming the fund's stability. Continue your planned DCA on the 4 shares already held, but treat this as a test position rather than a core holding until the fund demonstrates recovery and transparency.",
-    "generated_at": "2026-08-01T22:54:23.676221",
+    "summary": "GRNI is deeply discounted (-35.1% from 52w high) and trading below its 200MA, signaling a potential accumulation opportunity. However, the lack of 1Y return data and current downtrend warrant cautious entry rather than aggressive buying. This is a classic DCA candidate if you believe in the fund's underlying thesis.",
+    "this_month": "Increase your normal DCA contribution by 50\u201375% this month. The drawdown creates an attractive entry point for long-term builders, but avoid lump-sum deployment. Spread the extra allocation over 2\u20133 months to hedge against further downside.",
+    "long_term_thesis": "GRNI's 35% drawdown has likely cleared weak hands and positioned patient accumulators for recovery. If the fund's strategy and holdings remain sound, dollar-cost averaging into weakness is a time-tested way to lower your cost basis and compound gains over 5+ years.",
+    "risks": "Primary risk: the downtrend may continue if market sentiment or fund performance deteriorates further. The missing 1Y return data raises questions about fund age or data availability\u2014verify the fund's track record and holdings before scaling up. Watch for AUM erosion, which could signal redemptions or lack of confidence.",
+    "worth_adding": true,
+    "add_rationale": "If this is already held, yes\u2014continue DCA with modest acceleration. If considering first purchase: validate the fund's mandate, holdings, and historical performance first. The 0% expense ratio is unusual; confirm it's real and not a data error. Once validated, the 35% discount makes it worth adding to a long-term stack, with disciplined monthly contributions rather than panic buying.",
+    "generated_at": "2026-09-01T23:48:35.889681",
     "ticker": "GRNI",
     "name": "GRNI",
     "category": "ETF"
   },
   "history": [
+    {
+      "recommendation": "consider_adding",
+      "summary": "GRNI is down 36% from its 52-week high and trading below its 200MA, signaling a genuine drawdown rather than a trend reversal. The 0% expense ratio is exceptional, but the lack of 1Y return data and current downtrend warrant cautious entry rather than aggressive accumulation at this stage.",
+      "this_month": "Contribute 50\u201375% of your normal monthly DCA amount. The valuation is attractive, but wait for a stabilization signal (price holding above a key support or positive weekly close) before ramping to full allocation. This hedges timing risk while capitalizing on the discount.",
+      "long_term_thesis": "If GRNI's underlying strategy or holdings align with your core beliefs and the 0% fee structure persists, the 36% drawdown presents a genuine long-term accumulation opportunity. The zero expense ratio is rare and valuable for wealth compounding over decades.",
+      "risks": "Lack of 1-year return data is a red flag\u2014this ETF may be new, renamed, or have incomplete history. The downtrend and absence of 200MA support suggest potential further weakness. Unknown AUM raises questions about liquidity and fund viability.",
+      "worth_adding": false,
+      "add_rationale": "Do not add GRNI as a *new* position to your DCA stack without first resolving what caused the missing 1Y return data and confirming the fund's stability. Continue your planned DCA on the 4 shares already held, but treat this as a test position rather than a core holding until the fund demonstrates recovery and transparency.",
+      "generated_at": "2026-08-01T22:54:23.676221",
+      "ticker": "GRNI",
+      "name": "GRNI",
+      "category": "ETF",
+      "archived_at": "2026-09-01T23:48:35.889848"
+    },
     {
       "recommendation": "consider_adding",
       "summary": "GRNI is deeply discounted at -34.8% from its 52-week high, creating a textbook accumulation opportunity in an oversold environment marked by extreme fear. However, the absence of price data for the 1Y return and its position below the 200MA warrant confirmation of fundamentals before aggressive scaling.",

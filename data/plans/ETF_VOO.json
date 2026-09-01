@@ -1,18 +1,32 @@
 {
   "current": {
     "recommendation": "accumulate",
-    "summary": "VOO is near 52-week highs with strong 1Y performance (+19.1%) and solid technicals (above 200MA), but Fear & Greed sentiment is cautious. This is normal territory for DCA\u2014valuations are stretched, not a bargain, but the fundamentals and trend remain intact. Continue systematic accumulation without chasing.",
-    "this_month": "Contribute your normal monthly DCA amount. Resist the urge to increase just because price is high\u2014that's when discipline matters most. Near-highs are not a reason to skip or reduce; they're a reason to stick to plan.",
-    "long_term_thesis": "VOO provides core US equity exposure with minimal fees (0.03% ER), exceptional liquidity, and $1.67T AUM. For 20+ year horizons, broad S&P 500 exposure through dollar-cost averaging smooths volatility and captures secular US market growth.",
-    "risks": "Valuation premium (near 52w high). Concentration in mega-cap tech. Macro headwinds (rate environment, earnings multiples) could trigger 10\u201315% drawdown. Fear sentiment suggests caution, though not a sell signal.",
+    "summary": "VOO remains a core holding with strong 1Y momentum (+19.5%) and solid positioning above the 200MA. Near 52-week highs and elevated greed sentiment suggest a measured accumulation pace rather than acceleration, but this is a foundational broad-market ETF that deserves consistent monthly contributions regardless of price level.",
+    "this_month": "Maintain normal monthly DCA amount. Avoid the temptation to skip or reduce contributions due to proximity to highs\u2014that defeats the purpose of dollar-cost averaging. If you have flexibility, consider a slightly reduced amount (80\u201390% of normal) given current valuation, then resume full amount next month.",
+    "long_term_thesis": "VOO's $1.7T+ AUM, 0.03% expense ratio, and direct S&P 500 exposure make it the backbone of a tax-efficient, low-friction long-term portfolio. Consistent monthly contributions smooth out market cycles and capture the market's historical 10%+ annualized return without stock-picking risk.",
+    "risks": "Elevated greed sentiment (69) and proximity to 52-week highs raise correction risk in the near term. A 5\u201310% pullback is normal; ensure conviction to keep buying through it.",
     "worth_adding": true,
-    "add_rationale": "If building a core portfolio from scratch, VOO is the foundational holding\u2014liquid, cheap, diversified. Start with small monthly amounts and increase over time. It's not exciting, but that's the point.",
-    "generated_at": "2026-08-01T22:54:12.513253",
+    "add_rationale": "If this is not already in a portfolio, it should be the first broad-market ETF added. It is the benchmark for U.S. equity exposure and suitable for virtually all long-term investors via DCA.",
+    "generated_at": "2026-09-01T23:48:22.119676",
     "ticker": "VOO",
     "name": "Vanguard S&P 500 ETF",
     "category": "Broad Us"
   },
   "history": [
+    {
+      "recommendation": "accumulate",
+      "summary": "VOO is near 52-week highs with strong 1Y performance (+19.1%) and solid technicals (above 200MA), but Fear & Greed sentiment is cautious. This is normal territory for DCA\u2014valuations are stretched, not a bargain, but the fundamentals and trend remain intact. Continue systematic accumulation without chasing.",
+      "this_month": "Contribute your normal monthly DCA amount. Resist the urge to increase just because price is high\u2014that's when discipline matters most. Near-highs are not a reason to skip or reduce; they're a reason to stick to plan.",
+      "long_term_thesis": "VOO provides core US equity exposure with minimal fees (0.03% ER), exceptional liquidity, and $1.67T AUM. For 20+ year horizons, broad S&P 500 exposure through dollar-cost averaging smooths volatility and captures secular US market growth.",
+      "risks": "Valuation premium (near 52w high). Concentration in mega-cap tech. Macro headwinds (rate environment, earnings multiples) could trigger 10\u201315% drawdown. Fear sentiment suggests caution, though not a sell signal.",
+      "worth_adding": true,
+      "add_rationale": "If building a core portfolio from scratch, VOO is the foundational holding\u2014liquid, cheap, diversified. Start with small monthly amounts and increase over time. It's not exciting, but that's the point.",
+      "generated_at": "2026-08-01T22:54:12.513253",
+      "ticker": "VOO",
+      "name": "Vanguard S&P 500 ETF",
+      "category": "Broad Us",
+      "archived_at": "2026-09-01T23:48:22.119870"
+    },
     {
       "recommendation": "accumulate",
       "summary": "VOO is in a strong uptrend near 52-week highs with solid 3M and 1Y returns, but the Fear & Greed extreme fear reading suggests market uncertainty despite technical strength. This is an ideal accumulation environment for a core holding\u2014valuations may compress if sentiment shifts, making consistent DCA entries valuable.",

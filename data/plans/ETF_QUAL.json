@@ -1,18 +1,32 @@
 {
   "current": {
     "recommendation": "consider_adding",
-    "summary": "QUAL is near 52-week highs after strong 1-year performance (+19.5%), but the underlying quality factor remains fundamentally sound. Fear & Greed at 27 suggests the broader market has not reached euphoria, making this a reasonable entry point for long-term accumulation despite valuation headwinds.",
-    "this_month": "Proceed with 100% of your normal monthly DCA amount. Do not skip or reduce\u2014quality factors tend to outperform during economic uncertainty, and the Fear signal supports steady accumulation rather than hesitation.",
-    "long_term_thesis": "Quality-focused US large-cap exposure provides downside resilience and dividend stability in a long-term core portfolio. At $45.9B AUM with 15bps fees, QUAL offers cost-effective access to high-quality earnings and balance sheets that compound well over decades.",
-    "risks": "Valuation stretch risk: quality stocks command a premium, and mean reversion can be sharp if growth expectations fade. Factor rotation risk: value or equal-weight may outperform in sustained inflationary environments.",
+    "summary": "QUAL is a strong performer in a neutral market environment, trading just 2.7% below its 52-week high with solid 1Y returns (+17.6%). However, it's not a screaming bargain right now\u2014you're buying near recent peaks, which is acceptable for DCA but not compelling. The quality factor remains structurally sound for long-term investors.",
+    "this_month": "Contribute your **normal monthly DCA amount**. Do not increase\u2014the ETF is already at stretched valuations relative to its 52-week range. DCA discipline works best when you stick to size near highs, letting future drawdowns provide better entry points.",
+    "long_term_thesis": "Quality-factor exposure (low volatility, high profitability, strong balance sheets) is a durable diversifier in a core portfolio, especially valuable during market downturns. QUAL's $46.5B AUM and low expense ratio make it a legitimate core holding for long-term wealth building.",
+    "risks": "Quality factors tend to underperform in high-growth/high-inflation regimes and momentum-driven markets. At current valuations (near 52w highs) with Greed sentiment elevated, mean reversion risk is material if economic data softens.",
     "worth_adding": true,
-    "add_rationale": "Yes, add to your DCA stack if you lack US quality exposure. QUAL complements broad market ETFs by tilting toward profitable, stable compounders. The near-highs entry and low Fear reading suggest this is a measured entry, not a panic peak\u2014ideal for DCA discipline.",
-    "generated_at": "2026-08-01T22:55:43.963191",
+    "add_rationale": "Yes, add to your DCA stack\u2014but as a supplementary core holding, not a primary position. QUAL complements broad US equity exposure (e.g., VTI/VOO) by tilting toward quality compounders. Build slowly at normal pace; there will be better entry points in 2026-2027 if volatility normalizes.",
+    "generated_at": "2026-09-01T23:50:02.467113",
     "ticker": "QUAL",
     "name": "iShares MSCI USA Quality Factor ETF",
     "category": "Factor"
   },
   "history": [
+    {
+      "recommendation": "consider_adding",
+      "summary": "QUAL is near 52-week highs after strong 1-year performance (+19.5%), but the underlying quality factor remains fundamentally sound. Fear & Greed at 27 suggests the broader market has not reached euphoria, making this a reasonable entry point for long-term accumulation despite valuation headwinds.",
+      "this_month": "Proceed with 100% of your normal monthly DCA amount. Do not skip or reduce\u2014quality factors tend to outperform during economic uncertainty, and the Fear signal supports steady accumulation rather than hesitation.",
+      "long_term_thesis": "Quality-focused US large-cap exposure provides downside resilience and dividend stability in a long-term core portfolio. At $45.9B AUM with 15bps fees, QUAL offers cost-effective access to high-quality earnings and balance sheets that compound well over decades.",
+      "risks": "Valuation stretch risk: quality stocks command a premium, and mean reversion can be sharp if growth expectations fade. Factor rotation risk: value or equal-weight may outperform in sustained inflationary environments.",
+      "worth_adding": true,
+      "add_rationale": "Yes, add to your DCA stack if you lack US quality exposure. QUAL complements broad market ETFs by tilting toward profitable, stable compounders. The near-highs entry and low Fear reading suggest this is a measured entry, not a panic peak\u2014ideal for DCA discipline.",
+      "generated_at": "2026-08-01T22:55:43.963191",
+      "ticker": "QUAL",
+      "name": "iShares MSCI USA Quality Factor ETF",
+      "category": "Factor",
+      "archived_at": "2026-09-01T23:50:02.467332"
+    },
     {
       "recommendation": "consider_adding",
       "summary": "QUAL is at all-time highs with strong momentum (+20.9% YTM) and quality fundamentals, but extreme fear in the market suggests caution on entry timing. The ETF's quality-factor focus offers defensive characteristics that could appeal during volatility spikes, making it worth adding to a long-term portfolio\u2014but not at peak euphoria.",

@@ -1,18 +1,32 @@
 {
   "current": {
     "recommendation": "consider_adding",
-    "summary": "VYM is trading near 52-week highs with strong momentum (+22.3% YTM) and sits comfortably above its 200MA, signaling sustained uptrend health. However, current Fear & Greed reading (27) and proximity to recent highs warrant measured entry rather than aggressive accumulation. The ETF remains fundamentally sound for long-term dividend-focused investors.",
-    "this_month": "Stick to your normal monthly DCA amount. Do not increase. VYM's position near 52w highs justifies discipline\u2014dollar-cost averaging through a range protects you if a pullback occurs in the coming months.",
-    "long_term_thesis": "VYM's $96.2B AUM, 0.06% expense ratio, and broad exposure to 400+ high-quality dividend payers make it a reliable core holding for passive income and total return. Dividend ETFs historically compound wealth steadily through market cycles when held 10+ years.",
-    "risks": "Valuation risk at near-highs; rate-sensitive dividend stocks may underperform if Fed pivots to tighter policy; market correction could trigger 8\u201312% drawdown from current levels.",
+    "summary": "VYM is trading near 52-week highs in a strong uptrend with solid 1-year returns (+20.2%), supported by neutral-to-bullish market conditions (VIX 16.3, Greed 69). The valuation is stretched but not extreme; this is a reasonable entry point for a DCA-based accumulation strategy rather than a tactical buy.",
+    "this_month": "Contribute your normal monthly DCA amount (~100% of baseline). Resist the urge to increase allocation simply because price is elevated\u2014that defeats the purpose of dollar-cost averaging. The discipline of consistent monthly contributions will average out timing risk over 3\u20135 years.",
+    "long_term_thesis": "VYM provides diversified large-cap dividend exposure with a 0.08% expense ratio (note: you listed 6.00%, likely a typo\u2014VYM's true ER is ~0.08%), making it an efficient core holding for income-focused portfolios. High dividend payers have historically provided inflation-hedging and steady total returns over full market cycles.",
+    "risks": "Dividend stocks are sensitive to rising interest rates and typically underperform growth in strong bull markets. Current Greed sentiment (69) suggests crowding; if sentiment rotates, dividend ETFs can see mean-reversion selloffs. Valuation compression is a tail risk in a higher-rates environment.",
     "worth_adding": true,
-    "add_rationale": "Yes, add VYM to your DCA stack. Its fundamentals (low fees, strong AUM, sector diversification) and uptrend position it as a solid long-term core holding. Begin with normal monthly contributions and increase allocation only after a 5\u201310% pullback or if fear/greed tips toward greed\u2014this de-risks entry and builds conviction over time.",
-    "generated_at": "2026-08-01T22:55:05.025399",
+    "add_rationale": "If your portfolio lacks dividend/income exposure, VYM is a high-quality, low-cost option worth adding to your DCA stack. The near-recent-high entry is not ideal for tactical timing, but for long-term accumulation it is acceptable\u2014monthly contributions will smooth volatility. Start with 1\u20132 positions' worth of allocation (e.g., 5\u201310% of new capital) and treat it as a permanent core holding.",
+    "generated_at": "2026-09-01T23:49:19.921645",
     "ticker": "VYM",
     "name": "Vanguard High Dividend Yield ETF",
     "category": "Dividend"
   },
   "history": [
+    {
+      "recommendation": "consider_adding",
+      "summary": "VYM is trading near 52-week highs with strong momentum (+22.3% YTM) and sits comfortably above its 200MA, signaling sustained uptrend health. However, current Fear & Greed reading (27) and proximity to recent highs warrant measured entry rather than aggressive accumulation. The ETF remains fundamentally sound for long-term dividend-focused investors.",
+      "this_month": "Stick to your normal monthly DCA amount. Do not increase. VYM's position near 52w highs justifies discipline\u2014dollar-cost averaging through a range protects you if a pullback occurs in the coming months.",
+      "long_term_thesis": "VYM's $96.2B AUM, 0.06% expense ratio, and broad exposure to 400+ high-quality dividend payers make it a reliable core holding for passive income and total return. Dividend ETFs historically compound wealth steadily through market cycles when held 10+ years.",
+      "risks": "Valuation risk at near-highs; rate-sensitive dividend stocks may underperform if Fed pivots to tighter policy; market correction could trigger 8\u201312% drawdown from current levels.",
+      "worth_adding": true,
+      "add_rationale": "Yes, add VYM to your DCA stack. Its fundamentals (low fees, strong AUM, sector diversification) and uptrend position it as a solid long-term core holding. Begin with normal monthly contributions and increase allocation only after a 5\u201310% pullback or if fear/greed tips toward greed\u2014this de-risks entry and builds conviction over time.",
+      "generated_at": "2026-08-01T22:55:05.025399",
+      "ticker": "VYM",
+      "name": "Vanguard High Dividend Yield ETF",
+      "category": "Dividend",
+      "archived_at": "2026-09-01T23:49:19.921838"
+    },
     {
       "recommendation": "consider_adding",
       "summary": "VYM is near 52-week highs in a strong uptrend with solid 1-year returns (+21.7%), but extreme fear sentiment and neutral technicals suggest waiting for a modest pullback before committing. The valuation is stretched relative to recent entry points, making this better suited for gradual accumulation rather than aggressive loading.",

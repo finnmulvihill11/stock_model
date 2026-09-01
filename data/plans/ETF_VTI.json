@@ -1,18 +1,32 @@
 {
   "current": {
+    "recommendation": "consider_adding",
+    "summary": "VTI is near 52-week highs in a strong uptrend with neutral market conditions\u2014not a bargain entry, but solid fundamentals justify accumulation. The broad US market exposure and minimal expense ratio (0.03%, not 3.00%) make it a core holding, though timing is neither urgent nor optimal.",
+    "this_month": "Contribute your normal monthly DCA amount ($X). Do not increase allocation just because it's in an uptrend. Resist FOMO from the Greed reading (69)\u2014consistent monthly purchases will average down over time if corrections occur.",
+    "long_term_thesis": "VTI provides complete US equity exposure across all market caps with ultra-low fees ($0.03% ER) and exceptional liquidity ($2.3T AUM). It's the foundation of most long-term buy-and-hold portfolios and should anchor your core holdings regardless of short-term price action.",
+    "risks": "Concentration in large-cap tech, macro pullback risk if equities correct 10\u201320%, and valuation compression if rates rise. Near 52-week highs leaves limited margin of safety, but this is normal for strong performers.",
+    "worth_adding": true,
+    "add_rationale": "VTI is a must-own for any serious long-term US equity investor. If not already in your portfolio, add it immediately at normal DCA pace\u2014don't wait for a 5\u201310% pullback, as it may never come and you'll miss 18%+ annual returns chasing a better entry. The cost of waiting typically exceeds the cost of buying slightly high.",
+    "generated_at": "2026-09-01T23:48:49.271300",
     "ticker": "VTI",
     "name": "Vanguard Total Stock Market ETF",
-    "category": "Broad Us",
-    "recommendation": "hold",
-    "summary": "Analysis unavailable: Unterminated string starting at: line 9 column 19 (char 1944)",
-    "this_month": "Stick to normal amount",
-    "long_term_thesis": "",
-    "risks": "",
-    "worth_adding": false,
-    "add_rationale": "",
-    "generated_at": "2026-08-01T22:54:36.610863"
+    "category": "Broad Us"
   },
   "history": [
+    {
+      "ticker": "VTI",
+      "name": "Vanguard Total Stock Market ETF",
+      "category": "Broad Us",
+      "recommendation": "hold",
+      "summary": "Analysis unavailable: Unterminated string starting at: line 9 column 19 (char 1944)",
+      "this_month": "Stick to normal amount",
+      "long_term_thesis": "",
+      "risks": "",
+      "worth_adding": false,
+      "add_rationale": "",
+      "generated_at": "2026-08-01T22:54:36.610863",
+      "archived_at": "2026-09-01T23:48:49.271492"
+    },
     {
       "recommendation": "consider_adding",
       "summary": "VTI is trading near 52-week highs in a strong uptrend with solid 1Y momentum (+22.9%), but extreme fear sentiment and neutral technicals suggest caution on initial sizing. This is an opportune entry point for dollar-cost averaging rather than a lump-sum accumulation.",
