@@ -3,19 +3,36 @@
     "ticker": "CNP",
     "company_name": "CenterPoint Energy, Inc.",
     "action": "Hold",
-    "action_reason": "Position is down only -2.32%, well within normal swing fluctuations and far from your 15% threshold. Wait for either technical stabilization (RSI bounce + bullish signal) or negative catalyst clarity before taking action.",
+    "action_reason": "Position is only -1.42% (well within tolerance), and your philosophy prohibits exiting minor losers. CNP is a defensive utility\u2014lack of news may be appropriate for the sector. However, do not add until technical signals improve.",
     "target_price": null,
     "target_reasoning": "",
-    "exit_trigger": "Breach below $38.50 (technical support) OR earnings miss with debt concerns validated OR position approaches -15%",
-    "add_trigger": "RSI recovers above 50 with bullish technical setup + closing above $40.17 resistance",
-    "risk": "Utility sector sensitivity to rate hikes; high leverage limits margin of safety; low volatility environment masks tail risk",
+    "exit_trigger": "Break below $38.50 (technical support); RSI falls below 30 with volume confirmation; or debt refinancing concerns emerge",
+    "add_trigger": "RSI rebounds to 50+ AND close above $40.50 with volume; positive earnings catalyst or dividend yield expansion above 3.5%",
+    "risk": "Utility sector vulnerable to rising rates; high leverage (2.1x D/E) limits downside protection in recession",
     "outlook": "cautious",
-    "timeframe": "2-4 weeks until next catalyst or technical resolution",
-    "generated_at": "2026-08-31T00:47:46.179201",
-    "price_at_generation": 39.24,
-    "pnl_at_generation": -2.32
+    "timeframe": "2-4 weeks \u2014 await either technical reversal or next earnings update for directional clarity",
+    "generated_at": "2026-09-01T01:22:56.636362",
+    "price_at_generation": 39.6,
+    "pnl_at_generation": -1.42
   },
   "history": [
+    {
+      "ticker": "CNP",
+      "company_name": "CenterPoint Energy, Inc.",
+      "action": "Hold",
+      "action_reason": "Position is down only -2.32%, well within normal swing fluctuations and far from your 15% threshold. Wait for either technical stabilization (RSI bounce + bullish signal) or negative catalyst clarity before taking action.",
+      "target_price": null,
+      "target_reasoning": "",
+      "exit_trigger": "Breach below $38.50 (technical support) OR earnings miss with debt concerns validated OR position approaches -15%",
+      "add_trigger": "RSI recovers above 50 with bullish technical setup + closing above $40.17 resistance",
+      "risk": "Utility sector sensitivity to rate hikes; high leverage limits margin of safety; low volatility environment masks tail risk",
+      "outlook": "cautious",
+      "timeframe": "2-4 weeks until next catalyst or technical resolution",
+      "generated_at": "2026-08-31T00:47:46.179201",
+      "price_at_generation": 39.24,
+      "pnl_at_generation": -2.32,
+      "archived_at": "2026-09-01T01:22:56.636566"
+    },
     {
       "ticker": "CNP",
       "company_name": "CenterPoint Energy, Inc.",
@@ -117,23 +134,6 @@
       "price_at_generation": 40.2,
       "pnl_at_generation": 0.07,
       "archived_at": "2026-08-23T22:51:41.981498"
-    },
-    {
-      "ticker": "CNP",
-      "company_name": "CenterPoint Energy, Inc.",
-      "action": "Hold",
-      "action_reason": "Position is marginally profitable (+0.57%) with modest 7.9% weight; lacks conviction to add given neutral technicals and high debt load. No trigger to exit a micro-gainer in a utility defensive play.",
-      "target_price": null,
-      "target_reasoning": "",
-      "exit_trigger": "Break below $38.50 (5% loss threshold) or confirmation of deteriorating fundamentals from debt refinancing concerns",
-      "add_trigger": "RSI recovery above 50 with price confirmation above $41.50, OR material news improving operational efficiency or debt reduction plan",
-      "risk": "High debt-to-equity (2.1x) makes CNP vulnerable to rising rates; utilities typically compress in risk-on rallies; potential dividend cut if earnings deteriorate",
-      "outlook": "cautious",
-      "timeframe": "2-4 weeks \u2014 monitor next macro move and any rate environment shift",
-      "generated_at": "2026-08-19T22:54:14.781913",
-      "price_at_generation": 40.4,
-      "pnl_at_generation": 0.57,
-      "archived_at": "2026-08-20T22:57:43.480911"
     }
   ]
 }

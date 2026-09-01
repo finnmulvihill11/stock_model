@@ -2,20 +2,37 @@
   "current": {
     "ticker": "D",
     "company_name": "Dominion Energy, Inc.",
-    "action": "Hold",
-    "action_reason": "Position is down only 4%, well above the 15% threshold where forced holding applies. RSI oversold (31.3) suggests potential bounce, but no news or technical firing provides entry confidence for averaging down.",
-    "target_price": null,
+    "action": "Wait",
+    "action_reason": "Technical setup is compelling (oversold RSI + lower BB) but requires confirmation of reversal before adding. Current small loss does not trigger hold-through-major-loss protocol. Wait for RSI bounce above 40 or price reclaim of middle Bollinger Band.",
+    "target_price": 68.28,
     "target_reasoning": "",
-    "exit_trigger": "Breach below $62.50 (double previous support); break below $60 = hard stop",
-    "add_trigger": "RSI bounce above 50 + price reclaim $67.50 + positive earnings/dividend news",
-    "risk": "Continued utility sector underperformance; rising rates pressure dividend yields; high leverage reduces downside cushion",
+    "exit_trigger": "Close below prior support or RSI breaks back below 30 with volume surge; exit if position reaches -15% loss threshold",
+    "add_trigger": "RSI crosses above 40 with BB squeeze breakout + price closes above 20-day MA on volume",
+    "risk": "Debt burden limits dividend growth; utility sector rotation risk if rates rise; continued selling pressure if earnings outlook deteriorates",
     "outlook": "cautious",
-    "timeframe": "3-6 weeks for technical reversal signal; monitor Q4 earnings/guidance for 2024 rate environment positioning",
-    "generated_at": "2026-08-31T00:48:02.936078",
-    "price_at_generation": 65.55,
-    "pnl_at_generation": -4.0
+    "timeframe": "2-4 weeks for bounce confirmation; hold decision pending technical reversal signals",
+    "generated_at": "2026-09-01T01:23:13.686522",
+    "price_at_generation": 66.01,
+    "pnl_at_generation": -3.32
   },
   "history": [
+    {
+      "ticker": "D",
+      "company_name": "Dominion Energy, Inc.",
+      "action": "Hold",
+      "action_reason": "Position is down only 4%, well above the 15% threshold where forced holding applies. RSI oversold (31.3) suggests potential bounce, but no news or technical firing provides entry confidence for averaging down.",
+      "target_price": null,
+      "target_reasoning": "",
+      "exit_trigger": "Breach below $62.50 (double previous support); break below $60 = hard stop",
+      "add_trigger": "RSI bounce above 50 + price reclaim $67.50 + positive earnings/dividend news",
+      "risk": "Continued utility sector underperformance; rising rates pressure dividend yields; high leverage reduces downside cushion",
+      "outlook": "cautious",
+      "timeframe": "3-6 weeks for technical reversal signal; monitor Q4 earnings/guidance for 2024 rate environment positioning",
+      "generated_at": "2026-08-31T00:48:02.936078",
+      "price_at_generation": 65.55,
+      "pnl_at_generation": -4.0,
+      "archived_at": "2026-09-01T01:23:13.686716"
+    },
     {
       "ticker": "D",
       "company_name": "Dominion Energy, Inc.",
@@ -117,23 +134,6 @@
       "price_at_generation": 67.47,
       "pnl_at_generation": -1.19,
       "archived_at": "2026-08-23T22:51:54.234954"
-    },
-    {
-      "ticker": "D",
-      "company_name": "Dominion Energy, Inc.",
-      "action": "Wait",
-      "action_reason": "Trade is 19 days post-earnings with flat technicals and no news. Utility stocks typically require dividend yield or sector rotation tailwinds to move; current setup lacks urgency. Wait for either RSI extremes (>70/<30), earnings revisions, or macro shift in rate expectations.",
-      "target_price": null,
-      "target_reasoning": "",
-      "exit_trigger": "RSI drops below 35 with breakdown below $67.50 on volume, signaling deteriorating technicals",
-      "add_trigger": "RSI bounces above 55 + positive utility sector news + VIX spike creating fear-driven entry",
-      "risk": "Utility underperformance in rising-rate environment; high leverage makes it sensitive to credit stress; dividend cut risk if debt concerns escalate",
-      "outlook": "cautious",
-      "timeframe": "2-4 weeks for setup clarification; reassess post-Fed signals or sector rotation",
-      "generated_at": "2026-08-19T22:54:29.616225",
-      "price_at_generation": 68.29,
-      "pnl_at_generation": 0.01,
-      "archived_at": "2026-08-20T22:57:55.719970"
     }
   ]
 }

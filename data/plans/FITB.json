@@ -3,17 +3,35 @@
     "ticker": "FITB",
     "company_name": "Fifth Third Bancorp",
     "action": "Hold",
-    "action_reason": "Position is essentially flat (-0.07%), and technical setup (RSI oversold + BB compression + MACD valley reversal) supports a near-term relief bounce. Holding preserves optionality without adding dead money; only 2sh makes position sizing manageable.",
+    "action_reason": "Loss is minimal (-1.48%) and well within recovery tolerance. RSI 32 signals oversold; wait for technical bounce or earnings catalyst (48d) before reassessing. Philosophy protects against panic selling into weakness.",
     "target_price": 56.5,
     "target_reasoning": "",
-    "exit_trigger": "Close above $56.50 on volume (swing high recapture) or RSI >70 (exit on strength, not weakness)",
-    "add_trigger": "RSI bounces to 45-50 on MACD positive crossover confirmation + VIX stays <16 (low slippage). Size: 1 more share max.",
-    "risk": "Banking sector sector rotation; rising rate sensitivity if Fed narrative shifts; lack of news means no volume/momentum driver \u2014 bounce may be anemic.",
-    "outlook": "short",
-    "timeframe": "2-4 weeks (earnings in 49d provides hard deadline; expect mean-reversion bounce before then)",
-    "generated_at": "2026-08-31T00:48:11.064104",
-    "price_at_generation": 54.54,
-    "pnl_at_generation": -0.07
+    "exit_trigger": "Close below $52.00 (technical breakdown) OR negative earnings surprise with negative guidance revision",
+    "add_trigger": "RSI bounces back above 50 with volume confirmation, or stock rallies to $55.50 before earnings",
+    "risk": "Banking sector rotation risk if rate-cut expectations intensify; lack of fundamental data prevents deeper risk assessment",
+    "outlook": "cautious",
+    "timeframe": "4-6 weeks (hold through earnings)",
+    "generated_at": "2026-09-01T01:23:21.226749",
+    "price_at_generation": 53.77,
+    "pnl_at_generation": -1.48
   },
-  "history": []
+  "history": [
+    {
+      "ticker": "FITB",
+      "company_name": "Fifth Third Bancorp",
+      "action": "Hold",
+      "action_reason": "Position is essentially flat (-0.07%), and technical setup (RSI oversold + BB compression + MACD valley reversal) supports a near-term relief bounce. Holding preserves optionality without adding dead money; only 2sh makes position sizing manageable.",
+      "target_price": 56.5,
+      "target_reasoning": "",
+      "exit_trigger": "Close above $56.50 on volume (swing high recapture) or RSI >70 (exit on strength, not weakness)",
+      "add_trigger": "RSI bounces to 45-50 on MACD positive crossover confirmation + VIX stays <16 (low slippage). Size: 1 more share max.",
+      "risk": "Banking sector sector rotation; rising rate sensitivity if Fed narrative shifts; lack of news means no volume/momentum driver \u2014 bounce may be anemic.",
+      "outlook": "short",
+      "timeframe": "2-4 weeks (earnings in 49d provides hard deadline; expect mean-reversion bounce before then)",
+      "generated_at": "2026-08-31T00:48:11.064104",
+      "price_at_generation": 54.54,
+      "pnl_at_generation": -0.07,
+      "archived_at": "2026-09-01T01:23:21.226944"
+    }
+  ]
 }

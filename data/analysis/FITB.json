@@ -2,30 +2,24 @@
   "ticker": "FITB",
   "signal": {
     "ticker": "FITB",
-    "direction": "buy",
-    "tier": "Buy",
-    "buy_score": 0.75,
+    "direction": "hold",
+    "tier": "Hold",
+    "buy_score": 0.62,
     "sell_score": 0.14,
-    "reasons": [
-      "BB: price near lower band (pct=0.16)",
-      "RSI: oversold zone (36.4)",
-      "MACD: histogram at valley / turning up",
-      "200MA: price at/above 200MA (54.54 vs 50.07)",
-      "Golden cross: 50MA (56.58) above 200MA (50.07)",
-      "Volume: above average (1.12x)"
-    ],
+    "reasons": [],
     "misses": [
       "BB Width: bands expanding, not squeezing",
+      "MACD: no bullish crossover or valley",
       "RSI Divergence: no bullish divergence detected"
     ],
-    "price": 54.54,
-    "rsi": 36.4,
+    "price": 53.77,
+    "rsi": 32.0,
     "atr": 0.98,
-    "final_tier": "Buy",
+    "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 7,
-      "suggested_dollars": 381.78,
-      "note": "7 sh @ $54.54 = $382 (Buy, 60% size) | $1,809 swing budget after"
+      "suggested_dollars": 376.39,
+      "note": "7 sh @ $53.77 = $376 (Hold, 60% size) | $1,814 swing budget after"
     }
   },
   "fundamentals": {
@@ -55,7 +49,7 @@
       ],
       "earnings_status": "distant",
       "next_earnings_date": "2026-10-19",
-      "days_to_earnings": 49
+      "days_to_earnings": 48
     }
   },
   "news": {
@@ -63,37 +57,34 @@
     "sentiment": "neutral",
     "health": "neutral",
     "key_events": [
-      "RSI deep in oversold territory (36.4) \u2014 classic reversal setup",
-      "Price touching lower Bollinger Band (pct=0.16) \u2014 extreme compression",
-      "MACD histogram at valley with upward inflection \u2014 bullish divergence forming",
-      "Low VIX (14.4) with market complacency \u2014 reduces swing volatility advantage",
-      "Earnings 49 days out \u2014 low near-term catalysts",
-      "No recent news flow \u2014 information vacuum"
+      "No recent news items provided for analysis",
+      "Earnings event 48 days out provides medium-term catalyst",
+      "RSI at 32 suggests oversold conditions in short-term timeframe"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "Position down -0.07% but RSI oversold suggests prior downtrend exhaustion",
-      "Debt-to-equity unavailable \u2014 fundamental opacity on leverage risk",
-      "VIX complacency raises false-signal risk on technical setups",
-      "Lack of news suggests limited swing driver momentum"
+      "No technical firing signals despite oversold RSI",
+      "Debt-to-equity data unavailable limits fundamental assessment",
+      "Low VIX (14.9) indicates market complacency\u2014elevated tail risk",
+      "Position down 1.48% with no clear catalyst for recovery yet"
     ],
-    "verdict": "Oversold bounce candidate with weak momentum catalysts; technical setup attractive but low volatility environment dilutes swing-trade edge.",
+    "verdict": "Hold position through oversold conditions; no justification to exit a modest loss given your philosophy and upcoming earnings catalyst.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "FITB",
-    "stock_return_3m": 10.01,
-    "benchmark_return_3m": 1.96,
-    "relative_strength": 8.04,
+    "stock_return_3m": 11.51,
+    "benchmark_return_3m": 1.38,
+    "relative_strength": 10.13,
     "label": "outperforming"
   },
-  "final_tier": "Buy",
+  "final_tier": "Hold",
   "sizing": {
     "suggested_shares": 7,
-    "suggested_dollars": 381.78,
-    "note": "7 sh @ $54.54 = $382 (Buy, 60% size) | $1,809 swing budget after"
+    "suggested_dollars": 376.39,
+    "note": "7 sh @ $53.77 = $376 (Hold, 60% size) | $1,814 swing budget after"
   },
   "is_dca": false,
-  "saved_at": "2026-08-31T00:48:11.064585"
+  "saved_at": "2026-09-01T01:23:21.227369"
 }
