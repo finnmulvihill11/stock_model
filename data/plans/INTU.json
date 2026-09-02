@@ -3,19 +3,36 @@
     "ticker": "INTU",
     "company_name": "Intuit Inc.",
     "action": "Hold",
-    "action_reason": "Philosophy prohibits exit on 23.27% loss. Fundamentals remain healthy and earnings are now in the rearview. Wait for RSI to fall into oversold (<40) for potential bounce, or hold for reversion to mean over 6-8 weeks.",
-    "target_price": 420,
+    "action_reason": "Per trading philosophy, positions down >15% are held through recovery cycles. INTU fundamentals remain healthy; post-earnings volatility is normal. RSI at 52.8 suggests no oversold capitulation yet.",
+    "target_price": null,
     "target_reasoning": "",
-    "exit_trigger": "If RSI breaks below 45 and closes below $350 on high volume \u2014 signals continued deterioration. Exit 50% at that level to reduce weight.",
-    "add_trigger": "RSI falls to 35-40 + closes above $355 on volume \u2014 signals capitulation low and reversal setup.",
-    "risk": "Post-earnings selloff may reflect guidance miss or margin concerns not yet visible in 'healthy' fundamental tag. Continued weakness could test $330 support.",
+    "exit_trigger": "Break below $320 (strong support break) + deteriorating fundamentals OR position recovers to $520+ in greed cycle",
+    "add_trigger": "INTU closes below $320 with oversold RSI (<30) + positive earnings revision + market breadth support",
+    "risk": "Further downside if macro headwinds hit software spending; concentration risk at 32.6% weight exposure",
     "outlook": "cautious",
-    "timeframe": "4-8 weeks for recovery attempt; reassess at RSI 35-40 bounce or break of $350",
-    "generated_at": "2026-09-01T01:22:39.598037",
-    "price_at_generation": 359.3,
-    "pnl_at_generation": -23.27
+    "timeframe": "4-8 weeks (typical post-earnings recovery window for quality names)",
+    "generated_at": "2026-09-02T00:26:52.331264",
+    "price_at_generation": 344.93,
+    "pnl_at_generation": -26.34
   },
   "history": [
+    {
+      "ticker": "INTU",
+      "company_name": "Intuit Inc.",
+      "action": "Hold",
+      "action_reason": "Philosophy prohibits exit on 23.27% loss. Fundamentals remain healthy and earnings are now in the rearview. Wait for RSI to fall into oversold (<40) for potential bounce, or hold for reversion to mean over 6-8 weeks.",
+      "target_price": 420,
+      "target_reasoning": "",
+      "exit_trigger": "If RSI breaks below 45 and closes below $350 on high volume \u2014 signals continued deterioration. Exit 50% at that level to reduce weight.",
+      "add_trigger": "RSI falls to 35-40 + closes above $355 on volume \u2014 signals capitulation low and reversal setup.",
+      "risk": "Post-earnings selloff may reflect guidance miss or margin concerns not yet visible in 'healthy' fundamental tag. Continued weakness could test $330 support.",
+      "outlook": "cautious",
+      "timeframe": "4-8 weeks for recovery attempt; reassess at RSI 35-40 bounce or break of $350",
+      "generated_at": "2026-09-01T01:22:39.598037",
+      "price_at_generation": 359.3,
+      "pnl_at_generation": -23.27,
+      "archived_at": "2026-09-02T00:26:52.331507"
+    },
     {
       "ticker": "INTU",
       "company_name": "Intuit Inc.",
@@ -117,23 +134,6 @@
       "price_at_generation": 367.0,
       "pnl_at_generation": -21.63,
       "archived_at": "2026-08-24T22:55:44.790837"
-    },
-    {
-      "ticker": "INTU",
-      "company_name": "Intuit Inc.",
-      "action": "Hold",
-      "action_reason": "Position is down 22.73%, triggering your philosophy to hold through major losers. Earnings in 5 days is a catalyst that could drive recovery; exiting before it violates your rules. However, the overbought RSI and lack of bullish news warrant caution rather than adding.",
-      "target_price": 420,
-      "target_reasoning": "",
-      "exit_trigger": "Post-earnings if guidance deteriorates materially OR price breaks below $330 on heavy volume; only exit if fundamentals shift from 'healthy' to 'deteriorating'",
-      "add_trigger": "Only add if price dips to $330-340 AND earnings beat with strong forward guidance; avoid chasing at current RSI levels",
-      "risk": "Earnings miss or soft guidance could trigger 10-15% drop; concentrated position weight amplifies portfolio drawdown",
-      "outlook": "cautious",
-      "timeframe": "5-7 days (earnings event); reassess within 2 weeks post-results",
-      "generated_at": "2026-08-20T22:57:16.546007",
-      "price_at_generation": 361.87,
-      "pnl_at_generation": -22.73,
-      "archived_at": "2026-08-23T22:51:15.839111"
     }
   ]
 }

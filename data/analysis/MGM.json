@@ -2,30 +2,25 @@
   "ticker": "MGM",
   "signal": {
     "ticker": "MGM",
-    "direction": "buy",
-    "tier": "Buy",
-    "buy_score": 0.75,
-    "sell_score": 0.29,
-    "reasons": [
-      "BB: price near lower band (pct=-0.13)",
-      "BB Width: squeeze active (width=0.0837)",
-      "RSI: oversold zone (27.7)",
-      "200MA: price at/above 200MA (41.36 vs 39.42)",
-      "Golden cross: 50MA (45.42) above 200MA (39.42)",
-      "Volume: above average (1.04x)"
-    ],
+    "direction": "hold",
+    "tier": "Hold",
+    "buy_score": 0.5,
+    "sell_score": 0.0,
+    "reasons": [],
     "misses": [
+      "BB Width: bands expanding, not squeezing",
       "MACD: no bullish crossover or valley",
-      "RSI Divergence: no bullish divergence detected"
+      "RSI Divergence: no bullish divergence detected",
+      "Volume: below average (0.94x) \u2014 low conviction"
     ],
-    "price": 41.36,
-    "rsi": 27.7,
-    "atr": 0.7,
-    "final_tier": "Buy",
+    "price": 40.77,
+    "rsi": 25.5,
+    "atr": 0.74,
+    "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 8,
-      "suggested_dollars": 330.88,
-      "note": "8 sh @ $41.36 = $331 (Buy, 60% size) | $1,860 swing budget after"
+      "suggested_dollars": 326.16,
+      "note": "8 sh @ $40.77 = $326 (Hold, 60% size) | $1,864 swing budget after"
     }
   },
   "fundamentals": {
@@ -55,43 +50,43 @@
       ],
       "earnings_status": "past",
       "next_earnings_date": "2026-07-29",
-      "days_to_earnings": -34
+      "days_to_earnings": -35
     }
   },
   "news": {
     "ticker": "MGM",
     "sentiment": "neutral",
-    "health": "neutral",
+    "health": "deteriorating",
     "key_events": [
-      "Price testing lower Bollinger Band with squeeze active \u2014 potential mean reversion setup",
-      "RSI deeply oversold (27.7) \u2014 classic reversal signal in low-VIX environment",
-      "Earnings already passed (34 days ago) \u2014 catalyst risk removed",
-      "High debt-to-equity (8.9x) \u2014 structural leverage concern but priced in"
+      "RSI at 25.5 indicates oversold conditions",
+      "Earnings reported 35 days ago",
+      "High debt-to-equity ratio of 8.9x presents structural risk",
+      "VIX at 16.3 suggests stable market environment"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "No recent news flow \u2014 information vacuum increases gap risk",
-      "Low VIX (14.9) masks complacency; MGM more sensitive to macro shifts",
-      "High leverage amplifies downside in recession scenario",
-      "-5.38% drawdown mild but position sizing (9% weight) concentrates risk"
+      "Position down 6.73% with no recent positive catalysts",
+      "Extremely high leverage (8.9x D/E) limits financial flexibility",
+      "No recent news flow to support recovery thesis",
+      "Oversold RSI has not yet triggered reversal"
     ],
-    "verdict": "Technical oversold reversal setup conflicts with fundamental leverage risk; hold for bounce but monitor macro deterioration.",
+    "verdict": "MGM is structurally weak with high leverage, but oversold technicals and your philosophy mandate holding; wait for RSI bounce or earnings-driven recovery.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "MGM",
-    "stock_return_3m": -18.41,
-    "benchmark_return_3m": 1.38,
-    "relative_strength": -19.79,
+    "stock_return_3m": -19.57,
+    "benchmark_return_3m": 0.55,
+    "relative_strength": -20.12,
     "label": "underperforming"
   },
-  "final_tier": "Buy",
+  "final_tier": "Hold",
   "sizing": {
     "suggested_shares": 8,
-    "suggested_dollars": 330.88,
-    "note": "8 sh @ $41.36 = $331 (Buy, 60% size) | $1,860 swing budget after"
+    "suggested_dollars": 326.16,
+    "note": "8 sh @ $40.77 = $326 (Hold, 60% size) | $1,864 swing budget after"
   },
   "is_dca": false,
-  "saved_at": "2026-09-01T01:22:48.825203"
+  "saved_at": "2026-09-02T00:27:00.417603"
 }

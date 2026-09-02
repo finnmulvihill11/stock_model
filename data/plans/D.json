@@ -2,20 +2,37 @@
   "current": {
     "ticker": "D",
     "company_name": "Dominion Energy, Inc.",
-    "action": "Wait",
-    "action_reason": "Technical setup is compelling (oversold RSI + lower BB) but requires confirmation of reversal before adding. Current small loss does not trigger hold-through-major-loss protocol. Wait for RSI bounce above 40 or price reclaim of middle Bollinger Band.",
-    "target_price": 68.28,
+    "action": "Hold",
+    "action_reason": "Position is only -2.78% (well within acceptable swing trade drawdown). Oversold RSI (37.5) + lower BB + squeeze pattern suggests setup for mean reversion bounce. Let technicals play out before decision.",
+    "target_price": 68.5,
     "target_reasoning": "",
-    "exit_trigger": "Close below prior support or RSI breaks back below 30 with volume surge; exit if position reaches -15% loss threshold",
-    "add_trigger": "RSI crosses above 40 with BB squeeze breakout + price closes above 20-day MA on volume",
-    "risk": "Debt burden limits dividend growth; utility sector rotation risk if rates rise; continued selling pressure if earnings outlook deteriorates",
+    "exit_trigger": "Break below $65.50 or RSI falls below 25 with bearish volume divergence; otherwise hold for RSI recovery above 50",
+    "add_trigger": "Price stabilizes at $65-66 with RSI <30 and positive divergence; add 0.5sh for swing recovery trade",
+    "risk": "Deterioration in bond markets or dividend cut due to high leverage; utility sector rotation if rates spike sharply",
     "outlook": "cautious",
-    "timeframe": "2-4 weeks for bounce confirmation; hold decision pending technical reversal signals",
-    "generated_at": "2026-09-01T01:23:13.686522",
-    "price_at_generation": 66.01,
-    "pnl_at_generation": -3.32
+    "timeframe": "2-4 weeks for technicals to resolve; BB squeeze typically breaks within 3-5 trading sessions",
+    "generated_at": "2026-09-02T00:27:21.674223",
+    "price_at_generation": 66.38,
+    "pnl_at_generation": -2.78
   },
   "history": [
+    {
+      "ticker": "D",
+      "company_name": "Dominion Energy, Inc.",
+      "action": "Wait",
+      "action_reason": "Technical setup is compelling (oversold RSI + lower BB) but requires confirmation of reversal before adding. Current small loss does not trigger hold-through-major-loss protocol. Wait for RSI bounce above 40 or price reclaim of middle Bollinger Band.",
+      "target_price": 68.28,
+      "target_reasoning": "",
+      "exit_trigger": "Close below prior support or RSI breaks back below 30 with volume surge; exit if position reaches -15% loss threshold",
+      "add_trigger": "RSI crosses above 40 with BB squeeze breakout + price closes above 20-day MA on volume",
+      "risk": "Debt burden limits dividend growth; utility sector rotation risk if rates rise; continued selling pressure if earnings outlook deteriorates",
+      "outlook": "cautious",
+      "timeframe": "2-4 weeks for bounce confirmation; hold decision pending technical reversal signals",
+      "generated_at": "2026-09-01T01:23:13.686522",
+      "price_at_generation": 66.01,
+      "pnl_at_generation": -3.32,
+      "archived_at": "2026-09-02T00:27:21.674417"
+    },
     {
       "ticker": "D",
       "company_name": "Dominion Energy, Inc.",
@@ -117,23 +134,6 @@
       "price_at_generation": 66.6,
       "pnl_at_generation": -2.46,
       "archived_at": "2026-08-24T22:56:26.187990"
-    },
-    {
-      "ticker": "D",
-      "company_name": "Dominion Energy, Inc.",
-      "action": "Hold",
-      "action_reason": "Loss is minimal (1.19%) and well below the 15% threshold that would trigger mandatory hold philosophy. RSI showing weakness but not oversold; wait for clearer technical setup before adding or exiting.",
-      "target_price": 70.5,
-      "target_reasoning": "",
-      "exit_trigger": "Break below $66.00 with volume confirmation, or RSI falls below 30 with continued selling pressure",
-      "add_trigger": "RSI oversold below 30 with bullish divergence, or price rebounds to $69.50+ on positive utility sector rotation",
-      "risk": "Debt serviceability concerns if interest rates rise further; dividend sustainability pressure in higher-rate environment",
-      "outlook": "neutral",
-      "timeframe": "2-4 weeks",
-      "generated_at": "2026-08-20T22:57:55.719783",
-      "price_at_generation": 67.47,
-      "pnl_at_generation": -1.19,
-      "archived_at": "2026-08-23T22:51:54.234954"
     }
   ]
 }

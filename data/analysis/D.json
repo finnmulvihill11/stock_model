@@ -7,25 +7,25 @@
     "buy_score": 0.88,
     "sell_score": 0.29,
     "reasons": [
-      "BB: price near lower band (pct=0.13)",
-      "BB Width: squeeze active (width=0.0612)",
-      "RSI: oversold zone (35.9)",
+      "BB: price near lower band (pct=0.19)",
+      "BB Width: squeeze active (width=0.0571)",
+      "RSI: oversold zone (37.5)",
       "MACD: histogram at valley / turning up",
-      "200MA: price at/above 200MA (66.01 vs 63.32)",
-      "Golden cross: 50MA (68.95) above 200MA (63.32)",
-      "Volume: above average (1.82x)"
+      "200MA: price at/above 200MA (66.38 vs 63.32)",
+      "Golden cross: 50MA (68.97) above 200MA (63.32)",
+      "Volume: above average (1.20x)"
     ],
     "misses": [
       "RSI Divergence: no bullish divergence detected"
     ],
-    "price": 66.01,
-    "rsi": 35.9,
-    "atr": 0.97,
+    "price": 66.38,
+    "rsi": 37.5,
+    "atr": 0.95,
     "final_tier": "Buy",
     "sizing": {
       "suggested_shares": 5,
-      "suggested_dollars": 330.05,
-      "note": "5 sh @ $66.01 = $330 (Buy, 60% size) | $1,861 swing budget after"
+      "suggested_dollars": 331.9,
+      "note": "5 sh @ $66.38 = $332 (Buy, 60% size) | $1,859 swing budget after"
     }
   },
   "fundamentals": {
@@ -55,7 +55,7 @@
       ],
       "earnings_status": "past",
       "next_earnings_date": "2026-07-31",
-      "days_to_earnings": -32
+      "days_to_earnings": -33
     }
   },
   "news": {
@@ -63,35 +63,34 @@
     "sentiment": "neutral",
     "health": "neutral",
     "key_events": [
-      "Price testing lower Bollinger Band with squeeze active (BB width 0.0612)",
-      "RSI 35.9 indicates oversold conditions",
-      "Earnings released 32 days ago",
-      "Low VIX environment (14.9) suggests reduced volatility expectations"
+      "Price testing lower Bollinger Band with squeeze active",
+      "RSI deeply oversold at 37.5 suggesting potential mean reversion",
+      "Earnings reported 33 days ago (catalyst already passed)",
+      "Market conditions neutral (VIX 16.3) with greed sentiment"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
       "High debt-to-equity ratio (1.6x) limits financial flexibility",
-      "Position down 3.32% from entry; small loss but trending negative",
-      "Elevated Fear & Greed reading suggests speculative market conditions despite low VIX",
-      "No recent news flow to support near-term reversal"
+      "No recent news catalysts visible",
+      "Utilities typically underperform in high-greed/risk-on environments"
     ],
-    "verdict": "D is oversold technically with a BB squeeze setup, but elevated leverage and lack of positive catalysts present a cautious picture for swing traders.",
+    "verdict": "Utility stock showing oversold technicals with squeeze setup; fundamentals remain pressured but position loss is manageable within swing framework.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "D",
-    "stock_return_3m": 2.17,
-    "benchmark_return_3m": 1.38,
-    "relative_strength": 0.78,
+    "stock_return_3m": 2.74,
+    "benchmark_return_3m": 0.55,
+    "relative_strength": 2.19,
     "label": "in-line"
   },
   "final_tier": "Buy",
   "sizing": {
     "suggested_shares": 5,
-    "suggested_dollars": 330.05,
-    "note": "5 sh @ $66.01 = $330 (Buy, 60% size) | $1,861 swing budget after"
+    "suggested_dollars": 331.9,
+    "note": "5 sh @ $66.38 = $332 (Buy, 60% size) | $1,859 swing budget after"
   },
   "is_dca": false,
-  "saved_at": "2026-09-01T01:23:13.687203"
+  "saved_at": "2026-09-02T00:27:21.675036"
 }

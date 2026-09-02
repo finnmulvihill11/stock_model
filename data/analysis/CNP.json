@@ -4,23 +4,24 @@
     "ticker": "CNP",
     "direction": "hold",
     "tier": "Hold",
-    "buy_score": 0.5,
-    "sell_score": 0.29,
+    "buy_score": 0.38,
+    "sell_score": 0.14,
     "reasons": [],
     "misses": [
-      "BB: price not near lower band (pct=0.36)",
-      "RSI: not in buy zone (40.6, need 20-40)",
+      "BB: price not near lower band (pct=0.31)",
+      "MACD: no bullish crossover or valley",
       "RSI Divergence: no bullish divergence detected",
-      "200MA: price below 200MA \u2014 potential falling knife"
+      "200MA: price below 200MA \u2014 potential falling knife",
+      "Volume: below average (0.90x) \u2014 low conviction"
     ],
-    "price": 39.6,
-    "rsi": 40.6,
-    "atr": 0.73,
+    "price": 39.47,
+    "rsi": 39.1,
+    "atr": 0.74,
     "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 9,
-      "suggested_dollars": 356.4,
-      "note": "9 sh @ $39.60 = $356 (Hold, 60% size) | $1,834 swing budget after"
+      "suggested_dollars": 355.23,
+      "note": "9 sh @ $39.47 = $355 (Hold, 60% size) | $1,835 swing budget after"
     }
   },
   "fundamentals": {
@@ -50,7 +51,7 @@
       ],
       "earnings_status": "past",
       "next_earnings_date": "2026-07-28",
-      "days_to_earnings": -35
+      "days_to_earnings": -36
     }
   },
   "news": {
@@ -58,35 +59,34 @@
     "sentiment": "neutral",
     "health": "neutral",
     "key_events": [
-      "No recent news catalysts identified",
-      "Earnings cycle past (35 days ago)",
-      "Low volatility environment (VIX 14.9)"
+      "Earnings reported 36 days ago",
+      "VIX at 16.3 indicates stable market conditions",
+      "Market in 'Greed' phase suggesting risk appetite present"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "High debt-to-equity ratio (2.1x) limits financial flexibility",
-      "Position down 1.42% with no technical firing signals",
-      "RSI at 40.6 suggests weak momentum, approaching oversold",
-      "Market in 'Greed' phase\u2014complacency often precedes corrections",
-      "No identified news support for recovery catalyst"
+      "High debt-to-equity ratio of 2.1x increases financial risk",
+      "RSI at 39.1 shows mild oversold conditions but not severely depressed",
+      "Position down 1.74% with no technical firing signals",
+      "No recent news catalysts to drive recovery"
     ],
-    "verdict": "Neutral utility holding with deteriorating technicals; hold due to position size and modest loss, but monitor for further deterioration.",
+    "verdict": "CNP is a stabilized position with moderate headwinds; hold and monitor for technical relief or fundamental catalysts.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "CNP",
-    "stock_return_3m": -3.52,
-    "benchmark_return_3m": 1.38,
-    "relative_strength": -4.9,
+    "stock_return_3m": -3.84,
+    "benchmark_return_3m": 0.55,
+    "relative_strength": -4.39,
     "label": "in-line"
   },
   "final_tier": "Hold",
   "sizing": {
     "suggested_shares": 9,
-    "suggested_dollars": 356.4,
-    "note": "9 sh @ $39.60 = $356 (Hold, 60% size) | $1,834 swing budget after"
+    "suggested_dollars": 355.23,
+    "note": "9 sh @ $39.47 = $355 (Hold, 60% size) | $1,835 swing budget after"
   },
   "is_dca": false,
-  "saved_at": "2026-09-01T01:22:56.637089"
+  "saved_at": "2026-09-02T00:27:06.459858"
 }
