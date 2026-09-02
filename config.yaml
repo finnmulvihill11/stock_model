@@ -46,6 +46,9 @@ portfolio:
   - ticker: FITB
     shares: 2.0
     avg_cost: 54.58
+  - ticker: WM
+    shares: 1.0
+    avg_cost: 218.98
   dca_tickers:
   - GRNI
   - VOO
