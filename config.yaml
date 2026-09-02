@@ -20,8 +20,8 @@ portfolio:
     shares: 3
     avg_cost: 468.29
   - ticker: VOO
-    shares: 1.36
-    avg_cost: 626.71
+    shares: 1.6440000000000001
+    avg_cost: 639.71
     dca: true
   - ticker: VXUS
     shares: 3.178
