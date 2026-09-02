@@ -474,6 +474,14 @@
       "amount": 199.36,
       "type": "etf",
       "action": "buy"
+    },
+    {
+      "date": "2026-09-02",
+      "ticker": "VXUS",
+      "shares": 0.573,
+      "amount": 49.94,
+      "type": "etf",
+      "action": "buy"
     }
   ]
 }
