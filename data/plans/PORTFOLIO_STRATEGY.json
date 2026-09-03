@@ -1,46 +1,89 @@
 {
   "current": {
-    "headline": "Portfolio flat but trapped \u2014 INTU overweight drag persists; lean into persistent mean-reversion buys with remaining $1k dry powder.",
+    "headline": "Hold INTU through recovery; deploy $1K into persistent oversold mean-reversion setups\u2014WM, WST, PYPL leading the charge.",
     "market_stance": "offensive",
-    "overall_thesis": "VIX calm (16.3) and Fear & Greed in Greed zone (63) signal healthy risk appetite. Current holdings underwater but within philosophy (hold >15% drawdowns). Deploy $1k into 2\u20133 persistent oversold buys (RSI 34\u201339 range, Bollinger Band bounce setup) over next 7\u201310 days; target mean-reversion recoveries over 4\u20138 weeks. INTU remains structural drag at 32.6% \u2014 will trim on recovery bounce above 29.",
+    "overall_thesis": "VIX at 15.2 and Greed at 65 signal a healthy correction environment perfect for mean-reversion. The screener has identified 14 persistent Buy signals across quality names (WM, WST, PYPL, WRB, L, KLAC, ODFL, TXN, Q) all pinned in RSI 34\u201339 oversold territory. Deploy the full $1K budget into the 2\u20133 highest-conviction names (WM + WST tier-1, PYPL second), then rotate into secondary watchlist names as cash opens up over the next 2\u20133 weeks. INTU stays locked\u2014down 26.8% triggers the hold-through rule; no trim or exit.",
     "priority_actions": [
       {
         "rank": 1,
         "action": "BUY",
-        "ticker": "PYPL",
-        "instruction": "Buy ~$350\u2013400 (~8\u201310 shares if trading ~$40\u201345 range). RSI 35 (deep oversold), Bollinger Band lower touch confirmed. Entry on any dip to daily support or on intraday pull-back spike in volume.",
-        "urgency": "this week"
+        "ticker": "WM",
+        "instruction": "Buy ~$400\u2013500 worth (likely 4\u20135 shares at current levels). WM shows persistent Buy signal (2+ consecutive scrapes), RSI 38.5 deep oversold, strong mean-reversion candidate. Execute immediately if price remains in oversold band.",
+        "urgency": "immediate"
       },
       {
         "rank": 2,
         "action": "BUY",
         "ticker": "WST",
-        "instruction": "Buy ~$300\u2013350 (~6\u20137 shares if trading ~$50 range). RSI 38.6 oversold, persistent 2+ scrape signal. Mean-reversion setup strong. Pair with PYPL as diversified healthcare/industrials bet.",
-        "urgency": "this week"
+        "instruction": "Buy ~$350\u2013400 worth (likely 3\u20134 shares). WST also shows persistent Buy signal, RSI 38.6 oversold, Bollinger Band pin confirmed. Execute immediately.",
+        "urgency": "immediate"
       },
       {
         "rank": 3,
         "action": "BUY",
-        "ticker": "WM",
-        "instruction": "Buy ~$250\u2013300 (~3\u20134 shares if trading ~$70 range). RSI 38.5, persistent Buy signal active 2+ scrapes. Large-cap quality, lower volatility recovery play. Deploy remainder of $1k budget here if PYPL and WST fill within 3\u20134 days.",
+        "ticker": "PYPL",
+        "instruction": "Buy ~$150\u2013200 worth with remaining cash (likely 2 shares or fractional). PYPL RSI 35, classic oversold setup. Scale in if WM + WST fill first; use remaining budget here.",
         "urgency": "this week"
       }
     ],
-    "biggest_risk": "INTU concentration at 32.6% (exceeds 25% cap) with -26.3% loss. Single stock drawdown not yet forcing hold threshold, but if INTU drops another 5\u20138%, portfolio psychological pressure rises. Offset by deploying new dry powder into uncorrelated mean-reversion plays (retail, healthcare, utilities) to dilute tech weighting.",
+    "biggest_risk": "INTU concentration at 28.2% (exceeds 25% cap) is a structural overhang. Down 26.8%, it blocks rebalancing without taking a loss. If INTU bounces 8\u201312% in the next 2\u20133 weeks, plan to TRIM ~$300\u2013400 to bring weight back to 23\u201324% and redeploy into secondary watchlist names (KLAC, ODFL, TXN, Q). Watch for any deterioration in INTU fundamentals\u2014if thesis breaks, that changes the hold-through rule.",
     "what_to_watch": [
-      "INTU earnings/guidance catalyst \u2014 if positive, expect 8\u201312% relief bounce; TRIM 40\u201350% on >29 recovery",
-      "VIX spike above 18 \u2014 would compress RSI oversold signals; pause new buys if fear re-enters market",
-      "Persistent Buy signal persistence on WM, WST, PYPL \u2014 confirm 3rd+ consecutive scrape before committing final $1k tranche",
-      "MGM RSI 25.5 \u2014 extremely oversold; watch for bounce signal as secondary accumulation opportunity next week if no new screener buys trigger"
+      "INTU recovery path\u2014need 8\u201312% bounce in next 3 weeks to justify TRIM and rebalance",
+      "WM, WST, PYPL mean-reversion follow-through\u2014if RSI climbs into 50\u201360 band with volume, take partial profits (TRIM at +5\u20138%)",
+      "Secondary watchlist persistence\u2014KLAC, ODFL, TXN, Q: if 2+ more consecutive scrapes appear, rotate additional $200\u2013300 allocation",
+      "VIX stay <18 and Greed maintain >60\u2014environment remains ideal for oversold reversals. Break above VIX 18 may signal rotation; reduce new buys if it happens"
     ],
     "on_course_check": [
-      "\u2713 Holding major losses (INTU -26.3%, MGM -6.7%) without panic \u2014 philosophy intact",
-      "\u2713 Dry powder ($1k) deployed into high-conviction oversold mean-reversion setups \u2014 capital discipline on track",
-      "\u2717 REVISE: INTU overweight drag requires proactive trim plan on 8\u201312% relief; do not wait for full recovery to sell 40% at buy=25% level"
+      "\u2713 Plan working: WM + WST + PYPL fill at target prices, RSI bounces to 50\u201355 within 5\u20137 days with volume (mean-reversion is real)",
+      "\u2713 Plan working: INTU stabilizes above -20%, then drifts toward -15% (triggers hold-through successfully)",
+      "\u26a0 Revise plan: INTU drops below -30% AND fundamentals shift materially negative \u2192 re-evaluate hold-through thesis",
+      "\u26a0 Revise plan: WM, WST, PYPL all fail to bounce and RSI re-enters <30 with heavy selling volume \u2192 market regime has shifted; exit positions and go 100% cash"
     ],
-    "generated_at": "2026-09-02T00:27:45.497787"
+    "generated_at": "2026-09-03T00:34:22.576047"
   },
   "history": [
+    {
+      "headline": "Portfolio flat but trapped \u2014 INTU overweight drag persists; lean into persistent mean-reversion buys with remaining $1k dry powder.",
+      "market_stance": "offensive",
+      "overall_thesis": "VIX calm (16.3) and Fear & Greed in Greed zone (63) signal healthy risk appetite. Current holdings underwater but within philosophy (hold >15% drawdowns). Deploy $1k into 2\u20133 persistent oversold buys (RSI 34\u201339 range, Bollinger Band bounce setup) over next 7\u201310 days; target mean-reversion recoveries over 4\u20138 weeks. INTU remains structural drag at 32.6% \u2014 will trim on recovery bounce above 29.",
+      "priority_actions": [
+        {
+          "rank": 1,
+          "action": "BUY",
+          "ticker": "PYPL",
+          "instruction": "Buy ~$350\u2013400 (~8\u201310 shares if trading ~$40\u201345 range). RSI 35 (deep oversold), Bollinger Band lower touch confirmed. Entry on any dip to daily support or on intraday pull-back spike in volume.",
+          "urgency": "this week"
+        },
+        {
+          "rank": 2,
+          "action": "BUY",
+          "ticker": "WST",
+          "instruction": "Buy ~$300\u2013350 (~6\u20137 shares if trading ~$50 range). RSI 38.6 oversold, persistent 2+ scrape signal. Mean-reversion setup strong. Pair with PYPL as diversified healthcare/industrials bet.",
+          "urgency": "this week"
+        },
+        {
+          "rank": 3,
+          "action": "BUY",
+          "ticker": "WM",
+          "instruction": "Buy ~$250\u2013300 (~3\u20134 shares if trading ~$70 range). RSI 38.5, persistent Buy signal active 2+ scrapes. Large-cap quality, lower volatility recovery play. Deploy remainder of $1k budget here if PYPL and WST fill within 3\u20134 days.",
+          "urgency": "this week"
+        }
+      ],
+      "biggest_risk": "INTU concentration at 32.6% (exceeds 25% cap) with -26.3% loss. Single stock drawdown not yet forcing hold threshold, but if INTU drops another 5\u20138%, portfolio psychological pressure rises. Offset by deploying new dry powder into uncorrelated mean-reversion plays (retail, healthcare, utilities) to dilute tech weighting.",
+      "what_to_watch": [
+        "INTU earnings/guidance catalyst \u2014 if positive, expect 8\u201312% relief bounce; TRIM 40\u201350% on >29 recovery",
+        "VIX spike above 18 \u2014 would compress RSI oversold signals; pause new buys if fear re-enters market",
+        "Persistent Buy signal persistence on WM, WST, PYPL \u2014 confirm 3rd+ consecutive scrape before committing final $1k tranche",
+        "MGM RSI 25.5 \u2014 extremely oversold; watch for bounce signal as secondary accumulation opportunity next week if no new screener buys trigger"
+      ],
+      "on_course_check": [
+        "\u2713 Holding major losses (INTU -26.3%, MGM -6.7%) without panic \u2014 philosophy intact",
+        "\u2713 Dry powder ($1k) deployed into high-conviction oversold mean-reversion setups \u2014 capital discipline on track",
+        "\u2717 REVISE: INTU overweight drag requires proactive trim plan on 8\u201312% relief; do not wait for full recovery to sell 40% at buy=25% level"
+      ],
+      "generated_at": "2026-09-02T00:27:45.497787",
+      "archived_at": "2026-09-03T00:34:22.576370"
+    },
     {
       "headline": "Cash-constrained with strong mean-reversion setup ahead; prioritize highest-conviction oversold buys while INTU concentration risk looms.",
       "market_stance": "offensive",
@@ -298,56 +341,6 @@
       ],
       "generated_at": "2026-08-24T22:56:43.635554",
       "archived_at": "2026-08-25T22:58:28.191204"
-    },
-    {
-      "headline": "Portfolio flat with $1K dry powder; mean-reversion setup across financials and airlines \u2014 deploy selectively into persistent oversold signals.",
-      "market_stance": "offensive",
-      "overall_thesis": "VIX at 15.1 and Greed at 66 signal complacency \u2014 ideal environment for contrarian mean-reversion buys. Oversold financials (FITB, PNC, KEY) and airlines (UAL, DAL) are showing 2+ consecutive scrapes of RSI <40. Deploy $1K into highest-conviction persistent signals while holding underwater INTU through recovery (21.6% draw is within hold-through rule). TEM deserves trim consideration given +5.2% and RSI 75.1 overbought.",
-      "priority_actions": [
-        {
-          "rank": 1,
-          "action": "BUY",
-          "ticker": "KEY",
-          "instruction": "Buy 15\u201320 shares (~$300\u2013$400 position) on close near current levels or any dip toward lower Bollinger Band. RSI 36.6 + persistent 2+ scrape Buy signal = high-conviction mean reversion setup.",
-          "urgency": "immediate"
-        },
-        {
-          "rank": 2,
-          "action": "BUY",
-          "ticker": "FITB",
-          "instruction": "Buy 12\u201316 shares (~$350\u2013$450 position) on close or any test of lower BB. RSI 37.3 oversold + persistent Buy signal + financial sector tailwinds.",
-          "urgency": "immediate"
-        },
-        {
-          "rank": 3,
-          "action": "BUY",
-          "ticker": "UAL",
-          "instruction": "Buy 8\u201312 shares (~$250\u2013$350 position) on close or near lower BB support. RSI 37.8 + cyclical upside + persistent signal = sector rebound play.",
-          "urgency": "this week"
-        },
-        {
-          "rank": 4,
-          "action": "TRIM",
-          "ticker": "TEM",
-          "instruction": "Sell ~60% of TEM position (~40% of current share count). Take +5.2% profit into RSI 75.1 overbought condition and uncertain fundamental outlook. Reduces concentration risk, rebalances to core thesis.",
-          "urgency": "this week"
-        }
-      ],
-      "biggest_risk": "INTU concentration at 29.8% (exceeds 25% cap) down 21.6% \u2014 while hold-through rule prevents exit, this mega-loser is dragging portfolio recovery and creating single-name risk. Monitor earnings for thesis confirmation; if thesis breaks post-ER, must rebalance by rotating into new positions.",
-      "what_to_watch": [
-        "INTU earnings catalysts \u2014 confirm the thesis or signal deeper reset",
-        "TEM trim execution \u2014 capture overbought peak and lock in gains before pullback",
-        "KEY, FITB, UAL reversal confirmation \u2014 watch for close above RSI 50 and lower BB breakout as proof of mean-reversion recovery",
-        "VIX break above 18 \u2014 would signal rotation away from offensive posture and trigger exit re-evaluation"
-      ],
-      "on_course_check": [
-        "\u2713 Plan working: mean-reversion signals firing across sector (financials, airlines oversold) = setup is pristine",
-        "\u2713 Plan working: dry powder deployed into highest-conviction persistent signals (KEY, FITB top 2 ranks)",
-        "\u26a0 Revise if: INTU thesis breaks post-earnings AND market rolls over (VIX >18) \u2014 would force defensive reset and INTU portfolio rebalance",
-        "\u26a0 Revise if: TEM fails to trim at profit target \u2014 position overbought, must lock in +5% before reversal"
-      ],
-      "generated_at": "2026-08-23T22:52:09.711973",
-      "archived_at": "2026-08-24T22:56:43.635841"
     }
   ]
 }

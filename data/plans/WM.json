@@ -1,0 +1,19 @@
+{
+  "current": {
+    "ticker": "WM",
+    "company_name": "Waste Management, Inc.",
+    "action": "Hold",
+    "action_reason": "Position is profitable (+0.03%) but showing no momentum for trimming. Lack of news and RSI weakness suggest waiting for a stronger technical setup before adding; holding prevents locking in minimal gains.",
+    "target_price": null,
+    "target_reasoning": "",
+    "exit_trigger": "Break below $217.50 with increased volume or deteriorating fundamentals on next earnings",
+    "add_trigger": "RSI reverses above 50 with bullish volume spike, or positive guidance/contract announcement",
+    "risk": "Defensive utility plays underperform in Greed environments; high leverage (2.4x D/E) amplifies downside if recession concerns emerge",
+    "outlook": "neutral",
+    "timeframe": "3-4 weeks",
+    "generated_at": "2026-09-03T00:34:05.477253",
+    "price_at_generation": 219.04,
+    "pnl_at_generation": 0.03
+  },
+  "history": []
+}

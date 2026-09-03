@@ -4,20 +4,21 @@
     "ticker": "INTU",
     "direction": "hold",
     "tier": "Hold",
-    "buy_score": 0.25,
-    "sell_score": 0.29,
+    "buy_score": 0.12,
+    "sell_score": 0.0,
     "reasons": [],
     "misses": [
-      "BB: price not near lower band (pct=0.46)",
+      "BB: price not near lower band (pct=nan)",
+      "BB Width: bands expanding, not squeezing",
       "RSI: not in buy zone (52.8, need 20-40)",
-      "MACD: no bullish crossover or valley",
       "RSI Divergence: no bullish divergence detected",
       "200MA: price below 200MA \u2014 potential falling knife",
-      "Volume: below average (0.66x) \u2014 low conviction"
+      "50/200MA: insufficient history",
+      "Volume: below average (0.78x) \u2014 low conviction"
     ],
-    "price": 344.93,
+    "price": NaN,
     "rsi": 52.8,
-    "atr": 16.47,
+    "atr": null,
     "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 0,
@@ -50,7 +51,7 @@
       ],
       "earnings_status": "past",
       "next_earnings_date": "2026-08-25",
-      "days_to_earnings": -8
+      "days_to_earnings": -9
     }
   },
   "news": {
@@ -58,27 +59,28 @@
     "sentiment": "neutral",
     "health": "healthy",
     "key_events": [
-      "Earnings released 8 days ago",
-      "No recent news items provided for analysis",
-      "Market in Greed phase with neutral VIX (16.3)"
+      "Earnings reported 9 days ago",
+      "Stock down 26.77% from entry despite healthy fundamentals",
+      "Market sentiment: Greed (F&G index)",
+      "VIX neutral at 15.2 \u2014 no crisis volatility"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "Significant drawdown of -26.34% from entry",
-      "No technical firing signals despite neutral RSI",
-      "Heavy portfolio concentration at 32.6% weight increases risk",
-      "Post-earnings period volatility typical for software/SaaS names"
+      "Significant drawdown (-26.77%) suggests market repriced earnings or guidance negatively",
+      "No recent news items (empty news feed) indicates potential information vacuum or lack of catalysts",
+      "Heavy portfolio weight (28.2%) concentrates risk in underwater position",
+      "RSI at 52.8 shows neutral momentum\u2014no oversold bounce setup yet"
     ],
-    "verdict": "Position held due to philosophy constraint; monitor for stabilization after earnings-driven selloff before considering recovery entry points.",
+    "verdict": "INTU has healthy fundamentals but faces a valuation reset post-earnings; hold per philosophy but monitor for add-on strength or fundamental deterioration.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "INTU",
-    "stock_return_3m": 7.55,
-    "benchmark_return_3m": 0.55,
-    "relative_strength": 7.0,
-    "label": "outperforming"
+    "stock_return_3m": NaN,
+    "benchmark_return_3m": NaN,
+    "relative_strength": NaN,
+    "label": "in-line"
   },
   "final_tier": "Hold",
   "sizing": {
@@ -87,5 +89,5 @@
     "note": "Position already at 20% portfolio cap"
   },
   "is_dca": false,
-  "saved_at": "2026-09-02T00:26:52.332164"
+  "saved_at": "2026-09-03T00:33:22.614406"
 }

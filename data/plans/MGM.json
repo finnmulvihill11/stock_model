@@ -3,19 +3,36 @@
     "ticker": "MGM",
     "company_name": "MGM Resorts International",
     "action": "Hold",
-    "action_reason": "Position is down only 6.73% (within acceptable drawdown), RSI oversold at 25.5 presents mean-reversion setup, and your framework prohibits exits on losses <15%. Hold and monitor for recovery signal.",
+    "action_reason": "Position is only -5.19% (well above the 15% threshold), and RSI at 25.1 suggests capitulation. Per philosophy, hold through this minor drawdown and await technical recovery or positive catalyst. The debt structure is concerning but requires monitoring rather than immediate exit.",
     "target_price": 46.5,
     "target_reasoning": "",
-    "exit_trigger": "RSI>70 with volume confirmation or position reaches +8-10% gain; OR debt-to-equity worsens materially or dividend cut announced",
-    "add_trigger": "RSI <20 with bullish divergence and volume spike; or positive gaming revenue guidance in next 2 weeks",
-    "risk": "High financial leverage (8.9x D/E) amplifies downside in economic slowdown; gaming sector cyclicality; casino traffic weakness",
+    "exit_trigger": "Break below $39.50 (10% loss) or confirmed breakdown below 20-day MA with no RSI recovery",
+    "add_trigger": "RSI closes above 30 with volume confirmation, or positive gaming revenue/debt reduction announcement",
+    "risk": "Leveraged balance sheet (8.9x D/E) makes MGM vulnerable to credit stress or economic weakness; gaming is cyclical and sensitive to consumer spending",
     "outlook": "cautious",
-    "timeframe": "3-6 weeks (next earnings cycle or gaming data release)",
-    "generated_at": "2026-09-02T00:27:00.416830",
-    "price_at_generation": 40.77,
-    "pnl_at_generation": -6.73
+    "timeframe": "3-5 weeks",
+    "generated_at": "2026-09-03T00:33:29.943156",
+    "price_at_generation": 41.44,
+    "pnl_at_generation": -5.19
   },
   "history": [
+    {
+      "ticker": "MGM",
+      "company_name": "MGM Resorts International",
+      "action": "Hold",
+      "action_reason": "Position is down only 6.73% (within acceptable drawdown), RSI oversold at 25.5 presents mean-reversion setup, and your framework prohibits exits on losses <15%. Hold and monitor for recovery signal.",
+      "target_price": 46.5,
+      "target_reasoning": "",
+      "exit_trigger": "RSI>70 with volume confirmation or position reaches +8-10% gain; OR debt-to-equity worsens materially or dividend cut announced",
+      "add_trigger": "RSI <20 with bullish divergence and volume spike; or positive gaming revenue guidance in next 2 weeks",
+      "risk": "High financial leverage (8.9x D/E) amplifies downside in economic slowdown; gaming sector cyclicality; casino traffic weakness",
+      "outlook": "cautious",
+      "timeframe": "3-6 weeks (next earnings cycle or gaming data release)",
+      "generated_at": "2026-09-02T00:27:00.416830",
+      "price_at_generation": 40.77,
+      "pnl_at_generation": -6.73,
+      "archived_at": "2026-09-03T00:33:29.943374"
+    },
     {
       "ticker": "MGM",
       "company_name": "MGM Resorts International",
@@ -117,23 +134,6 @@
       "price_at_generation": 43.69,
       "pnl_at_generation": -0.05,
       "archived_at": "2026-08-25T22:57:54.194745"
-    },
-    {
-      "ticker": "MGM",
-      "company_name": "MGM",
-      "action": "Hold",
-      "action_reason": "Position is flat and not triggering exit rules. RSI below 50 suggests caution; avoid adding into weakness. Monitor for RSI recovery above 50 and volume confirmation before considering expansion.",
-      "target_price": 46.5,
-      "target_reasoning": "",
-      "exit_trigger": "Close below $40.50 (7.3% loss) OR debt-to-equity deteriorates materially OR earnings disappoint again",
-      "add_trigger": "RSI climbs above 60 with volume + price closes above $46 resistance on 3+ consecutive days",
-      "risk": "High leverage (8.9x D/E) amplifies downside in market corrections; cyclical gaming exposure vulnerable to economic slowdown",
-      "outlook": "cautious",
-      "timeframe": "3-6 weeks (await next earnings cycle and RSI recovery confirmation)",
-      "generated_at": "2026-08-23T22:51:34.863000",
-      "price_at_generation": 43.74,
-      "pnl_at_generation": 0.07,
-      "archived_at": "2026-08-24T22:56:00.531206"
     }
   ]
 }

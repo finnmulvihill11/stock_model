@@ -3,19 +3,36 @@
     "ticker": "INTU",
     "company_name": "Intuit Inc.",
     "action": "Hold",
-    "action_reason": "Per trading philosophy, positions down >15% are held through recovery cycles. INTU fundamentals remain healthy; post-earnings volatility is normal. RSI at 52.8 suggests no oversold capitulation yet.",
-    "target_price": null,
+    "action_reason": "Position is down 26.77%, triggering the 15%+ hold-through rule. Fundamentals remain healthy and VIX is neutral, suggesting the decline reflects earnings recalibration rather than systemic risk. Wait for RSI to drop below 40 or a catalyst to emerge before considering adds.",
+    "target_price": 385,
     "target_reasoning": "",
-    "exit_trigger": "Break below $320 (strong support break) + deteriorating fundamentals OR position recovers to $520+ in greed cycle",
-    "add_trigger": "INTU closes below $320 with oversold RSI (<30) + positive earnings revision + market breadth support",
-    "risk": "Further downside if macro headwinds hit software spending; concentration risk at 32.6% weight exposure",
+    "exit_trigger": "Fundamental deterioration announcement OR RSI breaks below 30 on high volume with negative news (only if up 15%+ from entry); never exit while down",
+    "add_trigger": "RSI drops to 35-40 range on volume + positive guidance commentary or analyst upgrade; only if fundamentals remain healthy",
+    "risk": "Further earnings misses or guidance cuts could extend the drawdown; portfolio concentration (28.2% weight) magnifies loss if deterioration occurs",
     "outlook": "cautious",
-    "timeframe": "4-8 weeks (typical post-earnings recovery window for quality names)",
-    "generated_at": "2026-09-02T00:26:52.331264",
-    "price_at_generation": 344.93,
-    "pnl_at_generation": -26.34
+    "timeframe": "3-8 weeks for technical recovery; watch Q next earnings cycle for inflection",
+    "generated_at": "2026-09-03T00:33:22.613624",
+    "price_at_generation": 342.94,
+    "pnl_at_generation": -26.77
   },
   "history": [
+    {
+      "ticker": "INTU",
+      "company_name": "Intuit Inc.",
+      "action": "Hold",
+      "action_reason": "Per trading philosophy, positions down >15% are held through recovery cycles. INTU fundamentals remain healthy; post-earnings volatility is normal. RSI at 52.8 suggests no oversold capitulation yet.",
+      "target_price": null,
+      "target_reasoning": "",
+      "exit_trigger": "Break below $320 (strong support break) + deteriorating fundamentals OR position recovers to $520+ in greed cycle",
+      "add_trigger": "INTU closes below $320 with oversold RSI (<30) + positive earnings revision + market breadth support",
+      "risk": "Further downside if macro headwinds hit software spending; concentration risk at 32.6% weight exposure",
+      "outlook": "cautious",
+      "timeframe": "4-8 weeks (typical post-earnings recovery window for quality names)",
+      "generated_at": "2026-09-02T00:26:52.331264",
+      "price_at_generation": 344.93,
+      "pnl_at_generation": -26.34,
+      "archived_at": "2026-09-03T00:33:22.613846"
+    },
     {
       "ticker": "INTU",
       "company_name": "Intuit Inc.",
@@ -117,23 +134,6 @@
       "price_at_generation": 369.92,
       "pnl_at_generation": -21.01,
       "archived_at": "2026-08-25T22:57:41.412966"
-    },
-    {
-      "ticker": "INTU",
-      "company_name": "Intuit Inc.",
-      "action": "Hold",
-      "action_reason": "Position is down 21.63%, triggering the rule to never exit major losers. Earnings in 2 days is a major catalyst that could accelerate recovery. Waiting for post-earnings direction before reconsidering.",
-      "target_price": null,
-      "target_reasoning": "",
-      "exit_trigger": "Exit only if post-earnings fundamentals deteriorate materially OR if position recovers to >$500 (trimming partial gains only)",
-      "add_trigger": "Add only if post-earnings confirms healthy guidance AND stock closes >$390 (avoiding catch-a-falling-knife)",
-      "risk": "Earnings miss could drive further 10-20% downside; concentration at 29.8% weight amplifies impact. RSI overbought suggests limited near-term bounce room.",
-      "outlook": "cautious",
-      "timeframe": "2-6 weeks post-earnings for recovery signal",
-      "generated_at": "2026-08-23T22:51:15.838852",
-      "price_at_generation": 367.0,
-      "pnl_at_generation": -21.63,
-      "archived_at": "2026-08-24T22:55:44.790837"
     }
   ]
 }

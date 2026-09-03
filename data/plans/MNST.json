@@ -3,19 +3,36 @@
     "ticker": "MNST",
     "company_name": "Monster Beverage Corporation",
     "action": "Hold",
-    "action_reason": "Position is only -2.30%, well above the 15% threshold where forced holding applies. RSI at 41.1 suggests mild weakness but not capitulation. Wait for either a bounce opportunity or clearer directional signal before acting.",
-    "target_price": 47.5,
+    "action_reason": "Position is only -3.54% with healthy fundamentals intact. RSI at 41.1 presents a potential reversal setup as stock approaches oversold territory. Earnings already digested, reducing near-term surprise risk.",
+    "target_price": 48.5,
     "target_reasoning": "",
-    "exit_trigger": "Break below $43.50 with volume surge OR close above $48.00 for profit-taking at +4.2%",
-    "add_trigger": "RSI drops to 30-35 range with bullish divergence OR confirmed support at $43.50",
-    "risk": "Continued drift lower without catalyst; lack of recent news means limited upside triggers in near term",
+    "exit_trigger": "Break below $42.50 (technical support) OR sustained close below 200-day MA with negative earnings revision",
+    "add_trigger": "If RSI drops to 30-35 range AND price holds above $43.00, consider adding 1-2 shares for cost averaging",
+    "risk": "Continued weakness in energy drink category or macro downturn; lack of recent news suggests potential consolidation period before next move",
     "outlook": "neutral",
-    "timeframe": "2-4 weeks",
-    "generated_at": "2026-09-02T00:27:13.693244",
-    "price_at_generation": 44.99,
-    "pnl_at_generation": -2.3
+    "timeframe": "2-4 weeks for technical recovery; monitor for next catalyst or RSI mean reversion",
+    "generated_at": "2026-09-03T00:33:43.423156",
+    "price_at_generation": 44.42,
+    "pnl_at_generation": -3.54
   },
   "history": [
+    {
+      "ticker": "MNST",
+      "company_name": "Monster Beverage Corporation",
+      "action": "Hold",
+      "action_reason": "Position is only -2.30%, well above the 15% threshold where forced holding applies. RSI at 41.1 suggests mild weakness but not capitulation. Wait for either a bounce opportunity or clearer directional signal before acting.",
+      "target_price": 47.5,
+      "target_reasoning": "",
+      "exit_trigger": "Break below $43.50 with volume surge OR close above $48.00 for profit-taking at +4.2%",
+      "add_trigger": "RSI drops to 30-35 range with bullish divergence OR confirmed support at $43.50",
+      "risk": "Continued drift lower without catalyst; lack of recent news means limited upside triggers in near term",
+      "outlook": "neutral",
+      "timeframe": "2-4 weeks",
+      "generated_at": "2026-09-02T00:27:13.693244",
+      "price_at_generation": 44.99,
+      "pnl_at_generation": -2.3,
+      "archived_at": "2026-09-03T00:33:43.423373"
+    },
     {
       "ticker": "MNST",
       "company_name": "Monster Beverage Corporation",
@@ -117,23 +134,6 @@
       "price_at_generation": 48.92,
       "pnl_at_generation": 6.23,
       "archived_at": "2026-08-25T22:58:07.173536"
-    },
-    {
-      "ticker": "MNST",
-      "company_name": "Monster Beverage Corporation",
-      "action": "Hold",
-      "action_reason": "Position is +3.78% profitable and fundamentals remain healthy. RSI at 42.3 is neutral (not oversold or overbought), suggesting consolidation rather than weakness. Lack of firing technicals suggests waiting for clearer directional bias.",
-      "target_price": 50.5,
-      "target_reasoning": "",
-      "exit_trigger": "Close below $45.80 (support near entry) or RSI drops below 30 with bearish volume confirmation",
-      "add_trigger": "RSI breaks above 55 with bullish volume on break above $48.50 resistance",
-      "risk": "Earnings volatility already past; risk is range-bound consolidation leading to sideways P&L with opportunity cost",
-      "outlook": "neutral",
-      "timeframe": "2-4 weeks",
-      "generated_at": "2026-08-23T22:51:48.007444",
-      "price_at_generation": 47.79,
-      "pnl_at_generation": 3.78,
-      "archived_at": "2026-08-24T22:56:18.009893"
     }
   ]
 }

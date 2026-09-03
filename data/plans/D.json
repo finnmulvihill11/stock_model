@@ -3,19 +3,36 @@
     "ticker": "D",
     "company_name": "Dominion Energy, Inc.",
     "action": "Hold",
-    "action_reason": "Position is only -2.78% (well within acceptable swing trade drawdown). Oversold RSI (37.5) + lower BB + squeeze pattern suggests setup for mean reversion bounce. Let technicals play out before decision.",
-    "target_price": 68.5,
+    "action_reason": "Loss is only -3.27% (well below 15% threshold), and RSI 39.5 shows oversold conditions that typically precede bounces. Utility dividend support should provide downside cushion; wait for technical recovery or concrete negative news before reconsidering.",
+    "target_price": null,
     "target_reasoning": "",
-    "exit_trigger": "Break below $65.50 or RSI falls below 25 with bearish volume divergence; otherwise hold for RSI recovery above 50",
-    "add_trigger": "Price stabilizes at $65-66 with RSI <30 and positive divergence; add 0.5sh for swing recovery trade",
-    "risk": "Deterioration in bond markets or dividend cut due to high leverage; utility sector rotation if rates spike sharply",
-    "outlook": "cautious",
-    "timeframe": "2-4 weeks for technicals to resolve; BB squeeze typically breaks within 3-5 trading sessions",
-    "generated_at": "2026-09-02T00:27:21.674223",
-    "price_at_generation": 66.38,
-    "pnl_at_generation": -2.78
+    "exit_trigger": "RSI drops below 30 with confirmed break below $64 support on high volume, or negative earnings surprise",
+    "add_trigger": "RSI bounce above 50 on volume with break above $68.50, confirming reversal pattern",
+    "risk": "High debt levels limit upside potential and increase sensitivity to rising interest rates; lack of news flow suggests complacency before next event",
+    "outlook": "neutral",
+    "timeframe": "3-5 weeks for technical reset; monitor for Q3/Q4 earnings guidance updates",
+    "generated_at": "2026-09-03T00:33:51.043663",
+    "price_at_generation": 66.05,
+    "pnl_at_generation": -3.27
   },
   "history": [
+    {
+      "ticker": "D",
+      "company_name": "Dominion Energy, Inc.",
+      "action": "Hold",
+      "action_reason": "Position is only -2.78% (well within acceptable swing trade drawdown). Oversold RSI (37.5) + lower BB + squeeze pattern suggests setup for mean reversion bounce. Let technicals play out before decision.",
+      "target_price": 68.5,
+      "target_reasoning": "",
+      "exit_trigger": "Break below $65.50 or RSI falls below 25 with bearish volume divergence; otherwise hold for RSI recovery above 50",
+      "add_trigger": "Price stabilizes at $65-66 with RSI <30 and positive divergence; add 0.5sh for swing recovery trade",
+      "risk": "Deterioration in bond markets or dividend cut due to high leverage; utility sector rotation if rates spike sharply",
+      "outlook": "cautious",
+      "timeframe": "2-4 weeks for technicals to resolve; BB squeeze typically breaks within 3-5 trading sessions",
+      "generated_at": "2026-09-02T00:27:21.674223",
+      "price_at_generation": 66.38,
+      "pnl_at_generation": -2.78,
+      "archived_at": "2026-09-03T00:33:51.043865"
+    },
     {
       "ticker": "D",
       "company_name": "Dominion Energy, Inc.",
@@ -117,23 +134,6 @@
       "price_at_generation": 66.61,
       "pnl_at_generation": -2.45,
       "archived_at": "2026-08-25T22:58:13.057084"
-    },
-    {
-      "ticker": "D",
-      "company_name": "Dominion Energy, Inc.",
-      "action": "Hold",
-      "action_reason": "Loss is modest (2.46%) and well within recovery range. RSI oversold conditions (35.9) suggest potential mean reversion opportunity without forced liquidation.",
-      "target_price": null,
-      "target_reasoning": "",
-      "exit_trigger": "Close below $64.50 (additional 3% loss) or deteriorating fundamental news on debt refinancing",
-      "add_trigger": "RSI bounces above 45 with volume confirmation, or utility sector-wide momentum shift",
-      "risk": "High leverage (1.6x D/E) limits upside potential and increases sensitivity to rising rates; dividend cut risk if operational challenges emerge",
-      "outlook": "cautious",
-      "timeframe": "3-6 weeks for recovery attempt or technical breakdown confirmation",
-      "generated_at": "2026-08-23T22:51:54.234729",
-      "price_at_generation": 66.6,
-      "pnl_at_generation": -2.46,
-      "archived_at": "2026-08-24T22:56:26.187990"
     }
   ]
 }
