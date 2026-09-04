@@ -3,17 +3,35 @@
     "ticker": "WM",
     "company_name": "Waste Management, Inc.",
     "action": "Hold",
-    "action_reason": "Position is profitable (+0.03%) but showing no momentum for trimming. Lack of news and RSI weakness suggest waiting for a stronger technical setup before adding; holding prevents locking in minimal gains.",
-    "target_price": null,
+    "action_reason": "Position is +0.83% profitable, so exit philosophy allows trimming. However, RSI 38.3 + no firing signals suggest momentum is absent, not broken. Better to hold until VIX normalizes or a clear buy/sell trigger fires rather than chase a sideways move.",
+    "target_price": 228,
     "target_reasoning": "",
-    "exit_trigger": "Break below $217.50 with increased volume or deteriorating fundamentals on next earnings",
-    "add_trigger": "RSI reverses above 50 with bullish volume spike, or positive guidance/contract announcement",
-    "risk": "Defensive utility plays underperform in Greed environments; high leverage (2.4x D/E) amplifies downside if recession concerns emerge",
-    "outlook": "neutral",
-    "timeframe": "3-4 weeks",
-    "generated_at": "2026-09-03T00:34:05.477253",
-    "price_at_generation": 219.04,
-    "pnl_at_generation": 0.03
+    "exit_trigger": "RSI drops below 30 + close below 218 (support break) OR VIX spikes >18 and WM breaks $215 support with volume",
+    "add_trigger": "RSI stays 30\u201340 but WM breaks above $227 on volume + VIX remains <16 (capitulation buy at lower risk)",
+    "risk": "Debt burden + rate sensitivity; geopolitical cost creep; profit-taking if market rotates out of defensives into higher-growth on soft macro data",
+    "outlook": "cautious",
+    "timeframe": "2\u20134 weeks (hold through VIX normalization or earnings catalyst ~3 months; reassess if breaks support or VIX spikes)",
+    "generated_at": "2026-09-04T00:19:15.025875",
+    "price_at_generation": 221.72,
+    "pnl_at_generation": 0.83
   },
-  "history": []
+  "history": [
+    {
+      "ticker": "WM",
+      "company_name": "Waste Management, Inc.",
+      "action": "Hold",
+      "action_reason": "Position is profitable (+0.03%) but showing no momentum for trimming. Lack of news and RSI weakness suggest waiting for a stronger technical setup before adding; holding prevents locking in minimal gains.",
+      "target_price": null,
+      "target_reasoning": "",
+      "exit_trigger": "Break below $217.50 with increased volume or deteriorating fundamentals on next earnings",
+      "add_trigger": "RSI reverses above 50 with bullish volume spike, or positive guidance/contract announcement",
+      "risk": "Defensive utility plays underperform in Greed environments; high leverage (2.4x D/E) amplifies downside if recession concerns emerge",
+      "outlook": "neutral",
+      "timeframe": "3-4 weeks",
+      "generated_at": "2026-09-03T00:34:05.477253",
+      "price_at_generation": 219.04,
+      "pnl_at_generation": 0.03,
+      "archived_at": "2026-09-04T00:19:15.026064"
+    }
+  ]
 }

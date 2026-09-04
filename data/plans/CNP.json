@@ -3,19 +3,36 @@
     "ticker": "CNP",
     "company_name": "CenterPoint Energy, Inc.",
     "action": "Hold",
-    "action_reason": "Position is only -1.64% down (well above your 15% threshold for forced holding). RSI oversold conditions suggest potential bounce, but lack of positive catalysts and high debt warrant patience rather than adding.",
-    "target_price": 41.5,
+    "action_reason": "Down loss is minimal (-0.47%), well below the 15% threshold. Hold through uncertainty until either a technical reversal (RSI <30 + bullish divergence) or a material positive catalyst emerges.",
+    "target_price": null,
     "target_reasoning": "",
-    "exit_trigger": "Break below $38.50 with negative earnings revision or dividend cut announcement",
-    "add_trigger": "RSI drops to 30 or below with sector-wide rate cut signal; position size already 7.6% weighted",
-    "risk": "Leverage and rate sensitivity; potential dividend pressure if utility commissions deny rate increases",
-    "outlook": "neutral",
-    "timeframe": "3-6 weeks",
-    "generated_at": "2026-09-03T00:33:36.727170",
-    "price_at_generation": 39.51,
-    "pnl_at_generation": -1.64
+    "exit_trigger": "RSI breaks below 30 with confirmed higher lows AND geopolitical escalation begins pressuring energy infrastructure OR debt-to-equity worsens materially in next earnings.",
+    "add_trigger": "RSI touches 25-28 (oversold capitulation) + positive earnings revision + VIX spike >18 (risk-off boost to defensive utility demand).",
+    "risk": "High leverage (2.1x D/E) leaves limited margin for error; macro tightening or credit stress could force dividend cut. Low volatility environment penalizes dividend stocks.",
+    "outlook": "cautious",
+    "timeframe": "2-6 weeks\u2014wait for either technical oversold washout, macro clarity (Fed policy), or earnings catalyst.",
+    "generated_at": "2026-09-04T00:18:40.787663",
+    "price_at_generation": 39.98,
+    "pnl_at_generation": -0.47
   },
   "history": [
+    {
+      "ticker": "CNP",
+      "company_name": "CenterPoint Energy, Inc.",
+      "action": "Hold",
+      "action_reason": "Position is only -1.64% down (well above your 15% threshold for forced holding). RSI oversold conditions suggest potential bounce, but lack of positive catalysts and high debt warrant patience rather than adding.",
+      "target_price": 41.5,
+      "target_reasoning": "",
+      "exit_trigger": "Break below $38.50 with negative earnings revision or dividend cut announcement",
+      "add_trigger": "RSI drops to 30 or below with sector-wide rate cut signal; position size already 7.6% weighted",
+      "risk": "Leverage and rate sensitivity; potential dividend pressure if utility commissions deny rate increases",
+      "outlook": "neutral",
+      "timeframe": "3-6 weeks",
+      "generated_at": "2026-09-03T00:33:36.727170",
+      "price_at_generation": 39.51,
+      "pnl_at_generation": -1.64,
+      "archived_at": "2026-09-04T00:18:40.787883"
+    },
     {
       "ticker": "CNP",
       "company_name": "CenterPoint Energy, Inc.",
@@ -117,23 +134,6 @@
       "price_at_generation": 38.93,
       "pnl_at_generation": -3.09,
       "archived_at": "2026-08-27T03:30:56.515285"
-    },
-    {
-      "ticker": "CNP",
-      "company_name": "CenterPoint Energy, Inc.",
-      "action": "Hold",
-      "action_reason": "Position down only 2.66% (well within swing trader tolerance) with neutral technicals; loss is manageable and philosophy prohibits exit on small losses. Await either RSI bounce above 40 or next earnings cycle for directional clarity.",
-      "target_price": 41.5,
-      "target_reasoning": "",
-      "exit_trigger": "Break below $38.50 (stop-loss at -4.2%) OR if debt-to-equity exceeds 2.3x at next earnings",
-      "add_trigger": "RSI breaks above 50 with volume confirmation AND market VIX remains below 18",
-      "risk": "Utility sector vulnerability to rising rates; high leverage (2.1x D/E) limits downside protection; lack of recent news suggests low liquidity or analyst interest",
-      "outlook": "cautious",
-      "timeframe": "3-5 weeks until next catalyst or technical reversal confirmation",
-      "generated_at": "2026-08-24T22:56:08.988821",
-      "price_at_generation": 39.1,
-      "pnl_at_generation": -2.66,
-      "archived_at": "2026-08-25T22:58:00.770682"
     }
   ]
 }

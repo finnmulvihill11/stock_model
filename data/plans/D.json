@@ -3,19 +3,36 @@
     "ticker": "D",
     "company_name": "Dominion Energy, Inc.",
     "action": "Hold",
-    "action_reason": "Loss is only -3.27% (well below 15% threshold), and RSI 39.5 shows oversold conditions that typically precede bounces. Utility dividend support should provide downside cushion; wait for technical recovery or concrete negative news before reconsidering.",
-    "target_price": null,
+    "action_reason": "Loss is only 2.18%\u2014well below the 15% threshold. No sell signal justifies exit. Oversold RSI (37.5) + utility defensive profile warrant patience for mean reversion bounce or earnings-cycle re-entry.",
+    "target_price": 70.25,
     "target_reasoning": "",
-    "exit_trigger": "RSI drops below 30 with confirmed break below $64 support on high volume, or negative earnings surprise",
-    "add_trigger": "RSI bounce above 50 on volume with break above $68.50, confirming reversal pattern",
-    "risk": "High debt levels limit upside potential and increase sensitivity to rising interest rates; lack of news flow suggests complacency before next event",
+    "exit_trigger": "Break below $65.50 (support); volume spike + gap down on negative utility regulation news",
+    "add_trigger": "RSI drops to 28\u201330 + bullish divergence on daily chart; OR positive earnings revision within 3\u20134 weeks",
+    "risk": "Debt burden + rising rates pressure margins; VIX complacency can flip quickly into volatility spike, triggering dividend-paying stock selloff",
     "outlook": "neutral",
-    "timeframe": "3-5 weeks for technical reset; monitor for Q3/Q4 earnings guidance updates",
-    "generated_at": "2026-09-03T00:33:51.043663",
-    "price_at_generation": 66.05,
-    "pnl_at_generation": -3.27
+    "timeframe": "2\u20134 weeks (await next earnings catalyst or technical reset)",
+    "generated_at": "2026-09-04T00:18:58.406235",
+    "price_at_generation": 66.79,
+    "pnl_at_generation": -2.18
   },
   "history": [
+    {
+      "ticker": "D",
+      "company_name": "Dominion Energy, Inc.",
+      "action": "Hold",
+      "action_reason": "Loss is only -3.27% (well below 15% threshold), and RSI 39.5 shows oversold conditions that typically precede bounces. Utility dividend support should provide downside cushion; wait for technical recovery or concrete negative news before reconsidering.",
+      "target_price": null,
+      "target_reasoning": "",
+      "exit_trigger": "RSI drops below 30 with confirmed break below $64 support on high volume, or negative earnings surprise",
+      "add_trigger": "RSI bounce above 50 on volume with break above $68.50, confirming reversal pattern",
+      "risk": "High debt levels limit upside potential and increase sensitivity to rising interest rates; lack of news flow suggests complacency before next event",
+      "outlook": "neutral",
+      "timeframe": "3-5 weeks for technical reset; monitor for Q3/Q4 earnings guidance updates",
+      "generated_at": "2026-09-03T00:33:51.043663",
+      "price_at_generation": 66.05,
+      "pnl_at_generation": -3.27,
+      "archived_at": "2026-09-04T00:18:58.406467"
+    },
     {
       "ticker": "D",
       "company_name": "Dominion Energy, Inc.",
@@ -117,23 +134,6 @@
       "price_at_generation": 66.93,
       "pnl_at_generation": -1.98,
       "archived_at": "2026-08-27T03:31:11.477867"
-    },
-    {
-      "ticker": "D",
-      "company_name": "Dominion Energy, Inc.",
-      "action": "Hold",
-      "action_reason": "Position is only -2.45% from entry, well above the 15% threshold where forced holding applies. RSI 36 suggests potential bounce opportunity, and utilities typically recover steadily. Monitor for technical confirmation before adding.",
-      "target_price": 70.5,
-      "target_reasoning": "",
-      "exit_trigger": "Break below $64.50 (5.5% additional loss) with no RSI bounce OR earnings miss followed by guidance cut",
-      "add_trigger": "RSI dips to 30 with bullish divergence + VIX remains <18, or positive utility sector news catalyst emerges",
-      "risk": "Elevated debt load constrains dividend growth potential; prolonged rate hikes could pressure valuation; lack of recent news suggests limited near-term catalysts",
-      "outlook": "neutral",
-      "timeframe": "3-6 weeks",
-      "generated_at": "2026-08-24T22:56:26.187808",
-      "price_at_generation": 66.61,
-      "pnl_at_generation": -2.45,
-      "archived_at": "2026-08-25T22:58:13.057084"
     }
   ]
 }

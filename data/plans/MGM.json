@@ -3,19 +3,36 @@
     "ticker": "MGM",
     "company_name": "MGM Resorts International",
     "action": "Hold",
-    "action_reason": "Position is only -5.19% (well above the 15% threshold), and RSI at 25.1 suggests capitulation. Per philosophy, hold through this minor drawdown and await technical recovery or positive catalyst. The debt structure is concerning but requires monitoring rather than immediate exit.",
-    "target_price": 46.5,
+    "action_reason": "Position is only -5.90%, well below the 15% threshold; holding allows recovery in oversold RSI zone. Fundamentals (neutral/high debt) don't justify panic exit, and no profitable position to trim.",
+    "target_price": 45.5,
     "target_reasoning": "",
-    "exit_trigger": "Break below $39.50 (10% loss) or confirmed breakdown below 20-day MA with no RSI recovery",
-    "add_trigger": "RSI closes above 30 with volume confirmation, or positive gaming revenue/debt reduction announcement",
-    "risk": "Leveraged balance sheet (8.9x D/E) makes MGM vulnerable to credit stress or economic weakness; gaming is cyclical and sensitive to consumer spending",
+    "exit_trigger": "Break below $39.50 (supports next -5.5% leg) + VIX spike >18 + geopolitical escalation event; OR profit at $47+",
+    "add_trigger": "RSI <25 + no negative news catalyst + VIX remains <16; consider small add if foundational support ($38\u201340) holds",
+    "risk": "Geopolitical escalation \u2192 VIX spike \u2192 forced liquidations in leveraged, discretionary sectors; debt burden amplifies drawdown severity",
     "outlook": "cautious",
-    "timeframe": "3-5 weeks",
-    "generated_at": "2026-09-03T00:33:29.943156",
-    "price_at_generation": 41.44,
-    "pnl_at_generation": -5.19
+    "timeframe": "2-4 weeks; reassess after next macro/earnings catalyst or VIX regime change",
+    "generated_at": "2026-09-04T00:18:31.817085",
+    "price_at_generation": 41.13,
+    "pnl_at_generation": -5.9
   },
   "history": [
+    {
+      "ticker": "MGM",
+      "company_name": "MGM Resorts International",
+      "action": "Hold",
+      "action_reason": "Position is only -5.19% (well above the 15% threshold), and RSI at 25.1 suggests capitulation. Per philosophy, hold through this minor drawdown and await technical recovery or positive catalyst. The debt structure is concerning but requires monitoring rather than immediate exit.",
+      "target_price": 46.5,
+      "target_reasoning": "",
+      "exit_trigger": "Break below $39.50 (10% loss) or confirmed breakdown below 20-day MA with no RSI recovery",
+      "add_trigger": "RSI closes above 30 with volume confirmation, or positive gaming revenue/debt reduction announcement",
+      "risk": "Leveraged balance sheet (8.9x D/E) makes MGM vulnerable to credit stress or economic weakness; gaming is cyclical and sensitive to consumer spending",
+      "outlook": "cautious",
+      "timeframe": "3-5 weeks",
+      "generated_at": "2026-09-03T00:33:29.943156",
+      "price_at_generation": 41.44,
+      "pnl_at_generation": -5.19,
+      "archived_at": "2026-09-04T00:18:31.817300"
+    },
     {
       "ticker": "MGM",
       "company_name": "MGM Resorts International",
@@ -117,23 +134,6 @@
       "price_at_generation": 43.34,
       "pnl_at_generation": -0.85,
       "archived_at": "2026-08-27T03:30:49.203518"
-    },
-    {
-      "ticker": "MGM",
-      "company_name": "MGM Resorts International",
-      "action": "Hold",
-      "action_reason": "Position is essentially flat (-0.05%) with no clear technical or fundamental trigger to exit. The high debt load is a structural concern but not an immediate swing catalyst. Wait for either technical confirmation (RSI >50 + volume support) or positive catalyst news before considering add.",
-      "target_price": null,
-      "target_reasoning": "",
-      "exit_trigger": "Break below $41.50 on volume (5%+ loss from entry) OR confirmed downtrend below 20-day MA with RSI <30",
-      "add_trigger": "RSI bounces above 55 with price holding above $45.00 AND positive gaming/tourism news emerges; add 1-2 shares max given high debt risk",
-      "risk": "Leveraged balance sheet (8.9x D/E) amplifies downside in recession/credit stress; entertainment/travel demand sensitivity; limited near-term catalysts",
-      "outlook": "neutral",
-      "timeframe": "2-4 weeks \u2014 reassess at next earnings or if technical pattern establishes (breakout above $45 resistance or breakdown below $41 support)",
-      "generated_at": "2026-08-24T22:56:00.531021",
-      "price_at_generation": 43.69,
-      "pnl_at_generation": -0.05,
-      "archived_at": "2026-08-25T22:57:54.194745"
     }
   ]
 }

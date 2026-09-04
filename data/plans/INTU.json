@@ -3,19 +3,36 @@
     "ticker": "INTU",
     "company_name": "Intuit Inc.",
     "action": "Hold",
-    "action_reason": "Position is down 26.77%, triggering the 15%+ hold-through rule. Fundamentals remain healthy and VIX is neutral, suggesting the decline reflects earnings recalibration rather than systemic risk. Wait for RSI to drop below 40 or a catalyst to emerge before considering adds.",
-    "target_price": 385,
+    "action_reason": "Philosophy forbids trimming positions down >15%. Fundamentals healthy and RSI not oversold; await either recovery bounce or clear technical break (RSI <30 + volume confirmation) to reassess conviction.",
+    "target_price": null,
     "target_reasoning": "",
-    "exit_trigger": "Fundamental deterioration announcement OR RSI breaks below 30 on high volume with negative news (only if up 15%+ from entry); never exit while down",
-    "add_trigger": "RSI drops to 35-40 range on volume + positive guidance commentary or analyst upgrade; only if fundamentals remain healthy",
-    "risk": "Further earnings misses or guidance cuts could extend the drawdown; portfolio concentration (28.2% weight) magnifies loss if deterioration occurs",
+    "exit_trigger": "RSI drops below 30 with 3x volume spike + close below 200-day MA; OR fundamentals deteriorate (next earnings miss/guidance cut); OR portfolio needs liquidity and position recovers to +10%",
+    "add_trigger": "RSI touches 30-35 + positive divergence on daily chart + earnings already digested (>3 weeks out)",
+    "risk": "Further post-earnings decay, sector rotation away from software/SaaS, geopolitical shock triggering flight-to-quality selloff",
     "outlook": "cautious",
-    "timeframe": "3-8 weeks for technical recovery; watch Q next earnings cycle for inflection",
-    "generated_at": "2026-09-03T00:33:22.613624",
-    "price_at_generation": 342.94,
-    "pnl_at_generation": -26.77
+    "timeframe": "4-8 weeks (allow time for earnings sentiment to clear and technicals to reset)",
+    "generated_at": "2026-09-04T00:18:23.228339",
+    "price_at_generation": 344.3,
+    "pnl_at_generation": -26.48
   },
   "history": [
+    {
+      "ticker": "INTU",
+      "company_name": "Intuit Inc.",
+      "action": "Hold",
+      "action_reason": "Position is down 26.77%, triggering the 15%+ hold-through rule. Fundamentals remain healthy and VIX is neutral, suggesting the decline reflects earnings recalibration rather than systemic risk. Wait for RSI to drop below 40 or a catalyst to emerge before considering adds.",
+      "target_price": 385,
+      "target_reasoning": "",
+      "exit_trigger": "Fundamental deterioration announcement OR RSI breaks below 30 on high volume with negative news (only if up 15%+ from entry); never exit while down",
+      "add_trigger": "RSI drops to 35-40 range on volume + positive guidance commentary or analyst upgrade; only if fundamentals remain healthy",
+      "risk": "Further earnings misses or guidance cuts could extend the drawdown; portfolio concentration (28.2% weight) magnifies loss if deterioration occurs",
+      "outlook": "cautious",
+      "timeframe": "3-8 weeks for technical recovery; watch Q next earnings cycle for inflection",
+      "generated_at": "2026-09-03T00:33:22.613624",
+      "price_at_generation": 342.94,
+      "pnl_at_generation": -26.77,
+      "archived_at": "2026-09-04T00:18:23.228580"
+    },
     {
       "ticker": "INTU",
       "company_name": "Intuit Inc.",
@@ -117,23 +134,6 @@
       "price_at_generation": 357.46,
       "pnl_at_generation": -23.67,
       "archived_at": "2026-08-27T03:30:33.305387"
-    },
-    {
-      "ticker": "INTU",
-      "company_name": "Intuit Inc.",
-      "action": "Hold",
-      "action_reason": "Philosophy dictates holding major losers (>15% down) through recovery cycles. However, delay any adds until post-earnings clarity and consider gradual weight reduction once profitable.",
-      "target_price": 425,
-      "target_reasoning": "",
-      "exit_trigger": "Break below $350 with deteriorating fundamentals OR position recovers to $520+ (trim 50% at profit)",
-      "add_trigger": "Post-earnings bullish guidance + RSI drops to 40-50 range + price holds above $360",
-      "risk": "Earnings miss/negative guidance could accelerate decline to $330-340; concentrated position magnifies losses",
-      "outlook": "cautious",
-      "timeframe": "1-2 weeks (post-earnings resolution recommended before next decision)",
-      "generated_at": "2026-08-24T22:55:44.790616",
-      "price_at_generation": 369.92,
-      "pnl_at_generation": -21.01,
-      "archived_at": "2026-08-25T22:57:41.412966"
     }
   ]
 }
