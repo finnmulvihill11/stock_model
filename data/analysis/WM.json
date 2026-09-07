@@ -1,0 +1,97 @@
+{
+  "ticker": "WM",
+  "signal": {
+    "ticker": "WM",
+    "direction": "buy",
+    "tier": "Buy",
+    "buy_score": 0.75,
+    "sell_score": 0.43,
+    "reasons": [
+      "BB: price near lower band (pct=0.18)",
+      "BB Width: squeeze active (width=0.0533)",
+      "MACD: histogram at valley / turning up",
+      "200MA: price at/above 200MA (218.99 vs 224.16)",
+      "Golden cross: 50MA (228.33) above 200MA (224.16)",
+      "Volume: above average (1.22x)"
+    ],
+    "misses": [
+      "RSI: not in buy zone (40.2, need 20-40)",
+      "RSI Divergence: no bullish divergence detected"
+    ],
+    "price": 218.99,
+    "rsi": 40.2,
+    "atr": 3.65,
+    "final_tier": "Buy",
+    "sizing": {
+      "suggested_shares": 1,
+      "suggested_dollars": 218.99,
+      "note": "1 sh @ $218.99 = $219 (Buy, 60% size) | $1,532 swing budget after"
+    }
+  },
+  "fundamentals": {
+    "ticker": "WM",
+    "health": "neutral",
+    "passed": [
+      "Revenue growing YoY (+4.0%)",
+      "Profitable (margin 11.1%)"
+    ],
+    "flags": [
+      "High debt-to-equity (2.4x)"
+    ],
+    "revenue_growth": 0.04,
+    "de_ratio": 235.301,
+    "profit_margins": 0.11115
+  },
+  "earnings": {
+    "proceed": true,
+    "reason": "Fundamentals intact \u2014 dip may be an overreaction",
+    "verdict": {
+      "ticker": "WM",
+      "verdict": "consider",
+      "reason": "Fundamentals intact \u2014 dip may be an overreaction",
+      "notes": [
+        "Earnings growing YoY (+8.3%)",
+        "Revenue growing (+4.0%)"
+      ],
+      "earnings_status": "past",
+      "next_earnings_date": "2026-07-28",
+      "days_to_earnings": -41
+    }
+  },
+  "news": {
+    "ticker": "WM",
+    "sentiment": "neutral",
+    "health": "neutral",
+    "key_events": [
+      "Price testing lower Bollinger Band with squeeze active\u2014potential mean reversion setup",
+      "MACD histogram at valley with bullish turning point",
+      "RSI 40.2 indicates oversold conditions but not extreme",
+      "Earnings released 41 days ago\u2014no near-term catalyst"
+    ],
+    "macro_context": "",
+    "competitive_notes": "",
+    "red_flags": [
+      "High debt-to-equity ratio (2.4x) limits financial flexibility",
+      "Position down -0.41% with 11.4% portfolio weight\u2014concentrated exposure",
+      "No recent news flow to drive momentum",
+      "VIX 14.5 and Greed sentiment suggest complacency; vulnerable to reversals"
+    ],
+    "verdict": "WM shows classic swing trade setup (BB squeeze + MACD reversal) but lacks catalysts; hold for technical bounce with low conviction given leverage and neutral fundamentals.",
+    "confidence": "medium"
+  },
+  "relative_strength": {
+    "ticker": "WM",
+    "stock_return_3m": -0.64,
+    "benchmark_return_3m": 4.69,
+    "relative_strength": -5.33,
+    "label": "underperforming"
+  },
+  "final_tier": "Buy",
+  "sizing": {
+    "suggested_shares": 1,
+    "suggested_dollars": 218.99,
+    "note": "1 sh @ $218.99 = $219 (Buy, 60% size) | $1,532 swing budget after"
+  },
+  "is_dca": false,
+  "saved_at": "2026-09-07T00:16:52.319135"
+}

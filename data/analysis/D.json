@@ -2,30 +2,25 @@
   "ticker": "D",
   "signal": {
     "ticker": "D",
-    "direction": "buy",
-    "tier": "Buy",
-    "buy_score": 0.88,
-    "sell_score": 0.29,
-    "reasons": [
-      "BB: price near lower band (pct=0.19)",
-      "BB Width: squeeze active (width=0.0571)",
-      "RSI: oversold zone (37.5)",
-      "MACD: histogram at valley / turning up",
-      "200MA: price at/above 200MA (66.38 vs 63.32)",
-      "Golden cross: 50MA (68.97) above 200MA (63.32)",
-      "Volume: above average (1.20x)"
-    ],
+    "direction": "hold",
+    "tier": "Hold",
+    "buy_score": 0.5,
+    "sell_score": 0.14,
+    "reasons": [],
     "misses": [
-      "RSI Divergence: no bullish divergence detected"
+      "BB: price not near lower band (pct=0.32)",
+      "RSI: not in buy zone (42.4, need 20-40)",
+      "RSI Divergence: no bullish divergence detected",
+      "Volume: below average (0.90x) \u2014 low conviction"
     ],
-    "price": 66.38,
-    "rsi": 37.5,
-    "atr": 0.95,
-    "final_tier": "Buy",
+    "price": 65.84,
+    "rsi": 42.4,
+    "atr": 1.04,
+    "final_tier": "Hold",
     "sizing": {
-      "suggested_shares": 5,
-      "suggested_dollars": 331.9,
-      "note": "5 sh @ $66.38 = $332 (Buy, 60% size) | $1,859 swing budget after"
+      "suggested_shares": 4,
+      "suggested_dollars": 263.36,
+      "note": "4 sh @ $65.84 = $263 (Hold, 60% size) | $1,487 swing budget after"
     }
   },
   "fundamentals": {
@@ -55,7 +50,7 @@
       ],
       "earnings_status": "past",
       "next_earnings_date": "2026-07-31",
-      "days_to_earnings": -33
+      "days_to_earnings": -38
     }
   },
   "news": {
@@ -63,34 +58,35 @@
     "sentiment": "neutral",
     "health": "neutral",
     "key_events": [
-      "Price testing lower Bollinger Band with squeeze active",
-      "RSI deeply oversold at 37.5 suggesting potential mean reversion",
-      "Earnings reported 33 days ago (catalyst already passed)",
-      "Market conditions neutral (VIX 16.3) with greed sentiment"
+      "No recent news items available for analysis",
+      "Earnings reported 38 days ago (results not specified)",
+      "VIX at 14.5 indicates market complacency"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
       "High debt-to-equity ratio (1.6x) limits financial flexibility",
-      "No recent news catalysts visible",
-      "Utilities typically underperform in high-greed/risk-on environments"
+      "Position down 3.57% \u2014 underwater but within swing trade tolerance",
+      "RSI at 42.4 suggests weak momentum, no bullish reversal signals firing",
+      "No technical catalysts visible on chart",
+      "News vacuum \u2014 lack of positive catalysts to drive recovery"
     ],
-    "verdict": "Utility stock showing oversold technicals with squeeze setup; fundamentals remain pressured but position loss is manageable within swing framework.",
+    "verdict": "Dominion Energy remains structurally challenged with high leverage and weak near-term technicals; hold position per loss-limiting philosophy until clear recovery setup or profitable exit opportunity emerges.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "D",
-    "stock_return_3m": 2.74,
-    "benchmark_return_3m": 0.55,
-    "relative_strength": 2.19,
-    "label": "in-line"
+    "stock_return_3m": -0.59,
+    "benchmark_return_3m": 4.69,
+    "relative_strength": -5.28,
+    "label": "underperforming"
   },
-  "final_tier": "Buy",
+  "final_tier": "Hold",
   "sizing": {
-    "suggested_shares": 5,
-    "suggested_dollars": 331.9,
-    "note": "5 sh @ $66.38 = $332 (Buy, 60% size) | $1,859 swing budget after"
+    "suggested_shares": 4,
+    "suggested_dollars": 263.36,
+    "note": "4 sh @ $65.84 = $263 (Hold, 60% size) | $1,487 swing budget after"
   },
   "is_dca": false,
-  "saved_at": "2026-09-02T00:27:21.675036"
+  "saved_at": "2026-09-07T00:16:36.658086"
 }

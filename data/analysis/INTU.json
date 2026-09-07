@@ -4,21 +4,19 @@
     "ticker": "INTU",
     "direction": "hold",
     "tier": "Hold",
-    "buy_score": 0.12,
-    "sell_score": 0.0,
+    "buy_score": 0.38,
+    "sell_score": 0.29,
     "reasons": [],
     "misses": [
-      "BB: price not near lower band (pct=nan)",
-      "BB Width: bands expanding, not squeezing",
-      "RSI: not in buy zone (51.8, need 20-40)",
+      "RSI: not in buy zone (46.7, need 20-40)",
+      "MACD: no bullish crossover or valley",
       "RSI Divergence: no bullish divergence detected",
       "200MA: price below 200MA \u2014 potential falling knife",
-      "50/200MA: insufficient history",
-      "Volume: below average (0.92x) \u2014 low conviction"
+      "Volume: below average (0.87x) \u2014 low conviction"
     ],
-    "price": NaN,
-    "rsi": 51.8,
-    "atr": null,
+    "price": 332.7,
+    "rsi": 46.7,
+    "atr": 15.82,
     "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 0,
@@ -51,7 +49,7 @@
       ],
       "earnings_status": "past",
       "next_earnings_date": "2026-08-25",
-      "days_to_earnings": -10
+      "days_to_earnings": -13
     }
   },
   "news": {
@@ -59,29 +57,28 @@
     "sentiment": "neutral",
     "health": "healthy",
     "key_events": [
-      "Earnings reported 10 days ago (post-earnings volatility likely settling)",
-      "Position down 26.48% from entry \u2014 significant drawdown but fundamentals remain solid",
-      "VIX at 14.3 indicates low volatility environment with complacency risk",
-      "Fear & Greed Index in Greed territory \u2014 potential correction risk"
+      "Earnings reported 13 days ago",
+      "No recent news items available for assessment",
+      "Low volatility environment (VIX 14.5) suggests market complacency"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "Substantial unrealized loss (-26.48%) creates emotional/capital pressure",
-      "No active technical firing signals (RSI neutral at 51.8, no momentum confirmation)",
-      "Earnings already passed \u2014 near-term catalyst removed; stock vulnerable to consolidation or further weakness",
-      "Greed sentiment + low VIX = complacency can quickly reverse; sell pressure may intensify",
-      "Position weight at 26.5% is concentrated \u2014 asymmetric risk if further decline occurs"
+      "Significant drawdown of -28.95% from entry",
+      "RSI at 46.7 indicates no oversold bounce setup yet",
+      "No technical firing signals present",
+      "High position weight (26.0%) concentrates risk",
+      "Post-earnings period typically volatile for software/SaaS stocks"
     ],
-    "verdict": "INTU fundamentals remain healthy but technicals lack conviction post-earnings; hold position per philosophy while monitoring for reversal signals or capitulation setup.",
+    "verdict": "Hold position per strategy rules; no news catalyst visible, but fundamentals remain intact despite sharp decline.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "INTU",
-    "stock_return_3m": NaN,
-    "benchmark_return_3m": NaN,
-    "relative_strength": NaN,
-    "label": "in-line"
+    "stock_return_3m": 12.61,
+    "benchmark_return_3m": 4.69,
+    "relative_strength": 7.91,
+    "label": "outperforming"
   },
   "final_tier": "Hold",
   "sizing": {
@@ -90,5 +87,5 @@
     "note": "Position already at 20% portfolio cap"
   },
   "is_dca": false,
-  "saved_at": "2026-09-04T00:18:23.229202"
+  "saved_at": "2026-09-07T00:16:06.677719"
 }

@@ -3,19 +3,36 @@
     "ticker": "D",
     "company_name": "Dominion Energy, Inc.",
     "action": "Hold",
-    "action_reason": "Loss is only 2.18%\u2014well below the 15% threshold. No sell signal justifies exit. Oversold RSI (37.5) + utility defensive profile warrant patience for mean reversion bounce or earnings-cycle re-entry.",
-    "target_price": 70.25,
+    "action_reason": "Position is only -3.57% (well below 15% threshold), so per your philosophy, this must be held. RSI at 42.4 and neutral technical setup offer no compelling exit signal yet; wait for either a recovery bounce or deterioration below $64 before reassessing.",
+    "target_price": 68.28,
     "target_reasoning": "",
-    "exit_trigger": "Break below $65.50 (support); volume spike + gap down on negative utility regulation news",
-    "add_trigger": "RSI drops to 28\u201330 + bullish divergence on daily chart; OR positive earnings revision within 3\u20134 weeks",
-    "risk": "Debt burden + rising rates pressure margins; VIX complacency can flip quickly into volatility spike, triggering dividend-paying stock selloff",
-    "outlook": "neutral",
-    "timeframe": "2\u20134 weeks (await next earnings catalyst or technical reset)",
-    "generated_at": "2026-09-04T00:18:58.406235",
-    "price_at_generation": 66.79,
-    "pnl_at_generation": -2.18
+    "exit_trigger": "Break below $64.00 (support) with volume, or close above $68.50 to recoup losses on momentum confirmation",
+    "add_trigger": "RSI climbs above 50 with volume confirmation and price holds above $66.00 for 2+ days",
+    "risk": "High debt-to-equity constrains upside; utilities underperform in rising rate environment; no near-term news catalysts to re-rate stock higher",
+    "outlook": "cautious",
+    "timeframe": "3-6 weeks (monitor for earnings revisions or rate policy signals)",
+    "generated_at": "2026-09-07T00:16:36.657271",
+    "price_at_generation": 65.84,
+    "pnl_at_generation": -3.57
   },
   "history": [
+    {
+      "ticker": "D",
+      "company_name": "Dominion Energy, Inc.",
+      "action": "Hold",
+      "action_reason": "Loss is only 2.18%\u2014well below the 15% threshold. No sell signal justifies exit. Oversold RSI (37.5) + utility defensive profile warrant patience for mean reversion bounce or earnings-cycle re-entry.",
+      "target_price": 70.25,
+      "target_reasoning": "",
+      "exit_trigger": "Break below $65.50 (support); volume spike + gap down on negative utility regulation news",
+      "add_trigger": "RSI drops to 28\u201330 + bullish divergence on daily chart; OR positive earnings revision within 3\u20134 weeks",
+      "risk": "Debt burden + rising rates pressure margins; VIX complacency can flip quickly into volatility spike, triggering dividend-paying stock selloff",
+      "outlook": "neutral",
+      "timeframe": "2\u20134 weeks (await next earnings catalyst or technical reset)",
+      "generated_at": "2026-09-04T00:18:58.406235",
+      "price_at_generation": 66.79,
+      "pnl_at_generation": -2.18,
+      "archived_at": "2026-09-07T00:16:36.657472"
+    },
     {
       "ticker": "D",
       "company_name": "Dominion Energy, Inc.",
@@ -117,23 +134,6 @@
       "price_at_generation": 66.91,
       "pnl_at_generation": -2.01,
       "archived_at": "2026-08-28T06:16:29.847163"
-    },
-    {
-      "ticker": "D",
-      "company_name": "Dominion Energy, Inc.",
-      "action": "Hold",
-      "action_reason": "Loss is minimal (-1.98%) and well below 15% threshold. RSI at 39 shows weakness but not extreme pressure. No negative fundamentals have emerged to warrant exit; neutral market conditions support patience.",
-      "target_price": 70.5,
-      "target_reasoning": "",
-      "exit_trigger": "Break below $65.00 (technical support) or material debt refinancing concern announcement",
-      "add_trigger": "RSI drops below 30 with confirmed buyer support at $64-65 range",
-      "risk": "High leverage (1.6x D/E) exposes position to rising rate sensitivity; dividend cut risk if earnings deteriorate",
-      "outlook": "cautious",
-      "timeframe": "3-6 weeks",
-      "generated_at": "2026-08-25T22:58:13.056854",
-      "price_at_generation": 66.93,
-      "pnl_at_generation": -1.98,
-      "archived_at": "2026-08-27T03:31:11.477867"
     }
   ]
 }

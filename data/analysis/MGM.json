@@ -4,23 +4,22 @@
     "ticker": "MGM",
     "direction": "hold",
     "tier": "Hold",
-    "buy_score": 0.5,
+    "buy_score": 0.62,
     "sell_score": 0.0,
     "reasons": [],
     "misses": [
       "BB Width: bands expanding, not squeezing",
-      "MACD: no bullish crossover or valley",
       "RSI Divergence: no bullish divergence detected",
-      "Volume: below average (0.94x) \u2014 low conviction"
+      "Volume: below average (0.80x) \u2014 low conviction"
     ],
-    "price": 40.77,
-    "rsi": 25.5,
-    "atr": 0.74,
+    "price": 41.22,
+    "rsi": 32.2,
+    "atr": 0.84,
     "final_tier": "Hold",
     "sizing": {
-      "suggested_shares": 8,
-      "suggested_dollars": 326.16,
-      "note": "8 sh @ $40.77 = $326 (Hold, 60% size) | $1,864 swing budget after"
+      "suggested_shares": 7,
+      "suggested_dollars": 288.54,
+      "note": "7 sh @ $41.22 = $289 (Hold, 60% size) | $1,462 swing budget after"
     }
   },
   "fundamentals": {
@@ -50,7 +49,7 @@
       ],
       "earnings_status": "past",
       "next_earnings_date": "2026-07-29",
-      "days_to_earnings": -35
+      "days_to_earnings": -40
     }
   },
   "news": {
@@ -58,35 +57,35 @@
     "sentiment": "neutral",
     "health": "deteriorating",
     "key_events": [
-      "RSI at 25.5 indicates oversold conditions",
-      "Earnings reported 35 days ago",
-      "High debt-to-equity ratio of 8.9x presents structural risk",
-      "VIX at 16.3 suggests stable market environment"
+      "RSI at 32.2 indicates oversold conditions, typical bounce zone",
+      "Past earnings (40d) removes near-term catalyst uncertainty",
+      "VIX 14.5 suggests market complacency\u2014vulnerable to sentiment shifts",
+      "High debt-to-equity (8.9x) amplifies downside in risk-off environments"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "Position down 6.73% with no recent positive catalysts",
-      "Extremely high leverage (8.9x D/E) limits financial flexibility",
-      "No recent news flow to support recovery thesis",
-      "Oversold RSI has not yet triggered reversal"
+      "Down 5.7% with zero technical firing signals\u2014weak momentum structure",
+      "Elevated leverage makes MGM sensitive to credit/rate concerns",
+      "No positive news catalyst visible; earnings rear-view mirror",
+      "Low VIX complacency typically precedes volatility spikes that hurt leveraged names"
     ],
-    "verdict": "MGM is structurally weak with high leverage, but oversold technicals and your philosophy mandate holding; wait for RSI bounce or earnings-driven recovery.",
+    "verdict": "MGM is oversold technically but fundamentally weak; hold per philosophy but do not add into deteriorating setup.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "MGM",
-    "stock_return_3m": -19.57,
-    "benchmark_return_3m": 0.55,
-    "relative_strength": -20.12,
+    "stock_return_3m": -13.24,
+    "benchmark_return_3m": 4.69,
+    "relative_strength": -17.93,
     "label": "underperforming"
   },
   "final_tier": "Hold",
   "sizing": {
-    "suggested_shares": 8,
-    "suggested_dollars": 326.16,
-    "note": "8 sh @ $40.77 = $326 (Hold, 60% size) | $1,864 swing budget after"
+    "suggested_shares": 7,
+    "suggested_dollars": 288.54,
+    "note": "7 sh @ $41.22 = $289 (Hold, 60% size) | $1,462 swing budget after"
   },
   "is_dca": false,
-  "saved_at": "2026-09-02T00:27:00.417603"
+  "saved_at": "2026-09-07T00:16:14.692075"
 }
