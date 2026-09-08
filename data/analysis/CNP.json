@@ -52,7 +52,7 @@
       ],
       "earnings_status": "past",
       "next_earnings_date": "2026-07-28",
-      "days_to_earnings": -41
+      "days_to_earnings": -42
     }
   },
   "news": {
@@ -60,19 +60,19 @@
     "sentiment": "neutral",
     "health": "neutral",
     "key_events": [
-      "No recent news items available for analysis",
-      "Earnings reported 41 days ago (past cycle)",
-      "Position down 1.24% \u2014 minor loss, within normal swing trading variance"
+      "Earnings reported 42 days ago",
+      "VIX at 15.3 indicates stable market conditions",
+      "Market in Greed phase suggesting risk appetite present"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "High debt-to-equity ratio (2.1x) \u2014 elevated financial leverage for utility sector",
-      "RSI at 43.0 \u2014 approaching oversold but not yet in reversal zone",
-      "No technical firing signals \u2014 momentum absent",
-      "VIX 14.5 with market in 'Greed' \u2014 complacency may mask downside risk"
+      "High debt-to-equity ratio of 2.1x limits financial flexibility",
+      "RSI at 43.0 indicates weak momentum, approaching oversold territory",
+      "Position down 1.24% with no positive technical firing signals",
+      "No recent news catalysts visible"
     ],
-    "verdict": "CNP is a neutral hold with deteriorating technicals; lack of news and weak RSI suggest patience required before swing trade signal.",
+    "verdict": "CNP shows neutral technicals with elevated leverage; current drawdown is minor and position aligns with hold philosophy given lack of material deterioration.",
     "confidence": "medium"
   },
   "relative_strength": {
@@ -89,5 +89,5 @@
     "note": "7 sh @ $39.67 = $278 (Hold, 60% size) | $1,473 swing budget after"
   },
   "is_dca": false,
-  "saved_at": "2026-09-07T00:16:21.664196"
+  "saved_at": "2026-09-08T00:38:33.138005"
 }

@@ -3,19 +3,36 @@
     "ticker": "CNP",
     "company_name": "CenterPoint Energy, Inc.",
     "action": "Hold",
-    "action_reason": "Position is only -1.24% (well below 15% stop), and philosophy forbids exiting minor losers. No technical or fundamental catalyst justifies immediate action; await RSI bounce or news catalyst.",
+    "action_reason": "Loss is minimal (-1.24%) and well below the 15% threshold that would trigger mandatory holding. RSI suggests weakness but not crash; neutral fundamentals and stable VIX don't justify exit. Wait for either technical recovery signal or earnings catalyst.",
     "target_price": null,
     "target_reasoning": "",
-    "exit_trigger": "RSI breaks below 35 (capitulation) + volume surge, or debt concerns surface in earnings update",
-    "add_trigger": "RSI 30\u201335 (oversold reversal) + close above $40.00 + positive earnings guidance or dividend confirmation",
-    "risk": "High leverage limits upside optionality if rates rise; utility sector sensitivity to rate environment; absence of near-term catalysts extends holding period",
+    "exit_trigger": "Position reaches +5% gain OR RSI drops below 30 with confirmed breakdown below $38.50 support",
+    "add_trigger": "RSI oversold (<30) + price bounces off $38.50 support with volume confirmation",
+    "risk": "Utility sector sensitivity to rate environment; high debt levels magnify downside in market stress; earnings already passed (limited near-term catalyst)",
     "outlook": "cautious",
-    "timeframe": "2\u20134 weeks",
-    "generated_at": "2026-09-07T00:16:21.663369",
+    "timeframe": "3-6 weeks",
+    "generated_at": "2026-09-08T00:38:33.137174",
     "price_at_generation": 39.67,
     "pnl_at_generation": -1.24
   },
   "history": [
+    {
+      "ticker": "CNP",
+      "company_name": "CenterPoint Energy, Inc.",
+      "action": "Hold",
+      "action_reason": "Position is only -1.24% (well below 15% stop), and philosophy forbids exiting minor losers. No technical or fundamental catalyst justifies immediate action; await RSI bounce or news catalyst.",
+      "target_price": null,
+      "target_reasoning": "",
+      "exit_trigger": "RSI breaks below 35 (capitulation) + volume surge, or debt concerns surface in earnings update",
+      "add_trigger": "RSI 30\u201335 (oversold reversal) + close above $40.00 + positive earnings guidance or dividend confirmation",
+      "risk": "High leverage limits upside optionality if rates rise; utility sector sensitivity to rate environment; absence of near-term catalysts extends holding period",
+      "outlook": "cautious",
+      "timeframe": "2\u20134 weeks",
+      "generated_at": "2026-09-07T00:16:21.663369",
+      "price_at_generation": 39.67,
+      "pnl_at_generation": -1.24,
+      "archived_at": "2026-09-08T00:38:33.137412"
+    },
     {
       "ticker": "CNP",
       "company_name": "CenterPoint Energy, Inc.",
@@ -117,23 +134,6 @@
       "price_at_generation": 39.29,
       "pnl_at_generation": -2.19,
       "archived_at": "2026-08-31T00:47:46.179388"
-    },
-    {
-      "ticker": "CNP",
-      "company_name": "CenterPoint Energy, Inc.",
-      "action": "Hold",
-      "action_reason": "Loss is minimal at -1.44%, well below the 15% hold-through threshold. RSI at 38.6 offers potential bounce room without immediate distress signals. Wait for stabilization or clearer technical setup before committing more capital.",
-      "target_price": 41.5,
-      "target_reasoning": "",
-      "exit_trigger": "Close below $37.50 (7% from entry) with confirmed breakdown of support + fundamentals deteriorate further",
-      "add_trigger": "RSI dips to 30-32 range with volume support, or break above $41.00 with positive earnings guidance",
-      "risk": "Elevated debt burden limits financial flexibility; utility dividend vulnerability to rate hikes; sector rotation risk in current Greed environment",
-      "outlook": "cautious",
-      "timeframe": "2-4 weeks for technical clarity",
-      "generated_at": "2026-08-27T03:30:56.515060",
-      "price_at_generation": 39.59,
-      "pnl_at_generation": -1.44,
-      "archived_at": "2026-08-28T06:16:13.559091"
     }
   ]
 }

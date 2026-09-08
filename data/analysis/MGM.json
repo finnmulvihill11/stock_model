@@ -49,28 +49,29 @@
       ],
       "earnings_status": "past",
       "next_earnings_date": "2026-07-29",
-      "days_to_earnings": -40
+      "days_to_earnings": -41
     }
   },
   "news": {
     "ticker": "MGM",
     "sentiment": "neutral",
-    "health": "deteriorating",
+    "health": "neutral",
     "key_events": [
-      "RSI at 32.2 indicates oversold conditions, typical bounce zone",
-      "Past earnings (40d) removes near-term catalyst uncertainty",
-      "VIX 14.5 suggests market complacency\u2014vulnerable to sentiment shifts",
-      "High debt-to-equity (8.9x) amplifies downside in risk-off environments"
+      "No recent news catalysts identified",
+      "Earnings reported 41 days ago - past cycle",
+      "VIX at 15.3 indicates stable market conditions",
+      "Market showing greed sentiment (potential overheating)"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "Down 5.7% with zero technical firing signals\u2014weak momentum structure",
-      "Elevated leverage makes MGM sensitive to credit/rate concerns",
-      "No positive news catalyst visible; earnings rear-view mirror",
-      "Low VIX complacency typically precedes volatility spikes that hurt leveraged names"
+      "RSI at 32.2 indicates oversold conditions but lacks bullish confirmation",
+      "High debt-to-equity ratio (8.9x) limits financial flexibility",
+      "Position down 5.70% with no technical firing signals",
+      "No news flow to support recovery catalyst",
+      "Cyclical sector vulnerable to economic slowdown"
     ],
-    "verdict": "MGM is oversold technically but fundamentally weak; hold per philosophy but do not add into deteriorating setup.",
+    "verdict": "MGM is oversold technically but lacks near-term catalysts; hold per loss philosophy while awaiting reversal signals.",
     "confidence": "medium"
   },
   "relative_strength": {
@@ -87,5 +88,5 @@
     "note": "7 sh @ $41.22 = $289 (Hold, 60% size) | $1,462 swing budget after"
   },
   "is_dca": false,
-  "saved_at": "2026-09-07T00:16:14.692075"
+  "saved_at": "2026-09-08T00:38:26.007508"
 }

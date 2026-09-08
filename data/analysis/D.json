@@ -50,7 +50,7 @@
       ],
       "earnings_status": "past",
       "next_earnings_date": "2026-07-31",
-      "days_to_earnings": -38
+      "days_to_earnings": -39
     }
   },
   "news": {
@@ -58,20 +58,19 @@
     "sentiment": "neutral",
     "health": "neutral",
     "key_events": [
-      "No recent news items available for analysis",
-      "Earnings reported 38 days ago (results not specified)",
-      "VIX at 14.5 indicates market complacency"
+      "Stock down 3.57% from entry at $68.28",
+      "RSI at 42.4 indicates neither overbought nor oversold conditions",
+      "Earnings report 39 days past - cyclical utility earnings already digested",
+      "Market conditions neutral with VIX at 15.3 and Fear & Greed in Greed territory"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "High debt-to-equity ratio (1.6x) limits financial flexibility",
-      "Position down 3.57% \u2014 underwater but within swing trade tolerance",
-      "RSI at 42.4 suggests weak momentum, no bullish reversal signals firing",
-      "No technical catalysts visible on chart",
-      "News vacuum \u2014 lack of positive catalysts to drive recovery"
+      "High debt-to-equity ratio of 1.6x presents financial leverage risk",
+      "No recent positive catalysts visible in news feed",
+      "Position is -3.57% underwater with no clear technical reversal setup"
     ],
-    "verdict": "Dominion Energy remains structurally challenged with high leverage and weak near-term technicals; hold position per loss-limiting philosophy until clear recovery setup or profitable exit opportunity emerges.",
+    "verdict": "Dominion Energy shows neutral technicals and fundamentals with manageable drawdown; hold for mean reversion without adding capital.",
     "confidence": "medium"
   },
   "relative_strength": {
@@ -88,5 +87,5 @@
     "note": "4 sh @ $65.84 = $263 (Hold, 60% size) | $1,487 swing budget after"
   },
   "is_dca": false,
-  "saved_at": "2026-09-07T00:16:36.658086"
+  "saved_at": "2026-09-08T00:38:46.999113"
 }

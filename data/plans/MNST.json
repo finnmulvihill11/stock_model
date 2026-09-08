@@ -3,19 +3,36 @@
     "ticker": "MNST",
     "company_name": "Monster Beverage Corporation",
     "action": "Hold",
-    "action_reason": "Position is only -4.84% down (well above the 15% threshold for forced holds); fundamentals remain healthy. However, lack of technical firing signals and news catalysts means waiting for RSI bounce or market-driven reversal rather than adding.",
+    "action_reason": "Position is only 4.84% underwater and within normal swing trading fluctuation. Fundamentals are solid, RSI oversold conditions typically precede recovery. Maintain position and await technical confirmation of reversal.",
     "target_price": 48.5,
     "target_reasoning": "",
-    "exit_trigger": "Break below $42.00 (support level) with volume confirmation, or if fundamentals deteriorate at next earnings",
-    "add_trigger": "RSI bounces above 45 with bullish momentum OR positive news catalyst emerges + price holds above $43.00",
-    "risk": "Continued drift lower in low-volatility environment; vulnerability to sudden VIX spike when complacency breaks; no near-term catalyst",
-    "outlook": "cautious",
-    "timeframe": "2-4 weeks for RSI recovery; monitor for news/earnings whispers",
-    "generated_at": "2026-09-07T00:16:29.474404",
+    "exit_trigger": "Break below $42.00 on volume indicating fundamental deterioration, or if fundamentals shift to 'deteriorating'",
+    "add_trigger": "RSI drops to 25-28 with bullish divergence, or MNST closes above $45.00 on increased volume showing recovery momentum",
+    "risk": "Consumer discretionary exposure; energy drink sector competition; macroeconomic slowdown affecting premium beverage sales",
+    "outlook": "neutral",
+    "timeframe": "2-4 weeks for technical recovery confirmation; monitor for next earnings catalyst",
+    "generated_at": "2026-09-08T00:38:40.407948",
     "price_at_generation": 43.82,
     "pnl_at_generation": -4.84
   },
   "history": [
+    {
+      "ticker": "MNST",
+      "company_name": "Monster Beverage Corporation",
+      "action": "Hold",
+      "action_reason": "Position is only -4.84% down (well above the 15% threshold for forced holds); fundamentals remain healthy. However, lack of technical firing signals and news catalysts means waiting for RSI bounce or market-driven reversal rather than adding.",
+      "target_price": 48.5,
+      "target_reasoning": "",
+      "exit_trigger": "Break below $42.00 (support level) with volume confirmation, or if fundamentals deteriorate at next earnings",
+      "add_trigger": "RSI bounces above 45 with bullish momentum OR positive news catalyst emerges + price holds above $43.00",
+      "risk": "Continued drift lower in low-volatility environment; vulnerability to sudden VIX spike when complacency breaks; no near-term catalyst",
+      "outlook": "cautious",
+      "timeframe": "2-4 weeks for RSI recovery; monitor for news/earnings whispers",
+      "generated_at": "2026-09-07T00:16:29.474404",
+      "price_at_generation": 43.82,
+      "pnl_at_generation": -4.84,
+      "archived_at": "2026-09-08T00:38:40.408183"
+    },
     {
       "ticker": "MNST",
       "company_name": "Monster Beverage Corporation",
@@ -117,23 +134,6 @@
       "price_at_generation": 46.7,
       "pnl_at_generation": 1.41,
       "archived_at": "2026-08-31T00:47:54.312409"
-    },
-    {
-      "ticker": "MNST",
-      "company_name": "Monster Beverage Corporation",
-      "action": "Hold",
-      "action_reason": "Position is up 3.82% in a healthy company with neutral technicals. With earnings behind us (21d) and no red flags present, let this position run while monitoring for a technical breakout or pullback buying opportunity before next earnings cycle.",
-      "target_price": 50.5,
-      "target_reasoning": "",
-      "exit_trigger": "Close below $44.50 (support near entry) on high volume, or earnings miss with negative guidance",
-      "add_trigger": "Pullback to $45.00-$45.50 with RSI oversold (<30) + bullish divergence, or breakout above $49.00 on volume",
-      "risk": "Consumer discretionary sector sensitivity to economic slowdown; energy drink market saturation; weak RSI momentum could precede consolidation or pullback",
-      "outlook": "neutral",
-      "timeframe": "2-4 weeks",
-      "generated_at": "2026-08-27T03:31:04.476501",
-      "price_at_generation": 47.81,
-      "pnl_at_generation": 3.82,
-      "archived_at": "2026-08-28T06:16:21.155809"
     }
   ]
 }

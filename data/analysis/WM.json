@@ -55,28 +55,28 @@
       ],
       "earnings_status": "past",
       "next_earnings_date": "2026-07-28",
-      "days_to_earnings": -41
+      "days_to_earnings": -42
     }
   },
   "news": {
     "ticker": "WM",
     "sentiment": "neutral",
-    "health": "neutral",
+    "health": "healthy",
     "key_events": [
-      "Price testing lower Bollinger Band with squeeze active\u2014potential mean reversion setup",
-      "MACD histogram at valley with bullish turning point",
-      "RSI 40.2 indicates oversold conditions but not extreme",
-      "Earnings released 41 days ago\u2014no near-term catalyst"
+      "Earnings reported 42 days ago - cycle entering mid-term phase",
+      "BB squeeze active with price at lower band - potential breakout setup",
+      "MACD histogram turning up from valley - early momentum inflection signal",
+      "RSI 40.2 - oversold territory but not extreme, room to move lower before capitulation"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "High debt-to-equity ratio (2.4x) limits financial flexibility",
-      "Position down -0.41% with 11.4% portfolio weight\u2014concentrated exposure",
-      "No recent news flow to drive momentum",
-      "VIX 14.5 and Greed sentiment suggest complacency; vulnerable to reversals"
+      "High debt-to-equity ratio (2.4x) - cyclical downturns could stress balance sheet",
+      "Position underwater -0.41% despite bullish technicals - suggests selling pressure",
+      "No recent news catalysts visible - lack of positive narrative support",
+      "VIX neutral but market in 'Greed' mode - potential for sentiment reversal"
     ],
-    "verdict": "WM shows classic swing trade setup (BB squeeze + MACD reversal) but lacks catalysts; hold for technical bounce with low conviction given leverage and neutral fundamentals.",
+    "verdict": "WM shows technical reversal setup (BB squeeze + MACD inflection) at oversold levels, but fundamentals and sentiment lack conviction; hold core position and wait for confirmation.",
     "confidence": "medium"
   },
   "relative_strength": {
@@ -93,5 +93,5 @@
     "note": "1 sh @ $218.99 = $219 (Buy, 60% size) | $1,532 swing budget after"
   },
   "is_dca": false,
-  "saved_at": "2026-09-07T00:16:52.319135"
+  "saved_at": "2026-09-08T00:39:03.022403"
 }
