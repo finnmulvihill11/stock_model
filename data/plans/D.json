@@ -3,19 +3,36 @@
     "ticker": "D",
     "company_name": "Dominion Energy, Inc.",
     "action": "Hold",
-    "action_reason": "Loss is modest at -3.57%, well below the 15% threshold where philosophy dictates holding through recoveries. RSI at 42.4 provides room for upside bounce without oversold extremes. Utility sector typically recovers steadily rather than sharply.",
-    "target_price": 70.5,
+    "action_reason": "Position is only -3.02% (well within tolerance) and below your 15% major-loss threshold. No profitable exit available. Holding until a clear reversal signal emerges or a 2-3 week timeframe produces technical confirmation.",
+    "target_price": null,
     "target_reasoning": "",
-    "exit_trigger": "Position rises to profitability above $68.50; exit at +2% to +3% gain per position management discipline",
-    "add_trigger": "RSI drops below 35 AND stock pulls back to $64.00-$64.50 with confirmed support",
-    "risk": "Elevated debt load limits dividend growth and upside potential; sector rotation away from utilities if rates rise unexpectedly",
-    "outlook": "neutral",
-    "timeframe": "3-6 weeks",
-    "generated_at": "2026-09-08T00:38:46.998243",
-    "price_at_generation": 65.84,
-    "pnl_at_generation": -3.57
+    "exit_trigger": "RSI breaks above 55 with volume confirmation + stock moves above $68.50; OR hold through position weight drift",
+    "add_trigger": "RSI drops to 30-35 (oversold) with price support at $64.50",
+    "risk": "Utilities are rate-sensitive; rising bond yields could pressure valuations further. High debt amplifies downside in rate-hike scenarios.",
+    "outlook": "cautious",
+    "timeframe": "2-4 weeks",
+    "generated_at": "2026-09-09T00:30:16.698967",
+    "price_at_generation": 66.22,
+    "pnl_at_generation": -3.02
   },
   "history": [
+    {
+      "ticker": "D",
+      "company_name": "Dominion Energy, Inc.",
+      "action": "Hold",
+      "action_reason": "Loss is modest at -3.57%, well below the 15% threshold where philosophy dictates holding through recoveries. RSI at 42.4 provides room for upside bounce without oversold extremes. Utility sector typically recovers steadily rather than sharply.",
+      "target_price": 70.5,
+      "target_reasoning": "",
+      "exit_trigger": "Position rises to profitability above $68.50; exit at +2% to +3% gain per position management discipline",
+      "add_trigger": "RSI drops below 35 AND stock pulls back to $64.00-$64.50 with confirmed support",
+      "risk": "Elevated debt load limits dividend growth and upside potential; sector rotation away from utilities if rates rise unexpectedly",
+      "outlook": "neutral",
+      "timeframe": "3-6 weeks",
+      "generated_at": "2026-09-08T00:38:46.998243",
+      "price_at_generation": 65.84,
+      "pnl_at_generation": -3.57,
+      "archived_at": "2026-09-09T00:30:16.699169"
+    },
     {
       "ticker": "D",
       "company_name": "Dominion Energy, Inc.",
@@ -117,23 +134,6 @@
       "price_at_generation": 65.55,
       "pnl_at_generation": -4.0,
       "archived_at": "2026-09-01T01:23:13.686716"
-    },
-    {
-      "ticker": "D",
-      "company_name": "Dominion Energy, Inc.",
-      "action": "Hold",
-      "action_reason": "RSI oversold + BB squeeze + small position size support holding. Fundamental concerns (high debt) warrant patience over forced exit. Loss is manageable at 2.61%.",
-      "target_price": 69.5,
-      "target_reasoning": "",
-      "exit_trigger": "Close below $65.00 (support) OR break of technical structure + deteriorating fundamentals confirmation",
-      "add_trigger": "RSI bounces to 45-50 range near $67.00 on volume confirmation of mean reversion",
-      "risk": "Rising interest rates pressure utility dividend yields and refinancing costs; debt load amplifies rate sensitivity",
-      "outlook": "cautious",
-      "timeframe": "2-4 weeks",
-      "generated_at": "2026-08-28T06:16:29.846943",
-      "price_at_generation": 66.5,
-      "pnl_at_generation": -2.61,
-      "archived_at": "2026-08-31T00:48:02.936251"
     }
   ]
 }
