@@ -3,19 +3,36 @@
     "ticker": "MGM",
     "company_name": "MGM Resorts International",
     "action": "Hold",
-    "action_reason": "Position is down only 6.79%, well within the 15% threshold where philosophy mandates holding through recovery. RSI at 32.2 indicates potential oversold bounce opportunity; wait for technical confirmation before acting.",
+    "action_reason": "Position is only -6.98% (within tolerance), RSI oversold suggests potential bounce is forming, and philosophy prohibits trimming sub-15% losses. Wait for technical confirmation before committing additional capital.",
     "target_price": 44.5,
     "target_reasoning": "",
-    "exit_trigger": "Loss exceeds 15% of entry price ($37.15); or close below $38.50 on heavy volume with deteriorating technicals",
-    "add_trigger": "RSI bounces above 45 with price above $42; or positive earnings revision with news catalyst",
-    "risk": "High leverage (8.9x D/E) amplifies downside risk; gaming sector sensitivity to economic slowdown; lack of immediate positive catalysts",
+    "exit_trigger": "Close below $38.50 (20% loss) or earnings miss combined with guidance cut",
+    "add_trigger": "RSI breaks above 40 with volume confirmation AND VIX stays below 18",
+    "risk": "High debt-to-equity (8.9x) amplifies downside if leisure/gaming sector weakens; economic recession would severely impact stock",
     "outlook": "cautious",
-    "timeframe": "3-5 weeks",
-    "generated_at": "2026-09-09T00:29:54.212382",
-    "price_at_generation": 40.74,
-    "pnl_at_generation": -6.79
+    "timeframe": "3-6 weeks for RSI recovery and technical confirmation",
+    "generated_at": "2026-09-10T00:29:54.253517",
+    "price_at_generation": 40.66,
+    "pnl_at_generation": -6.98
   },
   "history": [
+    {
+      "ticker": "MGM",
+      "company_name": "MGM Resorts International",
+      "action": "Hold",
+      "action_reason": "Position is down only 6.79%, well within the 15% threshold where philosophy mandates holding through recovery. RSI at 32.2 indicates potential oversold bounce opportunity; wait for technical confirmation before acting.",
+      "target_price": 44.5,
+      "target_reasoning": "",
+      "exit_trigger": "Loss exceeds 15% of entry price ($37.15); or close below $38.50 on heavy volume with deteriorating technicals",
+      "add_trigger": "RSI bounces above 45 with price above $42; or positive earnings revision with news catalyst",
+      "risk": "High leverage (8.9x D/E) amplifies downside risk; gaming sector sensitivity to economic slowdown; lack of immediate positive catalysts",
+      "outlook": "cautious",
+      "timeframe": "3-5 weeks",
+      "generated_at": "2026-09-09T00:29:54.212382",
+      "price_at_generation": 40.74,
+      "pnl_at_generation": -6.79,
+      "archived_at": "2026-09-10T00:29:54.253736"
+    },
     {
       "ticker": "MGM",
       "company_name": "MGM Resorts International",
@@ -117,23 +134,6 @@
       "price_at_generation": 41.36,
       "pnl_at_generation": -5.38,
       "archived_at": "2026-09-02T00:27:00.417042"
-    },
-    {
-      "ticker": "MGM",
-      "company_name": "MGM Resorts International",
-      "action": "Hold",
-      "action_reason": "Position is only -3.27%, well above the 15% threshold that locks in holding per your philosophy. However, the combination of extreme leverage, technical weakness, and elevated portfolio weight makes this a monitored hold, not a core conviction.",
-      "target_price": 38.5,
-      "target_reasoning": "",
-      "exit_trigger": "If position drops below -15% AND RSI fails to hold above 30 on a second test, OR if debt metrics deteriorate further in next earnings",
-      "add_trigger": "Only if RSI bounces above 45 with volume confirmation AND VIX spikes above 18 (fear capitulation setup)",
-      "risk": "High debt load + cyclical sector vulnerability; leverage amplifies downside if gaming/hospitality demand falters",
-      "outlook": "cautious",
-      "timeframe": "2-4 weeks until next catalyst or technical resolution",
-      "generated_at": "2026-08-31T00:47:39.914162",
-      "price_at_generation": 42.28,
-      "pnl_at_generation": -3.27,
-      "archived_at": "2026-09-01T01:22:48.824666"
     }
   ]
 }
