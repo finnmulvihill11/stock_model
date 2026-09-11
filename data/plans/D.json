@@ -3,19 +3,36 @@
     "ticker": "D",
     "company_name": "Dominion Energy, Inc.",
     "action": "Hold",
-    "action_reason": "Loss of only 4.66% is well below the 15% threshold requiring hold discipline. RSI proximity to oversold (30) and neutral VIX provide potential setup for mean-reversion bounce without forced exit.",
-    "target_price": 67.5,
+    "action_reason": "Loss is only 4.73% (well below 15% threshold). RSI oversold conditions suggest potential reversal, and Dominion's dividend-backed utility model provides downside protection during neutral market conditions.",
+    "target_price": null,
     "target_reasoning": "",
-    "exit_trigger": "Drop below $61.50 (>10% loss) OR close above $70.00 on volume >1M shares",
-    "add_trigger": "RSI drops below 30 (oversold) with volume spike, or next earnings beat on dividend growth narrative",
-    "risk": "Dividend cut risk given elevated debt; utility sector rotation if rates spike; weak technicals could extend decline toward $62-64 support",
+    "exit_trigger": "Break below $62.50 (10% loss) with confirmed breakdown of support on heavy volume",
+    "add_trigger": "RSI breaks below 30 during market-wide correction, confirming institutional washout",
+    "risk": "Refinancing risk from high debt-to-equity ratio; negative earnings surprise could trigger further decline",
     "outlook": "cautious",
-    "timeframe": "3-6 weeks",
-    "generated_at": "2026-09-10T00:30:17.137021",
-    "price_at_generation": 65.1,
-    "pnl_at_generation": -4.66
+    "timeframe": "4-8 weeks",
+    "generated_at": "2026-09-11T00:27:32.802282",
+    "price_at_generation": 65.05,
+    "pnl_at_generation": -4.73
   },
   "history": [
+    {
+      "ticker": "D",
+      "company_name": "Dominion Energy, Inc.",
+      "action": "Hold",
+      "action_reason": "Loss of only 4.66% is well below the 15% threshold requiring hold discipline. RSI proximity to oversold (30) and neutral VIX provide potential setup for mean-reversion bounce without forced exit.",
+      "target_price": 67.5,
+      "target_reasoning": "",
+      "exit_trigger": "Drop below $61.50 (>10% loss) OR close above $70.00 on volume >1M shares",
+      "add_trigger": "RSI drops below 30 (oversold) with volume spike, or next earnings beat on dividend growth narrative",
+      "risk": "Dividend cut risk given elevated debt; utility sector rotation if rates spike; weak technicals could extend decline toward $62-64 support",
+      "outlook": "cautious",
+      "timeframe": "3-6 weeks",
+      "generated_at": "2026-09-10T00:30:17.137021",
+      "price_at_generation": 65.1,
+      "pnl_at_generation": -4.66,
+      "archived_at": "2026-09-11T00:27:32.802493"
+    },
     {
       "ticker": "D",
       "company_name": "Dominion Energy, Inc.",
@@ -117,23 +134,6 @@
       "price_at_generation": 66.38,
       "pnl_at_generation": -2.78,
       "archived_at": "2026-09-03T00:33:51.043865"
-    },
-    {
-      "ticker": "D",
-      "company_name": "Dominion Energy, Inc.",
-      "action": "Wait",
-      "action_reason": "Technical setup is compelling (oversold RSI + lower BB) but requires confirmation of reversal before adding. Current small loss does not trigger hold-through-major-loss protocol. Wait for RSI bounce above 40 or price reclaim of middle Bollinger Band.",
-      "target_price": 68.28,
-      "target_reasoning": "",
-      "exit_trigger": "Close below prior support or RSI breaks back below 30 with volume surge; exit if position reaches -15% loss threshold",
-      "add_trigger": "RSI crosses above 40 with BB squeeze breakout + price closes above 20-day MA on volume",
-      "risk": "Debt burden limits dividend growth; utility sector rotation risk if rates rise; continued selling pressure if earnings outlook deteriorates",
-      "outlook": "cautious",
-      "timeframe": "2-4 weeks for bounce confirmation; hold decision pending technical reversal signals",
-      "generated_at": "2026-09-01T01:23:13.686522",
-      "price_at_generation": 66.01,
-      "pnl_at_generation": -3.32,
-      "archived_at": "2026-09-02T00:27:21.674417"
     }
   ]
 }
