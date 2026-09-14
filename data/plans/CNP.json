@@ -3,19 +3,36 @@
     "ticker": "CNP",
     "company_name": "CenterPoint Energy, Inc.",
     "action": "Hold",
-    "action_reason": "Loss is only -2.61% (well above the 15% exit threshold), and VIX/market conditions remain neutral. No deterioration warrants action; wait for either technical bounce or news catalyst.",
-    "target_price": null,
+    "action_reason": "Position is only -2.64% (well within tolerance and far from -15% threshold). No technical firing signals or negative news warrant forced exit. Utility sector fundamentals remain tepid but stable.",
+    "target_price": 41.5,
     "target_reasoning": "",
-    "exit_trigger": "RSI drops below 30 + break below $38.50 support with deteriorating fundamentals",
-    "add_trigger": "Price recovery to $39.50+ with RSI climb above 55 AND positive earnings guidance/debt reduction announcement",
-    "risk": "High debt load limits financial flexibility; utility dividend cuts or rising rates could pressure valuation further",
-    "outlook": "neutral",
+    "exit_trigger": "Break below $37.50 (6.7% loss) with confirmed bearish technical setup, OR gap down on earnings miss if next earnings disappoint",
+    "add_trigger": "RSI drops to 25-28 (oversold) on volume with no negative news; OR positive rate-cut signal from Fed commentary",
+    "risk": "Continued pressure from elevated bond yields; high debt burden limits upside in recovery; sector rotation away from utilities",
+    "outlook": "cautious",
     "timeframe": "3-6 weeks",
-    "generated_at": "2026-09-11T00:27:20.077763",
-    "price_at_generation": 39.12,
-    "pnl_at_generation": -2.61
+    "generated_at": "2026-09-14T00:22:18.272335",
+    "price_at_generation": 39.11,
+    "pnl_at_generation": -2.64
   },
   "history": [
+    {
+      "ticker": "CNP",
+      "company_name": "CenterPoint Energy, Inc.",
+      "action": "Hold",
+      "action_reason": "Loss is only -2.61% (well above the 15% exit threshold), and VIX/market conditions remain neutral. No deterioration warrants action; wait for either technical bounce or news catalyst.",
+      "target_price": null,
+      "target_reasoning": "",
+      "exit_trigger": "RSI drops below 30 + break below $38.50 support with deteriorating fundamentals",
+      "add_trigger": "Price recovery to $39.50+ with RSI climb above 55 AND positive earnings guidance/debt reduction announcement",
+      "risk": "High debt load limits financial flexibility; utility dividend cuts or rising rates could pressure valuation further",
+      "outlook": "neutral",
+      "timeframe": "3-6 weeks",
+      "generated_at": "2026-09-11T00:27:20.077763",
+      "price_at_generation": 39.12,
+      "pnl_at_generation": -2.61,
+      "archived_at": "2026-09-14T00:22:18.272534"
+    },
     {
       "ticker": "CNP",
       "company_name": "CenterPoint Energy, Inc.",
@@ -117,23 +134,6 @@
       "price_at_generation": 39.51,
       "pnl_at_generation": -1.64,
       "archived_at": "2026-09-04T00:18:40.787883"
-    },
-    {
-      "ticker": "CNP",
-      "company_name": "CenterPoint Energy, Inc.",
-      "action": "Hold",
-      "action_reason": "Position loss is minor (-1.74%), well below the 15% threshold requiring forced holding. RSI suggests mild oversold conditions with potential for mean reversion. High debt load is manageable for a utility; hold through current consolidation.",
-      "target_price": 41.5,
-      "target_reasoning": "",
-      "exit_trigger": "If position reaches +5% profit or RSI drops below 25 with confirmed breakdown below $38.50",
-      "add_trigger": "If RSI reaches 30 or below with a higher low pattern, or on positive earnings guidance update",
-      "risk": "Utility sector sensitivity to interest rate increases; high leverage amplifies downside in economic slowdown",
-      "outlook": "cautious",
-      "timeframe": "2-4 weeks for technical stabilization; reassess post-earnings cycle",
-      "generated_at": "2026-09-02T00:27:06.459079",
-      "price_at_generation": 39.47,
-      "pnl_at_generation": -1.74,
-      "archived_at": "2026-09-03T00:33:36.727406"
     }
   ]
 }

@@ -8,20 +8,20 @@
     "sell_score": 0.0,
     "reasons": [],
     "misses": [
-      "BB: price not near lower band (pct=0.38)",
+      "BB: price not near lower band (pct=0.44)",
       "BB Width: bands expanding, not squeezing",
-      "RSI: not in buy zone (45.3, need 20-40)",
+      "RSI: not in buy zone (45.7, need 20-40)",
       "RSI Divergence: no bullish divergence detected",
-      "Volume: below average (0.65x) \u2014 low conviction"
+      "Volume: below average (0.70x) \u2014 low conviction"
     ],
-    "price": 54.87,
-    "rsi": 45.3,
-    "atr": 1.07,
+    "price": 54.72,
+    "rsi": 45.7,
+    "atr": 0.92,
     "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 5,
-      "suggested_dollars": 274.35,
-      "note": "5 sh @ $54.87 = $274 (Hold, 60% size) | $1,476 swing budget after"
+      "suggested_dollars": 273.6,
+      "note": "5 sh @ $54.72 = $274 (Hold, 60% size) | $1,477 swing budget after"
     }
   },
   "fundamentals": {
@@ -51,7 +51,7 @@
       ],
       "earnings_status": "distant",
       "next_earnings_date": "2026-10-19",
-      "days_to_earnings": 41
+      "days_to_earnings": 35
     }
   },
   "news": {
@@ -59,34 +59,34 @@
     "sentiment": "neutral",
     "health": "neutral",
     "key_events": [
-      "No recent news catalysts identified",
-      "Earnings report 41 days out (mid-February)",
-      "Market in Greed mode with low VIX (15.3)"
+      "No recent news items available for analysis",
+      "Earnings report 35 days out (mid-January timeframe)",
+      "Market in Greed sentiment with VIX 15.8 (calm conditions)"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "Debt-to-equity data unavailable\u2014transparency concern",
-      "RSI at 45.3 shows no momentum; neither overbought nor oversold",
-      "No technical firing signals; stuck in consolidation",
-      "Banking sector sentiment unclear without sector comparison"
+      "Debt-to-equity data unavailable - incomplete fundamental visibility",
+      "No technical firing signals despite modest RSI 45.7",
+      "Information vacuum - no recent catalysts or news flow",
+      "Banking sector exposure to interest rate sensitivity"
     ],
-    "verdict": "FITB is holding steady but lacks catalysts; maintain position and monitor for earnings setup or technical breakout.",
+    "verdict": "Small profitable position in a neutral setup with upcoming earnings; hold and monitor for technical confirmation or rate/banking sector news.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "FITB",
-    "stock_return_3m": 6.25,
-    "benchmark_return_3m": 4.69,
-    "relative_strength": 1.55,
+    "stock_return_3m": 3.16,
+    "benchmark_return_3m": 3.86,
+    "relative_strength": -0.7,
     "label": "in-line"
   },
   "final_tier": "Hold",
   "sizing": {
     "suggested_shares": 5,
-    "suggested_dollars": 274.35,
-    "note": "5 sh @ $54.87 = $274 (Hold, 60% size) | $1,476 swing budget after"
+    "suggested_dollars": 273.6,
+    "note": "5 sh @ $54.72 = $274 (Hold, 60% size) | $1,477 swing budget after"
   },
   "is_dca": false,
-  "saved_at": "2026-09-08T00:38:54.857179"
+  "saved_at": "2026-09-14T00:22:40.286755"
 }

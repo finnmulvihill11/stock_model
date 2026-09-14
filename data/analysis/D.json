@@ -4,23 +4,22 @@
     "ticker": "D",
     "direction": "hold",
     "tier": "Hold",
-    "buy_score": 0.5,
+    "buy_score": 0.62,
     "sell_score": 0.14,
     "reasons": [],
     "misses": [
-      "BB: price not near lower band (pct=0.32)",
-      "RSI: not in buy zone (42.4, need 20-40)",
-      "RSI Divergence: no bullish divergence detected",
-      "Volume: below average (0.90x) \u2014 low conviction"
+      "BB Width: bands expanding, not squeezing",
+      "MACD: no bullish crossover or valley",
+      "RSI Divergence: no bullish divergence detected"
     ],
-    "price": 65.84,
-    "rsi": 42.4,
-    "atr": 1.04,
+    "price": 64.36,
+    "rsi": 34.4,
+    "atr": 1.08,
     "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 4,
-      "suggested_dollars": 263.36,
-      "note": "4 sh @ $65.84 = $263 (Hold, 60% size) | $1,487 swing budget after"
+      "suggested_dollars": 257.44,
+      "note": "4 sh @ $64.36 = $257 (Hold, 60% size) | $1,493 swing budget after"
     }
   },
   "fundamentals": {
@@ -50,7 +49,7 @@
       ],
       "earnings_status": "past",
       "next_earnings_date": "2026-07-31",
-      "days_to_earnings": -39
+      "days_to_earnings": -45
     }
   },
   "news": {
@@ -58,34 +57,35 @@
     "sentiment": "neutral",
     "health": "neutral",
     "key_events": [
-      "Stock down 3.57% from entry at $68.28",
-      "RSI at 42.4 indicates neither overbought nor oversold conditions",
-      "Earnings report 39 days past - cyclical utility earnings already digested",
-      "Market conditions neutral with VIX at 15.3 and Fear & Greed in Greed territory"
+      "Stock down 5.74% from entry",
+      "RSI at 34.4 indicates oversold conditions",
+      "Earnings reported 45+ days ago",
+      "High debt-to-equity ratio (1.6x) typical for utility sector",
+      "Market breadth neutral (VIX 15.8)"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "High debt-to-equity ratio of 1.6x presents financial leverage risk",
-      "No recent positive catalysts visible in news feed",
-      "Position is -3.57% underwater with no clear technical reversal setup"
+      "High leverage (1.6x D/E) increases refinancing risk in rising rate environment",
+      "No recent positive catalysts or news flow",
+      "RSI oversold but not yet reversing"
     ],
-    "verdict": "Dominion Energy shows neutral technicals and fundamentals with manageable drawdown; hold for mean reversion without adding capital.",
+    "verdict": "Dominion Energy trades near technical support with oversold RSI; utility fundamentals remain steady but lack near-term catalysts; position aligns with philosophy of holding minor losers.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "D",
-    "stock_return_3m": -0.59,
-    "benchmark_return_3m": 4.69,
-    "relative_strength": -5.28,
+    "stock_return_3m": -2.52,
+    "benchmark_return_3m": 3.86,
+    "relative_strength": -6.38,
     "label": "underperforming"
   },
   "final_tier": "Hold",
   "sizing": {
     "suggested_shares": 4,
-    "suggested_dollars": 263.36,
-    "note": "4 sh @ $65.84 = $263 (Hold, 60% size) | $1,487 swing budget after"
+    "suggested_dollars": 257.44,
+    "note": "4 sh @ $64.36 = $257 (Hold, 60% size) | $1,493 swing budget after"
   },
   "is_dca": false,
-  "saved_at": "2026-09-08T00:38:46.999113"
+  "saved_at": "2026-09-14T00:22:33.470877"
 }

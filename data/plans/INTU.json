@@ -3,19 +3,36 @@
     "ticker": "INTU",
     "company_name": "Intuit Inc.",
     "action": "Hold",
-    "action_reason": "Your philosophy mandates holding positions down >15%; INTU fundamentals remain healthy and RSI oversold conditions often precede reversals. Wait for technical confirmation of recovery before any action.",
-    "target_price": 425,
+    "action_reason": "Position is -31% which exceeds the 15% threshold; philosophy mandates holding major losers. Fundamentals healthy and market conditions neutral support patience for recovery.",
+    "target_price": 485,
     "target_reasoning": "",
-    "exit_trigger": "Only exit if fundamentals deteriorate (earnings miss, guidance cut) OR price breaks below $290 (new multi-year lows)",
-    "add_trigger": "RSI bounces above 50 with volume confirmation, or if next earnings beat expectations",
-    "risk": "Continued sector rotation away from software/SaaS; execution risk if company guidance disappoints; concentration risk at 25.1% weight",
+    "exit_trigger": "Breach of $310 support (new lows); fundamental deterioration; earnings warning",
+    "add_trigger": "RSI breaks below 30 with volume confirmation; price finds support at $300-310 level",
+    "risk": "Continued deterioration if earnings miss was demand-driven rather than cyclical; tech sector rotation away from software/SaaS",
     "outlook": "cautious",
-    "timeframe": "4-8 weeks for technical reversal; monitor next catalyst/earnings cycle",
-    "generated_at": "2026-09-11T00:27:07.507507",
-    "price_at_generation": 312.77,
-    "pnl_at_generation": -33.21
+    "timeframe": "4-8 weeks for recovery test of $400+ resistance",
+    "generated_at": "2026-09-14T00:22:04.472544",
+    "price_at_generation": 321.57,
+    "pnl_at_generation": -31.33
   },
   "history": [
+    {
+      "ticker": "INTU",
+      "company_name": "Intuit Inc.",
+      "action": "Hold",
+      "action_reason": "Your philosophy mandates holding positions down >15%; INTU fundamentals remain healthy and RSI oversold conditions often precede reversals. Wait for technical confirmation of recovery before any action.",
+      "target_price": 425,
+      "target_reasoning": "",
+      "exit_trigger": "Only exit if fundamentals deteriorate (earnings miss, guidance cut) OR price breaks below $290 (new multi-year lows)",
+      "add_trigger": "RSI bounces above 50 with volume confirmation, or if next earnings beat expectations",
+      "risk": "Continued sector rotation away from software/SaaS; execution risk if company guidance disappoints; concentration risk at 25.1% weight",
+      "outlook": "cautious",
+      "timeframe": "4-8 weeks for technical reversal; monitor next catalyst/earnings cycle",
+      "generated_at": "2026-09-11T00:27:07.507507",
+      "price_at_generation": 312.77,
+      "pnl_at_generation": -33.21,
+      "archived_at": "2026-09-14T00:22:04.472767"
+    },
     {
       "ticker": "INTU",
       "company_name": "Intuit Inc.",
@@ -117,23 +134,6 @@
       "price_at_generation": 342.94,
       "pnl_at_generation": -26.77,
       "archived_at": "2026-09-04T00:18:23.228580"
-    },
-    {
-      "ticker": "INTU",
-      "company_name": "Intuit Inc.",
-      "action": "Hold",
-      "action_reason": "Per trading philosophy, positions down >15% are held through recovery cycles. INTU fundamentals remain healthy; post-earnings volatility is normal. RSI at 52.8 suggests no oversold capitulation yet.",
-      "target_price": null,
-      "target_reasoning": "",
-      "exit_trigger": "Break below $320 (strong support break) + deteriorating fundamentals OR position recovers to $520+ in greed cycle",
-      "add_trigger": "INTU closes below $320 with oversold RSI (<30) + positive earnings revision + market breadth support",
-      "risk": "Further downside if macro headwinds hit software spending; concentration risk at 32.6% weight exposure",
-      "outlook": "cautious",
-      "timeframe": "4-8 weeks (typical post-earnings recovery window for quality names)",
-      "generated_at": "2026-09-02T00:26:52.331264",
-      "price_at_generation": 344.93,
-      "pnl_at_generation": -26.34,
-      "archived_at": "2026-09-03T00:33:22.613846"
     }
   ]
 }

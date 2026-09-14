@@ -2,30 +2,24 @@
   "ticker": "WM",
   "signal": {
     "ticker": "WM",
-    "direction": "buy",
-    "tier": "Buy",
-    "buy_score": 0.75,
+    "direction": "hold",
+    "tier": "Hold",
+    "buy_score": 0.62,
     "sell_score": 0.43,
-    "reasons": [
-      "BB: price near lower band (pct=0.18)",
-      "BB Width: squeeze active (width=0.0533)",
-      "MACD: histogram at valley / turning up",
-      "200MA: price at/above 200MA (218.99 vs 224.16)",
-      "Golden cross: 50MA (228.33) above 200MA (224.16)",
-      "Volume: above average (1.22x)"
-    ],
+    "reasons": [],
     "misses": [
-      "RSI: not in buy zone (40.2, need 20-40)",
-      "RSI Divergence: no bullish divergence detected"
+      "MACD: no bullish crossover or valley",
+      "RSI Divergence: no bullish divergence detected",
+      "200MA: price below 200MA \u2014 potential falling knife"
     ],
-    "price": 218.99,
-    "rsi": 40.2,
-    "atr": 3.65,
-    "final_tier": "Buy",
+    "price": 213.46,
+    "rsi": 33.2,
+    "atr": 3.4,
+    "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 1,
-      "suggested_dollars": 218.99,
-      "note": "1 sh @ $218.99 = $219 (Buy, 60% size) | $1,532 swing budget after"
+      "suggested_dollars": 213.46,
+      "note": "1 sh @ $213.46 = $213 (Hold, 60% size) | $1,537 swing budget after"
     }
   },
   "fundamentals": {
@@ -55,43 +49,43 @@
       ],
       "earnings_status": "past",
       "next_earnings_date": "2026-07-28",
-      "days_to_earnings": -42
+      "days_to_earnings": -48
     }
   },
   "news": {
     "ticker": "WM",
     "sentiment": "neutral",
-    "health": "healthy",
+    "health": "neutral",
     "key_events": [
-      "Earnings reported 42 days ago - cycle entering mid-term phase",
-      "BB squeeze active with price at lower band - potential breakout setup",
-      "MACD histogram turning up from valley - early momentum inflection signal",
-      "RSI 40.2 - oversold territory but not extreme, room to move lower before capitulation"
+      "Earnings reported 48 days ago \u2014 cycle complete, next catalyst TBD",
+      "RSI at 33.2 indicates oversold conditions with potential mean reversion",
+      "Market volatility (VIX 15.8) remains benign; no macro stress evident",
+      "No recent news catalysts \u2014 information vacuum"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "High debt-to-equity ratio (2.4x) - cyclical downturns could stress balance sheet",
-      "Position underwater -0.41% despite bullish technicals - suggests selling pressure",
-      "No recent news catalysts visible - lack of positive narrative support",
-      "VIX neutral but market in 'Greed' mode - potential for sentiment reversal"
+      "High debt-to-equity ratio (2.4x) limits financial flexibility in downturn",
+      "Position down 2.93% with no technical firing signals",
+      "No positive news flow to support recovery narrative",
+      "11.3% portfolio weight concentrates risk in defensive utility sector"
     ],
-    "verdict": "WM shows technical reversal setup (BB squeeze + MACD inflection) at oversold levels, but fundamentals and sentiment lack conviction; hold core position and wait for confirmation.",
+    "verdict": "WM is oversold technically but lacks near-term catalysts; hold and wait for RSI reversal with no new deterioration in fundamentals.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "WM",
-    "stock_return_3m": -0.64,
-    "benchmark_return_3m": 4.69,
-    "relative_strength": -5.33,
+    "stock_return_3m": -2.0,
+    "benchmark_return_3m": 3.86,
+    "relative_strength": -5.87,
     "label": "underperforming"
   },
-  "final_tier": "Buy",
+  "final_tier": "Hold",
   "sizing": {
     "suggested_shares": 1,
-    "suggested_dollars": 218.99,
-    "note": "1 sh @ $218.99 = $219 (Buy, 60% size) | $1,532 swing budget after"
+    "suggested_dollars": 213.46,
+    "note": "1 sh @ $213.46 = $213 (Hold, 60% size) | $1,537 swing budget after"
   },
   "is_dca": false,
-  "saved_at": "2026-09-08T00:39:03.022403"
+  "saved_at": "2026-09-14T00:22:48.261626"
 }

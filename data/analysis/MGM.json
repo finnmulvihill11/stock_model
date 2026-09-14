@@ -5,21 +5,21 @@
     "direction": "hold",
     "tier": "Hold",
     "buy_score": 0.62,
-    "sell_score": 0.0,
+    "sell_score": 0.14,
     "reasons": [],
     "misses": [
       "BB Width: bands expanding, not squeezing",
-      "RSI Divergence: no bullish divergence detected",
-      "Volume: below average (0.80x) \u2014 low conviction"
+      "MACD: no bullish crossover or valley",
+      "RSI Divergence: no bullish divergence detected"
     ],
-    "price": 41.22,
-    "rsi": 32.2,
-    "atr": 0.84,
+    "price": 39.89,
+    "rsi": 25.8,
+    "atr": 0.87,
     "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 7,
-      "suggested_dollars": 288.54,
-      "note": "7 sh @ $41.22 = $289 (Hold, 60% size) | $1,462 swing budget after"
+      "suggested_dollars": 279.23,
+      "note": "7 sh @ $39.89 = $279 (Hold, 60% size) | $1,472 swing budget after"
     }
   },
   "fundamentals": {
@@ -49,44 +49,44 @@
       ],
       "earnings_status": "past",
       "next_earnings_date": "2026-07-29",
-      "days_to_earnings": -41
+      "days_to_earnings": -47
     }
   },
   "news": {
     "ticker": "MGM",
     "sentiment": "neutral",
-    "health": "neutral",
+    "health": "deteriorating",
     "key_events": [
-      "No recent news catalysts identified",
-      "Earnings reported 41 days ago - past cycle",
-      "VIX at 15.3 indicates stable market conditions",
-      "Market showing greed sentiment (potential overheating)"
+      "Stock down 8.74% from entry",
+      "RSI at 25.8 indicating oversold conditions",
+      "Earnings reported 47 days ago",
+      "High debt-to-equity ratio of 8.9x",
+      "Market sentiment: Greed (F&G index)"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "RSI at 32.2 indicates oversold conditions but lacks bullish confirmation",
-      "High debt-to-equity ratio (8.9x) limits financial flexibility",
-      "Position down 5.70% with no technical firing signals",
-      "No news flow to support recovery catalyst",
-      "Cyclical sector vulnerable to economic slowdown"
+      "Significant leverage with 8.9x debt-to-equity exposes to interest rate risk",
+      "No recent news catalysts or updates",
+      "RSI severely oversold but no recovery momentum yet",
+      "8.74% loss approaching concerning levels for position weight (7.4%)"
     ],
-    "verdict": "MGM is oversold technically but lacks near-term catalysts; hold per loss philosophy while awaiting reversal signals.",
+    "verdict": "MGM is oversold on technicals but fundamentally burdened by debt; hold current position per philosophy and monitor for capitulation vs. recovery signals.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "MGM",
-    "stock_return_3m": -13.24,
-    "benchmark_return_3m": 4.69,
-    "relative_strength": -17.93,
+    "stock_return_3m": -15.52,
+    "benchmark_return_3m": 3.86,
+    "relative_strength": -19.39,
     "label": "underperforming"
   },
   "final_tier": "Hold",
   "sizing": {
     "suggested_shares": 7,
-    "suggested_dollars": 288.54,
-    "note": "7 sh @ $41.22 = $289 (Hold, 60% size) | $1,462 swing budget after"
+    "suggested_dollars": 279.23,
+    "note": "7 sh @ $39.89 = $279 (Hold, 60% size) | $1,472 swing budget after"
   },
   "is_dca": false,
-  "saved_at": "2026-09-08T00:38:26.007508"
+  "saved_at": "2026-09-14T00:22:10.917323"
 }

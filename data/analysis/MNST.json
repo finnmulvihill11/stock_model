@@ -5,21 +5,21 @@
     "direction": "hold",
     "tier": "Hold",
     "buy_score": 0.62,
-    "sell_score": 0.14,
+    "sell_score": 0.0,
     "reasons": [],
     "misses": [
       "BB Width: bands expanding, not squeezing",
-      "MACD: no bullish crossover or valley",
-      "RSI Divergence: no bullish divergence detected"
+      "RSI Divergence: no bullish divergence detected",
+      "Volume: below average (0.73x) \u2014 low conviction"
     ],
-    "price": 43.82,
-    "rsi": 33.6,
-    "atr": 1.07,
+    "price": 43.4,
+    "rsi": 34.7,
+    "atr": 0.98,
     "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 7,
-      "suggested_dollars": 306.74,
-      "note": "7 sh @ $43.82 = $307 (Hold, 60% size) | $1,444 swing budget after"
+      "suggested_dollars": 303.8,
+      "note": "7 sh @ $43.40 = $304 (Hold, 60% size) | $1,447 swing budget after"
     }
   },
   "fundamentals": {
@@ -48,7 +48,7 @@
       ],
       "earnings_status": "past",
       "next_earnings_date": "2026-08-06",
-      "days_to_earnings": -33
+      "days_to_earnings": -39
     }
   },
   "news": {
@@ -56,34 +56,34 @@
     "sentiment": "neutral",
     "health": "healthy",
     "key_events": [
-      "Earnings reported 33 days ago - past cycle",
-      "RSI at 33.6 indicates oversold conditions",
-      "VIX at 15.3 suggests stable market environment",
-      "Market sentiment in Greed phase - potential for recovery"
+      "Earnings reported 39 days ago",
+      "Stock down 5.75% from entry",
+      "RSI at 34.7 indicates oversold conditions",
+      "Market sentiment: Greed (F&G) despite neutral VIX"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "No recent news catalysts visible - information vacuum",
-      "4.84% drawdown with technical hold signal suggests consolidation phase",
-      "RSI oversold but no bullish firing signals yet"
+      "No recent news catalysts visible",
+      "Technical setup shows no firing indicators",
+      "Mild drawdown but momentum weak"
     ],
-    "verdict": "MNST fundamentals remain healthy despite near-term weakness; oversold RSI presents accumulation opportunity within portfolio volatility tolerance.",
+    "verdict": "MNST is oversold technically with healthy fundamentals; hold through recovery as position is well within swing trader tolerance and past earnings removes near-term event risk.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "MNST",
-    "stock_return_3m": -2.13,
-    "benchmark_return_3m": 4.69,
-    "relative_strength": -6.83,
+    "stock_return_3m": -5.68,
+    "benchmark_return_3m": 3.86,
+    "relative_strength": -9.55,
     "label": "underperforming"
   },
   "final_tier": "Hold",
   "sizing": {
     "suggested_shares": 7,
-    "suggested_dollars": 306.74,
-    "note": "7 sh @ $43.82 = $307 (Hold, 60% size) | $1,444 swing budget after"
+    "suggested_dollars": 303.8,
+    "note": "7 sh @ $43.40 = $304 (Hold, 60% size) | $1,447 swing budget after"
   },
   "is_dca": false,
-  "saved_at": "2026-09-08T00:38:40.408822"
+  "saved_at": "2026-09-14T00:22:25.153846"
 }

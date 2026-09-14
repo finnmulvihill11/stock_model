@@ -3,19 +3,36 @@
     "ticker": "MGM",
     "company_name": "MGM Resorts International",
     "action": "Hold",
-    "action_reason": "Position is only -6.82% down (well below 15% threshold per philosophy), and RSI oversold condition typically precedes bounces. Hold for mean-reversion opportunity in coming 2-4 weeks rather than crystallize modest loss.",
+    "action_reason": "Position is -8.74% (under 15% threshold). RSI at 25.8 signals oversold bounce potential. Market remains neutral with Greed sentiment supporting recovery. Your philosophy mandates holding major losers.",
     "target_price": 44.5,
     "target_reasoning": "",
-    "exit_trigger": "Break below $39.50 on high volume (signals breakdown of oversold support) OR position reaches -15% loss threshold",
-    "add_trigger": "RSI drops to 20-25 range with bullish divergence OR price finds support at $39.00 with volume spike",
-    "risk": "Gaming sector cyclicality + macro slowdown concerns + high debt burden limits downside protection if market risk-off event occurs",
+    "exit_trigger": "Break below $37.50 (>14% loss) OR debt refinancing issues emerge OR RSI falls below 20 without recovery attempt",
+    "add_trigger": "RSI bounces above 35 with volume + closing above $41.00 OR positive earnings surprise within next 4 weeks",
+    "risk": "Leverage amplifies downside in economic slowdown; hospitality cyclical weakness; refinancing risk given debt load",
     "outlook": "cautious",
-    "timeframe": "2-4 weeks for technical bounce, OR reassess if earnings cycle approaches without positive momentum",
-    "generated_at": "2026-09-11T00:27:14.086083",
-    "price_at_generation": 40.73,
-    "pnl_at_generation": -6.82
+    "timeframe": "2-4 weeks for RSI recovery signal; reassess at next earnings",
+    "generated_at": "2026-09-14T00:22:10.916430",
+    "price_at_generation": 39.89,
+    "pnl_at_generation": -8.74
   },
   "history": [
+    {
+      "ticker": "MGM",
+      "company_name": "MGM Resorts International",
+      "action": "Hold",
+      "action_reason": "Position is only -6.82% down (well below 15% threshold per philosophy), and RSI oversold condition typically precedes bounces. Hold for mean-reversion opportunity in coming 2-4 weeks rather than crystallize modest loss.",
+      "target_price": 44.5,
+      "target_reasoning": "",
+      "exit_trigger": "Break below $39.50 on high volume (signals breakdown of oversold support) OR position reaches -15% loss threshold",
+      "add_trigger": "RSI drops to 20-25 range with bullish divergence OR price finds support at $39.00 with volume spike",
+      "risk": "Gaming sector cyclicality + macro slowdown concerns + high debt burden limits downside protection if market risk-off event occurs",
+      "outlook": "cautious",
+      "timeframe": "2-4 weeks for technical bounce, OR reassess if earnings cycle approaches without positive momentum",
+      "generated_at": "2026-09-11T00:27:14.086083",
+      "price_at_generation": 40.73,
+      "pnl_at_generation": -6.82,
+      "archived_at": "2026-09-14T00:22:10.916644"
+    },
     {
       "ticker": "MGM",
       "company_name": "MGM Resorts International",
@@ -117,23 +134,6 @@
       "price_at_generation": 41.44,
       "pnl_at_generation": -5.19,
       "archived_at": "2026-09-04T00:18:31.817300"
-    },
-    {
-      "ticker": "MGM",
-      "company_name": "MGM Resorts International",
-      "action": "Hold",
-      "action_reason": "Position is down only 6.73% (within acceptable drawdown), RSI oversold at 25.5 presents mean-reversion setup, and your framework prohibits exits on losses <15%. Hold and monitor for recovery signal.",
-      "target_price": 46.5,
-      "target_reasoning": "",
-      "exit_trigger": "RSI>70 with volume confirmation or position reaches +8-10% gain; OR debt-to-equity worsens materially or dividend cut announced",
-      "add_trigger": "RSI <20 with bullish divergence and volume spike; or positive gaming revenue guidance in next 2 weeks",
-      "risk": "High financial leverage (8.9x D/E) amplifies downside in economic slowdown; gaming sector cyclicality; casino traffic weakness",
-      "outlook": "cautious",
-      "timeframe": "3-6 weeks (next earnings cycle or gaming data release)",
-      "generated_at": "2026-09-02T00:27:00.416830",
-      "price_at_generation": 40.77,
-      "pnl_at_generation": -6.73,
-      "archived_at": "2026-09-03T00:33:29.943374"
     }
   ]
 }
