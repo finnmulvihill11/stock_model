@@ -3,19 +3,36 @@
     "ticker": "CNP",
     "company_name": "CenterPoint Energy, Inc.",
     "action": "Hold",
-    "action_reason": "Position is only -2.64% (well within tolerance and far from -15% threshold). No technical firing signals or negative news warrant forced exit. Utility sector fundamentals remain tepid but stable.",
-    "target_price": 41.5,
+    "action_reason": "Loss is only 3.78% (well below 15% threshold), so philosophy dictates holding. RSI at 39 suggests potential stabilization, and utilities often provide mean-reversion plays in neutral/cautious markets.",
+    "target_price": null,
     "target_reasoning": "",
-    "exit_trigger": "Break below $37.50 (6.7% loss) with confirmed bearish technical setup, OR gap down on earnings miss if next earnings disappoint",
-    "add_trigger": "RSI drops to 25-28 (oversold) on volume with no negative news; OR positive rate-cut signal from Fed commentary",
-    "risk": "Continued pressure from elevated bond yields; high debt burden limits upside in recovery; sector rotation away from utilities",
+    "exit_trigger": "Break below $37.50 (new 52-week low confirmation) OR significant debt covenant issues",
+    "add_trigger": "RSI drops below 30 + break of next support at $37.80 (indicates capitulation buying opportunity)",
+    "risk": "High leverage (2.1x D/E) limits upside and increases sensitivity to rate hikes; utility sector rotation risk if growth outperforms",
     "outlook": "cautious",
     "timeframe": "3-6 weeks",
-    "generated_at": "2026-09-14T00:22:18.272335",
-    "price_at_generation": 39.11,
-    "pnl_at_generation": -2.64
+    "generated_at": "2026-09-15T00:51:32.317618",
+    "price_at_generation": 38.65,
+    "pnl_at_generation": -3.78
   },
   "history": [
+    {
+      "ticker": "CNP",
+      "company_name": "CenterPoint Energy, Inc.",
+      "action": "Hold",
+      "action_reason": "Position is only -2.64% (well within tolerance and far from -15% threshold). No technical firing signals or negative news warrant forced exit. Utility sector fundamentals remain tepid but stable.",
+      "target_price": 41.5,
+      "target_reasoning": "",
+      "exit_trigger": "Break below $37.50 (6.7% loss) with confirmed bearish technical setup, OR gap down on earnings miss if next earnings disappoint",
+      "add_trigger": "RSI drops to 25-28 (oversold) on volume with no negative news; OR positive rate-cut signal from Fed commentary",
+      "risk": "Continued pressure from elevated bond yields; high debt burden limits upside in recovery; sector rotation away from utilities",
+      "outlook": "cautious",
+      "timeframe": "3-6 weeks",
+      "generated_at": "2026-09-14T00:22:18.272335",
+      "price_at_generation": 39.11,
+      "pnl_at_generation": -2.64,
+      "archived_at": "2026-09-15T00:51:32.317811"
+    },
     {
       "ticker": "CNP",
       "company_name": "CenterPoint Energy, Inc.",
@@ -117,23 +134,6 @@
       "price_at_generation": 39.98,
       "pnl_at_generation": -0.47,
       "archived_at": "2026-09-07T00:16:21.663580"
-    },
-    {
-      "ticker": "CNP",
-      "company_name": "CenterPoint Energy, Inc.",
-      "action": "Hold",
-      "action_reason": "Position is only -1.64% down (well above your 15% threshold for forced holding). RSI oversold conditions suggest potential bounce, but lack of positive catalysts and high debt warrant patience rather than adding.",
-      "target_price": 41.5,
-      "target_reasoning": "",
-      "exit_trigger": "Break below $38.50 with negative earnings revision or dividend cut announcement",
-      "add_trigger": "RSI drops to 30 or below with sector-wide rate cut signal; position size already 7.6% weighted",
-      "risk": "Leverage and rate sensitivity; potential dividend pressure if utility commissions deny rate increases",
-      "outlook": "neutral",
-      "timeframe": "3-6 weeks",
-      "generated_at": "2026-09-03T00:33:36.727170",
-      "price_at_generation": 39.51,
-      "pnl_at_generation": -1.64,
-      "archived_at": "2026-09-04T00:18:40.787883"
     }
   ]
 }

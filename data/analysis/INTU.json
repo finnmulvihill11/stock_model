@@ -4,19 +4,21 @@
     "ticker": "INTU",
     "direction": "hold",
     "tier": "Hold",
-    "buy_score": 0.38,
-    "sell_score": 0.14,
+    "buy_score": 0.12,
+    "sell_score": 0.0,
     "reasons": [],
     "misses": [
+      "BB: price not near lower band (pct=nan)",
       "BB Width: bands expanding, not squeezing",
       "RSI: not in buy zone (43.8, need 20-40)",
       "RSI Divergence: no bullish divergence detected",
       "200MA: price below 200MA \u2014 potential falling knife",
-      "Volume: below average (0.58x) \u2014 low conviction"
+      "50/200MA: insufficient history",
+      "Volume: below average (0.90x) \u2014 low conviction"
     ],
-    "price": 321.57,
+    "price": NaN,
     "rsi": 43.8,
-    "atr": 15.1,
+    "atr": null,
     "final_tier": "Hold",
     "sizing": {
       "suggested_shares": 0,
@@ -49,7 +51,7 @@
       ],
       "earnings_status": "past",
       "next_earnings_date": "2026-08-25",
-      "days_to_earnings": -20
+      "days_to_earnings": -21
     }
   },
   "news": {
@@ -57,28 +59,28 @@
     "sentiment": "neutral",
     "health": "healthy",
     "key_events": [
-      "Earnings reported 20 days ago",
-      "Stock down 31.33% from entry",
-      "VIX neutral at 15.8",
-      "Market sentiment: Greed phase"
+      "Earnings reported 21 days ago",
+      "Stock down 27.58% from entry - significant drawdown",
+      "RSI at 43.8 indicates neither overbought nor oversold conditions",
+      "Market conditions neutral (VIX 17.1), no systemic pressure"
     ],
     "macro_context": "",
     "competitive_notes": "",
     "red_flags": [
-      "Significant drawdown (-31.33%) exceeds normal swing trade volatility",
-      "No recent news catalysts visible",
-      "RSI at 43.8 suggests downward momentum not yet reversed",
-      "Position weight at 25.6% is heavy for a swing trade in drawdown"
+      "Large single position weight (26.6%) concentrates risk",
+      "No recent news flow to explain or justify the 27.58% decline",
+      "Post-earnings selloff suggests market disappointment despite 'healthy' fundamentals",
+      "Wide gap between technical hold rating and actual price deterioration"
     ],
-    "verdict": "Hold position per philosophy; fundamentals remain healthy despite technical weakness, but monitor closely for reversal signals.",
+    "verdict": "INTU fundamentals remain healthy, but the sharp post-earnings decline and lack of recovery signals warrant patience before adding; hold position per philosophy while monitoring for stabilization.",
     "confidence": "medium"
   },
   "relative_strength": {
     "ticker": "INTU",
-    "stock_return_3m": 16.64,
-    "benchmark_return_3m": 3.86,
-    "relative_strength": 12.78,
-    "label": "outperforming"
+    "stock_return_3m": NaN,
+    "benchmark_return_3m": NaN,
+    "relative_strength": NaN,
+    "label": "in-line"
   },
   "final_tier": "Hold",
   "sizing": {
@@ -87,5 +89,5 @@
     "note": "Position already at 20% portfolio cap"
   },
   "is_dca": false,
-  "saved_at": "2026-09-14T00:22:04.473412"
+  "saved_at": "2026-09-15T00:51:18.893476"
 }

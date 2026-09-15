@@ -3,19 +3,36 @@
     "ticker": "WM",
     "company_name": "Waste Management, Inc.",
     "action": "Hold",
-    "action_reason": "Loss is only -2.93% (well under 15% exit threshold). Oversold RSI (33.2) suggests tactical bounce potential. No earnings for ~6 months, so patience is warranted until next catalyst or technical confirmation of reversal.",
+    "action_reason": "Loss is minimal (-0.82%), oversold RSI suggests mean reversion bounce is near-term probable. Debt load prevents aggressive add-in; wait for confirmation of reversal before any position increase.",
     "target_price": 225,
     "target_reasoning": "",
-    "exit_trigger": "Break below $210 (lower support) on high volume; or RSI climbs above 50 and fails to hold \u2014 signals broken recovery",
-    "add_trigger": "RSI bounces to 45+ with volume confirmation AND closes above $216 \u2014 indicates technical reversal underway",
-    "risk": "High leverage (2.4x D/E) could amplify losses if economic cycle rolls over; defensive nature may underperform in risk-on rallies",
+    "exit_trigger": "Break below $215 on heavy volume (invalidates oversold bounce thesis) OR reversal fails and RSI re-enters downtrend below 30",
+    "add_trigger": "RSI bounces above 45 + price closes above $220.50 with volume \u2014 signals momentum reversal; add 0.5\u20131.0 shares only if macro backdrop remains stable",
+    "risk": "High debt-to-equity (2.4x) limits downside cushion; if broader waste/defensive sector rolls over, WM lacks capital flexibility to support stock \u2014 risk of 10\u201315% further drawdown",
     "outlook": "cautious",
-    "timeframe": "2-4 weeks (monitor for RSI reversal and earnings preview updates)",
-    "generated_at": "2026-09-14T00:22:48.260779",
-    "price_at_generation": 213.46,
-    "pnl_at_generation": -2.93
+    "timeframe": "2\u20134 weeks (oversold bounce window; earnings refresh likely in 30\u201340 days)",
+    "generated_at": "2026-09-15T00:52:00.277623",
+    "price_at_generation": 218.09,
+    "pnl_at_generation": -0.82
   },
   "history": [
+    {
+      "ticker": "WM",
+      "company_name": "Waste Management, Inc.",
+      "action": "Hold",
+      "action_reason": "Loss is only -2.93% (well under 15% exit threshold). Oversold RSI (33.2) suggests tactical bounce potential. No earnings for ~6 months, so patience is warranted until next catalyst or technical confirmation of reversal.",
+      "target_price": 225,
+      "target_reasoning": "",
+      "exit_trigger": "Break below $210 (lower support) on high volume; or RSI climbs above 50 and fails to hold \u2014 signals broken recovery",
+      "add_trigger": "RSI bounces to 45+ with volume confirmation AND closes above $216 \u2014 indicates technical reversal underway",
+      "risk": "High leverage (2.4x D/E) could amplify losses if economic cycle rolls over; defensive nature may underperform in risk-on rallies",
+      "outlook": "cautious",
+      "timeframe": "2-4 weeks (monitor for RSI reversal and earnings preview updates)",
+      "generated_at": "2026-09-14T00:22:48.260779",
+      "price_at_generation": 213.46,
+      "pnl_at_generation": -2.93,
+      "archived_at": "2026-09-15T00:52:00.277801"
+    },
     {
       "ticker": "WM",
       "company_name": "Waste Management, Inc.",
@@ -117,23 +134,6 @@
       "price_at_generation": 221.72,
       "pnl_at_generation": 0.83,
       "archived_at": "2026-09-07T00:16:52.318594"
-    },
-    {
-      "ticker": "WM",
-      "company_name": "Waste Management, Inc.",
-      "action": "Hold",
-      "action_reason": "Position is profitable (+0.03%) but showing no momentum for trimming. Lack of news and RSI weakness suggest waiting for a stronger technical setup before adding; holding prevents locking in minimal gains.",
-      "target_price": null,
-      "target_reasoning": "",
-      "exit_trigger": "Break below $217.50 with increased volume or deteriorating fundamentals on next earnings",
-      "add_trigger": "RSI reverses above 50 with bullish volume spike, or positive guidance/contract announcement",
-      "risk": "Defensive utility plays underperform in Greed environments; high leverage (2.4x D/E) amplifies downside if recession concerns emerge",
-      "outlook": "neutral",
-      "timeframe": "3-4 weeks",
-      "generated_at": "2026-09-03T00:34:05.477253",
-      "price_at_generation": 219.04,
-      "pnl_at_generation": 0.03,
-      "archived_at": "2026-09-04T00:19:15.026064"
     }
   ]
 }

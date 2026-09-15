@@ -3,19 +3,36 @@
     "ticker": "FITB",
     "company_name": "Fifth Third Bancorp",
     "action": "Hold",
-    "action_reason": "Position is modestly profitable (+0.26%) with low weight (2.9%), removing pressure to act. With no negative catalysts and distant earnings, there's no urgent reason to exit a winner, but also no compelling setup to add into a flat technical picture.",
+    "action_reason": "Position is only -0.37% down, well within swing trade noise. Lack of technical confirmation (no RSI extremes, no firings) and absent near-term catalysts warrant patience rather than averaging down into weakness.",
     "target_price": null,
     "target_reasoning": "",
-    "exit_trigger": "Break below $52.50 (recent support) on volume OR negative earnings surprise when reported",
-    "add_trigger": "RSI breaks above 65 on volume with banking sector strength, or positive news on rate environment",
-    "risk": "Banking sector interest rate sensitivity; lack of recent news suggests low momentum; debt metrics unknown",
-    "outlook": "cautious",
-    "timeframe": "2-5 weeks (until earnings catalyst)",
-    "generated_at": "2026-09-14T00:22:40.285915",
-    "price_at_generation": 54.72,
-    "pnl_at_generation": 0.26
+    "exit_trigger": "Break below $52.50 on high volume (10%+ decline from entry) OR close below 200-day MA with negative earnings guidance",
+    "add_trigger": "RSI drops to 30-35 range with bullish divergence OR positive pre-earnings momentum (RSI >60 + breakout above $56.00)",
+    "risk": "Banking sector interest rate sensitivity; deteriorating credit conditions could pressure financials; lack of debt ratio data increases blind spot risk",
+    "outlook": "neutral",
+    "timeframe": "2-6 weeks until earnings catalyst",
+    "generated_at": "2026-09-15T00:51:51.743108",
+    "price_at_generation": 54.38,
+    "pnl_at_generation": -0.37
   },
   "history": [
+    {
+      "ticker": "FITB",
+      "company_name": "Fifth Third Bancorp",
+      "action": "Hold",
+      "action_reason": "Position is modestly profitable (+0.26%) with low weight (2.9%), removing pressure to act. With no negative catalysts and distant earnings, there's no urgent reason to exit a winner, but also no compelling setup to add into a flat technical picture.",
+      "target_price": null,
+      "target_reasoning": "",
+      "exit_trigger": "Break below $52.50 (recent support) on volume OR negative earnings surprise when reported",
+      "add_trigger": "RSI breaks above 65 on volume with banking sector strength, or positive news on rate environment",
+      "risk": "Banking sector interest rate sensitivity; lack of recent news suggests low momentum; debt metrics unknown",
+      "outlook": "cautious",
+      "timeframe": "2-5 weeks (until earnings catalyst)",
+      "generated_at": "2026-09-14T00:22:40.285915",
+      "price_at_generation": 54.72,
+      "pnl_at_generation": 0.26,
+      "archived_at": "2026-09-15T00:51:51.743302"
+    },
     {
       "ticker": "FITB",
       "company_name": "Fifth Third Bancorp",
@@ -117,23 +134,6 @@
       "price_at_generation": 54.97,
       "pnl_at_generation": 0.71,
       "archived_at": "2026-09-07T00:16:44.223872"
-    },
-    {
-      "ticker": "FITB",
-      "company_name": "Fifth Third Bancorp",
-      "action": "Hold",
-      "action_reason": "Position is only -0.33% down and RSI oversold (28.4) suggests potential rebound. Earnings in 46 days provide natural catalyst window. No sell signals present; avoid adding without bullish confirmation.",
-      "target_price": null,
-      "target_reasoning": "",
-      "exit_trigger": "Break below $52.50 (5% loss from entry) OR negative earnings surprise >5 days before report",
-      "add_trigger": "RSI crosses above 35 + positive bank sector news OR price holds above $54 with volume confirmation",
-      "risk": "Banking sector sensitivity to rate environment; lack of news flow leaves position vulnerable to sector rotation or macro deterioration",
-      "outlook": "neutral",
-      "timeframe": "4-6 weeks (hold through earnings)",
-      "generated_at": "2026-09-03T00:33:58.756268",
-      "price_at_generation": 54.4,
-      "pnl_at_generation": -0.33,
-      "archived_at": "2026-09-04T00:19:06.171138"
     }
   ]
 }
