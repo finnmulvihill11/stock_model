@@ -3,19 +3,36 @@
     "ticker": "FITB",
     "company_name": "Fifth Third Bancorp",
     "action": "Hold",
-    "action_reason": "Position is only -0.37% down, well within swing trade noise. Lack of technical confirmation (no RSI extremes, no firings) and absent near-term catalysts warrant patience rather than averaging down into weakness.",
+    "action_reason": "Position is +0.16% profitable (respects exit-only-winners rule) but lacks conviction signals. RSI mid-range and neutral technicals don't justify trimming a profitable trade. Wait for earnings catalyst or technical setup improvement before adjusting.",
     "target_price": null,
     "target_reasoning": "",
-    "exit_trigger": "Break below $52.50 on high volume (10%+ decline from entry) OR close below 200-day MA with negative earnings guidance",
-    "add_trigger": "RSI drops to 30-35 range with bullish divergence OR positive pre-earnings momentum (RSI >60 + breakout above $56.00)",
-    "risk": "Banking sector interest rate sensitivity; deteriorating credit conditions could pressure financials; lack of debt ratio data increases blind spot risk",
+    "exit_trigger": "Break below $53.80 (recent support) on elevated volume, or take profits if position reaches +3-5% ahead of earnings",
+    "add_trigger": "RSI breaks above 55 with confirmed volume + price closes above $55.50 resistance",
+    "risk": "Banking sector rate sensitivity; earnings miss could trigger sharp reversal given neutral technicals provide no cushion",
     "outlook": "neutral",
-    "timeframe": "2-6 weeks until earnings catalyst",
-    "generated_at": "2026-09-15T00:51:51.743108",
-    "price_at_generation": 54.38,
-    "pnl_at_generation": -0.37
+    "timeframe": "3-5 weeks (hold into earnings announcement for potential swing opportunity)",
+    "generated_at": "2026-09-16T00:44:45.570504",
+    "price_at_generation": 54.67,
+    "pnl_at_generation": 0.16
   },
   "history": [
+    {
+      "ticker": "FITB",
+      "company_name": "Fifth Third Bancorp",
+      "action": "Hold",
+      "action_reason": "Position is only -0.37% down, well within swing trade noise. Lack of technical confirmation (no RSI extremes, no firings) and absent near-term catalysts warrant patience rather than averaging down into weakness.",
+      "target_price": null,
+      "target_reasoning": "",
+      "exit_trigger": "Break below $52.50 on high volume (10%+ decline from entry) OR close below 200-day MA with negative earnings guidance",
+      "add_trigger": "RSI drops to 30-35 range with bullish divergence OR positive pre-earnings momentum (RSI >60 + breakout above $56.00)",
+      "risk": "Banking sector interest rate sensitivity; deteriorating credit conditions could pressure financials; lack of debt ratio data increases blind spot risk",
+      "outlook": "neutral",
+      "timeframe": "2-6 weeks until earnings catalyst",
+      "generated_at": "2026-09-15T00:51:51.743108",
+      "price_at_generation": 54.38,
+      "pnl_at_generation": -0.37,
+      "archived_at": "2026-09-16T00:44:45.570709"
+    },
     {
       "ticker": "FITB",
       "company_name": "Fifth Third Bancorp",
@@ -117,23 +134,6 @@
       "price_at_generation": 54.87,
       "pnl_at_generation": 0.53,
       "archived_at": "2026-09-08T00:38:54.856564"
-    },
-    {
-      "ticker": "FITB",
-      "company_name": "Fifth Third Bancorp",
-      "action": "Hold",
-      "action_reason": "Small profit buffer (+0.71%) allows disciplined exit if deterioration occurs; lack of negative confirmation warrants waiting for earnings catalyst or technical breakdown. Avoid chasing on low volume/volatility.",
-      "target_price": 56.5,
-      "target_reasoning": "",
-      "exit_trigger": "Break below $53.80 (support near entry) on volume; or RSI falls below 30 with confirmed bearish reversal; or deteriorating news 2-3 weeks pre-earnings",
-      "add_trigger": "Only if RSI climbs above 60 with volume and stock closes above $56 on positive sector rotation or FITB-specific news",
-      "risk": "Financial sector sensitivity to Fed rate guidance, credit cycle slowdown, or geopolitical shock could trigger sharp repricing; lack of fundamentals data clouds downside protection",
-      "outlook": "cautious",
-      "timeframe": "3-5 weeks (until earnings + potential catalyst shift)",
-      "generated_at": "2026-09-04T00:19:06.170937",
-      "price_at_generation": 54.97,
-      "pnl_at_generation": 0.71,
-      "archived_at": "2026-09-07T00:16:44.223872"
     }
   ]
 }

@@ -3,19 +3,36 @@
     "ticker": "WM",
     "company_name": "Waste Management, Inc.",
     "action": "Hold",
-    "action_reason": "Loss is minimal (-0.82%), oversold RSI suggests mean reversion bounce is near-term probable. Debt load prevents aggressive add-in; wait for confirmation of reversal before any position increase.",
-    "target_price": 225,
+    "action_reason": "Position is only -1.21% down and shows no technical deterioration (RSI at 45 is neutral). Swing traders should wait for either next earnings cycle or a technical break (RSI <30 for add trigger, >70 for trim consideration). No exit justification exists at this loss level.",
+    "target_price": null,
     "target_reasoning": "",
-    "exit_trigger": "Break below $215 on heavy volume (invalidates oversold bounce thesis) OR reversal fails and RSI re-enters downtrend below 30",
-    "add_trigger": "RSI bounces above 45 + price closes above $220.50 with volume \u2014 signals momentum reversal; add 0.5\u20131.0 shares only if macro backdrop remains stable",
-    "risk": "High debt-to-equity (2.4x) limits downside cushion; if broader waste/defensive sector rolls over, WM lacks capital flexibility to support stock \u2014 risk of 10\u201315% further drawdown",
+    "exit_trigger": "RSI breaks below 30 with volume confirmation (suggests capitulation-driven add rather than exit); or hold until next earnings (typically 3-4 months post last report) for fresh directional catalyst",
+    "add_trigger": "RSI drops to 35 or lower on volume spike, or stock tests $210 support level\u2014signals potential accumulation zone for swing trader",
+    "risk": "High leverage (2.4x D/E) may compress upside if market sentiment deteriorates; lack of recent news suggests limited near-term catalysts",
     "outlook": "cautious",
-    "timeframe": "2\u20134 weeks (oversold bounce window; earnings refresh likely in 30\u201340 days)",
-    "generated_at": "2026-09-15T00:52:00.277623",
-    "price_at_generation": 218.09,
-    "pnl_at_generation": -0.82
+    "timeframe": "3-6 weeks until next earnings cycle provides directional clarity",
+    "generated_at": "2026-09-16T00:44:52.936968",
+    "price_at_generation": 217.25,
+    "pnl_at_generation": -1.21
   },
   "history": [
+    {
+      "ticker": "WM",
+      "company_name": "Waste Management, Inc.",
+      "action": "Hold",
+      "action_reason": "Loss is minimal (-0.82%), oversold RSI suggests mean reversion bounce is near-term probable. Debt load prevents aggressive add-in; wait for confirmation of reversal before any position increase.",
+      "target_price": 225,
+      "target_reasoning": "",
+      "exit_trigger": "Break below $215 on heavy volume (invalidates oversold bounce thesis) OR reversal fails and RSI re-enters downtrend below 30",
+      "add_trigger": "RSI bounces above 45 + price closes above $220.50 with volume \u2014 signals momentum reversal; add 0.5\u20131.0 shares only if macro backdrop remains stable",
+      "risk": "High debt-to-equity (2.4x) limits downside cushion; if broader waste/defensive sector rolls over, WM lacks capital flexibility to support stock \u2014 risk of 10\u201315% further drawdown",
+      "outlook": "cautious",
+      "timeframe": "2\u20134 weeks (oversold bounce window; earnings refresh likely in 30\u201340 days)",
+      "generated_at": "2026-09-15T00:52:00.277623",
+      "price_at_generation": 218.09,
+      "pnl_at_generation": -0.82,
+      "archived_at": "2026-09-16T00:44:52.937187"
+    },
     {
       "ticker": "WM",
       "company_name": "Waste Management, Inc.",
@@ -117,23 +134,6 @@
       "price_at_generation": 218.99,
       "pnl_at_generation": -0.41,
       "archived_at": "2026-09-08T00:39:03.021731"
-    },
-    {
-      "ticker": "WM",
-      "company_name": "Waste Management, Inc.",
-      "action": "Hold",
-      "action_reason": "Position is +0.83% profitable, so exit philosophy allows trimming. However, RSI 38.3 + no firing signals suggest momentum is absent, not broken. Better to hold until VIX normalizes or a clear buy/sell trigger fires rather than chase a sideways move.",
-      "target_price": 228,
-      "target_reasoning": "",
-      "exit_trigger": "RSI drops below 30 + close below 218 (support break) OR VIX spikes >18 and WM breaks $215 support with volume",
-      "add_trigger": "RSI stays 30\u201340 but WM breaks above $227 on volume + VIX remains <16 (capitulation buy at lower risk)",
-      "risk": "Debt burden + rate sensitivity; geopolitical cost creep; profit-taking if market rotates out of defensives into higher-growth on soft macro data",
-      "outlook": "cautious",
-      "timeframe": "2\u20134 weeks (hold through VIX normalization or earnings catalyst ~3 months; reassess if breaks support or VIX spikes)",
-      "generated_at": "2026-09-04T00:19:15.025875",
-      "price_at_generation": 221.72,
-      "pnl_at_generation": 0.83,
-      "archived_at": "2026-09-07T00:16:52.318594"
     }
   ]
 }

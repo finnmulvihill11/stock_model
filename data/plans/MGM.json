@@ -3,19 +3,36 @@
     "ticker": "MGM",
     "company_name": "MGM Resorts International",
     "action": "Hold",
-    "action_reason": "Loss is only 8.88% (below 15% threshold), RSI oversold presents recovery setup. Do not exit losers per trading philosophy; wait for technical reversal confirmation or capitulation signal before reconsidering.",
+    "action_reason": "Position is down 10.27%, below your 15% threshold for forced holding. RSI 25.6 suggests oversold bounce potential, but no technical firing or fundamental catalyst justifies averaging down now. Wait for technical confirmation.",
     "target_price": 42.5,
     "target_reasoning": "",
-    "exit_trigger": "Close below $38.50 (additional 3% decline) or if debt concerns trigger credit rating downgrade",
-    "add_trigger": "RSI breaks above 35 with volume confirmation + price holds above $39 support",
-    "risk": "High leverage amplifies downside in recession; consumer discretionary exposure during economic slowdown; limited upside catalyst visibility near-term",
+    "exit_trigger": "Break below $37.50 (10%+ further loss) with RSI declining below 20 and no bounce attempt",
+    "add_trigger": "RSI bounces to 35-40 range + VIX spike above 20 + positive gaming revenue headline",
+    "risk": "High debt leverage magnifies losses if casino traffic/revenue deteriorates; macro slowdown could pressure discretionary spending",
     "outlook": "cautious",
-    "timeframe": "3-6 weeks",
-    "generated_at": "2026-09-15T00:51:25.872807",
-    "price_at_generation": 39.83,
-    "pnl_at_generation": -8.88
+    "timeframe": "2-4 weeks",
+    "generated_at": "2026-09-16T00:44:16.516086",
+    "price_at_generation": 39.22,
+    "pnl_at_generation": -10.27
   },
   "history": [
+    {
+      "ticker": "MGM",
+      "company_name": "MGM Resorts International",
+      "action": "Hold",
+      "action_reason": "Loss is only 8.88% (below 15% threshold), RSI oversold presents recovery setup. Do not exit losers per trading philosophy; wait for technical reversal confirmation or capitulation signal before reconsidering.",
+      "target_price": 42.5,
+      "target_reasoning": "",
+      "exit_trigger": "Close below $38.50 (additional 3% decline) or if debt concerns trigger credit rating downgrade",
+      "add_trigger": "RSI breaks above 35 with volume confirmation + price holds above $39 support",
+      "risk": "High leverage amplifies downside in recession; consumer discretionary exposure during economic slowdown; limited upside catalyst visibility near-term",
+      "outlook": "cautious",
+      "timeframe": "3-6 weeks",
+      "generated_at": "2026-09-15T00:51:25.872807",
+      "price_at_generation": 39.83,
+      "pnl_at_generation": -8.88,
+      "archived_at": "2026-09-16T00:44:16.516309"
+    },
     {
       "ticker": "MGM",
       "company_name": "MGM Resorts International",
@@ -117,23 +134,6 @@
       "price_at_generation": 41.22,
       "pnl_at_generation": -5.7,
       "archived_at": "2026-09-08T00:38:26.006841"
-    },
-    {
-      "ticker": "MGM",
-      "company_name": "MGM Resorts International",
-      "action": "Hold",
-      "action_reason": "Position is only -5.90%, well below the 15% threshold; holding allows recovery in oversold RSI zone. Fundamentals (neutral/high debt) don't justify panic exit, and no profitable position to trim.",
-      "target_price": 45.5,
-      "target_reasoning": "",
-      "exit_trigger": "Break below $39.50 (supports next -5.5% leg) + VIX spike >18 + geopolitical escalation event; OR profit at $47+",
-      "add_trigger": "RSI <25 + no negative news catalyst + VIX remains <16; consider small add if foundational support ($38\u201340) holds",
-      "risk": "Geopolitical escalation \u2192 VIX spike \u2192 forced liquidations in leveraged, discretionary sectors; debt burden amplifies drawdown severity",
-      "outlook": "cautious",
-      "timeframe": "2-4 weeks; reassess after next macro/earnings catalyst or VIX regime change",
-      "generated_at": "2026-09-04T00:18:31.817085",
-      "price_at_generation": 41.13,
-      "pnl_at_generation": -5.9,
-      "archived_at": "2026-09-07T00:16:14.691424"
     }
   ]
 }

@@ -3,19 +3,36 @@
     "ticker": "D",
     "company_name": "Dominion Energy, Inc.",
     "action": "Hold",
-    "action_reason": "Loss of 5.59% is well within normal swing trade drawdown ranges. RSI oversold (34.4) suggests reversal potential, and philosophy mandates holding sub-15% losses. No exit triggers met; market conditions remain neutral.",
-    "target_price": 71.5,
+    "action_reason": "Position is down only 6.46% (well below 15% threshold triggering mandatory hold philosophy). RSI oversold (35.4) suggests potential mean reversion bounce; hold for technical recovery while awaiting next catalyst or earnings guidance.",
+    "target_price": null,
     "target_reasoning": "",
-    "exit_trigger": "Price breaks below $61.50 or earnings miss with debt covenant concerns",
-    "add_trigger": "RSI rebounds above 50 with volume confirmation and price holds above $63.50 support",
-    "risk": "Dividend utility stocks underperform in rising rate environments; high leverage limits downside protection if market deteriorates",
+    "exit_trigger": "Break below $60 (additional 6% downside) on volume, or deteriorating credit metrics; alternatively, exit if position recovers to $72+ (profitable)",
+    "add_trigger": "Only if RSI drops below 30 AND volume spike confirms institutional accumulation; not recommended given leverage concerns",
+    "risk": "Refinancing risk from 1.6x debt-to-equity in rising rate environment; utility dividend cut if leverage becomes unsustainable",
     "outlook": "cautious",
-    "timeframe": "3-6 weeks for RSI mean reversion and recovery to $70+ resistance",
-    "generated_at": "2026-09-15T00:51:43.796475",
-    "price_at_generation": 64.46,
-    "pnl_at_generation": -5.59
+    "timeframe": "4-8 weeks",
+    "generated_at": "2026-09-16T00:44:39.146014",
+    "price_at_generation": 63.87,
+    "pnl_at_generation": -6.46
   },
   "history": [
+    {
+      "ticker": "D",
+      "company_name": "Dominion Energy, Inc.",
+      "action": "Hold",
+      "action_reason": "Loss of 5.59% is well within normal swing trade drawdown ranges. RSI oversold (34.4) suggests reversal potential, and philosophy mandates holding sub-15% losses. No exit triggers met; market conditions remain neutral.",
+      "target_price": 71.5,
+      "target_reasoning": "",
+      "exit_trigger": "Price breaks below $61.50 or earnings miss with debt covenant concerns",
+      "add_trigger": "RSI rebounds above 50 with volume confirmation and price holds above $63.50 support",
+      "risk": "Dividend utility stocks underperform in rising rate environments; high leverage limits downside protection if market deteriorates",
+      "outlook": "cautious",
+      "timeframe": "3-6 weeks for RSI mean reversion and recovery to $70+ resistance",
+      "generated_at": "2026-09-15T00:51:43.796475",
+      "price_at_generation": 64.46,
+      "pnl_at_generation": -5.59,
+      "archived_at": "2026-09-16T00:44:39.146208"
+    },
     {
       "ticker": "D",
       "company_name": "Dominion Energy, Inc.",
@@ -117,23 +134,6 @@
       "price_at_generation": 65.84,
       "pnl_at_generation": -3.57,
       "archived_at": "2026-09-08T00:38:46.998480"
-    },
-    {
-      "ticker": "D",
-      "company_name": "Dominion Energy, Inc.",
-      "action": "Hold",
-      "action_reason": "Loss is only 2.18%\u2014well below the 15% threshold. No sell signal justifies exit. Oversold RSI (37.5) + utility defensive profile warrant patience for mean reversion bounce or earnings-cycle re-entry.",
-      "target_price": 70.25,
-      "target_reasoning": "",
-      "exit_trigger": "Break below $65.50 (support); volume spike + gap down on negative utility regulation news",
-      "add_trigger": "RSI drops to 28\u201330 + bullish divergence on daily chart; OR positive earnings revision within 3\u20134 weeks",
-      "risk": "Debt burden + rising rates pressure margins; VIX complacency can flip quickly into volatility spike, triggering dividend-paying stock selloff",
-      "outlook": "neutral",
-      "timeframe": "2\u20134 weeks (await next earnings catalyst or technical reset)",
-      "generated_at": "2026-09-04T00:18:58.406235",
-      "price_at_generation": 66.79,
-      "pnl_at_generation": -2.18,
-      "archived_at": "2026-09-07T00:16:36.657472"
     }
   ]
 }

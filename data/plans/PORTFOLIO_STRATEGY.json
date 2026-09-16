@@ -1,31 +1,66 @@
 {
   "current": {
-    "headline": "Hold INTU through drawdown; deploy remaining $1K into highest-conviction mean-reversion setup (PLD Strong Buy) to build dry powder.",
+    "headline": "Hold core INTU position through recovery; deploy $1K into highest-conviction mean-reversion setup (PLD Strong Buy) with dry powder for follow-on adds.",
     "market_stance": "offensive",
-    "overall_thesis": "Market is in Greed (69) with neutral volatility\u2014ideal backdrop for mean-reversion trades. Your $1K cash is precious; deploy it surgically into the single strongest setup (PLD) rather than spray across multiple names. Let INTU recover naturally; it's below 15% RSI threshold and you don't cut losses there.",
+    "overall_thesis": "VIX neutral and Fear & Greed balanced create ideal conditions for disciplined mean-reversion plays. PLD's Strong Buy signal represents highest-conviction entry; remaining capital should be reserved for confirmed oversold adds (BAX, MTD, SWK, VTR) as they confirm second-day hold strength. INTU's -29.7% drawdown triggers hold-through-recovery protocol\u2014do not sell; let mean reversion work.",
     "priority_actions": [
       {
         "rank": 1,
         "action": "BUY",
         "ticker": "PLD",
-        "instruction": "Deploy $1,000 into PLD on Strong Buy signal (score 7). Target ~30\u201350 shares depending on current price. This is your only new capital allocation today\u2014highest conviction entry point in the screener.",
+        "instruction": "Deploy ~$900\u2013950 into PLD on this candle or any intraday dip to lower Bollinger Band. Strong Buy overnight signal (score 7+) = highest conviction. Target 40\u201350 shares depending on current price.",
         "urgency": "immediate"
+      },
+      {
+        "rank": 2,
+        "action": "BUY",
+        "ticker": "BAX",
+        "instruction": "Reserve remaining ~$50\u2013100 cash or use as add trigger if BAX confirms second-day hold above RSI 35.1 support. Do NOT chase; wait for intraday pullback into lower Bollinger Band.",
+        "urgency": "this week"
       }
     ],
-    "biggest_risk": "INTU weight at 26.6% exceeds 25% cap; a further 5\u201310% drop on that position alone could compound losses. Plan a modest trim only if INTU rallies +8\u201312% (rebalance back to 25% cap), not on weakness.",
+    "biggest_risk": "INTU concentration (26.2%) now exceeds 25% cap by 120 bps. Do not add. Plan natural rebalance as position recovers toward breakeven; only trim if it swings +15% or more into overbought territory (RSI >70 + sell signal confirmation).",
     "what_to_watch": [
-      "INTU RSI recovery above 50\u2014signals reversal; watch for bounce to rebalance cap",
-      "PLD entry fill and immediate post-entry momentum\u2014confirm mean-reversion thesis is live",
-      "VIX stability\u2014if it spikes above 20, all oversold names may continue lower before reverting"
+      "PLD entry fill and next-day momentum confirmation\u2014if RSI stays 30\u201350 on day 2, add 25% more.",
+      "INTU recovery trajectory\u2014at -29.7%, watch for first bounce into -15% to -20% range; this is NOT a sell; hold through.",
+      "BAX, MTD, SWK, VTR confirmation on volume\u2014if any show >5% intraday recovery on 1.5x avg volume, consider 2nd-day adds with freed capital."
     ],
     "on_course_check": [
-      "Plan works if: PLD entry within 2\u20133 days produces +3\u20135% bounce, validating mean-reversion thesis",
-      "Plan works if: INTU stabilizes RSI around 45\u201350 range, then rallies 8\u201312% to trigger rebalance trim",
-      "Revise if: VIX breaks 20+ and tech sector (INTU, TECH, BAX, MTD, SWK) all extend lower\u2014may indicate momentum shift requiring defensive pause"
+      "\u2713 Plan on track: PLD Strong Buy acted immediately; dry powder reserved for add confirmation.",
+      "\u2713 Plan on track: INTU held through major drawdown per protocol; no panic sells.",
+      "\u26a0 Revise if: VIX spikes >22 or Fear & Greed swings to Extreme Fear (<25)\u2014pause new entries, consolidate.",
+      "\u26a0 Revise if: INTU closes below 52-week low on heavy volume\u2014thesis broken; EXIT at that confirmation (only then)."
     ],
-    "generated_at": "2026-09-15T00:52:10.809041"
+    "generated_at": "2026-09-16T00:45:06.200487"
   },
   "history": [
+    {
+      "headline": "Hold INTU through drawdown; deploy remaining $1K into highest-conviction mean-reversion setup (PLD Strong Buy) to build dry powder.",
+      "market_stance": "offensive",
+      "overall_thesis": "Market is in Greed (69) with neutral volatility\u2014ideal backdrop for mean-reversion trades. Your $1K cash is precious; deploy it surgically into the single strongest setup (PLD) rather than spray across multiple names. Let INTU recover naturally; it's below 15% RSI threshold and you don't cut losses there.",
+      "priority_actions": [
+        {
+          "rank": 1,
+          "action": "BUY",
+          "ticker": "PLD",
+          "instruction": "Deploy $1,000 into PLD on Strong Buy signal (score 7). Target ~30\u201350 shares depending on current price. This is your only new capital allocation today\u2014highest conviction entry point in the screener.",
+          "urgency": "immediate"
+        }
+      ],
+      "biggest_risk": "INTU weight at 26.6% exceeds 25% cap; a further 5\u201310% drop on that position alone could compound losses. Plan a modest trim only if INTU rallies +8\u201312% (rebalance back to 25% cap), not on weakness.",
+      "what_to_watch": [
+        "INTU RSI recovery above 50\u2014signals reversal; watch for bounce to rebalance cap",
+        "PLD entry fill and immediate post-entry momentum\u2014confirm mean-reversion thesis is live",
+        "VIX stability\u2014if it spikes above 20, all oversold names may continue lower before reverting"
+      ],
+      "on_course_check": [
+        "Plan works if: PLD entry within 2\u20133 days produces +3\u20135% bounce, validating mean-reversion thesis",
+        "Plan works if: INTU stabilizes RSI around 45\u201350 range, then rallies 8\u201312% to trigger rebalance trim",
+        "Revise if: VIX breaks 20+ and tech sector (INTU, TECH, BAX, MTD, SWK) all extend lower\u2014may indicate momentum shift requiring defensive pause"
+      ],
+      "generated_at": "2026-09-15T00:52:10.809041",
+      "archived_at": "2026-09-16T00:45:06.200778"
+    },
     {
       "headline": "Portfolio holding steady through mean-reversion cycle; INTU concentration flagged but held per drawdown philosophy; $1k cash ready for high-conviction oversold entry.",
       "market_stance": "neutral",
@@ -281,56 +316,6 @@
       ],
       "generated_at": "2026-09-07T00:17:08.530908",
       "archived_at": "2026-09-08T00:39:19.622584"
-    },
-    {
-      "headline": "Loaded with mean-reversion buys across quality oversold names; hold INTU despite pain; deploy $1K carefully into highest-conviction persistent signals.",
-      "market_stance": "offensive",
-      "overall_thesis": "VIX at 14.3 signals complacency\u2014perfect hunting ground for mean-reversion entries on quality names pinned to Bollinger Band lows with RSI 35\u201340. We have 14 persistent Buy signals across industrials, payments, and semiconductors; deploy $1K into the strongest convictions (WM, PYPL, WST, WRB, L) as they've scraped support 2+ times. INTU remains a hold despite \u221226.5% drawdown per philosophy\u2014no exit on major losers.",
-      "priority_actions": [
-        {
-          "rank": 1,
-          "action": "BUY",
-          "ticker": "WM",
-          "instruction": "BUY 25\u201330 shares (~$250\u2013300 allocation). WM: RSI 38.5 oversold, persistent 2+ scrapes, industrial quality name. Entry on next touch of lower Bollinger Band or current support.",
-          "urgency": "this week"
-        },
-        {
-          "rank": 2,
-          "action": "BUY",
-          "ticker": "PYPL",
-          "instruction": "BUY 20\u201325 shares (~$250\u2013300 allocation). PYPL: RSI 35 deeply oversold, persistent Buy signal, payments thesis intact. Entry on retest of support or next Bollinger Band lower touch.",
-          "urgency": "this week"
-        },
-        {
-          "rank": 3,
-          "action": "BUY",
-          "ticker": "WST",
-          "instruction": "BUY 8\u201310 shares (~$200\u2013250 allocation). WST: RSI 38.6 oversold, persistent signal, quality healthcare supplier. Entry on support retest.",
-          "urgency": "this week"
-        },
-        {
-          "rank": 4,
-          "action": "BUY",
-          "ticker": "WRB",
-          "instruction": "BUY 15\u201318 shares (~$200\u2013250 allocation). WRB: RSI 39.3 oversold, persistent signal, quality industrial. Remaining $200\u2013250 of $1K budget on lowest-priced quality entry.",
-          "urgency": "this month"
-        }
-      ],
-      "biggest_risk": "INTU concentration at 26.5% (exceeds 25% cap) creates single-name risk while down \u221226.5%; if thesis breaks (fundamentals deteriorate or guidance misses badly), inability to trim due to drawdown philosophy locks capital. Monitor Q3 earnings closely for any red flags.",
-      "what_to_watch": [
-        "INTU earnings/guidance \u2014 thesis health check; any miss or cuts trigger thesis review despite hold rule",
-        "VIX compression continuation \u2014 if stays <15, complacency deepens and oversold bounces accelerate (favor quick fills on WM, PYPL, WST, WRB, L entries)",
-        "US-China tariff news \u2014 geopolitical uncertainty could spike VIX and kill mean-reversion setup; watch for policy shifts",
-        "Sector rotation out of tech \u2014 if mega-cap QQQ underperforms, INTU weight pressure eases and capital more available for new buys"
-      ],
-      "on_course_check": [
-        "\u2713 On course if: WM, PYPL, WST, WRB, L all fill within 2\u20133% of support levels and bounce back to mean within 2\u20134 weeks (validates mean-reversion thesis)",
-        "\u2713 On course if: INTU stabilizes above $220 or bounces 5\u20138% in next 3 weeks (suggests oversold recovery despite large drawdown)",
-        "\u26a0 Revise plan if: INTU breaks below recent lows AND fundamentals deteriorate (earnings miss, guidance cut) \u2014 may signal thesis break despite no-trim rule",
-        "\u26a0 Revise plan if: New buys (WM, PYPL, WST) fail to bounce off support after 2 scrapes \u2014 signals oversold trap, not true mean-reversion"
-      ],
-      "generated_at": "2026-09-04T00:19:31.611338",
-      "archived_at": "2026-09-07T00:17:08.531230"
     }
   ]
 }
