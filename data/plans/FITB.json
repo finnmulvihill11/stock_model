@@ -3,19 +3,36 @@
     "ticker": "FITB",
     "company_name": "Fifth Third Bancorp",
     "action": "Hold",
-    "action_reason": "Position is +0.16% profitable (respects exit-only-winners rule) but lacks conviction signals. RSI mid-range and neutral technicals don't justify trimming a profitable trade. Wait for earnings catalyst or technical setup improvement before adjusting.",
-    "target_price": null,
+    "action_reason": "Loss of only 3.98% is within normal swing trading variance; RSI at 45.9 shows no extreme condition; upcoming earnings provides defined catalyst. Holding allows risk/reward setup into earnings without forcing a loss.",
+    "target_price": 55.5,
     "target_reasoning": "",
-    "exit_trigger": "Break below $53.80 (recent support) on elevated volume, or take profits if position reaches +3-5% ahead of earnings",
-    "add_trigger": "RSI breaks above 55 with confirmed volume + price closes above $55.50 resistance",
-    "risk": "Banking sector rate sensitivity; earnings miss could trigger sharp reversal given neutral technicals provide no cushion",
+    "exit_trigger": "Break below $50.50 (support) or close below RSI 30 with negative earnings guidance; OR break above $56.00 into earnings for partial trim",
+    "add_trigger": "RSI drops to 30-35 range on volume without breaking $50.50 support; OR positive bank sentiment/rate news",
+    "risk": "Regional bank exposed to rising credit stress, deposit flight risks, and rate compression; lack of recent news suggests low institutional attention",
     "outlook": "neutral",
-    "timeframe": "3-5 weeks (hold into earnings announcement for potential swing opportunity)",
-    "generated_at": "2026-09-16T00:44:45.570504",
-    "price_at_generation": 54.67,
-    "pnl_at_generation": 0.16
+    "timeframe": "2-5 weeks (through earnings on day 32)",
+    "generated_at": "2026-09-17T00:50:56.718689",
+    "price_at_generation": 52.41,
+    "pnl_at_generation": -3.98
   },
   "history": [
+    {
+      "ticker": "FITB",
+      "company_name": "Fifth Third Bancorp",
+      "action": "Hold",
+      "action_reason": "Position is +0.16% profitable (respects exit-only-winners rule) but lacks conviction signals. RSI mid-range and neutral technicals don't justify trimming a profitable trade. Wait for earnings catalyst or technical setup improvement before adjusting.",
+      "target_price": null,
+      "target_reasoning": "",
+      "exit_trigger": "Break below $53.80 (recent support) on elevated volume, or take profits if position reaches +3-5% ahead of earnings",
+      "add_trigger": "RSI breaks above 55 with confirmed volume + price closes above $55.50 resistance",
+      "risk": "Banking sector rate sensitivity; earnings miss could trigger sharp reversal given neutral technicals provide no cushion",
+      "outlook": "neutral",
+      "timeframe": "3-5 weeks (hold into earnings announcement for potential swing opportunity)",
+      "generated_at": "2026-09-16T00:44:45.570504",
+      "price_at_generation": 54.67,
+      "pnl_at_generation": 0.16,
+      "archived_at": "2026-09-17T00:50:56.718896"
+    },
     {
       "ticker": "FITB",
       "company_name": "Fifth Third Bancorp",
@@ -117,23 +134,6 @@
       "price_at_generation": 54.87,
       "pnl_at_generation": 0.53,
       "archived_at": "2026-09-09T00:30:25.273592"
-    },
-    {
-      "ticker": "FITB",
-      "company_name": "Fifth Third Bancorp",
-      "action": "Hold",
-      "action_reason": "Position is +0.53% profitable and still small (2.9% weight). Wait for either a clear technical breakout, earnings approach, or market volatility spike that could trigger swing momentum. No reason to trim a small winner with no technical conviction yet.",
-      "target_price": 56.5,
-      "target_reasoning": "",
-      "exit_trigger": "Break below $53.80 (support loss) OR RSI drops below 30 with negative news. Take profits if FITB rallies to $56.50+ on volume.",
-      "add_trigger": "RSI oversold <30 with financial sector strength, or earnings announcement approaching with positive sector momentum.",
-      "risk": "Lack of momentum + low VIX complacency = flash correction risk. Banking stocks sensitive to rate expectations and credit cycles.",
-      "outlook": "neutral",
-      "timeframe": "2-6 weeks (until earnings in 42 days)",
-      "generated_at": "2026-09-07T00:16:44.223678",
-      "price_at_generation": 54.87,
-      "pnl_at_generation": 0.53,
-      "archived_at": "2026-09-08T00:38:54.856564"
     }
   ]
 }

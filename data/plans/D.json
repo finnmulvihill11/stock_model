@@ -3,19 +3,36 @@
     "ticker": "D",
     "company_name": "Dominion Energy, Inc.",
     "action": "Hold",
-    "action_reason": "Position is down only 6.46% (well below 15% threshold triggering mandatory hold philosophy). RSI oversold (35.4) suggests potential mean reversion bounce; hold for technical recovery while awaiting next catalyst or earnings guidance.",
+    "action_reason": "Position is down 6.99% (well below 15% exit threshold), and no technical firing signals justify early exit. RSI oversold conditions present potential reversal setup, but require confirmation before adding.",
     "target_price": null,
     "target_reasoning": "",
-    "exit_trigger": "Break below $60 (additional 6% downside) on volume, or deteriorating credit metrics; alternatively, exit if position recovers to $72+ (profitable)",
-    "add_trigger": "Only if RSI drops below 30 AND volume spike confirms institutional accumulation; not recommended given leverage concerns",
-    "risk": "Refinancing risk from 1.6x debt-to-equity in rising rate environment; utility dividend cut if leverage becomes unsustainable",
+    "exit_trigger": "Close below $60.50 (next technical support) OR breach of key utility dividend coverage ratios; only reassess if losses exceed 15%",
+    "add_trigger": "RSI bounces above 40 with RSI divergence + daily close above $65.50 resistance + positive utility sector rotation signal",
+    "risk": "Refinancing risk from high debt load in higher-rate environment; utility sector rotation if rates remain elevated; geopolitical tail risk to energy infrastructure",
     "outlook": "cautious",
-    "timeframe": "4-8 weeks",
-    "generated_at": "2026-09-16T00:44:39.146014",
-    "price_at_generation": 63.87,
-    "pnl_at_generation": -6.46
+    "timeframe": "3-8 weeks",
+    "generated_at": "2026-09-17T00:50:48.602775",
+    "price_at_generation": 63.51,
+    "pnl_at_generation": -6.99
   },
   "history": [
+    {
+      "ticker": "D",
+      "company_name": "Dominion Energy, Inc.",
+      "action": "Hold",
+      "action_reason": "Position is down only 6.46% (well below 15% threshold triggering mandatory hold philosophy). RSI oversold (35.4) suggests potential mean reversion bounce; hold for technical recovery while awaiting next catalyst or earnings guidance.",
+      "target_price": null,
+      "target_reasoning": "",
+      "exit_trigger": "Break below $60 (additional 6% downside) on volume, or deteriorating credit metrics; alternatively, exit if position recovers to $72+ (profitable)",
+      "add_trigger": "Only if RSI drops below 30 AND volume spike confirms institutional accumulation; not recommended given leverage concerns",
+      "risk": "Refinancing risk from 1.6x debt-to-equity in rising rate environment; utility dividend cut if leverage becomes unsustainable",
+      "outlook": "cautious",
+      "timeframe": "4-8 weeks",
+      "generated_at": "2026-09-16T00:44:39.146014",
+      "price_at_generation": 63.87,
+      "pnl_at_generation": -6.46,
+      "archived_at": "2026-09-17T00:50:48.602988"
+    },
     {
       "ticker": "D",
       "company_name": "Dominion Energy, Inc.",
@@ -117,23 +134,6 @@
       "price_at_generation": 65.84,
       "pnl_at_generation": -3.57,
       "archived_at": "2026-09-09T00:30:16.699169"
-    },
-    {
-      "ticker": "D",
-      "company_name": "Dominion Energy, Inc.",
-      "action": "Hold",
-      "action_reason": "Position is only -3.57% (well below 15% threshold), so per your philosophy, this must be held. RSI at 42.4 and neutral technical setup offer no compelling exit signal yet; wait for either a recovery bounce or deterioration below $64 before reassessing.",
-      "target_price": 68.28,
-      "target_reasoning": "",
-      "exit_trigger": "Break below $64.00 (support) with volume, or close above $68.50 to recoup losses on momentum confirmation",
-      "add_trigger": "RSI climbs above 50 with volume confirmation and price holds above $66.00 for 2+ days",
-      "risk": "High debt-to-equity constrains upside; utilities underperform in rising rate environment; no near-term news catalysts to re-rate stock higher",
-      "outlook": "cautious",
-      "timeframe": "3-6 weeks (monitor for earnings revisions or rate policy signals)",
-      "generated_at": "2026-09-07T00:16:36.657271",
-      "price_at_generation": 65.84,
-      "pnl_at_generation": -3.57,
-      "archived_at": "2026-09-08T00:38:46.998480"
     }
   ]
 }

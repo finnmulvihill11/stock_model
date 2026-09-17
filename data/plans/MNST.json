@@ -3,19 +3,36 @@
     "ticker": "MNST",
     "company_name": "Monster Beverage Corporation",
     "action": "Hold",
-    "action_reason": "Loss is well under 15% threshold, fundamentals remain healthy, and lack of negative catalysts suggests patience is warranted. RSI at 41.3 leaves room for recovery without oversold urgency.",
+    "action_reason": "Position is only -3.21% and well above the -15% hold threshold. With healthy fundamentals and no deterioration, allow the swing setup to develop rather than exit a minor loss. RSI recovery above 50 would confirm upside setup.",
     "target_price": null,
     "target_reasoning": "",
-    "exit_trigger": "Break below $42.50 (invalidates technical support) OR deteriorating earnings guidance in next cycle",
-    "add_trigger": "RSI falls to 30\u201335 (oversold) on volume + price holds above $43.50 support",
-    "risk": "Prolonged sideways consolidation; limited catalysts until next earnings in ~3 months",
-    "outlook": "neutral",
-    "timeframe": "3-6 weeks",
-    "generated_at": "2026-09-16T00:44:31.180282",
-    "price_at_generation": 44.63,
-    "pnl_at_generation": -3.08
+    "exit_trigger": "Break below $42.50 (confluence of support + -8% loss) OR negative earnings surprise at next report",
+    "add_trigger": "RSI crosses above 50 with volume confirmation + close above $46.80 resistance",
+    "risk": "Prolonged consolidation without catalyst; broader beverage sector rotation; next earnings miss",
+    "outlook": "cautious",
+    "timeframe": "2-4 weeks (until next earnings or technical breakout)",
+    "generated_at": "2026-09-17T00:50:41.344824",
+    "price_at_generation": 44.57,
+    "pnl_at_generation": -3.21
   },
   "history": [
+    {
+      "ticker": "MNST",
+      "company_name": "Monster Beverage Corporation",
+      "action": "Hold",
+      "action_reason": "Loss is well under 15% threshold, fundamentals remain healthy, and lack of negative catalysts suggests patience is warranted. RSI at 41.3 leaves room for recovery without oversold urgency.",
+      "target_price": null,
+      "target_reasoning": "",
+      "exit_trigger": "Break below $42.50 (invalidates technical support) OR deteriorating earnings guidance in next cycle",
+      "add_trigger": "RSI falls to 30\u201335 (oversold) on volume + price holds above $43.50 support",
+      "risk": "Prolonged sideways consolidation; limited catalysts until next earnings in ~3 months",
+      "outlook": "neutral",
+      "timeframe": "3-6 weeks",
+      "generated_at": "2026-09-16T00:44:31.180282",
+      "price_at_generation": 44.63,
+      "pnl_at_generation": -3.08,
+      "archived_at": "2026-09-17T00:50:41.345028"
+    },
     {
       "ticker": "MNST",
       "company_name": "Monster Beverage Corporation",
@@ -117,23 +134,6 @@
       "price_at_generation": 43.82,
       "pnl_at_generation": -4.84,
       "archived_at": "2026-09-09T00:30:09.648115"
-    },
-    {
-      "ticker": "MNST",
-      "company_name": "Monster Beverage Corporation",
-      "action": "Hold",
-      "action_reason": "Position is only -4.84% down (well above the 15% threshold for forced holds); fundamentals remain healthy. However, lack of technical firing signals and news catalysts means waiting for RSI bounce or market-driven reversal rather than adding.",
-      "target_price": 48.5,
-      "target_reasoning": "",
-      "exit_trigger": "Break below $42.00 (support level) with volume confirmation, or if fundamentals deteriorate at next earnings",
-      "add_trigger": "RSI bounces above 45 with bullish momentum OR positive news catalyst emerges + price holds above $43.00",
-      "risk": "Continued drift lower in low-volatility environment; vulnerability to sudden VIX spike when complacency breaks; no near-term catalyst",
-      "outlook": "cautious",
-      "timeframe": "2-4 weeks for RSI recovery; monitor for news/earnings whispers",
-      "generated_at": "2026-09-07T00:16:29.474404",
-      "price_at_generation": 43.82,
-      "pnl_at_generation": -4.84,
-      "archived_at": "2026-09-08T00:38:40.408183"
     }
   ]
 }

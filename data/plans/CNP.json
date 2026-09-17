@@ -3,19 +3,36 @@
     "ticker": "CNP",
     "company_name": "CenterPoint Energy, Inc.",
     "action": "Hold",
-    "action_reason": "Position loss (5.45%) is well below the 15% threshold triggering mandatory hold-through policy. Oversold RSI (35.4) offers potential mean reversion entry point; wait for bullish divergence or support confirmation before adding.",
-    "target_price": 39.5,
+    "action_reason": "Position is down only 4.58% (well within swing trading volatility). RSI 30.8 suggests mean reversion opportunity developing, but lack of firing signals means conviction is low. Per philosophy, maintain position through neutral period.",
+    "target_price": 41.5,
     "target_reasoning": "",
-    "exit_trigger": "Break below $37.00 with confirmed breakdown through support on volume; or loss exceeds 15% (stop-loss discipline at $34.14)",
-    "add_trigger": "RSI bounces above 45 with price holding $38.50+; or positive utility sector momentum on rate environment shift",
-    "risk": "Continued equity weakness in utility sector; rising rates pressuring valuations; high debt load limits dividend support if rates spike further",
+    "exit_trigger": "Close below $37.50 (>6.5% loss from entry) with confirmed breakdown in technical support",
+    "add_trigger": "RSI breaks above 40 with volume confirmation OR positive earnings revision/dividend hike announcement",
+    "risk": "Utility sector sensitivity to rate expectations; high debt load limits recovery pace if macro deteriorates",
     "outlook": "cautious",
-    "timeframe": "4-8 weeks",
-    "generated_at": "2026-09-16T00:44:25.379365",
-    "price_at_generation": 37.98,
-    "pnl_at_generation": -5.45
+    "timeframe": "2-4 weeks for technical confirmation; reassess after next earnings guidance update",
+    "generated_at": "2026-09-17T00:50:34.229063",
+    "price_at_generation": 38.33,
+    "pnl_at_generation": -4.58
   },
   "history": [
+    {
+      "ticker": "CNP",
+      "company_name": "CenterPoint Energy, Inc.",
+      "action": "Hold",
+      "action_reason": "Position loss (5.45%) is well below the 15% threshold triggering mandatory hold-through policy. Oversold RSI (35.4) offers potential mean reversion entry point; wait for bullish divergence or support confirmation before adding.",
+      "target_price": 39.5,
+      "target_reasoning": "",
+      "exit_trigger": "Break below $37.00 with confirmed breakdown through support on volume; or loss exceeds 15% (stop-loss discipline at $34.14)",
+      "add_trigger": "RSI bounces above 45 with price holding $38.50+; or positive utility sector momentum on rate environment shift",
+      "risk": "Continued equity weakness in utility sector; rising rates pressuring valuations; high debt load limits dividend support if rates spike further",
+      "outlook": "cautious",
+      "timeframe": "4-8 weeks",
+      "generated_at": "2026-09-16T00:44:25.379365",
+      "price_at_generation": 37.98,
+      "pnl_at_generation": -5.45,
+      "archived_at": "2026-09-17T00:50:34.229281"
+    },
     {
       "ticker": "CNP",
       "company_name": "CenterPoint Energy, Inc.",
@@ -117,23 +134,6 @@
       "price_at_generation": 39.67,
       "pnl_at_generation": -1.24,
       "archived_at": "2026-09-09T00:30:01.342605"
-    },
-    {
-      "ticker": "CNP",
-      "company_name": "CenterPoint Energy, Inc.",
-      "action": "Hold",
-      "action_reason": "Position is only -1.24% (well below 15% stop), and philosophy forbids exiting minor losers. No technical or fundamental catalyst justifies immediate action; await RSI bounce or news catalyst.",
-      "target_price": null,
-      "target_reasoning": "",
-      "exit_trigger": "RSI breaks below 35 (capitulation) + volume surge, or debt concerns surface in earnings update",
-      "add_trigger": "RSI 30\u201335 (oversold reversal) + close above $40.00 + positive earnings guidance or dividend confirmation",
-      "risk": "High leverage limits upside optionality if rates rise; utility sector sensitivity to rate environment; absence of near-term catalysts extends holding period",
-      "outlook": "cautious",
-      "timeframe": "2\u20134 weeks",
-      "generated_at": "2026-09-07T00:16:21.663369",
-      "price_at_generation": 39.67,
-      "pnl_at_generation": -1.24,
-      "archived_at": "2026-09-08T00:38:33.137412"
     }
   ]
 }
