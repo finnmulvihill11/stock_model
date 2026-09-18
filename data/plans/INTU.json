@@ -3,19 +3,36 @@
     "ticker": "INTU",
     "company_name": "Intuit Inc.",
     "action": "Hold",
-    "action_reason": "Per trading philosophy, positions down >15% are held for recovery. Fundamentals remain healthy, RSI neutral (no oversold bounce setup yet), and earnings are already behind us. Wait for technical confirmation before adding.",
-    "target_price": null,
+    "action_reason": "Per swing trading philosophy, positions down >15% must be held through recovery cycles rather than crystallizing losses. Fundamentals healthy and VIX neutral provide a stable backdrop for recovery.",
+    "target_price": 425,
     "target_reasoning": "",
-    "exit_trigger": "Fundamental deterioration (missed guidance, revenue decline, margin compression) OR break below $300 on volume >2M shares with RSI <30 (capitulation signal)",
-    "add_trigger": "RSI falls to 30-35 (oversold bounce setup) AND price holds above $310 support AND positive news catalyst emerges",
-    "risk": "Further deterioration if Q-next guidance disappoints; portfolio concentration risk if INTU remains range-bound while market recovers elsewhere",
+    "exit_trigger": "Break below $300 (new lows) or fundamental deterioration in earnings/guidance",
+    "add_trigger": "RSI breaks above 55 with confirmed volume + price stabilizes above $320 for 2+ days",
+    "risk": "Extended macro weakness or negative earnings revision could push INTU lower; concentrated position weight amplifies losses if momentum turns negative",
     "outlook": "cautious",
-    "timeframe": "4-8 weeks",
-    "generated_at": "2026-09-17T00:50:18.353802",
-    "price_at_generation": 318.13,
-    "pnl_at_generation": -32.07
+    "timeframe": "4-8 weeks for recovery attempt; reassess if no progress by next earnings",
+    "generated_at": "2026-09-18T00:43:46.474403",
+    "price_at_generation": 313.13,
+    "pnl_at_generation": -33.13
   },
   "history": [
+    {
+      "ticker": "INTU",
+      "company_name": "Intuit Inc.",
+      "action": "Hold",
+      "action_reason": "Per trading philosophy, positions down >15% are held for recovery. Fundamentals remain healthy, RSI neutral (no oversold bounce setup yet), and earnings are already behind us. Wait for technical confirmation before adding.",
+      "target_price": null,
+      "target_reasoning": "",
+      "exit_trigger": "Fundamental deterioration (missed guidance, revenue decline, margin compression) OR break below $300 on volume >2M shares with RSI <30 (capitulation signal)",
+      "add_trigger": "RSI falls to 30-35 (oversold bounce setup) AND price holds above $310 support AND positive news catalyst emerges",
+      "risk": "Further deterioration if Q-next guidance disappoints; portfolio concentration risk if INTU remains range-bound while market recovers elsewhere",
+      "outlook": "cautious",
+      "timeframe": "4-8 weeks",
+      "generated_at": "2026-09-17T00:50:18.353802",
+      "price_at_generation": 318.13,
+      "pnl_at_generation": -32.07,
+      "archived_at": "2026-09-18T00:43:46.474594"
+    },
     {
       "ticker": "INTU",
       "company_name": "Intuit Inc.",
@@ -117,23 +134,6 @@
       "price_at_generation": 318.93,
       "pnl_at_generation": -31.89,
       "archived_at": "2026-09-10T00:29:47.719506"
-    },
-    {
-      "ticker": "INTU",
-      "company_name": "Intuit Inc.",
-      "action": "Hold",
-      "action_reason": "Position down 28.95% triggers the hold-through-major-losers rule. Fundamentals remain healthy and VIX is neutral, suggesting no systemic crisis. Wait for technical recovery signals (RSI >50 + positive pattern) before considering adds.",
-      "target_price": 425,
-      "target_reasoning": "",
-      "exit_trigger": "Fundamentals deteriorate materially OR break below $300 on heavy volume with deteriorating health signals",
-      "add_trigger": "RSI breaks above 55 with volume confirmation + earnings surprise positive revision",
-      "risk": "Extended drawdown could indicate earnings miss or sector headwinds; lack of bullish technicals means recovery could be prolonged.",
-      "outlook": "cautious",
-      "timeframe": "4-8 weeks for technical stabilization and potential recovery toward $400+",
-      "generated_at": "2026-09-08T00:38:18.779030",
-      "price_at_generation": 332.7,
-      "pnl_at_generation": -28.95,
-      "archived_at": "2026-09-09T00:29:47.114102"
     }
   ]
 }

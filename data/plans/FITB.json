@@ -3,19 +3,36 @@
     "ticker": "FITB",
     "company_name": "Fifth Third Bancorp",
     "action": "Hold",
-    "action_reason": "Loss of only 3.98% is within normal swing trading variance; RSI at 45.9 shows no extreme condition; upcoming earnings provides defined catalyst. Holding allows risk/reward setup into earnings without forcing a loss.",
-    "target_price": 55.5,
+    "action_reason": "Position down only 2.4% (well under 15% threshold). RSI 32.8 suggests oversold bounce potential. With earnings 31 days out and neutral market conditions, holding allows recovery without forced exit.",
+    "target_price": 56.5,
     "target_reasoning": "",
-    "exit_trigger": "Break below $50.50 (support) or close below RSI 30 with negative earnings guidance; OR break above $56.00 into earnings for partial trim",
-    "add_trigger": "RSI drops to 30-35 range on volume without breaking $50.50 support; OR positive bank sentiment/rate news",
-    "risk": "Regional bank exposed to rising credit stress, deposit flight risks, and rate compression; lack of recent news suggests low institutional attention",
+    "exit_trigger": "Break below $51.50 (7.5% additional loss) or sustained close below 50-day moving average",
+    "add_trigger": "RSI drops to 25-28 range (deeper oversold) on volume spike, or positive banking sector news emerges",
+    "risk": "Banking sector downturn if recession fears spike; Fed rate cut delays could pressure valuations; no fundamental support visible due to missing D/E data",
     "outlook": "neutral",
-    "timeframe": "2-5 weeks (through earnings on day 32)",
-    "generated_at": "2026-09-17T00:50:56.718689",
-    "price_at_generation": 52.41,
-    "pnl_at_generation": -3.98
+    "timeframe": "2-4 weeks (until earnings provide directional clarity)",
+    "generated_at": "2026-09-18T00:44:19.736697",
+    "price_at_generation": 53.27,
+    "pnl_at_generation": -2.4
   },
   "history": [
+    {
+      "ticker": "FITB",
+      "company_name": "Fifth Third Bancorp",
+      "action": "Hold",
+      "action_reason": "Loss of only 3.98% is within normal swing trading variance; RSI at 45.9 shows no extreme condition; upcoming earnings provides defined catalyst. Holding allows risk/reward setup into earnings without forcing a loss.",
+      "target_price": 55.5,
+      "target_reasoning": "",
+      "exit_trigger": "Break below $50.50 (support) or close below RSI 30 with negative earnings guidance; OR break above $56.00 into earnings for partial trim",
+      "add_trigger": "RSI drops to 30-35 range on volume without breaking $50.50 support; OR positive bank sentiment/rate news",
+      "risk": "Regional bank exposed to rising credit stress, deposit flight risks, and rate compression; lack of recent news suggests low institutional attention",
+      "outlook": "neutral",
+      "timeframe": "2-5 weeks (through earnings on day 32)",
+      "generated_at": "2026-09-17T00:50:56.718689",
+      "price_at_generation": 52.41,
+      "pnl_at_generation": -3.98,
+      "archived_at": "2026-09-18T00:44:19.736882"
+    },
     {
       "ticker": "FITB",
       "company_name": "Fifth Third Bancorp",
@@ -117,23 +134,6 @@
       "price_at_generation": 54.51,
       "pnl_at_generation": -0.13,
       "archived_at": "2026-09-10T00:30:24.737675"
-    },
-    {
-      "ticker": "FITB",
-      "company_name": "Fifth Third Bancorp",
-      "action": "Hold",
-      "action_reason": "Position is modestly profitable (+0.53%) with neutral technicals and no immediate catalysts. Earnings in 41 days present an upcoming event risk/opportunity. Insufficient reason to exit a winner or add aggressively without technical confirmation.",
-      "target_price": 56.5,
-      "target_reasoning": "",
-      "exit_trigger": "Break below $53.00 (support violation) or sustained move below 200-day MA; OR 48-hour close above $56.50 with RSI >70 (take profit signal)",
-      "add_trigger": "RSI bounces back above 50 with volume confirmation + close above $55.50; OR positive pre-earnings sentiment shift with sector outperformance",
-      "risk": "Banking sector rotation risk; interest rate sensitivity; lack of recent news creates vacuum for negative surprises; missing debt-to-equity data increases fundamental uncertainty",
-      "outlook": "neutral",
-      "timeframe": "2-6 weeks (hold through earnings catalyst on Feb 19-20)",
-      "generated_at": "2026-09-08T00:38:54.856356",
-      "price_at_generation": 54.87,
-      "pnl_at_generation": 0.53,
-      "archived_at": "2026-09-09T00:30:25.273592"
     }
   ]
 }

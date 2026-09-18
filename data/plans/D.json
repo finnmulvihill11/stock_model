@@ -3,19 +3,36 @@
     "ticker": "D",
     "company_name": "Dominion Energy, Inc.",
     "action": "Hold",
-    "action_reason": "Position is down 6.99% (well below 15% exit threshold), and no technical firing signals justify early exit. RSI oversold conditions present potential reversal setup, but require confirmation before adding.",
-    "target_price": null,
+    "action_reason": "Position is only -5.84%, well below the 15% threshold where forced holding applies. RSI at 30.5 signals potential mean reversion opportunity rather than deterioration. No immediate exit triggers warrant action.",
+    "target_price": 71.5,
     "target_reasoning": "",
-    "exit_trigger": "Close below $60.50 (next technical support) OR breach of key utility dividend coverage ratios; only reassess if losses exceed 15%",
-    "add_trigger": "RSI bounces above 40 with RSI divergence + daily close above $65.50 resistance + positive utility sector rotation signal",
-    "risk": "Refinancing risk from high debt load in higher-rate environment; utility sector rotation if rates remain elevated; geopolitical tail risk to energy infrastructure",
-    "outlook": "cautious",
-    "timeframe": "3-8 weeks",
-    "generated_at": "2026-09-17T00:50:48.602775",
-    "price_at_generation": 63.51,
-    "pnl_at_generation": -6.99
+    "exit_trigger": "Break below $62.50 (double bottom risk) or debt-to-equity rises above 1.8x without dividend support",
+    "add_trigger": "RSI drops to 25 with positive volume divergence, or announcement of debt reduction/dividend increase",
+    "risk": "Utility dividend cut risk if debt levels force management action; interest rate sensitivity on refinancing",
+    "outlook": "neutral",
+    "timeframe": "4-8 weeks",
+    "generated_at": "2026-09-18T00:44:13.430265",
+    "price_at_generation": 64.29,
+    "pnl_at_generation": -5.84
   },
   "history": [
+    {
+      "ticker": "D",
+      "company_name": "Dominion Energy, Inc.",
+      "action": "Hold",
+      "action_reason": "Position is down 6.99% (well below 15% exit threshold), and no technical firing signals justify early exit. RSI oversold conditions present potential reversal setup, but require confirmation before adding.",
+      "target_price": null,
+      "target_reasoning": "",
+      "exit_trigger": "Close below $60.50 (next technical support) OR breach of key utility dividend coverage ratios; only reassess if losses exceed 15%",
+      "add_trigger": "RSI bounces above 40 with RSI divergence + daily close above $65.50 resistance + positive utility sector rotation signal",
+      "risk": "Refinancing risk from high debt load in higher-rate environment; utility sector rotation if rates remain elevated; geopolitical tail risk to energy infrastructure",
+      "outlook": "cautious",
+      "timeframe": "3-8 weeks",
+      "generated_at": "2026-09-17T00:50:48.602775",
+      "price_at_generation": 63.51,
+      "pnl_at_generation": -6.99,
+      "archived_at": "2026-09-18T00:44:13.430667"
+    },
     {
       "ticker": "D",
       "company_name": "Dominion Energy, Inc.",
@@ -117,23 +134,6 @@
       "price_at_generation": 66.22,
       "pnl_at_generation": -3.02,
       "archived_at": "2026-09-10T00:30:17.137223"
-    },
-    {
-      "ticker": "D",
-      "company_name": "Dominion Energy, Inc.",
-      "action": "Hold",
-      "action_reason": "Loss is modest at -3.57%, well below the 15% threshold where philosophy dictates holding through recoveries. RSI at 42.4 provides room for upside bounce without oversold extremes. Utility sector typically recovers steadily rather than sharply.",
-      "target_price": 70.5,
-      "target_reasoning": "",
-      "exit_trigger": "Position rises to profitability above $68.50; exit at +2% to +3% gain per position management discipline",
-      "add_trigger": "RSI drops below 35 AND stock pulls back to $64.00-$64.50 with confirmed support",
-      "risk": "Elevated debt load limits dividend growth and upside potential; sector rotation away from utilities if rates rise unexpectedly",
-      "outlook": "neutral",
-      "timeframe": "3-6 weeks",
-      "generated_at": "2026-09-08T00:38:46.998243",
-      "price_at_generation": 65.84,
-      "pnl_at_generation": -3.57,
-      "archived_at": "2026-09-09T00:30:16.699169"
     }
   ]
 }
